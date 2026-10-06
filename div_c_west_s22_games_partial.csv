@@ -1,0 +1,54 @@
+game_id,date,map,team1,team2,t1_h1,t1_h2,t1_h3,t1_h4,t1_h5,t2_h1,t2_h2,t2_h3,t2_h4,t2_h5
+23309,10/01/2026 11:55:47 pm,Volskaya Foundry,Can't Counterpick Stupid,COSMOS,Orphea,Anduin,Arthas,Thrall,Tychus,Muradin,Sylvanas,Whitemane,Gul'dan,Gazlowe
+23306,10/01/2026 11:47:29 pm,Battlefield of Eternity,Anomaly,Roll1Esports,Lunara,Diablo,Tyrande,Raynor,Imperius,Li-Ming,Valla,Johanna,Anduin,Blaze
+23305,10/01/2026 11:16:41 pm,Tomb of the Spider Queen,Anomaly,Roll1Esports,Tassadar,E.T.C.,Malfurion,Dehaka,Tracer,Gul'dan,Raynor,Johanna,Anduin,Blaze
+23308,10/01/2026 11:12:34 pm,Towers of Doom,Can't Counterpick Stupid,COSMOS,Kael'thas,Brightwing,Stitches,Gazlowe,Zul'jin,Muradin,Sylvanas,Whitemane,Lunara,Dehaka
+23307,10/01/2026 10:39:51 pm,Infernal Shrines,Can't Counterpick Stupid,COSMOS,Tassadar,Brightwing,Anub'arak,Rexxar,Valla,Garrosh,Qhira,Whitemane,Lunara,Sonya
+23304,10/01/2026 10:38:00 pm,Dragon Shire,Anomaly,Roll1Esports,Junkrat,Varian,Stukov,Sonya,Orphea,Gul'dan,Falstad,Johanna,Anduin,Dehaka
+23286,09/29/2026 11:34:52 pm,Infernal Shrines,Phoenix Rising Amethyst,Good Lordy,Anduin,Blaze,Tychus,Sylvanas,Muradin,Rehgar,Mei,Valeera,Leoric,Alarak
+23285,09/29/2026 11:08:27 pm,Braxis Holdout,Phoenix Rising Amethyst,Good Lordy,Brightwing,Rexxar,Chromie,Sylvanas,E.T.C.,Stukov,Johanna,Tassadar,Illidan,Alarak
+23284,09/29/2026 10:31:50 pm,Garden of Terror,Phoenix Rising Amethyst,Good Lordy,Rehgar,Blaze,Chromie,Sylvanas,Tyrael,Anduin,Mei,Abathur,Dehaka,Falstad
+23264,09/25/2026 11:05:07 pm,Infernal Shrines,Good Lordy,Roll1Esports,Anub'arak,Stukov,Blaze,Tychus,Anduin,Johanna,Valeera,Dehaka,Kael'thas,Alarak
+23263,09/25/2026 10:30:21 pm,Towers of Doom,Good Lordy,Roll1Esports,Diablo,Stukov,Dehaka,Li-Ming,Anduin,Varian,Raynor,Leoric,Junkrat,Falstad
+23260,09/24/2026 11:04:56 pm,Braxis Holdout,COSMOS,Anomaly,Kael'thas,Li Li,Stitches,Leoric,Raynor,Valla,Johanna,Auriel,Gul'dan,Thrall
+23259,09/24/2026 10:35:59 pm,Infernal Shrines,COSMOS,Anomaly,Kael'thas,Brightwing,Muradin,Ragnaros,Greymane,Kerrigan,Arthas,Anduin,Junkrat,Leoric
+23231,09/22/2026 11:51:28 pm,Infernal Shrines,Phoenix Rising Amethyst,Can't Counterpick Stupid,Rehgar,Leoric,Tassadar,Falstad,Johanna,Arthas,Sylvanas,Whitemane,Lunara,Gazlowe
+23230,09/22/2026 11:19:27 pm,Garden of Terror,Phoenix Rising Amethyst,Can't Counterpick Stupid,Rehgar,Blaze,Tychus,Sylvanas,E.T.C.,Anub'arak,Qhira,Li-Ming,Tyrande,Ragnaros
+23229,09/22/2026 10:42:12 pm,Volskaya Foundry,Phoenix Rising Amethyst,Can't Counterpick Stupid,Brightwing,Leoric,Thrall,Sylvanas,Johanna,Garrosh,Hanzo,Anduin,Lunara,Blaze
+23208,09/20/2026 10:39:05 pm,Garden of Terror,Anomaly,Phoenix Rising Amethyst,Rehgar,Leoric,Tassadar,Raynor,Johanna,Abathur,Greymane,Mei,Brightwing,Dehaka
+23207,09/20/2026 10:04:39 pm,Alterac Pass,Anomaly,Phoenix Rising Amethyst,Brightwing,Leoric,Chromie,Sylvanas,E.T.C.,Jaina,Falstad,Johanna,Rehgar,Yrel
+23169,09/16/2026 12:06:25 am,Towers of Doom,Can't Counterpick Stupid,Good Lordy,Johanna,Valla,Whitemane,Lunara,Dehaka,Ana,Sylvanas,Varian,Leoric,Jaina
+23168,09/15/2026 11:33:10 pm,Battlefield of Eternity,Can't Counterpick Stupid,Good Lordy,Johanna,Qhira,Rehgar,Lunara,Artanis,Auriel,Varian,Valla,Falstad,Arthas
+23166,09/15/2026 11:17:06 pm,Volskaya Foundry,Roll1Esports,COSMOS,Li-Ming,Anduin,Johanna,Leoric,Sylvanas,Stitches,Malfurion,Blaze,Greymane,Chromie
+23167,09/15/2026 11:02:15 pm,Dragon Shire,Can't Counterpick Stupid,Good Lordy,Garrosh,Brightwing,Lunara,Dehaka,Hanzo,Anduin,Johanna,Leoric,Jaina,Falstad
+23165,09/15/2026 10:43:52 pm,Infernal Shrines,Roll1Esports,COSMOS,Tassadar,Anduin,Johanna,Ragnaros,Greymane,Diablo,Tyrande,Blaze,Tychus,Gazlowe
+23144,09/11/2026 12:03:17 am,Infernal Shrines,Good Lordy,COSMOS,Kael'thas,Brightwing,Anub'arak,Ragnaros,Tychus,Li-Ming,Anduin,Kerrigan,Jaina,E.T.C.
+23143,09/10/2026 11:21:35 pm,Battlefield of Eternity,Good Lordy,COSMOS,Chromie,Anduin,Anub'arak,Blaze,Hanzo,Li-Ming,Brightwing,Artanis,Raynor,E.T.C.
+23142,09/10/2026 10:46:06 pm,Towers of Doom,Good Lordy,COSMOS,Kael'thas,Anduin,Anub'arak,Leoric,Sylvanas,Auriel,Johanna,Illidan,Azmodan,Valla
+23116,09/09/2026 12:00:08 am,Towers of Doom,Anomaly,Can't Counterpick Stupid,Jaina,Kerrigan,Mei,Whitemane,Arthas,Hanzo,Ana,Lunara,Dehaka,Leoric
+23121,09/08/2026 11:42:26 pm,Dragon Shire,Roll1Esports,Phoenix Rising Amethyst,Johanna,Tyrande,Raynor,Tychus,Brightwing,Rexxar,Thrall,Junkrat,Varian,Hogger
+23115,09/08/2026 11:17:12 pm,Tomb of the Spider Queen,Anomaly,Can't Counterpick Stupid,Tassadar,Cassia,Anub'arak,Stukov,Garrosh,Tychus,Rehgar,Lunara,Gazlowe,Yrel
+23120,09/08/2026 11:11:36 pm,Infernal Shrines,Roll1Esports,Phoenix Rising Amethyst,Diablo,Deckard,Dehaka,Lunara,Brightwing,Leoric,Falstad,Mephisto,Johanna,Junkrat
+23119,09/08/2026 10:33:13 pm,Tomb of the Spider Queen,Roll1Esports,Phoenix Rising Amethyst,Anub'arak,Tyrande,Dehaka,Tychus,Anduin,Blaze,Thrall,Junkrat,Muradin,Nazeebo
+23088,09/03/2026 11:07:20 pm,Towers of Doom,Can't Counterpick Stupid,Roll1Esports,Greymane,Stitches,Malfurion,Dehaka,Li-Ming,Johanna,Stukov,Lunara,Tychus,Leoric
+23087,09/03/2026 10:35:57 pm,Infernal Shrines,Can't Counterpick Stupid,Roll1Esports,Sylvanas,Garrosh,Tyrande,Johanna,Hanzo,Arthas,Whitemane,Lunara,Tychus,Sonya
+23072,09/02/2026 11:25:26 pm,Battlefield of Eternity,Anomaly,Good Lordy,Jaina,Hanzo,Diablo,Whitemane,Artanis,Anduin,Greymane,Johanna,The Lost Vikings,Li-Ming
+23071,09/02/2026 10:39:17 pm,Braxis Holdout,Anomaly,Good Lordy,Tassadar,Cassia,Arthas,Auriel,Yrel,Anduin,Maiev,Varian,The Lost Vikings,Jaina
+23058,09/01/2026 11:00:17 pm,Garden of Terror,Phoenix Rising Amethyst,COSMOS,Tassadar,Ragnaros,Mei,Brightwing,Sylvanas,Rehgar,Dehaka,Tychus,Falstad,Muradin
+23057,09/01/2026 10:22:54 pm,Tomb of the Spider Queen,Phoenix Rising Amethyst,COSMOS,Kael'thas,Blaze,E.T.C.,Kharazim,Tychus,Brightwing,Leoric,Gul'dan,Sylvanas,Stitches
+23032,08/27/2026 11:35:22 pm,Sky Temple,Roll1Esports,Anomaly,Sylvanas,Varian,Stukov,Dehaka,Zagara,Jaina,Tychus,Muradin,Whitemane,Ragnaros
+23031,08/27/2026 11:01:55 pm,Infernal Shrines,Roll1Esports,Anomaly,Deathwing,Stitches,Malfurion,Dehaka,Hanzo,Blaze,Valla,E.T.C.,Stukov,Sonya
+23030,08/27/2026 10:34:35 pm,Dragon Shire,Roll1Esports,Anomaly,Chromie,E.T.C.,Tyrande,Blaze,Fenix,Jaina,Greymane,Anub'arak,Stukov,Sonya
+23009,08/25/2026 10:58:41 pm,Battlefield of Eternity,Good Lordy,Phoenix Rising Amethyst,Brightwing,Blaze,Tychus,Li-Ming,Anub'arak,Auriel,Sylvanas,Muradin,Varian,Zul'jin
+23008,08/25/2026 10:29:51 pm,Towers of Doom,Good Lordy,Phoenix Rising Amethyst,Anduin,Blaze,Gul'dan,Falstad,Johanna,Uther,Sylvanas,Chromie,Varian,Leoric
+22999,08/24/2026 11:36:09 pm,Towers of Doom,COSMOS,Can't Counterpick Stupid,Kael'thas,Blaze,Anub'arak,Anduin,Greymane,Qhira,Zul'jin,Tyrande,Dehaka,Johanna
+22998,08/24/2026 11:04:46 pm,Tomb of the Spider Queen,COSMOS,Can't Counterpick Stupid,Tassadar,Blaze,Johanna,Brightwing,Tychus,Qhira,Kael'thas,Stukov,Gazlowe,E.T.C.
+22959,08/19/2026 11:12:50 pm,Cursed Hollow,Anomaly,COSMOS,Orphea,Dehaka,E.T.C.,Anduin,Tychus,Chromie,Muradin,Sylvanas,Brightwing,Ragnaros
+22958,08/19/2026 10:33:27 pm,Tomb of the Spider Queen,Anomaly,COSMOS,Tassadar,Leoric,Johanna,Li Li,Greymane,Jaina,Garrosh,Tychus,Anduin,Sonya
+22946,08/18/2026 11:53:07 pm,Alterac Pass,Can't Counterpick Stupid,Phoenix Rising Amethyst,Brightwing,Blaze,Ragnaros,Sylvanas,Anub'arak,Johanna,Tychus,Li-Ming,Rehgar,Sonya
+22945,08/18/2026 11:13:59 pm,Dragon Shire,Can't Counterpick Stupid,Phoenix Rising Amethyst,Stukov,Leoric,Sylvanas,Chromie,Varian,Johanna,Hanzo,Li-Ming,Rehgar,Dehaka
+22944,08/18/2026 10:31:20 pm,Sky Temple,Can't Counterpick Stupid,Phoenix Rising Amethyst,Brightwing,Sonya,Tychus,Junkrat,Anub'arak,Johanna,Sylvanas,Nazeebo,Tyrande,Ragnaros
+22927,08/16/2026 10:53:25 pm,Cursed Hollow,Phoenix Rising Amethyst,Anomaly,Rehgar,Blaze,Tychus,Sylvanas,Muradin,Thrall,Anub'arak,Lunara,Whitemane,Li-Ming
+22926,08/16/2026 10:27:20 pm,Tomb of the Spider Queen,Phoenix Rising Amethyst,Anomaly,Brightwing,Blaze,Tychus,Junkrat,Johanna,Thrall,Varian,Leoric,Tyrande,Tassadar
+22920,08/13/2026 11:03:14 pm,Tomb of the Spider Queen,COSMOS,Roll1Esports,Kael'thas,Leoric,Anub'arak,Li Li,Sylvanas,Sonya,Johanna,Jaina,Rehgar,Cassia
+22919,08/13/2026 10:36:58 pm,Infernal Shrines,COSMOS,Roll1Esports,Kael'thas,Sonya,Anub'arak,Uther,Greymane,Hogger,Arthas,Deckard,Rehgar,Valla
