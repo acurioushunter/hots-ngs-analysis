@@ -1,0 +1,711 @@
+{
+ "team22": "Anomaly",
+ "data": {
+  "wins": 1,
+  "losses": 0,
+  "win_rate": 100,
+  "kdr": 0.67,
+  "kda": 4.33,
+  "takedowns": 13,
+  "kills": 2,
+  "assists": 11,
+  "icon_url": "https://s3.amazonaws.com/ngs-image-storage/Phoenix_Rising_Amethyst_9442.png",
+  "time_spent_dead": "0 hours, 2 minutes, 54 seconds",
+  "deaths": 3,
+  "total_games": 1,
+  "matches": [
+   {
+    "replayID": 22071,
+    "game_date": "2026-02-22 23:44:28",
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game": 1,
+    "round": "1",
+    "team_0_name": "Dehakin' Donuts",
+    "team_1_name": "Phoenix Rising Amethyst",
+    "winner": 1,
+    "heroes": [
+     {
+      "hero": {
+       "id": 30,
+       "name": "Leoric",
+       "short_name": "leoric",
+       "alt_name": null,
+       "role": "Warrior",
+       "new_role": "Bruiser",
+       "type": "Melee",
+       "release_date": "2015-07-21 00:00:00",
+       "rework_date": null,
+       "last_change_patch_version": "2.55.4.91769",
+       "attribute_id": "Leor",
+       "build_copy_name": "Leoric",
+       "last_updated": "2024-02-06 18:32:51"
+      }
+     }
+    ]
+   }
+  ],
+  "heroes": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Hero/Leoric?season=21"
+   }
+  ],
+  "hero_top_three_most_played": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Hero/Leoric?season=21"
+   }
+  ],
+  "hero_top_three_highest_win_rate": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Hero/Leoric?season=21"
+   }
+  ],
+  "hero_top_three_lowest_win_rate": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Hero/Leoric?season=21"
+   }
+  ],
+  "maps": [
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Map/Towers of Doom?season=21"
+   }
+  ],
+  "map_top_three_most_played": [
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Map/Towers of Doom?season=21"
+   }
+  ],
+  "map_top_three_highest_win_rate": [
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Map/Towers of Doom?season=21"
+   }
+  ],
+  "map_top_three_lowest_win_rate": [
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "HarkinEH",
+    "blizz_id": "1937940",
+    "season": "21",
+    "division": null,
+    "link": "/Esports/NGS/Player/HarkinEH/1937940/Map/Towers of Doom?season=21"
+   }
+  ],
+  "seasons": [
+   {
+    "code": null,
+    "name": "All"
+   },
+   {
+    "code": "22",
+    "name": "22"
+   },
+   {
+    "code": "21",
+    "name": "21"
+   },
+   {
+    "code": "20",
+    "name": "20"
+   },
+   {
+    "code": "19",
+    "name": "19"
+   },
+   {
+    "code": "15",
+    "name": "15"
+   },
+   {
+    "code": "14",
+    "name": "14"
+   },
+   {
+    "code": "13",
+    "name": "13"
+   },
+   {
+    "code": "12",
+    "name": "12"
+   }
+  ],
+  "divisions": [
+   {
+    "code": null,
+    "name": "All"
+   },
+   {
+    "code": "D",
+    "name": "D"
+   },
+   {
+    "code": "C West",
+    "name": "C West"
+   },
+   {
+    "code": "E West",
+    "name": "E West"
+   },
+   {
+    "code": "D West",
+    "name": "D West"
+   },
+   {
+    "code": "E East",
+    "name": "E East"
+   }
+  ],
+  "players": {
+   "HarkinEH#1367": {
+    "battletag": "HarkinEH",
+    "blizz_id": 1937940,
+    "most_played_hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "win_rate_on_hero": 100,
+    "most_played_role": "Bruiser",
+    "games_played": 1,
+    "playerlink": "/Esports/NGS/Player/HarkinEH/1937940?season=21",
+    "herolink": "/Esports/NGS/Player/HarkinEH/1937940/Hero/Leoric?season=21"
+   }
+  },
+  "heroes_lost_against": [],
+  "heroes_won_against": [
+   {
+    "hero": {
+     "id": 12,
+     "name": "Chromie",
+     "short_name": "chromie",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2016-05-17 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Chro",
+     "build_copy_name": "Chromie",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Chromie 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 57,
+     "name": "Thrall",
+     "short_name": "thrall",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-01-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Thra",
+     "build_copy_name": "Thrall",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Thrall 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 90,
+     "name": "Mei",
+     "short_name": "mei",
+     "alt_name": "MeiOW",
+     "role": null,
+     "new_role": "Tank",
+     "type": "Ranged",
+     "release_date": "2020-06-23 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "HMEI",
+     "build_copy_name": "Mei",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Mei 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 64,
+     "name": "Valla",
+     "short_name": "valla",
+     "alt_name": "DemonHunter",
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Demo",
+     "build_copy_name": "Valla",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Valla 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 8,
+     "name": "Brightwing",
+     "short_name": "brightwing",
+     "alt_name": "FaerieDragon",
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Ranged",
+     "release_date": "2014-04-15 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Faer",
+     "build_copy_name": "Brightwing",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Brightwing 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 87,
+     "name": "Anduin",
+     "short_name": "anduin",
+     "alt_name": "",
+     "role": "Healer",
+     "new_role": "Healer",
+     "type": "Ranged",
+     "release_date": "2019-04-30 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Andu",
+     "build_copy_name": "Anduin",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Anduin 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 59,
+     "name": "Tychus",
+     "short_name": "tychus",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2014-03-18 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Tych",
+     "build_copy_name": "Tychus",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Tychus 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 51,
+     "name": "Stitches",
+     "short_name": "stitches",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Stit",
+     "build_copy_name": "Stitches",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Stitches 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Leoric 1 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 73,
+     "name": "Junkrat",
+     "short_name": "junkrat",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2017-10-17 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Junk",
+     "build_copy_name": "Junkrat",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Junkrat 1 times (500% of all games won as )"
+   }
+  ],
+  "enemy_teams": [],
+  "team_ban_date": [
+   {
+    "hero": {
+     "id": 14,
+     "name": "Dehaka",
+     "short_name": "dehaka",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2016-03-29 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Deha",
+     "build_copy_name": "Dehaka",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 17,
+     "name": "Falstad",
+     "short_name": "falstad",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Fals",
+     "build_copy_name": "Falstad",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 26,
+     "name": "Johanna",
+     "short_name": "johanna",
+     "alt_name": "Crusader",
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2015-06-02 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Crus",
+     "build_copy_name": "Johanna",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   }
+  ],
+  "enemy_ban_date": [
+   {
+    "hero": {
+     "id": 52,
+     "name": "Stukov",
+     "short_name": "stukov",
+     "alt_name": null,
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Melee",
+     "release_date": "2017-07-11 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "STUK",
+     "build_copy_name": "Stukov",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 53,
+     "name": "Sylvanas",
+     "short_name": "sylvanas",
+     "alt_name": null,
+     "role": "Specialist",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2015-03-24 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Sylv",
+     "build_copy_name": "Sylvanas",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 69,
+     "name": "Zeratul",
+     "short_name": "zeratul",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Melee Assassin",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Zera",
+     "build_copy_name": "Zeratul",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   }
+  ],
+  "maps_banned": []
+ }
+}

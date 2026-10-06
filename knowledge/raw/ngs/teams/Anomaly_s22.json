@@ -1,0 +1,5244 @@
+{
+ "wins": 2,
+ "losses": 16,
+ "win_rate": 11.11,
+ "kdr": 0.62,
+ "kda": 2.64,
+ "takedowns": 549,
+ "kills": 128,
+ "assists": 421,
+ "icon_url": "https://s3.amazonaws.com/ngs-image-storage/Anomaly_4965.png",
+ "time_spent_dead": "2 hours, 10 minutes, 37 seconds",
+ "deaths": 208,
+ "total_games": 18,
+ "matches": [
+  {
+   "replayID": 23306,
+   "game_date": "2026-10-02 04:47:29",
+   "game_map": {
+    "map_id": 1,
+    "name": "Battlefield of Eternity",
+    "short_name": "BattlefieldOfEternity",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "battlefield_of_eternity"
+   },
+   "game": 3,
+   "round": "8",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Roll1Esports",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 26,
+      "name": "Johanna",
+      "short_name": "johanna",
+      "alt_name": "Crusader",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2015-06-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Crus",
+      "build_copy_name": "Johanna",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 87,
+      "name": "Anduin",
+      "short_name": "anduin",
+      "alt_name": "",
+      "role": "Healer",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2019-04-30 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Andu",
+      "build_copy_name": "Anduin",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 64,
+      "name": "Valla",
+      "short_name": "valla",
+      "alt_name": "DemonHunter",
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Demo",
+      "build_copy_name": "Valla",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 77,
+      "name": "Blaze",
+      "short_name": "blaze",
+      "alt_name": "Firebat",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Ranged",
+      "release_date": "2018-01-09 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Fire",
+      "build_copy_name": "Blaze",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 32,
+      "name": "Li-Ming",
+      "short_name": "liming",
+      "alt_name": "Wizard",
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2016-02-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Wiza",
+      "build_copy_name": "LiMing",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23305,
+   "game_date": "2026-10-02 04:16:41",
+   "game_map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "game": 2,
+   "round": "8",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Roll1Esports",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 23,
+      "name": "Gul'dan",
+      "short_name": "guldan",
+      "alt_name": "Guldan",
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2016-07-12 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Guld",
+      "build_copy_name": "Guldan",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 45,
+      "name": "Raynor",
+      "short_name": "raynor",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Rayn",
+      "build_copy_name": "Raynor",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 26,
+      "name": "Johanna",
+      "short_name": "johanna",
+      "alt_name": "Crusader",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2015-06-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Crus",
+      "build_copy_name": "Johanna",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 77,
+      "name": "Blaze",
+      "short_name": "blaze",
+      "alt_name": "Firebat",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Ranged",
+      "release_date": "2018-01-09 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Fire",
+      "build_copy_name": "Blaze",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 87,
+      "name": "Anduin",
+      "short_name": "anduin",
+      "alt_name": "",
+      "role": "Healer",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2019-04-30 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Andu",
+      "build_copy_name": "Anduin",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23304,
+   "game_date": "2026-10-02 03:38:00",
+   "game_map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "game": 1,
+   "round": "8",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Roll1Esports",
+   "winner": 1,
+   "heroes": [
+    {
+     "hero": {
+      "id": 17,
+      "name": "Falstad",
+      "short_name": "falstad",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Fals",
+      "build_copy_name": "Falstad",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 23,
+      "name": "Gul'dan",
+      "short_name": "guldan",
+      "alt_name": "Guldan",
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2016-07-12 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Guld",
+      "build_copy_name": "Guldan",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 26,
+      "name": "Johanna",
+      "short_name": "johanna",
+      "alt_name": "Crusader",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2015-06-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Crus",
+      "build_copy_name": "Johanna",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 87,
+      "name": "Anduin",
+      "short_name": "anduin",
+      "alt_name": "",
+      "role": "Healer",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2019-04-30 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Andu",
+      "build_copy_name": "Anduin",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 14,
+      "name": "Dehaka",
+      "short_name": "dehaka",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2016-03-29 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Deha",
+      "build_copy_name": "Dehaka",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23260,
+   "game_date": "2026-09-25 04:04:56",
+   "game_map": {
+    "map_id": 3,
+    "name": "Braxis Holdout",
+    "short_name": "BraxisHoldout",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "braxis_holdout"
+   },
+   "game": 2,
+   "round": "7",
+   "team_0_name": "COSMOS",
+   "team_1_name": "Anomaly",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 6,
+      "name": "Auriel",
+      "short_name": "auriel",
+      "alt_name": null,
+      "role": "Support",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2016-08-09 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Auri",
+      "build_copy_name": "Auriel",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 57,
+      "name": "Thrall",
+      "short_name": "thrall",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2015-01-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Thra",
+      "build_copy_name": "Thrall",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 64,
+      "name": "Valla",
+      "short_name": "valla",
+      "alt_name": "DemonHunter",
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Demo",
+      "build_copy_name": "Valla",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 23,
+      "name": "Gul'dan",
+      "short_name": "guldan",
+      "alt_name": "Guldan",
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2016-07-12 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Guld",
+      "build_copy_name": "Guldan",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 26,
+      "name": "Johanna",
+      "short_name": "johanna",
+      "alt_name": "Crusader",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2015-06-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Crus",
+      "build_copy_name": "Johanna",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23259,
+   "game_date": "2026-09-25 03:35:59",
+   "game_map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "game": 1,
+   "round": "7",
+   "team_0_name": "COSMOS",
+   "team_1_name": "Anomaly",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 87,
+      "name": "Anduin",
+      "short_name": "anduin",
+      "alt_name": "",
+      "role": "Healer",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2019-04-30 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Andu",
+      "build_copy_name": "Anduin",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 30,
+      "name": "Leoric",
+      "short_name": "leoric",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2015-07-21 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Leor",
+      "build_copy_name": "Leoric",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 28,
+      "name": "Kerrigan",
+      "short_name": "kerrigan",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Melee Assassin",
+      "type": "Melee",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Kerr",
+      "build_copy_name": "Kerrigan",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 73,
+      "name": "Junkrat",
+      "short_name": "junkrat",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2017-10-17 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Junk",
+      "build_copy_name": "Junkrat",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 5,
+      "name": "Arthas",
+      "short_name": "arthas",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Arth",
+      "build_copy_name": "Arthas",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23208,
+   "game_date": "2026-09-21 03:39:05",
+   "game_map": {
+    "map_id": 6,
+    "name": "Garden of Terror",
+    "short_name": "HauntedWoods",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "garden_of_terror"
+   },
+   "game": 2,
+   "round": "6",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Phoenix Rising Amethyst",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 8,
+      "name": "Brightwing",
+      "short_name": "brightwing",
+      "alt_name": "FaerieDragon",
+      "role": "Support",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2014-04-15 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Faer",
+      "build_copy_name": "Brightwing",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 90,
+      "name": "Mei",
+      "short_name": "mei",
+      "alt_name": "MeiOW",
+      "role": null,
+      "new_role": "Tank",
+      "type": "Ranged",
+      "release_date": "2020-06-23 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "HMEI",
+      "build_copy_name": "Mei",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 22,
+      "name": "Greymane",
+      "short_name": "greymane",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2016-01-12 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Genn",
+      "build_copy_name": "Greymane",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 14,
+      "name": "Dehaka",
+      "short_name": "dehaka",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2016-03-29 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Deha",
+      "build_copy_name": "Dehaka",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 1,
+      "name": "Abathur",
+      "short_name": "abathur",
+      "alt_name": null,
+      "role": "Specialist",
+      "new_role": "Support",
+      "type": "Melee",
+      "release_date": "2014-03-13 00:00:01",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Abat",
+      "build_copy_name": "Abathur",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23207,
+   "game_date": "2026-09-21 03:04:39",
+   "game_map": {
+    "map_id": 15,
+    "name": "Alterac Pass",
+    "short_name": "AlteracPass",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "alterac_pass"
+   },
+   "game": 1,
+   "round": "6",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Phoenix Rising Amethyst",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 46,
+      "name": "Rehgar",
+      "short_name": "rehgar",
+      "alt_name": null,
+      "role": "Support",
+      "new_role": "Healer",
+      "type": "Melee",
+      "release_date": "2014-07-23 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Rehg",
+      "build_copy_name": "Rehgar",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 26,
+      "name": "Johanna",
+      "short_name": "johanna",
+      "alt_name": "Crusader",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2015-06-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Crus",
+      "build_copy_name": "Johanna",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 17,
+      "name": "Falstad",
+      "short_name": "falstad",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Fals",
+      "build_copy_name": "Falstad",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 81,
+      "name": "Yrel",
+      "short_name": "yrel",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2018-06-12 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "YREL",
+      "build_copy_name": "Yrel",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 25,
+      "name": "Jaina",
+      "short_name": "jaina",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-12-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Jain",
+      "build_copy_name": "Jaina",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23116,
+   "game_date": "2026-09-09 05:00:08",
+   "game_map": {
+    "map_id": 12,
+    "name": "Towers of Doom",
+    "short_name": "TowersOfDoom",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "towers_of_doom"
+   },
+   "game": 2,
+   "round": "5",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Can't Counterpick Stupid",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 28,
+      "name": "Kerrigan",
+      "short_name": "kerrigan",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Melee Assassin",
+      "type": "Melee",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Kerr",
+      "build_copy_name": "Kerrigan",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 90,
+      "name": "Mei",
+      "short_name": "mei",
+      "alt_name": "MeiOW",
+      "role": null,
+      "new_role": "Tank",
+      "type": "Ranged",
+      "release_date": "2020-06-23 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "HMEI",
+      "build_copy_name": "Mei",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 30,
+      "name": "Leoric",
+      "short_name": "leoric",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2015-07-21 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Leor",
+      "build_copy_name": "Leoric",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 25,
+      "name": "Jaina",
+      "short_name": "jaina",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-12-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Jain",
+      "build_copy_name": "Jaina",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 82,
+      "name": "Whitemane",
+      "short_name": "whitemane",
+      "alt_name": null,
+      "role": "Support",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2018-08-05 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "WHIT",
+      "build_copy_name": "Whitemane",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23115,
+   "game_date": "2026-09-09 04:17:12",
+   "game_map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "game": 1,
+   "round": "5",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Can't Counterpick Stupid",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 52,
+      "name": "Stukov",
+      "short_name": "stukov",
+      "alt_name": null,
+      "role": "Support",
+      "new_role": "Healer",
+      "type": "Melee",
+      "release_date": "2017-07-11 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "STUK",
+      "build_copy_name": "Stukov",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 81,
+      "name": "Yrel",
+      "short_name": "yrel",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2018-06-12 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "YREL",
+      "build_copy_name": "Yrel",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 54,
+      "name": "Tassadar",
+      "short_name": "tassadar",
+      "alt_name": null,
+      "role": "Support",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Tass",
+      "build_copy_name": "Tassadar",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 3,
+      "name": "Anub'arak",
+      "short_name": "anubarak",
+      "alt_name": "Anubarak",
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2014-10-07 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Anub",
+      "build_copy_name": "Anubarak",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 9,
+      "name": "Cassia",
+      "short_name": "cassia",
+      "alt_name": "Amazon",
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2017-04-04 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Amaz",
+      "build_copy_name": "Cassia",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  },
+  {
+   "replayID": 23072,
+   "game_date": "2026-09-03 04:25:26",
+   "game_map": {
+    "map_id": 1,
+    "name": "Battlefield of Eternity",
+    "short_name": "BattlefieldOfEternity",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "battlefield_of_eternity"
+   },
+   "game": 2,
+   "round": "4",
+   "team_0_name": "Anomaly",
+   "team_1_name": "Good Lordy",
+   "winner": 0,
+   "heroes": [
+    {
+     "hero": {
+      "id": 82,
+      "name": "Whitemane",
+      "short_name": "whitemane",
+      "alt_name": null,
+      "role": "Support",
+      "new_role": "Healer",
+      "type": "Ranged",
+      "release_date": "2018-08-05 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "WHIT",
+      "build_copy_name": "Whitemane",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 15,
+      "name": "Diablo",
+      "short_name": "diablo",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Tank",
+      "type": "Melee",
+      "release_date": "2014-03-13 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91368",
+      "attribute_id": "Diab",
+      "build_copy_name": "Diablo",
+      "last_updated": "2024-02-02 15:34:06"
+     }
+    },
+    {
+     "hero": {
+      "id": 75,
+      "name": "Hanzo",
+      "short_name": "hanzo",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2017-12-12 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Hanz",
+      "build_copy_name": "Hanzo",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 25,
+      "name": "Jaina",
+      "short_name": "jaina",
+      "alt_name": null,
+      "role": "Assassin",
+      "new_role": "Ranged Assassin",
+      "type": "Ranged",
+      "release_date": "2014-12-02 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Jain",
+      "build_copy_name": "Jaina",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    },
+    {
+     "hero": {
+      "id": 4,
+      "name": "Artanis",
+      "short_name": "artanis",
+      "alt_name": null,
+      "role": "Warrior",
+      "new_role": "Bruiser",
+      "type": "Melee",
+      "release_date": "2015-10-20 00:00:00",
+      "rework_date": null,
+      "last_change_patch_version": "2.55.4.91769",
+      "attribute_id": "Arts",
+      "build_copy_name": "Artanis",
+      "last_updated": "2024-02-06 18:32:51"
+     }
+    }
+   ]
+  }
+ ],
+ "heroes": [
+  {
+   "hero_id": 1,
+   "hero": {
+    "id": 1,
+    "name": "Abathur",
+    "short_name": "abathur",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Support",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:01",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Abat",
+    "build_copy_name": "Abathur",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Abathur",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Abathur?season=22&division=C West"
+  },
+  {
+   "hero_id": 87,
+   "hero": {
+    "id": 87,
+    "name": "Anduin",
+    "short_name": "anduin",
+    "alt_name": "",
+    "role": "Healer",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2019-04-30 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Andu",
+    "build_copy_name": "Anduin",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Anduin",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Anduin?season=22&division=C West"
+  },
+  {
+   "hero_id": 3,
+   "hero": {
+    "id": 3,
+    "name": "Anub'arak",
+    "short_name": "anubarak",
+    "alt_name": "Anubarak",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-10-07 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Anub",
+    "build_copy_name": "Anubarak",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Anub'arak",
+   "wins": 1,
+   "losses": 2,
+   "win_rate": 33.33,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Anub'arak?season=22&division=C West"
+  },
+  {
+   "hero_id": 4,
+   "hero": {
+    "id": 4,
+    "name": "Artanis",
+    "short_name": "artanis",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2015-10-20 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Arts",
+    "build_copy_name": "Artanis",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Artanis",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Artanis?season=22&division=C West"
+  },
+  {
+   "hero_id": 5,
+   "hero": {
+    "id": 5,
+    "name": "Arthas",
+    "short_name": "arthas",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Arth",
+    "build_copy_name": "Arthas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Arthas",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Arthas?season=22&division=C West"
+  },
+  {
+   "hero_id": 6,
+   "hero": {
+    "id": 6,
+    "name": "Auriel",
+    "short_name": "auriel",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2016-08-09 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Auri",
+    "build_copy_name": "Auriel",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Auriel",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Auriel?season=22&division=C West"
+  },
+  {
+   "hero_id": 77,
+   "hero": {
+    "id": 77,
+    "name": "Blaze",
+    "short_name": "blaze",
+    "alt_name": "Firebat",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Ranged",
+    "release_date": "2018-01-09 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Fire",
+    "build_copy_name": "Blaze",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Blaze",
+   "wins": 0,
+   "losses": 3,
+   "win_rate": 0,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Blaze?season=22&division=C West"
+  },
+  {
+   "hero_id": 8,
+   "hero": {
+    "id": 8,
+    "name": "Brightwing",
+    "short_name": "brightwing",
+    "alt_name": "FaerieDragon",
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-04-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Faer",
+    "build_copy_name": "Brightwing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Brightwing",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Brightwing?season=22&division=C West"
+  },
+  {
+   "hero_id": 9,
+   "hero": {
+    "id": 9,
+    "name": "Cassia",
+    "short_name": "cassia",
+    "alt_name": "Amazon",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-04-04 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Amaz",
+    "build_copy_name": "Cassia",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Cassia",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Cassia?season=22&division=C West"
+  },
+  {
+   "hero_id": 12,
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Chromie",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Chromie?season=22&division=C West"
+  },
+  {
+   "hero_id": 14,
+   "hero": {
+    "id": 14,
+    "name": "Dehaka",
+    "short_name": "dehaka",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-03-29 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Deha",
+    "build_copy_name": "Dehaka",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Dehaka",
+   "wins": 1,
+   "losses": 1,
+   "win_rate": 50,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Dehaka?season=22&division=C West"
+  },
+  {
+   "hero_id": 15,
+   "hero": {
+    "id": 15,
+    "name": "Diablo",
+    "short_name": "diablo",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Diab",
+    "build_copy_name": "Diablo",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Diablo",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Diablo?season=22&division=C West"
+  },
+  {
+   "hero_id": 16,
+   "hero": {
+    "id": 16,
+    "name": "E.T.C.",
+    "short_name": "etc",
+    "alt_name": "L90ETC",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "L90E",
+    "build_copy_name": "ETC",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "E.T.C.",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/E.T.C.?season=22&division=C West"
+  },
+  {
+   "hero_id": 17,
+   "hero": {
+    "id": 17,
+    "name": "Falstad",
+    "short_name": "falstad",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Fals",
+    "build_copy_name": "Falstad",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Falstad",
+   "wins": 1,
+   "losses": 1,
+   "win_rate": 50,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Falstad?season=22&division=C West"
+  },
+  {
+   "hero_id": 19,
+   "hero": {
+    "id": 19,
+    "name": "Garrosh",
+    "short_name": "garrosh",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2017-08-08 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Garr",
+    "build_copy_name": "Garrosh",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Garrosh",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Garrosh?season=22&division=C West"
+  },
+  {
+   "hero_id": 22,
+   "hero": {
+    "id": 22,
+    "name": "Greymane",
+    "short_name": "greymane",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-01-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Genn",
+    "build_copy_name": "Greymane",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Greymane",
+   "wins": 1,
+   "losses": 1,
+   "win_rate": 50,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Greymane?season=22&division=C West"
+  },
+  {
+   "hero_id": 23,
+   "hero": {
+    "id": 23,
+    "name": "Gul'dan",
+    "short_name": "guldan",
+    "alt_name": "Guldan",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-07-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Guld",
+    "build_copy_name": "Guldan",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Gul'dan",
+   "wins": 1,
+   "losses": 2,
+   "win_rate": 33.33,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Gul'dan?season=22&division=C West"
+  },
+  {
+   "hero_id": 75,
+   "hero": {
+    "id": 75,
+    "name": "Hanzo",
+    "short_name": "hanzo",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-12-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Hanz",
+    "build_copy_name": "Hanzo",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Hanzo",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Hanzo?season=22&division=C West"
+  },
+  {
+   "hero_id": 25,
+   "hero": {
+    "id": 25,
+    "name": "Jaina",
+    "short_name": "jaina",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-12-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Jain",
+    "build_copy_name": "Jaina",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Jaina",
+   "wins": 1,
+   "losses": 5,
+   "win_rate": 16.67,
+   "games_played": 6,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Jaina?season=22&division=C West"
+  },
+  {
+   "hero_id": 26,
+   "hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Johanna",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Johanna?season=22&division=C West"
+  },
+  {
+   "hero_id": 73,
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Junkrat",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Junkrat?season=22&division=C West"
+  },
+  {
+   "hero_id": 28,
+   "hero": {
+    "id": 28,
+    "name": "Kerrigan",
+    "short_name": "kerrigan",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Melee Assassin",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Kerr",
+    "build_copy_name": "Kerrigan",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Kerrigan",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Kerrigan?season=22&division=C West"
+  },
+  {
+   "hero_id": 30,
+   "hero": {
+    "id": 30,
+    "name": "Leoric",
+    "short_name": "leoric",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2015-07-21 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Leor",
+    "build_copy_name": "Leoric",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Leoric",
+   "wins": 0,
+   "losses": 3,
+   "win_rate": 0,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Leoric?season=22&division=C West"
+  },
+  {
+   "hero_id": 32,
+   "hero": {
+    "id": 32,
+    "name": "Li-Ming",
+    "short_name": "liming",
+    "alt_name": "Wizard",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-02-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Wiza",
+    "build_copy_name": "LiMing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Li-Ming",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Li-Ming?season=22&division=C West"
+  },
+  {
+   "hero_id": 35,
+   "hero": {
+    "id": 35,
+    "name": "Lunara",
+    "short_name": "lunara",
+    "alt_name": "Dryad",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-12-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Drya",
+    "build_copy_name": "Lunara",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Lunara",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Lunara?season=22&division=C West"
+  },
+  {
+   "hero_id": 90,
+   "hero": {
+    "id": 90,
+    "name": "Mei",
+    "short_name": "mei",
+    "alt_name": "MeiOW",
+    "role": null,
+    "new_role": "Tank",
+    "type": "Ranged",
+    "release_date": "2020-06-23 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "HMEI",
+    "build_copy_name": "Mei",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Mei",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Mei?season=22&division=C West"
+  },
+  {
+   "hero_id": 39,
+   "hero": {
+    "id": 39,
+    "name": "Muradin",
+    "short_name": "muradin",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Mura",
+    "build_copy_name": "Muradin",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Muradin",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Muradin?season=22&division=C West"
+  },
+  {
+   "hero_id": 44,
+   "hero": {
+    "id": 44,
+    "name": "Ragnaros",
+    "short_name": "ragnaros",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-12-14 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Ragn",
+    "build_copy_name": "Ragnaros",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Ragnaros",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Ragnaros?season=22&division=C West"
+  },
+  {
+   "hero_id": 45,
+   "hero": {
+    "id": 45,
+    "name": "Raynor",
+    "short_name": "raynor",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Rayn",
+    "build_copy_name": "Raynor",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Raynor",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Raynor?season=22&division=C West"
+  },
+  {
+   "hero_id": 46,
+   "hero": {
+    "id": 46,
+    "name": "Rehgar",
+    "short_name": "rehgar",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2014-07-23 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Rehg",
+    "build_copy_name": "Rehgar",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Rehgar",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Rehgar?season=22&division=C West"
+  },
+  {
+   "hero_id": 50,
+   "hero": {
+    "id": 50,
+    "name": "Sonya",
+    "short_name": "sonya",
+    "alt_name": "Barbarian",
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Barb",
+    "build_copy_name": "Sonya",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Sonya",
+   "wins": 1,
+   "losses": 2,
+   "win_rate": 33.33,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Sonya?season=22&division=C West"
+  },
+  {
+   "hero_id": 52,
+   "hero": {
+    "id": 52,
+    "name": "Stukov",
+    "short_name": "stukov",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2017-07-11 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "STUK",
+    "build_copy_name": "Stukov",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Stukov",
+   "wins": 1,
+   "losses": 2,
+   "win_rate": 33.33,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Stukov?season=22&division=C West"
+  },
+  {
+   "hero_id": 53,
+   "hero": {
+    "id": 53,
+    "name": "Sylvanas",
+    "short_name": "sylvanas",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-03-24 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Sylv",
+    "build_copy_name": "Sylvanas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Sylvanas",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Sylvanas?season=22&division=C West"
+  },
+  {
+   "hero_id": 54,
+   "hero": {
+    "id": 54,
+    "name": "Tassadar",
+    "short_name": "tassadar",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Tass",
+    "build_copy_name": "Tassadar",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Tassadar",
+   "wins": 0,
+   "losses": 3,
+   "win_rate": 0,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Tassadar?season=22&division=C West"
+  },
+  {
+   "hero_id": 57,
+   "hero": {
+    "id": 57,
+    "name": "Thrall",
+    "short_name": "thrall",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2015-01-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Thra",
+    "build_copy_name": "Thrall",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Thrall",
+   "wins": 0,
+   "losses": 3,
+   "win_rate": 0,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Thrall?season=22&division=C West"
+  },
+  {
+   "hero_id": 59,
+   "hero": {
+    "id": 59,
+    "name": "Tychus",
+    "short_name": "tychus",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-18 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Tych",
+    "build_copy_name": "Tychus",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Tychus",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Tychus?season=22&division=C West"
+  },
+  {
+   "hero_id": 61,
+   "hero": {
+    "id": 61,
+    "name": "Tyrande",
+    "short_name": "tyrande",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Tyrd",
+    "build_copy_name": "Tyrande",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Tyrande",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Tyrande?season=22&division=C West"
+  },
+  {
+   "hero_id": 64,
+   "hero": {
+    "id": 64,
+    "name": "Valla",
+    "short_name": "valla",
+    "alt_name": "DemonHunter",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Demo",
+    "build_copy_name": "Valla",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Valla",
+   "wins": 0,
+   "losses": 3,
+   "win_rate": 0,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Valla?season=22&division=C West"
+  },
+  {
+   "hero_id": 65,
+   "hero": {
+    "id": 65,
+    "name": "Varian",
+    "short_name": "varian",
+    "alt_name": null,
+    "role": "Multiclass",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-11-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Vari",
+    "build_copy_name": "Varian",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Varian",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Varian?season=22&division=C West"
+  },
+  {
+   "hero_id": 82,
+   "hero": {
+    "id": 82,
+    "name": "Whitemane",
+    "short_name": "whitemane",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2018-08-05 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "WHIT",
+    "build_copy_name": "Whitemane",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Whitemane",
+   "wins": 0,
+   "losses": 4,
+   "win_rate": 0,
+   "games_played": 4,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Whitemane?season=22&division=C West"
+  },
+  {
+   "hero_id": 81,
+   "hero": {
+    "id": 81,
+    "name": "Yrel",
+    "short_name": "yrel",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2018-06-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "YREL",
+    "build_copy_name": "Yrel",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Yrel",
+   "wins": 0,
+   "losses": 3,
+   "win_rate": 0,
+   "games_played": 3,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Yrel?season=22&division=C West"
+  }
+ ],
+ "hero_top_three_most_played": [
+  {
+   "hero_id": 25,
+   "hero": {
+    "id": 25,
+    "name": "Jaina",
+    "short_name": "jaina",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-12-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Jain",
+    "build_copy_name": "Jaina",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Jaina",
+   "wins": 1,
+   "losses": 5,
+   "win_rate": 16.67,
+   "games_played": 6,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Jaina?season=22&division=C West"
+  },
+  {
+   "hero_id": 87,
+   "hero": {
+    "id": 87,
+    "name": "Anduin",
+    "short_name": "anduin",
+    "alt_name": "",
+    "role": "Healer",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2019-04-30 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Andu",
+    "build_copy_name": "Anduin",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Anduin",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Anduin?season=22&division=C West"
+  },
+  {
+   "hero_id": 26,
+   "hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Johanna",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Johanna?season=22&division=C West"
+  }
+ ],
+ "hero_top_three_highest_win_rate": [
+  {
+   "hero_id": 87,
+   "hero": {
+    "id": 87,
+    "name": "Anduin",
+    "short_name": "anduin",
+    "alt_name": "",
+    "role": "Healer",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2019-04-30 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Andu",
+    "build_copy_name": "Anduin",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Anduin",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Anduin?season=22&division=C West"
+  },
+  {
+   "hero_id": 26,
+   "hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Johanna",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Johanna?season=22&division=C West"
+  },
+  {
+   "hero_id": 25,
+   "hero": {
+    "id": 25,
+    "name": "Jaina",
+    "short_name": "jaina",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-12-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Jain",
+    "build_copy_name": "Jaina",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Jaina",
+   "wins": 1,
+   "losses": 5,
+   "win_rate": 16.67,
+   "games_played": 6,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Jaina?season=22&division=C West"
+  }
+ ],
+ "hero_top_three_lowest_win_rate": [
+  {
+   "hero_id": 25,
+   "hero": {
+    "id": 25,
+    "name": "Jaina",
+    "short_name": "jaina",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-12-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Jain",
+    "build_copy_name": "Jaina",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Jaina",
+   "wins": 1,
+   "losses": 5,
+   "win_rate": 16.67,
+   "games_played": 6,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Jaina?season=22&division=C West"
+  },
+  {
+   "hero_id": 87,
+   "hero": {
+    "id": 87,
+    "name": "Anduin",
+    "short_name": "anduin",
+    "alt_name": "",
+    "role": "Healer",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2019-04-30 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Andu",
+    "build_copy_name": "Anduin",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "name": "Anduin",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Anduin?season=22&division=C West"
+  },
+  {
+   "hero_id": 26,
+   "hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "name": "Johanna",
+   "wins": 1,
+   "losses": 4,
+   "win_rate": 20,
+   "games_played": 5,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Hero/Johanna?season=22&division=C West"
+  }
+ ],
+ "maps": [
+  {
+   "map_id": 15,
+   "map": {
+    "map_id": 15,
+    "name": "Alterac Pass",
+    "short_name": "AlteracPass",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "alterac_pass"
+   },
+   "game_map": {
+    "map_id": 15,
+    "name": "Alterac Pass",
+    "short_name": "AlteracPass",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "alterac_pass"
+   },
+   "name": "Alterac Pass",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Alterac Pass?season=22&division=C West"
+  },
+  {
+   "map_id": 1,
+   "map": {
+    "map_id": 1,
+    "name": "Battlefield of Eternity",
+    "short_name": "BattlefieldOfEternity",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "battlefield_of_eternity"
+   },
+   "game_map": {
+    "map_id": 1,
+    "name": "Battlefield of Eternity",
+    "short_name": "BattlefieldOfEternity",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "battlefield_of_eternity"
+   },
+   "name": "Battlefield of Eternity",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Battlefield of Eternity?season=22&division=C West"
+  },
+  {
+   "map_id": 3,
+   "map": {
+    "map_id": 3,
+    "name": "Braxis Holdout",
+    "short_name": "BraxisHoldout",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "braxis_holdout"
+   },
+   "game_map": {
+    "map_id": 3,
+    "name": "Braxis Holdout",
+    "short_name": "BraxisHoldout",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "braxis_holdout"
+   },
+   "name": "Braxis Holdout",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Braxis Holdout?season=22&division=C West"
+  },
+  {
+   "map_id": 4,
+   "map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "game_map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "name": "Cursed Hollow",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Cursed Hollow?season=22&division=C West"
+  },
+  {
+   "map_id": 5,
+   "map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "game_map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "name": "Dragon Shire",
+   "wins": 2,
+   "losses": 0,
+   "win_rate": 100,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Dragon Shire?season=22&division=C West"
+  },
+  {
+   "map_id": 6,
+   "map": {
+    "map_id": 6,
+    "name": "Garden of Terror",
+    "short_name": "HauntedWoods",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "garden_of_terror"
+   },
+   "game_map": {
+    "map_id": 6,
+    "name": "Garden of Terror",
+    "short_name": "HauntedWoods",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "garden_of_terror"
+   },
+   "name": "Garden of Terror",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Garden of Terror?season=22&division=C West"
+  },
+  {
+   "map_id": 9,
+   "map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "game_map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "name": "Infernal Shrines",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Infernal Shrines?season=22&division=C West"
+  },
+  {
+   "map_id": 10,
+   "map": {
+    "map_id": 10,
+    "name": "Sky Temple",
+    "short_name": "ControlPoints",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "sky_temple"
+   },
+   "game_map": {
+    "map_id": 10,
+    "name": "Sky Temple",
+    "short_name": "ControlPoints",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "sky_temple"
+   },
+   "name": "Sky Temple",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Sky Temple?season=22&division=C West"
+  },
+  {
+   "map_id": 11,
+   "map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "game_map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "name": "Tomb of the Spider Queen",
+   "wins": 0,
+   "losses": 4,
+   "win_rate": 0,
+   "games_played": 4,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Tomb of the Spider Queen?season=22&division=C West"
+  },
+  {
+   "map_id": 12,
+   "map": {
+    "map_id": 12,
+    "name": "Towers of Doom",
+    "short_name": "TowersOfDoom",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "towers_of_doom"
+   },
+   "game_map": {
+    "map_id": 12,
+    "name": "Towers of Doom",
+    "short_name": "TowersOfDoom",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "towers_of_doom"
+   },
+   "name": "Towers of Doom",
+   "wins": 0,
+   "losses": 1,
+   "win_rate": 0,
+   "games_played": 1,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Towers of Doom?season=22&division=C West"
+  }
+ ],
+ "map_top_three_most_played": [
+  {
+   "map_id": 11,
+   "map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "game_map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "name": "Tomb of the Spider Queen",
+   "wins": 0,
+   "losses": 4,
+   "win_rate": 0,
+   "games_played": 4,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Tomb of the Spider Queen?season=22&division=C West"
+  },
+  {
+   "map_id": 4,
+   "map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "game_map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "name": "Cursed Hollow",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Cursed Hollow?season=22&division=C West"
+  },
+  {
+   "map_id": 5,
+   "map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "game_map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "name": "Dragon Shire",
+   "wins": 2,
+   "losses": 0,
+   "win_rate": 100,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Dragon Shire?season=22&division=C West"
+  }
+ ],
+ "map_top_three_highest_win_rate": [
+  {
+   "map_id": 5,
+   "map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "game_map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "name": "Dragon Shire",
+   "wins": 2,
+   "losses": 0,
+   "win_rate": 100,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Dragon Shire?season=22&division=C West"
+  },
+  {
+   "map_id": 11,
+   "map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "game_map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "name": "Tomb of the Spider Queen",
+   "wins": 0,
+   "losses": 4,
+   "win_rate": 0,
+   "games_played": 4,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Tomb of the Spider Queen?season=22&division=C West"
+  },
+  {
+   "map_id": 4,
+   "map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "game_map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "name": "Cursed Hollow",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Cursed Hollow?season=22&division=C West"
+  }
+ ],
+ "map_top_three_lowest_win_rate": [
+  {
+   "map_id": 11,
+   "map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "game_map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "name": "Tomb of the Spider Queen",
+   "wins": 0,
+   "losses": 4,
+   "win_rate": 0,
+   "games_played": 4,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Tomb of the Spider Queen?season=22&division=C West"
+  },
+  {
+   "map_id": 4,
+   "map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "game_map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "name": "Cursed Hollow",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Cursed Hollow?season=22&division=C West"
+  },
+  {
+   "map_id": 9,
+   "map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "game_map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "name": "Infernal Shrines",
+   "wins": 0,
+   "losses": 2,
+   "win_rate": 0,
+   "games_played": 2,
+   "battletag": null,
+   "blizz_id": null,
+   "season": "22",
+   "division": "C West",
+   "link": "/Esports/NGS/Player///Map/Infernal Shrines?season=22&division=C West"
+  }
+ ],
+ "seasons": [
+  {
+   "code": null,
+   "name": "All"
+  },
+  {
+   "code": "22",
+   "name": "22"
+  }
+ ],
+ "divisions": [
+  {
+   "code": null,
+   "name": "All"
+  },
+  {
+   "code": "C West",
+   "name": "C West"
+  }
+ ],
+ "players": {
+  "Tauros#11436": {
+   "battletag": "Tauros",
+   "blizz_id": 11707235,
+   "most_played_hero": {
+    "id": 25,
+    "name": "Jaina",
+    "short_name": "jaina",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-12-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Jain",
+    "build_copy_name": "Jaina",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "win_rate_on_hero": 16.67,
+   "most_played_role": "Ranged Assassin",
+   "games_played": 16,
+   "playerlink": "/Esports/NGS/Player/Tauros/11707235?season=22&division=C West",
+   "herolink": "/Esports/NGS/Player/Tauros/11707235/Hero/Jaina?season=22&division=C West"
+  },
+  "HarkinEH#1367": {
+   "battletag": "HarkinEH",
+   "blizz_id": 1937940,
+   "most_played_hero": {
+    "id": 64,
+    "name": "Valla",
+    "short_name": "valla",
+    "alt_name": "DemonHunter",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Demo",
+    "build_copy_name": "Valla",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "win_rate_on_hero": 0,
+   "most_played_role": "Ranged Assassin",
+   "games_played": 18,
+   "playerlink": "/Esports/NGS/Player/HarkinEH/1937940?season=22&division=C West",
+   "herolink": "/Esports/NGS/Player/HarkinEH/1937940/Hero/Valla?season=22&division=C West"
+  },
+  "MooseCannons#1951": {
+   "battletag": "MooseCannons",
+   "blizz_id": 6828,
+   "most_played_hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "win_rate_on_hero": 20,
+   "most_played_role": "Tank",
+   "games_played": 18,
+   "playerlink": "/Esports/NGS/Player/MooseCannons/6828?season=22&division=C West",
+   "herolink": "/Esports/NGS/Player/MooseCannons/6828/Hero/Johanna?season=22&division=C West"
+  },
+  "TebbyBear33#1401": {
+   "battletag": "TebbyBear33",
+   "blizz_id": 6711643,
+   "most_played_hero": {
+    "id": 82,
+    "name": "Whitemane",
+    "short_name": "whitemane",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2018-08-05 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "WHIT",
+    "build_copy_name": "Whitemane",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "win_rate_on_hero": 0,
+   "most_played_role": "Healer",
+   "games_played": 15,
+   "playerlink": "/Esports/NGS/Player/TebbyBear33/6711643?season=22&division=C West",
+   "herolink": "/Esports/NGS/Player/TebbyBear33/6711643/Hero/Whitemane?season=22&division=C West"
+  },
+  "Korosive#1810": {
+   "battletag": "Korosive",
+   "blizz_id": 3380664,
+   "most_played_hero": {
+    "id": 87,
+    "name": "Anduin",
+    "short_name": "anduin",
+    "alt_name": "",
+    "role": "Healer",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2019-04-30 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Andu",
+    "build_copy_name": "Anduin",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "win_rate_on_hero": 33.33,
+   "most_played_role": "Ranged Assassin",
+   "games_played": 7,
+   "playerlink": "/Esports/NGS/Player/Korosive/3380664?season=22&division=C West",
+   "herolink": "/Esports/NGS/Player/Korosive/3380664/Hero/Anduin?season=22&division=C West"
+  },
+  "Mosley#1820": {
+   "battletag": "Mosley",
+   "blizz_id": 515635,
+   "most_played_hero": {
+    "id": 81,
+    "name": "Yrel",
+    "short_name": "yrel",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2018-06-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "YREL",
+    "build_copy_name": "Yrel",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "win_rate_on_hero": 0,
+   "most_played_role": "Bruiser",
+   "games_played": 16,
+   "playerlink": "/Esports/NGS/Player/Mosley/515635?season=22&division=C West",
+   "herolink": "/Esports/NGS/Player/Mosley/515635/Hero/Yrel?season=22&division=C West"
+  }
+ },
+ "heroes_lost_against": [
+  {
+   "hero": {
+    "id": 14,
+    "name": "Dehaka",
+    "short_name": "dehaka",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-03-29 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Deha",
+    "build_copy_name": "Dehaka",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 5,
+   "inputhover": "Lost against a team with Dehaka 5 times (31.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 59,
+    "name": "Tychus",
+    "short_name": "tychus",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-18 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Tych",
+    "build_copy_name": "Tychus",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 4,
+   "inputhover": "Lost against a team with Tychus 4 times (25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 4,
+   "inputhover": "Lost against a team with Johanna 4 times (25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 30,
+    "name": "Leoric",
+    "short_name": "leoric",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2015-07-21 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Leor",
+    "build_copy_name": "Leoric",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 4,
+   "inputhover": "Lost against a team with Leoric 4 times (25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 8,
+    "name": "Brightwing",
+    "short_name": "brightwing",
+    "alt_name": "FaerieDragon",
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-04-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Faer",
+    "build_copy_name": "Brightwing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Brightwing 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 46,
+    "name": "Rehgar",
+    "short_name": "rehgar",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2014-07-23 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Rehg",
+    "build_copy_name": "Rehgar",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Rehgar 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 53,
+    "name": "Sylvanas",
+    "short_name": "sylvanas",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-03-24 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Sylv",
+    "build_copy_name": "Sylvanas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Sylvanas 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 54,
+    "name": "Tassadar",
+    "short_name": "tassadar",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Tass",
+    "build_copy_name": "Tassadar",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Tassadar 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 22,
+    "name": "Greymane",
+    "short_name": "greymane",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-01-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Genn",
+    "build_copy_name": "Greymane",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Greymane 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 16,
+    "name": "E.T.C.",
+    "short_name": "etc",
+    "alt_name": "L90ETC",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "L90E",
+    "build_copy_name": "ETC",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with E.T.C. 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 87,
+    "name": "Anduin",
+    "short_name": "anduin",
+    "alt_name": "",
+    "role": "Healer",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2019-04-30 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Andu",
+    "build_copy_name": "Anduin",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Anduin 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 35,
+    "name": "Lunara",
+    "short_name": "lunara",
+    "alt_name": "Dryad",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-12-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Drya",
+    "build_copy_name": "Lunara",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Lunara 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 45,
+    "name": "Raynor",
+    "short_name": "raynor",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Rayn",
+    "build_copy_name": "Raynor",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 3,
+   "inputhover": "Lost against a team with Raynor 3 times (18.75% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 77,
+    "name": "Blaze",
+    "short_name": "blaze",
+    "alt_name": "Firebat",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Ranged",
+    "release_date": "2018-01-09 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Fire",
+    "build_copy_name": "Blaze",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Blaze 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 39,
+    "name": "Muradin",
+    "short_name": "muradin",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Mura",
+    "build_copy_name": "Muradin",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Muradin 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 31,
+    "name": "Li Li",
+    "short_name": "lili",
+    "alt_name": "LiLi",
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-04-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "LiLi",
+    "build_copy_name": "LiLi",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Li Li 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 51,
+    "name": "Stitches",
+    "short_name": "stitches",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Stit",
+    "build_copy_name": "Stitches",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Stitches 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 36,
+    "name": "Malfurion",
+    "short_name": "malfurion",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Malf",
+    "build_copy_name": "Malfurion",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Malfurion 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 75,
+    "name": "Hanzo",
+    "short_name": "hanzo",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-12-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Hanz",
+    "build_copy_name": "Hanzo",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Hanzo 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 65,
+    "name": "Varian",
+    "short_name": "varian",
+    "alt_name": null,
+    "role": "Multiclass",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-11-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Vari",
+    "build_copy_name": "Varian",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Varian 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 56,
+    "name": "The Lost Vikings",
+    "short_name": "thelostvikings",
+    "alt_name": "LostVikings",
+    "role": "Specialist",
+    "new_role": "Support",
+    "type": "Melee",
+    "release_date": "2015-02-10 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.3.91093",
+    "attribute_id": "Lost",
+    "build_copy_name": "LostVikings",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with The Lost Vikings 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 27,
+    "name": "Kael'thas",
+    "short_name": "kaelthas",
+    "alt_name": "Kaelthas",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-05-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Kael",
+    "build_copy_name": "Kaelthas",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 2,
+   "inputhover": "Lost against a team with Kael'thas 2 times (12.5% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Junkrat 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 85,
+    "name": "Orphea",
+    "short_name": "orphea",
+    "alt_name": "",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2018-11-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "ORPH",
+    "build_copy_name": "Orphea",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Orphea 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 89,
+    "name": "Deathwing",
+    "short_name": "deathwing",
+    "alt_name": null,
+    "role": null,
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2019-12-03 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "DEAT",
+    "build_copy_name": "Deathwing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Deathwing 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 52,
+    "name": "Stukov",
+    "short_name": "stukov",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2017-07-11 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "STUK",
+    "build_copy_name": "Stukov",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Stukov 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 67,
+    "name": "Zagara",
+    "short_name": "zagara",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-06-25 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Zaga",
+    "build_copy_name": "Zagara",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Zagara 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 78,
+    "name": "Maiev",
+    "short_name": "maiev",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Melee Assassin",
+    "type": "Melee",
+    "release_date": "2018-02-06 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Maie",
+    "build_copy_name": "Maiev",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Maiev 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 25,
+    "name": "Jaina",
+    "short_name": "jaina",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-12-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Jain",
+    "build_copy_name": "Jaina",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Jaina 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 32,
+    "name": "Li-Ming",
+    "short_name": "liming",
+    "alt_name": "Wizard",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-02-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Wiza",
+    "build_copy_name": "LiMing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Li-Ming 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 19,
+    "name": "Garrosh",
+    "short_name": "garrosh",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2017-08-08 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Garr",
+    "build_copy_name": "Garrosh",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Garrosh 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 20,
+    "name": "Gazlowe",
+    "short_name": "gazlowe",
+    "alt_name": "Tinker",
+    "role": "Specialist",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Tink",
+    "build_copy_name": "Gazlowe",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Gazlowe 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 5,
+    "name": "Arthas",
+    "short_name": "arthas",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Arth",
+    "build_copy_name": "Arthas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Arthas 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 72,
+    "name": "Ana",
+    "short_name": "ana",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2017-09-26 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "HANA",
+    "build_copy_name": "Ana",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Ana 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Chromie 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 44,
+    "name": "Ragnaros",
+    "short_name": "ragnaros",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-12-14 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Ragn",
+    "build_copy_name": "Ragnaros",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Ragnaros 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 58,
+    "name": "Tracer",
+    "short_name": "tracer",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-04-19 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Tra0",
+    "build_copy_name": "Tracer",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Tracer 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 15,
+    "name": "Diablo",
+    "short_name": "diablo",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Diab",
+    "build_copy_name": "Diablo",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Diablo 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 61,
+    "name": "Tyrande",
+    "short_name": "tyrande",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Tyrd",
+    "build_copy_name": "Tyrande",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Tyrande 1 times (6.25% of all games lost as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 86,
+    "name": "Imperius",
+    "short_name": "imperius",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2019-01-08 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "IMPE",
+    "build_copy_name": "Imperius",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Lost against a team with Imperius 1 times (6.25% of all games lost as Anomaly)"
+  }
+ ],
+ "heroes_won_against": [
+  {
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Chromie 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 16,
+    "name": "E.T.C.",
+    "short_name": "etc",
+    "alt_name": "L90ETC",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "L90E",
+    "build_copy_name": "ETC",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with E.T.C. 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 61,
+    "name": "Tyrande",
+    "short_name": "tyrande",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Tyrd",
+    "build_copy_name": "Tyrande",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Tyrande 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 77,
+    "name": "Blaze",
+    "short_name": "blaze",
+    "alt_name": "Firebat",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Ranged",
+    "release_date": "2018-01-09 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Fire",
+    "build_copy_name": "Blaze",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Blaze 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 79,
+    "name": "Fenix",
+    "short_name": "fenix",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2018-03-27 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "FENX",
+    "build_copy_name": "Fenix",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Fenix 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Junkrat 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 65,
+    "name": "Varian",
+    "short_name": "varian",
+    "alt_name": null,
+    "role": "Multiclass",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-11-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Vari",
+    "build_copy_name": "Varian",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Varian 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 52,
+    "name": "Stukov",
+    "short_name": "stukov",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2017-07-11 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "STUK",
+    "build_copy_name": "Stukov",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Stukov 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 50,
+    "name": "Sonya",
+    "short_name": "sonya",
+    "alt_name": "Barbarian",
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Barb",
+    "build_copy_name": "Sonya",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Sonya 1 times (50% of all games won as Anomaly)"
+  },
+  {
+   "hero": {
+    "id": 85,
+    "name": "Orphea",
+    "short_name": "orphea",
+    "alt_name": "",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2018-11-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "ORPH",
+    "build_copy_name": "Orphea",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "total": 1,
+   "inputhover": "Won while on a team with Orphea 1 times (50% of all games won as Anomaly)"
+  }
+ ],
+ "enemy_teams": [
+  {
+   "team": "Phoenix Rising Amethyst",
+   "total": 4,
+   "icon_url": "https://s3.amazonaws.com/ngs-image-storage/Phoenix_Rising_Amethyst_9442.png",
+   "inputhover": "Lost against team Phoenix Rising Amethyst 4 times (25% of all games lost as Anomaly)",
+   "enemy_link": "/Esports/NGS/Team/Phoenix Rising Amethyst?season=22&division=C West"
+  },
+  {
+   "team": "COSMOS",
+   "total": 4,
+   "icon_url": "https://s3.amazonaws.com/ngs-image-storage/COSMOS_2496.png",
+   "inputhover": "Lost against team COSMOS 4 times (25% of all games lost as Anomaly)",
+   "enemy_link": "/Esports/NGS/Team/COSMOS?season=22&division=C West"
+  },
+  {
+   "team": "Roll1Esports",
+   "total": 4,
+   "icon_url": "https://s3.amazonaws.com/ngs-image-storage/Roll1Esports_8311.png",
+   "inputhover": "Lost against team Roll1Esports 4 times (25% of all games lost as Anomaly)",
+   "enemy_link": "/Esports/NGS/Team/Roll1Esports?season=22&division=C West"
+  },
+  {
+   "team": "Good Lordy",
+   "total": 2,
+   "icon_url": "/images/NGS/no-image-clipped.png",
+   "inputhover": "Lost against team Good Lordy 2 times (12.5% of all games lost as Anomaly)",
+   "enemy_link": "/Esports/NGS/Team/Good Lordy?season=22&division=C West"
+  },
+  {
+   "team": "Can't Counterpick Stupid",
+   "total": 2,
+   "icon_url": "https://s3.amazonaws.com/ngs-image-storage/Cant_Counterpick_Stupid_2512.png",
+   "inputhover": "Lost against team Can't Counterpick Stupid 2 times (12.5% of all games lost as Anomaly)",
+   "enemy_link": "/Esports/NGS/Team/Can't Counterpick Stupid?season=22&division=C West"
+  }
+ ],
+ "team_ban_date": [
+  {
+   "hero": {
+    "id": 3,
+    "name": "Anub'arak",
+    "short_name": "anubarak",
+    "alt_name": "Anubarak",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-10-07 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Anub",
+    "build_copy_name": "Anubarak",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 5,
+   "inputhover": "Times Banned: 5"
+  },
+  {
+   "hero": {
+    "id": 53,
+    "name": "Sylvanas",
+    "short_name": "sylvanas",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-03-24 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Sylv",
+    "build_copy_name": "Sylvanas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 4,
+   "inputhover": "Times Banned: 4"
+  },
+  {
+   "hero": {
+    "id": 54,
+    "name": "Tassadar",
+    "short_name": "tassadar",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Tass",
+    "build_copy_name": "Tassadar",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 4,
+   "inputhover": "Times Banned: 4"
+  },
+  {
+   "hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 4,
+   "inputhover": "Times Banned: 4"
+  },
+  {
+   "hero": {
+    "id": 59,
+    "name": "Tychus",
+    "short_name": "tychus",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-18 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Tych",
+    "build_copy_name": "Tychus",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 4,
+   "inputhover": "Times Banned: 4"
+  },
+  {
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 3,
+   "inputhover": "Times Banned: 3"
+  },
+  {
+   "hero": {
+    "id": 27,
+    "name": "Kael'thas",
+    "short_name": "kaelthas",
+    "alt_name": "Kaelthas",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-05-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Kael",
+    "build_copy_name": "Kaelthas",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 10,
+    "name": "Chen",
+    "short_name": "chen",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2014-09-10 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Chen",
+    "build_copy_name": "Chen",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 88,
+    "name": "Qhira",
+    "short_name": "qhira",
+    "alt_name": "NexusHunter",
+    "role": null,
+    "new_role": "Melee Assassin",
+    "type": "Melee",
+    "release_date": "2019-08-06 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "NXHU",
+    "build_copy_name": "Qhira",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 44,
+    "name": "Ragnaros",
+    "short_name": "ragnaros",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-12-14 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Ragn",
+    "build_copy_name": "Ragnaros",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 87,
+    "name": "Anduin",
+    "short_name": "anduin",
+    "alt_name": "",
+    "role": "Healer",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2019-04-30 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Andu",
+    "build_copy_name": "Anduin",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 8,
+    "name": "Brightwing",
+    "short_name": "brightwing",
+    "alt_name": "FaerieDragon",
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-04-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Faer",
+    "build_copy_name": "Brightwing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 91,
+    "name": "Hogger",
+    "short_name": "hogger",
+    "alt_name": null,
+    "role": null,
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2020-12-01 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "HOGG",
+    "build_copy_name": "Hogger",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 35,
+    "name": "Lunara",
+    "short_name": "lunara",
+    "alt_name": "Dryad",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-12-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Drya",
+    "build_copy_name": "Lunara",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 62,
+    "name": "Uther",
+    "short_name": "uther",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Uthe",
+    "build_copy_name": "Uther",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 69,
+    "name": "Zeratul",
+    "short_name": "zeratul",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Melee Assassin",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Zera",
+    "build_copy_name": "Zeratul",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 64,
+    "name": "Valla",
+    "short_name": "valla",
+    "alt_name": "DemonHunter",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Demo",
+    "build_copy_name": "Valla",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 82,
+    "name": "Whitemane",
+    "short_name": "whitemane",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2018-08-05 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "WHIT",
+    "build_copy_name": "Whitemane",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 46,
+    "name": "Rehgar",
+    "short_name": "rehgar",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2014-07-23 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Rehg",
+    "build_copy_name": "Rehgar",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 14,
+    "name": "Dehaka",
+    "short_name": "dehaka",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-03-29 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Deha",
+    "build_copy_name": "Dehaka",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 65,
+    "name": "Varian",
+    "short_name": "varian",
+    "alt_name": null,
+    "role": "Multiclass",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-11-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Vari",
+    "build_copy_name": "Varian",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 15,
+    "name": "Diablo",
+    "short_name": "diablo",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Diab",
+    "build_copy_name": "Diablo",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 16,
+    "name": "E.T.C.",
+    "short_name": "etc",
+    "alt_name": "L90ETC",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "L90E",
+    "build_copy_name": "ETC",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 52,
+    "name": "Stukov",
+    "short_name": "stukov",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2017-07-11 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "STUK",
+    "build_copy_name": "Stukov",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 19,
+    "name": "Garrosh",
+    "short_name": "garrosh",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2017-08-08 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Garr",
+    "build_copy_name": "Garrosh",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 89,
+    "name": "Deathwing",
+    "short_name": "deathwing",
+    "alt_name": null,
+    "role": null,
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2019-12-03 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "DEAT",
+    "build_copy_name": "Deathwing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  }
+ ],
+ "enemy_ban_date": [
+  {
+   "hero": {
+    "id": 52,
+    "name": "Stukov",
+    "short_name": "stukov",
+    "alt_name": null,
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Melee",
+    "release_date": "2017-07-11 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "STUK",
+    "build_copy_name": "Stukov",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 8,
+   "inputhover": "Times Banned: 8"
+  },
+  {
+   "hero": {
+    "id": 17,
+    "name": "Falstad",
+    "short_name": "falstad",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Fals",
+    "build_copy_name": "Falstad",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 7,
+   "inputhover": "Times Banned: 7"
+  },
+  {
+   "hero": {
+    "id": 28,
+    "name": "Kerrigan",
+    "short_name": "kerrigan",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Melee Assassin",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Kerr",
+    "build_copy_name": "Kerrigan",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 7,
+   "inputhover": "Times Banned: 7"
+  },
+  {
+   "hero": {
+    "id": 3,
+    "name": "Anub'arak",
+    "short_name": "anubarak",
+    "alt_name": "Anubarak",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-10-07 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Anub",
+    "build_copy_name": "Anubarak",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 6,
+   "inputhover": "Times Banned: 6"
+  },
+  {
+   "hero": {
+    "id": 49,
+    "name": "Sgt. Hammer",
+    "short_name": "sgthammer",
+    "alt_name": "SgtHammer",
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.2.87774",
+    "attribute_id": "Sgth",
+    "build_copy_name": "SgtHammer",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 5,
+   "inputhover": "Times Banned: 5"
+  },
+  {
+   "hero": {
+    "id": 35,
+    "name": "Lunara",
+    "short_name": "lunara",
+    "alt_name": "Dryad",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-12-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Drya",
+    "build_copy_name": "Lunara",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 1,
+    "name": "Abathur",
+    "short_name": "abathur",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Support",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:01",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Abat",
+    "build_copy_name": "Abathur",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 64,
+    "name": "Valla",
+    "short_name": "valla",
+    "alt_name": "DemonHunter",
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Demo",
+    "build_copy_name": "Valla",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 51,
+    "name": "Stitches",
+    "short_name": "stitches",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Stit",
+    "build_copy_name": "Stitches",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 26,
+    "name": "Johanna",
+    "short_name": "johanna",
+    "alt_name": "Crusader",
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2015-06-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Crus",
+    "build_copy_name": "Johanna",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 25,
+    "name": "Jaina",
+    "short_name": "jaina",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-12-02 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Jain",
+    "build_copy_name": "Jaina",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "hero": {
+    "id": 45,
+    "name": "Raynor",
+    "short_name": "raynor",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Rayn",
+    "build_copy_name": "Raynor",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 65,
+    "name": "Varian",
+    "short_name": "varian",
+    "alt_name": null,
+    "role": "Multiclass",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2016-11-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Vari",
+    "build_copy_name": "Varian",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 8,
+    "name": "Brightwing",
+    "short_name": "brightwing",
+    "alt_name": "FaerieDragon",
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2014-04-15 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Faer",
+    "build_copy_name": "Brightwing",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 69,
+    "name": "Zeratul",
+    "short_name": "zeratul",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Melee Assassin",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Zera",
+    "build_copy_name": "Zeratul",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 30,
+    "name": "Leoric",
+    "short_name": "leoric",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2015-07-21 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Leor",
+    "build_copy_name": "Leoric",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 15,
+    "name": "Diablo",
+    "short_name": "diablo",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Tank",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Diab",
+    "build_copy_name": "Diablo",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 4,
+    "name": "Artanis",
+    "short_name": "artanis",
+    "alt_name": null,
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2015-10-20 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Arts",
+    "build_copy_name": "Artanis",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 50,
+    "name": "Sonya",
+    "short_name": "sonya",
+    "alt_name": "Barbarian",
+    "role": "Warrior",
+    "new_role": "Bruiser",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Barb",
+    "build_copy_name": "Sonya",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "hero": {
+    "id": 59,
+    "name": "Tychus",
+    "short_name": "tychus",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2014-03-18 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Tych",
+    "build_copy_name": "Tychus",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "bans": 1,
+   "inputhover": "Times Banned: 1"
+  }
+ ],
+ "maps_banned": [
+  {
+   "game_map": {
+    "map_id": 12,
+    "name": "Towers of Doom",
+    "short_name": "TowersOfDoom",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "towers_of_doom"
+   },
+   "value": 3,
+   "inputhover": "Times Banned: 3"
+  },
+  {
+   "game_map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "value": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "game_map": {
+    "map_id": 15,
+    "name": "Alterac Pass",
+    "short_name": "AlteracPass",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "alterac_pass"
+   },
+   "value": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "game_map": {
+    "map_id": 10,
+    "name": "Sky Temple",
+    "short_name": "ControlPoints",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "sky_temple"
+   },
+   "value": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "game_map": {
+    "map_id": 11,
+    "name": "Tomb of the Spider Queen",
+    "short_name": "Crypts",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "tomb_of_the_spider_queen"
+   },
+   "value": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "game_map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "value": 2,
+   "inputhover": "Times Banned: 2"
+  },
+  {
+   "game_map": {
+    "map_id": 6,
+    "name": "Garden of Terror",
+    "short_name": "HauntedWoods",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "garden_of_terror"
+   },
+   "value": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "game_map": {
+    "map_id": 1,
+    "name": "Battlefield of Eternity",
+    "short_name": "BattlefieldOfEternity",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "battlefield_of_eternity"
+   },
+   "value": 1,
+   "inputhover": "Times Banned: 1"
+  },
+  {
+   "game_map": {
+    "map_id": 14,
+    "name": "Volskaya Foundry",
+    "short_name": "Volskaya",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "volskaya_foundry"
+   },
+   "value": 1,
+   "inputhover": "Times Banned: 1"
+  }
+ ]
+}

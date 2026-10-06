@@ -1,0 +1,1201 @@
+{
+ "team22": "Can't Counterpick Stupid",
+ "data": {
+  "wins": 2,
+  "losses": 0,
+  "win_rate": 100,
+  "kdr": 2,
+  "kda": 11,
+  "takedowns": 22,
+  "kills": 4,
+  "assists": 18,
+  "icon_url": "https://s3.amazonaws.com/ngs-image-storage/Cant_Counterpick_Stupid_2512.png",
+  "time_spent_dead": "0 hours, 1 minutes, 47 seconds",
+  "deaths": 2,
+  "total_games": 2,
+  "matches": [
+   {
+    "replayID": 23088,
+    "game_date": "2026-09-04 04:07:20",
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game": 2,
+    "round": "4",
+    "team_0_name": "Can't Counterpick Stupid",
+    "team_1_name": "Roll1Esports",
+    "winner": 1,
+    "heroes": [
+     {
+      "hero": {
+       "id": 30,
+       "name": "Leoric",
+       "short_name": "leoric",
+       "alt_name": null,
+       "role": "Warrior",
+       "new_role": "Bruiser",
+       "type": "Melee",
+       "release_date": "2015-07-21 00:00:00",
+       "rework_date": null,
+       "last_change_patch_version": "2.55.4.91769",
+       "attribute_id": "Leor",
+       "build_copy_name": "Leoric",
+       "last_updated": "2024-02-06 18:32:51"
+      }
+     }
+    ]
+   },
+   {
+    "replayID": 23087,
+    "game_date": "2026-09-04 03:35:57",
+    "game_map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "game": 1,
+    "round": "4",
+    "team_0_name": "Can't Counterpick Stupid",
+    "team_1_name": "Roll1Esports",
+    "winner": 1,
+    "heroes": [
+     {
+      "hero": {
+       "id": 50,
+       "name": "Sonya",
+       "short_name": "sonya",
+       "alt_name": "Barbarian",
+       "role": "Warrior",
+       "new_role": "Bruiser",
+       "type": "Melee",
+       "release_date": "2014-03-13 00:00:00",
+       "rework_date": null,
+       "last_change_patch_version": "2.55.4.91368",
+       "attribute_id": "Barb",
+       "build_copy_name": "Sonya",
+       "last_updated": "2024-02-02 15:34:06"
+      }
+     }
+    ]
+   }
+  ],
+  "heroes": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Leoric?season=22"
+   },
+   {
+    "hero_id": 50,
+    "hero": {
+     "id": 50,
+     "name": "Sonya",
+     "short_name": "sonya",
+     "alt_name": "Barbarian",
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Barb",
+     "build_copy_name": "Sonya",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "name": "Sonya",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Sonya?season=22"
+   }
+  ],
+  "hero_top_three_most_played": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Leoric?season=22"
+   },
+   {
+    "hero_id": 50,
+    "hero": {
+     "id": 50,
+     "name": "Sonya",
+     "short_name": "sonya",
+     "alt_name": "Barbarian",
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Barb",
+     "build_copy_name": "Sonya",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "name": "Sonya",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Sonya?season=22"
+   }
+  ],
+  "hero_top_three_highest_win_rate": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Leoric?season=22"
+   },
+   {
+    "hero_id": 50,
+    "hero": {
+     "id": 50,
+     "name": "Sonya",
+     "short_name": "sonya",
+     "alt_name": "Barbarian",
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Barb",
+     "build_copy_name": "Sonya",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "name": "Sonya",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Sonya?season=22"
+   }
+  ],
+  "hero_top_three_lowest_win_rate": [
+   {
+    "hero_id": 30,
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "name": "Leoric",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Leoric?season=22"
+   },
+   {
+    "hero_id": 50,
+    "hero": {
+     "id": 50,
+     "name": "Sonya",
+     "short_name": "sonya",
+     "alt_name": "Barbarian",
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Barb",
+     "build_copy_name": "Sonya",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "name": "Sonya",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Hero/Sonya?season=22"
+   }
+  ],
+  "maps": [
+   {
+    "map_id": 9,
+    "map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "game_map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "name": "Infernal Shrines",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Infernal Shrines?season=22"
+   },
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Towers of Doom?season=22"
+   }
+  ],
+  "map_top_three_most_played": [
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Towers of Doom?season=22"
+   },
+   {
+    "map_id": 9,
+    "map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "game_map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "name": "Infernal Shrines",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Infernal Shrines?season=22"
+   }
+  ],
+  "map_top_three_highest_win_rate": [
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Towers of Doom?season=22"
+   },
+   {
+    "map_id": 9,
+    "map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "game_map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "name": "Infernal Shrines",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Infernal Shrines?season=22"
+   }
+  ],
+  "map_top_three_lowest_win_rate": [
+   {
+    "map_id": 12,
+    "map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "game_map": {
+     "map_id": 12,
+     "name": "Towers of Doom",
+     "short_name": "TowersOfDoom",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "towers_of_doom"
+    },
+    "name": "Towers of Doom",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Towers of Doom?season=22"
+   },
+   {
+    "map_id": 9,
+    "map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "game_map": {
+     "map_id": 9,
+     "name": "Infernal Shrines",
+     "short_name": "Shrines",
+     "type": "standard",
+     "ranked_rotation": 1,
+     "playable": 1,
+     "sanitized_map_name": "infernal_shrines"
+    },
+    "name": "Infernal Shrines",
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100,
+    "games_played": 1,
+    "battletag": "Zephy",
+    "blizz_id": "3649960",
+    "season": "22",
+    "division": null,
+    "link": "/Esports/NGS/Player/Zephy/3649960/Map/Infernal Shrines?season=22"
+   }
+  ],
+  "seasons": [
+   {
+    "code": null,
+    "name": "All"
+   },
+   {
+    "code": "22",
+    "name": "22"
+   },
+   {
+    "code": "20",
+    "name": "20"
+   },
+   {
+    "code": "18",
+    "name": "18"
+   },
+   {
+    "code": "17",
+    "name": "17"
+   },
+   {
+    "code": "16",
+    "name": "16"
+   },
+   {
+    "code": "15",
+    "name": "15"
+   },
+   {
+    "code": "14",
+    "name": "14"
+   },
+   {
+    "code": "13",
+    "name": "13"
+   },
+   {
+    "code": "12",
+    "name": "12"
+   },
+   {
+    "code": "11",
+    "name": "11"
+   }
+  ],
+  "divisions": [
+   {
+    "code": null,
+    "name": "All"
+   },
+   {
+    "code": "D East",
+    "name": "D East"
+   },
+   {
+    "code": "C West",
+    "name": "C West"
+   },
+   {
+    "code": "B West",
+    "name": "B West"
+   },
+   {
+    "code": "D SouthEast",
+    "name": "D SouthEast"
+   },
+   {
+    "code": "D West",
+    "name": "D West"
+   }
+  ],
+  "players": {
+   "Zephy#1502": {
+    "battletag": "Zephy",
+    "blizz_id": 3649960,
+    "most_played_hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "win_rate_on_hero": 100,
+    "most_played_role": "Bruiser",
+    "games_played": 2,
+    "playerlink": "/Esports/NGS/Player/Zephy/3649960?season=22",
+    "herolink": "/Esports/NGS/Player/Zephy/3649960/Hero/Leoric?season=22"
+   }
+  },
+  "heroes_lost_against": [],
+  "heroes_won_against": [
+   {
+    "hero": {
+     "id": 26,
+     "name": "Johanna",
+     "short_name": "johanna",
+     "alt_name": "Crusader",
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2015-06-02 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Crus",
+     "build_copy_name": "Johanna",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 2,
+    "inputhover": "Won while on a team with Johanna 2 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 35,
+     "name": "Lunara",
+     "short_name": "lunara",
+     "alt_name": "Dryad",
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2015-12-15 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Drya",
+     "build_copy_name": "Lunara",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 2,
+    "inputhover": "Won while on a team with Lunara 2 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 59,
+     "name": "Tychus",
+     "short_name": "tychus",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2014-03-18 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Tych",
+     "build_copy_name": "Tychus",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 2,
+    "inputhover": "Won while on a team with Tychus 2 times (500% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 53,
+     "name": "Sylvanas",
+     "short_name": "sylvanas",
+     "alt_name": null,
+     "role": "Specialist",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2015-03-24 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Sylv",
+     "build_copy_name": "Sylvanas",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Sylvanas 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 19,
+     "name": "Garrosh",
+     "short_name": "garrosh",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2017-08-08 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Garr",
+     "build_copy_name": "Garrosh",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Garrosh 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 61,
+     "name": "Tyrande",
+     "short_name": "tyrande",
+     "alt_name": null,
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Ranged",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Tyrd",
+     "build_copy_name": "Tyrande",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Tyrande 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 75,
+     "name": "Hanzo",
+     "short_name": "hanzo",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2017-12-12 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Hanz",
+     "build_copy_name": "Hanzo",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Hanzo 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 5,
+     "name": "Arthas",
+     "short_name": "arthas",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Arth",
+     "build_copy_name": "Arthas",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Arthas 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 82,
+     "name": "Whitemane",
+     "short_name": "whitemane",
+     "alt_name": null,
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Ranged",
+     "release_date": "2018-08-05 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "WHIT",
+     "build_copy_name": "Whitemane",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Whitemane 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 50,
+     "name": "Sonya",
+     "short_name": "sonya",
+     "alt_name": "Barbarian",
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Barb",
+     "build_copy_name": "Sonya",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Sonya 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 22,
+     "name": "Greymane",
+     "short_name": "greymane",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2016-01-12 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Genn",
+     "build_copy_name": "Greymane",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Greymane 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 51,
+     "name": "Stitches",
+     "short_name": "stitches",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Stit",
+     "build_copy_name": "Stitches",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Stitches 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 36,
+     "name": "Malfurion",
+     "short_name": "malfurion",
+     "alt_name": null,
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Ranged",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Malf",
+     "build_copy_name": "Malfurion",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Malfurion 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 14,
+     "name": "Dehaka",
+     "short_name": "dehaka",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2016-03-29 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Deha",
+     "build_copy_name": "Dehaka",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Dehaka 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 32,
+     "name": "Li-Ming",
+     "short_name": "liming",
+     "alt_name": "Wizard",
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2016-02-02 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Wiza",
+     "build_copy_name": "LiMing",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Li-Ming 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 52,
+     "name": "Stukov",
+     "short_name": "stukov",
+     "alt_name": null,
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Melee",
+     "release_date": "2017-07-11 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "STUK",
+     "build_copy_name": "Stukov",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Stukov 1 times (250% of all games won as )"
+   },
+   {
+    "hero": {
+     "id": 30,
+     "name": "Leoric",
+     "short_name": "leoric",
+     "alt_name": null,
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-07-21 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Leor",
+     "build_copy_name": "Leoric",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "total": 1,
+    "inputhover": "Won while on a team with Leoric 1 times (250% of all games won as )"
+   }
+  ],
+  "enemy_teams": [],
+  "team_ban_date": [
+   {
+    "hero": {
+     "id": 43,
+     "name": "Probius",
+     "short_name": "probius",
+     "alt_name": null,
+     "role": "Specialist",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2017-03-14 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Prob",
+     "build_copy_name": "Probius",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 52,
+     "name": "Stukov",
+     "short_name": "stukov",
+     "alt_name": null,
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Melee",
+     "release_date": "2017-07-11 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "STUK",
+     "build_copy_name": "Stukov",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 73,
+     "name": "Junkrat",
+     "short_name": "junkrat",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Ranged Assassin",
+     "type": "Ranged",
+     "release_date": "2017-10-17 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Junk",
+     "build_copy_name": "Junkrat",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 3,
+     "name": "Anub'arak",
+     "short_name": "anubarak",
+     "alt_name": "Anubarak",
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2014-10-07 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Anub",
+     "build_copy_name": "Anubarak",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 48,
+     "name": "Samuro",
+     "short_name": "samuro",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Melee Assassin",
+     "type": "Melee",
+     "release_date": "2016-10-18 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Samu",
+     "build_copy_name": "Samuro",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 57,
+     "name": "Thrall",
+     "short_name": "thrall",
+     "alt_name": null,
+     "role": "Assassin",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2015-01-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Thra",
+     "build_copy_name": "Thrall",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   }
+  ],
+  "enemy_ban_date": [
+   {
+    "hero": {
+     "id": 46,
+     "name": "Rehgar",
+     "short_name": "rehgar",
+     "alt_name": null,
+     "role": "Support",
+     "new_role": "Healer",
+     "type": "Melee",
+     "release_date": "2014-07-23 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "Rehg",
+     "build_copy_name": "Rehgar",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 2,
+    "inputhover": "Times Banned: 2"
+   },
+   {
+    "hero": {
+     "id": 91,
+     "name": "Hogger",
+     "short_name": "hogger",
+     "alt_name": null,
+     "role": null,
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2020-12-01 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91769",
+     "attribute_id": "HOGG",
+     "build_copy_name": "Hogger",
+     "last_updated": "2024-02-06 18:32:51"
+    },
+    "bans": 2,
+    "inputhover": "Times Banned: 2"
+   },
+   {
+    "hero": {
+     "id": 3,
+     "name": "Anub'arak",
+     "short_name": "anubarak",
+     "alt_name": "Anubarak",
+     "role": "Warrior",
+     "new_role": "Tank",
+     "type": "Melee",
+     "release_date": "2014-10-07 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Anub",
+     "build_copy_name": "Anubarak",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   },
+   {
+    "hero": {
+     "id": 50,
+     "name": "Sonya",
+     "short_name": "sonya",
+     "alt_name": "Barbarian",
+     "role": "Warrior",
+     "new_role": "Bruiser",
+     "type": "Melee",
+     "release_date": "2014-03-13 00:00:00",
+     "rework_date": null,
+     "last_change_patch_version": "2.55.4.91368",
+     "attribute_id": "Barb",
+     "build_copy_name": "Sonya",
+     "last_updated": "2024-02-02 15:34:06"
+    },
+    "bans": 1,
+    "inputhover": "Times Banned: 1"
+   }
+  ],
+  "maps_banned": []
+ }
+}
