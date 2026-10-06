@@ -1,0 +1,61 @@
+{
+ "slug": "wandering-keg",
+ "source": "https://www.icy-veins.com/heroes/wandering-keg",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Wandering Keg is a powerful Heroic Ability which is hard to use\nbut has a relatively low cooldown. These characteristics combined together\nmean that you should not be scared to mess up when trying to make plays with it.\nInstead, you should look for opportunities to get value from it as often as possible.\nJust make sure you have a way to get out from danger in case your plans fail.\nWhen using it, Chen transforms into a barrel and gains various effects.\nUnstoppable, making Chen immune to crowd control effects.\n70% Movement Speed, temporarily reduced by up to 70% when hitting enemies.\n25 Armor, reducing both Physical Damage\nand Spell Damage taken.\nKnockback enemies for 7.36 range,\nunless they hit impassable terrain first.\nUnable to use Basic Attacks and/or Abilities.\nMove by following your mouse cursor, without the need to click.\nRather than responding to Move commands, during Wandering Keg,\nChen will simply follow your mouse cursor. The only exception is if you\nkeep your cursor in the exact same place, in which case Chen will keep\ngoing in the previous direction. This is why, when you want to \"stand still\" during\nWandering Keg, you have to constantly move your mouse a little bit.\nIn order to have more control on where enemy Heroes will end up going\nbecause of the Knockback effect,\nyou should hit them with the front of the rolling barrel (not its sides).\nThis is way easier to do when they are almost or completely standing still\nbecause of crowd control effects\nor because they are casting stationary channeled Abilities.\nBe careful when using Wandering Keg near Minions, Mercenaries,\nand Monsters because they contribute to reducing your Movement Speed in the same way\nas when hitting Heroes. Unstoppable enemies\n(including Structures and Bosses) do not interact with this effect."
+  },
+  {
+   "title": "Isolation",
+   "id": "isolation",
+   "text": "This is the easiest and most reliable way to use Wandering Keg.\nStart by casting Flying Kick on the enemy Hero you want to punish,\nuse Wandering Keg to Knockback them once\n(only once) out of position, and then use the remaining duration\nto Knockback all other enemy Heroes away.\nWhen using this strategy, your team will easily be able to take down your first target\nand the enemy team will not be able to help them as usual, unless they have access\nto mobility tools to play around Wandering Keg,\nhigh-range Abilities to save the isolated Hero, or Unstoppable effects\nto prevent the isolation from happening in the first place."
+  },
+  {
+   "title": "Capture",
+   "id": "capture",
+   "text": "As you may know already, Wandering Keg is great when it comes to\nsecuring or stealing Mercenary Camps. You can simply cast Wandering Keg\nand move in circles on the Capture Point until you get it.\nAn uncontested Mercenary Camp requires only 1.5 seconds to be secured.\nYour mission is to Knockback all enemy Heroes away\nand repeat until they are all out at the same time.\nWhen enemy Heroes hit by Knockback effects have\nimpassable terrain behind them,\nthey move for less distance than they would do otherwise.\nIn this case it means they will need less time to get back\non the Capture Point. To avoid so,\ntry to hit them while moving in parallel with impassable terrain\nand avoid hitting them while moving perpendicularly to it.\nThis trick is particularly valuable for Boss Camps, however,\nit can also be used for other Mercenary Camps, with the help of your team.\nDo not worry about its cooldown because, as already said, it's relatively short.\nJust make sure that you will not die for a Mercenary Camp that can be easily defended."
+  },
+  {
+   "title": "Wall-Stun",
+   "id": "wall-stun",
+   "text": "When fighting enemy Heroes near impassable terrain,\nyou can use Wandering Keg to constantly Knockback\nthem against the same wall, effectively locking them down for multiple seconds.\nIf the target enemy Hero is not close enough to impassable terrain,\nyou can use the first part of Wandering Keg\nto bring them there and the rest for keeping them locked.\nWhen using this trick, you will tend to slide sideways together with the targeted enemy Hero.\nAs a result, this trick is way easier to execute against flat impassable terrain,\nwhich can be found at the side of most Battlegrounds, but not only.\nTo keep the effect going, be ready to change direction if needed."
+  },
+  {
+   "title": "Escape",
+   "id": "escape",
+   "text": "The fact you become Unstoppable and gain 70% Movement Speed is great\nfor running away from danger. You shouldn't worry about wasting a 50-second cooldown to survive,\nespecially in the late game since Death Timers increase as the game goes.\nIn combination with Flying Kick baseline\nand Elusive Brawler at Level 7,\nWandering Keg makes Chen extremely hard to gank.\nConsidering that Movement Speed effects do not stack, in order to get the highest amount of value from them,\navoid overlapping Elusive Brawler (lasting 2 seconds)\nand Wandering Keg (lasting 5 seconds)."
+  },
+  {
+   "title": "Peel",
+   "id": "peel",
+   "text": "Although rarely worth being used this way, Wandering Keg\nis quite good for peeling. If you cast it and stay right on top\nof an allied Hero as they move around, you will basically deny all enemy melee Heroes\nto get close enough to hit them with Basic Attacks and with short-range Abilities.\nYou can also use it to Knockback ranged Heroes away."
+  },
+  {
+   "title": "Disengage",
+   "id": "disengage",
+   "text": "When your team is in trouble and you think that a disaster is going to happen,\nyou can cast Wandering Keg defensively. Generally speaking,\nyou should use the first 3 seconds to Knockback\ndangerous enemy Heroes away and the last 2 seconds to escape.\nDo not underestimate the value you can get by denying the enemy team\nan opportunity to chase your team while you are being outnumbered\nor do not want to fight for whatever reason, especially if\nthey have already used a Heroic Ability with a long cooldown\n(for example Nano Boost by Ana)."
+  },
+  {
+   "title": "Chase",
+   "id": "chase",
+   "text": "Although it will rarely be the correct play, it is good to mention that\nWandering Keg can also be used to chase enemy Heroes.\nJust avoid hitting them before Wandering Keg is over,\notherwise the Knockback effect will save them from danger.\nAt that point you will be in range to use Flying Kick on them."
+  },
+  {
+   "title": "Gate-Block",
+   "id": "gate-block",
+   "text": "This is a particularly aggressive and thus extremely dangerous strategy\nthat can be used to Knockback an enemy Hero\noutside of their Gate and block their attempts to get back inside.\nThe best moment for using this strategy is when pushing\nwith a Boss because their powerful Stun can create\nadditional space for you and your teammates.\nIn order to not die while going for this kind of play,\nyou must count on all your defensive Abilities and Talents\nto reduce damage taken while enemy Structures shoot at you:\nElusive Brawler at Level 7\nbefore using Wandering Keg,\nStagger after using your Heroic Ability,\nand then Fortifying Brew to mitigate some\ndelayed damage from Stagger once you are out."
+  },
+  {
+   "title": "Split-Push",
+   "id": "split-push",
+   "text": "When playing on big Maps where the Objective phase is relatively long\n(for example Sky Temple or Alterac Pass),\nWandering Keg allows you\nto safely pressure enemy side lanes with way lower risk of dying to enemy Heroes.\nChen does not have high waveclear\nbut can deal a fair amount of damage to enemy Structures.\nTalents that are useful while split-pushing are\nRing of Fire at Level 13 and Combo Strikes\nat Level 16. They both increase your own damage against Structures.\nThe former also increases your waveclear, which helps\nallied Minions to reach enemy Structures sooner and with more Health.\nThis strategy is not going to work against competent opponents\nbecause they will either execute more sophisticated ganks\nto punish you (forcing you to waste Wandering Keg)\nor, alternatively, they will try to get as much value as possible somewhere else\n(exploiting the fact you are leaving your teammates at a numerical disadvantage).\nSee our Chen Hero Guide for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 Nov. 2022: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "slug": "pings-guide",
+ "source": "https://www.icy-veins.com/heroes/pings-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Pings are a way to communicate with teammates without using chat.\nThey can be used to coordinate team actions and warn about threats.\nBy effectively communicating through pings, you can keep typing\nto a minimum and increase your chance to win."
+  },
+  {
+   "title": "Quick Ping",
+   "id": "quick-ping",
+   "text": "To use a Quick Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button] on interactive targets.\nTo customize it, look for Quick Ping in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Capture Camp",
+   "id": "capture-camp",
+   "text": "Malfurion wants to capture Siege Camp\nYou can use a Quick Ping on a Mercenary Camp to point out that\nit is time to start clearing it, so that your teammates do not forget\nto do it. Ping earlier if you do not want them to be late.\nThis way you will also help players who are not familiar\nwith Mercenary Camp timings at understanding when to do them."
+  },
+  {
+   "title": "Get Objective",
+   "id": "get-objective",
+   "text": "E.T.C. wants to collect Tribute\nYou can use a Quick Ping on a Map Objective to ask your\nteammates to collect/capture it because you are ready to\nzone for them or you are busy doing\nsomething else. Heroes that are good at zoning should\nideally not be channeling Objectives."
+  },
+  {
+   "title": "Push Structure",
+   "id": "push-structure",
+   "text": "Sylvanas wants to push Tower\nYou can use a Quick Ping on a Structure to tell your teammates to\ntarget it or that you ideally want to destroy it before retreating.\nThis is particularly useful when going for a Tower and both Towers\nnear a Gate are up, or when an allied Hero gets thrown behind the enemy\nGate and you need quickly to destroy a side Wall to get them out."
+  },
+  {
+   "title": "Kill Hero",
+   "id": "kill-hero",
+   "text": "Anub'arak wants to kill Whitemane\nYou can use a Quick Ping on an enemy Hero in-vision to tell your\nteammates to kill them. This is a way to communicate that it is important\nto kill that Hero first or that you want to focus damage on that Hero\nto secure a kill, avoiding damaging multiple Heroes and killing none."
+  },
+  {
+   "title": "Kill Mercenary",
+   "id": "kill-mercenary",
+   "text": "Uther wants to kill Boss\nYou can use a Quick Ping on an enemy Mercenary in lane to tell your\nteammates to kill them. This is a way to communicate that it is important\nto kill that Mercenary as soon as possible, before nearby Structures\ntake too much damage or get completely destroyed. This is mostly\nuseful for Bosses, but can also be used for other Mercenaries."
+  },
+  {
+   "title": "Need Help",
+   "id": "need-help",
+   "text": "Ana needs help!\nYou can use a Quick Ping on yourself to tell your teammates to help you.\nThis is particularly useful when you are being dove\nwhile playing a Hero with no (or almost none) peeling\ntools and low survivability (for example Ana)."
+  },
+  {
+   "title": "Healing Fountain",
+   "id": "healing-fountain",
+   "text": "Diablo needs to drink from Healing Fountain\nYou can use a Quick Ping on a Healing Fountain to tell your\nteammates that you need to drink from it. This way they will\nknow that you cannot help them for a few moments. This is better\nthan pinging your Health Bar or Resource Bar (as explained\nin the corresponding sections) because sometimes you may\nwant to pre-tap (using your Healing Fountain right before\na fight when almost full Health and Mana)."
+  },
+  {
+   "title": "Danger Ping",
+   "id": "danger-ping",
+   "text": "To use a Danger Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button], move your mouse cursor upwards, and then release.\nTo customize it, look for Quick Ping in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Dangerous Area",
+   "id": "dangerous-area",
+   "text": "Tyrande warns this area is dangerous!\nYou can use a Danger Ping to tell your teammates that a given area\nis dangerous because there are enemy Heroes hiding nearby or because\nan enemy Hero put something harmful there (for example\nSteel Trap by Junkrat)."
+  },
+  {
+   "title": "Stealth Hero",
+   "id": "stealth-hero",
+   "text": "Garrosh warns this area is dangerous!\nYou can use a Danger Ping to signal that you spotted an enemy Hero in Stealth\nnear that location. Considering that Stealth prevents Heroes to be seen\non the Minimap, it is quite useful to use pings for them."
+  },
+  {
+   "title": "Dangerous Hero",
+   "id": "dangerous-hero",
+   "text": "Varian warns that Garrosh is dangerous!\nYou can use a Danger Ping on an enemy Hero to let your teammates know\nthey are a threat and they should be respecting them. This is useful\nwhen facing Heroes with powerful Abilities who can easily get a kill\n(for example Stitches with Gorge)."
+  },
+  {
+   "title": "Bad Positioning",
+   "id": "bad-positioning",
+   "text": "Uther warns Jaina is in danger!\nYou can use a Danger Ping on an allied Hero to let them know\nthey are standing in a dangerous spot, a choke point, or where\nyour team lacks vision. This way they will hopefully notice their\nmistake and move to a safer position before it is too late."
+  },
+  {
+   "title": "Enemy Nearby",
+   "id": "enemy-nearby",
+   "text": "Varian warns this area is dangerous!\nYou can use a Danger Ping where you think enemy Heroes could\nengage, flank,\ninvade a Mercenary Camp, or gank.\nThis is meant to raise awareness, to make your teammates\nfaster at responding to threats."
+  },
+  {
+   "title": "Invade Risk",
+   "id": "invade-risk",
+   "text": "Valla warns this area is dangerous!\nYou can use a Danger Ping on a Mercenary Camp to communicate\nthat you believe the enemy team is on it and your team needs to\nmake a play based on that: take down Structures nearby or, if they\nare on a Boss Camp on a Map with 2 of them,\ncapture the other one."
+  },
+  {
+   "title": "Cheese Risk",
+   "id": "cheese-risk",
+   "text": "Mal'Ganis warns that Sgt. Hammer is dangerous!\nMal'Ganis warns this area is dangerous!\nMal'Ganis warns this area is dangerous!\nYou can use a Quick Ping on an enemy Hero (for example Sylvanas)\nfollowed by a Danger Ping on top lane and bottom lane at the start of the game\nto let your team know that the enemy team could go there immediately\nand push. If you are near them, defend. If you are too far\nfrom that lane, just push and trade Fort for Fort."
+  },
+  {
+   "title": "Hearthstone",
+   "id": "hearthstone",
+   "text": "Sgt. Hammer warns this area is dangerous!\nRight after returning to the Hall of Storms with your Hearthstone,\nyou can use a Danger Ping on yourself or around you to communicate\nthat you are far away from the action and they need to wait for you."
+  },
+  {
+   "title": "On My Way Ping",
+   "id": "on-my-way-ping",
+   "text": "To use an On My Way Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button], move your mouse cursor to the right, and then release.\nTo customize it, look for Quick Ping in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Join Soon",
+   "id": "join-soon",
+   "text": "Anduin is on the way!\nYou can use an On My Way Ping to communicate that you will soon be\nin a given location to fight, gank, defend Structures,\ncontest Objective, heal allied Heroes, or provide support in any way.\nThis way your teammates could wait for you before making a play\nor start baiting enemies right before you get there."
+  },
+  {
+   "title": "Capture Camp",
+   "id": "capture-camp-1",
+   "text": "Greymane is on their way to Bruiser Camp!\nYou can use an On My Way Ping to communicate that you are leaving\nyour current location to go capture a Mercenary Camp. This way your\nteam will be warned that you are abandoning them for a bit and\nthey will realize they have to play safe until you come back."
+  },
+  {
+   "title": "Engage Soon",
+   "id": "engage-soon",
+   "text": "Hanzo is on the way!\nYou can use an On My Way Ping right before engaging\n(for example Hanzo using Dragon's Arrow),\nso that your teammates can go in at the same time and not be late. You can\nalso do this during a team fight to communicate that you intend to continue\nthe battle, that you want to chase enemy Heroes."
+  },
+  {
+   "title": "Assist Ping",
+   "id": "assist-ping",
+   "text": "To use an Assist Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button], move your mouse cursor downwards, and then release.\nTo customize it, look for Quick Ping in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Mercenary Camp",
+   "id": "mercenary-camp",
+   "text": "Hanzo asks for assistance!\nYou can use an Assist Ping when you or someone else needs help\nfor capturing a Mercenary Camp as the only Hero who is currently\non that job is not enough. When this ping is used this way,\nyou generally want the Healer to join."
+  },
+  {
+   "title": "Get Objective",
+   "id": "get-objective-1",
+   "text": "Cassia wants assistance capturing this Seed!\nYou can use an Assist Ping when you need help\nto capture/collect an Objective. This way you\ncan tell your team that you cannot do it alone\nbecause there are Heroes and/or Monsters nearby."
+  },
+  {
+   "title": "Cover Lane",
+   "id": "cover-lane",
+   "text": "Tyrande asks for assistance!\nYou can use an Assist Ping when a lane is empty\nand someone should be there to soak.\nThis way your teammates will notice that someone should go\nthere in order for your team to not lose precious Experience,\nespecially in the early game."
+  },
+  {
+   "title": "Reinforcements",
+   "id": "reinforcements",
+   "text": "Murky asks for assistance!\nYou can use an Assist Ping when a lane is not empty but you need\nreinforcements due to an unfavorable matchup,\ndue to being outnumbered, or because you cannot win the nearby\nCapture Point. The help you need could be in various forms: healing,\nwaveclear, or ganking."
+  },
+  {
+   "title": "Regeneration Globe",
+   "id": "regeneration-globe",
+   "text": "Kael'thas asks for assistance!\nYou can use an Assist Ping on enemy Minions to signal that\nyou need help to collect the Regeneration Globe. While some\nHeroes need them more than others, they are useful for all\nHeroes, not just for who has a Quest requiring them.\nThis way a Hero with more mobility\nor survivability than you can pick it up for you.\nRegeneration Globes are needed for getting progress on the following Quests:\nCircle of Life at Level 1 on Alexstrasza;\nRegeneration Master at Level 1 on Anub'arak;\nNew Habits at Level 1 on Blaze;\nFreshest Ingredients at Level 1 on Chen;\nTissue Regeneration at Level 1 on Dehaka;\nProg Rock at Level 1 on E.T.C.;\nChaotic Energy at Level 1 on Gul'dan;\nFingers of Frost at Level 1 on Jaina;\nLaws of Hope at Level 1 on Johanna;\nMana Addict at Level 1 on Kael'thas;\nPhylactery of Kel'Thuzad at Level 4 on Kel'Thuzad;\nCatching Fire at Level 4 on Ragnaros;\nHunter-Gatherer at Level 4 on Rexxar;\nHungry for More at Level 1 on Stitches;\nViking Hoard as Baseline Quest on The Lost Vikings;\nArdent Restoration at Level 1 on Tyrael;\nVigor at Leve 1 on Valeera;\nHigh King's Quest at Level 1 on Varian;\nGive Me Twenty at Level 4 on Zarya;\nShadow Hunter at Level 1 on Zeratul.\nThe following Talents benefit from Regeneration Globes as well:\nLightwell at Level 1 on Anduin;\nGlimmer of Hope at Level 7 on Auriel;\nDevil's Due at Level 1 on Diablo;\nPress Forward at Level 4 on Imperius;\nAssimilation Mastery at Level 1 on Kerrigan;\nOssein Renewal at Level 1 on Leoric;\nPower Hungry at Level 1 on Li-Ming;\nBackup Battery at Level 7 on Mei;\nSpite at Level 4 on Mephisto;\nIs That a Health Pack?! at Level 4 on Tracer.\nDue to Aspect of Death, Regeneration Globes\nare also the only way for allied Heroes to heal Deathwing.\n4 Regeneration Globes are almost equivalent to a Healing Fountain."
+  },
+  {
+   "title": "Group Up",
+   "id": "group-up",
+   "text": "Auriel asks for assistance!\nYou can use an Assist Ping near you to tell your teammates\nto group up in a given spot. This is particularly useful\nwhen playing a Healer with\narea of effect healing\n(for example Auriel)."
+  },
+  {
+   "title": "Call Hero",
+   "id": "call-hero",
+   "text": "Valla wants to help Malfurion\nValla asks for assistance!\nYou can use a Quick Ping on an allied Hero followed by an Assist Ping\nsomewhere else to let that Hero know that their help is needed there.\nThis is useful when a Hero cannot do Mercenary Camps alone.\nRemember to ping beforehand to give them time to react."
+  },
+  {
+   "title": "Defend Ping",
+   "id": "defend-ping",
+   "text": "To use a Defend Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button], move your mouse cursor to the left, and then release.\nTo customize it, look for Quick Ping in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Defend Town",
+   "id": "defend-town",
+   "text": "Mephisto wants to defend this Fort!\nYou can use a Defend ping on allied Structure\nto tell your teammates that more Heroes are needed there\nto defend it from enemy Minions, Mercenaries, or Heroes.\nTry to use it as early as possible, otherwise your\nteammates will not be there in time."
+  },
+  {
+   "title": "Defend Objective",
+   "id": "defend-objective",
+   "text": "Probius wants to secure the area!\nYou can use a Defend ping nearby an Objective\nto communicate that you would like your team to\nposition in a way that does not let the enemy team\nget progress on the Objective or to zone\nthem away while someone is capturing it."
+  },
+  {
+   "title": "Mercenary Camp",
+   "id": "mercenary-camp-1",
+   "text": "Junkrat wants to defend!\nYou can use a Defend ping nearby a Mercenary Camp\nto communicate that you would like your team to\nposition in a way that does not let the enemy team\ninvade it or to zone\nthem away while someone is capturing it."
+  },
+  {
+   "title": "Call Hero",
+   "id": "call-hero-1",
+   "text": "Li Li wants to help Malfurion\nLi Li wants to defend!\nYou can use a Quick Ping on an allied Hero followed by a Defend Ping\nin a lane to let that Hero know that their help is needed there.\nThis is useful when you notice that Structures are taking damage\nor are going to take damage soon but your Hero is not capable\nto deal with that or you have something else to do."
+  },
+  {
+   "title": "Retreat Ping",
+   "id": "retreat-ping",
+   "text": "To use a Retreat Ping with the default Hotkeys, you have to press the [V] key.\nTo customize it, look for Quick Retreat Ping in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Fall Back",
+   "id": "fall-back",
+   "text": "Johanna calls for retreat!\nYou can use a Retreat Ping whenever you feel like it is not the moment\nto fight for any of the following reasons: numerical disadvantage,\nlack of resources (low Health and/or Mana), Heroic Abilities on cooldowns,\nlost Objective, Talent Tier disadvantage, or useless brawl giving\nfree Quest progress to enemy Heroes (such as Zul'jin).\nWhen retreating, you should avoid walking on different sides\nof impassable terrain from your\nteammates otherwise you will not be able to help each other."
+  },
+  {
+   "title": "Give Objective",
+   "id": "give-objective",
+   "text": "Chromie calls for retreat!\nYou can use a Retreat Ping when you want to give the Objective\nto the enemy team because, due to a lack of resources or any\nother form of disadvantage, your team can no longer win it.\nIf you do not die, at least you will be able to slow down their\npush with the Objective's reward they won."
+  },
+  {
+   "title": "Abandon Town",
+   "id": "abandon-town",
+   "text": "Nova calls for retreat!\nYou can use a Retreat Ping when you want to abandon a Fort or Keep\nbecause, due to a lack of resources or any other form of disadvantage,\nit can no longer be defended. Dying for a Fort or Keep that\nis going to be destroyed anyway will only make things worse."
+  },
+  {
+   "title": "Leave Lane",
+   "id": "leave-lane",
+   "text": "Dehaka calls for retreat!\nYou can use a Retreat Ping in a lane when you feel like an allied Hero\nshould not be there, because you are already there and you are fine\ndealing with Minions or Mercenaries alone. This way your teammates\ncan realize they can go get value elsewhere."
+  },
+  {
+   "title": "Leave Minions",
+   "id": "leave-minions",
+   "text": "Kerrigan calls for retreat!\nYou can use a Retreat Ping nearby enemy Minions to communicate\nthat you wish your teammates to not kill them because you have\na Quest that requires last-hitting them. If you kill Minions\ntoo quickly, you will slow down their Quest farming, delaying\ntheir powerspike.\nThe following Quests require last-hitting Minions:\nGlobe of Annihilation on Azmodan;\nRavage's Baseline Quest on Kerrigan;\nVoodoo Ritual on Nazeebo;\nRavenous Hunger at Level 7 on Orphea;\nSulfuras Hungers at Level 1 on Ragnaros;\nEcho of the Elements at Level 1 on Thrall."
+  },
+  {
+   "title": "Ability Ping",
+   "id": "ability-ping",
+   "text": "To use an Ability Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button] on Abilities in the HUD at the bottom of your screen.\nTo customize it, look for Announce Modifier in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Cooldown",
+   "id": "cooldown",
+   "text": "Alexstrasza can use Dragonqueen in 35 seconds!\nYou can use an Ability Ping to announce that a given Ability\nwill be ready in x seconds. This is useful\nto coordinate engage and\nfollow-up, to say that your\nglobal is on cooldown,\nor to tell your teammates that a key Ability is not available yet.\nHere is a list of key Abilities that are important to announce when not ready:\nDragonqueen on Alexstrasza;\nLeap of Faith on Anduin;\nPhase Shift on Brightwing;\nBrushstalker on Dehaka;\nFlight on Falstad;\nBio-Kill Switch on Stukov.\nAt high level of play you may also want to announce the following key Abilities:\nSoothing Mist on Brightwing;\nInto the Fray on Garrosh;\nLet's Go! on Li Li;\nNature's Cure on Malfurion;\nPurge on Rehgar;\nHand of Protection on Uther;\nIntercession on Whitemane.\nAny engage and follow-up Ability\nis worth announcing, so that you can better coordinate with your teammates.\nAn engage without follow-up ready is generally going to be a waste.\nAbilities which require a setup have a higher chance to miss\nwithout an engage to keep enemy Heroes in place.\nUther is ready to use Divine Shield!\nYou can also use an Ability Ping to announce that a given Ability is ready.\nThis may be useful right before using a Heroic Ability or right after picking\na Heroic Ability that requires your team to be aware of it (for example\nSanctification on Tyrael).\nAnduin has 2 charges of Leap of Faith!\nWhen using an Ability Ping on an Ability with charges,\nthe game will not only say if it is ready but also the amount of charges\ncurrently available. This way you can tell your teammates how many\ntimes you could cast an important Ability in during the next fight.\nMaiev is not able to use Naisha's Memento yet!\nWhen using an Ability Ping on an Ability that requires a condition to be met\nin order to be usable, the game will simply show it is not usable. This may be\nuseful for telling your teammates that you cannot do Mercenary Camps without it\n(for example Naisha's Memento on Maiev)."
+  },
+  {
+   "title": "Low Mana",
+   "id": "low-mana",
+   "text": "Uther does not have enough Mana for Holy Light!\nYou can use an Ability Ping when not having enough Mana\nto cast a given Ability to communicate that to your team.\nThis way your teammates will be warned that, despite being alive,\nyou can no longer contribute to the fight."
+  },
+  {
+   "title": "Heroic Ability",
+   "id": "heroic-ability",
+   "text": "Anduin is ready to use Lightbomb!\nYou can use an Ability Ping right after choosing your Heroic Ability to\ntell your teammates which one you picked. This may be useful when you pick\na Heroic Ability that requires your team to be aware of it (for example\nSanctification on Tyrael)."
+  },
+  {
+   "title": "Hero Ping",
+   "id": "hero-ping",
+   "text": "To use a Hero Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button] on Heroes in the HUD at the top of your screen.\nTo customize it, look for Announce Modifier in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Missing Hero",
+   "id": "missing-hero",
+   "text": "Li Li warns that Genji is missing!\nYou can use a Hero Ping on a missing enemy Hero to tell your\nteammates to be careful. This is best used when enemy Heroes are\nrotating from a lane to another or looking\nfor a gank."
+  },
+  {
+   "title": "Dead Hero",
+   "id": "dead-hero",
+   "text": "Nova warns that Muradin will respawn in 9 seconds!\nYou can use a Hero Ping on an enemy Hero to share their respawn time in chat.\nIf their respawn time is high, it means you want to push the advantage;\nif their respawn time is low, it means you have to be careful because\nthey will respawn soon.\nAuriel warns that Valla will respawn in 22 seconds!\nYou can use a Hero Ping on an allied Hero to share their respawn time in chat.\nRegardless of their respawn time, it means you want to play safe\nuntil they come back, otherwise you will be outnumbered and\nyou will only risk staggering deaths."
+  },
+  {
+   "title": "Talent Tier Ping",
+   "id": "talent-tier-ping",
+   "text": "To use a Talent Tier Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button] on Team Levels in the HUD at the top of your screen.\nTo customize it, look for Announce Modifier in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Play Aggressively",
+   "id": "play-aggressively",
+   "text": "Arthas notes that your team has a Talent Tier advantage.\nWhen your team has a Talent Tier advantage or is close to getting it,\nyou can use a Talent Tier Ping to communicate that you would like to get value\nfrom it, by fighting and/or taking down enemy Structures.\nNote that the enemy team will likely try to avoid fighting."
+  },
+  {
+   "title": "Play Defensively",
+   "id": "play-defensively",
+   "text": "Varian notes that the enemy team has a Talent Tier advantage.\nWhen the enemy team has a Talent Tier advantage or is close to getting it,\nyou can use a Talent Tier Ping to communicate that you should soak Experience from\nMinions and avoid fighting because it will be extremely unlikely to beat them.\nNote that the enemy team will likely try to force a fight\nor gank someone."
+  },
+  {
+   "title": "Raise Awareness",
+   "id": "raise-awareness",
+   "text": "Varian notes that both teams are on the same Talent Tier.\nWhen neither team has a Talent Tier advantage, you can use a Talent Tier Ping\nto tell your teammates to pay attention to Team Levels. If your team is\nbehind in Experience, it means you want to fight before the enemy team\ngets a Talent Tier advantage. If your team is ahead in Experience\nor someone in your team needs an important Talent Tier\n(for example Varian before Level 4), it means\nyou want to wait for the next Talent Tier to be unlocked."
+  },
+  {
+   "title": "Health Ping",
+   "id": "health-ping",
+   "text": "To use a Health Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button] on your Health Bar in the HUD at the bottom-left corner of your screen.\nTo customize it, look for Announce Modifier in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Low Health",
+   "id": "low-health",
+   "text": "Tyrael has 12% Health!\nYou can use a Health Ping to communicate that your Health is low.\nThis way your teammates will be warned that, despite being alive,\nyou can no longer contribute to the fight."
+  },
+  {
+   "title": "Resource Ping",
+   "id": "resource-ping",
+   "text": "To use a Resource Ping with the default Hotkeys, you have to\npress [Alt + Left Mouse Button] on your Resource Bar in the HUD at the bottom-left corner of your screen.\nTo customize it, look for Announce Modifier in the Advanced tab of the Hotkeys window."
+  },
+  {
+   "title": "Low Resource",
+   "id": "low-resource",
+   "text": "Lt. Morales has 2% Energy!\nYou can use a Resource Ping when playing a Hero with a Resource\nto communicate that your Mana, Energy, Fury, Rage, or Scrap is low.\nThis way your teammates will be warned that, despite being alive,\nyou cannot contribute to the fight for a while. This is particularly useful\nif you are the Healer of your team."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 Apr. 2025: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

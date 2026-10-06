@@ -1,0 +1,11 @@
+{
+ "slug": "gameplay-guides",
+ "source": "https://www.icy-veins.com/heroes/gameplay-guides",
+ "sections": [
+  {
+   "title": "(intro)",
+   "id": "",
+   "text": "Gameplay Guides\nHero SynergiesOpening MovesPings\nIn-Depth Guides\nChen Wandering KegRagnaros Lava WaveMedivh Portal MasteryHogger Hogg Wild\nResources\nFree Rotations\nTechnical Guides\nHoldable AbilitiesStats Modifiers\nTools\nDebug ModeObserver and Replay UI\nUser Interface\nChange Default RegionHotkeys"
+  }
+ ]
+}

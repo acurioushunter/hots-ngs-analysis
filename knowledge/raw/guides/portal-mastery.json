@@ -1,0 +1,46 @@
+{
+ "slug": "portal-mastery",
+ "source": "https://www.icy-veins.com/heroes/portal-mastery",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Portal Mastery is a powerful and important Talent\nthat requires a lot of knowledge to be used at its full potential.\nPart of what is written here can be useful not only when playing as Medivh,\nbut also when playing with him in your team or against him.\nIn the screenshot below you can see:\nthe indicator for Portal Mastery (on the left);\nthe minimum 7-unit range allowed for Portal (near Medivh);\nthe maximum 16-unit range allowed for Portal (on the right).\nThe range starts from Medivh when casting Portal normally\nor from the indicator when using Portal Mastery."
+  },
+  {
+   "title": "Mounted",
+   "id": "mounted",
+   "text": "Just the fact of having Portal Mastery gives you some value\nas it allows you to cast Portal while mounted,\nwithout automatically canceling Raven Form in the process,\neven if you do not use the dedicated key for Portal Mastery.\nThis passive effect is extremely useful when you are flying over the enemy team\nin Raven Form to give them vision\nand you suddenly need to use Portal to help allied Heroes\nwith their retreat or engage. Without it,\nyou would be forced to dismount and land in the enemy formation!\nWith it, you can stay in Raven Form.\nIn addition to that, when using Portal Mastery,\nyou will be able to cast Portal when\nflying over impassable terrain.\nMedivh cannot land there, so using Portal\nas if you do not have Portal Mastery is not possible."
+  },
+  {
+   "title": "Precision",
+   "id": "precision",
+   "text": "Without this Talent, the first Portal always spawns\nwhere Medivh is when positioning the second Portal.\nWith this Talent, you are free to choose where your first Portal\nwill spawn before positioning the second Portal, allowing you to link\ntwo positions that are not near Medivh.\nIn order to place each Portal wherever you want within range,\nyou have to use Portal Mastery first and then use Portal after that.\nIf you or whoever needs to use the Portal is moving,\nto make up for the brief delay required for each Portal to spawn,\nyou should use Portal Mastery on their way rather than exactly on top of them.\nContrary to creating a Portal without Portal Mastery,\nyou will need to quickly move your mouse cursor from a position to another.\nSometimes you could need speed instead of precision,\nin which case you will proceed to use Portal normally,\nto quickly save someone from danger and bring them next to you\n(for example against Garrosh, Stitches, or Junkrat).\nThat said, placing the second Portal without using Portal Mastery has a brief cast time\nwhereas placing it using Portal Mastery does not have it."
+  },
+  {
+   "title": "Indicator",
+   "id": "indicator",
+   "text": "Right after pressing the dedicated key for Portal Mastery,\nyou and the rest of your team will be able to see an indicator on the ground\nwhere the first Portal will spawn, instead of spawning in the exact same place\nwhere Medivh is when finalizing the Portal.\nThe indicator for Portal Mastery, being visible to allied Heroes,\nis particularly useful for helping your team to prepare for using Portal.\nFor doing so, you should use the first Portal near who should use it\nand the second Portal when you want to make them go. If you do the opposite,\nthey will not be able to see the indicator due to being too far.\nNote that the enemy team will not be able to see the aforementioned indicator,\nbut they will have to wait for the actual cast to happen to be able to see\nwhere each Portal will spawn in a moment, meaning that your team will be more prepared for using the Portal\nthan the enemy team will be.\nThe indicator for Portal Mastery lasts\nuntil Portal gets actually cast\nor until it gets manually removed by using the Trait key, however,\nyou should avoid using the canceling feature too much\nbecause it may confuse your teammates.\nMedivh can use other Abilities when the indicator is on the ground,\nso you can theoretically keep it on the ground forever or until you die."
+  },
+  {
+   "title": "Range",
+   "id": "range",
+   "text": "Thanks to this Talent, you can sometimes turn your Portal into a global Ability.\nLeave the indicator for Portal Mastery on the ground\nbefore moving to a different lane and, if allied Heroes near the indicator need a Portal\nto retreat or engage, use it.\nDo not use the dedicated Portal Mastery key to place the second Portal,\nelse you will not be able to get value from the extra range at your disposal\nand you could even fail to cast a Portal in time\nbecause Medivh will start walking\nto be in range instead of immediately casting Portal."
+  },
+  {
+   "title": "Mana",
+   "id": "mana",
+   "text": "Portal Mastery consumes 65 Mana (as much as baseline Portal)\nin the exact same moment when its indicator appears on the ground,\nhowever, canceling it gives the same amount of Mana back\nand finalizing Portal does not have any additional Mana cost.\nYou can use this characteristic at your advantage to store some Mana for later usage.\nJust put an indicator for Portal Mastery on the ground\nwhen you are full Mana and cancel it after consuming some Mana.\nIf you really need to open a Portal in another position,\nthen just cancel it without caring about the Mana you could have gained."
+  },
+  {
+   "title": "Vision",
+   "id": "vision",
+   "text": "A finalized Portal can be used to have vision in an area\nor, even better, in a bush. You can even link two bushes to check both of them at the same time.\nThat said, considering that Medivh can safely scout in Raven Form\nand that flying units give vision in bushes as well, you will rarely need to use this trick to gain vision.\n\nSee our Medivh Hero Guide for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "03 Jun. 2021: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

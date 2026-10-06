@@ -1,0 +1,276 @@
+{
+ "slug": "hogg-wild-angles",
+ "source": "https://www.icy-veins.com/heroes/hogg-wild-angles",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Hogger's Hogg Wild can be used to bounce back and forth between two blocks of\nimpassable terrain, dealing damage to all enemies on its path.\nWhen appropriate, you can also create another temporary block of impassable terrain by casting\nLoot Hoard on a target location, which opens up new angles for using\nHogg Wild.\nHow to aim Hogg Wild if you want to capture a Mercenary Camp as fast as possible?\nThe answer is different for almost every Mercenary Camp across all Maps because they have different statistics\nand they are surrounded by a different shape of impassable terrain.\nUse horizontal, vertical, or diagonal Hogg Wild angles to efficiently clear them.\nThe best Hogg Wild angles are horizontal or vertical because they can be combined with\nLoot Hoard for covering a small area with Hogg Wild\nand then continue by covering a bigger area when Loot Hoard ends.\nYou also need Mercenaries to be grouped as much as possible, so that they all take damage\nfrom Hogg Wild at the same time.\nWhile the general idea behind all the Hogg Wild angles is the same, you need to learn all of them\nbecause they are all slightly different from each other. The difficulty changes based on how much\nimpassable terrain is surrounding them, if there are horizontal\nor vertical angles to use, and how much Health and damage output the Mercenaries have.\nThis guide has been created with the help of Debug Mode, a special Sandbox for all Maps.\nIf you want to test out our Hogg Wild angles on a specific Map\nthat is not available as Sandbox in Custom Games, follow the instructions\nprovided in our Debug Mode Guide."
+  },
+  {
+   "title": "Settings",
+   "id": "settings",
+   "text": "When you want to clear Mercenary Camps, you can cast Hogg Wild\nbetween two parallel segments of impassable terrain (horizontally, vertically, or diagonally)\nor with the use of Loot Hoard on one side (horizontally or vertically).\nHere are the recommended settings for efficiently clearing Mercenary Camps as Hogger:\nSet your Keyboard Scroll Speed between 50% and 100%;\nDisable Camera Follow (even if only temporarily);\nEnable Force Move;\nConfigure Camera Turn hotkeys (only for diagonal paths).\n50% Keyboard Scroll Speed is nice for placing Loot Hoard as close as possible\nafter tapping an arrow key. 100% Keyboard Scroll Speed is nice for quickly moving the camera away\nbefore casting Hogg Wild.\nIf you prefer to play the game with Camera Follow enabled, you can press the [L] key to temporarily disable it,\nclear Mercenary Camps as explained here, and then press the [L] key again to re-enable Camera Follow.\nForce Move helps a lot because it makes it impossible to accidentally issue a Basic Attack command instead of\na Move command, so you will always move to the target location when you want to, even if there is an enemy there.\nSometimes, when trying to position for casting Hogg Wild, you will get\nbody-blocked by Mercenaries. When that happens, you need to issue additional\nMove commands until Hogger reaches the desired location.\nCamera Turn hotkeys are only useful for clearing Mercenary Camps where it is possible to\nbounce diagonally, however, in this guide we only recommend horizontal and vertical paths\nbecause they are easier to execute and similarly good."
+  },
+  {
+   "title": "Execution",
+   "id": "execution",
+   "text": "To optimally clear Mercenary Camps as Hogger with the aforementioned settings:\nchoose the Hogg Wild path you intend to use;\nif the path is diagonal, use your Camera Turn hotkeys to make it horizontal or vertical;\nsend Hogger to the starting position and do not move your mouse cursor;\nuse the arrow keys to slightly move your camera in the direction\nyou want to cast Hogg Wild;\nif the path is horizontal or vertical, cast Loot Hoard on the desired path to bounce on it;\nif the path is diagonal, cast Loot Hoard for damage only and press the [D] key to cancel it;\nuse the arrow keys to further move your camera in the direction\nyou want to cast Hogg Wild;\ncast Hogg Wild;\npress the [Space] key to reset your camera position to where Hogger currently is;\nwhen Loot Hoard expires, press the [E] key again to cancel Hogg Wild and stop bouncing;\nspread your Basic Attacks so that all Mercenaries have about the same Health remaining;\nfinish them off with Ez-Thro Dynamite and Staggering Blow.\nYou can also use the [Shift] modifier to queue up Hogg Wild while Hogger\nis still moving to the starting position, so that he will immediately cast it once there."
+  },
+  {
+   "title": "Alterac Pass",
+   "id": "alterac-pass",
+   "text": ""
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "You have to use Hogg Wild to bounce horizontally.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou can drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Battlefield of Eternity",
+   "id": "battlefield-of-eternity",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "You have to use Hogg Wild to bounce horizontally\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nEven though Hogger can clear this Mercenary Camp alone, the most efficient way to clear it is\nto let Hogger kill the 2 Fallen Hounds while an allied Hero with good single-target damage\nkills the Fallen Shaman. Hogger alone will bring the Fallen Shaman down to 50% maximum Health.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-1",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to group all Mercenaries towards the side where the distance between top\nand bottom impassable terrain is smaller.\nFor doing so, use Staggering Blow horizontally from the side\nto knock only 2 Mercenaries back."
+  },
+  {
+   "title": "Blackheart's Bay",
+   "id": "blackhearts-bay",
+   "text": ""
+  },
+  {
+   "title": "Bottom Bruiser Camp",
+   "id": "bottom-bruiser-camp",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-2",
+   "text": "You have to use Hogg Wild to bounce horizontally\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to group all Mercenaries towards the side where the\nimpassable terrain creates a C-shape.\nFor doing so, use Staggering Blow diagonally from the top\nto knock both Mercenaries diagonally towards the bottom."
+  },
+  {
+   "title": "Top Bruiser Camp",
+   "id": "top-bruiser-camp",
+   "text": "You have to use Hogg Wild to bounce horizontally.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Braxis Holdout",
+   "id": "braxis-holdout",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp-1",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to position right behind the outer Mercenary, aim towards the top corner,\nand then use Staggering Blow. After that, you need to position\nLoot Hoard right behind the farthest Mercenary.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-3",
+   "text": "You have to use Hogg Wild to bounce horizontally.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off."
+  },
+  {
+   "title": "Cursed Hollow",
+   "id": "cursed-hollow",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp-2",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to position right behind the Mercenary closest to the Banner, aim towards the U-shape\nat the bottom, and then use Staggering Blow. After that, you need to position\nLoot Hoard right behind the farthest Mercenary.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-4",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to group all Mercenaries towards the side where the\nimpassable terrain on the opposite side can be used to bounce off of it.\nFor doing so, use Staggering Blow diagonally from the top\nto knock both Mercenaries towards the bottom."
+  },
+  {
+   "title": "Dragon Shire",
+   "id": "dragon-shire",
+   "text": ""
+  },
+  {
+   "title": "Bottom Bruiser Camp",
+   "id": "bottom-bruiser-camp-1",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team.\nWarning! Mercenaries that leash 3 times in a row instantly reset to full Health.\nYou need to either start slightly off-center or be ready to press the [E] key again to cancel\nHogg Wild before the third bounce on the top side happens.\nFor some reason, Mercenaries will leash every time you bounce there."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-5",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off."
+  },
+  {
+   "title": "Top Bruiser Camp",
+   "id": "top-bruiser-camp-1",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Garden of Terror",
+   "id": "garden-of-terror",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp-3",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Middle Siege Camp",
+   "id": "middle-siege-camp",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to group all Mercenaries towards the side where the\nimpassable terrain on the opposite side can be used to bounce off of it.\nFor doing so, use Staggering Blow diagonally from the top\nto knock both Mercenaries towards the bottom."
+  },
+  {
+   "title": "Top/Bottom Siege Camp",
+   "id": "top-bottom-siege-camp",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output."
+  },
+  {
+   "title": "Hanamura Temple",
+   "id": "hanamura-temple",
+   "text": ""
+  },
+  {
+   "title": "Fortification Camp",
+   "id": "fortification-camp",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team.\nHogger cannot efficiently clear this Mercenary Camp on his own because the Engineer dies way before the Turret.\nYou should do it together with another allied Hero or let other allied Heroes take care of it."
+  },
+  {
+   "title": "Recon Camp",
+   "id": "recon-camp",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output."
+  },
+  {
+   "title": "Sentinel Camp",
+   "id": "sentinel-camp",
+   "text": "Hogger is not capable of clearing this Mercenary Camp on his own because it is way too strong.\nYou should do it together with another allied Hero or let other allied Heroes take care of it."
+  },
+  {
+   "title": "Haunted Mines",
+   "id": "haunted-mines",
+   "text": ""
+  },
+  {
+   "title": "Sapper Camp",
+   "id": "sapper-camp",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-6",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to position right behind the Mercenary farthest away from the Banner, aim towards the\nother Mercenary, and then use Staggering Blow. After that, you need to position\nLoot Hoard as close as possible to both Mercenaries."
+  },
+  {
+   "title": "Infernal Shrines",
+   "id": "infernal-shrines",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp-4",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nEven though Hogger can clear this Mercenary Camp alone, the most efficient way to clear it is\nto let Hogger kill the 2 Fallen Hounds while an allied Hero with good single-target damage\nkills the Fallen Shaman. Hogger alone will bring the Fallen Shaman down to 50% maximum Health.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Middle Siege Camp",
+   "id": "middle-siege-camp-1",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to position right behind the Mercenary at the bottom of the pack, aim almost straight\ntowards the top, and then use Staggering Blow. After that, you need to position\nLoot Hoard as close as possible to all Mercenaries."
+  },
+  {
+   "title": "Bottom Siege Camp",
+   "id": "bottom-siege-camp",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to group all Mercenaries towards any side because from there the\nimpassable terrain on the opposite side can be used to bounce off of it.\nFor doing so, use Staggering Blow diagonally from the top\nto knock all Mercenaries diagonally towards the bottom."
+  },
+  {
+   "title": "Sky Temple",
+   "id": "sky-temple",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp-5",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-7",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to group all Mercenaries towards the bottom because from there the\nimpassable terrain can be used to bounce off of it.\nFor doing so, use Staggering Blow straight from the top\nto knock both Mercenaries towards the bottom."
+  },
+  {
+   "title": "Tomb of the Spider Queen",
+   "id": "tomb-of-the-spider-queen",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp-6",
+   "text": "You have to use Hogg Wild to bounce horizontally.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nOnce in combat, the Wizard instantly casts an armor aura. To play around it,\nyou need to start with Ez-Thro Dynamite, wait for it to explode,\ncast Staggering Blow, hit the Wizard with 3-4 Basic Attacks,\nand then set up Loot Hoard and Hogg Wild.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-8",
+   "text": "You have to use Hogg Wild to bounce horizontally.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to group all Mercenaries towards any side because from there the\nimpassable terrain can be used to bounce off of it.\nFor doing so, use Staggering Blow straight from any side\nto knock both Mercenaries towards the opposite side."
+  },
+  {
+   "title": "Towers of Doom",
+   "id": "towers-of-doom",
+   "text": ""
+  },
+  {
+   "title": "Bottom Sapper Camp",
+   "id": "bottom-sapper-camp",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to group all Mercenaries towards the side far away from the brush because from there the\nimpassable terrain on the opposite side can be used to bounce off of it.\nFor doing so, use Staggering Blow diagonally from the bottom\nto knock only the closest 2 Mercenaries diagonally towards the top."
+  },
+  {
+   "title": "Top Sapper Camp",
+   "id": "top-sapper-camp",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to group all Mercenaries together towards the top because from there\nimpassable terrain can be used to bounce off of it.\nFor doing so, use Staggering Blow diagonally from the bottom\nto knock only the closest 2 Mercenaries diagonally towards the top."
+  },
+  {
+   "title": "Volskaya Foundry",
+   "id": "volskaya-foundry",
+   "text": ""
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-9",
+   "text": "You have to use Hogg Wild to bounce horizontally.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to position right behind the Mercenary farthest away from the Banner, aim towards him,\nand then use Staggering Blow. After that, you need to position\nLoot Hoard right behind the farthest Mercenary."
+  },
+  {
+   "title": "Support Camp",
+   "id": "support-camp",
+   "text": "You have to use Hogg Wild to bounce horizontally.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nHogger cannot efficiently clear this Mercenary Camp on his own because this Sentinel can heal up.\nYou should do it together with another allied Hero or let other allied Heroes take care of it."
+  },
+  {
+   "title": "Fortification Camp",
+   "id": "fortification-camp-1",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team.\nHogger cannot efficiently clear this Mercenary Camp on his own because the Engineer dies way before the Turret.\nYou should do it together with another allied Hero or let other allied Heroes take care of it."
+  },
+  {
+   "title": "Warhead Junction",
+   "id": "warhead-junction",
+   "text": ""
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp-7",
+   "text": "You have to use Hogg Wild to bounce vertically\non Loot Hoard. Press the [E] key again to cancel\nHogg Wild when Loot Hoard expires, otherwise\nyou will move too far from the Mercenary Camp and lower your damage output.\nYou need to group all Mercenaries towards the bottom because from there the\nimpassable terrain can be used to bounce off of it.\nFor doing so, use Staggering Blow straight from the top\nto knock both Mercenaries towards the bottom.\nYou should drink from the Healing Fountain right before starting to clear this Mercenary Camp.\nThe healing over time will keep you healthy against potential invades from the enemy team."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp-10",
+   "text": "You have to use Hogg Wild to bounce vertically.\nYou start bouncing on Loot Hoard and then, once it expires,\nyou continue bouncing on impassable terrain.\nPress the [E] key again to cancel Hogg Wild\nwhen the damage from Staggering Blow\nand Ez-Thro Dynamite can finish them off.\nYou need to group all Mercenaries towards the side where the\nimpassable terrain on the opposite side can be used to bounce off of it.\nFor doing so, use Staggering Blow diagonally from the top\nto knock both Mercenaries towards the bottom.\nSee our Hogger Hero Guide for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Jul. 2026: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

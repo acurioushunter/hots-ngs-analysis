@@ -1,0 +1,141 @@
+{
+ "slug": "holdable-abilities",
+ "source": "https://www.icy-veins.com/heroes/holdable-abilities",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "This guide is about how to maximize execution speed by holding keys when possible.\nFor playing this way, it is extremely important to know which Abilities\ncan benefit from doing so and for which ones is detrimental instead.\nTo help you better understand what kind of value you can get from knowing so,\nI also mention various tips and tricks related to the topic."
+  },
+  {
+   "title": "Holdable Abilities",
+   "id": "holdable-abilities",
+   "text": "Holdable Abilities are the ones which can be cast as soon as possible\nby holding their key while your Hero cannot cast them yet—due\nto cooldown, crowd control effects, or lack of required resources.\nSelf Cast can be used to turn many not holdable Abilities into holdable ones.\nWarning! In order to be holdable, Abilities\nthat are not classified as Instant Abilities require Quick Cast set to On.\nThis is true because only Instant Abilities ignore Quick Cast settings,\nand thus work like if you always have Quick Cast set to On for them.\nTo see a list of Instant Abilities, open the Hotkeys menu in-game\nand select the Quick Cast Setting tab."
+  },
+  {
+   "title": "Loopable Abilities",
+   "id": "loopable-abilities",
+   "text": "Loopable Abilities are the ones which can be cast as soon as possible\nmultiple times in a row, without releasing their key between a cast and the other.\nThis functionality is quite useful when you need to spam Abilities with extremely low cooldown.\nSelf Cast cannot be used to turn not loopable Abilities into loopable ones."
+  },
+  {
+   "title": "Ability Targeting",
+   "id": "ability-targeting",
+   "text": "Abilities usually require us to choose a target\nand sometimes they do not need a target at all.\nThere are 6 types of Ability targeting:\nDirection—You have to target a direction,\nwithout taking distance into account\n(for example Storm Bolt by Muradin).\nLocation—You have to target a location\n(for example Blizzard by Jaina),\nwhich is the equivalent of choosing direction and distance\n(such as Magic Missiles by Li-Ming).\nNone—You do not have to target anyone or anything\n(for example Bloodlust by Rehgar).\nSmart—You have to target either a unit or a location\n(for example Misha, Focus! by Rexxar).\nUnit—You have to target a unit,\ncurrently hovered by your mouse cursor\n(for example Holy Light by Uther).\nVector—You have to draw a vector,\nfrom the starting location to the ending one\n(for example Ice Wall by Mei)."
+  },
+  {
+   "title": "Target Direction",
+   "id": "target-direction",
+   "text": "In this category we have Abilities which require us to target\na direction, without taking distance into account (such as\nStorm Bolt by Muradin)."
+  },
+  {
+   "title": "Not Holdable, Not Loopable",
+   "id": "not-holdable-not-loopable",
+   "text": "Most of the Abilities which require a target direction are not holdable and not loopable.\nThe exceptions are listed below, in the other sub-categories."
+  },
+  {
+   "title": "Holdable with Self Cast, Not Loopable",
+   "id": "holdable-with-self-cast-not-loopable",
+   "text": "Some of the Abilities which require a target direction\nare holdable only with Self Cast, but doing so does not make them loopable.\nTrample by Azmodan\nHammer of Twilight by Cho\nDefense Matrix by D.Va\nFire Stomp by Diablo\nPurification Salvo by Fenix\nStaggering Blow by Hogger\nHogg Wild by Hogger\nSummon Ultralisk by Kerrigan\nMind Control by Sylvanas\nKeep in mind that using Self Cast while casting Abilities\nwhich require a target direction will cause them to fire in their default direction,\nwhich is basically the direction your Hero is facing. There is only one exception:\nSummon Ultralisk by Kerrigan.\nWhen used with Self Cast, she will not turn during the animation\nand the charge will go behind her, so exactly in the opposite direction she is facing.\nYou may find this information useful for when you are trying to run away\nfrom enemy Heroes who are chasing you or, more in general,\nto cast it without moving your mouse cursor when needed."
+  },
+  {
+   "title": "Holdable, Not Loopable",
+   "id": "holdable-not-loopable",
+   "text": "Righteous Hammer by Yrel\nwith Divine Purpose inactive is the only\nholdable but not loopable Ability among the ones which require a target direction."
+  },
+  {
+   "title": "Holdable, Loopable",
+   "id": "holdable-loopable",
+   "text": "Some of the Abilities which require a target direction are holdable and loopable.\nSurging Fist by Cho\nFrag Launcher by Junkrat\nBaneling Barrage by Zagara\nSurging Fist is slightly different from the others.\nTo reactivate it without releasing its key, you have to use the Left Mouse Button.\nYou may find this information useful while going for\nUppercut at Level 4 because it will drastically reduce\nits cooldown and sometimes even reset it."
+  },
+  {
+   "title": "Target Location",
+   "id": "target-location",
+   "text": "In this category we have Abilities which require us to target a location\n(for example Blizzard by Jaina),\nwhich is the equivalent of choosing direction and distance\n(such as Magic Missiles by Li-Ming)."
+  },
+  {
+   "title": "Holdable with Self Cast, Not Loopable",
+   "id": "holdable-with-self-cast-not-loopable-1",
+   "text": "Most of the Abilities which require a target location\nare only holdable when using Self Cast, but are never loopable.\nBeing an Ability with extremely low cooldown, it is worth mentioning\nthat Healing Potion by Deckard belongs to this group,\nso you cannot hold its key to constantly heal yourself because Self Cast does not help with that.\nThe exceptions are listed below, in the other sub-categories.\nConsidering how this kind of Abilities work, when playing as Auriel,\nyou can use Self Cast to hold Ray of Heaven\nduring Crystal Aegis to quickly heal yourself\nimmediately after its Stasis ends.\nThe same trick can be used when you are affected\nby crowd control effects\nand want to quickly heal yourself or allied Heroes nearby.\nSimilarly, when playing as Deckard,\nyou can hold the keys to Self Cast Healing Potion\nwhen it is on cooldown to cast it on yourself as soon as possible,\nbut you will have to briefly release the main key if you want to cast it again.\nThe same trick can be used when you are affected\nby crowd control effects\nand want to quickly heal yourself.\nKeep in mind that using Self Cast while casting Abilities\nwhich require a target location will cause them to use their default location,\nwhich is the equivalent of casting them right on top of your Hero.\nJust so you know, when using Leap by Sonya\nthis way, you will not become Unstoppable\nwhile in the air and the travel time will be 0.2 seconds, not less."
+  },
+  {
+   "title": "Holdable, Not Loopable",
+   "id": "holdable-not-loopable-1",
+   "text": "Avenging Wrath by Yrel\nwith Divine Purpose off is the only\nholdable but not loopable Ability among the ones which require a target location."
+  },
+  {
+   "title": "Not Holdable, Not Loopable",
+   "id": "not-holdable-not-loopable-1",
+   "text": "Some of the Abilities which require a target location\nare not holdable and not loopable because,\nbeing impossible to Self Cast them in the first place,\nyou cannot use Self Cast to make them holdable.\nDeep Tunnel by Abathur\nCleansing Flame by Alexstrasza\nSkyfall by Deathwing\nDestroyer by Deathwing\nWorld Breaker by Deathwing\nStage Dive by E.T.C.\nFlight by Falstad\nPlasma Cutter by Fenix\nWrecking Ball by Garrosh\nInto the Fray by Garrosh\nCyber Agility by Genji\nCorruption by Gul'dan\nMetamorphosis by Illidan\nCelestial Charge by Imperius\nSummon Water Elemental by Jaina\nRIP-Tire by Junkrat\nPhoenix Retarget [R] by Kael'thas (with Rebirth at Level 20)\nMedivac Dropship by Lt. Morales\nCrushing Jaws by Orphea\nSpider Mines by Sgt. Hammer\nForce Wall by Tassadar\nSearing Lash by Whitemane\nAvenging Wrath by Yrel (only with Divine Purpose active)\nLaunch Warhead [F] on Warhead Junction"
+  },
+  {
+   "title": "No Target",
+   "id": "no-target",
+   "text": "In this category we have Abilities which do not require us to target anyone\nor anything (such as Bloodlust by Rehgar)."
+  },
+  {
+   "title": "Holdable, Loopable",
+   "id": "holdable-loopable-1",
+   "text": "Most of the Abilities which do not require any target are holdable and loopable.\nThe exceptions are listed below, in the other sub-categories.\nDue to how this kind of Abilities work, when playing as Maiev,\nbe careful when using Vault of the Wardens after reaching Level 20\nbecause holding its key for more than the effect's duration will cause you\nto accidentally waste its second charge immediately after.\nSimilarly, when playing as Arthas,\nyou can release and then start holding the R key right after\nArmy of the Dead goes off\nto quickly sacrifice Ghouls and heal yourself on cooldown.\nIf you start holding R before the icon changes, it does not work.\nBe aware that Sacrifice does not work when full Health,\nbut you could still end up over-healing yourself, therefore\nbe sure to lack more maximum Health than what you will heal.\nBefore looking at exceptions, this group also includes the following Abilities.\nSpray [T] by any Hero\nVoice Line [I] by any Hero\nHoly Word: Salvation by Anduin\nCombustion by Blaze\nTime Out by Chromie\nBurrow by Dehaka\nMosh Pit by E.T.C.\nTwisting Nether by Gall\nChrysalis by Kerrigan\nWraith Walk by Leoric\nCancel Portal [D] by Medivh\nCryo-Freeze by Mei\nWhirlwind by Sonya\nShadow Walk by Tassadar\nMelee by Tracer\nVanish by Valeera\nRegeneration by Zul'jin"
+  },
+  {
+   "title": "Holdable, Not Loopable",
+   "id": "holdable-not-loopable-2",
+   "text": "Most of the Abilities which do not need a target\nand change icon right after being\ncast—sometimes because they can be canceled\n(such as Siege Mode by Sgt. Hammer)\nand sometimes because they give you access to a temporary Ability\n(for example Hammerang by Falstad)—are\nholdable but not loopable.\nThanks to how this kind of Abilities work, when playing as Abathur,\nyou can hold the R key to cancel Symbiote\nwithout risking to accidentally cast your Heroic Ability\nimmediately after due to spamming R too much.\nIn addition to them, in this group we also have the following Abilities.\nFear the Reaper by Malthael\nTouch of Death by Malthael\nInevitable End by Malthael\nShroud of Wisdom by Malthael\nNo One Can Stop Death by Malthael\nSoul Harvest by Nazeebo\nBone Armor by Xul\nVindication by Yrel\n(regardless of Divine Purpose being active)\nVoodoo Shuffle by Zul'jin\nWhen the cooldown of Spell Shield ends, it gets enabled immediately.\nIf you want to toggle it off immediately, without the risk of wasting it by accident,\njust hold its key while the cooldown is almost ready. This is true for any Spell Shield,\nexcept for Soul Shield by Diablo\nwhich does not have a toggle functionality but goes off immediately when cast."
+  },
+  {
+   "title": "Not Holdable, Not Loopable",
+   "id": "not-holdable-not-loopable-2",
+   "text": "Some of the Abilities which do not need a target are not holdable and not loopable,\nregardless of other characteristics that may have been mentioned above.\nDisengage by Greymane\nDance [Y] by any Hero\nTaunt [J] by any Hero"
+  },
+  {
+   "title": "Smart Target",
+   "id": "smart-target",
+   "text": "In this category we have Abilities which require us to target either a unit or a location\n(for example Misha, Focus! by Rexxar)."
+  },
+  {
+   "title": "Not Holdable, Not Loopable",
+   "id": "not-holdable-not-loopable-3",
+   "text": "All of the Abilities which use smart targeting are not holdable and not loopable.\nWe use them to control Summons, to tell them to either use their Basic Attacks\nagainst a given enemy unit or to move towards a given location."
+  },
+  {
+   "title": "Target Unit",
+   "id": "target-unit",
+   "text": "In this category we have Abilities which require us to target a unit,\ncurrently hovered by your mouse cursor\n(for example Holy Light by Uther)."
+  },
+  {
+   "title": "Not Holdable, Not Loopable",
+   "id": "not-holdable-not-loopable-4",
+   "text": "All but one (mentioned below) of the Abilities which require a target unit\nbut cannot be cast on yourself are not holdable and not loopable."
+  },
+  {
+   "title": "Not Holdable, Loopable",
+   "id": "not-holdable-loopable",
+   "text": "Drain Life by Gul'dan\nis the only not holdable but loopable Ability across all categories.\nIf you do not release its key, the next cast will target\nthe exact same target of the previous one, assuming they are still alive."
+  },
+  {
+   "title": "Holdable with Self Cast, Not Loopable",
+   "id": "holdable-with-self-cast-not-loopable-2",
+   "text": "All but one (mentioned above) of the Abilities which require\na target unit and can be used on yourself become holdable\nwith Self Cast, but doing so does not make them loopable.\nConsidering how those Abilities work, when playing as Anduin,\nyou can hold they keys to Self Cast Flash Heal\nwhen its on cooldown to cast it on yourself as soon as possible,\nbut you will have to briefly release the main key if you want to cast it again.\nDeath Coil by Arthas\nFlash Heal by Anduin\nLightbomb by Anduin\nDesperate Prayer by Anduin\nCrystal Aegis by Auriel\nPixie Dust by Brightwing\nCloud Serpent by Li Li\nSafeguard by Lt. Morales\nAbolish Magic by Lunara\nRegrowth by Malfurion\nForce of Will by Medivh\nDust of Disappearance by Medivh\nBlast Wave by Ragnaros\nChain Heal by Rehgar\nLightning Shield by Rehgar\nAncestral Healing by Rehgar\nHealing Pathogen by Stukov\nLight of Elune by Tyrande\nDivine Shield Uther\nHoly Light by Uther\nDesperate Plea by Whitemane\nGuiding Light by Whitemane\nHand of Freedom by Yrel\nJust so you know, some of the Abilities belonging in this category\ncannot be cast if their target is full Health.\nDesperate Prayer by Anduin\nDeath Coil by Arthas\nAncestral Healing by Rehgar"
+  },
+  {
+   "title": "Target Vector",
+   "id": "target-vector",
+   "text": "In this category we have Abilities which require us to target\na vector, from the starting location to the ending one\n(for example Ice Wall by Mei)."
+  },
+  {
+   "title": "Not Holdable, Not Loopable",
+   "id": "not-holdable-not-loopable-5",
+   "text": "Most of the Abilities which use Vector Targeting are not holdable and not loopable.\nThe exceptions are listed below, in the other sub-categories.\nLorenado by Deckard\nHoardapult by Hogger\nIce Wall by Mei\nLiving Meteor by Ragnaros\nNull Gate by Probius\nSkeletal Mages by Xul\nScorching Laser [E] by Triglav Protector's Gunner on Hanamura Temple"
+  },
+  {
+   "title": "Holdable with Self Cast, Not Loopable",
+   "id": "holdable-with-self-cast-not-loopable-3",
+   "text": "Some of the Abilities which use Vector Targeting can be made holdable\nby using Self Cast, but they will still be not loopable.\nTelekinesis by Alarak\nOil Spill by Blaze\nKeep in mind that using Self Cast while casting Abilities\nwhich require a target vector will cause them to use their default vector,\nthat starts on top of your Hero and continues in the direction they are facing.\nYou can use this knowledge to quickly escape when playing as\nAlarak—just be sure that your Hero is facing the correct\ndirection!"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "19 Oct. 2021: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

@@ -35,5 +35,9 @@ for table, col in (("matchup", "other_slug"), ("tier_entry", "hero")):
     bad = db.execute(f"SELECT DISTINCT {col} FROM {table} WHERE {col} NOT IN (SELECT slug FROM hero)").fetchall()
     check(not bad, f"{table}.{col} unknown heroes: {bad}")
 
+# 5. General guides loaded and searchable.
+check(db.execute("SELECT COUNT(*) FROM guide").fetchone()[0] >= 12, "fewer than 12 general guides")
+check(db.execute("SELECT COUNT(*) FROM search WHERE search MATCH 'Opening Moves' AND kind='guide_section'").fetchone()[0] > 0, "guides not searchable")
+
 print("FAILED:" if failures else "OK", *failures, sep="\n")
 raise SystemExit(bool(failures))

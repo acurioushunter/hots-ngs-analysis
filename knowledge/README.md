@@ -8,6 +8,7 @@ Built from Icy Veins on 2026-10-06 (patch 2.57 era). Everything here came from t
 | Heroes (guide, abilities and talents pages) | 91 | `raw/heroes/*.json`, tables `hero`, `hero_section`, `talent` |
 | Synergy and counter heroes plus the written advice | 91 | `raw/matchups.json`, tables `matchup`, `matchup_note` |
 | Map guides | 15 | `raw/maps/*.json`, tables `map`, `map_section` |
+| General guides (opening moves, synergies, pings, glossary, stat modifiers, mechanics) | 15 | `raw/guides/*.json`, tables `guide`, `guide_section` |
 | Tier lists: general, master, ARAM, Quick Match, one per map | 19 | `raw/tierlists/*.json`, tables `tier_list`, `tier_entry` |
 | Hunter's verified percent damage talent slots | 11 | table `verified_pct_talent` |
 | Full text search over every page | all | table `search` (SQLite FTS5) |

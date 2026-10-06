@@ -1,0 +1,121 @@
+{
+ "slug": "hotkeys-advanced-guide",
+ "source": "https://www.icy-veins.com/heroes/hotkeys-advanced-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Welcome to our guide to the most interesting custom Hotkeys for Heroes of the Storm\nand the reasons behind them, from personal preference to increasing your effectiveness\nand survivability in some scenarios. We listed them in order of importance\nand also to include useful tips about them, when appropriate."
+  },
+  {
+   "title": "Attack",
+   "id": "attack",
+   "text": "Default\nA\nSuggested\nLeft Mouse Button\nPath\nHotkeys → Basic\nCode\n[Hotkeys] CommandButton10=LeftMouseButton\nAttack, also called Attack Move, is a command used to choose the target of your Basic Attacks.\nHeroes automatically use Basic Attacks when enemies are nearby, however,\nthis command is extremely important for manually choosing your target.\nSome players like to have the Attack command on the Left Mouse Button,\nso that they can easily stutter-step by using their right hand\nand/or can have their left hand's ring finger on the Q key all the time,\nsomething that allows them to be faster at using Abilities which belong\nto that key (such as Blink by Tracer).\nIf you miss your intended target, your Hero will move towards that position\nand stop moving to Attack the nearest enemy. While kiting backwards\nand/or if the closest enemy is who you want to Attack,\nyou can simply issue an Attack command anywhere around you,\nwithout the need to move your mouse back and forth.\nWarning! If you bind the Attack command to the Left Mouse Button,\nthe Select feature will not work anymore. If you play The Lost Vikings and/or Samuro,\nmake sure to choose another key for it. Note that, without the Select feature,\nyou will not be able to open the Target Info Panel as well."
+  },
+  {
+   "title": "Stop",
+   "id": "stop",
+   "text": "Default\nS\nPath\nHotkeys → Basic\nStop is a command used to tell your Hero to stop moving\nbut keep using Basic Attacks. Any action in queue (see Queue Command Modifier for more) will be removed.\nTank players, but not only them, will sometimes need to use Stop\nto accurately body-block enemy Heroes that are trying to retreat.\nIf you use Hold for doing so, you may lose the opportunity to deal damage\nwith your Basic Attacks, especially if you are playing Heroes\nwho can attack while moving (for example D.Va).\nStop is the fastest tool we have to stop our Hero that is moving into\na dangerous area (for example multiple Toxic Nest by Abathur)\nbecause it does not require to position your mouse accordingly."
+  },
+  {
+   "title": "Hold",
+   "id": "hold",
+   "text": "Default\nH\nSuggested\nX\nPath\nHotkeys → Basic\nCode\n[Hotkeys] CommandButton12=X\nHold is a command used to make your Hero stop using Basic Attacks.\nIn addition to that, your Hero will stop moving as well. Any action in queue\n(see Queue Command Modifier for more) will be removed.\nThere are some Heroes who gain value when you hit them with Basic Attacks,\nespecially if your Hero has high Attack Speed (for example Tracer\nagainst Genji with Deflect active).\nWhen you see that, immediately use the Hold command.\nAs the default key for the Hold command is difficult to use,\nI heavily recommend changing it to a different key, closer to the other keys you use.\nSome players like to replace Stop with Hold, but it's not optimal\nbecause you lose the opportunity to body-block without stopping your Basic Attacks.\nWarning! If you bind the Hold command to the X key, the Expression Wheel feature\nwill not work anymore unless you change its key as well, however, you will\nstill be able to use Expressions via their dedicated keys:\nTaunt [J], Dance [Y], Spray [T], and Voice [I]."
+  },
+  {
+   "title": "Attack Move Target Point",
+   "id": "attack-move-target-point",
+   "text": "Default\nDisabled\nSuggested\nEnabled for Ranged Heroes • Disabled for Melee Heroes\nPath\nOptions → Gameplay\nAttack Move Target Point helps you when using the Attack [A] command.\nIf enabled, your Hero will target the closest enemy (excluding neutral Mercenaries when idle)\nto your mouse cursor. If disabled, your Hero will target the closest enemy to themselves.\nWarning! There is no way to tell the game that you are playing a ranged Hero or a melee Hero,\nso you'll have to change this setting every time you change from melee to ranged Hero, or vice versa.\nIf you do not want to change it based on that, just stick on the value you prefer."
+  },
+  {
+   "title": "Smart Commands",
+   "id": "smart-commands",
+   "text": "Default\nRight Mouse Button\nSuggested\nMiddle Mouse Button\nPath\nHotkeys → Advanced → Hero Management\nCode\n[Hotkeys] SmartCommand=MiddleMouseButton\nSmart Commands behave differently based on where you click; your Hero will: Attack, Move, or Interact.\nInteract means using special objects (for example Healing Fountain\nor Portal by Medivh)\nor collecting things on the battlefield (such as Tributes on Cursed Hollow).\nWhen moving backwards to kite or retreat,\navoid using Smart Commands [Right Mouse Button] for doing so\nbecause misclicking your target will make you walk towards the enemy and die.\nWhen moving forward to chase, it does not matter if you misclick.\nWarning! If you bind Smart Commands to the Middle Mouse Button,\nyou may want to choose a new key for the following hotkeys:\nDrag Scroll, Move Minimap Camera (Normal Mode), Move Minimap Camera (Targeting Mode)."
+  },
+  {
+   "title": "Smart Commands Through Minimap",
+   "id": "smart-commands-through-minimap",
+   "text": "Default\nDisabled\nSuggested\nEnabled\nPath\nOptions → Gameplay\nSmart Commands Through Minimap is a useful feature to avoid interacting with the Minimap by mistake.\nIf you have it disabled, you can move your Hero by clicking on the Minimap, but at the same time\nyou risk to sometimes accidentally move your Hero towards the enemy team when you want to retreat.\nWarning! Force Move does not benefit from this feature, so it will never ignore your Minimap."
+  },
+  {
+   "title": "Force Move",
+   "id": "force-move",
+   "text": "Default\nUnbound\nSuggested\nRight Mouse Button\nPath\nHotkeys → Basic\nCode\n[Hotkeys] CommandButton20=RightMouseButton\nForce Move means Move only. In other words, Force Move is like Smart Commands without Attack and Interact.\nSimple as that, but what are the real benefits of this hotkey?\nIf you have Force Move on the Right Mouse Button, you will not accidentally use Basic Attacks\non the enemy Immortal while you are trying to dodge his scary Abilities\nor take a nearby Medivh's Portal that you did not want to use.\nWarning! In case you choose to play with Force Move on the Right Mouse Button\nand Smart Commands on a weird key, Save a backup Hotkeys Profile that still allows you\nto use Smart Commands normally because Force Move currently has the following bugs:\n\nHanzo cannot use Force Move while charging Storm Bow because it stops the channel,\nhowever, you can hold Force Move and then start charging Storm Bow instead;\nif you use the Queue Command Modifier to choose where to go by using Force Move with it,\nyour Hero will follow your mouse cursor instead of going towards the chosen destination."
+  },
+  {
+   "title": "Use Talent",
+   "id": "use-talent",
+   "text": "Default\n1/2/3/4/5/6\nSuggested\nExtra Mouse Button 1/2 and 1/2/3/4/5/6\nPath\nHotkeys → Basic\nCode\n[Hotkeys] InventoryButtonUse0=1,BackMouseButton InventoryButtonUse0=2,ForwardMouseButton\nUse Talent hotkeys are needed for Active Talents (such as Imposing Presence on Muradin)\nand for Heroes who have extra Abilities baseline (for example Bone Armor on Xul),\nbut not used for switching Hero with The Lost Vikings or Clone with Samuro.\nYou can keep them like this or set them as you prefer. You can also have two different hotkeys for the same command.\nKeep in mind that the game always puts extra Abilities in the first free slot from the left,\neven if they are Passive effects (like Blessed Recovery on Anduin).\nWarning! If you change Use Talent settings, remember to change\nthe corresponding Quick Cast Hotkeys as well (check the Quick Cast Hotkeys section below)."
+  },
+  {
+   "title": "Queue Command Modifier",
+   "id": "queue-command-modifier",
+   "text": "Default\nShift\nPath\nHotkeys → Advanced\nQueue Command Modifier is a command that allows us to queue multiple actions\nthat our Hero will execute in the same order they have been queued up while holding said modifier.\nYou can use Queue Command Modifier to speed up some actions:\nsummon your Mount right after channeling an Objective;\nissue a Move command immediately after channeling your Mount;\nissue a Move command directly after using the Healing Fountain;\nissue a Move command to walk around a given area (for example an enemy Watch Tower)\nor just to avoid taking a dangerous path;\nto chain multiple Abilities while playing some Heroes who can benefit from that."
+  },
+  {
+   "title": "Quick Cast Setting",
+   "id": "quick-cast-setting",
+   "text": "Default\nOff\nSuggested\nOn\nPath\nHotkeys → Quick Cast Setting\nCode\n[Settings] GlobalQuickCastMode=On\nThere are 3 types of Quick Cast Setting to perform actions:\nOff: press a key to enter targeting mode and then press Choose Ability/Talent Target [Left Mouse Button]\nto confirm your action, resulting in more accuracy at the cost of speed;\nOn Release: hold a key to enter targeting mode and then release to confirm your action,\nresulting in a good compromise between speed and accuracy;\nOn: press a key to confirm your action immediately without going into targeting mode,\ntherefore more speed at the cost of accuracy.\nWhile it is recommended to use Quick Cast On, there are players having success with Quick Cast Off\nwhereas Quick Cast On Release is not considered that good for many players. Choose what you prefer.\n\nYou can even change the Quick Cast Setting for a specific action.\nConsider using this feature to change the Quick Cast Setting for the Attack command from Use Global Setting to On.\nChange it for a random Hero and a random Vehicle to automatically change it for all of them.\nRich, HGC player from team Gen.G, liked to play Alarak's Discord Strike\nwith Quick Cast Off while having the rest on Quick Cast On to avoid accidentally casting\nDiscord Strike before Telekinesis actually happened."
+  },
+  {
+   "title": "Quick Cast Hotkeys",
+   "id": "quick-cast-hotkeys",
+   "text": "Default\nUnbound\nSuggested\nCtrl + Q/W/E/R/D/1/2/3/4/5/6\nPath\nHotkeys → Advanced\nCode\n[Hotkeys] CommandButtonQuickCastOnUp00=Ctrl+Q InventoryButtonQuickCastOnUp0=Ctrl+1\nQuick Cast Hotkeys allow you to play the game with multiple Quick Cast settings at the same time.\nWhen you want to cast Abilities with your default Quick Cast setting, just press their key normally.\nWhen you want to cast Abilities with a different Quick Cast setting, use a modifier (for example Q becomes Shift + Q)\nor a completely different key (for example Q becomes 1).\nWarning! Avoid using Shift for Quick Cast Hotkeys\nbecause it is the same key used as Queue Command Modifier by default.\nWhen both features use the same key, you will have problems\nwhen trying to queue Abilities via Queue Command Modifier.\nIn all other situations, everything will be fine because\nQuick Cast Hotkeys will take priority over Queue Command Modifier.\nWarning! If you change Quick Cast Hotkeys,\nremember to change the corresponding Use Talent settings as well\n(check the Use Talent section above)."
+  },
+  {
+   "title": "Quick Talent Selection Favorite",
+   "id": "quick-talent-selection-favorite",
+   "text": "Default\nCtrl + \\\nSuggested\nCtrl + F\nPath\nHotkeys → Advanced → Hero Management\nCode\n[Hotkeys] QuickHeroTalentTreeSelectionFavorite=Control+F\nThe ability to immediately pick a Talent as soon as your team unlocks a new Tier is important to have.\nIf you are unable to use Ctrl + 1/2/3/4/5 because they are not that easy to press for you,\nthen you can use the Quick Talent Selection Favorite command to rapidly pick a Talent\nthat is part of your currently selected Build. Just make sure—after taking a look\nat the Map you are playing on, allied Heroes, and enemy Heroes at the start of the game—that\nyour selected Build is the one you want to be playing in that particular game."
+  },
+  {
+   "title": "Quick Stats Panel",
+   "id": "quick-stats-panel",
+   "text": "Default\nF1\nSuggested\nShift + Tab\nPath\nHotkeys → Advanced → Hero Management\nCode\n[Hotkeys] QuickHeroTalentPanel=Shift+Tab\nCompared to looking at Talents, looking at Stats is rarely useful during the game.\nWhen enemy Heroes are missing, you can check if their Self-Healing/Shielding is going up or not\nto find out if they are fighting against neutral Mercenaries out of vision. For balance reasons,\nSiege Damage does not go up when Heroes are fighting against neutral Mercenaries."
+  },
+  {
+   "title": "Quick Talent Panel",
+   "id": "quick-talent-panel",
+   "text": "Default\nF2\nSuggested\nTab\nPath\nHotkeys → Advanced → Hero Management\nCode\n[Hotkeys] QuickHeroTalentPanel=Tab\nWith the change suggested here, you will be able to quickly check Talents\nwithout the need to change page at the start of every game\nand without having to press Tab twice for opening the Talents panel and then closing it.\nIn addition to that, accidentally pressing Tab will not hinder your gameplay that much\nbecause releasing the Tab key will immediately close the Leader Panel again."
+  },
+  {
+   "title": "Quick Death Recap Panel",
+   "id": "quick-death-recap-panel",
+   "text": "Default\nF3\nSuggested\nCtrl + Tab\nPath\nHotkeys → Advanced → Hero Management\nCode\n[Hotkeys] QuickHeroTalentPanel=Ctrl+Tab\nDeath Recap does not really need to be opened fast, so you can either use\na less important key or key combination or keep it unassigned and thus open it\nby clicking on the corresponding icon on the user interface while your Hero is dead."
+  },
+  {
+   "title": "Camera Follow",
+   "id": "camera-follow",
+   "text": "Default\nL\nSuggested\nC\nPath\nHotkeys → Advanced → Camera\nCode\n[Hotkeys] CameraFollow=C\nFollow Current Selection is a command that allows you to switch\nbetween Camera Follow—called Locked Camera by the community—enabled and disabled.\nWhen disabled, your camera will not follow your Hero but you will be free to move it.\nWhen enabled, your camera will follow your Hero but you will not be free to move it.\nNot free means that the camera will not move further once your Hero is at the border of the screen.\nEven if it is preferred to play with Camera Follow disabled\nbecause it stops your camera when your Hero reaches the screen borders,\nsome players do not like it because they suffer motion sickness\nand/or because it requires additional mouse movement.\nIf you want to use Camera Follow, we recommend a little change that,\nwhen used correctly, will basically negate the major weakness of playing with Camera Follow enabled.\nFirst of all, since the [L] key is difficult to use, you need to change key for toggling Camera Follow\nto the [C] key or any other key you like.\nSecond, you have to be ready to turn Camera Follow off when needed (for example E.T.C.\npreparing to use Stage Dive) or this change will be useless."
+  },
+  {
+   "title": "Spotlight",
+   "id": "spotlight",
+   "text": "Default\nSpace\nPath\nHotkeys → Advanced → Hero Management\nSpotlight is a command that marks your Hero with a blue beam, sometimes helpful for finding your Hero\nwhen you are playing without Camera Follow enabled and too many things are happening on your screen.\nIf you do not like the Spotlight feature, you can unbind it\nwithout fear of losing the Center Current Selection command\nthat is on the same key but corresponds to a different command\nthat belongs to the Camera section."
+  },
+  {
+   "title": "Camera Location",
+   "id": "camera-location",
+   "text": "Default\nJump To with F5-F8 and Shift + F5-F8; Create with Ctrl + F5-F8 and Ctrl + Shift + F5-F8\nSuggested\nJump To with F1-F8; Create with Shift + F1-F8\nPath\nHotkeys → Advanced → Camera\nCode\n[Hotkeys] CameraSave0=Shift+F1 CameraView0=F1\nCamera Location is a feature that allows you to save the position of your camera\nand be able to quickly jump there when needed, something that is extremely useful\nwhen playing Abathur's Calldown: MULE\nand you want rapidly check the state of your Structures in multiple lanes as well as\nwhen playing other Heroes and you want to quickly see what is going on somewhere else."
+  },
+  {
+   "title": "Camera Turn",
+   "id": "camera-turn",
+   "text": "Default\nUnbound\nSuggested\nLeft Turn with Insert; Right Turn with Delete\nPath\nNot Available\nCode\n[Hotkeys] CameraTurnLeft=Insert CameraTurnRight=Delete\nCamera Turn consists of two commands that allow you to rotate your camera by 45% degrees,\nsomething that is not that useful while playing but can be great for taking screenshots,\ncasting games, or recording videos. You can use this feature not only while playing the game,\nbut also while being an Observer in a Custom Game or while watching Replays.\n\nClick on the Folder icon to open the Hotkeys folder containing all your Profiles\nand then use a text editor to open the Profile you want to modify, copy the code above\nand paste it in the Hotkeys section. If you cannot click on the Folder icon,\nyou should first click on Create Profile and follow the steps to create a new Profile.\nTo get the name of a key, bind it to something else and then copy its value."
+  },
+  {
+   "title": "Keyboard Scroll Speed",
+   "id": "keyboard-scroll-speed",
+   "text": "Default\n20%\nSuggested\n100%\nPath\nOptions → Mouse and Keyboard\nYou can use the arrow keys to move your camera. A slow speed is\nideal for observers and/or casters who are streaming tournament games.\nA high speed is recommended for players who play Hogger as it\ncan be used to efficiently clear Mercenary Camps, as explained in the\nHogg Wild section\nof the Abilities page in our Hogger's guide."
+  },
+  {
+   "title": "Cursor Guides",
+   "id": "cursor-guides",
+   "text": "Default\nOff\nSuggested\nOff\nPath\nOptions → Mouse and Keyboard\nCursor Guides are quite handy for players who tend to lose their mouse cursor\nin the heat of the battle but can be slightly annoying for some players.\nWe do not recommend to turn them on unless you personally find them useful.\nIf you play Hogger, they can be used as a reference point\nwhen aiming Hogg Wild for doing Mercenary Camps\nwhich require a horizontal or vertical spin, but not a diagonal spin."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "26 Sep. 2023: Guide improved.\nCursor Guides section added.\nKeyboard Scroll Speed section added.\n25 Sep. 2023: Guide reviewed for the latest Bug Fixes.\n23 Nov. 2021: Guide improved.\nQuick Cast Hotkeys section modified.\nQuick Stats Panel section added.\nQuick Talents Panel section modified.\nQuick Death Recap section added.\nCamera Location section modified.\n05 Jun. 2021: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

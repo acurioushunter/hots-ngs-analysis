@@ -22,6 +22,8 @@ CREATE TABLE map(slug TEXT PRIMARY KEY, name TEXT, url TEXT, updated TEXT);
 CREATE TABLE map_section(map TEXT, ord INT, title TEXT, text TEXT);
 CREATE TABLE tier_list(name TEXT PRIMARY KEY, url TEXT, updated TEXT);
 CREATE TABLE tier_entry(list_name TEXT, tier TEXT, role TEXT, hero TEXT, ban INT);
+CREATE TABLE guide(slug TEXT PRIMARY KEY, url TEXT);
+CREATE TABLE guide_section(guide TEXT, ord INT, title TEXT, text TEXT);
 CREATE TABLE verified_pct_talent(hero TEXT, level INT, slot INT, talent TEXT, note TEXT, source TEXT);
 CREATE VIRTUAL TABLE search USING fts5(kind, ref, title, text);
 """
@@ -127,6 +129,11 @@ def load_map(db, m):
     insert_sections(db, "map_section", m["name"], None, m["sections"])
 
 
+def load_guide(db, g):
+    db.execute("INSERT INTO guide VALUES (?,?)", (g["slug"], g["source"]))
+    insert_sections(db, "guide_section", g["slug"], None, g["sections"])
+
+
 def strip_count(role):
     return re.sub(r"\s*\d+\s*Heroes?\s*$", "", role).strip()
 
@@ -154,6 +161,8 @@ def build():
         load_map(db, load(path))
     for path in sorted((RAW / "tierlists").glob("*.json")):
         load_tier_list(db, load(path))
+    for path in sorted((RAW / "guides").glob("*.json")):
+        load_guide(db, load(path))
     db.executemany("INSERT INTO verified_pct_talent VALUES (?,?,?,?,?,'HANDOFF.md / Icy Veins')", VERIFIED_PCT)
     db.commit()
     return db
@@ -161,5 +170,5 @@ def build():
 
 if __name__ == "__main__":
     conn = build()
-    for table in ("hero", "hero_section", "talent", "matchup", "map", "map_section", "tier_list", "tier_entry"):
+    for table in ("hero", "hero_section", "talent", "matchup", "map", "map_section", "tier_list", "tier_entry", "guide", "guide_section"):
         print(table, conn.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0])

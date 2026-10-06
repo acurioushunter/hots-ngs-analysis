@@ -1,0 +1,91 @@
+{
+ "slug": "heroes-of-the-storm-map-guides",
+ "source": "https://www.icy-veins.com/heroes/heroes-of-the-storm-map-guides",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Heroes of the Storm features a huge amount of Maps,\neach of them needing a different strategy to succeed,\neven if the general approach is approximately the same.\nTo learn how to draft and play on each Map available,\ntake a look at our Map Guides linked below."
+  },
+  {
+   "title": "Alterac Pass",
+   "id": "alterac-pass",
+   "text": "Alterac Pass is a 3-lane Map belonging to the Warcraft universe.\nThe signature Objective of this Map are Cavalries. One per lane,\nthey will fight alongside the team who freed them from Prison Camps,\nbuffing allied Heroes nearby.\nAlterac Pass Map Guide"
+  },
+  {
+   "title": "Battlefield of Eternity",
+   "id": "battlefield-of-eternity",
+   "text": "Battlefield of Eternity is a 2-lane Map belonging to the Diablo universe.\nThe signature Objective of Infernal Shrines consists of Immortals: Ilarian and Beleth.\nDefeating the enemy Immortal will make the allied Immortal join you in lane\nto destroy enemy Structures with his powerful attacks.\nBattlefield of Eternity Map Guide"
+  },
+  {
+   "title": "Blackheart's Bay",
+   "id": "blackhearts-bay",
+   "text": "Blackheart's Bay is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Doubloons to collect from Treasure Chests\nand Mercenary Camps. Whenever a team pays the required amount of Doubloons, Captain\nBlackheart will use the cannons of his ghost ship to shoot at enemy Structures.\nBlackheart's Bay Map Guide"
+  },
+  {
+   "title": "Braxis Holdout",
+   "id": "braxis-holdout",
+   "text": "Braxis Holdout is a 2-lane Map belonging to the Starcraft universe.\nThe signature Objective of this Map are Beacons that reward Zerg Waves.\nThe team who wins the Objective will get a 100% power Zerg Wave,\nthe other team will get a less powerful one.\nBraxis Holdout Map Guide"
+  },
+  {
+   "title": "Cursed Hollow",
+   "id": "cursed-hollow",
+   "text": "Cursed Hollow is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Tributes. Whenever a team\ngets 3 Tributes, the Raven Lord casts a Curse on the enemy team,\nweakening enemy Minions and disabling enemy Structures.\nCursed Hollow Map Guide"
+  },
+  {
+   "title": "Dragon Shire",
+   "id": "dragon-shire",
+   "text": "Dragon Shire is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Shrines that reward a Dragon Knight.\nThe team who controls both Shrines can pilot the Dragon Knight, a powerful\nVehicle that can be used to deal heavy damage to enemy Structures.\nDragon Shire Map Guide"
+  },
+  {
+   "title": "Garden of Terror",
+   "id": "garden-of-terror",
+   "text": "Garden of Terror is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Seeds required to get Garden Terrors.\nOne per lane, they will fight alongside the team who gets 3 Seeds, temporarily\ndisabling enemy Structures on their path.\nGarden of Terror Map Guide"
+  },
+  {
+   "title": "Hanamura Temple",
+   "id": "hanamura-temple",
+   "text": "Hanamura Temple is a 2-lane Map belonging to the Overwatch universe.\nThe signature Objective of this Map is a Payload. Once successfully escorted\nto its final destination, it deals damage to enemy Structures.\nOn this Map, you can also find the Sentinel Camp, a unique Mercenary Camp\nthat deals a lot of damage to enemy Heroes and Structures.\nHanamura Temple Map Guide"
+  },
+  {
+   "title": "Haunted Mines",
+   "id": "haunted-mines",
+   "text": "Haunted Mines is a 2-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map is an Undead Army. When active, each team\nhas to collect 55 Skulls. Once completed, each team will be rewarded with a\nGrave Golem whose power is based on the Skulls collected by the corresponding team.\nHaunted Mines Map Guide"
+  },
+  {
+   "title": "Infernal Shrines",
+   "id": "infernal-shrines",
+   "text": "Infernal Shrines is a 3-lane Map belonging to the Diablo universe.\nThe signature Objective of this Map are Shrines. When active, each team\nhas to kill 40 Guardians. The first team who does that gets a Punisher,\na powerful unit that will enable a strong push.\nInfernal Shrines Map Guide"
+  },
+  {
+   "title": "Sky Temple",
+   "id": "sky-temple",
+   "text": "Sky Temple is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Temples. When active,\nHeroes can stand on them to fire laser shots at enemy Structures.\nSky Temple Map Guide"
+  },
+  {
+   "title": "Tomb of the Spider Queen",
+   "id": "tomb-of-the-spider-queen",
+   "text": "Tomb of the Spider Queen is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Webweavers. One per lane,\nthey will fight alongside the team who pays the required amount of Gems,\ndealing heavy damage to enemy Structures on their way.\nTomb of the Spider Queen Map Guide"
+  },
+  {
+   "title": "Towers of Doom",
+   "id": "towers-of-doom",
+   "text": "Towers of Doom is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Altars. Cores have 40 Health\nand cannot be attacked directly. When captured, Altars deal 1 damage to\nthe enemy Core, increased by 1 for each Bell Tower (Fort or Keep) under your\nteam's control. Bring the enemy Core to 0 Health to win the game.\nTowers of Doom Map Guide"
+  },
+  {
+   "title": "Volskaya Foundry",
+   "id": "volskaya-foundry",
+   "text": "Volskaya Foundry is a 3-lane Map belonging to the Overwatch universe.\nThe signature Objective of this Map is a Capture Point that\nrewards a Triglav Protector. The team who wins the Objective can pilot\nthe Triglav Protector, a massive Vehicle with 2 seats that can be used\nto deal damage to enemy Structures and to Shield allied Heroes.\nVolskaya Foundry Map Guide"
+  },
+  {
+   "title": "Warhead Junction",
+   "id": "warhead-junction",
+   "text": "Warhead Junction is a 3-lane Map belonging to the Starcraft universe.\nThe signature Objective of this Map are Warheads. They can be collected\nand launched on a target location, usually to damage enemy Structures.\nOn this Map, you can also find the Slime Boss, a unique Mercenary Camp\nthat deals a huge amount of damage to enemy Heroes and Structures.\nWarhead Junction Map Guide\nSee our Tier List Hub for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Map Guides updated for the latest Map Updates.\n12 May 2026: Map Guides updated for the latest Map Updates.\n04 May 2026: Map Guides improved.\nExperience gained from Mercenary Camps added.\n01 May 2026: Haunted Mines Map Guide added.\n19 Feb. 2026: Map Guides updated for the latest Map Updates.\n14 Feb. 2026: Map Guides updated for the latest Map Updates.\n16 Dec. 2025: Map Guides updated for the latest Map Updates.\n05 Dec. 2025: Map Guides updated for the latest Hotfix.\n01 Dec. 2025: Map Guides updated for the latest Map Updates.\n07 Oct. 2025: Map Guides updated for the latest Hotfix.\n30 Sep. 2025: Map Guides updated for the latest Map Updates.\n16 Aug. 2024: Page created.\nShow more\nShow less"
+  }
+ ]
+}

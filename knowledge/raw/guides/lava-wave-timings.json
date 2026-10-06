@@ -1,0 +1,101 @@
+{
+ "slug": "lava-wave-timings",
+ "source": "https://www.icy-veins.com/heroes/lava-wave-timings",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Lava Wave allows you to soak distant lanes\nwhile getting Experience from other lanes or while helping allied Heroes. This is possible because\nHeroes who kill Minions with Abilities or Basic Attacks will automatically collect the Experience from the Minions.\nLava Wave always kills Minions when hitting them, so it can reliably be used to soak.\nWhat is the best moment to cast Lava Wave if you want to catch as many Minions as possible?\nThe answer is different for almost every lane across all Maps because Lava Wave takes a different\namount of time to travel from one side of the battlefield to the opposite one. After casting\na lot of Lava Waves, we have managed to extrapolate Lava Wave Timings for each lane on each Map.\nThis guide has been created with the help of Debug Mode, a special Sandbox for all Maps.\nIf you want to test out our Lava Wave timings on a specific Map\nthat is not available as Sandbox in Custom Games, follow the instructions\nprovided in our Debug Mode Guide."
+  },
+  {
+   "title": "Usage",
+   "id": "usage",
+   "text": "You can use the Lava Wave timings provided in this guide to cast Lava Wave\nwhen the Game Time shows the corresponding amount of seconds, or a few seconds after that.\nThis way you will maximize the Experience you gain from it and help your team level up faster.\nFurthermore, catching an extra wave of Minions means you can stay in another lane for\n30 seconds longer, getting similar value to global Heroes.\nWhen it comes to casting Lava Wave based on Lava Wave timings,\nbeing slightly late is not bad because you or an allied Hero will\nusually be able to soak Experience from enemy Minions\nthat are close to dying from allied Structures or Minions. On the other hand,\nbeing too early is not ideal because it could cause Lava Wave to miss the whole next wave\nof Minions.\nIn some situations you may need to ignore Lava Wave timings and cast Lava Wave\nfor other reasons than soaking as much as Experience as possible: defensively,\nto quickly kill enemy Minions near allied Structures and deter the enemy team from pushing,\nor offensively, to deal damage to enemy Heroes who are fighting in lane. The closer to your Core\nenemy Heroes are, the easier will be to take opponents by surprise."
+  },
+  {
+   "title": "Timings",
+   "id": "timings",
+   "text": "All you have to remember is the first number for every lane on each Map.\nYou do not need to learn the second number because you can easily calculate it\nby adding 30 seconds to the first number. Considering that Lava Wave\nhas 120 seconds of cooldown and that is divisible by 30 seconds, after timing it for a given lane,\nyou can cast it on cooldown in the same lane.\nIf you do not want to learn all these numbers or if you cannot remember what are the\ncorrect Lava Wave timings for a given Map while playing, bookmark this guide. To quickly\nfind what you are looking for, click on the name of the Map you are playing on at the top\nof the guide and the page will automatically scroll down for you."
+  },
+  {
+   "title": "Alterac Pass",
+   "id": "alterac-pass",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 13 seconds, 43 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 13 seconds, 43 seconds."
+  },
+  {
+   "title": "Battlefield of Eternity",
+   "id": "battlefield-of-eternity",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 16 seconds, 46 seconds;\nbottom lane: 16 seconds, 46 seconds."
+  },
+  {
+   "title": "Blackheart's Bay",
+   "id": "blackhearts-bay",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 10 seconds, 40 seconds;\nmiddle lane: 15 seconds, 45 seconds;\nbottom lane: 14 seconds, 44 seconds."
+  },
+  {
+   "title": "Braxis Holdout",
+   "id": "braxis-holdout",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 13 seconds, 43 seconds;\nbottom lane: 13 seconds, 43 seconds."
+  },
+  {
+   "title": "Cursed Hollow",
+   "id": "cursed-hollow",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 12 seconds, 42 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 12 seconds, 42 seconds."
+  },
+  {
+   "title": "Dragon Shire",
+   "id": "dragon-shire",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 14 seconds, 44 seconds;\nmiddle lane: 18 seconds, 48 seconds;\nbottom lane: 15 seconds, 45 seconds."
+  },
+  {
+   "title": "Garden of Terror",
+   "id": "garden-of-terror",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 13 seconds, 43 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 13 seconds, 43 seconds."
+  },
+  {
+   "title": "Hanamura Temple",
+   "id": "hanamura-temple",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 13 seconds, 43 seconds;\nbottom lane: 13 seconds, 43 seconds."
+  },
+  {
+   "title": "Haunted Mines",
+   "id": "haunted-mines",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 15 seconds, 45 seconds;\nbottom lane: 15 seconds, 45 seconds."
+  },
+  {
+   "title": "Infernal Shrines",
+   "id": "infernal-shrines",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 13 seconds, 43 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 13 seconds, 43 seconds."
+  },
+  {
+   "title": "Sky Temple",
+   "id": "sky-temple",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 15 seconds, 45 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 13 seconds, 43 seconds."
+  },
+  {
+   "title": "Tomb of the Spider Queen",
+   "id": "tomb-of-the-spider-queen",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 15 seconds, 45 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 13 seconds, 43 seconds."
+  },
+  {
+   "title": "Towers of Doom",
+   "id": "towers-of-doom",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 21 seconds, 51 seconds;\nmiddle lane: 21 seconds, 51 seconds;\nbottom lane: 21 seconds, 51 seconds."
+  },
+  {
+   "title": "Volskaya Foundry",
+   "id": "volskaya-foundry",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 14 seconds, 44 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 14 seconds, 44 seconds."
+  },
+  {
+   "title": "Warhead Junction",
+   "id": "warhead-junction",
+   "text": "On this Map, the Lava Wave timings are:\ntop lane: 13 seconds, 43 seconds;\nmiddle lane: 17 seconds, 47 seconds;\nbottom lane: 11 seconds, 41 seconds.\n\nSee our Ragnaros Hero Guide for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 May 2026: Lava Wave timings for Haunted Mines added.\n30 Sep. 2025: Guide updated for the latest Map Updates.\n25 Aug. 2024: Images changed.\n18 Apr. 2024: Guide updated for Lava Wave no longer magnetizing Experience Globes.\n31 Mar. 2022: Tables added.\n18 Dec. 2021: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

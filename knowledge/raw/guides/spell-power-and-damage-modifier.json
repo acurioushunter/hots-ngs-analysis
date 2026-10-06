@@ -1,0 +1,41 @@
+{
+ "slug": "spell-power-and-damage-modifier",
+ "source": "https://www.icy-veins.com/heroes/spell-power-and-damage-modifier",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "In this guide we will take a look at how healing and damage modifiers work,\nsomething which is useful to know when evaluating specific Talents which provide those effects,\nespecially for Heroes who have access to both types of modifiers\nbut also when they come from different Heroes in the same team."
+  },
+  {
+   "title": "Explanation",
+   "id": "explanation",
+   "text": "Those modifiers are:\nSpell Power Modifier, which affects both healing\n(including percent-based healing)\nand damage done with Abilities (excluding percent-based damage);\nDamage Modifier, which affects both damage done with Abilities\n(excluding percent-based damage) and Basic Attacks.\n\nHealing Modifier, Spell Damage Modifier, and Physical Damage Modifier\ncannot go lower than -75%, however, the in-game interface does not show so.\nThis cap is there to prevent those effects to completely deny the damage\nand/or healing done by Heroes when combined together.\nFinally, be aware that what you see in the Target Info Panel\nis actually the Spell Damage Modifier, not the Spell Power Modifier,\nso the label is misleading because it looks like it includes the Healing Modifier\nbut that is not always the case, depending if the Spell Damage Modifier comes\nfrom a Spell Power Modifier or a Damage Modifier."
+  },
+  {
+   "title": "Example",
+   "id": "example",
+   "text": ""
+  },
+  {
+   "title": "Damage Modifier",
+   "id": "damage-modifier",
+   "text": "Ana has a Talent called Debilitating Dart\nwhich reduces damage dealt by enemy Heroes by 50% for 4 seconds,\nso it falls in the Damage Modifier category. As a consequence,\nthe enemy Hero hit will have -50% Spell Damage Modifier\nand -50% Physical Damage Modifier for 4 seconds.\nTo recap, Debilitating Dart applies:\n-0% Healing Modifier,\n-50% Spell Damage Modifier,\n-50% Physical Damage Modifier.\nThis effect will incorrectly show as -50% Spell Power Modifier in the Target Info Panel,\nhowever, we know that we still have -0% Healing Modifier because, as explained above,\nwhat is being shown there is the Spell Damage Modifier with a wrong label."
+  },
+  {
+   "title": "Spell Power Modifier",
+   "id": "spell-power-modifier",
+   "text": "Ana also has Mind-Numbing Agent\nwhich can be used to reduce the Spell Power of enemy Heroes up to 50%\nby hitting them with Basic Attacks that apply Doses with Shrike.\nAs a consequence, the enemy Hero hit will have -50% Spell Damage Modifier\nand -50% Healing Modifier.\nTo recap, Mind-Numbing Agent apllies:\n-50% Healing Modifier,\n-50% Spell Damage Modifier,\n-0% Physical Damage Modifier.\nThis effect will correctly show as -50% Spell Power Modifier in the Target Info Panel\nbecause the Physical Damage Modifier, which causes the interface to be wrong sometimes,\nis equal to 0% in this case."
+  },
+  {
+   "title": "Spell Power and Damage Modifier",
+   "id": "spell-power-and-damage-modifier",
+   "text": "If we use Debilitating Dart and Mind-Numbing Agent\non the same target, we are applying -50% Damage Modifier and -50% Spell Power Modifier.\nAs you can see from the graph above, this means that the enemy Hero hit will have\n-50% Healing Modifier, -75% Spell Damage Modifier, and -50% Physical Damage Modifier.\nWe stop at -75% Spell Damage Modifier because of the cap, however,\nkeep in mind that the enemy Hero hit will not be able to gain Spell Power\nif the amount they receive is lower than 25% because\nthere is still -25% Spell Damage to be denied under the cap!\nTo recap, Debilitating Dart and Mind-Numbing Agent together apply:\n-50% Healing Modifier,\n-75% Spell Damage Modifier,\n-50% Physical Damage Modifier.\nThis combination of effects will incorrectly show as -100% Spell Power Modifier\nin the Target Info Panel, but the affected Hero will obviously still be able to heal\nand deal damage thanks to the -75% cap."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Aug. 2021: Guide created.\nShow more\nShow less"
+  }
+ ]
+}
