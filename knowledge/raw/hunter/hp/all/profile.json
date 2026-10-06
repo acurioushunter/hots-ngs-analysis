@@ -1,0 +1,1949 @@
+{
+ "wins": 2520,
+ "losses": 2215,
+ "first_to_ten_wins": 1638,
+ "first_to_ten_losses": 821,
+ "first_to_ten_win_rate": 66.61,
+ "second_to_ten_wins": 882,
+ "second_to_ten_losses": 1394,
+ "second_to_ten_win_rate": 38.75,
+ "kdr": 1.45,
+ "kda": 5.07,
+ "account_level": 1463,
+ "win_rate": 53.22,
+ "bruiser_win_rate": 53.38,
+ "support_win_rate": 56.44,
+ "ranged_assassin_win_rate": 53.42,
+ "melee_assassin_win_rate": 52.31,
+ "healer_win_rate": 51.9,
+ "tank_win_rate": 45.82,
+ "mvp_rate": 13.91,
+ "total_time_played": "64 days, 23 hours, 27 minutes, 19 seconds",
+ "average_time_on_fire": "1 minutes, 17 seconds",
+ "heroes_three_highest_win_rate": [
+  {
+   "wins": 16,
+   "losses": 8,
+   "games_played": 24,
+   "game_date": "2025-11-23 07:02:09",
+   "win_rate": 66.67,
+   "hero_id": 33,
+   "hero": {
+    "id": 33,
+    "name": "Lt. Morales",
+    "short_name": "ltmorales",
+    "alt_name": "Medic",
+    "role": "Support",
+    "new_role": "Healer",
+    "type": "Ranged",
+    "release_date": "2015-10-06 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.54.3.86223",
+    "attribute_id": "Medi",
+    "build_copy_name": "LtMorales",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "66.67% win rate over 24 games"
+  },
+  {
+   "wins": 29,
+   "losses": 15,
+   "games_played": 44,
+   "game_date": "2020-05-26 00:40:22",
+   "win_rate": 65.91,
+   "hero_id": 58,
+   "hero": {
+    "id": 58,
+    "name": "Tracer",
+    "short_name": "tracer",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-04-19 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Tra0",
+    "build_copy_name": "Tracer",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "65.91% win rate over 44 games"
+  },
+  {
+   "wins": 15,
+   "losses": 8,
+   "games_played": 23,
+   "game_date": "2026-10-02 05:26:48",
+   "win_rate": 65.22,
+   "hero_id": 83,
+   "hero": {
+    "id": 83,
+    "name": "Mephisto",
+    "short_name": "mephisto",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2018-09-03 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "MEPH",
+    "build_copy_name": "Mephisto",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "65.22% win rate over 23 games"
+  }
+ ],
+ "heroes_three_most_played": [
+  {
+   "wins": 583,
+   "losses": 437,
+   "games_played": 1020,
+   "game_date": "2026-07-25 05:18:56",
+   "win_rate": 57.16,
+   "hero_id": 1,
+   "hero": {
+    "id": 1,
+    "name": "Abathur",
+    "short_name": "abathur",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Support",
+    "type": "Melee",
+    "release_date": "2014-03-13 00:00:01",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Abat",
+    "build_copy_name": "Abathur",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "57.16% win rate over 1020 games"
+  },
+  {
+   "wins": 267,
+   "losses": 198,
+   "games_played": 465,
+   "game_date": "2026-10-05 05:39:13",
+   "win_rate": 57.42,
+   "hero_id": 73,
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "57.42% win rate over 465 games"
+  },
+  {
+   "wins": 200,
+   "losses": 239,
+   "games_played": 439,
+   "game_date": "2026-10-05 04:16:17",
+   "win_rate": 45.56,
+   "hero_id": 75,
+   "hero": {
+    "id": 75,
+    "name": "Hanzo",
+    "short_name": "hanzo",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-12-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Hanz",
+    "build_copy_name": "Hanzo",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "45.56% win rate over 439 games"
+  }
+ ],
+ "heroes_three_latest_played": [
+  {
+   "wins": 267,
+   "losses": 198,
+   "games_played": 465,
+   "game_date": "2026-10-05 05:39:13",
+   "win_rate": 57.42,
+   "hero_id": 73,
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "57.42% win rate over 465 games"
+  },
+  {
+   "wins": 29,
+   "losses": 25,
+   "games_played": 54,
+   "game_date": "2026-10-05 05:05:33",
+   "win_rate": 53.7,
+   "hero_id": 12,
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "53.7% win rate over 54 games"
+  },
+  {
+   "wins": 101,
+   "losses": 84,
+   "games_played": 185,
+   "game_date": "2026-10-05 04:38:58",
+   "win_rate": 54.59,
+   "hero_id": 53,
+   "hero": {
+    "id": 53,
+    "name": "Sylvanas",
+    "short_name": "sylvanas",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-03-24 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Sylv",
+    "build_copy_name": "Sylvanas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "54.59% win rate over 185 games"
+  }
+ ],
+ "qm_mmr_data": {
+  "conservative_rating": 23.97734253942437,
+  "win": 829,
+  "loss": 745,
+  "rank_tier": "Diamond 4",
+  "win_rate": 52.67,
+  "mmr": 2759
+ },
+ "ud_mmr_data": {
+  "conservative_rating": 19.433671438465105,
+  "win": 136,
+  "loss": 137,
+  "rank_tier": "Gold 5",
+  "win_rate": 49.82,
+  "mmr": 2577
+ },
+ "hl_mmr_data": {
+  "conservative_rating": 7.502289624638607,
+  "win": 9,
+  "loss": 10,
+  "rank_tier": "Bronze 3",
+  "win_rate": 47.37,
+  "mmr": 2100
+ },
+ "tl_mmr_data": {
+  "conservative_rating": 20.941517429298305,
+  "win": 112,
+  "loss": 97,
+  "rank_tier": "Gold 2",
+  "win_rate": 53.59,
+  "mmr": 2638
+ },
+ "sl_mmr_data": {
+  "conservative_rating": 28.01282950410317,
+  "win": 1259,
+  "loss": 1105,
+  "rank_tier": "Diamond 2",
+  "win_rate": 53.26,
+  "mmr": 2921
+ },
+ "ar_mmr_data": {
+  "conservative_rating": 25.71611945310257,
+  "win": 175,
+  "loss": 121,
+  "rank_tier": "Diamond 4",
+  "win_rate": 59.12,
+  "mmr": 2829
+ },
+ "maps_three_highest_win_rate": [
+  {
+   "wins": 52,
+   "losses": 24,
+   "games_played": 76,
+   "game_date": "2026-10-02 05:46:04",
+   "win_rate": 68.42,
+   "map_id": 20,
+   "game_map": {
+    "map_id": 20,
+    "name": "Silver City",
+    "short_name": "SilverCity",
+    "type": "ARAM",
+    "ranked_rotation": 0,
+    "playable": 1,
+    "sanitized_map_name": "silver_city"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "68.42% win rate over 76 games"
+  },
+  {
+   "wins": 51,
+   "losses": 31,
+   "games_played": 82,
+   "game_date": "2026-09-30 01:51:52",
+   "win_rate": 62.2,
+   "map_id": 21,
+   "game_map": {
+    "map_id": 21,
+    "name": "Braxis Outpost",
+    "short_name": "BraxisOutpost",
+    "type": "ARAM",
+    "ranked_rotation": 0,
+    "playable": 1,
+    "sanitized_map_name": "braxis_outpost"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "62.2% win rate over 82 games"
+  },
+  {
+   "wins": 196,
+   "losses": 132,
+   "games_played": 328,
+   "game_date": "2026-10-05 05:39:13",
+   "win_rate": 59.76,
+   "map_id": 6,
+   "game_map": {
+    "map_id": 6,
+    "name": "Garden of Terror",
+    "short_name": "HauntedWoods",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "garden_of_terror"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "59.76% win rate over 328 games"
+  }
+ ],
+ "maps_three_most_played": [
+  {
+   "wins": 220,
+   "losses": 177,
+   "games_played": 397,
+   "game_date": "2026-10-05 03:30:02",
+   "win_rate": 55.42,
+   "map_id": 4,
+   "game_map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "55.42% win rate over 397 games"
+  },
+  {
+   "wins": 200,
+   "losses": 178,
+   "games_played": 378,
+   "game_date": "2026-09-28 04:20:43",
+   "win_rate": 52.91,
+   "map_id": 12,
+   "game_map": {
+    "map_id": 12,
+    "name": "Towers of Doom",
+    "short_name": "TowersOfDoom",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "towers_of_doom"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "52.91% win rate over 378 games"
+  },
+  {
+   "wins": 195,
+   "losses": 175,
+   "games_played": 370,
+   "game_date": "2026-10-05 04:16:17",
+   "win_rate": 52.7,
+   "map_id": 9,
+   "game_map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "52.7% win rate over 370 games"
+  }
+ ],
+ "maps_three_latest_played": [
+  {
+   "wins": 196,
+   "losses": 132,
+   "games_played": 328,
+   "game_date": "2026-10-05 05:39:13",
+   "win_rate": 59.76,
+   "map_id": 6,
+   "game_map": {
+    "map_id": 6,
+    "name": "Garden of Terror",
+    "short_name": "HauntedWoods",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "garden_of_terror"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "59.76% win rate over 328 games"
+  },
+  {
+   "wins": 196,
+   "losses": 170,
+   "games_played": 366,
+   "game_date": "2026-10-05 05:05:33",
+   "win_rate": 53.55,
+   "map_id": 5,
+   "game_map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "53.55% win rate over 366 games"
+  },
+  {
+   "wins": 176,
+   "losses": 158,
+   "games_played": 334,
+   "game_date": "2026-10-05 04:38:58",
+   "win_rate": 52.69,
+   "map_id": 15,
+   "game_map": {
+    "map_id": 15,
+    "name": "Alterac Pass",
+    "short_name": "AlteracPass",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "alterac_pass"
+   },
+   "blizz_id": "8186800",
+   "region": "1",
+   "battletag": "hunterstag",
+   "hovertext": "52.69% win rate over 334 games"
+  }
+ ],
+ "stack_one_wins": 259,
+ "stack_one_losses": 229,
+ "stack_one_win_rate": 53.07,
+ "stack_two_wins": 569,
+ "stack_two_losses": 604,
+ "stack_two_win_rate": 48.51,
+ "stack_three_wins": 462,
+ "stack_three_losses": 412,
+ "stack_three_win_rate": 52.86,
+ "stack_four_wins": 377,
+ "stack_four_losses": 291,
+ "stack_four_win_rate": 56.44,
+ "stack_five_wins": 732,
+ "stack_five_losses": 588,
+ "stack_five_win_rate": 55.45,
+ "matchData": [
+  {
+   "replayID": 65734871,
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_date": "2026-10-05 05:39:13",
+   "game_map": {
+    "map_id": 6,
+    "name": "Garden of Terror",
+    "short_name": "HauntedWoods",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "garden_of_terror"
+   },
+   "winner": 1,
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "player_conservative_rating": 28.03,
+   "player_change": 4.11,
+   "hero_conservative_rating": 28.61,
+   "hero_change": 2.03,
+   "role_conservative_rating": 27.38,
+   "role_change": 4.61,
+   "level_one": {
+    "talent_id": 767,
+    "hero_name": "Junkrat",
+    "short_name": "junkrat",
+    "attribute_id": "Junk",
+    "title": "Extra-Wound Timers",
+    "talent_name": "JunkratFragLauncherExtraWoundTimers",
+    "description": "The final grenade launched from Frag Launcher deals 100% bonus damage, and Frag Launcher grenades last an additional 2 seconds before automatically detonating.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 1,
+    "icon": "storm_ui_icon_junkrat_frag_launcher_b.png",
+    "required_talent_id": null
+   },
+   "level_four": {
+    "talent_id": 764,
+    "hero_name": "Junkrat",
+    "short_name": "junkrat",
+    "attribute_id": "Junk",
+    "title": "Chattering Teeth",
+    "talent_name": "JunkratSteelTrapChatteringTeeth",
+    "description": "Steel Traps will slowly chase nearby enemy Heroes.",
+    "status": "playable",
+    "hotkey": "E",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 4,
+    "icon": "storm_ui_icon_junkrat_steel_trap.png",
+    "required_talent_id": null
+   },
+   "level_seven": {
+    "talent_id": 778,
+    "hero_name": "Junkrat",
+    "short_name": "junkrat",
+    "attribute_id": "Junk",
+    "title": "Sticky Wicket",
+    "talent_name": "JunkratSteelTrapStickyWicket",
+    "description": "Enemy Heroes who are hit by Steel Trap are Silenced for 2 seconds.",
+    "status": "playable",
+    "hotkey": "E",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 7,
+    "icon": "storm_ui_icon_junkrat_steel_trap.png",
+    "required_talent_id": null
+   },
+   "level_ten": {
+    "talent_id": 772,
+    "hero_name": "Junkrat",
+    "short_name": "junkrat",
+    "attribute_id": "Junk",
+    "title": "RIP-Tire",
+    "talent_name": "JunkratRIPTire",
+    "description": "Create a motorized bomb with 530 (+4% per level) Health that lasts 15 seconds. While active, Junkrat is immobile but gains control of RIP-Tire's movement.  RIP-Tire can be reactivated to detonate immediately, knocking nearby enemies back and dealing 720 (+4% per level) damage to enemies near the center gradually reduced to 445 (+4% per level) to enemies on the edge.",
+    "status": "playable",
+    "hotkey": "Heroic",
+    "cooldown": "75",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 10,
+    "icon": "storm_ui_icon_junkrat_rip_tire.png",
+    "required_talent_id": null
+   },
+   "level_thirteen": {
+    "talent_id": 768,
+    "hero_name": "Junkrat",
+    "short_name": "junkrat",
+    "attribute_id": "Junk",
+    "title": "Gotta Trap 'Em All!",
+    "talent_name": "JunkratSteelTrapGottaTrapEmAll",
+    "description": "Reduce Steel Trap's cooldown by 5 seconds and increase the maximum number of active traps to 2.",
+    "status": "playable",
+    "hotkey": "E",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 13,
+    "icon": "storm_ui_icon_junkrat_steel_trap.png",
+    "required_talent_id": null
+   },
+   "level_sixteen": {
+    "talent_id": 765,
+    "hero_name": "Junkrat",
+    "short_name": "junkrat",
+    "attribute_id": "Junk",
+    "title": "Endless Nades",
+    "talent_name": "JunkratFragLauncherEndlessNades",
+    "description": "Hitting an enemy Hero with Frag Launcher reduces its cooldown by 1.5 seconds.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 16,
+    "icon": "storm_ui_icon_junkrat_frag_launcher_e.png",
+    "required_talent_id": null
+   },
+   "level_twenty": {
+    "talent_id": 763,
+    "hero_name": "Junkrat",
+    "short_name": "junkrat",
+    "attribute_id": "Junk",
+    "title": "Cannonball!",
+    "talent_name": "JunkratFragLauncherCannonball",
+    "description": "Increase the radius and explosion radius of grenades from Basic Attacks and Frag Launcher by 50%.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 20,
+    "icon": "storm_ui_icon_junkrat_frag_launcher_g.png",
+    "required_talent_id": null
+   },
+   "player_mmr": 2921,
+   "hero_mmr": 2945,
+   "role_mmr": 2895
+  },
+  {
+   "replayID": 65734714,
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_date": "2026-10-05 05:05:33",
+   "game_map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "winner": 1,
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "player_conservative_rating": 27.92,
+   "player_change": 3.97,
+   "hero_conservative_rating": 18.87,
+   "hero_change": 29.22,
+   "role_conservative_rating": 27.26,
+   "role_change": 5.28,
+   "level_one": {
+    "talent_id": 377,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Timewalker's Pursuit",
+    "talent_name": "ChromieTimewalkersPursuit",
+    "description": "Gain 15% Spell Power and reduce the arming time of Time Traps by 0.75 seconds. Activate to reveal the targeted area for 4 seconds. Enemies seen are revealed for 4 seconds.",
+    "status": "playable",
+    "hotkey": "Active",
+    "cooldown": "25",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 1,
+    "icon": "storm_ui_icon_talent_clairvoyance.png",
+    "required_talent_id": null
+   },
+   "level_four": {
+    "talent_id": 356,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Andorhal Anomaly",
+    "talent_name": "ChromieTimeTrapAndorhalAnomaly",
+    "description": "Increase the charges and maximum active Time Traps to 3, and reduce its cooldown by 8 seconds.",
+    "status": "playable",
+    "hotkey": "E",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 4,
+    "icon": "storm_ui_icon_chromie_timetrap_b.png",
+    "required_talent_id": null
+   },
+   "level_seven": {
+    "talent_id": 2590,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "A Proper Greeting",
+    "talent_name": "ChromieAProperGreeting",
+    "description": "Damaging a Stunned, Rooted, or Slowed enemy Hero grants 20% additional damage for 3 seconds.",
+    "status": "playable",
+    "hotkey": "Passive",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 7,
+    "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+    "required_talent_id": null
+   },
+   "level_ten": {
+    "talent_id": 372,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Slowing Sands",
+    "talent_name": "ChromieHeroicAbilitySlowingSands",
+    "description": "Summon a sand vortex that Slows enemies by 10% every 0.25 seconds, up to 70%.",
+    "status": "playable",
+    "hotkey": "Heroic",
+    "cooldown": "5",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 10,
+    "icon": "storm_ui_icon_chromie_timewarp.png",
+    "required_talent_id": null
+   },
+   "level_thirteen": {
+    "talent_id": 375,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Time Out",
+    "talent_name": "ChromieTimeOut",
+    "description": "Activate to place Chromie in Stasis and gain Invulnerability for up to 5 seconds. Can be reactivated to end the effect early.",
+    "status": "playable",
+    "hotkey": "Active",
+    "cooldown": "60",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 13,
+    "icon": "storm_ui_icon_chromie_timeblock.png",
+    "required_talent_id": null
+   },
+   "level_sixteen": {
+    "talent_id": 364,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Fast Forward",
+    "talent_name": "ChromieSandBlastFastForward",
+    "description": "If Chromie's primary Sand Blast travels at least 50% of its base distance and hits a Hero, its cooldown is reduced to 0.5 seconds and it refunds 10 Mana.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 16,
+    "icon": "storm_ui_icon_chromie_aethercannon_a.png",
+    "required_talent_id": null
+   },
+   "level_twenty": {
+    "talent_id": 2599,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Unravelling",
+    "talent_name": "ChromieSlowingSandsUnravelling",
+    "description": "Every 0.25 seconds, enemy Heroes Slowed by Slowing Sands have their Spell Armor reduced by 10 up to 50.  Passive: Increase Slowing Sands cast range by 50%, and Slowing Sands persists for 5 seconds after it is cancelled.",
+    "status": "playable",
+    "hotkey": "Heroic",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 20,
+    "icon": "storm_ui_icon_chromie_timewarp.png",
+    "required_talent_id": null
+   },
+   "player_mmr": 2917,
+   "hero_mmr": 2555,
+   "role_mmr": 2890
+  },
+  {
+   "replayID": 65734142,
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_date": "2026-10-05 04:38:58",
+   "game_map": {
+    "map_id": 15,
+    "name": "Alterac Pass",
+    "short_name": "AlteracPass",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "alterac_pass"
+   },
+   "winner": 1,
+   "hero": {
+    "id": 53,
+    "name": "Sylvanas",
+    "short_name": "sylvanas",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-03-24 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Sylv",
+    "build_copy_name": "Sylvanas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "player_conservative_rating": 27.82,
+   "player_change": 2.72,
+   "hero_conservative_rating": 23.42,
+   "hero_change": 7.63,
+   "role_conservative_rating": 27.13,
+   "role_change": 3.69,
+   "level_one": {
+    "talent_id": 6034,
+    "hero_name": "Sylvanas",
+    "short_name": "sylvanas",
+    "attribute_id": "Sylv",
+    "title": "Unrelenting Torment",
+    "talent_name": "SylvanasUnrelentingTorment",
+    "description": "Increase the damage of Shadow Dagger by 20% and increase its duration by 1 second.",
+    "status": "playable",
+    "hotkey": "W",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 1,
+    "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+    "required_talent_id": null
+   },
+   "level_four": {
+    "talent_id": 6031,
+    "hero_name": "Sylvanas",
+    "short_name": "sylvanas",
+    "attribute_id": "Sylv",
+    "title": "Haunting Arrows",
+    "talent_name": "SylvanasHauntingArrows",
+    "description": "Black Arrows can now be activated to cause all Basic Attacks and Abilities to Stun Minions and Structures for 3 seconds. Lasts for 10 seconds. Basic Attacks against Structures reduce this cooldown by 3 seconds.",
+    "status": "playable",
+    "hotkey": "Trait",
+    "cooldown": "90",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 4,
+    "icon": "storm_ui_icon_sylvanas_blackarrows_b.png",
+    "required_talent_id": null
+   },
+   "level_seven": {
+    "talent_id": 1646,
+    "hero_name": "Sylvanas",
+    "short_name": "sylvanas",
+    "attribute_id": "Sylv",
+    "title": "Lost Soul",
+    "talent_name": "SylvanasTalentLostSoul",
+    "description": "Basic Attacks against Heroes and Structures with 3 stacks of Black Arrows reduce the cooldown of Shadow Dagger by 0.75 seconds, doubled against Heroes.",
+    "status": "playable",
+    "hotkey": "W",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 7,
+    "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+    "required_talent_id": null
+   },
+   "level_ten": {
+    "talent_id": 1652,
+    "hero_name": "Sylvanas",
+    "short_name": "sylvanas",
+    "attribute_id": "Sylv",
+    "title": "Mind Control",
+    "talent_name": "SylvanasMindControl",
+    "description": "After 0.25 seconds, fire a missile that Mind Controls the first enemy Hero hit. Heroes hit are Silenced, Slowed by 30%, have 3 stacks of Black Arrows applied to them, and are forced to walk towards Sylvanas for 1.75 seconds.",
+    "status": "playable",
+    "hotkey": "Heroic",
+    "cooldown": "40",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 10,
+    "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
+    "required_talent_id": null
+   },
+   "level_thirteen": {
+    "talent_id": 1658,
+    "hero_name": "Sylvanas",
+    "short_name": "sylvanas",
+    "attribute_id": "Sylv",
+    "title": "Remorseless",
+    "talent_name": "SylvanasTalentRemorseless",
+    "description": "Sylvanas's Basic Attacks against enemy Heroes with 3 stacks of Black Arrows shoot an untalented shot of Withering Fire. This shot of Withering Fire applies Black Arrows.  Increase Sylvanas's Basic Attack range by 1.",
+    "status": "playable",
+    "hotkey": "Trait",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 13,
+    "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+    "required_talent_id": null
+   },
+   "level_sixteen": {
+    "talent_id": 1641,
+    "hero_name": "Sylvanas",
+    "short_name": "sylvanas",
+    "attribute_id": "Sylv",
+    "title": "Evasive Fire",
+    "talent_name": "SylvanasTalentWitheringFireEvasiveFire",
+    "description": "Hitting an enemy with Withering Fire grants 6% Movement Speed for 2 seconds, up to 30%. Basic Attacks refresh this duration.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 16,
+    "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+    "required_talent_id": null
+   },
+   "level_twenty": {
+    "talent_id": 1669,
+    "hero_name": "Sylvanas",
+    "short_name": "sylvanas",
+    "attribute_id": "Sylv",
+    "title": "Withering Barrage",
+    "talent_name": "SylvanasTalentWitheringBarrage",
+    "description": "Withering Fire applies Black Arrows, and Heroes hit by Withering Fire reduce its cooldown by 0.75 seconds.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 20,
+    "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+    "required_talent_id": null
+   },
+   "player_mmr": 2913,
+   "hero_mmr": 2737,
+   "role_mmr": 2885
+  },
+  {
+   "replayID": 65734028,
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_date": "2026-10-05 04:16:17",
+   "game_map": {
+    "map_id": 9,
+    "name": "Infernal Shrines",
+    "short_name": "Shrines",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "infernal_shrines"
+   },
+   "winner": 0,
+   "hero": {
+    "id": 75,
+    "name": "Hanzo",
+    "short_name": "hanzo",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-12-12 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Hanz",
+    "build_copy_name": "Hanzo",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "player_conservative_rating": 27.76,
+   "player_change": -2.66,
+   "hero_conservative_rating": 19.01,
+   "hero_change": -3.34,
+   "role_conservative_rating": 27.04,
+   "role_change": -3.38,
+   "level_one": {
+    "talent_id": 690,
+    "hero_name": "Hanzo",
+    "short_name": "hanzo",
+    "attribute_id": "Hanz",
+    "title": "Simple Geometry",
+    "talent_name": "HanzoSimpleGeometry",
+    "description": "Quest: Hit a Hero with multiple arrows from the same Scatter Arrow cast 20 times. Each arrow hit after the second grants additional progress.  Reward: Upon hitting terrain for the first time, Scatter Arrow creates 2 additional arrows.",
+    "status": "playable",
+    "hotkey": "W",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 1,
+    "icon": "storm_ui_icon_hanzo_scatterarrow.png",
+    "required_talent_id": null
+   },
+   "level_four": {
+    "talent_id": 675,
+    "hero_name": "Hanzo",
+    "short_name": "hanzo",
+    "attribute_id": "Hanz",
+    "title": "Explosive Arrows",
+    "talent_name": "HanzoExplosiveArrows",
+    "description": "Upon hitting a Minion or Monster, Storm Bow deals 60% of its damage to enemies around its target.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 4,
+    "icon": "storm_ui_icon_hanzo_stormbow.png",
+    "required_talent_id": null
+   },
+   "level_seven": {
+    "talent_id": 681,
+    "hero_name": "Hanzo",
+    "short_name": "hanzo",
+    "attribute_id": "Hanz",
+    "title": "Never Outmatched",
+    "talent_name": "HanzoNeverOutmatched",
+    "description": "Reduce Scatter Arrow's Mana cost from 50 to 30. Basic Attacks against Heroes lower the cooldown of Scatter Arrow by 3 seconds.",
+    "status": "playable",
+    "hotkey": "W",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 7,
+    "icon": "storm_ui_icon_hanzo_scatterarrow.png",
+    "required_talent_id": null
+   },
+   "level_ten": {
+    "talent_id": 673,
+    "hero_name": "Hanzo",
+    "short_name": "hanzo",
+    "attribute_id": "Hanz",
+    "title": "Dragon's Arrow",
+    "talent_name": "HanzoDragonsArrow",
+    "description": "Fire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing 130 (+4% per level) damage to all nearby enemies and Stunning them for 0.5 seconds.  After traveling a medium distance, the damage is increased to 260 (+4% per level) and the Stun duration to 1.25 seconds.  After traveling a long distance, the damage is increased to 390 (+4% per level) and the Stun duration to 2 seconds.",
+    "status": "playable",
+    "hotkey": "Heroic",
+    "cooldown": "70",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 10,
+    "icon": "storm_ui_icon_hanzo_thedragonsarrow.png",
+    "required_talent_id": null
+   },
+   "level_thirteen": {
+    "talent_id": 677,
+    "hero_name": "Hanzo",
+    "short_name": "hanzo",
+    "attribute_id": "Hanz",
+    "title": "Fleet of Foot",
+    "talent_name": "HanzoFleetofFoot",
+    "description": "Hitting a Hero with Storm Bow grants 10% Movement Speed for 6 seconds, up to 30%.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 13,
+    "icon": "storm_ui_icon_hanzo_stormbow.png",
+    "required_talent_id": null
+   },
+   "level_sixteen": {
+    "talent_id": 678,
+    "hero_name": "Hanzo",
+    "short_name": "hanzo",
+    "attribute_id": "Hanz",
+    "title": "Giant Slayer",
+    "talent_name": "HanzoGiantSlayer",
+    "description": "Enemy Heroes hit by Scatter Arrow and Basic Attacks take a bonus 1.6% of their maximum Health as damage.",
+    "status": "playable",
+    "hotkey": "Passive",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 16,
+    "icon": "storm_ui_icon_hanzo_kaijuhunter.png",
+    "required_talent_id": null
+   },
+   "level_twenty": null,
+   "player_mmr": 2910,
+   "hero_mmr": 2560,
+   "role_mmr": 2881
+  },
+  {
+   "replayID": 65733826,
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_date": "2026-10-05 03:51:15",
+   "game_map": {
+    "map_id": 10,
+    "name": "Sky Temple",
+    "short_name": "ControlPoints",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "sky_temple"
+   },
+   "winner": 1,
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "player_conservative_rating": 27.82,
+   "player_change": 4.4,
+   "hero_conservative_rating": 18.14,
+   "hero_change": 13.95,
+   "role_conservative_rating": 27.12,
+   "role_change": 2.72,
+   "level_one": {
+    "talent_id": 377,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Timewalker's Pursuit",
+    "talent_name": "ChromieTimewalkersPursuit",
+    "description": "Gain 15% Spell Power and reduce the arming time of Time Traps by 0.75 seconds. Activate to reveal the targeted area for 4 seconds. Enemies seen are revealed for 4 seconds.",
+    "status": "playable",
+    "hotkey": "Active",
+    "cooldown": "25",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 1,
+    "icon": "storm_ui_icon_talent_clairvoyance.png",
+    "required_talent_id": null
+   },
+   "level_four": {
+    "talent_id": 356,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Andorhal Anomaly",
+    "talent_name": "ChromieTimeTrapAndorhalAnomaly",
+    "description": "Increase the charges and maximum active Time Traps to 3, and reduce its cooldown by 8 seconds.",
+    "status": "playable",
+    "hotkey": "E",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 4,
+    "icon": "storm_ui_icon_chromie_timetrap_b.png",
+    "required_talent_id": null
+   },
+   "level_seven": {
+    "talent_id": 2590,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "A Proper Greeting",
+    "talent_name": "ChromieAProperGreeting",
+    "description": "Damaging a Stunned, Rooted, or Slowed enemy Hero grants 20% additional damage for 3 seconds.",
+    "status": "playable",
+    "hotkey": "Passive",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 7,
+    "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+    "required_talent_id": null
+   },
+   "level_ten": {
+    "talent_id": 372,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Slowing Sands",
+    "talent_name": "ChromieHeroicAbilitySlowingSands",
+    "description": "Summon a sand vortex that Slows enemies by 10% every 0.25 seconds, up to 70%.",
+    "status": "playable",
+    "hotkey": "Heroic",
+    "cooldown": "5",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 10,
+    "icon": "storm_ui_icon_chromie_timewarp.png",
+    "required_talent_id": null
+   },
+   "level_thirteen": {
+    "talent_id": 375,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Time Out",
+    "talent_name": "ChromieTimeOut",
+    "description": "Activate to place Chromie in Stasis and gain Invulnerability for up to 5 seconds. Can be reactivated to end the effect early.",
+    "status": "playable",
+    "hotkey": "Active",
+    "cooldown": "60",
+    "mana_cost": "",
+    "sort": "3",
+    "level": 13,
+    "icon": "storm_ui_icon_chromie_timeblock.png",
+    "required_talent_id": null
+   },
+   "level_sixteen": {
+    "talent_id": 364,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Fast Forward",
+    "talent_name": "ChromieSandBlastFastForward",
+    "description": "If Chromie's primary Sand Blast travels at least 50% of its base distance and hits a Hero, its cooldown is reduced to 0.5 seconds and it refunds 10 Mana.",
+    "status": "playable",
+    "hotkey": "Q",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "2",
+    "level": 16,
+    "icon": "storm_ui_icon_chromie_aethercannon_a.png",
+    "required_talent_id": null
+   },
+   "level_twenty": {
+    "talent_id": 2599,
+    "hero_name": "Chromie",
+    "short_name": "chromie",
+    "attribute_id": "Chro",
+    "title": "Unravelling",
+    "talent_name": "ChromieSlowingSandsUnravelling",
+    "description": "Every 0.25 seconds, enemy Heroes Slowed by Slowing Sands have their Spell Armor reduced by 10 up to 50.  Passive: Increase Slowing Sands cast range by 50%, and Slowing Sands persists for 5 seconds after it is cancelled.",
+    "status": "playable",
+    "hotkey": "Heroic",
+    "cooldown": "",
+    "mana_cost": "",
+    "sort": "1",
+    "level": 20,
+    "icon": "storm_ui_icon_chromie_timewarp.png",
+    "required_talent_id": null
+   },
+   "player_mmr": 2913,
+   "hero_mmr": 2525,
+   "role_mmr": 2885
+  }
+ ],
+ "weekday_data": {
+  "0": {
+   "wins": 29,
+   "losses": 13
+  },
+  "1": {
+   "wins": 30,
+   "losses": 25
+  },
+  "2": {
+   "wins": 51,
+   "losses": 35
+  },
+  "3": {
+   "wins": 44,
+   "losses": 46
+  },
+  "4": {
+   "wins": 75,
+   "losses": 55
+  },
+  "5": {
+   "wins": 61,
+   "losses": 45
+  },
+  "6": {
+   "wins": 51,
+   "losses": 26
+  },
+  "7": {
+   "wins": 19,
+   "losses": 21
+  },
+  "8": {
+   "wins": 5,
+   "losses": 9
+  },
+  "9": {
+   "wins": 2,
+   "losses": 3
+  },
+  "10": {
+   "wins": 1,
+   "losses": 1
+  },
+  "11": {
+   "wins": 1,
+   "losses": 0
+  },
+  "14": {
+   "wins": 0,
+   "losses": 2
+  },
+  "15": {
+   "wins": 2,
+   "losses": 2
+  },
+  "16": {
+   "wins": 0,
+   "losses": 2
+  },
+  "17": {
+   "wins": 3,
+   "losses": 0
+  },
+  "18": {
+   "wins": 0,
+   "losses": 1
+  },
+  "19": {
+   "wins": 4,
+   "losses": 3
+  },
+  "20": {
+   "wins": 12,
+   "losses": 10
+  },
+  "21": {
+   "wins": 9,
+   "losses": 18
+  },
+  "22": {
+   "wins": 24,
+   "losses": 15
+  },
+  "23": {
+   "wins": 28,
+   "losses": 19
+  },
+  "24": {
+   "wins": 19,
+   "losses": 14
+  },
+  "25": {
+   "wins": 30,
+   "losses": 23
+  },
+  "26": {
+   "wins": 40,
+   "losses": 26
+  },
+  "27": {
+   "wins": 30,
+   "losses": 29
+  },
+  "28": {
+   "wins": 40,
+   "losses": 39
+  },
+  "29": {
+   "wins": 33,
+   "losses": 36
+  },
+  "30": {
+   "wins": 18,
+   "losses": 16
+  },
+  "31": {
+   "wins": 12,
+   "losses": 10
+  },
+  "32": {
+   "wins": 11,
+   "losses": 4
+  },
+  "33": {
+   "wins": 3,
+   "losses": 2
+  },
+  "37": {
+   "wins": 0,
+   "losses": 1
+  },
+  "38": {
+   "wins": 1,
+   "losses": 0
+  },
+  "39": {
+   "wins": 1,
+   "losses": 0
+  },
+  "40": {
+   "wins": 2,
+   "losses": 0
+  },
+  "41": {
+   "wins": 1,
+   "losses": 2
+  },
+  "42": {
+   "wins": 2,
+   "losses": 9
+  },
+  "43": {
+   "wins": 5,
+   "losses": 11
+  },
+  "44": {
+   "wins": 9,
+   "losses": 9
+  },
+  "45": {
+   "wins": 16,
+   "losses": 10
+  },
+  "46": {
+   "wins": 26,
+   "losses": 22
+  },
+  "47": {
+   "wins": 23,
+   "losses": 23
+  },
+  "48": {
+   "wins": 25,
+   "losses": 22
+  },
+  "49": {
+   "wins": 27,
+   "losses": 21
+  },
+  "50": {
+   "wins": 28,
+   "losses": 31
+  },
+  "51": {
+   "wins": 63,
+   "losses": 45
+  },
+  "52": {
+   "wins": 61,
+   "losses": 66
+  },
+  "53": {
+   "wins": 48,
+   "losses": 48
+  },
+  "54": {
+   "wins": 29,
+   "losses": 23
+  },
+  "55": {
+   "wins": 16,
+   "losses": 8
+  },
+  "56": {
+   "wins": 5,
+   "losses": 5
+  },
+  "57": {
+   "wins": 3,
+   "losses": 0
+  },
+  "58": {
+   "wins": 2,
+   "losses": 2
+  },
+  "59": {
+   "wins": 0,
+   "losses": 1
+  },
+  "60": {
+   "wins": 0,
+   "losses": 1
+  },
+  "63": {
+   "wins": 1,
+   "losses": 1
+  },
+  "64": {
+   "wins": 1,
+   "losses": 1
+  },
+  "65": {
+   "wins": 0,
+   "losses": 1
+  },
+  "66": {
+   "wins": 5,
+   "losses": 1
+  },
+  "67": {
+   "wins": 5,
+   "losses": 8
+  },
+  "68": {
+   "wins": 10,
+   "losses": 10
+  },
+  "69": {
+   "wins": 21,
+   "losses": 16
+  },
+  "70": {
+   "wins": 25,
+   "losses": 26
+  },
+  "71": {
+   "wins": 26,
+   "losses": 23
+  },
+  "72": {
+   "wins": 18,
+   "losses": 20
+  },
+  "73": {
+   "wins": 24,
+   "losses": 19
+  },
+  "74": {
+   "wins": 28,
+   "losses": 29
+  },
+  "75": {
+   "wins": 32,
+   "losses": 34
+  },
+  "76": {
+   "wins": 43,
+   "losses": 32
+  },
+  "77": {
+   "wins": 30,
+   "losses": 26
+  },
+  "78": {
+   "wins": 15,
+   "losses": 17
+  },
+  "79": {
+   "wins": 10,
+   "losses": 7
+  },
+  "80": {
+   "wins": 7,
+   "losses": 3
+  },
+  "81": {
+   "wins": 3,
+   "losses": 5
+  },
+  "82": {
+   "wins": 0,
+   "losses": 1
+  },
+  "83": {
+   "wins": 1,
+   "losses": 0
+  },
+  "85": {
+   "wins": 1,
+   "losses": 0
+  },
+  "86": {
+   "wins": 1,
+   "losses": 0
+  },
+  "87": {
+   "wins": 0,
+   "losses": 2
+  },
+  "88": {
+   "wins": 0,
+   "losses": 3
+  },
+  "89": {
+   "wins": 2,
+   "losses": 0
+  },
+  "90": {
+   "wins": 4,
+   "losses": 7
+  },
+  "91": {
+   "wins": 13,
+   "losses": 7
+  },
+  "92": {
+   "wins": 12,
+   "losses": 16
+  },
+  "93": {
+   "wins": 18,
+   "losses": 12
+  },
+  "94": {
+   "wins": 17,
+   "losses": 14
+  },
+  "95": {
+   "wins": 17,
+   "losses": 14
+  },
+  "96": {
+   "wins": 18,
+   "losses": 14
+  },
+  "97": {
+   "wins": 39,
+   "losses": 23
+  },
+  "98": {
+   "wins": 29,
+   "losses": 31
+  },
+  "99": {
+   "wins": 44,
+   "losses": 31
+  },
+  "100": {
+   "wins": 49,
+   "losses": 43
+  },
+  "101": {
+   "wins": 57,
+   "losses": 38
+  },
+  "102": {
+   "wins": 33,
+   "losses": 24
+  },
+  "103": {
+   "wins": 11,
+   "losses": 10
+  },
+  "104": {
+   "wins": 5,
+   "losses": 9
+  },
+  "105": {
+   "wins": 1,
+   "losses": 1
+  },
+  "106": {
+   "wins": 2,
+   "losses": 1
+  },
+  "107": {
+   "wins": 1,
+   "losses": 2
+  },
+  "108": {
+   "wins": 0,
+   "losses": 1
+  },
+  "110": {
+   "wins": 0,
+   "losses": 1
+  },
+  "112": {
+   "wins": 1,
+   "losses": 2
+  },
+  "113": {
+   "wins": 2,
+   "losses": 5
+  },
+  "114": {
+   "wins": 3,
+   "losses": 4
+  },
+  "115": {
+   "wins": 3,
+   "losses": 6
+  },
+  "116": {
+   "wins": 10,
+   "losses": 8
+  },
+  "117": {
+   "wins": 10,
+   "losses": 14
+  },
+  "118": {
+   "wins": 16,
+   "losses": 17
+  },
+  "119": {
+   "wins": 18,
+   "losses": 20
+  },
+  "120": {
+   "wins": 16,
+   "losses": 13
+  },
+  "121": {
+   "wins": 23,
+   "losses": 24
+  },
+  "122": {
+   "wins": 18,
+   "losses": 25
+  },
+  "123": {
+   "wins": 25,
+   "losses": 30
+  },
+  "124": {
+   "wins": 26,
+   "losses": 32
+  },
+  "125": {
+   "wins": 42,
+   "losses": 25
+  },
+  "126": {
+   "wins": 26,
+   "losses": 28
+  },
+  "127": {
+   "wins": 24,
+   "losses": 16
+  },
+  "128": {
+   "wins": 10,
+   "losses": 12
+  },
+  "129": {
+   "wins": 7,
+   "losses": 7
+  },
+  "130": {
+   "wins": 4,
+   "losses": 1
+  },
+  "131": {
+   "wins": 1,
+   "losses": 0
+  },
+  "134": {
+   "wins": 1,
+   "losses": 2
+  },
+  "135": {
+   "wins": 0,
+   "losses": 1
+  },
+  "136": {
+   "wins": 2,
+   "losses": 4
+  },
+  "137": {
+   "wins": 6,
+   "losses": 7
+  },
+  "138": {
+   "wins": 13,
+   "losses": 9
+  },
+  "139": {
+   "wins": 13,
+   "losses": 13
+  },
+  "140": {
+   "wins": 17,
+   "losses": 18
+  },
+  "141": {
+   "wins": 26,
+   "losses": 23
+  },
+  "142": {
+   "wins": 24,
+   "losses": 21
+  },
+  "143": {
+   "wins": 19,
+   "losses": 19
+  },
+  "144": {
+   "wins": 19,
+   "losses": 17
+  },
+  "145": {
+   "wins": 22,
+   "losses": 18
+  },
+  "146": {
+   "wins": 17,
+   "losses": 21
+  },
+  "147": {
+   "wins": 14,
+   "losses": 18
+  },
+  "148": {
+   "wins": 30,
+   "losses": 22
+  },
+  "149": {
+   "wins": 39,
+   "losses": 21
+  },
+  "150": {
+   "wins": 27,
+   "losses": 29
+  },
+  "151": {
+   "wins": 26,
+   "losses": 15
+  },
+  "152": {
+   "wins": 14,
+   "losses": 17
+  },
+  "153": {
+   "wins": 6,
+   "losses": 10
+  },
+  "154": {
+   "wins": 9,
+   "losses": 3
+  },
+  "156": {
+   "wins": 2,
+   "losses": 0
+  },
+  "158": {
+   "wins": 1,
+   "losses": 1
+  },
+  "159": {
+   "wins": 1,
+   "losses": 1
+  },
+  "160": {
+   "wins": 0,
+   "losses": 3
+  },
+  "161": {
+   "wins": 2,
+   "losses": 7
+  },
+  "162": {
+   "wins": 10,
+   "losses": 6
+  },
+  "163": {
+   "wins": 7,
+   "losses": 20
+  },
+  "164": {
+   "wins": 23,
+   "losses": 16
+  },
+  "165": {
+   "wins": 29,
+   "losses": 22
+  },
+  "166": {
+   "wins": 26,
+   "losses": 22
+  },
+  "167": {
+   "wins": 31,
+   "losses": 26
+  }
+ }
+}

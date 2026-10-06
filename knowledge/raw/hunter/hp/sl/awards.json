@@ -1,0 +1,529 @@
+{
+ "total_games": 2364,
+ "awards": [
+  {
+   "award_id": 1,
+   "title": "MVP",
+   "icon": "storm_ui_mvp_mvp",
+   "description": "Highest overall performance in the match.",
+   "count": 424,
+   "rate": 17.94
+  },
+  {
+   "award_id": 9,
+   "title": "Headhunter",
+   "icon": "storm_ui_mvp_headhunter",
+   "description": "Most Mercenary camps captured.",
+   "count": 209,
+   "rate": 8.84
+  },
+  {
+   "award_id": 4,
+   "title": "Painbringer",
+   "icon": "storm_ui_mvp_painbringer",
+   "description": "Most damage dealt to enemy heroes.",
+   "count": 191,
+   "rate": 8.08
+  },
+  {
+   "award_id": 21,
+   "title": "Most Teamfight Damage Taken",
+   "icon": "storm_ui_mvp_guardian",
+   "description": "Most team fight damage soaked.",
+   "count": 76,
+   "rate": 3.21
+  },
+  {
+   "award_id": 5,
+   "title": "Siegemaster",
+   "icon": "storm_ui_mvp_siegemaster",
+   "description": "Most damage dealt to enemy structures and Minions.",
+   "count": 73,
+   "rate": 3.09
+  },
+  {
+   "award_id": 3,
+   "title": "Most XP Contribution",
+   "icon": "storm_ui_mvp_experienced",
+   "description": "Most experience earned for the team.",
+   "count": 52,
+   "rate": 2.2
+  },
+  {
+   "award_id": 6,
+   "title": "Bulwark",
+   "icon": "storm_ui_mvp_avenger",
+   "description": "Most damage taken by a Warrior Hero.",
+   "count": 42,
+   "rate": 1.78
+  },
+  {
+   "award_id": 23,
+   "title": "Scrapper",
+   "icon": "storm_ui_mvp_scrapper",
+   "description": "Most damage dealt in team fights.",
+   "count": 40,
+   "rate": 1.69
+  },
+  {
+   "award_id": 1001,
+   "title": "Immortal Damage",
+   "icon": "storm_ui_mvp_immortalslayer",
+   "description": "Most damage dealt to the enemy Immortal on Battlefield of Eternity.",
+   "count": 37,
+   "rate": 1.57
+  },
+  {
+   "award_id": 2,
+   "title": "Dominator",
+   "icon": "storm_ui_mvp_dominator",
+   "description": "Scored the most takedowns in one life.",
+   "count": 33,
+   "rate": 1.4
+  },
+  {
+   "award_id": 1012,
+   "title": "Zerg Crusher",
+   "icon": "storm_ui_mvp_zergcrusher",
+   "description": "Most damage dealt against enemy Zerg on Braxis Holdout.",
+   "count": 25,
+   "rate": 1.06
+  },
+  {
+   "award_id": 1009,
+   "title": "Jeweler",
+   "icon": "storm_ui_mvp_jeweler",
+   "description": "Most gems turned in on Tomb of the Spider Queen.",
+   "count": 16,
+   "rate": 0.68
+  },
+  {
+   "award_id": 1003,
+   "title": "Master of the Curse",
+   "icon": "storm_ui_mvp_masterofthecurse",
+   "description": "Most damage dealt during Curses on Cursed Hollow.",
+   "count": 13,
+   "rate": 0.55
+  },
+  {
+   "award_id": 1010,
+   "title": "Most Altar Shots",
+   "icon": "storm_ui_mvp_cannoneer",
+   "description": "Most Core damage done on Towers of Doom.",
+   "count": 12,
+   "rate": 0.51
+  },
+  {
+   "award_id": 13,
+   "title": "Clutch Healer",
+   "icon": "storm_ui_mvp_clutchhealer",
+   "description": "Most clutch heals.",
+   "count": 10,
+   "rate": 0.42
+  },
+  {
+   "award_id": 7,
+   "title": "Main Healer",
+   "icon": "storm_ui_mvp_mainhealer",
+   "description": "Most healing done to allied heroes.",
+   "count": 8,
+   "rate": 0.34
+  },
+  {
+   "award_id": 16,
+   "title": "Trapper",
+   "icon": "storm_ui_mvp_trapper",
+   "description": "Longest combined Root time against enemy heroes.",
+   "count": 8,
+   "rate": 0.34
+  },
+  {
+   "award_id": 20,
+   "title": "Silencer",
+   "icon": "storm_ui_mvp_silencer",
+   "description": "Longest combined Silence time against enemy heroes.",
+   "count": 6,
+   "rate": 0.25
+  },
+  {
+   "award_id": 1004,
+   "title": "Dragonshire Shrines Captured",
+   "icon": "storm_ui_mvp_shriner",
+   "description": "Most shrine captures on Dragon Shire.",
+   "count": 5,
+   "rate": 0.21
+  },
+  {
+   "award_id": 1008,
+   "title": "Temple Master",
+   "icon": "storm_ui_mvp_templemaster",
+   "description": "Most time to occupy a Temple on Sky Temple.",
+   "count": 4,
+   "rate": 0.17
+  },
+  {
+   "award_id": 1019,
+   "title": "Pointguard",
+   "icon": "storm_ui_mvp_pointguard",
+   "description": "Most time to occupy a Control Point on Volskaya Foundry.",
+   "count": 3,
+   "rate": 0.13
+  },
+  {
+   "award_id": 8,
+   "title": "Stunner",
+   "icon": "storm_ui_mvp_stunner",
+   "description": "Longest combined Stun time against enemy Heroes.",
+   "count": 2,
+   "rate": 0.08
+  },
+  {
+   "award_id": 1002,
+   "title": "Money Bags",
+   "icon": "storm_ui_mvp_moneybags",
+   "description": "Most coins turned in on Blackheart's Bay.",
+   "count": 2,
+   "rate": 0.08
+  },
+  {
+   "award_id": 1007,
+   "title": "Guardian Slayer",
+   "icon": "storm_ui_mvp_guardianslayer",
+   "description": "Most damage dealt to Shrine Guardians on Infernal Shrines.",
+   "count": 2,
+   "rate": 0.08
+  },
+  {
+   "award_id": 14,
+   "title": "Protector",
+   "icon": "storm_ui_mvp_protector",
+   "description": "Most damage prevented",
+   "count": 1,
+   "rate": 0.04
+  },
+  {
+   "award_id": 24,
+   "title": "Avenger",
+   "icon": "storm_ui_mvp_avenger",
+   "description": "Player with the most revenge kills.",
+   "count": 1,
+   "rate": 0.04
+  },
+  {
+   "award_id": 11,
+   "title": "Most Kills",
+   "icon": "storm_ui_mvp_finisher",
+   "description": "Most kills scored.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 12,
+   "title": "Hat Trick",
+   "icon": "storm_ui_mvp_hattrick",
+   "description": "Scored the first three kills of the game.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 15,
+   "title": "Sole Survivor",
+   "icon": "storm_ui_mvp_solesurvivor",
+   "description": "The only Hero with no deaths.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 17,
+   "title": "Team Player",
+   "icon": "storm_ui_mvp_teamplayer",
+   "description": "Did not die while outnumbered by the enemy team.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 18,
+   "title": "Daredevil",
+   "icon": "storm_ui_mvp_daredevil",
+   "description": "Made the most escapes at critically low health during teamfights.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 19,
+   "title": "Escape Artist",
+   "icon": "storm_ui_mvp_escapeartist",
+   "description": "Made the most escapes at critically low health.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 22,
+   "title": "Teamfight Healing",
+   "icon": "storm_ui_mvp_combatmedic",
+   "description": "Most team fight damage healed.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 1005,
+   "title": "Garden Terror",
+   "icon": "storm_ui_mvp_gardenterror",
+   "description": "Most damage dealt to Shamblers and neutral Garden Terrors on Garden of Terror.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 1006,
+   "title": "Skull Collector",
+   "icon": "storm_ui_mvp_skullcollector",
+   "description": "Most skulls collected on Haunted Mines.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 1013,
+   "title": "Da Bomb",
+   "icon": "storm_ui_mvp_dabomb",
+   "description": "Most damage dealt with Nukes on Warhead Junction.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 1016,
+   "title": "Pusher",
+   "icon": "storm_ui_mvp_pusher",
+   "description": "Most time pushing a Payload on Hanamura.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 1022,
+   "title": "Loyal Defender",
+   "icon": "storm_ui_mvp_loyaldefender",
+   "description": "Most interrupted cage unlock attempts on Alterac Pass.",
+   "count": 0,
+   "rate": 0
+  },
+  {
+   "award_id": 1023,
+   "title": "Seed Collector",
+   "icon": "storm_ui_mvp_gardenterror",
+   "description": "Most seeds collected on Garden of Terror.",
+   "count": 0,
+   "rate": 0
+  }
+ ],
+ "recent_awards": [
+  {
+   "replayID": 65734875,
+   "game_date": "2026-10-04 23:01:22",
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_map": {
+    "map_id": 3,
+    "name": "Braxis Holdout",
+    "short_name": "BraxisHoldout",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "braxis_holdout"
+   },
+   "hero": {
+    "id": 73,
+    "name": "Junkrat",
+    "short_name": "junkrat",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2017-10-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Junk",
+    "build_copy_name": "Junkrat",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "winner": 0,
+   "award": {
+    "award_table_id": 35,
+    "award_id": 1012,
+    "title": "Zerg Crusher",
+    "icon": "storm_ui_mvp_zergcrusher",
+    "description": "Most damage dealt against enemy Zerg on Braxis Holdout."
+   }
+  },
+  {
+   "replayID": 65734714,
+   "game_date": "2026-10-05 05:05:33",
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_map": {
+    "map_id": 5,
+    "name": "Dragon Shire",
+    "short_name": "DragonShire",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "dragon_shire"
+   },
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "winner": 1,
+   "award": {
+    "award_table_id": 4,
+    "award_id": 4,
+    "title": "Painbringer",
+    "icon": "storm_ui_mvp_painbringer",
+    "description": "Most damage dealt to enemy heroes."
+   }
+  },
+  {
+   "replayID": 65734142,
+   "game_date": "2026-10-05 04:38:58",
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_map": {
+    "map_id": 15,
+    "name": "Alterac Pass",
+    "short_name": "AlteracPass",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "alterac_pass"
+   },
+   "hero": {
+    "id": 53,
+    "name": "Sylvanas",
+    "short_name": "sylvanas",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-03-24 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Sylv",
+    "build_copy_name": "Sylvanas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "winner": 1,
+   "award": {
+    "award_table_id": 1,
+    "award_id": 1,
+    "title": "MVP",
+    "icon": "storm_ui_mvp_mvp",
+    "description": "Highest overall performance in the match."
+   }
+  },
+  {
+   "replayID": 65733826,
+   "game_date": "2026-10-05 03:51:15",
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_map": {
+    "map_id": 10,
+    "name": "Sky Temple",
+    "short_name": "ControlPoints",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "sky_temple"
+   },
+   "hero": {
+    "id": 12,
+    "name": "Chromie",
+    "short_name": "chromie",
+    "alt_name": null,
+    "role": "Assassin",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2016-05-17 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91368",
+    "attribute_id": "Chro",
+    "build_copy_name": "Chromie",
+    "last_updated": "2024-02-02 15:34:06"
+   },
+   "winner": 1,
+   "award": {
+    "award_table_id": 1,
+    "award_id": 1,
+    "title": "MVP",
+    "icon": "storm_ui_mvp_mvp",
+    "description": "Highest overall performance in the match."
+   }
+  },
+  {
+   "replayID": 65732711,
+   "game_date": "2026-10-05 03:30:02",
+   "game_type": {
+    "type_id": 5,
+    "name": "Storm League",
+    "no_space_name": "StormLeague",
+    "short_name": "sl"
+   },
+   "game_map": {
+    "map_id": 4,
+    "name": "Cursed Hollow",
+    "short_name": "CursedHollow",
+    "type": "standard",
+    "ranked_rotation": 1,
+    "playable": 1,
+    "sanitized_map_name": "cursed_hollow"
+   },
+   "hero": {
+    "id": 53,
+    "name": "Sylvanas",
+    "short_name": "sylvanas",
+    "alt_name": null,
+    "role": "Specialist",
+    "new_role": "Ranged Assassin",
+    "type": "Ranged",
+    "release_date": "2015-03-24 00:00:00",
+    "rework_date": null,
+    "last_change_patch_version": "2.55.4.91769",
+    "attribute_id": "Sylv",
+    "build_copy_name": "Sylvanas",
+    "last_updated": "2024-02-06 18:32:51"
+   },
+   "winner": 1,
+   "award": {
+    "award_table_id": 26,
+    "award_id": 1003,
+    "title": "Master of the Curse",
+    "icon": "storm_ui_mvp_masterofthecurse",
+    "description": "Most damage dealt during Curses on Cursed Hollow."
+   }
+  }
+ ]
+}
