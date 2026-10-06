@@ -1,0 +1,310 @@
+{
+ "slug": "malthael",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/malthael-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/malthael-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/malthael-talents"
+ },
+ "guide": [
+  {
+   "title": "Malthael's Overview",
+   "id": "malthaels-overview",
+   "text": "Malthael is a Bruiser who naturally counters high-Health Heroes.\nCalm players who are able to apply Reaper's Mark onto\nmultiple targets will be rewarded with overwhelming sustain damage and great\nsurvivability."
+  },
+  {
+   "title": "Malthael's Strengths and Weaknesses",
+   "id": "malthaels-strengths-and-weaknesses",
+   "text": "Strengths\nExcellent self-sustain\nPowerful duelist\nSolid non-Structural PvE damage\nVery difficult to escape from once marked by Reaper's Mark\nLast Rites is excellent to execute Heroes\nMultiple sources of percent-based damage that cannot be reduced by Armor\nWeaknesses\nHighly prone to being kited\nOffers limited utility beyond raw damage\nLimited upfront burst damage\nWeak siege damage\nLow maximum Health, being vulnerable to crowd control and bursts during the early game"
+  },
+  {
+   "title": "Malthael's Talent Build Cheatsheet",
+   "id": "malthaels-talent-build-cheatsheet",
+   "text": "Massacre Build\nRecommended\nLevel 1\n?\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalthael's Massacre Build offers good versatility,\nletting you finish off enemies with Last Rites or pressure\nteams as a mobile damage dealer with Tormented Souls. Your major\npower spike comes at Level 16 with Mortality.\nAfter that, Malthael becomes a powerful threat that can deal massive damage to multiple enemies.\nStandard Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalthael's Standard Build provides superior survivability and sustain damage.\nIt provides you with powerful self-sustain\nand continuous area of effect damage that force your opponents to spread out,\nreducing their effectiveness.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalthael's ARAM Build is focused on dealing the maximum possible AoE\ndamage through Massacre and Mortality.\nTormented Souls adds extra damage and mobility to Malthael through\nmultiples uses of Wraith Strike.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Malthael's Synergies and Counters",
+   "id": "malthaels-synergies-and-counters",
+   "text": "Malthael synergizes with\nHeroes that displace enemies, like Garrosh and E.T.C. are excellent\nwith Malthael, as they will ease the focus on a target, allowing Last Rites\nto execute it. One of Malthael's problems is that he takes\ntoo long to reduce an enemy's health to Last Rites's threshold,\nso he is great with Greymane's Cursed Bullet or\nwith Tychus's The Bigger They Are....\nDue to how Malthael's damage and self sustain is completely\ntied to Soul Rip, he has excellent synergy with Heroes that\ncan reduce his Cooldowns. While Ana with Nano Boost\nturns Malthael into an immortal killing machine, Malfurion can enhance\nhis effectiveness very often through Innervate.\nMalthael is countered by\nAs a Bruiser with a rather telegraphed play style, Malthael\nis very vulnerable to any form of targeted crowd control. Furthermore,\nsince his main gap closer, Wraith Strike, requires him to\neither attack or hit a slow skillshot, he is naturally bound to\nbe kited by nimble ranged Heroes.\nAgainst experienced players, Blaze will be an excellent counter\nto Malthael. Bunker Drop\ncleanses Reaper's Mark\nfrom anyone that enters it. It also denies Last Rites's damage.\nConsidering enemies will be inside bunker, Malthael's self-sustain will be very limited, as\nMalthael will not be able to use Soul Rip\nto sustain himself."
+  },
+  {
+   "title": "Malthael's Maps",
+   "id": "malthaels-maps",
+   "text": "Malthael's stronger maps\nMalthael's average maps\nMalthael's weaker maps\nMalthael is a very versatile Hero that is excellent in many different maps.\nOn a Pale Horse enhances Malthael's effectiveness in\nlarge maps, while his outstanding double soak makes\nhim a good pick on Infernal Shrines, Sky Temple, and\nTowers of Doom. His good dueling capabilities can be abused\non Dragon Shire and Tomb of the Spider Queen. Additionally,\nsince Malthael can easily capture Mercenary Camps, due to his good self-sustain,\nhe is good on macro-heavy maps, like Garden of Terror\nand Blackheart's Bay.\nMalthael cannot abuse his fast rotation and waveclear\nin 2-lane maps. Therefore, we do not recommend him on Hanamura Temple and\nBattlefield of Eternity."
+  },
+  {
+   "title": "Malthael's Tips and Tricks",
+   "id": "malthaels-tips-and-tricks",
+   "text": "Malthael's Basic Attacks hit enemies in a 180 degree arc; use this to maintain Reaper's Mark on as many targets as possible.\nReaper's Mark's damage also works against most non-Structure units, making it effective against Bosses and Map Objectives.\nYou can hold the default Q hotkey to repeatedly cast Soul Rip without effort.\nWraith Strike is useful for quickly avoiding impending skillshots and areas of effect.\nTormented Souls resets Wraith Strike's Cooldown on-use AND when Tormented Souls ends.\nA skull marker appears above Heroes that would die to Last Rites's damage.\nDo not be conservative with Last Rites, as it is better to guarantee a kill and get the Cooldown reduction than to hold it.\nInevitable End can be used to bait important Abilities from the enemy team, as the Cooldown is relatively low.\nDue to Shroud of Wisdom's delay, it should be activated around 1.5 seconds before going in, as most Abilities will be used on you in the first seconds. Using it too quickly might result in having reduced uptime, while taking too long might cost your life.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Malthael's Role in the Current Meta",
+   "id": "malthaels-role-in-the-current-meta",
+   "text": "As a strong duelist with outstanding self-sustain and good\nwaveclear, Malthael makes for a strong Offlaner, though he can\nalso dispatch Mercenary Camps with ease.\nReaper's Mark defines Malthael as a premiere\ncounterpick to team compositions\nthat are melee-heavy or otherwise feature Heroes with large Health pools. This\nTrait also allows Malthael to deal a significant amount of damage to Bosses and\nMonsters from Objectives. In general however, he tends to do\npoorly against ranged Heroes, and should not be picked if enemies can easily kite you.\nMalthael's macro playstyle consists on constantly clearing waves\nwhile damaging the opposing Offlaner through\nReaper's Mark and Soul Rip.\nAt fights, we recommend to poke\nthe enemy frontline with Death Shroud\nand Soul Rip until the opposing team wastes important Abilities.\nIf you try to engage by yourself, enemies will easily\nburst you down, because of Malthael's low maximum Health. For this reason,\nit is better to be patient until a good opportunity shows up."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 May 2025 (talents page): Builds and Talents updated to reflect meta development.\n02 May 2025 (abilities page): Guide updated to reflect meta development.\n02 May 2025 (this page): Guide updated to reflect meta development.\n03 Feb. 2022 (this page): Guide has been reviewed and no changes are necessary.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n05 Nov. 2020 (abilities page): Abilities section reviewed.\n27 Oct. 2020 (talents page): Touch of Death's discussion and relevance updated.\n27 Oct. 2020 (this page): Standard Build updated.\n17 Oct. 2020 (talents page): Builds and Talents updated to better reflect current meta.\n17 Oct. 2020 (abilities page): Updated Wraith Strike's discussion.\n17 Oct. 2020 (this page): Guide updated to better reflect current meta.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n14 Apr. 2020 (talents page): Description for Tormented Souls updated.\n14 Apr. 2020 (abilities page): Note added about Malthael's unique Basic Attack and section reviewed and description for Tormented Souls updated.\n14 Apr. 2020 (this page): Guide fully reviewed.\n15 Feb. 2020 (talents page): Talents and recommendations reviewed following February 12 patch changes.\n12 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n15 Feb. 2018 (talents page): Talents and builds updated to better reflect current metagame state.\n06 Feb. 2018 (talents page): Talents and builds updated following Maiev patch changes.\n14 Jan. 2018 (talents page): Updated Heroic Talent discussion. Updated Soul Rip and Reaper builds.\n14 Jun. 2017 (talents page): Added Talent discussions.\n13 Jun. 2017 (talents page): Guide created.\n13 Jun. 2017 (abilities page): Guide created.\n13 Jun. 2017 (this page): Guide created.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Malthael's Tips and Tricks",
+   "id": "malthaels-tips-and-tricks",
+   "text": "Malthael's Basic Attacks hit enemies in a 180 degree arc; use this to maintain Reaper's Mark on as many targets as possible.\nReaper's Mark's damage also works against most non-Structure units, making it effective against Bosses and Map Objectives.\nYou can hold the default Q hotkey to repeatedly cast Soul Rip without effort.\nWraith Strike is useful for quickly avoiding impending skillshots and areas of effect.\nTormented Souls resets Wraith Strike's Cooldown on-use AND when Tormented Souls ends.\nA skull marker appears above Heroes that would die to Last Rites's damage.\nDo not be conservative with Last Rites, as it is better to guarantee a kill and get the Cooldown reduction than to hold it.\nInevitable End can be used to bait important Abilities from the enemy team, as the Cooldown is relatively low.\nDue to Shroud of Wisdom's delay, it should be activated around 1.5 seconds before going in, as most Abilities will be used on you in the first seconds. Using it too quickly might result in having reduced uptime, while taking too long might cost your life."
+  },
+  {
+   "title": "A Note on Malthael's Basic Attack",
+   "id": "a-note-on-malthaels-basic-attack",
+   "text": "Malthael's Basic Attacks have a unique feature: instead of hitting a single\ntarget like most other Basic Attacks, they hits all enemies in a 180-degree arc\ncentered on their target. This attribute is particularly useful for claiming\nMercenary Camps and waveclearing purposes, especially since\nReaper's Mark, which will be discussed below, is inflicted to all targets damaged\nby these Basic Attacks. Since Malthael's power is directly dependent on how\nmany targets are affected by Reaper's Mark, making the most of this area of\neffect feature is essential to thriving."
+  },
+  {
+   "title": "Reaper's Mark",
+   "id": "reapers-mark",
+   "text": "Reaper's Mark\n(D)\nMalthael\nPassive\nBasic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds. Marked enemies are revealed and take damage equal to 2% of their maximum Health every 1 second.\nAlthough we typically list Hero Abilities in their in-game order, Malthael's\nTrait is quite unique in that it impacts the rest of his Abilities. It is thus\nlisted first, so as to provide a clearer context for everything else.\nReaper's Mark is core to Malthael\nas his key Abilities— Soul Rip\nand Wraith Strike—can only be used against targets that have\nbeen affected by Reaper's Mark. It is as such vital that you not only master the\nart of applying Reaper's Mark through Basic Attacks by seizing any occasion to\ndo so, but also, see to apply the Trait to as many different targets as possible\nby trying to hit as many enemies as possible through Malthael's cleaving Basic\nAttacks and Death Shroud.\nBy nature, this Trait makes Malthael's Basic Attacks deal some of the highest\ndamage on a per-hit basis, the caveat being that this damage is dealt over time.\nHitting the same target twice merely refreshes Reaper's Mark to its 4-second\nduration rather than stacking the damage-over-time effect.\nIt should be noted that Reaper's Mark also functions against Bosses and\nMonsters from Objectives, making Malthael exceptional at\ndealing with such matter."
+  },
+  {
+   "title": "Soul Rip",
+   "id": "soul-rip",
+   "text": "Soul Rip\n(Q)\nMalthael\nMana: 25\nCooldown: 2 seconds\nExtract the souls of nearby enemies afflicted by Reaper's Mark, dealing 100 (+4% per level) damage and healing Malthael for 25 (+4% per level) per target hit. Heroic targets heal Malthael for an additional 4% of the Hero's maximum Health.\nSoul Rip provides Malthael with a reasonable amount of area of effect damage. The\nAbility's main point of appeal, however, is its healing effect, which is based\noff any Hero hit's maximum Health. This makes Malthael strive in situations\nwhere multiple Heroes have been hit by Reaper's Mark, as the effects of\nSoul Rip stack fully per target hit. Under certain circumstances, the Ability\nthus allows Malthael to be surprisingly difficult to kill, and is the second\nreason, beyond Reaper's Mark, why Malthael does so well against high-Health\nHeroes.\nWhile laning or claiming Mercenary Camps, Soul Rip plays an important part\nin Malthael's self sustain. Death Shroud can and should\nbe used to apply Reaper's Mark to as many Minions or Mercenaries as possible so\nthat Soul Rip's healing effects can trigger against as many targets as possible.\nThis interaction is key to Malthael's strong presence as a offlane.\nNote that you can simply hold [Q] to effortlessly cast Soul\nRip without having to repeatedly press its cast key."
+  },
+  {
+   "title": "Wraith Strike",
+   "id": "wraith-strike",
+   "text": "Wraith Strike\n(W)\nMalthael\nMana: 30\nCooldown: 5 seconds\nInstantly teleport through an enemy afflicted by Reaper's Mark, dealing 59 (+4% per level) damage and refreshing Reaper's Mark.\nWraith Strike provides Malthael with outstanding combat mobility which, in\nturn, translates into high uptime. Combined with the large\nsustained damage provided by Reaper's Mark and Soul Rip,\nMalthael becomes one of the most dangerous Heroes to pressure both Tanks\nand non-Tanks, and particularly when defensive Abilities have been expended.\nSince Wraith Strike teleports Malthael behind his target, it can be used to\nreliably body block escaping or chasing foes\nas well as to free yourself from enemy body block while being ganked. Its\ninstantaneous cast speed also makes it useful for dodging impending delayed\nAbilities, such as Jaina's Blizzard, and becomes a key part in Malthael's\ngeneral survival. Its short cooldown means it can be used very liberally,\ngranted it is safe to do so.\nFor escaping purposes, Death Shroud can be used to apply\nReaper's Mark to a far target, upon which Wraith Strike can then be used.\nIt should be noted that Wraith Strike places Malthael's\nBasic Attack on a cooldown. So, for damage-per-second purposes, it is better to use\na Basic Attack right before using Wraith Strike, in order to not lose possible damage (only if\nyou are in melee range with the target)."
+  },
+  {
+   "title": "Death Shroud",
+   "id": "death-shroud",
+   "text": "Death Shroud\n(E)\nMalthael\nMana: 50\nCooldown: 8 seconds\nAfter 0.25 seconds, unleash a wave of dark mist that applies Reaper's Mark to enemies it hits.\nDeath Shroud fulfills the double function of allowing Malthael to\napply Reaper's Mark from range and in an area of effect. Although\nDeath Shroud does no damage by default, the mark it applies deals some by\nnature. Without Death Shroud, it can be very difficult for Malthael to safely\nengage against ranged Heroes, let alone catch up to them. As such, mastering\nthe skillshot-like Ability is key to playing Malthael successfully. Its\nslow speed means that you will have to either predict where your intended\ntarget will be moving to, or rely on crowd control provided by\nallies to hit Death Shroud.\nDeath Shroud's ability to apply Reaper's Mark in an area makes it his most\nreliable way of benefiting from Soul Rip's healing against as\nmany targets as possible. When unthreatened by ranged damage,\nMalthael's Basic Attacks should be used to spread Reaper's Mark so as to\nconserve Mana."
+  },
+  {
+   "title": "Tormented Souls",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nTormented Souls\n(R)\nMalthael\nHeroic\nMana: 20\nCooldown: 60 seconds\nUnleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.\nTormented Souls resets the cooldown of Wraith Strike when activated, and while active, Wraith Strike costs no Mana its cooldown is reduced to 2 seconds.\nTormented Souls has two main purposes. First, it allows Malthael to reliably\napply Reaper's Mark in a large area. Combined with Soul Rip,\nthis effect makes Malthael particularly threatening and difficult to kill in\nteam fighting situations. This wide Reaper's Mark application also provides\nMalthael with many opportunities to use Wraith Strike offensively\nand defensively.\nTormented Souls also completely resets the cooldown of Wraith Strike upon\nuse and then once again 4 seconds later. This lets you use a first Wraith Strike\naggressively, knowing that the Ability will be available shortly after to\nprovide you with an opportunity to escape."
+  },
+  {
+   "title": "Last Rites",
+   "id": "last-rites",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nLast Rites\n(R)\nMalthael\nHeroic\nMana: 100\nCooldown: 70 seconds\nApply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.\nQuest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 20 seconds.\nLast Rites's power lies in its ability to reliably deal some\nof the game's highest burst damage from range. By nature, Last Rites will kill\nany Hero at or below 33% of its maximum Health. This threshold is\nindicated by a skull icon floating above nearby enemy Heroes. It should be noted\nthat even if the target does not die from Last Rites' effect, it is still\ndamaged. Still, since Last Rites' damage scales with how proportionally low its\ntarget's Health is, the Ability should almost exclusively be used as a finisher.\nCertain effects, such as Invulnerability or Stasis effects, can prevent\nLast Rites from dealing its damage, although Armor and other forms of\ndamage mitigation will not. It is important to account for the aforementioned\neffects when using Last Rites, especially due to its delayed effect.\nAnother noteworthy point lies in Last Rites' cooldown reduction clause:\nevery target who dies while under Last Rites' effect permanently reduces the\nAbility's cooldown by 5 seconds. This bonus is acquired whether or not Last\nRites is the source of the killing blow, as long as the dying Hero was under the\neffects of Last Rites."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 May 2025: Guide updated to reflect meta development.\n05 Nov. 2020: Abilities section reviewed.\n17 Oct. 2020: Updated Wraith Strike's discussion.\n14 Apr. 2020: Note added about Malthael's unique Basic Attack and section reviewed and description for Tormented Souls updated.\n11 Oct. 2019: Abilities section reviewed.\n13 Jun. 2017: Guide created.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Death's Reach (Level 1) Malthael Increase Wraith Strike's range by 35%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "On a Pale Horse (Level 1) Malthael Gain an additional 20% Movement Speed while mounted."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Fear the Reaper (Level 1) Malthael Cooldown: 25 seconds Activate to increase Movement Speed by 25% and pass through other units for 4 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Die Alone (Level 4) Malthael Soul Rip deals 50% more damage to Heroes if it hits only one Hero."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Throwing Shade (Level 4) Malthael Increase Death Shroud's range by 33%, reduce its cooldown by 3 seconds, and reduce its Mana cost from 50 to 30. Death Shroud's initial impact deals 2% maximum Health as damage to non-Structure enemies."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Black Harvest (Level 4) Malthael Quest: Apply Reaper's Mark to Heroes for a total of 150 seconds. Reward: Permanently increase Reaper's Mark's duration by 2 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Cold Hand (Level 7) Malthael Soul Rip Slows enemies by 20% for 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Massacre (Level 7) Malthael Wraith Strike now damages and applies Reaper's Mark to enemies around its target."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Touch of Death (Level 7) Malthael Cooldown: 20 seconds Activate to reduce healing received by Heroes afflicted by Reaper's Mark by 50% for 4 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Tormented Souls (Level 10) Malthael Mana: 20 Cooldown: 60 seconds Unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds. Tormented Souls resets the cooldown of Wraith Strike when activated, and while active, Wraith Strike costs no Mana its cooldown is reduced to 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Last Rites (Level 10) Malthael Mana: 100 Cooldown: 70 seconds Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health. Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 20 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Soul Siphon (Level 13) Malthael Increase Soul Rip's bonus healing from Heroes to 4.75% of the Hero's maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Ethereal Existence (Level 13) Malthael Gain 10 Physical Armor per enemy Hero afflicted by Reaper's Mark, up to a maximum of 30."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Inevitable End (Level 13) Malthael Cooldown: 20 seconds Activate to become Unstoppable for 2 seconds, but remove all active Reaper's Marks."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Shroud of Wisdom (Level 13) Malthael Cooldown: 20 seconds After 2 seconds, gain 50 Spell Armor for 4 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Soul Collector (Level 16) Malthael Reduce Soul Rip's cooldown by 0.5 seconds and increase its range by 25%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Mortality (Level 16) Malthael When damaging a Hero, Wraith Strike deals bonus damage equal to 8% of the Hero's maximum Health."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Memento Mori (Level 16) Malthael Reaper's Mark deals 60% increased damage after afflicting an enemy for more than 4 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Reaper of Souls (Level 20) Malthael Increase the duration of Tormented Souls to 6 seconds, and while Tormented Souls is active, Hero Takedowns refresh its duration. If 2 or more enemy Heroes are in Tormented Souls' radius, it does not decay."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Angel of Death (Level 20) Malthael Last Rites heals for 100% of the damage dealt, and its current and future cooldown reduction bonuses are doubled."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Final Curtain (Level 20) Malthael Death Shroud leaves a trail in its wake for 4 seconds, applying Reaper's Mark to enemies in its area."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "No One Can Stop Death (Level 20) Malthael Cooldown: 180 seconds Activate while dead to immediately respawn at the Hall of Storms but increase Malthael's next respawn time by 25%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Malthael's Talent Build",
+   "id": "malthaels-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n?\n7\n?\n✓\n?\n10\n?\n✓\n13\n✘︎\n?\n✓\n?\n16\n?\n✓\n✘︎\n20\n✘︎\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Malthael's Talent Build Cheatsheet",
+   "id": "malthaels-talent-build-cheatsheet",
+   "text": "Massacre Build\nRecommended\nLevel 1\n?\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalthael's Massacre Build offers good versatility,\nletting you finish off enemies with Last Rites or pressure\nteams as a mobile damage dealer with Tormented Souls. Your major\npower spike comes at Level 16 with Mortality.\nAfter that, Malthael becomes a powerful threat that can deal massive damage to multiple enemies.\nStandard Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalthael's Standard Build provides superior survivability and sustain damage.\nIt provides you with powerful self-sustain\nand continuous area of effect damage that force your opponents to spread out,\nreducing their effectiveness.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalthael's ARAM Build is focused on dealing the maximum possible AoE\ndamage through Massacre and Mortality.\nTormented Souls adds extra damage and mobility to Malthael through\nmultiples uses of Wraith Strike."
+  },
+  {
+   "title": "Level 1 Talents for Malthael",
+   "id": "level-1",
+   "text": "?\nDeath's Reach\n(Level 1)\nMalthael\nIncrease Wraith Strike's range by 35%.\n?\nOn a Pale Horse\n(Level 1)\nMalthael\nGain an additional 20% Movement Speed while mounted.\n✓\nFear the Reaper\n(Level 1)\nMalthael\nCooldown: 25 seconds\nActivate to increase Movement Speed by 25% and pass through other units for 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Death's Reach significantly improves Malthael's effective threat range, and is often\npicked alongside other Wraith Strike Talents. It is good\nagainst many marksmen, while Fear the Reaper\nis better to kite Melee Heroes.\nOn a Pale Horse provides no combat benefits.\nStill, the Talent is excellent if you need to double soak\non relatively big Maps, such as Infernal Shrines, Towers of Doom,\nGarden of Terror, Sky Temple, or Cursed Hollow.\nFear the Reaper provides Malthael with utility he sorely lacks:\nan on-demand means of improving his mobility. Fear the Reaper is particularly\nuseful for its underrated ability to remove Malthael's collision, allowing\nhim to move back to safety unhindered after using Wraith Strike,\nwithout the possibility for enemy Heroes to bodyblock him.\nThe collision removal is also deceptively useful for dodging Abilities by\nallowing you to unpredictably move right through your target."
+  },
+  {
+   "title": "Level 4 Talents for Malthael",
+   "id": "level-4",
+   "text": "✓\nDie Alone\n(Level 4)\nMalthael\nSoul Rip deals 50% more damage to Heroes if it hits only one Hero.\n?\nThrowing Shade\n(Level 4)\nMalthael\nIncrease Death Shroud's range by 33%, reduce its cooldown by 3 seconds, and reduce its Mana cost from 50 to 30.\nDeath Shroud's initial impact deals 2% maximum Health as damage to non-Structure enemies.\n?\nBlack Harvest\n(Level 4)\nMalthael\nQuest: Apply Reaper's Mark to Heroes for a total of 150 seconds.\nReward: Permanently increase Reaper's Mark's duration by 2 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Die Alone increases Malthael's single-target damage output to very\nreasonable amounts, allowing him to duel Heroes he would otherwise not be able\nto, such as Thrall. It should be noted that Die Alone can also be used in team\nfights by focusing your Reaper's Mark on a single target, though this is\nseldom recommended unless you absolutely need to dispatch a specific target. Die\nAlone is powerful when solo-laning.\nThrowing Shade improves Malthael's ability to poke on\ntop of increasing his threat range. Throwing Shade is often picked along\nMassacre, as your playstyle will be to constantly mark all\npossible targets with Reaper's Mark. This Talent is excellent\non Battlefield of Eternity, as it enables good long-ranged poke\nagainst the Immortal.\nBlack Harvest significantly improves Malthael's area of effect damage over\ntime output by increasing the duration of Reaper's Mark. This duration\nincrease also indirectly improves Malthael's survivability and mobility by\nmaking it easier to maintain Reaper's Mark up on multiple targets for\nSoul Rip and Wraith Strike purposes. Black Harvest\ntends to be picked over Die Alone when the opposing team composition features\n2 or more Tanks or other Heroes with high max Health such as Azmodan,\nand if you plan to not solo lane."
+  },
+  {
+   "title": "Level 7 Talents for Malthael",
+   "id": "level-7",
+   "text": "?\nCold Hand\n(Level 7)\nMalthael\nSoul Rip Slows enemies by 20% for 2.5 seconds.\n✓\nMassacre\n(Level 7)\nMalthael\nWraith Strike now damages and applies Reaper's Mark to enemies around its target.\n?\nTouch of Death\n(Level 7)\nMalthael\nCooldown: 20 seconds\nActivate to reduce healing received by Heroes afflicted by Reaper's Mark by 50% for 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Cold Hand improves Malthael's ability to stick to his targets by providing\nhim with a very reliable Slow. Cold Hand is\nparticularly debilitating when used along Soul Collector, as\nit will assure all enemies are hit by Cold Hand's Slow.\nMassacre is excellent to apply Reaper's Mark\ntowards multiple targets, increasing your damage and self-sustain.\nIt also has good synergy with Mortality, as it will apply\nthe percent-based damage on all targets.\nTouch of Death excels against Heroes with high\nself sustain, like Diablo, Dehaka, or Sonya.\nIt is also a good Talent to counter double-Healer\nteam compositions and generally impair high burst Healers\nsuch as Whitemane, Rehgar, or Alexstrasza."
+  },
+  {
+   "title": "Level 10 Talents for Malthael",
+   "id": "level-10",
+   "text": "?\nTormented Souls\n(Level 10)\nMalthael\nMana: 20\nCooldown: 60 seconds\nUnleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.\nTormented Souls resets the cooldown of Wraith Strike when activated, and while active, Wraith Strike costs no Mana its cooldown is reduced to 2 seconds.\n✓\nLast Rites\n(Level 10)\nMalthael\nMana: 100\nCooldown: 70 seconds\nApply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.\nQuest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 20 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nTormented Souls has two main purposes. First, it allows Malthael to reliably\napply Reaper's Mark in a large area. Combined with Soul Rip,\nthis effect makes Malthael particularly threatening and difficult to kill in\nteam fighting situations. This wide Reaper's Mark application also provides\nMalthael with many opportunities to use Wraith Strike offensively\nand defensively.\nTormented Souls also completely resets the cooldown of Wraith Strike upon\nuse and then once again 4 seconds later. This lets you use a first Wraith Strike\naggressively, knowing that the Ability will be available shortly after to\nprovide you with an opportunity to escape. This makes Tormented Souls synergise\nparticularly well with Mortality and Massacre,\nwhich may be used to quickly damage multiple targets for up to 24% of their total Health.\nLast Rites's power lies in its ability to reliably deal some\nof the game's highest burst damage from range. By nature, Last Rites will kill\nany Hero at or below 33% of its maximum Health. This threshold is\nindicated by a skull icon floating above nearby enemy Heroes. It should be noted\nthat even if the target does not die from Last Rites' effect, it is still\ndamaged. Still, since Last Rites' damage scales with how proportionally low its\ntarget's Health is, the Ability should almost exclusively be used as a finisher.\nCertain effects, such as Invulnerability or Stasis effects, can prevent\nLast Rites from dealing its damage, although Armor and other forms of\ndamage mitigation will not. It is important to account for the aforementioned\neffects when using Last Rites, especially due to its delayed effect.\nAnother noteworthy point lies in Last Rites' cooldown reduction clause:\nevery target who dies while under Last Rites' effect permanently reduces the\nAbility's cooldown by 5 seconds. This bonus is acquired whether or not Last\nRites is the source of the killing blow, as long as the dying Hero was under the\neffects of Last Rites."
+  },
+  {
+   "title": "Level 13 Talents for Malthael",
+   "id": "level-13",
+   "text": "✘︎\nSoul Siphon\n(Level 13)\nMalthael\nIncrease Soul Rip's bonus healing from Heroes to 4.75% of the Hero's maximum Health.\n?\nEthereal Existence\n(Level 13)\nMalthael\nGain 10 Physical Armor per enemy Hero afflicted by Reaper's Mark, up to a maximum of 30.\n✓\nInevitable End\n(Level 13)\nMalthael\nCooldown: 20 seconds\nActivate to become Unstoppable for 2 seconds, but remove all active Reaper's Marks.\n?\nShroud of Wisdom\n(Level 13)\nMalthael\nCooldown: 20 seconds\nAfter 2 seconds, gain 50 Spell Armor for 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Soul Siphon's extra healing is not good enough to compare it with\nShroud of Wisdom and Ethereal Existence.\nThe Healing added by it will not be more efficient than the damage mitigated by\nSoul Siphon's counterparts.\nEthereal Existence is used to counter team compositions that rely heavily\non Basic Attacks, and specific Heroes such as Greymane, Raynor\nor Illidan.\nInevitable End is one of the most reliable sources of\nUnstoppable in the game, as it only has a 20-second cooldown. This Talent excels\nagainst premeditated crowd control, like Diablo's\nApocalypse or Anub'arak's engages. However, it is\nalso great if the opposing team has ways to disrupt Malthael during the fights, as\nInevitable End will protect him against\nthese Stuns and Silences.\nBe aware that Inevitable End removes all applied marks.\nIt is better to either activate it after blinking with Wraith Strike,\nbefore using Death Shroud, or during Tormented Souls.\nShroud of Wisdom is used to improve your survivability against\nAbility-damage heavy team compositions, featuring burst Heroes such as Jaina,\nLi-Ming, or Kael'thas. It should be noted that unlike similar Talents,\nShroud of Wisdom has to be activated two seconds before the Spell Armor\nis needed; as such, you need to be wise, as the Talent's name implies, and\npredict impending damage burst. Generally, it is safe to assume retaliation\nafter engaging through Wraith Strike."
+  },
+  {
+   "title": "Level 16 Talents for Malthael",
+   "id": "level-16",
+   "text": "?\nSoul Collector\n(Level 16)\nMalthael\nReduce Soul Rip's cooldown by 0.5 seconds and increase its range by 25%.\n✓\nMortality\n(Level 16)\nMalthael\nWhen damaging a Hero, Wraith Strike deals bonus damage equal to 8% of the Hero's maximum Health.\n✘︎\nMemento Mori\n(Level 16)\nMalthael\nReaper's Mark deals 60% increased damage after afflicting an enemy for more than 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Soul Collector significantly improves Malthael's area of effect damage output\nand self-sustain, and particularly when picked along other\nTalents which improve Soul Rip. If you have been struggling with\nteam fight survival, Soul Collector should help.\nMortality improves Malthael's\nburst damage output, particularly against\ntargets with high maximum Health. This Talent should only be picked alongside\nMassacre,\nas the percent-based damage will be applied to all targets hit.\nIt does, however, compete with Soul Collector, which greatly improves your survivability.\nMemento Mori's damage boost is not good enough to justify\nthe choice, as Soul Collector will add excellent survivability,\nwhile Mortality will apply more reliable damage\ninto the fight. It also has terrible synergy with the most versatile Level 13 Talent,\nInevitable End."
+  },
+  {
+   "title": "Level 20 Talents for Malthael",
+   "id": "level-20",
+   "text": "✘︎\nReaper of Souls\n(Level 20)\nMalthael\nIncrease the duration of Tormented Souls to 6 seconds, and while Tormented Souls is active, Hero Takedowns refresh its duration.\nIf 2 or more enemy Heroes are in Tormented Souls' radius, it does not decay.\n?\nAngel of Death\n(Level 20)\nMalthael\nLast Rites heals for 100% of the damage dealt, and its current and future cooldown reduction bonuses are doubled.\n?\nFinal Curtain\n(Level 20)\nMalthael\nDeath Shroud leaves a trail in its wake for 4 seconds, applying Reaper's Mark to enemies in its area.\n✓\nNo One Can Stop Death\n(Level 20)\nMalthael\nCooldown: 180 seconds\nActivate while dead to immediately respawn at the Hall of Storms but increase Malthael's next respawn time by 25%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Reaper of Souls is a winmore Talent with outstanding potential\nagainst team compositions featuring Murky or The Lost Vikings, who can reliably\nbe killed to trigger Reaper of Souls' duration increase. Otherwise, you would\nbe better served by Final Curtain.\nAngel of Death provides Malthael with an alternative source of self-healing,\nand one that is potentially powerful. If you have been successfully killing\ntargets through Last Rites only to die shortly after, Angel of Death\nmay be worth considering, though it is seldom more powerful than Final Curtain.\nIf you managed to get at least 5 kills with Last Rites, Angel of Death becomes\nmuch more attractive, as it will instantly bring the Ability's cooldown to its\ncap of 15 seconds.\nFinal Curtain significantly improves your ability\nto apply Reaper's Mark to\nmultiple targets, greatly improving your damage over time potential and\nself-sustain. The trail created by this Talent also acts as a\nzoning tool, and is extremely punishing to opponents who must fight\nin enclosed spaces.\nNo One Can Stop Death is potentially useful to salvage losing matches by\ngiving you another chance at life. It should be noted that this Talent can be\npicked while dead to allow you to revive. This Talent is the standard choice here,\nas it can be used in multiple ways, and will be effective in every game.\nIn Heroes of the Storm, a match can be easily\ndecided by a kill during the late game. No One Can Stop Death\nallows Malthael to trade his life with someone else very often through Last Rites,\nwhich can win the game for your team."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 May 2025: Builds and Talents updated to reflect meta development.\n26 Mar. 2021: Updated Talent recommendations.\n27 Oct. 2020: Touch of Death's discussion and relevance updated.\n17 Oct. 2020: Builds and Talents updated to better reflect current meta.\n14 Apr. 2020: Description for Tormented Souls updated.\n15 Feb. 2020: Talents and recommendations reviewed following February 12 patch changes.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n15 Feb. 2018: Talents and builds updated to better reflect current metagame state.\n06 Feb. 2018: Talents and builds updated following Maiev patch changes.\n14 Jan. 2018: Updated Heroic Talent discussion. Updated Soul Rip and Reaper builds.\n14 Jun. 2017: Added Talent discussions.\n13 Jun. 2017: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

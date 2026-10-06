@@ -1,0 +1,295 @@
+{
+ "slug": "maiev",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/maiev-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/maiev-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/maiev-talents"
+ },
+ "guide": [
+  {
+   "title": "Maiev's Overview",
+   "id": "maievs-overview",
+   "text": "Maiev is an exceptionally resilient Assassin\nwho excels at initiating\nand generally punishing mispositioned opponents. With Fan of Knives\nas Maiev's main damage-dealing tool, she is excellent at facing multiple enemies.\nWith good micro, she can very often win 1v2 or 2v3 fights."
+  },
+  {
+   "title": "Maiev's Strengths and Weaknesses",
+   "id": "maievs-strengths-and-weaknesses",
+   "text": "Strengths\nUnique initiation utility through Umbral Bind\nNotably high survivability for an Assassin through high Health, Vault of the Wardens, and generally high mobility\nHigh area of effect damage potential\nStrong ganker and equally difficult to gank\nDecent waveclear\nFastest Mercenary Clear in the early game with Naisha's Memento\nExtremely high skill ceiling\nGreat pick-off potential with Containment Disc\nTwo viable Heroic Abilities, being able to adapt for each situation\nWeaknesses\nPredictable playstyle that can ultimately be countered\nNo options for self-sustain\nLimited ability to solo-lane\nRelatively low single-target damage output, particularly in dueling situations\nHas to engage from bushes or vents to surprise enemies\nEasy to get punished after making mistakes\nLow damage output if you miss Fan of Knives"
+  },
+  {
+   "title": "Maiev's Talent Build Cheatsheet",
+   "id": "maievs-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMaiev's Standard Build provides superior sustain damage. Key\nFan of Knives-related Talents provide you with powerful, continuous area of effect\ndamage that force your opponents to spread out, reducing their effectiveness.\nNaisha's Memento is the default option for this build, as it\nwill greatly improve your early game and PvE\ncapabilities. However, on Maps where you cannot abuse your improved Mercenary clear speed,\nwe recommend getting Pursuit of Vengeance instead.\nCruel Chain Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMaiev's Cruel Chain Build focuses on dealing the maximum possible\ndamage in the late game. Through stacking in the early Levels,\nBonds of Justice will greatly improve Umbral Bind.\nBe aware that Bonds of Justice stacks for each secondary\ntarget hit by Umbral Bind, so it is better to always apply the\nempowered Basic Attack on a minion. As the name suggests, this Build is extremely dependent\non Cruel Chain, therefore we recommend focusing on stacking\nyour Level 1 Talent before picking it.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Maiev's Synergies and Counters",
+   "id": "maievs-synergies-and-counters",
+   "text": "Maiev synergizes with\nMaiev's unique ability to reliably Pull a number of Heroes to her works\nparticularly well with Tanks who seek to set up\ncrowd control chains. Assassins with large amounts of\navoidable area of effect damage will also find Umbral Bind particularly\nuseful. Additionally, she is also favored by having healers with\ngood AoE spells to benefit from her engage.\nMaiev is countered by\nMaiev's relatively predictable game plan tends to be easily disrupted by\ncrowd control or blinds, since those\nwill completely shutdown Maiev's Umbral Bind. Furthermore,\nMaiev also struggles against Heroes with high mobility that can easily kite her."
+  },
+  {
+   "title": "Maiev's Maps",
+   "id": "maievs-maps",
+   "text": "Maiev's stronger maps\nMaiev's average maps\nMaiev's weaker maps\nMaiev's early game power and incredible mercenary camp clear speed make her a good\npick in most maps. However, she excels in maps with numerous vents, bushes, and tiny\ncorridors, as those will facilitate her engage with Spirit of Vengeance\nand Umbral Bind. Maiev becomes an even better pick if the map\nhas several mercenaries for her to capture, since she will be able to dictate\nhow the game will be played."
+  },
+  {
+   "title": "Maiev's Tips and Tricks",
+   "id": "maievs-tips-and-tricks",
+   "text": "It is often best to hold on to Fan of Knives's Cooldown to try and hit at least two Heroes than to use it at all, as its reset mechanic is very powerful.\nUsing Umbral Bind against Minions or Structures can allow you to tether Heroes that are out of melee range.\nSpirit of Vengeance can be used through walls or from vents or bushes to surprise enemies.\nRecasting Spirit of Vengeance disjoints projectiles directly targeting Maiev.\nContainment Disc pierces Minions and Structures, and is particularly useful for denying strong Heroic Abilities or simply setting up.\nVault of the Wardens allows you to pass through units, but not Structures nor terrain.\nWith Cruel Chain, Spirit of Vengeance can be used after Umbral Bind towards enemies, so it will trigger Cruel Chain's extra damage, and blink would activate Pull, guaranteeing maximum damage.\nSince Bonds of Justice will only stacks on secondary enemies, try to always target a minion, mercenary, or structure with Umbral Bind to complete the quest faster.\nAgainst melee Heroes, you do not need to use your blink to get close. It is better to use Spirit of Vengeance towards them while they are marked by Umbral Bind, as it will guarantee that they take Spirit of Vengeance's damage twice.\nWarden's Cage has the same radius as Umbral Bind's Pull, and therefore it should be used right after applying it. It is not necessary to move backwards in order to Pull enemies into Warden's Cage, use these few seconds before the cage is active to deal damage or reposition yourself, since the enemies are already doomed into the area.\nWith practice, you will know when Fan of Knives will hit 2 targets, and Naisha's Memento can be used right before it, because the Cooldown will be refreshed.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Maiev's Role in the Current Meta",
+   "id": "maievs-role-in-the-current-meta",
+   "text": "Maiev is a unique Assassin in that she provides an extremely reliable\nway of initiating, through the\nSpirit of Vengeance + Umbral Bind\ncombo, at\nthe cost of having a relatively situational damage output.\nSince Maiev does a mediocre job solo-laning, she is generally\nvalued for her good waveclear, fast mercenary clear with\nNaisha's Memento, and for her\nability to set up for teammates using the aforementioned combo. In the\nearly game, this means staying with teammates speeding\nup the clearing of Minion Waves, while also being aware of good possible\nengages. In later game phases, this means looking for opportunities\nto engage mispositioned opponents or peel for teammates.\nTo execute good combos and good engages you should always try to use Spirit of Vengeance\nfrom outside of enemy vision, as your opponents' time to react will be considerably smaller. After blinking,\nMaiev needs to use Umbral Bind onto the closest enemy, marking\nall enemy Heroes nearby. Players take from 0.5 to 1.5 seconds to realize and react\nto your engage, therefore, you should be aware of it and use Vault of the Wardens\naccordingly."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "28 Sep. 2021 (talents page): Talents and Builds updated after recent balance patch.\n28 Sep. 2021 (abilities page): Containment Disc's description updated.\n28 Sep. 2021 (this page): Guide updated after recent balance patch.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n20 Oct. 2020 (talents page): Builds and Talents updated to reflect current meta.\n20 Oct. 2020 (abilities page): Abilities section updated.\n20 Oct. 2020 (this page): Guide updated to reflect current meta.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n15 Feb. 2020 (talents page): Talents reviewed following February 12 patch rework.\n27 Jan. 2020 (talents page): Talent builds and recommendations updated following January 22 balance patch.\n12 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n23 May 2019 (talents page): Talent discussion and recommendations updated following patch v 2.45.1 changes.\n30 May 2018 (talents page): Talent recommendations updated to better reflect metagame state.\n09 Feb. 2018 (this page): Guide updated to reflect the February 9 balance patch changes.\n03 Feb. 2018 (talents page): Guide created.\n03 Feb. 2018 (abilities page): Guide created.\n03 Feb. 2018 (this page): Guide created.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Maiev's Tips and Tricks",
+   "id": "maievs-tips-and-tricks",
+   "text": "It is often best to hold on to Fan of Knives's Cooldown to try and hit at least two Heroes than to use it at all, as its reset mechanic is very powerful.\nUsing Umbral Bind against Minions or Structures can allow you to tether Heroes that are out of melee range.\nSpirit of Vengeance can be used through walls or from vents or bushes to surprise enemies.\nRecasting Spirit of Vengeance disjoints projectiles directly targeting Maiev.\nContainment Disc pierces Minions and Structures, and is particularly useful for denying strong Heroic Abilities or simply setting up.\nVault of the Wardens allows you to pass through units, but not Structures nor terrain.\nWith Cruel Chain, Spirit of Vengeance can be used after Umbral Bind towards enemies, so it will trigger Cruel Chain's extra damage, and blink would activate Pull, guaranteeing maximum damage.\nSince Bonds of Justice will only stacks on secondary enemies, try to always target a minion, mercenary, or structure with Umbral Bind to complete the quest faster.\nAgainst melee Heroes, you do not need to use your blink to get close. It is better to use Spirit of Vengeance towards them while they are marked by Umbral Bind, as it will guarantee that they take Spirit of Vengeance's damage twice.\nWarden's Cage has the same radius as Umbral Bind's Pull, and therefore it should be used right after applying it. It is not necessary to move backwards in order to Pull enemies into Warden's Cage, use these few seconds before the cage is active to deal damage or reposition yourself, since the enemies are already doomed into the area.\nWith practice, you will know when Fan of Knives will hit 2 targets, and Naisha's Memento can be used right before it, because the Cooldown will be refreshed."
+  },
+  {
+   "title": "Fan of Knives",
+   "id": "fan-of-knives",
+   "text": "Fan of Knives\n(Q)\nMaiev\nMana: 30\nCooldown: 4 seconds\nDeal 152 (+4% per level) damage to enemies in a crescent area.\nHitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and refunds its Mana cost.\nFan of Knives is Maiev's main sustain\narea of effect damage tool. It is\ncharacterised by an unusual crescent-shaped targeting reticle and, more\nimportantly, the ability to essentially reset its cooldown and refund its Mana\ncost if it damages at least two Heroes. This mechanic makes it generally\nbeneficial to hold onto Fan of Knives's cooldown to ensure resets if you are in\nthe general vicinity of two or more opponents.\nFan of Knives synergises particularly well with Umbral Bind, Maiev's second Basic Ability,\nas Umbral Bind's tether effect can either force several enemy Heroes to remain\nuncomfortably close to each other or be used to pull them directly to you for\nsecuring double hits.\nWhile claiming Mercenary Camps, waveclearing, or dueling, reseting\nFan of Knives may be impossible or otherwise inconvenient. In such situations,\nFan of Knives simply becomes a mediocre poking tool to be used on-Cooldown and so as to\nhit as many targets as possible. Fan of Knives's area of effect can be maximised\nagainst Minions by using the Ability from above or below a given wave.\nSince Fan of Knives's unusual area of effect can take some time getting used to,\nand particularly when trying to land double hits, it may be worth turning Quick\nCast off and spending some time in Try Mode to develop muscle memory."
+  },
+  {
+   "title": "Umbral Bind",
+   "id": "umbral-bind",
+   "text": "Umbral Bind\n(W)\nMaiev\nMana: 55\nCooldown: 14 seconds\nMaiev's next Basic Attack cleaves and applies a tether to enemy Heroes hit for 2.5 seconds. If a tethered Hero moves too far from Maiev, they are pulled toward her, dealing 110 (+4% per level) damage and breaking the tether.\nUmbral Bind is Maiev's defining Ability by allowing to be one of the most reliable\nnon-Tank initiator. Since it is relatively complex, it warrants\nsome additional explanations.\nUmbral Bind is a two-part Ability. The first part causes Maiev's next Basic\nAttack to be reset and to hit in an arc centered on its target. If at least\none Hero is damaged by this arc, a large circle appears around Maiev for 2.5\nseconds. If a Hero tethered by Umbral Bind attempts to cross this circle in any\nway—by walking, teleporting, or being displaced—they\nare damaged and pulled right back to Maiev. A single cast of Umbral Bind cannot\npull a given Hero more than once, though it can pull more than one Hero.\nThere are two main strategies behind using Umbral Bind, which we may\nrespectively label \"pull\" and \"hold\". The first and most common \"pull\" strategy\ninvolves trying to trigger Umbral Bind's pulling effect by moving away from\nHeroes affected by the tether to force them to cross the circle. This allows you\nto pulled opponents closer to your allies as a form of setup\nand away from other opponents to make supporting and counter-initiating more\ndifficult. This can be achieved with relative ease by using\nSpirit of Vengeance, Maiev's third Ability, as a gap closer to reach\nyour intended target(s). This strategy can also be used as a way to peel\nfor allies. Spirit of Vengeance can also be used to trigger Umbral Bind's\npulling effect by blinking away from tethered targets. If you manage to pull\ntwo or more Heroes together, make sure to use the opportunity to repeatedly cast\nFan of Knives.\nThe second and least common \"hold\" strategy involves actively not trying\nto trigger Umbral Bind's pull effect by remaining near tethered Heroes and\npreventing them from crossing the circle. Since Umbral Bind's tether has a\nduration of 2.5 seconds, during which the affected Heroes generally will not use\ntheir gap closers to escape for fear of being pulled, the Ability then acts as a\nform of pseudo crowd-control, holding targets in range of potential damage\nsources.\nOutside of Hero combat, Umbral Bind is also serviceable as a waveclear\ntool; an entire Minion wave can be damaged by hitting the center-most Minion\nfrom above or below, much like Fan of Knives. Be mindful, however, of the\nAbility's relatively long cooldown, as Maiev's effectiveness depends on it."
+  },
+  {
+   "title": "Spirit of Vengeance",
+   "id": "spirit-of-vengeance",
+   "text": "Spirit of Vengeance\n(E)\nMaiev\nMana: 50\nCooldown: 13 seconds\nSend a shadow of Maiev outward that will return to its cast location, dealing 150 (+4% per level) damage to enemies along both paths. If an enemy Hero is hit, reduce the cooldown by 4 seconds.\nSpirit of Vengeance is Maiev's gap closer. It\nis most often used as a way of rapidly getting close to a target to hit them\nwith Umbral Bind, as most players will generally run away from Maiev to avoid being hit.\nIf you do manage to hit a Hero with Umbral Bind without using Spirit of\nVengeance, this Ability can instead be used to very quickly trigger a pulling\neffect by casting Spirit of Vengeance in the appropriate direction.\nAs with most gap closers, Spirit of Vengeance can also be used to escape\ndangerous situations. It should be noted, however, that being\nRooted, Silenced,\nor Stunned prevents Blink—the Ability that replaces Spirit of\nVengeance—from being used. In general, Vault of the Wardens\nallows Maiev to use Spirit of Vengeance quite aggressively.\nAs with Maiev's other Basic Abilities, Spirit of Vengeance can be used as\na mediocre waveclear tool, with the advantage of being relatively\nlong-ranged. It also deals a reasonable amount of damage if it is allowed to hit\nthe same target twice (once on the projectile's way out, and once on its way\nback). Simply remember not to use it as such if there is impending Hero combat."
+  },
+  {
+   "title": "Containment Disc",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nContainment Disc\n(R)\nMaiev\nHeroic\nMana: 50\nCooldown: 40 seconds\nThrow a glaive in the target direction. If an enemy Hero is hit, Containment Disc can be reactivated to remove their vision and Time Stop them for 4 seconds. Leaving Containment Silences the enemy Hero for 1.5 seconds.\nContainment Disc automatically activates 6 seconds after hitting a Hero.\nContainment Disc is a unique Ability that is primarily used\nto instantly take specific Heroes out of the game for a lengthy time period,\npreventing them from using key Abilities. Containment Disc can be used at any enemy\nduring a teamfights, as it will have great value on all of them. Squishy Heroes will\nbe severely punished by the Silence,\nTanks and Bruisers will lose all their momentum and peeling\ncapabilities for 5.5 seconds, and Healers will not be able to protect their teammates\nas well. It can also be used for killing enemies separated from their team. It\nshould be used at will, as the cooldown is very low.\nContainment Disc is also an excellent tool for holding lone Heroes in place\nwhile your nearby teammates collapse on them. Containment Disc can be used in\nthis manner to great effect during the rotational phases that many of the\nMaps call for, netting your team easy kills that would otherwise be very\ndifficult to get. Containment Disc's crowd control\neffect can also allow you or your teammates to escape otherwise deadly\nsituations.\nSince Containment Disc's remaining duration is clearly indicated by an orange\nor purple bar (Color Blind Mode) found just above the crystal-like effect of\nthe Ability itself, you or your teammates can prepare your Abilities\nfor when Containment Disc is about to expire, as to follow up rightly.\nIt is advised to use Umbral Bind just as Containment Disc's\nSilence is about to expire, to prevent your target from using Abilities that\nmay help them escape.\nIt should be noted that Containment Disc is a skillshot and can therefore\nbe avoided or otherwise missed, making it important to learn the projectile's\nspeed. Furthermore, Containment Disc does not Time Stop its target on hit, and\nmust be reactivated (through Contain) to take effect. If it is not reactivated\nwithin 6 seconds, it will activate on its own."
+  },
+  {
+   "title": "Warden's Cage",
+   "id": "wardens-cage",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nWarden's Cage\n(R)\nMaiev\nHeroic\nMana: 80\nCooldown: 100 seconds\nSummon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in contact with an Avatar consume it and are knocked to the center of the cage. Warden Avatars last 5 seconds.\nWarden's Cage is Maiev's more combo-oriented Heroic Ability choice, and doubles\nas a way to hinder dive. Generally, Warden's Cage follows Maiev's typical\nSpirit of Vengeance plus Umbral Bind\ncombo to lock down tethered Heroes for an\nextended period of time. Simply ensure that your allies are nearby and ready to\nfollow up. Otherwise, it can be used following opposing\ninitiation to make following up more difficult and creating\nsome breathing room for whoever is being targeted.\nThe main thing to account for when casting Warden's Cage is it's relatively\nlengthy 1.5 seconds set up time, making it always beneficial to cast against\nopponents under the effects of Umbral Bind,\ncrowd control, or currently fighting."
+  },
+  {
+   "title": "Vault of the Wardens",
+   "id": "vault-of-the-wardens",
+   "text": "Vault of the Wardens\n(D)\nMaiev\nCooldown: 13 seconds\nLeap into the air, becoming Immune to all hostile effects for 0.75 seconds.\nAfter reaching Level 20, Vault of the Wardens gains an additional charge.\nA large part of Maiev's survivability can be attributed to\nVault of the Wardens. With proper timing, it can be used to avoid a large number of\ndangerous Abilities, as it provides an instantaneous invulnerability effect on\na very short cooldown. Its 0.75 seconds duration, however, makes developing\nquick reflexes and, more importantly, knowing what to avoid, essential to\nmastering Vault of the Warden. In general however, it can be used with some\ndegree of success after initiating with\nSpirit of Vengeance and Umbral Bind,\nas this is where opponents are most likely\nto try and retaliate against you. It is worth noting that Vault of the Warden\nallows Maiev to pass through units for its duration, though not Structures nor\nterrain."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "28 Sep. 2021: Containment Disc's description updated.\n20 Oct. 2020: Abilities section updated.\n11 Oct. 2019: Abilities section reviewed.\n03 Feb. 2018: Guide created.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Bonds of Justice (Level 1) Maiev Quest: Each tether applied to a secondary target of Umbral Bind permanently increases Umbral Bind's pull damage by 15. Reward: After applying 5 tethers to secondary targets, increase Umbral Bind's pull damage by 75. Reward: After applying 10 tethers to secondary targets, increase Umbral Bind's cleave damage by 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Pursuit of Vengeance (Level 1) Maiev Each Hero tethered by Umbral Bind reduces the cooldown of Spirit of Vengeance by 2.5 seconds and each Hero hit by Spirit of Vengeance reduces the cooldown of Umbral Bind by 1 second."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Naisha's Memento (Level 1) Maiev Charges: 1 Activate to make primary Basic Attacks bounce between nearby enemies up to 2 times. Lasts 8 seconds. Recharge Naisha's Memento by hitting at least 2 Heroes with a single Fan of Knives."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Pin Down (Level 4) Maiev Quest: Hit 3 enemy Heroes with a single Fan of Knives. Reward: Increase Fan of Knives damage by 35%. Reward: Each additional time 3 enemy Heroes are hit by a single Fan of Knives, gain an additional 5% damage, up to 50%. Reward: Hit 4 enemy Heroes with a single Fan of Knives to instantly gain all Rewards."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Blade Dance (Level 4) Maiev Using Fan of Knives deals 50 (+4% per level) Physical Damage to enemies around Maiev."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Sudden Vengeance (Level 4) Maiev After blinking with Spirit of Vengeance, the shadow explodes, damaging all nearby enemy Heroes for 6% of their maximum Health."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Elune's Wrath (Level 7) Maiev Hitting at least 2 Heroes with a single Fan of Knives causes the next Fan of Knives to drop a star on targets that deals 77 (+4% per level) damage when it impacts."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Bonds of Corruption (Level 7) Maiev Enemy Heroes pulled by Umbral Bind have their Armor reduced by 15 and are Slowed by 25% for 3 seconds"
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Ruthless Spirit (Level 7) Maiev Each enemy Hero hit by Spirit of Vengeance increases all damage Maiev deals by 15% for 4 seconds, stacking up to 30%."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Containment Disc (Level 10) Maiev Mana: 50 Cooldown: 40 seconds Throw a glaive in the target direction. If an enemy Hero is hit, Containment Disc can be reactivated to remove their vision and Time Stop them for 4 seconds. Leaving Containment Silences the enemy Hero for 1.5 seconds. Containment Disc automatically activates 6 seconds after hitting a Hero."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Warden's Cage (Level 10) Maiev Mana: 80 Cooldown: 100 seconds Summon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in contact with an Avatar consume it and are knocked to the center of the cage. Warden Avatars last 5 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Bladed Armor (Level 13) Maiev Each enemy Hero hit by Fan of Knives grants 5 Armor for 5 seconds, up to 20 Armor."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Chain Gang (Level 13) Maiev Tethering at least 2 enemy Heroes with Umbral Bind grants 35 Armor for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Shadow Armor (Level 13) Maiev Blink grants 20 Armor for 3.5 seconds. Maiev's Basic Attacks against enemy Heroes refresh this duration."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Vengeful Knives (Level 16) Maiev Dealing damage to enemy Heroes causes the next cast of Fan of Knives that hits enemy Heroes to deal 1% maximum Health as bonus damage, up to 5%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Cruel Chain (Level 16) Maiev Umbral Bind grants 25% Movement Speed for 2.5 seconds. In addition, each time Maiev deals damage to tethered targets, Umbral Bind's pull damage to all targets is increased by 30%, up to 150%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Armored Assault (Level 16) Maiev While Maiev has positive Armor of any kind, all Physical Damage dealt is increased by 25%."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Shadow Orb: Vengeance (Level 20) Maiev Charges: 5 Activate to reset the cooldown of Spirit of Vengeance. Recharge Shadow Orb by damaging enemy Heroes with Spirit of Vengeance 5 times."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Shadow Orb: Huntress (Level 20) Maiev Charges: 10 Activate to increase Movement Speed and Attack Speed by 40% for 5 seconds. Recharge Shadow Orb by dealing Physical Damage to enemy Heroes 10 times."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Shadow Orb: Shadow Strike (Level 20) Maiev Charges: 10 Activate to deal 75 (+4% per level) damage to an enemy Hero, Slowing them by 30% and reducing their Armor by 20 for 4 seconds. Recharge Shadow Orb by dealing Spell Damage to enemy Heroes 10 times."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Maiev's Talent Build",
+   "id": "maievs-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n✓\n?\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Maiev's Talent Build Cheatsheet",
+   "id": "maievs-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMaiev's Standard Build provides superior sustain damage. Key\nFan of Knives-related Talents provide you with powerful, continuous area of effect\ndamage that force your opponents to spread out, reducing their effectiveness.\nNaisha's Memento is the default option for this build, as it\nwill greatly improve your early game and PvE\ncapabilities. However, on Maps where you cannot abuse your improved Mercenary clear speed,\nwe recommend getting Pursuit of Vengeance instead.\nCruel Chain Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMaiev's Cruel Chain Build focuses on dealing the maximum possible\ndamage in the late game. Through stacking in the early Levels,\nBonds of Justice will greatly improve Umbral Bind.\nBe aware that Bonds of Justice stacks for each secondary\ntarget hit by Umbral Bind, so it is better to always apply the\nempowered Basic Attack on a minion. As the name suggests, this Build is extremely dependent\non Cruel Chain, therefore we recommend focusing on stacking\nyour Level 1 Talent before picking it."
+  },
+  {
+   "title": "Level 1 Talents for Maiev",
+   "id": "level-1",
+   "text": "?\nBonds of Justice\n(Level 1)\nMaiev\nQuest: Each tether applied to a secondary target of Umbral Bind permanently increases Umbral Bind's pull damage by 15.\nReward: After applying 5 tethers to secondary targets, increase Umbral Bind's pull damage by 75.\nReward: After applying 10 tethers to secondary targets, increase Umbral Bind's cleave damage by 30%.\n?\nPursuit of Vengeance\n(Level 1)\nMaiev\nEach Hero tethered by Umbral Bind reduces the cooldown of Spirit of Vengeance by 2.5 seconds and each Hero hit by Spirit of Vengeance reduces the cooldown of Umbral Bind by 1 second.\n✓\nNaisha's Memento\n(Level 1)\nMaiev\nCharges: 1\nActivate to make primary Basic Attacks bounce between nearby enemies up to 2 times. Lasts 8 seconds.\nRecharge Naisha's Memento by hitting at least 2 Heroes with a single Fan of Knives."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Bonds of Justice provides a modest but reliable damage increase. Bonds of Justice's damage\ncan grow quite high on Maps that promote early game combat to allow you to\nsteadily use Umbral Bind, such as Battlefield of Eternity,\nBraxis Holdout, Dragon Shire, and Tomb of the Spider Queen.\nPursuit of Vengeance provides Maiev with slightly more mobility.\nAlthough damage-oriented options may be preferred at this Level, Pursuit of Vengeance\nis not a bad Talent. If you cannot deliver many Basic Attacks in teamfights,\nit can be a better choice than Naisha's Memento.\nDifferently from Bonds of Justice, Naisha's Memento\ninstantly adds an excellent tool to her kit. Naisha's Memento\nis the default choice for Level 1, as it greatly enhances Maiev's early game\nand improves her PvE power, while the other options do not add as much.\nNaisha's Memento should be used at the start of the fight,\nright before applying Umbral Bind to maximize the damage dealt.\nIt is very efficient to quickly release Mercenary Camps, as it also bounces on\nneutral targets."
+  },
+  {
+   "title": "Level 4 Talents for Maiev",
+   "id": "level-4",
+   "text": "✓\nPin Down\n(Level 4)\nMaiev\nQuest: Hit 3 enemy Heroes with a single Fan of Knives.\nReward: Increase Fan of Knives damage by 35%.\nReward: Each additional time 3 enemy Heroes are hit by a single Fan of Knives, gain an additional 5% damage, up to 50%.\nReward: Hit 4 enemy Heroes with a single Fan of Knives to instantly gain all Rewards.\n?\nBlade Dance\n(Level 4)\nMaiev\nUsing Fan of Knives deals 50 (+4% per level) Physical Damage to enemies around Maiev.\n?\nSudden Vengeance\n(Level 4)\nMaiev\nAfter blinking with Spirit of Vengeance, the shadow explodes, damaging all nearby enemy Heroes for 6% of their maximum Health."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Pin Down is dependent on a hard quest to be useful, and therefore\nwe only recommend this Talent for experienced Maiev players. Pin Down's damage boost will\nbe applied to every Fan of Knives hit, while its counterpart depends\non being in melee range with your target. For this reason, you only need 1 stack\nto surpass Blade Dance's effectiveness in fights, which is not\nhard to get if you are a veteran Maiev player.\nFor most players, Blade Dance is more reliable than Pin Down,\nas it has the distinct advantage of being active the instant it is picked. This Talent\ndeals damage in a small radius around you. Position yourself in the middle of the wave to\nhit all Minions with the short-range effect from this Talent when casting Fan of Knives.\nThe Physical Damage it inflicts also synergizes with two Talents at Level 16,\nArmored Assault and Cruel Chain (it adds another\nstack to increase Umbral Bind's pull damage).\nSudden Vengeance provides Maiev with a nice amount\nof on-demand burst damage. Sudden Vengeance's\nmain advantage over Blade Dance lies in its non-reliance on fighting more than one\nHero to generate value. In other words, it is less situational, though its\noverall damage potential is proportionally lower."
+  },
+  {
+   "title": "Level 7 Talents for Maiev",
+   "id": "level-7",
+   "text": "✓\nElune's Wrath\n(Level 7)\nMaiev\nHitting at least 2 Heroes with a single Fan of Knives causes the next Fan of Knives to drop a star on targets that deals 77 (+4% per level) damage when it impacts.\n?\nBonds of Corruption\n(Level 7)\nMaiev\nEnemy Heroes pulled by Umbral Bind have their Armor reduced by 15 and are Slowed by 25% for 3 seconds\n?\nRuthless Spirit\n(Level 7)\nMaiev\nEach enemy Hero hit by Spirit of Vengeance increases all damage Maiev deals by 15% for 4 seconds, stacking up to 30%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Elune's Wrath provides Maiev with a great damage boost.\nJust like Blade Dance, this Talent synergizes well with two Level 16\nTalents, Cruel Chain and Vengeful Knives,\nas Elune's Wrath's damage is calculated as a damage source that is distinct from\nFan of Knives. It is the standard choice for this tier, as it\nwill be extremely useful in all teamfights, while its counterparts are much less reliable.\nBonds of Corruption provides Maiev with a decent\nSlow and Armor\nreduction effect that occurs right before targeted burst damage is most likely to occur.\nThis is a good Talent when Maiev is unable to deal much damage, so she can\nbe useful without risking herself too much. This is a good Talent with\nPursuit of Vengeance.\nRuthless Spirit boosts all damage dealt by Maiev, at the cost\nof reduced mobility (considering Spirit of Vengeance should be used\nto hit enemies instead of to reposition). This Talent does not add as much damage into\na teamfight as Elune's Wrath does, but it can be activated more often in the game,\nas it has value even in 1v1 scenarios."
+  },
+  {
+   "title": "Level 10 Talents for Maiev",
+   "id": "level-10",
+   "text": "✓\nContainment Disc\n(Level 10)\nMaiev\nMana: 50\nCooldown: 40 seconds\nThrow a glaive in the target direction. If an enemy Hero is hit, Containment Disc can be reactivated to remove their vision and Time Stop them for 4 seconds. Leaving Containment Silences the enemy Hero for 1.5 seconds.\nContainment Disc automatically activates 6 seconds after hitting a Hero.\n?\nWarden's Cage\n(Level 10)\nMaiev\nMana: 80\nCooldown: 100 seconds\nSummon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in contact with an Avatar consume it and are knocked to the center of the cage. Warden Avatars last 5 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nContainment Disc is a unique Ability that is primarily used\nto instantly take specific Heroes out of the game for a lengthy time period,\npreventing them from using key Abilities. Containment Disc can be used at any enemy\nduring a teamfights, as it will have great value on all of them. Squishy Heroes will\nbe severely punished by the Silence,\nTanks and Bruisers will lose all their momentum and peeling\ncapabilities for 5.5 seconds, and Healers will not be able to protect their teammates\nas well. It can also be used for killing enemies separated from their team. It\nshould be used at will, as the cooldown is very low.\nWarden's Cage is Maiev's more combo-oriented Heroic Ability choice, and doubles\nas a way to hinder dive. Generally, Warden's Cage follows Maiev's typical\nSpirit of Vengeance plus\nUmbral Bind combo to lock down tethered Heroes for an\nextended period of time. Simply ensure that your allies are nearby and ready to\nfollowing up. Otherwise, it can be used following opposing\ninitiation to make following up more difficult and creating\nsome breathing room for whoever is being targeted."
+  },
+  {
+   "title": "Level 13 Talents for Maiev",
+   "id": "level-13",
+   "text": "✓\nBladed Armor\n(Level 13)\nMaiev\nEach enemy Hero hit by Fan of Knives grants 5 Armor for 5 seconds, up to 20 Armor.\n?\nChain Gang\n(Level 13)\nMaiev\nTethering at least 2 enemy Heroes with Umbral Bind grants 35 Armor for 4 seconds.\n?\nShadow Armor\n(Level 13)\nMaiev\nBlink grants 20 Armor for 3.5 seconds. Maiev's Basic Attacks against enemy Heroes refresh this duration."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Bladed Armor is the most reliable of the three Talent\nchoices at this tier, in that it is easy to\ntrigger and lasts the longest, but also offers the least amount of Armor.\nIt is the recommended choice here, unless you got Pursuit of Vengeance\nat Level 1, then Shadow Armor will also be very effective.\nChain Gang provides the most Armor and does so exactly when you need it, but its\ncondition to activate is hard to reach. Chain Gang is an excellent choice if you can\nconsistently hit multiple targets with Umbral Bind.\nShadow Armor provides a reasonable amount of Armor with potentially high uptime\nand usually when you need it as well. Bladed Armor has more potential\nagainst melee-heavy team compositions, however, as they allow for liberal and\nreliable Fan of Knives casts, which are safer than delivering sustain\nBasic Attacks. Shadow Armor works best for novice Maiev players."
+  },
+  {
+   "title": "Level 16 Talents for Maiev",
+   "id": "level-16",
+   "text": "✓\nVengeful Knives\n(Level 16)\nMaiev\nDealing damage to enemy Heroes causes the next cast of Fan of Knives that hits enemy Heroes to deal 1% maximum Health as bonus damage, up to 5%.\n?\nCruel Chain\n(Level 16)\nMaiev\nUmbral Bind grants 25% Movement Speed for 2.5 seconds. In addition, each time Maiev deals damage to tethered targets, Umbral Bind's pull damage to all targets is increased by 30%, up to 150%.\n?\nArmored Assault\n(Level 16)\nMaiev\nWhile Maiev has positive Armor of any kind, all Physical Damage dealt is increased by 25%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Cruel Chain has the ability to vastly increase Maiev's\nlate game damage output when combined with the Bonds of Justice\nTalent. As such, Cruel Chain should be prioritised on Maps that allow Bonds of\nJustice to stack up effectively, such as Battlefield of Eternity,\nBraxis Holdout, Dragon Shire, and Tomb of the Spider Queen.\nVengeful Knives is an excellent Talent that will greatly increase your\ndamage in teamfights. Against certain targets, Vengeful Knives may double Fan of Knives's\ndamage. It has great synergy with Elune's Wrath and Naisha's Memento,\nsince those Talents will help you to get maximum percent-based damage\nas possible on each Fan of Knives.\nArmored Assault provides Maiev with a potent\nPhysical Damage increase,\nwhich functions for her Basic Attacks, and Naisha's Memento's\nbounce property, and the Level 4 Blade Dance Talent. Armored\nAssault is a good Talent if you cannot reliably hit multiple targets with Fan of Knives,\nsince it will add guaranteed damage. The Armor clause is relatively easy to\nmaintain, particularly with the recommended Level 13 Talents."
+  },
+  {
+   "title": "Level 20 Talents for Maiev",
+   "id": "level-20",
+   "text": "?\nShadow Orb: Vengeance\n(Level 20)\nMaiev\nCharges: 5\nActivate to reset the cooldown of Spirit of Vengeance.\nRecharge Shadow Orb by damaging enemy Heroes with Spirit of Vengeance 5 times.\n?\nShadow Orb: Huntress\n(Level 20)\nMaiev\nCharges: 10\nActivate to increase Movement Speed and Attack Speed by 40% for 5 seconds.\nRecharge Shadow Orb by dealing Physical Damage to enemy Heroes 10 times.\n✓\nShadow Orb: Shadow Strike\n(Level 20)\nMaiev\nCharges: 10\nActivate to deal 75 (+4% per level) damage to an enemy Hero, Slowing them by 30% and reducing their Armor by 20 for 4 seconds.\nRecharge Shadow Orb by dealing Spell Damage to enemy Heroes 10 times."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Shadow Orb: Vengeance can be used to initiate\nwith the Spirit of Vengeance plus Umbral Bind\ncombo followed by a second Spirit of Vengeance cast to very reliably pull\nopponents. Being able to cast Spirit of Vengeance twice can also be useful to\ncatch some of the longer-ranged Heroes, such as Chromie and Sgt. Hammer by\nsurprise. It is particularly good with Cruel Chain, as it can\nguarantee a good pull with a second blink from Spirit of Vengeance.\nShadow Orb: Huntress provides Maiev with a powerful\non-demand movement and Attack Speed increase.\nShadow Orb: Huntress works particularly well with Talents that improve Maiev's\nphysical damage, like Naisha's Memento, Blade Dance,\nand Armored Assault. The Movement Speed increase is\nparticularly useful for securing Umbral Bind hits and pulling Heroes.\nSince Shadow Orb: Shadow Strike is targeted, meaning it cannot\nmiss, this Talent is particularly useful for isolating a single key target\nthrough Umbral Bind, as it makes it more difficult to keep up with Maiev\nto deny the pulling effect. The Armor reduction is also valuable for\nbursting purposes. This is the default Talent for this tier, as it can be used in diverse\nways with any build."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "28 Sep. 2021: Talents and Builds updated after recent balance patch.\n26 Mar. 2021: Updated Talent recommendations.\n20 Oct. 2020: Builds and Talents updated to reflect current meta.\n15 Feb. 2020: Talents reviewed following February 12 patch rework.\n27 Jan. 2020: Talent builds and recommendations updated following January 22 balance patch.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n23 May 2019: Talent discussion and recommendations updated following patch v 2.45.1 changes.\n30 May 2018: Talent recommendations updated to better reflect metagame state.\n03 Feb. 2018: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

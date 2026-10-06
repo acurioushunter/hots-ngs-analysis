@@ -1,0 +1,265 @@
+{
+ "slug": "mei",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/mei-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/mei-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/mei-talents"
+ },
+ "guide": [
+  {
+   "title": "Mei's Overview",
+   "id": "meis-overview",
+   "text": "Mei is a Tank who relies on various types of\ncrowd control to mess up the enemy plans\nand some peculiar forms of self-sustain\nto survive longer during team fights."
+  },
+  {
+   "title": "Mei's Strengths and Weaknesses",
+   "id": "meis-strengths-and-weaknesses",
+   "text": "Strengths\nHigh survivability\nDecent damage output\nVersatile crowd control\nGood mobility\nWeaknesses\nNot able to peel from high mobility Heroes (like Tracer)\nWeak to Knockbacks and Roots"
+  },
+  {
+   "title": "Mei's Talent Build Cheatsheet",
+   "id": "meis-talent-build-cheatsheet",
+   "text": "Icing Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's Icing Build is focused on improving your damage to enemy Heroes\nand increasing the crowd control you can\nprovide during team fights, at the cost of some survivability.\nThe cooldown reduction provided by Cold Front at Level 4\nis great for using Black Ice at Level 16 more often\nand to have Icing up when Blizzard is up\nthanks to the cooldown reduction given by Flurry at Level 13.\nCryo-Freeze Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's Cryo-Freeze Build is designed to increase her survivability\nand sustain damage via Basic Attacks.\nThe additional survivability comes from Crystallize\nat Level 4, a defensive Talent that makes it harder\nfor the enemy team to break the Shield provided by Cryo-Freeze.\nThe damage increase is primarily provided by Heat Transfer at Level 1,\ncombined with the Passive effect from Cooling Servos at Level 13.\nWith these Talents, you can pressure the enemy frontline.\nSnow Blind Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's Snow Blind Build is quite good to counter enemy Heroes\nwho primarily deal damage via Basic Attacks and also lack mobility\n(notably The Butcher and Zul'jin).\nBlind them twice in a row thanks to Fresh Powder at Level 16\nand then again thanks to Heavy Pack at Level 1 giving cooldown reduction.\nIn addition to that, Skating Away at Level 7\ngrants Physical Armor, which also counters Basic Attacks.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's ARAM Build is focused on improving your damage to enemy Heroes\nand increasing the crowd control you can\nprovide during team fights, at the cost of some survivability.\nThe cooldown reduction provided by Cold Front at Level 4\nis great for using Black Ice at Level 16 more often\nand to have Icing up when Blizzard is up\nthanks to the cooldown reduction given by Flurry at Level 13.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Mei's Synergies and Counters",
+   "id": "meis-synergies-and-counters",
+   "text": "Mei synergizes with\nConsidering that her Basic Abilities are not that reliable\nwhen trying to engage enemy Heroes,\nMei prefers having allied Heroes who can initiate for her (for example Maiev),\nso that she can follow-up with Blizzard.\nSimilarly, Mei benefits from Heroes that can help her\nto keep enemy Heroes within Blizzard\nby creating impassable terrain (like Tassadar with Force Wall)\nor by Knocking back enemy Heroes nearby\n(such as Maiev with Umbral Bind).\nAs she provides a lot of crowd control,\nMei performs better with Heroes that can follow-up\nher Abilities with burst damage (for example Jaina).\nMei's high Slow uptime is good for\nallied Heroes who get increased damage from it (such as Ace In The Hole\nat Level 1 on Raynor) as the condition for triggering\ntheir increased damage will easily be met.\nMei is countered by\nMei suffers while facing Heroes who have access to any kind of\nmobility because she will have a hard time trying\nto engage and her peeling tools\nwill not accomplish anything (for example Tracer).\nRoots (such as Entangling Roots by Malfurion)\nand Knockbacks (like Face Melt by E.T.C.)\ncan stop her while trying to engage with Icing.\nWhile she does not gets completely shut down by them,\nMei also does not like effects that reduce healing (for example\nBiotic Grenade by Ana), deal\npercent-based damage (such as Cursed Bullet\nat Level 10 by Greymane), or deal bonus damage to Shields\n(like EMP Grenade at Level 13 by Lt. Morales).\nThe same is true for Heroes who can poke her team\nfrom a long distance (such as Li-Ming).\nLast but not the least, you can combine crowd control\nand burst damage to kill Mei before she can even use\nCryo-Freeze defensively."
+  },
+  {
+   "title": "Mei's Maps",
+   "id": "meis-maps",
+   "text": "Mei's stronger maps\nMei's average maps\nMei's weaker maps\nMei does better on Maps where the fights happen on a small Capture Point\n(like Braxis Holdout), that have narrow passages where she can get\nmore value from her kit (for example Cursed Hollow),\nand that have a Boss Camp that goes in lane once captured.\nWhen picking Ice Storm at Level 1,\nMei has good waveclear, making her a good pick\non Maps where macro is important. Keep in mind, though,\nthat she will not be able to help you capture Mercenary Camps quickly."
+  },
+  {
+   "title": "Mei's Tips and Tricks",
+   "id": "meis-tips-and-tricks",
+   "text": "The moderate Slow provided by Snow Blind can be used to slightly increase the chance that Blizzard will connect and that Icing will hit enemy Heroes from a good angle.\nThe high but decaying Slow provided by Icing must be used to drastically increase the chance that the Stun at the end of Blizzard will trigger.\nAvalanche can split the enemy team by pushing some enemy Heroes away, even behind impassable terrain.\nAfter you aggressively get behind an enemy Hero by using Icing, you can push them towards your team with Avalanche.\nIf you catch 3 enemy Heroes with Avalanche, you can follow the snowball with Icing to be in range for casting Blizzard as a follow-up to the prolonged Stun.\nIce Wall can be used to split the enemy team by putting in Time Stop some Heroes and fighting the others.\nA well-timed Blizzard—exactly 0.5 seconds after your Heroic Ability connects—will always Stun enemy Heroes affected by Ice Wall.\nYou can use Ice Wall behind enemy Heroes to block their retreat or in front of them to stop their engage.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Mei's Role in the Current Meta",
+   "id": "meis-role-in-the-current-meta",
+   "text": "Mei is a Tank that excels at punishing enemy Heroes who\nlack mobility to play around her Slows.\nShe has access to powerful Heroic Abilities that, when having a Mage\nin team, can be used to make scary combos.\nThat said, Avalanche and Ice Wall\nare already strong on their own, both for engaging\nand for peeling. With a bit of creativity, you can make\npowerful tricks with them."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n04 Sep. 2022 (talents page): Builds updated.\n04 Sep. 2022 (this page): Builds updated.\n16 Jan. 2022 (talents page): Builds updated.\n16 Jan. 2022 (this page): Builds updated.\n01 Dec. 2021 (talents page): Builds updated.\n01 Dec. 2021 (this page): Builds updated.\n13 Aug. 2021 (this page): Maps updated.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n24 Mar. 2021 (abilities page): Descriptions improved.\n24 Mar. 2021 (this page): Synergies and Counters updated.\n10 Mar. 2021 (talents page): Builds updated.\n10 Mar. 2021 (this page): Builds updated.\n06 Mar. 2021 (talents page): Builds updated.\n06 Mar. 2021 (this page): Builds updated.\n16 Feb. 2021 (talents page): Builds updated.\n16 Feb. 2021 (this page): Builds updated.\n15 Feb. 2021 (talents page): Builds updated.\n15 Feb. 2021 (this page): Builds updated.\n20 Jan. 2021 (talents page): Descriptions changed according to the latest Balance Update.\n20 Jan. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (this page): Guide reviewed for the latest Balance Update.\n05 Oct. 2020 (abilities page): Ability Descriptions modified to better explain how to use Abilities effectively.\n21 Aug. 2020 (talents page): Talent Build page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n21 Aug. 2020 (abilities page): Abilities and Strategy page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n21 Aug. 2020 (this page): Introduction page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n03 Aug. 2020 (talents page): Talent Descriptions updated.\n03 Aug. 2020 (this page): Talent Descriptions updated.\n16 Jul. 2020 (talents page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (this page): Guide reviewed for the latest Balance Update.\n10 Jul. 2020 (talents page): Builds updated.\n10 Jul. 2020 (this page): Builds updated.\n24 Jun. 2020 (talents page): Guide updated.\n24 Jun. 2020 (abilities page): Guide updated.\n24 Jun. 2020 (this page): Guide updated.\n20 Jun. 2020 (talents page): Guide created.\n20 Jun. 2020 (abilities page): Guide created.\n20 Jun. 2020 (this page): Guide created.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Mei's Tips and Tricks",
+   "id": "meis-tips-and-tricks",
+   "text": "The moderate Slow provided by Snow Blind can be used to slightly increase the chance that Blizzard will connect and that Icing will hit enemy Heroes from a good angle.\nThe high but decaying Slow provided by Icing must be used to drastically increase the chance that the Stun at the end of Blizzard will trigger.\nAvalanche can split the enemy team by pushing some enemy Heroes away, even behind impassable terrain.\nAfter you aggressively get behind an enemy Hero by using Icing, you can push them towards your team with Avalanche.\nIf you catch 3 enemy Heroes with Avalanche, you can follow the snowball with Icing to be in range for casting Blizzard as a follow-up to the prolonged Stun.\nIce Wall can be used to split the enemy team by putting in Time Stop some Heroes and fighting the others.\nA well-timed Blizzard—exactly 0.5 seconds after your Heroic Ability connects—will always Stun enemy Heroes affected by Ice Wall.\nYou can use Ice Wall behind enemy Heroes to block their retreat or in front of them to stop their engage."
+  },
+  {
+   "title": "Snow Blind",
+   "id": "snow-blind",
+   "text": "Snow Blind\n(Q)\nMei\nMana: 35\nCooldown: 10 seconds\nThrow a snowball that hits all enemies in an area. Enemies hit take 70 (+4% per level) damage, are Slowed by 35%, and are Blinded for 1.75 seconds.\nSnow Blind is a Basic Ability that deals damage,\nSlows, and Blinds all enemies in\na small target area.\nYou can use this Ability to peel your team or even to\nSlow an enemy Hero that you want to engage\non, so that you will have more chances to Knockback\nthem in the desired direction when Icing ends."
+  },
+  {
+   "title": "Blizzard",
+   "id": "blizzard",
+   "text": "Blizzard\n(W)\nMei\nMana: 70\nCooldown: 14 seconds\nCommand Snowball to create a Blizzard at the target location for 2 seconds. Enemies within the blizzard take 13 (+4% per level) damage every 0.25 seconds and are Slowed by 7%, stacking up to 35%. When the Blizzard ends, enemies within its area take an additional 75 (+4% per level) damage and are Stunned for 1.25 seconds.\nBlizzard is a Basic Ability that deals damage and applies\na stacking Slow to enemies in a big target area over 2 seconds;\nfurthermore, it deals additional damage and Stuns when it ends.\nConsidering the 2-second delay before the Stun effect goes off,\nyou should usually start your engage with Snow Blind\nto Slow enemy Heroes inside the Blizzard\nand then follow-up with Icing\nto Knock them back if they try to leave.\nIn total, this Ability will deal 192 damage to all enemies hit, making it a\ndecent tool for clearing Minions in some scenarios. That said, if your team\ndoes not lack waveclear, you better keep it for other uses."
+  },
+  {
+   "title": "Icing",
+   "id": "icing",
+   "text": "Icing\n(E)\nMei\nMana: 70\nCooldown: 14 seconds\nSlide quickly in the targeted direction. When this effect ends, enemies near Mei are knocked back, take 52 (+4% per level) damage, and are Slowed by 80%, rapidly decaying over 1.5 seconds.\nCan be canceled during sliding.\nIcing is a Basic Ability that gives mobility,\nmostly useful for engaging or escaping. At the end of the slide,\nMei will Knockback, deal damage, and apply a decaying\nSlow to all enemies within range.\nThe slide can be manually canceled by pressing the same key again, a feature\nthat is extremely useful to better Knockback enemy Heroes into a previously cast\nBlizzard and increase the chances they will be\nStunned at its end. Alternatively, you can cast Blizzard on\ntop of the decaying Slow provided at the end of Icing to get a similar result.\nConsidering that many of your Abilities have a delay,\nyou can use the Slow provided by Icing\nto increase the chances that they will connect on the desired enemy Heroes.\nThis trick is especially useful for landing your Heroic Abilities\nbecause they have a long cooldown and therefore it is important to avoid wasting them.\nDue to its high Mana cost and low damage, we recommend to avoid using it for\nclearing Minions, especially because the Knockback will\nspread them all and the rest of your team will spend more time to clear them."
+  },
+  {
+   "title": "Avalanche",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nAvalanche\n(R)\nMei\nHeroic\nMana: 80\nCooldown: 90 seconds\nAfter 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.\nAvalanche is a Heroic Ability that, after a short delay,\nputs every enemy Hero hit in Stasis while the snowball is\nrolling and then Stuns them when it breaks at the end.\n\nStasis does not work on Unstoppable enemy Heroes,\nso it will just pierce through them (for example Deathwing).\nIt is important to know that the snowball will go through impassable\nterrain—including the terrain covered by Structures—however,\nif the ending point happens to be impassable terrain, then the snowball will\nbreak pre-emptively. While it is not that important to predict that in the\nmiddle of the Map, it is obvious and therefore easy to remember that it will\nalways happen when the snowball reaches the external border of the Map.\nEven if you can cast this Heroic Ability to push enemy Heroes out of position,\nit can be occasionally better to push the rest of their team away instead."
+  },
+  {
+   "title": "Ice Wall",
+   "id": "ice-wall",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nIce Wall\n(R)\nMei\nHeroic\nMana: 50\nCooldown: 60 seconds\nVector Targeting\nAfter a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.\nIce Wall is a Heroic Ability that, after a short delay,\nputs every enemy Hero hit in Time Stop for a few seconds\nand then applies a decaying Slow.\nRemember that the wall counts as impassable terrain,\nblocking the path to both allies and enemies.\nIt is worth mentioning that Time Stop affects Unstoppable\nenemies too, freezing them for a while but not removing the Unstoppable from them,\nunless the Unstoppable is on the ground (such as Sanctification\nby Tyrael) and will eventually expire.\nYou can use this Ability in various ways: from engaging\nto peeling, from isolating some Heroes to fight their allies\nto blocking them all in place for a wombo-combo.\nIf you cast Blizzard 0.5 seconds after the\nTime Stop effect starts, you will Stun\nall enemy Heroes affected by it.\nIn case you want to use Blizzard before Ice Wall,\nkeep in mind that the Time Stop will not cancel the Stun, but it will keep going\nafter the Time Stop ends.\nAvoid using this Heroic Ability on enemy Heroes\nwho are going to be hit by the final effect of Blizzard or any other impactful\nAbility cast by allied Heroes (for example Pyroblast\nby Kael'thas) because the Time Stop will make them completely immune\nfor the duration.\nKeep in mind that this Heroic Ability has Vector Targeting: press the key,\ndrag the mouse in the desired direction, and release the key."
+  },
+  {
+   "title": "Cryo-Freeze",
+   "id": "cryo-freeze",
+   "text": "Cryo-Freeze\n(D)\nMei\nCooldown: 40 seconds\nBecome encased in ice for 3 seconds, gaining a rapidly decaying Shield that absorbs up to 1104 (+4% per level) damage. While active, this Shield grants Unstoppable and restores up to 35% of Mei's maximum Health.\nCryo-Freeze is a Trait that drastically increases\nMei's survivability by giving her a powerful Shield for 3 seconds that heals her\nand makes her Unstoppable, but she cannot move for\nthe duration. If needed, you can choose to cancel the effect pre-emptively\nby pressing the same key again."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025: Guide reviewed.\n17 May 2021: Guide reviewed for the latest Patch.\n24 Mar. 2021: Descriptions improved.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n05 Oct. 2020: Ability Descriptions modified to better explain how to use Abilities effectively.\n21 Aug. 2020: Abilities and Strategy page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n24 Jun. 2020: Guide updated.\n20 Jun. 2020: Guide created.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Heavy Pack (Level 1) Mei Increases the duration of Snow Blind's Slow by 1.5 seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by 0.5 seconds and gain 3 Mana."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Ice Storm (Level 1) Mei Every 3rd hit of Blizzard against enemy Heroes deals an additional 42 (+4% per level) damage. Blizzard's final Stun damage is increased by 150% against all enemies."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Heat Transfer (Level 1) Mei Basic Attacks against Stunned, Rooted, or Slowed Heroes deal 33% more damage. Each time Mei Stuns or Slows an enemy Hero she heals for 16 (+4% per level) Health."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Slushball (Level 4) Mei Snow Blind deals 75% increased damage and Structures hit are disabled for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Cold Front (Level 4) Mei Reduce the cooldown of Icing by 3 seconds. If Mei enters her own Blizzard while Icing is active, the cooldown of Icing is reduced by 5 seconds and she gains 80 Mana."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Crystallize (Level 4) Mei Reduce the cooldown of Cryo-Freeze by 10 seconds. Mei gains 40 Spell Armor while Cryo-Freeze is active and for 1 second after."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "Induce Hibernation (Level 7) Mei Blizzard reduces the damage dealt by enemy Heroes inside of its area by 40%. When Blizzard ends, enemy Heroes still within its area gain this effect for an additional 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Skating Away (Level 7) Mei When Icing ends, Mei and all nearby allied Heroes gain 20% Movement Speed and 50 Physical Armor for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Backup Battery (Level 7) Mei Cooldown: 70 seconds Activate to remove all Roots and Slows and regenerate 20% of maximum Health over 2 seconds. The cooldown of this ability is reduced by 10 seconds each time Mei picks up a Regeneration Globe."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Avalanche (Level 10) Mei Mana: 80 Cooldown: 90 seconds After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Ice Wall (Level 10) Mei Mana: 50 Cooldown: 60 seconds Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Flurry (Level 13) Mei While in her own Blizzard, Mei gains 50% increased Attack Speed and Blizzard's cooldown refreshes 125% faster. If Mei is in her own Blizzard when it ends, gain these bonuses for 3 additional seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Cooling Servos (Level 13) Mei While Cryo-Freeze is active, Mei's Basic Ability cooldowns recover 200% faster. Passive: Basic Attacks Slow by 20% for 1.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Polar Vortex (Level 13) Mei Using an ability causes Mei to deal 24 (+4% per level) damage a second to nearby enemies for 4 seconds. Enemy Heroes damaged by this effect also have their Movement Speed and Attack Speed Slowed by 20%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Fresh Powder (Level 16) Mei Snow Blind gains an additional charge and its range is increased by 33%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Black Ice (Level 16) Mei Icing's Slow effect no longer decays over its duration. Icing deals 300% more damage to enemies very close to Mei."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Acclimation (Level 16) Mei Each time Mei Stuns or Slows an enemy Hero, the damage she deals and healing she receives is increased by 1%, stacking up to 20 times. While at maximum stacks, Mei also gains 10 Armor. Lasts 8 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Cascade (Level 20) Mei While traveling, Avalanche constantly launches a volley of untalented Snow Blind snowballs ahead of itself. Passive: Reduce the cooldown of Avalanche by 30 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Shatter (Level 20) Mei When Ice Wall expires, trapped enemy Heroes hit take 210 (+4% per level) damage and have their Armor reduced by 25 for 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "The Big One (Level 20) Mei Every 15 seconds, the next Snow Blind you cast has 67% increased area and 200% increased damage."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Flash Freeze (Level 20) Mei When Mei takes fatal damage she instantly gains Cryo-Freeze. This effect has a 180 second cooldown."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Mei's Talent Build",
+   "id": "meis-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n?\n✓\n?\n7\n✘︎\n✓\n?\n10\n?\n✓\n13\n✓\n?\n?\n16\n?\n✓\n?\n20\n?\n✓\n✘︎\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Mei's Talent Build Cheatsheet",
+   "id": "meis-talent-build-cheatsheet",
+   "text": "Icing Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's Icing Build is focused on improving your damage to enemy Heroes\nand increasing the crowd control you can\nprovide during team fights, at the cost of some survivability.\nThe cooldown reduction provided by Cold Front at Level 4\nis great for using Black Ice at Level 16 more often\nand to have Icing up when Blizzard is up\nthanks to the cooldown reduction given by Flurry at Level 13.\nCryo-Freeze Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's Cryo-Freeze Build is designed to increase her survivability\nand sustain damage via Basic Attacks.\nThe additional survivability comes from Crystallize\nat Level 4, a defensive Talent that makes it harder\nfor the enemy team to break the Shield provided by Cryo-Freeze.\nThe damage increase is primarily provided by Heat Transfer at Level 1,\ncombined with the Passive effect from Cooling Servos at Level 13.\nWith these Talents, you can pressure the enemy frontline.\nSnow Blind Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's Snow Blind Build is quite good to counter enemy Heroes\nwho primarily deal damage via Basic Attacks and also lack mobility\n(notably The Butcher and Zul'jin).\nBlind them twice in a row thanks to Fresh Powder at Level 16\nand then again thanks to Heavy Pack at Level 1 giving cooldown reduction.\nIn addition to that, Skating Away at Level 7\ngrants Physical Armor, which also counters Basic Attacks.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMei's ARAM Build is focused on improving your damage to enemy Heroes\nand increasing the crowd control you can\nprovide during team fights, at the cost of some survivability.\nThe cooldown reduction provided by Cold Front at Level 4\nis great for using Black Ice at Level 16 more often\nand to have Icing up when Blizzard is up\nthanks to the cooldown reduction given by Flurry at Level 13."
+  },
+  {
+   "title": "Level 1 Talents for Mei",
+   "id": "level-1",
+   "text": "?\nHeavy Pack\n(Level 1)\nMei\nIncreases the duration of Snow Blind's Slow by 1.5 seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by 0.5 seconds and gain 3 Mana.\nHeavy Pack is a situational Talent that slightly improves\nSnow Blind by doubling the duration of its moderate\nSlow—but not of its useful Blind—and\nby reducing its cooldown and giving some Mana back\nbased on how many times Blizzard\ndamages enemy Heroes.\nHeavy Pack has synergy with Flurry and Cooling Servos\nat Level 13 because they can both reduces Blizzard's cooldown and make you benefit\nfrom this Talent more often, but they will make you consume more Mana.\nConsidering that it lets you cast Snow Blind more often, the cooldown reduction has synergy\nwith all Snow Blind-related Talents: Slushball at Level 4,\nFresh Powder at Level 16, and The Big One\nat Level 20 (to compensate for the fact that their cooldowns are not aligned).\n✔\nIce Storm\n(Level 1)\nMei\nEvery 3rd hit of Blizzard against enemy Heroes deals an additional 42 (+4% per level) damage. Blizzard's final Stun damage is increased by 150% against all enemies.\nIce Storm is a strong Talent that more than doubles the\ndamage done by Blizzard to both enemy Heroes and non-Heroes,\nmaking it a great choice to increase your team's waveclear.\nWhile it will be not that easy to get full value out of it during team fights, using\nIce Wall as a setup may help you with that.\nIce Storm has good synergy with Flurry at Level 13 and\nCooling Servos at Level 13 because they can both reduce\nBlizzard's cooldown and make you benefit from this Talent more often.\n?\nHeat Transfer\n(Level 1)\nMei\nBasic Attacks against Stunned, Rooted, or Slowed Heroes deal 33% more damage. Each time Mei Stuns or Slows an enemy Hero she heals for 16 (+4% per level) Health.\nHeat Transfer is a good Talent that increases Mei's Attack Damage\nagainst Heroes affected by Roots, Stuns,\nor Slows.\nApplying those crowd control\neffects to enemy Heroes will heal Mei by a small amount, an effect that has good\nsynergy with both Cooling Servos at Level 13 and\nPolar Vortex at Level 13."
+  },
+  {
+   "title": "Level 4 Talents for Mei",
+   "id": "level-4",
+   "text": "?\nSlushball\n(Level 4)\nMei\nSnow Blind deals 75% increased damage and Structures hit are disabled for 3 seconds.\nSlushball is a decent Talent that increases the damage done\nby Snow Blind—also increasing your waveclear\nby a mediocre amount—and makes it disable enemy Structures for a few seconds—allowing\nyou to protect allied units from damage and enabling your whole team to siege.\nThe bonus damage has synergy with all\nSnow Blind-related Talents: Heavy Pack at Level 1 allows you to\ncast it more often, Fresh Powder at Level 16 gives you a second\ncharge, and The Big One at Level 20 makes you hit more enemies.\nIt is worth mentioning that the bonus damage provided by this Talent\ndoes not get amplified by The Big One at Level 20, however,\nthe bonus area still helps hitting more targets—notably two adjacent\nTowers—at the same time.\n✔\nCold Front\n(Level 4)\nMei\nReduce the cooldown of Icing by 3 seconds. If Mei enters her own Blizzard while Icing is active, the cooldown of Icing is reduced by 5 seconds and she gains 80 Mana.\nCold Front is a strong Talent that reduces the cooldown\nof Icing by a few seconds and,\nif you cast Blizzard in the\ndirection you intend to slide with Icing,\nyou restore a good amount of Mana and gain additional cooldown reduction,\nbasically giving you a form of escape a few seconds after your\nengage or more chasing potential when playing offensively.\nConsidering that it lets you cast Icing more often,\nthe cooldown reduction provided has obvious synergy with any Icing-related Talent:\nSkating Away at Level 7 and Black Ice at Level 16.\n?\nCrystallize\n(Level 4)\nMei\nReduce the cooldown of Cryo-Freeze by 10 seconds. Mei gains 40 Spell Armor while Cryo-Freeze is active and for 1 second after.\nCrystallize is a situational Talent that heavily increases\nMei's survivability by reducing the cooldown of Cryo-Freeze\nand making it give a lot of Spell Armor during and\nimmediately after her Trait gets used.\nThe cooldown reduction has synergy\nwith Cooling Servos because it makes you benefit from that\nTalent more often."
+  },
+  {
+   "title": "Level 7 Talents for Mei",
+   "id": "level-7",
+   "text": "✘\nInduce Hibernation\n(Level 7)\nMei\nBlizzard reduces the damage dealt by enemy Heroes inside of its area by 40%.\nWhen Blizzard ends, enemy Heroes still within its area gain this effect for an additional 4 seconds.\nInduce Hibernation is a weak Talent that reduces the\ndamage done by enemy Heroes inside the area covered by Blizzard.\nIf they do not get out before Blizzard ends, they will keep the same debuff\nfor a few more seconds, even if Blizzard and its Stun will be over at that point.\nThat said, we do not recommend this Talent because the crowd control\nprovided by Blizzard is enough to indirectly reduce incoming damage.\nInduce Hibernation has synergy with Flurry and Cooling Servos\nat Level 13 because they can both reduces Blizzard's cooldown and make you benefit\nfrom this Talent more often.\n✔\nSkating Away\n(Level 7)\nMei\nWhen Icing ends, Mei and all nearby allied Heroes gain 20% Movement Speed and 50 Physical Armor for 3 seconds.\nSkating Away is a strong Talent that, when you cast\nIcing, gives Mei and nearby allied Heroes a good amount of\nMovement Speed and Physical Armor for a few seconds.\nThe additional Movement Speed may help you body block\nenemy Heroes, especially if they are affected by one of your Slows,\nand nearby allied Heroes to reposition either offensively or defensively.\nThe bonus Physical Armor makes Mei more resistant immediately after\nengaging and increases the survivability of nearby\nallied Heroes as well.\nSkating Away has synergy with Cold Front\nand Cooling Servos because they can both reduce Icing's cooldown\nand make you benefit from this Talent more often.\n?\nBackup Battery\n(Level 7)\nMei\nCooldown: 70 seconds\nActivate to remove all Roots and Slows and regenerate 20% of maximum Health over 2 seconds. The cooldown of this ability is reduced by 10 seconds each time Mei picks up a Regeneration Globe.\nBackup Battery is a situational Talent that increases\nMei's survivability by providing her an Active Ability to remove Roots\nand Slows from herself and/or to heal for a considerable amount\nwhen doing so.\nWhile it has a relatively long cooldown, picking up\nRegeneration Globes will shorten it. You can activate it at any moment,\neven if you have full Health."
+  },
+  {
+   "title": "Level 10 Talents for Mei",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nAvalanche\n(Level 10)\nMei\nMana: 80\nCooldown: 90 seconds\nAfter 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.\nAvalanche is a decent Heroic Ability for splitting the\nenemy team and immediately starting a team fight to abuse the numerical advantage.\nAvalanche has synergy with Acclimation at Level 16 because\nit can increase any damage dealt by up to 20%.\n✔\nIce Wall\n(Level 10)\nMei\nMana: 50\nCooldown: 60 seconds\nVector Targeting\nAfter a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.\nIce Wall is a strong Heroic Ability that makes up for\nMei's mediocre engage by giving her a powerful tool that\ncan be used to setup enemy Heroes for your team and/or split the enemy team."
+  },
+  {
+   "title": "Level 13 Talents for Mei",
+   "id": "level-13",
+   "text": "✔\nFlurry\n(Level 13)\nMei\nWhile in her own Blizzard, Mei gains 50% increased Attack Speed and Blizzard's cooldown refreshes 125% faster. If Mei is in her own Blizzard when it ends, gain these bonuses for 3 additional seconds.\nFlurry is a strong Talent that gives Mei bonus Attack Speed\nand makes Blizzard refresh its cooldown faster\nwhile she is within its area and for 3 second after being \"hit\" by its ending part.\nThe bonus Attack Speed has decent synergy with Heat Transfer\nat Level 1 because it allows you to get more value from\nthe bonus Attack Damage while the cooldown reduction has strong synergy with\nCold Front at Level 4 because it basically aligns\nBlizzard's cooldown with Icing's cooldown.\n?\nCooling Servos\n(Level 13)\nMei\nWhile Cryo-Freeze is active, Mei's Basic Ability cooldowns recover 200% faster.\nPassive: Basic Attacks Slow by 20% for 1.5 seconds.\nCooling Servos is a good Talent that makes every\nMei's Basic Attack apply a small Slow to the target\nand makes Cryo-Freeze heavily increase the cooldown\nrefresh rate of every Basic Ability.\nThe bonus Slow has synergy with\nHeat Transfer at Level 1 in prolonged team fights because\nthat Talent requires the target to be Slowed and your Basic Abilities\nwill not always be available to give you that.\nThe cooldown reduction provided\nis extremely helpful to disengage when in danger,\nbut it can also be used aggressively to keep the fight going when not risky.\nCooling Servos has strong synergy with Crystallize at Level 4\nbecause standing still for the whole duration of Cryo-Freeze\nis often dangerous without the Spell Armor provided by it.\n?\nPolar Vortex\n(Level 13)\nMei\nUsing an ability causes Mei to deal 24 (+4% per level) damage a second to nearby enemies for 4 seconds. Enemy Heroes damaged by this effect also have their Movement Speed and Attack Speed Slowed by 20%.\nPolar Vortex is a good Talent that makes Mei deal\narea of effect damage to nearby enemies for a few seconds\nafter casting an Ability.\nIn addition to being damaged, enemy Heroes will have\ntheir Attack Speed reduced and a Slow applied to them.\nSlows help you to body-block\nand to connect Blizzard.\nThe bonus Slow has synergy with Heat Transfer\nat Level 1 in short team fights because that Talent requires\nthe target to be Slowed."
+  },
+  {
+   "title": "Level 16 Talents for Mei",
+   "id": "level-16",
+   "text": "?\nFresh Powder\n(Level 16)\nMei\nSnow Blind gains an additional charge and its range is increased by 33%.\nFresh Powder is a situational Talent that provides a second\ncharge of Snow Blind and slightly\nincreases its range.\nThe second charge allows you to Blind\nenemy Heroes twice in a row and has synergy with all\nSnow Blind-related Talents: Heavy Pack at Level 1,\nSlushball at Level 4, and The Big One at Level 20.\n✔\nBlack Ice\n(Level 16)\nMei\nIcing's Slow effect no longer decays over its duration. Icing deals 300% more damage to enemies very close to Mei.\nBlack Ice is a strong Talent that turns the decaying\nSlow provided by Icing into a powerful\nnon-decaying Slow and increases the damage done by Icing to very close enemies as well.\nThe buff to the Slow helps the final part of Blizzard to\nconnect and therefore increases the chance that the Stun\nwill happen.\nThe bonus damage helps your team secure kills before the\nfocused enemy Hero can be saved, but be careful not to\nmess up your team's follow-up with\nIcing's knockback effect.\n?\nAcclimation\n(Level 16)\nMei\nEach time Mei Stuns or Slows an enemy Hero, the damage she deals and healing she receives is increased by 1%, stacking up to 20 times. While at maximum stacks, Mei also gains 10 Armor. Lasts 8 seconds.\nAcclimation is a good Talent that increases Mei's\nsurvivability in prolonged team fights. In particular, it gives Mei increased\nhealing from any source (notably her Cryo-Freeze) and a bit of Armor.\nKeep in mind that the bonus starts low and gradually increase while fighting,\nso we cannot really consider it a good anti-burst tool;\ninstead, see it as a tool to increase your sustain, especially when your team\nhas a sustain Healer rather than a burst one."
+  },
+  {
+   "title": "Level 20 Talents for Mei",
+   "id": "level-20",
+   "text": "?\nCascade\n(Level 20)\nMei\nWhile traveling, Avalanche constantly launches a volley of untalented Snow Blind snowballs ahead of itself.\nPassive: Reduce the cooldown of Avalanche by 30 seconds.\nCascade is a good Talent that reduces the cooldown of\nAvalanche and makes it launch 22 untalented Snow Blind\nprojectiles: 17 shots while rolling, and 5 shots at the end.\nWhile the Heroes inside Avalanche cannot be hit by anything, the first group\nof shots can hit enemy Heroes before they get caught by it. Both groups of shots\nwill hit a single Hero with 1-4 shots that will deal between 70 and 280 damage in total,\nrandomly increasing the damage of Avalanche from 220 to 780 damage, but averaging 500 damage.\n✔\nShatter\n(Level 20)\nMei\nWhen Ice Wall expires, trapped enemy Heroes hit take 210 (+4% per level) damage and have their Armor reduced by 25 for 5 seconds.\nShatter is a strong Talent that turns the already powerful\nIce Wall into a scary engage tool by\ndealing damage and reducing the Armor of all enemy Heroes caught.\n✘\nThe Big One\n(Level 20)\nMei\nEvery 15 seconds, the next Snow Blind you cast has 67% increased area and 200% increased damage.\nThe Big One is a weak Talent that increases the\ndamage done and the area covered by Snow Blind, but not every\ntime you cast it because there is an internal cooldown of 15 seconds.\nYou cannot use Cooling Servos at Level 13 to reduce its cooldown,\nbut you can use Slushball at Level 4 to disable 2 adjacent Towers.\nThe internal cooldown\nremoves the otherwise possible synergy with cooldown-reducing Talents:\nHeavy Pack at Level 1, Cooling Servos\nat Level 13, and Fresh Powder at Level 16.\nWe do not recommend this Talent because it does not provide\nenough value compared to the other options in the same Tier.\n?\nFlash Freeze\n(Level 20)\nMei\nWhen Mei takes fatal damage she instantly gains Cryo-Freeze. This effect has a 180 second cooldown.\nFlash Freeze is a situational Talent that considerably increases\nMei's survivability when she is going to die, but only once every 3 minutes.\nThe automatic activation allows her to survive against scary\nengages based on crowd-control\npaired with burst damage, a combination that would otherwise\nnot give you enough time to manually activate Cryo-Freeze.\nCryo-Freeze and Flash Freeze do not share their cooldowns,\nso you can use them one after another, regardless of the order.\nIf you are scared of enemy crowd control effects,\nprefer using Cryo-Freeze first because Flash Freeze will automatically go off\nwhen you are not able to cast your Abilities."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n04 Sep. 2022: Builds updated.\n16 Jan. 2022: Builds updated.\n01 Dec. 2021: Builds updated.\n17 May 2021: Guide reviewed for the latest Patch.\n10 Mar. 2021: Builds updated.\n06 Mar. 2021: Builds updated.\n16 Feb. 2021: Builds updated.\n15 Feb. 2021: Builds updated.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n20 Jan. 2021: Descriptions changed according to the latest Balance Update.\n21 Aug. 2020: Talent Build page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n03 Aug. 2020: Talent Descriptions updated.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n10 Jul. 2020: Builds updated.\n24 Jun. 2020: Guide updated.\n20 Jun. 2020: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

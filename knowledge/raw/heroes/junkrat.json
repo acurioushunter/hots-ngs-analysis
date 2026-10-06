@@ -1,0 +1,305 @@
+{
+ "slug": "junkrat",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/junkrat-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/junkrat-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/junkrat-talents"
+ },
+ "guide": [
+  {
+   "title": "Junkrat's Overview",
+   "id": "junkrats-overview",
+   "text": "Junkrat is a Ranged Assassin from the Overwatch\nuniverse who can deal a large amount of sustain\nor burst damage from a safe\ndistance. The area of effect aspect of both\nFrag Launcher and his Basic Attacks provide him with\ngreat waveclear and team-wide splash damage. None of\nJunkrat's Abilities use Mana, giving him incredible lane sustain and high\nteamfight presence when challenging Objectives or areas of high contention.\nAll of his Basic Abilities can also be cast while moving. This is critical, as\nhe lacks any sort of reliable escape beyond Concussion Mine.\nWhen utilized correctly, Junkrat does have Talents that can make him rather\nslippery and difficult to catch by the enemy team, such as\nTricky Shuffles and Ripper Air.\nBoth of his Heroic Abilities, RIP-Tire and\nRocket Ride, require a period of\nchanneling to be cast. Junkrat should\ntherefore always be on the lookout for enemy Abilities that can interrupt this\nchannel and keep track of their use and remaining cooldowns."
+  },
+  {
+   "title": "Junkrat's Strengths and Weaknesses",
+   "id": "junkrats-strengths-and-weaknesses",
+   "text": "Strengths\nUses no Mana, can remain in fights indefinitely when left unanswered by the enemy team\nIncredibly long range can reach targets located behind otherwise impassable terrain.\nCan reposition enemies and himself with Concussion Mine\nScales well into lategame.\nGreat waveclear via the AoE components of his Frag Launcher and Basic Attacks\nSteel Trap is a valuable zoning tool.\nModerate siege potential.\nVery high skill ceiling\nWeaknesses\nIncredibly susceptible to dive and enemy crowd-control\nAll abilities are skillshots which can be difficult to land successfully\nBad Concussion Mine can result in an enemy surviving or an ally missing a critical skillshot.\nVery squishy with no means of self-sustain\nRequires close attention to proper positioning\nWeak early game until scaling through talents.\nEasy to play, difficult to master"
+  },
+  {
+   "title": "Junkrat's Talent Build Cheatsheet",
+   "id": "junkrats-talent-build-cheatsheet",
+   "text": "Steel Trap Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Steel Trap build works well against an enemy\nteam consisting of assassins like Genji or Zeratul. Once you have the talent\nGotta Trap 'Em All!, you will be able to set up a\nperimeter around you, saving yourself from enemy assassins diving you, and then\nproceed to punish them for it. You will still want to go for\nRIP-Tire and Cannonball! at\nlevel 10 and 20 to nuke a trapped enemy hero.\nConcussion Mine Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Concussion Mine build works well with\nan organized team due to the displacement power of this build.\nWe prioritize getting all of the cooldown-reducing talents allowing\nJunkrat to always have Concussion Mine up for the occasion.\nTalents such as Bogged Down and BOOM POW\nreward Junkrat greatly for hitting an enemy hero with a mine, triggering\nBlow 'Em Up! and slowing the displaced enemy hero, effectively\nresulting in securing a kill.\nFrag Launcher Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJunkrat's Frag Lanucher Build emphasizes his ability to\ndeal large amounts of damage from a distance. Taste For Explosions\nscales the damage done by Frag Launcher and makes Junkrat more powerful when heading into\nthe late game. Endless Nades enables Junkrat\nto deal more reliable sustain damage\nduring critical standoffs or trades and will help accrue stacks of Taste for Explosions more\nquickly. Ripper Air provides Junkrat with a much welcome\nkiting tool and means of self-peel\nwhen being dove by the enemy team.\nA well-placed RIP-Tire can be the difference between a lost and won teamfight.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJunkrat's ARAM build focuses on the buffing Frag Launcher for good poke damage.\nThrough Endless Nades, the talent pretty much allows you to do exactly what it says.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Junkrat's Synergies and Counters",
+   "id": "junkrats-synergies-and-counters",
+   "text": "Junkrat synergizes with\nJunkrat's low Health pool and squishiness require him to hide behind a strong\nfrontline that can distract enemy Heroes during fights.\nTanks and bruisers with reliable\ncrowd-control can either help Junkrat set-up takedowns, or\nassist him with peel should he be focused by the enemy team.\nA support that can provide Junkrat with healing or\ndamage mitigation in the form of a shield or buffs is mandatory as he has no source of\nself-sustain within his entire kit.\nJunkrat is countered by\nJunkrat is countered by highly mobile Heroes who can easily dive\nhim in the backline. Beyond Concussion Mine\nJunkrat has no immediate source of peel, therefore he is particularly\nsusceptible to Heroes that can stick to him with some form of gap-closer.\nThe fact that all of Junkrat's abilities are skillshots also makes\nit particularly difficult to combat highly mobile enemy Heroes."
+  },
+  {
+   "title": "Junkrat's Maps",
+   "id": "junkrats-maps",
+   "text": "Junkrat's stronger maps\nJunkrat's average maps\nJunkrat's weaker maps\nNone\nAs noted earlier, Junkrat provides excellent lane sustain, teamfight\npresence, and wave clear. All of these traits make him good on maps where a\nrotation between lanes is needed and has a \"king of the hill\" type of\nobjective, such as the Altars on Towers of Doom. The poke damage provided by\nFrag Launcher can be used to indefinitely whittle down\nenemies from afar as they attempt to take control of an objective. On bigger\nmaps, Junkrat can make good use of his level 13 talent\nRipper Air which allows him to quickly move from lane\nto lane. Maps with smaller choke points make\nSteel Trap a particularly effective zoning tool while\nConcussion Mine can catch an unaware enemy off-guard\nand force them into a detrimental position. Fighting an enemy team forced into\na narrow corridor will also generate the most value from the splash-damage\ncomponent of his abilities and Basic Attacks."
+  },
+  {
+   "title": "Junkrat's Tips and Tricks",
+   "id": "junkrats-tips-and-tricks",
+   "text": "Be careful not to overshoot enemy targets with Frag Launcher. Aiming just in front of the desired target (on the very edge of their hitbox) will cause the bomb to bounce into them if it does not make immediate contact.\nConcussion Mine is Junkrat's primary source of self-peel. Try to not use it unwisely at the start of a fight just because it is off cooldown.\nTry to set up Steel Trap in areas of high contention just before an impending fight. The 2-second setup time makes the ability very difficult to use effectively mid-combat.\nRIP-Tire's jump ability (Q) can be used to flank or cut-off unprepared enemies behind otherwise impassable terrain.\nRocket Ride often times should be used as a \"second life\" to deny enemy experience when cast just before dying; it may even allow Junkrat to pick up a kill or two!\nUse Junkrat’s level 13 talent Ripper Air effectively to move throughout the map. Mount is slower than Ripper Air. Only use your mount if Concussion Mine is on cooldown.\nConcussion Mine and Steel Trap can be used to provide vision in bushes. On maps like Tomb of the Spider Queen, you can use Concussion Mine and Steel Trap to provide vision in the bushes between the upper turn-in point.\nDo not be trigger happy with your Concussion Mine. Just because an enemy is standing on top of it, does not mean you need to activate it. Make smart decisions regarding the use of this.\nCurrently, you can animation cancel Junkrat's Basic Attack. This is very effective in terms of wave clear where your rotation will look like this: AA -> Immediately after you see the grenade from AA pop out -> 1 Frag Launcher -> Right click to force AA -> 1 Frag Launcher -> Right click to force AA and so on. Try this out in Test Mode first to get the gist of it.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Junkrat's Role in the Current Meta",
+   "id": "junkrats-role-in-the-current-meta",
+   "text": "Currently, Junkrat has a decent spot in the current meta. As most of the\nMaps in the current ranked rotation favor late game compositions, Junkrat can\nvery well scale into a high-DPS monster. Unfortunately, he will not fit into\nmost team compositions and this is due to his very weak early game damage, you\nwould need a Hero that offsets Junkrat's early game. During early game you\nwould want to focus on getting your Taste For Explosions\nstacks up and try to make impactful plays with your\nConcussion Mine. Once Junkrat scales into late game,\n(most notably at Level 16) he becomes a high sustain damage dealer.\nJunkrat can easily poke enemies attempting to capture\nan Objective that requires channeling,\nsuch as Altars on Towers of Doom, Nukes in\nWarhead Junction, or Tributes on Cursed Hollow. Junkrat's more fragile nature\nrequires allies that can form a strong frontline that can preoccupy his enemies\nwhile he dishes out his barrage of grenades.\nShould an enemy slip through the cracks of his frontline, Junkrat can\ndisengage with Concussion Mine to create some distance\nbetween himself and his aggressor. Concussion Mine has a lengthy cooldown so\nJunkrat should position himself in an especially passive way when this Ability\nis unavailable to him. Junkrat's lack of any\nself-sustain also requires at least one Healer\non his team to ensure he will remain topped off should he receive poke\ndamage or be dove in the\nbackline.\nOne of Junkrat's greatest strengths lies in the range of his\nFrag Launcher. Because the grenades provide vision to\nJunkrat and his allies, Frag Launcher should be regularly used as a scouting\ntool to deter a missing enemy from capturing a Mercenary Camp or Objective\nbehind the veil of the Fog of War. Grenades, Concussion Mine and\nSteel Trap can also be put into bushes to give vision.\nWhen possible, Junkrat should be constantly\nrepositioning the location of Steel Trap to best prevent an enemy from ganking\nor flanking him or an ally during the laning phase or a teamfight."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "26 Sep. 2023 (this page): ARAM Build added.\n30 Jan. 2022 (this page): Updated builds.\n12 Dec. 2021 (this page): Updated Steel Trap build.\n09 Dec. 2021 (talents page): Updated Steel Trap build.\n30 Aug. 2021 (talents page): Talents have been updated.\n30 Aug. 2021 (this page): Updated builds.\n19 May 2021 (talents page): Guide has been updated with the new functionality of Big As\n03 May 2021 (talents page): Updated builds and talents.\n03 May 2021 (this page): Updated builds.\n21 Nov. 2020 (talents page): Updated builds and talents.\n21 Nov. 2020 (this page): Updated builds and talents.\n25 Aug. 2020 (talents page): Guide has been reviewed and no changes are needed.\n25 Aug. 2020 (this page): Guide has been reviewed and no changes are needed.\n08 Aug. 2020 (talents page): Builds updated\n08 Aug. 2020 (this page): Builds updated\n02 Jul. 2020 (talents page): Guide has been reviewed and no changes are needed.\n02 Jul. 2020 (abilities page): Guide has been reviewed and no changes are needed.\n02 Jul. 2020 (this page): Guide has been reviewed and no changes are needed.\n24 Nov. 2019 (talents page): Reviewed guide and no changes are needed.\n24 Nov. 2019 (this page): Reviewed guide and no changes are needed.\n26 Sep. 2019 (talents page): Updated Junkrat to reflect his newest rework.\n26 Sep. 2019 (this page): Updated Junkrat to reflect his new rework.\n05 Jun. 2019 (talents page): Updated most talent tier discussions and recommendations.\n05 Jun. 2019 (this page): Made various improvements and updates to the guide to bring it more in line with the current meta.\n02 Nov. 2017 (talents page): Updated the guide following the most recent balance patch, with the following changes being notable.\nLevel 4 Talent Gotta Trap 'Em All (E) has had the Heroes hit requirement reduced from 8 to 7.\nLevel 7 Talent Sticky Wicket (E) has had the Slow duration increased from 3 to 3.5 Seconds.\n16 Oct. 2017 (this page): Added Junkrat guide.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Junkrat's Tips and Tricks",
+   "id": "junkrats-tips-and-tricks",
+   "text": "Be careful not to overshoot enemy targets with Frag Launcher. Aiming just in front of the desired target (on the very edge of their hitbox) will cause the bomb to bounce into them if it does not make immediate contact.\nConcussion Mine is Junkrat's primary source of self-peel. Try to not use it unwisely at the start of a fight just because it is off cooldown.\nTry to set up Steel Trap in areas of high contention just before an impending fight. The 2-second setup time makes the ability very difficult to use effectively mid-combat.\nRIP-Tire's jump ability (Q) can be used to flank or cut-off unprepared enemies behind otherwise impassable terrain.\nRocket Ride often times should be used as a \"second life\" to deny enemy experience when cast just before dying; it may even allow Junkrat to pick up a kill or two!\nUse Junkrat’s level 13 talent Ripper Air effectively to move throughout the map. Mount is slower than Ripper Air. Only use your mount if Concussion Mine is on cooldown.\nConcussion Mine and Steel Trap can be used to provide vision in bushes. On maps like Tomb of the Spider Queen, you can use Concussion Mine and Steel Trap to provide vision in the bushes between the upper turn-in point.\nDo not be trigger happy with your Concussion Mine. Just because an enemy is standing on top of it, does not mean you need to activate it. Make smart decisions regarding the use of this.\nCurrently, you can animation cancel Junkrat's Basic Attack. This is very effective in terms of wave clear where your rotation will look like this: AA -> Immediately after you see the grenade from AA pop out -> 1 Frag Launcher -> Right click to force AA -> 1 Frag Launcher -> Right click to force AA and so on. Try this out in Test Mode first to get the gist of it."
+  },
+  {
+   "title": "Total Mayhem (Trait)",
+   "id": "total-mayhem-trait",
+   "text": "Total Mayhem\n(D)\nJunkrat\nPassive\nUpon dying, drop 5 grenades that explode after 0.75 seconds, each dealing 250 (+4% per level) damage to nearby enemies. Deals 75% less damage to Structures.\nDetonate Mine\nDetonate an active Concussion Mine.\nTotal Mayhem is a very straight-forward mechanic that\nwill cause Junkrat to deal a massive amount of AoE damage\nto all enemies caught within its effect upon his death. Although death should\nalmost never be intentional, if Junkrat finds himself unable to avoid it he\nshould utilize Total Mayhem to take-down as many enemies with him as possible."
+  },
+  {
+   "title": "Frag Launcher",
+   "id": "frag-launcher",
+   "text": "Frag Launcher\n(Q)\nJunkrat\nCharges: 4\nRecharge Time: 12 seconds\nLaunch a grenade that explodes at the end of its path or upon hitting an enemy, dealing 124 (+4% per level) damage to nearby enemies. Grenades can ricochet off of terrain. Deals 50% less damage to Structures.\nStores up to 4 charges. Frag Launcher's cooldown replenishes all charges at the same time.\nFrag Launcher is Junkrat's primary source of damage and\nholds four charges. Once the first grenade is fired, the Frag Launcher will begin its cooldown.\nEach charge of Frag Launcher does not have an independent cooldown, and once the cooldown\nduration has expired Junkrat will receive 4 new charges of Frag Launcher regardless of how\nmany charges of the 4 had been cast. The movement of the grenades shot by Frag Launcher\nhave unique interactions depending on the following criteria:\nEach time a grenade is launched it will bounce in a straight line\nwhile slowing down until it comes to a complete stop. If a grenade does not come into\ncontact with any enemies after a short duration it will explode.\nIf a grenade bounces at least once before coming into contact with a piece\nof terrain, it will then bounce off the terrain and all other terrain until\nit either strikes an enemy or comes to a complete stop.\nA grenade that is shot directly into terrain will immediately explode without bouncing.\nIf the grenade is shot beyond a section of terrain, it will pass over without detonating and\nwill behave normally on the other side once it lands.\nIt is important to note that the grenades fired by Frag Launcher provide Junkrat and\nhis allies vision as they travel. Since Frag Launcher has an incredibly long cast range,\ngrenades can be used as a reliable scouting tool to check for hidden enemies. Vision\nlike this may often prevent enemies from taking Mercenary Camps or a Boss while eyes\nare on them."
+  },
+  {
+   "title": "Concussion Mine",
+   "id": "concussion-mine",
+   "text": "Concussion Mine\n(W)\nJunkrat\nCooldown: 16 seconds\nPlace a mine on the ground. Junkrat's Trait can be activated to detonate the mine, dealing 180 (+4% per level) damage to nearby enemies and knocking them back. Junkrat can also be affected by Concussion Mine, but takes no damage.\nLimit 1 active mine.\nConcussion Mine is an incredibly powerful movement displacement\ntool that can be utilized in both offensive and defensive manners.\nThe Knockback effect of Concussion Mine can\ninterrupt stationary-channeled Abilities\nand separate enemies from one another, potentially isolating a vulnerable\ntarget that Junkrat and his team can capitalize on. This displacement can also be used to\nforce enemies over terrain such as Junkrat's own walls. Although these techniques may lead\nto direct take-downs, unless there is a blatant opportunity to catch out an\noverextended enemy, it is recommended to hold onto Concussion Mine as a defensive\ntool for peel. More strategic enemy players will keep an eye out for Junkrat's\nConcussion Mine and may try to dive him while it is on cooldown. This is\nbecause Junkrat lacks any other source of peel aside from his slow-acting Steel Trap.\nJunkrat should also not hesitate to utilize Concussion Mine as a source of escape, especially when\nthere is a nearby piece of terrain that he could blast himself over into safety when caught out.\nIt is important to note that the cooldown of Concussion Mine begins once the mine is placed\nonto the ground, not when it is detonated. This means that if Junkrat puts down a mine\nat a location well before a fight is to occur, he will be able to place/detonate another mine\nimmediately after detonating the first. Junkrat should also be aware that the displacement of\nan enemy Hero by his Concussion Mine might cause allies to miss potentially critical\nskillshots or abilities, such as the mine’s displacement\nknocking an entire team away from an ally E.T.C.'s\nMosh Pit."
+  },
+  {
+   "title": "Steel Trap",
+   "id": "steel-trap",
+   "text": "Steel Trap\n(E)\nJunkrat\nCooldown: 15 seconds\nPlace a trap on the ground that arms after 2 seconds. Deals 130 (+4% per level) damage to the first enemy that walks over it and Roots them for 2 seconds.\nLimit 1 active trap.\nSteel Trap is Junkrat's second\nsource of crowd-control in the form of a Root.\nSteel Trap takes 2 seconds to become active once cast, which makes it incredibly\ndifficult to use mid-fight. Therefore, Steel Trap should be seen as more\nof a zoning tool rather than a dependable form of\ncrowd-control. Steel Trap can be placed in narrow corridors\nto force enemies to either endure the Root or find another pathway to reach\ntheir desired location. In team-fights Steel Trap may find more success\nwhen used as follow-up for more reliable sources of crowd-control such as:\n\nHowling Blast (Arthas)\nEntangling Roots (Malfurion)\nBlessed Shield (Johanna)\nPrimal Grasp + Impaling Blades (Kerrigan)\nZombie Wall (Nazeebo)\nHammer of Justice (Uther)\nDevouring Maw (Zagara)\nVoid Prison (Zeratul)\nIf an enemy hero attempts to dive Junkrat, Steel Trap can\nbe cast behind Junkrat in the direction he will be fleeing. This will give Junkrat the opportunity\nto kite the aggressor into the trap after it has had time to activate."
+  },
+  {
+   "title": "RIP-Tire",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nRIP-Tire\n(R)\nJunkrat\nHeroic\nCooldown: 75 seconds\nCreate a motorized bomb with 530 (+4% per level) Health that lasts 15 seconds. While active, Junkrat is immobile but gains control of RIP-Tire's movement.\nRIP-Tire can be reactivated to detonate immediately, knocking nearby enemies back and dealing 720 (+4% per level) damage to enemies near the center gradually reduced to 445 (+4% per level) to enemies on the edge.\nRIP-Tire is the first option of Junkrat's two Heroic Abilities.\nOnce RIP-Tire is cast Junkrat becomes rooted and after a 1.5-second channel,\ntakes control of a pilotable tire that can be activated to explode for a\nlarge amount of AoE damage with a reasonable Knockback.\nThe damage of the tire is dependent on how close the targets are to the\nepicenter of the explosion in three separate tiers, much like the rings on a dartboard.\nThe tire has a relatively fast travel speed and will be able to easily catch up with\nany dismounted Hero. The turn radius of the tire is much slower than\nthat of a Hero and will take some getting used to for players just starting out with Junkrat.\nIf not activated, the tire will fail to explode after 15 seconds and RIP-Tire will be placed\non full cooldown. Enemies are also able to destroy the tire which only has 500 Health. Once\nthe 1.5-second channel has been completed by Junkrat to start-up the RIP-tire it can be\nactivated at any time to explode. This means if Junkrat is overwhelmed by the enemy\nattempting to dive him, he may use the RIP-Tire as a sort of \"self-destruct\" to displace\nenemies away from him and deal a massive amount of AoE damage.\nWhile piloting the RIP-Tire, a new ability is available to players which causes the tire to\njump on a 3-second cooldown. When jumping the tire is able to pass over terrain and structures in order to\nsurprise unexpecting targets on the other side. Accurately jumping the tire over a desired section of terrain\nmay prove to be somewhat difficult. The tire needs to be heading in the direction of the desired jump\nand players should activate jump when the tire is just about to reach the edge of the terrain. This will\ncause the jump to carry the tire over the terrain instead of being blocked by it. If a player\nclicks the ground behind the section of terrain they wish to jump, it will re-path the tire\nand end up inhibiting the jump entirely. Given the unusual movement of the tire and how\ndifficult it can be to execute terrain jumps, it is recommended that players spend some\ntime practicing it in try mode. It is also important to note that the tire can still be struck by\nabilities and Basic Attacks while in mid-air, so there is no need to waste jump trying\nto avoid them."
+  },
+  {
+   "title": "Rocket Ride",
+   "id": "rocket-ride",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nRocket Ride\n(R)\nJunkrat\nHeroic\nCooldown: 75 seconds\nAfter 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving.\nAfter 3.75 seconds, Junkrat lands, dealing 935 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Hall of Storms and gains 150% additional Movement Speed until dismounted.\nRocket Ride, the second option of Junkrat's Heroic Abilities,\nalso has a channeled cast time of 1.5 seconds before\nJunkrat becomes invulnerable and shoots himself into the air. Once this happens, Junkrat will have\n3.5 seconds to guide the rocket to its landing site where all enemies caught within the zone\nwill take a massive amount AoE damage.\nOnce Junkrat's rocket lands, he is \"killed\" in the explosion also\ntriggering his Trait, Total Mayhem. After 5 seconds, he will\nresummon at the Altar and can ride his rocket back into combat with a bonus 150% movement\nspeed until he is dismounted. Although Junkrat is \"killed\" in the explosion it does not\nactually count towards a death for Junkrat or a kill for the enemy team, preventing them\nfrom being granted experience for his \"death\". This feature allows Junkrat to utilize\nRocket Ride as a form of escape when under the threat of imminent death. Although damage will not disrupt\nthe channeling of Rocket Ride, forms of hard crowd-control will,\nso keep an eye out for key enemy abilities that would inhibit Junkrat from being able to\nfinish his cast once it has begun.\nBoth RIP-Tire and Rocket Ride\nsyngergize beautifully with allied abilities that can keep multiple enemies in one area\nfor a duration. The longer the duration, the better as this will also make it easier for\nTotal Mayhem from Rocket Ride to connect with those who may have\nsurvived the initial blast. Here is a list of suggested abilities to coordinate with the\nuse of either of Junkrat's Heroic Abilities:\nSummon Sindragosa (Arthas)\nMosh Pit (E.T.C.)\nBlessed Shield (Johanna)\nApocalypse (Diablo)\nEntomb (Leoric)\nEntangling Roots (Malfurion)\nGraviton Surge (Zarya)\nDivine Storm (Uther)\nWarlord's Challenge (Garrosh)\nVoid Prison (Zeratul)"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 Jul. 2020: Guide has been reviewed and no changes are needed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Tricky Shuffles (Level 1) Junkrat While Frag Launcher has no charges left, Junkrat gains 10% Movement Speed and his Basic Attacks deal 15% bonus damage."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Extra-Wound Timers (Level 1) Junkrat The final grenade launched from Frag Launcher deals 100% bonus damage, and Frag Launcher grenades last an additional 2 seconds before automatically detonating."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Blow 'Em Up! (Level 1) Junkrat Hitting an enemy Hero with Concussion Mine or Steel Trap causes Junkrat to deal 25% more damage with Basic Attacks and Basic Abilities for 6 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Taste For Explosions (Level 4) Junkrat Quest: Hitting a Hero with Frag Launcher increases its damage by 0.2%, up to 40%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "BOOM POW (Level 4) Junkrat Hitting an enemy Hero with Concussion Mine reduces its cooldown by 10 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Chattering Teeth (Level 4) Junkrat Steel Traps will slowly chase nearby enemy Heroes."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Bogged Down (Level 7) Junkrat Enemies launched by Concussion Mine are Slowed by 40% for 2.5 seconds upon landing."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Sticky Wicket (Level 7) Junkrat Enemy Heroes who are hit by Steel Trap are Silenced for 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Dirty Trickster (Level 7) Junkrat Increase the explosion radius of Total Mayhem by 20%. When Junkrat is Stunned, Rooted, or damaged by an enemy Hero while below 50% Health, he uses Total Mayhem, dropping 5 grenades at his feet that explode. This effect has a 20 second cooldown."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "RIP-Tire (Level 10) Junkrat Cooldown: 75 seconds Create a motorized bomb with 530 (+4% per level) Health that lasts 15 seconds. While active, Junkrat is immobile but gains control of RIP-Tire's movement. RIP-Tire can be reactivated to detonate immediately, knocking nearby enemies back and dealing 720 (+4% per level) damage to enemies near the center gradually reduced to 445 (+4% per level) to enemies on the edge."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Rocket Ride (Level 10) Junkrat Cooldown: 75 seconds After 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving. After 3.75 seconds, Junkrat lands, dealing 935 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Hall of Storms and gains 150% additional Movement Speed until dismounted."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Bombs Away (Level 13) Junkrat Increase Junkrat's Basic Attack range by 1. Frag Launcher grenades fired within 0.5 seconds of using a Basic Attack deal 30% bonus damage."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Ripper Air (Level 13) Junkrat Junkrat is knocked back 50% farther by Concussion Mine. Additionally, Concussion Mine's cooldown is reduced by 12 seconds if only Junkrat is hit."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Gotta Trap 'Em All! (Level 13) Junkrat Reduce Steel Trap's cooldown by 5 seconds and increase the maximum number of active traps to 2."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Big As (Level 13) Junkrat Steel Trap now only hits Heroes, and Heroes hit have their Armor reduced by 15 for 3 seconds. Increases Steel Trap's radius and damage by 50%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Burst Fire (Level 16) Junkrat Frag Launcher fires all of its charges in a continuous burst, its cooldown is reduced by 6 seconds, but it loses 1 maximum charge."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Endless Nades (Level 16) Junkrat Hitting an enemy Hero with Frag Launcher reduces its cooldown by 1.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Spread Volley (Level 16) Junkrat Cooldown: 30 seconds Activate to make Frag Launcher fire 2 additional grenades in a spread. Works for up to 4 total charges, or until Frag Launcher runs out of charges."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Extra Oomph (Level 20) Junkrat Increase RIP-Tire's knockback distance by 80%, and its cooldown is reduced by 25 seconds for each enemy Hero hit."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Puckish Scamp (Level 20) Junkrat Junkrat also gains the Ability RIP-Tire. Each time he uses his Heroic, it swaps to the alternate ability. Passive: Reduce both Heroic cooldowns by 20 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Cannonball! (Level 20) Junkrat Increase the radius and explosion radius of grenades from Basic Attacks and Frag Launcher by 50%."
+   },
+   {
+    "slot": 4,
+    "marker": "no",
+    "text": "✘︎ I Hate Waiting! (Level 20) Junkrat Junkrat always rides his Rocket Ride Mount, which grants 150% increased Movement Speed, but his Mount cooldown is increased to 8 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Junkrat's Talent Build",
+   "id": "junkrats-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n✓\n4\n?\n?\n✓\n7\n?\n✓\n?\n10\n✓\n✘︎\n13\n?\n✓\n?\n✓\n16\n✘︎\n✓\n?\n20\n✓\n✘︎\n✓\n✘︎\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Junkrat's Talent Build Cheatsheet",
+   "id": "junkrats-talent-build-cheatsheet",
+   "text": "Steel Trap Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Steel Trap build works well against an enemy\nteam consisting of assassins like Genji or Zeratul. Once you have the talent\nGotta Trap 'Em All!, you will be able to set up a\nperimeter around you, saving yourself from enemy assassins diving you, and then\nproceed to punish them for it. You will still want to go for\nRIP-Tire and Cannonball! at\nlevel 10 and 20 to nuke a trapped enemy hero.\nConcussion Mine Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Concussion Mine build works well with\nan organized team due to the displacement power of this build.\nWe prioritize getting all of the cooldown-reducing talents allowing\nJunkrat to always have Concussion Mine up for the occasion.\nTalents such as Bogged Down and BOOM POW\nreward Junkrat greatly for hitting an enemy hero with a mine, triggering\nBlow 'Em Up! and slowing the displaced enemy hero, effectively\nresulting in securing a kill.\nFrag Launcher Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJunkrat's Frag Lanucher Build emphasizes his ability to\ndeal large amounts of damage from a distance. Taste For Explosions\nscales the damage done by Frag Launcher and makes Junkrat more powerful when heading into\nthe late game. Endless Nades enables Junkrat\nto deal more reliable sustain damage\nduring critical standoffs or trades and will help accrue stacks of Taste for Explosions more\nquickly. Ripper Air provides Junkrat with a much welcome\nkiting tool and means of self-peel\nwhen being dove by the enemy team.\nA well-placed RIP-Tire can be the difference between a lost and won teamfight.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJunkrat's ARAM build focuses on the buffing Frag Launcher for good poke damage.\nThrough Endless Nades, the talent pretty much allows you to do exactly what it says."
+  },
+  {
+   "title": "Level 1 Talents for Junkrat",
+   "id": "level-1",
+   "text": "?\nTricky Shuffles\n(Level 1)\nJunkrat\nWhile Frag Launcher has no charges left, Junkrat gains 10% Movement Speed and his Basic Attacks deal 15% bonus damage.\n✓\nExtra-Wound Timers\n(Level 1)\nJunkrat\nThe final grenade launched from Frag Launcher deals 100% bonus damage, and Frag Launcher grenades last an additional 2 seconds before automatically detonating.\n✓\nBlow 'Em Up!\n(Level 1)\nJunkrat\nHitting an enemy Hero with Concussion Mine or Steel Trap causes Junkrat to deal 25% more damage with Basic Attacks and Basic Abilities for 6 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Tricky Shuffles increases the\nMovement Speed and damage of Junkrat's Basic Attacks.\nThe Movement Speed bonus of this Talent is too good to give up,\nespecially when you can get it at Level 1. The Attack Damage increase\nis a nice added bonus.\nExtra-Wound Timers gives some added burst to the final grenade\nof Frag Launcher and having the grenades thrown out last another two seconds before exploding\nmight surprise enemy Heroes during hectic team fight scenarios where they won't notice it too much.\nBlow 'Em Up! increases your\ndamage dealt by 25% when hitting an enemy Hero with Concussion Mine\nor Steel Trap. While you will rarely want to activate this with Concussion mine,\nthe added damage when trapping an enemy allows you to burst down anyone you trap,\nmaking this Talent worth picking up if you decide to play the Steel Trap Build or Concussion Mine Build."
+  },
+  {
+   "title": "Level 4 Talents for Junkrat",
+   "id": "level-4",
+   "text": "?\nTaste For Explosions\n(Level 4)\nJunkrat\nQuest: Hitting a Hero with Frag Launcher increases its damage by 0.2%, up to 40%.\n?\nBOOM POW\n(Level 4)\nJunkrat\nHitting an enemy Hero with Concussion Mine reduces its cooldown by 10 seconds.\n✓\nChattering Teeth\n(Level 4)\nJunkrat\nSteel Traps will slowly chase nearby enemy Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Taste For Explosions, currently, is the Talent that\nallows Junkrat to scale so well into late game and synergizes perfectly with\nthe rest of the Build. Getting this quest done, paired with\nEndless Nades and\nCannonball!, turns Junkrat into a Grenade Machine Gun and you need the damage\nbonus this quest provides to be useful.\nBOOM POW rewards Junkrat greatly for hitting\nenemy Heroes, and due to the power of the Build relying on displacement, you want\nyour mine off cooldown most of the time. This Talent also synergizes with\nBlow 'Em Up!, granting you almost 100% uptime on it.\nChattering Teeth gains potential from\nits use in clustered fights where the enemies do not pay attention\nto your traps. It adds extra coverage of the area where you throw it down,\nwhich is very noticable once you can throw down two traps!"
+  },
+  {
+   "title": "Level 7 Talents for Junkrat",
+   "id": "level-7",
+   "text": "?\nBogged Down\n(Level 7)\nJunkrat\nEnemies launched by Concussion Mine are Slowed by 40% for 2.5 seconds upon landing.\n✓\nSticky Wicket\n(Level 7)\nJunkrat\nEnemy Heroes who are hit by Steel Trap are Silenced for 2 seconds.\n?\nDirty Trickster\n(Level 7)\nJunkrat\nIncrease the explosion radius of Total Mayhem by 20%. When Junkrat is Stunned, Rooted, or damaged by an enemy Hero while below 50% Health, he uses Total Mayhem, dropping 5 grenades at his feet that explode.\nThis effect has a 20 second cooldown."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Dirty Trickster can be very good in situations\nwhere the enemy team consists of heavy divers because of the massive\ndamage increase and punishment it can provide. Imagine a\nLi-Ming trying to finish you off with Calamity\nand ending up killing herself or Sonya briefly Stunning you\nwith Ancient Spear and just exploding right after.\nSticky Wicket adds a strong Silence effect\nwhilst Rooting\nan enemy Hero, which can be crucial for killing a trapped target\nwho would otherwise be able to save themselves for example\nby self-healing and/or by self-cleansing.\nBogged Down adds more value to displacing enemy\nHeroes as the Slow lasts for a good amount and your allies get more time\nto bog down the displaced enemy Hero."
+  },
+  {
+   "title": "Level 10 Talents for Junkrat",
+   "id": "level-10",
+   "text": "✓\nRIP-Tire\n(Level 10)\nJunkrat\nCooldown: 75 seconds\nCreate a motorized bomb with 530 (+4% per level) Health that lasts 15 seconds. While active, Junkrat is immobile but gains control of RIP-Tire's movement.\nRIP-Tire can be reactivated to detonate immediately, knocking nearby enemies back and dealing 720 (+4% per level) damage to enemies near the center gradually reduced to 445 (+4% per level) to enemies on the edge.\n✘︎\nRocket Ride\n(Level 10)\nJunkrat\nCooldown: 75 seconds\nAfter 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving.\nAfter 3.75 seconds, Junkrat lands, dealing 935 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Hall of Storms and gains 150% additional Movement Speed until dismounted."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nCurrently, the viable ultimate\nis RIP-Tire, as it provides the highest burst damage\nand, the most overpowered of it all, acts as a distraction. What this means is that\nduring a team fight where the enemy team is focusing down your allies, the\nsecond they hear your RIP-tire they will start looking for it and try to nuke\nit down. This will make them unfocused and potentially get hit by skillshots\nfrom your teammates they would otherwise dodge. If they do not focus it, enjoy\nthe free damage. It is best to use RIP-tire from a safe distance, as it has a\nvery wide range and activated directly on top of an enemy. Do note that in most\ncases, you will want to activate it rather too early than too late. The\nRIP-Tire has very low Health and can be nuked down in a few Basic Attacks or\nSpells.\nRocket Ride is not considered viable due to the\ndowntime in teamfights. As Junkrat, you want to be in the team fight for its\nentire duration, throwing out grenades and displacing enemies. Rocket Ride does have the\nadvantage of providing no Experience to the enemy team, but you should not die\ntoo much as Junkrat. If you do, you should rather look at how you position\nyourself, as that is key for surviving as Junkrat."
+  },
+  {
+   "title": "Level 13 Talents for Junkrat",
+   "id": "level-13",
+   "text": "?\nBombs Away\n(Level 13)\nJunkrat\nIncrease Junkrat's Basic Attack range by 1. Frag Launcher grenades fired within 0.5 seconds of using a Basic Attack deal 30% bonus damage.\n✓\nRipper Air\n(Level 13)\nJunkrat\nJunkrat is knocked back 50% farther by Concussion Mine. Additionally, Concussion Mine's cooldown is reduced by 12 seconds if only Junkrat is hit.\n?\nGotta Trap 'Em All!\n(Level 13)\nJunkrat\nReduce Steel Trap's cooldown by 5 seconds and increase the maximum number of active traps to 2.\n✓\nBig As\n(Level 13)\nJunkrat\nSteel Trap now only hits Heroes, and Heroes hit have their Armor reduced by 15 for 3 seconds. Increases Steel Trap's radius and damage by 50%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Ripper Air is a phenomenal Talent that only benefits\nConcussion Mine when it is used solely as a means of\nrepositioning Junkrat. Not only does the 50% increased distance help Junkrat to\nbetter disengage from a potential threat, but it will also help Junkrat more\nquickly catch up to a fleeing enemy or safely reposition to a desired location\nfor whatever reason. The most powerful component of Ripper Air is the significantly\nreduced cooldown of Concussion Mine. Especially when utilizing the\nFrag Launcher Build, Junkrat's ability to\nstay safe within the backline of his team by repositioning\nevery few seconds is very powerful. Since the cooldown of Concussion Mine\nbegins once the mine is placed, if Junkrat places a mine and immediately\ndetonates it on himself, he will only have to wait about 2 seconds before being able to\nplace another mine. When Junkrat is only repositioning himself with\nthe mines, he is able to keep up this shortened cooldown indefinitely.\nGotta Trap 'Em All! allows Junkrat\nto put out an extra Trap, allowing you to effectively set up a perimeter\nthrough which enemies cannot run. This Talent synergizes very well with\nthe rest of the Steel Trap-based Talents and is a must pick for the Steel Trap Build.\nThis Talent will be better than Big As in situations where the enemy team consists of dive Heroes.\nBombs Away increases the range and damage\nof Junkrat's Basic Attacks. This Talent is huge in terms of effective DPS.\nIf you are able to utilize the sequence noted in the\nTips section,\nthis Talent can give some incredible value. While it does have competition with Ripper Air,\nit will be more valuable on small Maps, where quickly moving across the battlefield is less important.\nThe increased size of Steel Trap granted by\nBig As causes the trap to connect much easier with\nenemy Heroes. The larger radius also causes it to be a much more threatening\nzoning tool, being able to cover a larger portion of\nnarrow corridors and choke points. With the added\nfunctionality of not being triggered by anything other than Heroes, it can see\nmore use during the laning phase and to counter enemy Heroes with Summons.\nBig As is a great Talent for the Steel Trap\nBuild and synergizes incredibly well with Chattering Teeth."
+  },
+  {
+   "title": "Level 16 Talents for Junkrat",
+   "id": "level-16",
+   "text": "✘︎\nBurst Fire\n(Level 16)\nJunkrat\nFrag Launcher fires all of its charges in a continuous burst, its cooldown is reduced by 6 seconds, but it loses 1 maximum charge.\n✓\nEndless Nades\n(Level 16)\nJunkrat\nHitting an enemy Hero with Frag Launcher reduces its cooldown by 1.5 seconds.\n?\nSpread Volley\n(Level 16)\nJunkrat\nCooldown: 30 seconds\nActivate to make Frag Launcher fire 2 additional grenades in a spread. Works for up to 4 total charges, or until Frag Launcher runs out of charges."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Burst Fire reduces the cooldown of Frag Launcher\nby half but at the cost of 1 charge and the ability to determine when\neach grenade will be fired. Burst Fire shoots all 3 grenades faster than Junkrat\nwould be able to normally, however all 3 shots will always fire together in the same\ndirection in which Frag Launcher was originally cast. Although this allows Junkrat\nto fire 6 grenades every 12 seconds (as opposed to 4), the inability to control\nthe direction of each shot makes Burst Fire very difficult to control. In its\ncurrent state, Burst Fire often times feel more like a set-back than a\nstep-forward and is best left unselected.\nEndless Nades is a buff to the cooldown duration\nof Frag Launcher, assuming Junkrat is able to\nsuccessfully land grenades on enemy Heroes. Because each Hero hit with a\ngrenade reduces the cooldown by 1.5 seconds, when Junkrat is targeting\na single Hero and is able to connect all 4 grenades, he will reduce the total\ncooldown of Frag Launcher by 6 seconds. EVERY Hero hit by a single\ngrenade will also reduce the cooldown by an additional 1.5 seconds. This implies\nthat if Junkrat is able to hit all 5 enemy Heroes with the first grenade shot,\nFrag Launchers remaining cooldown will be 4.5 seconds (12 - 5 × 1.5). The\ncooldown reduction provided by Endless Nades will generate a steady stream\nof grenades for Junkrat, which will not only allow him to more quickly complete\nTaste For Explosions if it has not been completed already, but will also\ndo massive amounts of sustain area of effect damage to enemy\nteams positioned closely together.\nSpread Volley grants Junkrat the ability to deal a\nsignificant amount of burst damage, especially against teams grouped up\ntightly or trapped within a choke point. The Talent\nneeds to be activated and does not go onto cooldown until all of the charges\nof Frag Launcher are used or the cooldown of Frag\nLauncher expires after Spread Volley had been activated. This is why\nin order to generate the most grenades and value from Spread Volley,\nit is recommended to only activate it when Junkrat has all charges of\nhis Frag Launcher available. It is possible to hit a single target with\nall 3 shots of each charge of Frag Launcher under the effect of Spread Volley.\nHowever, Junkrat should be cautious when attempting this because it requires him\nto be positioned next to his desired target, which could put him in a potentially\ndangerous situation.\nThis Talent should only be used when you go for the Steel Trap Build\nto benefit from the shotgun effect of Spread Volley."
+  },
+  {
+   "title": "Level 20 Talents for Junkrat",
+   "id": "level-20",
+   "text": "✓\nExtra Oomph\n(Level 20)\nJunkrat\nIncrease RIP-Tire's knockback distance by 80%, and its cooldown is reduced by 25 seconds for each enemy Hero hit.\n✘︎\nPuckish Scamp\n(Level 20)\nJunkrat\nJunkrat also gains the Ability RIP-Tire. Each time he uses his Heroic, it swaps to the alternate ability.\nPassive: Reduce both Heroic cooldowns by 20 seconds.\n✓\nCannonball!\n(Level 20)\nJunkrat\nIncrease the radius and explosion radius of grenades from Basic Attacks and Frag Launcher by 50%.\n✘︎\nI Hate Waiting!\n(Level 20)\nJunkrat\nJunkrat always rides his Rocket Ride Mount, which grants 150% increased Movement Speed, but his Mount cooldown is increased to 8 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Extra Oomph has become more viable due to the huge amount of\ncooldown reduction from hitting even just one enemy Hero. The Talent really shines on\nMaps featuring Objectives that may require\nthe enemy team to clump up, or Maps with tight corners\nallowing you to get the most of the cooldown reduction back, effectively allowing you to spam\nyour Heroic Ability to get that extra oomph in. That said, do not pick this Talent when\nthe enemy team has a reliable way to interrupt RIP-Tire\nbefore you can get it in a good position to detonate it because then\nyou will not be able to get any value from this Talent.\nPuckish Scamp this Talent\nnow allows Junkrat to get RIP-tire aswell as Rocket Ride.\nHowever due to how bad Rocket Ride is and you have to ride it\nuntil Level 20 makes this Talent pretty bad and not worth picking up.\nCannonball! is a passive Talent that significantly\nincreases the area of effect splash damage radius of\nFrag Launcher and Junkrat's Basic Attacks. This will\nmake it significantly easier to complete the\nTaste For Explosions Quest if it remains unfinished. The\nincreased size of the splash-damage by Cannonball! is incredibly generous and\nfeel immediately impactful, especially in team fights when multiple Heroes are\nstacked close to one another. If Talented into\nEndless Nades at Level 16, the increased splash damage\nof Junkrat's grenades will significantly reduce the cooldown of Frag Launcher,\ngenerating even more value. Cannonball! also makes Junkrat an even greater\nmaster of waveclear. This may be very useful when at\nleast one Keep has been already destroyed by the enemy team and Junkrat will\nneed to constantly monitor the heavy flow of game-ending Catapults that will\nnow be pressing down the lane. This is the Talent that turns Junkrat into the\nDPS monster he is late game.\nI Hate Waiting! provides Junkrat\nwith insane mobility, but if we needed mobility, we would rather go with\nRipper Air at Level 13 so that we do not lose out on Cannonball or Extra Oomph!"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "09 Dec. 2021: Updated Steel Trap build.\n30 Aug. 2021: Talents have been updated.\n19 May 2021: Guide has been updated with the new functionality of Big As\n03 May 2021: Updated builds and talents.\n21 Nov. 2020: Updated builds and talents.\n25 Aug. 2020: Guide has been reviewed and no changes are needed.\n08 Aug. 2020: Builds updated\n02 Jul. 2020: Guide has been reviewed and no changes are needed.\n24 Nov. 2019: Reviewed guide and no changes are needed.\n26 Sep. 2019: Updated Junkrat to reflect his newest rework.\n05 Jun. 2019: Updated most talent tier discussions and recommendations.\n02 Nov. 2017: Updated the guide following the most recent balance patch, with the following changes being notable.\nLevel 4 Talent Gotta Trap 'Em All (E) has had the Heroes hit requirement reduced from 8 to 7.\nLevel 7 Talent Sticky Wicket (E) has had the Slow duration increased from 3 to 3.5 Seconds.\nShow more\nShow less"
+  }
+ ]
+}

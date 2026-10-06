@@ -1,0 +1,270 @@
+{
+ "slug": "arthas",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/arthas-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/arthas-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/arthas-talents"
+ },
+ "guide": [
+  {
+   "title": "Arthas's Overview",
+   "id": "arthass-overview",
+   "text": "Arthas is a Tank who relies on Roots and\nSlows to peel for his team or to stop enemy\nHeroes from retreating. This type of crowd-control is great\nagainst melee Heroes that rely on Basic Attacks and lack mobility."
+  },
+  {
+   "title": "Arthas's Strengths and Weaknesses",
+   "id": "arthass-strengths-and-weaknesses",
+   "text": "Strengths\nPowerful crowd control\nGood self-sustain\nCounters melee Heroes that rely on Basic Attacks\nSolid damage output\nDurable against burst damage\nWeaknesses\nWeak engage with Howling Blast\nNo mobility\nWeak to Displacement effects\nConsumes a lot of Mana with Frozen Tempest\nSuffers against healing reduction effects\nWeak to kite"
+  },
+  {
+   "title": "Arthas's Talent Build Cheatsheet",
+   "id": "arthass-talent-build-cheatsheet",
+   "text": "Death Coil Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's Death Coil Build is designed to increase\nhis damage from the distance, his team's\nburst damage, and his\nself-sustain.\nWe find this Build particularly good against ranged Heroes.\nFrost Presence at Level 1 makes both your\nengage and your peeling reliable.\nThe burst damage comes from Shattered Armor\nat Level 4 and Deathlord at Level 13.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16.\nHowling Blast Build\nAdvanced\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's Howling Blast Build is designed to increase\nhis damage from the distance, his team's\nburst damage, and his\nsurvivability against burst damage.\nWe find this Build particularly good for short team fights.\nFrost Presence at Level 1 makes both your\nengage and your peeling reliable.\nThe burst damage comes from Shattered Armor\nat Level 4 and Deathchill at Level 13.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16.\nFrozen Tempest Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's Frozen Tempest Build allows him to cripple the enemy team's advance or retreat\nby further increasing the power and utility of Frozen Tempest.\nWe find this Build particularly good against melee Heroes with\nlow-mobility.\nBorean Winds at Level 1 gives a moderate amount of\nmobility, Biting Cold at Level 13\nincreases your damage output, and Remorseless Winter at Level 16\nprovides another way to Root enemy Heroes.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's ARAM Build is designed to increase\nhis damage from the distance, his team's\nburst damage, and his\nself-sustain.\nWe find this Build particularly good against ranged Heroes.\nFrost Presence at Level 1 makes both your\nengage and your peeling reliable.\nThe burst damage comes from Shattered Armor\nat Level 4 and Deathlord at Level 13.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Arthas's Synergies and Counters",
+   "id": "arthass-synergies-and-counters",
+   "text": "Arthas synergizes with\nArthas pairs well with Heroes who can either follow-up on his\ncrowd control (such as Chromie\nwith A Proper Greeting) or initiate with their own\n(for example Maiev), especially if your main Tank\ndoes not provide enough crowd control for peeling\n(Stitches comes to mind).\nHeroes who can give him some mobility\n(for example Zarya with Speed Barrier at Level 4)\nand/or help him survive through burst damage\ndefinitely help (such as Medivh).\nArthas is countered by\nArthas, due to his lack of mobility gets easily\ncountered by Displacement effects (such as\nWrecking Ball by Garrosh).\nHe also suffers against\nburst damage usually coming from Mages\n(for example Kel'Thuzad), healing reduction effects (such as\nEmerald by Deckard Cain), high range (Hanzo\ncomes to mind), Slow effects (for example Jaina),\nand high mobility (such as Zeratul played correctly)."
+  },
+  {
+   "title": "Arthas's Maps",
+   "id": "arthass-maps",
+   "text": "Arthas's stronger maps\nArthas's average maps\nArthas's weaker maps\nDue to Frozen Tempest being heavy on Mana consumption,\nArthas suffers on Maps where he needs to stay active for long periods of time\n(with Braxis Holdout being the major offender) and does not shine\non Maps where it is highly preferred to have your Offlaner\ntake care of 2 lanes by double soaking (for example\ntop-mid on Towers of Doom).\nWhile being decent at it, Arthas does not excel at capturing Camps\nand/or defending enemy Mercenaries in lane, making him a suboptimal pick on Maps\nwhere macro is important (for example Garden of Terror)."
+  },
+  {
+   "title": "Arthas's Tips and Tricks",
+   "id": "arthass-tips-and-tricks",
+   "text": "Death Coil can be used on enemies to damage them or on Arthas to heal him, something that can be done faster by using the Self Cast Modifier [Alt] rather than by mouse-hovering Arthas.\nHowling Blast being a slow projectile requires you to predict the movements of enemy Heroes.\nFrozen Tempest reduces both Movement Speed and Attack Speed of enemy Heroes, making it particularly effective against melee Heroes who rely on Basic Attacks.\nFrostmourne Hungers resets the cooldown of your Basic Attack, so try to use it immediately after a Basic Attack goes off.\nArmy of the Dead can heal you on cooldown if you press R to cast it, then press and hold R for its duration.\nSummon Sindragosa disables enemy Structures, excluding Healing Fountains, which can make it a very potent ability to use during pushes.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Arthas's Role in the Current Meta",
+   "id": "arthass-role-in-the-current-meta",
+   "text": "Arthas can be played either as a Tank or as\nan Offlaner. In either case, he is being drafted\nto shut down melee Heroes with low mobility\nand to punish enemy Heroes who have a way to engage but not to get out.\nAs a Tank, he is quite durable and excels in prolonged\nteam fights against melee Heroes but cannot interrupt\nenemy casts. He can use Roots and Slows\nto peel for his team or to stop enemy Heroes from retreating.\nAs an Offlaner, he has good waveclear\nand self-sustain but cannot capture Mercenary Camps.\nHe can use Roots and Slows to punish\nmelee Heroes who get too close to him in lane."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "26 May 2026 (talents page): Guide reviewed.\n26 May 2026 (abilities page): Guide reviewed.\n26 May 2026 (this page): Guide reviewed.\n12 May 2026 (talents page): Guide updated for the latest Balance Update.\n12 May 2026 (abilities page): Guide updated for the latest Balance Update.\n12 May 2026 (this page): Guide updated for the latest Balance Update.\n25 Apr. 2026 (talents page): Guide reviewed.\n25 Apr. 2026 (abilities page): Guide reviewed.\n25 Apr. 2026 (this page): Guide reviewed.\n23 Apr. 2026 (talents page): Guide updated for the latest Hero Rework.\n23 Apr. 2026 (abilities page): Guide updated for the latest Hero Rework.\n23 Apr. 2026 (this page): Guide updated for the latest Hero Rework.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n13 Dec. 2024 (talents page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (this page): Guide reviewed for the latest Balance Update.\n18 Aug. 2024 (talents page): Guide reviewed.\n18 Aug. 2024 (abilities page): Guide reviewed.\n18 Aug. 2024 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n26 Nov. 2022 (talents page): Guide reviewed.\n26 Nov. 2022 (abilities page): Guide reviewed.\n26 Nov. 2022 (this page): Guide reviewed.\n02 May 2022 (talents page): Builds added.\n02 May 2022 (this page): Builds added.\n07 Dec. 2021 (talents page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (abilities page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (this page): Guide reviewed for the latest Major Patch.\n10 Mar. 2021 (this page): Builds updated.\n09 Mar. 2021 (talents page): Builds and Talents updated.\n09 Mar. 2021 (this page): Builds and Talents updated.\n21 Aug. 2020 (talents page): Talent Build page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n21 Aug. 2020 (abilities page): Abilities and Strategy page updated.\nMinor fixes.\nNew layout.\n21 Aug. 2020 (this page): Introduction page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n03 May 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n03 May 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n03 May 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nTalent Build Cheatsheet updated to reflect the current metagame.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\nRole in the Current Meta modified to reflect the current metagame and to remove the unnecessary part about the now fixed Experience Globes.\n23 Mar. 2020 (this page): Wrong information corrected.\n23 Jan. 2020 (talents page): Updated Arthas's Tank Build.\n09 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n25 Nov. 2019 (talents page): Changed Deathlord from Situational to Not Recommended.\n05 Jun. 2019 (talents page): Completely overhauled and updated Arthas's talents and builds to make the guide more up-to-date with the current state of the game.\n05 Jun. 2019 (abilities page): Slight updates to some of the ability descriptions.\n05 Jun. 2019 (this page): Updated map rankings, strengths, weaknesses, matchups, etc.\n04 May 2017 (talents page): Updated Frost Presence's talent description.\n16 Apr. 2017 (talents page): Changed the Howling Blast build to use Icebound Fortitude instead of Mortal Coil and improved the description of the Bruiser build.\n15 Mar. 2017 (talents page): Removed Self-Heal Build and updated the other two builds.\n14 Mar. 2017 (talents page): Overhauled talent recommendations following Arthas's rework in Probius's patch.\n18 Jan. 2017 (this page): Converted guide to new format and updated it.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Arthas's Tips and Tricks",
+   "id": "arthass-tips-and-tricks",
+   "text": "Death Coil can be used on enemies to damage them or on Arthas to heal him, something that can be done faster by using the Self Cast Modifier [Alt] rather than by mouse-hovering Arthas.\nHowling Blast being a slow projectile requires you to predict the movements of enemy Heroes.\nFrozen Tempest reduces both Movement Speed and Attack Speed of enemy Heroes, making it particularly effective against melee Heroes who rely on Basic Attacks.\nFrostmourne Hungers resets the cooldown of your Basic Attack, so try to use it immediately after a Basic Attack goes off.\nArmy of the Dead can heal you on cooldown if you press R to cast it, then press and hold R for its duration.\nSummon Sindragosa disables enemy Structures, excluding Healing Fountains, which can make it a very potent ability to use during pushes."
+  },
+  {
+   "title": "Death Coil",
+   "id": "death-coil",
+   "text": "Death Coil\n(Q)\nArthas\nMana: 40\nCooldown: 9 seconds\nDeals 164 (+4% per level) damage to target enemy.\nCan be self-cast to heal for 275 (+4% per level) Health.\nDeath Coil is a versatile Basic Ability\nthat can be used to either damage an enemy Hero or to heal Arthas.\nWhen you want to target yourself, you can use the Self Cast Modifier [Alt]\ninstead of mouse-hovering your Hero.\nWhen playing as Offlaner,\nit is usually better to cast this Ability on yourself in order\nto restore lost Health. When playing as Tank,\nyou will have more opportunities to use it offensively but you should\nheavily prefer to use it defensively when getting low on Health."
+  },
+  {
+   "title": "Howling Blast",
+   "id": "howling-blast",
+   "text": "Howling Blast\n(W)\nArthas\nMana: 50\nCooldown: 10 seconds\nRoot enemies within the target area for 1.25 seconds and deals 68 (+4% per level) damage.\nHowling Blast is a Basic Ability that provides\ncrowd control to Arthas, something that can be used\nto either engage or peel.\nWhile this effect can hit multiple Heroes, it is perfectly fine to hit\na single Hero with it.\nA good Arthas should usually look for a flank rather than\na frontal engage, however, sometimes you can still try to catch enemy Heroes\nwith Howling Blast from distance. Just make sure\nthat your teammates are ready to follow-up\n(in range and with cooldowns up) before going for an aggressive play."
+  },
+  {
+   "title": "Frozen Tempest",
+   "id": "frozen-tempest",
+   "text": "Frozen Tempest\n(E)\nArthas\nMana: 13 per second\nCooldown: 1 seconds\nDeal 36 (+4% per level) damage per second to nearby enemies and Slow them by 10% per second, stacking up to 40%. Heroes hit also have their Attack Speed reduced by 10% per second, stacking up to 40%. Frozen Tempest's effects last for 1.5 seconds.\nFrozen Tempest is a toggleable Basic Ability that Slows\nenemies (not only Heroes) and reduces the Attack Speed of enemy Heroes within 3.5 range.\nBoth effects get more powerful each second a given enemy stays within range,\nreaching the maximum value after 4 seconds. Howling Blast\nhelps with that because it ensures that the enemy stays nearby for a few seconds.\nThe constant Slow is useful for chasing\nand—more importantly—for peeling away melee Heroes.\nThe constant Attack Speed reduction is good against Heroes that heavily focus on\nBasic Attacks to deal damage. Therefore, this Ability is particularly\neffective against Heroes with both those characteristics: melee Heroes who focus\non Basic Attacks (such as Kerrigan or Thrall).\nMana management is important because you cannot use Abilities without it.\nWhile this Ability offers value in all scenarios, if Arthas uses it imprudently,\nhe will find himself low on Mana very quickly. You generally want to have\nFrozen Tempest active only when damaging enemy\nHeroes, multiple Mercenaries, a full wave of Minions,\nand high-priority Monsters. If your Mana is getting low,\nyou should deactivate Frozen Tempest so that\nyou can at least cast other Abilities, which are more impactful.\nBeing an area of effect Ability,\nFrozen Tempest can also be used to hit hidden Summons on the ground\n(such as Creep Tumor by Zagara)\nor to get nearby enemy Heroes out of Stealth."
+  },
+  {
+   "title": "Army of the Dead",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nArmy of the Dead\n(R)\nArthas\nHeroic\nCharges: 6\nRecharge Time: 18 seconds\nConsume all charges to summon an equal number of Ghouls that lose Health over 20 seconds and attack for 20 (+4% per level) damage. Reactivate to sacrifice a ghoul, healing Arthas for 240 (+4% per level) Health. Stores up to 6 charges.\nWhenever a nearby enemy Minion dies, reduce the charge cooldown of this Ability by 1 second. Takedowns reduce the charge cooldown of this Ability by 6 seconds.\nArmy of the Dead is a defensive Heroic Ability that,\nafter consuming all charges available, summons up to 6 Ghouls that follow Arthas.\nThe number of Ghouls summoned is equal to the amount of charges available\nwhen casting it. They will fight at his side and can be sacrificed to heal Arthas.\nThis defensive effect turns Arthas into an extremely durable\nfrontline Hero, unless the enemy team\nhas healing reduction effects and/or brust damage to drastically\nreduce its effectiveness.\nWhen active, Arthas will gain access to Sacrifice. Using it will sacrifice the Ghoul\nwith the lowest amount of Health and heal Arthas by a considerable amount\n(similarly to when self-casting Death Coil). Sacrifice\nstarts on a 1.5-second cooldown and has 2-second cooldown between uses. Even though it\ncannot be used when having full Health, you should still avoid using it when\nalmost full Health to avoid overhealing."
+  },
+  {
+   "title": "Summon Sindragosa",
+   "id": "summon-sindragosa",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nSummon Sindragosa\n(R)\nArthas\nHeroic\nMana: 100\nCooldown: 100 seconds\nDeals 230 (+4% per level) damage and Slows enemies by 60% for 4 seconds. Also disables Minions, Mercenaries, Monsters and Structures for 20 seconds.\nSummon Sindragosa is an offensive Heroic Ability that,\nif aimed and timed correctly, can single-handedly decide the outcome of a team\nfight by Slowing multiple enemy Heroes and allow your team\nto easily engage them without being scared of enemy Structures nearby.\nMinions, Mercenaries, and Monsters caught in the way will be Stunned.\nThe first thing an Arthas player has to take into account is its\ncast time of 0.6 seconds,\nwhich requires you to think ahead before actually\ncasting the Ability in order to increase your chance to hit enemy Heroes\nand/or to avoid being interrupted by them.\nWhen you want to play aggressively in enemy territory, do not be scared of enemy\nStructures because they will be disabled for 20 seconds, a powerful effect to\nfurther increase the advantage after winning a single-lane Objective (such as\nthe Immortal on Battlefield of Eternity) because disabled Structures\ncannot deal any damage.\nDue to being Invulnerable,\nHealing Fountains cannot be disabled by this kind of effects."
+  },
+  {
+   "title": "Frostmourne Hungers",
+   "id": "frostmourne-hungers",
+   "text": "Frostmourne Hungers\n(D)\nArthas\nCooldown: 12 seconds\nActivate to make Arthas's next Basic Attack strike immediately and deal 71 (+4% per level) bonus damage. Dealing damage restores 40 Mana.\nQuest: Killing a Minion or hitting a Hero with Frostmourne Hungers permanently increases its bonus damage by 3 and Arthas's Basic Attack damage by 0.75.\nFrostmourne Hungers is a Trait that can be activated\nto deal bonus damage and restore Mana upon hit. Once activated, it stays on hold\nuntil you Basic Attack someone, then it goes on cooldown.\nWhen the chances to have a team fight in the next 8-12 seconds is low, activate it and\nattack a random enemy in a safe position (usually a Minion) just to get some Mana.\nDuring a team fight, use it on the focused enemy Hero\nas additional burst damage, so that it will be easier\nfor your team to get a kill.\nRemember that activating Frostmourne Hungers\nwill reset the cooldown of your Basic Attacks. Because of this, the best way\nto use this Ability is to immediately activate it after a Basic Attack.\nThis trick will result in you landing 3 Basic Attacks in the time window of\n2 Basic Attacks, increasing your burst damage."
+  },
+  {
+   "title": "Baseline Quest",
+   "id": "baseline-quest",
+   "text": "Arthas has a Baseline Quest which requires to last-hit enemy Minions or hit enemy\nHeroes with Basic Attacks empowered by Frostmourne Hungers.\nEach time you do one of these things, you will increase Arthas's Basic Attack damage\nby a smaller amount and Frostmourne Hungers's bonus damage\nby a bigger amount. There is no cap.\nIf you can safely hit enemy Heroes to get stacks, you should do so.\nWhen that is not possible, you should lower the Health of an enemy Minion,\nactivate Frostmourne Hungers, and then last-hit them.\nThis way you will get at least 2 stacks per minute when sitting in a lane\nor 4 stacks per minute when rotating from a lane to another."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "26 May 2026: Guide reviewed.\n12 May 2026: Guide updated for the latest Balance Update.\n25 Apr. 2026: Guide reviewed.\n23 Apr. 2026: Guide updated for the latest Hero Rework.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n18 Aug. 2024: Guide reviewed.\n26 Nov. 2022: Guide reviewed.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n21 Aug. 2020: Abilities and Strategy page updated.\nMinor fixes.\nNew layout.\n03 May 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n05 Jun. 2019: Slight updates to some of the ability descriptions.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Frost Presence (Level 1) Arthas Increase the area of Howling Blast by 20%. Quest: Hit enemy Heroes with Howling Blast. Reward: After Hitting 15 Heroes, Howling Blast's range is increased by 20% and it hits enemies in its path. Reward: After Hitting 30 Heroes, Death Coil Slows Heroes hit by 50% for 1.25 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Borean Winds (Level 1) Arthas After Frozen Tempest has been active for 2 seconds, Arthas gains 10% Movement Speed. Passive: Frozen Tempest's Slowing effects last an additional 0.5 seconds and its Mana cost is reduced by 4 per second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Rime (Level 1) Arthas Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 3 charges. Passive: Arthas heals for 24 (+4% per level) Health per second while Slowed, Rooted, or Stunned."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Shattered Armor (Level 4) Arthas Enemy Heroes hit by Howling Blast have their Armor reduced by 15 for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Icy Talons (Level 4) Arthas Gain 3% Attack Speed for 2 seconds every time a Hero is damaged by Frozen Tempest, up to a maximum of 60%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Frost Strike (Level 4) Arthas Frostmourne Hungers deals an additional 115 (+4% per level) Spell Damage in an area and Slows enemy Heroes hit by 20% for 2 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Immortal Coil (Level 7) Arthas Gain the healing effect of Death Coil even when used on enemies. If Death Coil is used on Arthas, it heals for an additional 75% bonus healing and its cooldown is reduced by 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Rune Tap (Level 7) Arthas Every 3rd Basic Attack heals Arthas for 5% of his max Health. Passive: Each stack of Frostmourne Hungers increases Arthas's maximum Health by 10."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Icebound Fortitude (Level 7) Arthas Cooldown: 35 seconds Activate to instantly remove all Roots and Slows. Gain 25 Armor and reduce the duration of Stuns, Slows, and Roots against Arthas by 75% for 3 seconds. Each Hero Rooted by Howling Blast reduces the cooldown of this ability by 2 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Army of the Dead (Level 10) Arthas Charges: 6 Recharge Time: 18 seconds Consume all charges to summon an equal number of Ghouls that lose Health over 20 seconds and attack for 20 (+4% per level) damage. Reactivate to sacrifice a ghoul, healing Arthas for 240 (+4% per level) Health. Stores up to 6 charges. Whenever a nearby enemy Minion dies, reduce the charge cooldown of this Ability by 1 second. Takedowns reduce the charge cooldown of this Ability by 6 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Summon Sindragosa (Level 10) Arthas Mana: 100 Cooldown: 100 seconds Deals 230 (+4% per level) damage and Slows enemies by 60% for 4 seconds. Also disables Minions, Mercenaries, Monsters and Structures for 20 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Deathlord (Level 13) Arthas If Death Coil is used on an enemy Hero, launch an additional Death Coil at a nearby enemy Hero. Passive: Death Coil deals more damage the lower Arthas's current Health is, up to a maximum of 50% bonus damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Deathchill (Level 13) Arthas Howling Blast's damage is increased by 2 for each stack of Frostmourne Hungers. Howling Blast deals 100% additional damage and Roots for an additional 0.25 seconds against Heroes under 50% Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Biting Cold (Level 13) Arthas Each second an enemy is damaged by Frozen Tempest, it deals 15% bonus damage, up to a 75% bonus."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Remorseless Winter (Level 16) Arthas Enemy Heroes that remain within Frozen Tempest for 2.5 seconds are Rooted for 1.25 seconds and heal Arthas for 3% of his maximum Health. This effect has an 8 second cooldown per target."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Frostmourne Feeds (Level 16) Arthas Reduce the cooldown of Frostmourne Hungers by 6 seconds. Arthas heals for 75% of the Basic Attack damage dealt by Frostmourne Hungers."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Anti-Magic Shell (Level 16) Arthas Cooldown: 60 seconds Activate to make Arthas immune to Spell Damage for 4 seconds and heal Arthas for 25% of the damage prevented."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Legion of Northrend (Level 20) Arthas Reduce Army of the Dead's charge cooldown by 5 seconds. Each charge consumed spawns an additional Ghoul to attack nearby enemies. These Ghouls cannot be sacrificed."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Absolute Zero (Level 20) Arthas Sindragosa flies twice as far. Enemy Heroes are Rooted for 2.5 seconds, and then Slowed by 60% for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Death Pact (Level 20) Arthas Instantly double your stacks of Frostmourne Hungers, but it no longer gains stacks from hitting Heroes or killing Minions. Passive: Takedowns grant 2 stacks of Frostmourne Hungers."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Path of Frost (Level 20) Arthas Cooldown: 60 seconds Activate to instantly mount with 140% minimum Movement Speed. Taking damage does not dismount Arthas from this Mount. Lasts up to 5 seconds. When Arthas dismounts, Slow all nearby enemies by 30% for 2 seconds and deal 66 (+4% per level) damage."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Arthas's Talent Build",
+   "id": "arthass-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n?\n✓\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n✓\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Arthas's Talent Build Cheatsheet",
+   "id": "arthass-talent-build-cheatsheet",
+   "text": "Death Coil Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's Death Coil Build is designed to increase\nhis damage from the distance, his team's\nburst damage, and his\nself-sustain.\nWe find this Build particularly good against ranged Heroes.\nFrost Presence at Level 1 makes both your\nengage and your peeling reliable.\nThe burst damage comes from Shattered Armor\nat Level 4 and Deathlord at Level 13.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16.\nHowling Blast Build\nAdvanced\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's Howling Blast Build is designed to increase\nhis damage from the distance, his team's\nburst damage, and his\nsurvivability against burst damage.\nWe find this Build particularly good for short team fights.\nFrost Presence at Level 1 makes both your\nengage and your peeling reliable.\nThe burst damage comes from Shattered Armor\nat Level 4 and Deathchill at Level 13.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16.\nFrozen Tempest Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's Frozen Tempest Build allows him to cripple the enemy team's advance or retreat\nby further increasing the power and utility of Frozen Tempest.\nWe find this Build particularly good against melee Heroes with\nlow-mobility.\nBorean Winds at Level 1 gives a moderate amount of\nmobility, Biting Cold at Level 13\nincreases your damage output, and Remorseless Winter at Level 16\nprovides another way to Root enemy Heroes.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nArthas's ARAM Build is designed to increase\nhis damage from the distance, his team's\nburst damage, and his\nself-sustain.\nWe find this Build particularly good against ranged Heroes.\nFrost Presence at Level 1 makes both your\nengage and your peeling reliable.\nThe burst damage comes from Shattered Armor\nat Level 4 and Deathlord at Level 13.\nWhen playing against Heroes with slow but heavy hitting Basic Attacks,\npick Rime at Level 1.\nWhen playing against Heroes who deal a lot of damage with Abilities,\npick Anti-Magic Shell at Level 16."
+  },
+  {
+   "title": "Level 1 Talents for Arthas",
+   "id": "level-1",
+   "text": "✔\nFrost Presence\n(Level 1)\nArthas\nIncrease the area of Howling Blast by 20%.\nQuest: Hit enemy Heroes with Howling Blast.\nReward: After Hitting 15 Heroes, Howling Blast's range is increased by 20% and it hits enemies in its path.\nReward: After Hitting 30 Heroes, Death Coil Slows Heroes hit by 50% for 1.25 seconds.\nFrost Presence is a strong Talent that empowers\nHowling Blast when hitting enemy Heroes with it.\nAfter gaining 15 stacks, Howling Blast has more range\nand hits enemies in its path, which results in a bigger area covered\nAND in a double hit on enemies who are at the edge.\nAfter gaining 30 stacks, Death Coil Slows\nenemy Heroes hit, which could be used as a setup for\nHowling Blast.\nAfter completing the Quest, remember to change your playstyle from aiming\nHowling Blast right on the enemy Hero\nto aiming slightly beyond them when you are close enough to do so.\nThis way Howling Blast will cover a bigger area\nand sometimes even hit more enemies than usual.\nThe additional range helps you to engage\nfrom farther away, which is especially valuable against enemy Heroes\nwho like to play from the distance. The additional area covered\nhelps you to peel because it will be easier\nto hit multiple enemy Heroes who are playing aggressively.\n?\nBorean Winds\n(Level 1)\nArthas\nAfter Frozen Tempest has been active for 2 seconds, Arthas gains 10% Movement Speed.\nPassive: Frozen Tempest's Slowing effects last an additional 0.5 seconds and its Mana cost is reduced by 4 per second.\nBorean Winds is a strong Talent that increases\nArthas's Movement Speed after using Frozen Tempest\nfor a few seconds. This effect goes away when cancelling\nFrozen Tempest. Furthermore, it makes\nthe Slow and the Attack Speed reduction\nlast slightly longer, and reduces its Mana cost.\n?\nRime\n(Level 1)\nArthas\nEvery 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 3 charges.\nPassive: Arthas heals for 24 (+4% per level) Health per second while Slowed, Rooted, or Stunned.\nRime is a situational Talent that periodically gives\nPhysical Armor in the form of\nBlock charges. In addition to that,\nArthas passively heals over time while Stunned,\nRooted, or Slowed.\nBlock charges are especially valuable\nwhen facing Heroes with slow but heavy-hitting Basic Attacks (such as Hanzo) and\nterrible when playing against Heroes with fast-hitting Basic Attacks (D.Va,\nGenji, Kharazim, Lúcio, Tassadar, Tracer,\nand Tychus). Heroes with Clones (for example Nova) can consume them faster\ntoo, however, it is generally not a problem because their AI will not always target you."
+  },
+  {
+   "title": "Level 4 Talents for Arthas",
+   "id": "level-4",
+   "text": "✔\nShattered Armor\n(Level 4)\nArthas\nEnemy Heroes hit by Howling Blast have their Armor reduced by 15 for 4 seconds.\nShattered Armor is a strong Talent that causes\nHowling Blast to reduce the Armor\nof enemy Heroes hit, amplifying the damage done by you and the rest of your team.\nSince Armor reduction effects do not stack, this Talent\nis less impactful when another Hero in your team can already reduce the\nArmor of enemy Heroes, however, it can still be useful\nin the early game if their effect comes from a Talent\nthat is only pickable in the late game.\nWhile it has synergy with Frost Presence at Level 1,\nit is not a strong requirement and can therefore be picked without it as well.\nSimilarly, even though it does not have a direct synergy with it,\nDeathchill at Level 13 can be picked together\nto further increase your burst damage.\n?\nIcy Talons\n(Level 4)\nArthas\nGain 3% Attack Speed for 2 seconds every time a Hero is damaged by Frozen Tempest, up to a maximum of 60%.\nIcy Talons is a good Talent that provides\na powerful Attack Speed buff when fighting against Heroes who cannot\nget out of Frozen Tempest with ease (such as Artanis).\nThis bonus does ramp up faster if multiple enemy Heroes are being hit\nby Frozen Tempest at the same time.\nWe find this Talent particularly useful when playing against melee Heroes\nwithout mobility tools to avoid Arthas\nand against teams without burst damage, otherwise\nyou will not have enough targets to make in ramp up in a reasonable time\nand you may get killed before getting value from it.\n?\nFrost Strike\n(Level 4)\nArthas\nFrostmourne Hungers deals an additional 115 (+4% per level) Spell Damage in an area and Slows enemy Heroes hit by 20% for 2 seconds.\nFrost Strike is a good Talent which causes\nBasic Attacks empowered by Frostmourne Hungers\nto deal area of effect damage\nin the form of Spell Damage\nand Slow enemy Heroes hit.\nWe find this Talent useful when you want to increase your\nwaveclear. After picking it, use Basic Attacks\nempowered by Frostmourne Hungers on the Wizard Minion\nin the middle of a wave of Minions. This way you will be able to damage\nall nearby Minions with it."
+  },
+  {
+   "title": "Level 7 Talents for Arthas",
+   "id": "level-7",
+   "text": "✔\nImmortal Coil\n(Level 7)\nArthas\nGain the healing effect of Death Coil even when used on enemies. If Death Coil is used on Arthas, it heals for an additional 75% bonus healing and its cooldown is reduced by 3 seconds.\nImmortal Coil is a strong Talent that empowers\nDeath Coil differently depending on whether\nit is being used defensively or offensively. When used on enemy Heroes,\nArthas still receives healing (with travel time). When self-cast,\nArthas receives more healing (without travel time)\nand Death Coil's cooldown is reduced.\n?\nRune Tap\n(Level 7)\nArthas\nEvery 3rd Basic Attack heals Arthas for 5% of his max Health.\nPassive: Each stack of Frostmourne Hungers increases Arthas's maximum Health by 10.\nRune Tap is a good Talent that increases\nArthas's survivability while dueling or in prolonged team fights\nby making every third Basic Attack heal him for a percentage of his maximum Health.\nIn addition to that, Arthas's maximum Health is passively increased based on\nhow many stacks of Frostmourne Hungers you have.\nIf you prepare 2 stacks by hitting Minions before fighting against\nenemy Heroes, the first Rune Tap activation will\nhappen sooner, so you will get slightly more healing early in the fight.\nThe healing does not go off if you are full Health, however, it still\ngoes off if most of the healing would be wasted due to overhealing.\nDo not overthink that in team fights but keep that in mind while laning.\nThe healing via Basic Attacks has synergy with Frostmourne Hungers\nthat resets the cooldown of your next Basic Attack, with Icy Talons\nat Level 4 that increases your Attack Speed, and with Frostmourne Feeds\nat Level 16 that reduces the cooldown of Frostmourne Hungers\nby a considerable amount. The bonus maximum Health provided by this Talent\ncan be increased by picking Death Pact at Level 20,\nwhich results into even more healing when it goes off.\n?\nIcebound Fortitude\n(Level 7)\nArthas\nCooldown: 35 seconds\nActivate to instantly remove all Roots and Slows. Gain 25 Armor and reduce the duration of Stuns, Slows, and Roots against Arthas by 75% for 3 seconds.\nEach Hero Rooted by Howling Blast reduces the cooldown of this ability by 2 seconds.\nIcebound Fortitude is a situational Talent with a\nrelatively short cooldown that can be activated to gain Armor,\nremove Roots and Slows from Arthas\nand reduce the duration of Stuns, Roots,\nand Slows. All these effects combined together increase\nArthas's survivability against most crowd control effects\nand burst damage. The cooldown is reduced every time\nHowling Blast hits an enemy Hero.\nArthas does not have mobility to quickly get out of danger.\nWhen threatened by burst damage or healing reduction effects,\nyou should pick this Talent to make Arthas harder to kill. While this Talent\ndoes not directly help against healing reduction effects, having more\nArmor is helpful against them and the alternative\nTalents in this Tier are all healing-based."
+  },
+  {
+   "title": "Level 10 Talents for Arthas",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nArmy of the Dead\n(Level 10)\nArthas\nCharges: 6\nRecharge Time: 18 seconds\nConsume all charges to summon an equal number of Ghouls that lose Health over 20 seconds and attack for 20 (+4% per level) damage. Reactivate to sacrifice a ghoul, healing Arthas for 240 (+4% per level) Health. Stores up to 6 charges.\nWhenever a nearby enemy Minion dies, reduce the charge cooldown of this Ability by 1 second. Takedowns reduce the charge cooldown of this Ability by 6 seconds.\nArmy of the Dead is a strong Heroic Ability that\nheavily increases Arthas's survivability in team fights when activated\nwith many charges available and reactivated\nto heal by sacrificing Ghouls.\nYou can use this Heroic Ability to tank enemy Structures while\npushing or to spawn Ghouls in front of enemy Heroes who rely\non skillshots to deal damage (notably Li-Ming).\nThis way you will take less damage and maybe even reduce the damage taken\nby allied Heroes who are standing on your side or behind you.\nAvoid picking this Heroic Ability when playing against Heroes\nwho can quickly kill all Ghouls\nor when the enemy team has healing reduction effects\n(for example Mortal Wound by Xul)\nbecause they will be able to deny the additional healing provided.\n✔\nSummon Sindragosa\n(Level 10)\nArthas\nMana: 100\nCooldown: 100 seconds\nDeals 230 (+4% per level) damage and Slows enemies by 60% for 4 seconds. Also disables Minions, Mercenaries, Monsters and Structures for 20 seconds.\nSummon Sindragosa is a strong Heroic Ability that\ngives some damage and crowd control. In particular,\nit allows Arthas to engage from the distance, even when\nenemy Heroes are too far for being hit with Howling Blast,\nand to disable enemy Structures when pushing or diving.\nPick this Heroic Ability when you do not need the additional survivability provided by\nArmy of the Dead and your team wants to play aggressively.\nIf you are playing on a Map where games rarely get to Level 20 and your team\nhas a solid lead, you can capitalize on it by using Summon Sindragosa\nright after winning a team fight or Objective to get an early Keep."
+  },
+  {
+   "title": "Level 13 Talents for Arthas",
+   "id": "level-13",
+   "text": "✔\nDeathlord\n(Level 13)\nArthas\nIf Death Coil is used on an enemy Hero, launch an additional Death Coil at a nearby enemy Hero.\nPassive: Death Coil deals more damage the lower Arthas's current Health is, up to a maximum of 50% bonus damage.\nDeathlord is a good Talent which empowers\nDeath Coil when used offensively, dealing\n0.5% more damage for each percentage of Health missing on Arthas\n(for example, at 50% Health it deals 25% more damage). When used on\nan enemy Hero, it also launches a second Death Coil at a nearby enemy Hero.\nWhen using Death Coil on Arthas, this Talent\ndoes nothing.\nIf you have Immortal Coil at Level 7,\nusing Death Coil on enemy Heroes will also heal\nArthas. This healing is doubled if there is another enemy Hero nearby.\nIf you are in desperate need of healing, you should still prefer to\nself-cast Death Coil because it gives almost\nas much healing as hitting 2 enemy Heroes (without travel time)\nand Death Coil's cooldown reduction.\n?\nDeathchill\n(Level 13)\nArthas\nHowling Blast's damage is increased by 2 for each stack of Frostmourne Hungers.\nHowling Blast deals 100% additional damage and Roots for an additional 0.25 seconds against Heroes under 50% Health.\nDeathchill is a good Talent which increases\nthe damage done by Howling Blast and the duration\nof its Root effect. The damage is increased based on\nhow many stacks of Frostmourne Hungers you have\nand based on how much Health enemy Heroes are missing. The duration\nof its Root effect is only increased based on how much\nHealth enemy Heroes are missing.\nWhen trying to burst down enemy Heroes,\nthe damage bonus can be made more lethal by combining this Talent\nwith Shattered Armor at Level 4, although\nit does not have a direct synergy with it, and can be increased\nby picking Death Pact at Level 20.\n?\nBiting Cold\n(Level 13)\nArthas\nEach second an enemy is damaged by Frozen Tempest, it deals 15% bonus damage, up to a 75% bonus.\nBiting Cold is a strong Talent that increases\nFrozen Tempest's damage when fighting against Heroes who cannot\nget out of Frozen Tempest with ease (such as Artanis).\nThis bonus does NOT ramp up faster if multiple enemies are being hit\nby Frozen Tempest at the same time.\nWe find this Talent particularly useful when playing against melee Heroes\nwithout mobility tools to avoid Arthas\nand against teams without burst damage, otherwise\nyou may get killed before getting value from it."
+  },
+  {
+   "title": "Level 16 Talents for Arthas",
+   "id": "level-16",
+   "text": "✔\nRemorseless Winter\n(Level 16)\nArthas\nEnemy Heroes that remain within Frozen Tempest for 2.5 seconds are Rooted for 1.25 seconds and heal Arthas for 3% of his maximum Health. This effect has an 8 second cooldown per target.\nRemorseless Winter is a strong Talent that, when enemy Heroes\nstay too long inside Frozen Tempest, heals Arthas for each\nenemy Hero hit and Roots them, drastically increasing\nArthas's crowd control capabilities\nagainst low-mobility Heroes (such as Cassia).\nThis effect can only occur once every 8 seconds per target.\n?\nFrostmourne Feeds\n(Level 16)\nArthas\nReduce the cooldown of Frostmourne Hungers by 6 seconds. Arthas heals for 75% of the Basic Attack damage dealt by Frostmourne Hungers.\nFrostmourne Feeds is a good Talent which reduces\nthe cooldown of Frostmourne Hungers and makes\nBasic Attacks empowered by it heal Arthas for a portion of the damage dealt.\nThanks to the cooldown reduction provided, this Talent has synergy with\nFrost Strike at Level 4,\nRune Tap at Level 7, and\nDeath Pact at Level 20.\n?\nAnti-Magic Shell\n(Level 16)\nArthas\nCooldown: 60 seconds\nActivate to make Arthas immune to Spell Damage for 4 seconds and heal Arthas for 25% of the damage prevented.\nAnti-Magic Shell is a situational Talent that allows\nArthas to survive burst damage in the form of both\nSpell Damage and percent-based damage.\nActivating this Talent allows to mitigate the huge amount of damage that\nnotable Arthas's counter picks (for example Jaina) can deal to him,\nalthough its effectiveness can be partially reduced by healing reduction effects."
+  },
+  {
+   "title": "Level 20 Talents for Arthas",
+   "id": "level-20",
+   "text": "?\nLegion of Northrend\n(Level 20)\nArthas\nReduce Army of the Dead's charge cooldown by 5 seconds.\nEach charge consumed spawns an additional Ghoul to attack nearby enemies. These Ghouls cannot be sacrificed.\nLegion of Northrend is a decent Talent that\nincreases Arthas's survivability by reducing the charge\ncooldown of Army of the Dead and his damage and utility\nby spawning an additional Ghoul per charge. Ghouls spawned this way do not\nfollow Arthas but attack nearby enemies. You will NOT get more healing\nfrom this Talent because the additional Ghouls cannot be sacrificed.\n✔\nAbsolute Zero\n(Level 20)\nArthas\nSindragosa flies twice as far. Enemy Heroes are Rooted for 2.5 seconds, and then Slowed by 60% for 4 seconds.\nAbsolute Zero is a strong Talent\nthat greatly increases the strength of Summon Sindragosa\nby adding a relatively long Root before the already powerful\nSlow effect, allowing you to engage\nfrom farther away and/or to keep enemy Heroes locked in place for longer.\nConsidering that Summon Sindragosa already has a high range,\nthe additional distance covered is not indispensable. That said,\nsometimes it may help you disable enemy Structures from the distance\nand/or catch enemy Heroes that want to avoid a team fight at all costs.\nAvoid picking this Talent against\nHeroes who have a way to free up multiple Heroes from a Root effect\n(for example Nature's Cure by Malfurion).\nNote that cleansing the Root\nwill also prevent the Slow from being applied.\n?\nDeath Pact\n(Level 20)\nArthas\nInstantly double your stacks of Frostmourne Hungers, but it no longer gains stacks from hitting Heroes or killing Minions.\nPassive: Takedowns grant 2 stacks of Frostmourne Hungers.\nDeath Pact is a good Talent which instantly double\nyour stacks of Frostmourne Hungers, prevents you\nfrom gaining stacks by killing Minions or hitting Heroes with it,\nbut allows you to gain stacks by killing Heroes.\nWe recommend picking this Talent when you want to increase your damage output\nand you have at least 40 stacks of Frostmourne Hungers,\notherwise you will not get enough value out of it.\nSince it increases your stacks of Frostmourne Hungers,\nthis Talent has synergy with Rune Tap at Level 7\nand Deathchill at Level 13.\n?\nPath of Frost\n(Level 20)\nArthas\nCooldown: 60 seconds\nActivate to instantly mount with 140% minimum Movement Speed. Taking damage does not dismount Arthas from this Mount. Lasts up to 5 seconds.\nWhen Arthas dismounts, Slow all nearby enemies by 30% for 2 seconds and deal 66 (+4% per level) damage.\nPath of Frost is a strong Talent which can be\nactivated to instantly summon your Mount with increased Movement Speed\nfor up to 5 seconds. During this effect, damage taken does not dismount\nArthas and Slows cannot reduce Arthas's Movement Speed.\nWhen the effect expires or Arthas dismounts, nearby enemies\nare Slowed and take damage."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "26 May 2026: Guide reviewed.\n12 May 2026: Guide updated for the latest Balance Update.\n25 Apr. 2026: Guide reviewed.\n23 Apr. 2026: Guide updated for the latest Hero Rework.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n18 Aug. 2024: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n26 Nov. 2022: Guide reviewed.\n02 May 2022: Builds added.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n09 Mar. 2021: Builds and Talents updated.\n21 Aug. 2020: Talent Build page updated.\nBalance Update revision.\nMinor fixes.\nNew layout.\n03 May 2020: Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n23 Jan. 2020: Updated Arthas's Tank Build.\n25 Nov. 2019: Changed Deathlord from Situational to Not Recommended.\n05 Jun. 2019: Completely overhauled and updated Arthas's talents and builds to make the guide more up-to-date with the current state of the game.\n04 May 2017: Updated Frost Presence's talent description.\n16 Apr. 2017: Changed the Howling Blast build to use Icebound Fortitude instead of Mortal Coil and improved the description of the Bruiser build.\n15 Mar. 2017: Removed Self-Heal Build and updated the other two builds.\n14 Mar. 2017: Overhauled talent recommendations following Arthas's rework in Probius's patch.\nShow more\nShow less"
+  }
+ ]
+}

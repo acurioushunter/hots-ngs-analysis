@@ -1,0 +1,2008 @@
+{
+ "anubarak": {
+  "synergies": {
+   "heroes": [
+    "greymane",
+    "jaina",
+    "kaelthas",
+    "kerrigan",
+    "rehgar",
+    "the-butcher"
+   ],
+   "text": "Anub'arak's aggressive crowd control-oriented Ability set makes him\nparticularly useful to any Hero who is able to follow up on said\ncrowd control with their own Ability combo."
+  },
+  "counters": {
+   "heroes": [
+    "leoric",
+    "malthael",
+    "tracer",
+    "valla",
+    "varian",
+    "zuljin"
+   ],
+   "text": "Anub'arak's aggressive game plan is difficult to execute against Heroes that\nhave ways of avoiding his skillshot or becoming immune to\ncrowd control on-demand."
+  }
+ },
+ "arthas": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "tyrael",
+    "maiev",
+    "greymane",
+    "raynor",
+    "chromie",
+    "zarya",
+    "stukov",
+    "rehgar"
+   ],
+   "text": "Arthas pairs well with Heroes who can either follow-up on his\ncrowd control (such as Chromie\nwith A Proper Greeting) or initiate with their own\n(for example Maiev), especially if your main Tank\ndoes not provide enough crowd control for peeling\n(Stitches comes to mind).\nHeroes who can give him some mobility\n(for example Zarya with Speed Barrier at Level 4)\nand/or help him survive through burst damage\ndefinitely help (such as Medivh)."
+  },
+  "counters": {
+   "heroes": [
+    "garrosh",
+    "sonya",
+    "tracer",
+    "raynor",
+    "jaina",
+    "ana"
+   ],
+   "text": "Arthas, due to his lack of mobility gets easily\ncountered by Displacement effects (such as\nWrecking Ball by Garrosh).\nHe also suffers against\nburst damage usually coming from Mages\n(for example Kel'Thuzad), healing reduction effects (such as\nEmerald by Deckard Cain), high range (Hanzo\ncomes to mind), Slow effects (for example Jaina),\nand high mobility (such as Zeratul played correctly)."
+  }
+ },
+ "blaze": {
+  "synergies": {
+   "heroes": [
+    "arthas",
+    "kerrigan",
+    "maiev",
+    "malfurion"
+   ],
+   "text": "Blaze's well-rounded Ability set allows him to work in most team compositions\nand with most other Heroes, granted he is also picked for his anti-melee role.\nOil Spill's Slowing effect is particularly useful for improving the\nuptime of Assassins, whereas most Heroes with skillshots\nwill find Jet Propulsion a great way of setting up for accurate hits."
+  },
+  "counters": {
+   "heroes": [
+    "leoric",
+    "lunara",
+    "malthael",
+    "nova",
+    "tracer",
+    "valla"
+   ],
+   "text": "Since Blaze relies on skillshots to deal damage and on the rather\nslow charge up of Jet Propulsion to initiate, he tends to\nstruggle offensively against highly mobile Heroes. Furthermore, his\nlarge Health pool and limited mobility makes him particularly vulnerable to\npercentage-based damage."
+  }
+ },
+ "cho": {
+  "synergies": {
+   "heroes": [
+    "alexstrasza",
+    "ana",
+    "auriel",
+    "brightwing",
+    "yrel",
+    "blaze"
+   ],
+   "text": "Cho'gall's nature makes him thrive when teamed up with a strong Healer,\nparticularly those who possesses great single target healing, like Alexstrasza's\nLife-Binder, Brightwing's Phase Shift,\nor Ana's constant Healing. Furthermore, a good bruiser\nor tank to be with Cho in the frontline\nis a great addition to the composition."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "garrosh",
+    "greymane",
+    "imperius",
+    "kharazim",
+    "leoric",
+    "maiev",
+    "malthael",
+    "raynor"
+   ],
+   "text": "Cho'gall's nature makes him particularly vulnerable to most forms of\ncrowd control, strong single-target damage, and percent-based damage sources.\nFortunately, Cho'gall has plenty of Talent choices and maneuvers that allow him to adapt to a variety\nof less-than-ideal situations. However, Anub'arak's Cocoon or\nMaiev's Containment Disc can turn the fight into a 5v3,\nand are a major threat to Cho'gall."
+  }
+ },
+ "diablo": {
+  "synergies": {
+   "heroes": [
+    "thrall",
+    "tassadar",
+    "medivh",
+    "tyrande"
+   ],
+   "text": "Since Diablo provides reliable means of initiating, it follows\nnaturally that he would work well with Heroes that have a strong and reliable\nway of playing off and following up said initiating. Any Hero\nthat Stuns, Roots or otherwise hinders the movement of intended targets is\npreferred, but Heroic Abilities that synergise with Apocalypse make\nfor particularly effective combos."
+  },
+  "counters": {
+   "heroes": [
+    "garrosh",
+    "leoric",
+    "malthael",
+    "raynor",
+    "tychus"
+   ],
+   "text": "As a Tank with a large amount of Health, Diablo is naturally vulnerable\nto Heroes that deal percent-based damage. His reliance on being able to engage\nto be impactful also makes him lackluster against some of the more resilient\nbackline Assassins who have tools to avoid or otherwise nullify\nhis Shadow Charge + Overpower combo."
+  }
+ },
+ "e-t-c": {
+  "synergies": {
+   "heroes": [
+    "blaze",
+    "alarak",
+    "greymane",
+    "kaelthas",
+    "uther"
+   ],
+   "text": "E.T.C.'s aggressive crowd control-oriented Ability set makes him\nparticularly useful to any Hero who is able to follow up on said\ncrowd control with powerful damaging and/or crowd controlling Abilities.\nIf you pair E.T.C. with a Hero who, like him, is capable of playing as either\nTank and Offlaner, you can keep\nE.T.C. in the 4-man until Stage Dive gets unlocked and then swap.\nHealers who can provide Unstoppable\nduring Mosh Pit (such as Kharazim with Cleansing Touch)\nare great to deny enemy interrupts which will otherwise shut it down."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "deathwing",
+    "raynor",
+    "kaelthas",
+    "brightwing"
+   ],
+   "text": "E.T.C. struggles against Heroes who can easily dodge,\nquickly interrupt, or completely ignore\nhis crowd control Abilities."
+  }
+ },
+ "garrosh": {
+  "synergies": {
+   "heroes": [
+    "hanzo",
+    "jaina",
+    "zarya",
+    "malfurion"
+   ],
+   "text": "If you want to get more value from Garrosh, pair him with Heroes who can follow up\nhis engage with crowd control (such as Deckard Cain)\nand/or burst damage (for example Kael'thas).\nGarrosh does not have a strong engage from the distance,\nso he likes to play in team with Heroes who have access to powerful Abiliities to help him engage\n(like Hanzo with Dragon's Arrow).\nCompensate his lack of mobility (for example with Speed Barrier\nby Zarya) and Garrosh will become even more scary to play against\nas he will be able to just walk towards enemy Heroes for\ncatching them with Wrecking Ball."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "malthael",
+    "hanzo",
+    "jaina",
+    "anduin"
+   ],
+   "text": "Garrosh does not like to face Heroes who have access to\non-demand Unstoppable effects\n(such as Johanna) because Wrecking Ball\nwill not target them but the second nearest target in range.\nIf these Heroes get thrown instead of an ally to peel for them,\nthen they can use that defensive Ability to walk out uncontested,\nunless crowd controlled to death.\nHeroes who can kite him away from their team (for example Lunara)\nare great Garrosh's counters, however, keep in mind that he can occasionally mitigate this\nby activating Indomitable at Level 4.\nConsidering that Garrosh relies on Armor to mitigate incoming damage,\nhe is weak to percent-based damage (like Leoric) and\neffects that reduce Armor (for example Sylvanas with\nOverwhelming Affliction at Level 1).\nAnother way to counter Garrosh is using tools to help allied Heroes\nsurvive burst damage (such as Force of Will by Medivh)\nand/or move them out of danger (like Leap of Faith by Anduin)."
+  }
+ },
+ "johanna": {
+  "synergies": {
+   "heroes": [
+    "blaze",
+    "maiev",
+    "hanzo",
+    "jaina",
+    "deckard"
+   ],
+   "text": "Johanna pairs extremely well with Heroes that can follow up\nher slow but powerful engage with any kind of\narea of effect Ability to deal burst damage\nto enemy Heroes and/or to crowd control them.\nDue to her weak engage when her Heroic Ability is not available,\nJohanna greatly benefits from Heroes that can help her with that in the 4-man\n(such as Maiev) and/or from the offlane\n(for example Leoric with Entomb at Level 10)."
+  },
+  "counters": {
+   "heroes": [
+    "varian",
+    "leoric",
+    "hanzo",
+    "zeratul"
+   ],
+   "text": "Johanna can be countered by constantly depleting her Health\nwith sustain damage, targeting her while\nIron Skin is on cooldown,\nor using high-mobility Heroes\nto target her backline.\nVarian, due to Shattering Throw at Level 13,\ncan completely destroy Johanna's main defensive tools:\nIron Skin baseline\nand either Indestructible\nor Blinded By The Light at Level 20."
+  }
+ },
+ "malganis": {
+  "synergies": {
+   "heroes": [
+    "jaina",
+    "zeratul",
+    "malfurion"
+   ],
+   "text": "Mal'Ganis performs better with a Mage\n(such as Kel'Thuzad) that can follow up on his\ncrowd control or with some Bruisers\n(like Sonya) or some Melee Assassins\n(such as Illidan) that can dive on a given target\nHero while the rest of the enemy team is Sleeping."
+  },
+  "counters": {
+   "heroes": [
+    "garrosh",
+    "hanzo",
+    "zeratul",
+    "malfurion"
+   ],
+   "text": "Mal'Ganis is susceptible to enemy Heroes that can quickly Displace him away during\nNight Rush (such as Raynor with\nPenetrating Round) or lock him down with\ncrowd control to deny him any chance to use his\nHeroic Ability (like Garrosh with\nWarlord's Challenge) while he is getting\nfocused down to death. Heroes with a lot of\nmobility (such as Zeratul) are hard to hit for\nMal'Ganis, so he will not be able to provide any peeling\nfrom them. Heroes with a lot of range (such as Hanzo) can easily\nkite Mal'Ganis, rendering him quite unimpactful. Another\nweakness he has is the fact that Heroes with Roots\n(such as Deckard Cain) can stop Mal'Ganis in place during\nNight Rush."
+  }
+ },
+ "mei": {
+  "synergies": {
+   "heroes": [
+    "xul",
+    "lunara",
+    "jaina",
+    "deckard"
+   ],
+   "text": "Considering that her Basic Abilities are not that reliable\nwhen trying to engage enemy Heroes,\nMei prefers having allied Heroes who can initiate for her (for example Maiev),\nso that she can follow-up with Blizzard.\nSimilarly, Mei benefits from Heroes that can help her\nto keep enemy Heroes within Blizzard\nby creating impassable terrain (like Tassadar with Force Wall)\nor by Knocking back enemy Heroes nearby\n(such as Maiev with Umbral Bind).\nAs she provides a lot of crowd control,\nMei performs better with Heroes that can follow-up\nher Abilities with burst damage (for example Jaina).\nMei's high Slow uptime is good for\nallied Heroes who get increased damage from it (such as Ace In The Hole\nat Level 1 on Raynor) as the condition for triggering\ntheir increased damage will easily be met."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "yrel",
+    "hanzo",
+    "junkrat",
+    "zeratul",
+    "ana"
+   ],
+   "text": "Mei suffers while facing Heroes who have access to any kind of\nmobility because she will have a hard time trying\nto engage and her peeling tools\nwill not accomplish anything (for example Tracer).\nRoots (such as Entangling Roots by Malfurion)\nand Knockbacks (like Face Melt by E.T.C.)\ncan stop her while trying to engage with Icing.\nWhile she does not gets completely shut down by them,\nMei also does not like effects that reduce healing (for example\nBiotic Grenade by Ana), deal\npercent-based damage (such as Cursed Bullet\nat Level 10 by Greymane), or deal bonus damage to Shields\n(like EMP Grenade at Level 13 by Lt. Morales).\nThe same is true for Heroes who can poke her team\nfrom a long distance (such as Li-Ming).\nLast but not the least, you can combine crowd control\nand burst damage to kill Mei before she can even use\nCryo-Freeze defensively."
+  }
+ },
+ "muradin": {
+  "synergies": {
+   "heroes": [
+    "blaze",
+    "kerrigan",
+    "kaelthas",
+    "hanzo",
+    "malfurion"
+   ],
+   "text": "Being able to follow up on Muradin's Storm Bolt\nwith a devastating burst damage combo is what makes Mages\n(for example Li-Ming) his ideal partners.\nChaining crowd control Abilities one after another\nis so valuable in this game that having another Hero who can provide this kind of effects\nfrom another Role (such as Blaze played as Offlaner)\nin your team will make Muradin a real threat for the enemy team."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "thrall",
+    "raynor",
+    "jaina",
+    "malfurion"
+   ],
+   "text": "Heroes who can deal percent-based damage (such as\nTychus via Minigun) can shred Muradin's Health\nvery quickly, especially while in Avatar.\nWhen played quick enough, crowd control Abilities\n(for example Face Melt by E.T.C.) puts a lot of pressure\non him because they can stop Dwarf Toss, his only form of escape."
+  }
+ },
+ "stitches": {
+  "synergies": {
+   "heroes": [
+    "blaze",
+    "falstad",
+    "kaelthas",
+    "malfurion"
+   ],
+   "text": "Stitches works well with Heroes who can quickly respond to any successful Hook\nby locking the target enemy Hero in place with crowd control\n(for example Malfurion with Entangling Roots)\nand that have access to burst damage to get a kill\nbefore the enemy team can react (such as Jaina).\nTo compensate his lack of peeling, Stitches likes to be in team\nwith Heroes that have access to crowd control.\nWe recommend an Offlaner who can act as a secondary\nTank during team fights (for example Blaze).\nIf your team has access to a disengage tool (such as\nMighty Gust), they can use it either to save you from danger\nor to knock the rest of the enemy team away\nright after you Hook someone."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "malthael",
+    "greymane",
+    "tychus",
+    "anduin"
+   ],
+   "text": "Because so much of Stitches's ability to impact a match is baked into Hook,\nhe can be challenged by frontline Heroes who are bad targets for it\nas they may use Unstoppable on demand, put a Summon on the trajectory,\neasily dodge the skillshot, or run away right after.\nHeroes who can save the target right after they get caught are good counters as well.\nDue to his high Health pool and lack of mobility,\nStitches is also susceptible to percent-based damage\n(for example Leoric with Drain Hope\nand Entomb)."
+  }
+ },
+ "tyrael": {
+  "synergies": {
+   "heroes": [
+    "blaze",
+    "illidan",
+    "alarak",
+    "sgt-hammer",
+    "lt-morales"
+   ],
+   "text": "Tyrael has synergy with allied Heroes who want to\ndive (such as Kerrigan),\nlack mobility (like Alarak),\nor want to constantly hit enemy Heroes with Basic Attacks\n(for example Valla).\nDue to his lack of crowd control\noutside of Judgment, we suggest pairing\nTyrael with Heroes who have some crowd control for helping\nto engage and/or peel.\nYou can play without too, however, it is easier with.\nTogether with Lt. Morales, Tyrael is a fundamental piece of\nthe famous Juice Pirates team composition. This backdoor\nstrategy relies on Medivac Dropships\nto quickly reach enemy Structures as a team and\nSanctification to push\nuncontested, unless they have a counter for it."
+  },
+  "counters": {
+   "heroes": [
+    "arthas",
+    "blaze",
+    "zeratul",
+    "medivh",
+    "brightwing"
+   ],
+   "text": "Tyrael with Judgment is countered by\nHeroes who can protect the targeted Hero with Shields and similar effects\n(notably Medivh with Force of Will), who can\nquickly deny the dive with disengage tools\n(for example Mighty Gust by Falstad),\nor who have access to cleanse effects (such as\nPurge by Rehgar).\nTyrael with Sanctification is countered by\nHeroes who can interrupt it, protect Heroes during it\n(for example Bunker Drop by Blaze), or nullify it\nby using Time Stop on the Heroes protected by it\n(only Medivh, Mei, and Zeratul can do it,\nwith Ley Line Seal, Ice Wall,\nand Void Prison respectively).\nTyrael with Holy Ground is countered by\ndisplacement effects (notably Mighty Gust\nby Falstad) as it will mainly be used to secure Boss Camp\nby standing on the Capture Point uncontested.\nFor obvious reasons, this part is only relevant on Maps where Boss Camps\nare a win condition."
+  }
+ },
+ "artanis": {
+  "synergies": {
+   "heroes": [
+    "garrosh",
+    "arthas",
+    "kaelthas",
+    "lunara",
+    "medivh",
+    "malfurion"
+   ],
+   "text": "Artanis pairs extremely well with Healers who can provide\nsustained healing (such as Malfurion) to gradually replenish his Health while\nhis own Shields guarantee him protection against burst damage,\nwith Heroes who can crowd control\nenemy Heroes to either keep them at melee distance (for example Arthas\nwith his Root or even just his Slow) or\nto stop them in place after a successful Blade Dash plus\nPhase Prism combo (like Kael'thas with\nGravity Lapse), and Heroes who can mitigate his lack\nof mobility (such as Zarya with\nSpeed Barrier at Level 4)."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "arthas",
+    "varian",
+    "jaina",
+    "lunara",
+    "li-li"
+   ],
+   "text": "Artanis gets countered by Heroes who can Knockback\nhim out of his Blade Dash's animation (such as\nE.T.C. with Face Melt), Heroes who can\nRoot him or even just Slow him\n(for example Arthas and Lunara respectively),\nHeroes who can Blind him\n(such as Johanna with Shield Glare),\nand Heroes who can deal bonus damage to Shields (Varian\nwith Shattering Throw comes to mind)."
+  }
+ },
+ "chen": {
+  "synergies": {
+   "heroes": [
+    "tyrael",
+    "greymane",
+    "li-ming",
+    "abathur",
+    "rehgar"
+   ],
+   "text": "Chen likes to play together with Heroes that can empower\nhis dive (such as Tyrael),\ndive with him (for example Abathur),\nprovide waveclear (like Rehgar),\nclear Mercenary Camps (for example Greymane),\nand/or offer crowd control\n(such as Johanna)."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "yrel",
+    "raynor",
+    "li-ming",
+    "the-lost-vikings",
+    "lucio"
+   ],
+   "text": "Whether team fighting or dueling, Chen struggles against Heroes\nwho have access to crowd control effects\nthat can interrupt Fortifying Brew\n(for example E.T.C. with either Powerslide\nor Face Melt) because, without\nchanneling it for at least 1 second due to a quick interrupt,\nhe will not have enough Brew to use some of his Basic Abilities.\nSpeaking about team fights in particular, anything that can protect his target from a\ndive attempt makes Chen's plan more difficult to execute\n(for example a well-timed Sanctification by Tyrael\nor even a Sound Barrier by Lúcio).\nIf we consider the macro aspect of the game,\nprimarily due to his low waveclear,\nChen has a hard time when the enemy team has access to Heroes who can completely\nwarp the game and allow the enemy team to play in a different way than usual\n(such as Abathur and The Lost Vikings)."
+  }
+ },
+ "deathwing": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "arthas",
+    "johanna",
+    "muradin"
+   ],
+   "text": "It is hard to find Heroes that naturally synergize with Deathwing, since he\ncannot be buffed or enhanced in any way. However, there are some Heroes,\nusually crowd control heavy Tanks, that can make\nit easier for Deathwing to land his devastating damage Abilities. Consequently,\nwe find Heroes like E.T.C., Johanna, or\nArthas to be a fitting match,\nsince their Stuns and Slows\ncan buy enough time for Deathwing to wipe the opposing\nteam off the battlefield."
+  },
+  "counters": {
+   "heroes": [
+    "tychus",
+    "greymane",
+    "valla",
+    "zeratul",
+    "tracer"
+   ],
+   "text": "Because of Deathwing's health, size, and low mobility, there are two\ntypes of Heroes that counter him very well. Firstly, percentage-based damage\nabilities, such as Tychus'\nMinigun or Greymane's\nCursed Bullet inflict a lot of damage on\nDeathwing's high health pool. Secondly, nimble Assassins like\nZeratul, Valla,\nor Tracer have an easy time dodging and thus diminishing\na lot of Deathwing's damage due to long casting animations on most of his abilities."
+  }
+ },
+ "dehaka": {
+  "synergies": {
+   "heroes": [
+    "anubarak",
+    "jaina",
+    "hanzo",
+    "maiev"
+   ],
+   "text": "Dehaka does well with Heroes who can help him get within range of enemies\neasily. This can be done by crowd controlling\nenemy Heroes, so that Dehaka can easily hit them with Drag\nor Isolation if chosen as Heroic Ability.\nConsidering that he is a global Hero, Dehaka\nalso works well with poke Heroes because they can\nstall Objectives while Dehaka keeps soaking.\nThis strategy helps to get more Experience than the enemy team."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "valla",
+    "raynor",
+    "sgt-hammer",
+    "lucio"
+   ],
+   "text": "One of Dehaka's drawbacks is his lack of a gap-closer, which makes him\nsusceptible to kiting from highly mobile ranged damage dealers. Heroes with\nvery high sustain damage can push through his healing to force him to play\npassively. Heroes with interrupts will be able to stop\nDrag and Isolation before they go off.\nHeroes with knockback effects will\nreduce his capacity to reach the enemy backline."
+  }
+ },
+ "dva": {
+  "synergies": {
+   "heroes": [
+    "garrosh",
+    "maiev",
+    "falstad",
+    "deckard"
+   ],
+   "text": "D.Va is good when paired with Heroes that can play around her powerful\nSelf-Destruct by displacing or locking\nenemy Heroes within its range with crowd control effects\n(for example Deckard Cain with Stay Awhile and Listen\nand/or Scroll Of Sealing) or by moving the exploding Mech\n(such as Into the Fray by Garrosh).\nBoosters are useful to combo with unique Heroes\nthat require an allied Hero to move fast (for example Anduin\nwith Lightbomb) or that can benefit from enemy Heroes\nbeing knocked away at the right moment\n(such as Maiev using Umbral Bind)."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "malthael",
+    "raynor",
+    "kaelthas",
+    "stukov"
+   ],
+   "text": "Like many Heroes in the game, D.Va suffers against crowd control\npaired with burst damage as they can drastically reduce the value\nshe can get from Mech Mode by bursting her down before\nshe can use Self-Destruct to restore the Health of her Mech.\nAs she spawns in a predictable position when her Mech dies,\nit is also easy to throw Abilities in that area to hit her\n(such as Entangling Roots by Malfurion). Similarly,\na well-timed interrupt while she is channeling\nCall Mech is a powerful tool to take her down.\nWhile solo laning, D.Va has a hard time against Heroes\nwho can easily outtrade her in a duel\non Maps where there is a Capture Point\nto contest (such as Braxis Holdout)\nor that can rotate faster than her\nwhile double soaking on other Maps."
+  }
+ },
+ "gazlowe": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "e-t-c",
+    "jaina",
+    "johanna",
+    "kaelthas",
+    "malfurion"
+   ],
+   "text": "Gazlowe is at his best when coupled with Heroes that have the means of\nsetting up for or following up on his Grav-O-Bomb 3000- Xplodium Charge combo.\nOtherwise, his Turrets and Xplodium Charge remain useful for hindering opponents\nfrom attacking vulnerable backline teammates, making\nhim relatively versatile in this regard."
+  },
+  "counters": {
+   "heroes": [
+    "raynor",
+    "lunara",
+    "guldan",
+    "chromie",
+    "hanzo",
+    "li-ming"
+   ],
+   "text": "Gazlowe's short-range nature makes him ineffective against anything that can\noutrange him and his Turrets. Lacking a reliable Movement Speed reduction effect\nalso makes him prone to being kited."
+  }
+ },
+ "hogger": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "sonya",
+    "hanzo",
+    "li-ming",
+    "stukov"
+   ],
+   "text": "Heroes who benefit from impassable terrain with (for example Hanzo\nwith Scatter Arrow) or without (such as Auriel\nwith Detainment Strike) terrain outlines can get value\nfrom Loot Hoard.\nWhen enemy Heroes are stuck between Hogger and impassable terrain,\nallied Heroes can easily follow up with Abilities\nthat require their target to stay still for a moment (like Chromie)\nor inside one area for a few seconds (for example Stukov).\nHaving access to a high amount of damage, Hogger can be paired with\nanother similar Bruiser to have a more solid\nfrontline than usual. One of them\n(usually not Hogger because he will take care of Mercenary Camps)\nwill be played as Offlaner\nwhereas the other will stay in the 4-man."
+  },
+  "counters": {
+   "heroes": [
+    "diablo",
+    "malthael",
+    "tychus",
+    "lunara",
+    "uther"
+   ],
+   "text": "Try to lock Hogger in place with quick and unpredictable crowd control Abilities\nand then burst him down before he can get out with either Hogg Wild\nor Hoardapult (if selected and not on cooldown after an aggressive play).\nSince he has access to Armor, percent-based damage helps with that.\nBeing a melee Hero, Hogger does not like to play against poke damage\nand kite (for example Lunara),\nunless he can dive them with the help other Heroes.\nThere are some Heroes who can easily deny any value which Hogger could get\nwith impassable terrain thanks to their mobility tools\n(such as Zeratul with Blink\nor even Medivh with Portal).\nEven worse, some of them can use impassable terrain against Hogger thanks to dedicated Abilities\n(for example Diablo with Shadow Charge).\nBe careful when playing against Heroes who can reduce healing (such as Ana\nwith Biotic Grenade) because they reduce your survivability\nby partially or completely denying the healing provided by your chunks of Meat.\nThe same is true for Heroes who can reduce your Spell Power,\nas it will decrease your self-healing too."
+  }
+ },
+ "imperius": {
+  "synergies": {
+   "heroes": [
+    "jaina",
+    "fenix",
+    "rehgar",
+    "malganis",
+    "e-t-c",
+    "yrel",
+    "blaze"
+   ],
+   "text": "Imperius's mobility is one of his greatest weaknesses, consequently, he pairs\nextremely well with Heroes like Jaina or Fenix that can slow\nenemies, so Imperius can catch them up with Celestial Charge.\nOn the other hand, Heroes like Mal'Ganis or E.T.C. that can keep enemies\nin place are even better, because Imperius is very dependent on hitting his Charge,\nand a sleeping or stunned enemy is a guaranteed hit. Furthermore, as a tank,\nImperius requires another resistant Hero in the frontline that can compensate\nfor his lack of peel, like Yrel or Blaze."
+  },
+  "counters": {
+   "heroes": [
+    "jaina",
+    "raynor",
+    "sgt-hammer",
+    "zuljin",
+    "e-t-c",
+    "lucio"
+   ],
+   "text": "Imperius has limited mobility, and can be easily punished by ranged Heroes if\nhe cannot hit Celestial Charge. For this reason, slows\nand knockbacks are very good against him, since they\ngreatly facilitate the kiting against Imperius and can be used\nto interrupt Celestial Charge."
+  }
+ },
+ "leoric": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "orphea",
+    "stukov"
+   ],
+   "text": "Leoric pairs off really well with Heroes who can follow up\non his Entomb with a huge amount of burst damage\n(for example Orphea using Eternal Feast and all her Basic Abilities)\nor complementary crowd control\n(such as Lurking Arm by Stukov)."
+  },
+  "counters": {
+   "heroes": [
+    "dehaka",
+    "samuro",
+    "tracer",
+    "falstad",
+    "ana"
+   ],
+   "text": "Leoric struggles against high-mobility Heroes\n(such as Tracer) who can simply dodge Entomb\nand/or disconnect his Drain Hope (like Samuro using\nMirror Image or Image Transmission).\nDue to having self-healing in his kit, Leoric does not like to face Heroes who have access\nto healing reduction Abilities (for example Biotic Grenade by Ana)."
+  }
+ },
+ "malthael": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "garrosh",
+    "greymane",
+    "tychus",
+    "medivh",
+    "ana",
+    "malfurion"
+   ],
+   "text": "Heroes that displace enemies, like Garrosh and E.T.C. are excellent\nwith Malthael, as they will ease the focus on a target, allowing Last Rites\nto execute it. One of Malthael's problems is that he takes\ntoo long to reduce an enemy's health to Last Rites's threshold,\nso he is great with Greymane's Cursed Bullet or\nwith Tychus's The Bigger They Are....\nDue to how Malthael's damage and self sustain is completely\ntied to Soul Rip, he has excellent synergy with Heroes that\ncan reduce his Cooldowns. While Ana with Nano Boost\nturns Malthael into an immortal killing machine, Malfurion can enhance\nhis effectiveness very often through Innervate."
+  },
+  "counters": {
+   "heroes": [
+    "blaze",
+    "falstad",
+    "fenix",
+    "lunara",
+    "tracer",
+    "valla"
+   ],
+   "text": "As a Bruiser with a rather telegraphed play style, Malthael\nis very vulnerable to any form of targeted crowd control. Furthermore,\nsince his main gap closer, Wraith Strike, requires him to\neither attack or hit a slow skillshot, he is naturally bound to\nbe kited by nimble ranged Heroes.\nAgainst experienced players, Blaze will be an excellent counter\nto Malthael. Bunker Drop\ncleanses Reaper's Mark\nfrom anyone that enters it. It also denies Last Rites's damage.\nConsidering enemies will be inside bunker, Malthael's self-sustain will be very limited, as\nMalthael will not be able to use Soul Rip\nto sustain himself."
+  }
+ },
+ "ragnaros": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "hanzo",
+    "kaelthas",
+    "ana"
+   ],
+   "text": "Ragnaros is at his best when coupled with Heroes that feature some form\nof reliable crowd control (such as E.T.C.)."
+  },
+  "counters": {
+   "heroes": [
+    "garrosh",
+    "chen",
+    "lunara",
+    "jaina",
+    "stukov"
+   ],
+   "text": "Due to his lack of crowd control,\nRagnaros will not be able to pressure Heroes whose Basic Abilities are weak\nto interrupts (such as Sonya).\nRagnaros is also particularly weak to kite\nbecause he does not have access to any tool that can help him playing around\nenemy displacement effects (such as Garrosh and Raynor)\nand Slows (such as Jaina)."
+  }
+ },
+ "rexxar": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "jaina",
+    "malfurion"
+   ],
+   "text": "Rexxar pairs very well with Heroes who add additional\ncrowd control to combine with\nMisha, Charge! in no particular order\n(such as Johanna that can group enemy Heroes for you\nor Malfurion that can make your engage last longer).\nMages will easily benefit from the\nadditional crowd control provided by Misha, Charge! and\nby Unleash the Boars to a lesser extent (like\nJaina that deals way more damage if her target is standing still or\nit is being Slowed down more than she can do on her own)."
+  },
+  "counters": {
+   "heroes": [
+    "tyrael",
+    "illidan",
+    "qhira",
+    "zeratul",
+    "kharazim"
+   ],
+   "text": "When laning, Rexxar is weak against Heroes who have a gap-closer to\nreach Rexxar behind Misha, damage to pressure Misha to death or kill Rexxar, and\nself-sustain to make good trades.\nIn team fights, Rexxar suffers from Heroes who can dive\nhim and dodge his crowd control thanks to their high\nmobility (such as Zeratul)."
+  }
+ },
+ "sonya": {
+  "synergies": {
+   "heroes": [
+    "muradin",
+    "jaina",
+    "tracer",
+    "medivh",
+    "rehgar"
+   ],
+   "text": "When going for Leap as Heroic Ability,\nhaving a powerful follow-up is crucial.\nAs such, she does better when paired with Heroes who can\ndive together with her and/or deal a lot\nof burst damage on the same target.\nWhen going for Wrath of the Berserker\nas Heroic Ability, survival means damage and damage means survival.\nAs a consequence, she works well with any Hero that can keep her\nalive for longer with healing, damage mitigation effects, added\nmobility, or who can reliably\ncrowd control enemy Heroes."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "leoric",
+    "sylvanas",
+    "tychus",
+    "brightwing"
+   ],
+   "text": "Sonya can be easily punished after engaging because she relies on the\nself-sustain from her Abilities and Talents. For this reason,\nHeroes that have crowd control and/or burst damage\nin their kit are a respectable threat for her.\nWrath of the Berserker only reduces the duration\nof Stun, Root, and Slow\neffects. As such, Heroes with access to Silence effects\n(including Taunt and Fear)\nare better for crowd controlling her."
+  }
+ },
+ "thrall": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "fenix",
+    "chromie",
+    "rehgar"
+   ],
+   "text": "Thrall's Earthquake synergizes really well with\nother strong area of effect Abilities\nwho benefit from the Slow to connect on enemy Heroes\n(such as Ring of Frost by Jaina),\nto deal bonus damage to them (for example Purification Salvo\nby Fenix), or to stop their retreat and engage\nthem with powerful buffs for your team (for example\nBloodlust by Rehgar)."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "arthas",
+    "kaelthas",
+    "lunara",
+    "malfurion"
+   ],
+   "text": "Thrall suffers against Heroes who can kite (such as\nLunara) as a consequence of him lacking mobility,\neven if he can overcome it by using his Heroic Abilities to engage.\nWell-timed Blind effects (like Blinding Wind\nby Li Li) will annoy him for sure, so try to play around them by holding\nyour Windfury when they are debuffing you.\nLike most Heroes, he also suffers against crowd control\nfollowed by burst damage (for example Kael'thas)."
+  }
+ },
+ "varian": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "blaze",
+    "li-ming",
+    "tyrande"
+   ],
+   "text": "Taunt Build synergizes with Heroes who can easily follow up with\ncrowd control (like Malfurion that can\neasily land a Root just a moment before the\nTaunt is going to expire) and\nburst damage (such as Jaina who will be able to\nget full damage from her Blizzard).\nColossus Smash Build works better when your team has\ncrowd control but lacks\nburst damage to follow up.\nTwin Blades Build likes anything which can help Varian to stick on his target,\nusually something provided by the Tank\n(for example Johanna that can Slow and\nStun enemy Heroes nearby)."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "arthas",
+    "lunara",
+    "medivh",
+    "rehgar"
+   ],
+   "text": "Varian, independently from the Build used, is countered by Heroes\nwho are able to kite him due to their range (such as Hanzo\nwho can also use Sonic Arrow to deny a flank)\nand/or Heroes that have tools to drastically compromise his already low\nmobility (such as Garrosh).\nTaunt Build is countered by Heroes who have a tool to remove his\nTaunt on a short cooldown (such as Rehgar\nusing Purge),\nto mitigate the burst damage that will come\nfrom his team (like Uther because he provides Armor\nto allied Heroes via Devotion), or to completely deny it.\nColossus Smash Build is countered by Heroes that have something to reduce or nullify\nthe burst damage that will come from him and his teammates\n(for example Medivh\nbecause Force of Will provides Protected,\na status effect that has no direct counters).\nTwin Blades Build heavily suffers from Heroes that can reduce his Attack Speed,\ncrowd control him, and/or burst\nhim down. Blinds are good against him as well."
+  }
+ },
+ "xul": {
+  "synergies": {
+   "heroes": [
+    "tyrande",
+    "medivh",
+    "li-ming",
+    "falstad"
+   ],
+   "text": "Xul sinergizes very well with Heroes that are able to protect him while he receives burst\ndamage or crowd control like Medivh. He also excels with good\nfollow up for Bone Prison, like\nTyrande with Lunar Flare,\nFalstad with Hinterland Blast\nor Li-Ming with all her Abilities."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "johanna",
+    "jaina",
+    "sgt-hammer",
+    "auriel"
+   ],
+   "text": "Due to not having mobility,\nXul suffers a lot from displacement effects\nor crowd control in general,\nmaking Heroes such as E.T.C.\nhuge threats, while Johanna is able to Blind\nhim during Cursed Strikes, reducing his effectiveness.\nXul also struggles against Heroes with long range or with high burst damage that allows\nthem to follow up the crowd control, like Jaina\nand Sgt. Hammer."
+  }
+ },
+ "yrel": {
+  "synergies": {
+   "heroes": [
+    "garrosh",
+    "zarya",
+    "sgt-hammer",
+    "whitemane"
+   ],
+   "text": "Yrel can help Tanks with a weak engage to force a fight\nby finding a good flank and can support the ones who lack peeling\nto protect the backline from aggressive enemy Heroes.\nThe Armor from Aegis of Light at Level 4 is great\nfor protecting allied Heroes who lack mobility. Garrosh\nbenefits from it more than other Heroes because it stacks with Armor Up.\nThe healing from Gift of the Naaru at Level 4 can be useful for playing in the\nofflane as a 2-man with Zarya on Braxis Holdout.\nThis strategy allows you to have good damage and survivability on both lanes.\nThe ability to provide Movement Speed and remove some crowd control\neffects with Hand of Freedom at Level 4, together with the possibility to use\nRighteous Hammer defensively when needed, is quite useful for helping\nallied Heroes who are in trouble."
+  },
+  "counters": {
+   "heroes": [
+    "muradin",
+    "malthael",
+    "sgt-hammer",
+    "tracer",
+    "stukov"
+   ],
+   "text": "Yrel suffers against Heroes that possess reliable crowd control\neffects who can interrupt her Basic Abilities as they are being\nchanneled (Stuns and Silences)\nor who can interrupt Avenging Wrath during its jump animation\n(Roots and Knockbacks).\nShe also struggles against Heroes who can kite her from the distance\nor have a lot of mobility to deal damage without being hit in return.\nWhile laning, these Heroes could threaten a gank, forcing Yrel to use\nher Heroic Ability to stay alive.\nLast but not the least, Yrel is relatively weak to healing reduction effects (especially\nif having Ardent Defender as Heroic Ability), Armor\nreduction effects (especially if having Sacred Ground as Heroic Ability),\nand percent-based damage because they all reduce her survivability\nduring team fights."
+  }
+ },
+ "azmodan": {
+  "synergies": {
+   "heroes": [
+    "jaina",
+    "johanna",
+    "maiev",
+    "malfurion"
+   ],
+   "text": "Azmodan's dependency on stacking up Annihilation makes him particularly\neffective with Heroes that can \"cook up\" Minion waves for him to last-hit.\nOtherwise, he works well with anyone that provides reliable crowd control,\nparticularly over an area of effect. Since Azmodan's early-game presence\ntends to be limited, avoid picking him along other lacklustre early-game\nHeroes such as Abathur or Murky."
+  },
+  "counters": {
+   "heroes": [
+    "artanis",
+    "anubarak",
+    "diablo",
+    "leoric",
+    "malthael",
+    "muradin",
+    "sonya",
+    "the-butcher"
+   ],
+   "text": "Given his reliance upon channeling, as both Globe of Annihilation\nand All Shall Burn are put on a full Cooldown after interruption,\nAzmodan is naturally countered by Heroes that provide reliable means of\nStunning or Silencing him. His tendency to split push also leaves\nhim vulnerable to aggressive gankers, especially due to his large\ncollision that makes him easy to hit and body block."
+  }
+ },
+ "cassia": {
+  "synergies": {
+   "heroes": [
+    "li-li",
+    "johanna",
+    "artanis",
+    "thrall",
+    "jaina"
+   ],
+   "text": "Cassia greatly benefits from allied Heroes who can Blind enemies, because\nshe deals increased damage to Blinded targets. If her allies can\nalso Slow enemies, she can get additional value from Martial Law."
+  },
+  "counters": {
+   "heroes": [
+    "kaelthas",
+    "xul",
+    "imperius",
+    "e-t-c",
+    "malganis",
+    "johanna"
+   ],
+   "text": "Cassia has no escapes, limited self-sustain and small range.\nPowerful backline Heroes can win trades with her at range, and punish\nher brutally if she dives in with Fend. Reliable crowd controls\nare also excellent against her, since Avoidance is only active\nwhen Cassia is moving."
+  }
+ },
+ "chromie": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "ana",
+    "malfurion"
+   ],
+   "text": "One of Chromie's favorite Healers\nhas to be Malfurion. His\nInnervate Trait provides her with precious Mana regeneration and cooldown reduction,\nwhile his Regrowth allows Chromie to stay in battle for a long period of time. Another\nHealer that works wonders with Chromie is Ana, whose\nNano Boost greatly empowers Chromie's damage for a short period of time."
+  },
+  "counters": {
+   "heroes": [
+    "illidan",
+    "diablo",
+    "zeratul",
+    "tracer"
+   ],
+   "text": "Chromie struggles against two kinds of Heroes: the ones that are too beefy\nfor her to take down quickly and the ones that are too fast for her to reliably\nland her Basic Abilities. As such, Heroes like\nIllidan or\nTracer can become quite dangerous."
+  }
+ },
+ "falstad": {
+  "synergies": {
+   "heroes": [
+    "arthas",
+    "e-t-c",
+    "tassadar",
+    "uther"
+   ],
+   "text": "Falstad is at his best when something stands between him and his enemies.\nLarge, healthy Tanks are particularly desirable as they\ndraw attention away from Falstad, and often provide their own form of\ncrowd control for potential\nfollow-ups. Otherwise, anything that can protect\nFalstad is also desirable. Shielding effects are particularly impactful due to\nhis limited Health pool."
+  },
+  "counters": {
+   "heroes": [
+    "genji",
+    "greymane",
+    "illidan",
+    "nova",
+    "valeera",
+    "zeratul"
+   ],
+   "text": "As a frail Ranged Assassin, Falstad tends to\nnaturally struggle against high-damage Heroes who have the ability to\neffectively gap close past his\nBarrel Roll's range or otherwise sneak up on him. With\nlittle in the way of self-peeling, see to stay near your\nHealer when possible against such Heroes, and make no\nbold attempts at outplaying your opponents."
+  }
+ },
+ "fenix": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "maiev",
+    "thrall",
+    "diablo"
+   ],
+   "text": "The effectiveness of Fenix's AoE damage can be amplified by bringing\nenemy Heroes closer together, or by keeping them close together. This makes him\nstrong with Heroes that can Pull enemies together\n(such as Johanna with Condemn). Fenix also does well with\nHeroes who can easily slow entire the enemy team, allowing Purification Salvo\nto deal maximum damage in teamfights. Thrall with Earthquake\nor Diablo with Lightning Breath are good\nsetups for Purification Salvo."
+  },
+  "counters": {
+   "heroes": [
+    "varian",
+    "e-t-c",
+    "genji",
+    "zeratul",
+    "lucio"
+   ],
+   "text": "Fenix relies on Shield Capacitor in order to trade damage efficiently.\nVarian has Shattering Throw that can obliterate shields, making\nit hard for Fenix to deal damage safely at all. He can also be countered by\nHeroes who can follow him when he uses Warp to escape, especially if those\nHeroes can get back out safely after diving him, like Zeratul or Genji.\nFenix is also very punished by crowd control.\nTanks with many stuns and knockbacks\nare a threat; you have to play very safely when against E.T.C..\nLúcio is also a concern, considering he can use Sound Barrier\nto counter Purification Salvo, and his Soundwave\nwill often cancel your Warp."
+  }
+ },
+ "gall": {
+  "synergies": {
+   "heroes": [
+    "alexstrasza",
+    "ana",
+    "auriel",
+    "brightwing",
+    "yrel",
+    "blaze"
+   ],
+   "text": "Cho'gall's nature makes him thrive when teamed up with a strong Healer,\nparticularly those who possesses great single target healing, like Alexstrasza's\nLife-Binder, Brightwing's Phase Shift,\nor Ana's constant Healing. Furthermore, a good bruiser\nor tank to be with Cho'gall in the frontline\nis a great addition to the composition."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "garrosh",
+    "greymane",
+    "imperius",
+    "kharazim",
+    "leoric",
+    "maiev",
+    "malthael",
+    "raynor"
+   ],
+   "text": "Cho'gall's nature makes him particularly vulnerable to most forms of\ncrowd control, strong single-target damage, and percent-based damage sources.\nFortunately, Cho'gall has plenty of Talent choices and maneuvers that allow him to adapt to a variety\nof less-than-ideal situations. However, Anub'arak's Cocoon or\nMaiev's Containment Disc can turn the fight into a 5v3,\nand are a major threat to Cho'gall."
+  }
+ },
+ "genji": {
+  "synergies": {
+   "heroes": [
+    "jaina",
+    "uther",
+    "e-t-c"
+   ],
+   "text": "Genji synergizes extremely well with Heroes who can provide both\nburst damage and some form of crowd control,\nsuch as Jaina or Kael'thas, who can help him take down\nindividual targets very quickly in order to proc his cooldown reset on\nSwift Strike. He also pairs very well with burst\nHealers like Uther, whose Armor buffs and\nDivine Shield can greatly enhance Genji's own\nsurvivability."
+  },
+  "counters": {
+   "heroes": [
+    "varian",
+    "malfurion",
+    "lunara",
+    "uther"
+   ],
+   "text": "Due to his very low health pool, Genji struggles against Heroes with strong\ncrowd control that render him defenseless for a short period of time. Thus,\nabilities like Varian's\nTaunt or Malfurion's\nTwilight Dream can cause great problems for him.\nFurthermore, nimble ranged Assassins with great kiting\npotential such as Lunara can bait him\ninto overextending only to get outnumbered by the enemy team. Keep in mind\nthat any form of poison damage continues to tick after Genji's\nDeflect expires, which is another reason why Lunara is\na dangerous enemy for him to face. Heroes with point-and-click CC such as Uther\nwork great in countering Genji should he dive into the backline."
+  }
+ },
+ "greymane": {
+  "synergies": {
+   "heroes": [
+    "abathur",
+    "e-t-c",
+    "garrosh",
+    "tyrael",
+    "uther",
+    "rehgar",
+    "malthael"
+   ],
+   "text": "Greymane's excellent damage output scales well with anything that might\nimprove his Attacks or give him extra resistance during Worgen form.\nOtherwise, strong initiation and\nteam fight presence goes a long way to opening windows of opportunity for him\nto pick off Heroes that are out of position. He also has a good synergy with Malthael,\nas Cursed Bullet is excellent with Last Rites."
+  },
+  "counters": {
+   "heroes": [
+    "arthas",
+    "brightwing",
+    "johanna",
+    "muradin",
+    "the-butcher",
+    "uther",
+    "xul"
+   ],
+   "text": "As an Assassin with a rather telegraphed play style, Greymane\nis very vulnerable to any form of targeted crowd control. Given that\nhis Basic Attacks are his main source of damage, he is also greatly hindered by\nany form of debuff that might blind him or reduce his Attack speed."
+  }
+ },
+ "guldan": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "malfurion",
+    "auriel"
+   ],
+   "text": "Like most ranged assassins, Gul'dan performs best\nwith a sturdy frontline to provide him with reliable\npeel, and a support to keep his\nHealth topped-off as he will need to use it to Life Tap\nfor Mana."
+  },
+  "counters": {
+   "heroes": [
+    "illidan",
+    "greymane",
+    "kerrigan",
+    "tracer"
+   ],
+   "text": "Gul'dan's lack of gap-closer causes him to struggle\nmost against highly mobile assassins, primarily those with\na reliable form of crowd-control to interupt his\nchannel of Drain Life."
+  }
+ },
+ "hanzo": {
+  "synergies": {
+   "heroes": [
+    "zeratul",
+    "e-t-c",
+    "diablo",
+    "blaze",
+    "johanna",
+    "malganis"
+   ],
+   "text": "Both of Hanzo's Heroics are excellent follow-ups,\nand can prove devastating to enemies caught by setup Heroics\nlike Zeratul's Void Prison or E.T.C.'s\nMosh Pit. However, Dragon's Arrow can\nalso be used as an engage tool, having great synergy with\nDiablo's Apocalypse or Blaze's\nJet Propulsion.\nJust like all the other marksmen, he is excellent with heroes\nthat can easily create space for him to attack, like Johanna, Mal'Ganis,\nor Blaze can."
+  },
+  "counters": {
+   "heroes": [
+    "genji",
+    "illidan",
+    "zeratul"
+   ],
+   "text": "Hanzo has very limited mobility during combat, and must keep his distance\nfrom enemies in order to survive. Hanzo will struggle to shake highly mobile\nHeroes when they get within melee range of him, especially if they can follow\nhim over walls when he uses Natural Agility to escape."
+  }
+ },
+ "jaina": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "johanna",
+    "maiev",
+    "malfurion",
+    "muradin",
+    "varian",
+    "xul"
+   ],
+   "text": "Since Jaina depends highly on skillshots to deal her damage, she\nnaturally works well with any Hero that can provide reliable crowd control\nagainst a kill target for her to follow up. Her frailty also makes her\ndependent on other Heroes to peel for her; Tanks tend to fulfill these\ntwo needs, although other Hero types can as well."
+  },
+  "counters": {
+   "heroes": [
+    "alarak",
+    "anubarak",
+    "chen",
+    "genji",
+    "tracer",
+    "zeratul"
+   ],
+   "text": "Since Jaina relies chiefly on skillshots and delayed Abilities to deal\ndamage, she does particularly poorly against Heroes that have ways of\nquickly dodging her Abilities. Furthermore, her frailty and lack of mobility\nmakes her vulnerable to heroes that can easily dive or push you\nto a bad position."
+  }
+ },
+ "junkrat": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "garrosh",
+    "uther",
+    "malfurion",
+    "zeratul"
+   ],
+   "text": "Junkrat's low Health pool and squishiness require him to hide behind a strong\nfrontline that can distract enemy Heroes during fights.\nTanks and bruisers with reliable\ncrowd-control can either help Junkrat set-up takedowns, or\nassist him with peel should he be focused by the enemy team.\nA support that can provide Junkrat with healing or\ndamage mitigation in the form of a shield or buffs is mandatory as he has no source of\nself-sustain within his entire kit."
+  },
+  "counters": {
+   "heroes": [
+    "illidan",
+    "tracer",
+    "zeratul",
+    "tyrael",
+    "genji"
+   ],
+   "text": "Junkrat is countered by highly mobile Heroes who can easily dive\nhim in the backline. Beyond Concussion Mine\nJunkrat has no immediate source of peel, therefore he is particularly\nsusceptible to Heroes that can stick to him with some form of gap-closer.\nThe fact that all of Junkrat's abilities are skillshots also makes\nit particularly difficult to combat highly mobile enemy Heroes."
+  }
+ },
+ "kaelthas": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "arthas",
+    "malfurion",
+    "uther"
+   ],
+   "text": "Kael'thas requires allies who are going to be able to provide him good\npeel and healing when he is targeted in team fights.\nA solid frontline with ample\ncrowd-control will help keep enemies at bay, while\nHealers who can provide a source of Health or\ndamage mitigation can keep him from being immediately picked off."
+  },
+  "counters": {
+   "heroes": [
+    "illidan",
+    "zeratul",
+    "kerrigan",
+    "tracer"
+   ],
+   "text": "Kael'thas is countered by highly mobile assassins who\nare able to dive him behind the allied frontline.\nHe will need to rely heavily on the assistance of his team to survive once engaged on\nby means of peel or damage mitigation abilities."
+  }
+ },
+ "kel-thuzad": {
+  "synergies": {
+   "heroes": [
+    "anduin",
+    "arthas",
+    "johanna",
+    "malfurion",
+    "the-butcher",
+    "valeera",
+    "varian",
+    "xul"
+   ],
+   "text": "Since Kel'Thuzad depends highly on skillshots to deal damage, he\nnaturally works well with any Hero that can provide reliable crowd control\nagainst a kill target for him to follow up. His frailty also makes him\ndependent on other Heroes to peel for him; Tanks tend to fulfill these\ntwo needs, though other Hero types can too."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "chen",
+    "genji",
+    "nova",
+    "samuro",
+    "tracer",
+    "valeera",
+    "zeratul"
+   ],
+   "text": "Since Kel'Thuzad relies chiefly on skillshots to deal\ndamage, he does particularly poorly against Heroes that have ways of\nquickly dodging his Abilities. Furthermore, his frailty and lack of\nself-peel makes him vulnerable to high-damage, nimble Heroes\nthat can quickly reach him."
+  }
+ },
+ "li-ming": {
+  "synergies": {
+   "heroes": [
+    "arthas",
+    "e-t-c",
+    "johanna",
+    "malfurion",
+    "valeera",
+    "varian",
+    "xul"
+   ],
+   "text": "Since Li-Ming depends highly on skillshots to deal her damage, she\nnaturally works well with any Hero that can provide reliable crowd control\nagainst a kill target for her to follow up. Her frailty also makes her\ndependent on other Heroes to peel for her; Tanks tend to fulfill these\ntwo needs, though other Hero types can too."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "chen",
+    "genji",
+    "samuro",
+    "tracer",
+    "valeera",
+    "zeratul"
+   ],
+   "text": "Since Li-Ming relies chiefly on skillshots to deal\ndamage, she does particularly poorly against Heroes that either have ways of\nquickly dodging her Abilities, or can summon undesirable targets to get in the\nway. Furthermore, her frailty and lack of self-peel makes\nher vulnerable to Stealthed or otherwise high-damage nimble\nHeroes that can quickly reach her."
+  }
+ },
+ "lunara": {
+  "synergies": {
+   "heroes": [
+    "arthas",
+    "muradin",
+    "jaina"
+   ],
+   "text": "Lunara works with a variety of different Heroes and team compositions, however,\nshe truly shines if paired with crowd control heavy Heroes such as\nArthas, Jaina,\nor Muradin who all provide plenty of Slow for\nLunara's Unfair Advantage talent at Level 16 to get value from."
+  },
+  "counters": {
+   "heroes": [
+    "illidan",
+    "genji",
+    "malfurion",
+    "stukov"
+   ],
+   "text": "Lunara gets countered by two things: mobile Assassins like Illidan\nor Genji that can chase her down even after\nshe used Leaping Strike and strong AoE healing provided by Healers like\nMalfurion or Stukov who can shut down\nNature's Toxin's poison damage."
+  }
+ },
+ "mephisto": {
+  "synergies": {
+   "heroes": [
+    "deckard",
+    "e-t-c",
+    "zarya",
+    "diablo"
+   ],
+   "text": "Both of Mephisto's Heroics are excellent follow-ups, and can be devastating\nto enemies caught by setup Heroics like\nE.T.C.'s Mosh Pit,\nZarya's Graviton Surge,\nDeckard's Stay Awhile and Listen,\nand Diablo's Apocalypse. Mephisto's Basic Abilities\nalso greatly benefit from strong crowd-control."
+  },
+  "counters": {
+   "heroes": [
+    "kaelthas",
+    "kel-thuzad",
+    "junkrat",
+    "stitches",
+    "anubarak"
+   ],
+   "text": "Mephisto can be countered by Heroes who can quickly close into melee range,\nas they will avoid taking damage from Lightning Nova.\nThe most effective counters will be able to survive some damage from Mephisto's\nteammates if they attempt to help him. Other heroes such as Kael'thas or Kel'thuzad\ncan use their abilities on the shade right before Mephisto returns. Junkrat\nis able to place a mine on the shade and Displace you back to where you teleported.\nStitches and Anub'arak are able to either\nGorge or Cocoon after you cast\nShade of Mephisto, negating\nthe return teleport."
+  }
+ },
+ "nazeebo": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "raynor",
+    "stukov"
+   ],
+   "text": "In order to make Nazeebo work, we recommend\npicking a Marksman (such as Sylvanas) to guarantee\nyour team a good damage output when your Abilities are on cooldown and a\nTank who can provide crowd control\n(such as Mal'Ganis) that Nazeebo will be able to follow up\nwith Zombie Wall. There are also some Healers\nwho can get value from Zombie Wall after it spawns, usually by adding crowd control\n(for example Auriel using Detainment Strike)."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "sylvanas"
+   ],
+   "text": "Nazeebo is countered by Heroes who can punish his weak\nearly game (such as Sylvanas that can\nenable her team to push by using Haunting Arrows\nto disable Structures) and he is rendered almost useless by Heroes who can\neasily get out from Zombie Wall and eventually dodge\nhis other Abilities (for example E.T.C. can use\nFace Melt to Knockback the Zombies\nsurrounding himself or a nearby allied Hero)."
+  }
+ },
+ "nova": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "blaze",
+    "sylvanas",
+    "stukov"
+   ],
+   "text": "Nova works best with Heroes that provide one or many form of engage\nor crowd control, to help her deal damage\nwith Snipe without the risk of missing too often.\nMore importantly, Nova has to be paired with Heroes that make up\nfor her huge lack of waveclear,\notherwise your team will struggle doing anything during the game\nbecause of enemy Minions constantly giving vision to the enemy team\nand continually damaging your Structures until they fall."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "chen",
+    "genji",
+    "zarya",
+    "brightwing"
+   ],
+   "text": "Being a Ranged Assassin with little in the way of escaping, Nova\nmust rely on burst damage and long range to perform well. As a consequence,\nshe struggles with anything that has tools for mitigating damage (for example Zarya)\nand against dive Heroes who get up close and personal with her (such as Zeratul).\nNova does not like to play against global Heroes\n(notably Brightwing) because they can instantly nullify\nher numerical advantage when she is trying to gank someone.\nNever fully commit to a gank in those cases, otherwise it may backfire.\nInstead, play it safely and always be ready to retreat as someone else shows up."
+  }
+ },
+ "orphea": {
+  "synergies": {
+   "heroes": [
+    "blaze",
+    "johanna",
+    "maiev",
+    "malganis",
+    "varian",
+    "xul"
+   ],
+   "text": "Since Orphea depends highly on skillshots to deal damage, she works\nwell with any Hero that can provide reliable crowd control.\nHer frailty also makes her dependent on other Heroes to peel for her\nagainst melee Assassins particularly; Tanks tend to fulfill these\ntwo needs, though other Hero types can too."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "chen",
+    "genji",
+    "johanna",
+    "lunara",
+    "muradin"
+   ],
+   "text": "Since Orphea relies heavily on skillshots with a\ncast time to deal damage and on hitting her charged\nBasic Attacks to heal herself, she is countered by many heroes. Her damage and\nsurvivability can be significantly reduced by canceling her abilities, blinding\nor evading her basic attacks, dashing out of her abilities, chaining\ncrowd control, or using very high range attacks."
+  }
+ },
+ "probius": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "diablo",
+    "anubarak",
+    "arthas",
+    "malfurion"
+   ],
+   "text": "Probius works best with Heroes that provide a strong frontline\nhe is able to seek refuge behind, as well as supports who can assist in peeling\naway enemies attempting to dive him. These Heroes also should have some\nreliable source of hard crowd-control since Probius\nunfortunately does not have any himself until Level 10 with Null Gate."
+  },
+  "counters": {
+   "heroes": [
+    "kerrigan",
+    "alarak",
+    "zeratul",
+    "tracer"
+   ],
+   "text": "Probius is countered by high mobility Assassins\nwith large amounts of burst damage and crowd-control.\nProbius' lack of a gap-closer may regularly be capitalized\non by more agile opponents."
+  }
+ },
+ "raynor": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "garrosh",
+    "thrall",
+    "lt-morales"
+   ],
+   "text": "Raynor excels if played with Heroes that can easily protect him, while also creating space\nso he can deliver more Basic Attacks. Beside the tanks with decent peel\ncapabilities, Thrall is a good teammate, since\nEarthquake's slow will not only assist Raynor against engages,\nbut will also allow him to play freely in fights."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "artanis",
+    "cassia"
+   ],
+   "text": "Since Raynor relies completely on his Basic Attacks, Blinds are his worst enemy.\nAs a result, Heroes like Johanna, Artanis, or Cassia\ncan really cripple Raynor's combat performance."
+  }
+ },
+ "sgt-hammer": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "johanna",
+    "lt-morales",
+    "ana"
+   ],
+   "text": "Protect the Hammer! Sgt. Hammer's binary design makes her depend on Heroes\nwho have ways of keeping opponents away from her to thrive."
+  },
+  "counters": {
+   "heroes": [
+    "artanis",
+    "chromie",
+    "kel-thuzad",
+    "li-ming",
+    "stitches"
+   ],
+   "text": "Since Sgt. Hammer needs to stand still to get the most out of her Abilities,\nshe is naturally vulnerable to Heroes that use dangerous skillshots,\nparticularly those that can displace her."
+  }
+ },
+ "sylvanas": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "e-t-c",
+    "maiev",
+    "genji",
+    "blaze",
+    "malthael",
+    "malfurion"
+   ],
+   "text": "Sylvanas is a flexible pick whose build and gameplay versatility allow her to\nwork well with almost any team composition. She excels when allied with Heroes\nthat can reliably pull enemies together or keep them in place with area of\neffect crowd control, as she can easily\nburst down grouped enemies in confined spaces with\nWailing Arrow and\nShadow Dagger. Furthermore, she pairs well with\nHeroes that can quickly finish off low Health enemies, since her Talent builds\ncan either spread damage across multiple targets or enable the team to swiftly\neliminate a single priority target through Mind Control."
+  },
+  "counters": {
+   "heroes": [
+    "chen",
+    "genji",
+    "nova",
+    "valeera",
+    "zeratul"
+   ],
+   "text": "As a fragile backline Hero, Sylvanas struggles against anything that\ncan either burst her down or match the mobility\nprovided by Haunting Wave.\nStealthed Heroes are particularly threatening to her, as they\nseverely limit her ability to safely stack her Black Arrows quest."
+  }
+ },
+ "tassadar": {
+  "synergies": {
+   "heroes": [
+    "maiev",
+    "johanna",
+    "e-t-c",
+    "genji",
+    "zeratul"
+   ],
+   "text": "Tassadar relies on hitting Shock Ray, so he excels\nwith E.T.C. or Johanna, Heroes with powerful\ncrowd controls, that can easily\nsetup enemies for his Abilities. Tassadar\nalso has a hard time finishing enemies, so Assassins with high mobility\ncan be used with him in order to kill the low-Health targets."
+  },
+  "counters": {
+   "heroes": [
+    "tracer",
+    "greymane",
+    "zeratul",
+    "anubarak",
+    "kerrigan"
+   ],
+   "text": "Tassadar is countered by highly mobile Heroes who can easily dive or stun him.\nHis lack of mobility and low health pool turns him into an easy target for mobile Heroes,\nbeing very dependent of allies to peel him against those."
+  }
+ },
+ "tracer": {
+  "synergies": {
+   "heroes": [
+    "tassadar",
+    "jaina",
+    "guldan",
+    "kaelthas",
+    "malfurion",
+    "anduin",
+    "abathur"
+   ],
+   "text": "Tracer does well with Heroes who have strong waveclear, who can also deal\narea damage over time. Malfurion is a good pick for Tracer. He can heal her\nfrom a long distance due to how Regrowth works. Anduin\nis also good with her, because with her high mobility, Tracer can easily make\nLightbomb hit the opposing backline."
+  },
+  "counters": {
+   "heroes": [
+    "varian",
+    "diablo",
+    "medivh",
+    "raynor",
+    "sgt-hammer"
+   ],
+   "text": "Tracer is threatened by Heroes who have Abilities that can target her\ndirectly, such as Poly Bomb or Taunt.\nHer survival depends on mobility; she dies very quickly when she\ncannot avoid damage. This makes her vulnerable against Heroes with powerful\nranged Basic Attacks, and Heroes who can disable her with single target\ncrowdcontrol that prevents Recall from being cast."
+  }
+ },
+ "tychus": {
+  "synergies": {
+   "heroes": [
+    "garrosh",
+    "e-t-c",
+    "dehaka",
+    "uther"
+   ],
+   "text": "Tychus can deal an incredible amount of damage to a stationary target, and\nbenefits greatly from having strong crowd-control on his team. Heroes who can\nchain crowd-control or displace enemies on their own do very well with\nTychus, because they can lock down an enemy while Minigun does its work.\nTychus thrives when his frontline is made up of disruptive Heroes that prevent the enemy team from\nfocusing him safely."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "johanna",
+    "lucio"
+   ],
+   "text": "Tychus does exceptionally high sustain damage with high-Cooldown Abilities.\nThis can be countered by Heroes who can move themselves and their allies out of\nrange of Tychus until his Abilities are on cooldown. Interrupting or Blinding Tychus\nis also a great way to control his damage output. Tychus is very\nsusceptible to crowd-controls; they can interrupt Overkill and eat up Minigun's\nactive duration."
+  }
+ },
+ "valla": {
+  "synergies": {
+   "heroes": [
+    "arthas",
+    "garrosh",
+    "auriel",
+    "uther"
+   ],
+   "text": "Valla is at her best when something stands between her and her enemies.\nLarge, Healthy Tanks are particularly desirable as they draw attention\naway from Valla, and often provide their own form of crowd control for\npotential follow-ups. Otherwise, anything that can protect Valla is also\ndesirable. Shielding effects are particularly impactful due to her limited\nHealth pool."
+  },
+  "counters": {
+   "heroes": [
+    "greymane",
+    "illidan",
+    "nova",
+    "the-butcher",
+    "valeera",
+    "zeratul"
+   ],
+   "text": "As a frail Ranged Assassin, Valla tends to naturally struggle against other\nhigh-damage Assassins who have the ability\nto effectively gap close past her\nVault's range or otherwise sneak up on her\n(such has Zeratul). With little in the way of\nself-peeling, make sure to stay near your Healer when possible\nagainst such Heroes, and make no bold attempts at outplaying your opponents."
+  }
+ },
+ "xalatath": {
+  "synergies": {
+   "heroes": [
+    "zeratul",
+    "maiev",
+    "anubarak",
+    "e-t-c",
+    "diablo"
+   ],
+   "text": "Allied crowd control gives Xal'atath a window\nto land Shadow Mark's center and several Void Volley projectiles. It also gives\nthe Dark Heart time to reach a Marked target. Void Prison\nand Containment Disc let Xal'atath charge\nVoid Eruption in advance."
+  },
+  "counters": {
+   "heroes": [
+    "genji",
+    "tracer",
+    "zeratul",
+    "sonya",
+    "hanzo",
+    "alarak"
+   ],
+   "text": "Shadow Mark travels slowly, and Void Volley's projectiles launch over time,\ngiving mobile enemies a chance to avoid both. Xal'atath has low Health, little\nself-peel, and only Void Step to escape. Hard engages such as\nDragon's Arrow or Leap can catch her\nbefore she can reposition, especially if she has already used Void Step."
+  }
+ },
+ "zagara": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "jaina",
+    "deckard"
+   ],
+   "text": "Due to her lack of mobility, Zagara is best when paired with one or two\nTanks who can provide her a strong\nfrontline. Those with reliable\ncrowd-control can also set up devastating combos\nwith Zagara's Devouring Maw."
+  },
+  "counters": {
+   "heroes": [
+    "illidan",
+    "falstad",
+    "chen",
+    "zeratul"
+   ],
+   "text": "Zagara is counterd in lane by high mobility Assassins like\nIllidan, who can outsustain\nher and stick to her even while on Creep. Furthermore, global range Heroes\nlike Falstad or\nDehaka can drastically limit her efficiency while\nsplit-pushing."
+  }
+ },
+ "zuljin": {
+  "synergies": {
+   "heroes": [
+    "tyrael",
+    "e-t-c",
+    "tassadar",
+    "uther",
+    "medivh",
+    "arthas"
+   ],
+   "text": "Zul'jin performs best with Heroes who are able to provide him a strong\nfrontline as well as Healers\nwho can help him manage his Health drain. Uther and\nTyrael work particularly well with Zul'jin as\nDivine Shield and Sanctification\ncan be overlapped with Taz'dingo! for a phenomenal results."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "dehaka",
+    "diablo",
+    "garrosh",
+    "uther"
+   ],
+   "text": "Zul'jin is heavily countered by enemy Heroes that can\ndive him, disable him via Stuns\nor Silences, and burst him down,\nespecially before he is able to activate Taz'dingo!. Heroes\nwith reliable Blinds (such as Li Li's\nBlinding Wind) also severely hinder Zul'jin's effectiveness in battle."
+  }
+ },
+ "alarak": {
+  "synergies": {
+   "heroes": [
+    "raynor",
+    "jaina",
+    "e-t-c",
+    "garrosh"
+   ],
+   "text": "Alarak has terrible waveclear, but excels at displacing\nenemies, while silencing them. Therefore, Assassins with decent\nwaveclear and good damage to follow his combo are\nexcellent with him, such as Jaina or Raynor. E.T.C. and\nGarrosh are also decent with Alarak, since their displacement and\ncrowdcontrol are good for following his combo, or\nto setup for it."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "johanna",
+    "deathwing",
+    "medivh"
+   ],
+   "text": "Alarak is countered by crowd control.\nJohanna and E.T.C. are a threat, since their stuns\nwill not allow Counter-Strike or Telekinesis\nto be used, turning him into an easy kill. Medivh is also a nuisance, since his\nForce of Will may protect against Discord Strike,\nand Poly Bomb is a great follow up to kill you.\nDeathwing can ignore Alarak, since he is constantly\nunstoppable and will not be displaced or silenced."
+  }
+ },
+ "illidan": {
+  "synergies": {
+   "heroes": [
+    "abathur",
+    "medivh",
+    "rehgar",
+    "tyrael",
+    "uther",
+    "zarya"
+   ],
+   "text": "Illidan strives when played with any Hero that can increase his\nsurvivability, be it through Shielding effects, Armor, or raw instant\nhealing. He is typically known to requires allied Heroes known as \"enablers\" to be at\nhis best.\nMedivh is one of the best enablers for Illidan, due to how he covers Illidan's weaknesses\nto burst damage while he is under\ncrowd control. Additionally, it is\nimportant to not use Force of Will during Evasion,\nsince the overlap of 2 defensive Abilities may considerably cripple Illidan's\nsurvivability. We recommend using Medivh's shield right after Evasion runs out,\nso Illidan can reset his cooldowns while protected."
+  },
+  "counters": {
+   "heroes": [
+    "arthas",
+    "brightwing",
+    "e-t-c",
+    "li-li",
+    "johanna",
+    "muradin",
+    "sonya",
+    "uther",
+    "varian"
+   ],
+   "text": "Illidan's reliance on the healing and Cooldown reduction provided by\nBetrayer's Thirst makes him particularly vulnerable to effects that can reduce\nhis attack speed or otherwise stop him from attacking. Furthermore, his ability\nto split push can often be matched by other Heroes to even out any\nadvantage generated by this strategy. Although Illidan can be countered by many\nHeroes, his design makes him very oppressive when poorly counterpicked."
+  }
+ },
+ "kerrigan": {
+  "synergies": {
+   "heroes": [
+    "tyrael",
+    "uther",
+    "medivh",
+    "tyrande"
+   ],
+   "text": "Kerrigan works best with allies who are able to prevent her from being immediately killed\nby the enemy after engaging onto a target with Ravage.\nAlso, Heroes that are able to followup on her Primal Grasp/Impaling Blades combo with\nadditional crowd-control and burst damage are always a bonus."
+  },
+  "counters": {
+   "heroes": [
+    "tyrael",
+    "e-t-c",
+    "garrosh",
+    "uther",
+    "medivh",
+    "auriel",
+    "lucio"
+   ],
+   "text": "Kerrigan is countered by Heroes who are able to prevent her target of focus from\nbeing immediately killed, which most often will leave her vulnerable and without\nmeans of escape deep within the enemy backline. She will also\nstruggle against teams with multiple sources of strong\ncrowd-control that will lock her up after she initiates."
+  }
+ },
+ "maiev": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "blaze",
+    "jaina",
+    "tassadar",
+    "deckard",
+    "malfurion"
+   ],
+   "text": "Maiev's unique ability to reliably Pull a number of Heroes to her works\nparticularly well with Tanks who seek to set up\ncrowd control chains. Assassins with large amounts of\navoidable area of effect damage will also find Umbral Bind particularly\nuseful. Additionally, she is also favored by having healers with\ngood AoE spells to benefit from her engage."
+  },
+  "counters": {
+   "heroes": [
+    "arthas",
+    "tyrael",
+    "e-t-c",
+    "johanna",
+    "lunara",
+    "tracer",
+    "lucio",
+    "brightwing"
+   ],
+   "text": "Maiev's relatively predictable game plan tends to be easily disrupted by\ncrowd control or blinds, since those\nwill completely shutdown Maiev's Umbral Bind. Furthermore,\nMaiev also struggles against Heroes with high mobility that can easily kite her."
+  }
+ },
+ "murky": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "zarya",
+    "brightwing"
+   ],
+   "text": "Murky's small Health pool benefits from any effect that can mitigate incoming damage\n(for example Blinds, Armor, or Shields)."
+  },
+  "counters": {
+   "heroes": [
+    "sonya",
+    "falstad"
+   ],
+   "text": "Murky's predictable attack plan and his dependency on remaining within close\nrange of his targets to effectively deal damage make him vulnerable to most\nhigh damage Hero with some way of kiting him or quickly\ndestroying Pufferfish."
+  }
+ },
+ "qhira": {
+  "synergies": {
+   "heroes": [
+    "uther",
+    "rehgar",
+    "abathur",
+    "anubarak"
+   ],
+   "text": "Qhira pairs very well with Healers that excel at supporting individual targets by\nempowering their damage or granting them large amounts of protection.\nFurthermore, Tanks with strong crowd control make it easier for her\nto reliably land her skillshots."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "diablo",
+    "garrosh",
+    "lunara",
+    "tracer"
+   ],
+   "text": "Every Qhira Ability besides Blood Rage can be interrupted\nby crowd control or displacements\n( Unrelenting Strikes is only interrupted by stuns or silences).\nTherefore, she is countered by Heroes that can constantly knock her back or stun her.\nSince Carnage and Revolving Sweep\nare slow skillshots, it is extremely painful for her to face\nvery mobile ranged Heroes, like Tracer."
+  }
+ },
+ "samuro": {
+  "synergies": {
+   "heroes": [
+    "abathur",
+    "deckard",
+    "malfurion",
+    "sylvanas"
+   ],
+   "text": "Samuro does well with Heroes who can increase the stats of his Images, or that can heal\nhim from afar, like Malfurion and Deckard can. He also excels with Abathur,\nthe only thing better than Three Blade Style is\nSix Blade Style.\nYou, improved."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "lucio",
+    "yrel",
+    "cassia",
+    "orphea",
+    "medivh",
+    "diablo",
+    "stukov"
+   ],
+   "text": "As Samuro has a hard time dealing with Knockbacks, Heroes like Lúcio\nand E.T.C. can greatly reduce his effectiveness by pushing him away at every\npossible aggression. He also suffers against Heroes that can easily kill his images,\nlike Jaina, Orphea or Cassia with Surge of Light.\nFurthermore, Heroes that benefit from hitting clones can be a problem, such as\nMedivh, or Diablo.\nStukov is exceptional against Samuro\nbecause of Biotic Armor and Flailing Swipe,\nwhich can greatly reduce Samuro's damage."
+  }
+ },
+ "the-butcher": {
+  "synergies": {
+   "heroes": [
+    "abathur",
+    "tyrande",
+    "uther",
+    "tyrael"
+   ],
+   "text": "The Butcher performs best with allies who are able to provide him with\nbonus means of survival after he charges into the enemy team. This is\nbecause often times The Butcher will become the primary target of\nfocusfire after engaging with\nRuthless Onslaught. Allies with some form of\nhard crowd-control who can followup\non Ruthless Onslaught are also a welcomed addition."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "e-t-c",
+    "brightwing",
+    "uther"
+   ],
+   "text": "The Butcher's \"all-in\" play style tends to suffer against Heroes who\nare able to completely shut down his damage output through mitigation\nor hard crowd-control. Blinds, Silences,\nStuns, and Invulnerability work well to keep The Butcher at bay."
+  }
+ },
+ "valeera": {
+  "synergies": {
+   "heroes": [
+    "garrosh",
+    "e-t-c",
+    "thrall",
+    "jaina",
+    "abathur"
+   ],
+   "text": "Valeera peforms best with Heroes who have a reliable source of\ncrowd-control, high burst damage, or both.\nBesides those, Garrosh and E.T.C. are good partners, because they\ncan easily displace an enemy for Valeera to silence and kill. Furthermore, Abathur\nis a great pick with her. He will turn Valeera into an even more dangerous roamer,\ncapable of killing targets anywhere before they leave silence."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "arthas",
+    "medivh",
+    "lucio"
+   ],
+   "text": "Valeera is countered by Heroes who are able to easily break her from Stealth,\nas this will prevent her from being able to cast any of her opener abilities. She also\nis very susceptible to crowd-control as her\noverextended positioning within the enemy\nbackline will often cause her to be quickly taken down\nonce rendered immobile."
+  }
+ },
+ "zeratul": {
+  "synergies": {
+   "heroes": [
+    "abathur",
+    "diablo",
+    "garrosh",
+    "malfurion",
+    "kharazim",
+    "jaina",
+    "li-ming",
+    "junkrat",
+    "hanzo"
+   ],
+   "text": "Zeratul's mobility and burst damage\nmakes him prefer allies that can follow his\ndives. Otherwise, he works well with Heroes that have strong\nHeroic Abilities that require some form of setup, thanks to\nVoid Prison."
+  },
+  "counters": {
+   "heroes": [
+    "brightwing",
+    "uther",
+    "varian",
+    "diablo",
+    "e-t-c",
+    "medivh"
+   ],
+   "text": "Zeratul tends to struggle against Heroes with targeted crowd control\neffects, as they prevent him from exploiting Blink and generally\nremaining safe due to his limited Health pool."
+  }
+ },
+ "alexstrasza": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "blaze",
+    "kaelthas",
+    "azmodan"
+   ],
+   "text": "Alexstrasza has an affinity with Heroes that have high maximum Health (such as Diablo)\nbecause Abundance baseline,\nLife-Binder at Level 10,\nand Life Unbound at Level 13\nprovide percent-based healing.\nAs she lack crowd control,\nshe should be played together with a few Heroes who can provide that\n(such as Kael'thas thanks to Gravity Lapse),\nin addition to similar effects provided by the main Tank of your team\nto peel for her."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "yrel",
+    "junkrat",
+    "sylvanas",
+    "ana"
+   ],
+   "text": "Alexstrasza offers a lot of raw healing and barely any utility, therefore she\nstruggles against enemey Heroes that have access to healing reduction effects\n(such as Deckard Cain with Emerald at Level 7).\nShe suffers against area of effect Abilities\n(such as Concussion Mine by Junkrat)\nand/or burst damage (for example\nFlamestrike by Kael'thas)\nused on Abundance's location.\nHeroes that can stick to Alexstrasza\nand interrupt (such as Yrel)\nDragonqueen and/or\nCleansing Flame can put serious pressure on her.\nDragonqueen can be countered by making Alexstrasza\nunable to act (for example Cocoon by Anub'arak)\nor by forcing a disengage\n(like Mighty Gust by Falstad)."
+  }
+ },
+ "ana": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "li-ming"
+   ],
+   "text": "Nano Boost possesses outstanding synergy with\nMages (such as Mephisto) or, more in general,\nHeroes who deal the majority of their damage with Abilities and not Basic Attacks.\nEven if they can also be used\non their own, Sleep Dart and\nBiotic Grenade benefit from allied Heroes who can provide\nreliable crowd control with their Basic Abilities\n(like E.T.C.) that will make them impossible to miss."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "zeratul",
+    "hanzo",
+    "lucio"
+   ],
+   "text": "Since her self-healing is limited, Ana usually struggles against Heroes\nwho can ignore her team and dive her instead\n(such as Chen with Storm, Earth, Fire).\nAbilities that can isolate an enemy Hero (like\nCocoon by Anub'arak) or\ndisengage (like Mighty Gust by\nFalstad) can be used to counter Nano Boost in two\ndifferent ways.\nWhile not as effective as the counters that have been mentioned\nabove, poke is also a decent tool against her, but only if\nyou can actually do considerable damage to her from high distance\n(such as Hanzo).\nThere are no Healers who can counter Ana,\nhowever, you might prefer going for a Hero who offers utility instead of raw\nhealing (like Lúcio that can count on Sound Barrier\nto support his team without actually healing them)."
+  }
+ },
+ "anduin": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "blaze",
+    "the-butcher",
+    "alarak",
+    "genji",
+    "sylvanas"
+   ],
+   "text": "Chastise is not that easy to land, therefore Heroes\nwith reliable crowd control can help Anduin with doing so.\nFor this reason, you should draft Anduin together with a Tank\nwith a Stun, Root, or a powerful\nSlow. On a similar note, Stitches is a unique Hero\nwho can also help you with that, given you are ready to cast\nChastise right after Hook\ngoes off, without waiting to see if it will hit or not,\notherwise the projectile will end up being late.\nThe utility that Anduin offers with Leap of Faith\ncan help allied Heroes who lack mobility\n(such as Raynor) to get away\nfrom danger or even enable more aggressive plays\nfrom Heroes that lack escape tools (for example Diablo, to save his Souls).\nYou can pair Lightbomb with a lot of Abilities\n(for example Wind Rush by Thrall)\nto execute powerful and quick engages\nthat the enemy team will struggle to play against\nor simply use it as a follow-up\nto other crowd control effects\n(such as Blessed Shield by Johanna)."
+  },
+  "counters": {
+   "heroes": [
+    "varian",
+    "sonya",
+    "lunara",
+    "kaelthas",
+    "stukov"
+   ],
+   "text": "Anduin cannot rely on Leap of Faith to save allied Heroes\nfrom enemy Heroes that can engage multiple times per minute\n(for example E.T.C. with Powerslide).\nA strong dive Hero (such as Sonya) can heavily pressure\nAnduin, to the point that he will not be able to heal the rest of his team anymore,\nin addition to rendering Leap of Faith useless.\nPoke damage is annoying for Anduin\nbecause he lacks area of effect sustain healing\nto keep everyone healthy during prolonged team fights."
+  }
+ },
+ "auriel": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "leoric",
+    "valla",
+    "tassadar"
+   ],
+   "text": "To get the most value out of Bestow Hope,\nyou should pick Auriel together with a Hero who can consistently deal damage\nfrom the distance (such as Valla) without relying too much\non skillshots.\nDetainment Strike benefits from impassable terrain,\nmaking Auriel better when paired with Heroes that can push enemy Heroes on it\n(like Diablo with Shadow Charge)\nor create it out of nowhere (for example Nazeebo\nwith Zombie Wall).\nAs she can fight for long periods of time without having Mana issues,\nAuriel likes to be in team with Heroes who can take care of multiple lanes\nat the same time by double soaking (like Yrel)\nwhile the rest of her team puts a lot of pressure on a single lane.\nSince she heals using Energy instead of Mana, Auriel\nis one of the best Healers to pair\nwith Cho'Gall, another Hero without Mana.\nFurthermore, using Bestow Hope on them\nwill convert both Cho's and Gall's damage into Energy."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "chen",
+    "junkrat",
+    "chromie",
+    "deckard"
+   ],
+   "text": "The 4-second cooldown on Ray of Heaven\nprevents it from saving allied Heroes from burst damage.\nA well-timed crowd control (such as Wailing Arrow)\n3 seconds after she cast the previous Ray of Heaven can further extend this time frame.\nHeroes who have access to Knockback effects\n(like Junkrat with Concussion Mine)\ncan use them to split Auriel's team so that she cannot use Ray of Heaven\non multiple Heroes at the same time.\nAuriel's Heroic Abilities allows the enemy team to easily\nfollow up with their Abilities (for example\nEntangling Roots by Malfurion).\nDue to her dependency on dealing damage to get Energy for healing,\nAuriel does not perform that well against poke damage (such as Hanzo),\nespecially when the enemy team has the lead."
+  }
+ },
+ "brightwing": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "cho",
+    "stitches",
+    "tracer",
+    "genji"
+   ],
+   "text": "Since Brightwing's Phase Shift heals based on the target's\nmaximum Health, she is excellent with high-health Heroes, like Diablo, Stitches,\nor Cho. Furthermore, through her global mobility she provides good support for dives,\nbeing a good pick with Heroes that excel at that, like Genji or Tracer."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "johanna",
+    "e-t-c"
+   ],
+   "text": "Brightwing gets countered by crowd control\nheavy Tanks that cannot have their engages\ncanceled by Polymorph, such as\nAnub'arak, Johanna, or E.T.C.."
+  }
+ },
+ "deckard": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "blaze",
+    "sgt-hammer",
+    "jaina"
+   ],
+   "text": "Scroll Of Sealing makes Deckard excellent at following up on\nHeroes that can provide their own source of reliable crowd control\n(for example Johanna) and similarly good at setting up enemy Heroes\nfor allied skillshot-based Abilities (such as Kel'Thuzad).\nHealing Potion is extremely easy to use for healing allied Heroes\nwithout mobility, so they are great to have on Deckard's side.\nFor the same reason, you should avoid picking high-mobility Heroes\nand/or dive Heroes."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "deathwing",
+    "tracer",
+    "li-ming",
+    "malfurion"
+   ],
+   "text": "With little in the way of mobility,\nDeckard struggles against Heroes who can easily engage on him,\nespecially if they are ranged.\nHeroes who have access to Unstoppable effects\nhave easy life against Deckard as they can ignore all his offensive Abilities.\nSimilarly, Cleanse effects (for example Intercession\nby Whitemane) are good against Deckard\nbecause they basically deny his main strength: crowd control.\nDeckard can make up for his weakness to burst damage\nby taking short fights, however, the enemy team will usually still have an edge during them."
+  }
+ },
+ "kharazim": {
+  "synergies": {
+   "heroes": [
+    "garrosh",
+    "e-t-c",
+    "anubarak",
+    "genji"
+   ],
+   "text": "Kharazim thrives if paired with a frontline that\nbenefits of his Movement Speed buffs. Heroes that can easily displace an enemy Hero\nare also a great option with him—because Seven-Sided Strike\ncan be used to kill the target—like Garrosh or E.T.C..\nHeroes focused on diving enemies can be good with Kharazim, because\nthey can easily kill any backliner together.\nIf, however, the team composition features too many\nbackliners, Kharazim will usually struggle to\nkeep them all alive and should not be considered as a pick."
+  },
+  "counters": {
+   "heroes": [
+    "johanna",
+    "auriel",
+    "medivh",
+    "uther"
+   ],
+   "text": "Kharazim's Attack Speed plays an important role in both of his playstyles. Thus,\nHeroes like Johanna or Auriel who can either\nblind him or push him away during Deadly Reach can greatly\nreduce his effectiveness. Furthermore, Heroes who can easily peel their teammates from\nKharazim are also very hard to deal with, like Uther or Medivh."
+  }
+ },
+ "li-li": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "blaze",
+    "hanzo",
+    "kaelthas",
+    "uther"
+   ],
+   "text": "Li Li does very well with Heroes who can mitigate burst damage on their own\nbecause it allows her to succeed against burst damage, where she otherwise struggles.\nThat said, this is not a concern when facing team compositions that lack\nburst damage altogether.\nWhile not really a synergy, Li Li also does well with Heroes who have strong waveclear\nas she is not able to directly contribute to macro pressure in a meaningful way.\nLast but not the least, Li Li does not have access to hard crowd control effects,\ntherefore she will perform way better when paired with Heroes who can provide it.\nConsidering how her Abilities and Talents work, Li Li is pretty interesting\nto play together with a burst Healer,\nbut make sure to still have a well-rounded team composition when doing so."
+  },
+  "counters": {
+   "heroes": [
+    "e-t-c",
+    "yrel",
+    "sylvanas",
+    "jaina",
+    "stukov"
+   ],
+   "text": "Healing Brew is not very effective against burst damage\nbecause it does not heal that much and has a relatively slow animation.\nLi Li is also countered by crowd control\nthat can interrupt her Heroic Abilities."
+  }
+ },
+ "lt-morales": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "raynor"
+   ],
+   "text": "Lt. Morales requires a solid Tank who can consistently\npeel multiple enemy Heroes away from her (such as E.T.C.).\nIf you want to get value from Stim Drone, you need a\nmarksman in your team (for example Sgt. Hammer)."
+  },
+  "counters": {
+   "heroes": [
+    "garrosh",
+    "chen",
+    "chromie",
+    "lunara",
+    "auriel"
+   ],
+   "text": "Considering that Healing Beam needs the targeted\nallied Hero to be in range for the whole time and not just the moment you cast it,\nLt. Morales suffers against Heroes who have Displacement\neffects (such as Garrosh and Junkrat). Due to her limited self-healing and lack of\ncrowd control, she does not like to play against\ndive compositions that count on aggressive Heroes\nwho can directly engage on her by skipping her\nfrontline (for example Zeratul and Anub'arak).\nWhat is often overlooked is the fact that she suffers poke damage\nbecause it can drain out her Energy in around 20 seconds,\nsomething that will make her almost useless for a while.\nAs a consequence of how her Energy works, she does not want to take prolonged fights,\nespecially when the enemy team can get value out of them (such as Auriel).\nLast but not the least, she definitely suffers area of effect\ndamage (for example Lunara) because all of her Abilities can heal\nor mitigate damage on a single allied Hero at a time."
+  }
+ },
+ "lucio": {
+  "synergies": {
+   "heroes": [
+    "arthas",
+    "diablo",
+    "greymane",
+    "valla"
+   ],
+   "text": "Lucio performs very well with low-mobility Heroes as he can provide useful\nMovement Speed to them, who will have a much easier time sticking to their targets.\nThis characteristic, combined with the fact that Lúcio has 2 powerful Heroic Abilities,\nmakes him one of the best dive Healers in the game."
+  },
+  "counters": {
+   "heroes": [
+    "deckard",
+    "malfurion",
+    "sgt-hammer",
+    "raynor"
+   ],
+   "text": "Since Lúcio relies heavily on his High Five to save allies,\nHeroes with persistent cc abilities on the ground like\nEntangling Roots or Stay Awhile and Listen\nare effective against him, as he often gets caught in these when trying to help teammates.\nLúcio also struggles against Heroes with long range and single-target damage,\nlike Raynor or Sgt. Hammer."
+  }
+ },
+ "malfurion": {
+  "synergies": {
+   "heroes": [
+    "blaze",
+    "chromie",
+    "guldan",
+    "jaina",
+    "kaelthas",
+    "kel-thuzad",
+    "li-ming",
+    "nazeebo",
+    "ragnaros"
+   ],
+   "text": "Innervate makes Malfurion a natural ally to any Hero that heavily\nrelies on cooldowns or Mana. Entangling Roots also makes him excellent\nat following up on anything that can provide their own source of\nreliable crowd control."
+  },
+  "counters": {
+   "heroes": [
+    "alarak",
+    "anubarak",
+    "artanis",
+    "jaina",
+    "kerrigan",
+    "li-ming",
+    "tracer"
+   ],
+   "text": "Although not particularly vulnerable to any specific Hero himself, Malfurion\ntends to struggle against burst damage. His sub-par waveclear can also\nbe problematic if your team composition does not make up for this weakness\nsomewhere else."
+  }
+ },
+ "rehgar": {
+  "synergies": {
+   "heroes": [
+    "sonya",
+    "illidan",
+    "greymane"
+   ],
+   "text": "Rehgar is a strong enabler for Bruisers\n(such as Sonya) and Melee Assassins\n(for example Illidan) because they benefit a lot from his whole kit:\nLightning Shield is great on them,\nAncestral Healing can be used to keep them alive,\nand Bloodlust provides them mobility, damage, and survivability."
+  },
+  "counters": {
+   "heroes": [
+    "muradin",
+    "varian",
+    "ana",
+    "tracer"
+   ],
+   "text": "Due to his limited single-target sustain healing,\nRehgar is not that good against poke compositions\nwho can whittle down a single target (usually the Tank)\nwith constant damage.\nAlthough he is great against burst-compositions,\nsome of them will have access to healing reduction effects\n(notably Biotic Grenade by Ana),\nwhich can partially or completely shut down his main anti-burst tool\nwhen timed correctly: Ancestral Healing."
+  }
+ },
+ "stukov": {
+  "synergies": {
+   "heroes": [
+    "raynor",
+    "e-t-c",
+    "sgt-hammer"
+   ],
+   "text": "Stukov is strong with Heroes who teamfight near their allies, as opposed to\nthose that will dive out of range of Healing Pathogen. He is also strong with\nHeroes who have access to some form of Executioner, because he is capable of\nliberally applying slows."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "genji",
+    "uther"
+   ],
+   "text": "Stukov is countered by high mobility Heroes who can circumvent his zone\ncontrol. Lacking any form of Cleanse, Heroes with access to multiple crowd\ncontrol Abilities are also effective against him."
+  }
+ },
+ "tyrande": {
+  "synergies": {
+   "heroes": [
+    "diablo",
+    "e-t-c",
+    "varian",
+    "anubarak",
+    "li-ming",
+    "greymane",
+    "raynor",
+    "hanzo"
+   ],
+   "text": "Tyrande synergizes very well with Tanks like Diablo,\nE.T.C., or Varian, whose\ninitiation Abilities lay a perfect foundation for\nLunar Flare's Stun effect.\nBurst-oriented Assassins can easily\ncapitalize on Hunter's Mark Armor Reduction, while\nBasic Attack-heavy Heroes benefit from Trueshot Aura's\n40% damage increase for 5 seconds."
+  },
+  "counters": {
+   "heroes": [
+    "anubarak",
+    "muradin",
+    "zeratul",
+    "maiev",
+    "fenix",
+    "lunara"
+   ],
+   "text": "Tyrande struggles against heavy dive Heroes, that can easily\nreach her, such as Anub'arak or Maiev.\nDespite that, since Tyrande lacks AoE healing, she also\nsuffers against Heroes like Fenix or Lunara, that can damage\nall of her team at the same time."
+  }
+ },
+ "uther": {
+  "synergies": {
+   "heroes": [
+    "e-t-c",
+    "kerrigan",
+    "illidan",
+    "the-butcher",
+    "zuljin",
+    "malfurion"
+   ],
+   "text": "Uther's high instantaneous healing and reliable means of providing Armor make\nhim particularly potent with aggressive melee Heroes that can provide their own\nself-sustain but may otherwise need help against burst damage.\nYou can get even more value from Armor by pairing Uther with\na sustain Healer (such as Malfurion).\nDivine Shield enables some of the game's most dangerous combos by allowing\ncertain Heroes to play aggressively without fear of retaliation (for example Kerrigan).\nSimilarly, it can be used to protect channeled Abilities\n(notably Mosh Pit by E.T.C.) from enemy interrupts."
+  },
+  "counters": {
+   "heroes": [
+    "guldan",
+    "lunara",
+    "malthael",
+    "nazeebo",
+    "sylvanas",
+    "zagara"
+   ],
+   "text": "Although not particularly vulnerable to any specific Hero himself, Uther\ntends to struggle against sustain damage, particularly over an area of\neffect, as his healing is powerful, but ultimately inefficient. His sub-par waveclear\ncan also be problematic if your team composition does not make up for this\nweakness somewhere else."
+  }
+ },
+ "whitemane": {
+  "synergies": {
+   "heroes": [
+    "johanna",
+    "sonya",
+    "cassia",
+    "chromie",
+    "hanzo"
+   ],
+   "text": "Whitemane has synergy with Heroes who can create a lot of space\n(for example Johanna) or that like to take prolonged team fights\n(such as Sonya) as she can keep healing them for long.\nDue to the high amount of raw healing she has access to, Whitemane\nis great when paired with Heroes who have Armor\nbaseline (like Garrosh) or with high uptime\n(notably Cassia)."
+  },
+  "counters": {
+   "heroes": [
+    "garrosh",
+    "malthael",
+    "alarak",
+    "li-ming",
+    "ana"
+   ],
+   "text": "Whitemane has very limited mobility, and must remain within the threat range\nof enemies in order to deal damage to heal her allies. She will struggle\nagainst Heroes who can displace her,\nas she lacks any kind of escape once\ncaught, or crowd control her to death.\nHeroes who can deal damage to Whitemane and her teammates\nwhile she cannot damage them back (for example Chromie)\nmay be difficult to play against. Additionally, Heroes who can significantly reduce or\nprevent healing received (such as Deckard Cain with Sapphire\nat Level 7) can greatly reduce the effectiveness of Zeal during teamfights."
+  }
+ },
+ "abathur": {
+  "synergies": {
+   "heroes": [
+    "illidan",
+    "zeratul",
+    "tracer",
+    "greymane",
+    "genji",
+    "malthael",
+    "yrel",
+    "sonya"
+   ],
+   "text": "Abathur is strong with Heroes who serve as ideal Symbiote hosts, or who are\ngood targets for Ultimate Evolution. Ideal Symbiote hosts are Heroes that\nnaturally position themselves in melee range, or with mobile assassins, that can\neasily abuse Symbiote to kill squishy targets."
+  },
+  "counters": {
+   "heroes": [
+    "dehaka",
+    "falstad",
+    "ragnaros",
+    "zarya",
+    "sylvanas",
+    "sgt-hammer"
+   ],
+   "text": "Abathur's Symbiote and Locusts help him to deny the enemy team experience\nwhen objectives spawn, when most Heroes will need to vacate lanes in order to\nrotate. This tactic is directly countered by Heroes who can travel globally,\nand who waveclear very efficiently. He is also very weak against compositions that can\njoin as four to push down a lane. Heroes like Sylvanas, Zarya\nor Sgt. Hammer are great for that purpose, and for this reason are a big threat\nfor Abathur's team."
+  }
+ },
+ "medivh": {
+  "synergies": {
+   "heroes": [
+    "illidan",
+    "greymane",
+    "genji",
+    "tracer",
+    "diablo",
+    "stitches"
+   ],
+   "text": "Medivh is a very powerful enabler of aggressive hard-engaging Assassins.\nAllowing those Heroes to become Invulnerable for 1.5 seconds can help them\ngo for the big plays and escape dangerous situations.\nA very popular combo with Medivh is the Stitches Gorge into Portal or the Ley-line Seal into Diablo Apocalypse"
+  },
+  "counters": {
+   "heroes": [
+    "guldan",
+    "lunara",
+    "garrosh",
+    "malfurion"
+   ],
+   "text": "Medivh does not have any natural counters per se, however, he is generally\nsusceptible to damage over time. Poison damage continues to tick after Force of Will\nexpires and as such the Ability loses some of its value. Crowd control effects, such as\nMalfurion's Entangling Roots\ncan be placed at the entrance of a Portal, preventing allies or Medivh to move, so when\nplaying against those Heroes, use Portals with caution."
+  }
+ },
+ "the-lost-vikings": {
+  "synergies": {
+   "heroes": [
+    "zarya",
+    "garrosh",
+    "sylvanas",
+    "raynor",
+    "sgt-hammer"
+   ],
+   "text": "The Lost Vikings do not need allies to help them to do their job (getting all\nthe possible experience and Mercenaries). It will be better to draft Heroes with\ngreat pushing potential, or that have excellent lane presence to easily push as 4,\nwhile Vikings handle all the soak."
+  },
+  "counters": {
+   "heroes": [
+    "zagara",
+    "sonya",
+    "zeratul",
+    "nova",
+    "falstad",
+    "dehaka",
+    "li-ming"
+   ],
+   "text": "The Lost Vikings are countered by 3 kinds of Heroes:\nHeroes that can easily kill vikings from stealth, such as Zeratul or Nova;\nHeroes with good damage on towers and forts, such as Zagara or Greymane;\nGlobal Heroes with decent waveclear, such as Dehaka\nor Falstad, since they can easily\ndouble soak while having great impact in teamfights.\nThey are also countered by Heroes with reset mechanics, like Genji\nor Li-Ming."
+  }
+ },
+ "zarya": {
+  "synergies": {
+   "heroes": [
+    "garrosh",
+    "sonya",
+    "valla",
+    "malfurion"
+   ],
+   "text": "As she can provide powerful Shields to allied Heroes, Zarya is good when\npaired with Heroes who suffer against burst damage:\nmost Marskmen (notably Valla)\nand sustain Healers (such as Malfurion).\nHeroes who lack mobility like to have Zarya on their side\nbecause she can give them Movement Speed thanks to Speed Barrier at Level 4.\nA team featuring Zarya should prefer an Offlaner\nwho has enough self-sustain to not need any help from their team\nand survive to enemy ganks (for example Yrel)\nwhen playing on any Map and that can also double soak\n(such as Leoric) when playing on 3-lane Maps."
+  },
+  "counters": {
+   "heroes": [
+    "garrosh",
+    "yrel",
+    "lunara",
+    "maiev",
+    "auriel"
+   ],
+   "text": "Zarya is an easy target for enemy Heroes who can abuse her lack of mobility with\ndisplacement effects (such as Wrecking Ball\nby Garrosh), kiting (like Lunara),\nand skillshots (for example Maiev).\nConsidering that her Shields expire after few seconds, Zarya struggles against\nHeroes who can deal a constant amount of damage, either because\nthey do not rely on their offensive Basic Abilities that much (such as Raynor)\nor because their Basic Abilities to deal damage have low cooldown (like Chromie).\nBlinds are quite effective against Zarya because a good portion\nof her damage comes from Basic Attacks. Heroes who can deal high damage to Shields\n(notably Varian with Shattering Throw at Level 13)\nare also powerful against Zarya because, when playing against them, she is less\ndurable and cannot easily save allied Heroes from burst damage.\nWhen facing Zarya, your Offlaner needs to be able to mitigate\na push made by 3-4 enemy Heroes while the reinforcements are coming.\nThe best tools for doing so are waveclear and/or\ncrowd control (for example Yrel)."
+  }
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "name": "alterac-pass",
+ "source": "https://www.icy-veins.com/heroes/alterac-pass-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Alterac Pass is a 3-lane Map belonging to the Warcraft universe.\nThe signature Objective of this Map are Cavalries. One per lane,\nthey will fight alongside the team who freed them from Prison Camps,\nbuffing allied Heroes nearby."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nAnchor\nHeroes for clearing Mercenary Camps\nGlobal presence\nPoint control for Boss Camp\nPoke tools for Objective\nSelf-sustain\nSplit-push\nTools for solo-capturing the Objective\nAvoid\nCore backdoor\nSee our Alterac Pass Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-3-1",
+   "id": "formation-1-3-1",
+   "text": "The go-to formation for Alterac Pass is 1-3-1:\n1 Hero covers the side lane near the next Objective;\n3 Heroes cover the middle lane;\n1 Hero, the Offlaner,\ncovers the side lane far away from the next Objective."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available, start clearing the allied Siege Camp\nand capture it as soon as possible, then push with it.\nHeroes who are covering the side lanes should join for the push\nwhen there is nothing to soak in their lanes.\nIdeally, you should capture this Mercenary Camp even during the Objective phase.\nIf you want to contest the Objective, be careful not to die in the process\notherwise your team will have fewer Heroes to push with Cavalries\nand the enemy team will have an easier time defending their Structures.\nThe first Objective of the game is not that powerful,\nso you should still prioritize soaking during it.\nIf you want to give the Objective, poke enemy Heroes\nthat are trying to capture it and do one of the following things:\ncapture the allied Siege Camp, capture the\nBoss Camp that is on the opposite side\nfrom the Objective, or push in the lane that\nis on the opposite side from the Objective. The enemy team will be\nnear the Objective and thus will take longer to respond far away.\nIf you win the Objective, push in the side lane\nthat is on the same side as the Objective was because the next Objective\nwill be on the opposite side and, if you manage to get the Fort,\nthe enemy team will have to defend that lane from Reavers.\nAlso, if you do not clear waves immediately, you can accumulate\nMinions behind Cavalries to empower your push\nonce they reach enemy Structures.\nIf you lose the Objective, try to match the amount of enemy Heroes\nthat are attacking each lane. If you think that you will not be able\nto save a Fort or Keep, however, you should leave that lane and try\nto save another Fort or Keep instead. Use single target damage\non Cavalries and area-of-effect\ndamage on both Minions and Cavalries at the same time.\nAfter about 10:00 minutes, whenever your team has an advantage\nwhile there is no Objective to contest or right after all allied Cavalries\nhave been killed, you can capture a Boss Camp,\nthen capture the other Boss Camp if available, and then push\nwith the last Boss you captured. Avoid doing it earlier if you do not have\na dedicated team composition.\nIf you are fairly confident that the enemy team is doing\na Boss Camp, start clearing the other one.\nThis strategy is meant to deny a double Boss Camp to the enemy team.\nIf it becomes too dangerous (because the enemy team\nwas not actually doing a Boss Camp or because you\nstarted the other Boss Camp too late), stop doing it."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Alterac Pass has a total of 4 Mercenary Camps:\n1 Boss Camp (red icon) in the top lane;\n2 Siege Camps (green icon) in the middle lane;\n1 Boss Camp (red icon) in the bottom lane.\nMercenary Camps on Alterac Pass disappear from the battlefield\nonce the Cavalries begin spawning (unless their Mercenaries are in combat)\nand reappear only after all Cavalries have been killed.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 3 Gnolls. Once captured,\nit spawns the same unit fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n1:30 minutes after its last capture\nBaseline Experience\nExperience Scaling\n180 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nGnolls have a lot of Health and can reduce the Armor\nof enemy Heroes and enemy Structures, therefore they are great for\npushing with multiple Heroes."
+  },
+  {
+   "title": "Boss Camp",
+   "id": "boss-camp",
+   "text": "This type of Mercenary Camp features 1 Ice Giant. Once captured,\nit spawns the same unit fighting for your team in the corresponding lane.\nWhen possible, push with it to get more value.\nSpawn Time\nRespawn Delay\n5:00 minutes\n5:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n750 Experience\n+10 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nWhile in combat, the Ice Giant will use Mega Smash (10-second cooldown)\nto damage and Stun all enemies in melee range\nand Ice Shard (15-second cooldown) to damage\nand Slow enemies who get hit by them.\nWhile being hit by Ice Shard is not lethal on its own, being\nSlowed by 50% may cause you to be hit by the next Smash,\nso you should always dodge Ice Shard like you do for Mega Smash.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Alterac Pass consists of Cavalries locked\ninside Prison Camps protected by Guards. In order to free up Cavalries,\nHeroes have to distract or kill Guards, channel\nfor 3 seconds and then defend the area until the progress completes.\nOnce free, Cavalries spawn in each lane and buff nearby Heroes with\n30% Movement Speed and 10% more damage.\nWhile the timer is going, it can be paused or stopped by the enemy team.\nThe progress is paused while enemy Heroes are channeling.\nThe progress is stopped after enemy Heroes channel for 3 seconds or Guards\nchannel for 6 seconds without being interrupted\nby crowd control or damage.\nSpawn Time\nRespawn Delay\n3:00 minutes\nfrom 1:50 to 2:30 minutes, reduced by 2 seconds per minute of Game Time elapsed\n\nPrison Camps\nCapture the enemy Prison Camp to summon your Cavalry. Camps can be retaken by Heroes and Minions, so guard them well!\nCavalry\nCavalry soldiers charge down each lane when summoned granting increased damage and movement speed to nearby Allied Heroes.\nGenerals\nEach team's Core has been replaced by a General who fights against attacking enemies. Destroying a Keep reduces the General's Armor and damage."
+  },
+  {
+   "title": "Prison Camps",
+   "id": "prison-camps",
+   "text": "Prison Camps spawn in 2 possible sets: either 2 top or 2 bottom, one per team.\nTheir positions will keep alternating through the course of the game,\nso you will always know in which lane the next Objective will be.\nThe first team who frees Cavalries from Prison Camps will spawn one Cavalry per lane.\nActivate the Prison Camp and then wait for the timer to ends. While active,\nthey spawn a Regeneration Globe for your team at 66% and 100% progress.\nThe timer lasts 25 seconds, plus 10 seconds for each following Objective phase, up to 55 seconds.\nGuards and Heroes can deactivate the Prison Camp to stop the timer.\nHeroes will also pause the timer while trying to deactivate the Prison Camp.\nThe first team to finish opening the Prison Camp will win the Objective.\nRight before winning the Objective, you should ideally prepare waves\nso that allied Cavalries reach enemy Structures at the same time in\nevery lane and thus the enemy team cannot easily defend them one at a time.\nSimilarly, right before losing the Objective, you can ruin waves\nto weaken enemy Cavalries."
+  },
+  {
+   "title": "Top Prison Camps",
+   "id": "top-prison-camps",
+   "text": "When the Prison Camps spawn top side, the left team can use poke\nfrom behind impassable terrain near the middle Fort\nto stall and can kite the enemy Guards around their Prison Camp."
+  },
+  {
+   "title": "Bottom Prison Camps",
+   "id": "bottom-prison-camps",
+   "text": "When the Prison Camps spawn bottom side, the right team can use poke\nfrom behind impassable terrain near the middle Fort\nto stall and can kite the enemy Guards around their Prison Camp."
+  },
+  {
+   "title": "Guards",
+   "id": "guards",
+   "text": "Prison Camps are defended by Guards that spawn from nearby houses.\nWhen you see a light inside an house, it means that a Guard is spawning.\nThe amount of Guards that can protect the Objective at the same time has a cap:\n1 Guard for the first Objective, plus 1 Guard for each following Objective phase,\nup to 4 Guards in total from the 4th Objective phase onwards.\nIf you do not reduce the number of Guards\nbelow the current cap, new Guards will not spawn. Furthermore,\nGuards do not regenerate their Health over time, so you can lower their Health\nwithout killing them before committing and only kill them when needed\nto channel the Objective. After killing Guards, new Guards will\ntake a couple of seconds to spawn and reach you."
+  },
+  {
+   "title": "Mud Pits",
+   "id": "mud-pits",
+   "text": "There are 6 Mud Pits located at the borders to the middle area,\nclose to the side lanes. Any Hero who enters a Mud Pit will find\ntheir Movement Speed reduced by 16% per second, to a maximum of 60%,\nfor as long as they remain there. Upon finding solid ground,\nthe Hero will regain Movement Speed at 50% per second."
+  },
+  {
+   "title": "Reavers",
+   "id": "reavers",
+   "text": "Catapults on Alterac Pass are replaced by Reavers. Contrary to Catapults,\nReavers will walk in lane in front of other Minions, tanking damage for them.\nThis characteristic makes them extremely powerful if left unchecked\nbecause Minions from multiple waves can build up behind them and, since\nMinions deal 200% bonus damage to Structures, easily destroy them."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Cores on Alterac Pass are replaced by Generals, who can move and fight against attacking enemies.\nGenerals have 20 Armor for each lane with a Fort or Keep still up. When in combat,\nthey will use Charge (6-second cooldown) to dash towards enemy Heroes and\nWhirlwind (12-second cooldown) to deal area of effect damage.\nWhen out of combat, they will quickly regenerate Health (about 1% per second)."
+  },
+  {
+   "title": "Health Regeneration",
+   "id": "health-regeneration",
+   "text": "When trying to kill the enemy General on this Map, you have to be sure that\nit will go down! Contrary to other Maps, where the enemy Core stays damaged\nand only regenerates its Shield, any failed attempt to kill a General on Alterac Pass\nis going to be completely nullified by their Health Regeneration. The time wasted\nfor trying and failing to kill a General is better used to destroy an enemy Keep,\nso that you get Reavers in that lane and thus increase the pressure on the enemy team."
+  },
+  {
+   "title": "Armor",
+   "id": "armor",
+   "text": "To min-max the damage done to the enemy General while trying to end the game,\nyou should also consider if it is worth to destroy an already damaged Keep\nin order to remove 20 Armor from the enemy General, or directly going for the General.\nGenerals gain 405 maximum Health per minute for 20 minutes (excluding the first minute),\nup to 28100 maximum Health at 21:00 minutes. Keeps have 22550 (not scaling) maximum Health.\nWhen trying to end the game on Alterac Pass, you should do as follows:\nif there are 2 Keeps remaining and one of the Keeps is below 50% Health,\ndestroy that Keep and then go for the General, else go for the General directly;\nif there is 1 Keep remaining and that Keep is below 30% Health,\ndestroy that Keep and then go for the General, else go for the General directly.\nNote that having Gnolls from the Siege Camp in the middle lane changes\nthese thresholds because, when they hit enemies with Basic Attacks,\nthey reduce their Armor. In that case you should\ngenerally take down the middle Keep regardless of its maximum Health."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Alterac Pass, you should count on\nany of the following win conditions:\nMap Objective,\nBoss Camp;\nGnolls from Siege Camp."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nGuards protecting an isolated Prison Camp (top-right or bottom-left)\ncan be kited around it for not taking damage.\nHeroes with Summons (notably Anub'arak) or Clones\ncan easily solo-activate a Prison Camp without killing Guards.\nGuards protecting any Prison Camp should ideally not be killed,\nexcept when they do not let you channel\nthe Objective, because they cannot regenerate Health but\nkilling them will cause new Guards to spawn with full Health.\nGiven how the Objective on Alterac Pass works, you can almost win the Objective,\nretreat to recover from that battle, try to stop the enemy team\nfrom winning the Objective, and then get some kills to win the Objective\nor to easily defend your Structures in case you lose the Objective.\nBoss Camps are disabled while Cavalries are alive.\nTo play around the enemy team getting a Boss right after their Cavalries expire,\nstart going to a camp before the last Cavalry dies. If they are there, you could fight.\nIf they are not, you could take the Boss while they are taking the other one.\nGlobal Heroes should ideally take care\nof the lane that is farther away from the next Objective location,\nso that they can use their global tool\nto quickly join their team during the next Objective phase.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n16 Dec. 2025: Guide updated for the latest Map Updates.\nMap Objective section updated.\n01 Dec. 2025: Guide updated for the latest Map Updates.\nMap Objective section updated.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\nCore Ability section updated.\n11 Oct. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

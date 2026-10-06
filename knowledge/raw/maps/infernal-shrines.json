@@ -1,0 +1,81 @@
+{
+ "name": "infernal-shrines",
+ "source": "https://www.icy-veins.com/heroes/infernal-shrines-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Infernal Shrines is a 3-lane Map belonging to the Diablo universe.\nThe signature Objective of this Map are Shrines. When active, each team\nhas to kill 40 Guardians. The first team who does that gets a Punisher,\na powerful unit that will enable a strong push."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nDouble Healer\nEffects relying on impassable terrain\nQuests to stack on Heroes\nStrong late game\nHigh waveclear\nAvoid\nWeak late game\nSee our Infernal Shrines Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-4",
+   "id": "formation-1-4",
+   "text": "The go-to formation for Infernal Shrines is 1-4:\n1 Hero, the Offlaner, covers the top lane;\n4 Heroes rotate between the middle and the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available, start clearing the allied Siege Camp\nin the middle lane and capture it as soon as possible. Watch out for invades!\nSomeone should stay in the bush on the side, so that you can react faster\nwhen enemy Heroes arrive.\nAfter that, if your team has an advantage,\nstart clearing the neutral Siege Camp in the bottom lane\nand capture it as soon as possible.\nAt 2:15 minutes or 30-40 seconds before the next Objective phase,\nstart clearing the allied Bruiser Camp\nand capture it slightly before the Shrine activates.\nTo make this Mercenary Camp join the lane together with allied Minions,\ncapture it at 2:40 minutes or 10 seconds after a wave of Minions spawned.\nAt 3:00 minutes or right before the next Shrine activates, you must be\nalready near the Shrine! Being late by just 5 seconds is enough to gift\n10 Guardians to the enemy team. If you are 10 seconds late, the enemy team\ncan easily get a lead of 20 Guardians and basically get a free Punisher.\nIf it is the first Shrine of the game, the Offlaner\ncan double soak during the Objective phase\nand while the Punisher is up. When the Objective is bottom,\nthey should rotate between the middle and the top lane. When the Objective\nis middle or top, they should rotate between the middle and bottom lane.\nIf you win the Objective, push together with\nthe Punisher. The first thing you should do is to destroy\na Side Wall (on the external side of the Towers surrounding the Gate)\nso that your team can use that space to make aggressive plays\nand/or to get out when caught by enemy Heroes.\nIf you lose the Objective, fall back and kill the Punisher\nas quickly as possible without dying. Do not try to save\nStructures that have low Health as that will only give\nthe enemy team an opportunity to dive."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Infernal Shrines has a total of 5 Mercenary Camps:\n2 Bruiser Camps (blue icon) in the top lane;\n2 Siege Camps (green icon) in the middle lane;\n1 Siege Camp (green icon) in the bottom lane.\nMercenary Camps on Infernal Shrines are always active,\neven when a Shrine is up or when a Punisher is alive."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 3 Impalers. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n270 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nImpalers are ranged units that can attack enemies from the distance but lack\narea of effect damage to quickly clear enemy Minions.\nOnce captured, they are capable of damaging enemy Structures without getting in their range."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 1 Fallen Shaman and 2 Fallen Hounds. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n450 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nOnce captured, the Fallen Shaman periodically summons 2 Fallen Hounds\nwhenever they die. The most efficient way to clear them in lane is therefore\nto kill the Fallen Shaman first and the Fallen Hounds after. Fallen Shaman and\nFallen Hounds deal 100% increased damage to Minions, Structures and Summons."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Infernal Shrines are Shrines. When active, each team\nhas to kill 40 Guardians. The first team who does that gets a Punisher,\na powerful unit that will enable a strong push.\nShrines also spawn 2 Regeneration Globes when completed.\nSpawn Time\nRespawn Delay\n3:00 minutes\n3:00 minutes after the Punisher dies\n\nActivate the Shrines\nThe Infernal Shrines periodically gather power. Activate them and prepare for a fight.\nDefeat Guardians\nSlay 40 Guardians before the enemy team to bring forth a mighty Punisher.\nBeware the Punisher\nPunishers have one of three devastating powers. Be careful, they focus on attacking heroes above all else."
+  },
+  {
+   "title": "Shrines",
+   "id": "shrines",
+   "text": "Shrines can be in 3 different locations: right above the top lane,\nright above the middle lane, and between the middle and the bottom lanes.\n99% of the time, the Shrine will be in a different location from the previous one.\nGuardians have 20 Spell Armor\nand spawn in intervals of 0.15 seconds, until 10 of them exist.\nFrom that point, a 5-second timer starts, which triggers another spawn phase.\nGuardians follow enemies to attack them, so you can group them by moving around\nand then use area of effect Abilities to kill\nmany of them at the same time. When doing so, be careful because enemy Heroes\nwill try to steal them by last-hitting! You should try to do the same.\nThe best Heroes for clearing the Shrine are:\nAlexstrasza with Dragonqueen;\nD.Va with a well-timed Self-Destruct;\nHogger with a well-placed Hogg Wild;\nTychus with Commandeer Odin."
+  },
+  {
+   "title": "Punishers",
+   "id": "punishers",
+   "text": "The type of Punisher will change every time, across 3 different types:\nArcane (purple), placing rotating Arcane beams to damage enemies;\nFrost (blue), firing delayed frost bombs that Root enemies and disable Structures;\nMortar (orange), launching a stream of firebombs to damage enemies.\nPunishers can jump on enemy Gates and Heroes, dealing damage and\nStunning enemy Heroes hit. Punishers prioritize\njumping on enemy Gates, so Heroes cannot bait them in while defending.\nDo not stand too close to the Gate or you will get hit by the jump!"
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 12 seconds, the Core will spawn 2 volleys of Frozen Orbs that explode,\ndealing 5% maximum Health as damage and Rooting enemy Heroes\nhit for 1.5 seconds."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Infernal Shrines, you should count on\nany of the following win conditions:\nMap Objective,\nSplit-push."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nLook at the color of the Shrine or mouseover a Shrine indicator\non the Minimap to see whether the next Punisher will be\na Mortar (orange), Frost (blue), or Arcane (purple) one.\n39-ing the Objective (stopping at 39 Guardians killed)\nis a strategy used to delay a Punisher spawn when your team\nhas an advantage and the enemy team\nkilled little to no Guardians. Use it to wait for allied Heroes\nto respawn, for the next Talent Tier to be unlocked, or even\nfor creating a Talent Tier advantage during the next Objective phase.\nPunishers can jump on enemy Gates and Heroes, dealing damage and\nStunning enemy Heroes hit. Punishers prioritize\njumping on enemy Gates, so Heroes cannot bait them in while defending.\nDo not stand too close to the Gate or you will get hit by the jump!\nGlobal Heroes should ideally take care\nof the lane that is farther away from the next Objective location,\nso that they can use their global tool\nto quickly join their team during the next Objective phase.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n01 Dec. 2025: Guide reviewed for the latest Map Updates.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\nMap Objective section updated.\nTips and Tricks section updated.\n18 Oct. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

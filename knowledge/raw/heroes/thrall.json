@@ -1,0 +1,270 @@
+{
+ "slug": "thrall",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/thrall-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/thrall-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/thrall-talents"
+ },
+ "guide": [
+  {
+   "title": "Thrall's Overview",
+   "id": "thralls-overview",
+   "text": "Thrall is a durable Bruiser with extraordinary\nburst damage potential in close combat and a kit that\nprovides his team powerful crowd control Abilities\nbut lacks waveclear."
+  },
+  {
+   "title": "Thrall's Strengths and Weaknesses",
+   "id": "thralls-strengths-and-weaknesses",
+   "text": "Strengths\nStrong self-sustain due to Frostwolf Resilience\nSolid crowd control\nHuge impact in team fights thanks to his Heroic Abilities\nWeaknesses\nLow mobility\nWeak to kite\nPoor waveclear"
+  },
+  {
+   "title": "Thrall's Talent Build Cheatsheet",
+   "id": "thralls-talent-build-cheatsheet",
+   "text": "Chain Lightning Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThrall's Chain Lightning Build is designed to safely deal\npoke damage to enemy Heroes before the real team fight starts\nand then engage when they are not full Health.\nThunderstorm at Level 16 greatly empowers\nthis kind of playstyle because it makes Chain Lightning\ndeal more damage every time you switch target. Mana Tide\nat Level 4 lets you do that more often.\nChoose this Build when the enemy team suffers against\npoke damage because they do not have a good\nHealer for that or they completely lack one.\nFeral Spirit Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThrall's Feral Spirit Build is designed to take down enemy Heroes more easily\nby empowering Feral Spirit and Basic Attacks.\nThe amount of burst damage you can deal can be threatening\neven for the most durable Heroes.\nAlpha Wolf at Level 16 allows you to deal more damage\non enemy Heroes that have high maximum Health (for example Azmodan).\nFrostwolf Pack at Level 4, once you complete its Quest,\nwill let you do that more often. Alternatively, you can pick\nFeral Resilience at Level 4 to increase your survivability\nagainst Heroes with slow but heavy-hitting Basic Attacks.\nChoose this Build when you want to burst down\nthe enemy frontline and/or when the enemy team\nhas more than 2 Heroes with high maximum Health.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThrall's ARAM Build is designed to take down enemy Heroes more easily\nby empowering Feral Spirit and Basic Attacks.\nThe amount of burst damage you can deal can be threatening\neven for the most durable Heroes.\nAlpha Wolf at Level 16 allows you to deal more damage\non enemy Heroes that have high maximum Health (for example Azmodan).\nFrostwolf Pack at Level 4, once you complete its Quest,\nwill let you do that more often. Alternatively, you can pick\nFeral Resilience at Level 4 to increase your survivability\nagainst Heroes with slow but heavy-hitting Basic Attacks.\nChoose this Build when you want to burst down\nthe enemy frontline and/or when the enemy team\nhas more than 2 Heroes with high maximum Health.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Thrall's Synergies and Counters",
+   "id": "thralls-synergies-and-counters",
+   "text": "Thrall synergizes with\nThrall's Earthquake synergizes really well with\nother strong area of effect Abilities\nwho benefit from the Slow to connect on enemy Heroes\n(such as Ring of Frost by Jaina),\nto deal bonus damage to them (for example Purification Salvo\nby Fenix), or to stop their retreat and engage\nthem with powerful buffs for your team (for example\nBloodlust by Rehgar).\nThrall is countered by\nThrall suffers against Heroes who can kite (such as\nLunara) as a consequence of him lacking mobility,\neven if he can overcome it by using his Heroic Abilities to engage.\nWell-timed Blind effects (like Blinding Wind\nby Li Li) will annoy him for sure, so try to play around them by holding\nyour Windfury when they are debuffing you.\nLike most Heroes, he also suffers against crowd control\nfollowed by burst damage (for example Kael'thas)."
+  },
+  {
+   "title": "Thrall's Maps",
+   "id": "thralls-maps",
+   "text": "Thrall's stronger maps\nThrall's average maps\nThrall's weaker maps\nThrall excels on Maps where the team can play together as a 4-man\n(for example Battlefield of Eternity) and he rarely has to split\nfrom the rest of the team to take care of Minions.\nThrall does poorly on Maps where waveclear is important\n(such as Tomb of the Spider Queen) because he cannot quickly clear Minions\nlike many other Heroes."
+  },
+  {
+   "title": "Thrall's Tips and Tricks",
+   "id": "thralls-tips-and-tricks",
+   "text": "Chain Lightning can be used to dismount enemy Heroes or to poke them, especially valuable while they are channeling an Objective.\nFeral Spirit can be cast on Minions to easily trigger the heal from Frostwolf Resilience.\nWindfury can be used as a gap-closer or as an escape mechanism, other than for burst damage. If you want to use it for damage rather than utility, be sure that Thrall does not have any Blind effect on him.\nEarthquake synergizes very well with other area of effect Abilities (such as Apocalypse by Diablo), but also acts as a powerful engage by denying the enemy team's retreat.\nSundering is your only tool to interrupt channeled Heroic Abilities (for example Jug of 1,000 Cups by Li Li).\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Thrall's Role in the Current Meta",
+   "id": "thralls-role-in-the-current-meta",
+   "text": "Thrall is a powerful Hero to have in your 4-man as he can contribute a lot in team\nfights and while ganking. Both his Heroic Abilities are great for\nengaging. Feral Spirit is great for\nlocking enemy Heroes in place while they are being damaged, so that they cannot escape.\nThrall is only being drafted as a durable Melee Assassin\nin the 4-man. Due to his lack of waveclear, he would never have\npriority when playing against a good Offlaner.\nHis high survivability, however, makes him a great choice against aggressive team compositions."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "28 Jul. 2026 (talents page): Guide reviewed.\n28 Jul. 2026 (abilities page): Guide reviewed.\n28 Jul. 2026 (this page): Guide reviewed.\n20 Jul. 2026 (talents page): Guide updated for the latest Patch.\n20 Jul. 2026 (abilities page): Guide updated for the latest Patch.\n20 Jul. 2026 (this page): Guide updated for the latest Patch.\n23 Apr. 2026 (talents page): Guide updated for the latest Balance Update.\n23 Apr. 2026 (abilities page): Guide updated for the latest Balance Update.\n23 Apr. 2026 (this page): Guide updated for the latest Balance Update.\n14 Feb. 2026 (talents page): Guide updated for the latest Balance Update.\n14 Feb. 2026 (abilities page): Guide updated for the latest Balance Update.\n14 Feb. 2026 (this page): Guide updated for the latest Balance Update.\n23 Dec. 2025 (talents page): Guide reviewed.\n23 Dec. 2025 (abilities page): Guide reviewed.\n23 Dec. 2025 (this page): Guide reviewed.\n16 Dec. 2025 (talents page): Guide updated for the latest Balance Update.\n16 Dec. 2025 (abilities page): Guide updated for the latest Balance Update.\n16 Dec. 2025 (this page): Guide updated for the latest Balance Update.\n07 Dec. 2025 (talents page): Guide updated for the latest Balance Update.\n07 Dec. 2025 (abilities page): Guide updated for the latest Balance Update.\n07 Dec. 2025 (this page): Guide updated for the latest Balance Update.\n30 Sep. 2025 (talents page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (this page): Guide reviewed for the latest Balance Update.\n01 Aug. 2025 (talents page): Guide reviewed for the latest Balance Update.\n01 Aug. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n01 Aug. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n17 Oct. 2024 (talents page): Guide reviewed for the latest Balance Update.\n17 Oct. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n17 Oct. 2024 (this page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (talents page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (abilities page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (this page): Guide reviewed for the latest Balance Update.\n12 Mar. 2022 (talents page): ARAM Build added.\n12 Mar. 2022 (this page): ARAM Build added.\n28 Sep. 2021 (talents page): Guide reviewed for the latest Balance Update.\n28 Sep. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n28 Sep. 2021 (this page): Guide reviewed for the latest Balance Update.\n06 Jul. 2021 (talents page): Builds updated.\n06 Jul. 2021 (this page): Builds updated.\n25 Feb. 2021 (talents page): New layout.\n01 Dec. 2020 (talents page): Guide reviewed for the latest Patch.\n01 Dec. 2020 (abilities page): Guide reviewed for the latest Patch.\n01 Dec. 2020 (this page): Guide reviewed for the latest Patch.\n05 Oct. 2020 (talents page): Builds updated.\n05 Oct. 2020 (this page): Builds updated.\n25 Jun. 2020 (talents page): Talent Build updated to reflect the current metagame.\n25 Jun. 2020 (this page): Introduction updated to reflect the current metagame.\n13 May 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n13 May 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n13 May 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nTalent Build Cheatsheet updated to reflect the current metagame.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\nRole in the Current Meta modified to reflect the current metagame and to remove the unnecessary part about the now fixed Experience Globes.\n04 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\n04 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n23 Jan. 2020 (talents page): Updated Thrall's Solo Lane Build. Rolling Thunder is now Recommended.\n19 Dec. 2019 (talents page): Updated Rolling Thunder's decription and labelled it Situational for the time being until further play testing has been done.\n16 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n02 Sep. 2019 (talents page): Updated Thrall's Talent Builds and general Talents section to more precisely reflect the current state of the game.\n02 Sep. 2019 (abilities page): Updated Thrall's abilities.\n02 Sep. 2019 (this page): Updated Thrall's introduction page.\n10 May 2018 (talents page): Changed Rolling Thunder from Not Recommended to Recommended and created the Rolling Thunder Build.\n08 May 2018 (talents page): Changed Crash Lightning from Recommended to Situational.\n02 Mar. 2018 (talents page): Greatly updated Thrall's Talent Builds and their descriptions. Re-evaluated several talents in accordance with the new Crash Lightning Build.\n02 Mar. 2018 (this page): Adjusted Thrall's introduction according to the recent guide update.\n24 Oct. 2017 (this page): Updated Volskaya Foundry ranking and Feral Spirit build.\n18 Jun. 2017 (talents page): Changed and updated Worldbreaker's description.\n13 Jun. 2017 (talents page): Complete revamp of the page, following Thrall's rework in Malthael's patch.\n13 Jun. 2017 (abilities page): Updated descriptions to account for Thrall's rework in Malthael's patch.\n12 May 2017 (talents page): Updated Stonewolves' and Tempest Fury's talent descriptions.\n22 Dec. 2016 (this page): Moved Thrall guide to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Thrall's Tips and Tricks",
+   "id": "thralls-tips-and-tricks",
+   "text": "Chain Lightning can be used to dismount enemy Heroes or to poke them, especially valuable while they are channeling an Objective.\nFeral Spirit can be cast on Minions to easily trigger the heal from Frostwolf Resilience.\nWindfury can be used as a gap-closer or as an escape mechanism, other than for burst damage. If you want to use it for damage rather than utility, be sure that Thrall does not have any Blind effect on him.\nEarthquake synergizes very well with other area of effect Abilities (such as Apocalypse by Diablo), but also acts as a powerful engage by denying the enemy team's retreat.\nSundering is your only tool to interrupt channeled Heroic Abilities (for example Jug of 1,000 Cups by Li Li)."
+  },
+  {
+   "title": "Chain Lightning",
+   "id": "chain-lightning",
+   "text": "Chain Lightning\n(Q)\nThrall\nMana: 40\nCooldown: 7 seconds\nShock an enemy with lightning, dealing 170 (+4% per level) damage. The lightning then bounces 3 times to nearby enemies, dealing 85 (+4% per level) damage to each enemy hit.\nChain Lightning allows you to deal damage from distance.\nThe possibility to do so as a melee Hero is quite handy in various situations:\nto dismount enemy Heroes, to interrupt\nenemy Heroes who are trying to capture an Objective (like the Tribute on\nCursed Hollow), to damage enemy Heroes without committing,\nor to kill enemy Heroes who are too far away."
+  },
+  {
+   "title": "Feral Spirit",
+   "id": "feral-spirit",
+   "text": "Feral Spirit\n(W)\nThrall\nMana: 40\nCooldown: 10 seconds\nUnleash a Feral Spirit that deals 153 (+4% per level) damage to enemies in its path and Roots Heroes hit for 1 second. Each Hero hit increases the distance traveled by 25%.\nThrall has low mobility to quickly engage enemies in close combat\nand therefore he counts on Feral Spirit to close the gap by\nRooting them in place.\nKeep in mind that Feral Spirit travels through enemies and damages all of them,\nwhich makes it an effective Ability to use on Minions in order to relieve lane\npressure; furthermore, when it pierces an enemy Hero, its distance traveled\nwill be increased by a small amount that could be enough to hit another Hero."
+  },
+  {
+   "title": "Windfury",
+   "id": "windfury",
+   "text": "Windfury\n(E)\nThrall\nMana: 60\nCooldown: 12 seconds\nIncrease Thrall's Movement Speed by 30% for 4 seconds. His next 3 Basic Attacks occur 100% faster and generate stacks of Frostwolf Resilience.\nWindfury is an important Basic Ability that provides\na bit of burst damage and a decent amount of mobility,\nsomething that Thrall heavily lacks otherwise.\nWindfury requires decent timing against certain opponents. In particular,\ndo not use it while affected by Blind effects\n(for example Shield Glare by Johanna)\nor you will end up wasting it."
+  },
+  {
+   "title": "Sundering",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nSundering\n(R)\nThrall\nHeroic\nMana: 75\nCooldown: 70 seconds\nAfter 0.5 seconds, sunder the earth in a long line, dealing 290 (+4% per level) damage and shoving enemies to the side, Stunning them for 1 second.\nSundering is a versatile Heroic Ability that can be\nused offensively to engage with a good flank or\neven defensively to either peel or disengage;\nfurthermore, it can be used to interrupt any powerful\nenemy channeled Heroic Ability (for example\nMosh Pit by E.T.C.).\nBeing able to potentially Stun multiple enemy Heroes at the\nsame time can provide your own team with a massive advantage during team fights,\nhowever, do not underestimate the knockback effect\nthat has the potential to completely split the enemy team into two groups\nand do not hesitate to use it for a single Hero when needed.\n\nAs you can see from the image above, the line that separates which enemy Heroes\nwill be pushed on one side or another is not in the middle, but at 1/3 of the\naffected area, starting from Thrall's right side. To easily remember on which side\nis located this invisible line, just check in which hand he is holding his weapon."
+  },
+  {
+   "title": "Earthquake",
+   "id": "earthquake",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nEarthquake\n(R)\nThrall\nHeroic\nMana: 90\nCooldown: 100 seconds\nAfter 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 (+4% per level) damage to enemy Heroes. Does 3 pulses.\nEarthquake is a powerful Heroic Ability that gives\nyour team a huge advantage during team fights by drastically Slowing\nenemy Heroes that happen to be in the affected area while it pulses."
+  },
+  {
+   "title": "Frostwolf Resilience",
+   "id": "frostwolf-resilience",
+   "text": "Frostwolf Resilience\n(D)\nThrall\nCooldown: 15 seconds\nDealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 240 (+4% per level) Health.\nFrostwolf Resilience provides Thrall with a solid amount of sustain,\na characteristic that is extremely good to have on a melee Hero because it mitigates\npoke damage when playing at a distance and gives more survivability\nwhen fighting at melee range.\nThe mechanic behind this Trait is simple. Each time you deal damage by using\none of your Abilities, you get 1 stack of Frostwolf Resilience.\nWhen you reach 5 stacks, you get healed for a fixed amount.\nWhile not that easy to check during a team fight, the tracker in the bottom-right\ncorner of the screen will help you keep track of the current number of stacks.\nJust remember that the healing happens when the circle gets completed.\nWhen that happens, the indicator will immediately start counting again from zero.\nThe remaining part of the Ability that made that happen will not get wasted,\nbut it will be immediately taken into account for the next cycle.\nTo maximize the value coming from Frostwolf Resilience, try to remember\nthe number of stacks that you can receive by using a given Ability.\nEven if some Talents can alter those values by a little, take a look at them\nto better understand how many stacks you can potentially get with each Ability:\nChain Lightning gives from 1 to 4 stacks;\nFeral Spirit gives 1 stack per each enemy hit,\nmeaning that enemy Minions can potentially give you 7 stacks if still aligned;\nWindfury gives 1 stack per empowered Basic Attack,\nup to 3 total.\nSundering gives 1 stack per each enemy hit;\nEarthquake gives 1 stack per each enemy Hero hit\nby a pulse, that are 3 in total."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "28 Jul. 2026: Guide reviewed.\n20 Jul. 2026: Guide updated for the latest Patch.\n23 Apr. 2026: Guide updated for the latest Balance Update.\n14 Feb. 2026: Guide updated for the latest Balance Update.\n23 Dec. 2025: Guide reviewed.\n16 Dec. 2025: Guide updated for the latest Balance Update.\n07 Dec. 2025: Guide updated for the latest Balance Update.\n30 Sep. 2025: Guide reviewed for the latest Balance Update.\n01 Aug. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n17 Oct. 2024: Guide reviewed for the latest Balance Update.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n28 Sep. 2021: Guide reviewed for the latest Balance Update.\n01 Dec. 2020: Guide reviewed for the latest Patch.\n13 May 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n02 Sep. 2019: Updated Thrall's abilities.\n13 Jun. 2017: Updated descriptions to account for Thrall's rework in Malthael's patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Echo of the Elements (Level 1) Thrall Quest: Kill Minions or Heroes within 2 seconds of hitting them with Chain Lightning. Reward: After killing 20 enemies, reduce the Mana cost of Chain Lightning from 40 to 20. Reward: After killing 50 enemies, Chain Lightning gains an extra charge. Mythic Reward: After killing 125 enemies, Chain Lightning can now strike the same target multiple times, and also strikes 1 additional target per bounce."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Crash Lightning (Level 1) Thrall Quest: Hit at least 2 Heroes with a single use of Chain Lightning. Upon dying, lose 4 stacks. Gained rewards cannot be lost. Reward: After hitting multiple Heroes 15 times, Chain Lightning deals 270 additional damage on its bounces after the initial strike. Mythic Reward: After hitting multiple Heroes 30 times, Chain Lightning deals 325 additional damage on its bounces, and prioritizes bouncing to enemy Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Maelstrom Weapon (Level 1) Thrall Quest: Basic Attack Heroes while Windfury's Movement Speed bonus is active. Reward: After hitting 25 Heroes, increase the Movement Speed bonus of Windfury to 40% and Thrall's Basic Attacks deal 40 additional damage. Reward: After hitting 55 Heroes, Thrall permanently gains 15% increased Movement Speed and his Basic Attacks gain an additional 75 damage. Mythic Reward: After hitting 100 Heroes, Frostwolf Resilience healing restores 200% more Health."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Feral Resilience (Level 4) Thrall Heroes damaged by Feral Spirit grant 4 stacks of Frostwolf Resilience and 2 stacks of Feral Resilience, granting 75 Physical Armor against the next incoming Hero Basic Attack. Stacks are consumed on the next cast of Feral Spirit."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Frostwolf Pack (Level 4) Thrall Quest: Hit 6 Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero. Reward: Reduce the cooldown and Mana cost of Feral Spirit by 50%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Mana Tide (Level 4) Thrall Frostwolf Resilience restores 15 Mana and reduces Basic Ability cooldowns by 0.5 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Rolling Thunder (Level 7) Thrall Passive: Chain Lightning bounces an additional time. For 8 seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them grants a stack of Frostwolf Resilience. If the target is an enemy Hero, then he also deals damage to them equal to 3% of their maximum Health and healing for the same amount."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Ancestral Wrath (Level 7) Thrall Cooldown: 1 seconds Activate to consume 8 stacks of Ancestral Wrath, damaging a target enemy Hero for 15% of their maximum Health over 3 seconds, and healing Thrall for 150% of the damage dealt. Gain 1 stack of Ancestral Wrath every time Frostwolf Resilience activates."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Elemental Assault (Level 7) Thrall After using an Ability, Thrall's next Basic Attack within 4 seconds deals 45% more damage."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Sundering (Level 10) Thrall Mana: 75 Cooldown: 70 seconds After 0.5 seconds, sunder the earth in a long line, dealing 290 (+4% per level) damage and shoving enemies to the side, Stunning them for 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Earthquake (Level 10) Thrall Mana: 90 Cooldown: 100 seconds After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 (+4% per level) damage to enemy Heroes. Does 3 pulses."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "Grace Of Air (Level 13) Thrall Windfury attacks grant twice as many stacks of Frostwolf Resilience."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Frostwolf's Grace (Level 13) Thrall Frostwolf Resilience can be activated to instantly heal. This healing is increased by up to 100% based on Thrall's missing health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Spirit Shield (Level 13) Thrall Cooldown: 45 seconds Every 45 seconds, gain 70 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds. Can be toggled to allow or prevent this talent from triggering automatically."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Tempest Fury (Level 16) Thrall The final strike of Windfury hits 3 times for 75% normal damage. These hits do not provide quest progress."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Thunderstorm (Level 16) Thrall Chain Lightning Slows the primary target by 8% for 2 seconds when used on Heroes. Quest: Targeting a Hero directly with Chain Lightning increases this Slow by 8%, up to an additional 40%. Reward: While at a 40% bonus, Chain Lightning's damage is increased by 30%. Bonuses are reset if Chain Lightning is used on the same Hero it was last used on, or if Thrall dies."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Alpha Wolf (Level 16) Thrall For 3 seconds after a Hero is hit by Feral Spirit, Thrall's Basic Attacks against them deal an additional 3% of the target's maximum Health as damage. Passive: Increase the duration of Feral Spirit's Root to 1.5 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Worldbreaker (Level 20) Thrall Lower the cooldown of Sundering by 40 seconds. After Sundering impacts, it leaves behind an impassable rift, blocking unit movement for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Earthen Shields (Level 20) Thrall Allies within the Earthquake area gain a Shield equal to 15% of their maximum Health each pulse. This shield lasts 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Elemental Momentum (Level 20) Thrall Basic Attacks reduce Thrall's Basic and Heroic Ability cooldowns by 0.25 seconds, tripled against Heroes."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Nexus Blades (Level 20) Thrall Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second."
+   },
+   {
+    "slot": 5,
+    "marker": "yes",
+    "text": "Wind Rush (Level 20) Thrall Cooldown: 90 seconds Activate to immediately teleport to a target location and gain Windfury."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Thrall's Talent Build",
+   "id": "thralls-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n?\n✓\n7\n✓\n?\n?\n10\n✓\n?\n13\n✘︎\n✓\n?\n16\n?\n✓\n?\n20\n?\n?\n✘︎\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Thrall's Talent Build Cheatsheet",
+   "id": "thralls-talent-build-cheatsheet",
+   "text": "Chain Lightning Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThrall's Chain Lightning Build is designed to safely deal\npoke damage to enemy Heroes before the real team fight starts\nand then engage when they are not full Health.\nThunderstorm at Level 16 greatly empowers\nthis kind of playstyle because it makes Chain Lightning\ndeal more damage every time you switch target. Mana Tide\nat Level 4 lets you do that more often.\nChoose this Build when the enemy team suffers against\npoke damage because they do not have a good\nHealer for that or they completely lack one.\nFeral Spirit Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThrall's Feral Spirit Build is designed to take down enemy Heroes more easily\nby empowering Feral Spirit and Basic Attacks.\nThe amount of burst damage you can deal can be threatening\neven for the most durable Heroes.\nAlpha Wolf at Level 16 allows you to deal more damage\non enemy Heroes that have high maximum Health (for example Azmodan).\nFrostwolf Pack at Level 4, once you complete its Quest,\nwill let you do that more often. Alternatively, you can pick\nFeral Resilience at Level 4 to increase your survivability\nagainst Heroes with slow but heavy-hitting Basic Attacks.\nChoose this Build when you want to burst down\nthe enemy frontline and/or when the enemy team\nhas more than 2 Heroes with high maximum Health.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThrall's ARAM Build is designed to take down enemy Heroes more easily\nby empowering Feral Spirit and Basic Attacks.\nThe amount of burst damage you can deal can be threatening\neven for the most durable Heroes.\nAlpha Wolf at Level 16 allows you to deal more damage\non enemy Heroes that have high maximum Health (for example Azmodan).\nFrostwolf Pack at Level 4, once you complete its Quest,\nwill let you do that more often. Alternatively, you can pick\nFeral Resilience at Level 4 to increase your survivability\nagainst Heroes with slow but heavy-hitting Basic Attacks.\nChoose this Build when you want to burst down\nthe enemy frontline and/or when the enemy team\nhas more than 2 Heroes with high maximum Health."
+  },
+  {
+   "title": "Level 1 Talents for Thrall",
+   "id": "level-1",
+   "text": "✔\nEcho of the Elements\n(Level 1)\nThrall\nQuest: Kill Minions or Heroes within 2 seconds of hitting them with Chain Lightning.\nReward: After killing 20 enemies, reduce the Mana cost of Chain Lightning from 40 to 20.\nReward: After killing 50 enemies, Chain Lightning gains an extra charge.\nMythic Reward: After killing 125 enemies, Chain Lightning can now strike the same target multiple times, and also strikes 1 additional target per bounce.\nEcho of the Elements is a good Quest-based Talent that empowers\nChain Lightning when killing enemy Minions\nor Heroes within 2 seconds of being hit by it.\nAfter 20 stacks, it costs 20 less Mana.\nAfter 50 stacks, it gains an extra charge.\nAfter 125 stacks, it can strike an additional target per bounce (for a total of 2 targets maximum)\nand it can bounce back to a target that was previously hit.\nThe second charge directly increases your burst damage,\nespecially if you have Elemental Assault at Level 7, and\nyour poke damage, especially if you have Thunderstorm at Level 16,\nand indirectly increases your self-sustain by making\nFrostwolf Resilience trigger more often.\n?\nCrash Lightning\n(Level 1)\nThrall\nQuest: Hit at least 2 Heroes with a single use of Chain Lightning. Upon dying, lose 4 stacks. Gained rewards cannot be lost.\nReward: After hitting multiple Heroes 15 times, Chain Lightning deals 270 additional damage on its bounces after the initial strike.\nMythic Reward: After hitting multiple Heroes 30 times, Chain Lightning deals 325 additional damage on its bounces, and prioritizes bouncing to enemy Heroes.\nCrash Lightning is a situational Quest-based Talent that increases\nthe damage done by Chain Lightning when it bounces\nfrom a Hero to another with a single use.\nAfter 15 stacks, the bounce damage is increased by 270.\nAfter 30 stacks, the bounce damage is increased by 270 and bounces prioritize enemy Heroes.\nUpon dying, you lose 4 stacks but you keep any Quest Reward unlocked so far.\nIn order to increase the chances to get a stack, you should wait for enemy Heroes\nto be grouped and far away from enemy non-Heroes. If nearby enemy Minions are almost dead,\nwait a few seconds before casting Chain Lightning on enemy Heroes.\nYou should pick this Talent only if the team strategy consists of you being\nin the 4-man most of the time. Since the bonus damage it gives does not scale as you\nlevel up, it gives a bigger percentage increase when completed earlier.\nWarning! Crash Lightning cannot be picked in ARAM.\n?\nMaelstrom Weapon\n(Level 1)\nThrall\nQuest: Basic Attack Heroes while Windfury's Movement Speed bonus is active.\nReward: After hitting 25 Heroes, increase the Movement Speed bonus of Windfury to 40% and Thrall's Basic Attacks deal 40 additional damage.\nReward: After hitting 55 Heroes, Thrall permanently gains 15% increased Movement Speed and his Basic Attacks gain an additional 75 damage.\nMythic Reward: After hitting 100 Heroes, Frostwolf Resilience healing restores 200% more Health.\nMaelstrom Weapon is a strong Quest-based Talent that empowers\nWindfury and Frostwolf Resilience\n(only with the Pinnacle Reward) when hitting enemy Heroes with Basic Attacks\nwhile under the effect of Windfury.\nAfter 25 stacks, Basic Attacks deal 40 more damage\nand casting Windfury gives 10% additional Movement Speed.\nAfter 55 stacks, Basic Attacks deal 75 more damage, for a total of 115 additional damage,\nand Thrall gains 15% Movement Speed while not under the effect of Windfury.\nAfter 100 stacks, Frostwolf Resilience restores 200% more Health.\nWe find this Talent quite powerful because it boosts your damage output, increases your\nmobility, and it may enhance your survivability as well.\nUnlocking the Pinnacle Reward is great but it may not always\nbe possible because it requires a lot of stacks.\nSince it increases the damage done by Basic Attacks, this Talent has synergy with\nElemental Assault at Level 7 and Tempest Fury at Level 16.\nSince it increases the healing done by Frostwolf Resilience, this Talent\nhas synergy with Grace Of Air or Frostwolf's Grace\nat Level 13, Tempest Fury at Level 16,\nand Nexus Blades at Level 20."
+  },
+  {
+   "title": "Level 4 Talents for Thrall",
+   "id": "level-4",
+   "text": "?\nFeral Resilience\n(Level 4)\nThrall\nHeroes damaged by Feral Spirit grant 4 stacks of Frostwolf Resilience and 2 stacks of Feral Resilience, granting 75 Physical Armor against the next incoming Hero Basic Attack.\nStacks are consumed on the next cast of Feral Spirit.\nFeral Resilience is a good Talent that\nhelps charging Frostwolf Resilience and gives\nPhysical Armor in the form of\nBlock charges\nwhen hitting enemy Heroes with Feral Spirit.\nBlock charges are especially valuable\nwhen facing Heroes with slow but heavy-hitting Basic Attacks (such as Hanzo) and\nterrible when playing against Heroes with fast-hitting Basic Attacks (D.Va,\nGenji, Kharazim, Lúcio, Tassadar, Tracer,\nand Tychus). Heroes with Clones (for example Nova) can consume them faster\ntoo, however, it is generally not a problem because their AI will not always target you.\n?\nFrostwolf Pack\n(Level 4)\nThrall\nQuest: Hit 6 Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero.\nReward: Reduce the cooldown and Mana cost of Feral Spirit by 50%.\nFrostwolf Pack is a good Quest-based Talent that\nreduces the cooldown and Mana cost of Feral Spirit when completed.\nTo complete it faster and reduce the chances to lose all progress, you should\nfollow-up on crowd control\nprovided by your Tank or other allied Heroes.\nDo not pick this Talent when you expect to use Feral Spirit for\nwaveclear because casting it on non-Heroes before completing\nthe Quest will cause you to lose all progress and not being able to help your team\nclearing Minions for several minutes may be a problem on some Maps.\nThere is no strong synergy between this Talent and Alpha Wolf\nat Level 16 because this Talent reduces Feral Spirit's cooldown\nbut does not reduce Windfury's cooldown.\n✔\nMana Tide\n(Level 4)\nThrall\nFrostwolf Resilience restores 15 Mana and reduces Basic Ability cooldowns by 0.5 seconds.\nMana Tide is a good Talent that increases the\nself-sustain provided by Frostwolf Resilience.\nThe additional Mana is there to compensate for the cooldown reduction, but it also\nhelps you at keeping your Mana at a good level when not using your Abilities on cooldown.\nThe small cooldown reduction for your Basic Abilities provided by this Talent\nhas synergy with Echo of the Elements\nor Crash Lightning at Level 1,\nand Thunderstorm at Level 16."
+  },
+  {
+   "title": "Level 7 Talents for Thrall",
+   "id": "level-7",
+   "text": "✔\nRolling Thunder\n(Level 7)\nThrall\nPassive: Chain Lightning bounces an additional time.\nFor 8 seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them grants a stack of Frostwolf Resilience. If the target is an enemy Hero, then he also deals damage to them equal to 3% of their maximum Health and healing for the same amount.\nRolling Thunder is a good Talent that\nmakes Chain Lightning\nbounce an additional time (for a total of 4 bounces maximum) and\nmarks targets hit by Chain Lightning.\nBasic Attacks against marked targets\ngrant 1 stack of Frostwolf Resilience.\nIf the marked target is a Hero, Basic Attacks deal damage equal to 3% of their\nmaximum Health and heal Thrall for the same amount.\nThe fact it deals percent-based damage\nmay be useful when playing against Heroes with Armor\nand/or high maximum Health (for example Deathwing).\n?\nAncestral Wrath\n(Level 7)\nThrall\nCooldown: 1 seconds\nActivate to consume 8 stacks of Ancestral Wrath, damaging a target enemy Hero for 15% of their maximum Health over 3 seconds, and healing Thrall for 150% of the damage dealt.\nGain 1 stack of Ancestral Wrath every time Frostwolf Resilience activates.\nAncestral Wrath is a good Talent that can be activated\nby paying 8 stacks of Ancestral Wrath to deal\ndamage equal to 15% of the target's maximum Health over 3 seconds\nand heals Thrall for 1.5 times that amount, increasing his survivability.\nYou gain 1 stack of Ancestral Wrath every time\nFrostwolf Resilience goes off.\nThe fact it deals percent-based damage\nmay be useful when playing against Heroes with Armor\nand/or high maximum Health (for example Deathwing).\n?\nElemental Assault\n(Level 7)\nThrall\nAfter using an Ability, Thrall's next Basic Attack within 4 seconds deals 45% more damage.\nElemental Assault is a good Talent that increases\nThrall's Attack Damage after using any Ability (including Heroic Abilities),\nsomething that may help you win the offlane against specific enemy Heroes\nand/or to deal more burst damage against\nsquishy enemy Heroes in team fights.\nThe damage bonus provided by this Talent amplifies any effect that\nincreases your Basic Attacks damage. As such, this Talent is great\nwhen paired with Maelstrom Weapon at Level 1,\nespecially if you manage to unlock its Pinnacle Reward."
+  },
+  {
+   "title": "Level 10 Talents for Thrall",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nSundering\n(Level 10)\nThrall\nMana: 75\nCooldown: 70 seconds\nAfter 0.5 seconds, sunder the earth in a long line, dealing 290 (+4% per level) damage and shoving enemies to the side, Stunning them for 1 second.\nSundering is a good Heroic Ability that damages and\nStuns enemy Heroes hit, a powerful effect to have at your disposal\nwhen your team needs an interrupt to enable and/or secure\n(for example against Anduin with Holy Word: Salvation).\n?\nEarthquake\n(Level 10)\nThrall\nMana: 90\nCooldown: 100 seconds\nAfter 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 (+4% per level) damage to enemy Heroes. Does 3 pulses.\nEarthquake is a strong Heroic Ability that damages and\nSlows enemy Heroes in the area each time it pulses,\nsomething that makes it really easy for your team to fight because the\nenemy Heroes will have a hard time moving around. While it is powerful on its own,\nthis Talent has a pretty obvious synergy between the huge Slow provided\nand other area of effect Abilities that require\nthe enemy Heroes to not move that much in order for them to hit\n(such as Apocalypse by Diablo).\nWhile not as obvious as the synergy above, this Heroic Ability can also be used\nto Slow the enemy team while increasing the Movement Speed of your own team\n(for example Bloodlust by Rehgar)."
+  },
+  {
+   "title": "Level 13 Talents for Thrall",
+   "id": "level-13",
+   "text": "✘\nGrace Of Air\n(Level 13)\nThrall\nWindfury attacks grant twice as many stacks of Frostwolf Resilience.\nGrace Of Air is a weak Talent that gives Thrall\nmore self-sustain while using Windfury,\nmostly because it gets overshadowed by Frostwolf's Grace.\n✔\nFrostwolf's Grace\n(Level 13)\nThrall\nFrostwolf Resilience can be activated to instantly heal. This healing is increased by up to 100% based on Thrall's missing health.\nFrostwolf's Grace is a good Talent that allows you\nto insantly get healed by Frostwolf Resilience,\nregardless of the number of stacks you have and without consuming them.\nThe amount healed is equal to the baseline value plus the percentage of maximum Health\nthat Thrall is missing (for example, at 40% maximum Health it will heal 60% more).\nAn effect like this helps when Thrall finds himself in dangerous situations\nand needs burst-healing, however,\nit can occasionally be used to increase your self-sustain\nwhen you do not expect a team fight for the next dozen of seconds\n(enough time to have it off cooldown again).\n?\nSpirit Shield\n(Level 13)\nThrall\nCooldown: 45 seconds\nEvery 45 seconds, gain 70 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.\nCan be toggled to allow or prevent this talent from triggering automatically.\nSpirit Shield is a situational Talent that can be toggled on\nto provide a lot of Spell Armor the next time Thrall takes\nSpell Damage. Remember to toggle it off when you do not need it,\notherwise you will end up wasting its effect due to poke damage.\nWhile we find this Talent always good, it is particularly good when the enemy\nteam features a Hero with a powerful heavy-hitting Ability\n(such as Pyroblast by Kael'thas)\nbecause in that case the Spell Armor\nprovided can absorb more damage than Frostwolf's Grace\ncould heal."
+  },
+  {
+   "title": "Level 16 Talents for Thrall",
+   "id": "level-16",
+   "text": "?\nTempest Fury\n(Level 16)\nThrall\nThe final strike of Windfury hits 3 times for 75% normal damage. These hits do not provide quest progress.\nTempest Fury is a good Talent that causes\nthe final strike of Windfury to hit 3 more times\nfor 75% damage. These extra hits do not provide Quest progress.\nThe additional burst damage provided by this Talent\nmay be useful to quickly take down enemy Heroes, especially if you picked\nMaelstrom Weapon at Level 1 and managed to unlock\nthe second Reward or the Pinnacle Reward. Just keep in mind that, due to\nbeing based on Basic Attacks, this Talent is weak to Blinds.\n✔\nThunderstorm\n(Level 16)\nThrall\nChain Lightning Slows the primary target by 8% for 2 seconds when used on Heroes.\nQuest: Targeting a Hero directly with Chain Lightning increases this Slow by 8%, up to an additional 40%.\nReward: While at a 40% bonus, Chain Lightning's damage is increased by 30%.\nBonuses are reset if Chain Lightning is used on the same Hero it was last used on, or if Thrall dies.\nThunderstorm is a good Quest-based Talent that causes\nChain Lightning to Slow enemy Heroes\nand empowers Chain Lightning when hitting a different Hero\nwith it, up to 5 times. Each stack provides 8% additional Slow.\nWhen at maximum stacks, Chain Lightning also deals 30% more damage.\nStacks are lost when dying or using Chain Lightning on the same Hero.\nThe increasing Slow provided by this Talent as you progress with its Quest is not\nthat impactful, but it becomes powerful once the Quest gets closer to its completion.\nAt that point you can use it to engage on enemy Heroes\nwho are trying to flee or as a setup for Feral Spirit.\nOnce fully stacked, you should generally avoid casting Chain Lightning\non the same enemy Hero as primary target twice in a row, else you\nwill have to stack the Quest again. The only exception is when you can sacrifice\nthe Quest progress to secure a kill.\n?\nAlpha Wolf\n(Level 16)\nThrall\nFor 3 seconds after a Hero is hit by Feral Spirit, Thrall's Basic Attacks against them deal an additional 3% of the target's maximum Health as damage.\nPassive: Increase the duration of Feral Spirit's Root to 1.5 seconds.\nAlpha Wolf is a strong Talent that gives Thrall\na solid amount of percent-based damage, useful\nwhen playing against Heroes with high maximum Health (such as Stitches),\nwhile also increasing the Root duration.\nTo empower as many Basic Attacks as possible, you have to cast Feral Spirit\nto Root an enemy Hero and then use Windfury\nto deal damage to the same target immediately after. Just keep in mind that due to\nbeing based on Basic Attacks, this Talent is weak to Blinds."
+  },
+  {
+   "title": "Level 20 Talents for Thrall",
+   "id": "level-20",
+   "text": "?\nWorldbreaker\n(Level 20)\nThrall\nLower the cooldown of Sundering by 40 seconds. After Sundering impacts, it leaves behind an impassable rift, blocking unit movement for 3 seconds.\nWorldbreaker is a good Talent that reduces\nSundering's cooldown by a considerable amount and causes\nit to leave a wall of impassable terrain\non its path, preventing Heroes from moving from a side to another.\nThe impassable terrain it creates can be used to\nblock enemy Heroes in a narrow area, to prevent enemy Heroes to move from a side\nof the battlefield to another during a team fight, or to stop their retreat.\nBe careful not to block your teammates with it!\nThe cooldown reduction may occasionally help you cast Sundering\ntwice in a single team fight or use it for two consecutive team fights\nwith low downtime between them. For example, you could try to engage\nwith it and then try again shortly after if it fails, or you could gank\nsomeone and then have it back for the next team fight.\n?\nEarthen Shields\n(Level 20)\nThrall\nAllies within the Earthquake area gain a Shield equal to 15% of their maximum Health each pulse. This shield lasts 4 seconds.\nEarthen Shields is a strong Talent that provides\na powerful Shield to every allied Hero in the area covered by\nEarthquake when it pulses, something that\ncan deny a lot of damage and makes it useful in any situation.\n✘\nElemental Momentum\n(Level 20)\nThrall\nBasic Attacks reduce Thrall's Basic and Heroic Ability cooldowns by 0.25 seconds, tripled against Heroes.\nElemental Momentum is a weak Talent\nthat makes your Basic Attacks reduce the cooldown of your Abilities\nby 0.25 seconds. The cooldown reduction provided is tripled against Heroes.\nTempest Fury at Level 16\nallows you to get slightly more value from this Talent\nby adding 2 Basic Attacks to Windfury.\nEven though you will always get some value from it, especially in\nprolonged team fights, we do not recommend this Talent because\nit is weaker than the alternatives in the same Tier.\n?\nNexus Blades\n(Level 20)\nThrall\nBasic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.\nNexus Blades is a situational Talent that makes\nThrall deal more damage with Basic Attack and helps him stick on the target enemy.\nDue to the importance of Earthen Shields\nand the utility of Wind Rush being superior,\nwe only recommend this Talent when going for Core.\n✔\nWind Rush\n(Level 20)\nThrall\nCooldown: 90 seconds\nActivate to immediately teleport to a target location and gain Windfury.\nWind Rush is a strong Talent that gives Thrall\na powerful mobility tool that can be used either as\nan escape or as a gap-closer.\nWhen used, this Talent gives Thrall a free Windfury\neffect that benefits from any related Talent. What it means is that\nyou should not use Windfury right before\nor right after using Wind Rush, but wait a few seconds\nto make the first Windfury effect expire\nand then use the other one, unless you just need the teleport effect.\nWhen you pick Sundering at Level 10,\nyou generally want to pick this Talent because it allows you\nto quickly reach the target of your engage\nand thus deal more damage to them while they are Stunned.\nThat said, you should save it as an escape tool when you feel in danger."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "28 Jul. 2026: Guide reviewed.\n20 Jul. 2026: Guide updated for the latest Patch.\n23 Apr. 2026: Guide updated for the latest Balance Update.\n14 Feb. 2026: Guide updated for the latest Balance Update.\n23 Dec. 2025: Guide reviewed.\n16 Dec. 2025: Guide updated for the latest Balance Update.\n07 Dec. 2025: Guide updated for the latest Balance Update.\n30 Sep. 2025: Guide reviewed for the latest Balance Update.\n01 Aug. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n17 Oct. 2024: Guide reviewed for the latest Balance Update.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n12 Mar. 2022: ARAM Build added.\n28 Sep. 2021: Guide reviewed for the latest Balance Update.\n06 Jul. 2021: Builds updated.\n25 Feb. 2021: New layout.\n01 Dec. 2020: Guide reviewed for the latest Patch.\n05 Oct. 2020: Builds updated.\n25 Jun. 2020: Talent Build updated to reflect the current metagame.\n13 May 2020: Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n04 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\n23 Jan. 2020: Updated Thrall's Solo Lane Build. Rolling Thunder is now Recommended.\n19 Dec. 2019: Updated Rolling Thunder's decription and labelled it Situational for the time being until further play testing has been done.\n02 Sep. 2019: Updated Thrall's Talent Builds and general Talents section to more precisely reflect the current state of the game.\n10 May 2018: Changed Rolling Thunder from Not Recommended to Recommended and created the Rolling Thunder Build.\n08 May 2018: Changed Crash Lightning from Recommended to Situational.\n02 Mar. 2018: Greatly updated Thrall's Talent Builds and their descriptions. Re-evaluated several talents in accordance with the new Crash Lightning Build.\n18 Jun. 2017: Changed and updated Worldbreaker's description.\n13 Jun. 2017: Complete revamp of the page, following Thrall's rework in Malthael's patch.\n12 May 2017: Updated Stonewolves' and Tempest Fury's talent descriptions.\nShow more\nShow less"
+  }
+ ]
+}

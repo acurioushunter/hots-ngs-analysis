@@ -1,0 +1,265 @@
+{
+ "slug": "sonya",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/sonya-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/sonya-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/sonya-talents"
+ },
+ "guide": [
+  {
+   "title": "Sonya's Overview",
+   "id": "sonyas-overview",
+   "text": "Sonya is an aggressive but durable Bruiser with\na fair amount of self-sustain and\ncapable of dealing a high amount of damage from melee distance,\nmaking her one of the best Offlaners\nin the game when played correctly."
+  },
+  {
+   "title": "Sonya's Strengths and Weaknesses",
+   "id": "sonyas-strengths-and-weaknesses",
+   "text": "Strengths\nHigh waveclear\nGreat self-sustain\nHigh single-target damage\nGreat at capturing Mercenary Camps\nWeaknesses\nSusceptible to being kited\nNo options to deal damage from range\nExcessively reliant on hitting Ancient Spear\nWhirlwind can be easily interrupted\nLow mobility"
+  },
+  {
+   "title": "Sonya's Talent Build Cheatsheet",
+   "id": "sonyas-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Basic Attacks Build is designed to increase your sustain damage\nfor killing Heroes with Wrath of the Berserker active,\nways to generate Fury for extending Wrath of the Berserker's\nduration while active, and some survivability tools for team fights.\nThe damage increase comes from Furious Blow\nat Level 1, Giant Slammer at Level 16,\nand (optionally) from Poisoned Spear at Level 7.\nThe extra Fury generation comes from\nShot Of Fury at Level 4.\nUse Whirlwind\nand Battle Rage at Level 7\nto heal yourself in lane or while fighting.\nUse Ignore Pain at Level 20\nto reduce incoming burst damage while fighting.\nLeap Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Leap Build is designed to increase burst damage\nfor killing enemy Heroes right after using Leap,\nwaveclear for laning,\nand some survivability tools for team fights.\nThe damage increase comes from Furious Blow\nat Level 1, from Giant Slammer at Level 16,\nand (optionally) from Poisoned Spear at Level 7.\nThe waveclear comes from\nShattered Ground at Level 4.\nUse Whirlwind\nand Battle Rage at Level 7\nto heal yourself in lane or while fighting.\nUse Ignore Pain at Level 20\nto reduce incoming burst damage while fighting.\nWhirlwind Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Whirlwind Build excels against team compositions without reliable ways to\ninterrupt Sonya during Whirlwind\nand ideally with multiple melee or low-range Heroes to hit at the same time,\nso that you will self-heal for more and thus be harder to kill.\nLife Funnel at Level 7 increases the healing Sonya\nreceives from Whirlwind. Hurricane\nat Level 4 allows you to cast Whirlwind more often and,\nmore importantly, gives you the ability to remove any Slow\nor Root from yourself.\nUse Whirlwind\nto heal yourself in lane or while fighting.\nUse either Nerves of Steel at Level 16\nor Ignore Pain at Level 20\nto reduce incoming burst damage while fighting.\nIf the enemy team has Heroes with high Attack Speed or multi-hit Basic Attacks,\nyou should replace Tough As Nails at Level 1\nwith War Paint otherwise they will easily deplete\nall your Block charges.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Basic Attacks Build is designed to increase your sustain damage\nfor killing Heroes with Wrath of the Berserker active,\nways to generate Fury for extending Wrath of the Berserker's\nduration while active, and some survivability tools for team fights.\nThe damage increase comes from Furious Blow\nat Level 1, Giant Slammer at Level 16,\nand (optionally) from Poisoned Spear at Level 7.\nThe extra Fury generation comes from\nShot Of Fury at Level 4.\nUse Whirlwind\nand Battle Rage at Level 7\nto heal yourself in lane or while fighting.\nUse Ignore Pain at Level 20\nto reduce incoming burst damage while fighting.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Sonya's Synergies and Counters",
+   "id": "sonyas-synergies-and-counters",
+   "text": "Sonya synergizes with\nWhen going for Leap as Heroic Ability,\nhaving a powerful follow-up is crucial.\nAs such, she does better when paired with Heroes who can\ndive together with her and/or deal a lot\nof burst damage on the same target.\nWhen going for Wrath of the Berserker\nas Heroic Ability, survival means damage and damage means survival.\nAs a consequence, she works well with any Hero that can keep her\nalive for longer with healing, damage mitigation effects, added\nmobility, or who can reliably\ncrowd control enemy Heroes.\nSonya is countered by\nSonya can be easily punished after engaging because she relies on the\nself-sustain from her Abilities and Talents. For this reason,\nHeroes that have crowd control and/or burst damage\nin their kit are a respectable threat for her.\nWrath of the Berserker only reduces the duration\nof Stun, Root, and Slow\neffects. As such, Heroes with access to Silence effects\n(including Taunt and Fear)\nare better for crowd controlling her."
+  },
+  {
+   "title": "Sonya's Maps",
+   "id": "sonyas-maps",
+   "text": "Sonya's stronger maps\nSonya's average maps\nSonya's weaker maps\nAs a solid Offlaner capable of double soaking\nand clear Mercenary Camps with ease, Sonya can find a place on all Maps. She is, however, particularly\neffective on those Maps that feature several Mercenary Camps (for example Garden of Terror).\nDue to being relatively weak to ganks, Sonya struggles on Maps\nwhere it is easier to gank the enemy Offlaner\n(notably Towers of Doom)."
+  },
+  {
+   "title": "Sonya's Tips and Tricks",
+   "id": "sonyas-tips-and-tricks",
+   "text": "Try and keep your Fury full before impending engagements. Note that it does not decay over time.\nWhen laning, you can tank enemy Minions to generate Fury and keep allied Minions healthy.\nAncient Spear is great for generating Fury and should be often used on non-Heroes for doing so.\nTo maximize sustain damage and Fury's Movement Speed uptime, do this: cast 1 Seismic Slam, execute 2 Basic Attacks, repeat.\nWhen possible, Whirlwind is best used on multiple targets. Heroes give more self-healing.\nTry to constantly generate Fury during Wrath of the Berserker to extend its duration.\nSonya can use Wrath of the Berserker to take down enemy Structures when uncontested.\nShot Of Fury at Level 4 can be used to extend Wrath of the Berserker's duration by 5 seconds.\nAvoid using Nerves of Steel at Level 16 and Ignore Pain at Level 20 at the same time.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Sonya's Role in the Current Meta",
+   "id": "sonyas-role-in-the-current-meta",
+   "text": "Thanks to her survivability and waveclear,\nSonya is a solid Offlaner that\ncan contribute with a huge amount of damage during team fights.\nShe is also good at double soaking when needed.\nSonya excels in prolonged battles or split-pushing\nwhen having Wrath of the Berserker as Heroic Ability\nand does great in short fights or ganks when having\nLeap as Heroic Ability."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Aug. 2025 (talents page): Guide reviewed.\n22 Aug. 2025 (abilities page): Guide reviewed.\n22 Aug. 2025 (this page): Guide reviewed.\n04 Jun. 2021 (talents page): Builds and Talents updated after May 18 balance patch.\n04 Jun. 2021 (this page): Guide updated after May 18 balance patch.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n26 Feb. 2021 (this page): Simplified Build choices.\n18 Feb. 2021 (talents page): Builds and Talents updated to better reflect current meta.\n18 Feb. 2021 (this page): Guide updated to better reflect current meta.\n25 Jan. 2021 (talents page): Talents and builds updated to ensure meta relevance.\n25 Jan. 2021 (abilities page): Updated Leap's description.\n25 Jan. 2021 (this page): Updated Tips and Builds to keep up with meta changes.\n03 Dec. 2020 (talents page): Talents and builds updated after recent balance patch.\n03 Dec. 2020 (abilities page): Updated Seismic Slam's description.\n03 Dec. 2020 (this page): Guide updated after recent balance patch.\n24 Sep. 2020 (talents page): Builds updated to ensure meta relevance.\n24 Sep. 2020 (this page): Builds updated to ensure meta relevance.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n13 Dec. 2019 (this page): Added a note about current Anomaly.\n29 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n29 Oct. 2019 (abilities page): Abilities section reviewed.\n29 Oct. 2019 (this page): Guide updated.\n30 Aug. 2018 (talents page): Talent descriptions updated to reflect latest balance patch.\n13 May 2018 (talents page): Talent descriptions and recommendations updated to reflect Sonya's rework patch.\n07 Mar. 2018 (talents page): Talent descriptions and recommendations updated to reflect Sonya's rework patch.\n06 Mar. 2018 (this page): Role section updated to better reflect currently expected solo laning role.\n14 Jan. 2018 (talents page): Updated Tier 2 and Tier 3 Talent discussions. Updated Whirlwind and Burst builds.\n29 Aug. 2017 (this page): Guide fully updated and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Sonya's Tips and Tricks",
+   "id": "sonyas-tips-and-tricks",
+   "text": "Try and keep your Fury full before impending engagements. Note that it does not decay over time.\nWhen laning, you can tank enemy Minions to generate Fury and keep allied Minions healthy.\nAncient Spear is great for generating Fury and should be often used on non-Heroes for doing so.\nTo maximize sustain damage and Fury's Movement Speed uptime, do this: cast 1 Seismic Slam, execute 2 Basic Attacks, repeat.\nWhen possible, Whirlwind is best used on multiple targets. Heroes give more self-healing.\nTry to constantly generate Fury during Wrath of the Berserker to extend its duration.\nSonya can use Wrath of the Berserker to take down enemy Structures when uncontested.\nShot Of Fury at Level 4 can be used to extend Wrath of the Berserker's duration by 5 seconds.\nAvoid using Nerves of Steel at Level 16 and Ignore Pain at Level 20 at the same time."
+  },
+  {
+   "title": "Fury",
+   "id": "fury",
+   "text": "Fury\n(D)\nSonya\nPassive\nUse Fury instead of Mana, which is gained by taking damage or dealing Basic Attack damage. Using a Basic or Heroic Ability grants 10% Movement Speed for 4 seconds.\nSonya uses Fury instead of Mana. Seismic Slam\ncosts 25 Fury, Whirlwind costs 40 Fury, and every other\nBasic or Heroic Ability costs no Fury. In addition to that, whenever you use a Basic or Heroic Ability,\nSonya gains a small but nonetheless useful amount of Movement Speed for a few seconds.\nContrary to Mana on other Heroes, Fury does not regenerate over time. Sonya has to generate it:\nBasic Attacks generate 6 Fury, each instance of damage taken generates 2 Fury,\nAncient Spear generates 40 Fury, and\nactivating Shot Of Fury at Level 4 gives 50 Fury.\nThe maximum amount of Fury that can be stored is 100.\nAs a resource, Fury is not particularly difficult to manage, though it is an\nintegral part of Sonya's playstyle. A simple rule of thumb is to not spend it\nwhen you may not be able to regenerate it before engaging in any kind of player\ncombat, for which you always want your Fury bar to be full or nearly so.\nDo not waste Ancient Spear's cooldown to generate\nFury when almost full because you may need it shortly after for damage\nor mobility.\nThe small Movement Speed bonus that Sonya gets when using a Basic or\nHeroic Ability is quite useful to outmanoeuvre, chase,\nor escape from many less-mobile Heroes. Movement Speed is helpful for\nincreasing your Basic Attack uptime as well, granted that\nyou maintain the effect by using an Ability at least once every 4 seconds."
+  },
+  {
+   "title": "Ancient Spear",
+   "id": "ancient-spear",
+   "text": "Ancient Spear\n(Q)\nSonya\nCooldown: 13 seconds\nThrow out a spear that pulls Sonya to the first enemy hit, dealing 173 (+4% per level) damage and briefly stunning them. If this hits an enemy, generate 40 Fury.\nAncient Spear is a Basic Ability with many important functions.\nBesides dealing a large amount of damage, the Ability acts as Sonya's\nmain gap-closer, interrupt tool,\nand Fury generator. If you pick Mystical Spear at Level 13,\nyou can also use it as a mobility tool when not hitting\nan enemy, even across impassable terrain.\nFailing to hit an enemy with Ancient Spear during a team fight can leave\nyou Fury-starved for an extended period of time, especially if you do not have\nShot Of Fury at Level 4 as an alternative way to generate Fury,\nas you will then have to rely on Basic Attacks to generate enough Fury to use your other\nBasic Abilities. If you have Wrath of the Berserker as Heroic Ability,\nthis will also cause its duration to be shorter.\nFor this reason, it is essential that you learn the Ability's range and\nprojectile speed so that you may reliably hit your intended target, even in high\nstress situations. Do know that keen opponents who understand the importance of\nthe Ability may attempt to juke you to avoid being hit, at which point experience\nand prediction skills will come into play."
+  },
+  {
+   "title": "Seismic Slam",
+   "id": "seismic-slam",
+   "text": "Seismic Slam\n(W)\nSonya\nFury: 25\nCooldown: 1 seconds\nDeals 176 (+4% per level) damage to the target enemy, and 44 (+4% per level) to enemies behind the target.\nSeismic Slam is a point-and-click Basic Ability that can be used to deal\ndamage to a given enemy and a lower amount of damage\nto any enemy unit behind them. With such a high\ndamage value on a very short cooldown, it is one of the best sustain damage\nAbilities in the game, and is key to eliminating Heroes, Mercenaries, and\nStructures alike. Due to its short range, it is important to remain near\nyour foes as much as possible, when it is safe to do so. Fury generation\nhas a similar level of importance as you will not be able to use\nSeismic Slam without it.\nSeismic Slam deals some damage to foes behind your initial target too.\nThis effect is typically not taken into account during team fights\nas this limited damage is rarely worth the hassle of having to reposition yourself\nbut you should definitely play around it while laning\nas it will contribute to your waveclear.\nSonya's fast Attack Speed\nmakes it possible to land 2 Basic Attacks between each Seismic Slam.\nBy casting Seismic Slam every 2 Basic Attacks,\nyou will maximise your sustain damage and\npromote Fury generation. By casting it on cooldown, you will maximize\nyour burst damage at the cost of Fury."
+  },
+  {
+   "title": "Whirlwind",
+   "id": "whirlwind",
+   "text": "Whirlwind\n(E)\nSonya\nFury: 40\nCooldown: 5 seconds\nDeals 138 (+4% per level) damage a second to nearby enemies for 3 seconds, healing for 25% of damage dealt. Healing tripled versus Heroes.\nWhirlwind is a channeled Ability that\ncan be used to deal damage and heal for a portion of the damage dealt,\neven when moving. Sonya can pass through enemy units during its effect,\ndenying enemy Heroes the possibility to body block her.\nThe self-healing provided by Whirlwind allows Sonya to self-sustain\nwhile laning and increases her survivability in team fights,\nespecially when she is able to hit multiple enemy Heroes with it\nbecause the self-healing that comes from damaging them is increased.\nWhirlwind can also be situationally useful for\nboth chasing and escaping. Since it does not have a casting animation, unlike\nAncient Spear and Seismic Slam, you can instantly benefit from\nthe Movement Speed increase provided by Fury without having to stop\nmoving.\nWhirlwind is notably powerful against team compositions that lack reliable\nmeans of interrupting it. Hitting several Heroes at\nonce can yield an impressive amount of healing, though one should see to first\nand foremost remain in a safe position. Considering that Whirlwind's\nhealing depends on the amount of damage done with it, effects that increase\nSonya's Spell Damage or increase the damage taken by enemies\n(for example Armor reduction) will\neffectively cause Whirlwind to heal more."
+  },
+  {
+   "title": "Leap",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nLeap\n(R)\nSonya\nHeroic\nCooldown: 60 seconds\nLeap into the air, dealing 135 (+4% per level) damage to nearby enemies, and stunning them for 1.25 seconds.\nLeap is a strong Heroic Ability that allows Sonya to become\nUnstoppable and jump towards a target location.\nUpon impact, all enemies take damage and are Stunned,\ninterrupting any channel\nin progress (such as Mosh Pit by E.T.C.).\nLeap can be used either as a gap-closer or as\nan escape, to survive unexpected ganks\nor to counter delayed crowd-control\neffects (notably Temporal Loop by Chromie).\nDuring team fights, Leap is a powerful engage\nwhich can enable several other Abilities that require a\nsetup of some sort to be effective\n(for example Ring of Frost by Jaina).\nWhen using Leap on moving enemy Heroes, you should take into account\ntheir Movement Speed and Sonya's travel time during Leap's animation,\notherwise you will end up missing the target. Be aware of possible\njukes as well."
+  },
+  {
+   "title": "Wrath of the Berserker",
+   "id": "wrath-of-the-berserker",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nWrath of the Berserker\n(R)\nSonya\nHeroic\nCooldown: 60 seconds\nIncrease damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.\nWrath of the Berserker is a strong Heroic Ability which greatly empowers\nthe damage that Sonya deals with Basic Attacks and Abilities\nand reduces the duration of most crowd control effects:\nStuns (including Sleeps),\nRoots, and Slows.\nThe effect lasts 15 seconds, extended by 1 second for every 10 Fury gained.\nWrath of the Berserker temporarily turns Sonya into a force to be reckoned\nwith, even for the toughest of Tanks\nand Bruisers, as it greatly increases Sonya's damage. While active,\nSonya becomes so powerful that Heroes without mobility\nand lack of peeling will not be able to survive.\nThe reduced duration of most crowd control effects\nis quite useful when fighting against Heroes who have access to\nStuns (including Sleeps),\nRoots, and Slows. These are\nall effects that can be used for peeling,\nthus not allowing Sonya to deal damage on the desired target.\nOutside of general player combat, Wrath of the Berserker is useful for very\nquickly claiming Mercenary Camps, waveclearing, or destroying\nStructures. Due to its relatively short cooldown and potentially high uptime\nwith correct Fury management, one should not shy away from\nusing the Ability outside of team fights as well. This is typically achieved\nby aggressively delivering Basic Attacks, using Ancient Spear,\nand activating Shot Of Fury at Level 4 before\nWrath of the Berserker expires."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Aug. 2025: Guide reviewed.\n25 Jan. 2021: Updated Leap's description.\n03 Dec. 2020: Updated Seismic Slam's description.\n29 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Furious Blow (Level 1) Sonya Every 4th cast of Seismic Slam deals 40% more damage to the primary target and costs no Fury."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "War Paint (Level 1) Sonya Sonya's Basic Attacks heal for 30% of the damage dealt."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Tough As Nails (Level 1) Sonya Every 16 seconds, gain 60 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 60%. Stores up to 3 charges. Charges refresh 200% faster while Fury's Movement Speed bonus is active."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Shattered Ground (Level 4) Sonya Increase Seismic Slam's splash damage by 250%. Targeting a Hero with Seismic Slam further increases its splash damage by 250%, while targeting other enemies increases the length of its splash by 66%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Hurricane (Level 4) Sonya Reduce the cooldown of Whirlwind by 2 seconds. Casting Whirlwind removes all Slows and Roots from Sonya."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Shot Of Fury (Level 4) Sonya Activate to gain 50 Fury. Usable while Whirlwinding. Passive: After casting Seismic Slam, your next Basic Attack deals 40% more damage."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Poisoned Spear (Level 7) Sonya Ancient Spear deals an additional 100% damage over 6 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Life Funnel (Level 7) Sonya Increases the healing of Whirlwind to 35% of damage dealt."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Battle Rage (Level 7) Sonya Charges: 2 Recharge Time: 30 seconds Activate to instantly restore 10% of Sonya's maximum Health. Stores up to 2 charges. Usable while Whirlwinding. Passive: Sonya deals 25% more damage to Mercenaries."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Leap (Level 10) Sonya Cooldown: 60 seconds Leap into the air, dealing 135 (+4% per level) damage to nearby enemies, and stunning them for 1.25 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Wrath of the Berserker (Level 10) Sonya Cooldown: 60 seconds Increase damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Mystical Spear (Level 13) Sonya Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy. When used this way, Ancient Spear's cooldown is reduced by 5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Ruthless (Level 13) Sonya Whirlwind deals an additional 50 (+4% per level) damage per second to Heroes below 50% Health. Does not generate additional healing."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "No Escape (Level 13) Sonya Increases the Movement Speed bonus from using Basic and Heroic Abilities to 20%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Giant Slammer (Level 16) Sonya Basic Attacks and Seismic Slam deal an additional 1.5% of Heroes' maximum Health as damage and heal Sonya for 60% of the damage dealt."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Rampage (Level 16) Sonya Increase Basic Attack damage by 25%. Basic Attacks reduce the cooldown of Ancient Spear by 1.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Nerves of Steel (Level 16) Sonya Cooldown: 60 seconds Activate to gain 25% of your maximum Health as a Shield for 3 seconds. Usable while Whirlwinding."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Arreat Crater (Level 20) Sonya Leap leaves behind an impassable crater for 5 seconds. Reduces Leap's cooldown by 20 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Striding Giant (Level 20) Sonya Wrath of the Berserker increases maximum Health by 10% and grants Striding Giant, which can be activated to become Unstoppable for 2 seconds. 30 second cooldown."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Composite Spear (Level 20) Sonya Increases Ancient Spear's range by 50%. Hitting an enemy Hero with Ancient Spear grants 25 Armor for 4 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Ignore Pain (Level 20) Sonya Cooldown: 60 seconds Activate to gain 60 Armor for 4 seconds, taking 60% less damage. Usable while Whirlwinding."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Sonya's Talent Build",
+   "id": "sonyas-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n?\n✓\n7\n?\n?\n✓\n10\n?\n✓\n13\n?\n✘︎\n✓\n16\n✓\n?\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Sonya's Talent Build Cheatsheet",
+   "id": "sonyas-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Basic Attacks Build is designed to increase your sustain damage\nfor killing Heroes with Wrath of the Berserker active,\nways to generate Fury for extending Wrath of the Berserker's\nduration while active, and some survivability tools for team fights.\nThe damage increase comes from Furious Blow\nat Level 1, Giant Slammer at Level 16,\nand (optionally) from Poisoned Spear at Level 7.\nThe extra Fury generation comes from\nShot Of Fury at Level 4.\nUse Whirlwind\nand Battle Rage at Level 7\nto heal yourself in lane or while fighting.\nUse Ignore Pain at Level 20\nto reduce incoming burst damage while fighting.\nLeap Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Leap Build is designed to increase burst damage\nfor killing enemy Heroes right after using Leap,\nwaveclear for laning,\nand some survivability tools for team fights.\nThe damage increase comes from Furious Blow\nat Level 1, from Giant Slammer at Level 16,\nand (optionally) from Poisoned Spear at Level 7.\nThe waveclear comes from\nShattered Ground at Level 4.\nUse Whirlwind\nand Battle Rage at Level 7\nto heal yourself in lane or while fighting.\nUse Ignore Pain at Level 20\nto reduce incoming burst damage while fighting.\nWhirlwind Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Whirlwind Build excels against team compositions without reliable ways to\ninterrupt Sonya during Whirlwind\nand ideally with multiple melee or low-range Heroes to hit at the same time,\nso that you will self-heal for more and thus be harder to kill.\nLife Funnel at Level 7 increases the healing Sonya\nreceives from Whirlwind. Hurricane\nat Level 4 allows you to cast Whirlwind more often and,\nmore importantly, gives you the ability to remove any Slow\nor Root from yourself.\nUse Whirlwind\nto heal yourself in lane or while fighting.\nUse either Nerves of Steel at Level 16\nor Ignore Pain at Level 20\nto reduce incoming burst damage while fighting.\nIf the enemy team has Heroes with high Attack Speed or multi-hit Basic Attacks,\nyou should replace Tough As Nails at Level 1\nwith War Paint otherwise they will easily deplete\nall your Block charges.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nSonya's Basic Attacks Build is designed to increase your sustain damage\nfor killing Heroes with Wrath of the Berserker active,\nways to generate Fury for extending Wrath of the Berserker's\nduration while active, and some survivability tools for team fights.\nThe damage increase comes from Furious Blow\nat Level 1, Giant Slammer at Level 16,\nand (optionally) from Poisoned Spear at Level 7.\nThe extra Fury generation comes from\nShot Of Fury at Level 4.\nUse Whirlwind\nand Battle Rage at Level 7\nto heal yourself in lane or while fighting.\nUse Ignore Pain at Level 20\nto reduce incoming burst damage while fighting."
+  },
+  {
+   "title": "Level 1 Talents for Sonya",
+   "id": "level-1",
+   "text": "✔\nFurious Blow\n(Level 1)\nSonya\nEvery 4th cast of Seismic Slam deals 40% more damage to the primary target and costs no Fury.\nFurious Blow is a strong Talent that increases Sonya's damage\nby empowering Seismic Slam every 4 casts. When empowered,\nSeismic Slam deals 40% more damage and costs no Fury,\nsaving 25 Fury each time. On average, Seismic Slam\nwill deal 10% more damage and cost 6 less Fury.\nIf you look at the buff tracker in the bottom-left corner,\nyou can prepare Furious Blow for the next fight.\nThis trick is more important when having Leap as Heroic Ability\nbecause the additional burst damage provided can easily make\nthe difference between securing a kill and missing it. For this reason, you should\nalways pick Furious Blow and Leap together.\n?\nWar Paint\n(Level 1)\nSonya\nSonya's Basic Attacks heal for 30% of the damage dealt.\nWar Paint is a decent Talent that heals Sonya for a percentage\nof the damage done via Basic Attacks, allowing you to get better trades\nand providing you with another way to self-sustain\nwhile laning or capturing Mercenary Camps. By increasing Sonya's\nAttack Damage, you will also increase the healing provided by this Talent.\nIn case you are going for a Whirlwind Build, you should generally prefer\nTough As Nails over War Paint, as time\nspent channeling Whirlwind is time\nnot spent dealing damage with Basic Attacks.\n?\nTough As Nails\n(Level 1)\nSonya\nEvery 16 seconds, gain 60 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 60%.\nStores up to 3 charges. Charges refresh 200% faster while Fury's Movement Speed bonus is active.\nTough As Nails is a situational Talent that\npassively gives Physical Armor in the form of\nBlock charges. These charges are generated faster\nwhile Sonya is affected by Fury's Movement Speed bonus.\nBlock charges are especially valuable\nwhen facing Heroes with slow but heavy-hitting Basic Attacks (such as Hanzo) and\nterrible when playing against Heroes with fast-hitting Basic Attacks (D.Va,\nGenji, Kharazim, Lúcio, Tassadar, Tracer,\nand Tychus). Heroes with Clones (for example Nova) can consume them faster\ntoo, however, it is generally not a problem because their AI will not always target you."
+  },
+  {
+   "title": "Level 4 Talents for Sonya",
+   "id": "level-4",
+   "text": "?\nShattered Ground\n(Level 4)\nSonya\nIncrease Seismic Slam's splash damage by 250%. Targeting a Hero with Seismic Slam further increases its splash damage by 250%, while targeting other enemies increases the length of its splash by 66%.\nShattered Ground is a good Talent that empowers\nSeismic Slam's splash.\nWhen directly targeting an enemy Hero with Seismic Slam,\nthe splash damage is increased by 500%. When directly targeting an enemy non-Hero,\nthe splash damage is increased by 250% and the splash length is extended by 66%.\nThe damage done to the main target is not increased.\nIf you plan to pick Leap as Heroic Ability, even if\nShot Of Fury increases your burst damage\non the main target, you should heavily prefer Shattered Ground\nbecause it increases your waveclear, allowing you to\nclear Minions and rotate faster.\n?\nHurricane\n(Level 4)\nSonya\nReduce the cooldown of Whirlwind by 2 seconds. Casting Whirlwind removes all Slows and Roots from Sonya.\nHurricane is a good Talent that reduces\nWhirlwind's cooldown and turns it into\na Slow and Root removal.\nThe cooldown reduction provided is great in conjunction with\nLife Funnel at Level 7 as it allows you\nto get even more healing from Whirlwind.\nThe ability to remove some types of crowd control\neffects from Sonya right before Whirlwind goes off\nhelps her to reposition for dealing damage with it or to escape from danger.\n✔\nShot Of Fury\n(Level 4)\nSonya\nActivate to gain 50 Fury. Usable while Whirlwinding.\nPassive: After casting Seismic Slam, your next Basic Attack deals 40% more damage.\nShot Of Fury is a strong Talent that increases\nSonya's Attack Damage after casting Seismic Slam\nand can be activated to generate 50 Fury when needed.\nWe find this Talent quite useful as, by generating Fury on activation,\nit allows you to extend Wrath of the Berserker's duration\nwhen needed, in addition to Ancient Spear."
+  },
+  {
+   "title": "Level 7 Talents for Sonya",
+   "id": "level-7",
+   "text": "?\nPoisoned Spear\n(Level 7)\nSonya\nAncient Spear deals an additional 100% damage over 6 seconds.\nPoisoned Spear is a good Talent that adds a\npotent damage-over-time effect to\nAncient Spear, effectively doubling its damage\nagainst all kinds of enemies.\nEven if it takes a total of 6 seconds, Poisoned Spear\nis still the best burst damage option in this Tier,\nmaking it an interesting option when planning to pick Leap\nas Heroic Ability.\nWhen playing against Heroes with Stealth,\nthe damage-over-time effect is nice\nto have as it will either break Stealth or prevent them from entering\nStealth in the first place as they know it will break.\n?\nLife Funnel\n(Level 7)\nSonya\nIncreases the healing of Whirlwind to 35% of damage dealt.\nLife Funnel is a good Talent that increases\nWhirlwind's healing from 25% to 35% of damage dealt.\nThe effectiveness of this Talent goes up when Sonya is able to constantly\nhit multiple enemies during Whirlwind.\nThanks to the additional self-sustain provided,\nthis effect helps Sonya stay healthy while laning,\nwhile capturing Mercenary Camps, and in team fights.\nAvoid picking this Talent when playing against Heroes who can\neasily interrupt Whirlwind.\nIf they pay attention to it, Whirlwind's effectiveness\nin team fights will be drastically reduced, so you will get little to no value\nfrom Life Funnel in these situations.\n✔\nBattle Rage\n(Level 7)\nSonya\nCharges: 2\nRecharge Time: 30 seconds\nActivate to instantly restore 10% of Sonya's maximum Health. Stores up to 2 charges. Usable while Whirlwinding.\nPassive: Sonya deals 25% more damage to Mercenaries.\nBattle Rage is a strong Talent which passively increases\nSonya's damage to Mercenaries and can be activated to heal Sonya for 10% of her\nmaximum Health. Stores up to 2 charges.\nWhen activated, it goes on a 5-second cooldown. You can activate it while\nchanneling Whirlwind.\nWe generally recommend this Talent because it increases your\nself-sustain, can occasionally be helpful\nagainst burst damage, and empowers your damage\nagainst neutral and enemy Mercenaries."
+  },
+  {
+   "title": "Level 10 Talents for Sonya",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nLeap\n(Level 10)\nSonya\nCooldown: 60 seconds\nLeap into the air, dealing 135 (+4% per level) damage to nearby enemies, and stunning them for 1.25 seconds.\nLeap is a strong Heroic Ability that allows Sonya to become\nUnstoppable and jump towards a target location.\nUpon impact, all enemies take damage and are Stunned,\ninterrupting any channel\nin progress (such as Mosh Pit by E.T.C.).\nWe recommend picking Leap when\nyour team needs an additional engage tool\nor desperately needs interrupt for a powerful\nchanneled Heroic Ability. You can use it to\nburst someone down, to dive,\nor to execute a wombo combo.\n✔\nWrath of the Berserker\n(Level 10)\nSonya\nCooldown: 60 seconds\nIncrease damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.\nWrath of the Berserker is a strong Heroic Ability which greatly empowers\nthe damage that Sonya deals with Basic Attacks and Abilities\nand reduces the duration of most crowd control effects:\nStuns (including Sleeps),\nRoots, and Slows.\nThe effect lasts 15 seconds, extended by 1 second for every 10 Fury gained.\nWe recommend picking Wrath of the Berserker when\nyour team needs more damage and/or when you feel like you can get value\nfrom split-pushing on bigger Maps.\nYou can also use it to capture and/or defend Mercenary Camps faster,\nthus increasing your impact at macro level."
+  },
+  {
+   "title": "Level 13 Talents for Sonya",
+   "id": "level-13",
+   "text": "?\nMystical Spear\n(Level 13)\nSonya\nAncient Spear always pulls Sonya to the target location even if it doesn't hit an enemy. When used this way, Ancient Spear's cooldown is reduced by 5 seconds.\nMystical Spear is a situational Talent that\nturns Ancient Spear into an unconditional\nmobility tool. When you do not hit\nan enemy with Ancient Spear, Sonya will still\ndash forward and Ancient Spear's cooldown\nwill be reduced by 5 seconds.\nThe extra mobility provided by this Talent\ncan be useful to escape when in danger. You can even use it to escape or\nchase over impassable terrain,\nincluding player-created one (for example Force Wall by Tassadar).\n✘\nRuthless\n(Level 13)\nSonya\nWhirlwind deals an additional 50 (+4% per level) damage per second to Heroes below 50% Health. Does not generate additional healing.\nRuthless is a decent Talent that empowers\nWhirlwind's damage when hitting enemy Heroes\nbelow 50% maximum Health. Note that the extra damage dealt this way\ndoes NOT increase Whirlwind's healing.\nWe find this Talent not good enough to compete with No Escape\nbecause bonus Movement Speed provided by No Escape will help you stick\non the target, indirectly increasing your damage, and because Whirlwind\nis primarily being used for self-sustain. If you want to deal\nmore damage, it is better to just use Seismic Slam instead.\n✔\nNo Escape\n(Level 13)\nSonya\nIncreases the Movement Speed bonus from using Basic and Heroic Abilities to 20%.\nNo Escape is a strong Talent that further increases\nSonya's Movement Speed bonus from Fury when using\na Basic or Heroic Ability, helping you to stick on the target.\nWe heavily recommend picking this Talent because the additional\nMovement Speed it provides can be useful in various ways:\ndodging, repositioning in team fights,\nchasing, and escaping."
+  },
+  {
+   "title": "Level 16 Talents for Sonya",
+   "id": "level-16",
+   "text": "✔\nGiant Slammer\n(Level 16)\nSonya\nBasic Attacks and Seismic Slam deal an additional 1.5% of Heroes' maximum Health as damage and heal Sonya for 60% of the damage dealt.\nGiant Slammer is a strong Talent that causes\nBasic Attacks and Seismic Slam to deal more\ndamage in the form of percent-based damage\nand heal Sonya for a portion of the damage dealt this way.\nIf you have Leap as Heroic Ability,\nyou must pick this Talent to increase your burst\ndamage. If you have Wrath of the Berserker,\nyou can be more flexible but this Talent is still the best\noption to increase your burst and sustain damage as well.\nSince it gives way more value when you can constantly hit\nenemy Heroes with Basic Attacks and Seismic Slam,\nthis Talent is not good for Whirlwind Build as you will spend most of your\ntime channeling Whirlwind.\n?\nRampage\n(Level 16)\nSonya\nIncrease Basic Attack damage by 25%. Basic Attacks reduce the cooldown of Ancient Spear by 1.5 seconds.\nRampage is a decent Talent that increases\nSonya's Attack Damage and causes Basic Attacks to reduce\nAncient Spear's cooldown.\nThe cooldown reduction provided by this Talent allows you\nto generate more Fury if you manage\nto hit enemies with Ancient Spear,\nmakes missing Ancient Spear less\npunishing, and has synergy with Poisoned Spear\nat Level 7 as you will be able to cast Ancient Spear\nmore often.\nSince it gives way more value when you can constantly hit\nenemy Heroes with Basic Attacks,\nthis Talent is not good for Whirlwind Build as you will spend most of your\ntime channeling Whirlwind.\n?\nNerves of Steel\n(Level 16)\nSonya\nCooldown: 60 seconds\nActivate to gain 25% of your maximum Health as a Shield for 3 seconds. Usable while Whirlwinding.\nNerves of Steel is a situational Talent that, once per fight,\ncan be activated to gain a powerful Shield for a few seconds. You can activate it while\nchanneling Whirlwind.\nWe find this Talent useful when playing against team composition\nwho can deal a lot of burst damage.\nJust make sure to activate it before you take too much damage and before\nyou get hit by enemy crowd control effects.\nThat said, Ignore Pain at Level 20 is usually enough."
+  },
+  {
+   "title": "Level 20 Talents for Sonya",
+   "id": "level-20",
+   "text": "?\nArreat Crater\n(Level 20)\nSonya\nLeap leaves behind an impassable crater for 5 seconds. Reduces Leap's cooldown by 20 seconds.\nArreat Crater is a situational Talent that\nreduces Leap's cooldown and causes it to\nleave a circle of impassable terrain\naround Sonya upon landing, blocking Sonya and nearby enemies inside it.\nThe impassable terrain it creates can be used to\nblock enemy Heroes in a narrow area, to prevent enemy Heroes from moving from a side\nof the battlefield to another during a team fight, or to stop their retreat.\nBe careful not to block your teammates with it!\nThe cooldown reduction may occasionally help you cast Leap\ntwice in a single team fight or use it for two consecutive team fights\nwith low downtime between them. For example, you could gank\nsomeone and then have it back for the next team fight.\n?\nStriding Giant\n(Level 20)\nSonya\nWrath of the Berserker increases maximum Health by 10% and grants Striding Giant, which can be activated to become Unstoppable for 2 seconds. 30 second cooldown.\nStriding Giant is a decent Talent that, while\nWrath of the Berserker is active, passively increases Sonya's\nmaximum Health and gives access to an Active called Striding Giant. Once every\n30 seconds, Striding Giant can be activated to make Sonya\nUnstoppable for 2 seconds.\nThe ability to become Unstoppable can be\nuseful in preventing Whirlwind from being interrupted and\nat countering Heroes who rely on crowd-control for kills\n(notably Chromie with Temporal Loop). Since Striding Giant\ncannot be activated when Wrath of the Berserker is not active,\nyou will also need Wrath of the Berserker's cooldown to be available.\n?\nComposite Spear\n(Level 20)\nSonya\nIncreases Ancient Spear's range by 50%. Hitting an enemy Hero with Ancient Spear grants 25 Armor for 4 seconds.\nComposite Spear is a good Talent that increases\nAncient Spear's range by a considerable amount\nand, when hitting an enemy Hero, increases Sonya's survivability\nby granting her Armor for a few seconds.\nThe range increase provided by Composite Spear can be useful against\nrange-heavy team compositions that tend to kite you to death before\nyou can deal any significant damage.\nThe bonus Armor provided is also notable for prolonged team fights,\nespecially if you combine this Talent with Rampage at Level 16 for\na higher uptime, but cannot compete with Ignore Pain\nwhen you need more protection from burst damage.\n✔\nIgnore Pain\n(Level 20)\nSonya\nCooldown: 60 seconds\nActivate to gain 60 Armor for 4 seconds, taking 60% less damage. Usable while Whirlwinding.\nIgnore Pain is a strong Talent that can be activated to gain\na huge amount of Armor for a few seconds. You can activate it while\nchanneling Whirlwind.\nWe recommend picking this Talent in most games because it drastically increases\nyour survivability in late-game team fights, where it is\nextremely important to not die too quickly and without getting any kills.\nWe find this Talent useful when playing against team composition\nwho can deal a lot of burst damage.\nJust make sure to activate it before you take too much damage and before\nyou get hit by enemy crowd control effects.\nIf you also have Nerves of Steel at Level 16,\nwait for one defensive effect to end before using the other one."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Aug. 2025: Guide reviewed.\n04 Jun. 2021: Builds and Talents updated after May 18 balance patch.\n26 Mar. 2021: Updated Talent recommendations.\n18 Feb. 2021: Builds and Talents updated to better reflect current meta.\n25 Jan. 2021: Talents and builds updated to ensure meta relevance.\n03 Dec. 2020: Talents and builds updated after recent balance patch.\n24 Sep. 2020: Builds updated to ensure meta relevance.\n29 Oct. 2019: Talent builds and recommendations reviewed and updated.\n30 Aug. 2018: Talent descriptions updated to reflect latest balance patch.\n13 May 2018: Talent descriptions and recommendations updated to reflect Sonya's rework patch.\n07 Mar. 2018: Talent descriptions and recommendations updated to reflect Sonya's rework patch.\n14 Jan. 2018: Updated Tier 2 and Tier 3 Talent discussions. Updated Whirlwind and Burst builds.\nShow more\nShow less"
+  }
+ ]
+}

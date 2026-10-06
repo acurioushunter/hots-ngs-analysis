@@ -1,0 +1,320 @@
+{
+ "slug": "kharazim",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/kharazim-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/kharazim-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/kharazim-talents"
+ },
+ "guide": [
+  {
+   "title": "Kharazim's Overview",
+   "id": "kharazims-overview",
+   "text": "Kharazim is a hybrid character who fits into the role of both a melee\nAssassin and a Healer. He\ncombines deadly Basic Attacks with great mobility in order to either damage his\nfoes or assist his allies. There is hardly any other Hero in the game that compares\nto Kharazim's dynamic playstyle. It is important to mention, however, that he does\nrequire strong mechanics and a lot of experience in order to unfold his true potential,\nwhich is why we consider Kharazim to be one of the harder Heroes to truly master.."
+  },
+  {
+   "title": "Kharazim's Strengths and Weaknesses",
+   "id": "kharazims-strengths-and-weaknesses",
+   "text": "Strengths\nGreat utility\nVery mobile\nCan be played as either Healer or melee Assassin\nHigh damage against single targets\n2 viable Heroic Abilities\nGreat chase potential\nHas one of the best cleanses in the game\nGood against Heroes reliant on Basic Attacks, due to Earth Ally\nWeaknesses\nWeak against blinds\nHealing power is very dependent on Talents\nNo crowd control\nFairly high learning curve\nBoth Heroic Abilities require experience to be properly used"
+  },
+  {
+   "title": "Kharazim's Talent Build Cheatsheet",
+   "id": "kharazims-talent-build-cheatsheet",
+   "text": "Radiant Dash Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKharazim's Radiant Dash Build relies on both outstanding mobility and good gameplay.\nWhile Talents like Cleansing Touch or\nWay of the Hundred Fists are hard to use correctly, they\nwill be good in every match when used properly. At Level 13,\nQuicksilver is the default Talent, but it is important\nto carefully analyze the enemy team composition's main sources of damage. If\nthey have strong Basic Attackers and crowd control effects,\nSixth Sense gains a lot of value. However, if most of\ntheir damage comes from Abilities, Spell Shield can be a\nworthy replacement.\nWay of the Hundred Fists will be a good Talent in every game. However, if you are used to Kharazim,\nwe recommend going for Cleansing Touch instead. It is one of the best\ncleanse effects in the whole game, since\nit can be used multiple times on multiple allies. Even if the enemy team does not have\nStuns or Roots,\nit can be very useful together with Quicksilver, because\nyou will be able to use it on your Tank to enhance\ntheir engage. An Unstoppable Garrosh\nwith 30% extra Movement Speed is very dangerous, for example.\nEpiphany can be a good option at Level 20,\nit allows him to instantly restore Mana and two of his\nRadiant Dash charges at once. Still, other Talents\nat this tier are very relevant\nas well. We want to highlight\nthat going for the Radiant Dash Build even when being the solo Healer in your\nteam is doable due to the fact that you still put out enough healing\nwhile also providing a surprising amount of kill potential.\nBreath of Heaven Build\nBeginner\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKharazim's Breath of Heaven Build is an easier build to use than the Radiant Dash one,\nwe recommend it for new players using Kharazim as main Healer.\nEven though this is a healing build, we do not recommend Transcendence,\nbecause it only provides a heal that cannot be aimed, has small range, and is mostly unnecessary.\nIron Fists will greatly increase all your damage, and in many situations it will\nbe the difference between killing your target or not. It will also be a much better Talent\nwhen it comes to releasing Mercenaries or clearing them.\nThere are a few situational Talents available, which depend on\nwhat the enemy team's composition consists of. At Level 4,\nEarth Ally can be replaced by\nAir Ally if the enemy team does not have any Basic Attackers.\nAt Level 13 Sixth Sense gains a lot of value against Basic\nAttackers and crowd control and is usually a safe bet in most games.\nIf most of the damage comes from Abilities,\nSpell Shield can be a worthy replacement.\nFinally, at Level 20,\nStorm Shield is a good Talent against\narea of effect damage and\ncan generally be picked instead of Peaceful Repose or\nTransgression.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Kharazim's Synergies and Counters",
+   "id": "kharazims-synergies-and-counters",
+   "text": "Kharazim synergizes with\nKharazim thrives if paired with a frontline that\nbenefits of his Movement Speed buffs. Heroes that can easily displace an enemy Hero\nare also a great option with him—because Seven-Sided Strike\ncan be used to kill the target—like Garrosh or E.T.C..\nHeroes focused on diving enemies can be good with Kharazim, because\nthey can easily kill any backliner together.\nIf, however, the team composition features too many\nbackliners, Kharazim will usually struggle to\nkeep them all alive and should not be considered as a pick.\nKharazim is countered by\nKharazim's Attack Speed plays an important role in both of his playstyles. Thus,\nHeroes like Johanna or Auriel who can either\nblind him or push him away during Deadly Reach can greatly\nreduce his effectiveness. Furthermore, Heroes who can easily peel their teammates from\nKharazim are also very hard to deal with, like Uther or Medivh."
+  },
+  {
+   "title": "Kharazim's Maps",
+   "id": "kharazims-maps",
+   "text": "Kharazim's stronger maps\nKharazim's average maps\nKharazim's weaker maps\nKharazim is a solid pick on most maps with Braxis Holdout and\nTomb of the Spider Queen\nbeing the two major exceptions. The most important reason why we do not recommend Kharazim\non those maps is his utter lack of waveclear. On\nBattlefield of Eternity, however,\nhis strong single-target damage and the ability to heal without using a lot of Mana make him\na valuable asset to his team composition.\nKharazim excels at speeding up Mercenaries. Maps like Sky Temple,\nDragon Shire, or Hanamura Temple are also good options for him,\nsince Mercenaries are excellent on those maps."
+  },
+  {
+   "title": "Kharazim's Tips and Tricks",
+   "id": "kharazims-tips-and-tricks",
+   "text": "Radiant Dash can be used on your Elemental Allies (even over Walls and other unpassable terrain) in order to escape pursuing enemies.\nAvoid smashing your Q-button too quickly when playing Kharazim, as it may cause Radiant Dash to use both charges on the same target.\nDo not use any healing or shielding abilities on the target you used Divine Palm on before it gets triggered.\nDuring team fights, especially in the later stages of the game, it is often better to use Radiant Dash on allies in order to heal them and reposition yourself.\nIt is incredibly important to wait for the right moment before you use Seven-Sided Strike. Ideally, you want to focus its damage on one enemy only to unfold all its damage on the same target. It is good to wait for the target to be immobile to dash towards a point in which your ult will only hit that specific target.\nUse your Earth Ally very early into the fight, since it has a long duration and will mitigate much damage.\nBoth Quicksilver and Cleansing Touch can be used either as a peeling Ability, or as an engage tool. By dashing towards your tank, you will be enabling an unstoppable Garrosh with extra Movement Speed to catch an enemy.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Kharazim's Role in the Current Meta",
+   "id": "kharazims-role-in-the-current-meta",
+   "text": "Kharazim's potent defensive and offensive skills make him one of the most\nflexible Heroes in the game, which causes him to fit into a variety of team compositions, even if your\nteam already has a Healer. Although he does not always have\nan easy time at keeping an entire team alive on his own, Breath of Heaven\nprovides a useful low-cooldown healing spell that is capable of healing and accelerating several\nallies at the same time. If you team lacks damage, a Radiant Dash\ncentric Talent Build turns Kharazim into a dangerous brawler, capable of wreaking havoc within the\nenemy ranks.\nWe find Kharazim to be a rather situational pick in competitive play, depending on what your team\ncomposition needs you to be. What\nmakes Kharazim a very interesting choice as well is the fact that his talent tree\nis incredibly versatile. Talents such as Spirit Ally, Earth Ally, or\nSpell Shield\nallow him to adapt to nearly any situation."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "03 May 2025 (talents page): Guide updated for patch 2.55.10.\n03 May 2025 (abilities page): Guide updated for patch 2.55.10.\n03 May 2025 (this page): Guide updated for patch 2.55.10.\n11 Dec. 2022 (talents page): Updated Talent recommendations to match Kharazim's main Build.\n24 Jul. 2021 (talents page): Added Fists of Legend's description.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n31 Jul. 2020 (this page): Updated Kharazim's level 16 Talent relevance.\n16 Jul. 2020 (this page): Guide reviewed after recent balance patch and no changes are necessary.\n06 Jun. 2020 (talents page): Removed a misleading information in Echo of Heaven's description.\n15 May 2020 (abilities page): Updated Transcendence and Insight descriptions to match Talent discussion.\n15 May 2020 (this page): Made small changes to ensure meta relevance.\n16 Apr. 2020 (talents page): Updated Kharazim's Builds and Talents to better reflect current meta.\n23 Jan. 2020 (talents page): Updated Kharazim's Builds in accordance with the latest Balance Update. Air Ally is now a Situational choice in both Builds.\n13 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n12 Jun. 2019 (talents page): Updated the entire Kharazim guide to better reflect the current state of the game.\n23 May 2019 (talents page): Updated Kharazim's talents and builds in accordance with the latest Balance Update.\n02 Nov. 2017 (talents page): Updated Kharazim's Level 1 talents following the latest balance update.\n02 Nov. 2017 (abilities page): Updated Transcendence, Iron Fists, and Insight following the latest balance update.\n21 May 2017 (talents page): Changed and updated Kharazim's Level 13 and 16 talents.\n06 Jan. 2017 (talents page): Revisited Tier 1 talent assessments.\n22 Nov. 2016 (this page): Kharazim rework under the new guide format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Kharazim's Tips and Tricks",
+   "id": "kharazims-tips-and-tricks",
+   "text": "Radiant Dash can be used on your Elemental Allies (even over Walls and other unpassable terrain) in order to escape pursuing enemies.\nAvoid smashing your Q-button too quickly when playing Kharazim, as it may cause Radiant Dash to use both charges on the same target.\nDo not use any healing or shielding abilities on the target you used Divine Palm on before it gets triggered.\nDuring team fights, especially in the later stages of the game, it is often better to use Radiant Dash on allies in order to heal them and reposition yourself.\nIt is incredibly important to wait for the right moment before you use Seven-Sided Strike. Ideally, you want to focus its damage on one enemy only to unfold all its damage on the same target. It is good to wait for the target to be immobile to dash towards a point in which your ult will only hit that specific target.\nUse your Earth Ally very early into the fight, since it has a long duration and will mitigate much damage.\nBoth Quicksilver and Cleansing Touch can be used either as a peeling Ability, or as an engage tool. By dashing towards your tank, you will be enabling an unstoppable Garrosh with extra Movement Speed to catch an enemy."
+  },
+  {
+   "title": "Traits",
+   "id": "traits",
+   "text": "Instead of getting a predefined Trait, Kharazim chooses\nhis Trait at Level 1. Depending on which role he is going to fulfill in the\ncurrent match, his choice can vary. While\nTranscendence and Insight\nseem to be good for increasing Kharazim's healing capabilities, we do not recommend them,\nbecause he is very dependent on Iron Fists.\nThe extra healing from Transcendence will not be as effective as the increased damage option.\nWhile Insight is good when completed, Kharazim shines when applying pressure in the\nearly game. He cannot abuse it if he needs to focus on\nstacking his Level 1 Talent."
+  },
+  {
+   "title": "Transcendence (Trait #1)",
+   "id": "transcendence-trait-1",
+   "text": "Transcendence\n(D)\nKharazim\nPassive\nEvery 3rd Basic Attack heals the lowest nearby allied Hero for 104 (+4% per level) and gives 25% increased Move Speed for 2.5 seconds.\nTranscendence is the healing upgrade for Kharazim's Trait. It causes every\nthird Basic Attack to heal the lowest nearby ally for a medium amount while also providing\na 25% Movement Speed buff to Kharazim himself for 2 seconds."
+  },
+  {
+   "title": "Iron Fists (Trait #2)",
+   "id": "iron-fists-trait-2",
+   "text": "Iron Fists\n(D)\nKharazim\nPassive\nEvery 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2.5 seconds.\nIron Fists is the damage upgrade for Kharazim's Trait. It causes every third\nBasic Attack to deal 125% additional damage while at the same time\nincreasing his Movement Speed by 25% for 2 seconds. This Trait\nis excellent if his team requires Kharazim to play the role of a melee Assassin\nin order to take down enemy Heroes more quickly."
+  },
+  {
+   "title": "Insight (Trait #3)",
+   "id": "insight-trait-3",
+   "text": "Insight\n(D)\nKharazim\nPassive\nQuest: Every 3rd Basic Attack restores 14 (+4% per level) Mana, grants a stack of Insight, and gives 25% increased Movement Speed for 2.5 seconds.\nReward: Upon getting 100 stacks of Insight, every 3rd attack also reduces Basic Ability cooldowns by 1.75 seconds.\nInsight is the self-sustain upgrade for Kharazim's Trait. It causes every\nthird Basic Attack to restore a small amount of Mana and also provides him with\na 25% Movement Speed buff to Kharazim himself for 2 seconds. After this effect\ntriggers 100 times, every 3rd Basic Attack will also reduce the cooldown of\nall Basic Abilities by 1 second."
+  },
+  {
+   "title": "Radiant Dash",
+   "id": "radiant-dash",
+   "text": "Radiant Dash\n(Q)\nKharazim\nMana: 25\nCharges: 2\nRecharge Time: 12 seconds\nJump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack.\nStores up to 2 charges.\nRadiant Dash has two charges with a recharge time of 12 seconds. This ability\nenables Kharazim to quickly jump to an enemy or allied target, allowing him to\nbecome extremely mobile in combat. Assisting allies in need, chasing enemies, or\njuking hostile pursuers — Radiant Dash is an\nextremely versatile ability that feels very rewarding if used correctly."
+  },
+  {
+   "title": "Breath of Heaven",
+   "id": "breath-of-heaven",
+   "text": "Breath of Heaven\n(W)\nKharazim\nMana: 65\nCooldown: 10 seconds\nHeal nearby Heroes for 295 (+4% per level) and give them 15% Movement Speed for 3 seconds.\nBreath of Heaven synergises extremely well with Radiant Dash,\nas the latter enables Kharazim to quickly reach his desired target while the former is\ncapable of healing and accelerating him and his allies. Just like the rest of Kharazim's kit,\nBreath of Heaven is an incredibly versatile ability. Use it to help\nyour allies escape dangerous situations or to catch up to retreating\nenemies."
+  },
+  {
+   "title": "Deadly Reach",
+   "id": "deadly-reach",
+   "text": "Deadly Reach\n(E)\nKharazim\nMana: 45\nCooldown: 10 seconds\nKharazim's next Basic Attack increases his Attack Speed and Attack Range by 100% for 2 seconds.\nDeadly Reach is a formidable offensive ability, allowing Kharazim to quickly\ndish out a significant amount of damage while keeping a healthy distance to his\ntarget. The increased attack range also prevents him from exposing himself to\nthe enemy team which makes Kharazim a unique Hero who combines close\ncombat and medium range attacks."
+  },
+  {
+   "title": "Seven-Sided Strike",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nSeven-Sided Strike\n(R)\nKharazim\nHeroic\nMana: 77\nCooldown: 50 seconds\nBecome Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.\nSeven-Sided Strike is a strong offensive Heroic\nAbility that can deal a moderate amount of damage to several enemies at the same time or\nan insane amount to only 1 Hero. It also makes Kharazim\ninvulnerable for a short period of time, which forces the enemy team to choose\nother priority targets while Seven-Sided Strike is active. However, this Heroic\nAbility has one major disadvantage, which is its fixed area of effect. Similar to\nTyrande's Starfall\nor Kael'thas's Phoenix, enemies can simply walk out of Seven-Sided Strike's radius,\nwhich requires Kharazim to wait for the right moment to use it."
+  },
+  {
+   "title": "Divine Palm",
+   "id": "divine-palm",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDivine Palm\n(R)\nKharazim\nHeroic\nMana: 50\nCooldown: 50 seconds\nProtect an allied Hero from death, causing them to be healed for 1200 (+4% per level) if they take fatal damage in the next 4 seconds.\nDivine Palm is a very powerful supportive Heroic Ability capable of\nsingle-handedly deciding the outcome of a team fight if used correctly.\nActivating Divine Palm causes Kharazim to mark an allied Hero (visible to the\nenemy team as well), preventing them from dying for 4 seconds. If\nthe enemy team kills the marked ally, that Hero will receive an enormous amount of\nhealing after a short delay. This puts the enemy team into a precarious\nsituation when playing against Kharazim: on the one hand they want to focus\npriority targets as quickly as possible while on the other hand they have to pay\nspecial attention to Divine Palm, as otherwise they will have wasted a lot of\nfirepower on a target only to restore it to full health again. This ability\nfeels very challenging to use correctly, yet extremely powerful if it\ndoes go off successfully."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "03 May 2025: Guide updated for patch 2.55.10.\n15 May 2020: Updated Transcendence and Insight descriptions to match Talent discussion.\n02 Nov. 2017: Updated Transcendence, Iron Fists, and Insight following the latest balance update.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Transcendence (Level 1) Kharazim Every 3rd Basic Attack heals the lowest nearby allied Hero for 104 (+4% per level) and gives 25% increased Move Speed for 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Iron Fists (Level 1) Kharazim Every 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Insight (Level 1) Kharazim Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana, grants a stack of Insight, and gives 25% increased Movement Speed for 2.5 seconds. Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces Basic Ability cooldowns by 1.75 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Spirit Ally (Level 4) Kharazim Cooldown: 45 seconds Place a Spirit Ally that heals allied Heroes in a large area around it for 2% of their maximum Health every second. Has 150 (+4% per level) Health and lasts 10 seconds. Kharazim can Radiant Dash to Spirit Allies."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Earth Ally (Level 4) Kharazim Cooldown: 45 seconds Place an Earth Ally that grants nearby allied Heroes 50 Physical Armor against Heroic Basic Attacks, reducing damage taken by 50%. Has 400 (+4% per level) Health and lasts 10 seconds. Kharazim can Radiant Dash to Earth Allies."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Air Ally (Level 4) Kharazim Cooldown: 30 seconds Place an Air Ally that gives allied Heroes 20% Spell Power, grants vision, and reveals a large area around it. Has 300 (+4% per level) Health and lasts 10 seconds. Kharazim can Radiant Dash to Air Allies."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Blinding Speed (Level 7) Kharazim Decreases Radiant Dash's cooldown by 2 seconds and increases the maximum number of charges by 1."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Heavenly Zeal (Level 7) Kharazim Increases Breath of Heaven's Movement Speed bonus to 30%. Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Blazing Fists (Level 7) Kharazim Increase the duration of Deadly Reach by 100%. Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 0.75 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Divine Palm (Level 10) Kharazim Mana: 50 Cooldown: 50 seconds Protect an allied Hero from death, causing them to be healed for 1200 (+4% per level) if they take fatal damage in the next 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Seven-Sided Strike (Level 10) Kharazim Mana: 77 Cooldown: 50 seconds Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Quicksilver (Level 13) Kharazim Radiant Dashing to an ally gives Kharazim and the target 30% bonus Movement Speed for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Spell Shield (Level 13) Kharazim Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Sixth Sense (Level 13) Kharazim While Stunned or Rooted, gain 75 Physical Armor against Hero Basic Attacks for 4 seconds, reducing their damage by 75%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Cleansing Touch (Level 16) Kharazim Radiant Dashing to an ally makes them Unstoppable for 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Way of the Hundred Fists (Level 16) Kharazim Radiant Dashing to an enemy launches a rapid volley of 6 Basic Attacks dealing 45% damage each."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Echo of Heaven (Level 16) Kharazim Breath of Heaven heals 75% of its normal amount, but heals a second time 3 seconds later."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Peaceful Repose (Level 20) Kharazim Divine Palm's healing amount is increased by 75% and its cooldown is set to 5 seconds if the Hero does not die."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Transgression (Level 20) Kharazim Seven-Sided Strike hits 4 additional times."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Fists of Legend (Level 20) Kharazim Gain 50% of the benefit from both level 1 talents that were not chosen."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Storm Shield (Level 20) Kharazim Cooldown: 45 seconds Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds."
+   },
+   {
+    "slot": 5,
+    "marker": "yes",
+    "text": "Epiphany (Level 20) Kharazim Cooldown: 70 seconds Activate to restore 70% of Kharazim's maximum Mana and refill 2 charges of Radiant Dash."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Kharazim's Talent Build",
+   "id": "kharazims-talent-build",
+   "text": "Level\nChoices\n1\n✘︎\n✓\n✘︎\n4\n?\n✓\n?\n7\n✓\n?\n✘︎\n10\n?\n✓\n13\n✓\n?\n?\n16\n?\n✓\n?\n20\n?\n?\n✘︎\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Kharazim's Talent Build Cheatsheet",
+   "id": "kharazims-talent-build-cheatsheet",
+   "text": "Radiant Dash Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKharazim's Radiant Dash Build relies on both outstanding mobility and good gameplay.\nWhile Talents like Cleansing Touch or\nWay of the Hundred Fists are hard to use correctly, they\nwill be good in every match when used properly. At Level 13,\nQuicksilver is the default Talent, but it is important\nto carefully analyze the enemy team composition's main sources of damage. If\nthey have strong Basic Attackers and crowd control effects,\nSixth Sense gains a lot of value. However, if most of\ntheir damage comes from Abilities, Spell Shield can be a\nworthy replacement.\nWay of the Hundred Fists will be a good Talent in every game. However, if you are used to Kharazim,\nwe recommend going for Cleansing Touch instead. It is one of the best\ncleanse effects in the whole game, since\nit can be used multiple times on multiple allies. Even if the enemy team does not have\nStuns or Roots,\nit can be very useful together with Quicksilver, because\nyou will be able to use it on your Tank to enhance\ntheir engage. An Unstoppable Garrosh\nwith 30% extra Movement Speed is very dangerous, for example.\nEpiphany can be a good option at Level 20,\nit allows him to instantly restore Mana and two of his\nRadiant Dash charges at once. Still, other Talents\nat this tier are very relevant\nas well. We want to highlight\nthat going for the Radiant Dash Build even when being the solo Healer in your\nteam is doable due to the fact that you still put out enough healing\nwhile also providing a surprising amount of kill potential.\nBreath of Heaven Build\nBeginner\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKharazim's Breath of Heaven Build is an easier build to use than the Radiant Dash one,\nwe recommend it for new players using Kharazim as main Healer.\nEven though this is a healing build, we do not recommend Transcendence,\nbecause it only provides a heal that cannot be aimed, has small range, and is mostly unnecessary.\nIron Fists will greatly increase all your damage, and in many situations it will\nbe the difference between killing your target or not. It will also be a much better Talent\nwhen it comes to releasing Mercenaries or clearing them.\nThere are a few situational Talents available, which depend on\nwhat the enemy team's composition consists of. At Level 4,\nEarth Ally can be replaced by\nAir Ally if the enemy team does not have any Basic Attackers.\nAt Level 13 Sixth Sense gains a lot of value against Basic\nAttackers and crowd control and is usually a safe bet in most games.\nIf most of the damage comes from Abilities,\nSpell Shield can be a worthy replacement.\nFinally, at Level 20,\nStorm Shield is a good Talent against\narea of effect damage and\ncan generally be picked instead of Peaceful Repose or\nTransgression."
+  },
+  {
+   "title": "Level 1 Talents for Kharazim",
+   "id": "level-1",
+   "text": "✘︎\nTranscendence\n(Level 1)\nKharazim\nEvery 3rd Basic Attack heals the lowest nearby allied Hero for 104 (+4% per level) and gives 25% increased Move Speed for 2.5 seconds.\n✓\nIron Fists\n(Level 1)\nKharazim\nEvery 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2.5 seconds.\n✘︎\nInsight\n(Level 1)\nKharazim\nQuest: Every 3rd Basic Attack restores 14 (+4% per level) Mana, grants a stack of Insight, and gives 25% increased Movement Speed for 2.5 seconds.\nReward: Upon getting 100 stacks of Insight, every 3rd attack also reduces Basic Ability cooldowns by 1.75 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Transcendence is an underwhelming Talent for Kharazim.\nKharazim heals a considerable small amount in early to mid game when compared to other Healers.\nGoing for Transcendence will slightly reduce that difference, while Iron Fists will enhance\nwhat Kharazim is meant to do: deal high follow up damage. If you are\nlooking into going for a build with more sustain, it is recommended to get\nHeavenly Zeal and Echo of Heaven instead.\nIron Fists is your Talent of choice in all situations, as it\nadds strong damage potential on Kharazim, which allows him to threaten squishy enemy Heroes.\nThe bonus damage after every third Basic Attack\nworks exceptionally well with Deadly Reach and thus\nbenefits hugely from follow-up damage Talents such as\nBlinding Speed at Level 7 or Way of the Hundred Fists\nat Level 16.\nInsight offers decent Mana Regeneration and\nmid-late game cooldown reduction but that is about it. In most games, the Talent will take too\nlong to get value from. And even after completion, its overall usefulness during team fights remains\nquestionable, because Kharazim usually does not have enough to get consistent Basic Attacks through."
+  },
+  {
+   "title": "Level 4 Talents for Kharazim",
+   "id": "level-4",
+   "text": "?\nSpirit Ally\n(Level 4)\nKharazim\nCooldown: 45 seconds\nPlace a Spirit Ally that heals allied Heroes in a large area around it for 2% of their maximum Health every second. Has 150 (+4% per level) Health and lasts 10 seconds. Kharazim can Radiant Dash to Spirit Allies.\n✓\nEarth Ally\n(Level 4)\nKharazim\nCooldown: 45 seconds\nPlace an Earth Ally that grants nearby allied Heroes 50 Physical Armor against Heroic Basic Attacks, reducing damage taken by 50%. Has 400 (+4% per level) Health and lasts 10 seconds. Kharazim can Radiant Dash to Earth Allies.\n?\nAir Ally\n(Level 4)\nKharazim\nCooldown: 30 seconds\nPlace an Air Ally that gives allied Heroes 20% Spell Power, grants vision, and reveals a large area around it. Has 300 (+4% per level) Health and lasts 10 seconds. Kharazim can Radiant Dash to Air Allies."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Spirit Ally offers decent healing over time while retaining\na fair cooldown of 45 seconds. If you want to provide additional sustain healing to your\nallies throughout longer skirmishes (for instance, while fighting over\nObjective control), this\nTalent is the one to choose.\nEarth Ally works very well against enemy team compositions\nwho rely heavily on Basic Attacks. We also recommend this Talent when going for the\nDamage Build featuring Iron Fists at Level 1, since Earth Ally\nprovides Kharazim with reliable damage mitigation while engaging on his primary target.\nAir Ally will not only increase the damage dealt by Abilities\nfrom your whole team, but will also increase all healing applied by Kharazim. Consider picking\nthis Talent when your team features multiple Heroes who mostly deal Spell Damage."
+  },
+  {
+   "title": "Level 7 Talents for Kharazim",
+   "id": "level-7",
+   "text": "✓\nBlinding Speed\n(Level 7)\nKharazim\nDecreases Radiant Dash's cooldown by 2 seconds and increases the maximum number of charges by 1.\n?\nHeavenly Zeal\n(Level 7)\nKharazim\nIncreases Breath of Heaven's Movement Speed bonus to 30%. Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3.5 seconds.\n✘︎\nBlazing Fists\n(Level 7)\nKharazim\nIncrease the duration of Deadly Reach by 100%. Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 0.75 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Blinding Speed is a great Talent if you go for a Radiant Dash Build.\nHaving more mobility is always useful and there is a strong synergy\nbetween Blinding Speed, Way of the Hundred Fists,\nCleansing Touch, and Quicksilver,\nwhich makes Blinding Speed a lot more efficient\nthan Blazing Fists.\nHeavenly Zeal boosts Kharazim's utility and healing output by a large margin.\nThe additional Movement Speed allows your teammates to either engage the opponents\nor to retreat away from an enemy onslaught more efficiently. We recommend this Talent\nif your team requires more burst healing and mobility.\nBlazing Fists reduces Deadly Reach's\nCooldown significantly while also boosting its duration. However, as Kharazim will not be\nable to be standing still attacking a target for long. This Talent could be good in\nBattlefield of Eternity, but unfortunately the other 2 options at this Level\nare way too important for their respective Builds to be passed on."
+  },
+  {
+   "title": "Level 10 Talents for Kharazim",
+   "id": "level-10",
+   "text": "?\nDivine Palm\n(Level 10)\nKharazim\nMana: 50\nCooldown: 50 seconds\nProtect an allied Hero from death, causing them to be healed for 1200 (+4% per level) if they take fatal damage in the next 4 seconds.\n✓\nSeven-Sided Strike\n(Level 10)\nKharazim\nMana: 77\nCooldown: 50 seconds\nBecome Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nDivine Palm is an incredibly useful Heroic Ability\nthat can single-handedly alter the outcome of a team fight. We\ncannot stress enough the importance of timing Divine Palm precisely, in order to\nput the enemy team into precarious situation. It should be picked if the enemy team got\nhigh burst damage, so it can reset the fight, and consequently\ngive your team major advantage.\nThere are three things to be particularly aware of when using Divine Palm.\nFirstly, you have to observe and predict which of your teammates is going to get\nfocused by the enemy team. Secondly, you have to carefully estimate how much\ndamage said teammate can withstand before dying. Thirdly, you have make sure to\nbe within cast range of said teammate to cast Divine Palm in time. If you manage\nto anticipate the enemy team's focus fire correctly, it is almost impossible for\nthem to stop their damage in due time and Divine Palm will prevent your\ntargeted ally from dying.\nAs a rule of thumb, Divine Palm should be used\nif the enemies clearly focus an allied priority target (mostly Assassins);\nif one of your frontliners requires immediate\nhelp;\non yourself if you find yourself exposed or caught off guard.\nSeven-Sided Strike is a strong offensive Heroic\nAbility that can deal a moderate amount of damage into several enemies at the same time or\nan insane amount into only 1 Hero. It also makes Kharazim\ninvulnerable for a short period of time, which forces the enemy team to choose\nother priority targets while Seven-Sided Strike is active. However, this Heroic\nAbility has one major disadvantage, which is its fixed area of effect. Similar to\nTyrande's Starfall\nor Kael'thas's Phoenix,\nenemies can simply walk out of Seven-Sided Strike's radius,\nwhich requires Kharazim to wait for the right moment to use it.\nKeeping an eye on the enemy team's movement and especially their escape\nabilities is crucial when casting Seven-Sided Strike. If you notice that several\nenemy Heroes are distracted fighting one of your allies, Seven-Sided Strike can\nbe particularly efficient. Seven-Sided Strike also shines while dueling an\nenemy Hero in an one-on-one situation, as every strike will hit your opponent,\nrendering him unable to fight back.\nWe recommend going for this Heroic if your team can easily isolate an enemy Hero\nby using displacement or\ncontrol effects. Kharazim can easily\nuse a Radiant Dash to reposition so that Seven Sided Strike's edge will be over the controlled\nenemy, so nobody can enter the area to split the damage."
+  },
+  {
+   "title": "Level 13 Talents for Kharazim",
+   "id": "level-13",
+   "text": "✓\nQuicksilver\n(Level 13)\nKharazim\nRadiant Dashing to an ally gives Kharazim and the target 30% bonus Movement Speed for 3 seconds.\n?\nSpell Shield\n(Level 13)\nKharazim\nEvery 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.\nCan be toggled to allow or prevent this talent from triggering automatically.\n?\nSixth Sense\n(Level 13)\nKharazim\nWhile Stunned or Rooted, gain 75 Physical Armor against Hero Basic Attacks for 4 seconds, reducing their damage by 75%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Quicksilver is a great Talent if used in conjunction with\nBlinding Speed at Level 7. We definitely recommend this Talent\nif you are using a Radiant Dash Build.\nSpell Shield should only be considered if the enemy\nteam consists mainly of Assassins that rely on their ability\ndamage, such as Jaina or Li-Ming.\nIn that case, Spell Shield\nhas the potential to absorb a significant amount of damage, which allows Kharazim\nto have greater presence during team fights.\nSixth Sense is a useful Talent if the enemy lineup\nconsists of several Heroes with great crowd control, such as E.T.C. or\nThrall. By reducing the damage\nof enemy Basic Attacks, Kharazim becomes much more resilient in the frontline,\nwhich allows him to move and heal more freely.\nWe recommend taking Sixth Sense if the enemy team features strong Basic Attackers and\nif crowd control is consistently being used against you."
+  },
+  {
+   "title": "Level 16 Talents for Kharazim",
+   "id": "level-16",
+   "text": "?\nCleansing Touch\n(Level 16)\nKharazim\nRadiant Dashing to an ally makes them Unstoppable for 1 second.\n✓\nWay of the Hundred Fists\n(Level 16)\nKharazim\nRadiant Dashing to an enemy launches a rapid volley of 6 Basic Attacks dealing 45% damage each.\n?\nEcho of Heaven\n(Level 16)\nKharazim\nBreath of Heaven heals 75% of its normal amount, but heals a second time 3 seconds later."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Cleansing Touch is a high-skill high-reward Talent,\nwhich thrives against high crowd control\ncompositions that feature multiple Stuns and Roots.\nIf paired with Blinding Speed at Level 7,\nKharazim should always have a life-saving cleanse effect available.\nWay of the Hundred Fists works very well with Blinding Speed\nand especially Epiphany at Level 20, as it immediately restores\n2 charges of Radiant Dash, which in return allows\nyou to deal more damage during team fights and duels.\nEcho of Heaven Is an outstanding Talent when paired with\nHeavenly Zeal, since those 2 Talents together will\nmake Breath of Heaven heal 250% of the original value."
+  },
+  {
+   "title": "Level 20 Talents for Kharazim",
+   "id": "level-20",
+   "text": "?\nPeaceful Repose\n(Level 20)\nKharazim\nDivine Palm's healing amount is increased by 75% and its cooldown is set to 5 seconds if the Hero does not die.\n?\nTransgression\n(Level 20)\nKharazim\nSeven-Sided Strike hits 4 additional times.\n✘︎\nFists of Legend\n(Level 20)\nKharazim\nGain 50% of the benefit from both level 1 talents that were not chosen.\n?\nStorm Shield\n(Level 20)\nKharazim\nCooldown: 45 seconds\nActivate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.\n✓\nEpiphany\n(Level 20)\nKharazim\nCooldown: 70 seconds\nActivate to restore 70% of Kharazim's maximum Mana and refill 2 charges of Radiant Dash."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Peaceful Repose will make a failed\nDivine Palm very forgiving by reducing its cooldown to\n5 seconds if your marked target did not die. This makes it an excellent Talent\nfor less experiences players, in particular. The increased healing will be very impactful when\nusing it on Tanks, a Garrosh will be saved and come back with full Health, in example.\nTransgression provides Kharazim with more potential\ndamage on his Seven-Sided Strike Heroic Ability. However,\nthere are two major downsides to this Talent. Firstly, Seven-Sided Strike can be\ndodged and avoided fairly easily by a variety of Heroes with some form of escape\nmechanism, which renders this Talent completely useless. Secondly, adding 4 more\nstrikes to Seven-Sided Strike means that you cannot control Kharazim for a longer\nperiod of time. However, it will also make you invulnerable for a longer time.\nWe recommend only going for this Talent if your team has many different\ncrowd control Abilities.\nFists of Legend is an interesting but underwhelming Talent.\nThis Talent would be interesting if it increased the rate in which his Level 1 Talent is activated,\nor if it added some form of resistance to allow Kharazim to safely deliver several Basic Attacks\nin a Level 20 fight, which is extremely hard due to how bursty these fights are.\nStorm Shield is one of the most powerful defensive\nTalents in the game. Out of all Healers, Kharazim sticks out as being\none of the most mobile ones thanks to his Radiant Dash\nand the Movement Speed granted by Breath of Heaven. This\nenables him to quickly find a good spot to cast Storm Shield on as many allies as\npossible. Storm Shield is a great tool to stop enemy\narea of effect burst damage,\nespecially from Mages like Jaina or Kael'thas.\nEpiphany works particularly well if Kharazim is going for a Radiant Dash Build.\nEpiphany provides an amazing synergy with Way of the Hundred Fists\nor Cleansing Touch. Furthermore, we cannot stress\nenough how important mobility is on Kharazim. As any other Melee Assassin, he is\nlikely going to get focused by the enemy team which requires him to change\npositions very frequently. All in all, Epiphany is an incredibly versatile Talent\nthat allows Kharazim to escape dangerous situations, to chase fleeing enemies more\nefficiently, and to compensate Mana issues, which is why we thoroughly recommend\npicking this Talent on any offensive Kharazim Talent Build."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "03 May 2025: Guide updated for patch 2.55.10.\n11 Dec. 2022: Updated Talent recommendations to match Kharazim's main Build.\n24 Jul. 2021: Added Fists of Legend's description.\n26 Mar. 2021: Updated Talent recommendations.\n06 Jun. 2020: Removed a misleading information in Echo of Heaven's description.\n16 Apr. 2020: Updated Kharazim's Builds and Talents to better reflect current meta.\n23 Jan. 2020: Updated Kharazim's Builds in accordance with the latest Balance Update. Air Ally is now a Situational choice in both Builds.\n12 Jun. 2019: Updated the entire Kharazim guide to better reflect the current state of the game.\n23 May 2019: Updated Kharazim's talents and builds in accordance with the latest Balance Update.\n02 Nov. 2017: Updated Kharazim's Level 1 talents following the latest balance update.\n21 May 2017: Changed and updated Kharazim's Level 13 and 16 talents.\n06 Jan. 2017: Revisited Tier 1 talent assessments.\nShow more\nShow less"
+  }
+ ]
+}

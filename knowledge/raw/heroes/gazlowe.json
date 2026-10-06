@@ -1,0 +1,305 @@
+{
+ "slug": "gazlowe",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/gazlowe-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/gazlowe-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/gazlowe-talents"
+ },
+ "guide": [
+  {
+   "title": "Gazlowe's Overview",
+   "id": "gazlowes-overview",
+   "text": "Gazlowe is a Bruiser that excels at controlling the space around him,\nsieging, and painlessly claiming Mercenary Camps.\nWith decent survivability provided by Talents, Gazlowe can easily survive\ndives while also creating many turrets, being a nuisance for the enemy\nteam. However, his abilities have a delay to be applied, so he will be\nbetter in a chaotic situation, where enemies cannot properly predict and react\nto Xplodium Charge and Grav-O-Bomb 3000."
+  },
+  {
+   "title": "Gazlowe's Strengths and Weaknesses",
+   "id": "gazlowes-strengths-and-weaknesses",
+   "text": "Strengths\nOutstanding zoning potential\nDecent sieging capabilities\nSituationally high sustain damage\nMay safely solo claim any Mercenary Camp\nStrong combo potential with Grav-O-Bomb 3000\nGreat self-sustain if not under crowd control\nGood follow up to Tanks with Xplodium Charge\nWeaknesses\nVery little target-focused damage\nRequires setup to maximise damage\nParticularly weak versus ranged damage dealers\nUnique playstyle around which teammates must play\nCannot properly engage for his team"
+  },
+  {
+   "title": "Gazlowe's Talent Build Cheatsheet",
+   "id": "gazlowes-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGazlowe's Standard Build focuses on creating extra Turrets through the Scrap\nfrom Goblin Fusion, while also adding more sustain\nto the Hero from Rock It Sock It's Shields.\nAt Level 10, we recommend getting Grav-O-Bomb 3000 due\nto the great potential to win teamfights with it. However, if your plan is to constantly\nsplit-push, Robo-Goblin might be\na better option.\nXplodium Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGazlowe's Xplodium Build allows him to follow up his\nTank's engages from anywhere, while also dealing high damage from afar. This build\ndoes not have as much early game presence as the Standard one,\nbut it gets extremely powerful at Level 16 and Level 20.\nThis build is a good option if you are not in the solo lane\nor if your team features a tank with good engage tools, such as\nE.T.C. or Anub'arak.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGazlowe's ARAM Build focuses on getting the most value from clumped\nenemies. It also provides good setup with\nGrav-O-Bomb 3000 and strong follow-up\nwith Xplodium Charge empowered by\nRocket Boots after allied engages.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Gazlowe's Synergies and Counters",
+   "id": "gazlowes-synergies-and-counters",
+   "text": "Gazlowe synergizes with\nGazlowe is at his best when coupled with Heroes that have the means of\nsetting up for or following up on his Grav-O-Bomb 3000- Xplodium Charge combo.\nOtherwise, his Turrets and Xplodium Charge remain useful for hindering opponents\nfrom attacking vulnerable backline teammates, making\nhim relatively versatile in this regard.\nGazlowe is countered by\nGazlowe's short-range nature makes him ineffective against anything that can\noutrange him and his Turrets. Lacking a reliable Movement Speed reduction effect\nalso makes him prone to being kited."
+  },
+  {
+   "title": "Gazlowe's Maps",
+   "id": "gazlowes-maps",
+   "text": "Gazlowe's stronger maps\nGazlowe's average maps\nGazlowe's weaker maps\nGazlowe's static nature makes him thrive on Maps with fixed Objectives that allow\nhim to get scrap through Big Game Hunter, like Infernal Shrines\nand Sky Temple. Conversely, he tends to be weaker in maps that require\nmore initiative during the objective, like in Hanamura Temple and\nTowers of Doom."
+  },
+  {
+   "title": "Gazlowe's Tips and Tricks",
+   "id": "gazlowes-tips-and-tricks",
+   "text": "Wait for enemies to line up or to be controlled before using Deth Lazor, so you get more healing.\nUse Rock-It! Turret to soak damage from Structures and Mercenaries, as needed.\nRock-It! Turret will block skillshots going towards you. It is excellent to use them to protect yourself against premeditated abilities, like Stitches's Hook or Muradin's Storm Bolt.\nCombo Grav-O-Bomb 3000 and Xplodium Charge together for a powerful AoE crowd control effect.\nDuring important fights it will be better to hold Xplodium Charge until a teammate stuns or root someone, so you can use it as a follow up ability, guaranteeing the hit.\nWith Rock It Sock It you should not use all your turrets instantly, since the shields will overlap, reducing your effective health. Only use a turret if the shield from previous one has already been destroyed or has expired.\nDue to how low Rock-It! Turret's damage is, turrets can be used to dismount and scout enemy rotations, instead of using it in the wave.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Gazlowe's Role in the Current Meta",
+   "id": "gazlowes-role-in-the-current-meta",
+   "text": "Gazlowe is a Bruiser with good self-sustain\nand great follows\nfor his team. He should not be played with allies that cannot properly set up\nfor his Abilities. Since Gazlowe is very dependent on his Level 4 and 7 Talents,\nwe recommend releasing Mercenaries during the early game (make sure to\nwarn your teammates, so they can collect the Experience from your lane).\nBy nature, Gazlowe is adept at disputing static Objectives, such as the ones in\nInfernal Shrines and Volskaya Foundry, whereas he has a harder time\nplaying more aggressively, such as around strategies that rely upon killing a\nspecific target. This relatively uncommon property makes Gazlowe one of the more\nunique Heroes in the roster, and one of the more difficult ones to play as, and\nto play around for an unprepared team. Still, he tends to do extremely well\nagainst team compositions that rely on diving strategies, as they\nmust also deal with his Turrets and general crowd control."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Sep. 2026 (talents page): Revised Level 13 Talent descriptions.\n08 May 2026 (talents page): Talents and Builds updated after recent balance patch.\n08 May 2026 (abilities page): Abilities section reviewed after recent balance patch.\n08 May 2026 (this page): Guide updated after last balance patch.\n28 Sep. 2021 (this page): The Guide has been reviewed and is in accordance with the latest patch.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n20 Jan. 2021 (this page): The Guide has been reviewed and is in accordance with the latest patch.\n05 Nov. 2020 (this page): Guide updated after recent balance patch.\n17 Oct. 2020 (this page): Builds updated.\n08 Oct. 2020 (talents page): Talents and Builds updated after recent balance patch.\n08 Oct. 2020 (this page): Builds updated after recent balance patch.\n19 Sep. 2020 (talents page): Guide updated after recent rework.\n19 Sep. 2020 (abilities page): Guide updated after recent rework.\n19 Sep. 2020 (this page): Guide updated accordingly to recent rework.\n05 Apr. 2020 (talents page): Description reviewed and updated for Reduce Reuse Recycle.\n29 Jun. 2017 (talents page): Added Bruiser build.\n26 Jun. 2017 (talents page): Changed Firin' Mah Lazorz from Not Recommended to Situational.\n16 Mar. 2017 (this page): Guide updated for Probius' patch and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Gazlowe's Tips and Tricks",
+   "id": "gazlowes-tips-and-tricks",
+   "text": "Wait for enemies to line up or to be controlled before using Deth Lazor, so you get more healing.\nUse Rock-It! Turret to soak damage from Structures and Mercenaries, as needed.\nRock-It! Turret will block skillshots going towards you. It is excellent to use them to protect yourself against premeditated abilities, like Stitches's Hook or Muradin's Storm Bolt.\nCombo Grav-O-Bomb 3000 and Xplodium Charge together for a powerful AoE crowd control effect.\nDuring important fights it will be better to hold Xplodium Charge until a teammate stuns or root someone, so you can use it as a follow up ability, guaranteeing the hit.\nWith Rock It Sock It you should not use all your turrets instantly, since the shields will overlap, reducing your effective health. Only use a turret if the shield from previous one has already been destroyed or has expired.\nDue to how low Rock-It! Turret's damage is, turrets can be used to dismount and scout enemy rotations, instead of using it in the wave."
+  },
+  {
+   "title": "Rock-It! Turret",
+   "id": "rock-it-turret",
+   "text": "Rock-It! Turret\n(Q)\nGazlowe\nMana: 4\nCooldown: 0.5 seconds\nCreate a turret that deals 43 (+4% per level) damage. Loses Health over 20 seconds.\nTurrets prioritize the nearest enemy Hero when first created.\nRock It! Turret, generally refered to as \"Turret(s)\" by players and throughout\nthis guide, is Gazlowe's main source of damage. Over time, they can deal a respectable amount of\ndamage. Their main drawbacks lie in that they are immobile, have\nlimited range, and can be destroyed rather easily by most ranged attackers. As\nsuch, you always need to be very mindful of their positioning: if they are too\nfar from your intended target, they will be unable to attack, whereas if they\nare too close, they are liable to be picked off.\nTurrets have many uses beyond their raw damage output. As they are so\nexpendable, they are commonly used to absorb the attacks of NPCs, such as\nMercenaries or Structures, so that Gazlowe himself is not damaged. They can\nalso intercept important line skillshots, such as\nStorm Bolt, Hook,\nHungering Arrow, or Singularity Spike.\nAlthough their vision radius is limited, they can be placed in highly contested\nbushes to act as scouts."
+  },
+  {
+   "title": "Deth Lazor",
+   "id": "deth-lazor",
+   "text": "Deth Lazor\n(W)\nGazlowe\nCooldown: 8 seconds\nAfter 0.65 seconds, deal 175 (+4% per level) damage to enemies in a line. Heal for 25% of the damage dealt, increased to 75% against enemy Heroes.\nDeth Lazor is Gazlowe's only means of healing and reliably dealing ranged damage.\nSince its effectiveness scales with how many targets are hit, it is better to wait\nfor enemies to line up or to be crowd controlled by your team,\nin order to hit more Heroes with a single cast. The same is true for Minions.\nIn lane, it can be used to help waveclear,\nat the same time dealing a fair amount of poking damage to enemy\nHeroes. During team fights, it should be used to maximise healing and utility, depending\non your Level 7 Talent."
+  },
+  {
+   "title": "Xplodium Charge",
+   "id": "xplodium-charge",
+   "text": "Xplodium Charge\n(E)\nGazlowe\nCooldown: 12 seconds\nPlace a bomb that deals 142 (+4% per level) damage to enemies within the target area after 1.25 seconds. Enemies hit are also Stunned for 1 second.\nXplodium Charge provides a good, but unreliable crowd control\nto Gazlowe, while also being a great follow for Grav-O-Bomb 3000\n(be aware that it should be used right after Grav-O-Bomb, or it may explode before\nthe pull happens).\nLike most delayed Abilities,\nXplodium Charge becomes much deadlier when it is used in conjunction with\nanother crowd control Ability so as to help\nguarantee a hit. Xplodium Charge is also effective at damaging Minions and\nMercenary Camps, as they tend to move very little."
+  },
+  {
+   "title": "Robo-Goblin",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nRobo-Goblin\n(R)\nGazlowe\nHeroic\nCooldown: 40 seconds\nActivate to become Unstoppable for 1.5 seconds.\nPassive: Basic Attacks deal 100 (+4% per level) bonus damage over 5 seconds, stacking up to 3 times.\nRobo-Goblin is a unique Heroic Ability due to its most important effect being\ncompletely passive: once it is acquired, you instantly and permanently benefit\nfrom the damage bonuses it provides without ever having to \"activate\" it. Its\nactivatable component has some very interesting offensive and defensive\nimplications for Gazlowe.\nDespite being mostly passive, Robo-Goblin is remarkable for completely\nchanging Gazlowe's playstyle by trading off his Ability to instantly impact\nteam fights to that of becoming extremely efficient at dueling, sieging,\nwaveclearing, and claiming Mercenary Camps through extremely\nhigh sustain melee damage potential. Using Robo-Goblin does not mean\nthat you should avoid being present for team fights\nentirely; your other Abilities and Basic Attacks remain very useful despite\nlacking Grav-O-Bomb 3000, especially considering that winning team fights\nwith Robo-Goblin is very valuable; full or even partial wipes can easily lead to\nFort or Keep kills due to the Ability's outstanding sieging potential."
+  },
+  {
+   "title": "Grav-O-Bomb 3000",
+   "id": "grav-o-bomb-3000",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nGrav-O-Bomb 3000\n(R)\nGazlowe\nHeroic\nCooldown: 60 seconds\nAfter a 1.5 second delay, pull enemies toward the center of an area, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds. Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000.\nGrav-O-Bomb 3000 is Gazlowe's main team fighting Ability. It works similarly\nto Xplodium Charge, in that there is a long delay before\nits effect comes into play. However, its area of effect is much larger, making\nGrav-O-Bomb 3000 harder to avoid. The two Abilities synergise well, as\nGrav-O-Bomb 3000's pull effect can bring enemies towards your Xplodium Charge;\nthey are, in fact, almost always used together. The key to successfully using\nGrav-O-Bomb 3000 is to wait for an allied Hero to lock down several opponents\nwith a long-lasting Heroic Ability—typically Apocalypse,\nMosh Pit,\nLeap, Divine Storm,\nor Void Prison—or\nto remain on hold until your opponents are committed to a fight so as to\ncapitalise on the fact that they are occupied."
+  },
+  {
+   "title": "Salvager",
+   "id": "salvager",
+   "text": "Reduce, Reuse, Recycle\n(D)\nGazlowe\nRegenerate 1 Scrap every 4 seconds. Destroyed Rock-It! Turrets drop 1 Scrap, which can be picked up.\nActivate to destroy a target Rock-It! Turret.\nReduce, Reuse, Recycle, Gazlowe's Trait, regenerates scrap over time,\nthat is used to build Rock-It! Turrets. Even though scrap will regenerate\nby itself, it is better to speed it up through Talents like Big Game Hunter,\nGoblin Fusion, or It's Raining Scrap, since it defines\nhow many turrets you will be able to have up at the same time.\nScrap management is an essential part of Gazlowe's playstyle. It is important\nto never run out of scrap outside of fights, but to also never be full of them.\nWhen you are full, try to deploy a turret to either get vision, dismount, or harass enemies.\nRemember, a bad turret is better than no turret at all!"
+  },
+  {
+   "title": "Focus Turrets!",
+   "id": "focus-turrets",
+   "text": "Focus Turrets! allows you to\nmanually select a target for Turrets, so long as this target is within their\nattack range. Focus Turrets! is particularly useful for targeting down specific\nHeroes during hectic team fights or while lanning, where Turrets might be\nattacking suboptimal enemies. It is also useful for focusing down individual\nMercenaries as you try and claim Camps."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "08 May 2026: Abilities section reviewed after recent balance patch.\n19 Sep. 2020: Guide updated after recent rework.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Rocket Boots (Level 1) Gazlowe Increase the cast range of Xplodium Charge by 30% and its damage by 35%. Hitting an enemy Hero increases Movement Speed by 20% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Big Game Hunter (Level 1) Gazlowe Increase maximum Scrap by 2. Basic Attacks against enemy Heroes, Mercenaries, or Monsters accelerates Reduce, Reuse, Recycle Scrap regeneration by 1.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "One Man Wrecking Crew (Level 1) Gazlowe Casting Basic Abilities cause Gazlowe's next Basic Attack within 6 seconds to deal 75% more damage. Stores up to 2 charges."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Rock It Sock It (Level 4) Gazlowe Casting Rock-It! Turret grants Gazlowe a Shield that absorbs up to 200 (+4% per level) damage for 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Hyperfocus Coils (Level 4) Gazlowe Heroes hit by Deth Lazor or Xplodium Charge take an additional 2% of their maximum Health in damage. Gazlowe is healed for 150% of the damage dealt."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "EZ-PZ Dimensional Ripper (Level 4) Gazlowe Cooldown: 30 seconds Activate to gain 40 Armor for 3 seconds, reducing damage taken by 40%, and reduce damage dealt by all nearby enemy Heroes and Summons by 50% for 3 seconds"
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Goblin Fusion (Level 7) Gazlowe Generate 3 Scrap for each Hero hit by Deth Lazor."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Overload (Level 7) Gazlowe Deth Lazor can now store up to 2 charges. Each enemy Hero hit by Deth Lazor reduces its cooldown by 0.75 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Master Blaster (Level 7) Gazlowe Deth Lazor and Xplodium Charge Slow enemies hit by 35% for 3 seconds. Rock-It! Turret Basic Attacks against enemies Slowed in this way extend the Slow duration by 0.5 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Robo-Goblin (Level 10) Gazlowe Cooldown: 40 seconds Activate to become Unstoppable for 1.5 seconds. Passive: Basic Attacks deal 100 (+4% per level) bonus damage over 5 seconds, stacking up to 3 times."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Grav-O-Bomb 3000 (Level 10) Gazlowe Cooldown: 60 seconds After a 1.5 second delay, pull enemies toward the center of an area, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds. Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Positive Reinforcement (Level 13) Gazlowe Primary Rock-It! Turret attacks against Heroes increase Gazlowe's Attack Speed by 40% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Superior Schematics (Level 13) Gazlowe Rock-It! Turrets attack up to 2 additional enemies for 60% damage and have 30% increased Basic Attack range."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Overcharged Capacitors (Level 13) Gazlowe Gazlowe gains 5% Spell Power for each active Rock-It! Turret, up to a maximum of 15%. Dealing Basic Attack damage heals Rock-It! Turrets by 8% of their max health."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Firin' Mah Lazorz (Level 16) Gazlowe Firing Deth Lazor causes all of Gazlowe's Rock-It! Turrets to fire a Deth Lazor of their own that deals 125 (+4% per level) damage."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Ark Reaktor (Level 16) Gazlowe Reduce the cooldown of Xplodium Charge by 2 seconds. Casting Xplodium Charge creates 3 miniature Rock-It! Turrets that last for 3 seconds. These Turrets do not drop Scrap or benefit from other Talents."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Overklock (Level 16) Gazlowe Basic Attacks grant Gazlowe 15% Movement Speed for 2 seconds. Dealing Basic Attack damage to Heroes causes them to take an additional 2.5% of their maximum Health as damage."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Mecha-Lord (Level 20) Gazlowe Basic Attacks increase Gazlowe's Armor by 10 for 10 seconds, up to a maximum of 30, and deal 50% bonus damage to Stunned or Slowed enemies."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Miniature Black Hole (Level 20) Gazlowe Increase Grav-O-Bomb 3000's radius by 25% and its damage by 50%. Each enemy Hero pulled reduces its cooldown by 12 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "It's Raining Scrap (Level 20) Gazlowe Reduce the Scrap cost of Rock-It! Turrets by 1. Regain 2 Scrap for each Scrap pickup."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Bomb Toss (Level 20) Gazlowe Xplodium Charge gains a 2nd charge with a 3 second cooldown between uses and launches 2 more bombs when it detonates."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Gazlowe's Talent Build",
+   "id": "gazlowes-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n?\n✓\n13\n✘︎\n✓\n?\n16\n?\n✓\n✘︎\n20\n✘︎\n✓\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Gazlowe's Talent Build Cheatsheet",
+   "id": "gazlowes-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGazlowe's Standard Build focuses on creating extra Turrets through the Scrap\nfrom Goblin Fusion, while also adding more sustain\nto the Hero from Rock It Sock It's Shields.\nAt Level 10, we recommend getting Grav-O-Bomb 3000 due\nto the great potential to win teamfights with it. However, if your plan is to constantly\nsplit-push, Robo-Goblin might be\na better option.\nXplodium Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGazlowe's Xplodium Build allows him to follow up his\nTank's engages from anywhere, while also dealing high damage from afar. This build\ndoes not have as much early game presence as the Standard one,\nbut it gets extremely powerful at Level 16 and Level 20.\nThis build is a good option if you are not in the solo lane\nor if your team features a tank with good engage tools, such as\nE.T.C. or Anub'arak.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGazlowe's ARAM Build focuses on getting the most value from clumped\nenemies. It also provides good setup with\nGrav-O-Bomb 3000 and strong follow-up\nwith Xplodium Charge empowered by\nRocket Boots after allied engages."
+  },
+  {
+   "title": "Level 1 Talents for Gazlowe",
+   "id": "level-1",
+   "text": "✓\nRocket Boots\n(Level 1)\nGazlowe\nIncrease the cast range of Xplodium Charge by 30% and its damage by 35%. Hitting an enemy Hero increases Movement Speed by 20% for 3 seconds.\n?\nBig Game Hunter\n(Level 1)\nGazlowe\nIncrease maximum Scrap by 2. Basic Attacks against enemy Heroes, Mercenaries, or Monsters accelerates Reduce, Reuse, Recycle Scrap regeneration by 1.5 seconds.\n?\nOne Man Wrecking Crew\n(Level 1)\nGazlowe\nCasting Basic Abilities cause Gazlowe's next Basic Attack within 6 seconds to deal 75% more damage. Stores up to 2 charges."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Rocket Boots greatly increase Gazlowe's follow up\npotential while also adding more damage and mobility to himself. This Talent is\nexcellent when you are paired with Tanks who can\nengage from a relatively high distance (like Diablo\nand Anub'arak). It is also good in normal situations, as it makes Gazlowe's\nmain crowd control easier to hit.\nBig Game Hunter's extra scrap allows Gazlowe to instantly\nbuild 3 turrets, adding more presence into his teamfighting potential, and more\nsustain when paired with Rock It Sock It. It\nalso increases the rate in which the scrap is regenerated, as long as you keep\nattacking a Monster (like Tomb of the Spider Queen's Webweavers), Mercenary\nor Hero. With this Talent, you can solo any Mercenary Camp without losing Health\nand will be much more present in Objective, like Infernal Shrines, due\nto being able to regain Scrap by attacking the Monsters spawned by it.\nOne Man Wrecking Crew helps Gazlowe to beat the opposing\nOfflaner on Maps such as Dragon Shire or Braxis Holdout.\nHowever, most of Gazlowe's damage is tied to his Basic Abilities, and since he has no\ngap-closer, you will be dependent on enemies to dive you,\nin order to get the small value of One Man Wrecking Crew."
+  },
+  {
+   "title": "Level 4 Talents for Gazlowe",
+   "id": "level-4",
+   "text": "✓\nRock It Sock It\n(Level 4)\nGazlowe\nCasting Rock-It! Turret grants Gazlowe a Shield that absorbs up to 200 (+4% per level) damage for 2.5 seconds.\n?\nHyperfocus Coils\n(Level 4)\nGazlowe\nHeroes hit by Deth Lazor or Xplodium Charge take an additional 2% of their maximum Health in damage. Gazlowe is healed for 150% of the damage dealt.\n?\nEZ-PZ Dimensional Ripper\n(Level 4)\nGazlowe\nCooldown: 30 seconds\nActivate to gain 40 Armor for 3 seconds, reducing damage taken by 40%, and reduce damage dealt by all nearby enemy Heroes and Summons by 50% for 3 seconds"
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Rock It Sock It is the main Talent to improve Gazlowe's\nsurvivability. The Shield duration is much bigger than the Rock-It! Turret's\nCooldown, so it can be wasted if you create more than one Turret instantly. After\ngetting this Talent, you should only spawn a secondary turret if the Shield from\nthe previous one already expired or was destroyed.\nHyperfocus Coils adds more damage to Deth Lazor\nand Xplodium Charge, which can be useful if you are playing\naround following your Tank. Still, it does not add as much\nself-sustain as Rock It Sock It\ndoes, and should only be picked with good setup to hit your Abilities.\nEZ-PZ Dimensional Ripper basically makes Gazlowe invincible\nfor 3 seconds, but in most situations the extra self-sustain from the other options will\nbe more consistent. On the other hand, it is a great option against a\ndive composition, since the damage reduction will stop their momentum\nduring the dive."
+  },
+  {
+   "title": "Level 7 Talents for Gazlowe",
+   "id": "level-7",
+   "text": "✓\nGoblin Fusion\n(Level 7)\nGazlowe\nGenerate 3 Scrap for each Hero hit by Deth Lazor.\n?\nOverload\n(Level 7)\nGazlowe\nDeth Lazor can now store up to 2 charges. Each enemy Hero hit by Deth Lazor reduces its cooldown by 0.75 seconds.\n?\nMaster Blaster\n(Level 7)\nGazlowe\nDeth Lazor and Xplodium Charge Slow enemies hit by 35% for 3 seconds. Rock-It! Turret Basic Attacks against enemies Slowed in this way extend the Slow duration by 0.5 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Goblin Fusion is an excellent way to add more damage, self-healing, and\npresence in the teamfight. The extra scrap is converted to more turrets, which is\nthe main source of damage and self-sustain from the Hero. After getting this Talent, you\nshould never use Deth Lazor with full scraps; place one or two\nturrets before using it, so you do not waste the extra resources you get.\nOverload greatly increases Gazlowe's waveclear, and\ncan be an option if you need to double soak against a\ngood waveclear Hero. This Talent has good synergy with\nHyperfocus Coils and Firin' Mah Lazorz.\nMaster Blaster adds a useful Slow to your damaging Basic Abilities.\nEvery hit from Rock-It! Turret will increase the Slow duration,\nso it is essential to use Focus Turrets! towards targets\nrecently hit by Deth Lazor or Xplodium Charge."
+  },
+  {
+   "title": "Level 10 Talents for Gazlowe",
+   "id": "level-10",
+   "text": "?\nRobo-Goblin\n(Level 10)\nGazlowe\nCooldown: 40 seconds\nActivate to become Unstoppable for 1.5 seconds.\nPassive: Basic Attacks deal 100 (+4% per level) bonus damage over 5 seconds, stacking up to 3 times.\n✓\nGrav-O-Bomb 3000\n(Level 10)\nGazlowe\nCooldown: 60 seconds\nAfter a 1.5 second delay, pull enemies toward the center of an area, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds. Basic Abilities deal 30% more damage for 5 seconds after casting Grav-O-Bomb 3000."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nGrav-O-Bomb 3000 is one of the most impactful Heroic\nAbilities in the game, and essentially makes or breaks the effectiveness of\nGazlowe players in team fight situations. Grav-O-Bomb 3000 is especially good\nif one or more of your teammates have access to area of effect Heroic\nAbilities, such as Apocalypse,\nMosh Pit,\nLeap, Divine Storm, or\nVoid Prison. It is also recommended on Maps where\nsplit pushing is not generally effective, such as\nSky Temple or Towers of Doom.\nShould your team elect to play a more\nsplit-push-oriented playstyle,\nRobo-Goblin allows you to take down Minions,\nStructures and Mercenaries at a speed that is second to none, all while being\nvery difficult for any melee Hero to duel. Picking\nRobo-Goblin, however, is never a decision that should be taken lightly, as it\ndeprives you of Grav-O-Bomb 3000, which can\nsingle-handedly turn team fights in your favour."
+  },
+  {
+   "title": "Level 13 Talents for Gazlowe",
+   "id": "level-13",
+   "text": "✘︎\nPositive Reinforcement\n(Level 13)\nGazlowe\nPrimary Rock-It! Turret attacks against Heroes increase Gazlowe's Attack Speed by 40% for 3 seconds.\n✓\nSuperior Schematics\n(Level 13)\nGazlowe\nRock-It! Turrets attack up to 2 additional enemies for 60% damage and have 30% increased Basic Attack range.\n?\nOvercharged Capacitors\n(Level 13)\nGazlowe\nGazlowe gains 5% Spell Power for each active Rock-It! Turret, up to a maximum of 15%. Dealing Basic Attack damage heals Rock-It! Turrets by 8% of their max health."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Positive Reinforcement's extra Attack Speed would greatly\nincrease Gazlowe's push capabilities, but unfortunately, it only works when turret hits Heroes.\nIn fights, due to not having any gap-closers, he has a hard time\ngetting value from Basic Attacks.\nSuperior Schematics moves Turrets from being annoying\nto being a great threat. Besides increasing their range, it also allows them to\nhit additional targets. This Talent enhances Gazlowe's main Ability, and should\nnot be skipped if you picked either Big Game Hunter or\nGoblin Fusion.\nOvercharged Capacitors is a good Talent to get when\nyou did not go for scraps focused Talents, since you will not have many turrets up.\nIt will be better to enhance the other parts of the Hero, like Deth Lazor\nor Grav-O-Bomb 3000. Dealing Basic Attack damage also\nrecovers the Turrets' Health. This healing is excellent for pushing, as it allows\nthem to tank 2 or more shots from Towers, as long as you keep attacking."
+  },
+  {
+   "title": "Level 16 Talents for Gazlowe",
+   "id": "level-16",
+   "text": "?\nFirin' Mah Lazorz\n(Level 16)\nGazlowe\nFiring Deth Lazor causes all of Gazlowe's Rock-It! Turrets to fire a Deth Lazor of their own that deals 125 (+4% per level) damage.\n✓\nArk Reaktor\n(Level 16)\nGazlowe\nReduce the cooldown of Xplodium Charge by 2 seconds. Casting Xplodium Charge creates 3 miniature Rock-It! Turrets that last for 3 seconds.\nThese Turrets do not drop Scrap or benefit from other Talents.\n✘︎\nOverklock\n(Level 16)\nGazlowe\nBasic Attacks grant Gazlowe 15% Movement Speed for 2 seconds.\nDealing Basic Attack damage to Heroes causes them to take an additional 2.5% of their maximum Health as damage."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Firin' Mah Lazorz has antisynergy with Rock It Sock It\nbecause it gets value the faster you use Turrets, but the Shield from the Level 4\nTalent encourages you to use them spaced, getting much more value from the Shields.\nIt is not as consistent and reliable as Ark Reaktor, but\nis useful to have more damage to follow up your\nGrav-O-Bomb 3000.\nArk Reaktor always guarantees a good amount of damage in\nfights, while also reducing the cooldown from Xplodium Charge.\nThis is the standard choice for this tier. It also empowers others Xplodium Charge\nTalents, having a great synergy with Rocket Boots and\nBomb Toss.\nOverklock, like most other Basic Attack Talents, is not recommended,\nbecause Gazlowe has a hard time trying to properly deliver hits on a chosen target."
+  },
+  {
+   "title": "Level 20 Talents for Gazlowe",
+   "id": "level-20",
+   "text": "✘︎\nMecha-Lord\n(Level 20)\nGazlowe\nBasic Attacks increase Gazlowe's Armor by 10 for 10 seconds, up to a maximum of 30, and deal 50% bonus damage to Stunned or Slowed enemies.\n✓\nMiniature Black Hole\n(Level 20)\nGazlowe\nIncrease Grav-O-Bomb 3000's radius by 25% and its damage by 50%. Each enemy Hero pulled reduces its cooldown by 12 seconds.\n?\nIt's Raining Scrap\n(Level 20)\nGazlowe\nReduce the Scrap cost of Rock-It! Turrets by 1. Regain 2 Scrap for each Scrap pickup.\n?\nBomb Toss\n(Level 20)\nGazlowe\nXplodium Charge gains a 2nd charge with a 3 second cooldown between uses and launches 2 more bombs when it detonates."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Mecha-Lord is not particularly useful\nagainst Ranged Assassins that will simply kite him due to\nhis lack of a gap closer.\nAgainst team compositions featuring more than 2 melee or low-range Heroes,\nwe recommend getting Grav-O-Bomb 3000 instead.\nMiniature Black Hole significantly improves the\nusability of Grav-O-Bomb 3000 by making it much more\ndifficult to avoid. The damage increase and cooldown reduction are nice bonuses as well,\nhowever, the radius increase is what makes this Talent truly shine.\nIt's Raining Scrap has the potential to allow one to\nsummon a ridiculous number of Rock-It! Turrets. The\nTalent, however, competes with Miniature Black Hole,\nwhich can win a fight by itself. When paired with Rock It Sock It,\nThis Talent can be used to provide insane self-sustain to Gazlowe, because you can spawn\na turret and delete it instantly, being able to obtain the Shield many times in the fight.\nBomb Toss is excellent when paired with\nRocket Boots and Ark Reaktor. It enables\nGazlowe to use Xplodium Charge freely, as he will always have another\ncharge to follow up an engage. The extra bombs spawned\nby this Talent provide great zoning. A good thing to note is that\nXplodium Charge can be used to Stun a target hit by the\nextra bombs again."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Sep. 2026: Revised Level 13 Talent descriptions.\n08 May 2026: Talents and Builds updated after recent balance patch.\n26 Mar. 2021: Updated Talent recommendations.\n08 Oct. 2020: Talents and Builds updated after recent balance patch.\n19 Sep. 2020: Guide updated after recent rework.\n05 Apr. 2020: Description reviewed and updated for Reduce Reuse Recycle.\n29 Jun. 2017: Added Bruiser build.\n26 Jun. 2017: Changed Firin' Mah Lazorz from Not Recommended to Situational.\nShow more\nShow less"
+  }
+ ]
+}

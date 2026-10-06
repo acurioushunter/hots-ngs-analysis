@@ -1,0 +1,300 @@
+{
+ "slug": "qhira",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/qhira-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/qhira-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/qhira-talents"
+ },
+ "guide": [
+  {
+   "title": "Qhira's Overview",
+   "id": "qhiras-overview",
+   "text": "Qhira is a Melee Assassin who combines strong mobility, speed, and damage to\nrelentlessly chase down her prey. Most of Qhira's damage derives from a stackable Bleeding effect\nthat gets applied whenever she damages enemy Heroes with both Basic Attacks\nand any of her abilities and can be amplified by activating Blood Rage\nin a timely manner."
+  },
+  {
+   "title": "Qhira's Strengths and Weaknesses",
+   "id": "qhiras-strengths-and-weaknesses",
+   "text": "Strengths\nGreat mobility\nStrong damage-over-time\nGood Offlane\nExcellent duelist\nPowerful late game\nCan mitigate damage with Revolving Sweep and Blood Rage\nWeaknesses\nSusceptible to enemy Stuns and Silences\nDependent on terrain\nSteep learning curve\nExtremely dependent on hitting her Abilities\nBad waveclear\nDependent on stacking Blood Rage"
+  },
+  {
+   "title": "Qhira's Talent Build Cheatsheet",
+   "id": "qhiras-talent-build-cheatsheet",
+   "text": "Heavy Bleeding Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nQhira's Heavy Bleeding Build focuses on Qhira's outstanding sustain damage potential.\nHer main goal should always be to spread the ticking bleeding damage onto several enemies\nat the same time.\nAt Level 4, Qhira can decide which talent to take depending on the situation she finds\nherself in. We usually recommend picking Upstage, but\nwhen you are against Heroes with fast Basic Attacks, like Tracer,\nYour Pain, My Gain is a good alternative.\nFinal Strike is the standard Heroic Ability here, as it\nwill be very effective in most games. However, Unrelenting Strikes\nis a better choice if enemies cannot easily cancel it. In this scenario you should\npick Silent Killer at Level 20, since the Silence and cooldown Reduction\nprovided by it will be excellent in fights.\nBasic Attack Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attack Build, as the name suggests, focuses on Qhira's Basic Attacks.\nThis build is mostly focused on Qhira's dueling potential because it is not\nas effective as the other builds in teamfights. However, the extra damage from\nFinishing Touch and the healing from Siphoning Link\nare very oppressive in a duel. This build is better in Braxis Holdout\nand Dragon Shire, because controlling the objective in the solo lane\nis essential on those maps.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nQhira's ARAM Build takes advantage of constant team fights to quickly progress\nBlood Rage's infinite Quest by spreading its Bleeding effect with\nCarnage. Refresh Bleeding effects across the enemy team rather than\nfocusing on a single target, maximizing Qhira's sustained damage.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Qhira's Synergies and Counters",
+   "id": "qhiras-synergies-and-counters",
+   "text": "Qhira synergizes with\nQhira pairs very well with Healers that excel at supporting individual targets by\nempowering their damage or granting them large amounts of protection.\nFurthermore, Tanks with strong crowd control make it easier for her\nto reliably land her skillshots.\nQhira is countered by\nEvery Qhira Ability besides Blood Rage can be interrupted\nby crowd control or displacements\n( Unrelenting Strikes is only interrupted by stuns or silences).\nTherefore, she is countered by Heroes that can constantly knock her back or stun her.\nSince Carnage and Revolving Sweep\nare slow skillshots, it is extremely painful for her to face\nvery mobile ranged Heroes, like Tracer."
+  },
+  {
+   "title": "Qhira's Maps",
+   "id": "qhiras-maps",
+   "text": "Qhira's stronger maps\nQhira's average maps\nQhira's weaker maps\nNone\nQhira excels at holding the offlane and, later on, hitting\nenemy Heroes from an unexpected angle while flanking. Thus,\nMaps with lots of openings, such as Dragon Shire or Tomb of the Spider Queen\nare well suited for her while she is often predictable on enclosed Maps such\nas Towers of Doom."
+  },
+  {
+   "title": "Qhira's Tips and Tricks",
+   "id": "qhiras-tips-and-tricks",
+   "text": "Grappling Hook pierces through Minions and Mercenaries, which allows Qhira to hit her target from many different angles.\nGrappling Hook can be used on enemy Heroes or terrain while Qhira is spinning with Revolving Sweep, granting her an astounding amount of mobility.\nBlood Rage gets most value if activated after spreading Bleeding stacks on several enemy Heroes. Use it frequently to heal during the laning phase to prevent downtimes.\nBlood Rage is totally reapplied when Qhira deals damage to a Hero. Therefore, it is essential to prioritize hitting enemies that have a low remaining duration on the bleeding, either with Carnage or with Basic Attacks.\nRevolving Sweep can be used to avoid predictable damage, like a Pyroblast from Kael'thas.\nWhile spinning, Revolving Sweep grants Qhira protection against all damage and crowd control effects.\nFinal Strike has an extremely low cooldown for a Heroic Ability. It should be used to follow every allied crowd control if you are not in range for Revolving Sweep.\nAgainst Heroes without crowd control it is good to start a gank or a pickoff with Unrelenting Strikes, as the Stun can be used to guarantee a Revolving Sweep hit.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Qhira's Role in the Current Meta",
+   "id": "qhiras-role-in-the-current-meta",
+   "text": "Qhira is usually played as a Melee Assassin in the 4-man\ncapable to gank or as an Offlaner.\nWhile laning, her outstanding damage-over-time and self-sustain, most deriving\nfrom Blood Rage, allows her to soak Experience and pressure\nher opponents. As long as Grappling Hook is available, she is\nvery safe against enemy ganks and engages by simply using it against terrain and dashing to\nsafety.\nDespite being a strong duelist, Qhira's poor waveclear may make her\na weak choice for the solo lane on maps where Offlaners must rotate\nfrequently, such as Infernal Shrines and Towers of Doom.\nIn the early game, Qhira should try to reach Blood Rage's\nmilestone as soon as possible, to greatly increase her damage, sustain and stacking speed.\nQhira is good in skirmishes and also thrives at ganking, making her a\ngreat threat wherever she goes.\nDuring team fights, Qhira is most effective when fulfilling the role of an initiator or\na flanker. To do this successfully and with impact, she should look for enemies and engage them\nfrom an unexpected angle, rather than just charging at them head on."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "24 Aug. 2026 (talents page): Updated Talents and Builds after recent balance patch.\n24 Aug. 2026 (abilities page): Updated Abilities after recent balance patch.\n24 Aug. 2026 (this page): Guide updated after recent balance patch.\n02 Sep. 2025 (talents page): Builds and Talents updated to ensure meta relevance.\n02 Sep. 2025 (this page): Builds updated to ensure meta relevance.\n31 May 2025 (talents page): Builds and Talents updated to reflect current meta.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide updated to reflect current meta.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n26 Feb. 2021 (talents page): Updated Talent recommendations.\n26 Feb. 2021 (this page): Builds Updated.\n20 Jan. 2021 (abilities page): Abilities section updated.\n20 Jan. 2021 (this page): Guide update to ensure meta relevance.\n24 Aug. 2020 (talents page): Updated Talents and Builds after recent balance patch.\n24 Aug. 2020 (this page): Updated Builds after recent balance patch.\n30 Jul. 2020 (talents page): Updated Talents and Builds to reflect current meta.\n30 Jul. 2020 (this page): Updated Builds to reflect current meta.\n04 Jun. 2020 (talents page): Updated Unrelenting Strikes and Silent Killer's relevance in Builds and Talents page after balance patch.\n14 Apr. 2020 (talents page): Updated Talents and Builds to reflect current meta.\n14 Aug. 2019 (talents page): Updated Qhira's talent build description.\n09 Aug. 2019 (talents page): Added Talent discussions.\n08 Aug. 2019 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Qhira's Tips and Tricks",
+   "id": "qhiras-tips-and-tricks",
+   "text": "Grappling Hook pierces through Minions and Mercenaries, which allows Qhira to hit her target from many different angles.\nGrappling Hook can be used on enemy Heroes or terrain while Qhira is spinning with Revolving Sweep, granting her an astounding amount of mobility.\nBlood Rage gets most value if activated after spreading Bleeding stacks on several enemy Heroes. Use it frequently to heal during the laning phase to prevent downtimes.\nBlood Rage is totally reapplied when Qhira deals damage to a Hero. Therefore, it is essential to prioritize hitting enemies that have a low remaining duration on the bleeding, either with Carnage or with Basic Attacks.\nRevolving Sweep can be used to avoid predictable damage, like a Pyroblast from Kael'thas.\nWhile spinning, Revolving Sweep grants Qhira protection against all damage and crowd control effects.\nFinal Strike has an extremely low cooldown for a Heroic Ability. It should be used to follow every allied crowd control if you are not in range for Revolving Sweep.\nAgainst Heroes without crowd control it is good to start a gank or a pickoff with Unrelenting Strikes, as the Stun can be used to guarantee a Revolving Sweep hit."
+  },
+  {
+   "title": "Grappling Hook (Trait)",
+   "id": "grappling-hook-trait",
+   "text": "Grappling Hook\n(D)\nQhira\nCooldown: 20 seconds\nQhira fires a grappling hook that pulls her to terrain it contacts. If an enemy Hero is hit, they take 35 (+4% per level) damage and Qhira launches at them, kicking them for an additional 108 (+4% per level) damage.\nCan be used while Revolving Sweep is active.\nGrappling Hook is so crucial to Qhira's combat performance,\nit could very well be one of her Basic Abilities. The Trait comes with a relatively long cooldown and\nconsequently needs to be aimed with precision. If landed correctly against an enemy Hero,\nQhira launches herself towards the target and damages it noticeably. If landed against terrain,\nQhira pulls herself towards the point of impact, allowing her to either chase fleeing\ntargets down or escape a dangerous situation.\nIt is important to note that it can be used during Qhira's Revolving Sweep\nto guarantee an easy escape from a gank."
+  },
+  {
+   "title": "Carnage",
+   "id": "carnage",
+   "text": "Carnage\n(Q)\nQhira\nMana: 40\nCooldown: 6 seconds\nUnleash your sword in the target direction, continuously dealing 30 (+4% per level) damage to enemies caught in its path.\nCarnage comes with a low cooldown and Mana costs and should\nbe used whenever ready to enhance Qhira's damage during skirmishes and team fights.\nKeep in mind that Carnage pierces through enemies, allowing Qhira to hit several enemy Heroes\nat the same time dealing tremendous damage.\nThe amount of times that Carnage hits a target is based\non the distance between Qhira and them (doing maximum damage to a Hero within melee range of her).\nFor this reason, against distant targets, Carnage is mostly used to build stacks of Blood Rage\nmore quickly or to reapply it to a Hero with many stacks already."
+  },
+  {
+   "title": "Blood Rage",
+   "id": "blood-rage",
+   "text": "Blood Rage\n(W)\nQhira\nMana: 35\nCooldown: 7 seconds\nQhira deals 32 (+4% per level) damage and heals for 90 (+4% per level) Health per enemy Hero affected. Damage and healing is increased by 50% per each additional stack on that Hero.\nPassive: Basic Attack and Ability damage cause enemies to bleed for 28 (+4% per level) damage over 4 seconds. Stacks 5 times.\nQuest: Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by 0.2%.\nReward: After damaging Heroes with Blood Rage's bleed damage 150 times, Blood Rage's duration is increased by 2 seconds.\nBlood Rage's passive bleeding effect is Qhira's most important source\nof damage. Stacking the bleeding on several targets and activating this\nability at the right time is what makes Qhira a force to be reckoned with.\nIf activated after using other abilities, most importantly Carnage and\nRevolving Sweep, she can withstand vast amounts of damage\ndue to the powerful healing component of Blood Rage that grows with the number of enemy targets\ncurrently affected by the bleed.\nEven though the activation of Blood Rage deals relevant damage\nto marked enemies, it should not be used for that. It is better to wait until you have\nmany Heroes marked by it, receiving much increased healing.\nQhira has an infinite Quest tied to Blood Rage that progresses whenever\nan enemy is damaged by its passive bleeding effect. Each stack increases her bleed damage\nby 0.24%. After reaching her first milestone at 150 stacks, Blood Rage's bleed duration is\nincreased by 2 seconds.\nAs Qhira, it is crucial to reach this milestone as soon as possible, as it will not only\nallow her to gain stacks much faster, but will also make it considerably easier to reapply it to\na Hero that already has many bleed stacks.\nUnlike most damage over time effects\nin the game, Blood Rage will refresh both its damage and duration when reapplied.\nTherefore, it is more important to hit an already marked Hero with an Ability\nor Basic Attack every 4-6 seconds than to be constantly attacking them."
+  },
+  {
+   "title": "Revolving Sweep",
+   "id": "revolving-sweep",
+   "text": "Revolving Sweep\n(E)\nQhira\nMana: 70\nCooldown: 16 seconds\nAttach your sword on the first enemy Hero hit, dealing 96 (+4% per level) damage and Stunning them for 0.25 seconds. Once attached, Qhira becomes Immune to all effects, swinging around the target for 2.75 seconds and dealing 105 (+4% per level) damage to enemies between you and the target.\nRe-activate to send you to the target's location knocking them away, dealing 108 (+4% per level) damage and Stunning them for 0.75 seconds.\nRevolving Sweep is a flashy source of extra mobility.\nQhira attaches to the first enemy Hero hit and begins to spin around them. At any given time\nshe can cancel the spinning process and after doing so, the target will get tossed to the opposite\ndirection of Qhira. Thus, the ability can be used offensively to push an enemy target towards Qhira's teammates\nor defensively to bring some distance between her and the chosen target.\nDue to how dependent Qhira is on Revolving Sweep's invulnerability,\nit is preferable to use it on a large or immobile Hero, assuring it will hit."
+  },
+  {
+   "title": "Unrelenting Strikes",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nUnrelenting Strikes\n(R)\nQhira\nHeroic\nMana: 50\nCooldown: 60 seconds\nDeal 44 (+4% per level) damage to nearby enemies every 0.5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 160 (+4% per level) damage to nearby enemy Heroes and Stun them for 1.5 seconds.\nUnrelenting Strikes causes Qhira to spin furiously, damaging\nand eventually Stunning all enemies inside its radius. The initial circle is relatively small but\ncontinues to grow significantly. Once fully expanded, the Stun effect is applied, it is thus important\nto move and follow targets that Qhira wants to Stun constantly until the ability is fully cast."
+  },
+  {
+   "title": "Final Strike",
+   "id": "final-strike",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nFinal Strike\n(R)\nQhira\nHeroic\nMana: 45\nCooldown: 40 seconds\nAfter 1 second, deal 410 (+4% per level) damage to enemies in a line. This damage is increased by 25% against enemy Heroes who are below 50% Health.\nFinal Strike comes with a 1-second channeling time.\nOnce fully charged up, Qhira unleashes a long range attack in a straight line that hits\neverything inside its reach, damaging and causing them to Bleed. The fact that Final Strike's\ndamage is increased if enemies struck are below 50% health, makes it a formidable chasing tool\nand finishing move. This Heroic Ability should be used very frequently, since it comes with a very\nlow cooldown.\nFinal Strike can also be used to refresh Blood Rage on enemies before they\nfall below 50% health. In the late game, once the quest has\nat least 300 stacks, a Hero with maximum Blood Rage stacks will take more damage\nfrom its bleeding effect than from Final Strike."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "24 Aug. 2026: Updated Abilities after recent balance patch.\n31 May 2025: Guide reviewed.\n20 Jan. 2021: Abilities section updated.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Maximum Effort (Level 1) Qhira If Carnage damages the same enemy Hero 3 times it deals an additional 108 (+4% per level) damage and Slows by 25% for 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Fatal Wounds (Level 1) Qhira While at maximum stacks, Blood Rage's bleed deals 70% additional damage to enemy Heroes under 50% Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Finishing Touch (Level 1) Qhira Gain 20% Basic Attack damage. When Qhira Basic Attacks an enemy Hero below 50% Health it deals 20% additional damage, and she gains 35% Attack Speed for 3 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Upstage (Level 4) Qhira Damaging at least 2 Heroes with Blood Rage causes Qhira to Evade the next 4 Heroic Basic Attacks within 12 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Ensnaring Swing (Level 4) Qhira The primary target of Revolving Sweep is Slowed by 60% while Qhira is attached to them. Secondary targets hit by Revolving Sweep's swing are Slowed by 40% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Your Pain, My Gain (Level 4) Qhira Basic Attacking an enemy Hero causes Qhira to gain 10 Armor for 3 seconds. Stacks 3 times."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "The Thirst (Level 7) Qhira Carnage heals for 50% of the damage dealt to enemy Heroes. Anytime Carnage damages an enemy Hero, Qhira's next Basic Attack within 4 seconds against an enemy Hero deals 15% additional damage, stacking up to 10 times."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Healmonger (Level 7) Qhira If Blood Rage damages an enemy Hero below 50% Health, it heals for an additional 210 (+4% per level) Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Siphoning Link (Level 7) Qhira Damaging an enemy Hero with Revolving Sweep's initial impact or swing causes Qhira to regenerate 96 (+4% per level) Health over 4 seconds. Stacks up to 4 times. Passive: Basic Attacks heal for 20% of the damage dealt."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Unrelenting Strikes (Level 10) Qhira Mana: 50 Cooldown: 60 seconds Deal 44 (+4% per level) damage to nearby enemies every 0.5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 160 (+4% per level) damage to nearby enemy Heroes and Stun them for 1.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Final Strike (Level 10) Qhira Mana: 45 Cooldown: 40 seconds After 1 second, deal 410 (+4% per level) damage to enemies in a line. This damage is increased by 25% against enemy Heroes who are below 50% Health."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Chainsaw (Level 13) Qhira Carnage's cooldown recharges 100% faster while an enemy Hero has maximum Blood Rage stacks."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Pulsing Pain (Level 13) Qhira Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional 150 (+4% per level) damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "The Hunted (Level 13) Qhira Basic Attacking an enemy Hero increases your Basic Attack damage against that Hero by 25%. Stacks up to 4 times and lasts 4 seconds. Bonus is reset if a different Hero is attacked."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Booming Kick (Level 16) Qhira Increase the Stun duration of Revolving Sweep's re-activation by 0.25 seconds. Enemy Heroes around the primary target are also affected by Revolving Sweep's re-activation."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Lingering Ailment (Level 16) Qhira Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by 25 for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Swing Life Away (Level 16) Qhira Revolving Sweep's cooldown recharges 250% faster while Qhira is swinging around her target. She also gains 60 Spell Armor for 5 seconds after the re-activation impact."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Silent Killer (Level 20) Qhira Hitting enemy Heroes with Unrelenting Strikes Silences them for 0.5 seconds and reduces its cooldown by 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Unleashed Potential (Level 20) Qhira Increase the damage to enemy Heroes under 50% Health from 25% to 50%. If an enemy Hero dies within 1.5 seconds of being hit by Final Strike, then reset the cooldowns of Final Strike and all of Qhira's Basic Abilities."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Utility Belt (Level 20) Qhira Grappling Hook's cooldown is reset when hitting an enemy Hero with the initial impact of Revolving Sweep and recharges 900% faster if Qhira hasn't taken damage within the last 2 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "No Sanctuary (Level 20) Qhira Nearby enemy Heroes below 50% Health are revealed and you gain 20% Movement Speed while an enemy Hero is revealed by you in this way. Additionally, you deal 20% increased damage to these revealed enemies."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Qhira's Talent Build",
+   "id": "qhiras-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n✓\n✘︎\n?\n7\n?\n✓\n?\n10\n?\n✓\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n?\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Qhira's Talent Build Cheatsheet",
+   "id": "qhiras-talent-build-cheatsheet",
+   "text": "Heavy Bleeding Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nQhira's Heavy Bleeding Build focuses on Qhira's outstanding sustain damage potential.\nHer main goal should always be to spread the ticking bleeding damage onto several enemies\nat the same time.\nAt Level 4, Qhira can decide which talent to take depending on the situation she finds\nherself in. We usually recommend picking Upstage, but\nwhen you are against Heroes with fast Basic Attacks, like Tracer,\nYour Pain, My Gain is a good alternative.\nFinal Strike is the standard Heroic Ability here, as it\nwill be very effective in most games. However, Unrelenting Strikes\nis a better choice if enemies cannot easily cancel it. In this scenario you should\npick Silent Killer at Level 20, since the Silence and cooldown Reduction\nprovided by it will be excellent in fights.\nBasic Attack Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attack Build, as the name suggests, focuses on Qhira's Basic Attacks.\nThis build is mostly focused on Qhira's dueling potential because it is not\nas effective as the other builds in teamfights. However, the extra damage from\nFinishing Touch and the healing from Siphoning Link\nare very oppressive in a duel. This build is better in Braxis Holdout\nand Dragon Shire, because controlling the objective in the solo lane\nis essential on those maps.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nQhira's ARAM Build takes advantage of constant team fights to quickly progress\nBlood Rage's infinite Quest by spreading its Bleeding effect with\nCarnage. Refresh Bleeding effects across the enemy team rather than\nfocusing on a single target, maximizing Qhira's sustained damage."
+  },
+  {
+   "title": "Level 1 Talents for Qhira",
+   "id": "level-1",
+   "text": "✓\nMaximum Effort\n(Level 1)\nQhira\nIf Carnage damages the same enemy Hero 3 times it deals an additional 108 (+4% per level) damage and Slows by 25% for 2.5 seconds.\n?\nFatal Wounds\n(Level 1)\nQhira\nWhile at maximum stacks, Blood Rage's bleed deals 70% additional damage to enemy Heroes under 50% Health.\n?\nFinishing Touch\n(Level 1)\nQhira\nGain 20% Basic Attack damage. When Qhira Basic Attacks an enemy Hero below 50% Health it deals 20% additional damage, and she gains 35% Attack Speed for 3 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Maximum Effort will add a good source of Slow to help\nQhira to chase enemies or to hit her Revolving Sweep. It is\nan excellent option, especially when the enemy composition features low-mobility Heroes.\nFatal Wounds is a good Talent, as it considerably\nincreases Qhira's Bleed Damage in the early game.\nHowever, it does not multiply the extra damage provided by Blood Rage's\nstacks. Therefore, the Talent's extra damage will not make much of a difference in\nthe late game, when you have hundreds of stacks.\nFinishing Touch can be a good Talent when Qhira is the\nOfflaner of a composition, since the extra damage on\nBasic Attacks will be excellent during trades. However, it is only recommended\nto take this Talent if you need it to win your lane in Braxis Holdout and\nDragon Shire, because getting the point will give your team\na decent advantage."
+  },
+  {
+   "title": "Level 4 Talents for Qhira",
+   "id": "level-4",
+   "text": "✓\nUpstage\n(Level 4)\nQhira\nDamaging at least 2 Heroes with Blood Rage causes Qhira to Evade the next 4 Heroic Basic Attacks within 12 seconds.\n✘︎\nEnsnaring Swing\n(Level 4)\nQhira\nThe primary target of Revolving Sweep is Slowed by 60% while Qhira is attached to them. Secondary targets hit by Revolving Sweep's swing are Slowed by 40% for 3 seconds.\n?\nYour Pain, My Gain\n(Level 4)\nQhira\nBasic Attacking an enemy Hero causes Qhira to gain 10 Armor for 3 seconds. Stacks 3 times."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Upstage grants Qhira evasion against Basic Attacks\nwhich is great even against teams that lack traditional Basic Attackers, since most Tanks\nand Bruisers hit quite hard innately.\nEnsnaring Swing is not recommended because of\nRevolving Sweep's long cooldown. The benefit this Talent provides\ndoes not justify neglecting the additional protection granted by the other two Talents\nat this tier.\nYour Pain, My Gain provides protection against all\nsorts of damage, thanks to the stackable Armor it creates. Thus, we consider it a\nrelatively safe option in most games as long as the enemy team is not too stacked\nwith crowd control, especially Blinds. This will also be a good choice against\nTracer, Genji, or Tychus, since these Heroes\ncan abuse their fast Attack Speed and remove all your Evasion charges from Upstage."
+  },
+  {
+   "title": "Level 7 Talents for Qhira",
+   "id": "level-7",
+   "text": "?\nThe Thirst\n(Level 7)\nQhira\nCarnage heals for 50% of the damage dealt to enemy Heroes. Anytime Carnage damages an enemy Hero, Qhira's next Basic Attack within 4 seconds against an enemy Hero deals 15% additional damage, stacking up to 10 times.\n✓\nHealmonger\n(Level 7)\nQhira\nIf Blood Rage damages an enemy Hero below 50% Health, it heals for an additional 210 (+4% per level) Health.\n?\nSiphoning Link\n(Level 7)\nQhira\nDamaging an enemy Hero with Revolving Sweep's initial impact or swing causes Qhira to regenerate 96 (+4% per level) Health over 4 seconds. Stacks up to 4 times.\nPassive: Basic Attacks heal for 20% of the damage dealt."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "The Thirst is excellent when paired with Maximum Effort,\nsince it also heals from the bonus damage provided by it. We only recommend getting\nThe Thirst together with other Carnage Talents.\nHealmonger's additional healing is outstanding and noticeable\nenough to make it the default Talent. This Talent is different from Blood Rage in that it will\nheal the same amount if the target has 1 or 5 marks. Sometimes it will be useful\nto activate Blood Rage instantly after marking a low target,\nin order to survive.\nSiphoning Link may not heal much in a teamfight, but\nit is the only Talent at this tier that works in PvE. It can\nbe great in a offlane, because it enables Qhira to\nsustain herself before, during, and after a duel."
+  },
+  {
+   "title": "Level 10 Talents for Qhira",
+   "id": "level-10",
+   "text": "?\nUnrelenting Strikes\n(Level 10)\nQhira\nMana: 50\nCooldown: 60 seconds\nDeal 44 (+4% per level) damage to nearby enemies every 0.5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 160 (+4% per level) damage to nearby enemy Heroes and Stun them for 1.5 seconds.\n✓\nFinal Strike\n(Level 10)\nQhira\nMana: 45\nCooldown: 40 seconds\nAfter 1 second, deal 410 (+4% per level) damage to enemies in a line. This damage is increased by 25% against enemy Heroes who are below 50% Health."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nUnrelenting Strikes has great initiation potential, however,\nit struggles against team compositions that feature plenty of crowd control.\nStuns, Silences,\nand Roots counter Qhira while spinning and charging up and usually allow enemies to\njust run away. Thus, we label Unrelenting Strikes situational at best, and only consider\npicking it if the enemy team is extremely low on any form of\nhard crowd control. However,\nit can be an option if you have Uther with Divine Shield\nin your team, as both Heroic Abilities can be used together, shredding through enemies.\nFinal Strike is a strong finisher which can be used in most\nteamfights, sometimes even twice, thanks to its very low cooldown. It works very well\nwith Fatal Wounds at Level 1, as both Talents increase\nQhira's damage against injured foes, allowing her to hunt and execute fleeing targets."
+  },
+  {
+   "title": "Level 13 Talents for Qhira",
+   "id": "level-13",
+   "text": "✓\nChainsaw\n(Level 13)\nQhira\nCarnage's cooldown recharges 100% faster while an enemy Hero has maximum Blood Rage stacks.\n?\nPulsing Pain\n(Level 13)\nQhira\nEach additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional 150 (+4% per level) damage.\n?\nThe Hunted\n(Level 13)\nQhira\nBasic Attacking an enemy Hero increases your Basic Attack damage against that Hero by 25%. Stacks up to 4 times and lasts 4 seconds. Bonus is reset if a different Hero is attacked."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Chainsaw lowers Carnage's\nalready low cooldown even more, which is great to maintain full Bleed Stacks on multiple\nenemies at the same time.\nPulsing Pain is a great alternative choice to\nThe Hunted, especially if the enemy team features\nBlinds and other form of crowd control, which makes Basic Attacking consecutively\nquite harder.\nThe Hunted's time window is long enough to\nallow Qhira to stack the damage up nicely. Furthermore, the additional damage\nis noticeable enough to justify taking this Talent. This Talent will be exceptional\nwhen solo laning in Braxis Holdout\nor Dragon Shire, since Qhira can deal double damage with her Basic Attacks."
+  },
+  {
+   "title": "Level 16 Talents for Qhira",
+   "id": "level-16",
+   "text": "✓\nBooming Kick\n(Level 16)\nQhira\nIncrease the Stun duration of Revolving Sweep's re-activation by 0.25 seconds. Enemy Heroes around the primary target are also affected by Revolving Sweep's re-activation.\n?\nLingering Ailment\n(Level 16)\nQhira\nEnemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by 25 for 4 seconds.\n?\nSwing Life Away\n(Level 16)\nQhira\nRevolving Sweep's cooldown recharges 250% faster while Qhira is swinging around her target. She also gains 60 Spell Armor for 5 seconds after the re-activation impact."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Booming Kick adds additional Stun duration and potential\nStun targets to Qhira's Revolving Sweep, which can be a big\nplaymaker.\nLingering Ailment provides one of the highest values of\nArmor reduction in the game, and its effect lasts for a long duration.\nThe reduction applies to the initial hit of Revolving Sweep,\nsecondary enemies hit during Qhira's rotation, and also when she connects with\nGrappling Hook. Because of this, it can be effective to wait before reactivating Revolving Sweep, allowing\nthe Armor reduction to affect more enemies. This Talent is highly versatile, as it can be\nused to quickly burst down enemies or greatly increase\nBlood Rage's sustained damage.\nSwing Life Away helps fight one of Revolving Sweep's\nbiggest downsides, which is its long cooldown. Furthermore, it adds much welcome\ntankiness against Spell Damage to Qhira's kit. It is a good Talent to get against\nMages and similar, but if you are not getting\nfocused, Booming Kick might be a better choice."
+  },
+  {
+   "title": "Level 20 Talents for Qhira",
+   "id": "level-20",
+   "text": "?\nSilent Killer\n(Level 20)\nQhira\nHitting enemy Heroes with Unrelenting Strikes Silences them for 0.5 seconds and reduces its cooldown by 3 seconds.\n?\nUnleashed Potential\n(Level 20)\nQhira\nIncrease the damage to enemy Heroes under 50% Health from 25% to 50%.\nIf an enemy Hero dies within 1.5 seconds of being hit by Final Strike, then reset the cooldowns of Final Strike and all of Qhira's Basic Abilities.\n✓\nUtility Belt\n(Level 20)\nQhira\nGrappling Hook's cooldown is reset when hitting an enemy Hero with the initial impact of Revolving Sweep and recharges 900% faster if Qhira hasn't taken damage within the last 2 seconds.\n?\nNo Sanctuary\n(Level 20)\nQhira\nNearby enemy Heroes below 50% Health are revealed and you gain 20% Movement Speed while an enemy Hero is revealed by you in this way.\nAdditionally, you deal 20% increased damage to these revealed enemies."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Silent Killer can cover Unrelenting Strikes's\nmain weakness, which is being canceled by crowd control.\nUse it over the enemy that can cancel you, so they will get Silenced for the whole duration\nwithout being able to react. The extra cooldown reduction provided by it is very noticeable,\nand should not be ignored.\nUnleashed Potential can single-handedly decide the\noutcome of a teamfight if Qhira manages to successfully get a reset on Final Strike.\nThe resulting damage and cooldown reset on all her Abilities (excluding her Trait) is devastating\nto the enemy team.\nUtility Belt is a great talent for Qhira as it\naddresses her main weaknesses: engaging effectively and leaving the\nbattlefield safely. This talent allows you to initiate a fight with\nGrappling Hook and, after hitting the target with\nRevolving Sweep, you can use\nGrappling Hook again to escape.\nNo Sanctuary is a Talent whose utility, bonus Movement Speed,\nand damage, should not be underestimated. It is slightly more reliable than Unleashed Potential,\nsince it will be useful in every fight. Additionally, friendly reveal effects, such as\nTracer Rounds, can increase Qhira's damage and Movement Speed to these\nrevealed targets."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "24 Aug. 2026: Updated Talents and Builds after recent balance patch.\n02 Sep. 2025: Builds and Talents updated to ensure meta relevance.\n31 May 2025: Builds and Talents updated to reflect current meta.\n26 Mar. 2021: Updated Talent recommendations.\n26 Feb. 2021: Updated Talent recommendations.\n24 Aug. 2020: Updated Talents and Builds after recent balance patch.\n30 Jul. 2020: Updated Talents and Builds to reflect current meta.\n04 Jun. 2020: Updated Unrelenting Strikes and Silent Killer's relevance in Builds and Talents page after balance patch.\n14 Apr. 2020: Updated Talents and Builds to reflect current meta.\n14 Aug. 2019: Updated Qhira's talent build description.\n09 Aug. 2019: Added Talent discussions.\nShow more\nShow less"
+  }
+ ]
+}

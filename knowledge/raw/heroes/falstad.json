@@ -1,0 +1,270 @@
+{
+ "slug": "falstad",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/falstad-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/falstad-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/falstad-talents"
+ },
+ "guide": [
+  {
+   "title": "Falstad's Overview",
+   "id": "falstads-overview",
+   "text": "Falstad is a versatile and flexible Ranged Assassin. His strong\npoints are his solid single-target damage per second,\nextreme on-demand area of effect\nranged burst damage, and global presence.\nHowever, his relative fragility makes him a\nhigh-priority target for enemy Heroes."
+  },
+  {
+   "title": "Falstad's Strengths and Weaknesses",
+   "id": "falstads-strengths-and-weaknesses",
+   "text": "Strengths\nGood waveclear\nGlobal thanks to Flight\nAccess to Mighty Gust\nWeaknesses\nExtremely dependent on good positioning\nMediocre damage output during the early game\nVulnerable to crowd control"
+  },
+  {
+   "title": "Falstad's Talent Build Cheatsheet",
+   "id": "falstads-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's Basic Attacks Build provides a fair amount of sustain damage\non a single target thanks to multiple Talents that improve your damage via Basic Attacks:\nFrequent Flyer at Level 1,\nSecret Weapon at Level 7,\nand Sustained Winds at Level 13.\nAs this Build gives you access to percent-based damage,\nit is great for pressuring and/or taking down the enemy frontline,\neven if they have access to Armor effects.\nGiven it does not need to stack on enemy Heroes,\nthis Build is the go-to when you are playing on a big Map\n(for example Sky Temple) and your strategy\nrevolves around split-pushing\nto pressure the enemy team.\nHammerang Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's Hammerang Build provides a high amount of poke damage,\nwhich can be increased by pairing him with a Mage\nwho will get value from BOOMerang at Level 7.\nGiven it needs to stack on enemy Heroes, this Build does better on 2-lane Maps\n(such as Braxis Holdout), where it will be easier to stack\nGathering Storm.\nLightning Rod Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's Lightning Rod Build offers a high amount of damage\non a single target by empowering Lightning Rod,\nallowing him to trade extremely well with\nHeroes who gank or dive alone.\nWe find this Build more appropriate when playing against dive Heroes\nbecause it greatly increases your dueling power, assuming you manage\nto stack Dishonorable Discharge at Level 1 enough to unlock\nthe second Reward.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's ARAM Build provides a high amount of poke damage,\nwhich can be increased by pairing him with a Mage\nwho will get value from BOOMerang at Level 7.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Falstad's Synergies and Counters",
+   "id": "falstads-synergies-and-counters",
+   "text": "Falstad synergizes with\nFalstad is at his best when something stands between him and his enemies.\nLarge, healthy Tanks are particularly desirable as they\ndraw attention away from Falstad, and often provide their own form of\ncrowd control for potential\nfollow-ups. Otherwise, anything that can protect\nFalstad is also desirable. Shielding effects are particularly impactful due to\nhis limited Health pool.\nFalstad is countered by\nAs a frail Ranged Assassin, Falstad tends to\nnaturally struggle against high-damage Heroes who have the ability to\neffectively gap close past his\nBarrel Roll's range or otherwise sneak up on him. With\nlittle in the way of self-peeling, see to stay near your\nHealer when possible against such Heroes, and make no\nbold attempts at outplaying your opponents."
+  },
+  {
+   "title": "Falstad's Maps",
+   "id": "falstads-maps",
+   "text": "Falstad's stronger maps\nFalstad's average maps\nFalstad's weaker maps\nFlight makes Falstad particularly effective on\nlarger Maps that feature multiple Objectives that must be contested, as it\nallows him to effectively soak and\npush without giving up potential team fighting presence,\nas would other Heroes.\nMighty Gust also\nmakes him potent on Maps that feature Bosses, as he makes\nit particularly difficult for opponents to safely try and claim or contest due\nto the fear of being knocked away.\nOverall, Falstad's versatility makes him a viable pick almost anywhere,\nbut he gives less value on small Maps where it is hard to make good use\nof its global."
+  },
+  {
+   "title": "Falstad's Tips and Tricks",
+   "id": "falstads-tips-and-tricks",
+   "text": "Avoid casting Lightning Rod on enemy Heroes that are barely in range and can easily step back to break it.\nLimit your offensive use of Barrel Roll because, due to being your only mobility tool, having it on cooldown leaves you vulnerable.\nHinterland Blast should ideally be used on enemy Heroes under crowd control to ensure it hits.\nUse Mighty Gust to disengage a losing battle, to split the opposing forces in half, to knock your enemies into your team for blocking their retreat, or secure Capture Points.\nFlight can be used for ganking enemy Heroes or quickly joining allied Heroes when you split-push or soak.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Falstad's Role in the Current Meta",
+   "id": "falstads-role-in-the-current-meta",
+   "text": "Falstad is preferred over other Ranged Assassin\nwhen a given team composition needs a global\nto handle side lanes, especially if the rest of the team can poke\nthe enemy team that is trying to capture the Objective while Falstad is\nsoaking and therefore slowly giving an Experience advantage\nto his whole team."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Apr. 2026 (talents page): Guide reviewed for the latest Balance Update.\n22 Apr. 2026 (abilities page): Guide reviewed for the latest Balance Update.\n22 Apr. 2026 (this page): Guide reviewed for the latest Balance Update.\n17 Feb. 2026 (talents page): Guide updated for the latest Balance Update.\n17 Feb. 2026 (abilities page): Guide updated for the latest Balance Update.\n17 Feb. 2026 (this page): Guide updated for the latest Balance Update.\n23 Dec. 2025 (talents page): Guide reviewed.\n23 Dec. 2025 (abilities page): Guide reviewed.\n23 Dec. 2025 (this page): Guide reviewed.\n16 Dec. 2025 (talents page): Guide updated for the latest Balance Update.\n16 Dec. 2025 (abilities page): Guide updated for the latest Balance Update.\n16 Dec. 2025 (this page): Guide updated for the latest Balance Update.\n07 Dec. 2025 (talents page): Guide updated for the latest Balance Update.\n07 Dec. 2025 (abilities page): Guide updated for the latest Balance Update.\n07 Dec. 2025 (this page): Guide updated for the latest Balance Update.\n31 Jul. 2025 (talents page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n06 Jul. 2024 (talents page): Epic Mount's Description improved.\n06 Jul. 2024 (abilities page): Flight's Description improved.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n04 Feb. 2022 (talents page): Builds rearranged.\n04 Feb. 2022 (this page): Builds rearranged.\n07 Dec. 2021 (talents page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (abilities page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (this page): Guide reviewed for the latest Major Patch.\n24 Nov. 2021 (talents page): Builds updated.\n24 Nov. 2021 (this page): Builds updated.\n22 Jul. 2021 (talents page): Guide reviewed for the latest Balance Update.\n22 Jul. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n22 Jul. 2021 (this page): Guide reviewed for the latest Balance Update.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n04 Mar. 2021 (talents page): Guide reviewed for the latest Balance Update.\n04 Mar. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n04 Mar. 2021 (this page): Guide reviewed for the latest Balance Update.\n25 Feb. 2021 (talents page): New layout.\n30 Nov. 2020 (talents page): Talent Descriptions fixed.\n05 Nov. 2020 (talents page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (this page): Guide reviewed for the latest Balance Update.\n20 Sep. 2020 (talents page): Builds and Talent discussions updated.\n20 Sep. 2020 (abilities page): Minor fixes.\n20 Sep. 2020 (this page): Builds updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n19 Jul. 2020 (talents page): Talents reviewed and updated; AA build added.\n05 Apr. 2020 (talents page): Mage build recommendation added.\n13 Dec. 2019 (this page): Added a note about current Anomaly.\n12 Oct. 2019 (talents page): Talents section reviewed and updated.\n12 Oct. 2019 (abilities page): Abilities section reviewed.\n12 Oct. 2019 (this page): Guide updated.\n03 May 2017 (this page): Guide updated and moved to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Falstad's Tips and Tricks",
+   "id": "falstads-tips-and-tricks",
+   "text": "Avoid casting Lightning Rod on enemy Heroes that are barely in range and can easily step back to break it.\nLimit your offensive use of Barrel Roll because, due to being your only mobility tool, having it on cooldown leaves you vulnerable.\nHinterland Blast should ideally be used on enemy Heroes under crowd control to ensure it hits.\nUse Mighty Gust to disengage a losing battle, to split the opposing forces in half, to knock your enemies into your team for blocking their retreat, or secure Capture Points.\nFlight can be used for ganking enemy Heroes or quickly joining allied Heroes when you split-push or soak."
+  },
+  {
+   "title": "Hammerang",
+   "id": "hammerang",
+   "text": "Hammerang\n(Q)\nFalstad\nMana: 60\nCooldown: 10 seconds\nThrow out a Hammer that returns to Falstad, dealing 80 (+4% per level) damage and Slowing enemies hit by 25% for 2 seconds. Reactive to explode the Hammer, dealing 95 (+4% per level) damage to nearby enemies.\nHammerang is a Basic Ability that deals a good amount of damage from the distance,\nhowever, it requires good aim and timing to be used at its maximum potential,\nelse you will end up doing less damage\nthan what is theoretically possible.\nThe Slowing effect is quite useful to help you hit\nenemy Heroes with Basic Attacks, to keep them within Lightning Rod range,\nor to help your team land skillshot-based Abilities.\nWhile the projectile is flying, you can cast it again to make it explode\nand deal damage to enemies in a small area around it. The projectile still comes back after you make it explode.\nYou should try to hit enemies with the projectile that is going forward, with the explosion,\nand then with the projectile that is coming back.\nWhile in lane, Hammerang can damage an entire wave of Minions as they are\nwalking in a straight line, before engaging your own Minions.\nThat said, do not expose too much in an attempt to get maximum value out of this\nbecause staying alive is more important than maximizing your damage on Minions."
+  },
+  {
+   "title": "Lightning Rod",
+   "id": "lightning-rod",
+   "text": "Lightning Rod\n(W)\nFalstad\nMana: 60\nCooldown: 12 seconds\nDeal 107 (+4% per level) damage to an enemy, and an additional 75 (+4% per level) damage every 0.9 seconds for 4 seconds while close to the target. Deals 100% increased damage to Minions and Mercenaries.\nLightning Rod is one of the most damaging single-target Basic Abilities in the game,\nespecially when empowered with multiple Talents. The instant damage happens when you successfully cast it on a target.\nThe damage over time happens every 0.9 seconds, for a total of 4 strikes over 3.75 seconds while they are in range.\nAlthough it cannot miss, its effect will be ended early if your target moves\nout of its range. It is therefore imperative that you do try and either select\ntargets that are unable to get away from you (such as one Slowed by\nHammerang or otherwise under the effects of\ncrowd control), or that are currently fighting you or another player.\nBarrel Roll can be used to keep up with a target that is trying\nto escape, though this is seldom recommended, as it is dangerous to use your\nmain escape move offensively.\nDue to its restrictive cooldown and relatively\nhigh Mana cost, Lightning Rod should be used sparingly if you are uncertain that\nit will last for its full duration.\nThanks to its bonus damage on Mercenaries, Lightning Rod\nis also an effective way of claiming Mercenary Camps.\nEven if it does bonus damage to Minions,\nyou should avoid using Lightning Rod\non them—except for Melee Minions in some circumstances\nand Catapults—because it costs too much Mana\nand ends up killing them before the effect ends,\nbasically wasting damage and therefore Mana in the process."
+  },
+  {
+   "title": "Barrel Roll",
+   "id": "barrel-roll",
+   "text": "Barrel Roll\n(E)\nFalstad\nMana: 70\nCooldown: 13 seconds\nDashes forward and grants a 171 (+4% per level) point Shield for 3 seconds.\nBarrel Roll is a Basic Ability that can be used to quickly reposition yourself\nand get more value out of your kit in different ways:\nto deal more damage with Basic Attacks;\nto keep enemy Heroes within Lightning Rod range;\nto dodge enemy skillshot-based Abilities;\nto secure a kill when you can safely do so;\nto escape through impassable terrain."
+  },
+  {
+   "title": "Hinterland Blast",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nHinterland Blast\n(R)\nFalstad\nHeroic\nMana: 80\nCooldown: 120 seconds\nAfter 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 30 seconds for every enemy Hero hit.\nHinterland Blast deals a huge amount of damage to enemies hit by its long\nlightning ray after a short delay. The increased scaling makes it slightly\nmore powerful in the late game.\nTo negate its weakness of being delayed as a compensation for its power,\nwe recommended that you use Hinterland Blast\nalong with some form of reliable crowd control.\nWhile it can be used to hit multiple Heroes at the same time and doing so will reduce\nits cooldown based on their quantity, do not hesitate to cast\nHinterland Blast to take down a single enemy Hero\nif that action would lead to winning the next Objective and/or\ntaking down enemy Structures immediately after."
+  },
+  {
+   "title": "Mighty Gust",
+   "id": "mighty-gust",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMighty Gust\n(R)\nFalstad\nHeroic\nMana: 70\nCooldown: 60 seconds\nPush enemies away, and Slow them by 40%, decaying over 4 seconds.\nAlthough it deals no damage, Mighty Gust has some unique applications. The\nAbility's unordinarily long knockback effect can be used to completely disengage from\nunfavorable fights, forcibly move foes away\nfrom Objectives when appropriate, or otherwise split\nbackline Heroes from their frontline. Using Mighty Gust\nagainst a foe that is near any kind of path blocker will cause the target to\nbecome stuck against this blocker for the Ability's duration,\ndazing them for the duration. Be careful to not\nknock your opponents away from\nyour teammates when you may actually be close to getting a kill.\nOne of the most useful and aggressive application of Mighty Gust involves\nusing Flight to position yourself behind one or multiple\nopponents to then knock them towards your teammates. Although this tactic often\nleaves you open to counterattacks, Barrel Roll can be used to\nreposition yourself rather safely. This tactic is particularly useful against\nescaping opponents as they may be unable to retaliate against you. Be sure to\ninform your teammates of your intent to use such a strategy by shift+clicking\nMighty Gust and then pinging your intended Flight destination.\nThis will make coordinating around the Ability much easier."
+  },
+  {
+   "title": "Tailwind",
+   "id": "tailwind",
+   "text": "Tailwind\n(D)\nFalstad\nCooldown: 5 seconds\nGain 15% increased Movement Speed after not taking damage for 5 seconds.\nTailwind partly makes up for the fact that Falstad does not have a regular\nMount. Although he is still slower than other mounted Heroes while its effect is\nactive, he gets to benefit from the Movement Speed increase while in combat for\nas long as he does not take damage. This helps with positioning for his\nAbilities, as well as kiting Heroes that do not have a\nranged Ability or attack to kill Tailwind's effect. It should be noted that\ndamage from non-Heroes will also cancel Tailwind, making it imperative to avoid\nbeing within the attack range of Minions and Structures while traveling around."
+  },
+  {
+   "title": "Flight",
+   "id": "flight",
+   "text": "Flight\n(Z)\nFalstad\nCooldown: 75 seconds\nInstead of mounting, Falstad can fly a great distance over terrain.\nFlight is Falstad's defining Ability, and the main reason why he does not\nhave access to a regular Mount. Having the ability to very quickly move to\nnearly any point of interest on the battlefield allows Falstad players to very\neffectively gank, rotate, defend, or attack positions, and escape\nfrom Heroes who do not have interrupts for it.\nUsing Flight properly is a hallmark of strong Falstad players.\nA special note should be made with regards to using Flight for soaking\nand split-pushing purposes. In practice, Flight's extensive range\nallows you to play in a way that is uncommon by willingly\nbeing late to Objectives to instead keep on gathering\nExperience for your team to become more powerful than that of your opponents.\nDoing so effectively puts your opponents in a delicate situation: they find\nthemselves having to dedicate someone to stopping you, at which point\nyou can simply Flight away to leave them stranded\nand create a numerical advantage elsewhere. If they decide to leave you\nto do your own thing, you can secure an important Experience lead,\ngranted your team plays defensively enough to avoid casualties. In essence,\nFlight forces your opponents to react to your strategy, which is a sure-fire\nway of capitalizing on their communication (or lack thereof).\nThe fact that you become Unstoppable during Flight\ncomes in handy to counter specific Abilities that affect the target\nwith a powerful crowd control effect\n(excluding Time Stop) after a delay\n(notably Temporal Loop by Chromie)."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Apr. 2026: Guide reviewed for the latest Balance Update.\n17 Feb. 2026: Guide updated for the latest Balance Update.\n23 Dec. 2025: Guide reviewed.\n16 Dec. 2025: Guide updated for the latest Balance Update.\n07 Dec. 2025: Guide updated for the latest Balance Update.\n31 Jul. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n06 Jul. 2024: Flight's Description improved.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n22 Jul. 2021: Guide reviewed for the latest Balance Update.\n17 May 2021: Guide reviewed for the latest Patch.\n04 Mar. 2021: Guide reviewed for the latest Balance Update.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n20 Sep. 2020: Minor fixes.\n12 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Gathering Storm (Level 1) Falstad Quest: Hit enemy Heroes with Hammerang. Restore 6 Mana for each Hero hit. Upon dying, Lose 8 stacks. Reward: After hitting 30 Heroes, Hammerang permanently deals 30% more damage. Reward: After hitting 80 Heroes, Hammerang permanently deals an additional 50% damage. Mythic Reward: After hitting 150 Heroes, Hammerang permanently deals an additional 70% damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Dishonorable Discharge (Level 1) Falstad Quest: Each Lightning Rod strike upon a Hero after the 3rd generates 1 stack. If a Hero dies under its effect, generate 2 stacks. Reward: After 20 stacks, its damage is increased by 30%. Reward: After 45 stacks, its cooldown is reduced by 2 seconds and its damage is increased by an additional 75%. Mythic Reward: After 75 stacks, its number of strikes is increased by 2 and the final strike Stuns for 1.25 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Frequent Flyer (Level 1) Falstad Cooldown: 60 seconds Activate Frequent Flyer to gain 25% Attack Speed and Tailwind for 4 seconds. Quest: Minion kills grant 1 stack. Hero Takedowns grant 5.0 stacks. Reward: After 60 stacks, gain 20 Attack Damage. Reward: After 150 stacks, gain 50 additional Attack Damage. Mythic Reward: After 300 stacks, gain 125 additional Attack Damage."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Static Shield (Level 4) Falstad Lightning Rod strikes grant a Shield equal to 4% of Falstad's maximum Health, up to 28%, for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Updraft (Level 4) Falstad Increases Barrel Roll's range by 40% and Shield amount by 70%, and its Shield now lasts indefinitely."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hammer Gains (Level 4) Falstad Basic Attacks heal for 20% of the damage dealt to the primary target."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Secret Weapon (Level 7) Falstad Increases Hammerang's range by 30% and Basic Attacks deal 75% bonus damage while Hammerang is in flight."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "BOOMerang (Level 7) Falstad Hammerang's explosion deals 100% additional damage, and hitting enemy Heroes reduces their Spell Armor by 15 for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Thunderstrikes (Level 7) Falstad Lightning Rod deals 25% more damage each subsequent strike."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Hinterland Blast (Level 10) Falstad Mana: 80 Cooldown: 120 seconds After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 30 seconds for every enemy Hero hit."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Mighty Gust (Level 10) Falstad Mana: 70 Cooldown: 60 seconds Push enemies away, and Slow them by 40%, decaying over 4 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Charged Up (Level 13) Falstad Increases Lightning Rod range by 25%. Hero Takedowns reset Lightning Rod's cooldown."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Flow Rider (Level 13) Falstad While Tailwind is active, Falstad's Basic Abilities recharge 100% faster."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Sustained Winds (Level 13) Falstad Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health, increased to 2% while Tailwind is active."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Crippling Hammer (Level 16) Falstad Increase Hammerang's Slow from 25% to 50%, and Hammerang's explosion also Slows."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Aerie Gusts (Level 16) Falstad Reduces the activation time for Tailwind from 5 to 3 seconds, and increases the Movement Speed bonus from 15% to 25%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Afterburner (Level 16) Falstad Barrel Roll increases Movement Speed by 60%, decaying over 3 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Call of the Wildhammer (Level 20) Falstad Hinterland Blast has double the range and deals 25% more damage."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Wind Tunnel (Level 20) Falstad Mighty Gust creates a wind tunnel for 4 seconds. Enemies caught in the tunnel will periodically be pushed back."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Nexus Frenzy (Level 20) Falstad Increases Attack Speed by 20% and Attack Range by 1.1."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Epic Mount (Level 20) Falstad Reduce the cooldown of Flight by 50 seconds, reduce the cast time before flying to 0.5 seconds, and increase the speed by 50%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Falstad's Talent Build",
+   "id": "falstads-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n?\n?\n✓\n7\n✓\n?\n?\n10\n?\n✓\n13\n?\n?\n✓\n16\n?\n✓\n?\n20\n?\n✓\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Falstad's Talent Build Cheatsheet",
+   "id": "falstads-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's Basic Attacks Build provides a fair amount of sustain damage\non a single target thanks to multiple Talents that improve your damage via Basic Attacks:\nFrequent Flyer at Level 1,\nSecret Weapon at Level 7,\nand Sustained Winds at Level 13.\nAs this Build gives you access to percent-based damage,\nit is great for pressuring and/or taking down the enemy frontline,\neven if they have access to Armor effects.\nGiven it does not need to stack on enemy Heroes,\nthis Build is the go-to when you are playing on a big Map\n(for example Sky Temple) and your strategy\nrevolves around split-pushing\nto pressure the enemy team.\nHammerang Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's Hammerang Build provides a high amount of poke damage,\nwhich can be increased by pairing him with a Mage\nwho will get value from BOOMerang at Level 7.\nGiven it needs to stack on enemy Heroes, this Build does better on 2-lane Maps\n(such as Braxis Holdout), where it will be easier to stack\nGathering Storm.\nLightning Rod Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's Lightning Rod Build offers a high amount of damage\non a single target by empowering Lightning Rod,\nallowing him to trade extremely well with\nHeroes who gank or dive alone.\nWe find this Build more appropriate when playing against dive Heroes\nbecause it greatly increases your dueling power, assuming you manage\nto stack Dishonorable Discharge at Level 1 enough to unlock\nthe second Reward.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nFalstad's ARAM Build provides a high amount of poke damage,\nwhich can be increased by pairing him with a Mage\nwho will get value from BOOMerang at Level 7."
+  },
+  {
+   "title": "Level 1 Talents for Falstad",
+   "id": "level-1",
+   "text": "?\nGathering Storm\n(Level 1)\nFalstad\nQuest: Hit enemy Heroes with Hammerang. Restore 6 Mana for each Hero hit. Upon dying, Lose 8 stacks.\nReward: After hitting 30 Heroes, Hammerang permanently deals 30% more damage.\nReward: After hitting 80 Heroes, Hammerang permanently deals an additional 50% damage.\nMythic Reward: After hitting 150 Heroes, Hammerang permanently deals an additional 70% damage.\nGathering Storm is a good Talent that empowers\nHammerang when hitting enemy Heroes with it.\nAfter 30 stacks, its damage is increased by 30%.\nAfter 80 stacks, its damage is increased by 50%.\nAfter 150 stacks, its damage is increased by 70%.\nYou also restore 6 Mana for each Hero hit.\nUpon dying, you lose 8 stacks but you keep any Quest Reward unlocked so far.\nWe find this Talent less valuable on 3-lane Maps because enemy Heroes\nwill tend to split and you will likely have to cover side lanes too.\nUnlocking the Pinnacle Reward is great but it may not always\nbe possible because it requires a lot of stacks.\nYou should pair this Talent with Flow Rider at Level 13\nfor being able to cast Hammerang more often\nand therefore gain more stacks and get more value from all the stacks\nyou have gained so far.\n?\nDishonorable Discharge\n(Level 1)\nFalstad\nQuest: Each Lightning Rod strike upon a Hero after the 3rd generates 1 stack. If a Hero dies under its effect, generate 2 stacks.\nReward: After 20 stacks, its damage is increased by 30%.\nReward: After 45 stacks, its cooldown is reduced by 2 seconds and its damage is increased by an additional 75%.\nMythic Reward: After 75 stacks, its number of strikes is increased by 2 and the final strike Stuns for 1.25 seconds.\nDishonorable Discharge is a good Talent that empowers\nLightning Rod when hitting enemy Heroes with it.\nYou gain 1 stack every 3 strikes on enemy Heroes.\nAfter 20 stacks, its damage is permanently increased by 30%.\nAfter 45 stacks, its cooldown is reduced by 2 seconds and its damage is permanently increased by 75%.\nAfter 75 stacks, its strikes go up by 2 and the final strike Stuns for 1.25 seconds.\nEven if you do not manage to unlock the Pinnacle Reward, the damage increase provided\nby the first and second Rewards combined together will greatly empower your\nkill potential against Heroes without mobility tools\nusable to disconnect Lightning Rod when cast on them.\nDishonorable Discharge at Level 1, Static Shield\nat Level 4, Thunderstrikes at Level 7, and Charged Up\nat Level 13 combined together make Falstad extremely difficult to duel\nfor Heroes who do not have any way to outrange Lightning Rod.\n✔\nFrequent Flyer\n(Level 1)\nFalstad\nCooldown: 60 seconds\nActivate Frequent Flyer to gain 25% Attack Speed and Tailwind for 4 seconds.\nQuest: Minion kills grant 1 stack. Hero Takedowns grant 5.0 stacks.\nReward: After 60 stacks, gain 20 Attack Damage.\nReward: After 150 stacks, gain 50 additional Attack Damage.\nMythic Reward: After 300 stacks, gain 125 additional Attack Damage.\nFrequent Flyer is a strong Talent that empowers\nyour Basic Attacks. You gain 1 stack every time a Minion dies within 8.5 range\nand 5 stacks every time you contribute to a Hero Takedown.\nAfter 60 stacks, Basic Attacks deal 20 more damage.\nAfter 150 stacks, Basic Attacks deal 50 more damage, for a total of 70 additional damage.\nAfter 300 stacks, Basic Attacks deal 125 more damage, for a total of 195 additional damage.\nFurthermore, once every 1 minute, it can be activated to increase your Attack Speed\nby 25% and to enable Tailwind for 4 seconds.\nContrary to normal Tailwind, the effect coming from\nthe Active component of this Talent does not get canceled when taking damage,\nso it always lasts 4 seconds. Because of this, other than to boost your Attack damage,\nyou can activate it to refresh your Trait right after taking damage while fighting.\nYou can also activate it to increase your damage against enemy Structures when needed,\nassuming you do not expect to fight for the next 45 seconds (its cooldown).\nAs it does not require to hit enemy Heroes, this kind of Quest is particularly good for a Hero like Falstad\nwho can easily take care of Minions in lanes that are far from the rest of the team\nand quickly join them with Flight when a team fight starts.\nThe fact it requires Minions, however, means you will get less stacks on 2-lane Maps\nbecause you will not be able to quickly rotate from a lane\nto another one without using Flight."
+  },
+  {
+   "title": "Level 4 Talents for Falstad",
+   "id": "level-4",
+   "text": "?\nStatic Shield\n(Level 4)\nFalstad\nLightning Rod strikes grant a Shield equal to 4% of Falstad's maximum Health, up to 28%, for 4 seconds.\nStatic Shield is a decent Talent that creates a powerful Shield\nwhen Falstad is hitting enemy Heroes with Lightning Rod.\nEach strike gives you a Shield equal to 4% of your maximum Health, stacking 7 times,\nup to 28%. Note that this Shield only lasts 4 seconds.\nWe find this Talent to be more effective against melee Heroes who tend to go all-in\n(such as Illidan) because it increases your survivability while they\ndive you, so that it will be harder for them to kill you\nbefore you kill them.\nDishonorable Discharge at Level 1, Static Shield\nat Level 4, Thunderstrikes at Level 7, and Charged Up\nat Level 13 combined together make Falstad extremely difficult to duel\nfor Heroes who do not have any way to outrange Lightning Rod.\n?\nUpdraft\n(Level 4)\nFalstad\nIncreases Barrel Roll's range by 40% and Shield amount by 70%, and its Shield now lasts indefinitely.\nUpdraft is a good Talent that\nturns Barrel Roll into one of the longest\nmobility Basic Abilities in the game. The Talent is mostly useful when you\nare against dive Heroes who can put a lot of pressure on you\nwith their high damage and mobility. With it,\nnot only you will have a Shield, but you will also be able to create more distance\nbetween you and enemy Heroes trying to take you down.\n✔\nHammer Gains\n(Level 4)\nFalstad\nBasic Attacks heal for 20% of the damage dealt to the primary target.\nHammer Gains is a strong Talent that\nincreases your self-sustain,\nsomething that is especially useful while taking care of side lanes on your own\nand slightly increases your survivability during team fights.\nBeing based on the amount of damage done with your Basic Attacks, this Talent\nhas synergy with Frequent Flyer at Level 1\nand Secret Weapon at Level 7,\nbut has no synergy with Sustained Winds at Level 13."
+  },
+  {
+   "title": "Level 7 Talents for Falstad",
+   "id": "level-7",
+   "text": "✔\nSecret Weapon\n(Level 7)\nFalstad\nIncreases Hammerang's range by 30% and Basic Attacks deal 75% bonus damage while Hammerang is in flight.\nSecret Weapon is a good Talent that\nincreases the range of Hammerang\nand temporarily allows Falstad's Basic Attacks to deal more damage.\nWith this Talent, you have to focus on using as many Basic Attacks as possible\nwhile Hammerang is flying in the air.\nThe range increase makes Secret Weapon generally safer and\neasier to use.\nThe damage increase provided has synergy with other Talents based on Basic Attacks:\nFrequent Flyer at Level 1, Hammer Gains at Level 4,\nand Nexus Frenzy at Level 20.\n?\nBOOMerang\n(Level 7)\nFalstad\nHammerang's explosion deals 100% additional damage, and hitting enemy Heroes reduces their Spell Armor by 15 for 3 seconds.\nBOOMerang is a strong Talent that increases the damage you deal\nwhen reactivating Hammerang\nand also reduces the Spell Armor of enemy Heroes damaged by the explosion.\nPick this Talent when you want to empower the burst damage of your team\nand/or when you want to increase your waveclear even more.\n?\nThunderstrikes\n(Level 7)\nFalstad\nLightning Rod deals 25% more damage each subsequent strike.\nThunderstrikes is a good Talent that increases the damage done\nby each consecutive hit of Lightning Rod on the same Hero,\nturning Falstad into a real threat for enemy Heroes who cannot outrange\nor break Lightning Rod with ease.\nDishonorable Discharge at Level 1, Static Shield\nat Level 4, Thunderstrikes at Level 7, and Charged Up\nat Level 13 combined together make Falstad extremely difficult to duel\nfor Heroes who do not have any way to outrange Lightning Rod."
+  },
+  {
+   "title": "Level 10 Talents for Falstad",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nHinterland Blast\n(Level 10)\nFalstad\nMana: 80\nCooldown: 120 seconds\nAfter 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 30 seconds for every enemy Hero hit.\nHinterland Blast deals a substantial amount of area of effect damage\nfrom great range that most players have come to take for granted from Falstad.\nIt is usually chosen as the damaging piece of any kind of teamwide combo that\ninvolves a certain amount of crowd control.\nHinterland Blast, however, must compete with Gust, widely recognized as one of\nthe best Heroic Abilities available in the game.\n✔\nMighty Gust\n(Level 10)\nFalstad\nMana: 70\nCooldown: 60 seconds\nPush enemies away, and Slow them by 40%, decaying over 4 seconds.\nMighty Gust is a unique Ability that uniquely provides\nFalstad with a reliable area of effect crowd control, something\nthat is seldom seen in other Heroes, especially Ranged Assassins.\nIts relatively short cooldown makes it\ndifficult to pick out Falstad or any of his allies, making the Ability an\nexcellent counterpick to dive-oriented team compositions.\nIt also shines against Healers such as Kharazim and Uther, who strongly rely on\nspecific positioning to be effective.\nThe knockback effect is also useful\nfor attempting to steal Boss Camps from your opponents by\nusing Flight or Barrel Roll\nto position yourself on the Capture Point\njust as the Boss is about to die."
+  },
+  {
+   "title": "Level 13 Talents for Falstad",
+   "id": "level-13",
+   "text": "?\nCharged Up\n(Level 13)\nFalstad\nIncreases Lightning Rod range by 25%. Hero Takedowns reset Lightning Rod's cooldown.\nCharged Up is a good Talent that empowers Lightning Rod\nby increasing its range, so that it becomes harder for enemy Heroes to exit its area,\nand by providing a cooldown reset mechanic when contributing to Hero Takedowns.\nDishonorable Discharge at Level 1, Static Shield\nat Level 4, Thunderstrikes at Level 7, and Charged Up\nat Level 13 combined together make Falstad extremely difficult to duel\nfor Heroes who do not have any way to outrange Lightning Rod.\n?\nFlow Rider\n(Level 13)\nFalstad\nWhile Tailwind is active, Falstad's Basic Abilities recharge 100% faster.\nFlow Rider has the potential of vastly increasing\nFalstad's damage potential. It does, however, require you to play extremely\nsafely, to the point of not letting Tailwind fall off by taking\ndamage. The task is often impossible against Heroes with plenty of area of effect\ndamage or who are capable to dive aggressively. Other than that,\nwe find this Talent quite powerful, particularly when combined with\nAerie Gusts at Level 16 to keep Tailwind going.\n✔\nSustained Winds\n(Level 13)\nFalstad\nBasic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health, increased to 2% while Tailwind is active.\nSustained Winds is a good Talent that increases your damage output\nin the form of percent-based damage on your Basic Attacks,\nslightly increased when under the effect of Tailwind.\nThe damage increase provided has synergy with Frequent Flyer at Level 1\nand Nexus Frenzy at Level 20, but not with\nHammer Gains at Level 4.\nPick this Talent when you want to pressure and/or take down the enemy frontline\nand/or when you need damage that goes through Armor effects."
+  },
+  {
+   "title": "Level 16 Talents for Falstad",
+   "id": "level-16",
+   "text": "?\nCrippling Hammer\n(Level 16)\nFalstad\nIncrease Hammerang's Slow from 25% to 50%, and Hammerang's explosion also Slows.\nCrippling Hammer is a good Talent that empowers the Slow\napplied by Hammerang and allows you to apply it via its explosion as well.\nYou may need this Talent to kite enemy Heroes who lack mobility\nand/or range in order to help your team damage them or escape, based on the situation.\nGenerally speaking, the crowd control\nprovided by allied Heroes should be enough.\n✔\nAerie Gusts\n(Level 16)\nFalstad\nReduces the activation time for Tailwind from 5 to 3 seconds, and increases the Movement Speed bonus from 15% to 25%.\nAerie Gusts is a strong Talent that simultaneously provides offense, defense, and\nutility in the form of more Movement Speed. This is on top of greatly increasing\nthe uptime of Flow Rider, another potent Talent,\nby making Tailwind reactivate faster when not taking damage.\nYou can combine this Talent with either Flow Rider at Level 13\nto quickly reactivate its cooldown reduction effect after taking some damage\nor with Sustained Winds at Level 13\nto have more Movement Speed for kiting enemy Heroes\nand also to restore its bonus damage component in less time.\n?\nAfterburner\n(Level 16)\nFalstad\nBarrel Roll increases Movement Speed by 60%, decaying over 3 seconds.\nAfterburner is a good Talent that provides\nextra Movement Speed after using Barrel Roll,\nso it can be used to either chase enemy Heroes or to escape from danger.\nAs with Updraft and\nStatic Shield, Afterburner is primarily picked against aggressive team\ncompositions that make it hard for you to stay alive."
+  },
+  {
+   "title": "Level 20 Talents for Falstad",
+   "id": "level-20",
+   "text": "?\nCall of the Wildhammer\n(Level 20)\nFalstad\nHinterland Blast has double the range and deals 25% more damage.\nCall of the Wildhammer is a good Talent that increases\nthe damage done by Hinterland Blast by 25% and its range by 100%.\nThe bonus damage is high enough to make this Talent interesting to pick\nwithout even taking into account the bonus range, especially if we consider\nthat it will be rarely useful as the baseline range will already cover your whole screen.\n✔\nWind Tunnel\n(Level 20)\nFalstad\nMighty Gust creates a wind tunnel for 4 seconds. Enemies caught in the tunnel will periodically be pushed back.\nWind Tunnel is a strong Talent that transforms Mighty Gust\nin one of the most powerful crowd control effects in the game\nby allowing you to lock one or more enemy Heroes on top of impassable terrain,\nrendering them unable to act for the duration.\n?\nNexus Frenzy\n(Level 20)\nFalstad\nIncreases Attack Speed by 20% and Attack Range by 1.1.\nNexus Frenzy is a good Talent that provides\nyou with additional Attack damage and Attack range, something that gives more value\nwhen you are playing a Basic Attacks Build but it is not required nor advised\nbecause it competes with the powerful Wind Tunnel.\n?\nEpic Mount\n(Level 20)\nFalstad\nReduce the cooldown of Flight by 50 seconds, reduce the cast time before flying to 0.5 seconds, and increase the speed by 50%.\nEpic Mount is a situational Talent that drastically lowers\nthe cooldown of Flight, reduces its channel time\nfrom 2 to only 0.5 seconds, and makes the flight animation 50% faster.\nThe cooldown reduction allows him to completely negate any Catapult pressure\non the Core and/or to quickly travel across the battlefield for claiming\nCapture Points when needed (for example on Dragon Shire).\nThe shorter cast time and increased travel speed combined together\ncan be useful for when you need to use Flight\nfor an offensive Mighty Gust, to quickly deny\na powerful crowd control effect\n(excluding Time Stop) after a delay\n(notably Temporal Loop by Chromie) with the useful\nUnstoppable frames that Flight has, to dodge a delayed\neffect on the ground (such as Grav-O-Bomb 3000 by Gazlowe),\nto outrange Abilities that require the target to be within a certain range to go off\n(for example Pyroblast by Kael'thas)\nor as a form of escape because the enemy team will have less time to\ninterrupt the cast or kill you."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Apr. 2026: Guide reviewed for the latest Balance Update.\n17 Feb. 2026: Guide updated for the latest Balance Update.\n23 Dec. 2025: Guide reviewed.\n16 Dec. 2025: Guide updated for the latest Balance Update.\n07 Dec. 2025: Guide updated for the latest Balance Update.\n31 Jul. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n06 Jul. 2024: Epic Mount's Description improved.\n20 Sep. 2023: ARAM Build added.\n04 Feb. 2022: Builds rearranged.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n24 Nov. 2021: Builds updated.\n22 Jul. 2021: Guide reviewed for the latest Balance Update.\n17 May 2021: Guide reviewed for the latest Patch.\n04 Mar. 2021: Guide reviewed for the latest Balance Update.\n25 Feb. 2021: New layout.\n30 Nov. 2020: Talent Descriptions fixed.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n20 Sep. 2020: Builds and Talent discussions updated.\n19 Jul. 2020: Talents reviewed and updated; AA build added.\n05 Apr. 2020: Mage build recommendation added.\n12 Oct. 2019: Talents section reviewed and updated.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "slug": "anduin",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/anduin-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/anduin-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/anduin-talents"
+ },
+ "guide": [
+  {
+   "title": "Anduin's Overview",
+   "id": "anduins-overview",
+   "text": "Anduin is a ranged Healer that excels at\nsaving his allies, not only by healing them. Notably, Anduin can save\nallied Heroes in need by using Leap of Faith,\nwhich makes them Unstoppable and Pulls them towards\nAnduin. Mastering Anduin's arsenal of protective and offensive tools provides your team\nwith a powerful Healer in the backline that can contribute a\ngreat deal during team fights. Unlike some of the other Healers,\nAnduin possesses quite some play-making potential utilizing various\ncrowd control and utility effects."
+  },
+  {
+   "title": "Anduin's Strengths and Weaknesses",
+   "id": "anduins-strengths-and-weaknesses",
+   "text": "Strengths\nStrong burst healing\nAccess to crowd control\nPowerful late game\nBaseline cleanse effect\nWeaknesses\nLow area of effect healing\nStanding still to channel\nNo mobility"
+  },
+  {
+   "title": "Anduin's Talent Build Cheatsheet",
+   "id": "anduins-talent-build-cheatsheet",
+   "text": "Lightwell Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's Lightwell Build is all about keeping yourself\nand allied Heroes healthy over time, which is great when facing a team\nthat mostly relies on sustain damage\nbut weak against burst damage.\nTry to apply Renew at Level 16\non as many allied Heroes as possible, then rely on\nMoral Compass\nto refresh its duration from the distance every 5 seconds\nwith either Divine Star or Basic Attacks.\nMost of the Talents in this Build will contribute to\nreducing the cooldown of Lightwell at Level 1,\nincreasing your healing output without having to spend extra Mana\nbut with the need for allied Heroes to stand in the healing area\nfor a few seconds. For this reason, we find it better for\nstationary fights to control a given location on the battlefield.\nLeap of Faith Build\nAdvanced\nLevel 1\n?\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's Leap of Faith Build is primarily designed to deal\nwith crowd control and burst\ndamage by sacrificing sustain healing.\nDesperate Prayer at Level 7 provides burst healing,\nand Glyph of Faith at Level 16 gives you another\ncharge of Leap of Faith\nto save allied Heroes from danger.\nInner Focus Build\nSituational\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's Inner Focus Build is designed to help you stay alive\nagainst dive (for example Zeratul)\nas otherwise you do not have tools to deal with it.\nThe survivability comes from Blessed Recovery\nat Level 7 and Inner Focus at Level 16,\nwhose cooldown is reduced by dealing damage to enemy Heroes.\nVarian's Legacy at Level 20 also helps\nwith that.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's ARAM Build is all about keeping yourself\nand allied Heroes healthy over time, which is great when facing a team\nthat mostly relies on sustain damage\nbut weak against burst damage.\nTry to apply Renew at Level 16\non as many allied Heroes as possible, then rely on\nMoral Compass\nto refresh its duration from the distance every 5 seconds\nwith either Divine Star or Basic Attacks.\nMost of the Talents in this Build will contribute to\nreducing the cooldown of Lightwell at Level 1,\nincreasing your healing output without having to spend extra Mana\nbut with the need for allied Heroes to stand in the healing area\nfor a few seconds. For this reason, we find it better for\nstationary fights to control a given location on the battlefield.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Anduin's Synergies and Counters",
+   "id": "anduins-synergies-and-counters",
+   "text": "Anduin synergizes with\nChastise is not that easy to land, therefore Heroes\nwith reliable crowd control can help Anduin with doing so.\nFor this reason, you should draft Anduin together with a Tank\nwith a Stun, Root, or a powerful\nSlow. On a similar note, Stitches is a unique Hero\nwho can also help you with that, given you are ready to cast\nChastise right after Hook\ngoes off, without waiting to see if it will hit or not,\notherwise the projectile will end up being late.\nThe utility that Anduin offers with Leap of Faith\ncan help allied Heroes who lack mobility\n(such as Raynor) to get away\nfrom danger or even enable more aggressive plays\nfrom Heroes that lack escape tools (for example Diablo, to save his Souls).\nYou can pair Lightbomb with a lot of Abilities\n(for example Wind Rush by Thrall)\nto execute powerful and quick engages\nthat the enemy team will struggle to play against\nor simply use it as a follow-up\nto other crowd control effects\n(such as Blessed Shield by Johanna).\nAnduin is countered by\nAnduin cannot rely on Leap of Faith to save allied Heroes\nfrom enemy Heroes that can engage multiple times per minute\n(for example E.T.C. with Powerslide).\nA strong dive Hero (such as Sonya) can heavily pressure\nAnduin, to the point that he will not be able to heal the rest of his team anymore,\nin addition to rendering Leap of Faith useless.\nPoke damage is annoying for Anduin\nbecause he lacks area of effect sustain healing\nto keep everyone healthy during prolonged team fights."
+  },
+  {
+   "title": "Anduin's Maps",
+   "id": "anduins-maps",
+   "text": "Anduin's stronger maps\nAnduin's average maps\nAnduin's weaker maps\nAnduin excels on Maps that feature static Objectives where team fights do not last too long\n(such as Shrines on Dragon Shire). Choke points can make for great\nlocations for Divine Star to get value from\nas well as to catch enemy Heroes with Lightbomb.\nAll in all, Anduin's well-rounded kit leaves him with no real Map vulnerabilities,\nexcept for a moderate disadvantage on Maps where the Objective takes too much time to be won\nthat his Mana eventually expires (for example Braxis Holdout)\nand where there are good paths for flanking."
+  },
+  {
+   "title": "Anduin's Tips and Tricks",
+   "id": "anduins-tips-and-tricks",
+   "text": "Cancelling Flash Heal's channel does not put the Ability on cooldown, which allows Anduin to re-position himself and immediately start casting again.\nTo output more healing with it, Divine Star should be used towards enemy Heroes and then caught near allied Heroes while stepping back and repositioning.\nChastise has an extremely slow projectile, therefore it should mainly be used as a follow-up to other crowd control effects.\nSafe positioning is key when playing Anduin, as he lacks any form of escape mechanism and he needs to be in a safe area when using Leap of Faith to save allied Heroes.\nLeap of Faith can be used on allies already impaired by enemy crowd control or pre-emptively to prevent them from taking damage.\nTo make up for its delay, Lightbomb can be used in combo with Heroes with mobility or as a follow-up to other crowd control effects.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Anduin's Role in the Current Meta",
+   "id": "anduins-role-in-the-current-meta",
+   "text": "Anduin is a healing powerhouse that combines\nmoderate area of effect healing and single target protection.\nAs such, he is a decent pick against all sorts of damage types on the enemy team\nand a powerful choice against team compositions who want to burst\ndown a single target. Since he lacks mobility to escape,\npositioning is key when playing Anduin. Keep an eye out for\nengaging Tanks and Bruisers that can\nuse crowd control to lock him down.\nOne of the main reasons to have Anduin in your team composition is\nLeap of Faith, one of the best saving tools in the entire game.\nWith the proper timing and positioning, it can deny kills to the enemy team\nand turn the tides of the battle in your favor. Another good reason to pick Anduin\nis Lightbomb, a powerful but delayed\ncrowd control effect that can be cast on\nallied Heroes with mobility\n(for example Muradin with Dwarf Toss)\nto take opponents off guard or as a follow-up,\nto make sure it connects despite its effect not being instant."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 Jul. 2026 (talents page): Guide reviewed.\n12 Jul. 2026 (abilities page): Guide reviewed.\n12 Jul. 2026 (this page): Guide reviewed.\n12 Apr. 2025 (talents page): Guide reviewed.\n12 Apr. 2025 (abilities page): Guide reviewed.\n12 Apr. 2025 (this page): Guide reviewed.\n31 Jul. 2024 (talents page): Power Word: Shield's Description fixed.\n31 Jul. 2024 (abilities page): Divine Star's Description improved.\n12 Dec. 2023 (talents page): Guide reviewed.\n12 Dec. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n25 Sep. 2022 (talents page): Guide improved.\n25 Sep. 2022 (abilities page): Guide improved.\n25 Sep. 2022 (this page): Guide improved.\n07 Jul. 2022 (talents page): Builds updated.\n07 Jul. 2022 (this page): Builds updated.\n06 May 2022 (talents page): Builds updated.\n06 May 2022 (this page): Builds updated.\n21 Nov. 2021 (talents page): Builds updated.\n21 Nov. 2021 (this page): Builds updated.\n30 Aug. 2021 (talents page): Builds updated.\n30 Aug. 2021 (this page): Builds updated.\n03 Aug. 2021 (talents page): Builds updated.\n03 Aug. 2021 (this page): Builds updated.\n17 Jun. 2021 (talents page): Guide reviewed for the latest Balance Update.\n17 Jun. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n17 Jun. 2021 (this page): Guide reviewed for the latest Balance Update.\n30 May 2021 (talents page): Builds updated.\n30 May 2021 (this page): Builds updated.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n22 Mar. 2021 (talents page): Builds updated.\n22 Mar. 2021 (this page): Builds updated.\n15 Mar. 2021 (this page): Synergies and Counters fixed.\n10 Mar. 2021 (this page): Builds updated.\n09 Mar. 2021 (talents page): Talents fixed.\n25 Feb. 2021 (talents page): New layout.\n24 Feb. 2021 (talents page): Builds and Talent Descriptions updated.\n24 Feb. 2021 (this page): Builds and Talent Descriptions updated.\n15 Feb. 2021 (talents page): Builds updated.\n15 Feb. 2021 (this page): Builds updated.\n20 Jan. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (this page): Guide reviewed for the latest Balance Update.\n23 Oct. 2020 (talents page): Builds fixed.\n23 Oct. 2020 (this page): Builds fixed.\n11 Oct. 2020 (talents page): Guide reviewed for the latest Balance Update.\n11 Oct. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n11 Oct. 2020 (this page): Guide reviewed for the latest Balance Update.\n15 Sep. 2020 (talents page): Builds updated.\n15 Sep. 2020 (this page): Builds updated.\n25 Jul. 2020 (talents page): Builds modified to reflect the current metagame.\n25 Jul. 2020 (this page): Builds modified to reflect the current metagame.\n07 May 2020 (talents page): Builds and Descriptions changed according to the latest Balance Update.\n07 May 2020 (this page): Builds and Descriptions changed according to the latest Balance Update.\n09 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n09 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n06 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n05 Jun. 2019 (talents page): Checked and proof-read Anduin's guide and found no need for necessary changes.\n23 May 2019 (talents page): Updated Anduin's talents and builds in accordance with the latest Balance Update.\n03 May 2019 (talents page): Changed Moral Compass from Not Recommended to Recommended and Holy Reach from Recommended to Not Recommended.\n28 Apr. 2019 (talents page): Guide added.\n28 Apr. 2019 (abilities page): Guide added.\n28 Apr. 2019 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Anduin's Tips and Tricks",
+   "id": "anduins-tips-and-tricks",
+   "text": "Cancelling Flash Heal's channel does not put the Ability on cooldown, which allows Anduin to re-position himself and immediately start casting again.\nTo output more healing with it, Divine Star should be used towards enemy Heroes and then caught near allied Heroes while stepping back and repositioning.\nChastise has an extremely slow projectile, therefore it should mainly be used as a follow-up to other crowd control effects.\nSafe positioning is key when playing Anduin, as he lacks any form of escape mechanism and he needs to be in a safe area when using Leap of Faith to save allied Heroes.\nLeap of Faith can be used on allies already impaired by enemy crowd control or pre-emptively to prevent them from taking damage.\nTo make up for its delay, Lightbomb can be used in combo with Heroes with mobility or as a follow-up to other crowd control effects."
+  },
+  {
+   "title": "Flash Heal",
+   "id": "flash-heal",
+   "text": "Flash Heal\n(Q)\nAnduin\nMana: 20\nCooldown: 5 seconds\nCast for 0.75 seconds to heal an allied Hero for 280 (+4% per level).\nFlash Heal is Anduin's go-to heal. It comes with a low Mana cost,\na short cooldown, and a quick casting animation, which means it should be used as often as possible.\nMoving will interrupt the channel animation, however, it will not put the ability on cooldown.\nConsequently, it is always better to quickly re-position Anduin and then cast Flash Heal if that means\nhe stays safe from enemy threats this way. The fact you have to stand still while channeling it\ncan be a problem when your team is moving forward and even worse when your team is retreating."
+  },
+  {
+   "title": "Divine Star",
+   "id": "divine-star",
+   "text": "Divine Star\n(W)\nAnduin\nMana: 50\nCooldown: 10 seconds\nSend light that deals 140 (+4% per level) damage to enemies and then returns to Anduin, healing allied Heroes for 130 (+4% per level) in a wider path. Healing increases by 25% per enemy Hero hit.\nDivine Star is a Basic Ability that deals damage and heals in the form of a wave of light.\nThe wave of light travels out from Anduin to an apex point and then returns from that apex point back to Anduin.\nThe damage happens when Divine Star's wave of light leaves Anduin and it does not change\nbased on the amount of enemy Heroes hit. The healing happens when Divine Star's wave of light\nreturns to Anduin and is increased by 25% for each enemy Hero hit. Anduin is healed too.\nDuring team fights, use it when allied Heroes and enemy Heroes are clustered in one area to maximize the damage\nand healing output.\nIn order to get more value from Divine Star, it is quite important to be\naware of Anduin's own position, since he can impact\nthe returning travel route of the projectile by moving himself accordingly.\nBefore casting it, step forward for a moment, just enough to hit a couple of enemy Heroes.\nAfter casting it, run back to safety and get closer to allied Heroes who need healing."
+  },
+  {
+   "title": "Chastise",
+   "id": "chastise",
+   "text": "Chastise\n(E)\nAnduin\nMana: 40\nCooldown: 9 seconds\nShove a swell of light forward, dealing 175 (+4% per level) damage to the first enemy Hero hit and Rooting them for 1.25 seconds.\nChastise can be hard to hit sometimes due to its slow\nmoving projectile. Thus, try to aim it on targets when they are already impaired by other\ncrowd control effects. You can even use it block enemy Abilities\nthat allow Heroes to dash (such as Shadow Charge)\nby casting it quickly enough when they try to engage.\nConsidering that Chastise has a slow travel time,\nwhen you are accompanied by a Hero who can crowd control\nenemy Heroes, you should ideally keep Chastise ready for\nwhen they engage. When they do, use it as follow-up.\nIf their engage fails, then you can try to use it on your own shortly after.\nThis way your Abilities will likely finish their cooldown at the same time,\nready for the next attempt to combine them. If someone is in danger, however,\ndo not hesitate to use Chastise defensively."
+  },
+  {
+   "title": "Holy Word: Salvation",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nHoly Word: Salvation\n(R)\nAnduin\nHeroic\nMana: 70\nCooldown: 80 seconds\nAfter 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 30% of their max Health and are Protected.\nHoly Word: Salvation is a Heroic Ability that,\nafter a short cast time, can be channeled to give the\nProtected status to allied Heroes in its vicinity\nwhile also healing them for a significant amount, based on the maximum Health of who is getting healed.\nKeep in mind that being Protected does not block\ncrowd control effects. If you want to get maximum value\nfrom Holy Word: Salvation, you should mentally track enemy cooldowns\nand cast Holy Word: Salvation when all their potential\ninterrupts have been used already. Alternatively,\nyou can surprise them with a Holy Word: Salvation\nthat will surely be interrupted but at least will stop their burst damage\n(for example Last Rites by Malthael)."
+  },
+  {
+   "title": "Lightbomb",
+   "id": "lightbomb",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nLightbomb\n(R)\nAnduin\nHeroic\nMana: 70\nCooldown: 60 seconds\nImbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 (+4% per level) damage to enemies and Stunning them for 1.25 seconds.\nThe target gains a Shield that absorbs 165 (+4% per level) damage per enemy Hero hit. Lasts for 5 seconds.\nLightbomb is a Heroic Ability that can be used both offensively\nand defensively. If used offensively, it can be placed on an engaging Tank or\nBruiser who will then damage and crowd control\nas many enemy Heroes as possible while\nalso getting a protective Shield. If used defensively, it can be used on Anduin himself or any other threatened\nally to keep chasing enemies at bay.\nYou can use Lightbomb in conjunction with\nany mobility tool (for example\nHaunting Wave by Sylvanas)\nto drastically increase its power, so be aware of their Talents\nas the game goes on. Alternatively, it can be used\nas a follow-up to other\ncrowd control effects\n(such as Blessed Shield by Johanna)."
+  },
+  {
+   "title": "Leap of Faith",
+   "id": "leap-of-faith",
+   "text": "Leap of Faith\n(D)\nAnduin\nCooldown: 70 seconds\nFaith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel.\nPursued By Grace\nBasic Attacks against enemy Heroes heal the lowest Health allied Hero near Anduin for 32 (+4% per level).\nLeap of Faith is a Trait which can be activated\nto Pull, Daze,\nand make Unstoppable a given allied Hero within 10 range,\ndenying the burst damage that often comes shortly after\nand removing any crowd control from them.\nIn addition to that, your Trait has a passive component called Pursued by Grace\nwhich heals for a small amount the allied Hero with lowest Health within 6.5 range from Anduin.\nThe moment when you use the active component of Leap of Faith\ncan make the difference between saving an allied Hero or watching them die\nwhile wasting its cooldown.\nUse it on Heroes who are affected by crowd control\nand/or who are going to take a lot of damage in the next few seconds.\nAvoid using it on Heroes who have their own tools to survive,\nunless you know they have already used their defensive Abilities recently."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 Jul. 2026: Guide reviewed.\n12 Apr. 2025: Guide reviewed.\n31 Jul. 2024: Divine Star's Description improved.\n25 Sep. 2022: Guide improved.\n17 Jun. 2021: Guide reviewed for the latest Balance Update.\n17 May 2021: Guide reviewed for the latest Patch.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n11 Oct. 2020: Guide reviewed for the latest Balance Update.\n28 Apr. 2019: Guide added.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Evenhanded Blessings (Level 1) Anduin If Flash Heal is cast on a different target from its last, increase its healing by 15% and refund 40% of its cooldown."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Power Word: Shield (Level 1) Anduin While Divine Star is traveling out, allies in its path gain a Shield that absorbs 128 (+4% per level) damage for 4 seconds. If Divine Star hits an enemy Hero, Anduin gains a Shield that absorbs 185 (+4% per level) damage for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Lightwell (Level 1) Anduin Cooldown: 75 seconds Summon a Lightwell that periodically heals a nearby allied Hero for 50 (+4% per level). The well only fades after healing 15 times or when recast. This cooldown is reduced by 1 second each time Anduin heals an allied Hero."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Moral Compass (Level 4) Anduin Divine Star fires Basic Attacks at Heroes close to its apex. Passive: Increase Attack Range by 1.1."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Surge of Light (Level 4) Anduin Basic Attacks reduce the cooldown of Chastise by 0.75 seconds. Basic Attacks against Heroes Rooted by Chastise launch an additional Basic Attack and restore 25 Mana."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Piercing Light (Level 4) Anduin Chastise pierces to hit an additional Hero. Quest: Hitting two Heroes with a single Chastise permanently increases Spell Power by 1, to a maximum of 10."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Binding Heal (Level 7) Anduin Casting Flash Heal on an ally heals Anduin for 135 (+4% per level)."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Blessed Recovery (Level 7) Anduin If Anduin loses more than 8% of his maximum Health at once, recover 15% Health over 3 seconds. This effect has a 10 second cooldown. Current Health required: 133 (+4% per level)"
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Desperate Prayer (Level 7) Anduin Cooldown: 35 seconds Activate to instantly heal an allied Hero for 375 (+4% per level), but kneel for 2 seconds, unable to act."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Holy Word: Salvation (Level 10) Anduin Mana: 70 Cooldown: 80 seconds After 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 30% of their max Health and are Protected."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Lightbomb (Level 10) Anduin Mana: 70 Cooldown: 60 seconds Imbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 (+4% per level) damage to enemies and Stunning them for 1.25 seconds. The target gains a Shield that absorbs 165 (+4% per level) damage per enemy Hero hit. Lasts for 5 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Speed of the Pious (Level 13) Anduin While Divine Star is traveling, gain 30% Movement Speed. Each allied Hero healed by Divine Star on its return to Anduin reduces its cooldown by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Push Forward! (Level 13) Anduin Damaging an enemy Hero increases Movement Speed by 2.5% and the amount healed by Pursued By Grace by 5% for 6 seconds. These effects stack up to 8 times."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Enchant Boots - Lion's Speed (Level 13) Anduin Gain 5% Movement Speed. This bonus is quadrupled while Leap of Faith's cooldown is available. Allies pulled by Leap of Faith are healed for 280 (+4% per level) over 4 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Renew (Level 16) Anduin Flash Heal heals an additional 180 (+4% per level) over 6 seconds. The duration of this heal is refreshed each time Anduin hits an enemy Hero with a Basic Attack."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Holy Nova (Level 16) Anduin After Anduin catches Divine Star, it explodes, healing nearby allied Heroes for 105 (+4% per level) and damaging enemies for 150 (+4% per level)."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Glyph of Faith (Level 16) Anduin Leap of Faith gains a 2nd charge."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Inner Focus (Level 16) Anduin Cooldown: 20 seconds Activate to reset the cooldown of Flash Heal and its next cast heals for 25% more. Damaging enemy Heroes reduces this cooldown by 1 second."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Light of Stormwind (Level 20) Anduin Holy Word: Salvation grants allied Heroes Invulnerability instead of Protected. This does not affect Anduin. Channeling Holy Word: Salvation for its full duration reduces its cooldown by -61 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Inner Fire (Level 20) Anduin The target of Light Bomb gains 40% Move Speed and 50 Armor for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Censure (Level 20) Anduin Chastise Stuns for 0.75 seconds and its Root duration is increased by 0.5 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Varian's Legacy (Level 20) Anduin Basic Attacks burn enemies for 87 (+4% per level) damage over 3 seconds and Anduin heals for 50% of the damage dealt."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Anduin's Talent Build",
+   "id": "anduins-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n?\n✓\n13\n✓\n?\n?\n16\n✓\n?\n?\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Anduin's Talent Build Cheatsheet",
+   "id": "anduins-talent-build-cheatsheet",
+   "text": "Lightwell Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's Lightwell Build is all about keeping yourself\nand allied Heroes healthy over time, which is great when facing a team\nthat mostly relies on sustain damage\nbut weak against burst damage.\nTry to apply Renew at Level 16\non as many allied Heroes as possible, then rely on\nMoral Compass\nto refresh its duration from the distance every 5 seconds\nwith either Divine Star or Basic Attacks.\nMost of the Talents in this Build will contribute to\nreducing the cooldown of Lightwell at Level 1,\nincreasing your healing output without having to spend extra Mana\nbut with the need for allied Heroes to stand in the healing area\nfor a few seconds. For this reason, we find it better for\nstationary fights to control a given location on the battlefield.\nLeap of Faith Build\nAdvanced\nLevel 1\n?\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's Leap of Faith Build is primarily designed to deal\nwith crowd control and burst\ndamage by sacrificing sustain healing.\nDesperate Prayer at Level 7 provides burst healing,\nand Glyph of Faith at Level 16 gives you another\ncharge of Leap of Faith\nto save allied Heroes from danger.\nInner Focus Build\nSituational\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's Inner Focus Build is designed to help you stay alive\nagainst dive (for example Zeratul)\nas otherwise you do not have tools to deal with it.\nThe survivability comes from Blessed Recovery\nat Level 7 and Inner Focus at Level 16,\nwhose cooldown is reduced by dealing damage to enemy Heroes.\nVarian's Legacy at Level 20 also helps\nwith that.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAnduin's ARAM Build is all about keeping yourself\nand allied Heroes healthy over time, which is great when facing a team\nthat mostly relies on sustain damage\nbut weak against burst damage.\nTry to apply Renew at Level 16\non as many allied Heroes as possible, then rely on\nMoral Compass\nto refresh its duration from the distance every 5 seconds\nwith either Divine Star or Basic Attacks.\nMost of the Talents in this Build will contribute to\nreducing the cooldown of Lightwell at Level 1,\nincreasing your healing output without having to spend extra Mana\nbut with the need for allied Heroes to stand in the healing area\nfor a few seconds. For this reason, we find it better for\nstationary fights to control a given location on the battlefield."
+  },
+  {
+   "title": "Level 1 Talents for Anduin",
+   "id": "level-1",
+   "text": "?\nEvenhanded Blessings\n(Level 1)\nAnduin\nIf Flash Heal is cast on a different target from its last, increase its healing by 15% and refund 40% of its cooldown.\nEvenhanded Blessings is a good Talent that slightly increases\nthe healing from Flash Heal and refunds part of its cooldown\nwhen you use it on a different target than the last time you cast it.\nThe cooldown reduction provided by Evenhanded Blessings\nhas synergy with Binding Heal at Level 7—another\nTalent that helps against poke damage like this one—and\nwith Renew at Level 16—because\nit helps you put it on multiple Heroes in less time.\n?\nPower Word: Shield\n(Level 1)\nAnduin\nWhile Divine Star is traveling out, allies in its path gain a Shield that absorbs 128 (+4% per level) damage for 4 seconds.\nIf Divine Star hits an enemy Hero, Anduin gains a Shield that absorbs 185 (+4% per level) damage for 4 seconds.\nPower Word: Shield is a strong Talent that gives a smaller Shield\nto allied Heroes and a bigger Shield to Anduin. The smaller Shield on allied Heroes\nis created when Divine Star's wave of light leaves Anduin.\nThe bigger Shield on Anduin is created when Divine Star's wave of light\nreturns to Anduin.\nConsider picking this Talent when team fights are short\nand your team needs help to survive against burst damage,\nor when the enemy team can dive you\nand you need additional survivability.\n✔\nLightwell\n(Level 1)\nAnduin\nCooldown: 75 seconds\nSummon a Lightwell that periodically heals a nearby allied Hero for 50 (+4% per level). The well only fades after healing 15 times or when recast.\nThis cooldown is reduced by 1 second each time Anduin heals an allied Hero.\nLightwell is a good Talent that allows you\nto place a Lightwell on the ground, healing allied Heroes nearby.\nEach instance of actual healing done by Anduin\n(that is, excluding healing on full Health targets)\nwill reduce Lightwell's cooldown by 1 second. Each healing tick\nfrom Healing Fountains and Regeneration Globes affecting\nAnduin contribute to Lightwell's cooldown reduction too.\nThe healing effect provided has a limited amount of ticks: 15 in total.\nWhile enemies cannot destroy the Lightwell, it will disappear\nonce all of its healing ticks get consumed or whenever another one gets summoned.\nAt the start of the game or whenever you have time to leave your team for a dozen of seconds,\nyou can cast Lightwell in the offlane\nto heavily shift the matchup in your team's favor. Alternatively,\nuse it to sustain heal your team while laning\nor while contesting an area and therefore taking part in a relatively static team fight.\nAlthough doing so is not always possible,\nthanks to how Pursued by Grace works (see Leap of Faith's tooltip),\nyou can easily reduce the cooldown of Lightwell from 80 seconds\nto around 30 seconds by constantly using Basic Attacks against enemy Heroes.\nWhen you cannot count on your Basic Attacks, there are a lot of Talents which can help you with that:\nMoral Compass at Level 4, Binding Heal or Blessed Recovery at Level 7,\nHoly Word: Salvation as Heroic Ability, Renew at Level 16,\nand even Varian's Legacy at Level 20.\nLightwell has two drawbacks:\nif your team needs to move, part of the healing will end up being wasted\nand will not contribute to its own cooldown reduction;\nthe enemy team can see the Lightwell on the ground and try to aim there."
+  },
+  {
+   "title": "Level 4 Talents for Anduin",
+   "id": "level-4",
+   "text": "✔\nMoral Compass\n(Level 4)\nAnduin\nDivine Star fires Basic Attacks at Heroes close to its apex.\nPassive: Increase Attack Range by 1.1.\nMoral Compass is a strong Talent that\nlets you play from a safer position by increasing your Attack Range\nand by making Divine Star shoot a Basic Attack\nat each enemy Hero near its edge.\nThe extra Basic Attacks, other than healing nearby allied Heroes\nvia Pursued by Grace (see Leap of Faith's tooltip),\nwill also help you reduce the cooldown of Lightwell at Level 1\nand/or Inner Focus at Level 16.\n?\nSurge of Light\n(Level 4)\nAnduin\nBasic Attacks reduce the cooldown of Chastise by 0.75 seconds. Basic Attacks against Heroes Rooted by Chastise launch an additional Basic Attack and restore 25 Mana.\nSurge of Light is a situational Talent that\nmakes your Basic Attacks against any enemy reduce the cooldown of Chastise\nand your Basic Attacks against Heroes who are Rooted by Chastise\ngenerate an extra Basic Attack and give you some Mana.\nThe extra Basic Attacks can help your team securing kills.\nIf you time the first Basic Attack correctly, you can\ntrigger this effect twice.\nThe increased Root duration from\nCensure at Level 20 will make\nthis trick extremely easy to execute.\nWe find this Talent easier to use when having Garrosh\nor Stitches in the team because they will pull\nenemy Heroes towards you, making it easier for you to use\nChastise on them and hit them with\n1-2 Basic Attacks while they are Rooted.\n?\nPiercing Light\n(Level 4)\nAnduin\nChastise pierces to hit an additional Hero.\nQuest: Hitting two Heroes with a single Chastise permanently increases Spell Power by 1, to a maximum of 10.\nPiercing Light is a situational Talent that\nmakes your Chastise pierce through\nthe first enemy Hero hit, so that you can hit a second Hero.\nEvery time you do that, you gain 1 Spell Power, up to 10 Spell Power.\nThe pierce is great for hitting two enemy Heroes\nwith a single Chastise, and therefore also\nfor Rooting someone who is being protected by someone else\nor behind a Clone (for example Holo Decoy by Nova).\nIf you have Censure at Level 20,\nthe pierce will help you Stun your intended target\neven if another Hero is on the way. This is quite useful when trying\nto interrupt channeled Abilities.\nThe small amount of Spell Power provided increases the healing\nand damage done with Abilities, including the percent-based healing\nfrom Holy Word: Salvation. If you do not get at\nleast 5 stacks, you will heal less than when going for another Talent.\nWe find this Talent useful only when playing against a team composition with\nat least 3 melee Heroes, when having Johanna in the team to group\nenemy Heroes with Condemn,\nor when facing Medivh as enemy Heroes will tend to group\nwhen using Portal to dive."
+  },
+  {
+   "title": "Level 7 Talents for Anduin",
+   "id": "level-7",
+   "text": "✔\nBinding Heal\n(Level 7)\nAnduin\nCasting Flash Heal on an ally heals Anduin for 135 (+4% per level).\nBinding Heal is a situational Talent that\nheals Anduin every time you cast Flash Heal on someone else,\nimproving your sustain healing in prolonged team fights.\n\nConsider picking this Talent against teams that have more poke damage\nthan burst damage as you will not need Blessed Recovery\nor Desperate Prayer against them.\nYou can combine Binding Heal\nwith Evenhanded Blessings at Level 1\nto further improve its value thanks to its cooldown reduction.\n?\nBlessed Recovery\n(Level 7)\nAnduin\nIf Anduin loses more than 8% of his maximum Health at once, recover 15% Health over 3 seconds.\nThis effect has a 10 second cooldown.\nCurrent Health required: 133 (+4% per level)\nBlessed Recovery is a situational Talent that, once every 10 seconds,\nincreases Anduin's survivability when the enemy team has at least one Hero who deals damage in big chunks,\nelse it will only trigger when you get focused down by multiple Heroes.\nThe main advantage of this Talent is that it works even when you are being affected by\nenemy crowd control, making it a great tool to increase\nyour own survivability, especially against dive.\n?\nDesperate Prayer\n(Level 7)\nAnduin\nCooldown: 35 seconds\nActivate to instantly heal an allied Hero for 375 (+4% per level), but kneel for 2 seconds, unable to act.\nDesperate Prayer is a strong Talent that\ncan be activated to instantly heal an allied Hero\nfor slightly more than Flash Heal,\nbut Anduin will not be able to do anything for 2 seconds after using it.\nYou can use Desperate Prayer on Anduin himself.\nCompared to Blessed Recovery,\nAnduin gets around 110 additional healing from this Ability without any condition,\nbut it has more cooldown and is risky to use.\nTo play around the actions freezing penalty\nthat happens when using Desperate Prayer,\nyou should cast it from maximum range or between team fights.\nKeep in mind that enemy interrupts\n(for example Condemn by Johanna)\ncan free you when you are unable to act.\nCompared to the other Talents in the same Tier, Desperate Prayer\nprovides the highest amount of healing with a single activation,\nwith Blessed Recovery healing only 2/3 of that\nand Binding Heal healing only 1/3 of that."
+  },
+  {
+   "title": "Level 10 Talents for Anduin",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nHoly Word: Salvation\n(Level 10)\nAnduin\nMana: 70\nCooldown: 80 seconds\nAfter 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 30% of their max Health and are Protected.\nHoly Word: Salvation is a good Heroic Ability that,\nafter a short cast time, can be channeled\nto Protect and heal allied Heroes nearby.\nBeing weak to interrupts,\nHoly Word: Salvation shines against teams that lack them\nbut can occasionally be played against teams who have some of them,\njust to counter enemy Heroic Abilities with Protected\n(for example Pyroblast by Kael'thas).\n✔\nLightbomb\n(Level 10)\nAnduin\nMana: 70\nCooldown: 60 seconds\nImbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 (+4% per level) damage to enemies and Stunning them for 1.25 seconds.\nThe target gains a Shield that absorbs 165 (+4% per level) damage per enemy Hero hit. Lasts for 5 seconds.\nLightbomb is a strong Heroic Ability\nthat can be cast on Anduin or on another allied Hero\nin order to Stun and damage all enemies around them\nafter a moderate delay and give the targeted Hero a Shield\nwhose size is based on the number of enemy Heroes hit.\nNot being weak to interrupts like Holy Word: Salvation,\nLightbomb will be your go-to choice in the majority of your games.\nSometimes it will not be easy to use because you will not have any allied\ncrowd control to follow up,\nin which case you should prefer to use it as a counter-engage tool instead."
+  },
+  {
+   "title": "Level 13 Talents for Anduin",
+   "id": "level-13",
+   "text": "✔\nSpeed of the Pious\n(Level 13)\nAnduin\nWhile Divine Star is traveling, gain 30% Movement Speed. Each allied Hero healed by Divine Star on its return to Anduin reduces its cooldown by 1 second.\nSpeed of the Pious is a strong Talent that gives you a burst of\nMovement Speed during the animation effect of Divine Star\nand reduces the cooldown of the same Ability based on the quantity of allied Heroes healed by it.\nThe bonus Movement Speed provided by Speed of the Pious will last slightly more\nif you move in the opposite direction you aimed Divine Star and slightly less\nif you move in the same direction you aimed at.\n?\nPush Forward!\n(Level 13)\nAnduin\nDamaging an enemy Hero increases Movement Speed by 2.5% and the amount healed by Pursued By Grace by 5% for 6 seconds. These effects stack up to 8 times.\nPush Forward! is a decent Talent that\nincreases the healing provided by Pursued by Grace—the passive\ncomponent of your Trait, Leap of Faith—and\nyour Movement Speed by a small but stacking amount\neach time you deal damage to enemy Heroes\nwith Abilities or Basic Attacks.\nThe benefits you get from this Talent make more sense\nwhen you expect prolonged team fights and you need more sustain healing,\nelse it is better to go for a different Talent.\n?\nEnchant Boots - Lion's Speed\n(Level 13)\nAnduin\nGain 5% Movement Speed. This bonus is quadrupled while Leap of Faith's cooldown is available. Allies pulled by Leap of Faith are healed for 280 (+4% per level) over 4 seconds.\nEnchant Boots - Lion's Speed is a good Talent that gives you a constant\n20% Movement Speed when Leap of Faith is available and\na constant 5% Movement Speed when it is not. In addition to that, pulling a Hero\nby activating your Trait will also heal them for a good amount over a few seconds."
+  },
+  {
+   "title": "Level 16 Talents for Anduin",
+   "id": "level-16",
+   "text": "✔\nRenew\n(Level 16)\nAnduin\nFlash Heal heals an additional 180 (+4% per level) over 6 seconds. The duration of this heal is refreshed each time Anduin hits an enemy Hero with a Basic Attack.\nRenew is a decent Talent\nthat makes Flash Heal heal over time\nand your Basic Attacks against enemy Heroes refresh that effect\nfor all allied Heroes who have it on them.\nConsider picking this Talent if you expect relatively long team fights,\nespecially if the enemy team does not have access to healing reduction effects.\nBeing based on Basic Attacks, this Talent has synergy with\nMoral Compass at Level 4\nand Push Forward! at Level 13.\n?\nHoly Nova\n(Level 16)\nAnduin\nAfter Anduin catches Divine Star, it explodes, healing nearby allied Heroes for 105 (+4% per level) and damaging enemies for 150 (+4% per level).\nHoly Nova is a decent Talent that gives you\na moderate amount of burst damage and healing.\nThe effects happen in a small area around Anduin, when Divine Star ends.\nTo get the most value out of this Talent, position yourself in a way\nthat allows you to heal and/or damage at least two Heroes at the same time.\nSpeed of the Pious at Level 13 helps you with that,\nin addition to slightly reducing the cooldown of Divine Star\nand therefore allowing you to get value from Holy Nova more often.\nThe main downside of this Talent is its anti-synergy with Leap of Faith\nbecause the former requires you to stay relatively close to allied Heroes\nwhereas the latter has to be used from the distance to be more effective.\nConsider picking this Talent if you expect relatively short team fights\nand you do not need Glyph of Faith to save allied Heroes.\n?\nGlyph of Faith\n(Level 16)\nAnduin\nLeap of Faith gains a 2nd charge.\nGlyph of Faith is a strong Talent that adds a second charge\nof Leap of Faith, something that can be game-changing\nagainst burst compositions.\nIf you use only one charge of your Trait, you still keep the 20% Movement Speed\nbonus provided by Enchant Boots - Lion's Speed at Level 13.\n?\nInner Focus\n(Level 16)\nAnduin\nCooldown: 20 seconds\nActivate to reset the cooldown of Flash Heal and its next cast heals for 25% more.\nDamaging enemy Heroes reduces this cooldown by 1 second.\nInner Focus is a good Talent which can be activated\nto instantly reset the cooldown of Flash Heal\nand make its next cast heal for more. The cooldown of this Talent\ncan be reduces by damaging enemy Heroes with Basic Attacks or Abilities.\nTo get more cooldown reduction, you can count on Moral Compass\nat Level 4 and/or Varian's Legacy at Level 20.\nJust make sure to activate Inner Focus before\nusing Divine Star or before it hits enemy Heroes,\notherwise you will waste some or all the cooldown reduction.\nIf you expect not to fight for the next 20 seconds (for example when\nhaving to travel from the Hall of Storms to the middle of the battlefield),\nyou can activate Inner Focus to start its cooldown\nand thus be able to get double value from it during the next team fight\nby having it immediately available after casting Flash Heal."
+  },
+  {
+   "title": "Level 20 Talents for Anduin",
+   "id": "level-20",
+   "text": "?\nLight of Stormwind\n(Level 20)\nAnduin\nHoly Word: Salvation grants allied Heroes Invulnerability instead of Protected. This does not affect Anduin.\nChanneling Holy Word: Salvation for its full duration reduces its cooldown by -61 seconds.\nLight of Stormwind is a good Talent that\nimproves the already powerful Holy Word: Salvation:\nallied Heroes other than Anduin will become Invulnerable\nrather than Protected, but Anduin will still be Protected like without it.\nIf you manage to keep Holy Word: Salvation active for its full duration,\nthen you will get a powerful 60-second cooldown reduction and be able to use it again only 16 seconds after.\nConsidering that being Invulnerable makes the affected unit\nUnstoppable as well, picking this Talent will make it easier\nfor the enemy team to interrupt Holy Word: Salvation\nwith Abilities who connect on the first enemy Hero hit\nbecause they will pierce all Invulnerable targets.\nAnduin is not affected by this Talent for balance reasons, else the enemy team\nwould not be able to interrupt this\nstationary-channeled Ability anymore.\n?\nInner Fire\n(Level 20)\nAnduin\nThe target of Light Bomb gains 40% Move Speed and 50 Armor for 3 seconds.\nInner Fire is a good Talent\nthat empowers Lightbomb in two ways:\nthe targeted allied Hero gets Movement Speed and Armor,\nstarting from the moment you cast it and not from when it explodes.\nThe bonus Movement Speed offered by this Talent helps the Hero\nwho has Lightbomb on them to reposition\nin a way that will cause the explosion to hit the desired enemy Heroes\nas they will have less room to run away and dodge its effect.\nThe high amount of Armor provided by this Talent\nis great for saving allied Heroes who are getting focused down\nby the enemy team. You can also use it to protect yourself from\ndive Heroes (for example Zeratul).\n?\nCensure\n(Level 20)\nAnduin\nChastise Stuns for 0.75 seconds and its Root duration is increased by 0.5 seconds.\nCensure is a strong Talent\nthat allows you to Stun enemy Heroes hit with Chastise\nand slightly extend the duration of its Root that will still happen right after.\nHaving Piercing Light or Surge of Light at Level 4\nmakes this Talent even better as it allows you to Stun\nan additional Hero or more often respectively.\nPick this Talent when your team needs interrupts for enemy Abilities\nor when your team needs extra peeling, especially if you have\nSurge of Light or Piercing Light at Level 4\nwhich synergize with it.\n✔\nVarian's Legacy\n(Level 20)\nAnduin\nBasic Attacks burn enemies for 87 (+4% per level) damage over 3 seconds and Anduin heals for 50% of the damage dealt.\nVarian's Legacy is a decent Talent that increases the damage\nyou can deal with Basic Attacks by adding a burning effect to them and your survivability\nby healing you for half of the damage done with it.\nConsider picking this Talent when you need extra damage\nand you do not need anything else from this Tier (for example when\nyour team has another Healer in addition to Anduin),\nbecause otherwise Varian's Legacy is quite underwhelming.\nThe damage over time of Varian's Legacy\ncontributes to the cooldown reduction of both\nLightwell at Level 1\nand Inner Focus at Level 16."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 Jul. 2026: Guide reviewed.\n12 Apr. 2025: Guide reviewed.\n31 Jul. 2024: Power Word: Shield's Description fixed.\n12 Dec. 2023: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n25 Sep. 2022: Guide improved.\n07 Jul. 2022: Builds updated.\n06 May 2022: Builds updated.\n21 Nov. 2021: Builds updated.\n30 Aug. 2021: Builds updated.\n03 Aug. 2021: Builds updated.\n17 Jun. 2021: Guide reviewed for the latest Balance Update.\n30 May 2021: Builds updated.\n17 May 2021: Guide reviewed for the latest Patch.\n22 Mar. 2021: Builds updated.\n09 Mar. 2021: Talents fixed.\n25 Feb. 2021: New layout.\n24 Feb. 2021: Builds and Talent Descriptions updated.\n15 Feb. 2021: Builds updated.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n23 Oct. 2020: Builds fixed.\n11 Oct. 2020: Guide reviewed for the latest Balance Update.\n15 Sep. 2020: Builds updated.\n25 Jul. 2020: Builds modified to reflect the current metagame.\n07 May 2020: Builds and Descriptions changed according to the latest Balance Update.\n09 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n05 Jun. 2019: Checked and proof-read Anduin's guide and found no need for necessary changes.\n23 May 2019: Updated Anduin's talents and builds in accordance with the latest Balance Update.\n03 May 2019: Changed Moral Compass from Not Recommended to Recommended and Holy Reach from Recommended to Not Recommended.\n28 Apr. 2019: Guide added.\nShow more\nShow less"
+  }
+ ]
+}

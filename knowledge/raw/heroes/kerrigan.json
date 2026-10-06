@@ -1,0 +1,300 @@
+{
+ "slug": "kerrigan",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/kerrigan-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/kerrigan-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/kerrigan-talents"
+ },
+ "guide": [
+  {
+   "title": "Kerrigan's Overview",
+   "id": "kerrigans-overview",
+   "text": "Kerrigan is a Melee Assassin that utilizes a devestating combo of\nPrimal Grasp and Impaling Blades to\nStun and damage groups of enemies. Kerrigan is able\nto deal very high burst damage to her target,\nalthough she is vulnerable to burst damage herself due to her low Health pool and lack\nof defensive Abilities. One of Kerrigan's greatest strengths is her Ability to\nroam the battlefield in search of ganks, as simply one\nor two successful picks will provide her team a significant Experience lead that can many\ntimes snowball into an easy victory."
+  },
+  {
+   "title": "Kerrigan's Strengths and Weaknesses",
+   "id": "kerrigans-strengths-and-weaknesses",
+   "text": "Strengths\nExcellent burst damage and crowd-control\nStrong inititaition by means of Ravage\nExcels at ganking opponents right from the get-go\nDeceptively tanky due to Assimilation and Assimilation-related Talents\nGreat against Spell Damage dealers because of Psionic Barrier\nWeaknesses\nIncredibly vulnerable to crowd-control\nVery reliant on Ability cooldowns\nHigh skill cap and learning curve\nNo means of escape (without Psionic Shift)\nVery dependent on completing the first part of Ravage's Quest\nHigh mana cost for low cooldown Abilities"
+  },
+  {
+   "title": "Kerrigan's Talent Build Cheatsheet",
+   "id": "kerrigans-talent-build-cheatsheet",
+   "text": "Primal Grasp Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nPrimal Grasp Build consists in constantly having stacked spell armor\nthrough Psionic Barrier and Psionic Pulse.\nIt should be the choice when facing more than one spell damage\ndealer, since it will greatly reduce their damage against Kerrigan.\nAfter Level 13, to get the most out of this build, you should learn the pulse timings from\nPrimal Grasp and Psionic Pulse.\nPrimal Grasp pulses 2.5 seconds after being used,\nwhile the second pulse from Psionic Pulse happens\n4.5 seconds after the cast. Each pulse will increase Kerrigan's Movement\nSpeed and spell armor, while also extending the\nduration of the existing bonuses from Psionic Barrier.\nDuring fights, Kerrigan should use Ravage shortly\nbefore each pulse to hit as many targets as possible and keep these bonuses\nactive.\nCombo Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Combo Build favors Talent options that give\nKerrigan the most utility possible, while also having good\nburst damage in teamfights.\nThis Build is good if your playstyle revolves around following a Tank's engages\nor if the enemy team has many ways to punish your dives.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKerrigan's ARAM Build is focused on adding as much survivability and damage\nas possible when fighting against 5 enemies at once. While\nSiphoning Impact paired with\nBoundless Fury greatly increases the Shields provided\nby Assimilation, Psionic Pulse\nin combination with Psionic Barrier will provide enough\nSpell Armor to make those Shields and Kerrigan's\nHealth last much longer.\nWhen playing without a Healer, Assimilation Mastery\ncan be a good Level 1 choice, as it provides strong sustain and helps with\nMana management, allowing Kerrigan to use her combo more often.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Kerrigan's Synergies and Counters",
+   "id": "kerrigans-synergies-and-counters",
+   "text": "Kerrigan synergizes with\nKerrigan works best with allies who are able to prevent her from being immediately killed\nby the enemy after engaging onto a target with Ravage.\nAlso, Heroes that are able to followup on her Primal Grasp/Impaling Blades combo with\nadditional crowd-control and burst damage are always a bonus.\nKerrigan is countered by\nKerrigan is countered by Heroes who are able to prevent her target of focus from\nbeing immediately killed, which most often will leave her vulnerable and without\nmeans of escape deep within the enemy backline. She will also\nstruggle against teams with multiple sources of strong\ncrowd-control that will lock her up after she initiates."
+  },
+  {
+   "title": "Kerrigan's Maps",
+   "id": "kerrigans-maps",
+   "text": "Kerrigan's stronger maps\nKerrigan's average maps\nKerrigan's weaker maps\nKerrigan is best suited for smaller Battlegrounds that are oriented primarily\naround team fighting, as that is where she excels most. She also thrives on\nthese Maps because shorter rotations allow her to stack\nRavage's Quest quickly through frequent wave clears\nand skirmishes. Maps that contain multiple bushes with paths that\nlead behind the enemy team will more easily allow Kerrigan to flank\nher opponents. Kerrigan should avoid larger Maps where fights are rarer and it\nis harder to keep her Quest progress consistent."
+  },
+  {
+   "title": "Kerrigan's Tips and Tricks",
+   "id": "kerrigans-tips-and-tricks",
+   "text": "Kerrigan should always use her Basic Abilities wisely in order to conserve Mana.\nIn fights, always use Impaling Blades and Primal Grasp together. Use Primal Grasp to pull enemies into Impaling Blades' area-of-effect.\nPrimal Grasp will always pull enemies the same distance. Take this into account when placing Impaling Blades.\nRavage can be used on enemy Structures or Summons to close the gap between enemy Heroes or to retreat from a compromised position.\nKerrigan excels with allied Heroes that can follow-up on her burst damage and crowd-control, however is weak against enemy teams with a strong frontline and lots of lockdown.\nAttempt to flank enemies whenever possible to take advantage of an enemy Hero's poor positioning.\nEnemies will usually attempt to avoid Kerrigan's Primal Grasp/ Impaling Blades combo by side-stepping it preemptively. Use this to your advantage when pursuing them by holding onto Kerrigan's combo until her target puts themselves in a bad position, making her combo unavoidable.\nOnly use Primal Grasp and Ravage when clearing waves, since Impaling Blades is not necessary and costs more mana.\nWhen clearing waves, it is better to focus on getting 7 Ravage stacks, rather than trying to clear the wave as fast as possible. To do this, focus on the Ranged Minions first, while keeping an eye on the Melee Minions' Health.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Kerrigan's Role in the Current Meta",
+   "id": "kerrigans-role-in-the-current-meta",
+   "text": "Kerrigan is heavily dependent on completing the first part of\nRavage's Quest as soon as possible. For that reason,\nshe performs best when rotating with her team, as she can gain stacks from\nMinion waves while also threatening pickoffs. Pair her with aggressive Heroes\nwho can follow up on her engages, help secure takedowns, and protect her when\nshe commits. If Kerrigan is being countered early and rotations are too risky,\nshe can become a weak asset until the first part of the Quest is completed. In that\ncase, it is often better to split-push or Double Soak\nduring Objectives to accelerate Quest completion. Once the first part is completed,\nKerrigan becomes a major threat, as her Ravage damage is already excellent and\nshe can quickly punish exposed targets. However, she should still focus on completing\nthe second part of it, to guarantee her late-game relevance.\nKerrigan benefits the most on smaller Maps, where rotations are shorter and\nit is easier to collect Quest stacks while staying near your team, such as\nDragon Shire, Tomb of the Spider Queen, and\nBraxis Holdout. On larger Maps, it is harder to rotate safely and\nkeep up constant pressure, so prioritize waveclear and efficient lane coverage\nto keep Ravage's Quest progressing, then look for\nteam rotations once you have reached the first milestone."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Jan. 2026 (talents page): Builds and Talents updated after Kerrigan's rework.\n29 Jan. 2026 (abilities page): Guide updated after Kerrigan's rework.\n29 Jan. 2026 (this page): Guide updated after Kerrigan's rework.\n31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n05 Jun. 2022 (this page): Guide updated to reflect meta development.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n26 Feb. 2021 (this page): Updated Ravage Build.\n20 Jan. 2021 (this page): Guide reviewed after recent balance patch.\n08 Oct. 2020 (talents page): Builds and Talents updated after recent balance patch.\n08 Oct. 2020 (this page): Guide updated after recent balance patch.\n18 May 2020 (this page): Updated tips and counters.\n09 Apr. 2020 (talents page): Builds and Talent changes to better reflect current meta.\n01 Oct. 2018 (talents page): Full page updated to reflect changes made in the recent balance patch.\n01 Oct. 2018 (abilities page): Updated ability page to reflect changes published with the recent balance patch.\n01 Oct. 2018 (this page): Full guide updated to reflect changes made in the recent balance patch.\n01 Sep. 2017 (talents page): Level 1 Talent Energizing Grasp and Level 7 Talent Adaption have been removed in accordance to the Aug. 31 Balance update.\n01 Sep. 2017 (this page): Level 1 Talent Energizing Grasp and Level 7 Talent Adaption have been removed in accordance to the Aug. 31 Balance update.\n13 Jun. 2017 (talents page): Level 20 Talent Bolt-of-the-Storm replaced with Psionic Shift. Discussion and builds updated accordingly.\n13 Jun. 2017 (this page): Level 20 Talent Bolt-of-the-Storm replaced with Psionic Shift. Discussion and builds updated accordingly.\n04 Nov. 2016 (talents page): Kerrigan rework with new guide format.\n04 Nov. 2016 (this page): Kerrigan rework with new guide format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Kerrigan's Tips and Tricks",
+   "id": "kerrigans-tips-and-tricks",
+   "text": "Kerrigan should always use her Basic Abilities wisely in order to conserve Mana.\nIn fights, always use Impaling Blades and Primal Grasp together. Use Primal Grasp to pull enemies into Impaling Blades' area-of-effect.\nPrimal Grasp will always pull enemies the same distance. Take this into account when placing Impaling Blades.\nRavage can be used on enemy Structures or Summons to close the gap between enemy Heroes or to retreat from a compromised position.\nKerrigan excels with allied Heroes that can follow-up on her burst damage and crowd-control, however is weak against enemy teams with a strong frontline and lots of lockdown.\nAttempt to flank enemies whenever possible to take advantage of an enemy Hero's poor positioning.\nEnemies will usually attempt to avoid Kerrigan's Primal Grasp/ Impaling Blades combo by side-stepping it preemptively. Use this to your advantage when pursuing them by holding onto Kerrigan's combo until her target puts themselves in a bad position, making her combo unavoidable.\nOnly use Primal Grasp and Ravage when clearing waves, since Impaling Blades is not necessary and costs more mana.\nWhen clearing waves, it is better to focus on getting 7 Ravage stacks, rather than trying to clear the wave as fast as possible. To do this, focus on the Ranged Minions first, while keeping an eye on the Melee Minions' Health."
+  },
+  {
+   "title": "Assimilation",
+   "id": "assimilation",
+   "text": "Assimilation\n(D)\nKerrigan\nPassive\nCooldown: 4 seconds\nGain 10% of damage dealt from Abilities and 20% from Basic Attacks as Shields for 6 seconds. Shield amount gained doubled against Heroes.\nCurrent maximum: 1004 (+4% per level)\nAssimilation allows Kerrigan to\ndive deep into team fights and virtually increase\nher maximum Health by generating a Shield through her own damage output. Assimilation has\nvery little impact during the early-game, however becomes an integral component\nto Kerrigan's success as the match progresses and team fights become more\nfrequent. Keep in mind that specific\nburst compositions may be too much for Kerrigan\nto handle should she rely solely on Assimilation to keep her alive after she has\ncommitted to a fight."
+  },
+  {
+   "title": "Ravage",
+   "id": "ravage",
+   "text": "Ravage\n(Q)\nKerrigan\nMana: 20\nCharges: 2\nRecharge Time: 8 seconds\nLeap to a target, dealing 115 (+4% per level) damage. If the enemy dies within 0.75 seconds, restore 1 charge and refund 20 Mana.\nQuest: Kill enemies within a short distance of Kerrigan. Minions grant 1 stack and Heroes grant 7 stacks.\nReward: After reaching 100 stacks, Ravage deals 125 additional damage and Hero kills now provide 14 stacks.\nMythic Reward: After reaching a 250 stacks, Ravage deals a further 200 additional damage.\nRavage is Kerrigan's main mobility tool and the key\nto setting up her combo. It allows her to engage, escape, and reposition to\nconnect Primal Grasp and\nImpaling Blades on a priority target.\nRavage has a Quest that greatly increases its damage. Completing the first\npart of the Quest is already an excellent damage boost and should be done as\nsoon as possible. Each Minion wave can provide 7 stacks, and a takedown also\ngrants 7 stacks. For this reason, Kerrigan should prioritize stacking the\nQuest through wave clears. Pursuing takedowns for stacks is rarer and riskier,\nand should be done mainly when there is no wave to clear or when you have\nalready committed to a fight.\nBefore the first Quest milestone is completed, Ravage deals low damage and\nshould be treated primarily as mobility. Use it to engage, escape, or\nreposition, then follow up with Primal Grasp and\nImpaling Blades.\nCompleting the second part of the Quest may not always be realistic, but it\nshould be your goal when the game state allows it. The extra damage it\nprovides, especially when paired with Boundless Fury\nand any Level 16 damage Talent, can make Kerrigan a decisive threat in fights.\nWhile Ravage's cooldown will rarely reset from killing an enemy Hero, it is easy to proc\noff of Minions. Kerrigan can use this to her advantage by leaping to an enemy Minion,\nand then leaping again to her primary target. Using this method\nwill allow Kerrigan to cross much greater distances than she would have been\notherwise able to."
+  },
+  {
+   "title": "Impaling Blades",
+   "id": "impaling-blades",
+   "text": "Impaling Blades\n(W)\nKerrigan\nMana: 80\nCooldown: 9 seconds\nAfter 1.25 seconds, deal 150 (+4% per level) damage to enemies within the target area, Stunning them for 0.75 seconds.\nImpaling Blades does not only Stun all enemies it strikes,\nbut also deals a significant amount of area of effect damage to them.\nThere is a noticeable delay between when the Ability is cast and when it will actually\ntrigger, making Impaling Blades relatively difficult to land. This is why Impaling\nBlades should always (for the most part) be used in conjunction with\nPrimal Grasp, as Primal Grasp will\npull enemies into Impaling Blades,\nmaking it almost impossible to avoid. When fleeing from a pursuing enemy, it is recommended to\nsimply cast Impaling Blades alone, as Primal Grasp will do nothing to help Kerrigan gain distance\nand will cause her to pause for its cast duration."
+  },
+  {
+   "title": "Primal Grasp",
+   "id": "primal-grasp",
+   "text": "Primal Grasp\n(E)\nKerrigan\nMana: 65\nCooldown: 8 seconds\nPulls enemies within the target area towards Kerrigan, dealing 40 (+4% per level) damage. After 2.5 seconds, an explosion occurs around Kerrigan, dealing 160 (+4% per level) damage to nearby enemies.\nWhen clearing Minion waves, do not combine\nPrimal Grasp with Impaling Blades,\nas Primal Grasp plus Ravage will usually clear the\nwave quickly while saving Mana. In fights, Primal Grasp should almost always be\npaired with Impaling Blades, as the two Abilities are far less impactful when\nused separately.\nPrimal Grasp's delayed area of effect pulse\nrequires Kerrigan to stay close to her target(s) after the combo to get full\nvalue. When needed, Kerrigan can use Ravage shortly\nbefore the pulse to reposition and ensure it hits the priority target.\nNote that Primal Grasp only pulls affected\nenemies a predetermined distance towards Kerrigan, rather than pulling them to a specific point.\nUnderstanding and mastering this aspect of Primal Grasp is key to Kerrigan's strength and success.\nNewer Kerrigan players are strongly encouraged to spend time practicing her Primal Grasp/Impaling Blades\ncombo in Training; as without it, Kerrigan loses almost everything that makes her such a valuable\nasset to her team."
+  },
+  {
+   "title": "Maelstrom",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMaelstrom\n(R)\nKerrigan\nHeroic\nMana: 80\nCooldown: 90 seconds\nDeals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.\nIn contrast to Kerrigan's other Abilities, which deal burst damage,\nMaelstrom deals damage over time, making it extremely\nimportant that she is able to survive past the enemy team's initial burst damage.\nMaelstrom should be used in every major engagement, as well as in duels or small skirmishes\nif Kerrigan needs either the additional damage or damage mitigation provided by the Shields\nMaelstrom will generate through Assimilation. Try to have Maelstrom\naffect as many targets when possible, however it is more advantageous for Kerrigan to\nstick to her allies' target of focus instead of positioning where Maelstrom might hit one or\ntwo additional targets."
+  },
+  {
+   "title": "Summon Ultralisk",
+   "id": "summon-ultralisk",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nSummon Ultralisk\n(R)\nKerrigan\nHeroic\nMana: 75\nCooldown: 80 seconds\nAfter 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 225 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.\nThe Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk.\nSummon Ultralisk summons an Ultralisk companion that\nfollows Kerrigan for 20 seconds. On cast, Kerrigan launches the Ultralisk in a\ntarget direction, Stunning and damaging the first enemy hit.\nThe Ultralisk then attacks, dealing Attack Damage and splashing nearby enemies\nfor 50% of that damage. Kerrigan can retarget the Ultralisk by reactivating\nthe Heroic Ability during its lifespan.\nSummon Ultralisk's stun can be used to initiate, as its long range can close the gap\non targets that would otherwise be out of reach for Kerrigan's combo. It can\nalso be used as follow-up after a combo to add a reliable\nStun and secure the takedown.\nThe Ultralisk's splash damage can hit multiple Minions in a wave, or damage\nmultiple enemy Structures at the same time when they are close enough. This\ndamage contributes to Assimilation Shields. After\nsummoning it, if no enemy Heroes are nearby, Kerrigan can retarget the\nUltralisk onto a Minion wave or Structures to quickly build a large Shield\nwhile she mounts and rotates."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Jan. 2026: Guide updated after Kerrigan's rework.\n31 May 2025: Guide reviewed.\n01 Oct. 2018: Updated ability page to reflect changes published with the recent balance patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Siphoning Impact (Level 1) Kerrigan Hitting an enemy Hero with Ravage grants 100 (+4% per level) points of Assimilation Shields."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Assimilation Mastery (Level 1) Kerrigan Regeneration Globe healing grants 50 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 150%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Fury of the Swarm (Level 1) Kerrigan After casting Ravage, Kerrigan's next Basic Attack within 3 seconds splashes for 100% damage around the target."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Ravaging Ferocity (Level 4) Kerrigan Ravage grants Kerrigan 25% Attack Speed for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Kinetic Fulmination (Level 4) Kerrigan Damaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 10%, up to 100%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Psionic Pulse (Level 4) Kerrigan Primal Grasp explodes a second time 2 seconds after its first explosion."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Queen of Blades (Level 7) Kerrigan Reduce the cooldown of Ravage by 4 seconds and increase its damage to Minions and Mercenaries by 100%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Boundless Fury (Level 7) Kerrigan Hitting an enemy Hero with Ravage grants a charge of Ravage. Can only occur once every 12 seconds per Hero."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Bladed Momentum (Level 7) Kerrigan Basic Attacks against enemy Heroes reduce the cooldown of Kerrigan's Basic Abilities by 0.75 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Maelstrom (Level 10) Kerrigan Mana: 80 Cooldown: 90 seconds Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Summon Ultralisk (Level 10) Kerrigan Mana: 75 Cooldown: 80 seconds After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 225 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds. The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Psionic Barrier (Level 13) Kerrigan Each enemy Hero hit by Primal Grasp grants 20 Spell Armor and 4% Movement Speed for 4 seconds, stacking up to 20% Movement Speed."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Volatile Power (Level 13) Kerrigan Increase the amount of Assimilation Shields granted from damage dealt by 10%, but reduce duration of Assimilation by 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Chrysalis (Level 13) Kerrigan Cooldown: 90 seconds Activate to place Kerrigan in a Chrysalis with 650 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 4% of her maximum Health per second. Enemies can destroy the Chrysalis to end its effects early."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Mounting Potency (Level 16) Kerrigan Ravage grants 5% Spell Power for 5 seconds, up to 40%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Painful Spikes (Level 16) Kerrigan Enemies hit by Impaling Blades take an additional 60 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Unbridled Energy (Level 16) Kerrigan Damaging a Hero with a Heroic Ability grants 35% Spell Power for 4 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Omegastorm (Level 20) Kerrigan Maelstrom's duration is increased by 0.4 seconds every time it damages a Hero."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Torrasque (Level 20) Kerrigan Increase the Health and Basic Attack damage of the Ultralisk by 20%. The Ultralisk morphs into an egg when it dies. If the egg isn't killed within 4 seconds, a new Ultralisk is born."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Assimilation Blades (Level 20) Kerrigan Damaging an enemy increases Basic Attack damage by 2% for 5 seconds, up to 40%."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Psionic Shift (Level 20) Kerrigan Cooldown: 70 seconds Activate to teleport to a nearby location, dealing 50 (+4% per level) damage to nearby enemies. Generates 300% increased Assimilation Shields from the damage dealt."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Kerrigan's Talent Build",
+   "id": "kerrigans-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✘︎\n?\n✓\n7\n✘︎\n✓\n✘︎\n10\n?\n✓\n13\n✓\n?\n?\n16\n✘︎\n?\n✓\n20\n✘︎\n✘︎\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Kerrigan's Talent Build Cheatsheet",
+   "id": "kerrigans-talent-build-cheatsheet",
+   "text": "Primal Grasp Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nPrimal Grasp Build consists in constantly having stacked spell armor\nthrough Psionic Barrier and Psionic Pulse.\nIt should be the choice when facing more than one spell damage\ndealer, since it will greatly reduce their damage against Kerrigan.\nAfter Level 13, to get the most out of this build, you should learn the pulse timings from\nPrimal Grasp and Psionic Pulse.\nPrimal Grasp pulses 2.5 seconds after being used,\nwhile the second pulse from Psionic Pulse happens\n4.5 seconds after the cast. Each pulse will increase Kerrigan's Movement\nSpeed and spell armor, while also extending the\nduration of the existing bonuses from Psionic Barrier.\nDuring fights, Kerrigan should use Ravage shortly\nbefore each pulse to hit as many targets as possible and keep these bonuses\nactive.\nCombo Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Combo Build favors Talent options that give\nKerrigan the most utility possible, while also having good\nburst damage in teamfights.\nThis Build is good if your playstyle revolves around following a Tank's engages\nor if the enemy team has many ways to punish your dives.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKerrigan's ARAM Build is focused on adding as much survivability and damage\nas possible when fighting against 5 enemies at once. While\nSiphoning Impact paired with\nBoundless Fury greatly increases the Shields provided\nby Assimilation, Psionic Pulse\nin combination with Psionic Barrier will provide enough\nSpell Armor to make those Shields and Kerrigan's\nHealth last much longer.\nWhen playing without a Healer, Assimilation Mastery\ncan be a good Level 1 choice, as it provides strong sustain and helps with\nMana management, allowing Kerrigan to use her combo more often."
+  },
+  {
+   "title": "Level 1 Talents for Kerrigan",
+   "id": "level-1",
+   "text": "?\nSiphoning Impact\n(Level 1)\nKerrigan\nHitting an enemy Hero with Ravage grants 100 (+4% per level) points of Assimilation Shields.\n?\nAssimilation Mastery\n(Level 1)\nKerrigan\nRegeneration Globe healing grants 50 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 150%.\n✓\nFury of the Swarm\n(Level 1)\nKerrigan\nAfter casting Ravage, Kerrigan's next Basic Attack within 3 seconds splashes for 100% damage around the target."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Siphoning Impact can be a good Talent choice on Maps\nwhere fights happen far from the wave, and there is not much waveclear\ninvolved, such as Battlefield of Eternity, Hanamura Temple,\nAlterac Pass and Cursed Hollow.\nThis Talent works particularly well when combined with Boundless Fury as\nthe extra charges of Ravage can be used to generate more Assimilation Shield.\nIt is important to note that this Shield is increased by the extra Spell Power provided\nby Unbridled Energy.\nAssimilation Mastery provides Kerrigan a solid amount of Shield\nvia Assimilation anytime she is under the effects of a\nRegeneration Globe. She is also granted bonus Health and Mana Regeneration as long as\nAssimilation is active, which can be useful for\nsustain and Mana management outside of fights. However, this Talent brings no additional\ndamage to Kerrigan's kit, and not enough self-sustain in fights\nwhen compared with Siphoning Impact.\nFury of the Swarm adds splash damage to Kerrigan's\nBasic Attacks after casting Ravage. The splash\ndamage is phenomenal for clearing Minion waves, especially during the early\ngame when Kerrigan will be rotating between lanes to quickly stack\nRavage by killing Minions.\nThe splash damage also helps to quickly stack up additional\nburst damage for Kinetic Fulmination."
+  },
+  {
+   "title": "Level 4 Talents for Kerrigan",
+   "id": "level-4",
+   "text": "✘︎\nRavaging Ferocity\n(Level 4)\nKerrigan\nRavage grants Kerrigan 25% Attack Speed for 3 seconds.\n?\nKinetic Fulmination\n(Level 4)\nKerrigan\nDamaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 10%, up to 100%.\n✓\nPsionic Pulse\n(Level 4)\nKerrigan\nPrimal Grasp explodes a second time 2 seconds after its first explosion."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Ravaging Ferocity slightly increases Kerrigan's\nAttack Speed. However, Kerrigan will rarely be able to deliver Basic Attacks\nconsistently during fights, making this Talent unreliable. As a result, it is\nnot recommended, as the other options are much more consistent.\nWhen fully stacked, Kinetic Fulmination causes Impaling Blades\nto deal a massive amount of burst damage. One of the fastest ways to stack up applications of\nKinetic Fulmination is by pairing this Talent with Fury of the Swarm at Level 1.\nKerrigan can gather applications off of Minion waves very easily before heading into a skirmish or teamfight\nto quickly burst down a Hero. Kerrigan can keep\nup her applications of Kinetic Fulmination when traveling between lanes by Basic Attacking Mercenary Camps or\nenemy Structures such as left over Walls.\nPsionic Pulse is the core element behind a successful\nPrimal Grasp Build. It can deal an amazing amount of\narea of effect damage upon initiation and after sticking to an enemy\nHero. Keep in mind it takes 4.5 Seconds for Psionic Pulse's damage to be fully applied (assuming\nKerrigan is not immediately peeled away from her target) therefore it is important to utilize the\nmultiple charges of Ravage to stay on top of her target(s)."
+  },
+  {
+   "title": "Level 7 Talents for Kerrigan",
+   "id": "level-7",
+   "text": "✘︎\nQueen of Blades\n(Level 7)\nKerrigan\nReduce the cooldown of Ravage by 4 seconds and increase its damage to Minions and Mercenaries by 100%.\n✓\nBoundless Fury\n(Level 7)\nKerrigan\nHitting an enemy Hero with Ravage grants a charge of Ravage. Can only occur once every 12 seconds per Hero.\n✘︎\nBladed Momentum\n(Level 7)\nKerrigan\nBasic Attacks against enemy Heroes reduce the cooldown of Kerrigan's Basic Abilities by 0.75 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Queen of Blades adds a good amount of extra damage against Minions\nand Mercenaries, which speeds up Ravage's Quest completion.\nHowever, the cooldown Reduction part of the Talent cannot compete with\nBoundless Fury's extra Ravage's\ncharges, being overshadowed by it.\nBoundless Fury grants Kerrigan\nan additional charge of Ravage\nafter striking an enemy Hero with Ravage. This Talent is great for Kerrigan's mobility, and allows her to\nmore reliably navigate her way through cluttered team-fights and across longer distances. It is\nimportant to note that the \"Cooldown\" of Boundless Fury is separate from that of the recharges for Ravage.\nThis means that upon Kerrigan's first use of Ravage,\nher Ravage's charge cooldown will not begin.\nKerrigan should therefore use\nher first two casts of Ravage consecutively if her goal is to put out as much damage as possible without\nconsideration of Ravage's potential for strategic mobility.\nBladed Momentum significantly reduces the cooldowns\nof Kerrigan's Basic Abilities as she strikes enemy targets with her Basic\nAttacks. This Talent should only be picked when paired with\nFury of the Swarm, as the splash Basic Attacks will also\nreduce these cooldowns. It can be a good option when you expect it to be very\ndifficult to quickly complete Ravage's Quest.\nHowever, it competes with Boundless Fury, which will\nbe the better choice in most games."
+  },
+  {
+   "title": "Level 10 Talents for Kerrigan",
+   "id": "level-10",
+   "text": "?\nMaelstrom\n(Level 10)\nKerrigan\nMana: 80\nCooldown: 90 seconds\nDeals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.\n✓\nSummon Ultralisk\n(Level 10)\nKerrigan\nMana: 75\nCooldown: 80 seconds\nAfter 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 225 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.\nThe Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nMaelstrom deals plenty of\narea of effect damage although its primary purpose should\nbe to generate Shields from Assimilation. The damage\nper second element of Maelstrom is very slow, and does not seem to fit too\nwell with Kerrigan's high burst kit. Kerrigan's main objective is to dive the\nenemy backline. This strategy usually results in Kerrigan\nbecoming a primary target of focus for the enemy team. The additional Shield\ngenerated by Maelstrom via Assimilation is integral to Kerrigan's survival.\nTry to keep in mind that Maelstrom's main purpose is not to deal team wide\ndamage, and players should not sacrifice single target focus to try and\nposition themselves within multiple enemies, unless the situation allows for\nit.\nSummon Ultralisk is great for harassing one or a couple of\nenemy Heroes and zoning them away from teamfights or Objectives.\nThe Ultralisk's heightened Movement Speed will ensure that it will be able to\ndamage most enemies trying to kite or flee from it. The charge and Stun component of\nthe Ultralisk when summoned allows Kerrigan to lockdown a target who may be otherwise\noutside of the range of her initiation via Ravage. Summon\nUltralisk tends to be the better Heroic Ability option when Kerrigan is fighting\nin more open Maps that do not consist of as many narrow choke points.\nUltralisk is also the ideal choice when Kerrigan finds herself in more 1-on-1\nsituations as the Stun and burst damage will more often than not outperform\nthe area of effect damage of Maelstrom."
+  },
+  {
+   "title": "Level 13 Talents for Kerrigan",
+   "id": "level-13",
+   "text": "✓\nPsionic Barrier\n(Level 13)\nKerrigan\nEach enemy Hero hit by Primal Grasp grants 20 Spell Armor and 4% Movement Speed for 4 seconds, stacking up to 20% Movement Speed.\n?\nVolatile Power\n(Level 13)\nKerrigan\nIncrease the amount of Assimilation Shields granted from damage dealt by 10%, but reduce duration of Assimilation by 3 seconds.\n?\nChrysalis\n(Level 13)\nKerrigan\nCooldown: 90 seconds\nActivate to place Kerrigan in a Chrysalis with 650 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 4% of her maximum Health per second.\nEnemies can destroy the Chrysalis to end its effects early."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Psionic Barrier is a strong Talent when paired with\nPsionic Pulse, as it provides Kerrigan with a large\namount of Spell Armor and Movement Speed for most of a fight. The pulses\ngenerated by Primal Grasp will refresh and extend\nthese bonuses, keeping them active during an engagement. However, it will be\nless effective when the enemy team is mostly dealing\nPhysical Damage.\nVolatile Power is the option to pick when\nthe enemy team has low burst damage and limited\ncrowd control that can quickly punish Kerrigan. It\nsignificantly increases her survivability through a higher\nAssimilation Shield. The trade-off is that Kerrigan's\nShield will now expire 50% faster, lasting only 3 Seconds. Volatile Power\nmitigates all sources of damage, whereas Psionic Barrier\nis usually the better choice when the enemy team has multiple Spell Damage\nthreats.\nChrysalis is the better choice when against\nheavy burst damage and impactful\ncrowd control. It can mitigate a large amount of\nincoming damage, allowing Kerrigan to survive and re-enter the fight with\nhigher Health."
+  },
+  {
+   "title": "Level 16 Talents for Kerrigan",
+   "id": "level-16",
+   "text": "✘︎\nMounting Potency\n(Level 16)\nKerrigan\nRavage grants 5% Spell Power for 5 seconds, up to 40%.\n?\nPainful Spikes\n(Level 16)\nKerrigan\nEnemies hit by Impaling Blades take an additional 60 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds.\n✓\nUnbridled Energy\n(Level 16)\nKerrigan\nDamaging a Hero with a Heroic Ability grants 35% Spell Power for 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Mounting Potency takes a lot\nof time to ramp-up within a teamfight, and can easily fall off when not careful.\nThis Talent is completely overshadowed by Unbridled Energy,\nbecause it would only be better in fights where your Heroic Ability is on cooldown\nand it will be better to not fight in this scenario.\nPainful Spikes can be a good Level 16 choice when\nRavage's Quest is delayed, as it provides reliable\nbonus damage that is triggered by any source of damage, including her Heroic\nAbilities Maelstrom and\nSummon Ultralisk.\nUnbridled Energy should be picked when\nRavage's Quest is completed or close to completion,\nas its damage increase from Quest progress will be much higher than what\nPainful Spikes provides."
+  },
+  {
+   "title": "Level 20 Talents for Kerrigan",
+   "id": "level-20",
+   "text": "✘︎\nOmegastorm\n(Level 20)\nKerrigan\nMaelstrom's duration is increased by 0.4 seconds every time it damages a Hero.\n✘︎\nTorrasque\n(Level 20)\nKerrigan\nIncrease the Health and Basic Attack damage of the Ultralisk by 20%. The Ultralisk morphs into an egg when it dies. If the egg isn't killed within 4 seconds, a new Ultralisk is born.\n?\nAssimilation Blades\n(Level 20)\nKerrigan\nDamaging an enemy increases Basic Attack damage by 2% for 5 seconds, up to 40%.\n✓\nPsionic Shift\n(Level 20)\nKerrigan\nCooldown: 70 seconds\nActivate to teleport to a nearby location, dealing 50 (+4% per level) damage to nearby enemies. Generates 300% increased Assimilation Shields from the damage dealt."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Omegastorm is not a good choice here, firstly, because\nit competes with Psionic Shift, and it will only be a valuable Talent in long teamfights.\nAs Kerrigan, you cannot be in the middle of enemy team after using your combo,\nsometimes even the increased duration might not be transformed into damage, since you\nwill have to retreat sooner.\nTorrasque can be a decent option in less coordinated\nscenarios, such as Quick match or Silver and Bronze Storm League, since enemies will\nhave a hard time bursting Ultralisk, giving this Talent much value.\nThe cooldown timer of Summon Ultralisk will continue to run regardless\nof how long the Ultralisk stays alive.\nAssimilation Blades's damage bonus may prove useful, but takes a very\nlong time to effectively ramp-up and the Talent is overall much less game-changing than\nwhat is provided in utility and versatility of Psionic Shift.\nHowever, it can be a good choice for long fights, as Psionic Shift will only be used once,\nwhile Assimilation Blades will be constantly up.\nPsionic Shift is by far one of the best Talents\nin Kerrigan's entire kit, as it has a multitude of uses. The versatility provided\nby Psionic Shift makes it almost mandatory for Kerrigan. Most often Psionic Shift\nwill be used for survival, primarily to escape the fray once\nKerrigan has collapsed on and killed an enemy Hero. Since Psionic Shift's Shield is\nactivated by each enemy hit, including Minions, Structures, Mercenaries, and Monsters, it can\nbe used towards a Minion wave to get 55% of your maximum Health in the form of Shields.\nShould Kerrigan be caught within crowd control,\nPsionic Shift can be used for an otherwise impossible escape. In a game\nwhere good positioning is key, Psionic Shift should rarely be overlooked."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Jan. 2026: Builds and Talents updated after Kerrigan's rework.\n31 May 2025: Guide reviewed.\n26 Mar. 2021: Updated Talent recommendations.\n08 Oct. 2020: Builds and Talents updated after recent balance patch.\n09 Apr. 2020: Builds and Talent changes to better reflect current meta.\n01 Oct. 2018: Full page updated to reflect changes made in the recent balance patch.\n01 Sep. 2017: Level 1 Talent Energizing Grasp and Level 7 Talent Adaption have been removed in accordance to the Aug. 31 Balance update.\n13 Jun. 2017: Level 20 Talent Bolt-of-the-Storm replaced with Psionic Shift. Discussion and builds updated accordingly.\n04 Nov. 2016: Kerrigan rework with new guide format.\nShow more\nShow less"
+  }
+ ]
+}

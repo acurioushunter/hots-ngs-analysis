@@ -1,0 +1,275 @@
+{
+ "slug": "varian",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/varian-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/varian-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/varian-talents"
+ },
+ "guide": [
+  {
+   "title": "Varian's Overview",
+   "id": "varians-overview",
+   "text": "Varian is a Bruiser who can also be played as\nMelee Assassin or a Tank\ndepending on his Heroic Ability that can be picked at Level 4 rather\nthan Level 10 like other Heroes."
+  },
+  {
+   "title": "Varian's Strengths and Weaknesses",
+   "id": "varians-strengths-and-weaknesses",
+   "text": "Strengths\nRole flexibility: Tank, Bruiser, Melee Assassin\nStrong engage when played as Tank with Taunt\nHigh burst damage when played as Melee Assassin with Colossus Smash\nGood duelist when played as Offlaner with Twin Blades of Fury\nWeaknesses\nLimited mobility\nLow waveclear\nWeak before Level 4"
+  },
+  {
+   "title": "Varian's Talent Build Cheatsheet",
+   "id": "varians-talent-build-cheatsheet",
+   "text": "Offensive Taunt Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nVarian's Offensive Taunt Build turns him into a Tank\nwho is capable of engaging and/or peeling for his team.\nIn particular, this variation of Taunt Build helps you burst down a given target\nwith the help of Overpower at Level 1 and by denying defensive tools\nwith either Mortal Strike or Shattering Throw at Level 13.\nWe recommend this Build when your team needs a Tank\nand your team's strategy consists of bursting down enemy Heroes.\nDefensive Taunt Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nVarian's Defensive Taunt Built turns him into a Tank\nwho is capable of engaging and/or peeling for his\nteam.\nIn particular, this variation of Taunt Build gives you access\nto Shield Wall at Level 10\nwhile avoiding anti-synergistic Talents, hence why we recommend\nHigh King's Quest at Level 1.\nYou can play this Build when your team needs a Tank,\nthe enemy team can deal a huge amount of burst damage,\nand your team does not have enough tools to deal with that.\nColossus Smash Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nColossus Smash Build turns Varian into a highly explosive\nMelee Assassin, who excels at\nbursting down enemy priority targets using\nColossus Smash to engage and\nexploit the Armor reduction effect to increase not only his\nown damage, but also the damage of the rest of his team.\nYou can play this Build only\nwhen your team does not need a Tank or an\nOfflaner because you will not be tanky enough\nto act as second frontline Hero.\nTwin Blades Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTwin Blades Build turns Varian into a Bruiser\nthanks to the additional damage that\nTwin Blades of Fury provides.\nKeep in mind that this Build is\nonly viable when playing as Offlaner, and not when\nyour team needs a Tank or a second\nAssassin.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nARAM Build turns Varian into a Tank\nwho is capable of engaging and/or peeling for his team.\nIn particular, this variation of Taunt Build helps you burst down a given target\nwith the help of Overpower at Level 1 and by denying defensive tools\nwith either Mortal Strike or Shattering Throw at Level 13.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Varian's Synergies and Counters",
+   "id": "varians-synergies-and-counters",
+   "text": "Varian synergizes with\nTaunt Build synergizes with Heroes who can easily follow up with\ncrowd control (like Malfurion that can\neasily land a Root just a moment before the\nTaunt is going to expire) and\nburst damage (such as Jaina who will be able to\nget full damage from her Blizzard).\nColossus Smash Build works better when your team has\ncrowd control but lacks\nburst damage to follow up.\nTwin Blades Build likes anything which can help Varian to stick on his target,\nusually something provided by the Tank\n(for example Johanna that can Slow and\nStun enemy Heroes nearby).\nVarian is countered by\nVarian, independently from the Build used, is countered by Heroes\nwho are able to kite him due to their range (such as Hanzo\nwho can also use Sonic Arrow to deny a flank)\nand/or Heroes that have tools to drastically compromise his already low\nmobility (such as Garrosh).\nTaunt Build is countered by Heroes who have a tool to remove his\nTaunt on a short cooldown (such as Rehgar\nusing Purge),\nto mitigate the burst damage that will come\nfrom his team (like Uther because he provides Armor\nto allied Heroes via Devotion), or to completely deny it.\nColossus Smash Build is countered by Heroes that have something to reduce or nullify\nthe burst damage that will come from him and his teammates\n(for example Medivh\nbecause Force of Will provides Protected,\na status effect that has no direct counters).\nTwin Blades Build heavily suffers from Heroes that can reduce his Attack Speed,\ncrowd control him, and/or burst\nhim down. Blinds are good against him as well."
+  },
+  {
+   "title": "Varian's Maps",
+   "id": "varians-maps",
+   "text": "Varian's stronger maps\nVarian's average maps\nVarian's weaker maps\nVarian is good on Maps where team fights happen not only at the Objective but\nalso in other locations of the battlefield because he can gain advantage from the fact that his\nHeroic Abilities have a really short cooldown and weak on Maps where there is\nonly one big team fight at the Objective because the enemy team can play safe\nthe rest of the time."
+  },
+  {
+   "title": "Varian's Tips and Tricks",
+   "id": "varians-tips-and-tricks",
+   "text": "When playing Taunt Build, remember that Taunt can be used to interrupt enemy channels (for example to stop Carrion Swarm by Mal'Ganis).\nWhen going for Colossus Smash Build, always make sure to use Colossus Smash first and other Abilities after in order to increase all damage dealt thanks to the Armor reduction on the enemy Hero.\nWhen choosing Twin Blades, do not go too far from your team so that they can focus the same enemy Hero as you and/or help you to survive.\nIf your team desperately needs a Tank, do not insist on taking Colossus Smash or Twin Blades of Fury at Level 4 because a Tank is really important to have in team.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Varian's Role in the Current Meta",
+   "id": "varians-role-in-the-current-meta",
+   "text": "Varian can be played as:\nTank when going for Taunt Build;\nMelee Assassin when going for Colossus Smash Build;\nOfflaner when going for Twin Blades Build.\nWhile it is quite useful to draft a flexible Hero whose Role is hard\nto assume for the opponents, you should already know what will be your\nHeroic Ability during the draft\nand communicate with your teammates before picking Varian so that they can\ncover the missing Roles in your team composition.\nIf you are playing in a Game Mode without draft, however, take a look\nat your team composition while the game is loading and decide what is\nthe best Heroic Ability to choose. While doing so, remember that the\ntools offered by a Tank are key elements\nto have a successful team composition."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2025 (talents page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n13 Dec. 2024 (talents page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (this page): Guide reviewed for the latest Balance Update.\n17 Dec. 2023 (talents page): Guide reviewed.\n17 Dec. 2023 (this page): Guide reviewed.\n21 Sep. 2023 (talents page): ARAM Build added.\n21 Sep. 2023 (this page): ARAM Build added.\n30 Mar. 2022 (talents page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (abilities page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (this page): Guide reviewed for the latest Balance Update.\n27 Jan. 2022 (talents page): Builds and Talent Descriptions updated.\n25 Jan. 2022 (this page): Builds and Counters updated.\n05 May 2021 (talents page): Taunt Builds' Descriptions improved.\n05 May 2021 (this page): Builds updated.\n25 Apr. 2021 (talents page): Builds updated.\n25 Apr. 2021 (this page): Builds updated.\n25 Feb. 2021 (talents page): New layout.\n21 Feb. 2021 (talents page): Updated Talent discussions and builds.\n15 Feb. 2021 (talents page): Builds updated.\n15 Feb. 2021 (this page): Builds updated.\n05 Nov. 2020 (talents page): Guide updated for the latest Balance Update.\n05 Nov. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (this page): Guide reviewed for the latest Balance Update.\n03 Apr. 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n03 Apr. 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n03 Apr. 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nTalent Build Cheatsheet updated to reflect the current metagame.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\nRole in the Current Meta modified to reflect the current metagame and to remove the unnecessary part about the now fixed Experience Globes.\n19 Dec. 2019 (talents page): Updated Frenzy's description in accordance with the latest Balance Update.\n16 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n16 Oct. 2019 (talents page): Updated Varian's Talents and Builds in accordance with the latest Balance Update.\n09 Sep. 2019 (talents page): Updated Varian's Talents and Talent Builds.\n09 Sep. 2019 (abilities page): Updated Varian's Abilities page.\n09 Sep. 2019 (this page): Updated Varian's Introduction section.\n18 Apr. 2019 (talents page): Updated Varian's early Talents and Talent Builds in accordance with the latest Balance Update.\n13 Oct. 2018 (talents page): Updated Talent Builds and changed Frenzy from Not Recommended to Situational.\n06 Apr. 2018 (talents page): Changed Second Wind from Situational to Recommended.\n04 Apr. 2018 (talents page): Changed Warbringer from Situational to Recommended.\n28 Mar. 2018 (talents page): Completely overhauled Varian's Builds and Talents in accordance with his recent Rework.\n11 Jul. 2017 (talents page): Changed High King's Quest from Situational to Recommended.\n03 Jul. 2017 (talents page): Updated Varian's Level 1 Talents.\n16 May 2017 (talents page): Updated Warbringer's description.\n11 Mar. 2017 (talents page): Updated Varian's talent section to fit the current meta.\n28 Feb. 2017 (talents page): Updated Warbringer in accordance with the latest Balance Update.\n18 Feb. 2017 (talents page): Re-arranged Varian's Level 13 and 16 talent tiers in accordance with the Lucio Update.\n04 Feb. 2017 (talents page): Updated Level 7 talent discussions and assessments.\n20 Dec. 2016 (talents page): Updated text for some talent discussions, but assessments remain the same.\n20 Dec. 2016 (this page): Adjusted weaknesses.\n15 Nov. 2016 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Varian's Tips and Tricks",
+   "id": "varians-tips-and-tricks",
+   "text": "When playing Taunt Build, remember that Taunt can be used to interrupt enemy channels (for example to stop Carrion Swarm by Mal'Ganis).\nWhen going for Colossus Smash Build, always make sure to use Colossus Smash first and other Abilities after in order to increase all damage dealt thanks to the Armor reduction on the enemy Hero.\nWhen choosing Twin Blades, do not go too far from your team so that they can focus the same enemy Hero as you and/or help you to survive.\nIf your team desperately needs a Tank, do not insist on taking Colossus Smash or Twin Blades of Fury at Level 4 because a Tank is really important to have in team."
+  },
+  {
+   "title": "Lion's Fang",
+   "id": "lions-fang",
+   "text": "Lion's Fang\n(Q)\nVarian\nMana: 50\nCooldown: 8 seconds\nCreate a shockwave that travels in a straight line, dealing 150 (+4% per level) damage and Slowing enemies by 35% for 1.5 seconds. Each enemy hit heals Varian for 35 (+4% per level), increased to 140 (+4% per level) against Heroes.\nLion's Fang provides decent\nwaveclear and self-sustain,\nfurthermore it deals a good amount of damage to enemy Heroes\nand Slow them as well. Slowing an enemy Hero from the distance\nwill help you have them within Charge range. As a result,\nthis Ability should be used to quickly damage Minion waves in order to relieve lane pressure,\nto keep Varian healthy during a team fight, to engage thanks\nto the Slow provided, or to secure a kill thanks to the damage it deals. When you\nwant to heal as much as possible, remember that the healing provided is about\n3 times higher when it is being used on enemy Heroes, therefore you should\nprefer hitting a single Hero instead of 3 non-Heroes."
+  },
+  {
+   "title": "Parry",
+   "id": "parry",
+   "text": "Parry\n(W)\nVarian\nMana: 30\nCharges: 2\nRecharge Time: 10 seconds\nParry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.\nStores up to 2 charges.\nParry\ncompletely prevents all damage from Basic Attacks that would hit\nVarian for the duration. It has 2 charges that can be\nused in quick succession or in different moments. Remember that hits\ncoming from Structures (including the Core) and Summons (for example the Hydralisk\ncreated by Zagara using Hunter Killer) are considered\nBasic Attacks as well."
+  },
+  {
+   "title": "Charge",
+   "id": "charge",
+   "text": "Charge\n(E)\nVarian\nMana: 45\nCooldown: 12 seconds\nCharge to the target enemy, dealing 50 (+4% per level) damage and Slowing them by 75% for 1 second.\nCharge provides Varian with a much-needed\ngap-closer that can be used both\noffensively and defensively. If used offensively, Varian can damage and\nSlow his chosen target to either take them down by himself\nor allow his teammates\nto follow up. If used defensively, Varian can escape dangerous situations\nby charging an enemy target who is far from the main action.\nThis type of Ability does not allow the Hero\nto pass through impassable terrain and Structures, instead\nthe Hero will try to go around that obstacle. Since there is a maximum distance\nthat can be travelled, the Hero will eventually stop the animation without\nreaching the target."
+  },
+  {
+   "title": "Taunt",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nTaunt\n(R)\nVarian\nHeroic\nMana: 20\nCooldown: 16 seconds\nSilence a target Hero and force them to attack Varian for 1.25 seconds.\nPassive: Maximum Health and Health Regeneration increased by 40%.\nTaunt turns Varian into a\nTank by increasing his maximum Health and giving him\ncrowd control for\nengaging and/or peeling.\nAs a side note, it can also be used to play Varian\nas Offlaner."
+  },
+  {
+   "title": "Colossus Smash",
+   "id": "colossus-smash",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nColossus Smash\n(R)\nVarian\nHeroic\nMana: 40\nCooldown: 20 seconds\nSmash a target enemy, dealing 185 (+4% per level) damage and lowering their Armor by 25 for 3 seconds, causing them to take 25% increased damage.\nPassive: Base Attack Damage increased by 100%.\nPassive: Maximum Health and Health Regeneration reduced by 10%.\nColossus Smash turns Varian into a\nMelee Assassin by highly increasing\nhis damage output and providing him another\ngap-closer next to Charge.\nBy picking this Heroic Ability, he becomes capable of dealing\na large amount of damage within a short period of time to take down his target\nas quickly as possible while also increasing the damage output of his\nteammates at the same time thanks to the Armor reduction.\nWhen you want to unleash all your power on the enemy,\nit is advised to use it as the very first Ability to maximize the value you get\nfrom the Armor being reduced for a few seconds.\nDespite it being a Heroic Ability, it can be used for non-Heroic targets\n(for example to help your team taking down a Boss\na bit faster than usual) thanks to its relatively short cooldown."
+  },
+  {
+   "title": "Twin Blades of Fury",
+   "id": "twin-blades-of-fury",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nTwin Blades of Fury\n(R)\nVarian\nPassive\nHeroic\nBasic Attacks reduce Heroic Strike's cooldown by an additional 7 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.\nPassive: Attack Speed increased by 100%.\nPassive: Base Attack Damage reduced by 25%.\nTwin Blades of Fury turns Varian into a\nBruiser who can deal a lot of sustain damage if he can\nstick on the target, and the Movement Speed provided slightly helps with that.\nThe one-dimensional design of this Heroic Ability makes Varian stronger in duels\nthat happen while playing as Offlaner and weaker\nin team fights where many enemy Heroes can peel him away\nfrom his target. The damage reduction on Basic Attacks is compensated by the\ncooldown reduction on Heroic Strike."
+  },
+  {
+   "title": "Heroic Strike",
+   "id": "heroic-strike",
+   "text": "Heroic Strike\n(D)\nVarian\nCooldown: 18 seconds\nEvery 18 seconds, Varian's next Basic Attack deals 125 (+4% per level) bonus Spell Damage. Basic Attacks reduce this cooldown by 3 seconds.\nHeroic Strike increases the damage done by Varian's\nBasic Attacks by adding a Spell Damage component to them.\nThe cooldown reduction basically helps you get the second activation\nearlier than usual. Try to start a team fight when Heroic Strike is ready,\notherwise your damage output will not be the best."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n03 Apr. 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n09 Sep. 2019: Updated Varian's Abilities page.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Lion's Maw (Level 1) Varian Quest: Every time Lion's Fang hits a Hero, increase its damage by 7, up to 175. Reward: After hitting 25 Heroes, the Slow is increased to 50% and its duration is increased to 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Overpower (Level 1) Varian When Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does 40% more damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "High King's Quest (Level 1) Varian Quest: Hit 50 Heroes with Basic Attacks. Quest: Participate in 5 Hero Takedowns. Quest: Gather 15 Regeneration Globes. Reward: Completing a Quest grants 10 Base Attack Damage. Completing all 3 Quests grants an additional 30 Base Attack Damage."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Taunt (Level 4) Varian Mana: 20 Cooldown: 16 seconds Silence a target Hero and force them to attack Varian for 1.25 seconds. Passive: Maximum Health and Health Regeneration increased by 40%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Colossus Smash (Level 4) Varian Mana: 40 Cooldown: 20 seconds Smash a target enemy, dealing 185 (+4% per level) damage and lowering their Armor by 25 for 3 seconds, causing them to take 25% increased damage. Passive: Base Attack Damage increased by 100%. Passive: Maximum Health and Health Regeneration reduced by 10%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Twin Blades of Fury (Level 4) Varian Basic Attacks reduce Heroic Strike's cooldown by an additional 7 seconds, and increase Varian's Movement Speed by 30% for 2 seconds. Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 25%."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Lionheart (Level 7) Varian Increase Lion's Fang's healing from Heroes by 75%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Second Wind (Level 7) Varian Basic Attacks heal Varian for 1% of his maximum Health. While below 50% Health, they also heal him for 50% of the damage dealt."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Victory Rush (Level 7) Varian Every 30 seconds, Varian's next Basic Attack will heal him for 350 (+4% per level) Health. When a nearby enemy Minion or Monster dies, the cooldown is reduced by 10 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Shield Wall (Level 10) Varian Parry grants Protected, preventing all incoming damage while active. Additionally, Parry's cooldown is reduced by 5 seconds, but it loses 1 charge."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Warbringer (Level 10) Varian Reduce Charge's cooldown by 8 seconds and Mana cost from 45 to 25. Additionally, Charge can be cast on allied Heroes."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Juggernaut (Level 13) Varian Charge deals bonus damage to Heroes equal to 4% of their maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Mortal Strike (Level 13) Varian Heroes hit by Heroic Strike receive 40% reduced healing for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Shattering Throw (Level 13) Varian Cooldown: 30 seconds Activate to throw a sword at a target Hero that deals 50 (+4% per level) damage, and up to 1400 (+4% per level) bonus damage to their Shields. Passive: Basic Attacks against Heroes deal up to 200% bonus Physical Damage to Shields."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Banner of Stormwind (Level 16) Varian Cooldown: 25 seconds Activate to place a Banner that grants 25% increased Movement Speed to nearby allied Heroes. Lasts 12 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Banner of Ironforge (Level 16) Varian Cooldown: 45 seconds Activate to place a Banner that grants 20 Armor to nearby allied Heroes, reducing damage taken by 20%. Lasts 12 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Banner of Dalaran (Level 16) Varian Cooldown: 25 seconds Activate to place a Banner that grants 20% increased Spell Power to nearby allied Heroes. Lasts 12 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Vigilance (Level 20) Varian Being hit by a Hero Basic Attack reduces the cooldown of Taunt by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Master at Arms (Level 20) Varian Colossus Smash affects all enemies near the target, and its cooldown is reduced by 10 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Frenzy (Level 20) Varian Twin Blades of Fury increases Heroic Strike damage by an additional 25%, and Basic Attacks increase his Movement Speed by an additional 10%."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Glory to the Alliance (Level 20) Varian Banner now also increases health regeneration and all healing received for nearby allied Heroes by 50%, and the cooldown is reduced by 50%."
+   },
+   {
+    "slot": 5,
+    "marker": "maybe",
+    "text": "Demoralizing Shout (Level 20) Varian Cooldown: 20 seconds Activate to demoralize nearby enemy Heroes, reducing damage they deal by 40% for 5 seconds. Each time an enemy Hero affected by Demoralizing Shout deals damage to a Hero, reduce its cooldown and Parry's cooldown by 5%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Varian's Talent Build",
+   "id": "varians-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n✓\n?\n?\n7\n?\n?\n✓\n10\n?\n✓\n13\n?\n✓\n?\n16\n?\n?\n✓\n20\n?\n?\n?\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Varian's Talent Build Cheatsheet",
+   "id": "varians-talent-build-cheatsheet",
+   "text": "Offensive Taunt Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nVarian's Offensive Taunt Build turns him into a Tank\nwho is capable of engaging and/or peeling for his team.\nIn particular, this variation of Taunt Build helps you burst down a given target\nwith the help of Overpower at Level 1 and by denying defensive tools\nwith either Mortal Strike or Shattering Throw at Level 13.\nWe recommend this Build when your team needs a Tank\nand your team's strategy consists of bursting down enemy Heroes.\nDefensive Taunt Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nVarian's Defensive Taunt Built turns him into a Tank\nwho is capable of engaging and/or peeling for his\nteam.\nIn particular, this variation of Taunt Build gives you access\nto Shield Wall at Level 10\nwhile avoiding anti-synergistic Talents, hence why we recommend\nHigh King's Quest at Level 1.\nYou can play this Build when your team needs a Tank,\nthe enemy team can deal a huge amount of burst damage,\nand your team does not have enough tools to deal with that.\nColossus Smash Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nColossus Smash Build turns Varian into a highly explosive\nMelee Assassin, who excels at\nbursting down enemy priority targets using\nColossus Smash to engage and\nexploit the Armor reduction effect to increase not only his\nown damage, but also the damage of the rest of his team.\nYou can play this Build only\nwhen your team does not need a Tank or an\nOfflaner because you will not be tanky enough\nto act as second frontline Hero.\nTwin Blades Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTwin Blades Build turns Varian into a Bruiser\nthanks to the additional damage that\nTwin Blades of Fury provides.\nKeep in mind that this Build is\nonly viable when playing as Offlaner, and not when\nyour team needs a Tank or a second\nAssassin.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nARAM Build turns Varian into a Tank\nwho is capable of engaging and/or peeling for his team.\nIn particular, this variation of Taunt Build helps you burst down a given target\nwith the help of Overpower at Level 1 and by denying defensive tools\nwith either Mortal Strike or Shattering Throw at Level 13."
+  },
+  {
+   "title": "Level 1 Talents for Varian",
+   "id": "level-1",
+   "text": "?\nLion's Maw\n(Level 1)\nVarian\nQuest: Every time Lion's Fang hits a Hero, increase its damage by 7, up to 175.\nReward: After hitting 25 Heroes, the Slow is increased to 50% and its duration is increased to 2 seconds.\nLion's Maw is a good Quest-based Talent that provides a better\nSlow and additional damage to\nLion's Fang upon being completed.\nPick this Talent when you want a better Slow in your kit,\nusually because you are not playing for burst damage\nas your team is not good enough for that approach.\n✔\nOverpower\n(Level 1)\nVarian\nWhen Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does 40% more damage.\nOverpower is a strong Talent that adds burst damage.\nWhen playing against Heroes with high Attack Speed, you will get\ndouble the value from it because the trigger will happen twice per activation,\nif you can manage to Basic Attack an enemy Hero twice during Parry.\nWhile it is hard but possible for the enemies to suddenly stop using\nBasic Attacks on Varian to avoid triggering this Talent,\nit is worth mentioning that Taunt will negate any\ncounter-play besides crowd control that can stop you from casting Abilities.\n?\nHigh King's Quest\n(Level 1)\nVarian\nQuest: Hit 50 Heroes with Basic Attacks.\nQuest: Participate in 5 Hero Takedowns.\nQuest: Gather 15 Regeneration Globes.\nReward: Completing a Quest grants 10 Base Attack Damage. Completing all 3 Quests grants an additional 30 Base Attack Damage.\nHigh King's Quest is a good Quest-based Talent that increase\nVarian's Basic Attack damage, something that is crucial when going\nfor Twin Blades of Fury and works well when choosing\nColossus Smash too."
+  },
+  {
+   "title": "Level 4 Talents for Varian",
+   "id": "level-4",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nTaunt\n(Level 4)\nVarian\nMana: 20\nCooldown: 16 seconds\nSilence a target Hero and force them to attack Varian for 1.25 seconds.\nPassive: Maximum Health and Health Regeneration increased by 40%.\nTaunt is a strong Heroic Ability that turns Varian into a Tank\nwho is capable of engaging and/or peeling for his\nteam, while increasing his maximum Health at the same time. Choose this Heroic Ability when your\nteam needs a Tank, but it can also be played as Offlaner.\n?\nColossus Smash\n(Level 4)\nVarian\nMana: 40\nCooldown: 20 seconds\nSmash a target enemy, dealing 185 (+4% per level) damage and lowering their Armor by 25 for 3 seconds, causing them to take 25% increased damage.\nPassive: Base Attack Damage increased by 100%.\nPassive: Maximum Health and Health Regeneration reduced by 10%.\nColossus Smash is a good Heroic Ability that turns Varian into a highly explosive\nMelee Assassin, but it reduces his maximum Health.\nChoose this Heroic Ability when a second Assassin is needed.\nThe Armor reduction effect provided will drastically\nincrease your team's damage output when correctly focusing\nthe damage on the same target.\n?\nTwin Blades of Fury\n(Level 4)\nVarian\nBasic Attacks reduce Heroic Strike's cooldown by an additional 7 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.\nPassive: Attack Speed increased by 100%.\nPassive: Base Attack Damage reduced by 25%.\nTwin Blades of Fury is a decent Heroic Ability\nthat turns Varian into a Bruiser.\nChoose this Heroic Ability when an Offlaner is needed."
+  },
+  {
+   "title": "Level 7 Talents for Varian",
+   "id": "level-7",
+   "text": "?\nLionheart\n(Level 7)\nVarian\nIncrease Lion's Fang's healing from Heroes by 75%.\nLionheart is a good Talent\nwhich enhances Varian's self-healing if Lion's Fang hits enemy Heroes,\nwithout the need of getting personal as it can be done from the distance.\nBeing based on a skillshot\nwith the possibility to hit multiple Heroes for extra value,\nthis Talent works better against team compositions that feature\nmultiple melee and/or low-mobility Heroes,\nsince they are usually easier to hit.\n?\nSecond Wind\n(Level 7)\nVarian\nBasic Attacks heal Varian for 1% of his maximum Health. While below 50% Health, they also heal him for 50% of the damage dealt.\nSecond Wind is a good Talent that\nunconditionally increases Varian's self-healing, especially\nif there are no Blinds or crowd control\nto prevent him from landing Basic Attacks.\nSecond Wind is obviously good when paired with Colossus Smash\nor Twin Blades of Fury. Due to the fact that Second Wind's second effect\nscales with Varian's maximum Health, it becomes quite strong if paired with Taunt too.\n✔\nVictory Rush\n(Level 7)\nVarian\nEvery 30 seconds, Varian's next Basic Attack will heal him for 350 (+4% per level) Health. When a nearby enemy Minion or Monster dies, the cooldown is reduced by 10 seconds.\nVictory Rush is a strong Talent that gives a burst of healing\nwhen you Basic Attack any target, however, it only works once every 30 seconds\nand its cooldown can be reduced by staying near dying Minions and Monsters.\nWhile this Talent does not go off when you have full Health,\nits main downside is that it can end up overhealing you if you are almost full Health when it goes off.\nConsidering that\nit triggers more often if you have enemy Minions or Monsters nearby,\nthis Talent is way better on Maps where team fights happen near them\n(such as Braxis Holdout, Dragon Shire, or\nInfernal Shrines)."
+  },
+  {
+   "title": "Level 10 Talents for Varian",
+   "id": "level-10",
+   "text": "?\nShield Wall\n(Level 10)\nVarian\nParry grants Protected, preventing all incoming damage while active. Additionally, Parry's cooldown is reduced by 5 seconds, but it loses 1 charge.\nShield Wall is a good Talent that can make you Invulnerable,\nbut this advantage comes at the cost of a Charge of Overpower.\nAs a consequence, this Talent is not that good against Heroes who rely on Basic Attacks.\nPick this Talent when playing against burst damage and you\nare scared of dying from it.\n✔\nWarbringer\n(Level 10)\nVarian\nReduce Charge's cooldown by 8 seconds and Mana cost from 45 to 25. Additionally, Charge can be cast on allied Heroes.\nWarbringer is a strong Talent that lowers the cooldown on\nCharge by 8 seconds, a nice boost to both his\nchasing and peeling capabilities.\nIn addition to that, you will also be able to use Charge on allied Heroes\nas a form of escape or just to reposition yourself during team fights.\nThe cooldown reduction provided by this Talent has good synergy\nwith Juggernaut at Level 13,\nallowing you to deal more damage in prolonged team fights."
+  },
+  {
+   "title": "Level 13 Talents for Varian",
+   "id": "level-13",
+   "text": "?\nJuggernaut\n(Level 13)\nVarian\nCharge deals bonus damage to Heroes equal to 4% of their maximum Health.\nJuggernaut is a good choice when your team wants to\nfocus the enemy front line first and/or if the enemy team has several Heroes\nwith high maximum Health (such as Stitches, Chen,\nand Azmodan). In case of prolonged team fights, this Talent\nhas good synergy with Warbringer at Level 10.\n✔\nMortal Strike\n(Level 13)\nVarian\nHeroes hit by Heroic Strike receive 40% reduced healing for 4 seconds.\nMortal Strike is a strong Talent that\nreduces the healing received by enemy Heroes recently hit\nwith Heroic Strike,\nwhich automatically goes off when you Basic Attack.\nMake sure it's not on cooldown when you need it.\nWe recommend this Talent against team compositions featuring 2 Healers\nor when you want to counter some Heroes with self-healing capabilities (such as Arthas),\nbut not against solo Healers with limited healing (notably Lúcio).\nIf you decided to go for a Taunt Build featuring Taunt\nat Level 4 and Overpower at Level 1, you can guarantee an\napplication of Mortal Strike after successfully Taunting an\nenemy Hero and Parrying the following Basic Attack even if\nHeroic Strike is on cooldown when you\nengage.\n?\nShattering Throw\n(Level 13)\nVarian\nCooldown: 30 seconds\nActivate to throw a sword at a target Hero that deals 50 (+4% per level) damage, and up to 1400 (+4% per level) bonus damage to their Shields.\nPassive: Basic Attacks against Heroes deal up to 200% bonus Physical Damage to Shields.\nShattering Throw is a very powerful but situational\nTalent that can be used to hard counter Shields (for example it can be used to\ncompletely deny Sound Barrier by Lúcio on the\ntarget that you and your team intend to focus)."
+  },
+  {
+   "title": "Level 16 Talents for Varian",
+   "id": "level-16",
+   "text": "?\nBanner of Stormwind\n(Level 16)\nVarian\nCooldown: 25 seconds\nActivate to place a Banner that grants 25% increased Movement Speed to nearby allied Heroes. Lasts 12 seconds.\nBanner of Stormwind is a situational Talent that\ncan be used to give your whole team Movement Speed in a given area,\nallowing Varian and allied Heroes to reposition, chase, or escape.\nThe short cooldown allows you to use it with more freedom,\nespecially when combined with Glory to the Alliance at Level 20.\n?\nBanner of Ironforge\n(Level 16)\nVarian\nCooldown: 45 seconds\nActivate to place a Banner that grants 20 Armor to nearby allied Heroes, reducing damage taken by 20%. Lasts 12 seconds.\nBanner of Ironforge is a situational Talent that\nprovides Armor to Varian and nearby allied Heroes,\ndecreasing the amount of damage they take from all sources.\nDue to its long cooldown compared to the alternatives, only pick it when the enemy team\nis capable of one-shotting an allied Hero with huge burst damage\nand your team composition does not have the tools to handle that.\n✔\nBanner of Dalaran\n(Level 16)\nVarian\nCooldown: 25 seconds\nActivate to place a Banner that grants 20% increased Spell Power to nearby allied Heroes. Lasts 12 seconds.\nBanner of Dalaran is a strong Talent that\nincreases the damage and healing done by allied Heroes nearby,\nuseful for either quick team fights or drawn-out battles.\nThe short cooldown allows you to use it with more freedom,\nespecially when combined with Glory to the Alliance at Level 20."
+  },
+  {
+   "title": "Level 20 Talents for Varian",
+   "id": "level-20",
+   "text": "?\nVigilance\n(Level 20)\nVarian\nBeing hit by a Hero Basic Attack reduces the cooldown of Taunt by 1 second.\nVigilance is a situational Talent that works\nonly when facing Heroes with high Attack Speed (such as Tychus)\nbecause it allows you to use cast your Heroic Ability twice in quick succession\nand snowball the team fight from there.\n?\nMaster at Arms\n(Level 20)\nVarian\nColossus Smash affects all enemies near the target, and its cooldown is reduced by 10 seconds.\nMaster at Arms is a decent Talent to reduce\nthe Armor of multiple enemy Heroes at the same time\nand reduces Colossus Smash's cooldown.\nExtending the Armor reduction effect to enemy Heroes\nnear your main target is great when your team features Heroes\ncapable of dealing high area of effect damage.\nThe cooldown reduction may be useful when your first attempt to\nburst down an enemy Hero does not go as planned.\n?\nFrenzy\n(Level 20)\nVarian\nTwin Blades of Fury increases Heroic Strike damage by an additional 25%, and Basic Attacks increase his Movement Speed by an additional 10%.\nFrenzy is a decent Talent to increase your own\ndamage, and it also increases your Movement Speed by a small amount.\n✔\nGlory to the Alliance\n(Level 20)\nVarian\nBanner now also increases health regeneration and all healing received for nearby allied Heroes by 50%, and the cooldown is reduced by 50%.\nGlory to the Alliance is a strong Talent because it\nprovides both increased healing to the whole team and cooldown reduction on any\nLevel 16 Talent.\nTogether with the healing reduction from Mortal Strike at Level 13,\nthe extra healing provided by this Talent makes Varian great against\nteam compositions featuring 2 Healers.\nIf paired with Banner of Dalaran\nor Banner of Stormwind that have only\n25 seconds of cooldown, you can basically spam it every 12 seconds, even if\njust for checking a bush after another—a trap by the enemy team in the\nlate game can have a devastating outcome.\n?\nDemoralizing Shout\n(Level 20)\nVarian\nCooldown: 20 seconds\nActivate to demoralize nearby enemy Heroes, reducing damage they deal by 40% for 5 seconds.\nEach time an enemy Hero affected by Demoralizing Shout deals damage to a Hero, reduce its cooldown and Parry's cooldown by 5%.\nDemoralizing Shout is a situational Talent that\ncan be activated to reduce the damage done by enemy Heroes within 5.5 range.\nFurthermore, whenever allied Heroes take damage from enemy Heroes affected\nby Demoralizing Shout, its cooldown\nand Parry's cooldown will be slightly reduced.\nThis kind of effect works best against Heroes who deal\nburst damage from a relatively short distance.\nBeing able to debuff enemy Heroes\nallows Varian to protect not only himself\nbut also nearby allied Heroes who might be in danger.\nWhile it is ideal to hit multiple Heroes with it, do not hesitate to use\nDemoralizing Shout on a single Hero when needed."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n17 Dec. 2023: Guide reviewed.\n21 Sep. 2023: ARAM Build added.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n27 Jan. 2022: Builds and Talent Descriptions updated.\n05 May 2021: Taunt Builds' Descriptions improved.\n25 Apr. 2021: Builds updated.\n25 Feb. 2021: New layout.\n21 Feb. 2021: Updated Talent discussions and builds.\n15 Feb. 2021: Builds updated.\n05 Nov. 2020: Guide updated for the latest Balance Update.\n03 Apr. 2020: Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n19 Dec. 2019: Updated Frenzy's description in accordance with the latest Balance Update.\n16 Oct. 2019: Updated Varian's Talents and Builds in accordance with the latest Balance Update.\n09 Sep. 2019: Updated Varian's Talents and Talent Builds.\n18 Apr. 2019: Updated Varian's early Talents and Talent Builds in accordance with the latest Balance Update.\n13 Oct. 2018: Updated Talent Builds and changed Frenzy from Not Recommended to Situational.\n06 Apr. 2018: Changed Second Wind from Situational to Recommended.\n04 Apr. 2018: Changed Warbringer from Situational to Recommended.\n28 Mar. 2018: Completely overhauled Varian's Builds and Talents in accordance with his recent Rework.\n11 Jul. 2017: Changed High King's Quest from Situational to Recommended.\n03 Jul. 2017: Updated Varian's Level 1 Talents.\n16 May 2017: Updated Warbringer's description.\n11 Mar. 2017: Updated Varian's talent section to fit the current meta.\n28 Feb. 2017: Updated Warbringer in accordance with the latest Balance Update.\n18 Feb. 2017: Re-arranged Varian's Level 13 and 16 talent tiers in accordance with the Lucio Update.\n04 Feb. 2017: Updated Level 7 talent discussions and assessments.\n20 Dec. 2016: Updated text for some talent discussions, but assessments remain the same.\nShow more\nShow less"
+  }
+ ]
+}

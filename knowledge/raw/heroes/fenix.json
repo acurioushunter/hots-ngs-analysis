@@ -1,0 +1,305 @@
+{
+ "slug": "fenix",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/fenix-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/fenix-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/fenix-talents"
+ },
+ "guide": [
+  {
+   "title": "Fenix's Overview",
+   "id": "fenixs-overview",
+   "text": "Fenix is a ranged Assassin who can modify the range and performance of his\nweapon systems during battle. This allows him to excel at a variety of\ndamage-related tasks, and to adapt to different battlefield situations\naccordingly. Shield Capacitor allows Fenix to trade damage favourably, but he\nmust retreat from combat in order to regenerate his shields."
+  },
+  {
+   "title": "Fenix's Strengths and Weaknesses",
+   "id": "fenixs-strengths-and-weaknesses",
+   "text": "Strengths\nGood AoE poke\nGreat waveclear from a safe distance\nCan solo capture Mercenary Camps efficiently\nStrong self-sustain via Shield Capacitor\nCan reposition with Warp as needed\nWeaknesses\nLarge hitbox; easy to hit with skillshots\nMust retreat in order to self-sustain with Shield Capacitor\nEscape requires channel and can be interrupted\nHealers cannot restore baseline Shield Capacitor\nLacks hard crowd-control"
+  },
+  {
+   "title": "Fenix's Talent Build Cheatsheet",
+   "id": "fenixs-talent-build-cheatsheet",
+   "text": "Basic Attack Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attack Build is the only recommended build for Fenix. Most of his damage\ncomes from Repeater Cannon and Phase Bomb. Therefore, it is better to pick talents that\nincreases the damage output from Basic Attacks, such as Arsenal Synergy\nor Mobile Offense.\nThis build stacks several Talents that increase Basic Attack\ndamage. Divert Power: Weapons should usually be activated to increase damage\nonce it is clear that the enemy team is committed to a teamfight. This will\nallow you to trade optimally until your shields are gone, and to benefit from\nthe bonus damage as long as possible. Photonic Weaponry is a safe pick that\nwill almost always add damage, but Offensive Cadence can be very strong against\nTanks and Bruisers if they are unable to retaliate.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Fenix's Synergies and Counters",
+   "id": "fenixs-synergies-and-counters",
+   "text": "Fenix synergizes with\nThe effectiveness of Fenix's AoE damage can be amplified by bringing\nenemy Heroes closer together, or by keeping them close together. This makes him\nstrong with Heroes that can Pull enemies together\n(such as Johanna with Condemn). Fenix also does well with\nHeroes who can easily slow entire the enemy team, allowing Purification Salvo\nto deal maximum damage in teamfights. Thrall with Earthquake\nor Diablo with Lightning Breath are good\nsetups for Purification Salvo.\nFenix is countered by\nFenix relies on Shield Capacitor in order to trade damage efficiently.\nVarian has Shattering Throw that can obliterate shields, making\nit hard for Fenix to deal damage safely at all. He can also be countered by\nHeroes who can follow him when he uses Warp to escape, especially if those\nHeroes can get back out safely after diving him, like Zeratul or Genji.\nFenix is also very punished by crowd control.\nTanks with many stuns and knockbacks\nare a threat; you have to play very safely when against E.T.C..\nLúcio is also a concern, considering he can use Sound Barrier\nto counter Purification Salvo, and his Soundwave\nwill often cancel your Warp."
+  },
+  {
+   "title": "Fenix's Maps",
+   "id": "fenixs-maps",
+   "text": "Fenix's stronger maps\nFenix's average maps\nFenix's weaker maps\nNone\nFenix is best on Maps where the Objective involves large numbers of\nunits. This is due to his sustain\narea of effect damage, which will help to\ndefend against such objectives. Fenix is also a relatively strong Offlaner.\nWith strong waveclear, PvE damage, and solo-lane capability, Fenix is able to\nbe somewhat effective on all Maps."
+  },
+  {
+   "title": "Fenix's Tips and Tricks",
+   "id": "fenixs-tips-and-tricks",
+   "text": "Cast Plasma Cutter liberally, and always try to follow it up with Basic Attacks.\nStutter-step to keep enemies near your maximum range.\nUse Shield Capacitor to trade damage with enemy Heroes. Your shields will regenerate, but their health will not.\nUse Weapon Mode: Repeater Cannon on isolated targets like Boss Mercenaries, Forts, or enemies who are out of position.\nSave Warp to escape or reposition as needed.\nCast Purification Salvo when enemies are slowed by Plasma Cutter for maximum damage.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Fenix's Role in the Current Meta",
+   "id": "fenixs-role-in-the-current-meta",
+   "text": "Fenix deals excellent sustain\narea of effect damage, and is able to do so from\nrange. He is efficient against Heroes, is able to clear Minions and Mercenaries\nquickly, and deals impressive damage to Structures when his team is\npushing. This versatility makes him a good fit for most team compositions.\nBecause Fenix is able to adapt his weapon use to accomplish a variety of\ntasks, he can perform well on most Maps. His sustain\narea of effect\ncapabilities will stand out on Maps that have Objectives that involve many\nunits, such as Braxis Holdout and Tomb of the Spider Queen. Fenix is, at the\nvery least, adequate on all Maps. He can fit well into almost any draft\nas a Ranged Assassin."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n04 Mar. 2021 (talents page): Talents and Builds updated after recent balance patch.\n04 Mar. 2021 (this page): Builds updated after recent balance patch.\n20 Jan. 2021 (talents page): Talent section reviewed and no changes are necessary.\n20 Jan. 2021 (this page): Guide reviewed and no changes are necessary.\n30 Jul. 2020 (this page): Offensive Cadence defined as the main Talent for Fenix.\n07 Apr. 2020 (talents page): Talent section updated to reflect current meta.\n07 Apr. 2020 (this page): Builds, Synergies and Counters Updated to reflect current meta.\n15 Feb. 2020 (talents page): Talent section and build guide recommendations updated to reflect February 12 balance patch.\n15 Feb. 2020 (this page): Talent section and build guide recommendations updated to reflect February 12 balance patch.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n24 Aug. 2019 (talents page): Guide reviewed and updated to reflect meta developments.\n24 Aug. 2019 (abilities page): Guide reviewed and updated to reflect meta developments.\n24 Aug. 2019 (this page): Guide reviewed and updated to reflect meta developments.\n12 Dec. 2018 (talents page): Removed Warp Conduit.\n28 Jun. 2018 (talents page): Talent section updated to reflect June 26 balance patch.\n25 Jun. 2018 (talents page): Talent choices and text have been updated to reflect the meta's development.\n13 Apr. 2018 (talents page): Talent choices updated to reflect April 12 balance patch.\n04 Apr. 2018 (talents page): Talent section updated to reflect meta's development.\n27 Mar. 2018 (abilities page): Guide added.\n27 Mar. 2018 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Fenix's Tips and Tricks",
+   "id": "fenixs-tips-and-tricks",
+   "text": "Cast Plasma Cutter liberally, and always try to follow it up with Basic Attacks.\nStutter-step to keep enemies near your maximum range.\nUse Shield Capacitor to trade damage with enemy Heroes. Your shields will regenerate, but their health will not.\nUse Weapon Mode: Repeater Cannon on isolated targets like Boss Mercenaries, Forts, or enemies who are out of position.\nSave Warp to escape or reposition as needed.\nCast Purification Salvo when enemies are slowed by Plasma Cutter for maximum damage."
+  },
+  {
+   "title": "Shield Capacitor",
+   "id": "shield-capacitor",
+   "text": "Shield Capacitor\n(D)\nFenix\nCooldown: 5 seconds\nFenix has a permanent 760 (+4% per level) Shield which regenerates at 10% per second after not taking damage for 5 seconds.\nShield Capacitor accounts for much of Fenix's overall survivability, and\nall of his self-sustain. Fenix trades damage very effectively while at\nrange, as the Shield regenerates when no damage is taken for several seconds.\nThis allows Fenix to be dominant in most lane match-ups, as he can steadily\nincrease his Health advantage over opponents. Be aware of Heroes who have\naccess to Talents that are particularly effective against Shields, as these can\nseverely reduce Fenix's survivability."
+  },
+  {
+   "title": "Plasma Cutter",
+   "id": "plasma-cutter",
+   "text": "Plasma Cutter\n(Q)\nFenix\nCooldown: 12 seconds\nCreate a laser beam at the target point that circles around Fenix twice, dealing 135 (+4% per level) damage to enemies hit and Slowing them by 25% for 4 seconds.\nPlasma Cutter deals damage and\nSlows enemies as it rotates around Fenix.\nBecause Fenix is not limited by Mana or other casting resources, Plasma Cutter\nshould be used liberally. It is effective against Heroes, Minions, Structures,\nand even Mercenaries. While using Plasma Cutter against Heroes, it is important to be mindful of\nthe Slow that it provides. Not only does the\nSlow make it much easier to apply\nBasic Attacks, it also triggers effects for some of Fenix's Talents.\nWhile using Plasma Cutter in a PvE setting, the radius of each cast should\nbe considered. A maximum radius Plasma Cutter can hit a Gate, both Towers,\nand enemies close to the gate. A minimum radius Plasma Cutter can hit all units\nin a Mercenary Camp. With the self-sustain\nfrom Shield Capacitor and the\nadditional area of effect damage provided by\nWeapon Mode: Phase Bomb, Plasma Cutter helps\nFenix to efficiently solo secure any non-boss Mercenary Camps."
+  },
+  {
+   "title": "Weapon Modes",
+   "id": "weapon-modes",
+   "text": "Weapon Mode: Repeater Cannon\n(W)\nFenix\nBasic Attack speed increased by 150%.\nActivate to change to Weapon Mode: Phase Bomb, increasing Basic Attack range and damage, and causing Basic Attacks to splash.\nWeapon Mode: Repeater Cannon greatly increases Attack Speed, but has reduced\nrange, damage, and area of effect\nwhen compared with Weapon Mode: Phase Bomb. While it\nprovides less utility and is less safe to use than Phase Bomb, it is useful for\nsingle target damage when necessary. Notable examples of good Repeater Cannon\ntargets include Bosses and big Monsters from Objectives, isolated Structures\nlike Forts, or enemy Heroes who are out of position. Remember that you can\nswitch to Phase Bomb for an extra Basic Attack if an enemy leaves Repeater\nCannon range.\nWeapon Mode: Phase Bomb\n(W)\nFenix\nBasic Attacks have 1.25 increased range, deal 25% more damage, and splash to nearby enemies.\nActivate to change to Weapon Mode: Repeater Cannon, increasing Basic Attack speed.\nWeapon Mode: Phase Bomb increases your\nBasic Attack range and damage, and causes Basic Attacks to splash in a generous\narea of effect. While your single target\ndamage per second will be lower in this mode, almost everything else about it\nis superior. Phase Bomb allows you to waveclear extremely well, deal\nsignificant siege damage to several Structures with each Basic Attack, and deal\nHero damage from a much safer distance. For these reasons, you should generally\ndefault to using Phase Bomb; switch to Repeater Cannon when you want more\nsingle target damage at close range."
+  },
+  {
+   "title": "Warp",
+   "id": "warp",
+   "text": "Warp\n(E)\nFenix\nCooldown: 17 seconds\nWarp to a targeted location, phasing out after 0.5 seconds, and arriving 0.75 seconds later.\nWarp is an amazing mobility tool that allows you to travel to a\nselected location after a short channel. Warp should be used to escape danger,\nor to secure kills on fleeing low-Health enemies. Once Warp's channel is\ncomplete, Fenix is removed from the battlefield for a brief period before he\narrives at his selected destination. This moment of non-existence can be\nincredibly useful for preventing damage and effects from Abilities that target\nFenix directly."
+  },
+  {
+   "title": "Purification Salvo",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nPurification Salvo\n(R)\nFenix\nHeroic\nCooldown: 90 seconds\nChannel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 79 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.\nPurification Salvo is a fantastic Heroic for Fenix, because it gives him\nsomething to secure kills with. Fenix has a great kit for poking enemies at a\ndistance, but his Basic Abilities lack reliable burst damage.\nPurification Salvo fills this void, making him an Assassin capable of securing\nkills on his own. Fenix can walk or Warp away once enemies have been locked,\nand Purification Salvo will still fire. Using Warp during Purification Salvo's\nfiring sequence will not interrupt it; the salvo will finish firing during (and\nafter) Warp. This Heroic will be excellent when your team has a reliable way\nto Slow enemy Heroes, such as Lightning Breath or\nEarthquake."
+  },
+  {
+   "title": "Planet Cracker",
+   "id": "planet-cracker",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nPlanet Cracker\n(R)\nFenix\nHeroic\nCooldown: 100 seconds\nAfter 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 112 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.\nPlanet Cracker is a channeled\nbeam that covers unlimited distance in\nthe direction it is cast. It is quite amazing to see, and fun to use. However,\nHeroes must simply walk to one side of it to avoid most of its damage. It does\nnot often deliver meaningful results without setup from allies.\nFor this reason, you should default to Purification Salvo.\nPlanet Cracker can be good in combination with crowd-control from your team,\nbut it is best to make sure your allies want to play this way before selecting\nthis Heroic. This Heroic can be an option in Braxis Holdout, since it can be used\ntowards the Zerg Wave, clearing most of it on spawn."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide reviewed.\n24 Aug. 2019: Guide reviewed and updated to reflect meta developments.\n27 Mar. 2018: Guide added.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Advanced Targeting (Level 1) Fenix Quest: Hitting enemy Heroes with Plasma Cutter permanently increases Fenix's Basic Attack damage by 0.5, up to 60. Reward: After hitting 30 Heroes, Plasma Cutter circles an additional time."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Arsenal Synergy (Level 1) Fenix After hitting enemy Heroes with Basic Attacks 3 times while Repeater Cannon is active, the next Basic Attack with Phase Bomb deals 150% more damage and splashes in a 50% larger area."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Mobile Offense (Level 1) Fenix After moving, Fenix's next Basic Attack deals 35% more damage to Heroes."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Target Acquired (Level 4) Fenix Basic Attacks against Slowed Heroes with Repeater Cannon active grant 10% Movement Speed for 4 seconds, up to 40%."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Inhibiting Energy (Level 4) Fenix Every 10 seconds, Fenix's next Basic Attack with Phase Bomb active Slows all enemies hit by 60%, decaying over 1.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Emergency Protocol (Level 4) Fenix While Fenix has shields from Shield Capacitor, he gains 10% Movement Speed. This bonus is increased to 15% when Fenix loses shields from Shield Capacitor."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Combat Advantage (Level 7) Fenix Plasma Cutter deals 35% more damage to Slowed targets."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Warp Warfare (Level 7) Fenix After arriving with Warp, gain 175% Attack Speed for 4 seconds while in Repeater Cannon mode. Hero Takedowns reset Warp's cooldown."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Divert Power: Weapons (Level 7) Fenix Activate to gain 40% Basic Attack damage for 5 seconds. Basic Attacking a Hero refreshes this duration. Once Divert Power: Weapons ends, drain all of Shield Capacitor's Shields."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Purification Salvo (Level 10) Fenix Cooldown: 90 seconds Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 79 (+4% per level) damage each. Deals 50% increased damage to Slowed targets."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Planet Cracker (Level 10) Fenix Cooldown: 100 seconds After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 112 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Adanium Shell (Level 13) Fenix After arriving with Warp, gain 50 Armor for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Dampening Field (Level 13) Fenix Fenix gains 30 Spell Armor while he has a Shield from Shield Capacitor."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Rapid Recharge (Level 13) Fenix The time before Shield Capacitor begins regenerating after taking damage is reduced by 2 seconds. Whenever Fenix is healed, Shield Capacitor's Shield recharges for 60% of the healing received."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Auxiliary Shields (Level 13) Fenix Permanently reduce Fenix's maximum Health by 30% but increase Shield Capacitor's Shield by 40%. Basic Attacks regenerate Shields equal to 10% of the damage dealt."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Offensive Cadence (Level 16) Fenix Every 3rd Basic Attack against Heroes while Repeater Cannon is active deals an additional 6% of the target's maximum Health as damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Photonic Weaponry (Level 16) Fenix Fenix deals 20% more damage while he has a Shield from Shield Capacitor."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Arsenal Overcharge (Level 16) Fenix Basic Attacks with Repeater Cannon reduce Ability cooldowns by 0.5 seconds. Basic Attacks with Phase Bomb active reduce Ability cooldowns by 0.5 seconds per Hero hit."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Armageddon Beam (Level 20) Fenix Planet Cracker's width increases by 100% over 1.5 seconds. Passive: Reduce Planet Cracker's cooldown by 40 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Secondary Fire (Level 20) Fenix Hitting an enemy Hero with Plasma Cutter fires a Purification Salvo missile at them after 0.5 seconds, dealing 79 (+4% per level) damage. Deals 50% increased damage to Slowed targets."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Singularity Charge (Level 20) Fenix Repeater Cannon grants 100% more Attack Speed, and Phase Bomb grants 1.25 more range."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Unconquered Spirit (Level 20) Fenix Upon taking fatal damage, Shield Capacitor regains 800 (+4% per level) Shields. This effect has a 120 second cooldown."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Fenix's Talent Build",
+   "id": "fenixs-talent-build",
+   "text": "Level\nChoices\n1\n✘︎\n✓\n?\n4\n✓\n✘︎\n✘︎\n7\n✘︎\n✘︎\n✓\n10\n✓\n?\n13\n?\n?\n✓\n?\n16\n✓\n?\n✘︎\n20\n?\n✘︎\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Fenix's Talent Build Cheatsheet",
+   "id": "fenixs-talent-build-cheatsheet",
+   "text": "Basic Attack Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attack Build is the only recommended build for Fenix. Most of his damage\ncomes from Repeater Cannon and Phase Bomb. Therefore, it is better to pick talents that\nincreases the damage output from Basic Attacks, such as Arsenal Synergy\nor Mobile Offense.\nThis build stacks several Talents that increase Basic Attack\ndamage. Divert Power: Weapons should usually be activated to increase damage\nonce it is clear that the enemy team is committed to a teamfight. This will\nallow you to trade optimally until your shields are gone, and to benefit from\nthe bonus damage as long as possible. Photonic Weaponry is a safe pick that\nwill almost always add damage, but Offensive Cadence can be very strong against\nTanks and Bruisers if they are unable to retaliate."
+  },
+  {
+   "title": "Level 1 Talents for Fenix",
+   "id": "level-1",
+   "text": "✘︎\nAdvanced Targeting\n(Level 1)\nFenix\nQuest: Hitting enemy Heroes with Plasma Cutter permanently increases Fenix's Basic Attack damage by 0.5, up to 60.\nReward: After hitting 30 Heroes, Plasma Cutter circles an additional time.\n✓\nArsenal Synergy\n(Level 1)\nFenix\nAfter hitting enemy Heroes with Basic Attacks 3 times while Repeater Cannon is active, the next Basic Attack with Phase Bomb deals 150% more damage and splashes in a 50% larger area.\n?\nMobile Offense\n(Level 1)\nFenix\nAfter moving, Fenix's next Basic Attack deals 35% more damage to Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Advanced Targeting increases\nPlasma Cutter's damage and utility by\nallowing it to circle Fenix an additional time. However, in most games the other\n2 options will add more damage to him than Advanced Targeting would.\nArsenal Synergy increases Weapon Mode: Phase Bomb's\ndamage and area of effect greatly, but only after hitting Heroes\n3 times with Weapon Mode: Repeater Cannon. This should be the\npick in most of the games. It increases your single target DPS almost as much as\nMobile Offense does, and also deals much more\narea of effect damage.\nMobile Offense is a great way to increase your Basic Attack damage against\nHeroes, and it encourages the user to stutter-step.\nTake this Talent as part of a Basic Attack Build. This Talent is also useful if\nyou need to practice stutter-stepping; the critical damage indicator may help\nreinforce this behavior. Mobile Offense is a good choice if the enemy team can\neasily punish Fenix when trying to basic attack with Weapon Mode: Repeater Cannon,\nforcing him to use Weapon Mode: Phase Bomb most of the time."
+  },
+  {
+   "title": "Level 4 Talents for Fenix",
+   "id": "level-4",
+   "text": "✓\nTarget Acquired\n(Level 4)\nFenix\nBasic Attacks against Slowed Heroes with Repeater Cannon active grant 10% Movement Speed for 4 seconds, up to 40%.\n✘︎\nInhibiting Energy\n(Level 4)\nFenix\nEvery 10 seconds, Fenix's next Basic Attack with Phase Bomb active Slows all enemies hit by 60%, decaying over 1.5 seconds.\n✘︎\nEmergency Protocol\n(Level 4)\nFenix\nWhile Fenix has shields from Shield Capacitor, he gains 10% Movement Speed. This bonus is increased to 15% when Fenix loses shields from Shield Capacitor."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Target Acquired triggers when its user delivers Repeater Cannon Basic Attacks\nto enemy Heroes who are Slowed by Plasma Cutter. This allows Fenix to become\nextremely fast in fights, as long as he is able to safely deliver Repeater\nCannon Basic Attacks. Target Acquired is one of the most important Talent for Fenix,\nconsidering it enhances his ability to retreat, advance and kite.\nThe duration and effect are also refreshed when attacking an enemy Slowed by your team.\nFor those reasons, this is the Talent to pick in every game.\nInhibiting Energy is an extremely underwhelming Talent.\nIt provides an unreliable Slow on Weapon Mode: Phase Bomb\nevery 10 seconds. The Talent is wasted on every Phase Bomb, even if you\ndid not hit a Hero with it, being terrible if you need to clear the Minion Wave,\nbecause you will not have the Slow afterwards.\nEmergency Protocol permanently increases Fenix's Movement\nSpeed, but it still is not enough to compare with Target Acquired, that overshadows\nthis Talent completely."
+  },
+  {
+   "title": "Level 7 Talents for Fenix",
+   "id": "level-7",
+   "text": "✘︎\nCombat Advantage\n(Level 7)\nFenix\nPlasma Cutter deals 35% more damage to Slowed targets.\n✘︎\nWarp Warfare\n(Level 7)\nFenix\nAfter arriving with Warp, gain 175% Attack Speed for 4 seconds while in Repeater Cannon mode. Hero Takedowns reset Warp's cooldown.\n✓\nDivert Power: Weapons\n(Level 7)\nFenix\nActivate to gain 40% Basic Attack damage for 5 seconds. Basic Attacking a Hero refreshes this duration. Once Divert Power: Weapons ends, drain all of Shield Capacitor's Shields."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Combat Advantage enhances Fenix's PvE,\nallowing him to quickly solo capture all types of Mercenary\nCamps except Boss Camps, and speeds up his waveclear. Unfortunately,\nDivert Power: Weapons will be a better option, since it will\nadd more damage in teamfights than Combat Advantage would.\nWarp Warfare is a risky Talent, since Fenix has to use\nWarp offensively to get the most out of it. We do not recommend\nthis Talent because Divert Power: Weapons will deal more damage in long\nfights without risking yourself.\nDivert Power: Weapons allows Fenix to greatly increase his Basic Attack\ndamage for a duration. Basic Attacking an enemy Hero refreshes the duration.\nFenix's Shields will drain when he is no longer able to refresh the duration.\nIf enemies are able to disengage, Fenix will be left with no Shields and no\nbonus damage. This Talent is exceptionally powerful when activated at key\nmoments."
+  },
+  {
+   "title": "Level 10 Talents for Fenix",
+   "id": "level-10",
+   "text": "✓\nPurification Salvo\n(Level 10)\nFenix\nCooldown: 90 seconds\nChannel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 79 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.\n?\nPlanet Cracker\n(Level 10)\nFenix\nCooldown: 100 seconds\nAfter 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 112 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nPurification Salvo is a fantastic Heroic for Fenix, because it gives him\na tool to secure kills with. Fenix has a great kit for poking enemies at a\ndistance, but his Basic Abilities lack reliable burst damage. Purification\nSalvo fills this void in his kit, making him an Assassin capable of securing\nkills on his own. Fenix can walk or Warp away once enemies have been locked,\nand Purification Salvo will still fire. Casting Warp during Purification Salvo's\nfiring sequence will not interrupt it; the salvo will finish firing during and\nafter Warp. This Heroic Ability will be excellent when you already have tools for Slowing\nall enemies in your team, such as Lightning Breath or\nEarthquake.\nPlanet Cracker is a channeled\nbeam that covers unlimited distance in\nthe direction it is cast. It is quite amazing to see, and fun to use. However,\nenemies must simply walk to the side of it to avoid most of its damage. It does\nnot often deliver meaningful results without setup from allies.\nFor this reason, you should default to Purification Salvo.\nPlanet Cracker can be good in combination with crowd-control from your team,\nbut it is best to make sure your allies want to play this way before selecting\nthis Heroic Ability. It can be an option in Braxis Holdout, since it can be used\ntowards the Zerg Wave, clearing most of it on spawn."
+  },
+  {
+   "title": "Level 13 Talents for Fenix",
+   "id": "level-13",
+   "text": "?\nAdanium Shell\n(Level 13)\nFenix\nAfter arriving with Warp, gain 50 Armor for 4 seconds.\n?\nDampening Field\n(Level 13)\nFenix\nFenix gains 30 Spell Armor while he has a Shield from Shield Capacitor.\n✓\nRapid Recharge\n(Level 13)\nFenix\nThe time before Shield Capacitor begins regenerating after taking damage is reduced by 2 seconds. Whenever Fenix is healed, Shield Capacitor's Shield recharges for 60% of the healing received.\n?\nAuxiliary Shields\n(Level 13)\nFenix\nPermanently reduce Fenix's maximum Health by 30% but increase Shield Capacitor's Shield by 40%. Basic Attacks regenerate Shields equal to 10% of the damage dealt."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Adanium Shell grants a massive amount of Armor for several seconds\nafter Warp is completed. The drawback of Adanium Shell\nis that it does not increase your self-sustain, only your survivability. It is a\ngood option when facing Heroes that can easily dive you, but cannot cancel\nWarp, such as Zeratul or Genji.\nDampening Field gives a considerable amount of Spell Armor while Fenix has Shields\nfrom Shield Capacitor. In most scenarios, Rapid Recharge will be a better option.\nHowever, against heavy dive compositions, Dampening Field will be useful, since it will\nbe the only Talent that will increase your resistance against burst damage in this tier.\nRapid Recharge decreases the amount of time before Shields begin to\nregenerate. This is the default choice for this tier, because it often allows him to\nget back to trading with enemy Heroes sooner than the other Level 13 Talents\nwould have. It is also a good Talent when your Healer has\nburst heal, like Uther or Deckard Cain with\nSuper Healing Potion have.\nAuxiliary Shields replenishes your Shields by a\npercentage of all damage dealt by your Basic Attacks. This includes splash\ndamage dealt with Weapon Mode: Phase Bomb. This effect will occur in\ncombat, making Auxiliary Shields excellent when you do not have a reliable burst heal\nfrom allies when low on Health."
+  },
+  {
+   "title": "Level 16 Talents for Fenix",
+   "id": "level-16",
+   "text": "✓\nOffensive Cadence\n(Level 16)\nFenix\nEvery 3rd Basic Attack against Heroes while Repeater Cannon is active deals an additional 6% of the target's maximum Health as damage.\n?\nPhotonic Weaponry\n(Level 16)\nFenix\nFenix deals 20% more damage while he has a Shield from Shield Capacitor.\n✘︎\nArsenal Overcharge\n(Level 16)\nFenix\nBasic Attacks with Repeater Cannon reduce Ability cooldowns by 0.5 seconds. Basic Attacks with Phase Bomb active reduce Ability cooldowns by 0.5 seconds per Hero hit."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Offensive Cadence deals percent-based damage\nevery third Basic Attack while in Weapon Mode: Repeater Cannon.\nThe Talent is a good choice when you find yourself against an enemy team\ncomposition that cannot reliably punish you for delivering consecutive Repeater\nCannon Basic Attacks to their frontline.\nPhotonic Weaponry passively increases all damage that\nFenix deals, as long as he has any amount of Shields from Shield Capacitor. This\nis a safer pick than Offensive Cadence, considering it will roughly increase\nall your damage, including damage from Heroics. If enemy team can easily punish you\nwhen you are trying to deliver Repeater Cannon Basic Attacks, go for Photonic\nWeaponry instead.\nArsenal Overcharge can greatly reduce the cooldown of\nany of your Abilities, including your Heroic. We do not recommend this Talent,\nbecause most of your damage comes from Basic Attacks, so Offensive Cadence and\nPhotonic Weaponry are better options for this tier."
+  },
+  {
+   "title": "Level 20 Talents for Fenix",
+   "id": "level-20",
+   "text": "?\nArmageddon Beam\n(Level 20)\nFenix\nPlanet Cracker's width increases by 100% over 1.5 seconds.\nPassive: Reduce Planet Cracker's cooldown by 40 seconds.\n✘︎\nSecondary Fire\n(Level 20)\nFenix\nHitting an enemy Hero with Plasma Cutter fires a Purification Salvo missile at them after 0.5 seconds, dealing 79 (+4% per level) damage. Deals 50% increased damage to Slowed targets.\n?\nSingularity Charge\n(Level 20)\nFenix\nRepeater Cannon grants 100% more Attack Speed, and Phase Bomb grants 1.25 more range.\n✓\nUnconquered Spirit\n(Level 20)\nFenix\nUpon taking fatal damage, Shield Capacitor regains 800 (+4% per level) Shields. This effect has a 120 second cooldown."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Armageddon Beam reduces Planet Cracker's cooldown and increases\nits width over 1.5 seconds. This Talent is an excellent upgrade for\nPlanet Cracker, as it makes it much harder for\nenemies to walk away from the beam. However, if you do not\nhave a reliable crowd control in your team, it is better\nto pick Unconquered Spirit instead, as it will be better\nin fights.\nSecondary Fire would be good with Advanced Targeting\nbecause Plasma Cutter would circle an additional time. But Unfortunately, this synergy\nwould only come at Level 20. Therefore, Secondary Fire or Plasma Cutter Build is\nnot recommended by this time.\nSingularity Charge increases the benefits you receive from both\nWeapon Modes. This means you can poke from a greater distance with Phase Bomb,\nand increase your Attack Speed even more while using Repeater Cannon. It is a good\noption if your team is dying earlier than you, and in this case Unconquered Spirit\nwould not be useful at all, forcing Fenix into getting Singularity Charge instead.\nUnconquered Spirit makes you much harder to kill. Fenix already\nrequires a lot of coordination to kill, thanks to Warp. This Storm Talent makes\nyou that much harder to kill, and can trick enemy Heroes into overextending\nfor what looks like a takedown. Take this if you need more survivability."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide reviewed.\n26 Mar. 2021: Updated Talent recommendations.\n04 Mar. 2021: Talents and Builds updated after recent balance patch.\n20 Jan. 2021: Talent section reviewed and no changes are necessary.\n07 Apr. 2020: Talent section updated to reflect current meta.\n15 Feb. 2020: Talent section and build guide recommendations updated to reflect February 12 balance patch.\n24 Aug. 2019: Guide reviewed and updated to reflect meta developments.\n12 Dec. 2018: Removed Warp Conduit.\n28 Jun. 2018: Talent section updated to reflect June 26 balance patch.\n25 Jun. 2018: Talent choices and text have been updated to reflect the meta's development.\n13 Apr. 2018: Talent choices updated to reflect April 12 balance patch.\n04 Apr. 2018: Talent section updated to reflect meta's development.\nShow more\nShow less"
+  }
+ ]
+}

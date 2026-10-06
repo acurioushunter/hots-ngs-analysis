@@ -1,0 +1,81 @@
+{
+ "name": "tomb-of-the-spider-queen",
+ "source": "https://www.icy-veins.com/heroes/tomb-of-the-spider-queen-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Tomb of the Spider Queen is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Webweavers. One per lane,\nthey will fight alongside the team who pays the required amount of Gems,\ndealing heavy damage to enemy Structures on their way."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nEffects relying on impassable terrain\nPoke tools for Objective\nQuests to stack on Heroes\nStrong late game\nSustain damage/healing\nVision tools\nHigh waveclear\nAvoid\nWeak late game\nLow waveclear\nEffects relying on bushes\nSee our Tomb of the Spider Queen Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 4-1",
+   "id": "formation-4-1",
+   "text": "The go-to formation for Tomb of the Spider Queen is 4-1:\n4 Heroes rotate between the middle and the top lane;\n1 Hero, the Offlaner, covers the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes, you could try to sneak-capture the neutral Siege Camp\nin the bottom lane with the help of a second Hero that you sent\nthere beforehand. While doing so, do not play for the allied Bruiser Camp\nin the middle lane because they may need your help in the bottom lane.\nAt 0:30 minutes or right before a team gets Webweavers, start clearing\nthe allied Bruiser Camp in the middle lane and capture it as soon as possible.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 1:05 minutes or 5 seconds after a wave of Minions spawned.\nAfter that, if your team has an advantage,\nstart clearing the neutral Siege Camp in the bottom lane\nand capture it as soon as possible.\nWhen your team has enough Gems, prepare waves to be even vertically\nand pay to get Webweavers. When paying, someone should give vision in nearby\nbushes so you don't get caught by surprise and lose all your Gems.\nWhen the enemy team has enough Gems, ruin waves to not be even vertically\nand stop the enemy Hero who is carrying the highest amount of Gems from paying,\nhowever, be careful not to die in the process because having a numerical\ndisadvantage will only make defending from Webweavers harder.\nAfter about 10:00 minutes, whenever your team has an advantage\nor right after all allied Webweavers have been killed, you can pay Gems and capture\nthe Boss Camp at the same time by taking aggro\nof the Boss while paying the last few Gems, and then push with them.\nAvoid doing it earlier if you do not have a dedicated team composition."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Tomb of the Spider Queen has a total of 4 Mercenary Camps:\n1 Boss Camp (red icon) in the top lane;\n2 Bruiser Camps (blue icon) in the middle lane;\n1 Siege Camp (green icon) in the bottom lane.\nMercenary Camps on Tomb of the Spider Queen disappear from the battlefield\nonce the Webweavers begin spawning (unless their Mercenaries are in combat)\nand reappear only after all Webweavers have been killed.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Siege Giants. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n280 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nInstead of attacking enemies with Basic Attacks, Siege Giants throw stones at them.\nThese stones can be dodged, so it is possible to capture them without taking any damage.\nOnce captured, they are capable of damaging enemy Structures without getting in their range.\nSiege Giants deal 100% bonus damage to Structures."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 3 Knights and 1 Wizard. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n450 Experience\n+9 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nRight after being captured and while in lane, the Wizard creates a Spell Armor field\naround him which reduces some of the damage taken by Minions, Mercenaries, and Heroes within range.\nAvoid fighting the enemy team if they still have a Wizard helping them!"
+  },
+  {
+   "title": "Boss Camp",
+   "id": "boss-camp",
+   "text": "This type of Mercenary Camp features 1 Sand Golem. Once captured,\nit spawns the same unit fighting for your team in the corresponding lane.\nWhen possible, push with it to get more value.\nSpawn Time\nRespawn Delay\n5:00 minutes\n5:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n750 Experience\n+10 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nWhile in combat, the Sand Golem will use Mega Smash (10-second cooldown)\nto damage and Stun all enemies in melee range\nand Whirling Sands (15-second cooldown) to do slight damage\nand Knockback enemies who get hit by them.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Tomb of the Spider Queen consists of 3 Webweavers\nthat spawn after paying enough Gems. In order to pay, Heroes have to channel for 6 seconds.\nWhenever a team pays enough Gems, after a 15-second delay, a Webweaver will spawn in each lane.\nWebweavers can use Death Wave (7-second cooldown and 4-second channel), a powerful Ability to deal damage\nin front of them, and Spawn Minions (20-second cooldown), which summons 2 Cryptcrawlers.\nSpawn Time\nRespawn Delay\n30 seconds\n15 seconds after the Webweavers die\n\nCollect Gems\nEnemy spider minions and Heroes drop magical gems upon death. Gather as many as you can!\nTurn in Gems\nRelinquish your gems at one of the Spider Queen's altars or you will drop them all when you die!\nSummon Webweavers\nWhichever team turns in enough gems first will unleash the Webweavers to destroy their enemy's defenses."
+  },
+  {
+   "title": "Gems",
+   "id": "gems",
+   "text": "You need 50 Gems to pay, plus 5 Gems for each time your team\nalready got Webweavers during the game. If your team has enough Gems\nto pay, the Gems counter (under the Minimap) for your team will glow.\nRanged Minions, Murky, The Lost Vikings, and Misha drop 1 Gem.\nAll other enemy Heroes drop 3 Gems. Heroes can carry\na maximum of 100 Gems.\nGems are lost on death, but allied Heroes have 8 seconds\nto pick them up from the ground before they disappear.\nKeep in mind that enemy Heroes can see where they are,\nso smart opponents will try to zone you away from them.\nRight before winning the Objective, you should ideally prepare waves\nso that allied Webweavers reach enemy Structures at the same time in\nevery lane and thus the enemy team cannot easily defend them one at a time.\nSimilarly, right before losing the Objective, you can ruin waves\nto weaken enemy Webweavers."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 5 seconds, the Core will shoot a Death Wave, dealing 5% maximum Health\nas damage to enemy Heroes and Slowing them by 70% for 1.25 seconds."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Tomb of the Spider Queen, you should count on\nany of the following win conditions:\nMap Objective,\nBoss Camp."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "On this Map, due to the Objective being always active,\nyou can use the Healing Fountain on cooldown\ninstead of saving it for when the Objective spawns.\nYou do not need to use your Mount while rotating\nbetween the middle and the top lane because they are very close to each other.\nMovement Speed effects (notably Crossfade - Speed Boost\nby Lucio) help with that.\nEvery time you have 10 Gems or more, pay to avoid losing them on death.\nGems that fall on the ground and are not collected in time will be lost forever,\ncausing your team to get fewer Webweavers throughout the game.\nYou can press Tab to see who has the highest amount of Gems among enemy Heroes.\nUse that information to not let that Hero pay while your team does\nor to kill them when no other enemy Heroes are nearby to pick up their lost Gems.\nIf your team has an advantage and enough\nGems to get Webweavers, you can aggro the Boss\nwhile the last few Gems are being paid. By keeping the Boss in combat,\nthe Boss Camp does not disappear\nfrom the battlefield while Webweavers are alive, so you can\nclear it and capture it while Webweavers are spawning and then\npush with Webweavers and Boss at the same time.\nYou can bait the Sand Golem's Whirling Sands on the enemy side of the battlefield\nby staying there right before they spawn. This way, if the enemy team invades the\nBoss Camp, they will have annoying tornadoes on their path.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n25 Aug. 2025: Guide reviewed.\n25 Oct. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "name": "braxis-holdout",
+ "source": "https://www.icy-veins.com/heroes/braxis-holdout-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Braxis Holdout is a 2-lane Map belonging to the Starcraft universe.\nThe signature Objective of this Map are Beacons that reward Zerg Waves.\nThe team who wins the Objective will get a 100% power Zerg Wave,\nthe other team will get a less powerful one."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nGankers\nGlobal presence\nPoint control for Boss Camp\nPoint control for Objective\nQuests to stack on Heroes\nStrong early game\nSustain damage/healing\nModerate waveclear\nAvoid\nMana-intensive Heroes\nWeak early game\nSee our Braxis Holdout Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-4",
+   "id": "formation-1-4",
+   "text": "The go-to formation for Braxis Holdout is 1-4:\n1 Hero, the Offlaner covers the top lane;\n4 Heroes cover the bottom lane.\nUse this formation to counter the 1-3-1 formation."
+  },
+  {
+   "title": "Formation 2-3",
+   "id": "formation-2-3",
+   "text": "Another good formation for Braxis Holdout is 2-3:\n2 Heroes with tools to overwhelm the enemy Offlaner cover the top lane;\n3 Heroes with tools to stop a push cover the bottom lane.\nUse this strategy to counter the 1-4 formation."
+  },
+  {
+   "title": "Formation 1-3-1",
+   "id": "formation-1-3-1",
+   "text": "Another good formation for Braxis Holdout is 1-3-1:\n1 Hero, the Offlaner covers the top lane;\n3 Heroes constantly roam between the bottom and the top lanes;\n1 Hero, the Anchor, covers the bottom lane.\nUse this strategy to counter the 2-3 formation."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or right after the Zerg Waves die,\nstart clearing the allied Bruiser Camp and capture it as soon as possible.\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 0:50 minutes or 20 seconds after a wave of Minions spawned.\nAt 0:45 minutes or right after capturing the allied Bruiser Camp,\nstart clearing the allied Siege Camp and capture it as soon as possible.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 1:10 minutes or 10 seconds after a wave of Minions spawned.\nAt 1:30 minutes or whenever Beacons activate, make sure to have a durable Hero on each of them.\nSecure at least one Beacon and keep control of it for as much as possible without dying.\nThen, whenever your team gets an advantage, capture\nthe other Beacon to get progress and thus make your Zerg Wave more powerful. On the other hand,\nif the enemy team has an advantage, you should retreat.\nIf your team wins the Objective with a big difference (such as 100% against 25%),\nyou should push with the allied Zerg Wave.\nIf it is early game,\nthe Offlaner can keep soaking.\nIf your team wins the Objective with a small difference (such as 100% against 75%),\nyou should defend from the enemy Zerg Wave unless you can destroy the enemy Core with it.\nIf it is early game,\nthe Offlaner can keep soaking.\nIf your team loses the Objective with a big difference (such as 25% against 100%),\nyou should defend allied Structures from the enemy Zerg Wave.\nIf it is early game,\nthe Offlaner can keep soaking.\nIf your team loses the Objective with a small difference (such as 75% against 100%),\nyou should defend allied Structures from the enemy Zerg Wave unless you can destroy the enemy Core with it.\nIf it is early game,\nthe Offlaner can keep soaking.\nAfter about 10:00 minutes, whenever your team has an advantage\nwhile there is no Objective to contest, you can capture the\nBoss Camp and push with it.\nAvoid doing it earlier if you do not have a dedicated team composition."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Braxis Holdout has a total of 5 Mercenary Camps:\n1 Bruiser Camp (blue icon) on the left side of the top lane;\n1 Siege Camp (green icon) on the right side of the top lane;\n1 Boss Camp (red icon) in the middle of the battlefield;\n1 Siege Camp (green icon) on the left side of the bottom lane;\n1 Bruiser Camp (blue icon) on the right side of the bottom lane.\nMercenary Camps on Braxis Holdout disappear from the battlefield\nonce the Zergs begin spawning (unless their Mercenaries are in combat)\nand reappear only after all the Zergs have been killed by both teams.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Hellbats. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n120 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling 1 minute later.\nHellbats reduce the Armor of enemy Structures and Heroes hit\nby their cleaving Basic Attacks for 3 seconds by 4 Armor per Basic Attack,\nstacking 5 times, for a maximum of 20 Armor reduction."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 3 Goliaths and 1 Raven. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n270 Experience\n+8 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling 1 minute later.\nRavens do not use Basic Attacks. Instead, they fire a Seeker Missile (5-second cooldown)\nwhich Reveals the targeted Hero and damages them upon impact.\nRavens deal only 20 (not scaling) damage per second whereas\nGoliaths deal 40 (+1 per minute) damage per second."
+  },
+  {
+   "title": "Boss Camp",
+   "id": "boss-camp",
+   "text": "This type of Mercenary Camp features 1 Archangel. Once captured,\nit spawns the same unit fighting for your team in the lane where\nenemy Structures have the least amount of damage taken in total.\nWhen possible, push with it to get more value.\nSpawn Time\nRespawn Delay\n5:00 minutes\n5:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n750 Experience\n+10 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling 1 minute later.\nWhile in combat, the Archangel will use Mortar (3-second cooldown) to fire\na delayed projectile at an enemy and Bullet Storm (16-second cooldown) to fire\na barrel of missiles in a large rectangular area towards the closest enemy.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Globe Spawners",
+   "id": "globe-spawners",
+   "text": "Braxis Holdout features 2 Globe Spawners: one above the top lane\nand another below the bottom lane. They are positioned in a way that does not allow Heroes\nwho are controlling the nearby Beacon to easily pick up a Regeneration Globe from them.\nSpawn Time\nRespawn Delay\n0:30 minutes\n45 seconds after picking up a generated Regeneration Globe\n\nGlobe Spawners periodically spawns a neutral Regeneration Globe.\nUnlike other Regeneration Globes, the ones generated this way do not disappear with time.\nTry to pick them up when possible (without giving up the Objective) or the enemy team will get them."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Braxis Holdout consists of Beacons that reward Zerg Waves.\nHeroes can claim Beacons to gain progress until they get pushed out of them.\nCapturing a Beacon takes 3 seconds if it is neutral,\nor 6 seconds if the enemy team has control over it.\nSpawn Time\nRespawn Delay\n1:30 minutes\n2:10 minutes after the Zerg Waves die\n\nCapture the Beacons\nPeriodically two beacons will activate. Capture both to fill your Holding Cell with Zerg.\nFill Holding Cells\nOnce either Holding Cell fills, both open and unleash waves of Zerg at each team's base.\nZerg Waves\nHold out against the enemy's Zerg while helping yours. The Zerg will attack Heroes, so engage cautiously."
+  },
+  {
+   "title": "Beacons",
+   "id": "beacons",
+   "text": "Beacons progress by 2% every 0.75 seconds, so going straight from 0%\nto 100% takes almost 40 seconds. If you step on a Beacon that is being controlled\nby the enemy team while an enemy Hero is on it, you will not be able to stop\nthe enemy team from getting progress. You need to push them out!"
+  },
+  {
+   "title": "Zerg Wave",
+   "id": "zerg-wave",
+   "text": "Whenever a team reaches 100% progress, each team will get:\n6 Zerglings and 1 Ultralisk baseline;\n1 Baneling every 10% progress;\n1 Hydralisk every 24% progress;\n1 Guardian every 30% progress;\n1 Ultralisk every 45% progress.\n\nProgress\nZerglings\nBanelings\nHydralisks\nGuardians\nUltralisks\n0%\n6\n0\n0\n0\n1\n10%\n6\n1\n0\n0\n1\n20%\n6\n2\n0\n0\n1\n24%\n6\n2\n1\n0\n1\n30%\n6\n3\n1\n1\n1\n40%\n6\n4\n1\n1\n1\n45%\n6\n4\n1\n1\n2\n48%\n6\n4\n2\n1\n2\n50%\n6\n5\n2\n1\n2\n60%\n6\n6\n2\n2\n2\n70%\n6\n7\n2\n2\n2\n72%\n6\n7\n3\n2\n2\n80%\n6\n8\n3\n2\n2\n90%\n6\n9\n3\n3\n3\n96%\n6\n9\n4\n3\n3\n100%\n6\n10\n4\n3\n3\nOnce a team reaches 100% progress, Zerg Waves for each team will spawn in opposite\nlanes at the same time, starting randomly and then alternating for the rest of the game.\nYou can see in which lanes they will spawn by looking at the color of the cages near\nthe middle of each lane. The allied Zerg Wave will spawn in the lane with a blue cage\nwhereas the enemy Zerg Wave will spawn in the lane with a red cage.\nZergs prioritize Minions and Structures, but can also\nattack Heroes. Zergs have 50% resistance from crowd-control\neffects, therefore these effects will last 50% less when used on them.\nWhenever they attack, Guardians and Ultralisks launch Drop Pods\n(13-second cooldown) that spawn 3 Zerglings and 1 Hydralisk.\nBanelings have low Health but explode when hitting non-Heroes,\ndealing heavy damage around them."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 4 seconds, the Core will shoot 5 Missiles at a nearby enemy Hero,\ndealing 5% maximum Health as damage per missile."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Braxis Holdout, you should count on\nany of the following win conditions:\nMap Objective,\nBoss Camp."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "On this Map, due to the Objective taking a long time to be won,\nyou can use the Healing Fountain on cooldown\ninstead of saving it for when the Objective spawns.\nIf your Hero has an Ability which allows them to jump over\nimpassable terrain, you can use it\nto quickly rotate from a lane to another.\nChoose when to contest a Beacon and when to retreat depending\non which team has an advantage\nin that area. If they commit top, try to get bottom (and vice versa).\nHeroes with good waveclear are the best\nfor defending from enemy Zerg Waves, so you should prefer sending them\non that lane, especially when the enemy team gets a lot of progress.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n01 Dec. 2025: Guide reviewed for the latest Map Updates.\n07 Oct. 2025: Guide updated for the latest Hotfix.\nMap Objective section updated.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n25 Aug. 2025: Guide reviewed.\n06 Dec. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "slug": "cassia",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/cassia-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/cassia-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/cassia-talents"
+ },
+ "guide": [
+  {
+   "title": "Cassia's Overview",
+   "id": "cassias-overview",
+   "text": "Cassia is a ranged Assassin who deals increased damage to Blinded enemies.\nBlinding Light makes her exceptionally strong against\nmelee Heroes who are reliant on Basic Attacks as a primary damage source.\nAlthough she has strong all-in potential with Ball Lightning\nand Fend, her kit lacks escape options once she is committed. While Cassia\ncan fit into many different team compositions, she gets very squishy when against\ncrowd control."
+  },
+  {
+   "title": "Cassia's Strengths and Weaknesses",
+   "id": "cassias-strengths-and-weaknesses",
+   "text": "Strengths\nDecent waveclear with Fend if Minions are Blinded\nGreat against melee Heroes due to Charged Strikes\nStrong against Basic Attack oriented Heroes thanks to Blinding Light\nGets more value from Healing, due to having innate armor from Avoidance\nWeaknesses\nNo escapes\nVery mana intensive\nFend can be interrupted\nAny debuff that stops movement will greatly reduce her survivability\nSmall range\nDependent on Level 13 and 16 talents"
+  },
+  {
+   "title": "Cassia's Talent Build Cheatsheet",
+   "id": "cassias-talent-build-cheatsheet",
+   "text": "Lightning Fury Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis Build slightly increases Lightning Fury's damage, and is a great option\nif you are looking for more poke damage. The\nplaystyle of this build differs greatly from the other builds, as you will usually\ndeal damage from a safer range.\nUse Lightning Fury on enemy Heroes whenever possible, in order to stack\nThunderstroke quickly. If you cast Lightning Fury\nperpendicularly toward enemy Gates, the lightning bolts will\nalso damage the Towers and Walls with each cast.\nCharged Strikes Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nCassia's Charged Strikes Build will make you deal a substantial amount of sustain\ndamage through Basic Attacks to the enemy team.\nThe main drawback of this build is that it requires you to remain within\nCassia's short attack range while delivering Basic Attacks. But this weakness is\ncompensated by Gloves Of Alacrity at Level 13.\nDue to Cassia's small range, you will have a hard time constantly\ndelivering Basic Attacks in the early game. It is better to be playing safely, only\nattacking enemies when you are sure of your safety. Start playing more aggressively after\nLevel 13's Talents, because of the extra range or mobility provided by those.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Cassia's Synergies and Counters",
+   "id": "cassias-synergies-and-counters",
+   "text": "Cassia synergizes with\nCassia greatly benefits from allied Heroes who can Blind enemies, because\nshe deals increased damage to Blinded targets. If her allies can\nalso Slow enemies, she can get additional value from Martial Law.\nCassia is countered by\nCassia has no escapes, limited self-sustain and small range.\nPowerful backline Heroes can win trades with her at range, and punish\nher brutally if she dives in with Fend. Reliable crowd controls\nare also excellent against her, since Avoidance is only active\nwhen Cassia is moving."
+  },
+  {
+   "title": "Cassia's Maps",
+   "id": "cassias-maps",
+   "text": "Cassia's stronger maps\nNone\nCassia's average maps\nCassia's weaker maps\nNone\nCassia can perform well on any map. She has good waveclear, excellent siege\ndamage at gates, is an effective duelist, and contributes high\nsingle-target damage against Boss type map objectives. Her viability is more dependent\non team compositions than battlegrounds."
+  },
+  {
+   "title": "Cassia's Tips and Tricks",
+   "id": "cassias-tips-and-tricks",
+   "text": "Cast Lightning Fury perpendicularly toward enemy Gates to damage all of the Structures connected to the Gate.\nUse Fend to assist with waveclear, execute low Health enemies, or to follow up Ball Lightning.\nUse Ball Lightning to duel enemy Heroes in melee range, or during team fights when enemies are clumped together.\nAvoidance will benefit you any time you are moving, and will persist while stutter stepping.\nValkyrie is a great tool for pickoffs or interrupting channeled Heroic Abilities, due to its very low cooldown.\nWar Matron can be used to mitigate some premeditated Abilities, like Flamestrike or Pyroblast, use Fend on a nearby minion to protect yourself.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Cassia's Role in the Current Meta",
+   "id": "cassias-role-in-the-current-meta",
+   "text": "Cassia works best as a the main ranged assassin of a composition, or to\nshut down enemy Heroes who are reliant on Basic Attacks for damage. She can be picked\nat any point of the draft, due to her strong damage and resistance. Cassia is excellent\nwith a single target supports, since her armor greatly increases heals' effectiveness.\nCassia can be picked with other Heroes that apply blinds to the enemies, slightly\nincreasing her damage. However, the enemy team composition should be the factor between picking\nor not her, instead of your own.\nDue to Cassia's builds variety, she can be picked either as a poke\ndamage Hero (with Lightning Fury Build), or as a consistent damage dealer (with Charged Strikes).\nIf the opposing team has many different\nsources of Basic Attack damage, it is still better to wait for one of them to commit to a fight\nbefore using the blind, or they will be able to just press backwards and your blind will be wasted."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n15 Apr. 2022 (talents page): Updated Ring of the Leech's relevance after balance patch.\n15 Apr. 2022 (this page): Added Ring of the Leech to Basic Attacks build.\n24 Jul. 2021 (this page): Guide reviewed after recent balance patch and no changes are necessary.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n17 Feb. 2021 (talents page): Updated Inner Light's relevance.\n17 Feb. 2021 (this page): Updated Builds.\n20 Jan. 2021 (talents page): Talent section reviewed and no changes are necessary.\n20 Jan. 2021 (this page): Guide reviewed after recent balance patch and no changes are necessary.\n27 Oct. 2020 (talents page): Updated recommended Talents.\n27 Oct. 2020 (this page): Updated Builds to reflect current meta.\n14 Sep. 2020 (talents page): Updated Surge of Light's discussion.\n14 Sep. 2020 (this page): Updated Guide after recent balance patch.\n24 Aug. 2020 (talents page): Updated Power Strike relevance after recent balance patch.\n24 Aug. 2020 (this page): Lighting Fury Build updated after recent balance patch.\n30 Jul. 2020 (talents page): Fend Talents and Build have been removed from recommendations.\n30 Jul. 2020 (this page): Fend Build Removed. Remaining builds updated.\n17 Jul. 2020 (talents page): Talent section reviewed and no changes are necessary.\n16 Jul. 2020 (this page): Guide reviewed after recent balance patch and no changes are necessary.\n06 Jun. 2020 (talents page): Updated builds and talents to match meta development.\n04 Jun. 2020 (talents page): Updated builds and talents accordingly to recent balance patch.\n04 Jun. 2020 (abilities page): Updated Avoidance description accordingly to recent balance patch.\n04 Jun. 2020 (this page): Updated Guide to reflect changes from recent balance patch.\n11 May 2020 (abilities page): Changed Ability descriptions after Cassia's rework.\n11 May 2020 (this page): Updated Guide to match Cassia's rework.\n09 May 2020 (talents page): Updated builds and talents accordingly to her rework.\n27 Apr. 2020 (this page): Updated Strengths, Counters, and Role in the Current Meta to match build updates.\n08 Apr. 2020 (talents page): Builds and talents updated to reflect current meta.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n24 Aug. 2019 (talents page): Guide reviewed to ensure meta relevance.\n24 Aug. 2019 (abilities page): Guide reviewed to ensure meta relevance.\n24 Aug. 2019 (this page): Guide reviewed to ensure meta relevance.\n26 Jun. 2019 (this page): Updates to maps, strengths, and weaknesses\n28 Jun. 2018 (talents page): Talent section updated to reflect June 26 balance patch.\n21 Sep. 2017 (talents page): Talent discussion updated to reflect balance changes.\nTrue Sight Talent removed.\nSeraph's Hymn Talent moved from Level 13 to Level 1.\nBuilds updated accordingly.\n21 Apr. 2017 (talents page): Talent discussions updated to reflect balance changes.\n21 Apr. 2017 (abilities page): Valkyrie discussion has been updated to account for its greatly reduced cooldown.\n14 Apr. 2017 (talents page): Expanded explanations and strategies.\n14 Apr. 2017 (abilities page): Expanded explanations and strategies.\n07 Apr. 2017 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Cassia's Tips and Tricks",
+   "id": "cassias-tips-and-tricks",
+   "text": "Cast Lightning Fury perpendicularly toward enemy Gates to damage all of the Structures connected to the Gate.\nUse Fend to assist with waveclear, execute low Health enemies, or to follow up Ball Lightning.\nUse Ball Lightning to duel enemy Heroes in melee range, or during team fights when enemies are clumped together.\nAvoidance will benefit you any time you are moving, and will persist while stutter stepping.\nValkyrie is a great tool for pickoffs or interrupting channeled Heroic Abilities, due to its very low cooldown.\nWar Matron can be used to mitigate some premeditated Abilities, like Flamestrike or Pyroblast, use Fend on a nearby minion to protect yourself."
+  },
+  {
+   "title": "Avoidance",
+   "id": "avoidance",
+   "text": "Avoidance\n(D)\nCassia\nCooldown: 0.25 seconds\nCharges: 100\nWhile moving, Cassia gradually gains up to 30 Armor over 3 seconds. After being stationary for 0.75 seconds, the Armor is rapidly lost over .5 seconds.\nAvoidance remains charged while Fending.\nAvoidance will benefit you while you are moving,\nand will remain active while stutter stepping.\nTry to maintain this effect as much as possible. It will reduce almost all damage,\nas long as you continue moving. It is important to\nunderstand that Avoidance will keep reducing damage for the next second if you are Stunned\nor Rooted, but Armor will decay rapidly after that.\nIt takes 3 seconds to get all the 30 Armor, getting 10 each second.\nIt is crucial for a good Cassia player to always maintain Avoidance charged in fights.\nAfter 0.75 seconds of not walking, it will decay until 0 Armor. You should always move\ninstantly after delivering a Basic Attack, or your Hero will be very squishy."
+  },
+  {
+   "title": "Lightning Fury",
+   "id": "lightning-fury",
+   "text": "Lightning Fury\n(Q)\nCassia\nMana: 20\nCharges: 2\nRecharge Time: 5 seconds\nHurl a lightning javelin that deals 158 (+4% per level) damage to the first enemy hit and splits into two lightning bolts that deal 158 (+4% per level) damage to enemies in their path.\nLightning Fury has more range than any of Cassia's other Abilities. This\nmakes it a great tool for poking enemies from relative safety. While it is the\nprimary Ability in builds focusing on improving it, it is useful in a variety\nof ways in any build. Playing the Lightning Fury Build is a good way to become\ncomfortable with the Ability. This familiarity will allow you to use it more\neffectively in general.\nWhenever using Lightning Fury, it is important to think about the secondary\nlightning bolts. One of the most Mana efficient uses of this Ability is to cast\nit on Towers or Gates while aiming perpendicularly to enemy Gates; doing so will cause the lightning bolts\nto damage all of the Structures on the same line. Lightning Fury can be\nused effectively for waveclear, as long as several Minions will be hit by the\nresulting lightning bolts. The lightning bolts can even secure kills on low\nHealth enemy Heroes, who would otherwise be protected from the linear path of\nthe main lightning javelin."
+  },
+  {
+   "title": "Blinding Light",
+   "id": "blinding-light",
+   "text": "Blinding Light\n(W)\nCassia\nMana: 50\nCooldown: 15 seconds\nAfter 0.5 seconds, deal 50 (+4% per level) damage and Blind enemies in the target area for 2 seconds.\nPassive: Cassia deals 15% increased damage to Blinded targets.\nBlinding Light should be only used to speed up\nwaveclear or to punish diving enemies. Since the range\nof this Ability is small, we do not recommend trying to use it to punish other Heroes\nwith a much larger range than cassia, such as Raynor or Sgt. Hammer.\nThis cost is generally worth it if you force an\nenemy Hero to retreat, or get a kill. Against team compositions that lack Heroes\nfocused on Basic Attacks, it can be used as a damage boost right before you use\nFend and Surge of Light."
+  },
+  {
+   "title": "Fend",
+   "id": "fend",
+   "text": "Fend\n(E)\nCassia\nMana: 50\nCooldown: 10 seconds\nCharge at an enemy, and upon arriving Channel for up to 1.5 seconds, dealing 64 (+4% per level) damage to enemies in front of Cassia every 0.25 seconds. Deals 50% reduced damage to non-Heroes. Avoidance remains charged while Channeling.\nFend is Cassia's best tool for waveclear. While it is\ngood to finish a low life target, it places Cassia in a dangerous position, where enemies\ncan counter-engage on her. This means that it\nmust be used on Heroes situationally, and not all of the time. When there is\nnot an opening to use Fend on an enemy Hero, it can be very useful for clearing\nMinions and Mercenaries quickly.\nYou will be unable to cast other Abilities while channeling Fend, so it is\nbest to cast Ball Lightning and\nBlinding Light on your intended targets first. Interrupting\nFend early can prevent most of its damage; it is important to use it when enemy\ninterrupts are unavailable. However, with Charged Strikes, it\nmight be better to only use it as a gap-closer to then cancel it\nin fights, because most of the damage comes from Basic Attacks instead of Fend."
+  },
+  {
+   "title": "Ball Lightning",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nBall Lightning\n(R)\nCassia\nHeroic\nMana: 60\nCooldown: 60 seconds\nThrow a ball of lightning at an enemy Hero that bounces up to 6 times between nearby enemy Heroes and Cassia, dealing 180 (+4% per level) damage to enemies hit.\nBall Lightning is an amazing Heroic, with a very low cooldown.\nIt can be used to duel enemy Heroes who are isolated. It is best used after you\ncast Blinding Light, and just before you cast Fend. This will usually result\nin the enemy Hero retreating, or dying. In team fights it can be risky to\nfollow up Ball Lightning with Fend, as there will be many\nenemy Heroes to counter-engage on you. Instead, focus on casting Ball Lightning\non enemy Heroes who are tightly grouped up for the team fight. If the enemies\ndisperse in an attempt to stop the Ball Lightning from bouncing, you may be\nable to pick off an isolated enemy with Fend. If you time Fend correctly, you\ncan sometimes even keep the ball bouncing between the isolated enemy and\nCassia."
+  },
+  {
+   "title": "Valkyrie",
+   "id": "valkyrie",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nValkyrie\n(R)\nCassia\nHeroic\nMana: 60\nCooldown: 60 seconds\nSummon a Valkyrie that rushes to Cassia after 0.75 seconds, pulling the first enemy Hero hit, dealing 225 (+4% per level) damage and Stunning them for 0.5 seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way.\nValkyrie is a niche Heroic, as its long delay makes\nit easy to avoid unless the intended target is already controlled. If there are\npowerful channeled Heroic Abilities on the enemy team\n(notably Mosh Pit by E.T.C.),\nValkyrie can be a great way to interrupt them.\nDue to Valkyrie's relatively low cooldown, it performs very well for this purpose.\nIt can also be an interesting option when your team has good crowd control\nand reliable ways to killing Tanks, such as Jaina or\nGreymane with Cursed Bullet. In this situation,\nyou can follow any Stun with it, and easily kill the target.\nOther than interrupting\nchanneled Heroic Abilities, Valkyrie offers little\nthat Ball Lightning does not do better. This Heroic can also be useful on team\ncompositions that are designed around getting picks, but Ball Lightning gives\nyou the burst damage required to solo kill most Heroes willing to duel you.\nSome teams may have several Bruisers that have too much Health to duel and\nkill on your own. Valkyrie may work in some of these scenarios, as it can help\nyour team to isolate and kill one of them. The challenge with recommending this\nstrategy is that most Bruisers have a Basic Ability they can trade to avoid the\nValkyrie. Ball Lightning is more reliable, and has much higher damage potential\nper cast."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide reviewed.\n04 Jun. 2020: Updated Avoidance description accordingly to recent balance patch.\n11 May 2020: Changed Ability descriptions after Cassia's rework.\n24 Aug. 2019: Guide reviewed to ensure meta relevance.\n21 Apr. 2017: Valkyrie discussion has been updated to account for its greatly reduced cooldown.\n14 Apr. 2017: Expanded explanations and strategies.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Thunderstroke (Level 1) Cassia Increase the damage of Lightning Fury by 20. Quest: Lightning Fury's damage is increased by 1.5 every time it hits a Hero."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Impale (Level 1) Cassia Increase Fend's cast range and radius by 25%. It deals an additional 70% damage to enemies below 50% Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Charged Strikes (Level 1) Cassia Gain 15% Attack Speed. Every 3rd Basic Attack deals 20% bonus damage and bounces to nearby enemy Heroes."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Plate of the Whale (Level 4) Cassia Regenerate 6 (+4% per level) Health per second while Avoidance is active. If fully charged, gain an additional 12 (+4% per level) Health per second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Ring of the Leech (Level 4) Cassia Basic Attacks against your primary target heal for 20% of their damage. If an enemy is Blinded, this also affects Lightning Fury and Fend."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Inner Light (Level 4) Cassia Activate to heal for 25% of your maximum Health over 5 seconds. Enemy Heroes hit with Lightning Fury lower the cooldown of this ability by 10 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Grounding Rod (Level 7) Cassia Enemies hit by Lightning Fury or Fend are Slowed by 20% for 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Seraph's Hymn (Level 7) Cassia Basic Attacks against your primary enemy Hero grant 10 Mana and reduce the cooldown of Blinding Light by 2 seconds. Passive: Increase the passive damage bonus of Blinding Light from 15% to 30%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Surge of Light (Level 7) Cassia After taking 650 (+4% per level) damage with Avoidance active, Cassia can activate Avoidance to deal 220 (+4% per level) damage to enemies around her."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Ball Lightning (Level 10) Cassia Mana: 60 Cooldown: 60 seconds Throw a ball of lightning at an enemy Hero that bounces up to 6 times between nearby enemy Heroes and Cassia, dealing 180 (+4% per level) damage to enemies hit."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Valkyrie (Level 10) Cassia Mana: 60 Cooldown: 60 seconds Summon a Valkyrie that rushes to Cassia after 0.75 seconds, pulling the first enemy Hero hit, dealing 225 (+4% per level) damage and Stunning them for 0.5 seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "War Matron (Level 13) Cassia Cassia becomes Protected while Channeling Fend and for an additional 1 second if the Channel is completed."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "War Traveler (Level 13) Cassia Gain 5% Movement Speed. While Avoidance is fully charged, gain an additional 10% Movement Speed and Mounting is instant."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Gloves Of Alacrity (Level 13) Cassia Gain 1 Basic Attack range. While Avoidance is fully charged, gain an additional 1 Basic Attack range."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Power Strike (Level 16) Cassia Lightning Fury pierces but only splits on Heroes. Enemy Heroes hit reduce its cooldown by 1 second and become marked for 15 seconds. Upon reaching 3 marks, remove them and cast a Blinding Light at their feet."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Static Electricity (Level 16) Cassia Gain 2 additional charges of Lightning Fury. Fend's impact launches a lightning bolt towards each nearby enemy Hero."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Martial Law (Level 16) Cassia Basic Attacks against enemy Heroes deal bonus damage equal to 1% of their maximum Health. Increase this to 3% if they are Stunned, Rooted, Slowed, or Blinded."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Infinite Lightning (Level 20) Cassia Ball Lightning can now bounce indefinitely. Every bounce reduces its cooldown by 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Imprisoning Light (Level 20) Cassia Upon impaling an enemy Hero, they are Blinded for 5 seconds and Cassia's Valkyrie creates a wave of light that deals 200 (+4% per level) damage to nearby enemies. This wave Silences and Roots them for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Titan's Revenge (Level 20) Cassia Cassia's Basic Attacks now ignore Armor and while Avoidance is fully charged, they deal an additional 20% bonus damage."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Rockstopper (Level 20) Cassia Activate to fully charge Avoidance and increase its Armor value to 60 for 4 seconds. Losing Avoidance removes this bonus."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Cassia's Talent Build",
+   "id": "cassias-talent-build",
+   "text": "Level\nChoices\n1\n✓\n✘︎\n?\n4\n?\n?\n✓\n7\n✘︎\n✘︎\n✓\n10\n✓\n?\n13\n?\n✓\n?\n16\n?\n✓\n?\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Cassia's Talent Build Cheatsheet",
+   "id": "cassias-talent-build-cheatsheet",
+   "text": "Lightning Fury Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis Build slightly increases Lightning Fury's damage, and is a great option\nif you are looking for more poke damage. The\nplaystyle of this build differs greatly from the other builds, as you will usually\ndeal damage from a safer range.\nUse Lightning Fury on enemy Heroes whenever possible, in order to stack\nThunderstroke quickly. If you cast Lightning Fury\nperpendicularly toward enemy Gates, the lightning bolts will\nalso damage the Towers and Walls with each cast.\nCharged Strikes Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nCassia's Charged Strikes Build will make you deal a substantial amount of sustain\ndamage through Basic Attacks to the enemy team.\nThe main drawback of this build is that it requires you to remain within\nCassia's short attack range while delivering Basic Attacks. But this weakness is\ncompensated by Gloves Of Alacrity at Level 13.\nDue to Cassia's small range, you will have a hard time constantly\ndelivering Basic Attacks in the early game. It is better to be playing safely, only\nattacking enemies when you are sure of your safety. Start playing more aggressively after\nLevel 13's Talents, because of the extra range or mobility provided by those."
+  },
+  {
+   "title": "Level 1 Talents for Cassia",
+   "id": "level-1",
+   "text": "✓\nThunderstroke\n(Level 1)\nCassia\nIncrease the damage of Lightning Fury by 20.\nQuest: Lightning Fury's damage is increased by 1.5 every time it hits a Hero.\n✘︎\nImpale\n(Level 1)\nCassia\nIncrease Fend's cast range and radius by 25%. It deals an additional 70% damage to enemies below 50% Health.\n?\nCharged Strikes\n(Level 1)\nCassia\nGain 15% Attack Speed. Every 3rd Basic Attack deals 20% bonus damage and bounces to nearby enemy Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Thunderstroke is a great Talent if you plan to build around Lightning\nFury. This Talent can get good value on its own, but can\nbe substantially amplified with Static Electricity at Level\n16.\nImpale will not only increase Fend\ncapabilities against Heroes, but will also greatly increase her waveclear.\nIf there is no threat, use Fend when wave is below 75% health, so you get the most\nout of the 70% extra damage (which will increase your damage by 140% into low health minions).\nWe do not recommend Impale due to how the other 2 talents are essential for their\nown build paths.\nCharged Strikes is a powerful and versatile Talent that\ngreatly increases Cassia's damage per second. It is essential when\ngoing for a Basic Attack centered build. The bounces of Charged Strikes\ndeal extra damage with Martial Law, but does not\nprovide Cassia with healing via Ring of the Leech.\nBe aware that the splash damage from Charged Strikes towards Heroes will make\nstructures target you."
+  },
+  {
+   "title": "Level 4 Talents for Cassia",
+   "id": "level-4",
+   "text": "?\nPlate of the Whale\n(Level 4)\nCassia\nRegenerate 6 (+4% per level) Health per second while Avoidance is active. If fully charged, gain an additional 12 (+4% per level) Health per second.\n?\nRing of the Leech\n(Level 4)\nCassia\nBasic Attacks against your primary target heal for 20% of their damage. If an enemy is Blinded, this also affects Lightning Fury and Fend.\n✓\nInner Light\n(Level 4)\nCassia\nActivate to heal for 25% of your maximum Health over 5 seconds. Enemy Heroes hit with Lightning Fury lower the cooldown of this ability by 10 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Plate of the Whale is a great Talent. It provides good\nself-sustain in all stages of the game. In fights it will\ngive almost as much healing than you would get just by constantly attacking with\nRing of the Leech.\nRing of the Leech adds decent healing to Cassia's\nBasic Attacks. This is a good Talent when combined with Charged Strikes.\nHowever, we do not recommend it in any other build, as it requires delivering\nconstant Basic Attacks to outperform Plate of the Whale.\nInner Light is mostly a good Talent, but gets excellent when\npaired with Static Electricity, since Cassia will be able to\nactivate Inner Light 2 or 3 times in a fight."
+  },
+  {
+   "title": "Level 7 Talents for Cassia",
+   "id": "level-7",
+   "text": "✘︎\nGrounding Rod\n(Level 7)\nCassia\nEnemies hit by Lightning Fury or Fend are Slowed by 20% for 2 seconds.\n✘︎\nSeraph's Hymn\n(Level 7)\nCassia\nBasic Attacks against your primary enemy Hero grant 10 Mana and reduce the cooldown of Blinding Light by 2 seconds.\nPassive: Increase the passive damage bonus of Blinding Light from 15% to 30%.\n✓\nSurge of Light\n(Level 7)\nCassia\nAfter taking 650 (+4% per level) damage with Avoidance active, Cassia can activate Avoidance to deal 220 (+4% per level) damage to enemies around her."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Grounding Rod adds a decent slow for Fend\nand Lightning Fury, which will enhance Cassia's kiting capabilities,\nallowing her to retreat or to chase easier. It is not a weak talent, since it can\nbe used to trigger Martial Law. However,\nSurge of Light is essential for Cassia, and should not be skipped.\nSeraph's Hymn is an underwhelming Talent that we do not\nrecommend in any build. The Cooldown reduction is not as strong as it looks, because\nBlinding Light should mostly only be cast when enemies\ncommit towards Cassia or an ally, instead of being used when it is ready.\nAnother reason why we do not recommend this Talent is due to competition with\nSurge of Light, which greatly increases Cassia's damage\noutput.\nSurge of Light is a very interesting Talent that stores damage taken, and\ncan deal most of the stored damage in an area of effect once fully charged.\nIt can be good in any scenario, but will be excellent against melee compositions.\nIt can be ready to be cast in all fights,\nsince the charge has no duration, and can be charged through PvE damage.\nIt also has no Cooldown, which means you can be using it 2 or 3 times in a fight,\nincreasing your damage capabilities greatly."
+  },
+  {
+   "title": "Level 10 Talents for Cassia",
+   "id": "level-10",
+   "text": "✓\nBall Lightning\n(Level 10)\nCassia\nMana: 60\nCooldown: 60 seconds\nThrow a ball of lightning at an enemy Hero that bounces up to 6 times between nearby enemy Heroes and Cassia, dealing 180 (+4% per level) damage to enemies hit.\n?\nValkyrie\n(Level 10)\nCassia\nMana: 60\nCooldown: 60 seconds\nSummon a Valkyrie that rushes to Cassia after 0.75 seconds, pulling the first enemy Hero hit, dealing 225 (+4% per level) damage and Stunning them for 0.5 seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nBall Lightning is an amazing Heroic with a very low Cooldown.\nIt can be used to duel enemy Heroes who are isolated. It is best used after you\ncast Blinding Light, and just before you cast Fend. This will usually result\nin the enemy Hero retreating or dying. In team fights, it can be risky to\nfollow up Ball Lightning with Fend, as there will be many\nenemy Heroes to counter-engage on you. Instead, focus on casting Ball Lightning\non enemy Heroes who are tightly grouped up for the team fight. If the enemies\ndisperse in an attempt to stop the Ball Lightning from bouncing, you may be\nable to pick off an isolated enemy with Fend. If you time Fend correctly, you\ncan sometimes even keep the ball bouncing between the isolated enemy and\nCassia.\nValkyrie is a niche Heroic, as its long delay makes\nit easy to avoid unless the intended target is already controlled. If there are\nchanneled Heroics on the enemy team, Valkyrie can be a great way to interrupt\nthem. In other words, this is most useful as a\n\" Mosh Pit-stop\".\nDue to Valkyrie's low Cooldown, it performs very well for this purpose.\nIt can also be an interesting option when your team has good crowd control\nand reliable ways to killing tanks, such as Jaina or\nGreymane with Cursed Bullet. In this situation,\nyou can follow any stuns with it, and easily kill the target."
+  },
+  {
+   "title": "Level 13 Talents for Cassia",
+   "id": "level-13",
+   "text": "?\nWar Matron\n(Level 13)\nCassia\nCassia becomes Protected while Channeling Fend and for an additional 1 second if the Channel is completed.\n✓\nWar Traveler\n(Level 13)\nCassia\nGain 5% Movement Speed. While Avoidance is fully charged, gain an additional 10% Movement Speed and Mounting is instant.\n?\nGloves Of Alacrity\n(Level 13)\nCassia\nGain 1 Basic Attack range. While Avoidance is fully charged, gain an additional 1 Basic Attack range."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "War Matron is an outstanding Talent when enemies cannot\neasily cancel Fend. It can be used in many different ways.\nFend can be used on minions or mercenaries if you need protection against certain\nabilities, like Pyroblast.\nWar Traveler provides a constant Movement Speed to Cassia,\nbeing even greater while Cassia is fully stacked. This Talent will be a good option\nin any build, because of how Movement Speed can be abused in various ways.\nGloves Of Alacrity is excellent with Charged Strikes.\nWhen stacked, Cassia will have the same range as Raynor, and will be able to\nkite and harass enemies more often."
+  },
+  {
+   "title": "Level 16 Talents for Cassia",
+   "id": "level-16",
+   "text": "?\nPower Strike\n(Level 16)\nCassia\nLightning Fury pierces but only splits on Heroes. Enemy Heroes hit reduce its cooldown by 1 second and become marked for 15 seconds. Upon reaching 3 marks, remove them and cast a Blinding Light at their feet.\n✓\nStatic Electricity\n(Level 16)\nCassia\nGain 2 additional charges of Lightning Fury. Fend's impact launches a lightning bolt towards each nearby enemy Hero.\n?\nMartial Law\n(Level 16)\nCassia\nBasic Attacks against enemy Heroes deal bonus damage equal to 1% of their maximum Health. Increase this to 3% if they are Stunned, Rooted, Slowed, or Blinded."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Power Strike is a decent option when you would not be able\nuse Fend to activate the extra Lightnings from Static Electricity.\nIt will greatly increase your poke potential, but differently from Static Eletricity,\nPower Strike does not increase burst damage.\nStatic Electricity will be a good choice in most scenarios.\nEven if you cannot properly dive enemies with fend, the extra poke damage will help\nyou out. It is recommended if you did not go for a Basic Attack oriented build.\nMartial Law is a great way to deal with enemy Heroes who have a large\nHealth pool. The bonus damage of Martial Law can proc from the bounce attacks\nprovided by Charged Strikes.\nIt is the default option in a Basic Attacks build, and has great synergy with\nGrounding Rod."
+  },
+  {
+   "title": "Level 20 Talents for Cassia",
+   "id": "level-20",
+   "text": "✓\nInfinite Lightning\n(Level 20)\nCassia\nBall Lightning can now bounce indefinitely. Every bounce reduces its cooldown by 4 seconds.\n?\nImprisoning Light\n(Level 20)\nCassia\nUpon impaling an enemy Hero, they are Blinded for 5 seconds and Cassia's Valkyrie creates a wave of light that deals 200 (+4% per level) damage to nearby enemies. This wave Silences and Roots them for 3 seconds.\n?\nTitan's Revenge\n(Level 20)\nCassia\nCassia's Basic Attacks now ignore Armor and while Avoidance is fully charged, they deal an additional 20% bonus damage.\n?\nRockstopper\n(Level 20)\nCassia\nActivate to fully charge Avoidance and increase its Armor value to 60 for 4 seconds.\nLosing Avoidance removes this bonus."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Infinite Lightning is a way to improve Ball Lightning.\nCasting this on the enemy team forces them to either spread out, or\nlose the team fight. You will usually see enemies spread out when Infinite\nLightning is cast; be ready to punish any enemy Heroes who may become isolated.\nWhen you see the enemy Heroes spreading apart, you can walk toward the Ball\nLightning to give it a place to bounce to. Be careful not to extend too far,\nas Cassia lacks escapes. With this Talent, you can duel almost any Hero\nin the game, provided that they cannot stop Ball Lightning from bouncing\nbetween you. Ball Lightning will still stop if an enemy it is bouncing to\nenters Stasis, moves out of range of the bounce, or if either of you dies.\nImprisoning Light can be taken if you are not building\ntowards Basic Attacks. The extra damage is applied to all enemies\naround the main target, including the one Displaced by Valkyrie. However, the Silence\nand Root will only be applied to the secondary Targets, while blind will only affect\nthe Pulled target.\nTitan's Revenge slightly increases Basic Attack damage.\nThe armor penetration is a nice bonus if you are against Heroes with Physical Armor.\nIt is not recommended if you did not commit for a Basic Attack build.\nRockstopper is not as strong as it looks. Cassia's main\nweakness is getting rooted or stunned.\nIf you use this Talent right before getting controlled,\nit will have low value because the extra armor runs out after the first second of not moving.\nHowever, this Talent is a good choice if enemies do not rely on crowd control."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide reviewed.\n15 Apr. 2022: Updated Ring of the Leech's relevance after balance patch.\n26 Mar. 2021: Updated Talent recommendations.\n17 Feb. 2021: Updated Inner Light's relevance.\n20 Jan. 2021: Talent section reviewed and no changes are necessary.\n27 Oct. 2020: Updated recommended Talents.\n14 Sep. 2020: Updated Surge of Light's discussion.\n24 Aug. 2020: Updated Power Strike relevance after recent balance patch.\n30 Jul. 2020: Fend Talents and Build have been removed from recommendations.\n17 Jul. 2020: Talent section reviewed and no changes are necessary.\n06 Jun. 2020: Updated builds and talents to match meta development.\n04 Jun. 2020: Updated builds and talents accordingly to recent balance patch.\n09 May 2020: Updated builds and talents accordingly to her rework.\n08 Apr. 2020: Builds and talents updated to reflect current meta.\n24 Aug. 2019: Guide reviewed to ensure meta relevance.\n28 Jun. 2018: Talent section updated to reflect June 26 balance patch.\n21 Sep. 2017: Talent discussion updated to reflect balance changes.\nTrue Sight Talent removed.\nSeraph's Hymn Talent moved from Level 13 to Level 1.\nBuilds updated accordingly.\n21 Apr. 2017: Talent discussions updated to reflect balance changes.\n14 Apr. 2017: Expanded explanations and strategies.\nShow more\nShow less"
+  }
+ ]
+}

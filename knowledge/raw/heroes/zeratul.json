@@ -1,0 +1,305 @@
+{
+ "slug": "zeratul",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/zeratul-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/zeratul-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/zeratul-talents"
+ },
+ "guide": [
+  {
+   "title": "Zeratul's Overview",
+   "id": "zeratuls-overview",
+   "text": "Zeratul is a mobile Melee Assassin. Teleporting in and out of fights,\nhe is able to deal massive amounts of burst damage\nto high-priority backline Heroes\nunpunished, or temporarily remove them from the fight or set up large combos\nwith Void Prison. Zeratul is permanently Stealthed,\nallowing him to stalk his targets whilst unseen."
+  },
+  {
+   "title": "Zeratul's Strengths and Weaknesses",
+   "id": "zeratuls-strengths-and-weaknesses",
+   "text": "Strengths\nHigh burst damage\nStealthed when out of combat\nVoid Prison can temporarily take multiple Heroes out of a fight; it can allow your allies to combo the affected enemy Heroes\nExcellent ganker\nVery mobile with Blink and Vorpal Blade\nMultiple builds to adapt to each situation\nUnlimited skill ceiling\nWeaknesses\nVulnerable to targeted crowd control, like polymorphs\nLow base Health for a Melee Assassin\nHigh skill floor\nWeak early game"
+  },
+  {
+   "title": "Zeratul's Talent Build Cheatsheet",
+   "id": "zeratuls-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis build provides superior mobility, sustain damage,\nand self-healing\nat the cost of being vulnerable to crowd control. As key Talents,\nWormhole and Shadow Hunter provide\nextra mobility through diverse Blink in the fight. It has extraordinary\ndueling potential. With Master Warp-Blade, you will be able\nto kill a desired target in seconds, while also healing yourself.\nDespite all the bonuses provided by Wormhole, it has one major weakness,\nthat is not being able to blink back for 1.25 seconds. Experienced players will use targeted\nor area of effect Abilities to control\nyou in this window. For this reason, we do not recommend this build against this kind\nof Abilities, like Warlord's Challenge, Twilight Dream,\nor Polymorph.\nVoid Prison Build\nBeginner\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis Build provides superior crowd control\nat the cost of damage. Since it is focused on Cleave,\nZeratul can just dish out his damage and blink out safely. Therefore, Void Prison Build\nis a good choice against crowd control-heavy compositions.\nVoid Prison has numerous different applications, but\nit requires decent micro and good decision-making skills to be\nused properly. Void Prison enables Zeratul to control everything that happens on the map and in fights.\nConsidering its macro properties, it can be used in 2 main ways:\nAs a form to start a good fight, which is one with either Talent advantage or\nnumerical advantage.\nTo disengage from a bad fight, so the opposing team does not\ncapitalize with kills.\nWhen it comes to a running fight, Void Prison can also be used effectively in several ways:\nIt can be used as soon as possible to setup for a combo,\nlike with Diablo's Apocalypse\nor Jaina's Ring of Frost. It is important to hit\nmultiple Heroes with it, prioritizing squishy targets.\nIf for any reason one enemy is isolated from the rest, Void Prison can be used\ntowards the rest of their team, to assure the isolated target will be killed.\nAfter Level 16, you can cast it right after hitting 2 targets with Cleave.\nIt will create a good setup for yourself, enabling a second or third cast\nof that basic Ability.\nThose are the main approaches to get value from Void Prison in this build. However, due\nto how flexible this Heroic Ability is, it can be used in other countless ways. For\nfurther information, check out the Abilities page.\nDeath Sentence Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis Build provides the highest single target burst damage achievable by Zeratul.\nIt is excellent for killing squishy Heroes, but also good\nto follow a Tank's engages.\nEach one of the 3 Talents at Level 1 excels at one particular area, and should\nbe chosen according to your playstyle:\nMove Unseen speeds up each roam at the\nearly game. It is great for rotations, looking for kills.\nShadow Hunter empowers Zeratul's already good\nlate game, by allowing him to blink more often in\nteamfights.\nGreater Cleave is a balance between both Talents,\nas it slightly improves Zeratul in all stages of the game.\nAfter level 7, Seeker in the Dark enables a more aggressive\nplaystyle in fights by granting an extra blink to engage. At Level 20, through\na second use of all Abilities, Twilight Falls\nadds enough damage to kill a Healer or Assassin before they can react.\nCleave Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZeratul's Cleave Build has a great potential to win fights through high\narea of effect damage. Besides that, it also has good single-target\ndamage from Psionic Strength and Might Of The Nerazim.\nWe recommend getting this build if you cannot easily burst a squishy target, and would rather\nhave a better teamfight by dealing more damage through Cleave resets.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZeratul's ARAM Build focuses on dealing the most area of effect\nburst damage. However, if the opposing team has too much\ncrowd control to deal with you, you can pick\nRending Cleave at Level 4,\nVoid Prison at Level 10, and\nShadow Mending at Level 20 to increase your\neffectiveness while taking fewer risks in the teamfights.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Zeratul's Synergies and Counters",
+   "id": "zeratuls-synergies-and-counters",
+   "text": "Zeratul synergizes with\nZeratul's mobility and burst damage\nmakes him prefer allies that can follow his\ndives. Otherwise, he works well with Heroes that have strong\nHeroic Abilities that require some form of setup, thanks to\nVoid Prison.\nZeratul is countered by\nZeratul tends to struggle against Heroes with targeted crowd control\neffects, as they prevent him from exploiting Blink and generally\nremaining safe due to his limited Health pool."
+  },
+  {
+   "title": "Zeratul's Maps",
+   "id": "zeratuls-maps",
+   "text": "Zeratul's stronger maps\nZeratul's average maps\nZeratul's weaker maps\nZeratul is at his best when there are plenty of opportunities to roam\nand gank. Maps that split the attention of the opposing team\nwith multiple Objective spawns or reasons to rotate give him such\nopportunities. Conversely, Maps with an emphasis on grouping up, laning\nand waveclearing suit him poorly.\nZeratul is very dependent on his Level 16 Talents, and therefore, does not do well\non snowball maps, like Tomb of the Spider Queen\nor Braxis Holdout."
+  },
+  {
+   "title": "Zeratul's Tips and Tricks",
+   "id": "zeratuls-tips-and-tricks",
+   "text": "Cleave is excellent at clearing large Minion waves and Mercenary Camps.\nSingularity Spike provides a massive slowing effect; use it to deliver several Basic Attacks against your target.\nBlink is your main survival tool; only initiate combat with it when it is safe to do so.\nUse Void Prison to setup combos with your allies by hitting several enemy Heroes, or to split the enemy team in half.\nVoid Prison can be recast to be canceled. Reactivate it when your team's abilities are about to hit a target inside it.\nPermanent Cloak does not make you Invisible; merely translucent. Keen players will see you coming. To become truly Invisible, stand still for 1.5 seconds.\nBlink, Vorpal Blade, and Seeker in the Dark's blink disjoint all incoming projectiles. This can be used to avoid Basic Attacks or tower shots while diving.\nWormhole has a 1.25-second time window in which you cannot blink backwards. However, it can be compensated by only leaving stealth to use abilities once this time has passed (helps against targeted crowd controls). Might Of The Nerazim can be used during this period to cast a second Blink, dodging dangerous skillshots.\nWith Void Slash at Level 16, Vorpal Blade has the same duration as Cleave's Cooldown. If the marked target gets to low life, you can wait 3 seconds to use Vorpal towards them, finishing it with a second Cleave.\nWithout wasting your Blink in a fight, Might Of The Nerazim can be used as a Blink to reposition. Therefore, it is a good practice to use your normal Blink before a fight, so Might Of The Nerazim will be ready to teleport you when it starts. By doing this, it will be easier to embrace a good opportunity without wasting your main escape tool.\nVoid Prison can be used over Sanctification, freezing all Heroes inside, denying Tyrael's Heroic Ability.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Zeratul's Role in the Current Meta",
+   "id": "zeratuls-role-in-the-current-meta",
+   "text": "Zeratul is a powerful Assassin that has a variety of\nstrategic uses. Void Prison works very well to setup\ncombos with allied Heroes, such as Diablo and Jaina, or to temporarily take key\nenemy Heroes out of the fight, like Healers and Tanks,\nallowing your team to target vulnerable Heroes. Permanent Cloak, in combination with\nBlink, gives Zeratul extremely strong ganking strength,\nas he is able to roam from lane to lane unseen. Stealth also allows Zeratul to\nflank enemy Heroes and attack the backline directly,\nrather than first having to go through the frontline. Conversely, Stealth\nalso adds a level of depth that takes time to master and fully understand.\nWhile Zeratul has decent waveclear and can defend a\nlane alone, he is more useful when roaming about and looking for potential\nkills. While Zeratul is a credit to most teams, it is important to also have\nsustained damage Heroes with plenty of area of effect damage, such as Sylvanas or\nGul'dan, as most of Zeratul's damage comes in the form of burst.\nAdditionally, he is very reliant on his Hero Level 7 Talents to thrive.\nTo compensate for this, it is important to have allies that excel in the\nearliest stages of the game."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Mar. 2026 (talents page): Talents and Builds updated to reflect meta development\n11 Mar. 2026 (abilities page): Guide updated to reflect meta development.\n11 Mar. 2026 (this page): Guide updated to reflect meta development\n01 Mar. 2021 (this page): Void Prison build changed from Situational to beginner build.\n12 Feb. 2021 (talents page): Talents and Builds updated to better reflect current meta.\n12 Feb. 2021 (this page): Builds updated.\n05 Oct. 2020 (talents page): Talents and Builds updated to better reflect current meta.\n05 Oct. 2020 (this page): Guide updated.\n07 Sep. 2020 (talents page): Talents reviewed and builds updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n06 Jun. 2020 (talents page): Talent builds, descriptions and recommendations reviewed and updated following Talent tier 7 rework.\n05 Apr. 2020 (talents page): Talent builds, descriptions and recommendations reviewed and updated.\n09 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n11 Feb. 2018 (talents page): Talent builds and recommendations updated to better reflect metagame state.\n19 Dec. 2017 (abilities page): Fixed an issue whereby the ability tooltips were missing from the page.\n17 Dec. 2017 (talents page): Talents fully updated to account for the Stealth and Zeratul rework patches.\n17 Dec. 2017 (this page): Guide fully updated to account for the Stealth and Zeratul rework patches.\n16 Dec. 2017 (abilities page): Abilities updated to reflect the Stealth and Zeratul rework patches.\n28 Jun. 2017 (abilities page): Added some important interactions between Talents and Singularity Spike and Blink.\n26 Jun. 2017 (this page): Replaced Worm Hole with Blink when discussion Zeratul being countered by Heroes with targeted crowd control.\n29 Apr. 2017 (talents page): Rewrote Level 7 and 16 Talent discussions.\n02 Dec. 2016 (this page): Revamped Zeratul.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Zeratul's Tips and Tricks",
+   "id": "zeratuls-tips-and-tricks",
+   "text": "Cleave is excellent at clearing large Minion waves and Mercenary Camps.\nSingularity Spike provides a massive slowing effect; use it to deliver several Basic Attacks against your target.\nBlink is your main survival tool; only initiate combat with it when it is safe to do so.\nUse Void Prison to setup combos with your allies by hitting several enemy Heroes, or to split the enemy team in half.\nVoid Prison can be recast to be canceled. Reactivate it when your team's abilities are about to hit a target inside it.\nPermanent Cloak does not make you Invisible; merely translucent. Keen players will see you coming. To become truly Invisible, stand still for 1.5 seconds.\nBlink, Vorpal Blade, and Seeker in the Dark's blink disjoint all incoming projectiles. This can be used to avoid Basic Attacks or tower shots while diving.\nWormhole has a 1.25-second time window in which you cannot blink backwards. However, it can be compensated by only leaving stealth to use abilities once this time has passed (helps against targeted crowd controls). Might Of The Nerazim can be used during this period to cast a second Blink, dodging dangerous skillshots.\nWith Void Slash at Level 16, Vorpal Blade has the same duration as Cleave's Cooldown. If the marked target gets to low life, you can wait 3 seconds to use Vorpal towards them, finishing it with a second Cleave.\nWithout wasting your Blink in a fight, Might Of The Nerazim can be used as a Blink to reposition. Therefore, it is a good practice to use your normal Blink before a fight, so Might Of The Nerazim will be ready to teleport you when it starts. By doing this, it will be easier to embrace a good opportunity without wasting your main escape tool.\nVoid Prison can be used over Sanctification, freezing all Heroes inside, denying Tyrael's Heroic Ability."
+  },
+  {
+   "title": "Cleave",
+   "id": "cleave",
+   "text": "Cleave\n(Q)\nZeratul\nMana: 40\nCooldown: 6 seconds\nDeal 200 (+4% per level) damage to nearby enemies.\nCleave is a very simple Ability, but its short cooldown, area of effect, and\nrelatively high damage make it your main source of area of effect damage. Its\nefficient Mana cost of 40 essentially allows it to be used whenever you are in\ncombat. To optimize waveclearing, stand within the Minion wave, on top\nof the Caster Minion; this allows Cleave to hit all targets. You should\ngenerally use Cleave on-Cooldown during team fights and against Mercenaries,\nalthough weaving in Basic Attacks so as to benefit from Might Of The Nerazim\nis important to maximise your damage output. Cleave's range is also barely\nlonger than that of your Basic Attack, making it situationally useful for\nfinishing off enemies that are barely out of your range. Its area of effect can\nalso be used to reveal Stealthed Heroes or Zagara's Creep\nTumors."
+  },
+  {
+   "title": "Singularity Spike",
+   "id": "singularity-spike",
+   "text": "Singularity Spike\n(W)\nZeratul\nMana: 70\nCooldown: 12 seconds\nFlings a Singularity Spike that sticks to the first enemy hit. Deals 240 (+4% per level) damage after 1 second and Slows the enemy by 40% for 3 seconds.\nSingularity Spike has an important role in Zeratul's tool set as it\nis his only ranged damaging Ability and only form of non-Heroic\ncrowd control. Although its damage is quite significant, the\npowerful Slow it provides allows you to stick to your intended\ntarget quite nicely. Its skillshot nature can make it difficult to land,\nand means that particular attention should be paid to mastering it. Depending\non your selected Talents, Singularity Spike can also contribute greatly to\nZeratul's overall ability to inflict burst damage.\nAlthough Singularity Spike is a ranged Ability, it is generally cast from\nmelee range so as to decrease the chances of missing, and to allow for\ninstantaneous follow up with Basic Attacks and\nCleave. From range, Singularity Spike's usefulness is generally\nlimited to killing runners or Slowing your target to help you flee. You should\navoid using it solely for poking, as Singularity Spike on its own\nis not very impactful—its cooldown is relatively long, and your target\nmight simply heal it off.\nIf you opt to get the Seeker in the Dark Talent at Level 7, the way Singularity\nSpike should be used changes completely by allowing the Ability to become a\nproper gap closer. Under this circumstance, Blink\nbecomes your escape tool, with Singularity Spike serving as your main mean of\ninitiating combat."
+  },
+  {
+   "title": "Blink",
+   "id": "blink",
+   "text": "Blink\n(E)\nZeratul\nMana: 50\nCooldown: 10 seconds\nTeleport to the target location.\nUsing this Ability does not break Stealth.\nBlink is an integral part of Zeratul's kit, and using it carelessly will\noften leave you in a vulnerable position. Never engage a target with Blink when\nyou could simply close the gap by walking up to your target while mounted and\nStealthed, unless Blink can be used to positively secure a kill.\nIf you do use Blink to engage, opposing Heroes you are targeting may use their\nown gap-closer to escape and leave you with no\nreliable way to follow up if you fail to trigger Vorpal Blade.\nThis makes cooldown tracking an essential skill to master as a Zeratul player.\nIf you opt to get Wormhole at Level 7, the way Blink should\nbe used changes completely by essentially allowing Blink to become a truly\noffensive tool against any kill target for a full unavoidable combo consisting\nSingularity Spike, Cleave, with two Basic Attacks interwoven, before\nreactivating the Ability and teleporting right back to safety. The same can\nbe said about Might Of The Nerazim, which opens up yet another\nopportunity to Blink, as needed."
+  },
+  {
+   "title": "Might Of The Nerazim",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMight Of The Nerazim\n(R)\nZeratul\nHeroic\nMana: 30\nCooldown: 20 seconds\nActivate to cast an untalented version of Zeratul's most recently used Basic Ability, dealing 50% less damage.\nPassive: After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 30% more damage.\nMight Of The Nerazim allows Zeratul to deal some of the highest\nsingle-target burst damage first by providing 30% more\nBasic Attack damage whenever you use an Ability, and second by allowing you to\nrecast any Basic Ability on demand. To maximise the potential of Might Of The\nNerazim's passive effect, you must see to weave Basic Attacks between each\nAbility use. A typical burst rotation goes Basic Attack,\nSingularity Spike, Basic Attack,\nCleave, Basic Attack, and\nCleave again through Might Of The Nerazim's recast.\nThis can and should be fine-tuned to best respond to whatever it is\nyou are doing; recasting Cleave is a great way of waveclearing\nor claiming Mercenary Camps, whereas recasting Singularity Spike is best for\nsingle-target damage purposes. Blink can also be used twice in quick succession\nto escape many dangerous situations."
+  },
+  {
+   "title": "Void Prison",
+   "id": "heroic-2",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nVoid Prison\n(R)\nZeratul\nHeroic\nMana: 80\nCooldown: 100 seconds\nSlows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected.\nVoid Prison is as easy to use as it is difficult to master. Although it can be\nutilised in a wide variety of scenarios, there are three major\nuses that you should be aware of. The first (and primary) way that Void Prison\nshould be used is to temporarily take key enemy Heroes out of a fight. For\nexample, when fighting a team that has Uther and Illidan, you can use Void\nPrison on the former (possibly hitting other enemy Heroes as well) and then\nfocus all of your damage onto Illidan, killing him before he can benefit from\nany help from Uther. That said, Illidan could still decide to intentionally\nwalk into Void Prison if not crowd controlled in time.\nVoid Prison's second major use is to set up combos with your allies by\nallowing some Abilities to land when they would normally be difficult to hit, as\nwell as giving your allies time to correctly position. For example, hitting four\nor five enemy Heroes with Void Prison, followed by Diablo's Apocalypse\nand Nova's Precision Strike will essentially guarantee your team an\neasy ace. However, the coordination required to pull off perfect combos usually\nrarely exist in casual games, requiring you to play with a premade party to\npull it off correctly. It also requires allied Heroes that have the Abilities\nnecessary to combo off-Cooldown, or at all selected.\nSimilarily to setting up combos, Void Prison's third major use it to catch\nfleeing enemies or to prevent them from catching your own allies. In both\nscenarios, Void Prison gives your allies time to move and better position.\nUsing Void Prison as such also allows your other Abilities to cooldown before\nthat of your opponents, as Void Prison prevents their cooldowns from progressing\nat all, whereas your own can.\nVoid Prison also has several niche uses. It can be used to make your\nStructures immune to damage, possibly saving them from destruction. It can be\nused to save allies from damage that would otherwise kill them by making them\ninvulnerable from projectiles\n(for example Pyroblast by Kael'thas).\nIt can even be used to freeze a Mercenary Camp's\nCapture Point,\ngiving your team time to get there for contesting it after Void Prison ends.\nHowever, these uses (and all of the others\nthat exist) are arguably less impactful than the three major uses previously\nlisted, and Void Prison should generally be limited to those uses due to its\nvery long cooldown."
+  },
+  {
+   "title": "Permanent Cloak",
+   "id": "permanent-cloak",
+   "text": "Permanent Cloak\n(D)\nZeratul\nCooldown: 3 seconds\nGain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.\nPermanent Cloak passively causes Zeratul to become Stealthed when\nout of combat for 3 seconds. The Stealth effect makes Zeratul untargetable\nby single-target Abilities and Basic Attacks, prevents Minions, Structures, and\nMercenaries from engaging him, adds a large amount of transparency to his model,\nand prevents opponents from seeing his Minimap portrait. Standing still for 1.5\nseconds while Stealthed makes Zeratul completely Invisible until he moves, as\nopposed to merely transparent.\nStealth is lost when any of the following conditions is met:\nusing a Basic Attack;\ntaking damage;\nbeing hit by revealing Abilities;\ncasting Abilities, including Talent-based Abilities such as Rewind,\nwith the sole exception of Holo Decoy;\nchanneling Objectives;\nmounting up or using the Hearthstone;\nbeing near the opposing team's Fort, Keep, or Core Structures.\nIt should be noted that Stealth does not make Zeratul fully Invisible; he\ninstead appears transparent and heavily distorted to enemy players, a visual\neffect often described as a shimmer. Attentive players can spot this\nshimmer and thwart your surprise attack attempts.\nPermanent Cloak may be his greatest strength.\nAlthough it does not give you literal Invisibility and the shimmer can still\nallow opponents to spot you, even the most experienced players will not always\nbe able to keep track of you all of the time. However, this does not mean you\nshould play as if you will never be spotted and you should still play like most\nMelee Assassins, using bushes\nand staying just out of the vision of enemy Heroes. This\nis especially true if the enemy team has Abilities that can reveal you, such as\nEye of Kilrogg, since you are very vulerable and easily killed once revealed.\nSince it takes 3 seconds to re-enter Permanent Cloak, you will generally want\nto deal all of your damage at once, in a bursty fashion, rather than over time.\nThis way, you can re-Stealth and wait in safety for your cooldowns. This\nin-and-out playstyle promotes mobility, and it is therefore always in your best\ninterest to be mounted whenever possible. This also gives Permanent Cloak the\nability to double as a faux gap-closer, allowing you\nto ride up to your target, since the Stealth will keep you hidden.\nWhen stalking your target while Stealthed, it is very important to avoid being\nin a position where area of effect damage, meant for another\ntarget, might hit you, unintentionally revealing you."
+  },
+  {
+   "title": "Vorpal Blade",
+   "id": "vorpal-blade",
+   "text": "Vorpal Blade\n(1)\nZeratul\nActivate to teleport to Zeratul's last non-structure Basic Attack target within 3 seconds. The target is revealed during these 3 seconds.\nVorpal Blade is what makes Zeratul so notoriously difficult\nto escape from. In practice, Vorpal Blade means that you always want to land at\nleast one Basic Attack against your intended kill target, which will allow you\nto pursue them. Ideally, Vorpal Blade is to be used after enemy gap closers\nhave been used so as to be able to truly punish them. Not unlike Blink,\nVorpal Blade can also be used to instantly juke opponents or\ndodge inbound skillshots. Remember that Minions can also be targeted\nby Vorpal Blade by attacking then, meaning that they can reliably be used for\nthis purpose. This also means that you should avoid resetting your own Vorpal\nBlade target by mistakenly attacking an unintended target."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Mar. 2026: Guide updated to reflect meta development.\n11 Oct. 2019: Abilities section reviewed.\n19 Dec. 2017: Fixed an issue whereby the ability tooltips were missing from the page.\n16 Dec. 2017: Abilities updated to reflect the Stealth and Zeratul rework patches.\n28 Jun. 2017: Added some important interactions between Talents and Singularity Spike and Blink.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Greater Cleave (Level 1) Zeratul Increases the radius of Cleave by 33%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Shadow Hunter (Level 1) Zeratul Quest: Gather Regeneration Globes to lower the Mana cost of Blink by 3, up to 45. Reward: Upon gathering 15 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Move Unseen (Level 1) Zeratul Reduce the cooldown of Permanent Cloak by 1 second. Gain 30% Movement Speed while Stealthed."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Rending Cleave (Level 4) Zeratul Cleave deals an additional 40% damage over 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Psionic Strength (Level 4) Zeratul Dealing damage to enemy Heroes increases all damage dealt by 6% for 3 seconds, stacking up to 30%."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Darkness Descends (Level 4) Zeratul Cooldown: 30 seconds Activate to gain 40% Attack Speed for 5 seconds. Passive: Gain 20% Attack Speed."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Wormhole (Level 7) Zeratul After 1.25 seconds, reactivate Blink to return to the point where it was cast from within 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Seeker in the Dark (Level 7) Zeratul Singularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Warp Skirmisher (Level 7) Zeratul Vorpal Blade gains a 2nd charge. Teleporting to an enemy with Vorpal Blade or entering Permanent Cloak causes Zeratul's next Basic Attack to deal 50% more damage."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Might Of The Nerazim (Level 10) Zeratul Mana: 30 Cooldown: 20 seconds Activate to cast an untalented version of Zeratul's most recently used Basic Ability, dealing 50% less damage. Passive: After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 30% more damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Void Prison (Level 10) Zeratul Mana: 80 Cooldown: 100 seconds Slows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Shroud of Adun (Level 13) Zeratul Zeratul gains a Shield equal to 20% of his Maximum Health over 3 seconds while under Permanent Cloak."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Mending Strikes (Level 13) Zeratul Basic Attacks heal for 35% of the damage dealt."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Spell Shield (Level 13) Zeratul Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Master Warp-Blade (Level 16) Zeratul Every third consecutive Basic Attack against the same target deals 125% more damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Void Slash (Level 16) Zeratul If Cleave hits more than one enemy Hero, it deals 40% increased damage and its cooldown is reduced by 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Sentenced to Death (Level 16) Zeratul Deal 25% increased damage to enemies while they are marked or Slowed by Singularity Spike."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Twilight Falls (Level 20) Zeratul Might of the Nerazim resets the cooldown of all Basic Abilities."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Unwavering Pressure (Level 20) Zeratul Singularity Spike no longer costs Mana. Basic Attacks against enemies reduce its cooldown by 1.25 seconds, double versus Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Shadow Stride (Level 20) Zeratul Reduce the cooldown of Vorpal Blade by 10 seconds. Casting Vorpal Blade grants Zeratul a Shield that absorbs up to 260 (+4% per level) damage for 3 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Shadow Mending (Level 20) Zeratul Heal for 60% of Spell Damage dealt to Heroes."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Zeratul's Talent Build",
+   "id": "zeratuls-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n?\n✓\n✘︎\n7\n✓\n?\n✘︎\n10\n✓\n?\n13\n?\n✓\n?\n16\n✓\n?\n?\n20\n?\n✘︎\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Zeratul's Talent Build Cheatsheet",
+   "id": "zeratuls-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis build provides superior mobility, sustain damage,\nand self-healing\nat the cost of being vulnerable to crowd control. As key Talents,\nWormhole and Shadow Hunter provide\nextra mobility through diverse Blink in the fight. It has extraordinary\ndueling potential. With Master Warp-Blade, you will be able\nto kill a desired target in seconds, while also healing yourself.\nDespite all the bonuses provided by Wormhole, it has one major weakness,\nthat is not being able to blink back for 1.25 seconds. Experienced players will use targeted\nor area of effect Abilities to control\nyou in this window. For this reason, we do not recommend this build against this kind\nof Abilities, like Warlord's Challenge, Twilight Dream,\nor Polymorph.\nVoid Prison Build\nBeginner\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis Build provides superior crowd control\nat the cost of damage. Since it is focused on Cleave,\nZeratul can just dish out his damage and blink out safely. Therefore, Void Prison Build\nis a good choice against crowd control-heavy compositions.\nVoid Prison has numerous different applications, but\nit requires decent micro and good decision-making skills to be\nused properly. Void Prison enables Zeratul to control everything that happens on the map and in fights.\nConsidering its macro properties, it can be used in 2 main ways:\nAs a form to start a good fight, which is one with either Talent advantage or\nnumerical advantage.\nTo disengage from a bad fight, so the opposing team does not\ncapitalize with kills.\nWhen it comes to a running fight, Void Prison can also be used effectively in several ways:\nIt can be used as soon as possible to setup for a combo,\nlike with Diablo's Apocalypse\nor Jaina's Ring of Frost. It is important to hit\nmultiple Heroes with it, prioritizing squishy targets.\nIf for any reason one enemy is isolated from the rest, Void Prison can be used\ntowards the rest of their team, to assure the isolated target will be killed.\nAfter Level 16, you can cast it right after hitting 2 targets with Cleave.\nIt will create a good setup for yourself, enabling a second or third cast\nof that basic Ability.\nThose are the main approaches to get value from Void Prison in this build. However, due\nto how flexible this Heroic Ability is, it can be used in other countless ways. For\nfurther information, check out the Abilities page.\nDeath Sentence Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis Build provides the highest single target burst damage achievable by Zeratul.\nIt is excellent for killing squishy Heroes, but also good\nto follow a Tank's engages.\nEach one of the 3 Talents at Level 1 excels at one particular area, and should\nbe chosen according to your playstyle:\nMove Unseen speeds up each roam at the\nearly game. It is great for rotations, looking for kills.\nShadow Hunter empowers Zeratul's already good\nlate game, by allowing him to blink more often in\nteamfights.\nGreater Cleave is a balance between both Talents,\nas it slightly improves Zeratul in all stages of the game.\nAfter level 7, Seeker in the Dark enables a more aggressive\nplaystyle in fights by granting an extra blink to engage. At Level 20, through\na second use of all Abilities, Twilight Falls\nadds enough damage to kill a Healer or Assassin before they can react.\nCleave Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZeratul's Cleave Build has a great potential to win fights through high\narea of effect damage. Besides that, it also has good single-target\ndamage from Psionic Strength and Might Of The Nerazim.\nWe recommend getting this build if you cannot easily burst a squishy target, and would rather\nhave a better teamfight by dealing more damage through Cleave resets.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZeratul's ARAM Build focuses on dealing the most area of effect\nburst damage. However, if the opposing team has too much\ncrowd control to deal with you, you can pick\nRending Cleave at Level 4,\nVoid Prison at Level 10, and\nShadow Mending at Level 20 to increase your\neffectiveness while taking fewer risks in the teamfights."
+  },
+  {
+   "title": "Level 1 Talents for Zeratul",
+   "id": "level-1",
+   "text": "?\nGreater Cleave\n(Level 1)\nZeratul\nIncreases the radius of Cleave by 33%.\n✓\nShadow Hunter\n(Level 1)\nZeratul\nQuest: Gather Regeneration Globes to lower the Mana cost of Blink by 3, up to 45.\nReward: Upon gathering 15 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1.5 seconds.\n?\nMove Unseen\n(Level 1)\nZeratul\nReduce the cooldown of Permanent Cloak by 1 second. Gain 30% Movement Speed while Stealthed."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Greater Cleave allows Cleave\nto hit opponents who are running directly\naway from Zeratul after a Basic Attack (which creates a gap between the two,\nputting the target out of range). Many kills can be secured this way,\nconsidering that Zeratul's basic rotation leaves many Heroes with a sliver of\nHealth remaining. Further, Greater Cleave synergises well with Psionic Strength,\nRending Cleave, and Void Slash\nby making it easier to Cleave several enemies at once.\nShadow Hunter has the drawback of being ineffective\nuntil completed. However, once completed it will greatly increase the amount of\npossible plays to be done by him. Since you need to deliver several basic attacks\nto get value out of Shadow Hunter, we only recommend this Talent against compositions\nwithout good crowd control to stop you.\nMove Unseen speeds up Zeratul's rotations considerably.\nThis Talent allows you to freely use your blink after issuing a gank to reposition for another\none in any lane. The main reason it is decent for this roamer\nplaystyle is that it takes out the 1.5 seconds necessary to Mount up. Be aware that\nmounting up will always be a disadvantage after getting Move Unseen."
+  },
+  {
+   "title": "Level 4 Talents for Zeratul",
+   "id": "level-4",
+   "text": "?\nRending Cleave\n(Level 4)\nZeratul\nCleave deals an additional 40% damage over 3 seconds.\n✓\nPsionic Strength\n(Level 4)\nZeratul\nDealing damage to enemy Heroes increases all damage dealt by 6% for 3 seconds, stacking up to 30%.\n✘︎\nDarkness Descends\n(Level 4)\nZeratul\nCooldown: 30 seconds\nActivate to gain 40% Attack Speed for 5 seconds.\nPassive: Gain 20% Attack Speed."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Rending Cleave provides more upfront damage than its\nPsionic Strength counterpart. This makes it better in situations where you would not be able\nto deliver many Basic Attacks, such as against crowd control-heavy team compositions.\nFurther, if you need to claim Mercenary Camps or find yourself cleaning up\nMinions on 3-lane Maps, Rending Cleave is a good choice, as it functions in\nPvE unlike its counterpart.\nPsionic Strength provides an easy to use and reliable damage increase. Its\nmain downside compared to the alternative Talents, however, is that it does not\nfunction in PvE. The sustain PvP damage increase it provides is\nvery powerful to make up for this fact however.\nDarkness Descends requires\nsustain Basic Attacks to generate value. In general however,\nPsionic Strength will yield more overall damage."
+  },
+  {
+   "title": "Level 7 Talents for Zeratul",
+   "id": "level-7",
+   "text": "✓\nWormhole\n(Level 7)\nZeratul\nAfter 1.25 seconds, reactivate Blink to return to the point where it was cast from within 4 seconds.\n?\nSeeker in the Dark\n(Level 7)\nZeratul\nSingularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds.\n✘︎\nWarp Skirmisher\n(Level 7)\nZeratul\nVorpal Blade gains a 2nd charge. Teleporting to an enemy with Vorpal Blade or entering Permanent Cloak causes Zeratul's next Basic Attack to deal 50% more damage."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Wormhole competes with Seeker in the Dark as two of Zeratul's\nmost important Talents. Individually, they each in essence serve to greatly\nimprove Zeratul's combat mobility, though they do so slightly differently.\nWormhole's 1.25-second delay becomes a great liability against crowd control-heavy\nteam compositions. However, in other scenarios, it is generally more reliable than its counterpart,\nas it does not require you to hit with Singularity Spike.\nIt has great synergy with Shadow Hunter.\nSeeker in the Dark's main attraction point over Wormhole are\nthe Movement Speed increase it provides and the added flexibility of being able\nto conserve Blink's cooldown, as Seeker in the Dark acts as a second\ngap closer. However,\nSingularity Spike's skillshot nature makes\nit blockable by undesirable targets, or, at worst, missable. Still, Seeker in\nthe Dark is generally considered the superior choice at higher levels of play\ndue to the aforenoted flexibility it provides.\nWarp Skirmisher is a highly aggressive Talent choice that makes\nZeratul more or less inescapable for most if not all Heroes, on top of providing\na notable Basic Attack damage increase. On the other hand, it does not add any form\nof engage to Zeratul, but only increases his already good chasing capabilities.\nSince Warp Skirmisher does not add the same flexibility to engage or disengage\nprovided by the other options, we do not recommend it in any build."
+  },
+  {
+   "title": "Level 10 Talents for Zeratul",
+   "id": "level-10",
+   "text": "✓\nMight Of The Nerazim\n(Level 10)\nZeratul\nMana: 30\nCooldown: 20 seconds\nActivate to cast an untalented version of Zeratul's most recently used Basic Ability, dealing 50% less damage.\nPassive: After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 30% more damage.\n?\nVoid Prison\n(Level 10)\nZeratul\nMana: 80\nCooldown: 100 seconds\nSlows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nMight Of The Nerazim is Zeratul's more selfish and offense-oriented\nHeroic Ability choice. It is generally chosen when you are unable to determine\nwhether your teammates will be willing (or able) to cooperate with you for\nstrong Void Prison plays. Might Of The Nerazim is also an excellent choice for\nbursting down a key target if the opposing team features at least one squishy Hero\nand the rest of their team cannot provide enough protection.\nVoid Prison is a powerful Heroic Ability with a variety\nof uses. It can be used to catch fleeing enemies, setup combos, and even delay\nthe capturing of Mercenary Camps, giving your team time contest the Objective."
+  },
+  {
+   "title": "Level 13 Talents for Zeratul",
+   "id": "level-13",
+   "text": "?\nShroud of Adun\n(Level 13)\nZeratul\nZeratul gains a Shield equal to 20% of his Maximum Health over 3 seconds while under Permanent Cloak.\n✓\nMending Strikes\n(Level 13)\nZeratul\nBasic Attacks heal for 35% of the damage dealt.\n?\nSpell Shield\n(Level 13)\nZeratul\nEvery 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.\nCan be toggled to allow or prevent this talent from triggering automatically."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Shroud of Adun's automatic Shielding effect meshes well with Zeratul's in-and-out\nplaystyle. It is a good option with Move Unseen, but should only be the choice if you\ncannot deliver Basic Attacks in a fight.\nMending Strikes provides a massive\namount of self sustain, allowing\nZeratul to deal with Mercenary Camps with ease, and recuperate from most damage\nvery quickly, granted there is something to beat up nearby. It also makes\nZeratul unkillable in 1v1 situations by most Healers and\ncertain Tanks as well. Mending Strikes works particularly well with\nMight Of The Nerazim and Master Warp-Blade.\nSpell Shield is a very situational Talent. You will mostly\nmitigate more damage with Mending Strikes or Shroud of Adun,\nas these two will be always useful, since they do not depend on being used against specific Abilities. However,\nSpell Shield is excellent in a Twin Cleave Build, because\nit does not land many Basic Attacks, reducing the effectiveness of Mending Strikes.\nWe only recommend picking Spell Shield against team composition\nwith good crowd control or with premeditated Abilities,\nlike a Kael'thas with Pyroblast, or a Tyrael\nwith Judgment. By activating the Spell Shield when those\nhigh damage combos or Abilities are coming, you may mitigate enough damage to survive\nagainst them."
+  },
+  {
+   "title": "Level 16 Talents for Zeratul",
+   "id": "level-16",
+   "text": "✓\nMaster Warp-Blade\n(Level 16)\nZeratul\nEvery third consecutive Basic Attack against the same target deals 125% more damage.\n?\nVoid Slash\n(Level 16)\nZeratul\nIf Cleave hits more than one enemy Hero, it deals 40% increased damage and its cooldown is reduced by 3 seconds.\n?\nSentenced to Death\n(Level 16)\nZeratul\nDeal 25% increased damage to enemies while they are marked or Slowed by Singularity Spike."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Master Warp-Blade offers a reliable mean of increasing your damage output. Although\nMaster Warp Blade offers less burst damage\nthan its Sentenced to Death alternative,\nit does allow Zeratul to very efficiently duel an enemy, granting great\nsustain from Mending Strikes. This Talent is worth considering in\ngames where enemies cannot punish you during your dive, as it will\ndeal much more sustain damage than the other options.\nVoid Slash has the potential of dealing a large amount of area of\neffect damage during teamfights. It is picked along with Greater Cleave\nto ease the 2 targets condition. This Talent is necessary with Void Prison,\nas it allows Zeratul to use Cleave, entrap enemies with Void Prison to have Cleave ready\nagain when they are released.\nSentenced to Death has the potential of dealing more burst damage than\nMaster Warp-Blade, at the cost of much sustain damage, and of\nhaving much less PvE flexibility. This Talent is excellent if\nyour team relies on taking down a very specific targets to rip team fights\naway from opponents. When picked, it is generally done so along\nSeeker in the Dark, as the Singularity Spike duration increase\nallows you to get more damage out of the Talent. When paired with Twilight Falls,\nthis Talent grants Zeratul enough damage to kill a priority target in a second."
+  },
+  {
+   "title": "Level 20 Talents for Zeratul",
+   "id": "level-20",
+   "text": "?\nTwilight Falls\n(Level 20)\nZeratul\nMight of the Nerazim resets the cooldown of all Basic Abilities.\n✘︎\nUnwavering Pressure\n(Level 20)\nZeratul\nSingularity Spike no longer costs Mana. Basic Attacks against enemies reduce its cooldown by 1.25 seconds, double versus Heroes.\n✓\nShadow Stride\n(Level 20)\nZeratul\nReduce the cooldown of Vorpal Blade by 10 seconds. Casting Vorpal Blade grants Zeratul a Shield that absorbs up to 260 (+4% per level) damage for 3 seconds.\n?\nShadow Mending\n(Level 20)\nZeratul\nHeal for 60% of Spell Damage dealt to Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Twilight Falls is a fantastic Talent for Zeratul. Ideally,\nyou want to use Twilight Falls immediately after you use all of your Basic\nAbilities to maximise its benefit. However, if you just need damage, you can\nsimply use Might Of The Nerazim to reset Cleave\nand Singularity Spike. You can also use\nthe Talent just to get a third use of Blink when trying to escape pursuers or\nchase particularly slippery Heroes. Note that the Abilities that you reset still\nhave their full Mana cost; see to have enough to go through a second round.\nUnwavering Pressure is an odd and ultimately very weak Talent.\nZeratul's playstyle revolves around burst damage, particularly with\nthe powerful Twilight Falls. Unwavering Pressure's sustain\nstyle puts Zeratul at risk on top of providing an underwhelming reward for\nsuccesfully delivering enough Basic Attacks to trigger a cooldown reset.\nWhen going for builds that greatly empower some of your Basic Abilities,\nShadow Stride cannot compete with Twilight Falls\nbecause using all your Abilities twice will be more effective than having a Shield from\nthis Talent. However, this Talent is great for a Basic Attacks Build\nbecause it greatly increase his survivability while also guaranteeing constant hits.\nShadow Mending grants outstanding self-sustain\nto Zeratul. As long as you keep hitting multiple enemies with Cleave, you will be very resilient.\nIt is a great choice with Void Prison, since you don't have access to\nTwilight Falls."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Mar. 2026: Talents and Builds updated to reflect meta development\n12 Feb. 2021: Talents and Builds updated to better reflect current meta.\n05 Oct. 2020: Talents and Builds updated to better reflect current meta.\n07 Sep. 2020: Talents reviewed and builds updated.\n06 Jun. 2020: Talent builds, descriptions and recommendations reviewed and updated following Talent tier 7 rework.\n05 Apr. 2020: Talent builds, descriptions and recommendations reviewed and updated.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n11 Feb. 2018: Talent builds and recommendations updated to better reflect metagame state.\n17 Dec. 2017: Talents fully updated to account for the Stealth and Zeratul rework patches.\n29 Apr. 2017: Rewrote Level 7 and 16 Talent discussions.\nShow more\nShow less"
+  }
+ ]
+}

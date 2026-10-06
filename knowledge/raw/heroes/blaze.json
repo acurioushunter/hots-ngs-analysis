@@ -1,0 +1,270 @@
+{
+ "slug": "blaze",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/blaze-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/blaze-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/blaze-talents"
+ },
+ "guide": [
+  {
+   "title": "Blaze's Overview",
+   "id": "blazes-overview",
+   "text": "Blaze is a heavy Tank with great waveclear,\npowerful crowd-control, and high survivability thanks to his\nlarge Health pool and dependable self-sustain. Due to\nJet Propulsion having a long delay, Blaze is not good against\nhigh-mobility Heroes (for example Tracer)\nand ideally requires other Heroes to start the engage for him."
+  },
+  {
+   "title": "Blaze's Strengths and Weaknesses",
+   "id": "blazes-strengths-and-weaknesses",
+   "text": "Strengths\nOutstanding ability to disrupt opponents' plans through plentiful crowd control and Bunker Drop\nHard to kill due to large Health pool and on-demand access to Armor\nRespectable area of effect damage potential and waveclear for a Tank\nWeaknesses\nReliance on multiple skillshots that can be avoided\nFairly immobile, thus prone to be kited\nLimited burst and single-target damage output"
+  },
+  {
+   "title": "Blaze's Talent Build Cheatsheet",
+   "id": "blazes-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's Basic Attacks Build primarily empowers your waveclear\nwhile also increasing your survivability, utility, and damage. As a consequence, we recommend\nthis Build when playing Blaze as Offlaner.\nIn particular, Incinerator Gauntlets at Level 4\nmakes it easier to clear Minions and Mercenaries while laning\nand Adrenaline Stimpack at Level 1 further empowers its value\nagainst Mercenaries while also boosting your damage against enemy Heroes.\nOil Spill Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's Oil Spill Build primarily empowers your engage\nwhile also increasing your survivability, utility, and damage. We recommend\nthis Build when playing Blaze as Tank, preferably\nagainst 2 melee Heroes or less.\nIn particular, the Slow increase provided by\nOil Dispersal at Level 4\nmakes it easier to use Oil Spill as a setup\nfor Jet Propulsion.\nPyromania Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's Pyromania Build primarily empowers your engage\nwhile also increasing your survivability, utility, and damage. We recommend\nthis Build when playing Blaze as Tank, ideally\nagainst 3 melee Heroes or more.\nIn particular, the damage reduction from\nMeltdown at Level 4 is great for reducing\nthe damage done by melee Heroes and Heat Treatment\nat Level 16 can heal you by a lot when surrounded by enemy Heroes\nin melee range. The cooldown reduction from New Habits\nat Level 1 lets you do this more often.\nARAM Build\nARAM\nLevel 1\n?\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's ARAM Build primarily empowers your engage\nwhile also increasing your survivability, utility, and damage. As a consequence, we recommend\nthis Build when playing Blaze as Tank.\nIn particular, the Slow increase provided by\nOil Dispersal at Level 4\nmakes it easier to use Oil Spill as a setup\nfor Jet Propulsion.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Blaze's Synergies and Counters",
+   "id": "blazes-synergies-and-counters",
+   "text": "Blaze synergizes with\nBlaze's well-rounded Ability set allows him to work in most team compositions\nand with most other Heroes, granted he is also picked for his anti-melee role.\nOil Spill's Slowing effect is particularly useful for improving the\nuptime of Assassins, whereas most Heroes with skillshots\nwill find Jet Propulsion a great way of setting up for accurate hits.\nBlaze is countered by\nSince Blaze relies on skillshots to deal damage and on the rather\nslow charge up of Jet Propulsion to initiate, he tends to\nstruggle offensively against highly mobile Heroes. Furthermore, his\nlarge Health pool and limited mobility makes him particularly vulnerable to\npercentage-based damage."
+  },
+  {
+   "title": "Blaze's Maps",
+   "id": "blazes-maps",
+   "text": "Blaze's stronger maps\nBlaze's average maps\nBlaze's weaker maps\nThanks to his great waveclear\nand good self-sustain, Blaze excels\non Maps where it is possible to double-soak\nand does well on most Maps.\nBlaze can get a lot of value from his Abilities on Maps that feature\nstatic Objectives that force opponents to fight within a specific area or in\nenclosed spaces (such as Infernal Shrines).\nOn the contrary, Blaze does not excel at dueling,\ntherefore he does not do well on Maps where there is a Capture Point\nto contest in the early game (so Braxis Holdout)."
+  },
+  {
+   "title": "Blaze's Tips and Tricks",
+   "id": "blazes-tips-and-tricks",
+   "text": "Flame Stream fires two parallel projectiles. Hit a target with both of them to deal extra damage.\nWhen you need to heal yourself, use Flame Stream to Ignite Oil Spill and stand on it.\nWhen Ignited, Oil Spill will Ignite any other Oil Spills that overlap with it.\nJet Propulsion has a long delay, so it should be used when enemy Heroes are Slowed by Oil Spill, Rooted, or Stunned.\nAvoid staying too long in Bunker Drop if unnecessary. Press the R key or right-click near it to exit.\nUse Combustion when on top of melee Heroes with no mobility to ensure they take damage.\nThe cooldown of Pyromania is reduced when hitting enemy Heroes with Flame Stream.\nAdrenaline Stimpack at Level 1 can be activated to escape from danger or to clear Minions, Mercenaries, or Monsters.\nEndurance Stimpack at Level 1 can be activated to mitigate burst damage of any type.\nNeural Stimpack at Level 1 can be activated to have Jet Propulsion back up sooner.\nJuggernaut Plating at Level 16 can be activated to mitigate burst damage in the form of Spell Damage.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Blaze's Role in the Current Meta",
+   "id": "blazes-role-in-the-current-meta",
+   "text": "Blaze is a niche Tank that excels at disrupting aggressive melee Heroes\nand a solid Offlaner that excels at double-soaking.\nSometimes Bunker Drop is the main reason why Blaze is being picked\nbecause it can be used to counter many Heroic Abilities (for example\nTemporal Loop by Chromie) when used on yourself\nor even on your teammates."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026 (talents page): Guide updated for the latest Patch.\n20 Jul. 2026 (abilities page): Guide updated for the latest Patch.\n20 Jul. 2026 (this page): Guide updated for the latest Patch.\n28 May 2026 (talents page): Guide reviewed.\n28 May 2026 (abilities page): Guide reviewed.\n28 May 2026 (this page): Guide reviewed.\n27 Dec. 2025 (talents page): Guide reviewed.\n27 Dec. 2025 (abilities page): Guide reviewed.\n27 Dec. 2025 (this page): Guide reviewed.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n17 Oct. 2024 (talents page): Guide reviewed for the latest Balance Update.\n17 Oct. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n17 Oct. 2024 (this page): Guide reviewed for the latest Balance Update.\n14 Jul. 2024 (talents page): Guide reviewed.\n14 Jul. 2024 (abilities page): Guide reviewed.\n14 Jul. 2024 (this page): Guide reviewed.\n22 Sep. 2023 (talents page): Guide reviewed for the latest Bug Fixes.\n22 Sep. 2023 (this page): Guide reviewed for the latest Bug Fixes.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n07 Jul. 2022 (talents page): Builds updated.\n07 Jul. 2022 (this page): Builds updated.\n30 Jan. 2022 (talents page): Builds and Talent Descriptions updated.\n30 Jan. 2022 (this page): Builds updated.\n22 Jul. 2021 (talents page): Guide reviewed for the latest Balance Update.\n22 Jul. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n22 Jul. 2021 (this page): Guide reviewed for the latest Balance Update.\n16 Jun. 2021 (talents page): Guide reviewed for the latest Balance Update.\n16 Jun. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n16 Jun. 2021 (this page): Guide reviewed for the latest Balance Update.\n01 Mar. 2021 (abilities page): Minor fixes.\n25 Feb. 2021 (talents page): New layout.\n20 Jan. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (this page): Guide reviewed for the latest Balance Update.\n18 Oct. 2020 (talents page): Builds updated.\n18 Oct. 2020 (this page): Builds updated.\n24 Sep. 2020 (talents page): Builds updated.\n24 Sep. 2020 (abilities page): Minor fixes.\n24 Sep. 2020 (this page): Builds updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n20 Jul. 2020 (talents page): Talents and recommendations reviewed and updated.\n15 Dec. 2019 (this page): Added a note about current Anomaly.\n04 Jul. 2019 (this page): Guide reviewed and updated.\n03 Jul. 2019 (talents page): Guide reviewed and updated.\n23 May 2019 (talents page): Updated Talent discussions and recommendations following patch v2.45.1 changes.\n03 Dec. 2018 (talents page): Updated Talent discussions and recommendations following patch v2.40.1 changes.\n13 Mar. 2018 (talents page): Recommended build updated to better reflect metagame state.\n09 Feb. 2018 (talents page): Recommended Talents updated to better reflect metagame state.\n28 Jan. 2018 (talents page): Updated for patch 2.29.9.\n09 Jan. 2018 (this page): Guide created.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Blaze's Tips and Tricks",
+   "id": "blazes-tips-and-tricks",
+   "text": "Flame Stream fires two parallel projectiles. Hit a target with both of them to deal extra damage.\nWhen you need to heal yourself, use Flame Stream to Ignite Oil Spill and stand on it.\nWhen Ignited, Oil Spill will Ignite any other Oil Spills that overlap with it.\nJet Propulsion has a long delay, so it should be used when enemy Heroes are Slowed by Oil Spill, Rooted, or Stunned.\nAvoid staying too long in Bunker Drop if unnecessary. Press the R key or right-click near it to exit.\nUse Combustion when on top of melee Heroes with no mobility to ensure they take damage.\nThe cooldown of Pyromania is reduced when hitting enemy Heroes with Flame Stream.\nAdrenaline Stimpack at Level 1 can be activated to escape from danger or to clear Minions, Mercenaries, or Monsters.\nEndurance Stimpack at Level 1 can be activated to mitigate burst damage of any type.\nNeural Stimpack at Level 1 can be activated to have Jet Propulsion back up sooner.\nJuggernaut Plating at Level 16 can be activated to mitigate burst damage in the form of Spell Damage."
+  },
+  {
+   "title": "Basic Attacks",
+   "id": "basic-attacks",
+   "text": "Blaze's Basic Attacks are unique: in addition to being ranged,\nthey hit all enemies in a small cone-shaped area directly in\nfront of Blaze. This attribute is\nparticularly useful for dealing damage to melee Heroes without allowing them to\nretaliate as well as for waveclearing purposes.\nFrom a pure\ndamage-dealing standpoint, Blaze's Basic Attack is comparatively very weak\nwhen hitting less than 3 targets. As a consequence, while clearing Minions and Mercenaries,\nit is important to try and make the\nmost out of Blaze's Basic Attacks by positioning yourself in a way that as many\ntargets as possible can be hit. When not fighting Heroes, this generally means walking in melee range of\nthe nearest target so that the cone-shaped area hits enemies further back.\nDuring team fights, however, you should not try to hit multiple Heroes\nbecause you will easily end up taking unnecessary damage or, even worse,\nput yourself at risk of dying just to deal a bit more damage with your Basic Attacks."
+  },
+  {
+   "title": "Flame Stream",
+   "id": "flame-stream",
+   "text": "Flame Stream\n(Q)\nBlaze\nMana: 30\nCooldown: 4 seconds\nFire two streams that deal 76 (+4% per level) damage to enemies hit, and an additional 120 (+4% per level) damage to non-Structure enemies hit by both streams. Flame Stream Ignites Oil Spills it comes in contact with.\nFlame Stream is an unusual skillshot that fires two relatively fast\nparallel projectiles which pierce any target hit. Since these projectiles are\nfired close to each other, it is possible to aim in a way that they both hit an\nindividual target. When both projectiles hit the same target,\nthey deal extra damage, but only if the target is not a Structure.\nThanks to its range, this Ability can also be used to\npoke or finish off fleeing enemies.\nFlame Stream can be used to Ignite your Oil Spill by\ncasting it directly on top of the Oil Spill's area. Deciding when and when not to\nIgnite them is key to playing Blaze and will be discussed below.\nEach Hero hit by a single stream of Flame Stream\nreduces the cooldown of Pyromania by 4 seconds\nand each Hero hit by two streams of Flame Stream\nreduces its cooldown by 12 seconds—4 seconds per stream\nand 4 seconds thanks to the bonus damage of the double hit."
+  },
+  {
+   "title": "Oil Spill",
+   "id": "oil-spill",
+   "text": "Oil Spill\n(W)\nBlaze\nMana: 50\nCharges: 2\nRecharge Time: 12 seconds\nDispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 50%.\nOil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 16 (+4% per level) damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 (+4% per level) Health every 0.3 seconds while standing in Ignited Oil Spills.\nStores up to 2 charges.\nOil Spill is arguably Blaze's most important Ability. On its own, it provides\na powerful Slow effect with a long duration. However, the Ability also has a\nsecond form: when Flame Stream hits Oil Spill's tar-like area of effect, it\nbecomes Ignited for an additional 2.5 seconds. When Ignited, Oil Spill no\nlonger Slows, but instead deals a large amount of damage-over-time to enemies\nwithin its area of effect and heals Blaze for a significant amount as long as he\nremains within the Ability's area of effect. Ignited Oil Spill will also Ignite\noverlapping Oil Spills, which is relevant given that it has two charges,\nand that certain Talents can generate additional Oil Spills.\nIt is worth noting that Oil Spill uses an uncommon targeting system known as\nVector Targeting. This means that Oil Spill's rectangular area of effect does\nnot originate from the caster himself, unlike most Abilities, but instead from\nthe targeted point and then expands in the direction you move your mouse cursor.\nDue to Oil Spill having a rectangular shape, this flexible targeting\nsystem allows you to accurately control Oil Spill's coverage, which is\nparticularly useful for cutting off escape routes or hindering initiations\nby aiming in the direction opponents are moving towards.\nIgnited Oil Spill is certainly useful for Blaze. To Ignite,\nor not to Ignite, however, is the first aspect of Oil Spill to master. In most cases,\nthe Ability's Slow effect may be more valuable than its damage\nand healing. Generally, this is when you are trying to peel off or Slow\nfleeing opponents while your allies attempt to finish them off, or when attempting\nyourself to hit with Jet Propulsion. Igniting Oil Spill,\nhowever, is useful when you need self-healing."
+  },
+  {
+   "title": "Jet Propulsion",
+   "id": "jet-propulsion",
+   "text": "Jet Propulsion\n(E)\nBlaze\nMana: 45\nCooldown: 10 seconds\nAfter 0.375 seconds, charge forward. Colliding with an enemy Hero deals 52 (+4% per level) damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.\nJet Propulsion is a versatile Ability that brings together Blaze's only form\nof mobility and hard crowd-control,\nmaking it effective at initiating,\npeeling, and interrupting\nchanneled-abilities. Jet Propulsion allows\nBlaze to pass right through non-Heroic entities such as Minions, though not\nterrain nor Structures. Its short 0.5 seconds cast time and traveling time also\nmeans that you need to aim slightly ahead of your intended target, though\nOil Spill can and should be used to Slow them and make the Ability easier to hit with.\nSuccessful Jet Propulsion hits should be naturally followed\nby Flame Stream to deal damage and Ignite Oil Spill\nbelow them—its relatively lengthy 1.25 seconds Stun\nwill force struck Heroes to remain within Oil Spill's area for at least this\nlong. The Ability can also be used as a setup for Combustion or\npowerful allied Abilities. Be sure, however, not to overextend and\nto communicate your intentions with Pings because you do not have any escape tools when\nJet Propulsion is on cooldown.\nWhen in danger, Jet Propulsion can be used to escape, however, you should not overextend\nbecause smart opponents will use their body to block you, causing Jet Propulsion to stop immediately.\nThis is particularly bad for a Blaze that is alone in lane as it will often result in him dying."
+  },
+  {
+   "title": "Bunker Drop",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nBunker Drop\n(R)\nBlaze\nHeroic\nMana: 80\nCooldown: 85 seconds\nAfter 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 150 damage to enemies in a line.\nExiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.\nBunker Drop is Blaze's defensive Heroic Ability choice. Its main purpose is\nto allow allied Heroes to temporarily disable themselves in exchange for a\nlarge shared Shielding effect and the ability to deal some damage through a\nnew Flame Stream-like Ability. Bunker Drop also automatically garrisons\nBlaze after its 0.5 seconds cast time, making it useful as a last resort to try\nto stay alive or to buy some time for allies to help out.\nIdeally, Bunker Drop\nshould be used next to fragile allies who are being targeted by threatening\nMelee Assassins such as Genji, Greymane, Illidan, The Butcher, Valeera,\nand Zeratul, who tend to rely on quick kills to generate an advantage. It is\nworth noting that while the Bunker is far from unkillable, it does have more\nHealth than many Heroes, and is generally difficult for a single Hero to burst\ndown timely.\nIt should be mentioned that cooldowns keep progressing while inside\nthe Bunker, which could allow an important Ability to become available again\nwhile protected. Entering the Bunker dispels the majority\nof crowd control effects and other types of debuffs\n(such as Temporal Loop by Chromie),\ndamage-over-time effects (for example Corruption by Gul'dan),\nand cause Abilities that stick on Heroes to repeatedly hit it instead\n(like Purifier Beam by Artanis).\nBlaze will automatically be in the Bunker when summoned. To exit the Bunker, press [R] or right-click near the\nBunker. To enter the Bunker, right-click on it. Heroes cannot enter the Bunker\nwhile Rooted or Stunned, although Blaze\ncan cast Bunker Drop while Rooted."
+  },
+  {
+   "title": "Combustion",
+   "id": "combustion",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nCombustion\n(R)\nBlaze\nHeroic\nMana: 70\nCooldown: 80 seconds\nChannel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.\nBlaze's Movement Speed is reduced by 40% while Channeling.\nCombustion is Blaze's damage-oriented Heroic Ability choice. If you are\nrunning a double Tank or double Healer team composition, feel like\nyour team may lack damage, or have a proper way of setting up for\nthe Ability (such as Void Prison) Combustion is an appropriate choice.\nThe Ability's impressive area of effect damage and potent Slow make it an effective\ndeterrent to anyone trying to attack you or your allies, or trying to contest a\nspecific area such as an Objective or Boss Camp.\nIdeally, you should hit multiple Heroes with it, however, what matters is that\nyou can secure a kill with its damage. Jet Propulsion's\nStun effect can help you setup your own Combustion hits despite the self\nSlowing effect of the Ability.\nAs a mobile-channeled Ability, Combustion allows Blaze to move\nduring its channeling time, but prevents him from using Basic Attacks or\nAbilities other than Combustion itself, which will end the channeling\nearly and deal proportionally less damage. Since Combustion can also be\ninterrupted, keeping track of reliable\ncrowd-control effects\nis important."
+  },
+  {
+   "title": "Pyromania",
+   "id": "pyromania",
+   "text": "Pyromania\n(D)\nBlaze\nCooldown: 90 seconds\nGain 40 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.\nEach Hero hit by Flame Stream reduces Pyromania's cooldown by 4 seconds.\nPyromania is Blaze's main defensive Ability. Its use is generally reserved\nto when you are being targeted by two or more Heroes. The Armor,\ncombined with Blaze's large Health pool and self-sustain makes\nhim extremely difficult to take down, and may even bait opponents into\novercommitting to killing you. Pyromania also deals a reasonable amount of\ndamage, although it should almost never be used solely for this."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Guide updated for the latest Patch.\n28 May 2026: Guide reviewed.\n27 Dec. 2025: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n17 Oct. 2024: Guide reviewed for the latest Balance Update.\n14 Jul. 2024: Guide reviewed.\n22 Jul. 2021: Guide reviewed for the latest Balance Update.\n16 Jun. 2021: Guide reviewed for the latest Balance Update.\n01 Mar. 2021: Minor fixes.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n24 Sep. 2020: Minor fixes.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Adrenaline Stimpack (Level 1) Blaze Cooldown: 30 seconds Passive: While over 80% Health, gain 20% bonus Attack Speed and 10% bonus Movement Speed. Activate to gain 85% Attack Speed and 25% Movement Speed for 5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Endurance Stimpack (Level 1) Blaze Cooldown: 30 seconds Activate to gain a Shield that absorbs 590 (+4% per level) damage over 5 seconds. When taking damage while below 30% maximum Health, Endurance Stimpack will automatically be cast if it is not on cooldown."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Neural Stimpack (Level 1) Blaze Cooldown: 30 seconds Activate to gain 40 Mana and cause Basic Ability cooldowns to recharge 100% faster for 5 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "New Habits (Level 1) Blaze Collecting Regeneration Globes reduces the cooldown of Pyromania by 6 seconds. Quest: Collect 15 Regeneration Globes. Reward: Pyromania grants Unstoppable for 2 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Oil Dispersal (Level 4) Blaze Increase Oil Spill's area by 20%. Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 0.75 seconds and refunds 5 Mana."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Meltdown (Level 4) Blaze Hitting an enemy Hero with Pyromania reduces their damage dealt by 8% for 2.5 seconds, up to 40%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Incinerator Gauntlets (Level 4) Blaze Increase Basic Attack area by 15%, and Basic Attack damage to Minions, Mercenaries, and Monsters by 40%."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Suppressive Fire (Level 7) Blaze Each stream of Flame Stream reduces the Spell Power of Heroes hit by 20% for 4 seconds, up to 40%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Nanomachine Coating (Level 7) Blaze Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 35% for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Fuel Leak (Level 7) Blaze Jet Propulsion creates Oil Spills along Blaze's path. If Jet Propulsion impacts an enemy Hero, an additional Oil Spill is created underneath them."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Bunker Drop (Level 10) Blaze Mana: 80 Cooldown: 85 seconds After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 150 damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Combustion (Level 10) Blaze Mana: 70 Cooldown: 80 seconds Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 40% while Channeling."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "Grill and Kill (Level 13) Blaze Increase Ignited Oil Spill damage by 45%. Quest: Damage enemy Heroes with Ignited Oil Spills 30 times. Reward: Increase Oil Spill's Ignite duration by 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Adhesive Petroleum (Level 13) Blaze Enemies standing in Oil Spill when it is Ignited are Slowed by 40% and take 35% more Basic Attack damage from Blaze for 3 seconds. Additionally, Basic Attack splashes Ignite Oil Spills."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Collision Course (Level 13) Blaze Jet Propulsion's collision deals 260 (+4% per level) damage to the first enemy Hero hit."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Thermal Protection (Level 16) Blaze Each enemy hit by Jet Propulsion grants 10 Armor for 3 seconds and reduces its cooldown by 1.25 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Heat Treatment (Level 16) Blaze Heal for 75% of the damage dealt by Pyromania."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Juggernaut Plating (Level 16) Blaze Cooldown: 30 seconds Activate to gain 50 Spell Armor for 3 seconds. Upon expiration, gain a Shield equal to 125% of the Spell Damage taken while Juggernaut Plating was active."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Fortified Bunker (Level 20) Blaze Occupants can cast Oil Spill from Bunker Drop every 6 seconds. Additionally, Bunker Drop's Armor bonus upon exiting is increased by 25, and its duration by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Flash Fire (Level 20) Blaze While Channeling Combustion, Blaze's Movement Speed is no longer reduced, and nearby enemies are Slowed by 60%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Burn Notice (Level 20) Blaze Basic Attacks Slow enemies by 5% and deal an additional 18 (+4% per level) damage over 2.5 seconds. Stacks up to 5 times."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Blaze's Talent Build",
+   "id": "blazes-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n?\n4\n?\n?\n✓\n7\n✓\n?\n✘︎\n10\n✓\n?\n13\n✘︎\n✘︎\n✓\n16\n?\n?\n✓\n20\n✓\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Blaze's Talent Build Cheatsheet",
+   "id": "blazes-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's Basic Attacks Build primarily empowers your waveclear\nwhile also increasing your survivability, utility, and damage. As a consequence, we recommend\nthis Build when playing Blaze as Offlaner.\nIn particular, Incinerator Gauntlets at Level 4\nmakes it easier to clear Minions and Mercenaries while laning\nand Adrenaline Stimpack at Level 1 further empowers its value\nagainst Mercenaries while also boosting your damage against enemy Heroes.\nOil Spill Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's Oil Spill Build primarily empowers your engage\nwhile also increasing your survivability, utility, and damage. We recommend\nthis Build when playing Blaze as Tank, preferably\nagainst 2 melee Heroes or less.\nIn particular, the Slow increase provided by\nOil Dispersal at Level 4\nmakes it easier to use Oil Spill as a setup\nfor Jet Propulsion.\nPyromania Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's Pyromania Build primarily empowers your engage\nwhile also increasing your survivability, utility, and damage. We recommend\nthis Build when playing Blaze as Tank, ideally\nagainst 3 melee Heroes or more.\nIn particular, the damage reduction from\nMeltdown at Level 4 is great for reducing\nthe damage done by melee Heroes and Heat Treatment\nat Level 16 can heal you by a lot when surrounded by enemy Heroes\nin melee range. The cooldown reduction from New Habits\nat Level 1 lets you do this more often.\nARAM Build\nARAM\nLevel 1\n?\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nBlaze's ARAM Build primarily empowers your engage\nwhile also increasing your survivability, utility, and damage. As a consequence, we recommend\nthis Build when playing Blaze as Tank.\nIn particular, the Slow increase provided by\nOil Dispersal at Level 4\nmakes it easier to use Oil Spill as a setup\nfor Jet Propulsion."
+  },
+  {
+   "title": "Level 1 Talents for Blaze",
+   "id": "level-1",
+   "text": "✔\nAdrenaline Stimpack\n(Level 1)\nBlaze\nCooldown: 30 seconds\nPassive: While over 80% Health, gain 20% bonus Attack Speed and 10% bonus Movement Speed.\nActivate to gain 85% Attack Speed and 25% Movement Speed for 5 seconds.\nAdrenaline Stimpack is a strong Talent that passively increases\nyour Attack Speed and Movement Speed by a small amount when having high Health\nand by a big amount when you decided to use its active component.\nThe possibility to double your Attack Speed on demand helps you to take down enemy Heroes.\nIf combined with Incinerator Gauntlets at Level 4,\nAdrenaline Stimpack greatly boosts your ability to clear Mercenaries.\n?\nEndurance Stimpack\n(Level 1)\nBlaze\nCooldown: 30 seconds\nActivate to gain a Shield that absorbs 590 (+4% per level) damage over 5 seconds.\nWhen taking damage while below 30% maximum Health, Endurance Stimpack will automatically be cast if it is not on cooldown.\nEndurance Stimpack is a good Talent that\ngives you access to a Shield that can be either used on-demand\nor that will automatically go off when low on Health.\nYou can pick this Talent to further increase your survivability,\nsomething which comes in handy especially when the enemy team features Heroes\nwho can deal percent-based damage.\n?\nNeural Stimpack\n(Level 1)\nBlaze\nCooldown: 30 seconds\nActivate to gain 40 Mana and cause Basic Ability cooldowns to recharge 100% faster for 5 seconds.\nNeural Stimpack is a good Talent that\nallows Blaze to reduce the cooldown of his Basic Abilities\nby an additional 5 seconds over 5 seconds.\nIn practice, this effect lets him cast a\nsecond round of Abilities when most other Heroes would only have one.\nIf there is no need to pick New Habits, this\nshort-term power increase to his damage, survivability, and disruptiveness is\ninvaluable in team fights.\n?\nNew Habits\n(Level 1)\nBlaze\nCollecting Regeneration Globes reduces the cooldown of Pyromania by 6 seconds.\nQuest: Collect 15 Regeneration Globes.\nReward: Pyromania grants Unstoppable for 2 seconds.\nNew Habits is a good Quest-based Talent that,\nonce completed, helps Blaze to deal with crowd control\nby becoming Unstoppable for 2 seconds\nwhen using Pyromania.\nBefore completing it, you still get some value from Regeneration Globes\nas they will reduce the cooldown of your Trait when picked up.\nAfter completing it, New Habits can be used right before\nusing Combustion to ensure that it gets\nchanneled for at least 2 seconds or right before\ncasting Jet Propulsion to ensure it does not\nget interrupted mid-cast or stopped mid-animation."
+  },
+  {
+   "title": "Level 4 Talents for Blaze",
+   "id": "level-4",
+   "text": "?\nOil Dispersal\n(Level 4)\nBlaze\nIncrease Oil Spill's area by 20%. Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 0.75 seconds and refunds 5 Mana.\nOil Dispersal is a good Talent that improves the reliability and power of\nOil Spill by modestly increasing its area of effect,\nmaking it easier to use Oil Spill as a setup for Jet Propulsion.\nIn addition to that, each enemy Hero hit with Flame Stream will reduce\nthe cooldown of Oil Spill by a small amount and give you some Mana.\n?\nMeltdown\n(Level 4)\nBlaze\nHitting an enemy Hero with Pyromania reduces their damage dealt by 8% for 2.5 seconds, up to 40%.\nMeltdown is a situational Talent that provides you with a respectable damage\nreduction debuff, which can be useful to not only make yourself harder to kill\nbut also to peel for your teammates.\nThe easiest way to get value from this Talent is to activate Pyromania\nwhen surrounded by one or more enemy Heroes that have no mobility or when an enemy Hero is standing still\nto channel a powerful Ability (for example Lightning Breath by Diablo).\nUnfortunately, this Talent is gated behind\nPyromania's long cooldown, making it difficult to\njustify if not picked in conjunction with New Habits at Level 1.\n✔\nIncinerator Gauntlets\n(Level 4)\nBlaze\nIncrease Basic Attack area by 15%, and Basic Attack damage to Minions, Mercenaries, and Monsters by 40%.\nIncinerator Gauntlets is a strong Talent that increases\nyour Attack Area by a modest amount and your Attack damage against Minions,\nMercenaries, and Monsters by a solid amount.\nPick this Talent when you want to boost your waveclear\nor when you want to clear Mercenary Camps faster, especially if\npaired with Adrenaline Stimpack at Level 1."
+  },
+  {
+   "title": "Level 7 Talents for Blaze",
+   "id": "level-7",
+   "text": "✔\nSuppressive Fire\n(Level 7)\nBlaze\nEach stream of Flame Stream reduces the Spell Power of Heroes hit by 20% for 4 seconds, up to 40%.\nSuppressive Fire is a good Talent that reduces\nthe Spell Damage\nof enemy Heroes hit with Flame Stream\nby 20% per stream, up to 40% damage reduction.\nYou can use this Talent to reduce the healing\nand/or damage done by enemy Heroes with their Abilities.\nIf they can heal based on damage done with Abilities,\nthen their healing done will be reduced as a consequence.\n?\nNanomachine Coating\n(Level 7)\nBlaze\nEnemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 35% for 4 seconds.\nNanomachine Coating is a good Talent that offers a lot of value\nagainst enemy Heroes that rely on Basic Attacks to deal damage,\nespecially if they lack mobility (such as The Butcher).\nOil Dispersal at Level 4 makes it easier to hit enemy Heroes\nwith Oil Spill and therefore to debuff\nthem with this Talent. That said, the synergy is not mandatory.\n✘\nFuel Leak\n(Level 7)\nBlaze\nJet Propulsion creates Oil Spills along Blaze's path. If Jet Propulsion impacts an enemy Hero, an additional Oil Spill is created underneath them.\nFuel Leak is a weak Talent that makes Jet Propulsion\nleave a trail of Oil Spill right behind Blaze and creates a stain of Oil Spill right below enemy Heroes hit.\nOther than occasionally increasing your self-sustain while out of team fights,\nthe additional Oil Spill also increases your survivability during long team fights\nas you will be able to heal for longer. The trail will also act as a defensive tool\nin a given area because enemy Heroes walking on it will be Slowed\nor, when Ignited, take damage from it.\nIt is important to mention that the Oil Spill created by this Talent\nwill be Ignited when using Flame Stream to deal damage.\nThat fire will then spread to other Oil Spills that you do not want to Ignite because\nthey apply a higher Slow when not Ignited. To play around this,\nwait for the Ignited Oil Spill to expire, cast Flame Stream,\nand then cast Oil Spill.\nWe do not recommend picking this Talent because it cannot compete with the other options\nin the same Tier, especially considering that we are not going to spend more than one Talent\nto empower Oil Spill."
+  },
+  {
+   "title": "Level 10 Talents for Blaze",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nBunker Drop\n(Level 10)\nBlaze\nMana: 80\nCooldown: 85 seconds\nAfter 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 150 damage to enemies in a line.\nExiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.\nBunker Drop is Blaze's defensive Heroic Ability\nchoice. Its main purpose is to allow allied Heroes to temporarily disable\nthemselves in exchange for a large shared defensive effect and the ability to\ndeal some damage through a new Flame Stream-like\nAbility.\n?\nCombustion\n(Level 10)\nBlaze\nMana: 70\nCooldown: 80 seconds\nChannel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.\nBlaze's Movement Speed is reduced by 40% while Channeling.\nCombustion is Blaze's damage-oriented Heroic Ability\nchoice. If you are running a double Tank or double\nHealer team composition, feel like your team may lack\ndamage, or have a proper way of setting up for the\nAbility (such as Void Prison), Combustion is an\nappropriate choice.\nNew Habits at Level 1 allows\nyou to channel Combustion without fearing\ninterrupting effects. You just need to use\nPyromania right before casting Combustion."
+  },
+  {
+   "title": "Level 13 Talents for Blaze",
+   "id": "level-13",
+   "text": "✘\nGrill and Kill\n(Level 13)\nBlaze\nIncrease Ignited Oil Spill damage by 45%.\nQuest: Damage enemy Heroes with Ignited Oil Spills 30 times.\nReward: Increase Oil Spill's Ignite duration by 2.5 seconds.\nGrill and Kill is a weak Talent that increases\nboth Blaze's damage output against enemies who are standing in Ignited Oil Spill\nand, once its Quest has been completed, also makes Ignited Oil Spill last longer.\nWhile it provides a fair amount of damage, we do not recommend picking this Talent because\nit cannot compete with the high amount of burst damage provided by\nCollision Course, which is more useful when trying to secure kills.\n✘\nAdhesive Petroleum\n(Level 13)\nBlaze\nEnemies standing in Oil Spill when it is Ignited are Slowed by 40% and take 35% more Basic Attack damage from Blaze for 3 seconds. Additionally, Basic Attack splashes Ignite Oil Spills.\nAdhesive Petroleum is a weak Talent that increases\nyour Attack damage on enemy Heroes standing on Ignited Oil Spill\nand makes your Basic Attacks automatically Ignite them. To make up for the auto-Ignite feature,\nIgnited Oil Spill will still Slow enemies,\nalbeit for a slightly lower amount compared to non-Ignited ones.\nWhile it provides a fair amount of damage, we do not recommend picking this Talent because\nit cannot compete with the high amount of burst damage provided by\nCollision Course, which is more useful when trying to secure kills.\n✔\nCollision Course\n(Level 13)\nBlaze\nJet Propulsion's collision deals 260 (+4% per level) damage to the first enemy Hero hit.\nCollision Course is a strong Talent which greatly increases\nthe damage done by Jet Propulsion to the first enemy Hero hit,\nmaking your engage quite powerful at taking down whoever is being focused by your team."
+  },
+  {
+   "title": "Level 16 Talents for Blaze",
+   "id": "level-16",
+   "text": "?\nThermal Protection\n(Level 16)\nBlaze\nEach enemy hit by Jet Propulsion grants 10 Armor for 3 seconds and reduces its cooldown by 1.25 seconds.\nThermal Protection is a good Talent that gives some\nArmor when you generally need it most, which is to say, after\ninitiating with Jet Propulsion.\nThe cooldown reduction provided by this Talent also synergizes well with\nFuel Leak at Level 7. Thermal Protection may be more\npowerful than its Heat Treatment alternative if your team\ncomposition features two Healers, as Armor's potency\nincreases as more healing becomes available.\n?\nHeat Treatment\n(Level 16)\nBlaze\nHeal for 75% of the damage dealt by Pyromania.\nHeat Treatment turns Pyromania\ninto an extremely potent self-heal that heals him for approximately 12% of his\ntotal Health pool per target hit over Pyromania's 4-second duration, including\nMinions and Structures. Combined with his Armor and\nOil Spill's healing, Heat Treatment can situationally\nmake Blaze very difficult to kill.\n✔\nJuggernaut Plating\n(Level 16)\nBlaze\nCooldown: 30 seconds\nActivate to gain 50 Spell Armor for 3 seconds. Upon expiration, gain a Shield equal to 125% of the Spell Damage taken while Juggernaut Plating was active.\nJuggernaut Plating is a strong Talent that, once every 30 seconds,\ncan be activated to increase your Spell Armor by a lot for a few seconds.\nUpon expiration, 125% of the Spell Damage\nand percent-based damage during that time window\nwill be converted into a Shield.\nConsider picking this Talent against team compositions which feature\nat least one Mage (such as Alarak),\nso that you will be able to negate a good portion of their damage on you."
+  },
+  {
+   "title": "Level 20 Talents for Blaze",
+   "id": "level-20",
+   "text": "✔\nFortified Bunker\n(Level 20)\nBlaze\nOccupants can cast Oil Spill from Bunker Drop every 6 seconds. Additionally, Bunker Drop's Armor bonus upon exiting is increased by 25, and its duration by 1 second.\nFortified Bunker is a strong Talent which empowers\nthe Armor bonus provided by Bunker Drop:\nthe Armor is increased to 50 and the duration is increased to 3 seconds.\nFurthermore, whoever enters in the Bunker can cast Oil Spill\nand Blaze can light it up with Flame Stream as usual.\nWe find this Talent particularly strong in coordinated play, when your teammates\nwill have an easier time to enter in the Bunker because you can alert them\nin voice chat while casting Bunker Drop. Outside of coordinated play,\nif your teammates are not using Bunker Drop during the game\nand you do not need the additional Armor provided by it, then you\nshould rate it lower and you could pick Burn Notice instead.\n?\nFlash Fire\n(Level 20)\nBlaze\nWhile Channeling Combustion, Blaze's Movement Speed is no longer reduced, and nearby enemies are Slowed by 60%.\nFlash Fire is a strong Talent that allows Combustion\nto instantly generate value by granting it an impressive Slowing effect that\ncan often force opponents to use gap closers to\nescape. Flash Fire also removes the Movement Speed reduction penalty from Blaze himself, which\nhelps him keep up with potential targets.\n?\nBurn Notice\n(Level 20)\nBlaze\nBasic Attacks Slow enemies by 5% and deal an additional 18 (+4% per level) damage over 2.5 seconds. Stacks up to 5 times.\nBurn Notice is a situational Talent that provides Blaze with modest damage increase\nand constant Slow effect, stacking up to 5 times on the same target.\nBecause of that, if you have Adrenaline Stimpack at Level 1,\ndamage and Slow provided by this Talent will ramp up faster.\nYou can pick this Talent when you want to deal more sustain damage\nto enemy Heroes and/or enemy Structures, you do not need the additional\nArmor provided by Fortified Bunker\nand your teammates are not using Bunker Drop."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Guide updated for the latest Patch.\n28 May 2026: Guide reviewed.\n27 Dec. 2025: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n17 Oct. 2024: Guide reviewed for the latest Balance Update.\n14 Jul. 2024: Guide reviewed.\n22 Sep. 2023: Guide reviewed for the latest Bug Fixes.\n20 Sep. 2023: ARAM Build added.\n07 Jul. 2022: Builds updated.\n30 Jan. 2022: Builds and Talent Descriptions updated.\n22 Jul. 2021: Guide reviewed for the latest Balance Update.\n16 Jun. 2021: Guide reviewed for the latest Balance Update.\n25 Feb. 2021: New layout.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n18 Oct. 2020: Builds updated.\n24 Sep. 2020: Builds updated.\n20 Jul. 2020: Talents and recommendations reviewed and updated.\n03 Jul. 2019: Guide reviewed and updated.\n23 May 2019: Updated Talent discussions and recommendations following patch v2.45.1 changes.\n03 Dec. 2018: Updated Talent discussions and recommendations following patch v2.40.1 changes.\n13 Mar. 2018: Recommended build updated to better reflect metagame state.\n09 Feb. 2018: Recommended Talents updated to better reflect metagame state.\n28 Jan. 2018: Updated for patch 2.29.9.\nShow more\nShow less"
+  }
+ ]
+}

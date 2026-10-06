@@ -1,0 +1,96 @@
+{
+ "name": "battlefield-of-eternity",
+ "source": "https://www.icy-veins.com/heroes/battlefield-of-eternity-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Battlefield of Eternity is a 2-lane Map belonging to the Diablo universe.\nThe signature Objective of Infernal Shrines consists of Immortals: Ilarian and Beleth.\nDefeating the enemy Immortal will make the allied Immortal join you in lane\nto destroy enemy Structures with his powerful attacks."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nDisplacements into Immortal's Stun\nPoke tools for Objective\nQuests to stack on Heroes\nRace damage for Immortal\nStrong early game\nVision tools\nAvoid\nWeak early game\nSee our Battlefield of Eternity Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-4",
+   "id": "formation-1-4",
+   "text": "The go-to formation for Battlefield of Eternity is 1-4:\n1 Hero, the Offlaner, covers the top lane;\n4 Heroes cover the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "From 0:30 minutes onwards, especially if your team is struggling in the bottom lane,\nyou could try to sneak-capture the Siege Camp in the offlane\nwith the help of a second Hero that you sent there beforehand.\nWhile doing so, do not play for the other Siege Camp\nbecause your team is likely outnumbered there.\nFrom 0:30 minutes onwards, whenever your team has an advantage\nwhile there is no Objective to contest, start clearing the Siege Camp\nin the 4-man lane and capture it as soon as possible.\nAt 2:20 minutes or 30-40 seconds before the next Immortals spawn, start clearing\nthe allied Bruiser Camp and capture it slightly before the Immortals appear.\nTo make this Mercenary Camp join the lane together with allied Minions,\ncapture it at 2:45 minutes or 15 seconds after a wave of Minions spawned.\nAt 3:00 minutes or whenever the Objective phase starts, you must be\nalready near the Immortals! Being late by 5 seconds is enough to give\na 25% Immortal's Health advantage to the enemy team. If you are 10 seconds\nlate, the enemy team can easily bring the Immortal down to 50% Health.\nDuring the Objective phase, play around the allied Immortal\nunless you have an advantage.\nChoose how many Heroes to send on each Immortal depending on the situation.\nIf you win the Objective, push together with\nthe allied Immortal while your Offlaner is\nsoaking in the other lane, unless your team\nis going for a Keep or for the Core, in which case you should stay as 5.\nIf you lose the Objective, defend your Structures from the\nenemy Immortal while your Offlaner is\nsoaking in the other lane, unless the enemy team\nis going for a Keep or for the Core, in which case you should stay as 5."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Battlefield of Eternity has a total of 4 Mercenary Camps:\n1 Siege Camp (green icon) in the top lane;\n1 Bruiser Camp (blue icon) that goes in the top lane for the right-side team;\n1 Bruiser Camp (blue icon) that goes in the bottom lane for the left-side team;\n1 Siege Camp (green icon) in the bottom lane.\nMercenary Camps on Battlefield of Eternity disappear from the battlefield\nonce an Immortal goes in lane (unless their Mercenaries are in combat)\nand reappear when that Immortal dies."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 3 Impalers. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n270 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nImpalers are ranged units that can attack enemies from the distance but lack\narea of effect damage to quickly clear enemy Minions.\nOnce captured, they are capable of damaging enemy Structures without getting in their range."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 1 Fallen Shaman and 2 Fallen Hounds. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n450 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nOnce captured, the Fallen Shaman periodically summons 2 Fallen Hounds\nwhenever they die. The most efficient way to clear them in lane is therefore\nto kill the Fallen Shaman first and the Fallen Hounds after. Fallen Shaman and\nFallen Hounds deal 100% increased damage to Minions, Structures and Summons."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Infernal Shrines consists of Immortals\nbattling each other. Each team is allied with an Immortal:\nIlarian, the angelic Immortal, is allied with the left team;\nBeleth, the demonic Immortal, is allied with the right team.\nDefeating the enemy Immortal will give your team a laning Immortal\nand will spawn 2 Regeneration Globes for your team in the middle of the battlefield.\nImmortals go in the lane where enemy Structures have the least amount of damage\ntaken in total and have a Shield equal to their remaining Health\nduring the Objective phase.\nSpawn Time\nRespawn Delay\n3:00 minutes\n1:45 minutes after the laning Immortal dies\n\nEngage in Immortal Combat\nTwo Immortals fight at the center of the map. Help your Immortal prevail, and lay waste to the enemy's Forts.\nEmploy Eternal Tactics\nProtect your Immortal by obliterating the opposing team, or descend upon the enemy Immortal with relentless fury.\nHire Unique Mercenaries\nBolster your forces with Fallen Shaman and cunning Impalers, who will lend their powers to your cause!"
+  },
+  {
+   "title": "Immortals",
+   "id": "immortals",
+   "text": "Immortals are in a conflict with each other, however, they do not deal damage\ntoe ach other. They can only be damaged by players of the opposing team.\nWhen one of the Immortal reaches half Health, they take 10 seconds to swap positions.\nWhile swapping, they cannot be damaged.\nSome great Heroes for damaging the enemy Immortal are:\nArtanis with Amateur Opponent at Level 1;\nChromie;\nHanzo with Serrated Arrows at Level 4;\nLi-Ming;\nGreymane;\nLunara with Nature's Culling at Level 4;\nRaynor with Exterminator at Level 1;\nSgt. Hammer;\nTyrande;\nValla;\nZul'jin.\nWhile fighting, Immortals use two Abilities: Angelic Cleave or Demonic Cleave\n(14-second cooldown, increased by 2 seconds in lane) is a 2-second delay\nKnockback followed by a 0.5-second Stun\nthat one-shots Minions; Angelic Explosions or Demonic Explosions\n(14-second cooldown, increased by 2 seconds in lane) is a 2-second delay\nrain of swords that one-shots Minions and Stun for 2 seconds.\nBoth these Abilities display warning indicators on the ground. Dodge them!\nThere are 5 ways to approach the Objective phase:\nfull defense:\n5 Heroes defend the allied Immortal;\ndefend & race:\n4 Heroes defend the allied Immortal,\n1 Hero attacks the enemy Immortal;\ndefend & soak:\n3-4 Heroes defend the allied Immortal,\n1-2 Heroes soak in lane;\nharass & race:\n1 Hero defends the allied Immortal,\n4 Heroes attack the enemy Immortal;\nfull race:\n5 Heroes attack the enemy Immortal.\nImmortals always face each other, either horizontally or vertically.\nThe first Immortal positions are always the same: before the swap\nIlarian goes South and Beleth goes North,\nafter the swap Ilarian goes East and Beleth goes West.\nFor the rest of the game, Immortal positions are completely random, with the only rule\nbeing that after the swap they will always choose different positions.\nPosition\nIlarian\nBeleth\nOffensive\nVertical\nSouth\nNorth\nHorizontal\nEast\nWest\nDefensive\nVertical\nNorth\nSouth\nHorizontal\nWest\nEast\nThe icons that represent Immortals on the Minimap help players to quickly identify\nwhich Immortal to attack and which to defend: the opposing Immortal uses an icon\ndepicting crossed axes, while the allied Immortal displays a shield icon.\nThese icons are visible on the Minimap way before the Objective phase starts."
+  },
+  {
+   "title": "Offensive Vertical",
+   "id": "offensive-vertical",
+   "text": "When the Immortals are in these positions, it is easier to race:\nIlarian (blue icon): South;\nBeleth (red icon): North."
+  },
+  {
+   "title": "Offensive Horizontal",
+   "id": "offensive-horizontal",
+   "text": "When the Immortals are in these positions, it is easier to race:\nIlarian (blue icon): East;\nBeleth (red icon): West."
+  },
+  {
+   "title": "Defensive Vertical",
+   "id": "defensive-vertical",
+   "text": "When the Immortals are in these positions, it is easier to defend:\nIlarian (blue icon): North;\nBeleth (red icon): South."
+  },
+  {
+   "title": "Defensive Horizontal",
+   "id": "defensive-horizontal",
+   "text": "When the Immortals are in these positions, it is easier to defend:\nIlarian (blue icon): West;\nBeleth (red icon): East."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 12 seconds, the Core will spawn 2 volleys of Frozen Orbs that explode,\ndealing 5% maximum Health as damage and Rooting enemy Heroes\nhit for 1.5 seconds."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Battlefield of Eternity, you should count on\nany of the following win conditions:\nMap Objective."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nUse the color of the bushes to identify when it is better to race:\nwhen the Immortals are near bushes that match their colors,\nit is easier to defend; when the Immortals are near bushes that\nhave opposite colors to theirs, it is easier to race.\nWhile fighting near the allied Immortal, you can use Displacement\neffects to push enemy Heroes under Angelic Explosions or Demonic Explosions,\nso that they take a lot of damage and get Stunned for 2 seconds.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n13 Dec. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

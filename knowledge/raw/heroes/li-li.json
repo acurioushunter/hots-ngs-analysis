@@ -1,0 +1,265 @@
+{
+ "slug": "li-li",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/li-li-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/li-li-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/li-li-talents"
+ },
+ "guide": [
+  {
+   "title": "Li Li's Overview",
+   "id": "li-lis-overview",
+   "text": "Li Li is a Healer that provides a high amount of\nsustain healing but a low amount of burst healing,\nsomething that makes her particularly good in prolonged team fights\nand bad in other scenarios, unless she can get some value out of her\nBlind to mitigate a considerable amount of damage."
+  },
+  {
+   "title": "Li Li's Strengths and Weaknesses",
+   "id": "li-lis-strengths-and-weaknesses",
+   "text": "Strengths\nHigh sustain healing\nAbility to Blind\nWeaknesses\nNo hard crowd control\nLack of burst healing\nHer healing Abilities prioritize Heroes low on Health\nPoor waveclear"
+  },
+  {
+   "title": "Li Li's Talent Build Cheatsheet",
+   "id": "li-lis-talent-build-cheatsheet",
+   "text": "Healing Brew Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLi Li's Healing Brew Build is designed to provide Blinds more often\nand for slightly longer, something that helps against Heroes who rely a lot on Basic Attacks\nfor dealing damage, healing, and/or getting cooldown reduction (Illidan comes to mind).\nTwo For One at Level 16 helps you keep multiple allied\nHeroes in a good shape with the help of Free Drinks at Level 1.\nSurging Winds at Level 4 increases your healing output.\nSurging Winds at Level 4 slightly reduces\nBlinding Wind's cooldown and Gale Force\nat Level 13 makes the Blind last a bit longer.\nCloud Serpent Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLi Li's Cloud Serpent Build turns you into a battle Healer\nwho can provide a fair amount of healing and deal a decent amount of damage at the same time,\na combination that is particularly suited for drawn-out team fights.\nThe combination of Wind Serpent at Level 4\nand Lightning Serpent at Level 13 allows her to\nconstantly pressure the enemy team with low but steady damage,\nespecially if you can get value from Fast Feet\nfor Serpent Sidekick at Level 1.\nWhile good on its own, this Build works better when playing\nLi Li together with another Healer\nas it increases your damage (as explained already) and their healing,\nthanks to Blessings Of Yu'lon at Level 16.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLi Li's ARAM Build is designed to provide Blinds more often\nand for slightly longer, something that helps against Heroes who rely a lot on Basic Attacks\nfor dealing damage, healing, and/or getting cooldown reduction (Illidan comes to mind).\nTwo For One at Level 16 helps you keep multiple allied\nHeroes in a good shape with the help of Free Drinks at Level 1.\nSurging Winds at Level 4 increases your healing output.\nSurging Winds at Level 4 slightly reduces\nBlinding Wind's cooldown and Gale Force\nat Level 13 makes the Blind last a bit longer.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Li Li's Synergies and Counters",
+   "id": "li-lis-synergies-and-counters",
+   "text": "Li Li synergizes with\nLi Li does very well with Heroes who can mitigate burst damage on their own\nbecause it allows her to succeed against burst damage, where she otherwise struggles.\nThat said, this is not a concern when facing team compositions that lack\nburst damage altogether.\nWhile not really a synergy, Li Li also does well with Heroes who have strong waveclear\nas she is not able to directly contribute to macro pressure in a meaningful way.\nLast but not the least, Li Li does not have access to hard crowd control effects,\ntherefore she will perform way better when paired with Heroes who can provide it.\nConsidering how her Abilities and Talents work, Li Li is pretty interesting\nto play together with a burst Healer,\nbut make sure to still have a well-rounded team composition when doing so.\nLi Li is countered by\nHealing Brew is not very effective against burst damage\nbecause it does not heal that much and has a relatively slow animation.\nLi Li is also countered by crowd control\nthat can interrupt her Heroic Abilities."
+  },
+  {
+   "title": "Li Li's Maps",
+   "id": "li-lis-maps",
+   "text": "Li Li's stronger maps\nLi Li's average maps\nLi Li's weaker maps\nLi Li's viability is not relative to the environment, but to\nthe Heroes on either team, especially in the enemy one. While she performs consistently on most Maps,\nshe tends to do slightly better where team fights take longer as she can get\nmore value from her sustain healing,\nespecially if accompanied by another Healer or just a Support,\nand slightly worse on Maps where waveclear is important."
+  },
+  {
+   "title": "Li Li's Tips and Tricks",
+   "id": "li-lis-tips-and-tricks",
+   "text": "Sometimes Healing Brew requires you to position near who you want to heal because they are in danger and far from who you do not want to heal because they are already safe.\nDue to its short Attack Range while active, Cloud Serpent should be used on frontline Heroes as they engage.\nUse Blinding Wind only when enemy Heroes step up for doing damage because the Blind is relatively short.\nDo not cast Jug of 1,000 Cups too late during team fights, but use it to top off your team, because it is pretty slow at healing.\nWhen safe to do so, intentionally take a small amount of damage to activate Fast Feet for a few seconds, then repeat if possible.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Li Li's Role in the Current Meta",
+   "id": "li-lis-role-in-the-current-meta",
+   "text": "Li Li is very effective in prolonged team fights, where her sustain\nhealing has time to accumulate into a substantial Health advantage for her\nteam. On the other hand, she cannot do much against burst damage.\nWhile she is capable of functioning as the only Healer for her team,\nhowever, she can be played as Support alongside another Healer with success\nby changing some Talents to increase her damage output and utility."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Jul. 2026 (talents page): Guide reviewed.\n13 Jul. 2026 (abilities page): Guide reviewed.\n13 Jul. 2026 (this page): Guide reviewed.\n02 Aug. 2025 (talents page): Guide reviewed for the latest Balance Update.\n02 Aug. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n02 Aug. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n13 Dec. 2024 (talents page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (this page): Guide reviewed for the latest Balance Update.\n20 Sep. 2023 (talents page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (this page): ARAM Build added.\n24 May 2022 (talents page): Builds updated.\n24 May 2022 (this page): Builds updated.\n28 Sep. 2021 (talents page): Guide reviewed for the latest Balance Update.\n28 Sep. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n28 Sep. 2021 (this page): Guide reviewed for the latest Balance Update.\n02 Sep. 2021 (talents page): Builds and Talent descriptions updated.\n02 Sep. 2021 (this page): Builds updated.\n08 Mar. 2021 (talents page): Builds updated.\n08 Mar. 2021 (this page): Builds updated.\n06 Mar. 2021 (talents page): Guide reviewed for the latest Balance Update.\n06 Mar. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n06 Mar. 2021 (this page): Guide reviewed for the latest Balance Update.\n27 Feb. 2021 (talents page): Build Tags updated.\n27 Feb. 2021 (this page): Build Tags updated.\n25 Feb. 2021 (talents page): New layout.\n05 Oct. 2020 (talents page): Talent Descriptions modified to explain some interactions.\n12 Jul. 2020 (talents page): Cloud Serpent Build modified and then changed from Not Recommended to Situational.\n12 Jul. 2020 (this page): Cloud Serpent Build modified and then changed from Not Recommended to Situational.\n15 Jun. 2020 (abilities page): Ability and Strategy partially revised to match new standards.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n16 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n16 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n17 Oct. 2019 (talents page): Updated Talent discussion and builds to account for balance patch.\n17 Oct. 2019 (abilities page): Reviewed Abilities discussion to ensure relevance after balance patch.\n17 Oct. 2019 (this page): Updated Talent discussion and builds to account for balance patch.\n31 Dec. 2018 (this page): Updated Indroduction, Abilities and Strategy, and Talent Build pages to reflect meta developments.\n23 Aug. 2018 (abilities page): Updated Cloud Serpent discussion to reflect changes in balance patch.\n10 May 2018 (talents page): Updated Talent discussion to reflect balance patch.\n27 Mar. 2018 (talents page): Updated Wind Serpent to reflect functionality change in Fenix patch.\n27 Mar. 2018 (this page): Updated guide to reflect Wind Serpent functionality change in Fenix patch.\n16 Nov. 2017 (talents page): Updated Wind Serpent and The Good Stuff discussions.\n13 Nov. 2017 (this page): Updated Li-Li guide to reflect her Talent rework in the Alexstrasza release patch.\n13 Jun. 2017 (this page): Updated Li-Li guide for Malthael's patch and moved it to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Li Li's Tips and Tricks",
+   "id": "li-lis-tips-and-tricks",
+   "text": "Sometimes Healing Brew requires you to position near who you want to heal because they are in danger and far from who you do not want to heal because they are already safe.\nDue to its short Attack Range while active, Cloud Serpent should be used on frontline Heroes as they engage.\nUse Blinding Wind only when enemy Heroes step up for doing damage because the Blind is relatively short.\nDo not cast Jug of 1,000 Cups too late during team fights, but use it to top off your team, because it is pretty slow at healing.\nWhen safe to do so, intentionally take a small amount of damage to activate Fast Feet for a few seconds, then repeat if possible."
+  },
+  {
+   "title": "Healing Brew",
+   "id": "healing-brew",
+   "text": "Healing Brew\n(Q)\nLi Li\nMana: 25\nCooldown: 4 seconds\nHeal the lowest Health allied Hero within 6 range for 210 (+4% per level) Health.\nHealing Brew is a Basic Ability that, after a short but noticeable travel time,\nheals the allied Hero who has the lowest percentage of Health within range,\nmarked with a blue circle under their Hero model.\nThe corresponding icon is grey when there are no valid targets nearby.\nWhen multiple allied Heroes have about the same percentage of Health and you want to choose who to heal,\nyou can position Li Li in a way that only one of them will be in range. Unfortunately,\nthe healing will always target Li Li when she has the lowest percentage of Health within range.\nIf you want to maximize your casting speed and there are no other valid targets nearby\nthat you could target by mistake with a wrong position, you can hold down [Q]\nto instantly cast Healing Brew on your desired target when it comes off of cooldown."
+  },
+  {
+   "title": "Cloud Serpent",
+   "id": "cloud-serpent",
+   "text": "Cloud Serpent\n(W)\nLi Li\nMana: 35\nCooldown: 11 seconds\nSummon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 20 (+4% per level). Lasts for 8 seconds.\nCloud Serpent is a Basic Ability that summons a Cloud Serpent\nto assist an allied Hero—or even Li Li herself—with damage and healing for 8 seconds.\nCast it on allied Heroes who are within range of enemies or who are about to engage.\nAs a rule of thumb that will help you avoid wasting Mana, only cast this Ability\nwhen the target allied Hero is in danger or will stay near an enemy for at least 4 seconds.\nWhen more than two enemy Heroes are within range of this Ability but you want to hit\na particular Hero among them, you can position Li Li in a way that only two of them will be in range.\nRemember that the effect will always hit Heroes over non-Heroes."
+  },
+  {
+   "title": "Blinding Winds",
+   "id": "blinding-winds",
+   "text": "Blinding Wind\n(E)\nLi Li\nMana: 30\nCooldown: 12 seconds\nThrow a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Heroes hit are Blinded and Slowed by 15% for 1.5 seconds.\nBlinding Wind is a Basic Ability that simultaneously damages enemies,\nreduces the damage that they can deal by Blinding them,\nand Slows them.\nThe corresponding icon is grey when there are no valid targets nearby.\nWhile it can be used both offensively and defensively, try to use it defensively\nmost of the time. The Blind effect provided can be a lifesaver\nfor your team, especially against enemy Heroes who deal a lot of damage with\nBasic Attacks (for example The Butcher). Use it for dealing damage\nonly when you can secure a kill.\nWe recommend not using it on Minions because it does relatively low damage,\nit costs a considerable amount of Mana, and has a long cooldown that should be saved\nfor use against Heroes."
+  },
+  {
+   "title": "Jug of 1,000 Cups",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nJug of 1,000 Cups\n(R)\nLi Li\nHeroic\nMana: 80\nCooldown: 20 seconds\nChannel for up to 6 seconds. Every 0.25 seconds, increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50 additional seconds, and heal the lowest Health nearby allied Hero for 75 (+4% per level) Health.\nJug of 1,000 Cups is a Heroic Ability which provides\na massive amount of healing for you and your team. While it looks as an\narea of effect Ability, its healing output is the same\nregardless of how many allied Heroes are within range. As a consequence,\nyou can use it to save a single allied Hero without fear.\nThe corresponding icon is grey when there are no valid targets nearby.\nDue to the short delay between the key press and the delivery of the first heal\nand the fact that the healing happens over 6 seconds, it is important to cast this\nHeroic Ability pre-emptively when you think an allied Hero is going to need it.\nConsidering the moderately long channel time, it is recommended to cast\nall your Basic Abilities before using this Heroic Ability because their cooldown\nwill progress in the meanwhile.\nBe careful when you use it because, being a channeled Ability,\nit can be interrupted by most crowd control effects.\nThe range is long enough that you can stay safe in the backline\nduring team fights and still be able to heal your frontline.\nIf you do not need its effect anymore, you can press [R] again to cancel it.\nWhether its channeling gets\ninterrupted by yourself this way or by the enemy\nvia ccrowd control effects, its total cooldown of 70 seconds will be reduced\nbased on how many seconds of channel were remaining.\nEach second of unused channel\nis worth 8 seconds of cooldown reduction, with a limit of 50 seconds.\nThe cooldown starts as soon as you begin channeling and cannot be higher than\n64 seconds—in case of full channel—or lower than 20 seconds—in\ncase of immediate interrupt.\nThe targeting mechanic of this Heroic Ability works like Healing Brew.\nWhen multiple allied Heroes have about the same percentage of Health and you want to choose who to heal,\nyou can position Li Li in a way that only one of them will be in range. Unfortunately,\nthe healing will always target Li Li when she has the lowest percentage of Health within range."
+  },
+  {
+   "title": "Water Dragon",
+   "id": "water-dragon",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nWater Dragon\n(R)\nLi Li\nHeroic\nMana: 60\nCooldown: 50 seconds\nLi Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.\nWater Dragon is a Heroic Ability that, after 2 seconds\nof channel, damages and Slows the nearest\nenemy Hero within range and all enemies around them.\nThe corresponding icon is grey when there are no valid targets nearby.\nWhile the damage is high enough to make the difference and secure a kill,\nwhat makes this Ability strong is the powerful and long lasting Slow\nthat will work as a form of engage or peel\nfor your team."
+  },
+  {
+   "title": "Fast Feet",
+   "id": "fast-feet",
+   "text": "Fast Feet\n(D)\nLi Li\nUpon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.\nFast Feet is a Trait that gives Li Li cooldown reduction\nand Movement Speed when she takes damage, increasing her healing output and\nmaking her very hard to kill without burst damage and\ncrowd control.\nTo keep this effect active, try to take\na small amount of damage (for example walking into Psionic Storm\nby Tassadar for a brief moment) whenever you can safely do so."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Jul. 2026: Guide reviewed.\n02 Aug. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n28 Sep. 2021: Guide reviewed for the latest Balance Update.\n06 Mar. 2021: Guide reviewed for the latest Balance Update.\n15 Jun. 2020: Ability and Strategy partially revised to match new standards.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n17 Oct. 2019: Reviewed Abilities discussion to ensure relevance after balance patch.\n23 Aug. 2018: Updated Cloud Serpent discussion to reflect changes in balance patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Free Drinks (Level 1) Li Li When Healing Brew heals a Hero under 50% Health, its cooldown is reduced by 1 second, and its Mana cost is refunded."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Serpent Sidekick (Level 1) Li Li Cloud Serpent no longer costs Mana and while Fast Feet is active its cooldown refreshes an additional 75% faster."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Eager Adventurer (Level 1) Li Li Increase Fast Feet's duration by 150% and increase Mana regeneration by 150% while Fast Feet is active."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Wind Serpent (Level 4) Li Li Cloud Serpent grants its bearer 10% increased Movement Speed. Casting Blinding Wind increases this bonus to 20% for 3 seconds. Passive: Cloud Serpent attacks 25% faster."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Surging Winds (Level 4) Li Li If Blinding Wind targets 2 or more Heroes, its cooldown is instantly reduced by 2 seconds and Li Li gains 10% Spell Power for 10 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Safety Sprint (Level 4) Li Li Activate to gain Fast Feet, 30 Armor, and 30% Movement Speed for 3 seconds. Passive: While Fast Feet is active, Li Li gains 10 Armor."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "The Good Stuff (Level 7) Li Li Healing Brew heals for an additional 42 (+4% per level) over 3 seconds. While Fast Feet is active, this heal amount is increased by 100%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Mass Vortex (Level 7) Li Li Increase the number of enemies hit by Blinding Wind from 2 to 3. Blinding Wind deals 75% more damage when it targets 3 Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Let's Go! (Level 7) Li Li Cooldown: 40 seconds Activate to heal an allied Hero for 160 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet. Cannot be used on Li Li."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Jug of 1,000 Cups (Level 10) Li Li Mana: 80 Cooldown: 20 seconds Channel for up to 6 seconds. Every 0.25 seconds, increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50 additional seconds, and heal the lowest Health nearby allied Hero for 75 (+4% per level) Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Water Dragon (Level 10) Li Li Mana: 60 Cooldown: 50 seconds Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Lightning Serpent (Level 13) Li Li Cloud Serpent attacks bounce to hit 2 additional targets for 13 (+4% per level) damage and 10 (+4% per level) healing."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Gale Force (Level 13) Li Li Increase Blinding Wind's Blind duration by 0.75 seconds. Li Li's Basic Attacks against Blinded Heroes deal 100% increased damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Hindering Winds (Level 13) Li Li Increase Blinding Wind's Slow amount to 30% and its duration to 2 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Two For One (Level 16) Li Li Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Pick Me Up (Level 16) Li Li Healing Brew heals for 33% more when the target is under 50% Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Blessings Of Yu'lon (Level 16) Li Li Cloud Serpent grants its bearer 10% increased healing received and heals them for an additional 0.5% of their maximum Health each time it attacks."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Jug of 1,000,000 Cups (Level 20) Li Li Jug of 1,000 Cups heals two allies at a time."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Double Dragon (Level 20) Li Li After hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Mistweaver (Level 20) Li Li Cooldown: 30 seconds Activate to heal nearby allied Heroes for 149 (+4% per level). Basic Attacks and Cloud Serpent attacks reduce the cooldown of Mistweaver by 1 second."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Shake It Off (Level 20) Li Li While Stunned, Silenced, or Rooted and for 2 seconds afterwards, Li Li gains 35 Armor. Passive: Increase Fast Feet's cooldown refresh rate to 75%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Li Li's Talent Build",
+   "id": "li-lis-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n✓\n?\n7\n?\n?\n✓\n10\n✓\n?\n13\n?\n✓\n?\n16\n✓\n?\n?\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Li Li's Talent Build Cheatsheet",
+   "id": "li-lis-talent-build-cheatsheet",
+   "text": "Healing Brew Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLi Li's Healing Brew Build is designed to provide Blinds more often\nand for slightly longer, something that helps against Heroes who rely a lot on Basic Attacks\nfor dealing damage, healing, and/or getting cooldown reduction (Illidan comes to mind).\nTwo For One at Level 16 helps you keep multiple allied\nHeroes in a good shape with the help of Free Drinks at Level 1.\nSurging Winds at Level 4 increases your healing output.\nSurging Winds at Level 4 slightly reduces\nBlinding Wind's cooldown and Gale Force\nat Level 13 makes the Blind last a bit longer.\nCloud Serpent Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLi Li's Cloud Serpent Build turns you into a battle Healer\nwho can provide a fair amount of healing and deal a decent amount of damage at the same time,\na combination that is particularly suited for drawn-out team fights.\nThe combination of Wind Serpent at Level 4\nand Lightning Serpent at Level 13 allows her to\nconstantly pressure the enemy team with low but steady damage,\nespecially if you can get value from Fast Feet\nfor Serpent Sidekick at Level 1.\nWhile good on its own, this Build works better when playing\nLi Li together with another Healer\nas it increases your damage (as explained already) and their healing,\nthanks to Blessings Of Yu'lon at Level 16.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLi Li's ARAM Build is designed to provide Blinds more often\nand for slightly longer, something that helps against Heroes who rely a lot on Basic Attacks\nfor dealing damage, healing, and/or getting cooldown reduction (Illidan comes to mind).\nTwo For One at Level 16 helps you keep multiple allied\nHeroes in a good shape with the help of Free Drinks at Level 1.\nSurging Winds at Level 4 increases your healing output.\nSurging Winds at Level 4 slightly reduces\nBlinding Wind's cooldown and Gale Force\nat Level 13 makes the Blind last a bit longer."
+  },
+  {
+   "title": "Level 1 Talents for Li Li",
+   "id": "level-1",
+   "text": "✔\nFree Drinks\n(Level 1)\nLi Li\nWhen Healing Brew heals a Hero under 50% Health, its cooldown is reduced by 1 second, and its Mana cost is refunded.\nFree Drinks is a good Talent that, when\nHealing Brew heals an allied Hero\nthat has less than 50% maximum Health, reduces its cooldown\nand refunds its Mana cost.\nPick this Talent when you want to be as little dependent\non Fast Feet as possible for safety reasons because,\ncontrary to the other options in the same Tier, Free Drinks\ndoes not require you to take damage in order to work.\nWhile we find this Talent interesting regardless of your Build,\nit has synergy with other Healing Brew-based Talents:\nThe Good Stuff at Level 7, Two For One at Level 16,\nand Pick Me Up at Level 16 as well.\n?\nSerpent Sidekick\n(Level 1)\nLi Li\nCloud Serpent no longer costs Mana and while Fast Feet is active its cooldown refreshes an additional 75% faster.\nSerpent Sidekick is a good Talent that completely removes\nthe Mana cost of Cloud Serpent and increases the cooldown refresh rate bonus\nthat it gets while Fast Feet is active.\nWhen you have this Talent, keep in mind that each Hero can have only one Cloud Serpent\nactive on them and therefore you should usually swap targets when using it again. The only time this rule won't\napply is if you really want to refresh it on a specific Hero because they will move too far from you and/or\nbecause it will get more value than on others.\nAs they obviously benefit from the cooldown reduction it provides,\nconsider picking this Talent only if you plan to pick multiple\nCloud Serpent-based Talents later on:\nWind Serpent at Level 4,\nLightning Serpent at Level 13,\nand Blessings Of Yu'lon at Level 16.\n?\nEager Adventurer\n(Level 1)\nLi Li\nIncrease Fast Feet's duration by 150% and increase Mana regeneration by 150% while Fast Feet is active.\nEager Adventurer is a decent Talent that\nmakes Fast Feet last longer\nand increases your Mana Regeneration while your Trait is active.\nThe increased duration helps you keep Fast Feet active\nfor longer while taking damage less often, making it way easier to keep your Trait active."
+  },
+  {
+   "title": "Level 4 Talents for Li Li",
+   "id": "level-4",
+   "text": "?\nWind Serpent\n(Level 4)\nLi Li\nCloud Serpent grants its bearer 10% increased Movement Speed. Casting Blinding Wind increases this bonus to 20% for 3 seconds.\nPassive: Cloud Serpent attacks 25% faster.\nWind Serpent is a good Talent that you can use\nto increase the Movement Speed of allied Heroes while casting Cloud Serpent on them.\nYou can further increase the Movement Speed provided by casting Blinding Wind.\nIn additon to that, each summoned Cloud Serpent will have slightly more Attack Speed,\nresulting in 2 additional Basic Attacks, going from a maximum of 8 to a maximum of 10 Basic Attacks.\nThanks to the Attack Speed provided to your Cloud Serpents, this Talent has synergy with:\nLightning Serpent at Level 13, and Blessings Of Yu'lon at Level 16.\nAs a consequence, you will be able to get around 25% more value from those Talents.\nIf you pick Wind Serpent in conjunction with Serpent Sidekick\nat Level 1 and/or Shake It Off at Level 20, you should usually avoid\ncasting Cloud Serpent on the same Hero for two times in a row,\nelse you will end up overriding the previous Could Serpent and thus waste some value.\n✔\nSurging Winds\n(Level 4)\nLi Li\nIf Blinding Wind targets 2 or more Heroes, its cooldown is instantly reduced by 2 seconds and Li Li gains 10% Spell Power for 10 seconds.\nSurging Winds is a good Talent that,\nafter hitting 2 enemy Heroes with Blinding Wind,\nslightly reduces its cooldown and gives you Spell Power,\nincreasing both your damage and healing output for a few seconds.\nWhile the cooldown reduction is not that relevant, the Spell Power provided basically empowers\nany aspect of your kit, including damage and healing done via Heroic Abilities and Talents:\nLightning Serpent at Level 13 and Blessings Of Yu'lon at Level 16.\nMake sure to meet the condition of hitting 2 Heroes with Blinding Wind\nby waiting for 2 enemy Heroes to be within 7 range before casting it,\nelse you will get almost no value from this Talent. The UI will does not have\nany indicator to tell you if this condition is being met or not.\n?\nSafety Sprint\n(Level 4)\nLi Li\nActivate to gain Fast Feet, 30 Armor, and 30% Movement Speed for 3 seconds.\nPassive: While Fast Feet is active, Li Li gains 10 Armor.\nSafety Sprint is a situational Talent that gives you Armor\nwhile Fast Feet is active and allows you to manually activate it\nto gain even more Armor and Movement Speed.\nYou may need this Talent when playing around burst damage\nand/or dive Heroes to heavily increase your survivability\nwhen being focused down by the enemy team.\nYou can combine it with Eager Adventurer at Level 1 for extra value\nas they amplify each other: more Fast Feet uptime\nmeans more 10 Armor uptime and having Armor helps you mantain\nyour Trait active while taking less damage in return."
+  },
+  {
+   "title": "Level 7 Talents for Li Li",
+   "id": "level-7",
+   "text": "?\nThe Good Stuff\n(Level 7)\nLi Li\nHealing Brew heals for an additional 42 (+4% per level) over 3 seconds. While Fast Feet is active, this heal amount is increased by 100%.\nThe Good Stuff is a good Talent that effectively increases the amount that each\nHealing Brew heals by 24%, increased to 48%\nwhile Fast Feet is active.\nPick this Talent when you want to increase your sustain healing,\nespecially if you do not need Let's Go! to take care\nof enemy crowd control\nor if you do not want to bother with another key to press.\nBeing tied to Healing Brew, this Talent has synergy with some related Talents:\nFree Drinks at Level 1, Two For One at Level 16,\nbut not with Pick Me Up at Level 16. Eager Adventurer at Level 1\ncan be combined with this Talent to keep the healing multiplier active for longer.\n?\nMass Vortex\n(Level 7)\nLi Li\nIncrease the number of enemies hit by Blinding Wind from 2 to 3. Blinding Wind deals 75% more damage when it targets 3 Heroes.\nMass Vortex is a good Talent that allows you to hit 1 additional Hero\nwith each cast of Blinding Wind and, when hitting only Heroes with it,\ndeal bonus damage to them.\nWhen using this Talent, in order to meet its condition to deal bonus damage,\nall you need to do is try to have 3 Heroes within 7 range before casting Blinding Wind.\nPut your mouse cursor on its icon to check how big it is and remember it while playing.\nKeep in mind that the bonus damage does not happen if you hit less than 3 Heroes.\nThe increased number of targets has synergy with Gale Force\nand especially Hindering Winds at Level 13,\nbut notice that you can pick only one of them as they are on the same Tier.\nYou can also pair it with Surging Winds at Level 4\nas it helps you cast Blinding Wind a bit more often.\n✔\nLet's Go!\n(Level 7)\nLi Li\nCooldown: 40 seconds\nActivate to heal an allied Hero for 160 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet.\nCannot be used on Li Li.\nLet's Go! is a strong Talent that you can activate\nto make a target allied Hero (other than yourself) within 7.5 range\nUnstoppable for a second and heal them for a small amount.\nThe cooldown of this Ability is 40 seconds and can be reduced via Fast Feet.\nLi Li can also activate Let's Go!\nwhile channeling any Heroic Ability.\nWe recommend picking this Talent when the enemy team relies on crowd control\nand burst damage paired together to take down Heroes and win team fights\nbecause Li Li does not have better tools than this to deal with this kind of threat."
+  },
+  {
+   "title": "Level 10 Talents for Li Li",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nJug of 1,000 Cups\n(Level 10)\nLi Li\nMana: 80\nCooldown: 20 seconds\nChannel for up to 6 seconds. Every 0.25 seconds, increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50 additional seconds, and heal the lowest Health nearby allied Hero for 75 (+4% per level) Health.\nJug of 1,000 Cups is a strong Heroic Ability that provides\na massive amount of healing for you and your team, which is great to save\nwhoever is being targeted by enemy Heroes, if you manage to cast it in time\nand you do not get interrupted.\nWhen you are the only Healer in your team,\nyou should heavily prefer this Heroic Ability, unless the enemy team\nhas tools to reliably interrupt it.\nWhen paired with another Healer, you have to\ncheck if your team has enough healing and/or enough damage\nand then choose which Heroic Ability is more useful.\n?\nWater Dragon\n(Level 10)\nLi Li\nMana: 60\nCooldown: 50 seconds\nLi Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.\nWater Dragon is a good Heroic Ability that gives\nyou access to a powerful Slow, useful to\ncrowd control enemy Heroes that lack mobility.\nWhile it can be outranged before actually hitting, it cannot be interrupted.\nPick this Heroic Ability when your team needs more damage, crowd control,\nwhen Jug of 1,000 Cups can be interrupted with ease,\nand/or simply because you want more playmaking potential at the cost of raw healing."
+  },
+  {
+   "title": "Level 13 Talents for Li Li",
+   "id": "level-13",
+   "text": "?\nLightning Serpent\n(Level 13)\nLi Li\nCloud Serpent attacks bounce to hit 2 additional targets for 13 (+4% per level) damage and 10 (+4% per level) healing.\nLightning Serpent is a good Talent that empowers the\nBasic Attacks of your Cloud Serpents by making them bounce from an enemy to another,\nfor a total of 3 enemies hit at most. Each bounce will increase the healing\ndone from Cloud Serpent by 50%, up to 100% when hitting 3 enemies.\nPick this Talent when you want to further increase your sustain healing,\nespecially if you have Wind Serpent at Level 4\nand/or Blessings Of Yu'lon at Level 16\nbecause they make it more powerful.\n✔\nGale Force\n(Level 13)\nLi Li\nIncrease Blinding Wind's Blind duration by 0.75 seconds. Li Li's Basic Attacks against Blinded Heroes deal 100% increased damage.\nGale Force is a good Talent that enhances\nBlinding Wind in 2 ways:\nfirst of all, the Blind it provides will last slightly longer,\nbasically denying one additional Basic Attack per Hero hit;\nsecondly, it will make you deal way more Attack Damage to enemy Heroes\naffected by Blinds, even if they have been applied by allied Heroes!\nPick this Talent when you are facing Heroes who focus on Basic Attacks to deal damage\nand/or to increase your own damage on whoever is getting focused down by your team\nand help them to quickly secure the kill.\n?\nHindering Winds\n(Level 13)\nLi Li\nIncrease Blinding Wind's Slow amount to 30% and its duration to 2 seconds.\nHindering Winds is a decent Talent that empowers the Slow\napplied via Blinding Wind by increasing both its amount and duration.\nThe duration of the Blind is not increased by this Talent.\nWe find this Talent particularly useful as a form of peeling\nfrom enemy Heroes that lack mobility in their kit,\nso that allied Heroes can easily outrange them."
+  },
+  {
+   "title": "Level 16 Talents for Li Li",
+   "id": "level-16",
+   "text": "✔\nTwo For One\n(Level 16)\nLi Li\nIncreases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1 second.\nTwo For One is a strong Talent that allows you to heal\nup to 2 allied Heroes with each cast of Healing Brew\nat the cost of having a slightly longer cooldown.\nThe ability to heal 2 targets at the same time will drastically increase\nthe sustain healing you can provide to your team when facing Heroes\nwho can deal a lot of poke damage\nspread on multiple targets (such as Lunara).\n?\nPick Me Up\n(Level 16)\nLi Li\nHealing Brew heals for 33% more when the target is under 50% Health.\nPick Me Up is a good Talent that increases the single-target healing of\nHealing Brew when it counts the most. Whenever an ally is low\non Health, this Talent will give bonus healing to the recipient.\nWe recommend picking this Talent when facing burst damage\nbecause it will help you save allied Heroes who are almost dead.\n?\nBlessings Of Yu'lon\n(Level 16)\nLi Li\nCloud Serpent grants its bearer 10% increased healing received and heals them for an additional 0.5% of their maximum Health each time it attacks.\nBlessings Of Yu'lon is a strong Talent\nthat makes Cloud Serpent heal more,\nbased on the targeted allied Hero's maximum Health, and empower the healing they receive from any source.\nPick this Talent in conjunction with other Cloud Serpent-based Talents\nto get the most value out of it, especially if your team has multiple Heroes with high maximum Health."
+  },
+  {
+   "title": "Level 20 Talents for Li Li",
+   "id": "level-20",
+   "text": "✔\nJug of 1,000,000 Cups\n(Level 20)\nLi Li\nJug of 1,000 Cups heals two allies at a time.\nJug of 1,000,000 Cups is a strong Talent that doubles the healing you can do\nwith Jug of 1,000 Cups by increasing the number of targets from 1 to 2.\nKeep in mind that this Talent will not increase your healing output on a single target,\nbut only make it work on two targets at the same time. If you want to empower your single target healing,\nyour only option in this Tier is Mistweaver,\na versatile Talent that also provides good area of effect healing.\nPick this Talent when you need to heal two allied Heroes at the same time,\nso usually against Heroes who can constantly deal a lot of poke damage\nspread on multiple Heroes (for example Azmodan).\n?\nDouble Dragon\n(Level 20)\nLi Li\nAfter hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact.\nDouble Dragon is a good Talent that doubles the effect of\nWater Dragon by summoning a second one right after the first.\nPick this Talent when you want more crowd control\nand/or damage to help your team secure kills,\nespecially if you are playing as secondary Healer.\n?\nMistweaver\n(Level 20)\nLi Li\nCooldown: 30 seconds\nActivate to heal nearby allied Heroes for 149 (+4% per level). Basic Attacks and Cloud Serpent attacks reduce the cooldown of Mistweaver by 1 second.\nMistweaver is a good Talent that,\non a short cooldown which can also be reduced with Basic Attacks done\nby you and your Cloud Serpent, can be activated to heal all Heroes within range.\nContrary to the majority of Active Talents, Mistweaver can be activated\nwhile channeling any Heroic Ability.\nEven if not that much, this Talent can help Li Li to deal with burst damage,\nsomething she otherwise struggles to mitigate. Do not hesitate to use it for healing a single target\nif they are in danger.\n?\nShake It Off\n(Level 20)\nLi Li\nWhile Stunned, Silenced, or Rooted and for 2 seconds afterwards, Li Li gains 35 Armor.\nPassive: Increase Fast Feet's cooldown refresh rate to 75%.\nShake It Off is a situational Talent that\npassively increases the cooldown refresh rate bonus you get from Fast Feet\nand makes Li Li harder to kill when hit by some crowd control\neffects—Stun, Silence, and Root—by\ngiving her a considerable amount of Armor while affected by them\nand for a few seconds after.\nYou can combine Shake It Off with Eager Adventurer at Level 1\nto get more value from its cooldown reduction component, otherwise\npick this Talent only if you have a hard time surviving in the late game\nagainst a team composition featuring crowd control effects\nthat can easily hit you."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Jul. 2026: Guide reviewed.\n02 Aug. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n20 Sep. 2023: ARAM Build added.\n20 Sep. 2023: Guide reviewed.\n24 May 2022: Builds updated.\n28 Sep. 2021: Guide reviewed for the latest Balance Update.\n02 Sep. 2021: Builds and Talent descriptions updated.\n08 Mar. 2021: Builds updated.\n06 Mar. 2021: Guide reviewed for the latest Balance Update.\n27 Feb. 2021: Build Tags updated.\n25 Feb. 2021: New layout.\n05 Oct. 2020: Talent Descriptions modified to explain some interactions.\n12 Jul. 2020: Cloud Serpent Build modified and then changed from Not Recommended to Situational.\n16 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n17 Oct. 2019: Updated Talent discussion and builds to account for balance patch.\n10 May 2018: Updated Talent discussion to reflect balance patch.\n27 Mar. 2018: Updated Wind Serpent to reflect functionality change in Fenix patch.\n16 Nov. 2017: Updated Wind Serpent and The Good Stuff discussions.\nShow more\nShow less"
+  }
+ ]
+}

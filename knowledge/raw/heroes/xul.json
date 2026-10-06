@@ -1,0 +1,305 @@
+{
+ "slug": "xul",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/xul-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/xul-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/xul-talents"
+ },
+ "guide": [
+  {
+   "title": "Xul's Overview",
+   "id": "xuls-overview",
+   "text": "Xul is a high damage Bruiser that abuses his strong\nAoE damage from his abilities to quickly clear\nany minion wave, which then allows him to create many Skeletal Warriors thanks to\nRaise Skeleton, letting him become a major threat to towers\nand, by extension, making the wave much harder to clear.\nXul also excels against melee compositions, given he can easily land\nCursed Strikes into many targets, reducing their attack speed\nand making him really hard to deal without crowd control."
+  },
+  {
+   "title": "Xul's Strengths and Weaknesses",
+   "id": "xuls-strengths-and-weaknesses",
+   "text": "Strengths\nExceptional waveclear\nExcellent AoE damage\nDecent self-sustain thanks to Bone Armor and Harvest Vitality\nMortal Wound counters healing abilities\nGood crowd control for team to follow up thanks to Bone Prison\nAble to apply lots of debuffs on attack speed, damage, healing and armor\nWeaknesses\nVery susceptible to crowd control\nWeak against compositions featuring many ranged or poke-centric heroes\nReally hard to play when facing counters\nSusceptible to gank attempts\nRequires good positioning"
+  },
+  {
+   "title": "Xul's Talent Build Cheatsheet",
+   "id": "xuls-talent-build-cheatsheet",
+   "text": "Scythe Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Scythe Build offers plenty of AoE damage thanks to the additional Scythes offered by\nEchoes of Death at Level 13. Due to\nMortal Wound at Level 20, this build becomes particularly\npowerful against double Healer composition who rely on a lot of healing. Unfortunately\nThe Scythe Build is very dependent on Decrepify, which comes\na bit too late and might not be a good choice if your team is looking for\nearly-game fights.\nCursed Strikes Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nXul's Cursed Strikes Build gives Xul much survivability thanks to\nHarvest Vitality's sustain, while Weaken provides\nconsiderable resistance by reducing enemy damage dealt. Since this build\nrequires you to be constantly hitting many enemies with\nCursed Strikes, it excels against\nmelee-heavy compositions with little crowd control.\nThis build is the most effective at capturing or clearing Mercenaries, considering Xul\nwill have Cursed Strikes up nearly all the time, with very high Attack Speed.\nBacklash can be replaced with Shade when facing\nmany Basic Attacks-reliant Heroes, like Raynor or Illidan.\nBoth Poison Nova and Skeletal Mages are useful,\nthough it is recommended to go with Poison Nova when facing many melee Heroes. Skeletal Mages\nwill perform well when you need some kind of crowd control\nto reach the targets you are looking for.\nBone Prison Build\nSituational\nLevel 1\n?\nLevel 4\n?\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nXul's Bone Prison Build has much more burst than the other options. It is a\ngreat choice if the opposing team has lots of crowd control,\nranged Heroes, or burst damage, since you will not be able to get much value out of\nCursed Strikes.\nBacklash can be replaced with Shade when facing\nmany Basic Attack-reliant Heroes, like Raynor,\nIllidan, or\nGreymane.\nIf you are having trouble facing the opposing laner, we recommend changing both the\nLevel 4 and 7 Talents into Grim Scythe and Harvest Vitality\nrespectively, since they will give you much more self-sustain while clearing waves, without\ncrippling your burst capabilities.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Xul's Synergies and Counters",
+   "id": "xuls-synergies-and-counters",
+   "text": "Xul synergizes with\nXul sinergizes very well with Heroes that are able to protect him while he receives burst\ndamage or crowd control like Medivh. He also excels with good\nfollow up for Bone Prison, like\nTyrande with Lunar Flare,\nFalstad with Hinterland Blast\nor Li-Ming with all her Abilities.\nXul is countered by\nDue to not having mobility,\nXul suffers a lot from displacement effects\nor crowd control in general,\nmaking Heroes such as E.T.C.\nhuge threats, while Johanna is able to Blind\nhim during Cursed Strikes, reducing his effectiveness.\nXul also struggles against Heroes with long range or with high burst damage that allows\nthem to follow up the crowd control, like Jaina\nand Sgt. Hammer."
+  },
+  {
+   "title": "Xul's Maps",
+   "id": "xuls-maps",
+   "text": "Xul's stronger maps\nXul's average maps\nXul's weaker maps\nXul shines in maps with nearby lanes, as he will be able to easily abuse his\nwaveclear and Skeletal Warriors, making him excellent on\nBlackheart's Bay, Tomb of the Spider Queen, and Infernal Shrines. He will also be decent\non big maps where the Objective will be very time consuming, allowing him to get\na great experience lead through split-pushing, like\nin Sky Temple, Garden of Terror, or Cursed Hollow.\nHowever, Xul does not perform as well in 2-lane maps, given he cannot abuse his\nfast waveclear to spawn skeletons and go to another lane, which he normally would\nin a bigger map."
+  },
+  {
+   "title": "Xul's Tips and Tricks",
+   "id": "xuls-tips-and-tricks",
+   "text": "Cursed Strikes is one of the best waveclear Abilities in the game, so you should always be attempting to clear a wave and instantly Mount up and rotate to another lane, getting maximum value out of Raise Skeleton.\nSince Xul does not have a strong early game, sometimes it is better to (in some maps) avoid fighting for the first Objective (Infernal Shrines and Cursed Hollow can be good examples), and instead proceed to the opposite lane in order to split-push between the other 2 lanes. A good practice is to warn your team before doing this, given they will be having a numerical disadvantage in the fight, and will have to play it safe.\nKeep in mind Xul has limited mobility, so during fights it is a good idea to wait for your tank to engage, or for enemy heroes to spend their crowd control before going in, given you will struggle to enter and escape fights.\nA good way to use Bone Prison is on a tank just after they spent their defensive skills, a Johanna without Iron Skin or an Anub'arak without Burrow Charge often turn out to be an easy kill, given they will be rooted in the same place for 2 seconds.\nSince Bone Prison has a tiny range, it is recommended to always stay mounted so you can easily find a way to engage your desired target.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Xul's Role in the Current Meta",
+   "id": "xuls-role-in-the-current-meta",
+   "text": "Each minion wave spawns every 30 seconds (starting from 00:00); this has the\nsame cooldown as Bone Armor, which allows you to ignore the\nenemy Bruiser every time you step up to clear the wave. Thanks to this, Xul will\nalways be ahead of his enemies, enabling him to move towards the closest lane to\neither gank or clear it.\nSince Xul is slightly dependent on talents to be really impactful in fights, it\nis better to focus on clearing waves between two lanes during the early game.\nAfter you get your main talent for the build ( Harvest Vitality\nfor Cursed Strikes Build, Amplify Damage for Bone Prison Build, and\nDecrepify for Spectral Scythe Build) start looking for\nfights—Xul will be extremely good in them."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Apr. 2021 (talents page): Updated Talent recommendations.\n16 Apr. 2021 (this page): Updated Builds.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n17 Feb. 2021 (talents page): Updated Trag'Oul's Essence's discussion.\n17 Feb. 2021 (this page): Updated Scythe Build.\n17 Jul. 2020 (talents page): Talent section reviewed; no changes are necessary.\n17 Jul. 2020 (abilities page): Abilities section updated following the 2.51.1 patch.\n16 Jul. 2020 (this page): Guide reviewed after recent balance patch and no changes are necessary.\n18 Mar. 2020 (talents page): Updated Xul's talents accordingly to his rework.\n18 Mar. 2020 (this page): Updated guide for Xul's rework.\n20 Nov. 2019 (talents page): Updated Xul's talents and removed the Skeleton Build, as we no longer consider it viable enough.\n16 Jul. 2017 (talents page): Updated Xul's talent descriptions.\n14 Jul. 2017 (talents page): Corpse Explosion changed from Not Recommended to Recommended.\n11 Jul. 2017 (this page): Updated guide for Stukov's patch and moved to new guide format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Xul's Tips and Tricks",
+   "id": "xuls-tips-and-tricks",
+   "text": "Cursed Strikes is one of the best waveclear Abilities in the game, so you should always be attempting to clear a wave and instantly Mount up and rotate to another lane, getting maximum value out of Raise Skeleton.\nSince Xul does not have a strong early game, sometimes it is better to (in some maps) avoid fighting for the first Objective (Infernal Shrines and Cursed Hollow can be good examples), and instead proceed to the opposite lane in order to split-push between the other 2 lanes. A good practice is to warn your team before doing this, given they will be having a numerical disadvantage in the fight, and will have to play it safe.\nKeep in mind Xul has limited mobility, so during fights it is a good idea to wait for your tank to engage, or for enemy heroes to spend their crowd control before going in, given you will struggle to enter and escape fights.\nA good way to use Bone Prison is on a tank just after they spent their defensive skills, a Johanna without Iron Skin or an Anub'arak without Burrow Charge often turn out to be an easy kill, given they will be rooted in the same place for 2 seconds.\nSince Bone Prison has a tiny range, it is recommended to always stay mounted so you can easily find a way to engage your desired target."
+  },
+  {
+   "title": "Raise Skeleton",
+   "id": "raise-skeleton",
+   "text": "Raise Skeleton\n(D)\nXul\nWhen a nearby enemy Minion dies, it becomes a Skeletal Warrior with 240 (+4% per level) Health that attacks for 21 (+4% per level) damage and lasts up to 12 seconds. Upon death, Skeletal Warriors deal 40 (+4% per level) damage to nearby enemies. Up to 3 Skeletal Warriors can be active at once when spawned in this way.\nXul's trait will not only increase his pushing capabilities greatly, but will\nalso greatly increase his damage in fights.\nUp to 3 Skeletal Warriors can be active at once, and every extra Summon evoked\nwill make the first spawned to explode dealing 40 damage to enemies, allowing\nyou to deal decent damage into the opposing laner by just hitting the wave.\nIf the enemy is far from your warriors, you can use Bone Prison\nto make skeletons move towards them to guarantee the explosion damage\nwhile clearing the other Minions."
+  },
+  {
+   "title": "Bone Armor",
+   "id": "bone-armor",
+   "text": "Bone Armor\n(1)\nXul\nActivate to gain a Shield equal to 25% of Xul's maximum Health for 3 seconds.\nBone Armor can help Xul a lot when facing opposing laner,\nsince he can use it to ignore the damage received while clearing the wave. This\nis a recommended tactic when you are having trouble rotating faster, but be aware that the\nShield is your main way to survive ganks. Only use it in the wave if you are sure\nthat you will not get ganked soon.\nAfter getting Harvest Vitality, Xul will have a lot of\nself-healing in fights. It is better to only use Bone Armor\nwhen you are below\n70% Health to not lose value from healing. If the opposing team features a lot of\ncrowd control or burst damage, the Shield should be\nused early on to prevent you from dying during a Stun or Silence.\nBone Armor will be a whole different skill depending of Xul's Level 1 Talent.\nThe differences and how it should be used will be mentioned\nin the Talent Build page."
+  },
+  {
+   "title": "Spectral Scythe",
+   "id": "spectral-scythe",
+   "text": "Spectral Scythe\n(Q)\nXul\nMana: 55\nCooldown: 8 seconds\nSummon a scythe that travels to Xul after 1 second, dealing 190 (+4% per level) damage to enemies and spawning a Skeletal Warrior when hitting enemy Heroes. These do not count towards Xul's Raise Skeleton maximum.\nSpectral Scythe causes Xul to summon a scythe to the target\nlocation that travels back to him after 1 second, dealing a large amount of damage\nto all enemies in its path.\nXul's waveclear becomes even more powerful\nif he uses Spectral Scythe effectively, which usually requires him to\nplace the scythse behind enemy Archer Minions.\nAiming and landing Spectral Scythe can sometimes be tricky, especially against moving\nenemy targets. Consequently, it is often recommended to wait until you have\nsuccessfully Rooted someone by using Bone Prison and then\nfollowing up with Spectral Scythe on the imprisoned target.\nAfter getting Mortal Wound at 20, it is recommended to only\nuse against someone with low life or affected by some crowd control,\nconsidering the healing reduction will be much more useful than the damage."
+  },
+  {
+   "title": "Cursed Strikes",
+   "id": "cursed-strikes",
+   "text": "Cursed Strikes\n(W)\nXul\nPassive\nXul's Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.\nCursed Strikes will make all your attacks for the next 4\nseconds cleave. 5 attacks can be landed in the duration, so it is crucial to hit\nall of them. If your enemy starts running from you after you activate it, keep\nwalking towards them while stopping to attack the closest Minion or Hero every\ntime you can, so your cleave will hit them even when they are outside of your Attack range.\nDuring team fights, Cursed Strikes should be used against Attack Speed dependent\nHeroes, such as Illidan, Thrall, or Kharazim, in order to cripple their combat\nefficiency. When getting ganked, Xul can deny a considerable part of the damage\nby landing some Cursed Strikes attacks while walking backwards, reducing their\nAttack Speed."
+  },
+  {
+   "title": "Bone Prison",
+   "id": "bone-prison",
+   "text": "Bone Prison\n(E)\nXul\nMana: 70\nCooldown: 10 seconds\nAfter a 2 second delay, deal 80 (+4% per level) damage and Root the target enemy Hero for 1.75 seconds. All nearby Skeletal Warriors will fixate on the target for their duration.\nBone Prison is an incredibly powerful crowd control\nAbility for two major reasons. Firstly, its 2-second Root effect provides enough\ntime for Xul and the rest of his team to approach the affected enemy target and\ndamage it. Secondly, Bone Prison comes with flashy visual effect that marks the\nchosen enemy, which clearly signalises your allies which target to focus while it also\ncauses all of your active Skeletons to fixate on the Rooted target for additional damage.\nA good way to use Bone Prison is on a Tank just after they\nspent their defensive skills. Johanna\nwithout Iron Skin or an\nAnub'arak without Burrow Charge\noften turn out to be an easy kill, given they will be Rooted in the same place for\n2 seconds."
+  },
+  {
+   "title": "Poison Nova",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nPoison Nova\n(R)\nXul\nHeroic\nMana: 100\nCooldown: 90 seconds\nAfter 0.5 seconds, release poisonous missiles that deal 630 (+4% per level) damage to all enemies hit over 10 seconds.\nPoison Nova is an incredibly strong Heroic Ability that deals\nalmost half the life of a Hanzo or a\nValla. However, that damage will be dealt\nover 10 seconds, thus allowing Healers to easily save the dying target. It is also\neasy to avoid when you are not close to Xul. Therefore, Poison Nova is a really\ngood option when either facing a composition with many melee Heroes, or against\nHealers incapable of supporting all their team,\nas they only have single-target healing (such as Lt. Morales).\nUsing Poison Nova right at the start of a fight might not be a good idea,\nsince it will be easily dodged by the ranged opposing Heroes. It is recommended\nto wait a couple seconds after fight starts to use it, complicating for enemy Heroes\nwithout mobility tools (for example Kael'thas)\nto dodge it, as they might be focused on other things in the combat."
+  },
+  {
+   "title": "Skeletal Mages",
+   "id": "skeletal-mages",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nSkeletal Mages\n(R)\nXul\nHeroic\nMana: 80\nCooldown: 90 seconds\nSummon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.\nSkeletal Mages is a great tool to zone\nenemy Heroes and Slow them down. The efficiency of Skeletal Mages can\nbe increased even further if your team has decent crowd control Abilities, which\nenable you to follow up extremely well on targets already Slowed by Skeletal\nMages.\nSkeletal Mages is a crucial Heroic Ability when you are having trouble\ngetting close to ranged Heroes, as the Slow will enable you to reach them.\nDue to the relatively long cooldown on Skeletal Mages, it should be cast with\ncaution. Use narrow choke points and\nimpassable terrain to your advantage in order to successfully trap enemy\nhigh-priority targets."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "17 Jul. 2020: Abilities section updated following the 2.51.1 patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Backlash (Level 1) Xul When Bone Armor expires, nearby enemy Heroes take damage equal to 12% of their maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Shackler (Level 1) Xul While Bone Armor is active, nearby enemies are Slowed by 35% for 1 second. Basic Attacks against Heroes that are Stunned, Rooted, or Slowed reduce the cooldown of Bone Armor by 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Shade (Level 1) Xul While Bone Armor is active, Xul evades all Basic Attacks, but increases the cooldown of Bone Armor by 10 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Reaper's Toll (Level 4) Xul Reduce the cooldown of Spectral Scythe by 2 seconds and its Mana cost by 15."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Grim Scythe (Level 4) Xul Increase Xul's Basic Attack damage by 15%. Each enemy hit by Cursed Strikes reduces its cooldown by 1 second, up to 12 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Jailors (Level 4) Xul Bone Prison spawns 2 Skeletal Warriors. These do not count towards Xul's Raise Skeleton maximum. Quest: Spawn 80 Skeletal Warriors. Reward: While fixating on an enemy, Skeletal Warriors gain 25% Movement and Attack Speed."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Harvest Vitality (Level 7) Xul Cursed Strikes heals for 70% of the damage dealt to Heroes."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Trag'Oul's Essence (Level 7) Xul Every time a Skeletal Warrior attacks an enemy, restore 0.5% of Xul's maximum Health and 0.2% of his maximum Mana."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Wall Of Bones (Level 7) Xul Increase the Shield amount of Bone Armor to 35% of Xul's maximum Health, and Xul gains 20 Spell Armor for its duration."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Poison Nova (Level 10) Xul Mana: 100 Cooldown: 90 seconds After 0.5 seconds, release poisonous missiles that deal 630 (+4% per level) damage to all enemies hit over 10 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Skeletal Mages (Level 10) Xul Mana: 80 Cooldown: 90 seconds Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Echoes of Death (Level 13) Xul Spectral Scythe spawns 2 additional scythes next to the first after 1.5 seconds, dealing 40% damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Rapid Harvest (Level 13) Xul Gain 5% Attack Speed for 3 seconds each time Cursed Strikes hits an enemy, up to 75%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Amplify Damage (Level 13) Xul Increase the Root duration of Bone Prison by 0.25 seconds. Enemies Rooted by Bone Prison lose 25 Armor for 2 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Decrepify (Level 16) Xul Enemy Heroes that are damaged by Spectral Scythe or Skeletal Warriors are Slowed by 30% for 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Weaken (Level 16) Xul Enemy Heroes who are damaged by Cursed Strikes or Skeletal Warriors deal 35% less damage for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Bone Spear (Level 16) Xul Cooldown: 12 seconds Deal 230 (+4% per level) damage to enemies in a line."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Andariel's Visage (Level 20) Xul Poison Nova heals for 50% of the damage dealt and its duration is increased by 50%."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Cold Hand of Death (Level 20) Xul Increase the Slow of Frost Mages by 20%. Every 5th Spectral Scythe that hits enemy Heroes spawns a Frost Mage instead of a Skeletal Warrior at their location."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Mortal Wound (Level 20) Xul Enemy Heroes hit by Spectral Scythe receive 75% less healing for 4 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "no",
+    "text": "✘︎ Kalan's Edict (Level 20) Xul Each time Skeletal Warriors deal damage, reduce the cooldown of Bone Armor and Xul's Heroic Ability by 1.5%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Xul's Talent Build",
+   "id": "xuls-talent-build",
+   "text": "Level\nChoices\n1\n✓\n✘︎\n?\n4\n✘︎\n?\n✓\n7\n?\n?\n✓\n10\n?\n✓\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n✘︎\n✓\n✘︎\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Xul's Talent Build Cheatsheet",
+   "id": "xuls-talent-build-cheatsheet",
+   "text": "Scythe Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Scythe Build offers plenty of AoE damage thanks to the additional Scythes offered by\nEchoes of Death at Level 13. Due to\nMortal Wound at Level 20, this build becomes particularly\npowerful against double Healer composition who rely on a lot of healing. Unfortunately\nThe Scythe Build is very dependent on Decrepify, which comes\na bit too late and might not be a good choice if your team is looking for\nearly-game fights.\nCursed Strikes Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nXul's Cursed Strikes Build gives Xul much survivability thanks to\nHarvest Vitality's sustain, while Weaken provides\nconsiderable resistance by reducing enemy damage dealt. Since this build\nrequires you to be constantly hitting many enemies with\nCursed Strikes, it excels against\nmelee-heavy compositions with little crowd control.\nThis build is the most effective at capturing or clearing Mercenaries, considering Xul\nwill have Cursed Strikes up nearly all the time, with very high Attack Speed.\nBacklash can be replaced with Shade when facing\nmany Basic Attacks-reliant Heroes, like Raynor or Illidan.\nBoth Poison Nova and Skeletal Mages are useful,\nthough it is recommended to go with Poison Nova when facing many melee Heroes. Skeletal Mages\nwill perform well when you need some kind of crowd control\nto reach the targets you are looking for.\nBone Prison Build\nSituational\nLevel 1\n?\nLevel 4\n?\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nXul's Bone Prison Build has much more burst than the other options. It is a\ngreat choice if the opposing team has lots of crowd control,\nranged Heroes, or burst damage, since you will not be able to get much value out of\nCursed Strikes.\nBacklash can be replaced with Shade when facing\nmany Basic Attack-reliant Heroes, like Raynor,\nIllidan, or\nGreymane.\nIf you are having trouble facing the opposing laner, we recommend changing both the\nLevel 4 and 7 Talents into Grim Scythe and Harvest Vitality\nrespectively, since they will give you much more self-sustain while clearing waves, without\ncrippling your burst capabilities."
+  },
+  {
+   "title": "Level 1 Talents for Xul",
+   "id": "level-1",
+   "text": "✓\nBacklash\n(Level 1)\nXul\nWhen Bone Armor expires, nearby enemy Heroes take damage equal to 12% of their maximum Health.\n✘︎\nShackler\n(Level 1)\nXul\nWhile Bone Armor is active, nearby enemies are Slowed by 35% for 1 second. Basic Attacks against Heroes that are Stunned, Rooted, or Slowed reduce the cooldown of Bone Armor by 2 seconds.\n?\nShade\n(Level 1)\nXul\nWhile Bone Armor is active, Xul evades all Basic Attacks, but increases the cooldown of Bone Armor by 10 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Backlash is your standard choice, which requires you to\nstay close to nearby enemy Heroes in order to benefit from its effect. The damage\nwill still be dealt even if the Shield is broken before running out. In most\nscenarios, it will have more value on melee Heroes who are easier to hit\nand tend to have higher maximum Health.\nShackler in a Cursed Strikes Build might refund Bone Armor's\nCooldown several times in a fight. To do so, Xul has to be free to hit several attacks\nwithout any concerns in a fight. If this happens, you would probably win the combat\nwith any other Talent, placing this Talent slightly behind the other two.\nShade comes with the drawback of increasing\nBone Armor's cooldown by 10 seconds. However, the Basic\nAttack evasion is capable of absorbing more damage done to Xul than the\noriginal Shield of Bone Armor, especially against hard-hitting Assassins like\nThrall or Greymane. Shade is the best Talent against\nmore than one Hero heavily focused on Basic Attacks."
+  },
+  {
+   "title": "Level 4 Talents for Xul",
+   "id": "level-4",
+   "text": "✘︎\nReaper's Toll\n(Level 4)\nXul\nReduce the cooldown of Spectral Scythe by 2 seconds and its Mana cost by 15.\n?\nGrim Scythe\n(Level 4)\nXul\nIncrease Xul's Basic Attack damage by 15%. Each enemy hit by Cursed Strikes reduces its cooldown by 1 second, up to 12 seconds.\n✓\nJailors\n(Level 4)\nXul\nBone Prison spawns 2 Skeletal Warriors. These do not count towards Xul's Raise Skeleton maximum.\nQuest: Spawn 80 Skeletal Warriors.\nReward: While fixating on an enemy, Skeletal Warriors gain 25% Movement and Attack Speed."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Since Spectral Scythe's damage cannot compare to the extra\ndamage provided by the 2 Skeletons spawnwed by Jailors,\nReaper's Toll is not recommended on any build.\nGrim Scythe lays a solid foundation for a Cursed Strikes Build.\nIts cooldown reduction is vital to increasing the value of follow up Talents like\nHarvest Vitality at Level 7 and Rapid Harvest at Level 13, as it allows\nyou to use Cursed Strikes with all of its self-healing and Attack Speed buffs.\nJailors's Quest reward can be completed quite easily if Xul rotates between\nmultiple lanes in order to raise as many Skeletons as possible. It is a good Talent\nin a Bone Prison Build, since it will slightly increase your burst damage."
+  },
+  {
+   "title": "Level 7 Talents for Xul",
+   "id": "level-7",
+   "text": "?\nHarvest Vitality\n(Level 7)\nXul\nCursed Strikes heals for 70% of the damage dealt to Heroes.\n?\nTrag'Oul's Essence\n(Level 7)\nXul\nEvery time a Skeletal Warrior attacks an enemy, restore 0.5% of Xul's maximum Health and 0.2% of his maximum Mana.\n✓\nWall Of Bones\n(Level 7)\nXul\nIncrease the Shield amount of Bone Armor to 35% of Xul's maximum Health, and Xul gains 20 Spell Armor for its duration."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Harvest Vitality is vital in a Cursed Strikes build.\nIt also works very well in other builds and should be the choice if Xul is having\ntroubles facing the enemy laner, since you can ignore him due to the 70% self-Heal.\nTrag'Oul's Essence provides almost no self-sustain in fights.\nThe Mana provided is way too low and not necessary, since you do not need to\nuse any Ability other than Cursed Strikes to clear the wave after Level 9. However,\nThe small self-sustain provided by it is very good in small skirmishes that happen between you and the opposing\nOfflaner, being a good option if you do not need the other Talents.\nWall Of Bones is a really strong Talent against compositions\nwith much burst damage in the form of Spell Damage.\nIt should not be picked in a Cursed Strikes Build,\nsince Harvest Vitality is necessary, but it is very impactful in the other builds,\nsince it increases your survivability considerably."
+  },
+  {
+   "title": "Level 10 Talents for Xul",
+   "id": "level-10",
+   "text": "?\nPoison Nova\n(Level 10)\nXul\nMana: 100\nCooldown: 90 seconds\nAfter 0.5 seconds, release poisonous missiles that deal 630 (+4% per level) damage to all enemies hit over 10 seconds.\n✓\nSkeletal Mages\n(Level 10)\nXul\nMana: 80\nCooldown: 90 seconds\nSummon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nPoison Nova is a powerful\narea of effect damage over time Heroic\nAbility, which becomes particularly powerful if the enemy team lacks\narea of effect protection (healing, Shielding, or Armor).\nFurthermore, melee Heroes obviously have a harder time dodging the Poison Nova's\nprojectiles, since Xul can reach them more easily than ranged Heroes. Consequently,\nit is crucial to analyse the enemy team composition before picking Poison\nNova.\nSkeletal Mages fulfills a different role\nthan Poison Nova, since it is less about dealing damage and more about\nzoning. The wall of Skeletal Mages functions very similarly\nto Tassadar's Force Wall,\nit can either be used to prevent enemies from entering a specific area or it can\nbe used to chase down retreating opponents."
+  },
+  {
+   "title": "Level 13 Talents for Xul",
+   "id": "level-13",
+   "text": "✓\nEchoes of Death\n(Level 13)\nXul\nSpectral Scythe spawns 2 additional scythes next to the first after 1.5 seconds, dealing 40% damage.\n?\nRapid Harvest\n(Level 13)\nXul\nGain 5% Attack Speed for 3 seconds each time Cursed Strikes hits an enemy, up to 75%.\n?\nAmplify Damage\n(Level 13)\nXul\nIncrease the Root duration of Bone Prison by 0.25 seconds. Enemies Rooted by Bone Prison lose 25 Armor for 2 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Echoes of Death offers increased waveclear\nand area of effect damage,\nwhich will greatly enhance Xul's combat performance during team fights. This Talent\nalso has good synergy with other Spectral Scythe-related Talents,\naggregating to a Spectral Scythe Build.\nRapid Harvest's Attack Speed bonus causes you to gain\nmore value from the cooldown and healing provided by\nGrim Scythe and Harvest Vitality. As such,\nwe definitely recommend going for this Talent if you decided to commit to\na Cursed Strikes Build.\nAmplify Damage enables Xul and his teammates to focus and\nkill a single enemy Hero more efficiently by increasing all damage dealt by 25%.\nIt is crucial in a Bone Prison Build, but can still be picked in all the other builds.\nGo for it if you have Heroes with high burst to kill the desired target\nwhile Rooted (such as Li-Ming)."
+  },
+  {
+   "title": "Level 16 Talents for Xul",
+   "id": "level-16",
+   "text": "✓\nDecrepify\n(Level 16)\nXul\nEnemy Heroes that are damaged by Spectral Scythe or Skeletal Warriors are Slowed by 30% for 2.5 seconds.\n?\nWeaken\n(Level 16)\nXul\nEnemy Heroes who are damaged by Cursed Strikes or Skeletal Warriors deal 35% less damage for 3 seconds.\n?\nBone Spear\n(Level 16)\nXul\nCooldown: 12 seconds\nDeal 230 (+4% per level) damage to enemies in a line."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Decrepify is a major improvement to a Spectral Scythe Build, since\nit will not only boost your engage and chase capabilities, but will also help at\nhitting the secondary Scythes from Echoes of Death.\nThis Slow is reapplied by the\nsummoned Skeletal Warriors from the scythe.\nWeaken will give a Cursed Strikes Build much more survivability,\nconsidering that damage reduction will consequently make your Shield and healing better,\nsince it will sustain more attacks. With this Talent, remember to use Cursed Strikes\nto protect your teammates as well. For example, it can be used on a\nKael'thas\nwhile his Pyroblast is coming towards your teammates\nin order to reduce the damage.\nBone Spear comes with a very short cooldown, therefore, it\nwill increase both Xul's burst and\nsustained damage. Bone Spear should be used\nwhen cleaning waves, since it will be up for fight and has no Mana cost.\nIn fights, it is better to use it when a target is Rooted\nor Stunned, by either\nyour Bone Prison or friendly crowd control."
+  },
+  {
+   "title": "Level 20 Talents for Xul",
+   "id": "level-20",
+   "text": "?\nAndariel's Visage\n(Level 20)\nXul\nPoison Nova heals for 50% of the damage dealt and its duration is increased by 50%.\n✘︎\nCold Hand of Death\n(Level 20)\nXul\nIncrease the Slow of Frost Mages by 20%.\nEvery 5th Spectral Scythe that hits enemy Heroes spawns a Frost Mage instead of a Skeletal Warrior at their location.\n✓\nMortal Wound\n(Level 20)\nXul\nEnemy Heroes hit by Spectral Scythe receive 75% less healing for 4 seconds.\n✘︎\nKalan's Edict\n(Level 20)\nXul\nEach time Skeletal Warriors deal damage, reduce the cooldown of Bone Armor and Xul's Heroic Ability by 1.5%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Andariel's Visage adds a significant amount of self-heal and damage to Xul's kit.\nPoison Nova will heal from all targets hit, counting Structures, Minions, Heroes,\nSummons, or Monsters. Therefore it should be used trying to hit the most targets it can.\nThe heal might make Xul almost immortal when paired with defensive Talents,\nsuch as Harvest Vitality and Weaken.\nThis Talent is even better with a Cursed Strikes Build, considering it will allow you\nto be in the middle of the fight in order to deal damage.\nCold Hand of Death is a very underwhelming choice.\nMostly the Slow increase in Frost Mages will not be necessary and the one created\nfrom Scythe is irrelevant in fights. Most of the time, this Talent will be\novershadowed by Mortal Wound.\nWith Mortal Wound, Xul can turn many fights around by\nreducing the effectiveness of healing Abilities, like Ancestral Healing\nor Ray of Heaven, allowing his team to confirm the kill on a target.\nThis Talent is excellent in a Spectral Scythe Build, considering it can reduce almost\npermanently the healing of every enemy Hero. Mortal Wound can be taken in any\nof the other Builds, since the Healing reduction will be impactful in every game\nagainst one or more Healers.\nKalan's Edict significantly lowers the cooldown of Xul's\nHeroic Abilities whenever a Skeleton deals damage with a Basic Attack, which\nunfortunately is a pretty underwhelming investment as you will already have your\nHeroic Abilities ready in all the late game fights with or without this Talent.\nTo refund the Heroic Ability's cooldown completely in a fight, Skeletal Warriors\nhave to hit enemies at least 50 times, which is extremely hard to happen."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Apr. 2021: Updated Talent recommendations.\n26 Mar. 2021: Updated Talent recommendations.\n17 Feb. 2021: Updated Trag'Oul's Essence's discussion.\n17 Jul. 2020: Talent section reviewed; no changes are necessary.\n18 Mar. 2020: Updated Xul's talents accordingly to his rework.\n20 Nov. 2019: Updated Xul's talents and removed the Skeleton Build, as we no longer consider it viable enough.\n16 Jul. 2017: Updated Xul's talent descriptions.\n14 Jul. 2017: Corpse Explosion changed from Not Recommended to Recommended.\nShow more\nShow less"
+  }
+ ]
+}

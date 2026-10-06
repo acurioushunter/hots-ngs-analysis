@@ -1,0 +1,457 @@
+[
+ {
+  "slug": "anubarak",
+  "role": "tank",
+  "name": "Anub'arak"
+ },
+ {
+  "slug": "arthas",
+  "role": "tank",
+  "name": "Arthas"
+ },
+ {
+  "slug": "blaze",
+  "role": "tank",
+  "name": "Blaze"
+ },
+ {
+  "slug": "cho",
+  "role": "tank",
+  "name": "Cho"
+ },
+ {
+  "slug": "diablo",
+  "role": "tank",
+  "name": "Diablo"
+ },
+ {
+  "slug": "e-t-c",
+  "role": "tank",
+  "name": "E.T.C."
+ },
+ {
+  "slug": "garrosh",
+  "role": "tank",
+  "name": "Garrosh"
+ },
+ {
+  "slug": "johanna",
+  "role": "tank",
+  "name": "Johanna"
+ },
+ {
+  "slug": "malganis",
+  "role": "tank",
+  "name": "Mal'Ganis"
+ },
+ {
+  "slug": "mei",
+  "role": "tank",
+  "name": "Mei"
+ },
+ {
+  "slug": "muradin",
+  "role": "tank",
+  "name": "Muradin"
+ },
+ {
+  "slug": "stitches",
+  "role": "tank",
+  "name": "Stitches"
+ },
+ {
+  "slug": "tyrael",
+  "role": "tank",
+  "name": "Tyrael"
+ },
+ {
+  "slug": "artanis",
+  "role": "bruiser",
+  "name": "Artanis"
+ },
+ {
+  "slug": "chen",
+  "role": "bruiser",
+  "name": "Chen"
+ },
+ {
+  "slug": "deathwing",
+  "role": "bruiser",
+  "name": "Deathwing"
+ },
+ {
+  "slug": "dehaka",
+  "role": "bruiser",
+  "name": "Dehaka"
+ },
+ {
+  "slug": "dva",
+  "role": "bruiser",
+  "name": "D.Va"
+ },
+ {
+  "slug": "gazlowe",
+  "role": "bruiser",
+  "name": "Gazlowe"
+ },
+ {
+  "slug": "hogger",
+  "role": "bruiser",
+  "name": "Hogger"
+ },
+ {
+  "slug": "imperius",
+  "role": "bruiser",
+  "name": "Imperius"
+ },
+ {
+  "slug": "leoric",
+  "role": "bruiser",
+  "name": "Leoric"
+ },
+ {
+  "slug": "malthael",
+  "role": "bruiser",
+  "name": "Malthael"
+ },
+ {
+  "slug": "ragnaros",
+  "role": "bruiser",
+  "name": "Ragnaros"
+ },
+ {
+  "slug": "rexxar",
+  "role": "bruiser",
+  "name": "Rexxar"
+ },
+ {
+  "slug": "sonya",
+  "role": "bruiser",
+  "name": "Sonya"
+ },
+ {
+  "slug": "thrall",
+  "role": "bruiser",
+  "name": "Thrall"
+ },
+ {
+  "slug": "varian",
+  "role": "bruiser",
+  "name": "Varian"
+ },
+ {
+  "slug": "xul",
+  "role": "bruiser",
+  "name": "Xul"
+ },
+ {
+  "slug": "yrel",
+  "role": "bruiser",
+  "name": "Yrel"
+ },
+ {
+  "slug": "azmodan",
+  "role": "ranged-assassin",
+  "name": "Azmodan"
+ },
+ {
+  "slug": "cassia",
+  "role": "ranged-assassin",
+  "name": "Cassia"
+ },
+ {
+  "slug": "chromie",
+  "role": "ranged-assassin",
+  "name": "Chromie"
+ },
+ {
+  "slug": "falstad",
+  "role": "ranged-assassin",
+  "name": "Falstad"
+ },
+ {
+  "slug": "fenix",
+  "role": "ranged-assassin",
+  "name": "Fenix"
+ },
+ {
+  "slug": "gall",
+  "role": "ranged-assassin",
+  "name": "Gall"
+ },
+ {
+  "slug": "genji",
+  "role": "ranged-assassin",
+  "name": "Genji"
+ },
+ {
+  "slug": "greymane",
+  "role": "ranged-assassin",
+  "name": "Greymane"
+ },
+ {
+  "slug": "guldan",
+  "role": "ranged-assassin",
+  "name": "Gul'dan"
+ },
+ {
+  "slug": "hanzo",
+  "role": "ranged-assassin",
+  "name": "Hanzo"
+ },
+ {
+  "slug": "jaina",
+  "role": "ranged-assassin",
+  "name": "Jaina"
+ },
+ {
+  "slug": "junkrat",
+  "role": "ranged-assassin",
+  "name": "Junkrat"
+ },
+ {
+  "slug": "kaelthas",
+  "role": "ranged-assassin",
+  "name": "Kael'thas"
+ },
+ {
+  "slug": "kel-thuzad",
+  "role": "ranged-assassin",
+  "name": "Kel'Thuzad"
+ },
+ {
+  "slug": "li-ming",
+  "role": "ranged-assassin",
+  "name": "Li-Ming"
+ },
+ {
+  "slug": "lunara",
+  "role": "ranged-assassin",
+  "name": "Lunara"
+ },
+ {
+  "slug": "mephisto",
+  "role": "ranged-assassin",
+  "name": "Mephisto"
+ },
+ {
+  "slug": "nazeebo",
+  "role": "ranged-assassin",
+  "name": "Nazeebo"
+ },
+ {
+  "slug": "nova",
+  "role": "ranged-assassin",
+  "name": "Nova"
+ },
+ {
+  "slug": "orphea",
+  "role": "ranged-assassin",
+  "name": "Orphea"
+ },
+ {
+  "slug": "probius",
+  "role": "ranged-assassin",
+  "name": "Probius"
+ },
+ {
+  "slug": "raynor",
+  "role": "ranged-assassin",
+  "name": "Raynor"
+ },
+ {
+  "slug": "sgt-hammer",
+  "role": "ranged-assassin",
+  "name": "Sgt. Hammer"
+ },
+ {
+  "slug": "sylvanas",
+  "role": "ranged-assassin",
+  "name": "Sylvanas"
+ },
+ {
+  "slug": "tassadar",
+  "role": "ranged-assassin",
+  "name": "Tassadar"
+ },
+ {
+  "slug": "tracer",
+  "role": "ranged-assassin",
+  "name": "Tracer"
+ },
+ {
+  "slug": "tychus",
+  "role": "ranged-assassin",
+  "name": "Tychus"
+ },
+ {
+  "slug": "valla",
+  "role": "ranged-assassin",
+  "name": "Valla"
+ },
+ {
+  "slug": "xalatath",
+  "role": "ranged-assassin",
+  "name": "Xal'atath"
+ },
+ {
+  "slug": "zagara",
+  "role": "ranged-assassin",
+  "name": "Zagara"
+ },
+ {
+  "slug": "zuljin",
+  "role": "ranged-assassin",
+  "name": "Zul'jin"
+ },
+ {
+  "slug": "alarak",
+  "role": "melee-assassin",
+  "name": "Alarak"
+ },
+ {
+  "slug": "illidan",
+  "role": "melee-assassin",
+  "name": "Illidan"
+ },
+ {
+  "slug": "kerrigan",
+  "role": "melee-assassin",
+  "name": "Kerrigan"
+ },
+ {
+  "slug": "maiev",
+  "role": "melee-assassin",
+  "name": "Maiev"
+ },
+ {
+  "slug": "murky",
+  "role": "melee-assassin",
+  "name": "Murky"
+ },
+ {
+  "slug": "qhira",
+  "role": "melee-assassin",
+  "name": "Qhira"
+ },
+ {
+  "slug": "samuro",
+  "role": "melee-assassin",
+  "name": "Samuro"
+ },
+ {
+  "slug": "the-butcher",
+  "role": "melee-assassin",
+  "name": "The Butcher"
+ },
+ {
+  "slug": "valeera",
+  "role": "melee-assassin",
+  "name": "Valeera"
+ },
+ {
+  "slug": "zeratul",
+  "role": "melee-assassin",
+  "name": "Zeratul"
+ },
+ {
+  "slug": "alexstrasza",
+  "role": "healer",
+  "name": "Alexstrasza"
+ },
+ {
+  "slug": "ana",
+  "role": "healer",
+  "name": "Ana"
+ },
+ {
+  "slug": "anduin",
+  "role": "healer",
+  "name": "Anduin"
+ },
+ {
+  "slug": "auriel",
+  "role": "healer",
+  "name": "Auriel"
+ },
+ {
+  "slug": "brightwing",
+  "role": "healer",
+  "name": "Brightwing"
+ },
+ {
+  "slug": "deckard",
+  "role": "healer",
+  "name": "Deckard"
+ },
+ {
+  "slug": "kharazim",
+  "role": "healer",
+  "name": "Kharazim"
+ },
+ {
+  "slug": "li-li",
+  "role": "healer",
+  "name": "Li Li"
+ },
+ {
+  "slug": "lt-morales",
+  "role": "healer",
+  "name": "Lt. Morales"
+ },
+ {
+  "slug": "lucio",
+  "role": "healer",
+  "name": "Lúcio"
+ },
+ {
+  "slug": "malfurion",
+  "role": "healer",
+  "name": "Malfurion"
+ },
+ {
+  "slug": "rehgar",
+  "role": "healer",
+  "name": "Rehgar"
+ },
+ {
+  "slug": "stukov",
+  "role": "healer",
+  "name": "Stukov"
+ },
+ {
+  "slug": "tyrande",
+  "role": "healer",
+  "name": "Tyrande"
+ },
+ {
+  "slug": "uther",
+  "role": "healer",
+  "name": "Uther"
+ },
+ {
+  "slug": "whitemane",
+  "role": "healer",
+  "name": "Whitemane"
+ },
+ {
+  "slug": "abathur",
+  "role": "support",
+  "name": "Abathur"
+ },
+ {
+  "slug": "medivh",
+  "role": "support",
+  "name": "Medivh"
+ },
+ {
+  "slug": "the-lost-vikings",
+  "role": "support",
+  "name": "The Lost Vikings"
+ },
+ {
+  "slug": "zarya",
+  "role": "support",
+  "name": "Zarya"
+ }
+]

@@ -1,0 +1,91 @@
+{
+ "name": "dragon-shire",
+ "source": "https://www.icy-veins.com/heroes/dragon-shire-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Dragon Shire is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Shrines that reward a Dragon Knight.\nThe team who controls both Shrines can pilot the Dragon Knight, a powerful\nVehicle that can be used to deal heavy damage to enemy Structures."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nAnchor\nHeroes for clearing Mercenary Camps\nEffects relying on impassable terrain\nGankers\nGlobal presence\nPoint control for Objective\nStrong late game\nSustain damage/healing\nVision tools\nAvoid\nWeak late game\nSee our Dragon Shire Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-3-1",
+   "id": "formation-1-3-1",
+   "text": "The recommended formation for Dragon Shire is 1-3-1:\n1 Hero, the Offlaner, covers the top lane;\n3 Heroes cover the middle lane and roam as soon as possible;\n1 Hero, the Anchor, covers the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available,\nstart clearing the allied Siege Camp in the bottom lane\nand capture it as soon as possible. Watch out for invades!\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 0:42 minutes or 12 seconds after a wave of Minions spawned.\nAt 0:50 minutes or right after capturing the allied Siege Camp in the bottom lane,\nstart clearing the allied Bruiser Camp and capture it as soon as possible.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 1:30 minutes or immediately after a wave of Minions spawned.\nAt 1:30 minutes or whenever the Objective phase starts,\nmake sure to have a durable Hero on each Shrine.\nSecure at least one Shrine and keep control\nof it for as much as possible without dying.\nWhenever your team gets an advantage,\ncapture the other Shrine and try to get the Dragon Knight\nin the middle lane. On the other hand, if the enemy team\nhas an advantage, you should retreat.\nAfter that, whenever your team has an advantage\nwhile there is no Objective to contest or right after a Dragon Knight died,\nyou can start clearing the neutral Bruiser Camp in the bottom lane\nand capture it as soon as possible.\nIf your team wins the Objective, the first Dragon Knight should be used to destroy\n2 Towers in any lane and ideally a Fort in a side lane, the second one should be\nused to get a Fort in another side lane, and the following ones should be used to\ndestroy a Keep and eventually go Core. In the early game,\nthe Offlaner should keep soaking.\nIf your team loses the Objective, defend your Structures from the Dragon Knight\nand from enemy Heroes. If the opponents decide to push\nin multiple lanes at the same time, try to match them with a similar amount\nof Heroes and save as many Forts and Keeps as possible. In the early game,\nthe Offlaner should keep soaking.\nWhenever you get the chance, you can capture the allied Siege Camp,\nfollowed by the neutral Bruiser Camp in the bottom lane,\nand then the enemy Siege Camp if available. This strategy\nis as powerful as getting a Boss Camp."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Dragon Shire has a total of 5 Mercenary Camps:\n2 Bruiser Camps (blue icon) in the top lane;\n2 Siege Camps (green icon) in the bottom lane;\n1 Bruiser Camp (blue icon) in the bottom lane.\nMercenary Camps on Dragon Shire disappear from the battlefield\nonce the Dragon Knight have been activated (unless their Mercenaries are in combat)\nand reappear only after the Dragon Knight has been killed."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Siege Giants. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n280 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nInstead of attacking enemies with Basic Attacks, Siege Giants throw stones at them.\nThese stones can be dodged, so it is possible to capture them without taking any damage.\nOnce captured, they are capable of damaging enemy Structures without getting in their range.\nSiege Giants deal 100% bonus damage to Structures."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 3 Knights and 1 Wizard. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n450 Experience\n+9 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nRight after being captured and while in lane, the Wizard creates a Spell Armor field\naround him which reduces some of the damage taken by Minions, Mercenaries, and Heroes within range.\nAvoid fighting the enemy team if they still have a Wizard helping them!"
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Dragon Shire consists of Shrines that reward a Dragon Knight.\nHeroes can claim Shrines to unlock the Dragon Altar in the middle lane, and then\nan allied Hero can summon the Dragon Knight and pilot it as a Vehicle.\nVehicles are Unstoppable.\nCapturing a Shrine takes 4 seconds if neutral,\nor 8 seconds if the enemy team has control over it. Summoning the Dragon Knight\nfrom the statue in the middle lane takes 3 seconds.\nSpawn Time\nRespawn Delay\n1:30 minutes\n2:00 minutes after the Dragon Knight dies\n\nControl the Shrines\nThere are two shrines your team needs to control to activate the Dragon Knight's statue.\nFree the Dragon Knight\nWhile activated, bring a hero to the statue to free the Dragon Knight from his prison!\nDevastate Enemy Forts\nUse the Dragon Knight's immense power to level enemy forts!\nOnce claimed, the Dragon Knight lasts for 55 seconds, plus 2 seconds for each\nminute of Game Time that has passed. The player controlling the Dragon Knight\nhas access to a dedicated set of Abilities and can decide where to go."
+  },
+  {
+   "title": "Dragon Knight",
+   "id": "dragon-knight",
+   "text": "The following Abilities can be used by the player who is controlling the Dragon Knight."
+  },
+  {
+   "title": "Flame Breath",
+   "id": "flame-breath",
+   "text": "Flame Breath\n[Q]\nDragon Knight\nCooldown: 6 seconds\nBreathe a cone of flame, dealing 85 (+12 per minute) damage\nand burn the area of effect for an additional 160 (+16 per minute) damage over 4 seconds.\nFlame Breath is best used to clear enemy Minions or, if there are\nno enemy Minions to clear, to hit as many enemy Structures as possible."
+  },
+  {
+   "title": "Savage Charge",
+   "id": "savage-charge",
+   "text": "Savage Charge\n[W]\nDragon Knight\nCooldown: 10 seconds\nAfter a short delay, charge an enemy Hero\nto knock them back and deal 450 (+17 per minute) damage.\nSavage Charge can be used to stop the best enemy Hero\nat defending the Dragon Knight from attacking you while\npushing, to peel\nfor your team while the enemy team is trying to get a kill,\nor to crowd control the enemy Hero\nwith the best save tool when your team is going for a kill.\nYou should avoid using Shadow Charge on enemy Heroes\nwho have mobility tools\nbecause the Dragon Knight will follow them with Shadow Charge\nand either end up in a dangerous position or, if they hide\nbehind their Gate while Side Walls are still up, be stuck\nmid-animation without being able to use Basic Attacks."
+  },
+  {
+   "title": "Rubble Maker",
+   "id": "rubble-maker",
+   "text": "Rubble Maker\nDragon Knight\nIncreases damage to Structures and Minions by 100%.\nReduce damage from Structures by 60%.\nThe Dragon Knight explodes on death, knocking back nearby enemies.\nRubble Maker is a Trait which makes the Dragon Knight\nparticularly annoying to deal with. Structures and Minions\ntake increased damage from the Dragon Knight, and the Dragon Knight\ntakes reduced damage from Structures. Furthermore, the Dragon Knight\nexplodes on death, Knocking back nearby enemies.\n!\nHow to use Vehicles\nVehicles have two resources: Health and duration.\nIf they time out with high Health, it means you played too safe.\nIf they get destroyed while there is still a lot of duration remaining,\nit means you played too aggressive. As a general rule,\nyou want to keep the percentage values of Health and duration balanced.\nWhen pushing with a won Objective, you should still avoid being\ncaught alone and not fight when outnumbered, especially when going for Keeps.\nIf your Vehicle gets destroyed deep in the enemy territory, you will not be\nable to reach a safe area before getting killed unless you have a lot of\nmobility.\nIn the early game, when multiple enemy Forts are still up, Vehicles can also\nbe used as a distraction, not just for pushing directly.\nWhile they clear enemy Minions and threaten enemy Structures, the rest of\nthe team can push in another lane. The enemy team will have to split\nfor defending multiple lanes at the same time."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 6 seconds, the Core will throw 2 Boulders at a nearby enemy Hero.\nHeroes hit are turned to stone, damaged for 5% of their maximum Health,\nand Stunned for 1.75 seconds."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Dragon Shire, you should count on\nany of the following win conditions:\nMap Objective,\nSiege Camp plus Bruiser Camp,\nSplit-push."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "On this Map, due to the Objective taking a long time to be won,\nyou can use the Healing Fountain on cooldown\ninstead of saving it for when the Objective spawns.\nIf your Hero has an Ability which allows them to jump over\nimpassable terrain, you can use it\nto quickly enter or exit from a Shrine.\nChoose when to contest a Shrine and when to retreat depending\non which team has an advantage\nin that area. If they commit top, try to get bottom (and vice versa).\nHeroes with percent damage\n(such as Drain Hope by Leoric) are the best\nfor defending from enemy Vehicles. In case that is your\nOfflaner and it is early game,\nyou may want to send someone else to soak in the lane they left.\nRemember that Cursed Bullet by Greymane\nand Sleep Dart by Ana cannot hit Vehicles.\nIf your team has a Hero with a powerful Quest that requires hitting enemy Heroes\n(for example Berserker on Zul'jin),\nyou could let the enemy team get an early game\nDragon Knight to easily get Quest stacks while defending from it.\nWhen piloting the Dragon Knight, you should generally use:\nFire Breath [Q] for clearing enemy Minions and/or to damage enemy Structures\n(prioritize Minions, and ideally do both things at the same time);\nand Savage Charge [W] to Knockback the best enemy Hero\nat defending the Dragon Knight, to peel for your team, or\nto interrupt a powerful channeled\nAbility.\nWhen defending your Structures from the enemy Dragon Knight, if you ever get\ntargeted by Savage Charge [W], you can use Unstoppable\nto counter it or mobility\ntools for dragging the Dragon Knight deeper into your territory.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n25 Aug. 2025: Guide reviewed.\n01 Nov. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

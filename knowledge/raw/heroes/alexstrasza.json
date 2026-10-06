@@ -1,0 +1,280 @@
+{
+ "slug": "alexstrasza",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/alexstrasza-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/alexstrasza-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/alexstrasza-talents"
+ },
+ "guide": [
+  {
+   "title": "Alexstrasza's Overview",
+   "id": "alexstraszas-overview",
+   "text": "Alexstrasza is a Healer who provides raw healing power\nbut does not have access to hard crowd control.\nShe is particularly efficient if protected by a solid frontline,\nsince she does not have any real escape mechanism.\nDuring important team fights,\nshe uses Dragonqueen to improve her Abilities."
+  },
+  {
+   "title": "Alexstrasza's Strengths and Weaknesses",
+   "id": "alexstraszas-strengths-and-weaknesses",
+   "text": "Strengths\nGood waveclear\nHigh healing output\nRelatively low Mana consumption compared to other Healers\nDragonqueen gives a huge advantage during team fights\nWeaknesses\nLimited self-healing capabilities\nLack of crowd-control\nUnderwhelming mobility\nWeak while Dragonqueen is not available\nNo access to Cleanse or similar tools to remove crowd-control effects\nUnable to provide Unstoppable frames"
+  },
+  {
+   "title": "Alexstrasza's Talent Build Cheatsheet",
+   "id": "alexstraszas-talent-build-cheatsheet",
+   "text": "Abundance Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's Abundance Build focuses on area of effect healing\nand increases your survivability against dives.\nConsidering that you are spending multiple Talents on Abundance,\nthis Build will be harder to play against area of effect damage\nand crowd control effects because they can\nprevent Heroes from benefitting from it.\nGift of Life Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's Gift of Life Build provides high single target\nsustain healing, regardless of being in combat or not,\nbut it comes online only after unlocking Lifeblossom at Level 7.\nThe major weakness of this Build is that its healing output goes down\nwhen Alexstrasza takes damage, so it should not be played when the enemy team\nhas Heroes who can easily dive her.\nFlame Buffet Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's Flame Buffet Build provides good self-sustain\nto increase your survivability during team fights\nand massively improves your Dragonqueen\nin the late game at the cost\nof healing and early-game power.\nAncient Flame at Level 20\ngreatly empowers Dragonqueen,\nallowing you to single-handedly win team fights if the enemy team\ndoes not play around it. Slow enemies with\nHeat Exhaustion at Level 4 and heal\nyourself with Fire Within at Level 7.\nWe do not recommend playing this Build on Maps where the\nearly game is important\n(notably Braxis Holdout) because it\nprovides low sustain healing and needs to scale\ninto the late game.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's ARAM Build focuses on area of effect healing\nand increases your survivability against dives.\nConsidering that you are spending multiple Talents on Abundance,\nthis Build will be harder to play against area of effect damage\nand crowd control effects because they can\nprevent Heroes from benefitting from it.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Alexstrasza's Synergies and Counters",
+   "id": "alexstraszas-synergies-and-counters",
+   "text": "Alexstrasza synergizes with\nAlexstrasza has an affinity with Heroes that have high maximum Health (such as Diablo)\nbecause Abundance baseline,\nLife-Binder at Level 10,\nand Life Unbound at Level 13\nprovide percent-based healing.\nAs she lack crowd control,\nshe should be played together with a few Heroes who can provide that\n(such as Kael'thas thanks to Gravity Lapse),\nin addition to similar effects provided by the main Tank of your team\nto peel for her.\nAlexstrasza is countered by\nAlexstrasza offers a lot of raw healing and barely any utility, therefore she\nstruggles against enemey Heroes that have access to healing reduction effects\n(such as Deckard Cain with Emerald at Level 7).\nShe suffers against area of effect Abilities\n(such as Concussion Mine by Junkrat)\nand/or burst damage (for example\nFlamestrike by Kael'thas)\nused on Abundance's location.\nHeroes that can stick to Alexstrasza\nand interrupt (such as Yrel)\nDragonqueen and/or\nCleansing Flame can put serious pressure on her.\nDragonqueen can be countered by making Alexstrasza\nunable to act (for example Cocoon by Anub'arak)\nor by forcing a disengage\n(like Mighty Gust by Falstad)."
+  },
+  {
+   "title": "Alexstrasza's Maps",
+   "id": "alexstraszas-maps",
+   "text": "Alexstrasza's stronger maps\nAlexstrasza's average maps\nAlexstrasza's weaker maps\nAlexstrasza heavily prefers Maps that feature a static Objectives with\na long cooldown, a single location, and a moderate duration (notably Infernal Shrines) because\nDragonqueen can unfold its full potential for a team fight\nthat, if won, will directly translate to taking down a Fort or even a Keep.\nThe worst Maps for Alexstrasza are the ones where having good sustain healing\nduring the early game is extremely important\n(in particular Braxis Holdout, but also any other 2-lane Map)."
+  },
+  {
+   "title": "Alexstrasza's Tips and Tricks",
+   "id": "alexstraszas-tips-and-tricks",
+   "text": "Gift of Life costs a percentage of your current Health instead of Mana. Try to keep your Health high for more powerful heals. If you are being targeted, avoid casting it.\nAbundance should be positioned trying to predict how your team will move in the next 3 seconds and without putting them in danger to receive its healing.\nFlame Buffet costs a lot of Mana, unless you hit the same target multiple times in a row. If your Mana is getting low, avoid casting this Ability just for dealing damage.\nLife-Binder should be used on a Hero who has low Health when Alexstrasza has high Health or on a Hero who has high Health when Alexstrasza has low Health, but not when they have a similar percentage of Health.\nCleansing Flame can not only be used for healing and dealing damage at the same time but also as a form of escape or, in rare circumstances, as a global when far away allied Heroes need help.\nDragonqueen is an important Ability that must be used strategically, when the enemy team cannot disengage because they are committed or because there is an Objective to contest.\nBreath of Life costs no Health and no Mana, so you should usually cast it on cooldown while in Dragonqueen Form.\nPreservation should be positioned trying to predict how your team will move in the next 3 seconds and without putting them in danger to receive its healing.\nWing Buffet can be used to peel, interrupt, or disengage while in Dragonqueen Form.\nLife-Binder has more range while in Dragonqueen Form, allowing you to help allied Heroes who are farther away.\nCleansing Flame has no cast time while in Dragonqueen Form and can be used to pause its duration.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Alexstrasza's Role in the Current Meta",
+   "id": "alexstraszas-role-in-the-current-meta",
+   "text": "Alexstrasza is usually played as a solo Healer and shines on Maps with\nstatic Objectives (such as Infernal Shrines) where she can easily get value from\nDragonqueen.\nAs the majority of her power comes from her Trait,\nyou have to use it strategically in order to get an edge over the enemy team.\nStart team fights only when Dragonqueen\nis available and avoid them when it is on cooldown,\nbasically the same strategy most Heroes use for their Heoric Abilities\nas they usually have a long cooldown. If the enemy team invades one of your Mercenary Camps,\njust mitigate the loss and wait patiently for the next Objective to unleash your power."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026 (talents page): Guide reviewed for the latest Balance Update.\n30 Sep. 2026 (abilities page): Guide reviewed for the latest Balance Update.\n30 Sep. 2026 (this page): Guide reviewed for the latest Balance Update.\n20 Jul. 2026 (talents page): Guide updated for the latest Patch.\n20 Jul. 2026 (abilities page): Guide updated for the latest Patch.\n20 Jul. 2026 (this page): Guide updated for the latest Patch.\n12 Feb. 2026 (talents page): Guide reviewed.\n12 Feb. 2026 (abilities page): Guide reviewed.\n12 Feb. 2026 (this page): Guide reviewed.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n12 Dec. 2023 (talents page): Guide reviewed.\n12 Dec. 2023 (abilities page): Guide reviewed.\n12 Dec. 2023 (this page): Guide reviewed.\n23 Sep. 2023 (talents page): Guide reviewed for the latest Bug Fixes.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n09 Aug. 2022 (talents page): Builds updated.\n09 Aug. 2022 (this page): Builds updated.\n30 Mar. 2022 (talents page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (abilities page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (this page): Guide reviewed for the latest Balance Update.\n25 Jun. 2021 (talents page): Builds updated.\n25 Jun. 2021 (this page): Builds updated.\n22 Mar. 2021 (talents page): Builds updated.\n22 Mar. 2021 (this page): Builds updated.\n03 Mar. 2021 (talents page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (this page): Guide reviewed for the latest Balance Update.\n21 Feb. 2021 (talents page): Builds updated.\n21 Feb. 2021 (this page): Builds updated.\n10 Nov. 2020 (this page): Maps updated.\n05 Nov. 2020 (talents page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (this page): Guide reviewed for the latest Balance Update.\n11 Oct. 2020 (talents page): Guide reviewed for the latest Balance Update.\n11 Oct. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n11 Oct. 2020 (this page): Guide reviewed for the latest Balance Update.\n22 May 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n22 May 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n22 May 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nTalent Build Cheatsheet updated to reflect the current metagame.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\nRole in the Current Meta modified to reflect the current metagame.\n05 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n05 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n06 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n25 Nov. 2019 (talents page): Revised Alexstrasza's guide and added the Flame Build. Also updated her talents in accordance with the latest Balance Update.\n03 Jun. 2019 (talents page): Changed Fire Within from Not Recommended to Situational and also updated Alexstrasza's talent builds accordingly.\n03 Jun. 2019 (abilities page): Applied some minor updates to Alexstrasza's ability descriptions.\n31 Jan. 2019 (talents page): Changed Life-Binder from Situational to Recommended and applied additional changes to Alexstrasza's Talent Builds.\n31 Jan. 2019 (abilities page): Updated Flame Buffet's description.\n31 Jan. 2019 (this page): Updated Alexstrasza's introduction text.\n15 Oct. 2018 (talents page): Changed Blessing of the Red from Not Recommended to Recommended.\n19 Feb. 2018 (talents page): Added the Abundance Build and deleted the Flame Build. Updated Alexstrasza's talents accordingly.\n12 Dec. 2017 (talents page): Added in-depth talent descriptions and changed various talents in terms of their viability.\n05 Dec. 2017 (talents page): Changed Life-Binder with Cleansing Flame in the Heal build.\n23 Nov. 2017 (talents page): Changed Draconic Discipline from Not Recommended to Recommended.\n23 Nov. 2017 (abilities page): Updated Cleansing Flames' description.\n23 Nov. 2017 (this page): Added a new TL;DR tip featuring the interaction between Dragonqueen and Cleansing Flame.\n14 Nov. 2017 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Alexstrasza's Tips and Tricks",
+   "id": "alexstraszas-tips-and-tricks",
+   "text": "Gift of Life costs a percentage of your current Health instead of Mana. Try to keep your Health high for more powerful heals. If you are being targeted, avoid casting it.\nAbundance should be positioned trying to predict how your team will move in the next 3 seconds and without putting them in danger to receive its healing.\nFlame Buffet costs a lot of Mana, unless you hit the same target multiple times in a row. If your Mana is getting low, avoid casting this Ability just for dealing damage.\nLife-Binder should be used on a Hero who has low Health when Alexstrasza has high Health or on a Hero who has high Health when Alexstrasza has low Health, but not when they have a similar percentage of Health.\nCleansing Flame can not only be used for healing and dealing damage at the same time but also as a form of escape or, in rare circumstances, as a global when far away allied Heroes need help.\nDragonqueen is an important Ability that must be used strategically, when the enemy team cannot disengage because they are committed or because there is an Objective to contest.\nBreath of Life costs no Health and no Mana, so you should usually cast it on cooldown while in Dragonqueen Form.\nPreservation should be positioned trying to predict how your team will move in the next 3 seconds and without putting them in danger to receive its healing.\nWing Buffet can be used to peel, interrupt, or disengage while in Dragonqueen Form.\nLife-Binder has more range while in Dragonqueen Form, allowing you to help allied Heroes who are farther away.\nCleansing Flame has no cast time while in Dragonqueen Form and can be used to pause its duration."
+  },
+  {
+   "title": "Gift of Life",
+   "id": "gift-of-life",
+   "text": "Gift of Life\n(Q)\nAlexstrasza\nCooldown: 7 seconds\nSacrifice 15% of Alexstrasza's current Health, healing an allied Hero for 150% of that amount.\nPassive: Increase Alexstrasza's Health regeneration by 150%.\nDragonqueen: Breath of Life\nCooldown greatly reduced and does not cost Health.\nGift of Life is a Basic Ability that does not cost\nMana but Health. The amount of Health paid for casting it gets amplified 1.5 times\nand then applied as healing on the target allied Hero.\nAs a consequence of the Health cost, each consecutive cast will heal for\na lower amount than the previous one, unless Alexstrasza gets her Health back.\nThe passive increased Health Regeneration provided helps with that.\nWe recommend healing Alexstrasza herself by using\nAbundance as much as possible,\nelse Gift of Life will quickly become ineffective."
+  },
+  {
+   "title": "Abundance",
+   "id": "abundance",
+   "text": "Abundance\n(W)\nAlexstrasza\nMana: 75\nCooldown: 14 seconds\nPlant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health.\nDragonqueen: Preservation\nHeal area and amount greatly increased.\nAbundance is a Basic Ability that provides\ndelayed area of effect healing.\nThe healing provided is based on the maximum Health of the affected allied Heroes,\nparticularly effective on Heroes who have it high\n(usually Tanks and Bruisers,\nbut there are a few exceptions across other Roles).\nThe healing happens after a few seconds that the circle has been on the ground,\nwhere both allies (colored in green) and enemies (colored in grey) can see it.\nYou do not have to stay in the circle from the beginning and completely inside it,\nbut you need a part of your hitbox (the circle below your Hero) to be inside when the healing\nwill happen. Using this method will make it easier to dodge enemy Abilities\nthat counter Abundance (for example\nConcussion Mine by Junkrat).\nConsidering all of this, its position should be\nchosen based on how allied Heroes will move in the next few seconds:\nif your team wants to engage, use it at maximum range\ntowards the allied frontline;\nif your team wants to control the area, use it near yourself;\nif your team wants to retreat, use it at maximum range\nbehind the allied backline.\nLast but not the least, if the enemy team is playing in a way that makes\nAbundance more dangerous than helpful for your team, then just use it\nto keep your Health high by casting it where the enemy team cannot see it\nand heal allied Heroes with Gift of Life instead."
+  },
+  {
+   "title": "Flame Buffet",
+   "id": "flame-buffet",
+   "text": "Flame Buffet\n(E)\nAlexstrasza\nMana: 50\nCooldown: 2 seconds\nLaunch a fireball, Burning enemies hit for 75 (+4% per level) damage over 5.5 seconds.\nHitting enemies that are already Burning deals 125 (+4% per level) bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost.\nDragonqueen: Wing Buffet\nDamage and Knockback enemies in an arc.\nFlame Buffet is a Basic Ability that provides\na good Slow effect and constant damage, unless you miss.\nWhile it has an extremely low cooldown, it requires precise aim because\nthe high Mana cost will easily add up if you do not get the Mana refund\nby hitting the same target multiple times in a row.\nIf you have less than 200 Mana, avoid using this Ability for a while\nand keep your Mana only for Abundance instead—a\nstrategy that will allow you to heal for one more minute before going out of Mana\nwhen you do not have time to Hearthstone and/or cannot use the Healing Fountain."
+  },
+  {
+   "title": "Life-Binder",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nLife-Binder\n(R)\nAlexstrasza\nHeroic\nMana: 50\nCooldown: 50 seconds\nBind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.\nDragonqueen: Cast range increased by 45%.\nLife-Binder is a defensive Heroic Ability that allows\nAlexstrasza to transfer Health percentage between Alexstrasza and the target allied Hero,\na powerful effect to save a Hero who is getting focused down by the enemy team,\neven if the 2-second delay makes it not that easy to use against burst damage\n(for example Jaina).\nThanks to its design, you can use it in two different ways:\nif you have low Health, cast it on an allied Hero who has high Health to heal yourself;\nif you have high Health, cast it on an allied Hero who has low Health to heal them.\nWhile Dragonqueen is active, Life-Binder has 33% more range."
+  },
+  {
+   "title": "Cleansing Flame",
+   "id": "cleansing-flame",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nCleansing Flame\n(R)\nAlexstrasza\nHeroic\nMana: 100\nCooldown: 100 seconds\nAfter 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.\n2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.\nCleansing Flame is a versatile Heroic Ability that,\nafter a short cast time, makes Alexstrasza fly in the air\nand shoot 5 fireballs over 6 seconds where your mouse cursor is in that given moment.\nIf its initial channel gets interrupted,\nit goes on a 10-second cooldown, so try to cast it from a safe position.\nOnce successfully cast, Alexstrasza becomes untargetable and you can move\nthe mouse cursor to choose where to shoot a fireball on the ground once every second\nand then you will be able to choose where to land, so be careful not to end up\nin the enemy formation.\nEach fireball will heal allied Heroes for a fixed amount and damage enemy Heroes\nfor about half of that value, therefore you should prefer using them to heal.\nIn case you want to heal an allied Hero that is out of range,\nyou can use Cleansing Flame\nas a global by using a few fireballs at maximum range on the ground\nwhile you get closer and then use the remaining ones to heal.\nThe further you are, the less effective this trick is.\nWhile Dragonqueen is active, Cleansing Flame\nis instant cast and impossible to interrupt for that reason."
+  },
+  {
+   "title": "Dragonqueen",
+   "id": "dragonqueen",
+   "text": "Dragonqueen\n(D)\nAlexstrasza\nCooldown: 130 seconds\nAfter 1.25 seconds, transform into a dragon and gain 500 Health.\nWhile Dragonqueen is active, Alexstrasza's Abilities are empowered, and her Basic Attacks deal 143 (+4% per level) damage and heal allied Heroes for 43 (+4% per level) in an arc in front of her. Additionally, the duration of incoming Stuns, Roots, and Slows, is reduced by 50%.\nLasts 15 seconds.\nDragonqueen is a very powerful Trait that\ncan easily decide the outcome of a team fight in your team's favor\nby improving all your Basic and Heroic Abilities.\nIf its initial channel gets interrupted,\nit goes on a 10-second cooldown. Because of this, you should always\ntry to cast it from a safe position (ideally in a bush or behind a corner).\nWhen the effect starts and ends, Alexstrasza goes through an invulnerable frame\nthat will sometimes cause her to dodge the healing from Abundance\nor Preservation but will also make her dodge any damage\n(for example Pyroblast by Kael'thas) for a moment.\nSince it comes with a long cooldown, Dragonqueen should be used strategically.\nAs a general rule, you should use Dragonqueen\nbased on the current game phase:\nEarly game: to contest the Objective, but not to save an allied Hero\nor to win a team fight when the Objective is not available;\nMid game: to contest the Objective or to win a team fight,\nbut not to save an allied Hero when the Objective is not available;\nLate game: to contest the Objective, to win a team fight,\nor to save an allied Hero even if the Objective is not available.\nWhile Dragonqueen is active, Basic Attacks used on enemy Heroes deal damage\nin an arc in front of Alexstrasza and heal allied Heroes in the same area for about 1/3 of that;\nfurthermore, the duration of Stuns, Roots,\nand Slow applied to her is reduced by 50%.\nTo make up for its power, Dragonqueen will be\non cooldown at the start of the game, until around 1:35 Game Time."
+  },
+  {
+   "title": "Breath of Life",
+   "id": "breath-of-life",
+   "text": "Breath of Life\n(Q)\nAlexstrasza\nCooldown: 3 seconds\nHeal an allied Hero for 15% of Alexstrasza's current Health.\nBreath of Life is also empowered by Gift of Life Talents.\nBreath of Life a special Basic Ability usable only when\nDragonqueen is active and is the empowered version of\nGift of Life.\nContrary to its counterpart,\nit has a bit more range that helps you target the frontline\nof your team while keeping a safe position in chaotic moments.\nUse it as much as possible to keep allied Heroes alive during team fights\nbecause it costs no Health and no Mana, but pay attention to not waste its\nshort but still meaningful cooldown by overhealing—healing\nmore than the Health missing on a given Hero."
+  },
+  {
+   "title": "Preservation",
+   "id": "preservation",
+   "text": "Preservation\n(W)\nAlexstrasza\nCooldown: 16 seconds\nPlant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 25% of their maximum Health.\nPreservation is also empowered by Abundance Talents.\nPreservation is a special Basic Ability usable only when\nDragonqueen is active and is the empowered version of\nAbundance.\nContrary to its counterpart,\nit has a significantly bigger radius and also heals for more maximum Health\nat the cost of no Mana. The bigger radius helps against effects that can\neasily counter Abundance.\nBefore you reach Level 10, you can cast only 1 Preservation\nper Dragonqueen, so you do not have to immediately cast it\nunless you need to heal yourself or someone else. Once you reach Level 10, if you picked\nCleansing Flame as your Heroic Ability, you should always cast\nPreservation before casting Cleansing Flame,\nso that you will be able to cast another Preservation when it ends.\nIf you picked Draconic Discipline at Level 16, you should\ngenerally cast Preservation on cooldown."
+  },
+  {
+   "title": "Wing Buffet",
+   "id": "wing-buffet",
+   "text": "Wing Buffet\n(E)\nAlexstrasza\nCooldown: 4 seconds\nDeal 150 (+4% per level) damage to enemies in an area, knocking them back and Slowing them by 50% for 3 seconds.\nWing Buffet is a special Basic Ability usable only when\nDragonqueen is active and is the empowered version of\nFlame Buffet.\nContrary to its counterpart, it costs no Mana and\nthe damage done is instant rather than over time while the Slow\nprovided lasts a bit longer and does not decay anymore, but it has less range\nand hits in a cone rather than a line.\nIn addition to that, it provides a Knockback\nwhich can prove to be crucial to save threatened allied Heroes or herself\nand can eventually be used to interrupt powerful\nchanneled Abilities (such as Mosh Pit\nby E.T.C.)."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026: Guide reviewed for the latest Balance Update.\n20 Jul. 2026: Guide updated for the latest Patch.\n12 Feb. 2026: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n12 Dec. 2023: Guide reviewed.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n11 Oct. 2020: Guide reviewed for the latest Balance Update.\n22 May 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n03 Jun. 2019: Applied some minor updates to Alexstrasza's ability descriptions.\n31 Jan. 2019: Updated Flame Buffet's description.\n23 Nov. 2017: Updated Cleansing Flames' description.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Live and Let Live (Level 1) Alexstrasza While above 75% Health, Gift of Life's cooldown recharges 125% faster. Dragonqueen: While above 75% Health, Breath of Life's cooldown recharges 25% faster."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Circle of Life (Level 1) Alexstrasza Quest: Collect Regeneration Globes. Reward: After collecting 10 Regeneration Globes, Abundance heals for an additional 5% maximum Health. Reward: After collecting 15 Regeneration Globes, Abundance's healing burst creates a Regeneration Globe."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Flames of Fury (Level 1) Alexstrasza Reduce the Mana cost of Flame Buffet from 50 to 40. Quest: Hit Burning enemy Heroes with Flame Buffet. 20 hits unlocks a Mythic Quest. Reward: After hitting 20 Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by 6 seconds. Mythic Quest: After hitting 30 more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Surge of Vitality (Level 4) Alexstrasza Abundance's healing burst grants allied Heroes 30% Movement Speed for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Heat Exhaustion (Level 4) Alexstrasza Increase Flame Buffet's Slow from 40% to 50% and cause it to no longer decay."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Exuberance (Level 4) Alexstrasza While above 75% Health, gain 15% Movement Speed."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Lifeblossom (Level 7) Alexstrasza While above 75% Health, casting Gift of Life creates a Lifeblossom at the target's location, Breath of Life instead removes Slows and Roots from the target. After collecting a Lifeblossom, the next Gift of Life costs no Health. Passive: Reduces the cost of Gift of Life to 10% of Alexstrasza's current Health."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Verdant Flourish (Level 7) Alexstrasza Alexstrasza receives 40% more healing from Abundance and 100% more healing from Regeneration Globes."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Fire Within (Level 7) Alexstrasza Hitting a Burning Hero with Flame Buffet heals Alexstrasza for 10% of her maximum Health."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Life-Binder (Level 10) Alexstrasza Mana: 50 Cooldown: 50 seconds Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero. Dragonqueen: Cast range increased by 45%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Cleansing Flame (Level 10) Alexstrasza Mana: 100 Cooldown: 100 seconds After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health. 2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Dragon Scales (Level 13) Alexstrasza Gain 50 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Pacify (Level 13) Alexstrasza Cooldown: 60 seconds Activate to Slow and reduce an enemy Hero's damage by 50% for 3 seconds. Healing a Stunned, Rooted, or Silenced ally reduces Pacify's cooldown by 30 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Life Unbound (Level 13) Alexstrasza Cooldown: 90 seconds Activate to heal an allied Hero for 15% of their maximum Health and deal 200 (+4% per level) damage to nearby enemies. Healing a Stunned, Rooted, or Silenced ally reduces Life Unbound's cooldown by 30 seconds. Cannot be used on Alexstrasza."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Tough Love (Level 16) Alexstrasza Gift of Life grants its target 10 Armor for 2.5 seconds, increased to 30 while Alexstrasza is above 75% Health."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Overprotective (Level 16) Alexstrasza Heroes healed by Abundance gain a Shield for 6 seconds equal to 50% of the amount healed."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Draconic Discipline (Level 16) Alexstrasza Increase Dragonqueen Basic Attack healing by 50%. For each allied Hero healed with Dragonqueen Basic Attacks, reduce Preservation's cooldown by 1.25 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Ritual of Life (Level 20) Alexstrasza Life-Binder activates 3 times over 6 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "On Ruby Wings (Level 20) Alexstrasza Healing or damaging 3 or more Heroes with a single Cleansing Flame fireball causes that fireball to not be consumed."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Ancient Flame (Level 20) Alexstrasza While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant Quest stacks. Passive: Dragonqueen grants 25% more maxium Health."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Blessing of the Red (Level 20) Alexstrasza Cooldown: 40 seconds Activate to grant an allied Hero 500 bonus maximum Health until they die. Cannot be used on Alexstrasza, or on a Hero who already has Blessing of the Red."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Alexstrasza's Talent Build",
+   "id": "alexstraszas-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n✓\n?\n?\n7\n?\n✓\n?\n10\n✓\n?\n13\n✓\n?\n?\n16\n?\n✓\n?\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Alexstrasza's Talent Build Cheatsheet",
+   "id": "alexstraszas-talent-build-cheatsheet",
+   "text": "Abundance Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's Abundance Build focuses on area of effect healing\nand increases your survivability against dives.\nConsidering that you are spending multiple Talents on Abundance,\nthis Build will be harder to play against area of effect damage\nand crowd control effects because they can\nprevent Heroes from benefitting from it.\nGift of Life Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's Gift of Life Build provides high single target\nsustain healing, regardless of being in combat or not,\nbut it comes online only after unlocking Lifeblossom at Level 7.\nThe major weakness of this Build is that its healing output goes down\nwhen Alexstrasza takes damage, so it should not be played when the enemy team\nhas Heroes who can easily dive her.\nFlame Buffet Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's Flame Buffet Build provides good self-sustain\nto increase your survivability during team fights\nand massively improves your Dragonqueen\nin the late game at the cost\nof healing and early-game power.\nAncient Flame at Level 20\ngreatly empowers Dragonqueen,\nallowing you to single-handedly win team fights if the enemy team\ndoes not play around it. Slow enemies with\nHeat Exhaustion at Level 4 and heal\nyourself with Fire Within at Level 7.\nWe do not recommend playing this Build on Maps where the\nearly game is important\n(notably Braxis Holdout) because it\nprovides low sustain healing and needs to scale\ninto the late game.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAlexstrasza's ARAM Build focuses on area of effect healing\nand increases your survivability against dives.\nConsidering that you are spending multiple Talents on Abundance,\nthis Build will be harder to play against area of effect damage\nand crowd control effects because they can\nprevent Heroes from benefitting from it."
+  },
+  {
+   "title": "Level 1 Talents for Alexstrasza",
+   "id": "level-1",
+   "text": "?\nLive and Let Live\n(Level 1)\nAlexstrasza\nWhile above 75% Health, Gift of Life's cooldown recharges 125% faster.\nDragonqueen: While above 75% Health, Breath of Life's cooldown recharges 25% faster.\nLive and Let Live is a good Talent that reduces\nthe cooldown of Gift of Life when Alexstrasza has high Health,\nincreasing her already great single-target healing output even more.\nWhile Dragonqueen is active, it reduces the cooldown\nof Breath of Life instead, but for a reduced amount.\nTo keep Alexstrasza at high Health, you have to rely on Abundance\nand either Lifeblossom or Fire Within at Level 7.\nIf you are in danger, you can even use Life-Binder\non a high-Health allied Hero to go from low to high Health yourself.\n✔\nCircle of Life\n(Level 1)\nAlexstrasza\nQuest: Collect Regeneration Globes.\nReward: After collecting 10 Regeneration Globes, Abundance heals for an additional 5% maximum Health.\nReward: After collecting 15 Regeneration Globes, Abundance's healing burst creates a Regeneration Globe.\nCircle of Life is a strong Quest-based Talent\nthat empowers the healing and utility provided by Abundance,\nnot only for allied Heroes but also for Alexstrasza herself.\nWhile Dragonqueen is active, it empowers\nthe healing provided by Preservation instead.\nThe first Reward provides more healing while the\nsecond Reward provides a Regeneration Globe—even more healing, some Mana,\nand synergy with a few Heroes (such as Mephisto with\nSpite at Level 4). Keep in mind that,\nafter 3 seconds, Regeneration Globes become neutral\nand thus enemy Heroes become able to pick them up.\nThis is the only Talent in this Tier that directly increases Alexstrasza's\nsurvivability, by healing her more with Abundance\nand by healing her with the spawning Regeneration Globe.\nThese effects work even during Dragonqueen, but only\nif you cast Abundance right before transforming,\nmaking it an interesting Talent for when building around Ancient Flame.\n?\nFlames of Fury\n(Level 1)\nAlexstrasza\nReduce the Mana cost of Flame Buffet from 50 to 40.\nQuest: Hit Burning enemy Heroes with Flame Buffet. 20 hits unlocks a Mythic Quest.\nReward: After hitting 20 Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by 6 seconds.\nMythic Quest: After hitting 30 more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.\nFlames of Fury is a decent Quest-based Talent that\nmakes Flame Buffet reduce the cooldown of\nDragonqueen each time it hits an enemy Hero.\nAfter unlocking the first Reward, you can start getting stacks for the Mythic Reward.\nAt that point, if you manage to get all the stacks required without dying,\nyou will be able to refresh Dragonqueen's\nduration when damaging enemy Heroes. Note that you cannot gain stacks\nwhile in Dragonqueen, even if you pick\nAncient Flame at Level 20.\nThe weakness of this Talent is that it forces Alexstrasza to stay nearby enemy Heroes\nwhen she is weak due to Dragonqueen being on cooldown,\nespecially considering that not going for Live and Let Live\nor Circle of Life will make her even weaker at that.\nThe strength of this Talent is that gives Alexstrasza the opportunity to use\nDragonqueen more often, something that may be\nuseful when at least on of the following points is true:\nAllied Heroes have access to self-sustain\nand enemy Heroes do not have access to too much poke damage;\nThe Map allows you to easily get Level 20 for Ancient Flame\nand you can get value from Dragonqueen on a shorter cooldown."
+  },
+  {
+   "title": "Level 4 Talents for Alexstrasza",
+   "id": "level-4",
+   "text": "✔\nSurge of Vitality\n(Level 4)\nAlexstrasza\nAbundance's healing burst grants allied Heroes 30% Movement Speed for 3 seconds.\nSurge of Vitality is a good Talent that can be a good choice\nif your frontline lacks mobility and can get value from\nadditional Movement Speed (for example Garrosh).\nAs for many other Talents and Abilities which can hit multiple targets,\nyou do not necessarily need to hit multiple allied Heroes\nwith Abundance to get enough value from this Talent.\n?\nHeat Exhaustion\n(Level 4)\nAlexstrasza\nIncrease Flame Buffet's Slow from 40% to 50% and cause it to no longer decay.\nHeat Exhaustion is a strong Talent that empowers\nthe Slow provided by Flame Buffet.\nIn particular, it increases its value and it removes its decay,\nhelping yourself to land consecutive hits and allowing allied Heroes to deal more damage.\n?\nExuberance\n(Level 4)\nAlexstrasza\nWhile above 75% Health, gain 15% Movement Speed.\nExuberance is a good Talent that gives\nmobility, something that Alexstrasza lacks and that\nis always useful to have because it helps to get a better position\nor even to escape when needed. This effect works during Dragonqueen too.\nThanks to the Movement Speed provided, Exuberance\nhas synergy with Lifeblossom at Level 7."
+  },
+  {
+   "title": "Level 7 Talents for Alexstrasza",
+   "id": "level-7",
+   "text": "?\nLifeblossom\n(Level 7)\nAlexstrasza\nWhile above 75% Health, casting Gift of Life creates a Lifeblossom at the target's location, Breath of Life instead removes Slows and Roots from the target.\nAfter collecting a Lifeblossom, the next Gift of Life costs no Health.\nPassive: Reduces the cost of Gift of Life to 10% of Alexstrasza's current Health.\nLifeblossom is a good Talent that passively\nreduces the Health cost of Gift of Life.\nFurthermore, after casting Gift of Life\nwhile having a lot of Health remaining, a Lifeblossom appears near the\ntarget and disappears after 7 seconds. If collected in time, the next\nGift of Life costs no Health.\nWhile in Dragonqueen, this Talent\nmakes the next Breath of Life remove\nRoots and Slows from the target.\nConsidering that their effect does not expire if not used,\nyou should always try to have a Lifeblossom stored for the next team fight,\nso that you will be full Health for a few more seconds,\nsomething that indirectly increases your healing output—the\nless Health you have, the less Gift of Life will heal.\nYou do not have to collect each and every Lifeblossom,\nespecially if you prioritize healing yourself with Abundance.\nIf you expect to take damage while collecting a Lifeblossom,\nthen do not collect it because its only purpose is to keep your Health high and\ntaking damage in the process would be a useless or even detrimental move.\nThanks to her Health not being consumed\nlike when not having Lifeblossom,\nAlexstrasza can get more value from\nLive and Let Live at Level 1.\n✔\nVerdant Flourish\n(Level 7)\nAlexstrasza\nAlexstrasza receives 40% more healing from Abundance and 100% more healing from Regeneration Globes.\nVerdant Flourish is a strong Talent that gives\nAlexstrasza more self-healing via Abundance and\nRegeneration Globes, therefore it has great synergy with Circle of Life\nat Level 1.\n?\nFire Within\n(Level 7)\nAlexstrasza\nHitting a Burning Hero with Flame Buffet heals Alexstrasza for 10% of her maximum Health.\nFire Within is a good Talent that increases\nAlexstrasza's self-healing, but it does not work when there are no enemy Heroes nearby.\nThanks to the Health being restored when hitting enemy Heroes with Flame Buffet,\nAlexstrasza can get more value from Live and Let Live at Level 1."
+  },
+  {
+   "title": "Level 10 Talents for Alexstrasza",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nLife-Binder\n(Level 10)\nAlexstrasza\nMana: 50\nCooldown: 50 seconds\nBind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.\nDragonqueen: Cast range increased by 45%.\nLife-Binder is a strong Heroic Ability that,\nafter linking Alexstrasza and a target allied Hero, it heals both Heroes\nby a small amount and then heals the one of the two that has less Health percentage\nup to the same Health percentage of the other Hero.\nPick it when the enemy team tends to focus all their damage\non a single Hero, but remember that its main healing effect takes 2 seconds to go off,\nso you should cast it as soon as you realize who will be focused down to death.\n?\nCleansing Flame\n(Level 10)\nAlexstrasza\nMana: 100\nCooldown: 100 seconds\nAfter 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.\n2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.\nCleansing Flame is a strong Heroic Ability that\nmostly heals allied Heroes in the target area but also deals some damage to enemies hit,\nmaking it a great addition during team fights.\nWe find this Heroic Ability particularly useful as it not only heals but it also\nmakes Alexstrasza not targetable for its duration, often saving your life.\nDragonqueen is paused during it."
+  },
+  {
+   "title": "Level 13 Talents for Alexstrasza",
+   "id": "level-13",
+   "text": "✔\nDragon Scales\n(Level 13)\nAlexstrasza\nGain 50 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.\nDragon Scales is a good defensive Talent that, every 10 seconds,\ncan give you a high amount of Armor for a duration equal to 2 seconds plus the duration\nof the longest valid crowd control effect—Stun,\nRoot, or Silence—that hit you while it isn't on cooldown.\nWhen you get hit by one of the aforementioned crowd control effects,\nthe effect goes off and you gain Armor. When you get hit again by one of them\nwhile the effect is active, the effect continues and its duration gets extended. When all of them expire,\nthe cooldown starts ticking and the effect continues for 2 more seconds and then expires.\nTo counter this Talent, the enemy team should wait for a crowd control\neffect to end before using the next one, otherwise Dragon Scales stays active\nfor longer and Alexstrasza becomes harder to kill. Armor reduction effects help them,\nbut it is still better for them to play around it.\n?\nPacify\n(Level 13)\nAlexstrasza\nCooldown: 60 seconds\nActivate to Slow and reduce an enemy Hero's damage by 50% for 3 seconds.\nHealing a Stunned, Rooted, or Silenced ally reduces Pacify's cooldown by 30 seconds.\nPacify is a useful defensive Talent that provides a form of\npeeling to Alexstrasza, something that she definitely lacks.\nPick it while playing against Heroes who can dive in the\nbackline of your team (such as Illidan).\nRemember that healing Heroes affected by Stun, Root,\nor Silence effects will reduce its cooldown by 30 seconds.\nYou can easily get value from this by healing allied Heroes with Dragonqueen's Basic Attacks.\n?\nLife Unbound\n(Level 13)\nAlexstrasza\nCooldown: 90 seconds\nActivate to heal an allied Hero for 15% of their maximum Health and deal 200 (+4% per level) damage to nearby enemies.\nHealing a Stunned, Rooted, or Silenced ally reduces Life Unbound's cooldown by 30 seconds.\nCannot be used on Alexstrasza.\nLife Unbound is a solid healing Talent that increases\nyour healing output even more, especially if used on Heroes with high maximum Health\n(such as Stitches or Tanks in general), and deals\nsome area of effect damage around the chosen allied Hero,\nbut it cannot be used to heal Alexstrasza.\nRemember that healing Heroes affected by Stun, Root,\nor Silence effects will reduce its cooldown by 30 seconds.\nYou can easily get value from this by healing allied Heroes with Dragonqueen's Basic Attacks."
+  },
+  {
+   "title": "Level 16 Talents for Alexstrasza",
+   "id": "level-16",
+   "text": "?\nTough Love\n(Level 16)\nAlexstrasza\nGift of Life grants its target 10 Armor for 2.5 seconds, increased to 30 while Alexstrasza is above 75% Health.\nTough Love is a good Talent that makes\nGift of Life give a fixed amount of Armor\nto the target allied Hero, increased if Alexstrasza has high Health.\nNote that Alexstrasza cannot get Armor from this Talent\nbecause Gift of Life cannot be self-cast.\nReducing the damage allied Heroes take, however,\nindirectly helps you pay less Health to save them.\nIf you struggle to keep your team alive against\nburst damage, this Talent is quite useful.\nYou can also use it as a buffer, to ensure that\nLife-Binder goes off\nbefore the targeted allied Hero dies.\n✔\nOverprotective\n(Level 16)\nAlexstrasza\nHeroes healed by Abundance gain a Shield for 6 seconds equal to 50% of the amount healed.\nOverprotective is a strong Talent that adds\nadditional protection to allied Heroes affected by Abundance\nin the form of Shields.\nYou can get more value from this Talent if your team has a lot of melee Heroes\nand the enemy team does not have ways to completely deny its value.\nAlternatively, you can pick it to increase your own survivability,\nwhich can be useful when playing against dive Heroes.\n?\nDraconic Discipline\n(Level 16)\nAlexstrasza\nIncrease Dragonqueen Basic Attack healing by 50%. For each allied Hero healed with Dragonqueen Basic Attacks, reduce Preservation's cooldown by 1.25 seconds.\nDraconic Discipline is a good Talent that,\nwhile in Dragonqueen,\nincrease the healing done via Basic Attacks and\nreduces the cooldown of Preservation\nwhen healing allied Heroes via Basic Attacks.\nThe cooldown reduction allows you to cast Preservation\nmultiple times while in Dragonqueen, even\nwithout using Cleansing Flame to extend its duration."
+  },
+  {
+   "title": "Level 20 Talents for Alexstrasza",
+   "id": "level-20",
+   "text": "✔\nRitual of Life\n(Level 20)\nAlexstrasza\nLife-Binder activates 3 times over 6 seconds.\nRitual of Life is a strong Talent that makes\nLife-Binder heal three times,\neffectively making Alexstrasza and another Hero in your team very hard to kill for 6 seconds.\n?\nOn Ruby Wings\n(Level 20)\nAlexstrasza\nHealing or damaging 3 or more Heroes with a single Cleansing Flame fireball causes that fireball to not be consumed.\nOn Ruby Wings is a good Talent that allows\nAlexstrasza to continue using Cleansing Flame\nwithout consuming charges as long as she keeps hitting at least 3 Heroes\nwith it. Whether they are allied or enemy Heroes, it does not matter.\nIf you use Dragonqueen and then cast\nCleansing Flame before it expires,\nthe transformation will last for a total of 30 seconds.\nWhen doing so, you will skip the channel time for Cleansing Flame\nbecause it is instant cast during Dragonqueen.\nBased on the situation, you may want to use both Abilities together or split them.\n?\nAncient Flame\n(Level 20)\nAlexstrasza\nWhile Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant Quest stacks.\nPassive: Dragonqueen grants 25% more maxium Health.\nAncient Flame is a good Talent that,\nwhile in Dragonqueen, increases your\nmaximum Health and makes each Basic Attack count as a cast of\nFlame Buffet. You will benefit from\nall related Talents but you will not be able to gain stacks\nfor Flame Buffet.\nSince Dragonqueen's cooldown starts when\nits effect ends, you cannot use Flames of Fury\nat Level 1 in combination with Ancient Flame\nto have a second Dragonqueen cast available\nwhen the effect from the first one expires.\nIn order for this Talent to be worth picking over the alternatives,\nyou need at least Fire Within at Level 7\nto increase your self-healing during team fights\nand preferably Heat Exhaustion at Level 4\nto keep enemy Heroes within range of your Basic Attacks for longer.\n?\nBlessing of the Red\n(Level 20)\nAlexstrasza\nCooldown: 40 seconds\nActivate to grant an allied Hero 500 bonus maximum Health until they die.\nCannot be used on Alexstrasza, or on a Hero who already has Blessing of the Red.\nBlessing of the Red is a situational Talent that\ncan be used to provide 500 non-scaling bonus maximum Health to an allied Hero\nuntil they die, making them more resilient to burst damage.\nUse it on Heroes who struggle to survive when being focused\ndown by the enemy team because they have low maximum Health (for example Tracer).\nYou can also pick it when you are going for the enemy Core and it makes no sense to empower\nyour Heroic Ability or Trait as they are on cooldown."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026: Guide reviewed for the latest Balance Update.\n20 Jul. 2026: Guide updated for the latest Patch.\n12 Feb. 2026: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n12 Dec. 2023: Guide reviewed.\n23 Sep. 2023: Guide reviewed for the latest Bug Fixes.\n20 Sep. 2023: ARAM Build added.\n09 Aug. 2022: Builds updated.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n25 Jun. 2021: Builds updated.\n22 Mar. 2021: Builds updated.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n21 Feb. 2021: Builds updated.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n11 Oct. 2020: Guide reviewed for the latest Balance Update.\n22 May 2020: Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n05 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n25 Nov. 2019: Revised Alexstrasza's guide and added the Flame Build. Also updated her talents in accordance with the latest Balance Update.\n03 Jun. 2019: Changed Fire Within from Not Recommended to Situational and also updated Alexstrasza's talent builds accordingly.\n31 Jan. 2019: Changed Life-Binder from Situational to Recommended and applied additional changes to Alexstrasza's Talent Builds.\n15 Oct. 2018: Changed Blessing of the Red from Not Recommended to Recommended.\n19 Feb. 2018: Added the Abundance Build and deleted the Flame Build. Updated Alexstrasza's talents accordingly.\n12 Dec. 2017: Added in-depth talent descriptions and changed various talents in terms of their viability.\n05 Dec. 2017: Changed Life-Binder with Cleansing Flame in the Heal build.\n23 Nov. 2017: Changed Draconic Discipline from Not Recommended to Recommended.\nShow more\nShow less"
+  }
+ ]
+}

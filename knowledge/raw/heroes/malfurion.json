@@ -1,0 +1,265 @@
+{
+ "slug": "malfurion",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/malfurion-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/malfurion-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/malfurion-talents"
+ },
+ "guide": [
+  {
+   "title": "Malfurion's Overview",
+   "id": "malfurions-overview",
+   "text": "Malfurion is a ranged Healer that specialises in highly efficient\nhealing-over-time and strong debuffs. When paired with\nHeroes that can properly protect him and cover his damage deficiency, his\nhealing is a natural way to sway any extensive battle in his favour."
+  },
+  {
+   "title": "Malfurion's Strengths and Weaknesses",
+   "id": "malfurions-strengths-and-weaknesses",
+   "text": "Strengths\nOutstanding healing over time with Regrowth and Tranquility\nVery strong area of effect crowd control through Entangling Roots\nInnervate is valuable to Mana-hungry allied Heroes\nExtremely versatile Talent choices to adapt to a broad variety of situations\nWeaknesses\nStruggles against burst damage\nVulnerable to dive\nLow waveclear\nUnable to dispel Silence effects\nUnable to provide Unstoppable frames"
+  },
+  {
+   "title": "Malfurion's Talent Build Cheatsheet",
+   "id": "malfurions-talent-build-cheatsheet",
+   "text": "Nature's Balance Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalfurion's Nature's Balance Build makes it easier to hit enemy Heroes\nwith Moonfire and to keep Regrowth\nactive on allied Heroes in the late game.\nRejuvenation at Level 4 is important to have\nwhen you are the only Healer in your team.\nWhen that is not the case, you can replace it with either\nCelestial Alignment for more damage\nor with Shan'do's Clarity to enable\nan allied Hero with more Mana and cooldown reduction.\nNature's Swiftness at Level 13 drastically\nincreases your survivability, however, it can occasionally be replaced\nwith Hindering Moonfire when facing Heroes\nwho can be kited (such as Garrosh)\nor with Revitalize when you need more Mana.\nMoonlit Harmony Build\nAdvanced\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalfurion's Moonlit Harmony Build allows you to deal a lot healing with\na single Moonfire in the late game,\nespecially if you are able to constantly hit multiple enemy Heroes at once.\nRejuvenation at Level 4 is important to have\nwhen you are the only Healer in your team.\nWhen that is not the case, you can replace it with either\nCelestial Alignment for more damage\nor with Shan'do's Clarity to enable\nan allied Hero with more Mana and cooldown reduction.\nNature's Swiftness at Level 13 drastically\nincreases your survivability, however, it can occasionally be replaced\nwith Hindering Moonfire when facing Heroes\nwho can be kited (such as Garrosh)\nor with Revitalize when you need more Mana.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalfurion's ARAM Build makes it easier to hit enemy Heroes\nwith Moonfire and to keep Regrowth\nactive on allied Heroes in the late game.\nRejuvenation at Level 4 is important to have\nwhen you are the only Healer in your team.\nWhen that is not the case, you can replace it with either\nCelestial Alignment for more damage\nor with Shan'do's Clarity to enable\nan allied Hero with more Mana and cooldown reduction.\nNature's Swiftness at Level 13 drastically\nincreases your survivability, however, it can occasionally be replaced\nwith Hindering Moonfire when facing Heroes\nwho can be kited (such as Garrosh)\nor with Revitalize when you need more Mana.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Malfurion's Synergies and Counters",
+   "id": "malfurions-synergies-and-counters",
+   "text": "Malfurion synergizes with\nInnervate makes Malfurion a natural ally to any Hero that heavily\nrelies on cooldowns or Mana. Entangling Roots also makes him excellent\nat following up on anything that can provide their own source of\nreliable crowd control.\nMalfurion is countered by\nAlthough not particularly vulnerable to any specific Hero himself, Malfurion\ntends to struggle against burst damage. His sub-par waveclear can also\nbe problematic if your team composition does not make up for this weakness\nsomewhere else."
+  },
+  {
+   "title": "Malfurion's Maps",
+   "id": "malfurions-maps",
+   "text": "Malfurion's stronger maps\nMalfurion's average maps\nMalfurion's weaker maps\nMalfurion tends to do well on Maps that feature many choke points,\nas he can easily get value from Entangling Roots there, and on Maps\nwhere team fights are not extremely long, as he would end up having Mana issues.\nIn general, however, his versatility makes him a solid pick on most Maps.\nTeam compositions should be the most important factor to consider when drafting\nMalfurion because not having any protection from allied Heroes may be a problem."
+  },
+  {
+   "title": "Malfurion's Tips and Tricks",
+   "id": "malfurions-tips-and-tricks",
+   "text": "Innervate on Mana-hungry Heroes, notably, casters such as Kael'thas or Jaina, who can not function without Mana.\nKeep Regrowth on multiple high-priority Heroes, even if they are at full Health.\nMoonfire is useful for quickly checking bushes, dismounting or revealing opponents, and clearing Zagara's Creep Tumors.\nEntangling Roots is much easier to land on targets that have already been crowd controlled.\nKeep your Tranquility for heated team fights, where several teammates may require healing.\nTwilight Dream is an excellent counter-initiating tool, especially against multiple melee Heroes.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Malfurion's Role in the Current Meta",
+   "id": "malfurions-role-in-the-current-meta",
+   "text": "Malfurion's very distinct Abilities make him a versatile Healer.\nAlthough he lacks damage, he has several tools at his disposal that make him\nuseful during all stages of the game. His Trait, Innervate, has\nthe unique ability to provide an allied Hero with additional Mana.\nEntangling Roots is one of the game's\nstrongest follow-up crowd control Abilities\naround, and Moonfire is a cheap and reliable poke\nthat temporarily reveals Stealthed entities.\nMalfurion's main healing Abilities, Regrowth and\nTranquility, have high raw healing outputs to make\nup for the fact that they do not instantly heal. Moonfire can situationally\nprovide some burst healing, though this depends directly on the Malfurion\nPlayer's skill level. This makes Malfurion a natural counter to team\ncompositions that lack single-target burst damage. He is thus commonly picked\nagainst teams that run two or fewer Assassins, or as part of a composition that\nis resilient enough to survive large amounts of upfront burst damage."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Sep. 2025 (talents page): Guide reviewed.\n20 Sep. 2025 (abilities page): Guide reviewed.\n20 Sep. 2025 (this page): Guide reviewed.\n18 Jun. 2025 (talents page): Builds updated with Situational Talents.\n18 Jun. 2025 (this page): Builds updated with Situational Talents.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n17 Dec. 2023 (talents page): Guide reviewed.\n17 Dec. 2023 (this page): Guide reviewed.\n22 Sep. 2023 (talents page): ARAM Build added.\n22 Sep. 2023 (this page): ARAM Build added.\n07 Jul. 2022 (talents page): Builds updated.\n07 Jul. 2022 (this page): Builds updated.\n04 Feb. 2022 (talents page): Guide updated for the latest Balance Update.\n04 Feb. 2022 (abilities page): Guide reviewed for the latest Balance Update.\n04 Feb. 2022 (this page): Guide reviewed for the latest Balance Update.\n25 Jun. 2021 (talents page): Builds updated.\n25 Jun. 2021 (this page): Builds updated.\n07 Mar. 2021 (talents page): Talent tier 1 and 2 swapped and recommendations updated following March 2 patch rework.\n27 Oct. 2020 (talents page): Tranquility and Serenity recommended.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n19 Jul. 2020 (talents page): Talents and recommendations reviewed.\n15 Feb. 2020 (talents page): Talents and recommendations updated to reflect February 12 patch rework.\n09 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n28 Jul. 2018 (talents page): Talents and recommendations updated to reflect July 25 balance patch changes.\n09 Jan. 2018 (talents page): Guide fully updated to reflect the Malfurion rework of the Blaze patch.\n09 Jan. 2018 (this page): Guide fully updated to reflect the Malfurion rework of the Blaze patch.\n29 Nov. 2017 (talents page): Removed the Moonburn Talent and added its Celestial Attunement replacement.\n13 Jun. 2017 (talents page): Complete revamp of the page following Malfurion's rework in Malthael's patch.\n13 Jun. 2017 (this page): Updated strengths, weaknesses, and role in the current meta, following Malfurion's rework in Malthael's patch.\n26 Apr. 2017 (talents page): Made Scouting Drone situation (was previously not recommended).\n13 Jan. 2017 (this page): Guide updated and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Malfurion's Tips and Tricks",
+   "id": "malfurions-tips-and-tricks",
+   "text": "Innervate on Mana-hungry Heroes, notably, casters such as Kael'thas or Jaina, who can not function without Mana.\nKeep Regrowth on multiple high-priority Heroes, even if they are at full Health.\nMoonfire is useful for quickly checking bushes, dismounting or revealing opponents, and clearing Zagara's Creep Tumors.\nEntangling Roots is much easier to land on targets that have already been crowd controlled.\nKeep your Tranquility for heated team fights, where several teammates may require healing.\nTwilight Dream is an excellent counter-initiating tool, especially against multiple melee Heroes."
+  },
+  {
+   "title": "Regrowth",
+   "id": "regrowth",
+   "text": "Regrowth\n(Q)\nMalfurion\nMana: 35\nCooldown: 5 seconds\nHeal an allied Hero for 380 (+4% per level) Health over 20 seconds.\nRegrowth is one of the strongest single-target healing Basic Abilities in the game\nin terms of raw healing value potential, however, its power is kept in check by the fact\nthat its total healing is spread out over a lengthy 20-second period.\nIn addition to that, allied Heroes affected by Regrowth receive a moderate burst of healing\nfor each enemy Hero hit by Moonfire.\nTo increase your healing output from Moonfire,\nyou need to maintain Regrowth's effect on multiple allied Heroes.\nTo avoid wasting Mana, you should keep Regrowth active on 2-3 high-priority targets,\nbased on how they position and how much they get focused by the enemy team.\nDoing so before the team fights even start\nwill significantly improve your overall healing potential\nas your first Moonfire will heal multiple allied Heroes\nrather than a single one who just received Regrowth.\nA leaf icon above allied Heroes will help you see who is currently affected by Regrowth\nand its remaining duration. The icon will be green at first, then it will become orange\nat 10 second remaining, and then it will turn red at 5 seconds remaining.\nConsidering that Regrowth has a 5-second cooldown, a red leaf usually means\nthat you will have to cast Regrowth on that target as soon as it expires,\nunless someone else needs healing more than them.\nSince the healing effect provided by Regrowth does not stack with itself,\nnever recast Regrowth on targets with a green leaf\nand avoid recasting Regrowth on targets with an orange leaf\nunless you really need to refresh its duration\nas you expect them to go out of range soon,\nbecause one of you is traveling to another lane\nor because they are going to dive."
+  },
+  {
+   "title": "Moonfire",
+   "id": "moonfire",
+   "text": "Moonfire\n(W)\nMalfurion\nMana: 10\nCooldown: 3 seconds\nDeal 90 (+4% per level) damage to enemies in an area and reveal them for 2 seconds.\nAllies with an active Regrowth are healed for 130 (+4% per level) Health for each enemy Hero hit by Moonfire.\nMoonfire is a Basic Ability that deals very little damage per cast\nfor a negligible cost of Mana and with an extremely low cooldown.\nMoonfire's relatively long range and instantaneous damage make it\ngood for interrupting enemy Heroes who are\ntrying to channel Objectives,\nfor revealing enemy Heroes who are in Stealth,\nand for checking bushes before allied Heroes facecheck them.\nWhen combined with Regrowth, Moonfire then becomes a powerful\nhealing tool, as each ally affected by Regrowth is instantly healed for each\nenemy hit by Moonfire. One notable aspect of this is that it allows Malfurion to\nheal allied Heroes regardless of how far they are, as long as Regrowth affects them.\nBecause of this, Malfurion is one of the best Healers for dive Heroes.\nBe patient with Moonfire: you should prefer waiting an extra second\nto be sure it connects, otherwise you will not get any healing from it.\nTo further increase your healing, try to hit as many enemy Heroes as possible with each Moonfire,\nalthough that is quite hard to do if the enemy team does not tend to clump\nin their frontline while fighting.\nBe mindful, however, of not putting\nyourself at risk by overextending just to hit with Moonfire,\nas you may end up simply taking more damage or even dying."
+  },
+  {
+   "title": "Entangling Roots",
+   "id": "entangling-roots",
+   "text": "Entangling Roots\n(E)\nMalfurion\nMana: 65\nCooldown: 12 seconds\nRoot enemy Heroes in an area for 1.25 seconds, and deal 117 (+4% per level) damage over the duration. Affected area grows over 3 seconds.\nEntangling Roots' limited initial area of effect makes it difficult to\noutright land on targets that are actively looking out for it. There are still\nseveral ways of making good use of the Ability. By targeting Entangling Roots in\nsuch a way that the small circle is directly on top of an intended target, you\ncan greatly improve your chances of hitting. This is especially useful against\nattacking or channeling foes.\nA good tactic is also to cast\nEntangling Roots in the path of a moving foe so that they are either forced to\nwalk into it or wait for it to expire, blocking them off. Entangling Roots'\nmain use, however, is simply as a follow-up tool: by using\nthe Ability against foes that have already been crowd controlled,\nyou can ensure successful hits and greatly improve your teammates' uptime.\nIt should be noted that Entangling Roots has a high Mana cost relative to\nMalfurion's other Abilities."
+  },
+  {
+   "title": "Tranquility",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nTranquility\n(R)\nMalfurion\nHeroic\nMana: 80\nCooldown: 80 seconds\nHeal nearby allied Heroes for 80 (+4% per level) Health per second for 8 seconds. Allies affected by Regrowth within Tranquility's area gain 10 Armor.\nTranquility is a game-changing Heroic Ability, whose power is directly\nproportional to how many Heroes it heals over its duration. It is therefore\ntypically used when many allies are likely to be taking large amounts of damage,\nsuch as when team fights break out. A large circle around Malfurion indicates\nthe Ability's area of effect while it is active; always try and keep as many\nallied Heroes within its bounds as possible so as to maximise its efficiency.\nThis is an especially important aspect of using the Ability when considering\nthat Tranquility's cooldown is one of the longest in the game, and that it is\ntuned around healing multiple targets rather than one only. Tranquility also\nprovides a modest amount of Armor to allies affected by Regrowth,\nwhich can help against burst damage."
+  },
+  {
+   "title": "Twilight Dream",
+   "id": "twilight-dream",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nTwilight Dream\n(R)\nMalfurion\nHeroic\nMana: 100\nCooldown: 90 seconds\nAfter 0.5 seconds, deal 310 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.\nAlthough Malfurion is a Healer,\nTwilight Dream deals a surprisingly large\namount of area of effect damage. The Silence effect, however, is what makes\nTwilight Dream so dangerous. Silencing an entire team for such a long duration\nis more than debilitating; it is fight-winning, especially when valuable\nchanneled Abilities end up being\ninterrupted by it. Though hitting multiple\nenemies can be mechanically easy due to the Ability's enormous area of effect,\nMalfurion is seldom going to be allowed to freely position himself where it\nwould be optimal. This is why Twilight Dream is typically used as a secondary\npiece of an Ability combo, or as a mean of counter-initiating."
+  },
+  {
+   "title": "Innervate",
+   "id": "innervate",
+   "text": "Innervate\n(D)\nMalfurion\nCooldown: 25 seconds\nGrant an allied Hero 20% of their maximum Mana over 5 seconds. While affected by Innervate, their Basic Ability cooldowns recharge 50% faster.\nCannot be used on Heroes that do not use Mana.\nInnervate is a Trait that can be used to make an allied Hero restore\nsome Mana over time and, more importantly, give them cooldown reduction\non Basic Abilities. When used at the right time and on the right Heroes,\nthis effect can turn the fight in your favor.\nThe best targets need Basic Abilites with a relatively short cooldown\n(usable multiple times while under Innervate), multiple ways to get value\nfrom them (mobility, survivability, damage, waveclear, crowd control),\nor Heroes who need more Mana to stay on the battlefield for longer.\nThe best Heroes for casting Innervate on are:\nArtanis;\nChromie;\nGul'dan;\nJaina;\nLi-Ming;\nMaiev;\nMalthael;\nMedivh;\nMephisto;\nOrphea;\nTassadar."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Sep. 2025: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n04 Feb. 2022: Guide reviewed for the latest Balance Update.\n11 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "Deep Roots (Level 1) Malfurion Entangling Roots grows 25% larger, and persist on the ground 40% longer. Repeatable Quest: Every time an enemy Hero becomes Rooted, gain 14 Mana permanently."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Vengeful Roots (Level 1) Malfurion Entangling Roots spawns a Treant that deals 58 damage per second and loses Health over 11 seconds. Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's Basic Attack damage by 7."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Emerald Dreams (Level 1) Malfurion Entangling Roots Sleeps enemy Heroes for 2 seconds after its Root expires."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Rejuvenation (Level 4) Malfurion Casting Regrowth on an ally also grants Malfurion its effect for 50% normal duration."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Celestial Alignment (Level 4) Malfurion Increase Moonfire's reveal duration by 3 seconds. Malfurion's Basic Attacks against Heroes revealed by Moonfire deal 85% more damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Shan'do's Clarity (Level 4) Malfurion Gain a second charge of Innervate. Its cooldown recharges 25% faster per ally affected by Regrowth."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Wild Growth (Level 7) Malfurion Each Hero hit by Moonfire extends the duration of currently active Regrowths by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Tenacious Roots (Level 7) Malfurion Increase the Root duration of Entangling Roots by 25%. When Malfurion is Stunned, the cooldown of Entangling Roots is instantly reset. This can only occur every 10 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Nature's Cure (Level 7) Malfurion Activate to remove all Stuns, Roots, and Slows from allies affected by Regrowth."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Tranquility (Level 10) Malfurion Mana: 80 Cooldown: 80 seconds Heal nearby allied Heroes for 80 (+4% per level) Health per second for 8 seconds. Allies affected by Regrowth within Tranquility's area gain 10 Armor."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Twilight Dream (Level 10) Malfurion Mana: 100 Cooldown: 90 seconds After 0.5 seconds, deal 310 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Nature's Swiftness (Level 13) Malfurion Malfurion gains 6% Movement Speed for every active Regrowth."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Hindering Moonfire (Level 13) Malfurion Moonfire Slows Heroes hit by 25% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Revitalize (Level 13) Malfurion Using Innervate also grants Malfurion 15% of his max Mana and causes his Basic Ability cooldowns to refresh 50% faster for 5 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Ysera's Gift (Level 16) Malfurion While Malfurion is above 75% Health, Regrowth's healing-over-time is increased by 75%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Nature's Balance (Level 16) Malfurion Increase Moonfire's area by 25% and Regrowth's duration by 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Moonlit Harmony (Level 16) Malfurion Increase Moonfire's heal by 20%, and 15% per ally affected by Regrowth."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Serenity (Level 20) Malfurion Each enemy Hero hit by Moonfire reduces the cooldown of Tranquility by 3 seconds. Increase Tranquility's healing by 25% and 10% per ally affected by Regrowth."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Astral Communion (Level 20) Malfurion Activate to Channel for 1 second, and then instantly teleport and cast Twilight Dream at the targeted location. Cooldown is shared with Twilight Dream. Passive: Increase Twilight Dream's Silence duration to 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Lifebloom (Level 20) Malfurion Casting Regrowth instantly heals its target for 10% of their missing Health."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Lunar Shower (Level 20) Malfurion If Moonfire hits a Hero, its cooldown is reduced by 1 second and the next Moonfire within 6 seconds deals 20% more damage. This damage bonus stacks up to 60%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Malfurion's Talent Build",
+   "id": "malfurions-talent-build",
+   "text": "Level\nChoices\n1\n✘︎\n✓\n?\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n✓\n?\n13\n✓\n?\n?\n16\n?\n✓\n?\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Malfurion's Talent Build Cheatsheet",
+   "id": "malfurions-talent-build-cheatsheet",
+   "text": "Nature's Balance Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalfurion's Nature's Balance Build makes it easier to hit enemy Heroes\nwith Moonfire and to keep Regrowth\nactive on allied Heroes in the late game.\nRejuvenation at Level 4 is important to have\nwhen you are the only Healer in your team.\nWhen that is not the case, you can replace it with either\nCelestial Alignment for more damage\nor with Shan'do's Clarity to enable\nan allied Hero with more Mana and cooldown reduction.\nNature's Swiftness at Level 13 drastically\nincreases your survivability, however, it can occasionally be replaced\nwith Hindering Moonfire when facing Heroes\nwho can be kited (such as Garrosh)\nor with Revitalize when you need more Mana.\nMoonlit Harmony Build\nAdvanced\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalfurion's Moonlit Harmony Build allows you to deal a lot healing with\na single Moonfire in the late game,\nespecially if you are able to constantly hit multiple enemy Heroes at once.\nRejuvenation at Level 4 is important to have\nwhen you are the only Healer in your team.\nWhen that is not the case, you can replace it with either\nCelestial Alignment for more damage\nor with Shan'do's Clarity to enable\nan allied Hero with more Mana and cooldown reduction.\nNature's Swiftness at Level 13 drastically\nincreases your survivability, however, it can occasionally be replaced\nwith Hindering Moonfire when facing Heroes\nwho can be kited (such as Garrosh)\nor with Revitalize when you need more Mana.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMalfurion's ARAM Build makes it easier to hit enemy Heroes\nwith Moonfire and to keep Regrowth\nactive on allied Heroes in the late game.\nRejuvenation at Level 4 is important to have\nwhen you are the only Healer in your team.\nWhen that is not the case, you can replace it with either\nCelestial Alignment for more damage\nor with Shan'do's Clarity to enable\nan allied Hero with more Mana and cooldown reduction.\nNature's Swiftness at Level 13 drastically\nincreases your survivability, however, it can occasionally be replaced\nwith Hindering Moonfire when facing Heroes\nwho can be kited (such as Garrosh)\nor with Revitalize when you need more Mana."
+  },
+  {
+   "title": "Level 1 Talents for Malfurion",
+   "id": "level-1",
+   "text": "✘\nDeep Roots\n(Level 1)\nMalfurion\nEntangling Roots grows 25% larger, and persist on the ground 40% longer.\nRepeatable Quest: Every time an enemy Hero becomes Rooted, gain 14 Mana permanently.\nDeep Roots is a weak Talent that\nmakes Entangling Roots significantly more difficult to avoid.\nSince the initial area of the Ability is also increased by this Talent,\nDeep Roots also helps with accuracy when you need to Root a moving target.\nWe find this Talent lackluster because Malfurion should not have big Mana issues when played correctly\nand the zoning value provided is not good enough when compared to the alternatives in the same Tier.\n✔\nVengeful Roots\n(Level 1)\nMalfurion\nEntangling Roots spawns a Treant that deals 58 damage per second and loses Health over 11 seconds.\nRepeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's Basic Attack damage by 7.\nVengeful Roots is a good Talent that provides Malfurion with\nsurprisingly potent single-target damage output, allowing him\nto fend off several Assassins. The Treant summoned by this Talent may also\nblock certain Abilities to mitigate damage or otherwise\nmake targeting difficult.\nAvoid picking this Talent when playing against Heroes who benefit from enemy Summons\nor you will help the enemy team in various ways, depending on which Heroes they have\n(for example, Tyrande can hit it with Basic Attacks to reduce\nLight of Elune's cooldown).\n?\nEmerald Dreams\n(Level 1)\nMalfurion\nEntangling Roots Sleeps enemy Heroes for 2 seconds after its Root expires.\nEmerald Dreams is a strong Talent that adds a powerful\nSleep effect to Entangling Roots,\nright after its Root expires, but not when it gets removed.\nThanks to the fact that Sleep does not break\nwhen the target takes damage within 0.5 seconds from its application,\nthis Talent can be used to keep an enemy Hero locked in place for 0.5 more seconds\nwhile they are being focused by your team.\nSecondly, you can keep an enemy Hero out of combat for up to 3.25 seconds,\ngiven your allies do not damage them and thus break the Sleep effect.\nThis strategy requires awareness and coordination. As such, it works better\nat higher Ranks and benefits from voice communication with your teammates.\nLast but not the least, this Talent can be used to interrupt\npowerful channeled Abilities (such as\nMosh Pit by E.T.C.) without having to pick\nTwilight Dream at Level 10."
+  },
+  {
+   "title": "Level 4 Talents for Malfurion",
+   "id": "level-4",
+   "text": "✔\nRejuvenation\n(Level 4)\nMalfurion\nCasting Regrowth on an ally also grants Malfurion its effect for 50% normal duration.\nRejuvenation allows Malfurion\nto benefit from Moonfire's triggering\neffect without having to waste precious Regrowth casts upon himself,\nindirectly increasing your survivability.\nThis free Regrowth counts for Talents\nthat become more powerful based on its presence or their quantity:\nNature's Cure at Level 7 to be able to\ncleanse an additional allied Hero,\nTranquility at Level 10 for Armor on Malfurion,\nNature's Swiftness at Level 13 for Movement Speed on Malfurion,\nYsera's Gift at Level 16 to self-heal and meet the Health threshold,\nMoonlit Harmony at Level 16 to heal more with Moonfire,\nand Serenity at Level 20 to heal more with Tranquility.\n?\nCelestial Alignment\n(Level 4)\nMalfurion\nIncrease Moonfire's reveal duration by 3 seconds. Malfurion's Basic Attacks against Heroes revealed by Moonfire deal 85% more damage.\nCelestial Alignment is a situational Talent that makes\nyour Basic Attack deal more damage to enemy Heroes who have been recently hit by\nMoonfire and that increases the duration of the\nreveal effect applied by Moonfire, even when used\non the ground to gain vision in a bush.\nThe increased reveal duration is also\nparticularly useful for keeping track of opponents around Objectives that\nfeature surrounding bushes and impassable terrain\n(such as on Cursed Hollow, Dragon Shire,\nInfernal Shrines, or Towers of Doom).\nCelestial Alignment is viable in the rare\ncases where the opposing team composition features no dive or otherwise\nthreatening Assassin to try and pick you off. Celestial\nAlignment is particularly effective against Genji and Tracer, as their limited\nHealth pools and reliance on avoiding damage to survive makes them weak to\npowerful Basic Attacks.\n?\nShan'do's Clarity\n(Level 4)\nMalfurion\nGain a second charge of Innervate. Its cooldown recharges 25% faster per ally affected by Regrowth.\nShan'do's Clarity is a situational Talent that\nreduces Innervate's cooldown based on how many\nallied Heroes have Regrowth on them.\nWe find this Talent particularly good when playing with another Healer\nin team. Since battles will tend to last longer than usual, your teammates\nwill need the Mana provided by Innervate."
+  },
+  {
+   "title": "Level 7 Talents for Malfurion",
+   "id": "level-7",
+   "text": "✔\nWild Growth\n(Level 7)\nMalfurion\nEach Hero hit by Moonfire extends the duration of currently active Regrowths by 1 second.\nWild Growth is a good Talent that increases\nthe combat duration of Regrowth by\napproximately 10 seconds, given you are being consistent with Moonfire\nhits. This allows you to maintain Regrowth on more targets and reduces the\nchance its duration will run out during key moments to ultimately greatly\nimprove Malfurion's overall healing output in a subtle way.\n?\nTenacious Roots\n(Level 7)\nMalfurion\nIncrease the Root duration of Entangling Roots by 25%. When Malfurion is Stunned, the cooldown of Entangling Roots is instantly reset. This can only occur every 10 seconds.\nTenacious Roots is a situational Talent\nthat can be useful to stop dive Heroes\nwith a second Entangling Roots\nafter Malfurion gets Stunned, granted you manage to cast\nthe first Entangling Roots before that happens.\n?\nNature's Cure\n(Level 7)\nMalfurion\nActivate to remove all Stuns, Roots, and Slows from allies affected by Regrowth.\nNature's Cure is a strong Talent that\nprovides Malfurion with a potentially powerful area of effect\ncleanse effect (although it does not give Unstoppable)\nwith unlimited range as long as Regrowth is\nactive on your intended target.\nBe careful to not waste it for trying to remove an effect that cannot be removed. You can use\nit to remove Stun, Sleep, Root, and\nSlow effects. You cannot use it to remove any other effect."
+  },
+  {
+   "title": "Level 10 Talents for Malfurion",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nTranquility\n(Level 10)\nMalfurion\nMana: 80\nCooldown: 80 seconds\nHeal nearby allied Heroes for 80 (+4% per level) Health per second for 8 seconds. Allies affected by Regrowth within Tranquility's area gain 10 Armor.\nTranquility's popularity stems from its simplicity\nand effectiveness. There is little that can go wrong with delivering a sizeable\namount of healing in a large area of effect; it just needs to be used at the right\ntime, which is to say, during important team fights.\n?\nTwilight Dream\n(Level 10)\nMalfurion\nMana: 100\nCooldown: 90 seconds\nAfter 0.5 seconds, deal 310 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.\nAlthough Malfurion is a Healer,\nTwilight Dream deals a surprisingly large\namount of area of effect damage. The Silence effect, however, is what makes\nTwilight Dream so dangerous. Silencing an entire team, or even a few key Heroes,\nfor such a long duration is more than debilitating; it is fight-winning,\nespecially when valuable channeled Abilities\nend up being interrupted by it. Though hitting multiple\nenemies can be mechanically easy due to the Ability's enormous area of effect,\nMalfurion is seldom going to be allowed to freely position himself where it\nwould be optimal. This is why Twilight Dream is typically used as a secondary\npiece of an Ability combo, or as a means of counter-engaging."
+  },
+  {
+   "title": "Level 13 Talents for Malfurion",
+   "id": "level-13",
+   "text": "✔\nNature's Swiftness\n(Level 13)\nMalfurion\nMalfurion gains 6% Movement Speed for every active Regrowth.\nNature's Swiftness is a strong Talent that provides\nMalfurion, who has no other options for mobility,\nwith a modest yet extremely reliable Movement Speed increase. By maintaining\nbetween 3 and 4 instances of Regrowth on allies at all times,\nas you should, this represents a near-permanent 18 to 24% increase. This\nallows you to play slightly more aggressively with Moonfire and\nfollow up with Entangling Roots, on top of\nmaking it more difficult for opponents to isolate you.\n?\nHindering Moonfire\n(Level 13)\nMalfurion\nMoonfire Slows Heroes hit by 25% for 3 seconds.\nHindering Moonfire is a decent Talent\nthat gives you the ability to Slow enemy Heroes\nhit with Moonfire. Apart from the general benefits\nof Slowing enemy Heroes, this Talent\ncan help you land Entangling Roots\nand the next Moonfire more reliably.\nWith its potential 100% uptime, we find\nthis Talent particularly good for triggering\neffects that require the target to be Slowed\n(such as Ace In The Hole at Level 1 on Raynor),\nhowever, the majority of team compositions will have other ways to do that\nwithout you having to give up a better Talent in this Tier.\n?\nRevitalize\n(Level 13)\nMalfurion\nUsing Innervate also grants Malfurion 15% of his max Mana and causes his Basic Ability cooldowns to refresh 50% faster for 5 seconds.\nRevitalize provides Malfurion with a modest amount of Mana and cooldown reduction,\nwhich in turn improves healing output. You can pick this Talent in combination with\nShan'do's Clarity at Level 4 to have a second charge\nat your disposal. It can also be picked along Deep Roots at Level 1\nfor more value, although that is the weakest Talent in that Tier."
+  },
+  {
+   "title": "Level 16 Talents for Malfurion",
+   "id": "level-16",
+   "text": "?\nYsera's Gift\n(Level 16)\nMalfurion\nWhile Malfurion is above 75% Health, Regrowth's healing-over-time is increased by 75%.\nYsera's Gift is a situational Talent that\nincreases the healing from Regrowth\nwhen Malfurion is almost full Health.\nThis is the best Talents for out-of-combat sustain healing,\nwhen there are no enemy Heroes to hit with Moonfire.\nThat said, you will rarely need this Talent because it provides less in-combat value\ncompared to the other options in the same Tier.\n✔\nNature's Balance\n(Level 16)\nMalfurion\nIncrease Moonfire's area by 25% and Regrowth's duration by 5 seconds.\nNature's Balance allows you to maintain Regrowth on more targets and reduces the\nchance its duration will run out during key moments to ultimately greatly\nimprove Malfurion's overall healing output in a subtle way. The increased\nMoonfire area of effect also improves your ability to hit multiple Heroes.\n?\nMoonlit Harmony\n(Level 16)\nMalfurion\nIncrease Moonfire's heal by 20%, and 15% per ally affected by Regrowth.\nMoonlit Harmony improves Malfurion's\nburst healing, but requires you to be\naccurate with Moonfire hits.\nIf you manage to hit multiple Heroes with a single cast,\nyou will get even more value from this Talent."
+  },
+  {
+   "title": "Level 20 Talents for Malfurion",
+   "id": "level-20",
+   "text": "✔\nSerenity\n(Level 20)\nMalfurion\nEach enemy Hero hit by Moonfire reduces the cooldown of Tranquility by 3 seconds. Increase Tranquility's healing by 25% and 10% per ally affected by Regrowth.\nSerenity significantly increases\nTranquility's healing output on top of\npotentially greatly reducing its cooldown. Serenity is a strong choice against\nlarge amounts of area of effect damage, but requires you to maintain\nRegrowth up on as many targets as possible.\n?\nAstral Communion\n(Level 20)\nMalfurion\nActivate to Channel for 1 second, and then instantly teleport and cast Twilight Dream at the targeted location. Cooldown is shared with Twilight Dream.\nPassive: Increase Twilight Dream's Silence duration to 5 seconds.\nAstral Communion allows Malfurion to make offensive plays. Whether\nor not Astral Communion is worth the investment depends on the team compositions\nin play; if your team has been the aggressor, Astral Communion allows you to\nfollow up very nicely. If you have been defensive or struggling to survive,\nLunar Shower will serve you much better.\n?\nLifebloom\n(Level 20)\nMalfurion\nCasting Regrowth instantly heals its target for 10% of their missing Health.\nLifebloom is a situational Talent that turns\nRegrowth into a potentially\npowerful instant single-target heal. In most scenarios, however, Regrowth needs\nto be maintained on multiple targets, making Lifebloom awkward to use,\nparticularly since its healing amount is based on missing Health.\n?\nLunar Shower\n(Level 20)\nMalfurion\nIf Moonfire hits a Hero, its cooldown is reduced by 1 second and the next Moonfire within 6 seconds deals 20% more damage. This damage bonus stacks up to 60%.\nLunar Shower essentially increases\nMoonfire's potential healing output\nby 33%, on top of providing Malfurion with a bit more overall damage. This\nTalent works particularly well with the Level 16 Talents Nature's Balance and\nMoonlit Harmony, as their effects directly benefit each other.\nFor pure healing purposes, Lunar Shower yields much more overall healing than\nSerenity, though it is not as strong\nagainst burst damage. Lunar Shower\nshines in longer team fights."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Sep. 2025: Guide reviewed.\n18 Jun. 2025: Builds updated with Situational Talents.\n18 Apr. 2025: Guide reviewed.\n17 Dec. 2023: Guide reviewed.\n22 Sep. 2023: ARAM Build added.\n07 Jul. 2022: Builds updated.\n04 Feb. 2022: Guide updated for the latest Balance Update.\n25 Jun. 2021: Builds updated.\n07 Mar. 2021: Talent tier 1 and 2 swapped and recommendations updated following March 2 patch rework.\n27 Oct. 2020: Tranquility and Serenity recommended.\n19 Jul. 2020: Talents and recommendations reviewed.\n15 Feb. 2020: Talents and recommendations updated to reflect February 12 patch rework.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n28 Jul. 2018: Talents and recommendations updated to reflect July 25 balance patch changes.\n09 Jan. 2018: Guide fully updated to reflect the Malfurion rework of the Blaze patch.\n29 Nov. 2017: Removed the Moonburn Talent and added its Celestial Attunement replacement.\n13 Jun. 2017: Complete revamp of the page following Malfurion's rework in Malthael's patch.\n26 Apr. 2017: Made Scouting Drone situation (was previously not recommended).\nShow more\nShow less"
+  }
+ ]
+}

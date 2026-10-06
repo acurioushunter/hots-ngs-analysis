@@ -1,0 +1,280 @@
+{
+ "slug": "dva",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/dva-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/dva-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/dva-talents"
+ },
+ "guide": [
+  {
+   "title": "D.Va's Overview",
+   "id": "d-vas-overview",
+   "text": "D.Va is a Bruiser who combines unique utility with reliable\ndamage mitigation together with a solid damage output and a high amount of survivability\nwhen played at her maximum potential."
+  },
+  {
+   "title": "D.Va's Strengths and Weaknesses",
+   "id": "d-vas-strengths-and-weaknesses",
+   "text": "Strengths\nGood survivability\nDecent mobility\nReliable damage mitigation\nGood at capturing Mercenary Camps\nPowerful zoning potential\nWeaknesses\nSusceptible to area of effect crowd control on the ground stopping Boosters\nPredictable spawn position for D.Va's Pilot when her Mech gets destroyed by damage\nLack of Mount while in Mech Mode, however, Boosters helps with that"
+  },
+  {
+   "title": "D.Va's Talent Build Cheatsheet",
+   "id": "d-vas-talent-build-cheatsheet",
+   "text": "Defense Matrix Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's Defense Matrix Build primarily focuses on reducing the\ndamage done and the healing received by enemy Heroes,\nprovided that the enemy team lets you channel\nDefense Matrix most of the time.\nThe area increase from Diverting Power at Level 16\nis great for peeling for your teammates.\nThe healing reduction from Aggression Matrix at Level 4\nand the Armor reduction from\nTarget Locked at Level 13 help to secure kills.\nWhen playing this Build, you should ideally use Defense Matrix\non enemy Heroes who are dealing damage to yourself or to your teammates\nand on enemy Heroes who are being attacked by your teammates.\nHybrid Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's Hybrid Build is designed to increase your survivability,\nso that you can be more aggressive and less at risk in team fights,\nindirectly allowing you to deal more damage.\nThe survivability comes from the ability to enter in a new Mech\nfaster thanks to Nuclear Option at Level 4\nand the Shield provided by Emergency Shielding\nat Level 16 while in Mech Mode.\nYou also get to play Hit the Nitrous at Level 7 to\ninterrupt enemy Heroes. If you do not need that,\nyou can replace it with Get On The Point! to\nrotate faster.\nBoosters Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's Boosters Build increases your waveclear\nin the early game and your damage done to enemy Heroes\nin the late game.\nThe waveclear comes from Rush-down\nat Level 4, which can be used to finish off enemy Minions and start\nrotating to another lane.\nThe damage output increase is provided by In For The Kill\nat Level 16, but remember it only increases your Attack Damage when you hit\nenemy Heroes with Boosters.\nYou also get to play Hit the Nitrous at Level 7 to\ninterrupt enemy Heroes. If you do not need that,\nyou can replace it with Get On The Point! to\nrotate faster.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's ARAM Build primarily focuses on reducing the\ndamage done and the healing received by enemy Heroes.\nThe damage reduction from Diverting Power at Level 16\nis great for peeling for your teammates.\nThe healing reduction from Aggression Matrix at Level 4\nand the Armor reduction from\nTarget Locked at Level 13 help to secure kills.\nWhen playing this Build, you should ideally use Defense Matrix\non enemy Heroes who are dealing damage to yourself or to your teammates\nand on enemy Heroes who are being attacked by your teammates.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "D.Va's Synergies and Counters",
+   "id": "d-vas-synergies-and-counters",
+   "text": "D.Va synergizes with\nD.Va is good when paired with Heroes that can play around her powerful\nSelf-Destruct by displacing or locking\nenemy Heroes within its range with crowd control effects\n(for example Deckard Cain with Stay Awhile and Listen\nand/or Scroll Of Sealing) or by moving the exploding Mech\n(such as Into the Fray by Garrosh).\nBoosters are useful to combo with unique Heroes\nthat require an allied Hero to move fast (for example Anduin\nwith Lightbomb) or that can benefit from enemy Heroes\nbeing knocked away at the right moment\n(such as Maiev using Umbral Bind).\nD.Va is countered by\nLike many Heroes in the game, D.Va suffers against crowd control\npaired with burst damage as they can drastically reduce the value\nshe can get from Mech Mode by bursting her down before\nshe can use Self-Destruct to restore the Health of her Mech.\nAs she spawns in a predictable position when her Mech dies,\nit is also easy to throw Abilities in that area to hit her\n(such as Entangling Roots by Malfurion). Similarly,\na well-timed interrupt while she is channeling\nCall Mech is a powerful tool to take her down.\nWhile solo laning, D.Va has a hard time against Heroes\nwho can easily outtrade her in a duel\non Maps where there is a Capture Point\nto contest (such as Braxis Holdout)\nor that can rotate faster than her\nwhile double soaking on other Maps."
+  },
+  {
+   "title": "D.Va's Maps",
+   "id": "d-vas-maps",
+   "text": "D.Va's stronger maps\nD.Va's average maps\nD.Va's weaker maps\nD.Va tends to perform best on small to medium-sized Maps with lots\nof narrow choke points where she can get value from\nSelf-Destruct for zoning away enemy Heroes\n(for example Infernal Shrines).\nAs Self-Destruct will get Charge progress based on\nhow much time D.Va spends Basic Attacking with her Mech, she prefers playing\non Maps where double soak is possible because that\nway she can Basic Attack enemy Minions twice as often compared to when staying\nin a single lane.\nDue to her lack of Mount while in Mech Mode,\nshe does not like big Maps that much (such as Warhead Junction)."
+  },
+  {
+   "title": "D.Va's Tips and Tricks",
+   "id": "d-vas-tips-and-tricks",
+   "text": "Boosters can be used to both engage on enemy Heroes or peel them away from allied Heroes.\nWhile using Defense Matrix, you can press [W] to redirect it or [D] to cancel it.\nYou can use Self-Destruct during Boosters to launch the exploding Mech and eventually press [Q] again to stop it whenever you want.\nTry to hit at least one enemy Hero with each cast of Big Shot in order to reduce the cooldown of Call Mech as quickly as possible, but do not go out of position to hit multiple Heroes at once.\nUse Bunny Hop to engage on enemy Heroes as the small Stun provided will help your team to follow up.\nPrefer using Micro Missiles as a follow-up to allied crowd control because moving targets will not be that easy to hit.\nHer high damage per second while in Pilot Mode can be used to quickly clear Bosses or big Monsters (such as Immortals on Battlefield of Eternity) when enemy Heroes are not nearby.\nBasic Attacks while in Mech Mode can hit multiple enemies and deal bonus damage to nearby enemies.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "D.Va's Role in the Current Meta",
+   "id": "d-vas-role-in-the-current-meta",
+   "text": "Thanks to her survivability and waveclear,\nD.Va is a solid Offlaner\nthat provides her team with large amounts of utility and damage mitigation.\nShe is also good at double soaking when needed.\nD.Va excels in prolonged battles during which she can get value from her high\nself-sustain or at quickly-captured\nObjectives by zoning away the enemy team\nwith a well-placed Self-Destruct."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n13 Dec. 2024 (talents page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (this page): Guide reviewed for the latest Balance Update.\n13 Oct. 2023 (talents page): Guide reviewed.\n13 Oct. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n09 May 2022 (talents page): Builds updated.\n09 May 2022 (this page): Builds and Maps updated.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n20 Jan. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (this page): Guide reviewed for the latest Balance Update.\n21 Nov. 2020 (talents page): Builds and Talents updated.\n21 Nov. 2020 (this page): Builds updated.\n05 Nov. 2020 (talents page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (this page): Guide reviewed for the latest Balance Update.\n16 Oct. 2020 (this page): Counters updated.\n12 Oct. 2020 (talents page): Guide reviewed for the latest Balance Update.\n12 Oct. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n12 Oct. 2020 (this page): Guide reviewed for the latest Balance Update.\n04 Oct. 2020 (talents page): Builds updated.\n04 Oct. 2020 (this page): Builds updated.\n16 Sep. 2020 (talents page): Minor fixes.\n16 Sep. 2020 (abilities page): Minor fixes.\n16 Sep. 2020 (this page): Minor fixes.\n15 Sep. 2020 (this page): Introduction page updated.\nStrengths and Weaknesses fixed.\nSynergies and Counters fixed.\n14 Sep. 2020 (talents page): Talents page updated.\nHero Rework applied.\nNew layout.\n14 Sep. 2020 (abilities page): Abilities and Strategy page updated.\nHero Rework applied.\nNew layout.\n14 Sep. 2020 (this page): Introduction page updated.\nHero Rework applied.\nNew layout.\n11 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n11 Apr. 2020 (abilities page): Ability and Strategy partially revised to match new standards.\n11 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n09 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n07 Oct. 2019 (talents page): Updated D.Va's Talents and Talent Builds.\n07 Oct. 2019 (abilities page): Applied small updates to D.Va's Abilities page.\n07 Oct. 2019 (this page): Applied small updates to D.Va's introduction section.\n17 Oct. 2017 (talents page): Level 1 Talent Pro Moves duration has been increased to 1.5 seconds from 1.25 seconds.\n08 Aug. 2017 (talents page): Level 4 Talent Diverting Power now slows D.Va by an additional 50% rather than self-rooting her for the duration of the cast.\n07 Jun. 2017 (talents page): Corrected error in the description of the way stacks are lost for the Level 1 Talent Pro Moves.\n07 Jun. 2017 (this page): Corrected error in the description of the way stacks are lost for the Level 1 Talent Pro Moves.\n01 Jun. 2017 (talents page): Level 1 Talent Pro Moves duration has been increased to 1.25 seconds from 1 second.\n01 Jun. 2017 (abilities page): Boosters cooldown has been reduced from 10 seconds to 9 seconds.\n01 Jun. 2017 (this page): Level 1 Talent Pro Moves duration has been increased to 1.25 seconds from 1 second.\n31 May 2017 (talents page): Talent Build Page updated with full descriptions and discussion.\n31 May 2017 (this page): Talent Build Page updated with full descriptions and discussion.\n16 May 2017 (this page): Added D.Va guide.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "D.Va's Tips and Tricks",
+   "id": "d-vas-tips-and-tricks",
+   "text": "Boosters can be used to both engage on enemy Heroes or peel them away from allied Heroes.\nWhile using Defense Matrix, you can press [W] to redirect it or [D] to cancel it.\nYou can use Self-Destruct during Boosters to launch the exploding Mech and eventually press [Q] again to stop it whenever you want.\nTry to hit at least one enemy Hero with each cast of Big Shot in order to reduce the cooldown of Call Mech as quickly as possible, but do not go out of position to hit multiple Heroes at once.\nUse Bunny Hop to engage on enemy Heroes as the small Stun provided will help your team to follow up.\nPrefer using Micro Missiles as a follow-up to allied crowd control because moving targets will not be that easy to hit.\nHer high damage per second while in Pilot Mode can be used to quickly clear Bosses or big Monsters (such as Immortals on Battlefield of Eternity) when enemy Heroes are not nearby.\nBasic Attacks while in Mech Mode can hit multiple enemies and deal bonus damage to nearby enemies."
+  },
+  {
+   "title": "Boosters",
+   "id": "boosters",
+   "text": "Boosters\n(Q)\nD.Va\nCooldown: 10 seconds\nIncrease D.Va's Movement Speed by 115% for 1.75 seconds. Enemies that are hit take 135 (+4% per level) damage and are knocked away.\nD.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.\nBoosters is a Basic Ability available only in Mech Mode\nthat provides mobility that can be used to travel across\nthe Map—compensating for the lack of Mount while in Mech Mode—and\ncrowd control that can be used on enemy Heroes\nto knock them towards your team when you want to engage\nor away from them when you want to peel.\nThanks to its daze component,\nBoosters can be used to interrupt\nstationary-channeled Abilities\n(for example Holy Word: Salvation by Anduin)\nbut it cannot be used to interrupt mobile-channeled Abilities\n(such as Carrion Swarm by Mal'Ganis).\nEven if D.Va should not be afraid to use Boosters\nto engage, sometimes it may be worth saving it to reposition\nwhile fighting or to disengage when things start to go poorly.\nAlways keep in mind that D.Va's Mech has no other mobility tools\nother than this one, so use it wisely.\nYou can cancel Boosters after 0.5 seconds by pressing\nthe same key again or without any delay by casting another Ability, except for\nSelf-Destruct that works differently.\nD.Va can use Self-Destruct during Boosters\nto launch the exploding Mech in the desired direction. While the Mech is going,\nyou can press [Q] again to immediately stop the Mech in its current position.\nD.Va's Mech is not affected by Slows during Boosters,\nbut it does not remove them, so you will still be Slowed\nafter the Movement Speed bonus expires\nor when you cancel it.\nRemember that each enemy can be hit only once per cast of Boosters,\nso you cannot damage and knock them multiple times in a row."
+  },
+  {
+   "title": "Defense Matrix",
+   "id": "defense-matrix",
+   "text": "Defense Matrix\n(W)\nD.Va\nCooldown: 12 seconds\nProject a defensive field in the target direction for 3 seconds, reducing the damage dealt by enemy Heroes inside it by 60%.\nActivate again to change the angle of projection.\nDamage dealt to the Mech from enemies within Defense Matrix still grants the same amount of Self-Destruct Charge.\nDefense Matrix is a Basic Ability available only in Mech Mode\nthat allows D.Va to reduce the damage done by enemy Heroes within its area. The debuff\nis immediately removed as the enemies leave the area or D.Va stops channeling it.\nOther than moving while channeling it,\nD.Va can also redirect Defense Matrix by casting it again,\nsomething that is useful to keep the enemies affected by its debuff\nas much as possible and/or to switch targets when needed.\nWhile laning, use Defense Matrix to reduce the waveclear\nof the enemy Offlaner when they use Abilities on your Minions.\nYou can cancel Defense Matrix by pressing [D].\nIf you want to cast another Ability immediately after canceling it,\nyou do not have to press [D] to cancel Defense Matrix,\nas casting another Ability will automatically cancel it.\nD.Va's Mech has its Movement Speed quickly reduced by a quarter\nwhile using Defense Matrix,\nBunny Hop, and Fusion Cannons—her Basic Attacks in Mech Mode."
+  },
+  {
+   "title": "Self-Destruct",
+   "id": "self-destruct",
+   "text": "Self-Destruct\n(E)\nD.Va\nCharges: 100\nEject from the Mech, setting it to self-destruct after 4 seconds. Deals 400 (+4% per level) to 1100 (+4% per level) damage in a large area, depending on distance from center. Deals 50% damage against Structures.\nGain 1% Charge for every 2 seconds spent Basic Attacking, and 25% Charge per 100% of Mech Health lost.\nSelf-Destruct is a Basic Ability available only in Mech Mode\nthat offers the value of a Heroic Ability as it makes D.Va eject from her Mech—switching from\nMech Mode to Pilot Mode—and detonate the Mech after 4 seconds.\nThe explosion deals damage based on the distance from its center. In particular,\nenemies in the inner area take almost three times the damage of enemies in the outer area.\nAny enemy that survives to the explosion is pushed away by a small knockback effect.\nStructures take half the damage, so it is not that good for sieging.\nOn its own, the threat of Self-Destruct acts as a zoning tool\nthat also helps D.Va refresh the Health of her Mech. An experienced D.Va will:\nkite enemy Heroes around the exploding Mech in order to\nincrease her chance to survive enough time as Call Mech\ncannot be used for 4 seconds after Self-Destruct has been cast;\nplace the exploding Mech between her team and the enemy team\nas a form of disengage;\nthrow the exploding Mech behind the enemy team as a form of engage.\nTo throw the Mech, you have to use Boosters first\nand Self-Destruct immediately after, then you can press\n[Q] again to instantly stop the exploding Mech in its current position\nor just let it go until it explodes.\nAs it helps you quickly get back in your Mech, always try to have Self-Destruct\nready before joining a team fight, such as when joining your team for an Objective.\nYou can charge it by using Fusion Cannons—her Basic Attacks in Mech Mode—or\nby taking damage. Keep in mind that using Defense Matrix\non enemy Heroes who are damaging you reduces the damage taken but not the amount of Charge you get.\nWith the help of your team, Self-Destruct can become a scary\nsource of burst damage as they will help you keep enemy Heroes\nwithin its explosion area with their crowd control."
+  },
+  {
+   "title": "Call Mech",
+   "id": "call-mech",
+   "text": "Call Mech\n(E)\nD.Va\nCooldown: 45 seconds\nCall a new Mech and enter Mech Mode.\nBasic Attacks lower this cooldown by 0.5 seconds each.\nCall Mech is a Basic Ability available only in Pilot Mode\nthat allows D.Va to summon a new Mech after a short channel.\nThe cooldown of Call Mech can vary as follows:\nif your old Mech has been destroyed by lethal damage,\nthen Call Mech will have 45 seconds of cooldown\nand you will be able to reduce it by 5 seconds for each enemy Hero hit\nwith Big Shot and by 0.5 seconds for each Basic Attack used on any enemy.\nif your new Mech has been denied by a well-timed interrupt\nwhen you were trying to summon it, then Call Mech will have 5 seconds of soft-cooldown.\nif your old Mech has been detonated by casting Self-Destruct,\nthen it will have no cooldown but you will not be able to cast\nCall Mech until the explosion happens 4 seconds after—time\nthat the enemies can increase by hitting the Mech with Time Stop\n(for example Containment Disc by Maiev).\nTo maximize the cooldown reduction gained by using Basic Attacks\nwhile in Pilot Mode, do not use Big Shot\non Minions if you want to use them for getting more cooldown reduction via Basic Attacks,\nunless you really need to clear them before they take down your Structures."
+  },
+  {
+   "title": "Big Shot",
+   "id": "big-shot",
+   "text": "Big Shot\n(R)\nD.Va\nCooldown: 6 seconds\nDeal 150 (+4% per level) damage to all enemies in a line. Heroes hit have their Movement Speed Slowed by 25% for 1.5 seconds. The cooldown of Call Mech is reduced by 5 seconds for each enemy Hero hit.\nRequires Pilot Mode.\nBig Shot is a Basic Ability available only in Pilot Mode\nthat deals damage and Slows enemies Heroes hit in a straight line.\nThe cooldown of Big Shot is short enough to allower D.Va\nto cast it often in an attempt to deal poke damage\nand, more importantly, to reduce the cooldown of Call Mech\nby 5 seconds for every enemy Hero hit.\nWhile it is possible to multiply the cooldown reduction by hitting multiple enemy Heroes,\nyou should play extremely safe when you are in Pilot Mode\nand still have Call Mech in cooldown, so you cannot really\nstep forward for getting more cooldown reduction unless your team make it way less\ndangerous by using crowd control on enemy Heroes.\nDon't hesitate to use Big Shot for clearing Minions when needed,\nunless you really want the cooldown reduction and there is an enemy Hero nearby.\nThe same is true when clearing Mercenaries or Monsters."
+  },
+  {
+   "title": "Bunny Hop",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nBunny Hop\n(R)\nD.Va\nHeroic\nCooldown: 70 seconds\nD.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 78 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 80% more damage and Stuns them for 0.5 seconds.\nLasts for 4 seconds.\nRequires Mech Mode.\nBunny Hop is a Heroic Ability only available while in Mech Mode\nthat makes D.Va's Mech become Unstoppable, deal a fair amount of damage,\nand briefly Stun enemy Heroes.\nIn particular, D.Va will make her Mech jump and mark each enemy Hero hit.\nWhen the fourth mark will be applied, that Hero will be Stunned\nand take increased damage from that hop. At that point all the marks are removed\nand you can do the same thing again. You can Stun a Hero\ntwice with a single cast of Bunny Hop only if they are hit\nby each and every hop because they are exactly 8 in total.\nYou can use Bunny Hop immediately after rushing into\nthe enemy formation or even on top of a single enemy Hero by casting Boosters\nto force a powerful engage against low-mobility Heroes.\nAlternatively, you can use it as a form of peeling when necessary.\nDue to being Unstoppable during Bunny Hop,\nthe enemy team will not have many options to counter\nits effect and will be forced to either play around it with good\npositioning or focus D.Va instead.\nD.Va should not hesitate to use Bunny Hop defensively\nto dodge incoming crowd-control, especially\nif you consider that the Unstoppable will allow her\nto use Self-Destruct at the last second without fear.\nD.Va's Mech has its Movement Speed quickly reduced by a quarter\nwhile using Defense Matrix,\nBunny Hop, and Fusion Cannons—her Basic Attacks in Mech Mode."
+  },
+  {
+   "title": "Micro Missiles",
+   "id": "micro-missiles",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMicro Missiles\n(R)\nD.Va\nHeroic\nCharges: 2\nRecharge Time: 19 seconds\nAfter .375 seconds, Channel to launch a volley of 12 missiles in a target direction. Each missile impacts the first enemy in its path, dealing 40 (+4% per level) damage in a small area and Slowing by 30% for 2 seconds.\nStores 2 charges with a 3 second cooldown between each use.\nRequires Mech Mode.\nMicro Missiles is a Heroic Ability only available while in Mech Mode\nthat, after a brief cast time, allows D.Va to unleash a missile barrage\ndealing a relatively good amount of burst damage\nto the first enemy in front of her Mech over 2 seconds.\nD.Va's Mech cannot turn while casting and channeling\nMicro Missiles, therefore it is advised to use it on low-mobility Heroes\nor better yet, on enemy Heroes that are affected by crowd control.\nMicro Missiles has 2 charges available.\nKeep in mind that enemies can interrupt\nboth its cast and its channel,\ncausing you to waste a charge of Micro Missiles.\nThanks to its low cooldown, do not hesitate to cast Micro Missiles\nwhen clearing Mercenaries, Monsters, or taking down enemy Structures.\nWhen you are laning, you should ideally never have all charges\nup—always use one of them before you reach the maximum amount, so that\nyou can keep its cooldown going and maximize its usage during the game."
+  },
+  {
+   "title": "Mech Mode",
+   "id": "mech-mode",
+   "text": "Mech Mode\n(D)\nD.Va\nWhen D.Va's Mech dies, she is ejected out after 0.75 seconds and can continue to fight. D.Va's Mech only awards 50% of a normal Hero's experience upon dying.\nFusion Cannons\nD.Va's Mech Basic Attacks deal 22 (+4% per level) damage in a large area every 0.25 seconds. Deals 40% bonus damage against enemies very close to the Mech.\nMech Mode is a Trait that allows D.Va to exit from her Mech\n0.75 seconds after it gets destroyed by damage and enter Pilot Mode instead.\nWhile in Mech Mode, D.Va can be played like a Bruiser\nthanks to her bigger Health pool and survivability tools at her disposal.\nWhat it means is that you can position aggressively when needed, but you should still play carefully\nas the enemy team can lock you down with crowd control at any moment\nand suddenly burst you down before you can even react.\nD.Va's Mech only gives half of the Experience when it gets destroyed\nand enemy Heroes are nearby, therefore losing your Mech to non-Heroes\nwill increase your Deaths counter without giving Experience to the enemy team.\nAs a consequence, if your Mech is low on Health and you need more damage per second\nto take down Mercenaries or Monsters, you can consider intentionally destroying your Mech;\nhowever, avoid doing so if you do not have Self-Destruct ready\nto use because it is better to stay in Mech Mode to charge it\nand/or if you expect the enemy team to come in the next 15 seconds because\nthat is the amount of time you will need to Basic Attack for before getting\nyour Mech back via Call Mech.\nThe only ways to go back in Mech Mode are either\ncasting Call Mech or dying while in Pilot Mode\nand respawning after the Death Timer is over.\nD.Va's Mech has its Movement Speed quickly reduced by a quarter\nwhile using Defense Matrix,\nBunny Hop, and Fusion Cannons—her Basic Attacks in Mech Mode."
+  },
+  {
+   "title": "Pilot Mode",
+   "id": "pilot-mode",
+   "text": "Pilot Mode\n(D)\nD.Va\nPassive\nBasic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.\nPilot Mode is a Trait that helps D.Va to get back in her Mech\nas her Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds.\nConsidering that it has a cooldown of 45 seconds, you will need 15 seconds of constant\nBasic Attacking to get your Mech back as fast as possible.\nWhile in Pilot Mode, D.Va should be played like a marksman\ndue to her low Health pool and lack of survivability. What it means is that you must\nalways position as safe as possible. You should apply this rule\neven when you are still in Mech Mode but your Mech is low on Health\nbecause you will end up being a Pilot when detonated or destroyed by damage as\nthose are the only ways to go back in Pilot Mode.\nAfter staying alive, your second priority is to reduce the cooldown of Call Mech\nas much as possible by using Big Shot on enemy Heroes and\nBasic Attack on any enemy.\nSimilarly to her Mech, D.Va's Pilot only gives half of the Experience when it gets killed\nand enemy Heroes are nearby. That said, dying as a Pilot should be avoided at all costs\nbecause it will completely remove you from the battlefield until you respawn."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n17 May 2021: Guide reviewed for the latest Patch.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n12 Oct. 2020: Guide reviewed for the latest Balance Update.\n16 Sep. 2020: Minor fixes.\n14 Sep. 2020: Abilities and Strategy page updated.\nHero Rework applied.\nNew layout.\n11 Apr. 2020: Ability and Strategy partially revised to match new standards.\n07 Oct. 2019: Applied small updates to D.Va's Abilities page.\n01 Jun. 2017: Boosters cooldown has been reduced from 10 seconds to 9 seconds.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Full Metal (Level 1) D.Va D.Va's Mech gains 10% increased Health and its Fusion Cannons heal for 16% of the damage dealt to enemies in its bonus area."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Pro Moves (Level 1) D.Va D.Va's Mech gains 2% Movement Speed and 2 Armor every time it takes damage, stacking up to 15 times. Stacks of this effect decay every 0.5 seconds. Basic Attacks against enemy Heroes in Pilot Mode reduce the cooldown of Call Mech by 1 additional second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Liquid Cooling (Level 1) D.Va Cooldown: 50 seconds Activate to gain the effects of Healing Fountain. Requires Mech Mode. Passive: While in Mech Mode, Healing Fountain's cooldown is reduced to 50 seconds and its effects last 50% longer."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Rush-down (Level 4) D.Va Boosters deals an additional 2% of maximum Health as damage to Heroes and heals D.Va's Mech for the damage dealt. Boosters deals 50% increased damage to non-Heroic enemies."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Aggression Matrix (Level 4) D.Va Enemy Heroes within your Defense Matrix receive 35% less healing. Passive: Basic Attacks against Heroes lower the cooldown of Defense Matrix by 0.1875 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Nuclear Option (Level 4) D.Va Hitting your self-destructing Mech with Big Shot causes it to self-destruct 40% faster. Passive: When Fusion Cannons deal bonus damage to an enemy Hero, gain 0.25 Self-Destruct Charge."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Get On The Point! (Level 7) D.Va Casting Boosters grants nearby allies 20% Movement Speed for 3 seconds. Passive: If D.Va has not taken damage in the last 2 seconds, Boosters' cooldown refreshes 100% faster."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Hit the Nitrous (Level 7) D.Va The initial speed bonus of Boosters is increased to 300%, then decays to normal boost speed over 0.5 seconds. During this time, Boosters Stuns for 0.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Fusion Generator (Level 7) D.Va Every time an enemy Hero deals damage while inside Defense Matrix, D.Va's Self-Destruct Charge increases by 1%. Max of 20% Charge gained per use. Passive: While at full Self-Destruct charge, Fusion Cannons' bonus damage is increased to 100%."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Bunny Hop (Level 10) D.Va Cooldown: 70 seconds D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 78 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 80% more damage and Stuns them for 0.5 seconds. Lasts for 4 seconds. Requires Mech Mode."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Micro Missiles (Level 10) D.Va Charges: 2 Recharge Time: 19 seconds After .375 seconds, Channel to launch a volley of 12 missiles in a target direction. Each missile impacts the first enemy in its path, dealing 40 (+4% per level) damage in a small area and Slowing by 30% for 2 seconds. Stores 2 charges with a 3 second cooldown between each use. Requires Mech Mode."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Target Locked (Level 13) D.Va Enemy Heroes that remain in your Defense Matrix for 0.75 seconds have their Armor reduced by 15 and their Movement Speed reduced by 25% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Good To Go (Level 13) D.Va Pilot Mode: Unlocks the Torpedo Dash and Concussive Pulse abilities. Torpedo Dash: Dash a short distance. 10 second cooldown. Concussive Pulse: Deal 120 (+4% per level) damage to enemies in a cone and knock them back. 10 second cooldown."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Pew! Pew! Pew! (Level 13) D.Va Pilot Mode: Instead of a single shot, Big Shot fires 3 shots over 0.5 seconds. Each shot deals 75% damage."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "In For The Kill (Level 16) D.Va Casting Boosters grants a Shield equal to 10% of maximum life for 2.5 seconds. Each Enemy Hero hit by Boosters increases D.Va's Mech's Basic Attack damage by 10% for 5 seconds, stacking up to 5 times."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Diverting Power (Level 16) D.Va Defense Matrix's area grows drastically in size and each time it reduces damage dealt to Heroes D.Va's Mech is healed for 31 (+4% per level) Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Emergency Shielding (Level 16) D.Va When D.Va's Mech would be destroyed, it instead gains a Shield that absorbs 290 (+4% per level) damage over 8 seconds. This effect has a 30 second cooldown."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Stop and Pop (Level 20) D.Va Increase Bunny Hop's duration by 4 seconds, and it does not decay while D.Va's Mech is stationary."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Timing Attack (Level 20) D.Va Micro Missiles gains an additional charge. Each time Micro Missiles hits an enemy Hero, reduce its cooldown by 0.5 seconds and charge cooldown by 0.25 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Headshot! (Level 20) D.Va Pilot Mode: Increase Big Shot's damage by 75% and reduce its cooldown by 2 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Ablative Armor (Level 20) D.Va 45% of Spell damage dealt to D.Va's Mech is returned as healing over 4 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "D.Va's Talent Build",
+   "id": "d-vas-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n✓\n?\n7\n?\n?\n✓\n10\n✓\n?\n13\n✓\n?\n?\n16\n?\n✓\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "D.Va's Talent Build Cheatsheet",
+   "id": "d-vas-talent-build-cheatsheet",
+   "text": "Defense Matrix Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's Defense Matrix Build primarily focuses on reducing the\ndamage done and the healing received by enemy Heroes,\nprovided that the enemy team lets you channel\nDefense Matrix most of the time.\nThe area increase from Diverting Power at Level 16\nis great for peeling for your teammates.\nThe healing reduction from Aggression Matrix at Level 4\nand the Armor reduction from\nTarget Locked at Level 13 help to secure kills.\nWhen playing this Build, you should ideally use Defense Matrix\non enemy Heroes who are dealing damage to yourself or to your teammates\nand on enemy Heroes who are being attacked by your teammates.\nHybrid Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's Hybrid Build is designed to increase your survivability,\nso that you can be more aggressive and less at risk in team fights,\nindirectly allowing you to deal more damage.\nThe survivability comes from the ability to enter in a new Mech\nfaster thanks to Nuclear Option at Level 4\nand the Shield provided by Emergency Shielding\nat Level 16 while in Mech Mode.\nYou also get to play Hit the Nitrous at Level 7 to\ninterrupt enemy Heroes. If you do not need that,\nyou can replace it with Get On The Point! to\nrotate faster.\nBoosters Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's Boosters Build increases your waveclear\nin the early game and your damage done to enemy Heroes\nin the late game.\nThe waveclear comes from Rush-down\nat Level 4, which can be used to finish off enemy Minions and start\nrotating to another lane.\nThe damage output increase is provided by In For The Kill\nat Level 16, but remember it only increases your Attack Damage when you hit\nenemy Heroes with Boosters.\nYou also get to play Hit the Nitrous at Level 7 to\ninterrupt enemy Heroes. If you do not need that,\nyou can replace it with Get On The Point! to\nrotate faster.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nD.Va's ARAM Build primarily focuses on reducing the\ndamage done and the healing received by enemy Heroes.\nThe damage reduction from Diverting Power at Level 16\nis great for peeling for your teammates.\nThe healing reduction from Aggression Matrix at Level 4\nand the Armor reduction from\nTarget Locked at Level 13 help to secure kills.\nWhen playing this Build, you should ideally use Defense Matrix\non enemy Heroes who are dealing damage to yourself or to your teammates\nand on enemy Heroes who are being attacked by your teammates."
+  },
+  {
+   "title": "Level 1 Talents for D.Va",
+   "id": "level-1",
+   "text": "✔\nFull Metal\n(Level 1)\nD.Va\nD.Va's Mech gains 10% increased Health and its Fusion Cannons heal for 16% of the damage dealt to enemies in its bonus area.\nFull Metal is a strong Talent that increases the maximum\nHealth of D.Va's Mech and turns part of the bonus damage done with the inner area\nof its Basic Attacks into healing.\nAs it requires to hit enemies with your Basic Attacks, this Talent is particularly effective\nwhile double soaking and/or capturing Mercenary Camps.\nFull Metal has synergy with any Talent increasing the\ndamage done by Basic Attacks while in Mech Mode:\nFusion Generator at Level 7\nand In For The Kill at Level 16.\n?\nPro Moves\n(Level 1)\nD.Va\nD.Va's Mech gains 2% Movement Speed and 2 Armor every time it takes damage, stacking up to 15 times. Stacks of this effect decay every 0.5 seconds.\nBasic Attacks against enemy Heroes in Pilot Mode reduce the cooldown of Call Mech by 1 additional second.\nPro Moves is a good Talent that provides D.Va's Mech with\na small increase to her Movement Speed and a small Armor bonus\nevery time it takes damage, stacking up to 30% Movement Speed and 30 Armor\nbut quickly decaying over time if not refreshed by taking damage; furthermore,\nit triples the cooldown reduction of Call Mech\nwhen in Pilot Mode.\nAs it does not heal your Mech, Pro Moves does not help you win the\nofflane as much as the other options in the same Tier\nbecause you will be forced to trade your Mech\nmore often, resulting in the enemy team getting more Experience in the process.\nIf you feel like you do not need either Full Metal\nor Liquid Cooling to beat the enemy Offlaner,\nthen you can consider going for Pro Moves to be more durable\nduring team fights as the bonus Armor will greatly increase\nyour survivability when paired with the healing coming from your Healer.\nAs the Armor provided by Pro Moves takes a while to build up,\ndo not see it as a powerful Talent against burst damage\nbecause an enemy Ability suddenly hitting your Mech will still deal full damage.\n?\nLiquid Cooling\n(Level 1)\nD.Va\nCooldown: 50 seconds\nActivate to gain the effects of Healing Fountain. Requires Mech Mode.\nPassive: While in Mech Mode, Healing Fountain's cooldown is reduced to 50 seconds and its effects last 50% longer.\nLiquid Cooling is a decent Talent that allows D.Va's Mech to use\nthe Healing Fountain twice more often and from anywhere on the battlefield.\nAs the healing provided comes over 30 seconds, you should activate Liquid Cooling\nas soon as you start fighting to get the most out of it before your Mech gets destroyed,\nunless you intend to use Self-Destruct in the next few seconds\nand you want to keep Liquid Cooling ready for the second Mech\nas the cooldown is shared.\nAvoid using the Healing Fountain when in Pilot Mode\nbecause it will heal you for less due to being a percent-based healing,\nespecially when you have Liquid Cooling because it will go\non cooldown for 120 seconds.\nKeep in mind that Liquid Cooling is less valuable in ARAM\nbecause the Healing Fountain has 90 instead of 120 seconds of cooldown there,\nand the fact that you will be able to use your Healing Fountain when they have\nall been destroyed happens too late in the game to be relevant."
+  },
+  {
+   "title": "Level 4 Talents for D.Va",
+   "id": "level-4",
+   "text": "?\nRush-down\n(Level 4)\nD.Va\nBoosters deals an additional 2% of maximum Health as damage to Heroes and heals D.Va's Mech for the damage dealt. Boosters deals 50% increased damage to non-Heroic enemies.\nRush-down is a good Talent that makes Boosters\ndeal more damage to non-Heroes and steal a portion of maximum Health from Heroes.\nWe recommend this Talent if you need it to increase your waveclear\nand survivability while laning and during team fights.\nDo not use Boosters on Minions if you need it\nto rotate because you are double soaking,\nunless you want to last-hit the Minions and start rotating with the same cast.\n✔\nAggression Matrix\n(Level 4)\nD.Va\nEnemy Heroes within your Defense Matrix receive 35% less healing.\nPassive: Basic Attacks against Heroes lower the cooldown of Defense Matrix by 0.1875 seconds.\nAggression Matrix is a strong Talent that\nlowers the cooldown of Defense Matrix\nby 0.75 seconds for every second spent Basic Attacking enemy Heroes\nand reduces the healing received by enemy Heroes within its area.\nThe cooldown reduction provided by Aggression Matrix\nhas synergy with any Defense Matrix-related Talents\nas it allows D.Va to benefit from them more often.\n?\nNuclear Option\n(Level 4)\nD.Va\nHitting your self-destructing Mech with Big Shot causes it to self-destruct 40% faster.\nPassive: When Fusion Cannons deal bonus damage to an enemy Hero, gain 0.25 Self-Destruct Charge.\nNuclear Option is a good Talent that allows D.Va\nto speed up the explosion of Self-Destruct by hitting\nher Mech with Big Shot; furthermore, dealing bonus damage\nwith the inner area of its Basic Attacks will give double contribution\nfor charging Self-Destruct."
+  },
+  {
+   "title": "Level 7 Talents for D.Va",
+   "id": "level-7",
+   "text": "?\nGet On The Point!\n(Level 7)\nD.Va\nCasting Boosters grants nearby allies 20% Movement Speed for 3 seconds.\nPassive: If D.Va has not taken damage in the last 2 seconds, Boosters' cooldown refreshes 100% faster.\nGet On The Point! is a decent Talent that helps D.Va\nto quickly rotate from a lane to another while in Mech Mode,\ncompensating her lack of Mount; furthermore, it gives 20% Movement Speed\nto nearby allies to help them fix their positioning\nand/or dodge enemy Abilties during team fights.\nWhile interesting on paper, Hit the Nitrous will be enough\nto speed up your rotation in most of your games, except on really big Maps\n(for example Warhead Junction).\n?\nHit the Nitrous\n(Level 7)\nD.Va\nThe initial speed bonus of Boosters is increased to 300%, then decays to normal boost speed over 0.5 seconds. During this time, Boosters Stuns for 0.5 seconds.\nHit the Nitrous is a strong Talent that empowers\nBoosters in two ways: it increases the initial speed bonus\nand it provides a brief Stun during that time.\nTo figure out how far you can Stun enemy Heroes\nif you use Boosters in a straight line,\nput your mouse cursor on Self-Destruct and use the\nyellow targeting reticle as guideline.\n✔\nFusion Generator\n(Level 7)\nD.Va\nEvery time an enemy Hero deals damage while inside Defense Matrix, D.Va's Self-Destruct Charge increases by 1%. Max of 20% Charge gained per use.\nPassive: While at full Self-Destruct charge, Fusion Cannons' bonus damage is increased to 100%.\nFusion Generator is a good Talent that makes\nDefense Matrix contribute to charging Self-Destruct\nwhen enemy Heroes within its area deal damage to anyone or anything,\nup to a maximum of 20% Charge gain per cast; furthermore, D.Va's Mech will deal\nalmost 17% additional damage with the inner area of its Basic Attacks."
+  },
+  {
+   "title": "Level 10 Talents for D.Va",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nBunny Hop\n(Level 10)\nD.Va\nCooldown: 70 seconds\nD.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 78 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 80% more damage and Stuns them for 0.5 seconds.\nLasts for 4 seconds.\nRequires Mech Mode.\nBunny Hop is a strong Heroic Ability that gives D.Va\na solid form of engage, especially against\nlow-mobility Heroes that cannot exit its area in time\nbefore the first Stun happens.\nWe find it great to help your team to force team fights when the enemy\nteam is trying to retreat, which is useful when your Tank\ndoes not have the tools for doing so (for example Garrosh).\nThe fact it gives Unstoppable frames\nis quite annoying to play against. Most opponents will be taken by surprise\nand you will end up creating a lot of space for your team.\n?\nMicro Missiles\n(Level 10)\nD.Va\nCharges: 2\nRecharge Time: 19 seconds\nAfter .375 seconds, Channel to launch a volley of 12 missiles in a target direction. Each missile impacts the first enemy in its path, dealing 40 (+4% per level) damage in a small area and Slowing by 30% for 2 seconds.\nStores 2 charges with a 3 second cooldown between each use.\nRequires Mech Mode.\nMicro Missiles is a good Heroic Ability that heavily\nincreases D.Va's burst damage against a single target.\nYou can pick it when at least one of the following is true:\nyou need to win the offlane\neven in the mid game (for example on Braxis Holdout);\nyou want to make your team's engage more deadly,\nusing it as a powerful follow up;\nyou plan to split-push to pressure the enemy team outside of team fights."
+  },
+  {
+   "title": "Level 13 Talents for D.Va",
+   "id": "level-13",
+   "text": "✔\nTarget Locked\n(Level 13)\nD.Va\nEnemy Heroes that remain in your Defense Matrix for 0.75 seconds have their Armor reduced by 15 and their Movement Speed reduced by 25% for 3 seconds.\nTarget Locked is a good Talent that, after keeping\nan enemy Hero under the effect of Defense Matrix for 0.75 seconds,\nreduces their Armor and Slows them\nfor a few seconds. The debuff is refreshed on enemy Heroes\nwho already have it.\nKeep in mind that this is the only Talent in this Tier that does not help you\nget back into Mech Mode, forcing you to stay in the squishy\nPilot Mode for a longer period of time. To compensate for this weakness,\nyou may want to pick Pro Moves at Level 1.\nPick this Talent when the enemy team does not have many interrupts\nfor Defense Matrix and you do not need additional survivability\nwhile in Pilot Mode provided by the other options in the same Tier,\nespecially if you plan to go Diverting Power at Level 16.\n?\nGood To Go\n(Level 13)\nD.Va\nPilot Mode: Unlocks the Torpedo Dash and Concussive Pulse abilities.\nTorpedo Dash: Dash a short distance. 10 second cooldown.\nConcussive Pulse: Deal 120 (+4% per level) damage to enemies in a cone and knock them back. 10 second cooldown.\nGood To Go is a useful Talent that provides D.Va's Pilot\nwith two more Abilities: Torpedo Dash and Concussive Pulse.\nTorpedo Dash is a special Ability that can be used to quickly escape from danger,\neven if it cannot be used immediately when switching to Pilot Mode\nbut only after waiting 0.75 seconds of cooldown.\nConcussive Pulse is a special Ability that can be used\nto knockback and damage any enemy within your Attack Range.\nIf you play with Quick Cast set to \"On\" (under Settings > Hotkeys > Quick Cast Setting),\nthen you can use this information\nas a guideline to know if it will connect or not.\nGood To Go helps D.Va survive when her Mech is being\ndetonated via Self-Destruct or it gets destroyed by damage.\n?\nPew! Pew! Pew!\n(Level 13)\nD.Va\nPilot Mode: Instead of a single shot, Big Shot fires 3 shots over 0.5 seconds. Each shot deals 75% damage.\nPew! Pew! Pew! is a decent Talent that reduces the damage done\nby Big Shot by a quarter but triples the number of shots,\nresulting in a 125% damage increase per cast.\nThe best part about this Talent is the fact that it allows you to quickly\nget back into Mech Mode by hitting enemy Heroes, however,\nit is not always possible to stand still to cast Big Shot.\nKeep in mind that this Talent does not help D.Va at all when her Mech\nis being detonated via Self-Destruct but helps a lot\nwhen destroyed by damage, if the enemy team does not kill you immediately after.\nPew! Pew! Pew! helps D.Va get back in her Mech when it gets destroyed by damage,\nbut it does not help her while in her Mech or when her Mech is being detonated\nvia Self-Destruct."
+  },
+  {
+   "title": "Level 16 Talents for D.Va",
+   "id": "level-16",
+   "text": "?\nIn For The Kill\n(Level 16)\nD.Va\nCasting Boosters grants a Shield equal to 10% of maximum life for 2.5 seconds. Each Enemy Hero hit by Boosters increases D.Va's Mech's Basic Attack damage by 10% for 5 seconds, stacking up to 5 times.\nIn For The Kill is a good Talent that makes D.Va get\na Shield after casting Boosters; furthermore, each enemy Hero hit\nin the process will increase her Attack damage by a small amount.\n✔\nDiverting Power\n(Level 16)\nD.Va\nDefense Matrix's area grows drastically in size and each time it reduces damage dealt to Heroes D.Va's Mech is healed for 31 (+4% per level) Health.\nDiverting Power is a strong Talent that drastically increase\nthe area covered by Defense Matrix and heals D.Va's Mech\nby a small amount for every instance of damage mitigated.\nDiverting Power has synergy with Target Locked\nat Level 13 because the increased area of the former makes it way easier\nto trigger the debuff of the latter.\n?\nEmergency Shielding\n(Level 16)\nD.Va\nWhen D.Va's Mech would be destroyed, it instead gains a Shield that absorbs 290 (+4% per level) damage over 8 seconds.\nThis effect has a 30 second cooldown.\nEmergency Shielding is a situational Talent that helps\nD.Va to survive against crowd control as her Mech\nwill automatically get a Shield when receiving lethal damage, but only once every 30 seconds."
+  },
+  {
+   "title": "Level 20 Talents for D.Va",
+   "id": "level-20",
+   "text": "?\nStop and Pop\n(Level 20)\nD.Va\nIncrease Bunny Hop's duration by 4 seconds, and it does not decay while D.Va's Mech is stationary.\nStop and Pop is a strong Talent that increases the duration\nof Bunny Hop by 4 seconds and makes it freeze when D.Va's Mech is hopping on the spot.\nConsidering that Bunny Hop deals a lot of damage\nand makes you Unstoppable,\nthe extra duration coming from Stop and Pop turns\nyour Heroic Ability into a deadly weapon.\n?\nTiming Attack\n(Level 20)\nD.Va\nMicro Missiles gains an additional charge. Each time Micro Missiles hits an enemy Hero, reduce its cooldown by 0.5 seconds and charge cooldown by 0.25 seconds.\nTiming Attack is a good Talent that increases the uptime\nof Micro Missiles by adding a third charge\nand by reducing its cooldown when hitting enemy Heroes with each projectile.\nKeep in mind that each cast of Micro Missiles will fire 12 shots,\nresulting in a cooldown reduction of 6 seconds per cast if you do not have any Charge available\nother than the one you just used and 3 seconds per cast if you have some of them left.\n?\nHeadshot!\n(Level 20)\nD.Va\nPilot Mode: Increase Big Shot's damage by 75% and reduce its cooldown by 2 seconds.\nHeadshot! is a good Talent that almost doubles the damage done\nby each cast of Big Shot and literally doubles it if you picked\nPew! Pew! Pew! at Level 13. Furthermore, it reduces its cooldown from 6 to 4 seconds.\n✔\nAblative Armor\n(Level 20)\nD.Va\n45% of Spell damage dealt to D.Va's Mech is returned as healing over 4 seconds.\nAblative Armor is a good Talent that drastically increases\nthe survivability of D.Va's Mech against Spell Damage\nby converting 45% of it into healing over time, however, it does not help that much\nif you lose your Mech too quickly.\nThis kind of mechanic is particularly good against damage-over-time effects.\nYou can combine it with Diverting Power at Level 16\nto get more value from it as the damage reduction effect will give you\ntime to get healed via Ablative Armor."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n13 Oct. 2023: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n09 May 2022: Builds updated.\n17 May 2021: Guide reviewed for the latest Patch.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n21 Nov. 2020: Builds and Talents updated.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n12 Oct. 2020: Guide reviewed for the latest Balance Update.\n04 Oct. 2020: Builds updated.\n16 Sep. 2020: Minor fixes.\n14 Sep. 2020: Talents page updated.\nHero Rework applied.\nNew layout.\n11 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n07 Oct. 2019: Updated D.Va's Talents and Talent Builds.\n17 Oct. 2017: Level 1 Talent Pro Moves duration has been increased to 1.5 seconds from 1.25 seconds.\n08 Aug. 2017: Level 4 Talent Diverting Power now slows D.Va by an additional 50% rather than self-rooting her for the duration of the cast.\n07 Jun. 2017: Corrected error in the description of the way stacks are lost for the Level 1 Talent Pro Moves.\n01 Jun. 2017: Level 1 Talent Pro Moves duration has been increased to 1.25 seconds from 1 second.\n31 May 2017: Talent Build Page updated with full descriptions and discussion.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "name": "towers-of-doom",
+ "source": "https://www.icy-veins.com/heroes/towers-of-doom-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Towers of Doom is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Altars. Cores have 40 Health\nand cannot be attacked directly. When captured, Altars deal 1 damage\nto the enemy Core, increased by 1 for each Bell Tower (Fort or Keep) under your\nteam's control. Bring the enemy Core to 0 Health to win the game."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nHeroes for clearing Mercenary Camps\nGankers\nGlobal presence\nOfflaner who can double soak\nPoke tools for Objective\nStrong late game\nAvoid\nCore backdoor\nWeak late game\nSee our Towers of Doom Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-4",
+   "id": "formation-1-4",
+   "text": "The go-to formation for Towers of Doom is 1-4:\n1 Hero, the Offlaner,\ndouble-soaks the middle and top lanes;\n4 Heroes cover the bottom lane."
+  },
+  {
+   "title": "Formation 1-1-3",
+   "id": "formation-1-1-3",
+   "text": "Another good formation for Towers of Doom is 1-1-3:\n1 Hero, the Offlaner, covers the top lane;\n1 Hero covers the middle lane and ganks when possible;\n3 Heroes cover the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available, start clearing the allied Sapper Camp\nand capture it as soon as possible. Watch out for invades!\nSomeone should stay in the bush on the side, so that you can react faster\nwhen enemy Heroes arrive.\nAt 3:00 minutes or whenever the next Objective phase starts, make sure to have\nat least 1 Hero near each allied and neutral Altar. Avoid trying to capture\nthe enemy Altar (the one that is near the top lane and on the enemy side),\nbut feel free to poke whoever is trying to capture it.\nSend a global Hero to capture the allied Altar\n(the one that is near the top lane and on the allied side) if you have one.\nIf you manage to capture the bottom Bell Tower (Fort or Keep), defend it!\nYou do not want the enemy team to get it back for free before the next\nObjective phase, especially if there will be one or more Altars nearby.\nIf the enemy team manages to capture the bottom\nBell Tower (Fort or Keep) and you struggle to get it back,\nstart clearing the neutral Sapper Camp and capture it as soon as possible,\nthen push in the middle and/or top lane.\nIn the late game, whenever you have\na big advantage (at least 3 enemy Heroes are dead), go for a 6-cap:\nquickly split your team in a way that will cause all enemy\nBell Towers (Forts and Keeps) to be captured at the same time.\nDo not capture the Boss Camp\nunless your team has an advantage\nand the enemy Core has 4 Health or less, or\nthe enemy team can use it to win the game during the next Objective phase.\nIn all other cases it is better to deal damage to enemy Structures."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Towers of Doom has a total of 4 Mercenary Camps:\n1 Sapper Camp (purple icon) in the top lane;\n1 Boss Camp (red icon) between the top and the middle lanes;\n2 Sapper Camps (purple icon) in the bottom lane.\nMercenary Camps on Towers of Doom are always active,\neven when Altars are available on the battlefield.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Sapper Camp",
+   "id": "sapper-camp",
+   "text": "This type of Mercenary Camp features 3 Sappers. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n2:30 minutes after its last capture\nBaseline Experience\nExperience Scaling\n90 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nWhen in range of an enemy Structure, Sappers will sprint at it and explode.\nAll enemy non-Heroes within 2.5 range will take damage form it. Structures will take\n1750 damage (not scaling) and non-Structures will take 187 damage (not scaling).\nYou can briefly interrupt the explosion by using\nStun, Silence, or even\nKnockback effects. That said, if you do\nnot kill them in time, they will try again immediately after.\nSappers on Towers of Doom have an additional effect: if they enter in the enemy team's\nKill Zone, they will launch their head at their Core, dealing 1 point of damage\nregardless of how many Bell Towers (Forts or Keeps) are under your team's control.\nTherefore, fully escorting a Sapper Camp will deal 3 damage to the enemy Core."
+  },
+  {
+   "title": "Boss Camp",
+   "id": "boss-camp",
+   "text": "This type of Mercenary Camp features 1 Headless Horseman. Once captured,\ninstead of going in lane, he vanishes and deals 4 damage\nto the enemy Core, regardless of how many Bell Towers (Forts and Keeps)\nare under your team's control. The damage happens after 5 seconds, over 2 seconds.\nSpawn Time\nRespawn Delay\n5:00 minutes\n5:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n375 Experience\n+10 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nHeadless Horseman's Basic Attacks cleave for 100% of the damage\nin a half-circle in front of him. While in combat, the Headless Horseman\nwill use Horseman's Head (6-second cooldown) to fire a skull that spins\naround him for a couple of seconds and then hits the ground under\nan enemy Hero, creating a green pool that deals a lot of damage.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Waygate",
+   "id": "waygate",
+   "text": "Towers of Doom has a Waygate connecting each Core to the middle of the battlefield.\nWhen clicking on it, after channeling for 2 seconds,\nyou will be teleported near the bush in the middle lane. You cannot use\nthe Waygate in the early game because it is closed.\nThe passage usually opens at 12:00 minutes but it is delayed if there are Altars active.\nOnce accessible, the tunnel can be used to quickly join the action after dying or using the Hearthstone,\nbut cannot be used to go back to base. Be careful when standing near the exit\nbecause multiple enemy Heroes could suddenly get out from the tunnel and kill you."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Towers of Doom consists of Altars.\nIn order to capture an Altar, Heroes have to channel for 6 seconds. When captured,\nAltars deal 1 damage to the enemy Core, increased by 1 for each Bell Tower (Fort or Keep)\nunder your team's control. The damage happens after 4 seconds.\nSpawn Time\nRespawn Delay\n3:00 minutes\n1:50 minutes after capturing all Altars\n\nProtected Cores\nBoth Cores are protected by a barrier that cannot be attacked by Heroes. To be victorious, you must activate Altars.\nActivate Altars\nPeriodically Altars will rise across the battlefield. Activate them to have your Bell Towers fire upon the enemy's Core.\nClaim Bell Towers\nDestroy your enemy's Towers to bring them under your team's control. The more Towers you have, the more damage an Altar will do."
+  },
+  {
+   "title": "Altars",
+   "id": "altars",
+   "text": "The possible configurations of Altars are:\ntop-left and top-right;\nmiddle only;\nbottom only;\nmiddle and bottom;\ntop-left, top-right, and middle;\ntop-left, top-right, and bottom.\nThe top 2 Altars always spawn together, with or without another Altar.\nAltars will spawn based on the following rules:\nthe 1st and 5th Altar spawns must have 3 Altars;\nthe first 6 Altar spawns are randomly selected from the list above,\nwithout repetition;\nthe next 4 Altar spawns are randomly selected from the list above,\nwithout repetition, excluding the configurations with 3 Altars;\nthe following Altar spawns are randomly selected from the list above,\nwith repetition, excluding the configurations with 3 Altars.\nThis means that, if you keep track of the previous Altar spawns,\nyou will always know the configuration of the 5th, 6th, and 10th Altar spawns\nway before their locations are displayed on the Minimap."
+  },
+  {
+   "title": "Bell Towers",
+   "id": "bell-towers",
+   "text": "Bell Towers (Forts and Keeps) are what actually deals damage to the enemy\nCore when capturing an Altar. So, before capturing an Altar, you should try\nto control as many Bell Towers as possible. For example, if a Bell Tower\nis almost destroyed, finish it off and then capture Altars.\nBell Towers start as Forts at the beginning of the game\nand become Keeps when the Waygate opens. This usually happens\nat 12:00 minutes but it is delayed if there are Altars active.\nOnce they become Keeps, they have more Health and give more Experience.\nThe lights below each Altar represent Bell Towers. The colors work as follow:\nblue: your team owns the corresponding Bell Tower;\nyellow: the corresponding Bell Tower is changing ownership;\nred: the enemy team owns the corresponding Bell Tower.\n\nIf a team controls all Bell Towers (also known as 6-cap), the enemy Core is\nbombarded until the other team gets one of the Bell Towers back. The first shot\nhits 8 seconds after you destroy the last Bell Tower, the next 6 shots hit once\nevery 6 seconds, and the following shots hit once every 3 seconds.\nTime Elapsed\nTotal Damage\n8\n1\n14\n2\n20\n3\n26\n4\n32\n5\n38\n6\n44\n7\n47\n8\n50\n9\nWhen destroyed, Bell Towers take 2 seconds to change ownership (to count\nfor the other team's Altar or for a 6-cap bombardment to start) and about\n20 seconds to become a Structure again (to deal damage and take damage).\nA stolen Bell Tower (enemy team's side) will not have an Healing Fountain\nbut a retaken Bell Tower (allied team's side) will have it."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Cores are Invulnerable and can only take damage from specific mechanics:\nAltars, Boss Camp, escorting Sappers into the Kill Zone, or 6-capping\n(getting all Forts and Keeps). Furthermore, Cores can deal heavy damage\nto enemies who enter the Kill Zone. A few meters in the\nKill Zone, right behind the big gates, there is also an invisible barrier\nthat pushes enemy Heroes away whenever they get past it,\nsimilarly to when Heroes enter inside the enemy Hall of Storms.\nThe so-called Kill Zone is an extremely dangerous area marked by\na visible barrier surrounding each Core on Towers of Doom.\nEnemies who enter inside that area take 150 damage (+25 per minute, capping at 900\ndamage after 30:00 minutes) every 0.5 seconds. Furthermore, each hit\nreduces the Armor of enemy Heroes hit by 20, up to 40. Heroes with\nDisplacement effects (notably\nMighty Gust by Falstad)\ncan push enemy Heroes inside it to kill them with ease.\nBeing categorized as Physical Damage, the damage done by the Kill Zone\ncan be reduced by Physical Armor\n(such as Dauntless by Yrel)\nor generic Armor (for example,\nArmor Up by Garrosh),\nbut not by Spell Armor. In addition to that,\nsince it behaves like Basic Attacks, you can fully negate its damage\nby using Evade (such as Evasion by Illidan)\nand Parry (like Parry by Varian) effects."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Towers of Doom, you should count on\nany of the following win conditions:\nMap Objective,\nSplit-push."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nIf you happen to lose a Bell Tower (Fort or Keep) and the enemy team is playing\nnear the Kill Zone of your Core, you can use Displacement\neffects to move them into it, causing them to take a huge amount of damage.\nThis is usually enough to get a kill as most Heroes cannot survive that.\nFrom a tactical standpoint, Core's Health is a resource that can be used\nto get value elsewhere. You should only be worried to lose Core's Health\nwhen you have 10 or less. For this reason, the Boss Camp\nshould only be captured when either team could use it to immediately win the game.\nAlthough it is not possible to march towards the enemy Core and end the game there,\nif your team has a big advantage\n(at least 3 enemy Heroes are dead), you can still do something\nequivalent: 6-capping. To do so, quickly split the team in a way that will cause\nall enemy Bell Towers (Forts and Keeps) to be captured at the same time.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n04 Oct. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "slug": "stitches",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/stitches-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/stitches-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/stitches-talents"
+ },
+ "guide": [
+  {
+   "title": "Stitches's Overview",
+   "id": "stitchess-overview",
+   "text": "Stitches is a Tank whose signature move is Hook,\na unique Ability that can be used to pull enemy Heroes from the distance\nand allow allied Heroes to follow up with\ncrowd control and burst damage."
+  },
+  {
+   "title": "Stitches's Strengths and Weaknesses",
+   "id": "stitchess-strengths-and-weaknesses",
+   "text": "Strengths\nSolid waveclear\nPowerful high-range pull effect\nHigh maximum Health\nGood self-sustain\nDecent damage\nWeaknesses\nLow crowd control\nLack of mobility\nWeak peeling"
+  },
+  {
+   "title": "Stitches's Talent Build Cheatsheet",
+   "id": "stitchess-talent-build-cheatsheet",
+   "text": "Standard Hook Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's Standard Hook Build revolves around Hook\nfollowed by Gorge to pull enemy Heroes\ncompletely out of position, ready for your team to kill them.\nThe additional Movement Speed provided by Hungry for More\nat Level 1 allows you to move faster without having to use Shambling Horror\njust for the extra Movement Speed, unless you need to remove a Slow from yourself.\nThis way you can usually keep it for another moment.\nDefensive Hook Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's Defensive Hook Build revolves around Hook\nfollowed by Gorge to pull enemy Heroes\ncompletely out of position, ready for your team to kill them.\nThe extra Armor and healing from Patchwork Creation\nat Level 1 is great for suriving longer while creating space for your team.\nUse Vile Cleaver at Level 4 to easily debuff\nmultiple enemies and get more Armor as a consequence, then activate\nShambling Horror to double it when needed.\nVile Gas Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's Putrid Bile Build, other than using Hook\nto pull enemy Heroes from ranged distance,\ncan also use Putrid Bile to Slow\nand damage them from melee distance.\nThe extra Armor and healing from Patchwork Creation\nat Level 1 is great for suriving longer while creating space for your team.\nUse Vile Cleaver at Level 4 to easily debuff\nmultiple enemies and get more Armor as a consequence, then activate\nShambling Horror to double it when needed.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's ARAM Build revolves around Hook\nfollowed by Gorge to pull enemy Heroes\ncompletely out of position, ready for your team to kill them.\nThe additional Movement Speed provided by Hungry for More\nat Level 1 allows you to move faster without having to use Shambling Horror\njust for the extra Movement Speed, unless you need to remove a Slow from yourself.\nThis way you can usually keep it for another moment.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Stitches's Synergies and Counters",
+   "id": "stitchess-synergies-and-counters",
+   "text": "Stitches synergizes with\nStitches works well with Heroes who can quickly respond to any successful Hook\nby locking the target enemy Hero in place with crowd control\n(for example Malfurion with Entangling Roots)\nand that have access to burst damage to get a kill\nbefore the enemy team can react (such as Jaina).\nTo compensate his lack of peeling, Stitches likes to be in team\nwith Heroes that have access to crowd control.\nWe recommend an Offlaner who can act as a secondary\nTank during team fights (for example Blaze).\nIf your team has access to a disengage tool (such as\nMighty Gust), they can use it either to save you from danger\nor to knock the rest of the enemy team away\nright after you Hook someone.\nStitches is countered by\nBecause so much of Stitches's ability to impact a match is baked into Hook,\nhe can be challenged by frontline Heroes who are bad targets for it\nas they may use Unstoppable on demand, put a Summon on the trajectory,\neasily dodge the skillshot, or run away right after.\nHeroes who can save the target right after they get caught are good counters as well.\nDue to his high Health pool and lack of mobility,\nStitches is also susceptible to percent-based damage\n(for example Leoric with Drain Hope\nand Entomb)."
+  },
+  {
+   "title": "Stitches's Maps",
+   "id": "stitchess-maps",
+   "text": "Stitches's stronger maps\nStitches's average maps\nStitches's weaker maps\nStitches prefers Maps where Hook can easily be used\nthrough impassable terrain\nand/or near choke points while teams tend to group.\nThis way your team gets the opportunity to quickly take down an enemy Hero\nbefore their team is able to respond.\nThe high amount of waveclear he provides makes\nStitches a good pick on 3-lane Maps where the metagame strategy is to rotate\nbetween two lanes (for example Volskaya Foundry).\nDue to his lack of mobility to escape himself\nand peeling to protect the rest of his team, Stitches\ndoes not like Maps where the enemy team can easily gank him\nor flank his team before he can even get a chance to\nuse Hook from the distance."
+  },
+  {
+   "title": "Stitches's Tips and Tricks",
+   "id": "stitchess-tips-and-tricks",
+   "text": "Hook can be used to interrupt any kind of channeling.\nHelping Hand shares its cooldown with Hook, but it will be halved when hitting allied Heroes.\nSlam is a great tool for dismounting enemy Heroes and for waveclearing.\nDevour should not be used when Stitches has more than 80% of his maximum Health, else you will waste part of its effect, unless you want to use it to secure a kill.\nShambling Horror increases your Movement Speed, in addition to making it impossible to be reduced below that value.\nPutrid Bile helps you to engage, peel, or disengage.\nGorge can be used to bring enemy Heroes behind your Gates, resulting in easy kills with the help of your Structures shooting at them.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Stitches's Role in the Current Meta",
+   "id": "stitchess-role-in-the-current-meta",
+   "text": "Stitches prefers to be played as main Tank\nin a burst composition,\nso in a team that can provide both crowd control\nand burst damage right after his Hook.\nDue to his one-dimensional design, Stitches should not be drafted\ntoo early in order to avoid that the enemy team will exploit\nhis lack of crowd control by picking\nhigh-mobility Heroes."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "26 May 2025 (talents page): Builds reorganized.\n26 May 2025 (this page): Builds reorganized.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n15 Aug. 2024 (talents page): Guide reviewed.\n15 Aug. 2024 (abilities page): Guide reviewed.\n15 Aug. 2024 (this page): Guide reviewed.\n21 Sep. 2023 (talents page): ARAM Build added.\n21 Sep. 2023 (this page): ARAM Build added.\n07 Jul. 2022 (talents page): Builds updated.\n07 Jul. 2022 (this page): Builds updated.\n26 Nov. 2021 (talents page): Builds updated.\n26 Nov. 2021 (this page): Builds updated.\n26 Aug. 2021 (talents page): Guide reviewed for the latest Balance Update.\n26 Aug. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n26 Aug. 2021 (this page): Guide reviewed for the latest Balance Update.\n03 Aug. 2021 (talents page): Builds updated.\n03 Aug. 2021 (this page): Builds updated.\n25 Jun. 2021 (talents page): Guide reviewed and updated for the latest Balance Update.\n22 May 2021 (talents page): Builds updated.\n22 May 2021 (this page): Builds updated.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n22 Mar. 2021 (talents page): Builds updated.\n22 Mar. 2021 (this page): Builds updated.\n13 Dec. 2020 (talents page): Builds updated.\n13 Dec. 2020 (this page): Builds updated.\n24 Oct. 2020 (talents page): Talent Builds fully revised to match new standards.\nTalent Builds and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n24 Oct. 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n24 Oct. 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nTalent Build Cheatsheet updated to reflect the current metagame.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\n10 Sep. 2020 (abilities page): Abilities and Strategy page reviewed for the latest Patch.\n16 Jul. 2020 (talents page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (this page): Guide reviewed for the latest Balance Update.\n05 Jun. 2020 (talents page): Guide reviewed for the latest Balance Update.\n05 Jun. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n05 Jun. 2020 (this page): Guide reviewed for the latest Balance Update.\n15 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n15 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n14 Feb. 2020 (talents page): Updated Stitches' talents and builds in accordance to the latest Balance Update.\n16 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n29 Jul. 2019 (talents page): Updated Stitches' talents and builds.\n29 Jul. 2019 (abilities page): Reviewed the Abilities section.\n12 Dec. 2018 (talents page): Completely overhauled Stitches' Talents and Builds in accordance with his latest re-work.\n02 Oct. 2017 (this page): Moved Stitches' guide to the new format and updated it for Ana's patch.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Stitches's Tips and Tricks",
+   "id": "stitchess-tips-and-tricks",
+   "text": "Hook can be used to interrupt any kind of channeling.\nHelping Hand shares its cooldown with Hook, but it will be halved when hitting allied Heroes.\nSlam is a great tool for dismounting enemy Heroes and for waveclearing.\nDevour should not be used when Stitches has more than 80% of his maximum Health, else you will waste part of its effect, unless you want to use it to secure a kill.\nShambling Horror increases your Movement Speed, in addition to making it impossible to be reduced below that value.\nPutrid Bile helps you to engage, peel, or disengage.\nGorge can be used to bring enemy Heroes behind your Gates, resulting in easy kills with the help of your Structures shooting at them."
+  },
+  {
+   "title": "Hook",
+   "id": "hook",
+   "text": "Hook\n(Q)\nStitches\nMana: 75\nCooldown: 16 seconds\nPull the first enemy hit towards Stitches and deal 91 (+4% per level) damage.\nAfter reaching level 13, Hook's range is increased by 40%.\nHook is a Basic Ability that allows Stitches\nto briefly Stun and Displace\ntowards him the first enemy hit from high distance.\nAfter reaching Level 13, you will automatically unlock extra range.\nUse it to engage from range or to deny an enemy Hero their chance to flee.\nSometimes you can even use it from melee, just to briefly make the target unable to act.\nIf you manage to Hook an enemy Hero\nand your team is ready to follow up\nwith crowd control and burst damage,\nyou may be able to get a kill before the real team fight even starts.\nThe brief Stun that happens when hitting enemies\nwith Hook allows Stitches to not only interrupt\nstationary-channeled Abilities\n(such as Mosh Pit by E.T.C.)\nbut also mobile-channeled Abilities\n(for example Jug of 1,000 Cups by Li Li).\nWhile laning, you can occasionally use Hook\non enemy Mercenaries to Displace them within the range of your Structures,\na trick that is extremely useful against Mercenaries who can outrange Structures (for example Siege Giants).\nHook can Pull enemies through\nimpassable terrain (including player-created one)\nand Invulnerable enemy Structures (for example Healing Fountains).\nNote that Hook can only travel through allied Structures,\nInvulnerable enemy Structures, and impassable terrain.\nHook and Helping Hand\nshare their cooldowns, meaning they will always go on cooldown together\nand be available again at the exact same time."
+  },
+  {
+   "title": "Helping Hand",
+   "id": "helping-hand",
+   "text": "Helping Hand\n(1)\nStitches\nMana: 75\nCooldown: 16 seconds\nActivate to use Hook that can hit allied Heroes. Hitting an allied Hero this way reduces the cooldown of Hook by 8 seconds.\nAfter reaching level 13, Helping Hand's range is increased by 40%.\nHelping Hand is a Basic Ability that allows Stitches\nto briefly Stun and Displace towards him\nthe first allied or enemy Hero hit from high distance.\nAfter reaching Level 13, you will automatically unlock extra range.\nUse it to save allied Heroes from danger, a play that is particularly strong\nif you can manage to Pull them through impassable terrain. Remember that\nany enemy Hero on the way will be a valid target, meaning that the enemy team\ncan stop you from saving someone by intercepting Helping Hand.\nAvoid using it when they are channeling an Ability\nbecause it will be interrupted\nlike when using Hook against enemy Heroes.\nHelping Hand can Pull allies through\nimpassable terrain (including player-created one),\nallied Structures, and Invulnerable enemy Structures (for example Healing Fountains).\nNote that Helping Hand can only travel through allied Structures,\nInvulnerable enemy Structures, and impassable terrain.\nWhen you use Helping Hand,\nHook goes on cooldown as well.\nIf Helping Hand hits an allied Hero,\nthe cooldown of both these Basic Abilities will be halved."
+  },
+  {
+   "title": "Slam",
+   "id": "slam",
+   "text": "Slam\n(W)\nStitches\nMana: 35\nCooldown: 8 seconds\nDeal 104 (+4% per level) damage to enemies within the target area. Enemies in the inner impact take 50% more damage and are Slowed by 45% for 2 seconds.\nSlam is a Basic Ability that deals moderate damage to all\nenemies in a wide cone-shaped area in front of Stitches.\nEnemies within the inner area take 50% additional damage and are Slowed.\nUse it to Slow melee Heroes who are threatening your team\nas they are easy to hit with the inner area that applies it.\nThe wide area covered by Slam makes it a great tool\nfor dismounting enemy Heroes, especially useful against enemy Tanks."
+  },
+  {
+   "title": "Devour",
+   "id": "devour",
+   "text": "Devour\n(E)\nStitches\nMana: 55\nCooldown: 20 seconds\nDeal 319 (+4% per level) damage to non-Heroic units, or 114 (+4% per level) damage to Heroes. Restores 20% of Stitches's maximum Health.\nDevour is a Basic Ability that heals Stitches\nfor a huge chunk of his maximum Health and deals some damage to the chosen enemy,\nalmost tripled against non-Heroes.\nWhile it deals damage, avoid using Devour\nwhen full Health as you may find yourself in trouble a dozen of seconds later\nand not have it available due to its moderately long cooldown.\nOn the other hand, do not wait to be extremely low on Health\nbecause a well-timed crowd control\nmay stop you from casting any Ability until you die\nand the short range will make it impossible to cast if kited.\nIn case of need, the increased damage to non-Heroes may be useful to quickly take down enemy Summons\n(such as Summon Water Elemental by Jaina) while healing."
+  },
+  {
+   "title": "Putrid Bile",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nPutrid Bile\n(R)\nStitches\nHeroic\nMana: 75\nCooldown: 75 seconds\nEmit bile that deals 37 (+4% per level) damage per second to enemies within, Slowing them by 35% for 1.5 seconds. Gain 20% Movement Speed while emitting bile. Lasts 8 seconds.\nPutrid Bile is a Heroic that,\nfor 8 seconds after being cast, allows Stitches to move at increased\nMovement Speed and infect the terrain surrounding him.\nThe infected area will hit enemies once per second, dealing damage\nand Slowing them for 1.5 seconds.\nEach portion of infected area will stay that way for 4 seconds.\nDuring Putrid Bile, you want to\nplace yourself along the path that enemy Heroes are most likely to take,\nforcing them to move through the infected area if they wish to progress. This gives you\nand the rest of your team time to position accordingly and/or deal damage to enemy Heroes affected.\nThe main characteristic of Putrid Bile is the\nSlow component, something that partially makes up for\nStitches's lack of peeling.\nStitches does not have any mobility tool,\nso the Movement Speed bonus he gets during Putrid Bile\ncan help him mitigate this weakness while trying to engage\nor escape. In particular, you should not hesitate to use it just to survive."
+  },
+  {
+   "title": "Gorge",
+   "id": "gorge",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nGorge\n(R)\nStitches\nHeroic\nMana: 70\nCooldown: 65 seconds\nConsume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.\nGorge is a Heroic Ability that allows Stitches to\nremove an enemy Hero from the battlefield for 4 seconds, move them around with him,\nand then free them in front of him.\nIn particular, Gorge is a\nStasis effect that completely removes\nthe target enemy Hero from the battlefield for a few seconds,\ntherefore it does not allow them to eventually contest a Control Point\nand it interrupts any Ability they are trying to cast,\nunless they are Unstoppable\n(for example Johanna with Iron Skin active).\nDue to its low range, Gorge is usually cast\nimmediately after Hook. After that,\nyou should usually run towards your team so that they can focus\nthe enemy Hero that has been caught and/or behind your Gate so that they cannot\nescape while attacked by Structures surrounding them.\nSometimes, when your team is ready to follow up\nimmediately after Hook connects on an enemy Hero,\nthe correct play is to not use Gorge to avoid delaying\nthe kill by 4 seconds or, even worse, give the enemy team enough time to save them.\nSince Gorge will always expel the consumed Hero\ndirectly in front of Stitches,\nyou should try to face a corner or dead end so that the enemy Hero has nowhere to flee. If you\nwant to help your team with their aim, do not move a lot during the last second\nso that it will be easier for them to guess where the enemy Hero will land.\nWhile casting Gorge, Stitches gets some Unstoppable\nframes that briefly make him immune to crowd control.\nYou may use this knowledge to your advantage in some rare scenarios (for example\nagainst Chromie targeting you with Temporal Loop)."
+  },
+  {
+   "title": "Shambling Horror",
+   "id": "shambling-horror",
+   "text": "Shambling Horror\n(D)\nStitches\nCooldown: 60 seconds\nActivate to spread Vile Gas in a large area every second and prevent your Movement Speed from being reduced below 110% for 4 seconds.\nVile Gas\nHitting enemies with Basic Attacks or the inner area of Slam afflicts them with Vile Gas, dealing an additional 36 (+4% per level) damage over 4 seconds. Deals 150% more damage to Minions, Mercenaries, and Monsters.\nShambling Horror is a Trait that passively applies Vile Gas\nto enemies hit with Basic Attacks or with the inner area of Slam.\nVile Gas deals damage over time, increased against Minions, Mercenaries, and Monsters.\nYou can activate Shambling Horror to spread Vile Gas around you\nand briefly gain a small but useful amount of Movement Speed which cannot be reduced\nby enemy debuffs. This effect can also be used right after\ncasting Gorge, to move faster towards allied Structures\nand/or allied Heroes, especially if enemy Heroes applied a Slow\ndebuff on you right after you used Gorge."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025: Guide reviewed.\n15 Aug. 2024: Guide reviewed.\n26 Aug. 2021: Guide reviewed for the latest Balance Update.\n17 May 2021: Guide reviewed for the latest Patch.\n24 Oct. 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n10 Sep. 2020: Abilities and Strategy page reviewed for the latest Patch.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n05 Jun. 2020: Guide reviewed for the latest Balance Update.\n29 Jul. 2019: Reviewed the Abilities section.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Patchwork Creation (Level 1) Stitches Mana: 35 Cooldown: 8 seconds Gain 3 Armor for every unit afflicted with Vile Gas, stacking up to 8 times. While Shambling Horror is active, this Armor amount is doubled. Passive: Increase regeneration effects and all healing received by 15%."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Savor The Flavor (Level 1) Stitches Quest: Hitting an enemy Hero with Devour increases Stitches' Health Regeneration by 1.5 and the damage of Vile Gas by 2%, stacking up to 100 times."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hungry for More (Level 1) Stitches Gain 5% Movement Speed. Quest: Gathering a Regeneration Globe increases Stitches's maximum Health by 25. Reward: Every 20 Globes gathered permanently increases Stitches' Movement Speed by an additional 5%."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Playtime! (Level 4) Stitches Basic Attacks restore 5 Mana and reduce Slam's cooldown by 0.75 seconds. For each enemy Hero hit by Slam's inner area, restore 5 Mana and reduce its cooldown by 1.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Vile Cleaver (Level 4) Stitches Basic Attacks against enemies with Vile Gas deal 35% more damage and spreads Vile Gas to nearby enemies. Passive: Slam applies Vile Gas to all targets hit."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Tenderizer (Level 4) Stitches Basic Attacks against enemy Heroes Slow by 20% for 1.5 seconds and restore 1.75% of Stitches' maximum Health."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Serrated Edge (Level 7) Stitches Hitting an enemy Hero with Hook deals bonus damage equal to 5% of their maximum Health, reduces Hook's cooldown by 4 seconds, and restores 35 Mana."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Second Helping (Level 7) Stitches Devour gains 1 additional charge with a 6 second cooldown between uses. Gambit: If Stitches is at max Health after using Devour, he gains a Shield equal to 15% of his maximum Health for 10 seconds. Every death, reduce this Shield by 3%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Putrefaction (Level 7) Stitches While Shambling Horror is active, Vile Gas reduces healing received by 40%. Passive: Vile Gas heals Stitches for 75% of the damage dealt."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Putrid Bile (Level 10) Stitches Mana: 75 Cooldown: 75 seconds Emit bile that deals 37 (+4% per level) damage per second to enemies within, Slowing them by 35% for 1.5 seconds. Gain 20% Movement Speed while emitting bile. Lasts 8 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Gorge (Level 10) Stitches Mana: 70 Cooldown: 65 seconds Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Meat Hook (Level 13) Stitches Hitting an enemy Hero with Hook heals Stitches for 20% of his maximum Health over 5 seconds. While active, Basic Attacks against the Hero hit refresh the duration of this effect."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Under Pressure (Level 13) Stitches Increase Slam's damage by 25. Quest: After damaging Heroes with Vile Gas 6 times, permanently increase the damage of Slam by 1, to a maximum of 75 additional damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Chop Chop (Level 13) Stitches Hitting an enemy Hero with Hook or activating Shambling Horror grants 40% increased Attack Speed for 4 seconds. Basic Attacks refresh the duration of this effect."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Pulverize (Level 16) Stitches All enemies hit by Slam are Slowed by 70% for 0.75 seconds and Heroes have their Armor reduced by 10 for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Digestive Juices (Level 16) Stitches Devour deals an additional 140 (+4% per level) damage over 5 seconds. When used on a Hero, its cooldown is reduced by 4 seconds and causes the Hero hit to deal 50% reduced damage for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Flare Up (Level 16) Stitches Deals 15 (+4% per level) damage per second to nearby enemies. Hitting an enemy Hero with Hook or activating Shambling Horror increases this damage by 150% for 4 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Gift From The Embalmer (Level 20) Stitches Putrid Bile deals 100% more damage to Heroes. Quest: Each time Putrid Bile damages an enemy Hero, the duration of Stitches' next death timer is reduced by 2%, to a maximum of 80% total reduction. All stacks of this effect are lost upon death."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Hungry Hungry Stitches (Level 20) Stitches For 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them. Enemies are Slowed by 75% for 1 second after Gorge ends."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Master Hooker (Level 20) Stitches Reduce the cooldown of Hook by 4 seconds. Enemy Heroes hit by Hook have 75% reduced healing for 2 seconds. Allies hit by Helping Hand are Unkillable for 2 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Gas Bag (Level 20) Stitches Activating Shambling Horror grants Unstoppable for 3 seconds. Passive: Shambling Horror's cooldown is reduced by 20 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Stitches's Talent Build",
+   "id": "stitchess-talent-build",
+   "text": "Level\nChoices\n1\n?\n✘︎\n✓\n4\n?\n?\n✓\n7\n✓\n?\n?\n10\n?\n✓\n13\n✓\n✘︎\n?\n16\n✓\n?\n✘︎\n20\n?\n?\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Stitches's Talent Build Cheatsheet",
+   "id": "stitchess-talent-build-cheatsheet",
+   "text": "Standard Hook Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's Standard Hook Build revolves around Hook\nfollowed by Gorge to pull enemy Heroes\ncompletely out of position, ready for your team to kill them.\nThe additional Movement Speed provided by Hungry for More\nat Level 1 allows you to move faster without having to use Shambling Horror\njust for the extra Movement Speed, unless you need to remove a Slow from yourself.\nThis way you can usually keep it for another moment.\nDefensive Hook Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's Defensive Hook Build revolves around Hook\nfollowed by Gorge to pull enemy Heroes\ncompletely out of position, ready for your team to kill them.\nThe extra Armor and healing from Patchwork Creation\nat Level 1 is great for suriving longer while creating space for your team.\nUse Vile Cleaver at Level 4 to easily debuff\nmultiple enemies and get more Armor as a consequence, then activate\nShambling Horror to double it when needed.\nVile Gas Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's Putrid Bile Build, other than using Hook\nto pull enemy Heroes from ranged distance,\ncan also use Putrid Bile to Slow\nand damage them from melee distance.\nThe extra Armor and healing from Patchwork Creation\nat Level 1 is great for suriving longer while creating space for your team.\nUse Vile Cleaver at Level 4 to easily debuff\nmultiple enemies and get more Armor as a consequence, then activate\nShambling Horror to double it when needed.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nStitches's ARAM Build revolves around Hook\nfollowed by Gorge to pull enemy Heroes\ncompletely out of position, ready for your team to kill them.\nThe additional Movement Speed provided by Hungry for More\nat Level 1 allows you to move faster without having to use Shambling Horror\njust for the extra Movement Speed, unless you need to remove a Slow from yourself.\nThis way you can usually keep it for another moment."
+  },
+  {
+   "title": "Level 1 Talents for Stitches",
+   "id": "level-1",
+   "text": "?\nPatchwork Creation\n(Level 1)\nStitches\nMana: 35\nCooldown: 8 seconds\nGain 3 Armor for every unit afflicted with Vile Gas, stacking up to 8 times. While Shambling Horror is active, this Armor amount is doubled.\nPassive: Increase regeneration effects and all healing received by 15%.\nPatchwork Creation is a strong Talent that\ngives you Armor when applying Vile Gas,\ndoubled when Shambling Horror is active,\nand increases all healing received by 15%.\nThe healing amplification provided empowers your self-healing\nfrom Devour and the healing received\nfrom Regeneration Globes as well, increasing your self-sustain\nwhile laning regardless of your Healer\nbeing good at single-target sustain healing or not. On the other hand,\nthe value you can get from Patchwork Creation\nduring team fights heavily depends on your Healer\nbecause some of them (for example Uther) will not heal you that much.\nConsider picking this Talent to increase your survivability against burst damage,\nwhen playing on Maps where team fights last longer than usual, and when\nthe early game is important (for example Braxis Holdout)—because\nin that case you will not be able to get enough value from Hungry for More.\nYou can combine this Talent with Vile Cleaver at Level 4\nto drastically increase the amount of Armor you will get\nwhen hitting multiple enemies with Slam\nand then activating Shambling Horror if needed.\nThis effect is particularly effective when fighting near Minions in lane\nor when contesting an Objective featuring\nmultiple Monsters (notably Shrines on Infernal Shrines).\n✘\nSavor The Flavor\n(Level 1)\nStitches\nQuest: Hitting an enemy Hero with Devour increases Stitches' Health Regeneration by 1.5 and the damage of Vile Gas by 2%, stacking up to 100 times.\nSavor The Flavor is a weak Quest-based Talent that,\nwhen using Devour on enemy Heroes, permanently\nincreases Stitches's Health Regeneration and Vile Gas's damage by a small amount.\nWe do not recommend this Talent because, compared to the other options in the same Tier,\nit does not provide enough value while also forcing you to use Devour\non enemy Heroes in situations when you may prefer to safely use it on nearby Minions instead\nand to use it on cooldown in moments when you may prefer holding it in case a team fight happens.\n✔\nHungry for More\n(Level 1)\nStitches\nGain 5% Movement Speed.\nQuest: Gathering a Regeneration Globe increases Stitches's maximum Health by 25.\nReward: Every 20 Globes gathered permanently increases Stitches' Movement Speed by an additional 5%.\nHungry for More is a good Quest-based Talent that\nincreases Stitches's maximum Health by 25 (not scaling) for each Regeneration Globe collected\nand his Movement Speed by 5% baseline and by additional 5% every 20 Regeneration Globes collected.\nYou can easily get a good amount of bonus maximum Health out of this Talent,\nespecially on 3-lane Maps where you can rotate between lanes\n(such as Tomb of the Spider Queen) together with your team.\nConsidering that collecting 30 Regeneration Globes during a balanced game is not that easy,\ndo not expect to get more than 750 bonus maximum Health (about 10% extra maximum Health at Level 20)\nand 10% additional Movement Speed from this Talent in most of your games.\nThis is the go-to Talent when planning to pick Gorge later on\nbecause it gives you much needed Movement Speed for running away right after using it.\nSimilarly, it should be avoided when you are going to pick Putrid Bile\nbecause the Movement Speed provided by them will not stack."
+  },
+  {
+   "title": "Level 4 Talents for Stitches",
+   "id": "level-4",
+   "text": "?\nPlaytime!\n(Level 4)\nStitches\nBasic Attacks restore 5 Mana and reduce Slam's cooldown by 0.75 seconds.\nFor each enemy Hero hit by Slam's inner area, restore 5 Mana and reduce its cooldown by 1.5 seconds.\nPlaytime! is a good Talent allows Stitches to restore Mana\nwhen hitting enemies with Basic Attacks and reduce the cooldown of Slam\nwhen hitting enemy Heroes with the inner area of Slam or enemies with Basic Attacks.\nThe cooldown reduction provided helps you when clearing Minions and has moderate synergy with Slam-based Talents:\nUnder Pressure at Level 13 and Pulverize at Level 16.\nYou can even pick Chop Chop at Level 13 to boost your Attack Speed\nand get more cooldown reduction by a consequence.\n?\nVile Cleaver\n(Level 4)\nStitches\nBasic Attacks against enemies with Vile Gas deal 35% more damage and spreads Vile Gas to nearby enemies.\nPassive: Slam applies Vile Gas to all targets hit.\nVile Cleaver is a good Talent that increases your Attack Damage\nagainst enemies affected by Vile Gas and makes Vile Gas spread to nearby enemies\nand makes Slam applies Vile Gas to all enemies hit.\nThe ability to easily spread Vile Gas provided by Vile Cleaver\nhas synergy with Patchwork Creation at Level 1,\nPutrefaction at Level 7,\nand Under Pressure at Level 13.\n✔\nTenderizer\n(Level 4)\nStitches\nBasic Attacks against enemy Heroes Slow by 20% for 1.5 seconds and restore 1.75% of Stitches' maximum Health.\nTenderizer is a good Talent that applies\na decent Slow to enemies hit with Basic Attacks\nand heals Stitches for a small portion of his maximum Health.\nWhile not particularly powerful, we recommend this Talent because\nit helps you body block enemy Heroes and\nslightly mitigates the lack of crowd control\nsuffered by Stitches when Putrid Bile is not available.\nThe healing provided by this Talent has synergy with\nPatchwork Creation at Level 1 because it amplifies any healing effect\nor with Hungry for More at Level 1 because it increases your maximum Health."
+  },
+  {
+   "title": "Level 7 Talents for Stitches",
+   "id": "level-7",
+   "text": "✔\nSerrated Edge\n(Level 7)\nStitches\nHitting an enemy Hero with Hook deals bonus damage equal to 5% of their maximum Health, reduces Hook's cooldown by 4 seconds, and restores 35 Mana.\nSerrated Edge is a good Talent that makes\nHook deal percent-based damage\nto enemy Heroes and slightly reduce its cooldown when connecting on them.\nYou also get some Mana in the process, to compensate for the cooldown reduction.\nThe main reason to ever pick this Talent is the moderate amount damage it deals\nbecause the cooldown reduction happens only if Hook hits an enemy Hero\nand therefore it does not help you to get another try sooner than usual when missing.\n?\nSecond Helping\n(Level 7)\nStitches\nDevour gains 1 additional charge with a 6 second cooldown between uses.\nGambit: If Stitches is at max Health after using Devour, he gains a Shield equal to 15% of his maximum Health for 10 seconds. Every death, reduce this Shield by 3%.\nSecond Helping is a good Talent that gives you\nanother charge of Devour,\nbut with a 6-second cooldown between uses. Whenever he will end up being\nat maximum Health after using Devour to heal,\nStitches will get a temporary Shield equal to a percentage of his maximum Health,\nlosing effectiveness death after death due to the Gambit mechanic.\nPatchwork Creation at Level 1 can increase\nthe healing provided by this Talent like any other healing effect\nand, due to being based on Stitches's maximum Health,\nit also has synergy with Hungry for More\nand similar effects that increase it.\nHaving a second Devour\nat your disposal greatly increases your survivability. While the Shield is welcome,\nthis Talent does not become bad after losing most if not all its Gambit stacks,\nespecially if you pick Digestive Juices at Level 16.\n?\nPutrefaction\n(Level 7)\nStitches\nWhile Shambling Horror is active, Vile Gas reduces healing received by 40%.\nPassive: Vile Gas heals Stitches for 75% of the damage dealt.\nPutrefaction is a good Talent that allows Stitches\nto reduce the healing received by enemy Heroes affected by Vile Gas,\nbut only while Shambling Horror is active.\nIn addition to that, Vile Gas heals Stitches for a big portion of its damage dealt.\nThe ability to reduce healing is interesting to have on a Hero\nwhose playstyle revolves around picking off enemy Heroes with Hook\nand burst them down.\nYou may need this Talent against team compositions that feature\na high amount of healing (for example Whitemane)\nor self-healing (such as Arthas)."
+  },
+  {
+   "title": "Level 10 Talents for Stitches",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nPutrid Bile\n(Level 10)\nStitches\nMana: 75\nCooldown: 75 seconds\nEmit bile that deals 37 (+4% per level) damage per second to enemies within, Slowing them by 35% for 1.5 seconds. Gain 20% Movement Speed while emitting bile. Lasts 8 seconds.\nPutrid Bile is a good Heroic Ability\nthat helps a lot when your team needs additional peeling\nfrom low-mobility Heroes.\n✔\nGorge\n(Level 10)\nStitches\nMana: 70\nCooldown: 65 seconds\nConsume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.\nGorge is a good Heroic Ability that can be used to either\ntransform your Hook into a better engage\nagainst low-mobility Heroes, especially near allied Structures,\nor to remove an enemy Hero from the battle and gain a numerical advantage for a few seconds."
+  },
+  {
+   "title": "Level 13 Talents for Stitches",
+   "id": "level-13",
+   "text": "✔\nMeat Hook\n(Level 13)\nStitches\nHitting an enemy Hero with Hook heals Stitches for 20% of his maximum Health over 5 seconds. While active, Basic Attacks against the Hero hit refresh the duration of this effect.\nMeat Hook is a good Talent that,\nafter hitting an enemy Hero with Hook,\nheals Stitches by a huge chunk of his maximum Health over a few seconds.\nThe healing effect can be refreshed with Basic Attacks on that Hero.\nConsider picking this Talent when you want to boost your survivability,\nhowever, keep in mid that its effect is reliant on connecting Hook\nand it is weak to healing reduction effects (such as\nEmerald by Deckard Cain).\n✘\nUnder Pressure\n(Level 13)\nStitches\nIncrease Slam's damage by 25.\nQuest: After damaging Heroes with Vile Gas 6 times, permanently increase the damage of Slam by 1, to a maximum of 75 additional damage.\nUnder Pressure is a weak Talent that slightly\nincreases the damage you deal with Slam\nand further increases it when you damage enemy Heroes with Vile Gas,\nup to 100 additional damage with the outer area of Slam\nand up to 150 additional damage with the inner area of Slam.\nWe do not recommend this Talent because getting stacks is not that easy\nand the damage provided by each stack is not that good,\ntherefore it takes too much time to get a reasonable amount of damage from it.\n?\nChop Chop\n(Level 13)\nStitches\nHitting an enemy Hero with Hook or activating Shambling Horror grants 40% increased Attack Speed for 4 seconds. Basic Attacks refresh the duration of this effect.\nChop Chop is a decent Talent that increases Stitches's Attack Speed\nfor a few seconds after hitting enemy Heroes with Hook\nor after activating Shambling Horror.\nBasic Attacks against Heroes refresh the duration.\nConsider picking this Talent when you want to improve your damage output,\nespecially if you have Tenderizer at Level 4\nto Slow enemy Heroes hit with your Basic Attacks.\nBlinds will reduce the effectiveness of this Talent."
+  },
+  {
+   "title": "Level 16 Talents for Stitches",
+   "id": "level-16",
+   "text": "✔\nPulverize\n(Level 16)\nStitches\nAll enemies hit by Slam are Slowed by 70% for 0.75 seconds and Heroes have their Armor reduced by 10 for 3 seconds.\nPulverize is a strong Talent that\ndrastically Slows all enemy hit by Slam for almost a second\nand slightly lowers their Armor for a short duration,\nregardless of them being hit by its inner or outer area.\nReducing the Armor of enemy Heroes, even if not by a lot,\nincreases your own damage and the damage done by the rest of your team,\nsomething that is quite useful if you are playing around Hook.\nThe extra Slow improves your otherwise lacking\npeeling capabilities as well as your engage potential\nas it can be used to setup enemy Heroes for your team,\nespecially if they rely on skillshot-based Abilities to deal damage.\nYou can even use the extra Slow for increasing your chances to land an Hook.\n?\nDigestive Juices\n(Level 16)\nStitches\nDevour deals an additional 140 (+4% per level) damage over 5 seconds. When used on a Hero, its cooldown is reduced by 4 seconds and causes the Hero hit to deal 50% reduced damage for 4 seconds.\nDigestive Juices is a situational Talent\nthat halves the damage done by Heroes hit with Devour\nfor multiple seconds, other than reducing its cooldown and dealing additional damage over time.\nPick this Talent when you need additional peeling\nagainst low-mobility melee Heroes only.\nThe short range of Devour makes this Talent\nhard to use against Heroes who can play from the distance and\nimpossible to cast on enemy Heroes who have access\nto mobility tools.\n✘\nFlare Up\n(Level 16)\nStitches\nDeals 15 (+4% per level) damage per second to nearby enemies. Hitting an enemy Hero with Hook or activating Shambling Horror increases this damage by 150% for 4 seconds.\nFlare Up is a weak Talent that deals damage\nto any enemy around Stitches. The damage per second goes up for 4 seconds\nwhen Hook connects on an enemy Hero\nor after activating Shambling Horror.\nWe do not recommend this Talent because missing Hook\nwill result in you not having a Talent for a dozen of seconds and because\nyou can boost your damage by going for the more reliant Pulverize instead."
+  },
+  {
+   "title": "Level 20 Talents for Stitches",
+   "id": "level-20",
+   "text": "?\nGift From The Embalmer\n(Level 20)\nStitches\nPutrid Bile deals 100% more damage to Heroes.\nQuest: Each time Putrid Bile damages an enemy Hero, the duration of Stitches' next death timer is reduced by 2%, to a maximum of 80% total reduction. All stacks of this effect are lost upon death.\nGift From The Embalmer is a good Talent that greatly increases the damage of\nPutrid Bile against Heroes and reduces your death timer\nbased on how many times you hit enemy Heroes with it.\nPick this Talent when you want to improve your damage output\nwithout relying on Hook, something that is particularly\nuseful against dive compositions\nthat will come towards you and your team.\n?\nHungry Hungry Stitches\n(Level 20)\nStitches\nFor 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them. Enemies are Slowed by 75% for 1 second after Gorge ends.\nHungry Hungry Stitches is a situational Talent that\nallows Stitches to use Gorge multiple times in a row\nacross 4 seconds. After that, enemy Heroes get released in the same order\nthey have been Gorged. Heroes released are massively Slowed for a second.\nStitches will have access to a short-range teleport\nfor each activation except the first one. Each enemy Hero will be released 4 seconds\nafter being Gorged, so they will come out at different times.\nYou can use this Talent to prolong the duration of your team's numerical advantage\nor to setup a wombo combo,\nespecially if you can release enemy Heroes near impassable terrain\nto further limit their movements.\n✔\nMaster Hooker\n(Level 20)\nStitches\nReduce the cooldown of Hook by 4 seconds. Enemy Heroes hit by Hook have 75% reduced healing for 2 seconds. Allies hit by Helping Hand are Unkillable for 2 seconds.\nMaster Hooker is a strong Talent which provides 3 benefits:\nredues the cooldown of Hook by 5 seconds,\ngreatly reduces the healing received by enemy Heroes hit by Hook for 2 seconds,\nand gives the Unkillable buff to allied Heroes hit by Helping Hand for 2 seconds.\nThe cooldown reduction helps you when Hook misses\nand has synergy with Hook-based Talents: Serrated Edge at Level 7,\nMeat Hook or Chop Chop at Level 13,\nand Flare Up at Level 16.\n?\nGas Bag\n(Level 20)\nStitches\nActivating Shambling Horror grants Unstoppable for 3 seconds.\nPassive: Shambling Horror's cooldown is reduced by 20 seconds.\nGas Bag is a situational Talent that\nreduces the cooldown of Shambling Horror\nand makes it give Unstoppable when used.\nActivating it at the right moment is crucial for surviving against some\nburst compositions who will just take down\nthe first enemy they see, no matter if they have a lot of maximum Health or not."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "26 May 2025: Builds reorganized.\n18 Apr. 2025: Guide reviewed.\n15 Aug. 2024: Guide reviewed.\n21 Sep. 2023: ARAM Build added.\n07 Jul. 2022: Builds updated.\n26 Nov. 2021: Builds updated.\n26 Aug. 2021: Guide reviewed for the latest Balance Update.\n03 Aug. 2021: Builds updated.\n25 Jun. 2021: Guide reviewed and updated for the latest Balance Update.\n22 May 2021: Builds updated.\n17 May 2021: Guide reviewed for the latest Patch.\n22 Mar. 2021: Builds updated.\n13 Dec. 2020: Builds updated.\n24 Oct. 2020: Talent Builds fully revised to match new standards.\nTalent Builds and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n05 Jun. 2020: Guide reviewed for the latest Balance Update.\n15 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n14 Feb. 2020: Updated Stitches' talents and builds in accordance to the latest Balance Update.\n29 Jul. 2019: Updated Stitches' talents and builds.\n12 Dec. 2018: Completely overhauled Stitches' Talents and Builds in accordance with his latest re-work.\nShow more\nShow less"
+  }
+ ]
+}

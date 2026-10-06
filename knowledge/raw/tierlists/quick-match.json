@@ -1,0 +1,699 @@
+{
+ "name": "quick-match",
+ "source": "https://www.icy-veins.com/heroes/heroes-of-the-storm-quick-match-tier-list",
+ "entries": [
+  {
+   "tier": "Tier S",
+   "role": "Tank 1 Hero",
+   "hero": "johanna",
+   "name": "Johanna",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Bruiser",
+   "hero": "deathwing",
+   "name": "Deathwing",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Bruiser",
+   "hero": "hogger",
+   "name": "Hogger",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Bruiser",
+   "hero": "yrel",
+   "name": "Yrel",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Melee Assassin",
+   "hero": "alarak",
+   "name": "Alarak",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Melee Assassin",
+   "hero": "qhira",
+   "name": "Qhira",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Melee Assassin",
+   "hero": "zeratul",
+   "name": "Zeratul",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "falstad",
+   "name": "Falstad",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "nazeebo",
+   "name": "Nazeebo",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "sylvanas",
+   "name": "Sylvanas",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "xalatath",
+   "name": "Xal'atath",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Support 1 Hero",
+   "hero": "abathur",
+   "name": "Abathur",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Healer",
+   "hero": "brightwing",
+   "name": "Brightwing",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Healer",
+   "hero": "rehgar",
+   "name": "Rehgar",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Tank",
+   "hero": "arthas",
+   "name": "Arthas",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Tank",
+   "hero": "garrosh",
+   "name": "Garrosh",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Tank",
+   "hero": "tyrael",
+   "name": "Tyrael",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Bruiser",
+   "hero": "chen",
+   "name": "Chen",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Bruiser",
+   "hero": "dehaka",
+   "name": "Dehaka",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Bruiser",
+   "hero": "dva",
+   "name": "D.Va",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Bruiser",
+   "hero": "rexxar",
+   "name": "Rexxar",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Bruiser",
+   "hero": "sonya",
+   "name": "Sonya",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Bruiser",
+   "hero": "thrall",
+   "name": "Thrall",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "maiev",
+   "name": "Maiev",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "samuro",
+   "name": "Samuro",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "cassia",
+   "name": "Cassia",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "chromie",
+   "name": "Chromie",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "guldan",
+   "name": "Gul'dan",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "mephisto",
+   "name": "Mephisto",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "sgt-hammer",
+   "name": "Sgt. Hammer",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "tracer",
+   "name": "Tracer",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "valla",
+   "name": "Valla",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "anduin",
+   "name": "Anduin",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "auriel",
+   "name": "Auriel",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "deckard",
+   "name": "Deckard Cain",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "whitemane",
+   "name": "Whitemane",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "anubarak",
+   "name": "Anub'arak",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "blaze",
+   "name": "Blaze",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "cho",
+   "name": "Cho",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "diablo",
+   "name": "Diablo",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "e-t-c",
+   "name": "E.T.C.",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "varian",
+   "name": "Varian",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Bruiser",
+   "hero": "artanis",
+   "name": "Artanis",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Bruiser",
+   "hero": "leoric",
+   "name": "Leoric",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Bruiser",
+   "hero": "ragnaros",
+   "name": "Ragnaros",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Bruiser",
+   "hero": "xul",
+   "name": "Xul",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Melee Assassin",
+   "hero": "illidan",
+   "name": "Illidan",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Melee Assassin",
+   "hero": "kerrigan",
+   "name": "Kerrigan",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Melee Assassin",
+   "hero": "the-butcher",
+   "name": "The Butcher",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "azmodan",
+   "name": "Azmodan",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "fenix",
+   "name": "Fenix",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "gall",
+   "name": "Gall",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "genji",
+   "name": "Genji",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "greymane",
+   "name": "Greymane",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "jaina",
+   "name": "Jaina",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "junkrat",
+   "name": "Junkrat",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "li-ming",
+   "name": "Li-Ming",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "orphea",
+   "name": "Orphea",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "raynor",
+   "name": "Raynor",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "tassadar",
+   "name": "Tassadar",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "tychus",
+   "name": "Tychus",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "zagara",
+   "name": "Zagara",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "zuljin",
+   "name": "Zul'jin",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Support 1 Hero",
+   "hero": "the-lost-vikings",
+   "name": "The Lost Vikings",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Healer",
+   "hero": "alexstrasza",
+   "name": "Alexstrasza",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Healer",
+   "hero": "lucio",
+   "name": "Lúcio",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Healer",
+   "hero": "stukov",
+   "name": "Stukov",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Healer",
+   "hero": "tyrande",
+   "name": "Tyrande",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "malganis",
+   "name": "Mal'Ganis",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "mei",
+   "name": "Mei",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "muradin",
+   "name": "Muradin",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "stitches",
+   "name": "Stitches",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Bruiser",
+   "hero": "gazlowe",
+   "name": "Gazlowe",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Bruiser",
+   "hero": "imperius",
+   "name": "Imperius",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Bruiser",
+   "hero": "malthael",
+   "name": "Malthael",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Bruiser",
+   "hero": "varian",
+   "name": "Varian",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Melee Assassin",
+   "hero": "valeera",
+   "name": "Valeera",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Melee Assassin",
+   "hero": "varian",
+   "name": "Varian",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "hanzo",
+   "name": "Hanzo",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "kaelthas",
+   "name": "Kael'thas",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "kel-thuzad",
+   "name": "Kel'Thuzad",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "lunara",
+   "name": "Lunara",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Support 1 Hero",
+   "hero": "zarya",
+   "name": "Zarya",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Healer",
+   "hero": "kharazim",
+   "name": "Kharazim",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Healer",
+   "hero": "lt-morales",
+   "name": "Lt. Morales",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Healer",
+   "hero": "uther",
+   "name": "Uther",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Melee Assassin 1 Hero",
+   "hero": "murky",
+   "name": "Murky",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Ranged Assassin",
+   "hero": "nova",
+   "name": "Nova",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Ranged Assassin",
+   "hero": "probius",
+   "name": "Probius",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Support 1 Hero",
+   "hero": "medivh",
+   "name": "Medivh",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Healer",
+   "hero": "ana",
+   "name": "Ana",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Healer",
+   "hero": "li-li",
+   "name": "Li Li",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Healer",
+   "hero": "malfurion",
+   "name": "Malfurion",
+   "ban": false
+  }
+ ],
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "The goal of this Tier List is to inform Quick Match players\nregarding how strong Heroes are in the current metagame."
+  },
+  {
+   "title": "Guidelines",
+   "id": "guidelines",
+   "text": "Tanks and Healers are not that popular\nin Quick Match. Because of this, Heroes who are more independent (such as having\nengage tools when there is no Tank)\nand can do fine in an environment where team compositions may not follow any conventions\n(for example having self-sustain when there is no\nHealer) should be preferred as they have more chances to succeed."
+  },
+  {
+   "title": "Tier S",
+   "id": "tier-s",
+   "text": "In this tier you can find overpowered Heroes that will do great in most games.\nTank\n1 Hero\nJohanna\nBruiser\n3 Heroes\nDeathwing\nHogger\nYrel\nMelee Assassin\n3 Heroes\nAlarak\nQhira\nZeratul\nRanged Assassin\n4 Heroes\nFalstad\nNazeebo\nSylvanas\nXal'atath\nSupport\n1 Hero\nAbathur\nHealer\n2 Heroes\nBrightwing\nRehgar"
+  },
+  {
+   "title": "Tier A",
+   "id": "tier-a",
+   "text": "In this tier you can find strong Heroes that will perform well in a lot of games.\nTank\n3 Heroes\nArthas\nGarrosh\nTyrael\nBruiser\n6 Heroes\nChen\nDehaka\nD.Va\nRexxar\nSonya\nThrall\nMelee Assassin\n2 Heroes\nMaiev\nSamuro\nRanged Assassin\n7 Heroes\nCassia\nChromie\nGul'dan\nMephisto\nSgt. Hammer\nTracer\nValla\nHealer\n4 Heroes\nAnduin\nAuriel\nDeckard Cain\nWhitemane"
+  },
+  {
+   "title": "Tier B",
+   "id": "tier-b",
+   "text": "In this tier you can find good Heroes that will generally be fine but not that strong.\nTank\n6 Heroes\nAnub'arak\nBlaze\nCho\nDiablo\nE.T.C.\nVarian\nBruiser\n4 Heroes\nArtanis\nLeoric\nRagnaros\nXul\nMelee Assassin\n3 Heroes\nIllidan\nKerrigan\nThe Butcher\nRanged Assassin\n14 Heroes\nAzmodan\nFenix\nGall\nGenji\nGreymane\nJaina\nJunkrat\nLi-Ming\nOrphea\nRaynor\nTassadar\nTychus\nZagara\nZul'jin\nSupport\n1 Hero\nThe Lost Vikings\nHealer\n4 Heroes\nAlexstrasza\nLúcio\nStukov\nTyrande"
+  },
+  {
+   "title": "Tier C",
+   "id": "tier-c",
+   "text": "In this tier you can find situational Heroes that will only do well in some circumstances.\nTank\n4 Heroes\nMal'Ganis\nMei\nMuradin\nStitches\nBruiser\n4 Heroes\nGazlowe\nImperius\nMalthael\nVarian\nMelee Assassin\n2 Heroes\nValeera\nVarian\nRanged Assassin\n4 Heroes\nHanzo\nKael'thas\nKel'Thuzad\nLunara\nSupport\n1 Hero\nZarya\nHealer\n3 Heroes\nKharazim\nLt. Morales\nUther"
+  },
+  {
+   "title": "Tier D",
+   "id": "tier-d",
+   "text": "In this tier you can find weak Heroes that will do poorly in most games.\nMelee Assassin\n1 Hero\nMurky\nRanged Assassin\n2 Heroes\nNova\nProbius\nSupport\n1 Hero\nMedivh\nHealer\n3 Heroes\nAna\nLi Li\nMalfurion\n\nSee our Tier List Hub for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Sep. 2026: Tier List updated.\n28 Sep. 2026: Tier List updated.\n20 Sep. 2026: Tier List updated.\n11 Sep. 2026: Tier List updated.\n12 Aug. 2026: Tier List updated.\n20 Jul. 2026: Tier List updated.\n15 Jun. 2026: Tier List updated.\n03 May 2026: Tier List updated.\n16 Mar. 2026: Tier List updated.\n27 Feb. 2026: Tier List updated.\n15 Feb. 2026: Tier List updated.\n02 Jan. 2026: Tier List updated.\n08 Dec. 2025: Tier List updated.\n25 Oct. 2025: Tier List updated.\n30 Sep. 2025: Tier List updated.\n31 Aug. 2025: Tier List updated.\n16 May 2025: Tier List updated.\n02 Apr. 2025: Tier List updated.\n04 Feb. 2025: Tier List updated.\n09 Nov. 2024: Tier List updated.\n22 Aug. 2024: Tier List updated.\n03 Jun. 2024: Tier List updated.\n01 Feb. 2024: Tier List reworked.\n09 Aug. 2022: Tier list updated.\n04 Aug. 2022: Tier List created.\nShow more\nShow less"
+  }
+ ]
+}

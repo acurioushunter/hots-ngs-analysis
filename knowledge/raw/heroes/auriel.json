@@ -1,0 +1,265 @@
+{
+ "slug": "auriel",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/auriel-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/auriel-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/auriel-talents"
+ },
+ "guide": [
+  {
+   "title": "Auriel's Overview",
+   "id": "auriels-overview",
+   "text": "Auriel is a Healer who turns part of the damage done\nby a chosen allied Hero and by herself into area of effect healing."
+  },
+  {
+   "title": "Auriel's Strengths and Weaknesses",
+   "id": "auriels-strengths-and-weaknesses",
+   "text": "Strengths\nHigh sustain healing during team fights\nGood peeling\nDecent waveclear\nStrong crowd control near impassable terrain\nWeaknesses\nLow sustain healing when out of combat\nNo mobility\nWeak to poke damage\nHeroic Abilities that make the target allied Hero's position exploitable\nNo access to Cleanse or similar tools to remove crowd-control effects\nUnable to provide Unstoppable frames"
+  },
+  {
+   "title": "Auriel's Talent Build Cheatsheet",
+   "id": "auriels-talent-build-cheatsheet",
+   "text": "Detainment Strike Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAuriel's Detainment Strike Build empowers your healing output,\ncrowd control, and damage.\nDue to how Detainment Strike works,\nthis Build works best when fighting near\nimpassable terrain.\nLevel 13 is flexible. You can pick Blinding Flash\nto Blind melee Heroes, Converging Force\nas a secondary interrupt for\nstationary channels,\nor Piercing Lash to for additional\ncrowd control on grouped enemy Heroes.\nSince it increases your maximum Energy, Reservoir of Hope\nat Level 16 not only makes Ray of Heaven heal more\nbut also deal more damage to enemy Heroes via Searing Light\nat Level 1. So, when hitting enemy Heroes with it, you will gain Energy.\nSacred Sweep Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAuriel's Sacred Sweep Build empowers your healing output\nand damage on grouped enemy Heroes who cannot punish you.\nDue to how Sacred Sweep works,\nthis Build works best when facing at least 3 melee Heroes\nand when the enemy team lacks crowd control effects.\nThe increased radius provided by Majestic Span at Level 4\nmakes it easier to hit enemy Heroes with Sacred Sweep,\nwhich is great for Righteous Assault at Level 1\nand Converging Force at Level 13.\nSince it increases your maximum Energy, Reservoir of Hope\nat Level 16 not only makes Ray of Heaven heal more\nbut also deal more damage to enemy Heroes via Searing Light\nat Level 1. So, when hitting enemy Heroes with it, you will gain Energy.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAuriel's ARAM Build empowers your healing output,\ncrowd control, and damage.\nDue to how Detainment Strike works,\nthis Build works best when fighting near\nimpassable terrain.\nLevel 13 is flexible. You can pick Blinding Flash\nto Blind melee Heroes, Converging Force\nas a secondary interrupt for\nstationary channels,\nor Piercing Lash to for additional\ncrowd control on grouped enemy Heroes.\nSince it increases your maximum Energy, Reservoir of Hope\nat Level 16 not only makes Ray of Heaven heal more\nbut also deal more damage to enemy Heroes via Searing Light\nat Level 1. So, when hitting enemy Heroes with it, you will gain Energy.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Auriel's Synergies and Counters",
+   "id": "auriels-synergies-and-counters",
+   "text": "Auriel synergizes with\nTo get the most value out of Bestow Hope,\nyou should pick Auriel together with a Hero who can consistently deal damage\nfrom the distance (such as Valla) without relying too much\non skillshots.\nDetainment Strike benefits from impassable terrain,\nmaking Auriel better when paired with Heroes that can push enemy Heroes on it\n(like Diablo with Shadow Charge)\nor create it out of nowhere (for example Nazeebo\nwith Zombie Wall).\nAs she can fight for long periods of time without having Mana issues,\nAuriel likes to be in team with Heroes who can take care of multiple lanes\nat the same time by double soaking (like Yrel)\nwhile the rest of her team puts a lot of pressure on a single lane.\nSince she heals using Energy instead of Mana, Auriel\nis one of the best Healers to pair\nwith Cho'Gall, another Hero without Mana.\nFurthermore, using Bestow Hope on them\nwill convert both Cho's and Gall's damage into Energy.\nAuriel is countered by\nThe 4-second cooldown on Ray of Heaven\nprevents it from saving allied Heroes from burst damage.\nA well-timed crowd control (such as Wailing Arrow)\n3 seconds after she cast the previous Ray of Heaven can further extend this time frame.\nHeroes who have access to Knockback effects\n(like Junkrat with Concussion Mine)\ncan use them to split Auriel's team so that she cannot use Ray of Heaven\non multiple Heroes at the same time.\nAuriel's Heroic Abilities allows the enemy team to easily\nfollow up with their Abilities (for example\nEntangling Roots by Malfurion).\nDue to her dependency on dealing damage to get Energy for healing,\nAuriel does not perform that well against poke damage (such as Hanzo),\nespecially when the enemy team has the lead."
+  },
+  {
+   "title": "Auriel's Maps",
+   "id": "auriels-maps",
+   "text": "Auriel's stronger maps\nAuriel's average maps\nAuriel's weaker maps\nThe fact that Auriel does not use Mana is great during the early game,\ntherefore she is a fantastic pick on Maps where a good start can make the difference\nbetween a win and a loss (notably Braxis Holdout).\nIf your team has an Offlaner who can\ndouble soak (such as Xul),\nyou can basically play Auriel on 3-lane Maps like when you are playing on 2-lane Maps,\nso just focus on a side lane and pressure the enemy team as much as you can.\nAuriel also likes Maps where she can exploit impassable terrain\nto Stun enemy Heroes with Detainment Strike."
+  },
+  {
+   "title": "Auriel's Tips and Tricks",
+   "id": "auriels-tips-and-tricks",
+   "text": "Be careful when casting Sacred Sweep because it locks you in place for 0.625 seconds.\nTry to get the most value out of your Energy by casting Ray of Heaven on at least two allied Heroes.\nA well-timed Detainment Strike is a powerful peeling tool even if it does not trigger the Stun but only acts as a Knockback.\nQuickly switch Bestow Hope to another Hero when the current one is not able to deal damage for any reason.\nDo not use Crystal Aegis at the last moment, but use it to prevent a big chunk of damage.\nResurrect only if the zone is safe, else you will end up giving free Experience to the enemy team and wasting your Heroic Ability, if you do not get interrupted in the first place.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Auriel's Role in the Current Meta",
+   "id": "auriels-role-in-the-current-meta",
+   "text": "Auriel is a powerful Healer\nwhen it comes to in-combat healing but she not that good when out of combat\nbecause Bestow Hope requires herself and/or her team to deal damage\nfor generating the Energy needed for casting Ray of Heaven."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "01 Jun. 2026 (talents page): Guide reviewed.\n01 Jun. 2026 (abilities page): Guide reviewed.\n01 Jun. 2026 (this page): Guide reviewed.\n28 May 2026 (talents page): Guide reviewed.\n28 May 2026 (abilities page): Guide reviewed.\n28 May 2026 (this page): Guide reviewed.\n31 Jul. 2025 (talents page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (this page): Guide reviewed for the latest Balance Update.\n16 May 2025 (talents page): Guide reviewed for the latest Balance Update.\n16 May 2025 (abilities page): Guide reviewed for the latest Balance Update.\n16 May 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n10 Feb. 2025 (talents page): Guide reviewed.\n10 Feb. 2025 (abilities page): Guide reviewed.\n10 Feb. 2025 (this page): Guide reviewed.\n31 Jan. 2025 (talents page): Guide reviewed for the latest Balance Update.\n31 Jan. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n31 Jan. 2025 (this page): Guide reviewed for the latest Balance Update.\n15 Oct. 2024 (talents page): Guide reviewed.\n15 Oct. 2024 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n07 Dec. 2021 (talents page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (abilities page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (this page): Guide reviewed for the latest Major Patch.\n25 Jun. 2021 (talents page): Builds updated.\n25 Jun. 2021 (this page): Builds updated.\n20 Jan. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (this page): Guide reviewed for the latest Balance Update.\n27 Oct. 2020 (talents page): Builds updated.\n27 Oct. 2020 (this page): Builds updated.\n03 Oct. 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Descriptions modified to better describe when to pick them.\n03 Oct. 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n03 Oct. 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\n10 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n10 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n29 Aug. 2019 (talents page): Guide reviewed following balance patch - Updates to recommended Builds and Talent discussions.\n29 Aug. 2019 (abilities page): Guide reviewed following balance patch.\n29 Aug. 2019 (this page): Guide reviewed following balance patch - Updates to recommended Builds and Synergies and Counters.\n10 May 2018 (talents page): Talent discussion updated to reflect balance patch.\n26 Aug. 2017 (talents page): Bursting Light removed.\n14 Aug. 2017 (talents page): Adjusted Level 7 Talent suggestions to current meta.\n16 May 2017 (abilities page): Updated Detainment Strike's discussion to make it clear that it can proc on terrain generated by Heroes.\n29 Apr. 2017 (talents page): Updates to Talent suggestions and strategies following Heroes 2.0 Launch event\n29 Apr. 2017 (this page): Meta updates following Heroes 2.0 Launch event\n11 Nov. 2016 (this page): Moved guide to new format\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Auriel's Tips and Tricks",
+   "id": "auriels-tips-and-tricks",
+   "text": "Be careful when casting Sacred Sweep because it locks you in place for 0.625 seconds.\nTry to get the most value out of your Energy by casting Ray of Heaven on at least two allied Heroes.\nA well-timed Detainment Strike is a powerful peeling tool even if it does not trigger the Stun but only acts as a Knockback.\nQuickly switch Bestow Hope to another Hero when the current one is not able to deal damage for any reason.\nDo not use Crystal Aegis at the last moment, but use it to prevent a big chunk of damage.\nResurrect only if the zone is safe, else you will end up giving free Experience to the enemy team and wasting your Heroic Ability, if you do not get interrupted in the first place."
+  },
+  {
+   "title": "Sacred Sweep",
+   "id": "sacred-sweep",
+   "text": "Sacred Sweep\n(Q)\nAuriel\nCooldown: 8 seconds\nSweep the area with sacred power, dealing 40 (+4% per level) damage to enemies and an additional 160 (+4% per level) damage to enemies caught in the center.\nSacred Sweep is a Basic Ability that hits all enemies\nin a semi-circle in front of Auriel, dealing four times more damage to enemies\nwho are within the 30% arc area right in front of her.\nWhen safe to do so, Sacred Sweep should be used\non enemy Minions to help your team at waveclearing\nand to generate a lot of Energy via Bestow Hope\nthanks to its high center damage hitting most if not all of the enemy Minions.\nJust keep in mind that you will be immobilized for a total of 0.375 seconds\nwhile Sacred Sweep is being executed,\nso you should only cast it when it will not compromise your survivability."
+  },
+  {
+   "title": "Ray of Heaven",
+   "id": "ray-of-heaven",
+   "text": "Ray of Heaven\n(W)\nAuriel\nCooldown: 4 seconds\nConsume Auriel's stored energy and heal allied Heroes in the area for the amount of energy consumed.\nRay of Heaven is a Basic Ability that, after consuming\nall the Energy stored by Auriel, heals allied Heroes in the targeted area.\nTry to get the most value out of your Energy by casting Ray of Heaven on\nmore than one Hero at a time. You should include yourself in the area when it\nis beneficial to do so. After grouping for a heal, move away from allied Heroes\nto avoid being an easy target for enemy area of effect\nAbilities."
+  },
+  {
+   "title": "Detainment Strike",
+   "id": "detainment-strike",
+   "text": "Detainment Strike\n(E)\nAuriel\nCooldown: 12 seconds\nDeal 55 (+4% per level) damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for 1.25 seconds and take an additional 165 (+4% per level) damage.\nDetainment Strike is a Basic Ability that can be used\nto Knockback enemy Heroes away from your team and even\nStun them when they hit impassable terrain in the process.\nTerrain generated by allied or enemy Heroes (for example\nZombie Wall by Nazeebo)\ncan be used for the Stun as well.\nAlthough it can be a great tool to setup kills in tight\ncorridors, do not hesitate to use Detainment Strike\nto peel pursuing enemy Heroes away from you or the rest of your team,\nespecially if you can counter the animation of their engage Ability.\nWhile the Knockback component can be used to\ninterrupt stationary-channeled Abilities\n(for example Mosh Pit by E.T.C.),\nyou will need the Stun to go off for interrupting\nmobile-channeled Abilities\n(such as Jug of 1,000 Cups by Li Li)."
+  },
+  {
+   "title": "Resurrect",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nResurrect\n(R)\nAuriel\nHeroic\nCooldown: 100 seconds\nChannel on the spirit of a dead ally for 1 second. After a 3 second delay, they are brought back to life with 100% of their maximum Health at the location where they died.\nAuriel can use this ability while dead to resurrect herself.\nResurrect is a Heroic Ability that,\nafter a 1-second channel and a 5-second delay,\nallows Auriel to bring back to life with 100% of their maximum Health\na chosen dead allied Hero within range. Auriel can use it on herself when dead.\nThanks to the percent-based healing, Resurrect\ngives more raw value when used on a Hero with high maximum Health (such as Cho).\nIf your team is coordinated enough, you can keep\nResurrect for an Assassin\nso that they can play aggressively to get an even trade\nthat you will then transform into a favorable trade.\nBe aware that Resurrect does not\ndeny the enemy team the Experience from one of the two deaths,\nresulting into additional feeding if used poorly."
+  },
+  {
+   "title": "Crystal Aegis",
+   "id": "crystal-aegis",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nCrystal Aegis\n(R)\nAuriel\nHeroic\nCooldown: 60 seconds\nPlace an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 255 (+4% per level) damage to all nearby enemies.\nCrystal Aegis is a Heroic Ability that Auriel can\nuse to protect herself or an allied Hero from incoming burst damage,\nto remove a specific debuff, and/or to counter a given Ability\n(for example Pyroblast by Kael'thas)\nby putting them into Stasis for 2 seconds and then deal\narea of effect damage to nearby enemies when it ends."
+  },
+  {
+   "title": "Bestow Hope",
+   "id": "bestow-hope",
+   "text": "Bestow Hope\n(D)\nAuriel\nCooldown: 1.5 seconds\nPassive: 70% of the damage Auriel deals to Heroes and 35% dealt to non-Heroes is stored as energy.\nBestow an allied Hero with Hope. While they remain near Auriel, 30% of their damage to Heroes and 10% of their damage to non-Heroes is converted to energy. Auriel can only have Bestow Hope on 1 ally at a time.\nAuriel can store up to 475 (+4% per level) energy.\nBestow Hope is a Trait that allows Auriel to generate Energy in two ways:\nbased on the damage done by herself and based on the damage done by a chosen allied Hero.\nYou can switch the target allied Hero of Bestow Hope once every 2 seconds.\nAuriel should choose the target for Bestow Hope\nbased on their damage output, their positioning,\nthe cooldown of their Abilities, and their current Health.\nIf any of those points is suddenly missing, then Auriel should immediately choose another allied Hero instead.\nThe best targets for Bestow Hope are Heroes who can deal\nsustain damage from the distance\nwithout relying too much on skillshots.\nGul'dan\nHanzo\nLunara\nRaynor\nValla\nZul'jin"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "01 Jun. 2026: Guide reviewed.\n28 May 2026: Guide reviewed.\n31 Jul. 2025: Guide reviewed for the latest Balance Update.\n16 May 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n10 Feb. 2025: Guide reviewed.\n31 Jan. 2025: Guide reviewed for the latest Balance Update.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n03 Oct. 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n29 Aug. 2019: Guide reviewed following balance patch.\n16 May 2017: Updated Detainment Strike's discussion to make it clear that it can proc on terrain generated by Heroes.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Increasing Clarity (Level 1) Auriel Quest: Every time Sacred Sweep hits a Hero in the center, increase the center damage by 2, up to 50. Reward: After hitting 25 Heroes, this center damage bonus is increased to 180."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Righteous Assault (Level 1) Auriel Reduces the cooldown of Sacred Sweep by 3 seconds for each enemy Hero hit by its center."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Searing Light (Level 1) Auriel Ray of Heaven also deals damage to enemy Heroes in the area equal to 30% of the energy consumed."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Majestic Span (Level 4) Auriel Increases the radius of Sacred Sweep by 15%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Heavy Burden (Level 4) Auriel Detainment Strike Slows enemy Heroes by 20% for 2.5 seconds. Slow amount and duration doubled on enemies it Stuns. Passive: Increase Detainment Strikes' Stun duration by 0.25 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Repeated Offense (Level 4) Auriel Enemies hit by Detainment Strike are knocked back 30% farther. Quest: Every time Detainment Strike stuns a Hero, increase the stun damage by 10, up to 60. Reward: After stunning 6 Heroes, increase this damage bonus to 250."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Glimmer of Hope (Level 7) Auriel Collecting a Regeneration Globe reduces the cost of Auriel's next Ray of Heaven by 75%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Empathic Link (Level 7) Auriel Auriel stores 25% of damage taken by allies with Bestow Hope."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Energized Cord (Level 7) Auriel Increases the energy stored from Auriel's Basic Attacks to 130% of the damage against Heroes and 70% of the damage against non-Heroes. Does not affect Auriel's Bestow Hope ally. Passive: Increase Basic Attack Range by 1.1."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Resurrect (Level 10) Auriel Cooldown: 100 seconds Channel on the spirit of a dead ally for 1 second. After a 3 second delay, they are brought back to life with 100% of their maximum Health at the location where they died. Auriel can use this ability while dead to resurrect herself."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Crystal Aegis (Level 10) Auriel Cooldown: 60 seconds Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 255 (+4% per level) damage to all nearby enemies."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Blinding Flash (Level 13) Auriel Enemies hit by the center area of Sacred Sweep are blinded for 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Converging Force (Level 13) Auriel Enemies hit by the outer area are pushed slightly toward the center."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Piercing Lash (Level 13) Auriel Detainment Strike now pierces and hits all enemy Heroes in a line, reducing the cooldown by 2 seconds for each Hero hit."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Reservoir of Hope (Level 16) Auriel Quest: Each maximum energy Ray of Heaven Auriel casts increases the maximum amount of energy that can be stored by 55."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Will of Heaven (Level 16) Auriel Allies with Bestow Hope gain 20% Attack Speed. Passive: Auriel gains 10% increased Basic Attack Damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Wrath of Heaven (Level 16) Auriel Allies with Bestow Hope gain 15% Spell Power. Enemy Heroes hit by the center area of Sacred Sweep or the terrain collision of Detainment Strike have their Spell Armor reduced by 20 for 3 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Light Speed (Level 20) Auriel Resurrected allies gain 200% increased Movement Speed, decaying over 4 seconds. While a resurrected ally remains alive, Resurrect's next cooldown recharges 100% faster."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Diamond Resolve (Level 20) Auriel When Crystal Aegis expires, it grants the target 75 Armor for 5 seconds, reducing damage taken by 75%."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Angelic Flight (Level 20) Auriel Cooldown: 30 seconds After 2 seconds, fly to a target location."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Shield of Hope (Level 20) Auriel Cooldown: 60 seconds Activate to grant all nearby allied Heroes a shield for 3 seconds equal to 50% of the amount of Health they are missing."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Auriel's Talent Build",
+   "id": "auriels-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n?\n?\n✓\n7\n?\n?\n✓\n10\n?\n✓\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n?\n✘︎\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Auriel's Talent Build Cheatsheet",
+   "id": "auriels-talent-build-cheatsheet",
+   "text": "Detainment Strike Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAuriel's Detainment Strike Build empowers your healing output,\ncrowd control, and damage.\nDue to how Detainment Strike works,\nthis Build works best when fighting near\nimpassable terrain.\nLevel 13 is flexible. You can pick Blinding Flash\nto Blind melee Heroes, Converging Force\nas a secondary interrupt for\nstationary channels,\nor Piercing Lash to for additional\ncrowd control on grouped enemy Heroes.\nSince it increases your maximum Energy, Reservoir of Hope\nat Level 16 not only makes Ray of Heaven heal more\nbut also deal more damage to enemy Heroes via Searing Light\nat Level 1. So, when hitting enemy Heroes with it, you will gain Energy.\nSacred Sweep Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAuriel's Sacred Sweep Build empowers your healing output\nand damage on grouped enemy Heroes who cannot punish you.\nDue to how Sacred Sweep works,\nthis Build works best when facing at least 3 melee Heroes\nand when the enemy team lacks crowd control effects.\nThe increased radius provided by Majestic Span at Level 4\nmakes it easier to hit enemy Heroes with Sacred Sweep,\nwhich is great for Righteous Assault at Level 1\nand Converging Force at Level 13.\nSince it increases your maximum Energy, Reservoir of Hope\nat Level 16 not only makes Ray of Heaven heal more\nbut also deal more damage to enemy Heroes via Searing Light\nat Level 1. So, when hitting enemy Heroes with it, you will gain Energy.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAuriel's ARAM Build empowers your healing output,\ncrowd control, and damage.\nDue to how Detainment Strike works,\nthis Build works best when fighting near\nimpassable terrain.\nLevel 13 is flexible. You can pick Blinding Flash\nto Blind melee Heroes, Converging Force\nas a secondary interrupt for\nstationary channels,\nor Piercing Lash to for additional\ncrowd control on grouped enemy Heroes.\nSince it increases your maximum Energy, Reservoir of Hope\nat Level 16 not only makes Ray of Heaven heal more\nbut also deal more damage to enemy Heroes via Searing Light\nat Level 1. So, when hitting enemy Heroes with it, you will gain Energy."
+  },
+  {
+   "title": "Level 1 Talents for Auriel",
+   "id": "level-1",
+   "text": "?\nIncreasing Clarity\n(Level 1)\nAuriel\nQuest: Every time Sacred Sweep hits a Hero in the center, increase the center damage by 2, up to 50.\nReward: After hitting 25 Heroes, this center damage bonus is increased to 180.\nIncreasing Clarity is a decent Quest-based Talent that increases the center\ndamage of Sacred Sweep, something that provides you with additional\nburst damage and waveclear.\nThe requirement to hit enemy Heroes\nwith Sacred Sweep will unnecessarily force yourself\nto expose during the early game.\n?\nRighteous Assault\n(Level 1)\nAuriel\nReduces the cooldown of Sacred Sweep by 3 seconds for each enemy Hero hit by its center.\nRighteous Assault is a good Talent that\nallows you to cast Sacred Sweep more often\nthan usual, increasing both your damage done and Energy generation.\nTo increase the chances that enemy Heroes will be hit by\nthe center area of Sacred Sweep,\nyou can combine this Talent with Majestic Span at Level 4\nand/or Converging Force at Level 13.\nThe cooldown reduction provided by this Talent can be used\nto Blind enemy Heroes more often\nwith Blinding Flash at Level 13.\n✔\nSearing Light\n(Level 1)\nAuriel\nRay of Heaven also deals damage to enemy Heroes in the area equal to 30% of the energy consumed.\nSearing Light is a good Talent that makes\nRay of Heaven deal damage to enemy Heroes hit,\nbut only for 30% of the Energy paid for casting it.\nThe damage done by Ray of Heaven thanks to this Talent\nwill contribute to your Energy Regeneration via Bestow Hope.\nAs your primary task is to heal your team,\nyou should rarely use Ray of Heaven only to deal damage—basically\nonly if you can kill an enemy Hero without causing an allied Hero to die in the process.\nThanks to the area of effect nature of Ray of Heaven,\nSearing Light is better against team composition\nthat feature multiple short-range or melee Heroes."
+  },
+  {
+   "title": "Level 4 Talents for Auriel",
+   "id": "level-4",
+   "text": "?\nMajestic Span\n(Level 4)\nAuriel\nIncreases the radius of Sacred Sweep by 15%.\nMajestic Span is a good Talent that increases\nthe distance covered by Sacred Sweep,\nhelping you to hit enemy Heroes from a slightly safer position.\nWe find this Talent useful when planning to pick Blinding Flash\nor Converging Force at Level 13 because it\nincreases the chances that enemy Heroes will be hit by\nthe center area of Sacred Sweep.\n?\nHeavy Burden\n(Level 4)\nAuriel\nDetainment Strike Slows enemy Heroes by 20% for 2.5 seconds. Slow amount and duration doubled on enemies it Stuns.\nPassive: Increase Detainment Strikes' Stun duration by 0.25 seconds.\nHeavy Burden is a decent Talent which empowers\nDetainment Strike in two ways:\nmakes the Stun slightly longer\nand empowers the Slows.\nIf the collision on impassable terrain\nhappens, then the Slow will be stronger and last longer.\n✔\nRepeated Offense\n(Level 4)\nAuriel\nEnemies hit by Detainment Strike are knocked back 30% farther.\nQuest: Every time Detainment Strike stuns a Hero, increase the stun damage by 10, up to 60.\nReward: After stunning 6 Heroes, increase this damage bonus to 250.\nRepeated Offense is a strong Talent that increases\nthe knockback distance of Detainment Strike.\nFurthermore, successfully Stunning enemy Heroes with it\nmakes Detainment Strike deal more damage.\nThe additional distance increases\nthe number of situations where Detainment Strike can\nresult in a Stun when near impassable terrain,\nand it also makes Detainment Strike slightly\nbetter for peeling when a collision is not possible."
+  },
+  {
+   "title": "Level 7 Talents for Auriel",
+   "id": "level-7",
+   "text": "?\nGlimmer of Hope\n(Level 7)\nAuriel\nCollecting a Regeneration Globe reduces the cost of Auriel's next Ray of Heaven by 75%.\nGlimmer of Hope is a good Talent that,\nafter collecting a Regeneration Globe, reduces the cost of your next Ray of Heaven\nby 75% of the amount of Energy you have while casting it.\nThe requirement of having a Regeneration Globe\nis not that easy to fulfill during team fights,\nhowever, Glimmer of Hope will still help you\nto start team fights with way higher Energy than usual.\nThanks to its percent-based effect, Glimmer of Hope\nis great when paired with Reservoir of Hope\nas it gets better when your maximum Energy increases.\nGiven it requires a Regeneration Globe to work, this Talent\ngives more value on Maps were your team can easily rotate\nfrom a lane to another (notably Tomb of the Spider Queen)\nand/or where team fights happen near where Minions clash\n(for example Dragon Shire).\n?\nEmpathic Link\n(Level 7)\nAuriel\nAuriel stores 25% of damage taken by allies with Bestow Hope.\nEmpathic Link is a good Talent that\nallows Auriel to convert part of the damage taken by the allied Hero\nwith Bestow Hope on them into Energy.\nWe find this Talent more valuable when in team with Cho'Gall\nas it allows you to get Energy when Cho takes damage, when Cho deals damage at melee range,\nand when Gall deals damage from the distance.\n✔\nEnergized Cord\n(Level 7)\nAuriel\nIncreases the energy stored from Auriel's Basic Attacks to 130% of the damage against Heroes and 70% of the damage against non-Heroes.\nDoes not affect Auriel's Bestow Hope ally.\nPassive: Increase Basic Attack Range by 1.1.\nEnergized Cord is a good Talent that makes\nAuriel gain more Energy when hitting enemies with Basic Attacks:\n60% more Energy against Heroes and 35% more Energy against non-Heroes.\nIn addition to that, Auriel gains 1.1 Attack Range.\nThe first part of the Talent mostly helps during team fights as you will basically be able\nto fill up your Energy with half the Basic Attacks than usual when hitting enemy Heroes,\nhowever, keep in mind that Blinds will counter this Talent.\nThe second part of the Talent mostly helps outside of team fights\nbecause she gets way less Energy from damaging non-Heroes compared to damaging Heroes,\na gap that gets reduced after picking Energized Cord.\nThe additional Attack Range mostly helps in team fights as it allows you\nto hit enemy Heroes that are farther away but also allows you to stay slightly safer\nwhen attacking non-Heroes in an area where enemy Heroes could punish you."
+  },
+  {
+   "title": "Level 10 Talents for Auriel",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nResurrect\n(Level 10)\nAuriel\nCooldown: 100 seconds\nChannel on the spirit of a dead ally for 1 second. After a 3 second delay, they are brought back to life with 100% of their maximum Health at the location where they died.\nAuriel can use this ability while dead to resurrect herself.\nResurrect is a decent Heroic Ability that enables\nallied Heroes to play more aggressively as it can turn an even trade\ninto a favorable one.\nDue to its relatively long cooldown, we only find this Heroic Ability playable\nwhen having Cho'Gall in the team because by using it on them\nyou will basically be resurrecting 2 allied Heroes at the same time.\n✔\nCrystal Aegis\n(Level 10)\nAuriel\nCooldown: 60 seconds\nPlace an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 255 (+4% per level) damage to all nearby enemies.\nCrystal Aegis is a strong Heroic Ability that counters\nburst damage and various debuffs.\nWhile not that easy to use, we recommend picking this Heroic Ability\nin most if not all games because it lets you protect allied Heroes\nfrom incoming damage when Ray of Heaven is on cooldown\nand/or when the damage is too much for them to survive."
+  },
+  {
+   "title": "Level 13 Talents for Auriel",
+   "id": "level-13",
+   "text": "✔\nBlinding Flash\n(Level 13)\nAuriel\nEnemies hit by the center area of Sacred Sweep are blinded for 2 seconds.\nBlinding Flash is a good Talent that adds\na Blind component to the center of Sacred Sweep.\nWhile we find this Talent good in most if not all scenarios,\nyou should definitely pick this Talent against Heroes who deal most of\ntheir damage via Basic Attacks.\n?\nConverging Force\n(Level 13)\nAuriel\nEnemies hit by the outer area are pushed slightly toward the center.\nConverging Force is a situational Talent that\ngently displaces enemy Heroes hit\nwith the outer area of Sacred Sweep towards its inner area.\nThe small knockback effect provided can be used to\ninterrupt stationary-channeled\nAbilities and some animations (for example Dwarf Toss\nby Muradin). In addition to that, it also makes it easier to\nhit enemy Heroes with Sacred Sweep's inner area,\nwhich is useful when having either Increasing Clarity\nor Righteous Assault at Level 1.\n?\nPiercing Lash\n(Level 13)\nAuriel\nDetainment Strike now pierces and hits all enemy Heroes in a line, reducing the cooldown by 2 seconds for each Hero hit.\nPiercing Lash is a good Talent that makes\nDetainment Strike pierce enemy Heroes hit\nand proportionally reduce its cooldown.\nThe pierce component of this Talent\nlets you use Detainment Strike\nto interrupt a Hero that is\nbehind another one, or to Knockback\nor Stun multiple Heroes at the same time.\nWe find this Talent particularly good against team compositions\nthat feature multiple melee Heroes with low mobility\nas you will easily get multi-hits to\npeel them away from yourself or the rest of your team."
+  },
+  {
+   "title": "Level 16 Talents for Auriel",
+   "id": "level-16",
+   "text": "✔\nReservoir of Hope\n(Level 16)\nAuriel\nQuest: Each maximum energy Ray of Heaven Auriel casts increases the maximum amount of energy that can be stored by 55.\nReservoir of Hope is a strong Quest-based Talent\nthat increases the amount of maximum Energy that Auriel can store\nby a small amount each time she uses Ray of Heaven\nwhile having full Energy.\nIn practice, this Talent increases the amount of healing you can do\nwith a single cast of Ray of Heaven,\neffectively increasing your healing output if your Bestow Hope\ncan quickly and constantly generate Energy for you by dealing damage to enemy Heroes.\n?\nWill of Heaven\n(Level 16)\nAuriel\nAllies with Bestow Hope gain 20% Attack Speed.\nPassive: Auriel gains 10% increased Basic Attack Damage.\nWill of Heaven is a situational Talent that\nincreases the Attack damage of allied Heroes affected by Bestow Hope\nby a good amount and your Attack damage by a decent amount.\nAs a consequence, you will also generate more Energy.\nWe find this Talent not great for increasing your healing output\nbecause Auriel will easily reach full Energy without it, however,\nyou may want to consider picking it when your team lacks damage\nand your preferred Bestow Hope's target\ndoes most of their damage via Basic Attacks.\n?\nWrath of Heaven\n(Level 16)\nAuriel\nAllies with Bestow Hope gain 15% Spell Power.\nEnemy Heroes hit by the center area of Sacred Sweep or the terrain collision of Detainment Strike have their Spell Armor reduced by 20 for 3 seconds.\nWrath of Heaven is a situational Talent that\nincreases the Spell Power of allied Heroes affected by Bestow Hope\nby a decent amount and decreases the Armor\nof enemy Heroes hit by the center area of Sacred Sweep\nor the terrain collision of Detainment Strike.\nAs a consequence, you will also generate more Energy.\nWe find this Talent not great for increasing your healing output\nbecause Auriel will easily reach full Energy without it, however,\nyou may want to consider picking it when your team lacks damage\nand your preferred Bestow Hope's target\ndoes most of their damage via Abilities."
+  },
+  {
+   "title": "Level 20 Talents for Auriel",
+   "id": "level-20",
+   "text": "?\nLight Speed\n(Level 20)\nAuriel\nResurrected allies gain 200% increased Movement Speed, decaying over 4 seconds. While a resurrected ally remains alive, Resurrect's next cooldown recharges 100% faster.\nLight Speed is a decent Talent that gives\na high amount of Movement Speed to whoever you Resurrect\nand makes you use your Heroic Ability more often by reducing its cooldown.\nThe cooldown reduction is conditional:\nthe longer your latest Resurrect stays alive,\nthe more cooldown reduction you get. You can get up to 50 seconds of cooldown reduction this way.\n?\nDiamond Resolve\n(Level 20)\nAuriel\nWhen Crystal Aegis expires, it grants the target 75 Armor for 5 seconds, reducing damage taken by 75%.\nDiamond Resolve is a situational Talent that makes\nCrystal Aegis give a huge amount of Armor to the\naffected Hero when the Stasis ends,\ndrastically increasing their survivability for 5 seconds.\nThe additional survivability can allow the affected allied Hero\nto get away to safety if low on Health or play more aggressively if high on Health.\n✘\nAngelic Flight\n(Level 20)\nAuriel\nCooldown: 30 seconds\nAfter 2 seconds, fly to a target location.\nAngelic Flight is a weak Talent that,\nafter channeling for 2 seconds, makes you fly\nto a chosen location within 75 range.\nDue to its slow cast time, this Talent is not reliable for escaping from danger,\nalthough it can still be used for that if you are in a desperate situation,\nhoping you will not die or get interrupted before it goes off.\nAt most, it could be used to quickly join your team if you are the only Hero\nthat died during the previous fight, acting as a sort of Death Timer reduction.\n✔\nShield of Hope\n(Level 20)\nAuriel\nCooldown: 60 seconds\nActivate to grant all nearby allied Heroes a shield for 3 seconds equal to 50% of the amount of Health they are missing.\nShield of Hope is a strong Talent that\ngives a powerful Shield to Auriel and any allied Hero within 8 range.\nThe amount of Shield will be lower for allied Heroes with high Health\nand higher for allied Heroes with low Health, so you should try to use it\nwhen whoever is getting focused by the enemy team is below 50% Health\nto get at least 25% of their maximum Health as Shield."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "01 Jun. 2026: Guide reviewed.\n28 May 2026: Guide reviewed.\n31 Jul. 2025: Guide reviewed for the latest Balance Update.\n16 May 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n10 Feb. 2025: Guide reviewed.\n31 Jan. 2025: Guide reviewed for the latest Balance Update.\n15 Oct. 2024: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n25 Jun. 2021: Builds updated.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n27 Oct. 2020: Builds updated.\n03 Oct. 2020: Talent Build fully revised to match new standards.\nTalent Descriptions modified to better describe when to pick them.\n10 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n29 Aug. 2019: Guide reviewed following balance patch - Updates to recommended Builds and Talent discussions.\n10 May 2018: Talent discussion updated to reflect balance patch.\n26 Aug. 2017: Bursting Light removed.\n14 Aug. 2017: Adjusted Level 7 Talent suggestions to current meta.\n29 Apr. 2017: Updates to Talent suggestions and strategies following Heroes 2.0 Launch event\nShow more\nShow less"
+  }
+ ]
+}

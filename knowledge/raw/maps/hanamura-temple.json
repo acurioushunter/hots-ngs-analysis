@@ -1,0 +1,111 @@
+{
+ "name": "hanamura-temple",
+ "source": "https://www.icy-veins.com/heroes/hanamura-temple-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Hanamura Temple is a 2-lane Map belonging to the Overwatch universe.\nThe signature Objective of this Map is a Payload. Once successfully escorted\nto its final destination, it deals damage to enemy Structures.\nOn this Map, you can also find the Sentinel Camp, a unique Mercenary Camp\nthat deals a lot of damage to enemy Heroes and Structures."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nHeroes for clearing Mercenary Camps\nGankers\nQuests to stack on Heroes\nSiege damage for Structures\nSustain damage/healing\nAvoid\nEffects relying on impassable terrain\nSee our Hanamura Temple Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-4",
+   "id": "formation-1-4",
+   "text": "The go-to formation for Hanamura Temple is 1-4:\n1 Hero, the Offlaner, covers the top lane;\n4 Heroes cover the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available (even during the Objective phase),\nstart clearing the allied Samurai Camp\nand capture it as soon as possible.\nAt 0:45 minutes or whenever available (even during the Objective phase),\nstart clearing the allied Fortification Camp\nand capture it as soon as possible.\nDo not forget to pick up the Turret!\nWhenever the enemy Samurai reaches your Structures, you may need multiple Heroes\nto defend from it, especially if enemy Heroes are pushing with it.\nAlternatively, you can counter-push in the opposite lane with the allied Samurai.\nIf the allied Samurai Camp and the allied Fortification Camp are taken,\nyou can capture any Recon Camp that is neutral or controlled by the enemy team.\nThis will make it harder for the enemy team to freely move around the battlefield.\nAfter 3:00 minutes or whenever the Objective is active, prevent the enemy team\nfrom delivering the Payload when it gets closer to the end of its path,\nso that they cannot deal more damage than you to Structures\nand thus cause you to lose the trade.\nIf the allied Samurai Camp and the allied Fortification Camp are taken,\nyou can escort the Payload to its destination, not necessarily by committing all Heroes.\nChoose how many Heroes to use depending on how fast you need to escort the Payload,\nhow dangerous it is, and what else your team can do to get value on the battlefield."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Hanamura Temple has a total of 6 Mercenary Camps:\n1 Fortification Camp (purple icon) on the left side of the top lane;\n1 Samurai Camps (red icon) on the right side of the top lane;\n1 Recon Camp (blue icon) near the center of top lane;\n1 Recon Camp (blue icon) near the center of bottom lane;\n1 Fortification Camp (purple icon) on the right side of the bottom lane;\n1 Samurai Camp (red icon) on the left side of the bottom lane.\nMercenary Camps on Hanamura Temple are always active,\neven when the Payload is up or during a bombardment.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Recon Camp",
+   "id": "recon-camp",
+   "text": "This type of Mercenary Camp features 3 Henchmen. Once captured, it behaves like a Watch Tower.\nSpawn Time\nRespawn Delay\n0:30 minutes\n1 second after its last capture\nBaseline Experience\nExperience Scaling\n540 Experience\n+24 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nDue to how the Recon Camp works, simply capturing it will not result\ninto a net gain of Experience. The enemy team captures it, get Experience,\nthen you capture it back, and get a similar amount of Experience.\nTo receive a net gain of Experience, let the enemy team clear it\nand invade at the last second."
+  },
+  {
+   "title": "Fortification Camp",
+   "id": "fortification-camp",
+   "text": "This type of Mercenary Camp features 1 Mechanic and 1 Turret. Once captured,\nit leaves a Turret on the ground that can be collected by allied or enemy Heroes.\nAlways kill the Mechanic first because he can repair the Turret while below 80% Health.\nSpawn Time\nRespawn Delay\n0:30 minutes\n2:30 minutes after its last capture\nBaseline Experience\nExperience Scaling\n460 Experience\n+10 Experience per minute"
+  },
+  {
+   "title": "Turret",
+   "id": "turret",
+   "text": "Turrets are consumable items that, when put on the ground, deal damage to an\nenemy within range, prioritizing Heroes and dealing double damage to Minions.\nSince they count as Mercenaries, you can empower them with some Talents\n(such as Mercenary Queen by Sylvanas).\nTurret\n[F]\nItem\nPlace a Turret that rapidly attacks\nnearby enemies for 90 damage per second.\nTurret lasts for 45 seconds, or until destroyed."
+  },
+  {
+   "title": "Samurai Camp",
+   "id": "samurai-camp",
+   "text": "This type of Mercenary Camp features 1 Samurai. Once captured,\nit spawns the same unit fighting for your team in the corresponding lane.\nWhen possible, push with it to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n2:30 minutes after its last capture\nBaseline Experience\nExperience Scaling\n530 Experience\n+15 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nWhile in combat, the Samurai will attack any foe in range and execute his\nsignature move: Horizontal Slash (8-second cooldown). If you are a ranged Hero,\nstay distant and just step back as soon as you see Horizontal Slash's indicator on\nthe ground. If you are a melee Hero, stay close and just walk through the Sentinel\nbecause Horizontal Slash only deals damage in the frontal area.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Watch Towers",
+   "id": "watch-towers",
+   "text": "Hanamura Temple features 2 Watch Tower in the form of Recon Camps:\nthey are located in the middle area, one near the top lane\nand another one near the bottom lane. If a team controls both Watch Towers\nand the Payload is not active, it impossible to walk from a side to another\nwithout being seen because there is a hole in the center of the battlefield,\nwhere the Payload spawns.\n\nSecuring a Watch Tower provides your team with greater vision,\nallowing you to keep an eye on enemy movements in that part of the battlefield.\nThis unique type of Watch Tower can be captured only after killing all the\nHenchmen who are guarding it, similarly to Mercenary Camps. Immediately after\nbeing occupied, they become attackable by the enemy team again. Contrary to the\nstandard type of Watch Tower, Recon Camps do not become neutral after 45 seconds.\nWatch Towers controlled by the enemy team are extremely dangerous,\nespecially when there are bushes nearby, therefore you should think twice\nbefore contesting them. If you do not have mobility tools at your disposal\nand your teammates are not nearby to help you, you should definitely not try\nto capture a Watch Tower as you will only risk dying for no reason.\nStaying alive is more important than getting vision."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Hanamura Temple consists of 1 Payload.\nSecuring the area around the Payload allows your team to move it.\nOnce delivered, it causes a barrage to start, dealing damage to enemy Structures,\nand gives a Regeneration Globe to all the winning Heroes nearby.\nThe countdown for its respawn will start after the last shot has been fired.\nSpawn Time\nRespawn Delay\n3:00 minutes\n3:00 minutes after the Payload is delivered\n\nSingle Payload\nAt regular intervals, a payload spawns at the center of the battleground that can be contested by both teams.\nEscort Payload\nStand next to the payload and move it to its destination. Prevent the enemy team from trying to do the same.\nBombard your Enemy\nOnce a team escorts the payload to its destination, it will fire upon the enemy's forts."
+  },
+  {
+   "title": "Payload",
+   "id": "payload",
+   "text": "You can make the Payload go faster by escorting it with multiple Heroes.\nAdding a second Hero will increase that value by about 10%. The presence of a\nthird Hero will add 10% to that. This bonus is capped at 3 Heroes, so any\nadditional Hero after that will not contribute to speeding up its delivery.\nHeroes\nMovement Speed\n1\n50%\n2\n60%\n3\n70%\nLeaving the area will cause the Payload to stop moving,\nbut it will not go back unless enemy Heroes start escorting it uncontested.\nDedicating a single Hero is the most efficient way to escort the Payload\nwhereas dedicating 3 Heroes is the fastest way to escort it.\nMisha counts as 1 Hero, Gall does not count.\nThere are 3 predetermined Payload's paths: path A, path B, and path C.\nThe time it takes for the Payload to reach its destination changes based on them (see table below).\nEach time a team delivers a Payload, their part of the path gets upgraded to the next tier.\nAfter all the upgrades for that team, it goes back to the first tier.\nThe enemy Payload's path being upgraded does not influence\nthe allied Payload's path in any way.\nHeroes\nPath A\nPath B\nPath C\n1\n33 seconds\n23 seconds\n36 seconds\n2\n27 seconds\n19 seconds\n29 seconds\n3\n23 seconds\n16 seconds\n25 seconds"
+  },
+  {
+   "title": "Path A",
+   "id": "path-a",
+   "text": "The first path (letter A)\nis vertical and requires the corresponding team to escort the Payload\nthrough one of the side lanes after walking around one of the Recon Camps.\nThe final destination of this path will always be in\nthe same lane where the enemy Sentinel goes."
+  },
+  {
+   "title": "Path B",
+   "id": "path-b",
+   "text": "The second path (letter B) is bent\nin the enemy territory of the enemy team, passing nearby the enemy\nFortification Camp. This change makes it slightly harder for the\nwinning team to successfully escort the Payload again as the zone is\nsurrounded by enemy Structures, especially if the nearby Fort has not been\ntaken down yet. In particular, the enemy team will have access to 1-2 Healing\nFountains whereas the winning team will not have any of them nearby."
+  },
+  {
+   "title": "Path C",
+   "id": "path-c",
+   "text": "The third path (letter C) is also bent\nin the enemy territory, but this time goes near one of the Recon Camps\nand then proceeds through the wide area near the enemy Sentinel Camp.\nThis change makes it harder for the winning team to secure the Objective another time\nas the final destination is exactly in the middle of the enemy Keeps.\nThe enemy team will have access to 2 Healing Fountains\nwhereas the winning team will be too deep in the enemy territory to use them."
+  },
+  {
+   "title": "Barrage",
+   "id": "barrage",
+   "text": "A successful delivery results in 12 shots being fired over 15 seconds.\nMissiles deal 2280 damage (not scaling) to enemy Structures.\nCores take 20% less damage from Payload's shots.\nWhen being fired, Payload's shots will target Structures\nin the lane where enemy Structures have the least amount of damage taken in total.\nForts and Keeps will only be targeted if the respective\nTowers and Gates have been destroyed. Cores will only be targeted\nif all Towers, Gates, Forts, and Keeps have been destroyed.\nIn the late game, if the only Structure\nleft is the Core with 100% Health and 100% Shield, a barrage\nwill bring it down to around 50% Health remaining."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 8 seconds, the Core fires 2 volleys of Missiles around it,\ndealing 5% maximum Health as damage to enemy Heroes\nand Slowing them by 70% for 1.25 seconds."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Hanamura Temple, you should count on\nany of the following win conditions:\nMap Objective,\nSentinel Camp.\nTry to store Turrets for the late game."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nYou can bait the Samurai's Horizontal Slash in the direction you want\nas it targets the closest Hero. When capturing it, bait it towards the wall\nso that allied Heroes do not risk taking damage from it.\nWhen both the Samurai Camp and the allied Fortification Camp are available,\nprioritize the Samurai Camp. This way it will go on cooldown sooner\nand thus respawn sooner, allowing you to capture it again earlier.\nDue to how the Recon Camp works, simply capturing it will not result\ninto a net gain of Experience. The enemy team captures it, get Experience,\nthen you capture it back, and get a similar amount of Experience.\nTo receive a net gain of Experience, let the enemy team clear it\nand invade at the last second.\nEven if your team almost delivered the Payload at its final destination,\nif the enemy team has an advantage,\nyou should immediately retreat and try again later,\nunless it is the game-winning Payload for the enemy team.\nIf your team is doing fine, you can store Turrets\nfor the late game instead of using them\nin the early game. If you are going to die,\nhowever, place them on the ground before they kill you and steal them.\nAt high level of play it is common to completely ignore the Objective area\nand get value elsewhere by pushing\nbecause the Payload takes too much time to be delivered\nand it does not deal that much damage to enemy Structures.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n19 Feb. 2026: Guide updated for the latest Balance Update.\nMap Objective section updated.\nMercenary Camps section updated.\n14 Feb. 2026: Guide updated for the latest Map Updates.\nWatch Towers section updated.\n07 Oct. 2025: Guide updated for the latest Hotfix.\nMap Objective section updated.\nMercenary Camps section updated.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\nMap Objective section updated.\n23 Aug. 2024: Guide reworked.\n02 Jun. 2021: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

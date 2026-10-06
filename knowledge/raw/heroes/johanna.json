@@ -1,0 +1,265 @@
+{
+ "slug": "johanna",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/johanna-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/johanna-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/johanna-talents"
+ },
+ "guide": [
+  {
+   "title": "Johanna's Overview",
+   "id": "johannas-overview",
+   "text": "Johanna is a low-mobility, extremely resilient Tank,\ncapable of Blinding, Slowing,\nStunning, and briefly Pulling enemies. She excels at\ncreating chaos and disruption in the midst of the enemy team for extended periods\nof time while also peeling for her allies.\nJohanna is one of the handful of Heroes in the game with no\ndirect counters, and is able to fit into nearly any team composition."
+  },
+  {
+   "title": "Johanna's Strengths and Weaknesses",
+   "id": "johannas-strengths-and-weaknesses",
+   "text": "Strengths\nHigh durability\nSolid crowd control\nGood waveclear\nAccess to Blinds\nCapable of interrupting\nOn-demand Unstoppable\nWeaknesses\nLow damage\nNo tools to handle high-mobility Heroes\nLow mobility\nReliant on the Shield from Iron Skin to survive longer"
+  },
+  {
+   "title": "Johanna's Talent Build Cheatsheet",
+   "id": "johannas-talent-build-cheatsheet",
+   "text": "Shield Glare Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJohanna's Shield Glare Build gives you the opportunity to Blind\nenemy Heroes more often and, in the late-game,\nget self-healing and cooldown reduction from that.\nYou can play this Build when you and your teammates need help\nagainst enemy Heroes who rely on Basic Attacks (for example Greymane).\nJust make sure to keep at least one charge\nof Shield Glare for peeling.\nWhen playing against Heroes with a lot of raw healing (notably Whitemane),\nyou should consider picking Sins Exposed at Level 7,\nespecially if your team lacks powerful healing reduction effects.\nWhen playing as Offlaner and having to\ndouble soak, to avoid Mana problems, you should pick\nEternal Retaliation at Level 4\nand only use Condemn for clearing Minions.\nBasic Attacks Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJohanna's Basic Attacks Build allows you to crowd control\nenemy Heroes more often in the late game\nwhile also having a respectable amount of additional survivability.\nYou can play this Build when you want more self-sustain\nin the early game, thanks to Laws of Hope\nat Level 1, and when you want more crowd control later on,\nthanks to either Blessed Momentum's cooldown reduction\nor Shrinking Vacuum's damage reduction at Level 16.\nWhen playing against Heroes with a lot of raw healing (notably Whitemane),\nyou should consider picking Sins Exposed at Level 7,\nespecially if your team lacks powerful healing reduction effects.\nWhen playing as Offlaner and having to\ndouble soak, to avoid Mana problems, you should pick\nEternal Retaliation at Level 4\nand only use Condemn for clearing Minions.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJohanna's ARAM Build gives you the opportunity to Blind\nenemy Heroes more often and, in the late-game,\nget self-healing and cooldown reduction from that.\nWhen playing against Heroes with a lot of raw healing (notably Whitemane),\nyou should consider picking Sins Exposed at Level 7,\nespecially if your team lacks powerful healing reduction effects.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Johanna's Synergies and Counters",
+   "id": "johannas-synergies-and-counters",
+   "text": "Johanna synergizes with\nJohanna pairs extremely well with Heroes that can follow up\nher slow but powerful engage with any kind of\narea of effect Ability to deal burst damage\nto enemy Heroes and/or to crowd control them.\nDue to her weak engage when her Heroic Ability is not available,\nJohanna greatly benefits from Heroes that can help her with that in the 4-man\n(such as Maiev) and/or from the offlane\n(for example Leoric with Entomb at Level 10).\nJohanna is countered by\nJohanna can be countered by constantly depleting her Health\nwith sustain damage, targeting her while\nIron Skin is on cooldown,\nor using high-mobility Heroes\nto target her backline.\nVarian, due to Shattering Throw at Level 13,\ncan completely destroy Johanna's main defensive tools:\nIron Skin baseline\nand either Indestructible\nor Blinded By The Light at Level 20."
+  },
+  {
+   "title": "Johanna's Maps",
+   "id": "johannas-maps",
+   "text": "Johanna's stronger maps\nJohanna's average maps\nJohanna's weaker maps\nJohanna performs better on medium-sized Battlegrounds\nthat favor early-game rotations with tons of waveclear\n(such as Tomb of the Spider Queen) or on Battlegrounds\nwhere it is easy to reach the late game\n(for example Warhead Junction). On the other hand, she is lackluster on most 2-lane Maps\nas well as Maps with wide empty areas (such as Hanamura Temple)."
+  },
+  {
+   "title": "Johanna's Tips and Tricks",
+   "id": "johannas-tips-and-tricks",
+   "text": "Try to damage and Slow adjacent enemy Heroes with Punish, usually after casting Condemn to group them.\nCondemn can interrupt animations (such as Dwarf Toss by Muradin) or channelling Abilities (for example Mosh Pit by E.T.C.).\nUse Shield Glare to Blind enemies that deal significant damage with Basic Attacks.\nUse Blessed Shield to engage, buy time to flee, or to interrupt enemies that are channelling Abilities (such as Holy Word: Salvation by Anduin).\nUse Iron Skin just prior to an enemy using crowd control on you and/or to mitigate incoming burst damage.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Johanna's Role in the Current Meta",
+   "id": "johannas-role-in-the-current-meta",
+   "text": "Johanna's survivability, disruption, waveclear, and\ncrowd control make her\na very solid Hero overall, and a good fit for nearly any team composition.\nJohanna can be played either defensively, by blocking enemy Heroes approaching her team,\nor offensively, by walking towards enemy Heroes and disrupting their moves.\nIron Skin,\nwith its potential 4 seconds of Unstoppable, makes Johanna\nvery effective versus teams with a lot of crowd control.\nLast but not the least, Johanna can be played as either main Tank\nor Offlaner. Just makes sure to choose the appropriate Talents\nbased on your Role in the team, otherwise you will lack important features on your Hero."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026 (talents page): Guide reviewed for the latest Patch.\n20 Jul. 2026 (abilities page): Guide reviewed for the latest Patch.\n20 Jul. 2026 (this page): Guide reviewed for the latest Patch.\n08 Dec. 2025 (talents page): Guide reviewed for the latest Balance Update.\n08 Dec. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n08 Dec. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n31 Jan. 2025 (talents page): Guide reviewed for the latest Balance Update.\n31 Jan. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n31 Jan. 2025 (this page): Guide reviewed for the latest Balance Update.\n16 Nov. 2024 (talents page): Guide reviewed.\n16 Nov. 2024 (abilities page): Guide reviewed.\n16 Nov. 2024 (this page): Guide reviewed.\n12 Dec. 2023 (talents page): Guide reviewed.\n12 Dec. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n30 Mar. 2022 (talents page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (abilities page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (this page): Guide reviewed for the latest Balance Update.\n28 Jan. 2022 (talents page): Builds updated.\n28 Jan. 2022 (this page): Builds and Maps updated.\n13 Dec. 2021 (talents page): Builds updated.\n13 Dec. 2021 (this page): Builds updated.\n07 Dec. 2021 (talents page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (abilities page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (this page): Guide reviewed for the latest Major Patch.\n03 Nov. 2021 (talents page): Builds updated.\n03 Nov. 2021 (this page): Builds updated.\n21 Sep. 2021 (talents page): Builds updated.\n21 Sep. 2021 (this page): Builds updated.\n16 Jul. 2021 (talents page): Builds updated.\n16 Jul. 2021 (this page): Builds updated.\n18 Jun. 2021 (talents page): Guide reviewed for the latest Balance Update.\n18 Jun. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n18 Jun. 2021 (this page): Guide reviewed for the latest Balance Update.\n30 May 2021 (talents page): Builds updated.\n30 May 2021 (this page): Builds updated.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n27 Feb. 2021 (talents page): Build Tags updated.\n27 Feb. 2021 (this page): Build Tags updated.\n25 Feb. 2021 (talents page): New layout.\n10 Nov. 2020 (this page): Synergies updated.\n09 Nov. 2020 (abilities page): Ability descriptions fixed.\n16 Jul. 2020 (talents page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (this page): Guide reviewed for the latest Balance Update.\n10 Jul. 2020 (talents page): Builds and Descriptions modified to reflect the current metagame.\n10 Jul. 2020 (abilities page): Ability Descriptions modified to better explain how to use Abilities effectively.\n10 Jul. 2020 (this page): Builds and Descriptions modified to reflect the current metagame.\n15 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n15 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n12 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n11 Jun. 2019 (talents page): Updated Johanna's guide to align it more with the current state of the game.\n16 Oct. 2018 (talents page): Changed Sins Exposed from Situational to Recommended.\n29 Jan. 2018 (talents page): Changed Blessed Hammer from Not Recommended to Recommended and updated Johanna's Builds.\n29 Jan. 2018 (abilities page): Added Falling Sword to the page.\n02 Nov. 2017 (talents page): Changed Subdue from Not Recommended to Recommended.\n29 Sep. 2017 (talents page): Updated Johanna's talents for Ana's patch.\n04 May 2017 (talents page): Updated Heaven's Fury's talent description and recommendation.\n17 Mar. 2017 (this page): Guide updated for Probius' patch and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Johanna's Tips and Tricks",
+   "id": "johannas-tips-and-tricks",
+   "text": "Try to damage and Slow adjacent enemy Heroes with Punish, usually after casting Condemn to group them.\nCondemn can interrupt animations (such as Dwarf Toss by Muradin) or channelling Abilities (for example Mosh Pit by E.T.C.).\nUse Shield Glare to Blind enemies that deal significant damage with Basic Attacks.\nUse Blessed Shield to engage, buy time to flee, or to interrupt enemies that are channelling Abilities (such as Holy Word: Salvation by Anduin).\nUse Iron Skin just prior to an enemy using crowd control on you and/or to mitigate incoming burst damage."
+  },
+  {
+   "title": "Punish",
+   "id": "punish",
+   "text": "Punish\n(Q)\nJohanna\nMana: 40\nCooldown: 8 seconds\nStep forward dealing 113 (+4% per level) damage and Slowing enemies by 50%, decaying over 2 seconds.\nPunish is a Basic Ability that deals a minor amount of damage\nand applies a decaying Slow to enemies in a small area in front of Johanna,\nuseful for peeling melee Heroes away from your team\nand/or for engaging on enemy Heroes.\nThe short range requires you to be in the midst of the fighting in order to hit\nenemy Heroes, but Condemn can be used to line up targets\nfor Punish, pulling all nearby enemies within range\nand thus allowing you to easily hit multiple enemy Heroes at the same time."
+  },
+  {
+   "title": "Condemn",
+   "id": "condemn",
+   "text": "Condemn\n(W)\nJohanna\nMana: 50\nCooldown: 10 seconds\nAfter 1 second, Johanna pulls nearby enemies toward her, Stunning them for 0.25 seconds and dealing 55 (+4% per level) damage. Deals 200% increased damage to Minions and Mercenaries.\nCondemn is a Basic Ability that, after a short delay,\nbriefly Stuns all enemies around Johanna.\nWith the exception of clearing Minions and Mercenaries who will take triple damage from it,\nCondemn should be used purely for its utility because it does not deal a lot of damage.\nWhen you want to engage and you do not have your Heroic Ability available,\nyou should usually start the fight with Condemn to\npull one or more enemy Heroes towards you and then\nfollow up with Punish while\nyour team adds crowd control and damage.\nIn case you need to interrupt a particular enemy Ability\n(for example Holy Word: Salvation by Anduin,\nespecially if he has Light of Stormwind at Level 20),\nyou better keep Condemn ready to use rather than wasting it on cooldown."
+  },
+  {
+   "title": "Shield Glare",
+   "id": "shield-glare",
+   "text": "Shield Glare\n(E)\nJohanna\nMana: 55\nCooldown: 13 seconds\nDeal 59 (+4% per level) damage to enemies and Blind them for 1.5 seconds.\nShield Glare is a Basic Ability whose primary effect\nis to Blind, even if it deals a small amount of damage to them.\nRather than using it only to deal damage, you better use Shield Glare to\nget Valeera out of Stealth, dismount enemy Heroes who are trying to\nengage (important against Garrosh), or reduce\nthe damage done by enemy Heroes that heavily rely on Basic Attacks (for example\nGreymane, especially when he commits in Worgen Form).\nDo not spam Shield Glare too much when not necessary\n(for example on Minions) otherwise your Mana will deplete too fast."
+  },
+  {
+   "title": "Falling Sword",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nFalling Sword\n(R)\nJohanna\nHeroic\nMana: 60\nCooldown: 50 seconds\nJohanna leaps into the air for 2 seconds and she can steer the landing location by moving. While in the air, allies below Johanna are Unstoppable. Upon landing enemies hit take 225 (+4% per level) damage and are Stunned for 0.25 seconds.\nFalling Sword is a Heroic Ability that makes Johanna\ndisappear from the battlefield for 2 seconds while in the air,\ngive Unstoppable to allied Heroes below her while flying, and then\nland in the chosen position, damaging and briefly Stunning enemies hit.\nWhile flying, Johanna goes into Stasis,\nmeaning that you can cast this Ability to dodge targeted effects (for example\nLast Rites by Malthael) or to remove from yourself\ndamage over time that would otherwise kill you.\nAt the end of the flying animation, Johanna will hit all enemies around her landing point.\nIn particular, the impact will deal a moderate amount of damage\nand briefly Stun all enemies in the area.\nEven if you can use it to escape from danger when necessary,\nFalling Sword is a powerful dive tool\nthat can be used offensively to close the gap between her and enemy Heroes.\nKeep in mind that going in aggressively could backfire\nbecause Johanna will be isolated from her team for a few seconds and\nher team will be without a Tank to peel for them,\ngiving the enemy team a big opportunity to burst down someone,\nhowever, the ability to make allied Heroes Unstoppable can help with that."
+  },
+  {
+   "title": "Blessed Shield",
+   "id": "blessed-shield",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nBlessed Shield\n(R)\nJohanna\nHeroic\nMana: 90\nCooldown: 65 seconds\nDeal 114 (+4% per level) damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and Stunning them for 0.75 seconds.\nBlessed Shield is a Heroic Ability that Johanna can\nuse to patch out her lack of engage tools and to further improve\nher peeling capabilities.\nThe long Stun it provides on the primary target gives you enough time\nto close the gap between you and the target enemy Hero when using it from maximum range.\nThis kind of engage requires you to have good aim and your team to be ready to\nfollow up. In case you miss, you can even consider to\ndisengage and try again later, unless you really have\nto fight, in which case you will play defensively rather than aggressively\nwhile waiting for its cooldown."
+  },
+  {
+   "title": "Iron Skin",
+   "id": "iron-skin",
+   "text": "Iron Skin\n(D)\nJohanna\nCooldown: 22 seconds\nActivate to grant Johanna a Shield that absorbs 810 (+4% per level) damage for 4 seconds. While this Shield is active, Johanna is Unstoppable.\nIron Skin is a Trait that gives Johanna a huge Shield\nwhich also makes her Unstoppable for the duration,\nmeaning that destroying the Shield will make the Unstoppable end preemptively.\nThe ability to become Unstoppable\ncan help you to survive situations that would have otherwise meant certain death\nas it allows you to completely negate enemy crowd control effects.\nDo not waste it because Johanna without Iron Skin can easily be killed.\nYou should generally use Iron Skin to prevent crowd control\nthat is going to be lethal, so when you expect a powerful follow-up.\nSometimes it is also fine to use it when engaging with\nCondemn, to deny enemy crowd control\nthat would otherwise stop you, but keep in mind that you are vulnerable right after."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Guide reviewed for the latest Patch.\n08 Dec. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n31 Jan. 2025: Guide reviewed for the latest Balance Update.\n16 Nov. 2024: Guide reviewed.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n18 Jun. 2021: Guide reviewed for the latest Balance Update.\n17 May 2021: Guide reviewed for the latest Patch.\n09 Nov. 2020: Ability descriptions fixed.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n10 Jul. 2020: Ability Descriptions modified to better explain how to use Abilities effectively.\n29 Jan. 2018: Added Falling Sword to the page.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Zealous Glare (Level 1) Johanna Shield Glare gains 1 additional charge, and deals 70% more damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Divine Fortress (Level 1) Johanna Basic Attacks grant 10 Physical Armor for 4 seconds, stacking up to 40. Gambit: Gain 25% bonus maximum Health. Every death reduces this bonus by 5%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Laws of Hope (Level 1) Johanna Cooldown: 40 seconds Activate to heal 20% of Johanna's max Health over 5 seconds. Quest: Every 10 Regeneration Globes gathered increases this heal amount by 5% of Johanna's max Health."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Subdue (Level 4) Johanna Hitting 2 or more Heroes at the same time with Punish increases the Slow to 70% and the Slow amount does not decay. Quest: Hit 4 or more Heroes at the same time with Punish. Reward: Punish always Slows by 70%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Eternal Retaliation (Level 4) Johanna Mark enemies hit by Condemn for 10 seconds. Johanna's next Basic Attack against them removes the mark, lowering the cooldown of Condemn by 1 second, refunding 10 Mana, and killing Minions."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Hold Your Ground (Level 4) Johanna Increases Iron Skin's Shield by 40% and its cooldown is reduced by 2 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Sins Exposed (Level 7) Johanna Punish reduces healing received by 35% for 3 seconds. Basic Attacks against them refresh this duration."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Conviction (Level 7) Johanna Gain 10% Movement Speed, increased to 20% while Condemn is charging up."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Steed Charge (Level 7) Johanna Cooldown: 20 seconds Activate to instantly Mount for 4 seconds, unhindered by damage. Passive: Increase the duration of Iron Skin by 2 second."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Falling Sword (Level 10) Johanna Mana: 60 Cooldown: 50 seconds Johanna leaps into the air for 2 seconds and she can steer the landing location by moving. While in the air, allies below Johanna are Unstoppable. Upon landing enemies hit take 225 (+4% per level) damage and are Stunned for 0.25 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Blessed Shield (Level 10) Johanna Mana: 90 Cooldown: 65 seconds Deal 114 (+4% per level) damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and Stunning them for 0.75 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Roar (Level 13) Johanna Increase Punish's damage by 50%. This bonus is increased to 150% whenever Punish hits 2 or more Heroes."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Holy Fury (Level 13) Johanna Mana: 50 Cooldown: 10 seconds Deal 15 (+4% per level) damage per second to nearby enemies. Each Hero hit by Condemn increases this damage by 40% for 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Blessed Hammer (Level 13) Johanna Cooldown: 30 seconds Activate to create 2 hammers that spiral outward from Johanna, dealing 65 (+4% per level) damage to enemies hit. Damaging enemies with Basic Abilities reduce the cooldown of this Ability by 2.5 seconds. Passive: Every 3rd Basic Attack against enemy Heroes releases a hammer."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Shrinking Vacuum (Level 16) Johanna Condemn reduces enemy Heroes damage by 30% and Slows by 30% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Holy Renewal (Level 16) Johanna Hitting enemy Heroes with Shield Glare reduce its cooldown by 1 second and heals for 5% of Johanna's maximum Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Blessed Momentum (Level 16) Johanna Basic Attacks grant 10% increased Attack Speed for 4 seconds, stacking up to 40%. They also reduce Johanna's Basic Ability cooldowns by 0.5 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Heaven's Fury (Level 20) Johanna Falling Sword rains down holy bolts, dealing 50 (+4% per level) damage to enemies, healing allied Heroes for 68 (+4% per level), and reducing its cooldown by 1 second for each Hero hit."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Radiating Faith (Level 20) Johanna Increase the number of enemies hit by Blessed Shield by 2. Its Stun duration is increased to 1.75 seconds and all targets hit are Stunned for the maximum duration."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Indestructible (Level 20) Johanna Upon taking fatal damage, Johanna gains a Shield equal to her maximum Health for 4 seconds. This effect has a 120 second cooldown."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Blinded By The Light (Level 20) Johanna Cooldown: 60 seconds Activate to grant nearby allied Heroes a Shield equal to 25% of their maximum Health for 3 seconds. Hitting Heroes with Shield Glare reduces the cooldown of this Ability by 8 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Johanna's Talent Build",
+   "id": "johannas-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n✓\n?\n?\n7\n?\n✓\n?\n10\n?\n✓\n13\n?\n✘︎\n✓\n16\n?\n✓\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Johanna's Talent Build Cheatsheet",
+   "id": "johannas-talent-build-cheatsheet",
+   "text": "Shield Glare Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJohanna's Shield Glare Build gives you the opportunity to Blind\nenemy Heroes more often and, in the late-game,\nget self-healing and cooldown reduction from that.\nYou can play this Build when you and your teammates need help\nagainst enemy Heroes who rely on Basic Attacks (for example Greymane).\nJust make sure to keep at least one charge\nof Shield Glare for peeling.\nWhen playing against Heroes with a lot of raw healing (notably Whitemane),\nyou should consider picking Sins Exposed at Level 7,\nespecially if your team lacks powerful healing reduction effects.\nWhen playing as Offlaner and having to\ndouble soak, to avoid Mana problems, you should pick\nEternal Retaliation at Level 4\nand only use Condemn for clearing Minions.\nBasic Attacks Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJohanna's Basic Attacks Build allows you to crowd control\nenemy Heroes more often in the late game\nwhile also having a respectable amount of additional survivability.\nYou can play this Build when you want more self-sustain\nin the early game, thanks to Laws of Hope\nat Level 1, and when you want more crowd control later on,\nthanks to either Blessed Momentum's cooldown reduction\nor Shrinking Vacuum's damage reduction at Level 16.\nWhen playing against Heroes with a lot of raw healing (notably Whitemane),\nyou should consider picking Sins Exposed at Level 7,\nespecially if your team lacks powerful healing reduction effects.\nWhen playing as Offlaner and having to\ndouble soak, to avoid Mana problems, you should pick\nEternal Retaliation at Level 4\nand only use Condemn for clearing Minions.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJohanna's ARAM Build gives you the opportunity to Blind\nenemy Heroes more often and, in the late-game,\nget self-healing and cooldown reduction from that.\nWhen playing against Heroes with a lot of raw healing (notably Whitemane),\nyou should consider picking Sins Exposed at Level 7,\nespecially if your team lacks powerful healing reduction effects."
+  },
+  {
+   "title": "Level 1 Talents for Johanna",
+   "id": "level-1",
+   "text": "✔\nZealous Glare\n(Level 1)\nJohanna\nShield Glare gains 1 additional charge, and deals 70% more damage.\nZealous Glare is a strong Talent that\ngives you an additional charge of Shield Glare\nand increases its damage by a considerable amount. Do not hesitate to use\na single charge for burst damage when going for a kill,\nexcept when you really need that charge for countering an enemy Hero.\nPick this Talent when playing against Valeera to get her out of Stealth,\nwhen playing against Garrosh to dismount him while he is trying to\nengage, or when facing Heroes who can get a lot of value from\nBasic Attacks—not only because of the damage they deal (such as Zul'jin)\nbut also to reduce their self-healing (for example Alarak\nwith Overwhelming Power at Level 1)\nor their healing output (like Tyrande).\nThe additional charge allows you to check a bush\nwhile still having your Blind available\nand has synergy with Holy Renewal at Level 16,\nincreasing your self-sustain\nand damage in the late game.\n?\nDivine Fortress\n(Level 1)\nJohanna\nBasic Attacks grant 10 Physical Armor for 4 seconds, stacking up to 40.\nGambit: Gain 25% bonus maximum Health. Every death reduces this bonus by 5%.\nDivine Fortress is a situational Gambit-based Talent that\nimmediately gives you extra maximum Health, however, dying reduces its amount.\nIn addition to that, Johanna receives 10 Physical Armor\nwhile hitting enemies with Basic Attacks, stacking up to 40 Physical Armor\nafter 4 Basic Attacks within 4 seconds from each other.\nThe additional maximum Health makes you harder to kill with burst damage\nand increases any percent-based healing\nyou receive (such as Life-Binder\nby Alexstrasza). As a consequence, it has synergy with Holy Renewal at Level 16\nas well as with Blinded By The Light at Level 20 who uses a similar mechanic,\nhowever, those Talents have better synergy with Zealous Glare at Level 1.\nConsider picking this Talent to counter enemy Heroes who can deal a lot of damage\nvia Basic Attacks and your team features two Healers,\nespecially on Maps where team fights happen near Minions and/or Monsters.\nMore healing will amplify the value you can get from\nthe Physical Armor it provides and also because\nit will be easier to keep it fully stacked until the late game.\nIf needed, you can further increase your survivability with the help of\nHold Your Ground at Level 4, Steed Charge at Level 7,\nand/or Falling Sword.\n?\nLaws of Hope\n(Level 1)\nJohanna\nCooldown: 40 seconds\nActivate to heal 20% of Johanna's max Health over 5 seconds.\nQuest: Every 10 Regeneration Globes gathered increases this heal amount by 5% of Johanna's max Health.\nLaws of Hope is a good Quest-based Talent that\nprovides you a powerful on-demand healing effect with a 40-second cooldown.\nYou can increase its power by collecting Regeneration Globes during the game.\nIf you are not in a team fight, your Healer is not nearby,\nand you have less than full Health, it is correct to use Laws of Hope\nto heal. Otherwise, the heal should be saved for upcoming team fights.\nBe careful when playing this Talent against Heroes who have access to healing reduction effects\n(for example Ana with Biotic Grenade). Wait for them\nto use that kind of Abilities or just use Laws of Hope\nto sustain yourself between team fights and while laning.\nOn the other hand, consider going for this Talent when playing against Heroes\nwho have access to Shield-breaking effects (such as Shattering Throw\nby Varian) to diversify your survivability into different types:\nnot only Shielding, but also healing.\nPrefer picking this Talent when your team has a burst Healer\n(such as Uther) and not a sustain one (for example Malfurion)\nto help them keeping your whole team in a good shape without wasting too much Mana for you.\nThe best Maps for collecting many Regeneration Globes are:\nAlterac Pass\nBlackheart's Bay\nDragon Shire\nGarden of Terror\nInfernal Shrines\nTomb of the Spider Queen\nVolskaya Foundry"
+  },
+  {
+   "title": "Level 4 Talents for Johanna",
+   "id": "level-4",
+   "text": "✔\nSubdue\n(Level 4)\nJohanna\nHitting 2 or more Heroes at the same time with Punish increases the Slow to 70% and the Slow amount does not decay.\nQuest: Hit 4 or more Heroes at the same time with Punish.\nReward: Punish always Slows by 70%.\nSubdue is a strong Talent that empowers the Slow\napplied when hitting two or more enemy Heroes with a single Punish\nand makes it no longer decay over time before it expires. In addition to that,\nhitting 4 enemy Heroes with a single Punish\nwill complete a Quest and empower the Slow from Punish\neven when hitting a single Hero.\nWe highly recommend this Talent when playing Johanna as main Tank.\nThe best part of this Talent is the fact it allows you to apply a stronger\nSlow when hitting 2 or more enemy Heroes with\nSubdue. Completing the Quest is not important\nbut if you see an opportunity, go for it. Once completed, remember that you\nno longer need to look for double hits when using Punish.\n?\nEternal Retaliation\n(Level 4)\nJohanna\nMark enemies hit by Condemn for 10 seconds. Johanna's next Basic Attack against them removes the mark, lowering the cooldown of Condemn by 1 second, refunding 10 Mana, and killing Minions.\nEternal Retaliation is a situational Talent that\nmarks enemies hit by Condemn for 10 seconds.\nConsuming marks with your Basic Attacks will reduce the cooldown of Condemn,\ngive you some Mana, and instantly kill enemy Minions. You cannot consume marks with Abilities.\nWe recommend this Talent only when playing Johanna as Offlaner.\nThe ability to instantly kill enemy Minions with Basic Attacks is useful\nwhen you need more waveclear, however,\nthe requirement to hit each Minion once makes this Talent less effective\nwhen playing as main Tank because enemy Heroes\nwill easily pressure you away from enemy Minions by damaging you.\n?\nHold Your Ground\n(Level 4)\nJohanna\nIncreases Iron Skin's Shield by 40% and its cooldown is reduced by 2 seconds.\nHold Your Ground is a situational Talent that\nempowers the Shield provided by Iron Skin\nwhile also reducing its cooldown a little.\nYou may need this Talent as an additional tool to survive\nwhen playing Johanna as main Tank\nagainst team compositions who don't have tools to break Shields\n(such as Shattering Throw by Varian) and rely\non crowd control and burst damage\nto take you down.\nMaking the Shield bigger indirectly translates to being Unstoppable\nfor longer because said effect ends when the Shield gets destroyed,\nnot only when it expires or after a fixed amount of time.\nHaving a better Shield can be good for Divine Fortress\nat Level 1 because you will be more durable while trying to retreat,\nsomething that will help you keep its Gambit component fully stacked."
+  },
+  {
+   "title": "Level 7 Talents for Johanna",
+   "id": "level-7",
+   "text": "?\nSins Exposed\n(Level 7)\nJohanna\nPunish reduces healing received by 35% for 3 seconds. Basic Attacks against them refresh this duration.\nSins Exposed is a situational Talent that\ngives you access to a moderate healing reduction effect\nright after using Punish on enemy Heroes.\nThe effect lasts 3 seconds but you can refresh its duration with Basic Attacks.\nConsider picking this Talent when your team needs extra burst damage\nagainst a team featuring a high amount of healing (Whitemane comes to mind) and/or\na lot of self-sustain (for example Stitches),\nespecially if your team lacks powerful healing reduction effects.\n✔\nConviction\n(Level 7)\nJohanna\nGain 10% Movement Speed, increased to 20% while Condemn is charging up.\nConviction is a strong Talent that\npassively gives you a moderate amount of Movement Speed\nand further boosts your Movement Speed while Condemn is charging.\nJohanna is a relatively immobile Hero,\ntherefore she benefits a lot from this kind of Talent as it increases her mobility\nfor either defensive or offensive uses, especially when her Heroic Abilities are not available.\n?\nSteed Charge\n(Level 7)\nJohanna\nCooldown: 20 seconds\nActivate to instantly Mount for 4 seconds, unhindered by damage.\nPassive: Increase the duration of Iron Skin by 2 second.\nSteed Charge is a situational Talent that\ncan be activated to instantly Mount and run away without being dismounted by damage.\nIn addition to giving you mobility, this Talent\npassively increases the duration of Iron Skin by 2 second.\nJohanna will be automatically dismounted at the end of its effect.\nIf it is not dangerous, you can even use Steed Charge aggressively,\nimmediately after casting Condemn,\nto engage without Heroic Ability.\nThat said, Conviction will give you\nabout the same value in a similar scenario.\nKeep in mind that you can still be dismounted\nby crowd control effects\nunless you combine it with Iron Skin\nto become Unstoppable right before using it.\nHaving an escape at your disposal can be good for Divine Fortress\nat Level 1 because it will help you to get away from danger without dying\nand, as a consequence, keeping its Gambit component fully stacked.\nSimilarly, it can be useful when playing as Offlaner in order\nto further increase your survivability against enemy ganks.\nIf you do not want to waste your Heroic Ability to interrupt powerful\nchanneled Abilities (such as Ravenous Spirit\nby Nazeebo), you can use Steed Charge\nas a gap-closer for using Condemn instead."
+  },
+  {
+   "title": "Level 10 Talents for Johanna",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nFalling Sword\n(Level 10)\nJohanna\nMana: 60\nCooldown: 50 seconds\nJohanna leaps into the air for 2 seconds and she can steer the landing location by moving. While in the air, allies below Johanna are Unstoppable. Upon landing enemies hit take 225 (+4% per level) damage and are Stunned for 0.25 seconds.\nFalling Sword is a situational Heroic Ability that can be used defensively\nto escape or offensively to dive into the enemy backline\nto damage and briefly Stun enemies hit.\nThe ability to make allied Heroes below you Unstoppable is versatile\nas it can be useful for both offensive (for example to enable Kerrigan\nto play aggressively) and defensive plays (to free teammates from scary\ncrowd control effects).\nSome team compositions will put so much pressure on you that\nyou will need to pick Falling Sword to escape\n(for example Leoric with Entomb\nbefore Level 20 or without Buried Alive at Level 20).\n✔\nBlessed Shield\n(Level 10)\nJohanna\nMana: 90\nCooldown: 65 seconds\nDeal 114 (+4% per level) damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and Stunning them for 0.75 seconds.\nBlessed Shield is a strong Heroic Ability that\nprovides you a powerful Stun, making up for the lack\nof hard crowd control among your Basic Abilities.\nYou can use it to engage enemy Heroes, to peel for your team\nor to interrupt powerful enemy channeled Abilities\n(such as Ravenous Spirit by Nazeebo)\nwhen Condemn is on cooldown or lacks range."
+  },
+  {
+   "title": "Level 13 Talents for Johanna",
+   "id": "level-13",
+   "text": "?\nRoar\n(Level 13)\nJohanna\nIncrease Punish's damage by 50%. This bonus is increased to 150% whenever Punish hits 2 or more Heroes.\nRoar is a good Talent that increases\nthe damage done by Punish, even against non-Heroes,\nand provides a solid amount of burst damage when hitting\n2 enemy Heroes with a single Punish.\nThe main benefit of this Talent is that it gives you a solid amount of burst damage\nwhen you can hit multiple enemy Heroes with Punish,\nwhich helps your team finish them before they can use defensive Abilities\nand/or their Healer can react.\n✘\nHoly Fury\n(Level 13)\nJohanna\nMana: 50\nCooldown: 10 seconds\nDeal 15 (+4% per level) damage per second to nearby enemies. Each Hero hit by Condemn increases this damage by 40% for 5 seconds.\nHoly Fury is a weak Talent that allows you to deal\narea of effect damage around you,\nempowered after hitting Heroes with Condemn.\nWe do not recommend this Talent because it requires\nto hit 4 enemy Heroes with Condemn and Johanna to stay\nnearby at least one of them for 5 seconds to get enough\nvalue compared to the other options in the same Tier.\n✔\nBlessed Hammer\n(Level 13)\nJohanna\nCooldown: 30 seconds\nActivate to create 2 hammers that spiral outward from Johanna, dealing 65 (+4% per level) damage to enemies hit. Damaging enemies with Basic Abilities reduce the cooldown of this Ability by 2.5 seconds.\nPassive: Every 3rd Basic Attack against enemy Heroes releases a hammer.\nBlessed Hammer is a strong Talent that causes\nevery third Basic Attacks against enemy Heroes to spawn a small hammer of light\nwhich spiral outwards from Johanna and deals damage to all enemies hit.\nOnce every 30 seconds, you can manually activate Blessed Hammer\nto spawn 2 hammers that work in the same way. You can reduce the cooldown\nof the active component by hitting enemies with Basic Abilities.\nPick Blessed Hammer when you want more sustain damage\nor when all you need is single-target damage, and/or more waveclear.\nYou can activate it to quickly clear multiple Minions or Monsters at the same time,\nhowever, its passive component only works when using Basic Attacks against enemy Heroes."
+  },
+  {
+   "title": "Level 16 Talents for Johanna",
+   "id": "level-16",
+   "text": "?\nShrinking Vacuum\n(Level 16)\nJohanna\nCondemn reduces enemy Heroes damage by 30% and Slows by 30% for 3 seconds.\nShrinking Vacuum is a situational Talent\nthat reduces the damage done by enemy Heroes hit with Condemn\nand Slows them a little.\nWhen playing against Heroes who can deal a lot of damage\nand can be easily hit with Condemn,\nyou can pick this Talent to reduce their damage done.\nYou can combine this Talent with Conviction at Level 7\nto make it easier to hit enemy Heroes with Condemn,\nhowever, it is already good on its own.\n✔\nHoly Renewal\n(Level 16)\nJohanna\nHitting enemy Heroes with Shield Glare reduce its cooldown by 1 second and heals for 5% of Johanna's maximum Health.\nHoly Renewal is a strong Talent that heals you\nfor a significant amount when hitting enemy Heroes with Shield Glare,\nin addition to reducing its cooldown. Both effects are multiplied for each enemy Hero hit.\nThe potential healing coming from this Talent can be useful to reduce the stress on your\nHealer when playing against a poke-composition.\nWhile hitting 5 enemy Heroes is too optimistic, you can reliably hit\n2 Heroes with each use, restoring a good chunk of your maximum Health.\nBeing based on your maximum Health, the healing provided by Holy Renewal\ncan be increased with Divine Fortress at Level 1,\nassuming you do not die too much. Alternatively, you can benefit from this Talent\nmore often thanks to the second Shield Glare\nprovided by Zealous Glare at Level 1.\n?\nBlessed Momentum\n(Level 16)\nJohanna\nBasic Attacks grant 10% increased Attack Speed for 4 seconds, stacking up to 40%. They also reduce Johanna's Basic Ability cooldowns by 0.5 seconds.\nBlessed Momentum is a good Talent that,\nwhen hitting any target with Basic Attacks, boosts your Attack Speed\nand reduces the cooldown of your Basic Abilities.\nPick this Talent when you want to use your Basic Abilities more often,\neither defensively or offensively, or when your team needs more damage\nas the other Talents in this Tier do not provide any offensive bonus."
+  },
+  {
+   "title": "Level 20 Talents for Johanna",
+   "id": "level-20",
+   "text": "?\nHeaven's Fury\n(Level 20)\nJohanna\nFalling Sword rains down holy bolts, dealing 50 (+4% per level) damage to enemies, healing allied Heroes for 68 (+4% per level), and reducing its cooldown by 1 second for each Hero hit.\nHeaven's Fury is a good Talent\nthat heavily empowers Falling Sword in 3 ways:\nmore damage against enemy Heroes, healing allied Heroes, and cooldown reduction\nbased on the number of Heroes hit with the previous two effects.\nThe damage bolts can hit up to 3 enemies (not only Heroes)\nwhile the healing bolts can hit up to 3 allied Heroes.\nThe cooldown reduction is equal to 8 seconds per Hero affected,\ntherefore the cooldown remaining will end up being:\n40 seconds for 1 Hero;\n32 seconds for 2 Heroes;\n24 seconds for 3 Heroes;\n16 seconds for 4 Heroes (at least 1 per team);\n8 seconds for 5 Heroes (at least 2 per team);\n0 seconds for 6 Heroes (3 per team).\nThe possibility of using multiple Heroic Abilities per team fight is great,\nespecially in the late game when your Mana pool\nis big enough to pay for the extra casts without problems.\n?\nRadiating Faith\n(Level 20)\nJohanna\nIncrease the number of enemies hit by Blessed Shield by 2. Its Stun duration is increased to 1.75 seconds and all targets hit are Stunned for the maximum duration.\nRadiating Faith is a good Talent that allows\nBlessed Shield to hit up to 5 enemies (prioritizing Heroes)\nand Stun all of them for 1.75 seconds. This means\nthat it does not matter if you hit enemy Heroes directly or with a bounce.\nWhen you have this Talent, you can use Blessed Shield\non a non-Hero that is nearby your intended target Hero. The targeted non-Hero\nwill get hit first and then Blessed Shield will bounce\non your intended target Hero. Bounces have 5.5 range.\nIf you have good aim and/or good understanding of how Blessed Shield's\nbounces work, we strongly recommend this Talent because it has the potential to win a late game\nteam fight on its own by setting up a powerful engage for your team.\n?\nIndestructible\n(Level 20)\nJohanna\nUpon taking fatal damage, Johanna gains a Shield equal to her maximum Health for 4 seconds. This effect has a 120 second cooldown.\nIndestructible is a situational Talent that provides a powerful\nShield when you are close to dying. This effect can keep you alive for longer in team fights\nand may even discourage enemies from targeting you altogether.\nOnce Indestructible gets triggered, you must\nimmediately retreat from combat, unless you are immediately healed, or you will\ndie once the Shield ends. Holy Renewal at Level 16 and\nLaws of Hope at Level 1 can help you with that.\nWe recommend this Talent only when playing against teams who want to kill you\nthrough Iron Skin (for example Leoric\nwith Entomb and Buried Alive at Level 20).\n✔\nBlinded By The Light\n(Level 20)\nJohanna\nCooldown: 60 seconds\nActivate to grant nearby allied Heroes a Shield equal to 25% of their maximum Health for 3 seconds.\nHitting Heroes with Shield Glare reduces the cooldown of this Ability by 8 seconds.\nBlinded By The Light is a strong Talent that can\nbe helpful if the enemy team has so much area of effect\nburst damage that your team cannot do anything to win the\nteam fight.\nLike any other Shield-based Ability, to avoid wasting it,\nonly use it immediately before significant burst damage. The cooldown reduction\nprovided by hitting enemy Heroes with Shield Glare has\nthe potential to let you use this Talent twice in a single team fight.\nThe second charge of Shield Glare\nprovided by Zealous Glare at Level 1\ncan help you quickly reset the cooldown of Blinded By The Light.\nBeing based on maximum Health, the Shield provided by this Talent\nwill be bigger if you took Divine Fortress at Level 1\nand you did not lose too many stacks of its Gambit."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Guide reviewed for the latest Patch.\n08 Dec. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n31 Jan. 2025: Guide reviewed for the latest Balance Update.\n16 Nov. 2024: Guide reviewed.\n12 Dec. 2023: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n28 Jan. 2022: Builds updated.\n13 Dec. 2021: Builds updated.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n03 Nov. 2021: Builds updated.\n21 Sep. 2021: Builds updated.\n16 Jul. 2021: Builds updated.\n18 Jun. 2021: Guide reviewed for the latest Balance Update.\n30 May 2021: Builds updated.\n17 May 2021: Guide reviewed for the latest Patch.\n27 Feb. 2021: Build Tags updated.\n25 Feb. 2021: New layout.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n10 Jul. 2020: Builds and Descriptions modified to reflect the current metagame.\n15 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n11 Jun. 2019: Updated Johanna's guide to align it more with the current state of the game.\n16 Oct. 2018: Changed Sins Exposed from Situational to Recommended.\n29 Jan. 2018: Changed Blessed Hammer from Not Recommended to Recommended and updated Johanna's Builds.\n02 Nov. 2017: Changed Subdue from Not Recommended to Recommended.\n29 Sep. 2017: Updated Johanna's talents for Ana's patch.\n04 May 2017: Updated Heaven's Fury's talent description and recommendation.\nShow more\nShow less"
+  }
+ ]
+}

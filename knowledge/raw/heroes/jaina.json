@@ -1,0 +1,300 @@
+{
+ "slug": "jaina",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/jaina-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/jaina-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/jaina-talents"
+ },
+ "guide": [
+  {
+   "title": "Jaina's Overview",
+   "id": "jainas-overview",
+   "text": "Jaina is combo-oriented ranged damage dealer with outstanding area of\neffect crowd control and burst damage potential. Befitting\nher Frost Mage theme, her Abilities also Slow everything they hit. Her reliance\non skillshots and delayed Abilities, and relative fragility, however,\nmake her one of the hardest Heroes to play, let alone master."
+  },
+  {
+   "title": "Jaina's Strengths and Weaknesses",
+   "id": "jainas-strengths-and-weaknesses",
+   "text": "Strengths\nOutstanding burst damage\nALL Abilities apply a strong Slow effect on hit\nExcellent waveclear\nFlexible build with Talents for all situations\nWeaknesses\nDifficult to play due to ALL Abilities having some form of counterplay\nLong Cooldowns that must be managed with care\nLimited mobility\nDependent on completing a quest to have a reliable way to survive engages"
+  },
+  {
+   "title": "Jaina's Talent Build Cheatsheet",
+   "id": "jainas-talent-build-cheatsheet",
+   "text": "Frostbolt Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJaina's Frostbolt Build seeks to improve Jaina's sustain damage output\nthrough the several synergistic Talents which empower\nFrostbolt. By picking Ice Lance at Level 7 and\nNorthern Exposure at Level 16, it also provides Jaina with the most\nsingle target sustained and burst damage among her builds.\nFingers of Frost provides much needed Mana and a bit of extra damage;\nFrost Shards makes Frostbolt more difficult to block and potentially doubles its damage;\nIce Lance situationally halves Frostbolt's cooldown, which is particularly\nsignificant when combined with Icy Veins;\nSummon Water Elemental provides\na reliable way to keep targets Chilled through Frostbite.\nIt is important to note that Winter's Reach is an option\nat Level 1, but should only be chosen against several high ranged Heroes, as it\nis necessary to apply pressure on them.\nBalanced Build\nSituational\nLevel 1\n?\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJaina's Balanced Build is a very versatile and useful Build path to take in every game.\nIt has a good damage on the frontline with Icefury Wand\nor with Ice Floes,\nexcellent Mana management with Level 1 and Level 4, and has several Talent\noptions to pick based on the opposing composition.\nIcefury Wand is an excellent Talent to apply constant\ndamage to a Tank or Bruiser without cooldowns.\nHowever, Ice Floes is outstanding against several melees\nin the opposing team. Combined with Icy Veins and\nNumbing Blast, Cone of Cold can Root divers and melees\nfor five seconds, but remember to apply chill on them before using it!\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJaina's ARAM Build focuses on maximizing her team fighting potential by\ncombining Icy Veins, Ice Floes, and\nNumbing Blast. This combination allows you to Root\nmultiple enemies throughout most of Icy Veins' duration while applying heavy\nburst damage to all of them.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Jaina's Synergies and Counters",
+   "id": "jainas-synergies-and-counters",
+   "text": "Jaina synergizes with\nSince Jaina depends highly on skillshots to deal her damage, she\nnaturally works well with any Hero that can provide reliable crowd control\nagainst a kill target for her to follow up. Her frailty also makes her\ndependent on other Heroes to peel for her; Tanks tend to fulfill these\ntwo needs, although other Hero types can as well.\nJaina is countered by\nSince Jaina relies chiefly on skillshots and delayed Abilities to deal\ndamage, she does particularly poorly against Heroes that have ways of\nquickly dodging her Abilities. Furthermore, her frailty and lack of mobility\nmakes her vulnerable to heroes that can easily dive or push you\nto a bad position."
+  },
+  {
+   "title": "Jaina's Maps",
+   "id": "jainas-maps",
+   "text": "Jaina's stronger maps\nJaina's average maps\nJaina's weaker maps\nNone\nJaina's excellent waveclear makes her particularly effective on\nMaps where the Objective requires the rapid destruction of several small\nenemies, or where quick rotations are expected. She also becomes quite\nproficient at claiming Mercenary Camps as well past Hero Level 7. She tends to\nbe weaker on Maps where she might need to be isolated, although she should\nprobably never be left without an ally regardless, due to her dependence on\npeeling."
+  },
+  {
+   "title": "Jaina's Tips and Tricks",
+   "id": "jainas-tips-and-tricks",
+   "text": "Use your Abilities together to maximise Frostbite's damage.\nRoot or Slow enemies before casting Blizzard and Ring of Frost. Allied crowd control is also helpful.\nUse Blizzard to very efficiently waveclear or claim Mercenary Camps.\nAvoid using Blizzard and Cone of Cold together to clear Minion waves unless you need to clear immediately, in order to keep one Ability available to combine with Frostbolt during skirmishes.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Jaina's Role in the Current Meta",
+   "id": "jainas-role-in-the-current-meta",
+   "text": "While Jaina's sustain damage may be slightly lower than that of other\nAssassins, her burst damage potential certainly makes up for this.\nThis extreme amount of burst damage allows Jaina to heavily damage or outright\nkill out-of-position targets, something that her counterparts would be unable\nto do. Additionally, almost the entirety of Jaina's damage is area of effect,\nallowing her to heavily punish enemy teams that group tightly together.\nUnlike other burst damage Heroes who are very weak during the early game,\nlack waveclear, or can only deal single target damage, Jaina's abundance\nof on-demand burst damage does not make other parts of her kit weaker. Her only\nreal weakness lies in her very low mobility and dependence on good positioning."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Mar. 2026 (talents page): Updated Builds and Talents after Balance Patch.\n16 Mar. 2026 (abilities page): Guide updated after Balance Patch.\n16 Mar. 2026 (this page): Guide updated after Balance Patch.\n31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n09 Dec. 2021 (talents page): Updated Winter's reach's description to reflect recent Balance Patch's changes.\n09 Dec. 2021 (abilities page): Frostbite's description updated after recent balance patch.\n09 Dec. 2021 (this page): Guide updated after recent Balance Patch.\n24 Jul. 2021 (talents page): Updated Builds and Talents after recent Balance Patch.\n24 Jul. 2021 (this page): Guide updated after recent Balance Patch.\n30 Jun. 2021 (talents page): Builds and Talents updated to reflect current meta.\n30 Jun. 2021 (this page): Guide updated to reflect current meta.\n09 May 2021 (talents page): Icefury Wand discussion updated and build modified accordingly.\n22 Nov. 2020 (talents page): Arcane Intellect's discussion updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n05 Apr. 2020 (talents page): Descriptions updated for Icy Veins and Snowstorm.\n15 Feb. 2020 (talents page): Talents reviewed following February 12 patch changes.\n15 Dec. 2019 (this page): Added a note about current Anomaly.\n23 May 2019 (talents page): Updated Talent discussion and recommendations following patch v2.45.1 changes.\n14 Jan. 2018 (talents page): Updated Tier 6 and 7 Talent assessments. Updated Frostbolt build.\n07 Sep. 2017 (this page): Guide updated for Kel'thuzad patch and moved to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Jaina's Tips and Tricks",
+   "id": "jainas-tips-and-tricks",
+   "text": "Use your Abilities together to maximise Frostbite's damage.\nRoot or Slow enemies before casting Blizzard and Ring of Frost. Allied crowd control is also helpful.\nUse Blizzard to very efficiently waveclear or claim Mercenary Camps.\nAvoid using Blizzard and Cone of Cold together to clear Minion waves unless you need to clear immediately, in order to keep one Ability available to combine with Frostbolt during skirmishes."
+  },
+  {
+   "title": "Frostbite (Trait)",
+   "id": "frostbite-trait",
+   "text": "Although we typically list Hero Abilities in order, Jaina's Trait is quite\nunique in that it heavily impacts the way that she is played. As such, we will\nlist it first.\nFrostbite\n(D)\nJaina\nPassive\nJaina's Abilities Chill targets, Slowing them by 25% and amplifying damage taken from her Abilities by 50%. Lasts 4 seconds.\nQuest: Deal Ability damage to Chilled Heroes.\nReward: Upon dealing 12000 damage, unlock the Improved Ice Block Ability, allowing Jaina to become temporarily Invulnerable.\nMythic Reward: Upon dealing 30000 damage, Ice Block upgrades to Ice Cold, allowing Jaina to move and cast while active.\nFrostbite passively causes Jaina's Abilities to also affect their targets\nwith Chill, Slowing them by 25% and causing any Ability that hits an enemy\nalready afflicted by Chill to deal 50% increased damage. Chill lasts for 4\nseconds, but Jaina's Abilities cause this duration to refresh. Chill affects\nall entities in the game for the purpose of inflicting\nbonus damage, including Structures.\nThe Chilling effect associated to Frostbite must be taken advantage of in\norder for Jaina to be effective. On top of reliably applying a lengthy Slowing\neffect, it can potentially increase the damage you deal with Abilities by a\nhefty 50%. It is therefore imperative that all of your Abilities are used\nagainst targets that are affected by Chill whenever possible. In practice, this\nis quite easy to do, since your Abilities will all be used shortly after one\nanother. The difficulty comes with the order that they must be used in depending\non the situation at hand.\nFrostbite has a Quest that progresses by dealing\ndamage to Chilled Heroes. After dealing 12000 damage, Jaina gains Improved Ice\nBlock, granting Invulnerable for a short duration.\nAfter dealing 30000 damage, Improved Ice Block is upgraded, allowing Jaina to\nmove and cast Abilities while\nInvulnerable.\nCompleting this Quest quickly is important for maximizing Jaina's impact. To\nstack it efficiently, adjust your play as follows:\nIn small skirmishes, you can delay using\nCone of Cold after landing\nFrostbolt so that, when Frostbolt's 4-second cooldown\nrefreshes, the enemy is still Chilled by\nFrostbite.\nAfter the first few levels, avoid using\nBlizzard and\nCone of Cold together to clear Minion waves. When you\nare alone, use only Blizzard. When your team is with you and waveclear is\nalready covered, use only Cone of Cold, saving Blizzard to pair with\nFrostbolt for Quest stacks between waves.\nSince Summon Water Elemental has a short cooldown\nand repeatedly applies damage and Chill, use it often to speed up Quest\ncompletion.\nSome Talents make stacking easier, such as\nLingering Chill, all Level 7 Talents, and\nIcy Veins at Level 13. Take advantage of them to speed\nup Quest progress.\nThe 30000-damage milestone is especially powerful when paired with\nIcy Veins. That Talent encourages Jaina to play\naggressively to maximize its cooldown reduction, which often leaves her more\nexposed during its duration. Being able to move and cast while\nInvulnerable compensates for that weakness, letting\nher maintain pressure much more safely."
+  },
+  {
+   "title": "Frostbolt",
+   "id": "frostbolt",
+   "text": "Frostbolt\n(Q)\nJaina\nMana: 30\nCooldown: 4 seconds\nDeal 184 (+4% per level) damage and Chill the target.\nFrostbolt is Jaina's bread and butter. The Ability's extremely short\nCooldown, insignificant Mana cost, and long range means that it is typically\nused on-Cooldown whenever enemies are within range — whether it be\nMinions, Structures, Mercenaries, or Heroes. When possible, Frostbolt should be\nused first in your Ability chain as its Slowing effect\nhelps with landing Blizzard, and as Cone of Cold deals much\nmore damage when multiplied by Frostbite.\nFrostbolt's skillshot nature, however, means that some practice\nto assimilate the projectile's speed and width is necessary. Also keep in mind\nthat Minions and other undesirable targets may prevent Frostbolt from hitting\nyour desired target, as it does not pierce without the help of a specific\nTalent."
+  },
+  {
+   "title": "Blizzard",
+   "id": "blizzard",
+   "text": "Blizzard\n(W)\nJaina\nMana: 90\nCooldown: 15 seconds\nBombard an area with 3 waves of ice, dealing 142 (+4% per level) damage each. Damaged enemies are Chilled.\nBlizzard is Jaina's most damaging Ability, assuming several waves hit. Due to\nits long Cooldown, it should only be used if at least two waves are guaranteed\nto hit, unless only one wave is needed to secure a kill. Since there is a short\ndelay between casting Blizzard and it dealing damage, moving enemies may have\ntime to avoid most if not all of its damage. This means that you should only use\nBlizzard under certain circumstances; generally, against stationary targets such\nas Minions, Structures, or Mercenaries, or against Heroes under the effects of\ncrowd control.\nIf you are chasing a fleeing enemy or are being chased yourself, you can land\nmultiple Blizzard waves by first Slowing your target with Frostbolt or\nCone of Cold, and then casting Blizzard in the direction they are moving.\nThis is particularly useful when blocking off choke points, as you\nare forcing your target to choose between taking heavy damage or completely\nchanging direction.\nBlizzard is also an extremely effective waveclearing tool. As\nearly as Hero Level 2, a single cast will kill all 4 of the ranged Minions in a\ngiven Minion wave. Cone of Cold can be used to instantly finish off\nthe remainder of the wave. To clear Minions most effectively, wait until every\nenemy Minion begins attacking your own Minions, at which point all enemy Minions\nwill be within the radius of Blizzard."
+  },
+  {
+   "title": "Cone of Cold",
+   "id": "cone-of-cold",
+   "text": "Cone of Cold\n(E)\nJaina\nMana: 40\nCooldown: 10 seconds\nDeal 220 (+4% per level) damage and Chill targets.\nCone of Cold is Jaina's most damaging instant Ability (although, as we\nmentioned, it is surpassed by Blizzard if at least two of its waves hit\nthe target). Its range, however, is the shortest, meaning getting into position\nfor hits may be risky. Still, its instant point-and-click nature makes it the\neasiest Ability to hit with. Cone of Cold should be used whenever it is\navailable and safe to do so, although only if the target is already Chilled. It\nis better to first Chill targets with Frostbolt, Blizzard, or\nSummon Water Elemental, since they each deal less damage than Cone of Cold.\nOnce you unlock the Numbing Blast Talent at Level 16, using Cone of\nCold against Chilled targets becomes even more important, as the Rooting effect\nit provides is vital to landing subsequent Blizzard waves."
+  },
+  {
+   "title": "Ring of Frost",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nRing of Frost\n(R)\nJaina\nHeroic\nMana: 70\nCooldown: 70 seconds\nAfter a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.\nRing of Frost is Jaina's combo- and crowd control-oriented Heroic Ability choice.\nIts unusual circular targeting makes it one of the most unique Ability in the\ngame, and much practice is required to reliably hit Ring of Frost while under\npressure. Allied crowd control and your own Chilling effects, however, can help\ngreatly with this task. As with most Heroic Abilities that have a long Cooldown,\nyou should try to hit as many Heroes as possible with Ring of Frost so as to\nmaximise its value. Blizzard should follow successful Ring of Frost\ncasts naturally, as the lengthy Rooting effect will ensure all waves hit.\nRing of Frost works particularly well with the following Abilities:\nMosh Pit from E.T.C;\nGrav-O-Bomb 3000 from Gazlowe;\nDevouring Maw from Zagara;\nGraviton Surge from Zarya;\nVoid Prison from Zeratul."
+  },
+  {
+   "title": "Summon Water Elemental",
+   "id": "summon-water-elemental",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nSummon Water Elemental\n(R)\nJaina\nHeroic\nMana: 60\nCooldown: 60 seconds\nSummon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Loses Health over 32 seconds.\nSummon Water Elemental is a versatile Heroic Ability choice that helps make\nup for several of Jaina's weakness, notably, dueling. Besides dealing a substantial\namount of single-target damage on its own, the Water Elemental provides\nFrostbite's Chilling effect to anything it hits, which allows\nyour Abilities to deal their full damage for as long as Water Elemental persists\nand attacks. Summon Water Elemental's long range can also be used to catch up\nto fleeing enemies. The Water Elemental can be ordered to move to a specific\narea or attack a specific target by re-casting the Ability at the desired\nlocation or on the desired target; this can be done even after Jaina has died.\nControling the Elemental can also be useful for applying Frostbite to multiple\ntargets by re-targeting the Summon's attack quickly against different Heroes.\nTry and never leave your Elemental idle, which it will become if it loses sight\nof its target. This Ability's relatively short Cooldown means it should be used\nliberally."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Mar. 2026: Guide updated after Balance Patch.\n31 May 2025: Guide reviewed.\n09 Dec. 2021: Frostbite's description updated after recent balance patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Winter's Reach (Level 1) Jaina Increase the range and travel speed of Frostbolt by 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Lingering Chill (Level 1) Jaina Increase the duration of Chill from 4 seconds to 6 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Fingers of Frost (Level 1) Jaina Quest: Gather Regeneration Globes to increase Jaina's Mana regeneration by 0.1 per second, up to 2 per second. Reward: After gathering 20 Globes, the damage bonus from Frostbite is increased by 10%."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Frost Shards (Level 4) Jaina Frostbolt will now pierce the first two targets."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Arcane Intellect (Level 4) Jaina Dealing damage to a Chilled target returns Mana to Jaina. Basic Attacks return 5 Mana and Abilities return 20. Passive: While above 75% Mana, Jaina gains 10% Spell Power."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Frost Armor (Level 4) Jaina Enemies that attack Jaina are Chilled. Additionally, every 10 seconds, Jaina gains 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Ice Lance (Level 7) Jaina Hitting a Chilled target with Frostbolt reduces its cooldown by 2 seconds and restores 10 Mana."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Ice Floes (Level 7) Jaina Increase the width of Cone of Cold by 100% and cause each Hero hit to reduce its cooldown by 2 seconds, doubled against chilled Heroes, up to a maximum of 8 seconds per use."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Icefury Wand (Level 7) Jaina Basic Attacks against Chilled enemies deal 50% more damage and lower the cooldown of Blizzard by 1.25 seconds. Doubled against enemy Heroes."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Ring of Frost (Level 10) Jaina Mana: 70 Cooldown: 70 seconds After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Summon Water Elemental (Level 10) Jaina Mana: 60 Cooldown: 60 seconds Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Loses Health over 32 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Storm Front (Level 13) Jaina Increase the cast range of Blizzard by 75% and its radius by 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Ice Barrier (Level 13) Jaina Gain a Shield for 25% of Ability damage dealt to Chilled targets. The shield lasts 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Icy Veins (Level 13) Jaina Cooldown: 60 seconds Activate to make Jaina's Basic Abilities' cooldowns recharge 200% faster and reduce their Mana cost by 50% for 5 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Snowstorm (Level 16) Jaina The damage of the second wave of Blizzard is increased by 50%. The damage of the third wave is increased by 100%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Northern Exposure (Level 16) Jaina Enemies damaged by Cone of Cold have their Armor lowered by 25 for 2 seconds, increasing their damage taken by 25%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Numbing Blast (Level 16) Jaina Cone of Cold Roots Chilled targets for 0.75 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Cold Snap (Level 20) Jaina The center area of Ring of Frost deals 310 (+4% per level) damage and Roots enemies after the outer ring expires. Each enemy Hero hit reduces its cooldown by 15 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Wintermute (Level 20) Jaina Increases the cast range of Water Elemental by 40%, and the Water Elemental will now mimic Jaina's Basic Abilities for 40% damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Ice Blink (Level 20) Jaina Cooldown: 60 seconds Activate to teleport a short distance and Chill all nearby enemies."
+   },
+   {
+    "slot": 4,
+    "marker": "no",
+    "text": "✘︎ Deep Chill (Level 20) Jaina Frostbite's Chill can now stack a second time, slowing targets up to 40%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Jaina's Talent Build",
+   "id": "jainas-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n?\n✓\n13\n?\n✘︎\n✓\n16\n✘︎\n✓\n?\n20\n✘︎\n✓\n?\n✘︎\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Jaina's Talent Build Cheatsheet",
+   "id": "jainas-talent-build-cheatsheet",
+   "text": "Frostbolt Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJaina's Frostbolt Build seeks to improve Jaina's sustain damage output\nthrough the several synergistic Talents which empower\nFrostbolt. By picking Ice Lance at Level 7 and\nNorthern Exposure at Level 16, it also provides Jaina with the most\nsingle target sustained and burst damage among her builds.\nFingers of Frost provides much needed Mana and a bit of extra damage;\nFrost Shards makes Frostbolt more difficult to block and potentially doubles its damage;\nIce Lance situationally halves Frostbolt's cooldown, which is particularly\nsignificant when combined with Icy Veins;\nSummon Water Elemental provides\na reliable way to keep targets Chilled through Frostbite.\nIt is important to note that Winter's Reach is an option\nat Level 1, but should only be chosen against several high ranged Heroes, as it\nis necessary to apply pressure on them.\nBalanced Build\nSituational\nLevel 1\n?\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJaina's Balanced Build is a very versatile and useful Build path to take in every game.\nIt has a good damage on the frontline with Icefury Wand\nor with Ice Floes,\nexcellent Mana management with Level 1 and Level 4, and has several Talent\noptions to pick based on the opposing composition.\nIcefury Wand is an excellent Talent to apply constant\ndamage to a Tank or Bruiser without cooldowns.\nHowever, Ice Floes is outstanding against several melees\nin the opposing team. Combined with Icy Veins and\nNumbing Blast, Cone of Cold can Root divers and melees\nfor five seconds, but remember to apply chill on them before using it!\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nJaina's ARAM Build focuses on maximizing her team fighting potential by\ncombining Icy Veins, Ice Floes, and\nNumbing Blast. This combination allows you to Root\nmultiple enemies throughout most of Icy Veins' duration while applying heavy\nburst damage to all of them."
+  },
+  {
+   "title": "Level 1 Talents for Jaina",
+   "id": "level-1",
+   "text": "?\nWinter's Reach\n(Level 1)\nJaina\nIncrease the range and travel speed of Frostbolt by 30%.\n?\nLingering Chill\n(Level 1)\nJaina\nIncrease the duration of Chill from 4 seconds to 6 seconds.\n✓\nFingers of Frost\n(Level 1)\nJaina\nQuest: Gather Regeneration Globes to increase Jaina's Mana regeneration by 0.1 per second, up to 2 per second.\nReward: After gathering 20 Globes, the damage bonus from Frostbite is increased by 10%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Winter's Reach is a situational Talent.\nIt extends Frostbolt to a much greater range than\nCone of Cold and Blizzard,\nbeing very impractical in the majority of games. However, it is a good option\nagainst compositions with several high range Heroes, such as Junkrat\nor Hanzo, because it permits Jaina to apply pressure on those.\nAlthough Lingering Chill turns Frostbite into one of the longest\nSlow effect, it fits rather poorly with Jaina's bursty approach to solving\nproblems. However, it is great to improve your stacking speed in Frostbite,\nbeing a good option on Maps without many Regeneration Globes to pick.\nFingers of Frost provides Jaina with more damage and Mana.\nThis is the standard Talent for all builds. Still, there are Maps where you will not be able\nto easily stack it, like in Battlefield of Eternity, where\nLingering Chill and Winter's Reach\ncan be a good choice instead."
+  },
+  {
+   "title": "Level 4 Talents for Jaina",
+   "id": "level-4",
+   "text": "✓\nFrost Shards\n(Level 4)\nJaina\nFrostbolt will now pierce the first two targets.\n?\nArcane Intellect\n(Level 4)\nJaina\nDealing damage to a Chilled target returns Mana to Jaina. Basic Attacks return 5 Mana and Abilities return 20.\nPassive: While above 75% Mana, Jaina gains 10% Spell Power.\n?\nFrost Armor\n(Level 4)\nJaina\nEnemies that attack Jaina are Chilled. Additionally, every 10 seconds, Jaina gains 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Frost Shards improves the reliability of Frostbolt by making it\nmore difficult to block. It is particularly useful for hitting enemies that\nare hiding behind Minions, Structures, or Summons. It also helps with dealing\nwith Mercenary Camps; just make sure to line up your Frostbolts properly.\nArcane Intellect seems to be not necessary if you already have\nFingers of Frost, but it guarantees that you will very often\nhave the 10% extra Spell Power from it. For this reason, this Talent is a good choice\nwith and without Fingers of Frost.\nFrost Armor has niche use against nimble melee Assassins. Although\nthe Armor provided by the Talent is passable, being able to Chill\nany attacker allows you to retaliate with full force, through Frostbite,\nwithout having to initially hit with an Ability. The Slow effect makes\nFrostbolt and Blizzard much easier to land, on top of\ngreatly improving Cone of Cold's damage. This becomes particularly useful when\nusing the Numbing Blast Talent."
+  },
+  {
+   "title": "Level 7 Talents for Jaina",
+   "id": "level-7",
+   "text": "✓\nIce Lance\n(Level 7)\nJaina\nHitting a Chilled target with Frostbolt reduces its cooldown by 2 seconds and restores 10 Mana.\n?\nIce Floes\n(Level 7)\nJaina\nIncrease the width of Cone of Cold by 100% and cause each Hero hit to reduce its cooldown by 2 seconds, doubled against chilled Heroes, up to a maximum of 8 seconds per use.\n?\nIcefury Wand\n(Level 7)\nJaina\nBasic Attacks against Chilled enemies deal 50% more damage and lower the cooldown of Blizzard by 1.25 seconds. Doubled against enemy Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Ice Lance provides most single-target damage potential\nat this tier. This is particularly true when coupled with Frost Shards.\nIce Lance also allows you to chase and kite enemy Heroes more\neffectively through reapplying Chill.\nIce Floes provides Cone of Cold\nwith a very respectable cooldown reduction.\nThis is a great Talent when Icy Veins and Numbing Blast\nare picked, because you can apply a 0.75-second Root each second in the best case\nscenario. It is excellent against Melee compositions.\nIcefury Wand is the most versatile choice, as it increases\nJaina's single-target damage, waveclear, and readiness to\nfollow up her Tank."
+  },
+  {
+   "title": "Level 10 Talents for Jaina",
+   "id": "level-10",
+   "text": "?\nRing of Frost\n(Level 10)\nJaina\nMana: 70\nCooldown: 70 seconds\nAfter a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.\n✓\nSummon Water Elemental\n(Level 10)\nJaina\nMana: 60\nCooldown: 60 seconds\nSummon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Loses Health over 32 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nRing of Frost is an Ability that is generally used as part of a combo, or\nas a means of punishing team compositions with 3 or more melee or otherwise\nimmobile Heroes. Numbing Blast can help with setting up your own\nRing of Frost hits.\nSummon Water Elemental is Jaina's versatile go-to Talent, as it does not\nrequire any kind of setup or specific team composition to make use of, unlike\nRing of Frost."
+  },
+  {
+   "title": "Level 13 Talents for Jaina",
+   "id": "level-13",
+   "text": "?\nStorm Front\n(Level 13)\nJaina\nIncrease the cast range of Blizzard by 75% and its radius by 30%.\n✘︎\nIce Barrier\n(Level 13)\nJaina\nGain a Shield for 25% of Ability damage dealt to Chilled targets. The shield lasts 4 seconds.\n✓\nIcy Veins\n(Level 13)\nJaina\nCooldown: 60 seconds\nActivate to make Jaina's Basic Abilities' cooldowns recharge 200% faster and reduce their Mana cost by 50% for 5 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Storm Front turns Blizzard\ninto one of the most reliable follow-up Abilities.\nThe range increase allows you to play unusually defensively for a caster whilst\nretaining the capacity to fully use your most powerful Ability. Further, the\narea of effect increase is enough to ensure two full hits when targeting\nopponents right in the center of Blizzard's reticle. This synergises well with\nSnowstorm.\nIce Barrier is the defensive alternative to Icy Veins, and is\ntypically picked as a means of surviving against melee Assassins.\nHowever, since Jaina already has an Ice Block, and due to how overpowered Icy Veins is,\nwe do not recommend this Talent. If you are struggling against\nMelee Assassins, it might be better to pick\nNumbing Blast with Ice Floes instead.\nIcy Veins is a fantastic activatable Talent that allows you to have a\n\"second wind\" after using your Basic Abilities. Besides a hefty 50% Mana cost\nreduction, Icy Veins also reduces the cooldowns of your Basic Abilities to\n1.33 seconds, 5 seconds, and 3.33 seconds for Frostbolt, Blizzard, and Cone\nof Cold respectively. Icy Veins works particularly well with Ice Lance."
+  },
+  {
+   "title": "Level 16 Talents for Jaina",
+   "id": "level-16",
+   "text": "✘︎\nSnowstorm\n(Level 16)\nJaina\nThe damage of the second wave of Blizzard is increased by 50%. The damage of the third wave is increased by 100%.\n✓\nNorthern Exposure\n(Level 16)\nJaina\nEnemies damaged by Cone of Cold have their Armor lowered by 25 for 2 seconds, increasing their damage taken by 25%.\n?\nNumbing Blast\n(Level 16)\nJaina\nCone of Cold Roots Chilled targets for 0.75 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Snowstorm is an underwhelming Talent. For it to be actually effective,\nall 3 waves should hit a target, which is very unlikely. In most situations\nthe other 2 options at this Level will be much better choices.\nNorthern Exposure is an excellent Talent in most Jaina\nbuilds, as its Armor reduction increases not only Jaina's\ndamage, but also the burst damage dealt by her entire team.\nHowever, for Cone of Cold oriented builds, it is generally\nbetter to default to Numbing Blast, as its Root\neffect is important to cast multiple Cone of Colds in quick succession without being caught.\nLike other Armor reducing effects, Northern Exposure is also less\nvaluable when your team already has strong Armor reduction tools, such as\nHunter's Mark or Cold Embrace.\nAlthough Numbing Blast provides no upfront damage, its\nRoot effect can be valuable by allowing you to\nunconditionally hit with at least two Blizzard waves, on top of allowing\nyour allies to follow up. It is worth noting that Numbing Blast is\nJaina's only source of hard crowd control besides Ring of Frost.\nFurthermore, even though it is preferred in Cone of Cold oriented builds,\nNumbing Blast can also be a good defensive option in other builds when facing heavy\ndive compositions."
+  },
+  {
+   "title": "Level 20 Talents for Jaina",
+   "id": "level-20",
+   "text": "✘︎\nCold Snap\n(Level 20)\nJaina\nThe center area of Ring of Frost deals 310 (+4% per level) damage and Roots enemies after the outer ring expires. Each enemy Hero hit reduces its cooldown by 15 seconds.\n✓\nWintermute\n(Level 20)\nJaina\nIncreases the cast range of Water Elemental by 40%, and the Water Elemental will now mimic Jaina's Basic Abilities for 40% damage.\n?\nIce Blink\n(Level 20)\nJaina\nCooldown: 60 seconds\nActivate to teleport a short distance and Chill all nearby enemies.\n✘︎\nDeep Chill\n(Level 20)\nJaina\nFrostbite's Chill can now stack a second time, slowing targets up to 40%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Cold Snap's additional central effect takes an excessive 6 seconds to trigger\nafter first casting Ring of Frost, making it generally very unrealistic\nto rely upon. The cooldown reduction aspect is interesting, but is ultimately\nwinmore.\nWintermute provides an impressive potential short term damage increase of\n40%, though in practice it is often a bit less, especially if the Water\nElemental is killed. If you feel like your survivability has not been an issue\nthroughout a given match, Wintermute will certainly pay off, especially with\nIcy Veins; both cooldowns should always be timed, especially considering\nthey are exactly the same length.\nIce Blink has both defensive and offensive utility for Jaina,\nand is reminiscent of a short-ranged Bolt of the Storm which can be used to apply\nFrostbite. Ice Blink is especially useful when being heavily pressured\nby melee Assassins or otherwise dived repeatedly,\nbut may also be used to combo with Numbing Blast\nfor a reliable Root effect\nto burst down Heroes who are out of position.\nDeep Chill can be debilitating to melee-heavy team compositions, but\nmust compete with more powerful Talents."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Mar. 2026: Updated Builds and Talents after Balance Patch.\n31 May 2025: Guide reviewed.\n09 Dec. 2021: Updated Winter's reach's description to reflect recent Balance Patch's changes.\n24 Jul. 2021: Updated Builds and Talents after recent Balance Patch.\n30 Jun. 2021: Builds and Talents updated to reflect current meta.\n09 May 2021: Icefury Wand discussion updated and build modified accordingly.\n22 Nov. 2020: Arcane Intellect's discussion updated.\n05 Apr. 2020: Descriptions updated for Icy Veins and Snowstorm.\n15 Feb. 2020: Talents reviewed following February 12 patch changes.\n23 May 2019: Updated Talent discussion and recommendations following patch v2.45.1 changes.\n14 Jan. 2018: Updated Tier 6 and 7 Talent assessments. Updated Frostbolt build.\nShow more\nShow less"
+  }
+ ]
+}

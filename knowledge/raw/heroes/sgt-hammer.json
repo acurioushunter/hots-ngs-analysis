@@ -1,0 +1,270 @@
+{
+ "slug": "sgt-hammer",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/sgt-hammer-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/sgt-hammer-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/sgt-hammer-talents"
+ },
+ "guide": [
+  {
+   "title": "Sgt. Hammer's Overview",
+   "id": "sgt-hammers-overview",
+   "text": "Sgt. Hammer is a Ranged Assassin that excels at dealing large amounts of\nsustained damage from a very long range. Her unique playstyle, relative lack of\nmobility, and her fragility mean that her allies must adopt a patient playstyle\nin order to get the most out of her."
+  },
+  {
+   "title": "Sgt. Hammer's Strengths and Weaknesses",
+   "id": "sgt-hammers-strengths-and-weaknesses",
+   "text": "Strengths\nVery high single-target sustain damage\nGood area of effect sustain damage\nSolid waveclear\nHigh-range poke\nOutstanding PvE damage\nWeaknesses\nExceedingly dependent on proper positioning\nVulnerable to skillshots\nVery limited out-of-combat mobility due to not having a regular Mount\nLimited team fighting utility\nPeculiar playstyle around which your team must play"
+  },
+  {
+   "title": "Sgt. Hammer's Talent Build Cheatsheet",
+   "id": "sgt-hammers-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis standard build focuses on maximizing sustained damage and healing over time,\nmaking it excellent for prolonged team fights and objective control. However, it skips\nSiege Tactics, so it is vulnerable against hard engage or displacement\neffects, such as Hook.\nSiege Tactics Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis build prioritizes survivability against displacement and\ncrowd control effects by picking Siege Tactics.\nIt is the ideal choice when dealing with enemy teams that can threaten you with hard engage\nor abilities like Hook.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Sgt. Hammer's Synergies and Counters",
+   "id": "sgt-hammers-synergies-and-counters",
+   "text": "Sgt. Hammer synergizes with\nProtect the Hammer! Sgt. Hammer's binary design makes her depend on Heroes\nwho have ways of keeping opponents away from her to thrive.\nSgt. Hammer is countered by\nSince Sgt. Hammer needs to stand still to get the most out of her Abilities,\nshe is naturally vulnerable to Heroes that use dangerous skillshots,\nparticularly those that can displace her."
+  },
+  {
+   "title": "Sgt. Hammer's Maps",
+   "id": "sgt-hammers-maps",
+   "text": "Sgt. Hammer's stronger maps\nSgt. Hammer's average maps\nSgt. Hammer's weaker maps\nSgt. Hammer's static nature makes her thrive on Maps with fixed Objectives\nthat allows her to threaten Heroes from range. Conversely, she tends to be of\nlimited usefulness where quick group rotations are required."
+  },
+  {
+   "title": "Sgt. Hammer's Tips and Tricks",
+   "id": "sgt-hammers-tips-and-tricks",
+   "text": "Be careful with Siege Mode; although its damage increase may be tempting, it also leaves you very vulnerable to area of effect Abilities.\nUse Thrusters sparingly; they are your only reliable method of escaping opponents.\nUse Spider Mines on-Cooldown to protect your flanks. Keep them away from Minions to preserve them.\nConcussive Blast deals very little damage; use it to push enemies away from you or teammates.\nNeosteel Plating should be used to avoid Ability-based burst damage such as an impending Pyroblast hit.\nNapalm Strike is useful for quickly checking bushes, dismounting or revealing opponents, and clearing Zagara's Creep Tumors.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Sgt. Hammer's Role in the Current Meta",
+   "id": "sgt-hammers-role-in-the-current-meta",
+   "text": "Sgt. Hammer's primary goal is to inflict damage to whatever is in sight. The\nmain difference between her and regular Ranged Assassins,\nhowever, is that she does not possess a\nregular Mount, greatly limiting her Map presence. The trade-off is that she has\nThrusters, which innately grant her a strong and very useful but Cooldown-gated\nspeed boost. She can also enter Siege Mode, which makes her unable to\nmove but nearly doubles her attack range. This makes her, as the Ability's name\nimplies, an excellent sieger.\nSince Heroes of the Storm is a game that is defined by the rotations\nthat its various map objectives call for, having such an immobile Hero as part\nof any team composition requires very specific adaptations from the part of any\nteam that is willing to pick her. Sgt. Hammer players must also be very critical\nof their own ability to predict necessary rotations ahead of time, so that they\nare rarely out of position and unable to assist their teammates.\nIn general, Sgt. Hammer simply does well against team compositions that lack\nhard-engages, and as part of teams that can properly\nprotect her, allowing her to freely decimate her foes and safely take down\nStructures."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Sep. 2026 (talents page): Updated Orbital BFG after recent balance patch.\n13 Sep. 2026 (abilities page): Updated Abilities after recent balance patch.\n08 May 2026 (talents page): Talents and Builds updated after last balance patch.\n08 May 2026 (abilities page): Guide updated after last balance patch.\n08 May 2026 (this page): Guide updated after last balance patch.\n31 May 2025 (talents page): Talents and Builds updated to reflect meta development.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide updated to reflect meta development.\n05 Jun. 2022 (talents page): Talents and Builds updated to reflect meta development.\n05 Jun. 2022 (this page): Guide updated to reflect meta development.\n15 Apr. 2022 (talents page): Updated Graduating Range's description after recent balance patch.\n15 Apr. 2022 (this page): Guide updated after recent balance patch.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n05 Nov. 2020 (talents page): Talents and Builds updated after recent balance patch.\n05 Nov. 2020 (this page): Guide updated after recent balance patch.\n01 Nov. 2020 (talents page): Talents and Builds updated.\n01 Nov. 2020 (this page): Guide updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n05 Apr. 2020 (talents page): Description and recommendation updated for Hover Siege Mode.\n15 Feb. 2020 (talents page): Talents reviewed following February 12 patch changes.\n27 Jan. 2020 (talents page): Guide reviewed following January 22 balance patch. No changes to Talent recommendations.\n09 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n28 Jul. 2018 (talents page): Talents updated to reflect July 25 balance patch changes.\n14 Jan. 2018 (talents page): Updated Siege build.\n01 Dec. 2017 (talents page): Added Talent discussions.\n30 Nov. 2017 (this page): Guide fully updated to account for the Hero's rework and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Sgt. Hammer's Tips and Tricks",
+   "id": "sgt-hammers-tips-and-tricks",
+   "text": "Be careful with Siege Mode; although its damage increase may be tempting, it also leaves you very vulnerable to area of effect Abilities.\nUse Thrusters sparingly; they are your only reliable method of escaping opponents.\nUse Spider Mines on-Cooldown to protect your flanks. Keep them away from Minions to preserve them.\nConcussive Blast deals very little damage; use it to push enemies away from you or teammates.\nNeosteel Plating should be used to avoid Ability-based burst damage such as an impending Pyroblast hit.\nNapalm Strike is useful for quickly checking bushes, dismounting or revealing opponents, and clearing Zagara's Creep Tumors."
+  },
+  {
+   "title": "Siege Mode",
+   "id": "siege-mode",
+   "text": "Although we typically list Abilities in a different order, Sgt. Hammer's Trait is quite\nunique in that it heavily impacts the way that she is played. As such, we list\nit first and not last, as we usually do with other Heroes.\n\nSiege Mode\n(D)\nSgt. Hammer\nCooldown: 2 seconds\nActivate to enter Siege Mode. While in Siege Mode, Basic Attacks deal 20% more damage, have 100% increased range, and deal 25% of their damage as splash damage around the target.\nSiege Mode is Sgt. Hammer's most iconic Ability and\nsingle-handedly separates poor Sgt. Hammer players from good ones. This may come\noff as a surprise, but for any given match, one should seek to, as much as possible,\navoid being in Siege Mode. This is simply due to the fact that the complete loss of\nmobility, unless the Hover Siege Mode Talent is acquired,\nis far more detrimental than the upsides of the Ability, and will get you killed\nagainst most competent players. The only right times to ever be in Siege Mode\nare when you are waveclearing an empty lane, when you are sieging\nwith the protection of several teammates, or when you are absolutely\ncertain that no Ability can punish you. Although this may sound vague, this\nmeans keeping track of your opponent's most important cooldowns, including, but\nnot limited to, Artanis's Phase Prism and Stiches's Hook.\nThis fact can not be stressed enough; Siege Mode is only to be used when its\ndownside of being completely unable to move can not backfire."
+  },
+  {
+   "title": "Thrusters",
+   "id": "thrusters",
+   "text": "Thrusters\n(Z)\nSgt. Hammer\nCooldown: 30 seconds\nIncrease Movement Speed by 60% for 4 seconds. Thrusters are always active while at the Hall of Storms. Activating Thrusters cancels Siege Mode.\nThrusters replaces Sgt. Hammer's ability to use a\nMount. It increases her Movement Speed by 60% for 4 seconds, and instantly brings\nher out of Siege Mode. It has a cooldown of 30 seconds.\nThis Ability is automatically activated (without a cooldown) while at the Altar\nof Storms.\nThis Ability is one of the many elements that make Sgt. Hammer so unique. As\na Hero, she essentially forfeits most of her out-of-combat mobility for a readily\navailable and very powerful combat Movement Speed boost. Despite Sgt. Hammer's\nvery defense-oriented skillset, Thrusters should almost\nexclusively be used defensively. This is particularly true when the opposing\nteam composition feature Melee Assassins or hard-engaging\nHeroes. Even if that is not the case, it is almost always a mistake to use them\noffensively (unless it can safely secure kills) or worse, simply for traveling a\nbit faster.\nSince the Thrusters last for only a few seconds,\nbeing hit by any crowd control\n(particularly Stuns and Roots)\nwill cause you to lose out on a large portion of\nthe Ability's duration. It is imperative that you remain careful when\nactivating it."
+  },
+  {
+   "title": "Spider Mines",
+   "id": "spider-mines",
+   "text": "Spider Mines\n(Q)\nSgt. Hammer\nMana: 50\nCooldown: 14 seconds\nCreate 3 mines that arm after 1.25 seconds. Mines detonate when an enemy comes in range, dealing 96 (+4% per level) damage to nearby enemies and Slowing them by 25% for 1.5 seconds.\nSiege Mode: Cast range increased by 100%.\nSpider Mines are a proactive defensive tool, meaning\nthat you must predict your opponent's behaviour in order to make good use of them.\nEarly, they are to be cast into bushes that surround your current lane whenever\nthey are available. This prevents the Mines from being wasted by Minions on top\nof scouting for incoming attackers, potentially Slowing them as well.\nIn combat, Spider Mines are also to be used whenever they\nare off-cooldown, simply as added damage and for their Slowing effect. Repeatedly\nusing Spider Mines in the same area can create dangerous zones for your opponents\nto walk into and deter them from engaging you. Preemptively using Mines\ncan also open up escape paths for you by Slowing down pursuers. Laying down\nsix or more Spider Mines generally allows Sgt. Hammer to fight off most\nindividual Heroes."
+  },
+  {
+   "title": "Concussive Blast",
+   "id": "concussive-blast",
+   "text": "Concussive Blast\n(W)\nSgt. Hammer\nMana: 80\nCooldown: 12 seconds\nDeal 141 (+4% per level) damage to enemies in front of Sgt. Hammer and knock them back.\nSiege Mode: Radius increased by 50%.\nJust as with Thrusters,\nConcussive Blast is a primarily defensive tool.\nPushing melee foes away from you not only prevents them from attacking you, but\nalso allows you to get one or two Basic Attacks in as they must close distance\nagain to damage you. Offensively, Concussive Blast deals too little damage from\ntoo little range to realistically be useful outside of its knockback effect.\nThat effect can, however, be used to peel or interrupt\nimportant channeled Abilities."
+  },
+  {
+   "title": "Neosteel Plating",
+   "id": "neosteel-plating",
+   "text": "Neosteel Plating\n(E)\nSgt. Hammer\nMana: 60\nCooldown: 16 seconds\nGain 25 Armor for 2 seconds.\nSiege Mode: Grants 100% more Armor.\nSince Neosteel Plating grants Armor on demand for a\nvery short duration, the best way of using this Ability is when you are about to\nbe struck by highly damaging Abilities. Although this generally means Heroic\nAbilities, certain Basic Abilities, such as Chromie's Dragon's Breath, are\nnotoriously easy to hit from far away for how much damage they deal. It is\nworth noting that Siege Mode increases the Armor provided by\nNeosteel Plating by a hefty 25, making immobilizing yourself marginally safer."
+  },
+  {
+   "title": "Blunt Force Gun",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nBlunt Force Gun\n(R)\nSgt. Hammer\nHeroic\nMana: 100\nCooldown: 70 seconds\nFire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path. Deals 50% damage to Structures.\nThere is little to say about Blunt Force Gun. It deals a\nmoderate amount of uncounterable line-based damage in a relatively large area.\nThe projectie's relatively slow speed means that you must predict the movement\nof your opponents if you plan on using the Ability from more than a screen away.\nAlthough it is generally beneficial to wait for crowd control to hit your\nopponents, especially in an area of effect, Blunt Force Gun requires very little\nsetup to work. Blunt Force Gun can also be used to finish off a low-Health\nStructure if necessary. Since it only deals 50% damage to Structures, first make sure the Structure\nhas less Health remaining than half the missile's listed damage."
+  },
+  {
+   "title": "Napalm Strike",
+   "id": "napalm-strike",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nNapalm Strike\n(R)\nSgt. Hammer\nHeroic\nMana: 35\nCooldown: 6 seconds\nDeals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.\nNapalm Strike's short cooldown, negligible Mana cost, long range,\nand solid sustain damage make it the quintessential poking tool that is\nto be used against Heroes, Minions, Structures, and Mercenaries whenever it\ncomes off-Cooldown. It is also useful for scouting bushes, dismounting\nenemy Heroes, and bringing Stealthed Heroes out of Stealth. It should be\nnoted that Napalm Strike has a short traveling time, making it necessary to aim\nahead of an intended target. Napalm is an extremely straightforward Heroic\nAbility that can be used in any scenario where damage is required."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Sep. 2026: Updated Abilities after recent balance patch.\n08 May 2026: Guide updated after last balance patch.\n31 May 2025: Guide reviewed.\n11 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Ambush (Level 1) Sgt. Hammer Gain Stealth when entering Siege Mode or after not taking or dealing damage for 3 seconds while in Siege Mode. Basic Attacks while Stealthed deal 125% more damage. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Advanced Artillery (Level 1) Sgt. Hammer Increase Siege Mode's splash damage to 60% of Basic Attack damage, and increase its splash radius by 25%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Maelstrom Rounds (Level 1) Sgt. Hammer Charges: 3 Recharge Time: 80 seconds Activate to increase Basic Attack damage dealt by 40% for 5 seconds. Hitting enemy Heroes or Structures with Basic Attacks while in Siege Mode reduces the cooldown of Maelstrom Rounds by 5 seconds. Stores up to 3 charges."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Barricade (Level 4) Sgt. Hammer Reduce Concussive Blast's cooldown by 4 seconds, its Mana cost by 40, and when cast create an impassable wall in front of Sgt. Hammer for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Siege Tactics (Level 4) Sgt. Hammer Using Neosteel Plating while in Siege Mode grants Unstoppable for 2 seconds, as long as she remains in Siege Mode."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Regenerative Bio-Steel (Level 4) Sgt. Hammer Basic Attacks while in Siege Mode heal for 10% of the damage dealt."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Pulse Detonation Core (Level 7) Sgt. Hammer Spider Mines detonate 3 times over 3 seconds. All damage from Basic Attacks against enemy Heroes grant 5 Mana and reduce the cooldown of Spider Mines by 1.5 seconds. Increase this bonus to 2.5 seconds while in Siege Mode."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Hover Siege Mode (Level 7) Sgt. Hammer Sgt. Hammer can move at 50% Movement Speed while in Siege Mode."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Graduating Range (Level 7) Sgt. Hammer While in Siege Mode, Basic Attack range is increased by 1 every 1.5 seconds, up to 3."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Blunt Force Gun (Level 10) Sgt. Hammer Mana: 100 Cooldown: 70 seconds Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path. Deals 50% damage to Structures."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Napalm Strike (Level 10) Sgt. Hammer Mana: 35 Cooldown: 6 seconds Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Tactical Mine Deployment (Level 13) Sgt. Hammer Moving while Thrusters is active leaves a trail of up to 5 Spider Mines. Additionally, increase the Slow of Spider Mines by 15%."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Entrenched (Level 13) Sgt. Hammer While in Siege Mode, Concussive Blasts's damage and knockback distance are increased by 75%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hyper-Cooling Engines (Level 13) Sgt. Hammer While in Siege Mode, hitting Heroes or Structures with Basic Attacks reduces the cooldown of Thrusters by 5 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Mechanical Know-how (Level 16) Sgt. Hammer Neosteel Plating grants 20% maximum Health as a Shield for 2 seconds and increases Basic Attack damage by 30% for 5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Executioner (Level 16) Sgt. Hammer Attacking a Hero that is Slowed, Rooted, or Stunned increases your Basic Attack damage by 30% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Giant Killer (Level 16) Sgt. Hammer Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Orbital BFG (Level 20) Sgt. Hammer Blunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Advanced Lava Strike (Level 20) Sgt. Hammer Increase the cast range of Napalm Strike by 75%, and its impact deals 65% more damage."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Shrapnel Mines (Level 20) Sgt. Hammer Upon detonating, Spider Mines reduce the Armor of enemy Heroes hit by 10, up to 50, for 4 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Ultra Capacitors (Level 20) Sgt. Hammer Hitting enemy Heroes or Structures with Basic Attacks while in Siege Mode grants 10% Attack Speed for 5 seconds, up to 60%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Sgt. Hammer's Talent Build",
+   "id": "sgt-hammers-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n?\n?\n✓\n7\n?\n✓\n?\n10\n✓\n?\n13\n?\n✘︎\n✓\n16\n✓\n?\n?\n20\n?\n?\n✘︎\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Sgt. Hammer's Talent Build Cheatsheet",
+   "id": "sgt-hammers-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis standard build focuses on maximizing sustained damage and healing over time,\nmaking it excellent for prolonged team fights and objective control. However, it skips\nSiege Tactics, so it is vulnerable against hard engage or displacement\neffects, such as Hook.\nSiege Tactics Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis build prioritizes survivability against displacement and\ncrowd control effects by picking Siege Tactics.\nIt is the ideal choice when dealing with enemy teams that can threaten you with hard engage\nor abilities like Hook."
+  },
+  {
+   "title": "Level 1 Talents for Sgt. Hammer",
+   "id": "level-1",
+   "text": "?\nAmbush\n(Level 1)\nSgt. Hammer\nGain Stealth when entering Siege Mode or after not taking or dealing damage for 3 seconds while in Siege Mode. Basic Attacks while Stealthed deal 125% more damage.\nRemaining stationary for at least 1.5 seconds while Stealthed grants Invisible.\n✓\nAdvanced Artillery\n(Level 1)\nSgt. Hammer\nIncrease Siege Mode's splash damage to 60% of Basic Attack damage, and increase its splash radius by 25%.\n?\nMaelstrom Rounds\n(Level 1)\nSgt. Hammer\nCharges: 3\nRecharge Time: 80 seconds\nActivate to increase Basic Attack damage dealt by 40% for 5 seconds. Hitting enemy Heroes or Structures with Basic Attacks while in Siege Mode reduces the cooldown of Maelstrom Rounds by 5 seconds.\nStores up to 3 charges.\nAmbush is a good Talent that can be used in several ways.\nDifferently from Advanced Artillery that is focused on\nsustained area of effect damage, Ambush is completely focused\non increasing single-target burst damage.\nAdvanced Artillery, unlikes its alternatives, provides no\nmeaningful damage where it comes to single-target damage.\nHowever, the extra splash damage will eventually be higher than Ambush's added damage.\nAdvanced Artillery shines in long fights and when you are defending Mercenary Camps\nor Zerg Waves on Braxis Holdout.\nMaelstrom Rounds can in theory provide more sustain damage\nthan Ambush after three Basic Attacks once activated.\nIn practice however, Maelstrom Rounds inevitably ends up having a very long\nCooldown and being difficult to use as it will be hard to reset it in the\nlate game. Still, it is the only Talent that does not require\nSgt. Hammer to be in Siege Mode to work, being a\ngood choice if you cannot reliably enter in that mode."
+  },
+  {
+   "title": "Level 4 Talents for Sgt. Hammer",
+   "id": "level-4",
+   "text": "?\nBarricade\n(Level 4)\nSgt. Hammer\nReduce Concussive Blast's cooldown by 4 seconds, its Mana cost by 40, and when cast create an impassable wall in front of Sgt. Hammer for 4 seconds.\n?\nSiege Tactics\n(Level 4)\nSgt. Hammer\nUsing Neosteel Plating while in Siege Mode grants Unstoppable for 2 seconds, as long as she remains in Siege Mode.\n✓\nRegenerative Bio-Steel\n(Level 4)\nSgt. Hammer\nBasic Attacks while in Siege Mode heal for 10% of the damage dealt.\nBarricade provides a defensive option against melee Heroes\nthat can also be used to deny or hinder initiations. Barricade is particularly\npowerful in tight spaces, where it can outright block escape or engagement\npaths. Just make sure not to block off your allies, or yourself.\nSiege Tactics provides a much-needed self-defense mechanism against long-range\ncrowd control and displacement Abilities such as\nArtanis's Phase Prism\nand Stitches's Hook. This is a good Talent if the enemy\nteam could get you out of position with these Abilities.\nRegenerative Bio-Steel is Sgt. Hammer's only source\nof self-sustain. This Talent is excellent in most games,\nas it covers one of Sgt. Hammer's main weaknesses, poke damage.\nFurther, Regenerative Bio-Steel lets you heal\noff Minion waves very quickly while in Siege Mode due to the Splash damage effect."
+  },
+  {
+   "title": "Level 7 Talents for Sgt. Hammer",
+   "id": "level-7",
+   "text": "?\nPulse Detonation Core\n(Level 7)\nSgt. Hammer\nSpider Mines detonate 3 times over 3 seconds. All damage from Basic Attacks against enemy Heroes grant 5 Mana and reduce the cooldown of Spider Mines by 1.5 seconds. Increase this bonus to 2.5 seconds while in Siege Mode.\n✓\nHover Siege Mode\n(Level 7)\nSgt. Hammer\nSgt. Hammer can move at 50% Movement Speed while in Siege Mode.\n?\nGraduating Range\n(Level 7)\nSgt. Hammer\nWhile in Siege Mode, Basic Attack range is increased by 1 every 1.5 seconds, up to 3.\nPulse Detonation Core potentially triples Spider Mines's\ndamage output and Slow amount, making them a significant threat\nthat forces a response, which is generally to move away. Spider Mines then\nbecome an excellent defensive tool, particularly against melee Heroes. Further,\nthis triple detonation also functions in PvE, making the\nTalent Sgt. Hammer's only effective way of claiming Mercenary Camps. Structures,\ntoo, can be damaged heavily in this manner. However, since this Talent is in the same tier\nas Hover Siege Mode, it should be picked cautiously, as you\nhave to give up your only mobility tool during Siege Mode.\nHover Siege Mode makes\nSiege Mode significantly more versatile; the\nability to reposition without completely unsieging allows Sgt. Hammer to\ncontinue threatening opponents where it would otherwise be impossible without\nspending a few seconds. Note that Hover Siege Mode's low Movement Speed still leaves\nSgt. Hammer open to several dangerous Abilities.\nGraduating Range represents a 27% increase to\nSgt. Hammer's range that must be built up over 4.5 seconds. If you are able to stand\nstill for several seconds, the extra range provided by it will be very oppressive.\nHowever, it is important to remember that it competes with\nHover Siege Mode, your only mobility tool during Siege Mode.\nFor this reason, we only recommend this Talent if the enemy team\ndoes not have dangerous skillshots for you to dodge with\nHover Siege Mode."
+  },
+  {
+   "title": "Level 10 Talents for Sgt. Hammer",
+   "id": "level-10",
+   "text": "✓\nBlunt Force Gun\n(Level 10)\nSgt. Hammer\nMana: 100\nCooldown: 70 seconds\nFire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path. Deals 50% damage to Structures.\n?\nNapalm Strike\n(Level 10)\nSgt. Hammer\nMana: 35\nCooldown: 6 seconds\nDeals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.\nIn this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nBlunt Force Gun's main point of appeal\nare its global range and relatively high\nburst area of effect damage. While its slow speed makes it hard to use for \"sniping\"\nopponents from across the battlefield, Blunt Force Gun compensates for one of\nSgt. Hammer's key weaknesses: her inability to follow up\nquickly on crowd control provided by allies.\nWith this Heroic, Hammer can reliably secure kills on enemies that have been\ncontrolled by her tank or support.\nNapalm Strike's main point of appeal is\nits high area of effect sustain\ndamage output. Although its damage is not nearly as high as that of\nBlunt Force Gun, Napalm Strike's very short 6-second cooldown makes\nit much more versatile than its counterpart. Indeed, this Ability can and should\nbe used indiscriminately against any enemy in sight, though it is particularly\neffective against Minions and Structures, as most of Napalm Strike's damage\ncomes from its damage over time effect."
+  },
+  {
+   "title": "Level 13 Talents for Sgt. Hammer",
+   "id": "level-13",
+   "text": "?\nTactical Mine Deployment\n(Level 13)\nSgt. Hammer\nMoving while Thrusters is active leaves a trail of up to 5 Spider Mines. Additionally, increase the Slow of Spider Mines by 15%.\n✘︎\nEntrenched\n(Level 13)\nSgt. Hammer\nWhile in Siege Mode, Concussive Blasts's damage and knockback distance are increased by 75%.\n✓\nHyper-Cooling Engines\n(Level 13)\nSgt. Hammer\nWhile in Siege Mode, hitting Heroes or Structures with Basic Attacks reduces the cooldown of Thrusters by 5 seconds.\nTactical Mine Deployment makes Sgt. Hammer notoriously difficult to\nchase down. Further, it allows Thrusters to be used offensively, as\nthe Spider Mines this Talent summons\nalso benefit from Pulse Detonation Core.\nNote that Tactical Mine Deployment summons up to five Mines, and that you must\nbe moving for these Mines to be summoned.\nEntrenched does little to meaningfully\nimprove Concussive Blast's usefulness,\nas the baseline range and knockback distance are generally enough to fulfill the\nAbility's defensive purpose.\nHyper-Cooling Engines is an excellent Talent. It\nallows Sgt. Hammer to refresh the cooldown of Thrusters\nin 5 Basic Attacks, which means she can keep repositioning much more often during fights.\nThis Talent is also good for split-pushing, because it reduces how long you need to wait\nbefore attacking Structures again. Once Thrusters has around\n17 seconds left on its cooldown, you can already start hitting Structures again, as you can\nrefresh the remaining cooldown in about 2 seconds by landing 3 Basic Attacks on them."
+  },
+  {
+   "title": "Level 16 Talents for Sgt. Hammer",
+   "id": "level-16",
+   "text": "✓\nMechanical Know-how\n(Level 16)\nSgt. Hammer\nNeosteel Plating grants 20% maximum Health as a Shield for 2 seconds and increases Basic Attack damage by 30% for 5 seconds.\n?\nExecutioner\n(Level 16)\nSgt. Hammer\nAttacking a Hero that is Slowed, Rooted, or Stunned increases your Basic Attack damage by 30% for 3 seconds.\n?\nGiant Killer\n(Level 16)\nSgt. Hammer\nBasic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.\nMechanical Know-how is the only Talent at this tier that\nincreases your resistance. It does not add as much DPS as its counterparts, but\nconsidering it will let Sgt. Hammer to stay for a longer time in a fight, it might\nmake her eventually deal more damage. Pick this Talent if you are getting focused in\nteamfights and need this extra Shield.\nExecutioner provides the highest situational damage output increase\nout of the Talent choices available at this tier. It does, however, require you\nto have a way of triggering its effects. Although Spider Mines can do\nthat, teaming up with Heroes that feature multiple sources of crowd control\nsuch as Arthas is an excellent way of benefitting from Executioner.\nGiant Killer provides the most reliable damage increase at this Tier. It is\nparticularly effective against team compositions that feature two or more Tanks,\nthough it should not be underestimated against all targets."
+  },
+  {
+   "title": "Level 20 Talents for Sgt. Hammer",
+   "id": "level-20",
+   "text": "?\nOrbital BFG\n(Level 20)\nSgt. Hammer\nBlunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits.\n?\nAdvanced Lava Strike\n(Level 20)\nSgt. Hammer\nIncrease the cast range of Napalm Strike by 75%, and its impact deals 65% more damage.\n✘︎\nShrapnel Mines\n(Level 20)\nSgt. Hammer\nUpon detonating, Spider Mines reduce the Armor of enemy Heroes hit by 10, up to 50, for 4 seconds.\n✓\nUltra Capacitors\n(Level 20)\nSgt. Hammer\nHitting enemy Heroes or Structures with Basic Attacks while in Siege Mode grants 10% Attack Speed for 5 seconds, up to 60%.\nOrbital BFG is a notorious late-game way for Sgt. Hammer to completely\nshut down a given Lane. On its own, Orbital BFG can make it difficult to destroy\nKeeps through traditional pushing, as it completely\ndestroys Minions. For this reason, Orbital BFG should be aimed along the path of a Minion wave,\nwhile also trying to hit as many enemy Structures along the way as possible. It only deals 50% damage\nto Structures, but it cannot be stopped, and only Abathur with\nCalldown: MULE can repair the damage. Furthermore, Orbital BFG is highly disruptive for team fights\ncentered around a given area, such as a Boss Camps, or Objective.\nAdvanced Lava Strike turns\nNapalm Strike into one of the best poking\nAbilities in the game. The range increase allows you to threaten Objectives\nfrom great safety, although Napalm Strike remains a great tool to use\non-Cooldown against anything in sight.\nShrapnel Mines competes with powerful options that define Sgt. Hammer's\nlate-game playstyle. In its current state, it simply does too little to be\nworth considering seriously.\nUltra Capacitors provides a reasonable\nsustained damage increase against Heroes and structures, granted you are able to\nremain in Siege Mode for a long period of time\nand manage to repeatedly deliver Basic Attacks. This Talent is the main option for this tier,\nas it adds much more damage than the other options."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "13 Sep. 2026: Updated Orbital BFG after recent balance patch.\n08 May 2026: Talents and Builds updated after last balance patch.\n31 May 2025: Talents and Builds updated to reflect meta development.\n05 Jun. 2022: Talents and Builds updated to reflect meta development.\n15 Apr. 2022: Updated Graduating Range's description after recent balance patch.\n26 Mar. 2021: Updated Talent recommendations.\n05 Nov. 2020: Talents and Builds updated after recent balance patch.\n01 Nov. 2020: Talents and Builds updated.\n05 Apr. 2020: Description and recommendation updated for Hover Siege Mode.\n15 Feb. 2020: Talents reviewed following February 12 patch changes.\n27 Jan. 2020: Guide reviewed following January 22 balance patch. No changes to Talent recommendations.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n28 Jul. 2018: Talents updated to reflect July 25 balance patch changes.\n14 Jan. 2018: Updated Siege build.\n01 Dec. 2017: Added Talent discussions.\nShow more\nShow less"
+  }
+ ]
+}

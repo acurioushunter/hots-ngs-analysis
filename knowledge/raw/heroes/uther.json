@@ -1,0 +1,265 @@
+{
+ "slug": "uther",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/uther-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/uther-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/uther-talents"
+ },
+ "guide": [
+  {
+   "title": "Uther's Overview",
+   "id": "uthers-overview",
+   "text": "Uther is a Healer whose strongest points are\nhis single-target burst healing\nand reliable crowd control,\nbut his Mana costs are prohibitive for extended team fights\nand the inability to keep multiple allied Heroes healthy."
+  },
+  {
+   "title": "Uther's Strengths and Weaknesses",
+   "id": "uthers-strengths-and-weaknesses",
+   "text": "Strengths\nStrong burst healing\nWhen healing allied Heroes, provides Armor to them\nReliable crowd control\nHigh healing output right after dying (see Devotion)\nWeaknesses\nPoor sustain healing and low Mana efficiency\nWeak waveclear\nLack of mobility"
+  },
+  {
+   "title": "Uther's Talent Build Cheatsheet",
+   "id": "uthers-talent-build-cheatsheet",
+   "text": "Holy Radiance Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Holy Radiance Build is designed to help you keep allied Heroes alive\nwhen you cannot position aggressively and to punish whoever gets too close\nto you or allied Heroes nearby.\nWave of Light at Level 1 slightly increases your\nsustain healing as well as your Armor\nuptime, allowing you to better support allied Heroes\nwith Holy Radiance while they are taking damage.\nHammer of Justice Build\nAdvanced\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Hammer of Justice Build increases your crowd control\nby a considerable amount, allowing you to peel for your team during team fights.\nHammer of the Lightbringer at Level 1 and Well Met at Level 13\nare great together as they empower each other: the Slow provided by the latter\nmakes you Basic Attack more while the cooldown reduction given by the former\nmakes you Stun more.\nHybrid Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Hybrid Build features various offensive and utility Talents that can be used\nto damage and crowd control opponents.\nThe combination of Holy Shock at Level 4\nand Silver Touch at Level 1 is useful\nfor dismounting enemy Heroes, especially Tanks\nthat are trying to engage.\nHoly Light Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Holy Light Build gives a considerable boost to your healing power\nand survivability in the late game\nin the form of sustain healing for your teammates\nand burst healing for yourself.\nThe synergy between Beacon of Light at Level 16\nand Blessed Champion at Level 13 allows you to go\nfrom low to high Health with a single Holy Light cast\nand few Basic Attacks. Basic Attacks will also heal nearby allied Heroes.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's ARAM Build is designed to help you keep allied Heroes alive\nwhen you cannot position aggressively and to punish whoever gets too close\nto you or allied Heroes nearby.\nWave of Light at Level 1 slightly increases your\nsustain healing as well as your Armor\nuptime, allowing you to better support allied Heroes\nwith Holy Radiance while they are taking damage.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Uther's Synergies and Counters",
+   "id": "uthers-synergies-and-counters",
+   "text": "Uther synergizes with\nUther's high instantaneous healing and reliable means of providing Armor make\nhim particularly potent with aggressive melee Heroes that can provide their own\nself-sustain but may otherwise need help against burst damage.\nYou can get even more value from Armor by pairing Uther with\na sustain Healer (such as Malfurion).\nDivine Shield enables some of the game's most dangerous combos by allowing\ncertain Heroes to play aggressively without fear of retaliation (for example Kerrigan).\nSimilarly, it can be used to protect channeled Abilities\n(notably Mosh Pit by E.T.C.) from enemy interrupts.\nUther is countered by\nAlthough not particularly vulnerable to any specific Hero himself, Uther\ntends to struggle against sustain damage, particularly over an area of\neffect, as his healing is powerful, but ultimately inefficient. His sub-par waveclear\ncan also be problematic if your team composition does not make up for this\nweakness somewhere else."
+  },
+  {
+   "title": "Uther's Maps",
+   "id": "uthers-maps",
+   "text": "Uther's stronger maps\nUther's average maps\nUther's weaker maps\nThanks to his burst healing, Uther prefers Maps where\nit is possible to secure the Objective after winning a quick team fight\n(such as Infernal Shrines) and that always get\nto the late game when he can shine more.\nDue to his poor Mana efficiency and lack of area of effect healing,\nUther does not perform well on Maps that involve long battles\nthat expose his team to poke damage, especially during\nthe early game (such as Braxis Holdout)."
+  },
+  {
+   "title": "Uther's Tips and Tricks",
+   "id": "uthers-tips-and-tricks",
+   "text": "Having high cooldown and Mana cost, Holy Light should preferably be used to save allied Heroes currently being focused down.\nConsidering it pierces, Holy Radiance gives more value when used to hit multiple allied and/or enemy Heroes at the same time.\nUse Hammer of Justice on high-priority targets to help your team kill them and/or on dangerous enemy Heroes to peel for your team.\nAlthough being a powerful saving tool, Divine Shield truly shines when used to enable an allied Hero with high damage output to play aggressively.\nDivine Storm, in conjuction with Hammer of Justice, can be used to lock an enemy Hero in place for almost 3 seconds.\nIdeally, once all your Abilities are on cooldown, you should position as aggressively as possible and hope to be killed in order to heal your teammates with Devotion.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Uther's Role in the Current Meta",
+   "id": "uthers-role-in-the-current-meta",
+   "text": "Uther is a Healer that can give Armor\nto any allied Hero and save them from huge amounts of burst damage.\nBesides helping the team with healing and defensive tools,\nUther provides a considerable amount of crowd control\nthat can be used to engage, follow up,\nor peel.\nConsidering that his power comes at the cost of high Mana consumption,\navoid drafting Uther as solo Healer when you expect prolonged team fights,\nwhen sustain healing is important to keep your team alive,\nelse you will not be able to handle the enemy poke and sustain damage.\nIn addition to being played as solo Healer,\nUther can also be played alongside another Healer\nto make up for his lack of sustain healing and huge Mana consumption. In those cases,\nhe will be played as Support, in the Flex slot of the draft composition\n(meaning that you will have only one Ranged Assassin).\nAlthough he used to be occasionally played as Tank in the past,\nthe fact Uther now gets 15 rather than 25 Armor from Devotion\nmeans he is way easier to take down. In coordinated play you may see him being deployed\nas an enabler for unconventional Tank replacements (for example\nKerrigan or Maiev), but no longer as main Tank.\nLast but not the least, we do not recommend playing Uther as\nOfflaner because he lacks waveclear\nand he struggles to defend Mercenary Camps as well. Doing this would be a huge weakness\nfor your team composition, even on 2-lane Maps."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Mar. 2026 (talents page): Guide reviewed.\n16 Mar. 2026 (abilities page): Guide reviewed.\n16 Mar. 2026 (this page): Guide reviewed.\n30 Sep. 2025 (talents page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n21 Sep. 2023 (talents page): ARAM Build added.\n21 Sep. 2023 (this page): ARAM Build added.\n22 May 2022 (talents page): Guide improved.\n22 May 2022 (abilities page): Guide improved.\n22 May 2022 (this page): Guide improved.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n29 Mar. 2021 (talents page): Builds updated.\n29 Mar. 2021 (this page): Builds updated.\n25 Feb. 2021 (talents page): New layout.\n25 Feb. 2021 (this page): Builds updated.\n21 Feb. 2021 (talents page): Builds updated.\n21 Feb. 2021 (this page): Builds updated.\n14 Dec. 2020 (talents page): Builds updated.\n14 Dec. 2020 (this page): Builds updated.\n13 Dec. 2020 (talents page): Talent Descriptions fixed.\n29 Oct. 2020 (talents page): Builds updated.\n29 Oct. 2020 (this page): Builds and Maps updated.\n26 Oct. 2020 (talents page): Builds updated.\n26 Oct. 2020 (this page): Builds updated.\n09 Oct. 2020 (talents page): Guide reviewed for the latest Balance Update.\n09 Oct. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n09 Oct. 2020 (this page): Guide reviewed for the latest Balance Update.\n19 Sep. 2020 (talents page): Builds updated.\n19 Sep. 2020 (abilities page): Minor fixes.\n19 Sep. 2020 (this page): Builds updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n22 Jun. 2020 (talents page): Talent descriptions updated.\n05 Apr. 2020 (talents page): Talent descriptions and recommendations updated.\n15 Feb. 2020 (talents page): Talents reviewed following February 12 patch changes.\n15 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n14 Jan. 2018 (talents page): Updated Radiance build.\n28 Jun. 2017 (talents page): Reviewed assessments of Level 4 and Level 13 Talents.\n29 Apr. 2017 (talents page): Well Met is now situational (was not recommended before).\n27 Apr. 2017 (talents page): Updated page to include Talent discussions.\n26 Apr. 2017 (this page): Guide updated for the Genji patch and moved to new format.\n13 Jan. 2017 (this page): Guide updated.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Uther's Tips and Tricks",
+   "id": "uthers-tips-and-tricks",
+   "text": "Having high cooldown and Mana cost, Holy Light should preferably be used to save allied Heroes currently being focused down.\nConsidering it pierces, Holy Radiance gives more value when used to hit multiple allied and/or enemy Heroes at the same time.\nUse Hammer of Justice on high-priority targets to help your team kill them and/or on dangerous enemy Heroes to peel for your team.\nAlthough being a powerful saving tool, Divine Shield truly shines when used to enable an allied Hero with high damage output to play aggressively.\nDivine Storm, in conjuction with Hammer of Justice, can be used to lock an enemy Hero in place for almost 3 seconds.\nIdeally, once all your Abilities are on cooldown, you should position as aggressively as possible and hope to be killed in order to heal your teammates with Devotion."
+  },
+  {
+   "title": "Holy Light",
+   "id": "holy-light",
+   "text": "Holy Light\n(Q)\nUther\nMana: 80\nCooldown: 12 seconds\nHeal target allied Hero for 362 (+4% per level) Health. When used on a target other than Uther, also heal Uther for 181 (+4% per level) Health.\nHoly Light is one of the strongest instant single-target healing Ability in\nthe game. Holy Light's raw power is compensated by its long cooldown and heavy\nMana cost, meaning that special care must be taken when choosing a target for\nit; this Ability is in fact why Uther is generally considered to be\nMana-inefficient when compared to other Healers.\nStill, Holy Light's value does not lie in its mediocre healing per cooldown, but in\nits instantaneousness and raw healing amount; you must use this to your\nadvantage by prioritizing allies that are under immediate threat of dying. An\nimportant aspect of properly using Holy Light is to avoid overhealing;\nHoly Radiance should instead be used to top off your\nallies' Health, when needed."
+  },
+  {
+   "title": "Holy Radiance",
+   "id": "holy-radiance",
+   "text": "Holy Radiance\n(W)\nUther\nMana: 55\nCooldown: 10 seconds\nHeal all allied Heroes and Minions in a line for 194 (+4% per level) Health, dealing 177 (+4% per level) damage to enemies.\nHoly Radiance's power stems from its area of effect. Though it requires your\nallies to be positioned in a line for best results, the Ability becomes\nextremely efficient if you can manage to heal more than two targets with it.\nThe damage Holy Radiance inflicts, although unimpressive, is a small bonus that\ncan also reveal Bushes and Stealthed Heroes.\nIt is interesting to note that Holy Radiance also heals allied Minions, making it a\ngood Ability to use on-cooldown while laning, aiming for entire Minion waves\nand opposing Heroes, if possible, for some poke damage.\nHoly Radiance is the best way of applying Devotion's\nArmor effect to multiple allied Heroes at once, which is\nan excellent way of mitigating much incoming team fight damage.\nSince Holy Radiance has a short traveling time, it essentially acts as a\nskillshot that requires you to align with as many\nHeroes — allied and enemy — as possible, for maximum effect.\nHealing should be your primary concern unless the damage can earn you a killing\nblow that your team would otherwise not be able to secure."
+  },
+  {
+   "title": "Hammer of Justice",
+   "id": "hammer-of-justice",
+   "text": "Hammer of Justice\n(E)\nUther\nMana: 40\nCooldown: 10 seconds\nDeal 109 (+4% per level) damage and Stun the target for 1 second.\nHammer of Justice's strength lies in its reliability: it is a targeted\nAbility, meaning that it can never miss, unlike\nskillshots. Its stunning component is useful to\ninitiate, peel, follow up, and\ninterrupt channeled\nabilities.\nIt generally makes Assassins afraid of being within melee range\nof Uther as well, which is a valuable attribute for an otherwise relatively\nvulnerable Healer. Due to its relatively long cooldown and mediocre\ndamage, Hammer of Justice should exclusively be used when its stunning effect\nwill be useful."
+  },
+  {
+   "title": "Divine Shield",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDivine Shield\n(R)\nUther\nHeroic\nMana: 80\nCooldown: 90 seconds\nMake an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds.\nDivine Shield's unique effect allows you to force any focus away from your\nselected target. It is versatile in that you can use it to prevent incoming\ndamage while your healing Abilities are coming off cooldown, ensure the escape\nof a teammate, or simply make your chosen damage dealer\nUnstoppable and completely free to deal their\ndamage.\nAggressively using Divine Shield to enable allied Heroes requires\na high level of communication to pull off, though it can be especially\neffective. Favorite targets for such a strategy include deadly but otherwise\nvulnerable melee Heroes (such as Kerrigan).\nYou can also use the Movement Speed and Invulnerable effect provided by\nDivine Shield to save allied Heroes from danger\n(for example right after they exit from Gorge by Stitches).\nAdditionally, the effect can be used to make channeled Abilities\n(such as Mosh Pit by E.T.C.) completely\nuninterruptible."
+  },
+  {
+   "title": "Divine Storm",
+   "id": "divine-storm",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDivine Storm\n(R)\nUther\nHeroic\nMana: 80\nCooldown: 80 seconds\nDeal 170 (+4% per level) damage and Stun nearby enemies for 1.75 seconds.\nDivine Storm is a powerful crowd control effect\nthat will make enemy Heroes hit unable to act for almost 2 seconds,\nallowing your teammates to follow-up\nor protecting them and yourself from danger.\nThe fact that Divine Storm can hit multiple Heroes\ncreates a safe area around Uther as enemy Heroes will likely try to stay away from it.\nExperienced opponents will be aware of this and move back when you move forward.\nAlthough it would be great to Stun multiple Heroes at the same time,\nyou should not heistate to cast Divine Storm against a single enemy Hero,\nbe it as a form of engage or peeling.\nWhen Hammer of Justice is on cooldown,\nyou can also use Divine Storm to interrupt\npowerful channeled Abilities."
+  },
+  {
+   "title": "Devotion",
+   "id": "devotion",
+   "text": "Devotion\n(D)\nUther\nPassive\nUther's Basic Abilities grant 25 Armor to allied Heroes, and 15 to Uther, for 2 seconds.\nEternal Vanguard\nUpon dying, Uther becomes an Invulnerable spirit for up to 8 seconds. While in spirit form, Uther can heal allies with Flash of Light for 230 (+4% per level).\nDevotion essentially turns Uther\ninto an unstoppable healing machine, as Flash of Light's\nsingle-target healing per second potential is second to none. The fact that\nFlash of Light is free to cast\nand has an extremely low cooldown makes killing Uther a risky move\nwhen he has already used all his Abilities.\nFlash of Light has a cooldown of 1.5 seconds, which means that it\ncan be used up to 6 times during Devotion.\nHeroes healed this way will still get Armor from your Trait.\nDevotion's passive component defines Uther as the premiere\nHealer to counter burst damage:\n25 Armor\nfor allied Heroes affected by Holy Light,\nHoly Radiance, or Flash of Light;\n15 Armor for Uther when casting Holy Light\nor Holy Radiance.\nIn terms of gameplay, to get more value from Devotion,\nyou should try to heal targets that are currently being\nfocused down, which should come rather intuitively.\nIn coordinated play you may see this powerful Trait used at Uther's advantage.\nWhen the enemy team is already committed to a team fight, after using all his Abilities,\nUther can then play as aggressive as possible and hope to die before any other teammates.\nAt that point the rest of the team should not retreat, but keep fighting\nfor around 8 seconds to get Devotion value."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Mar. 2026: Guide reviewed.\n30 Sep. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n22 May 2022: Guide improved.\n17 May 2021: Guide reviewed for the latest Patch.\n09 Oct. 2020: Guide reviewed for the latest Balance Update.\n19 Sep. 2020: Minor fixes.\n11 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Silver Touch (Level 1) Uther Quest: Reduce damage from Heroic sources with Devotion. Reward: After reducing damage 40 times, Holy Light's Mana cost is reduced from 80 to 60. Reward: After reducing damage 80 times, Holy Light's Mana cost is reduced to 40, and its range is increased by 50%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Wave of Light (Level 1) Uther Quest: Damage or heal Heroes 60 times with Holy Radiance. Reward: Increase the duration of Devotion by 0.5 seconds. Passive: Damaging or healing Heroes with Holy Radiance refunds 5 Mana and reduces its cooldown by 0.75 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Hammer of the Lightbringer (Level 1) Uther Quest: Basic Attack enemies 75 times. Reward: Basic Attacks reduce the cooldown of Hammer of Justice by 1.5 seconds. Passive: Basic Attacks restore 1.5% of Uther's maximum Mana."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Holy Shock (Level 4) Uther Cooldown: 6 seconds Activate to deal 145 (+4% per level) damage to the target enemy, and gain the self-healing benefits of Holy Light. Shares a cooldown with Holy Light."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Pursuit of Justice (Level 4) Uther Hammer of Justice increases Uther's Movement Speed by 25% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Holy Fire (Level 4) Uther Deal 13 (+4% per level) damage per second to nearby enemies. Basic Attacks against enemy Heroes increase this damage by 20% for 3 seconds. This can stack up to 3 times."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Armor of Faith (Level 7) Uther Being Stunned, Rooted, or Silenced grants Uther 90 Mana and causes Holy Light's cooldown to recharge 200% faster for 6 seconds. This effect has a 20 second cooldown."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Guardian of Ancient Kings (Level 7) Uther Healing a Hero with a Basic Ability that is Stunned, Rooted, or Silenced grants them 50 Armor for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hand of Protection (Level 7) Uther Cooldown: 90 seconds Activate to make target ally Unstoppable for 1 second. Cannot be cast on Uther. Basic Attacks reduce Hand of Protection's cooldown by 5 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Divine Shield (Level 10) Uther Mana: 80 Cooldown: 90 seconds Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Divine Storm (Level 10) Uther Mana: 80 Cooldown: 80 seconds Deal 170 (+4% per level) damage and Stun nearby enemies for 1.75 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Blessed Champion (Level 13) Uther For the next 5 seconds after using Holy Light, Uther's Basic Attacks heal him and nearby allied Heroes for 15% of the total amount healed by Holy Light."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Well Met (Level 13) Uther When used against Heroes, Hammer of Justice reduces the target's Movement Speed and damage dealt by 25% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Spell Shield (Level 13) Uther Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Beacon of Light (Level 16) Uther Uther receives 125% bonus self-healing when targeting others with Holy Light. This bonus is increased to 250% while he is below 50% Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Tyr's Deliverance (Level 16) Uther Increase the damage and healing of Holy Radiance by 10%. Basic Attacks against enemy Heroes cause Uther's next cast of Holy Radiance to have its damage and healing increased by an additional 10%, stacking up to 7 times."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Benediction (Level 16) Uther Cooldown: seconds Activate to reduce the Mana cost of Uther's next Basic Ability by 50 and its cooldown by 10 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Bulwark of Light (Level 20) Uther Divine Shield is also applied to all nearby allied Heroes and lasts 1 second longer."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Divine Hurricane (Level 20) Uther Divine Storm's radius is increased by 50% and its cooldown is reduced by 40 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Redemption (Level 20) Uther After Eternal Vanguard ends, Uther revives at the spirit's location with 50% of his maximum Health. This effect has a 180 second cooldown."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Divine Protection (Level 20) Uther Increase Devotion Armor to 50 and its duration by 0.5 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Uther's Talent Build",
+   "id": "uthers-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n?\n✓\n?\n7\n?\n?\n✓\n10\n✓\n?\n13\n?\n✓\n✘︎\n16\n?\n?\n✓\n20\n?\n?\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Uther's Talent Build Cheatsheet",
+   "id": "uthers-talent-build-cheatsheet",
+   "text": "Holy Radiance Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Holy Radiance Build is designed to help you keep allied Heroes alive\nwhen you cannot position aggressively and to punish whoever gets too close\nto you or allied Heroes nearby.\nWave of Light at Level 1 slightly increases your\nsustain healing as well as your Armor\nuptime, allowing you to better support allied Heroes\nwith Holy Radiance while they are taking damage.\nHammer of Justice Build\nAdvanced\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Hammer of Justice Build increases your crowd control\nby a considerable amount, allowing you to peel for your team during team fights.\nHammer of the Lightbringer at Level 1 and Well Met at Level 13\nare great together as they empower each other: the Slow provided by the latter\nmakes you Basic Attack more while the cooldown reduction given by the former\nmakes you Stun more.\nHybrid Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Hybrid Build features various offensive and utility Talents that can be used\nto damage and crowd control opponents.\nThe combination of Holy Shock at Level 4\nand Silver Touch at Level 1 is useful\nfor dismounting enemy Heroes, especially Tanks\nthat are trying to engage.\nHoly Light Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's Holy Light Build gives a considerable boost to your healing power\nand survivability in the late game\nin the form of sustain healing for your teammates\nand burst healing for yourself.\nThe synergy between Beacon of Light at Level 16\nand Blessed Champion at Level 13 allows you to go\nfrom low to high Health with a single Holy Light cast\nand few Basic Attacks. Basic Attacks will also heal nearby allied Heroes.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUther's ARAM Build is designed to help you keep allied Heroes alive\nwhen you cannot position aggressively and to punish whoever gets too close\nto you or allied Heroes nearby.\nWave of Light at Level 1 slightly increases your\nsustain healing as well as your Armor\nuptime, allowing you to better support allied Heroes\nwith Holy Radiance while they are taking damage."
+  },
+  {
+   "title": "Level 1 Talents for Uther",
+   "id": "level-1",
+   "text": "?\nSilver Touch\n(Level 1)\nUther\nQuest: Reduce damage from Heroic sources with Devotion.\nReward: After reducing damage 40 times, Holy Light's Mana cost is reduced from 80 to 60.\nReward: After reducing damage 80 times, Holy Light's Mana cost is reduced to 40, and its range is increased by 50%.\nSilver Touch is a good Talent that provides additional range for\nyour healing via Holy Light while also reducing their Mana cost. Pick this Talent when\nyou feel like you will not get enough value from Hammer of the Lightbringer\nbecause the enemy team has too much crowd control\nto safely hit them with your Basic Attacks.\n✔\nWave of Light\n(Level 1)\nUther\nQuest: Damage or heal Heroes 60 times with Holy Radiance.\nReward: Increase the duration of Devotion by 0.5 seconds.\nPassive: Damaging or healing Heroes with Holy Radiance refunds 5 Mana and reduces its cooldown by 0.75 seconds.\nWave of Light is a good Quest-based Talent\nthat improves Holy Radiance by reducing its cooldown and Mana\ncost. The duration increase to Devotion's\nArmor-increasing effect furthermore contributes to Uther's\nability to help with survivability, especially if your team has another Healer.\n?\nHammer of the Lightbringer\n(Level 1)\nUther\nQuest: Basic Attack enemies 75 times.\nReward: Basic Attacks reduce the cooldown of Hammer of Justice by 1.5 seconds.\nPassive: Basic Attacks restore 1.5% of Uther's maximum Mana.\nHammer of the Lightbringer is a strong Quest-based Talent that can punish melee Heroes.\nUnder ideal circumstances, Hammer of the Lightbringer will provide more Mana\nthan its two alternative Talents, on top of a hefty cooldown\nreduction to Hammer of Justice, particularly valuable\nwhen combined with some of the other Talents that improve Hammer of Justice.\nWhen you have Divine Storm as Heroic Ability,\nyou can chain your Stuns almost perfectly:\nstart with Hammer of Justice;\nuse Divine Storm when the previous Stun is almost over;\nBasic Attack during the whole time to have a second\nHammer of Justice available\nright after the Stun from Divine Storm ends."
+  },
+  {
+   "title": "Level 4 Talents for Uther",
+   "id": "level-4",
+   "text": "?\nHoly Shock\n(Level 4)\nUther\nCooldown: 6 seconds\nActivate to deal 145 (+4% per level) damage to the target enemy, and gain the self-healing benefits of Holy Light. Shares a cooldown with Holy Light.\nHoly Shock is a good Talent that, by giving you a separate\nActive Ability, allows you to cast Holy Light on enemies\nat the cost of less Mana and for a reduced cooldown, dealing moderate damage to them.\nHoly Shock and Holy Light share their\ncooldowns, so casting one will put the other on cooldown, and vice versa.\nThe extra damage provided by this Talent can be useful when\nyour team's strategy involves bursting down\none specific target, or when your team composition lacks damage\nbecause you have a second Healer.\nCombine it with Silver Touch at Level 1\nto spend less Mana and have more cast range. Being able to\ndeal damage from the distance can also be useful for dismounting\nenemy Heroes, slowing down their rotation or weakening their\nengage attempt.\nAn added benefit of this Talent is that it can trigger\nDevotion's effect on Uther himself at a relatively low\nMana cost and, thanks to the cooldown reduction,\nBeacon of Light at Level 16 more often.\nThe downside of the Talent, however, is that it does nothing\nwhen using Holy Light to heal someone.\nFor this reason, we only recommend picking this Talent when you have\nanother Healer in team.\n✔\nPursuit of Justice\n(Level 4)\nUther\nHammer of Justice increases Uther's Movement Speed by 25% for 3 seconds.\nPursuit of Justice provides Uther with a reliable Movement Speed increase,\nwhich helps make up for his otherwise inexistent mobility.\nIf you have Benediction at Level 16,\nyou can do a neat trick with this Talent: activate Benediction,\ncast Hammer of Justice on any enemy unit nearby\n(for example a Minion) to gain Movement Speed, run towards an enemy Hero,\nand use Hammer of Justice on that Hero.\n?\nHoly Fire\n(Level 4)\nUther\nDeal 13 (+4% per level) damage per second to nearby enemies. Basic Attacks against enemy Heroes increase this damage by 20% for 3 seconds. This can stack up to 3 times.\nHoly Fire is a decent Talent that\nsomewhat improves Uther's abysmal waveclear\nand increases his damage to enemy Heroes when having space to Basic Attack them.\nOne interesting aspect of the Talent is its ability to reveal Stealthed\nHeroes, turning them into valid targets for Hammer of Justice\nwithout the need of casting Holy Radiance towards them.\nSimilarly, it can be used to destroy hidden Summons on the ground\n(like Creep Tumor by Zagara)."
+  },
+  {
+   "title": "Level 7 Talents for Uther",
+   "id": "level-7",
+   "text": "?\nArmor of Faith\n(Level 7)\nUther\nBeing Stunned, Rooted, or Silenced grants Uther 90 Mana and causes Holy Light's cooldown to recharge 200% faster for 6 seconds. This effect has a 20 second cooldown.\nArmor of Faith is a situational Talent that punishes\nopponents for Stunning Uther\nhimself by drastically reducing the cooldown of Holy Light.\nUnlike the alternative options available on this Tier,\nArmor of Faith cannot be used to help allied Heroes\naffected by enemy crowd control,\nreducing Uther's general utility but increasing his survivability.\n?\nGuardian of Ancient Kings\n(Level 7)\nUther\nHealing a Hero with a Basic Ability that is Stunned, Rooted, or Silenced grants them 50 Armor for 3 seconds.\nGuardian of Ancient Kings is a situational Talent that grants allied Heroes a\nvery significant amount of Armor if you manage to heal them\nwith Holy Light or Holy Radiance\nwhen they are affected by enemy crowd control.\nRemember that it only works with Stun, Root,\nand Silence.\n✔\nHand of Protection\n(Level 7)\nUther\nCooldown: 90 seconds\nActivate to make target ally Unstoppable for 1 second. Cannot be cast on Uther. Basic Attacks reduce Hand of Protection's cooldown by 5 seconds.\nHand of Protection is a strong Talent that can be used\nto make any allied Hero other than Uther himself Unstoppable\nfor 1 second, freeing them from any crowd control effect\nand allowing them to channel any Ability\nwithout risking to be interrupted.\nWhile it has 30 seconds more cooldown than most cleanse effects\n(such as Intercession by Whitemane),\nyou can reduce it by 30 seconds by using Basic Attacks for 6 seconds."
+  },
+  {
+   "title": "Level 10 Talents for Uther",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nDivine Shield\n(Level 10)\nUther\nMana: 80\nCooldown: 90 seconds\nMake an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds.\nDivine Shield is a strong but relatively-hard-to-use Heroic Ability that provides\nMovement Speed to an allied Hero and also make them Invulnerable\nfor a few seconds, a buff that will basically make them\nProtected and Unstoppable\nat the same time.\nPick it when you want to help an allied Hero to make an aggressive play\nwithout the risk of being stopped and/or when you need a tool to save allied Heroes\nfrom certain death.\n?\nDivine Storm\n(Level 10)\nUther\nMana: 80\nCooldown: 80 seconds\nDeal 170 (+4% per level) damage and Stun nearby enemies for 1.75 seconds.\nDivine Storm is a good and relatively-easy-to-use Heroic Ability that allows\nyou to Stun for almost 2 seconds all enemies in a small area around you.\nDo not hesitate to use it on isolated enemy Heroes!\nChoose it when you need to counter-engage and/or peel\nfor your team, regardless of the Role you are covering in your team composition."
+  },
+  {
+   "title": "Level 13 Talents for Uther",
+   "id": "level-13",
+   "text": "?\nBlessed Champion\n(Level 13)\nUther\nFor the next 5 seconds after using Holy Light, Uther's Basic Attacks heal him and nearby allied Heroes for 15% of the total amount healed by Holy Light.\nBlessed Champion has the potential of providing some\nincredible area of effect healing. This potential, however, hinges upon being\nable to reliably deliver Basic Attacks, which may be not always possible.\nThe healing done by this Talent is also increased by the self-healing provided\nby Beacon of Light at Level 16, so they are great\nwhen paired together as they can increase Uther's sustain\nhealing by a considerable amount when the situation permits.\nPick this Talent when your team needs sustain healing,\nwhen the enemy team lacks burst damage to quickly get a kill,\nand/or when you want to keep your team healthy between team fights.\n✔\nWell Met\n(Level 13)\nUther\nWhen used against Heroes, Hammer of Justice reduces the target's Movement Speed and damage dealt by 25% for 3 seconds.\nWell Met provides a modest but reliable debuff that stacks with the\nArmor provided by Devotion in\nterms of damage reduction. The Slow is also useful as well\nwhen used with Hammer of the Lightbringer and\nPursuit of Justice as they allow you to consistently\nmaintain the debuff on your chosen target.\n✘\nSpell Shield\n(Level 13)\nUther\nEvery 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.\nCan be toggled to allow or prevent this talent from triggering automatically.\nSpell Shield is a situational Talent that provides\nSpell Armor for a few seconds when you take damage.\nYou can toggle it on or off.\nIf you do not want to waste its cooldown\nwhen being hit by cheap damage, keep it off and only toggle it on\nwhen you expect to take burst damage.\nSince you cannot do this while under crowd control effects,\nyou should also toggle it on right before becoming unable to act because of them\nbecause you will likely be hit by burst damage in that time window.\nWe find this Talent rarely needed because, after using his long-cooldown Basic Abilities\nand especially his powerful Heroic Ability, Uther wants to be the first Hero to die\nin team fights, so that he can get value from Devotion."
+  },
+  {
+   "title": "Level 16 Talents for Uther",
+   "id": "level-16",
+   "text": "?\nBeacon of Light\n(Level 16)\nUther\nUther receives 125% bonus self-healing when targeting others with Holy Light. This bonus is increased to 250% while he is below 50% Health.\nBeacon of Light provides half value when Uther has\nhigh Health and full value when he is low on Health. When high Health,\nUther is healed by 226. When low Health, Uther is healed by twice that amount.\nThis effect drastically increases his survivability in prolonged team fights.\nThe self-healing provided by this Talent also increases the healing done\nby Blessed Champion at Level 13, so they are great\nwhen paired together as they can increase Uther's sustain\nhealing by a considerable amount when the situation permits.\n?\nTyr's Deliverance\n(Level 16)\nUther\nIncrease the damage and healing of Holy Radiance by 10%. Basic Attacks against enemy Heroes cause Uther's next cast of Holy Radiance to have its damage and healing increased by an additional 10%, stacking up to 7 times.\nTyr's Deliverance increases the damage and healing\ncoming from Holy Radiance by 10% as flat value\nand by additional 10% for each Basic Attack done on enemy Heroes before casting it,\nstacking up to additional 70% healing when allowed to freely use Basic Attack.\nWe do not recommended this Talent as we find it too hard to get value from\nduring most if not all games, especially if you consider that Benediction\nand Beacon of Light will give you similar value in short\nand long team fights respectively.\n✔\nBenediction\n(Level 16)\nUther\nCooldown: seconds\nActivate to reduce the Mana cost of Uther's next Basic Ability by 50 and its cooldown by 10 seconds.\nBenediction is a strong Talent that can be activated\nbefore using a Basic Ability to have its cooldown reset and its Mana cost\nreduced by 50. Similarly to Rewind, it allows you\nto cast the same Ability twice in a row.\nSpend it on Holy Light when you need more\nsingle-target healing, Holy Radiance when you\nneed more multi-target healing, or Hammer of Justice\nwhen you need more crowd control.\nIf you have Pursuit of Justice at Level 4,\nyou can do a neat trick with this Talent: activate Benediction,\ncast Hammer of Justice on any enemy unit nearby\n(for example a Minion) to gain Movement Speed, run towards an enemy Hero,\nand use Hammer of Justice on that Hero."
+  },
+  {
+   "title": "Level 20 Talents for Uther",
+   "id": "level-20",
+   "text": "?\nBulwark of Light\n(Level 20)\nUther\nDivine Shield is also applied to all nearby allied Heroes and lasts 1 second longer.\nBulwark of Light is a situational Talent that can be used\nfor protecting several Heroes at once, something that is extremely strong\nas a defensive tool when playing against team compositions\nfeaturing a wombo combo.\n?\nDivine Hurricane\n(Level 20)\nUther\nDivine Storm's radius is increased by 50% and its cooldown is reduced by 40 seconds.\nDivine Hurricane simply increases the reliability of\nDivine Storm by allowing it to hit more targets. This\nincreases Uther's effective threat range, and can be particularly surprising to\nunexpecting opponents. This Talent works well with combo-heavy teams that rely\non quickly wrestling kills to gain an advantage.\n✔\nRedemption\n(Level 20)\nUther\nAfter Eternal Vanguard ends, Uther revives at the spirit's location with 50% of his maximum Health.\nThis effect has a 180 second cooldown.\nRedemption is one of the best Talents in the game.\nThe utility of being able to die, expending your opponent's time and resources,\nto then be able to use Eternal Vanguard's outstanding healing\npotential, to then revive near your team with a full Mana bar and a reasonable\namount of Health simply cannot be overstated.\nRemember to move your spirit to a safe location before Eternal Vanguard ends because clever\nopponents will quickly switch their attention to you if you happen to respawn near them.\nThis effect has a cooldown of 3 minutes, so avoid wasting it\nand be careful not to die when it is not available.\n?\nDivine Protection\n(Level 20)\nUther\nIncrease Devotion Armor to 50 and its duration by 0.5 seconds.\nDivine Protection is a subtle yet extremely impactful\nTalent that helps Uther with that which he is best at: mitigating burst damage.\nBeing able to gain and give 50 Amor on demand\nand for a longer duration simply cannot be overstated,\nespecially when playing with another Healer in team."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "16 Mar. 2026: Guide reviewed.\n30 Sep. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n21 Sep. 2023: ARAM Build added.\n22 May 2022: Guide improved.\n17 May 2021: Guide reviewed for the latest Patch.\n29 Mar. 2021: Builds updated.\n25 Feb. 2021: New layout.\n21 Feb. 2021: Builds updated.\n14 Dec. 2020: Builds updated.\n13 Dec. 2020: Talent Descriptions fixed.\n29 Oct. 2020: Builds updated.\n26 Oct. 2020: Builds updated.\n09 Oct. 2020: Guide reviewed for the latest Balance Update.\n19 Sep. 2020: Builds updated.\n22 Jun. 2020: Talent descriptions updated.\n05 Apr. 2020: Talent descriptions and recommendations updated.\n15 Feb. 2020: Talents reviewed following February 12 patch changes.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n14 Jan. 2018: Updated Radiance build.\n28 Jun. 2017: Reviewed assessments of Level 4 and Level 13 Talents.\n29 Apr. 2017: Well Met is now situational (was not recommended before).\n27 Apr. 2017: Updated page to include Talent discussions.\nShow more\nShow less"
+  }
+ ]
+}

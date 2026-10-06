@@ -1,0 +1,91 @@
+{
+ "name": "cursed-hollow",
+ "source": "https://www.icy-veins.com/heroes/cursed-hollow-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Cursed Hollow is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Tributes. Whenever a team\ngets 3 Tributes, the Raven Lord casts a Curse on the enemy team,\nweakening enemy Minions and disabling enemy Structures."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nHeroes for clearing Mercenary Camps\nEffects relying on impassable terrain\nGlobal presence\nPoint control for Boss Camp\nPoke tools for Objective\nSplit-push\nVision tools\nAvoid\nQuests to stack on Heroes\nSee our Cursed Hollow Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-1-3",
+   "id": "formation-1-1-3",
+   "text": "A good formation for Cursed Hollow is 1-1-3:\n3 Heroes cover the side lane where the allied Bruiser Camp is\nor, alternatively, the side lane near the next Objective;\n1 Hero covers the middle lane;\n1 Hero, the Offlaner, covers the other side lane."
+  },
+  {
+   "title": "Formation 1-3-1",
+   "id": "formation-1-3-1",
+   "text": "Another good formation for Cursed Hollow is 1-3-1:\n1 Hero, preferably ranged, covers the lane where the enemy Siege Camp is;\n3 Heroes cover the middle lane and roam when possible;\n1 Hero, the Offlaner, covers the other side lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available,\nif the allied Siege Camp is in the same lane as the next Tribute location,\nstart clearing the allied Bruiser Camp and capture it as soon as possible.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 1:00 minutes or immediately after a wave of Minions spawned.\nAt 0:30 minutes or whenever available,\nif the allied Siege Camp is NOT in the same lane as the next Tribute location,\nstart clearing the allied Siege Camp and capture it as soon as possible.\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 1:05 minutes or 5 seconds after a wave of Minions spawned.\nAt 2:00 minutes or right after a Tribute has been collected,\nif the allied Siege Camp is in the same lane as the next Tribute location,\nstart clearing the allied Siege Camp\nand capture it slightly before the next Tribute spawns.\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 2:35 minutes or 5 seconds after a wave of Minions spawned.\nAt 2:00 minutes or right after a Tribute has been collected,\nif the allied Siege Camp is NOT in the same lane as the next Tribute location,\nstart clearing the allied Bruiser Camp\nand capture it slightly before the next Tribute spawns.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 2:30 minutes or immediately after a wave of Minions spawned.\nIf you want to contest the next Tribute, be there in time with 4 Heroes\nwhile 1 Hero defends enemy Mercenaries and then joins the team\nat the Objective. If it is the first Tribute of the game,\nthe Offlaner can keep soaking.\nIf you want to give the next Tribute, poke\nwith a couple of Heroes and let the rest of your team\npush in the opposite lane from the Objective.\nWhen you reach 3 Tributes, push side lanes.\nDo not forget to soak in this phase.\nIf you lose the Objective, try to save as many Forts and Keeps as possible.\nIn case the enemy team is playing grouped, however, you must immediately retreat from\nthe lane near them while your teammates get value elsewhere.\nAfter about 10:00 minutes, whenever your team has an advantage\nwhile there is no Objective to contest or within the last 15 seconds of an allied Curse,\nyou can capture a Boss Camp,\nthen capture the other Boss Camp if available,\nand then push with the last Boss you captured.\nAvoid doing it earlier if you do not have a dedicated team composition.\nIf you are fairly confident that the enemy team is capturing a Boss Camp,\nstart clearing the other one. This strategy is meant to deny a double\nBoss Camp to the enemy team. If it becomes too dangerous\n(because the enemy team was not actually capturing a Boss Camp\nor because you started the other Boss Camp too late), stop doing it."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Cursed Hollow has a total of 6 Mercenary Camps:\n1 Siege Camp (green icon) on the left side of the top lane;\n1 Boss Camp (red icon) on the right side of the top lane;\n2 Bruiser Camps (blue icon) in the middle lane;\n1 Boss Camp (red icon) on the left side of the bottom lane;\n1 Siege Camp (green icon) on the right side of the bottom lane.\nMercenary Camps on Cursed Hollow are always active,\neven when Tributes are up or during Curses.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Siege Giants. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n280 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nInstead of attacking enemies with Basic Attacks, Siege Giants throw stones at them.\nThese stones can be dodged, so it is possible to capture them without taking any damage.\nOnce captured, they are capable of damaging enemy Structures without getting in their range.\nSiege Giants deal 100% bonus damage to Structures."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 3 Knights and 1 Wizard. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n450 Experience\n+9 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nRight after being captured and while in lane, the Wizard creates a Spell Armor field\naround him which reduces some of the damage taken by Minions, Mercenaries, and Heroes within range.\nAvoid fighting the enemy team if they still have a Wizard helping them!"
+  },
+  {
+   "title": "Boss Camp",
+   "id": "boss-camp",
+   "text": "This type of Mercenary Camp features 1 Grave Golem. Once captured,\nit spawns the same unit fighting for your team in the corresponding lane.\nWhen possible, push with it to get more value.\nSpawn Time\nRespawn Delay\n5:00 minutes\n5:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n750 Experience\n+10 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nWhile in combat, the Grave Golem will use Mega Smash (10-second cooldown)\nto damage and Stun all enemies in melee range\nand Binding Roots (15-second cooldown) to damage\nand Root enemies who get hit by them.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Watch Towers",
+   "id": "watch-towers",
+   "text": "Cursed Hollow features 2 Watch Tower: they are located near Siege Camps,\nproviding vision on all the paths to get there when the Fort\nin the adjacent side lane is still up.\n\nSecuring a Watch Tower provides your team with greater vision,\nallowing you to keep an eye on enemy movements in that part of the battlefield.\nWatch Towers can be captured by standing in the area until your team gains control.\nAfter 45 seconds of not being occupied, they become neutral again. Because of this,\nthey should only be captured when you are playing in that area for other reasons\n(either to capture Mercenary Camps or for contesting the Objective).\nWatch Towers controlled by the enemy team are extremely dangerous,\nespecially when there are bushes nearby, therefore you should think twice\nbefore contesting them. If you do not have mobility tools at your disposal\nand your teammates are not nearby to help you, you should definitely not try\nto capture a Watch Tower as you will only risk dying for no reason.\nStaying alive is more important than getting vision."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Cursed Hollow consists of Tributes.\nIn order to collect a Tribute, Heroes have to channel for 6 seconds.\nTributes also spawn a Regeneration Globe when collected.\nThe first team who gets 3 Tributes will cause a Curse to be cast\nupon enemies. You should push during it as it brings\nenemy Minions down to 1 Health and disables enemy Structures for 70 seconds.\nSpawn Time\nRespawn Delay\n3:00 minutes\nfrom 0:50 to 1:30 minutes after collecting a Tribute, from 2:00 to 2:40 minutes after a Curse ends\n\nCollect Tributes\nThe Raven Lord will periodically create tributes. Gather them for your team!\nCurse Your Enemies\nUpon capturing three tributes, the Raven Lord will curse your enemies.\nCursed Forts and Minions\nCursed forts will not attack, and cursed minions are reduced to 1 health."
+  },
+  {
+   "title": "Tributes",
+   "id": "tributes",
+   "text": "Tributes can spawn in 6 possible locations, with each Objective phase\nhaving only 1 Tribute active. We can look at the Tribute locations as organized\nin 2 rows (top and bottom) and 3 columns (left, middle, and right). For the sake\nof spawning rules, every 3 Tributes belong to a separate set (for example,\nthe second set contains the 4th, 5th, and 6th spawn).\nThe spawning rules for Tributes are:\nthe first Tribute is always in the middle column, either top or bottom;\na Tribute cannot spawn in the same spot as the previous one;\n3 consecutive Tributes cannot spawn in the same row;\nTributes in the same set (explained above) cannot spawn in the same column."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 3 seconds, the Core will spawn a Curse under a nearby enemy Hero.\nIf they are Cursed, they take 5% maximum Health as damage and their\nArmor is reduced by 75 for 4 seconds."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Cursed Hollow, you should count on\nany of the following win conditions:\nBoss Camp,\nSplit-push."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nDepending on where the next Tribute is, you should decide if you want\nto contest it or not. Tributes on the enemy side of the battlefield are harder\nto contest whereas Tributes on your side of the battlefield are easier to contest.\nWhile active, the Curse disables enemy Structures.\nWhen attacking, use it to dive when possible.\nWhen defending, expect the enemy team to dive.\nIf you have 2 Tributes and you just wiped the enemy team while\ncontesting a third Tribute, do not collect that Tribute immediately!\nInstead, capture a Boss Camp and then collect the Tribute.\nGlobal Heroes should ideally take care\nof the lane that is farther away from the next Objective location,\nso that they can use their global tool\nto quickly join their team during the next Objective phase.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n14 Feb. 2026: Guide updated for the latest Map Updates.\nWatch Towers section updated.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n15 Nov. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

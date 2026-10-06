@@ -1,0 +1,265 @@
+{
+ "slug": "zagara",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/zagara-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/zagara-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/zagara-talents"
+ },
+ "guide": [
+  {
+   "title": "Zagara's Overview",
+   "id": "zagaras-overview",
+   "text": "Zagara is a Ranged Assassin who relies\non Zerg summons to wreak havoc on her opponents.\nCreep Tumor is a strong ability, providing\nnot only buffs to several of her attributes, including attack range and movement\nspeed, but also supplying precious vision throughout the Battleground. Zagara\nis capable of tearing down enemy defenses from afar and, when left alone for\neven a small duration, will turn the strongest enemy fortifications into nothing\nmore than heaps of rubble."
+  },
+  {
+   "title": "Zagara's Strengths and Weaknesses",
+   "id": "zagaras-strengths-and-weaknesses",
+   "text": "Strengths\nExcellent long range, sustain damage\nGreat waveclear\nStrong sieging power\nCreep Tumor provides a massive amount of vision throughout the entire battlefield\nAble to solo Mercenary Camps with ease\nWeaknesses\nQuite vulnerable to crowd control\nZero mobility, except on Creep\nMana hungry\nLow burst damage\nHer only form of hard crowd control is Devouring Maw"
+  },
+  {
+   "title": "Zagara's Talent Build Cheatsheet",
+   "id": "zagaras-talent-build-cheatsheet",
+   "text": "Infested Drop Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZagara's Infested Drop Build allows you\nto deal a solid amount of damage in team fights,\nespecially in the late game\nagainst Heroes who have high maximum Health.\nIn particular, Corpse Feeders at Level 1\nand Bile Drop at Level 7 boost the already good damage output\nof Corrosive Saliva at Level 16.\nInfest Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZagara's Infest Build makes you more powerful when split-pushing\nbut weaker while fighting against enemy Heroes. Due to being vulnerable to\nganks as usual, you should not choose this Build when\nthe enemy team has Heroes good for that (for example Zeratul).\nInfest at Level 1 empowers nearby Minions,\nso that you can take down enemy Structures with ease, unless the enemy team\ncan quickly clear your Minions. Mutalisk at Level 16\nis good for taking down to enemy Structures as well as for dealing with Mercenaries.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZagara's ARAM Build allows you\nto deal a solid amount of damage in team fights,\nespecially in the late game\nagainst Heroes who have high maximum Health.\nIn particular, Corpse Feeders at Level 1\nand Bile Drop at Level 7 boost the already good damage output\nof Corrosive Saliva at Level 16.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Zagara's Synergies and Counters",
+   "id": "zagaras-synergies-and-counters",
+   "text": "Zagara synergizes with\nDue to her lack of mobility, Zagara is best when paired with one or two\nTanks who can provide her a strong\nfrontline. Those with reliable\ncrowd-control can also set up devastating combos\nwith Zagara's Devouring Maw.\nZagara is countered by\nZagara is counterd in lane by high mobility Assassins like\nIllidan, who can outsustain\nher and stick to her even while on Creep. Furthermore, global range Heroes\nlike Falstad or\nDehaka can drastically limit her efficiency while\nsplit-pushing."
+  },
+  {
+   "title": "Zagara's Maps",
+   "id": "zagaras-maps",
+   "text": "Zagara's stronger maps\nZagara's average maps\nZagara's weaker maps\nZagara is particularly good on larger Maps\nwith multiple Objective locations (such as Sky Temple),\nwhen she can take advantage of distracted enemy Heroes\nto split-push uncontested,\nsometimes even with the help of Nydus Network.\nMaps that are smaller (such as Tomb of the Spider Queen)\nmake it much more difficult for Zagara to split-push.\nIn those situations, Zagara can still be a great lane bully\nin the early game and a powerful damage dealer\nin the late game, thanks to Talents."
+  },
+  {
+   "title": "Zagara's Tips and Tricks",
+   "id": "zagaras-tips-and-tricks",
+   "text": "Baneling Barrage should be used primarily for waveclear to conserve valuable mana.\nWhen using Baneling Barrage on Minion Waves, try using it from a 90 degree angle. Aim at the Wizard Minion to maximize splash damage.\nUse Hunter Killer to zone enemies from team fights or lane.\nAlways use Infested Drop when it is available to deal damage safely and provide vision. Infested Drop can also be used to tank Mercenary Camps and interrupt channeling of objectives (like Tributes on Cursed Hollow).\nDo not try to force Devouring Maw and instead wait for enemies to come into range.\nPlace Nydus Worms provided by Nydus Network in spots clear of heavy foot-traffic to prevent them from being immediately destroyed.\nAlways use all available Creep Tumors. Place them inside bushes and at other out-of-the-way locations to prevent the enemy from accidentally destroying them with AoE abilities.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Zagara's Role in the Current Meta",
+   "id": "zagaras-role-in-the-current-meta",
+   "text": "Zagara is currently played as Offlaner to dominate\nthe early game against most enemy Heroes unless ganked.\nWhen fighting on a widespread area of Creep Tumor,\nZagara is a powerful duelist and bully thanks to the Attack Range and Movement Speed provided\ncombined with the relentless single-target damage of Hunter Killer.\nShe is easily able to kite enemies in pursuit of her as well as chase those\ndown who may have regretfully overstepped their boundary.\nThe vision that Creep Tumor provides is extremely powerful\nto play around enemy ganks, the best way to counter her\nwhen she goes in the enemy part of the battlefield to get value from her pushing power."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 May 2026 (talents page): Guide reviewed for the latest Balance Update.\n12 May 2026 (abilities page): Guide reviewed for the latest Balance Update.\n12 May 2026 (this page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (talents page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (this page): Guide reviewed for the latest Balance Update.\n16 May 2025 (talents page): Guide reviewed for the latest Balance Update.\n16 May 2025 (abilities page): Guide reviewed for the latest Balance Update.\n16 May 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n15 Oct. 2024 (talents page): Guide reviewed.\n14 Oct. 2024 (this page): Guide reviewed.\n21 Sep. 2023 (talents page): ARAM Build added.\n21 Sep. 2023 (this page): ARAM Build added.\n20 Sep. 2023 (talents page): Level 4 Talents Description improved.\n12 Mar. 2022 (talents page): Builds updated.\n12 Mar. 2022 (this page): Builds updated.\n28 Sep. 2021 (talents page): Guide reviewed for the latest Balance Update.\n28 Sep. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n28 Sep. 2021 (this page): Guide reviewed for the latest Balance Update.\n30 Aug. 2021 (talents page): Builds updated.\n30 Aug. 2021 (this page): Builds updated.\n20 Aug. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Aug. 2021 (this page): Guide reviewed for the latest Balance Update.\n24 Jul. 2021 (talents page): Guide reviewed for the latest Balance Update.\n24 Jul. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n24 Jul. 2021 (this page): Guide reviewed for the latest Balance Update.\n25 Feb. 2021 (talents page): New layout.\n26 Oct. 2020 (talents page): Builds updated.\n26 Oct. 2020 (this page): Builds updated.\n05 Jun. 2020 (talents page): Descriptions changed according to the latest Balance Update.\n05 Jun. 2020 (abilities page): Descriptions changed according to the latest Balance Update.\n14 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n14 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n19 Dec. 2019 (talents page): Revised Zagara's guide. No talent changes needed to be applied despite the most recent Balance Update.\n16 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n25 Nov. 2019 (talents page): We are currently evaluating Zagara's talent changes and will apply further updates on her guide in the very near future. Added Jagged Barbs as Recommended for the time being.\n02 Oct. 2019 (talents page): Revised and updated the entire build guide including talents and builds.\n02 Oct. 2019 (abilities page): Revised and updated the entire build guide including talents and builds.\n02 Oct. 2019 (this page): Revised and updated the entire build guide including talents and builds.\n13 Dec. 2017 (abilities page): All mention of a Structure's Ammo has been removed.\n11 Nov. 2016 (this page): Moved guide to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Zagara's Tips and Tricks",
+   "id": "zagaras-tips-and-tricks",
+   "text": "Baneling Barrage should be used primarily for waveclear to conserve valuable mana.\nWhen using Baneling Barrage on Minion Waves, try using it from a 90 degree angle. Aim at the Wizard Minion to maximize splash damage.\nUse Hunter Killer to zone enemies from team fights or lane.\nAlways use Infested Drop when it is available to deal damage safely and provide vision. Infested Drop can also be used to tank Mercenary Camps and interrupt channeling of objectives (like Tributes on Cursed Hollow).\nDo not try to force Devouring Maw and instead wait for enemies to come into range.\nPlace Nydus Worms provided by Nydus Network in spots clear of heavy foot-traffic to prevent them from being immediately destroyed.\nAlways use all available Creep Tumors. Place them inside bushes and at other out-of-the-way locations to prevent the enemy from accidentally destroying them with AoE abilities."
+  },
+  {
+   "title": "Baneling Barrage",
+   "id": "baneling-barrage",
+   "text": "Baneling Barrage\n(Q)\nZagara\nMana: 15\nCharges: 2\nRecharge Time: 4 seconds\nLaunch 2 Banelings that deal 80 (+4% per level) damage to enemies they hit.\nStores up to 2 charges.\nBaneling Barrage causes Zagara to launch two\nBanelings in the targeted direction. If a Baneling comes in contact with an\nenemy or reaches its full range, it explodes and deals splash damage.\nUp to 2 charges of Baneling Barrage can be stored\nat one time, so you can shoot a total of 4 Banelings in quick succession.\nEach charge has a 3-second recharge time.\nBaneling Barrage is Zagara's primary source of\nwaveclear when in lane. Banelings do not have their\nown Health and cannot be destroyed until they either hit an enemy or reach the\nend of their range. Because of this, Banelings make for reliable poke,\nespecially when contesting Objectives that have to be channeled for a few seconds\n(such as Tributes on Cursed Hollow).\nKeep in mind that Zagara's primary source\nof lane harass should come from her Basic Attacks, especially when under the\neffects of creep. Most opponents will quickly learn to avoid the relatively\nslow moving Banelings if they are relentlessly cast towards them."
+  },
+  {
+   "title": "Hunter Killer",
+   "id": "hunter-killer",
+   "text": "Hunter Killer\n(W)\nZagara\nMana: 75\nCooldown: 16 seconds\nSummon a Hydralisk to attack a single target, dealing 71 (+5% per level) damage per second. The Hydralisk loses Health over 10 seconds, and has 500 (+4.5% per level) Health.\nHunter Killer summons a Hydralisk to attack a\nsingle target. The Hydralisk can be killed and can only attack the target\nif it has vision. If the target is killed or cannot be found, the Hydralisk\nwill travel to the nearest lane and push for its remaining duration. It\ndespawns after 8 seconds.\nHunter Killer is a strong ability that deals a good amount of single-target\ndamage. In lane, Zagara can completely zone out the\nenemy Hero simply by casting Hunter Killer on them. If they try to fight\nZagara or the Hydralisk while it is active, they will take a significant\namount of damage from the combination of the Hydralisk and Zagara's Basic\nAttacks. This allows you to maintain unsurpassed lane control and\napply pressure to the surrounding map\nobjectives or structures.\nIn team fights, Hunter Killer will go largely unnoticed, usually allowing it\nto deal damage for its full duration, although, it may die to significant\nAoE damage. Hunter Killer should be used on your\nprimary target, and since the Hydralisk will not switch targets once it spawns,\nit is important to target the correct Hero. Note that the Hydralisk moves at\nabout the same speed as a Hero, so it will struggle to keep up with fleeing Heroes,\nunless it is moving on Creep."
+  },
+  {
+   "title": "Infested Drop",
+   "id": "infested-drop",
+   "text": "Infested Drop\n(E)\nZagara\nMana: 50\nCooldown: 12 seconds\nBombard target area with a Zerg Drop Pod for 140 (+4% per level) damage.\nThe pod spawns 2 Roachlings that deal 30 (+4% per level) damage per second and lose Health over 10 seconds.\nInfested Drop bombards the targeted area with a Zerg\nDrop Pod, dealing damage. The pod spawns 2 Roaches that behave like minions.\nThey last 8 seconds or until they are killed.\nInfested Drop has a wide variety of uses. It can be used to deal damage,\nprovide vision, clear minion waves, delay channeling\nof map objectives (like the tributes on Cursed Hollow), dismount enemy Heroes, or\nhelp clear Mercenary Camps.\nIn lane, it can be another valuable method of\npushing the minions. Keep in mind that hitting enemy Heroes\nwith the Zerg Drop Pod can be relatively difficult as there is a noticeable delay\nin cast time. Bile Drop is a quest that not only permanently\nincreases the initial damage of the Zerg Drop Pod, but will also increase its\nimpact radius. When trying to complete this quest, try to focus the drops on enemy\nHeroes who are affected by crowd control.\nIf you are\nplaying extremely aggressively in lane, you can use Infested Drop behind the enemy\nTowers. This will provide vision of any\nHeroes hiding behind the walls, allowing Hunter Killer to\nbe used on them."
+  },
+  {
+   "title": "Devouring Maw",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDevouring Maw\n(R)\nZagara\nHeroic\nMana: 70\nCooldown: 80 seconds\nSummon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 94 (+4% per level) damage per second.\nUsable on Unstoppable enemies.\nDevouring Maw summons a Devouring Maw at a target\nlocation to consume all enemies within its radius. Devoured enemies are\nunable to take any action and are untargetable for 4 seconds, taking damage each\nsecond. Devouring Maw acts as terrain while it exists, preventing Heroes, minions,\nmercenaries, or creatures from passing through it.\nDevouring Maw can be a game-changing ability. Hitting\nmultiple enemy Heroes does some damage and can allow your allies, like\nJaina and\nE.T.C., to combo their abilities\nas soon as they are released from the Maw. However, even if Devouring Maw only\nhits a single target, it is essentially removing that Hero from play for 4 seconds.\nIf that target is a Healer, it can allow your team to kill\nHeroes before they can be healed. Devouring Maw also acts as a terrain, allowing\nyou to completely block off choke-points from enemy\nHeroes that are not devoured by the Maw.\nThe key to using Devouring Maw effectively and getting multi-Hero Maws is to\nbe patient and wait until the right moment. Running into a fight and opening with\nDevouring Maw almost never works out well, since it is extremely difficult to land\nin those scenarios. Instead, you want to be engaging the enemy team with your other\nabilities and Basic Attacks, and use Devouring Maw when the opportunity arises."
+  },
+  {
+   "title": "Nydus Network",
+   "id": "nydus-network",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nNydus Network\n(R)\nZagara\nHeroic\nMana: 50\nCharges: 2\nRecharge Time: 120 seconds\nSummon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates 10% Health and Mana per second.\nStores up to 2 charges. Maximum of 4 Nydus Worms at a time.\nPassive: Creep spreads 15% farther.\nPassive: While on Creep, each Basic Attack reduces all of Zagara's cooldowns by 0.4 seconds.\nNydus Network summons a Nydus Worm at the target\nlocation that you can enter by right-clicking, after channeling for a short\nduration. You can right-click a location or press \"R\" to exit at any Nydus Worm\naround the map. While inside the Nydus Worm, your Health and Mana are restored\nat an incredibly high rate. Nydus Network can be cast while inside Nydus\nNetwork. Zagara exits Nydus Network instantly. You may only summon a Nydus Worm\nin areas covered by Zagara's creep. Channelling to enter a Nydus Worm can be\ninterrupted by any damage or crowd control effects.\nYou can hold 2 charges of Nydus Network.\nThe fact that Nydus Worms can only be placed on creep is very important to\nkeep in mind. Enemy Heroes may soon begin hunting Nydus Worms once they begin\naccumulating. They can use their view of your creep on the ground as a clue to\nthe location of Zagara's Worms. For this reason either try to keep the edge of\ncreep harboring a Worm out of sight completely or over-saturate locations\ncontaining Worms as to not give opponents any idea as to where to begin looking.\nWhen talenting into Endless Creep at level 20, Nydus\nNetwork becomes an almost global ability. Zagara should travel from Worm to Worm,\nplacing them deep within hidden locations of enemy territory. Be careful to keep\na solid eye on the location of the enemy. Getting caught behind enemy lines at\nthat stage of the match can very quickly end in defeat for Zagara's team."
+  },
+  {
+   "title": "Creep Tumor",
+   "id": "creep-tumor",
+   "text": "Creep Tumor\n(D)\nZagara\nCharges: 3\nRecharge Time: 18 seconds\nLay a Creep Tumor that generates Creep. While on Creep, Zagara moves 20% faster and her summons move 30% faster. Tumors lose Health over 250 seconds and reveal the surrounding area while active.\nStores up to 3 charges.\nCreep Tumor places a Creep Tumor at the targeted\nlocation, spawning Creep that gives vision in the surrounding area\nand gives extra Movement Speed to Zagara and her Summons.\nCreep only grants vision in areas that are directly within the\nline-of-sight of its respective Creep Tumor. This\nmeans that Creep will not grant vision inside a bush unless the Creep Tumor itself\nis placed inside the bush or around a corner near impassable terrain. You should prefer placing your Creep\nTumors inside bushes whenever possible to maximize your vision. You should also\nplace Creep Tumors at important locations, including common\nganking paths, map objectives, and travel routes. For\nexample, you should always place Creep Tumors around the turn-in on Blackheart's\nBay or around Boss camps if they are being contested."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 May 2026: Guide reviewed for the latest Balance Update.\n30 Sep. 2025: Guide reviewed for the latest Balance Update.\n16 May 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n28 Sep. 2021: Guide reviewed for the latest Balance Update.\n24 Jul. 2021: Guide reviewed for the latest Balance Update.\n05 Jun. 2020: Descriptions changed according to the latest Balance Update.\n02 Oct. 2019: Revised and updated the entire build guide including talents and builds.\n13 Dec. 2017: All mention of a Structure's Ammo has been removed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Volatile Acid (Level 1) Zagara Banelings can travel 50% further before exploding."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Corpse Feeders (Level 1) Zagara Reduces the cooldown of Infested Drop by 3 seconds and Roachlings have 30% more Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Infest (Level 1) Zagara Nearby Ranged Minions deal an additional 100% damage. Can be toggled on or off. Repeatable Quest: Every 1000 Siege damage dealt increases this bonus by 1%."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Envenomed Spines (Level 4) Zagara Cooldown: 30 seconds Activate to have Zagara's next Basic Attack apply 230 (+4% per level) damage over 5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Medusa Blades (Level 4) Zagara Basic Attacks deal 33% damage to three nearby targets."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Serrated Spines (Level 4) Zagara Quest: Each Basic Attack against a Hero increases Zagara's Attack Damage by 0.2%."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Baneling Massacre (Level 7) Zagara Gain 2 additional charges of Banelings Barrage, but increase its cooldown by 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Viscous Acid (Level 7) Zagara Banelings Slow enemies by 25% for 2.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Bile Drop (Level 7) Zagara Quest: Passively increases the radius of Infested Drop by 20%. Reward: After hitting 12 Heroes with Infested Drop, it spawns an additional Roachling."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Devouring Maw (Level 10) Zagara Mana: 70 Cooldown: 80 seconds Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 94 (+4% per level) damage per second. Usable on Unstoppable enemies."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Nydus Network (Level 10) Zagara Mana: 50 Charges: 2 Recharge Time: 120 seconds Summon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates 10% Health and Mana per second. Stores up to 2 charges. Maximum of 4 Nydus Worms at a time. Passive: Creep spreads 15% farther. Passive: While on Creep, each Basic Attack reduces all of Zagara's cooldowns by 0.4 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Hydralisk Transfusion (Level 13) Zagara Zagara is healed for 60% of the damage dealt by Hunter Killers' Basic Attacks to Heroes."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Protective Coating (Level 13) Zagara While on Creep, Zagara gains 20 Armor, taking 20% less damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Spell Shield (Level 13) Zagara Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Corrosive Saliva (Level 16) Zagara When attacking Heroes, Hunter Killers and Roachlings deal additional damage equal to 1.5% of their maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Mutalisk (Level 16) Zagara Reduce the cooldown of Hunter Killer by 4 seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over 42 seconds, and have 450 (+4.5% per level) Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Jagged Barbs (Level 16) Zagara While on Creep, Zagara gains 50% more Basic Attack damage and her attack range is increased by 1.1."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Tyrant Maw (Level 20) Zagara Devouring Maw deals 50% more damage. Takedowns reduce its cooldown by 25 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Endless Creep (Level 20) Zagara Increase Creep Tumor's cast range from 2.5 to 50. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 10% Movement Speed."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Broodmother (Level 20) Zagara Every 3rd Basic Attack also launches a Baneling towards the target. Passive: Gain 20% bonus Attack Speed."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Pack Instinct (Level 20) Zagara Zagara and her summons deal 20% more damage to enemies attacked by a Hunter Killer in the last 2 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Zagara's Talent Build",
+   "id": "zagaras-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n✓\n?\n?\n7\n?\n?\n✓\n10\n✓\n?\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Zagara's Talent Build Cheatsheet",
+   "id": "zagaras-talent-build-cheatsheet",
+   "text": "Infested Drop Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZagara's Infested Drop Build allows you\nto deal a solid amount of damage in team fights,\nespecially in the late game\nagainst Heroes who have high maximum Health.\nIn particular, Corpse Feeders at Level 1\nand Bile Drop at Level 7 boost the already good damage output\nof Corrosive Saliva at Level 16.\nInfest Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZagara's Infest Build makes you more powerful when split-pushing\nbut weaker while fighting against enemy Heroes. Due to being vulnerable to\nganks as usual, you should not choose this Build when\nthe enemy team has Heroes good for that (for example Zeratul).\nInfest at Level 1 empowers nearby Minions,\nso that you can take down enemy Structures with ease, unless the enemy team\ncan quickly clear your Minions. Mutalisk at Level 16\nis good for taking down to enemy Structures as well as for dealing with Mercenaries.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nZagara's ARAM Build allows you\nto deal a solid amount of damage in team fights,\nespecially in the late game\nagainst Heroes who have high maximum Health.\nIn particular, Corpse Feeders at Level 1\nand Bile Drop at Level 7 boost the already good damage output\nof Corrosive Saliva at Level 16."
+  },
+  {
+   "title": "Level 1 Talents for Zagara",
+   "id": "level-1",
+   "text": "?\nVolatile Acid\n(Level 1)\nZagara\nBanelings can travel 50% further before exploding.\nVolatile Acid is a decent Talent that empowers\nBaneling Barrage by increasing its range.\nThe extra range helps a lot when you want more safety while soaking.\nMore importantly, it can be used to poke down enemy Structures\nfrom high distance.\n✔\nCorpse Feeders\n(Level 1)\nZagara\nReduces the cooldown of Infested Drop by 3 seconds and Roachlings have 30% more Health.\nCorpse Feeders is a strong Talent that makes the\nRoachlings from Infested Drop survive a bit longer\nby increasing their Health while also making the Ability usable more often\nthanks to the cooldown reduction.\nWhile not particularly good on its own, this Talent empowers\nBile Drop at Level 7\nand Corrosive Saliva at Level 16,\nhence why we find it more valuable than the alternatives.\n?\nInfest\n(Level 1)\nZagara\nNearby Ranged Minions deal an additional 100% damage. Can be toggled on or off.\nRepeatable Quest: Every 1000 Siege damage dealt increases this bonus by 1%.\nInfest is a good Talent that gives Zagara more\nsiege power at the cost of team fight damage.\nWhen active, Minions near Zagara deal more damage. The damage bonus\nprovided by this Talent is increased based on Zagara's damage to\nMinions, Mercenaries, Monsters, and Structures during the game.\nConsider picking this Talent when you are playing on a big Map,\nthe enemy team does not have good gankers (for example\nZeratul), and you want to split-push better\nat the cost of team fight power in the late game."
+  },
+  {
+   "title": "Level 4 Talents for Zagara",
+   "id": "level-4",
+   "text": "✔\nEnvenomed Spines\n(Level 4)\nZagara\nCooldown: 30 seconds\nActivate to have Zagara's next Basic Attack apply 230 (+4% per level) damage over 5 seconds.\nEnvenomed Spines is a strong Talent as it provides\nZagara with another relatively high source of on-demand damage\nwhich does not require her to be exposed for long.\nWhen you do not expect to fight enemies Heroes for the next minute\nand/or when you are really close to taking down an enemy Structure but have to retreat,\nyou can use Envenomed Spines against to enemy Structures.\nChoose this Talent when you want to help killing high-mobility Heroes\n(such as Zeratul) or to damage enemy Heroes who can punish you\nwhen you get too close (for example Garrosh).\n?\nMedusa Blades\n(Level 4)\nZagara\nBasic Attacks deal 33% damage to three nearby targets.\nMedusa Blades is a good Talent\nthat will greatly increase Zagara's waveclear and\nhelp her better manage her Mana usage when needed. Thanks to this Talent,\nall your Basic Attacks will cleave on 3 additional nearby targets.\nChoose this Talent when you want to play more around macro,\nyou do not need Envenomed Spines to deal with enemy Heroes,\nand you cannot stack Serrated Spines.\n?\nSerrated Spines\n(Level 4)\nZagara\nQuest: Each Basic Attack against a Hero increases Zagara's Attack Damage by 0.2%.\nSerrated Spines is a decent Talent that provides\nadditional Attack Damage based on how many Basic Attacks on enemy Heroes have\nbeen done by Zagara during the game.\nKeep in mind that the damage bonus provided by this Talent also increases\nthe damage dealt by your Basic Attacks against non-Heroes, including Structures.\nThe drawback is that you need to get a good amount of stacks on enemy Heroes.\nChoose this Talent only on 2-lane Maps or in ARAM\nand, more importantly, only when the enemy team does not have Heroes\nwho can punish you while hitting enemy Heroes with Basic Attacks,\nso that you can get at least 200 stacks before reaching Level 20."
+  },
+  {
+   "title": "Level 7 Talents for Zagara",
+   "id": "level-7",
+   "text": "?\nBaneling Massacre\n(Level 7)\nZagara\nGain 2 additional charges of Banelings Barrage, but increase its cooldown by 2 seconds.\nBaneling Massacre is a decent Talent that\nallows Zagara to immediately cast 2 additional\ncharges of Baneling Barrage,\nbut increases its cooldown by 50%.\nThe cooldown increase is easier to understand if you look at the time\nit takes to get 2 Charges back: without this Talent,\nyou need to wait 8 seconds; with this Talent, you need to wait 12 seconds.\nThat said, being able to store 2 more Charges\nmeans that you can deal more burst damage\nby casting Baneling Barrage 4 times in a row.\nDue to the cooldown increase, you should only consider this Talent\nwhen you want to improve your burst damage,\nusually combined with Devouring Maw.\n?\nViscous Acid\n(Level 7)\nZagara\nBanelings Slow enemies by 25% for 2.5 seconds.\nViscous Acid is a good Talent\nwhich makes Baneling Barrage\napply a moderate Slow to enemy Heroes hit.\nThe effect provided by this Talent\ncan be used to kite enemy Heroes\nand occasionally catch fleeing Heroes,\nif they lack mobility tools.\n✔\nBile Drop\n(Level 7)\nZagara\nQuest: Passively increases the radius of Infested Drop by 20%.\nReward: After hitting 12 Heroes with Infested Drop, it spawns an additional Roachling.\nBile Drop is a strong Talent that, upon Quest completion,\nincreases Zagara's damage by providing Infested Drop an\nadditional Roachling. Combine it with Corpse Feeders\nto get even more value out of it."
+  },
+  {
+   "title": "Level 10 Talents for Zagara",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nDevouring Maw\n(Level 10)\nZagara\nMana: 70\nCooldown: 80 seconds\nSummon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 94 (+4% per level) damage per second.\nUsable on Unstoppable enemies.\nDevouring Maw is arguably one of the most impactful\nHeroic Abilities in the game. A well placed Devouring Maw will not\nonly apply a moderate amount of damage to all enemies trapped within, but will\neffectively remove them from play for a full 4 second duration.\nThis unique crowd control Ability is\ncompletely uncounterable, as it is even able to take in Heroes considered to be\nUnstoppable at the time of its use,\nbut it cannot be used on Deathwing despite him being\npermanently Unstoppable thanks to\nAspect of Death.\nA downside to Devouring Maw is its\ndelayed cast time, which may leave newer Zagara players feeling as though the\nAbility is somewhat unresponsive, but you will eventually get used to it.\nPlayers need to be able to foreshadow their targets' movement to\ngive themselves the higher likelihood of landing a successful Maw.\nOnce created, Devouring Maw is\nconsidered to be impassable terrain, similar to Structures,\nso keep in mind it may potentially block both allied and enemy Heroes\nto reach their intended location.\n?\nNydus Network\n(Level 10)\nZagara\nMana: 50\nCharges: 2\nRecharge Time: 120 seconds\nSummon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates 10% Health and Mana per second.\nStores up to 2 charges. Maximum of 4 Nydus Worms at a time.\nPassive: Creep spreads 15% farther.\nPassive: While on Creep, each Basic Attack reduces all of Zagara's cooldowns by 0.4 seconds.\nNydus Network is a situational Heroic Ability\nwhich allows Zagara to split-push effectively,\nquickly join the rest of her team when needed, and restore Health.\nNot only does this Talent provide\na sizable increase in Creep Tumor coverage,\nbut the cooldown reduction built in to\nher Basic Attacks is invaluable when having to constantly spam Basic Abilities\nto tear down the enemy defenses.\nThe cooldown reduction will not only greatly\nimpact Zagara's sustain damage output through\nBaneling Barrage, but will also dramatically increase\nthe up time of Roachlings and Hydralisks spawned from\nInfested Drop and Hunter Killer.\nThe ability to immediately travel anywhere on the battlefield where Creep Tumor has\npreviously been laid is invaluable, and will constantly force enemies to have\nto leave other important Objectives to alleviate the pressure it will create.\nAlways remember to place an entrace to Nydus Network\ndirectly near the allied Hall of Storms to ensure quick\nreturn to the field should Zagara be slain at any point. The sustain provided\nwhen entering a Nydus Worm will also prevent Zagara from ever having to\npull back her pressure due to a lack of Health or Mana."
+  },
+  {
+   "title": "Level 13 Talents for Zagara",
+   "id": "level-13",
+   "text": "✔\nHydralisk Transfusion\n(Level 13)\nZagara\nZagara is healed for 60% of the damage dealt by Hunter Killers' Basic Attacks to Heroes.\nHydralisk Transfusion is a strong Talent because it\ngives Zagara self-sustain when Hydralisk is attacking.\n?\nProtective Coating\n(Level 13)\nZagara\nWhile on Creep, Zagara gains 20 Armor, taking 20% less damage.\nProtective Coating is a situational Talent,\nas a “permanent” 20% damage reduction to all sources is incredibly strong.\nIt is recommended having Creep near Zagara's current location at all times to\nkeep up this additional source of protection.\n?\nSpell Shield\n(Level 13)\nZagara\nEvery 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.\nCan be toggled to allow or prevent this talent from triggering automatically.\nSpell Shield is a situational Talent that gives\nZagara more survivability by increasing her Spell Armor\nfor a brief moment. Enable it when you expect burst damage\nand/or crowd control within 2 seconds, else keep it\ndisabled to avoid wasting it for poke damage."
+  },
+  {
+   "title": "Level 16 Talents for Zagara",
+   "id": "level-16",
+   "text": "✔\nCorrosive Saliva\n(Level 16)\nZagara\nWhen attacking Heroes, Hunter Killers and Roachlings deal additional damage equal to 1.5% of their maximum Health.\nCorrosive Saliva deals damage based off of the maximum\nHealth of a Hero, therefore the higher Health a target has, the\nmore effective the Talent will be. This Talent is great at tearing down intimidating\nfrontlines, especially since those are the Heroes\nthat will most often be in range of Zagara's Abilities assuming she is\npositioned correctly.\n?\nMutalisk\n(Level 16)\nZagara\nReduce the cooldown of Hunter Killer by 4 seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over 42 seconds, and have 450 (+4.5% per level) Health.\nMutalisk is a good Talent which replaces the\nHydralisk summoned via Hunter Killer with\na Mutalisk, and reduces its cooldown. Mutalisks have a bonuce Basic Attack,\nlast 30 seconds, and give vision in nearby bushes.\nThe main strength of Mutalisk lies in the\nspawn's greatly increased duration. Long after their initial summoning, Mutalisks\nwill continue down the lane, dealing multi-target damage to any Minions or defenses\nthat happen across its path.\nWe find this Talent great for split-pushing,\nbut at Level 16 you will not find many opportunities for that,\ntherefore you will usually go for Corrosive Saliva.\n?\nJagged Barbs\n(Level 16)\nZagara\nWhile on Creep, Zagara gains 50% more Basic Attack damage and her attack range is increased by 1.1.\nJagged Barbs is a decent Talent that further enhances Zagara's\nBasic Attacks by increasing her Attack Range by 1.1—from 6.6 to 7.7—and\nAttack Damage by 50%.\nWe find Jagged Barbs better when playing\non Maps where team fights happen in a relatively fixed area\nwhich you can cover with Creep Tumor pre-emptively."
+  },
+  {
+   "title": "Level 20 Talents for Zagara",
+   "id": "level-20",
+   "text": "?\nTyrant Maw\n(Level 20)\nZagara\nDevouring Maw deals 50% more damage. Takedowns reduce its cooldown by 25 seconds.\nTyrant Maw is a good Talent increases the damage\nof Devouring Maw by a low amount and it gives\nsome cooldown reduction each time an enemy Hero within 20 range\ndies from units allied to Zagara.\nStarting a team fight when some Heroic Abilities are not ready yet is risky,\nso the cooldown reduction is helpful because you will end a team fight\nhaving less cooldown on Devouring Maw for the next one.\n?\nEndless Creep\n(Level 20)\nZagara\nIncrease Creep Tumor's cast range from 2.5 to 50. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 10% Movement Speed.\nEndless Creep is a good Talent for\nZagara at Level 20 when she has chosen Nydus Network\nas it includes a slew of performance upgrades to her kit. The first upgrade\nthat comes with Endless Creep is the massive increase in\nCreep Tumor's cast range.\nCreep Tumor with its\nupgraded cast range can be used liberally as it will be effectively providing\nfree vision all throughout the entire battlefield. The resulting additional vision\nhelps prevent enemy ambushes and also reveals their rotations more easily.\nSometimes you may even be able to backdoor with it.\n?\nBroodmother\n(Level 20)\nZagara\nEvery 3rd Basic Attack also launches a Baneling towards the target.\nPassive: Gain 20% bonus Attack Speed.\nBroodmother is a decent Talent\nwhich increases Zagara's Attack Speed by 20%\nand automatically shoots a Baneling towards the target\nof your every third Basic Attack.\n✔\nPack Instinct\n(Level 20)\nZagara\nZagara and her summons deal 20% more damage to enemies attacked by a Hunter Killer in the last 2 seconds.\nPack Instinct is a strong Talent\nwhich boosts the damage done by Zagara and her Summons\nagainst enemies that have been recently attacked\nby Hunter Killer.\nIf you have picked Mutalisk at Level 16,\nit will be easier for you to get value from this Talent\nbecause Mutalisks are harder to kill than Hydralisks.\nUnless your really need the utility offered by other Talents in this Tier,\nwe recommend this Talent regardless of your strategy being more or less oriented to team fights\nbecause it boosts your damage against both enemy Heroes and Structures."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 May 2026: Guide reviewed for the latest Balance Update.\n30 Sep. 2025: Guide reviewed for the latest Balance Update.\n16 May 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n15 Oct. 2024: Guide reviewed.\n21 Sep. 2023: ARAM Build added.\n20 Sep. 2023: Level 4 Talents Description improved.\n12 Mar. 2022: Builds updated.\n28 Sep. 2021: Guide reviewed for the latest Balance Update.\n30 Aug. 2021: Builds updated.\n20 Aug. 2021: Guide reviewed for the latest Balance Update.\n24 Jul. 2021: Guide reviewed for the latest Balance Update.\n25 Feb. 2021: New layout.\n26 Oct. 2020: Builds updated.\n05 Jun. 2020: Descriptions changed according to the latest Balance Update.\n14 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n19 Dec. 2019: Revised Zagara's guide. No talent changes needed to be applied despite the most recent Balance Update.\n25 Nov. 2019: We are currently evaluating Zagara's talent changes and will apply further updates on her guide in the very near future. Added Jagged Barbs as Recommended for the time being.\n02 Oct. 2019: Revised and updated the entire build guide including talents and builds.\nShow more\nShow less"
+  }
+ ]
+}

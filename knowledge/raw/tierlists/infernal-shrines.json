@@ -1,0 +1,741 @@
+{
+ "name": "infernal-shrines",
+ "source": "https://www.icy-veins.com/heroes/heroes-of-the-storm-infernal-shrines-tier-list",
+ "entries": [
+  {
+   "tier": "Tier S",
+   "role": "Tank 1 Hero",
+   "hero": "johanna",
+   "name": "Johanna",
+   "ban": true
+  },
+  {
+   "tier": "Tier S",
+   "role": "Offlaner",
+   "hero": "blaze",
+   "name": "Blaze",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Offlaner",
+   "hero": "hogger",
+   "name": "Hogger",
+   "ban": true
+  },
+  {
+   "tier": "Tier S",
+   "role": "Offlaner",
+   "hero": "yrel",
+   "name": "Yrel",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Melee Assassin 1 Hero",
+   "hero": "qhira",
+   "name": "Qhira",
+   "ban": true
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "falstad",
+   "name": "Falstad",
+   "ban": true
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "mephisto",
+   "name": "Mephisto",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "sylvanas",
+   "name": "Sylvanas",
+   "ban": true
+  },
+  {
+   "tier": "Tier S",
+   "role": "Ranged Assassin",
+   "hero": "xalatath",
+   "name": "Xal'atath",
+   "ban": true
+  },
+  {
+   "tier": "Tier S",
+   "role": "Healer",
+   "hero": "rehgar",
+   "name": "Rehgar",
+   "ban": false
+  },
+  {
+   "tier": "Tier S",
+   "role": "Healer",
+   "hero": "whitemane",
+   "name": "Whitemane",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Tank",
+   "hero": "arthas",
+   "name": "Arthas",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Tank",
+   "hero": "diablo",
+   "name": "Diablo",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Tank",
+   "hero": "garrosh",
+   "name": "Garrosh",
+   "ban": true
+  },
+  {
+   "tier": "Tier A",
+   "role": "Tank",
+   "hero": "tyrael",
+   "name": "Tyrael",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Offlaner",
+   "hero": "chen",
+   "name": "Chen",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Offlaner",
+   "hero": "dva",
+   "name": "D.Va",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Offlaner",
+   "hero": "johanna",
+   "name": "Johanna",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Offlaner",
+   "hero": "leoric",
+   "name": "Leoric",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Offlaner",
+   "hero": "ragnaros",
+   "name": "Ragnaros",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Offlaner",
+   "hero": "sonya",
+   "name": "Sonya",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Offlaner",
+   "hero": "xul",
+   "name": "Xul",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "alarak",
+   "name": "Alarak",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "deathwing",
+   "name": "Deathwing",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "kerrigan",
+   "name": "Kerrigan",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "maiev",
+   "name": "Maiev",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "thrall",
+   "name": "Thrall",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Melee Assassin",
+   "hero": "zeratul",
+   "name": "Zeratul",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "azmodan",
+   "name": "Azmodan",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "cassia",
+   "name": "Cassia",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "chromie",
+   "name": "Chromie",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "fenix",
+   "name": "Fenix",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "genji",
+   "name": "Genji",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "guldan",
+   "name": "Gul'dan",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "raynor",
+   "name": "Raynor",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "tassadar",
+   "name": "Tassadar",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "tychus",
+   "name": "Tychus",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Ranged Assassin",
+   "hero": "valla",
+   "name": "Valla",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "alexstrasza",
+   "name": "Alexstrasza",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "anduin",
+   "name": "Anduin",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "auriel",
+   "name": "Auriel",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "brightwing",
+   "name": "Brightwing",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "deckard",
+   "name": "Deckard Cain",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "malfurion",
+   "name": "Malfurion",
+   "ban": false
+  },
+  {
+   "tier": "Tier A",
+   "role": "Healer",
+   "hero": "tyrande",
+   "name": "Tyrande",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "anubarak",
+   "name": "Anub'arak",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "cho",
+   "name": "Cho",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Tank",
+   "hero": "e-t-c",
+   "name": "E.T.C.",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Offlaner",
+   "hero": "arthas",
+   "name": "Arthas",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Offlaner",
+   "hero": "dehaka",
+   "name": "Dehaka",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Offlaner",
+   "hero": "illidan",
+   "name": "Illidan",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Offlaner",
+   "hero": "malthael",
+   "name": "Malthael",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Offlaner",
+   "hero": "rexxar",
+   "name": "Rexxar",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Offlaner",
+   "hero": "samuro",
+   "name": "Samuro",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Melee Assassin 1 Hero",
+   "hero": "imperius",
+   "name": "Imperius",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "gall",
+   "name": "Gall",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "hanzo",
+   "name": "Hanzo",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "jaina",
+   "name": "Jaina",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "junkrat",
+   "name": "Junkrat",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "kaelthas",
+   "name": "Kael'thas",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "nazeebo",
+   "name": "Nazeebo",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "orphea",
+   "name": "Orphea",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "sgt-hammer",
+   "name": "Sgt. Hammer",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "zagara",
+   "name": "Zagara",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Ranged Assassin",
+   "hero": "zuljin",
+   "name": "Zul'jin",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Support 1 Hero",
+   "hero": "abathur",
+   "name": "Abathur",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Healer",
+   "hero": "lucio",
+   "name": "Lúcio",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Healer",
+   "hero": "stukov",
+   "name": "Stukov",
+   "ban": false
+  },
+  {
+   "tier": "Tier B",
+   "role": "Healer",
+   "hero": "uther",
+   "name": "Uther",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "malganis",
+   "name": "Mal'Ganis",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "mei",
+   "name": "Mei",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "muradin",
+   "name": "Muradin",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Tank",
+   "hero": "varian",
+   "name": "Varian",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Offlaner",
+   "hero": "artanis",
+   "name": "Artanis",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Offlaner",
+   "hero": "deathwing",
+   "name": "Deathwing",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Offlaner",
+   "hero": "e-t-c",
+   "name": "E.T.C.",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Offlaner",
+   "hero": "gazlowe",
+   "name": "Gazlowe",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Offlaner",
+   "hero": "imperius",
+   "name": "Imperius",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Offlaner",
+   "hero": "murky",
+   "name": "Murky",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Offlaner",
+   "hero": "the-lost-vikings",
+   "name": "The Lost Vikings",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Melee Assassin",
+   "hero": "the-butcher",
+   "name": "The Butcher",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Melee Assassin",
+   "hero": "valeera",
+   "name": "Valeera",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "greymane",
+   "name": "Greymane",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "kel-thuzad",
+   "name": "Kel'Thuzad",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "li-ming",
+   "name": "Li-Ming",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "lunara",
+   "name": "Lunara",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Ranged Assassin",
+   "hero": "tracer",
+   "name": "Tracer",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Support 1 Hero",
+   "hero": "zarya",
+   "name": "Zarya",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Healer",
+   "hero": "ana",
+   "name": "Ana",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Healer",
+   "hero": "kharazim",
+   "name": "Kharazim",
+   "ban": false
+  },
+  {
+   "tier": "Tier C",
+   "role": "Healer",
+   "hero": "lt-morales",
+   "name": "Lt. Morales",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Tank",
+   "hero": "blaze",
+   "name": "Blaze",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Tank",
+   "hero": "stitches",
+   "name": "Stitches",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Offlaner 1 Hero",
+   "hero": "varian",
+   "name": "Varian",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Melee Assassin 1 Hero",
+   "hero": "varian",
+   "name": "Varian",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Ranged Assassin",
+   "hero": "nova",
+   "name": "Nova",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Ranged Assassin",
+   "hero": "probius",
+   "name": "Probius",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Support 1 Hero",
+   "hero": "medivh",
+   "name": "Medivh",
+   "ban": false
+  },
+  {
+   "tier": "Tier D",
+   "role": "Healer 1 Hero",
+   "hero": "li-li",
+   "name": "Li Li",
+   "ban": false
+  }
+ ],
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "The goal of this Tier List is to inform players regarding\nhow strong Heroes are in the current metagame on Infernal Shrines.\nInfernal Shrines is a 3-lane Map with no Boss Camps, 2 Bruiser Camps, and 3 Siege Camps.\nYou can easily double-soak\nand being global can be useful sometimes.\nYou may want to pick Heroes who can easily clear the Objective,\notherwise just make sure to kill enemy Heroes before they can secure it.\nMake sure to have some Heroes who can take care of Mercenary Camps.\nSee our Infernal Shrines Map Guide for further information »"
+  },
+  {
+   "title": "Guidelines",
+   "id": "guidelines",
+   "text": "A well-rounded team composition has: 1 Tank,\n1 Offlaner, 1 Ranged Assassin,\n1 Flex, and 1 Healer. The flex slot can be filled with:\n1 Bruiser, 1 Melee Assassin,\n1 Ranged Assassin, or 1 Healer.\nIf a given Hero can be played in different Roles (for example Tank\nand Offlaner), we mention them multiple times\nbecause each of their Roles may belong to a different tier.\nHeroes that are generally worth banning at the beginning of the draft have been marked with a red border\nand a BAN label, however, in some circumstances it may be better to ban other Heroes instead,\neither to target-ban a player and/or to remove a counter to Heroes your team will pick.\nHeroes that do better on this Map compared to their overall ranking\nhave an upward-pointing arrow and name in green\nwhereas Heroes that do worse on this Map compared to their overall ranking\nhave a downward-pointing arrow and name in red.\nYou can see their overall ranking in our\nGeneral Tier List."
+  },
+  {
+   "title": "Tier S",
+   "id": "tier-s",
+   "text": "In this tier you can find overpowered Heroes that will do great in most games.\nTank\n1 Hero\nJohanna\nOfflaner\n3 Heroes\nBlaze\nHogger\nYrel\nMelee Assassin\n1 Hero\nQhira\nRanged Assassin\n4 Heroes\nFalstad\nMephisto\nSylvanas\nXal'atath\nHealer\n2 Heroes\nRehgar\nWhitemane\nDetails (click to expand)\nBlaze is mainly being drafted as Offlaner\nbecause his self-sustain allows him to stay in lane\nfor long periods of time and his high waveclear allows him\nto have priority on the enemy Offlaner.\nFalstad is a well-rounded Hero with global presence,\ngood damage ouput, mobility, and access to Mighty Gust for saving\nallied Heroes from danger or securing Boss Camps when contested.\nHogger is a well-rounded Bruiser\nwho can clear Minions and Mercenaries efficiently and dish out\na solid amount of damage against Heroes during team fights,\nespecially in the late game.\nJohanna is not only the most durable Tank\nin the whole game but she can also provide a good amount of\ncrowd control to disrupt enemy plans\nand help her teammates in team fights.\nMephisto is the most powerful Ranged Assassin\nin the game when it comes to damage done to enemy Heroes in team fights, however,\nhe does not excel at macro, especially at capturing Mercenaries.\nAvoid unnecessary team fights and spread when fighting against him.\nRehgar is currently a solid Healer\nwho can provide a balanced mix of sustain\nand burst healing, with the ability\nto quickly clear Minions and Mercenaries.\nSylvanas is a versatile Ranged Assassin\ncapable of specializing into sustain damage or burst damage.\nShe also has access to Haunting Arrows, which is extremely useful for disabling\nenemy Structures while pushing or diving.\n\"\nXal'atath is a powerful Ranged Assassin\nwith the ability to dish out a lot of damage from the distance. Void Step\nallows her to make aggressive plays or to escape from dangerous situations.\nThanks to her high survivability and good waveclear,\nYrel is a solid Offlaner regardless\nof the Map, however, she can be particularly scary when fights happen near\nimpassable terrain because\nshe can charge Avenging Wrath behind them."
+  },
+  {
+   "title": "Tier A",
+   "id": "tier-a",
+   "text": "In this tier you can find strong Heroes that will perform well in a lot of games.\nTank\n4 Heroes\nArthas\nDiablo\nGarrosh\nTyrael\nOfflaner\n7 Heroes\nChen\nD.Va\nJohanna\nLeoric\nRagnaros\nSonya\nXul\nMelee Assassin\n6 Heroes\nAlarak\nDeathwing\nKerrigan\nMaiev\nThrall\nZeratul\nRanged Assassin\n10 Heroes\nAzmodan\nCassia\nChromie\nFenix\nGenji\nGul'dan\nRaynor\nTassadar\nTychus\nValla\nHealer\n7 Heroes\nAlexstrasza\nAnduin\nAuriel\nBrightwing\nDeckard Cain\nMalfurion\nTyrande\nDetails (click to expand)\nGarrosh is a threatening Tank\nwho can punish enemy Heroes who get too close. This characteristic makes him\nparticularly scary in the early game and around Objectives\nwith narrow spaces where he can flank with ease.\nEven though she does not have self-sustain,\nJohanna has enough waveclear\nto be played as Offlaner on bigger Maps,\nwhere the offlane matchup is not that important."
+  },
+  {
+   "title": "Tier B",
+   "id": "tier-b",
+   "text": "In this tier you can find good Heroes that will generally be fine but not that strong.\nTank\n3 Heroes\nAnub'arak\nCho\nE.T.C.\nOfflaner\n6 Heroes\nArthas\nDehaka\nIllidan\nMalthael\nRexxar\nSamuro\nMelee Assassin\n1 Hero\nImperius\nRanged Assassin\n10 Heroes\nGall\nHanzo\nJaina\nJunkrat\nKael'thas\nNazeebo\nOrphea\nSgt. Hammer\nZagara\nZul'jin\nSupport\n1 Hero\nAbathur\nHealer\n3 Heroes\nLúcio\nStukov\nUther\nDetails (click to expand)\nArthas can be played as Offlaner\nagainst melee Heroes who rely on Basic Attacks and cannot deal with\nFrozen Tempest because they lack\nmobility tools to disengage whenever they want.\nImperius can get enough waveclear\nfrom Talents to become a good Offlaner, however,\nhe performs better when picked as Melee Assassin in the 4-man.\nUther can also be drafted as secondary Healer\nto enable a powerful Melee Assassin (for example\nKerrigan) or Ranged Assassin (notably\nValla) so that they can deal more damage."
+  },
+  {
+   "title": "Tier C",
+   "id": "tier-c",
+   "text": "In this tier you can find situational Heroes that will only do well in some circumstances.\nTank\n4 Heroes\nMal'Ganis\nMei\nMuradin\nVarian\nOfflaner\n7 Heroes\nArtanis\nDeathwing\nE.T.C.\nGazlowe\nImperius\nMurky\nThe Lost Vikings\nMelee Assassin\n2 Heroes\nThe Butcher\nValeera\nRanged Assassin\n5 Heroes\nGreymane\nKel'Thuzad\nLi-Ming\nLunara\nTracer\nSupport\n1 Hero\nZarya\nHealer\n3 Heroes\nAna\nKharazim\nLt. Morales\nDetails (click to expand)\nDeathwing is not a great Offlaner\nbecause he has limited macro capabilities and deals 100% more damage to enemy Heroes, therefore\nhe performs better when picked as Melee Assassin in the 4-man.\nE.T.C. can be played as Offlaner\nby picking Stage Dive and using it to join allied Heroes\nafter taking care of a side lane. This strategy is particularly good on big Maps,\nwhere global Heroes are valuable."
+  },
+  {
+   "title": "Tier D",
+   "id": "tier-d",
+   "text": "In this tier you can find weak Heroes that will do poorly in most games.\nTank\n2 Heroes\nBlaze\nStitches\nOfflaner\n1 Hero\nVarian\nMelee Assassin\n1 Hero\nVarian\nRanged Assassin\n2 Heroes\nNova\nProbius\nSupport\n1 Hero\nMedivh\nHealer\n1 Hero\nLi Li\nDetails (click to expand)\nBlaze is rarely being drafted as a Tank\nbecause his engage can easily be countered with a well-timed\ncrowd control effects, including Knockbacks.\n\nSee our Tier List Hub for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Sep. 2026: Tier List updated.\n28 Sep. 2026: Tier List updated.\n20 Sep. 2026: Tier List updated.\n11 Sep. 2026: Tier List updated.\n12 Aug. 2026: Tier List updated.\n20 Jul. 2026: Tier List updated.\n15 Jun. 2026: Tier List updated.\n03 May 2026: Tier List updated.\n16 Mar. 2026: Tier List updated.\n27 Feb. 2026: Tier List updated.\n15 Feb. 2026: Tier List updated.\n02 Jan. 2026: Tier List updated.\n08 Dec. 2025: Tier List updated.\n25 Oct. 2025: Tier List updated.\n30 Sep. 2025: Tier List updated.\n31 Aug. 2025: Tier List updated.\n16 May 2025: Tier List updated.\n02 Apr. 2025: Tier List updated.\n04 Feb. 2025: Tier List updated.\n09 Nov. 2024: Tier List updated.\n22 Aug. 2024: Tier List updated.\n03 Jun. 2024: Tier List updated.\n01 Feb. 2024: Tier List reworked.\n09 Aug. 2022: Tier List updated.\n04 Apr. 2022: Tier List updated.\n04 Feb. 2022: Tier List updated.\n13 Dec. 2021: Tier List updated.\n03 Oct. 2021: Tier List updated.\n04 Sep. 2021: Tier List created.\nShow more\nShow less"
+  }
+ ]
+}

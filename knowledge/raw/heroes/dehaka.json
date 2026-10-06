@@ -1,0 +1,270 @@
+{
+ "slug": "dehaka",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/dehaka-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/dehaka-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/dehaka-talents"
+ },
+ "guide": [
+  {
+   "title": "Dehaka's Overview",
+   "id": "dehakas-overview",
+   "text": "Dehaka is an aggressive Bruiser with great waveclear,\npowerful crowd control, global presence,\nand high survivability thanks to his large Health pool and dependable self-sustain.\nDue to Drag having a long delay, Dehaka is not good\nagainst high-mobility Heroes (for example Tracer)\nand ideally requires other Heroes to start the engage for him."
+  },
+  {
+   "title": "Dehaka's Strengths and Weaknesses",
+   "id": "dehakas-strengths-and-weaknesses",
+   "text": "Strengths\nHigh waveclear\nGreat self-sustain\nCan Drag enemies out of position\nCannot be body-blocked while using Dark Swarm\nCan avoid incoming Abilities with Burrow\nHigh map mobility via Brushstalker\nWeaknesses\nLacks a reliable gap-closer\nSusceptible to kiting\nDrag and Isolation are difficult skillshots\nLimited mobility when Brushstalker is on cooldown"
+  },
+  {
+   "title": "Dehaka's Talent Build Cheatsheet",
+   "id": "dehakas-talent-build-cheatsheet",
+   "text": "Brushstalker Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's Brushstalker Build provides more Movement Speed near bushes,\nmaking it easier to fight against enemy Heroes who would otherwise easily run away from you.\nThis is also Dehaka's most bush-dependent Build, so it is not ideal on all Maps.\nWhen you have the opportunity to walk into bushes,\nthe extra Movement Speed from Enhanced Agility at Level 1\nallows you to rotate faster or to reach enemy Heroes\nmore easily while fighting, and the additional damage from\nFerocious Stalker at Level 13 increases your\nwaveclear while laning and your damage output while fighting.\nEssence Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's Essence Build is designed to increase your self-sustain\nas much as possible, so that you will be able to heal yourself when needed and be in a good\nshape when joining team fights. This is also Dehaka's most versatile Build because it does not have\nany particular requirement.\nSince Tissue Regeneration at Level 1 passively heals you, you will not\nalways need to activate Essence Collection when missing some Health,\nthus allowing you to save Essence for team fights or ganks. Furthermore,\nPrimal Rage at Level 13 will empower your Attack Damage based on Essence stored.\nDark Swarm Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's Dark Swarm Build excels against Heroes reliant on Spell Damage\nand short-range or melee Heroes who tend to group within Dark Swarm's range.\nThis is also Dehaka's most durable Build, helping you to stay alive for longer in team fights.\nSymbiosis at Level 7 allows you to cast Dark Swarm\nmore often when hitting enemy Heroes. As a consequence, you will get more value from\nEnduring Swarm at Level 1 giving you Spell Armor\nand from Primal Swarm at Level 13 reducing the Armor\nof enemy Heroes.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's ARAM Build excels against Heroes reliant on Spell Damage\nand short-range or melee Heroes who tend to group within Dark Swarm's range.\nThis is also Dehaka's most durable Build, helping you to stay alive for longer in team fights.\nSymbiosis at Level 7 allows you to cast Dark Swarm\nmore often when hitting enemy Heroes. As a consequence, you will get more value from\nEnduring Swarm at Level 1 giving you Spell Armor\nand from Primal Swarm at Level 13 reducing the Armor\nof enemy Heroes.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Dehaka's Synergies and Counters",
+   "id": "dehakas-synergies-and-counters",
+   "text": "Dehaka synergizes with\nDehaka does well with Heroes who can help him get within range of enemies\neasily. This can be done by crowd controlling\nenemy Heroes, so that Dehaka can easily hit them with Drag\nor Isolation if chosen as Heroic Ability.\nConsidering that he is a global Hero, Dehaka\nalso works well with poke Heroes because they can\nstall Objectives while Dehaka keeps soaking.\nThis strategy helps to get more Experience than the enemy team.\nDehaka is countered by\nOne of Dehaka's drawbacks is his lack of a gap-closer, which makes him\nsusceptible to kiting from highly mobile ranged damage dealers. Heroes with\nvery high sustain damage can push through his healing to force him to play\npassively. Heroes with interrupts will be able to stop\nDrag and Isolation before they go off.\nHeroes with knockback effects will\nreduce his capacity to reach the enemy backline."
+  },
+  {
+   "title": "Dehaka's Maps",
+   "id": "dehakas-maps",
+   "text": "Dehaka's stronger maps\nDehaka's average maps\nDehaka's weaker maps\nDehaka is great on large Maps where his global presence can be abused to its\nmaximum. This allows Dehaka to soak lanes away from an Objective longer than\nother Offlaners, and still show up on time to help his team secure kills.\nDehaka does not have a Mount, so he relies on Brushstalker\nto move across the battlefield on Maps. Due to this limitation, he struggles on Maps\nthat lack bushes between lanes and around important areas."
+  },
+  {
+   "title": "Dehaka's Tips and Tricks",
+   "id": "dehakas-tips-and-tricks",
+   "text": "Use Dark Swarm to walk through enemies or teammates who are in your way; however, be mindful that you cannot body-block enemies while it is active.\nDrag enemies out of position, under your turrets, or into the Abilities of your allies.\nDo not use Drag instantly when enemy gets in range for it, or they will probably dodge. We recommend walking towards the hero while weaving Basic Attacks to only use Drag when you are almost sure you are going to hit.\nMaximize your map presence by evaluating options for Brushstalker before it is off cooldown.\nTry to have Essence Collection full and available for team fights. For healing outside of team fights you can fountain or hearthstone; use Brushstalker to get back into action quickly.\nUse Isolation on important targets that are very dependent on their Abilities to survive.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Dehaka's Role in the Current Meta",
+   "id": "dehakas-role-in-the-current-meta",
+   "text": "Dehaka is a solid Offlaner with access to global\npresence and with the ability to double soak when necessary.\nDue to the dependence on bushes for Brushstalker's passive\nand active components, Dehaka is only picked on Maps where there's enough of them."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2025 (talents page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n30 Sep. 2025 (this page): Guide reviewed for the latest Balance Update.\n05 Aug. 2025 (talents page): Guide reviewed for the latest Balance Update.\n05 Aug. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n05 Aug. 2025 (this page): Guide reviewed for the latest Balance Update.\n03 May 2025 (talents page): Builds and Talents updated to ensure meta relevance.\n03 May 2025 (abilities page): Guide updated to ensure meta relevance.\n03 May 2025 (this page): Guide updated to ensure meta relevance.\n11 Dec. 2022 (talents page): Updated Apex Predator's relevance.\n09 Dec. 2021 (talents page): Talents and Builds updated after recent balance patch and meta development.\n09 Dec. 2021 (this page): Builds updated after recent balance patch and meta development.\n28 Sep. 2021 (talents page): Pack Leader description updated.\n28 Sep. 2021 (this page): Enhanced Agility build updated.\n24 Jul. 2021 (talents page): Talents and Builds Updated after recent balance patch.\n24 Jul. 2021 (this page): Guide updated after recent Balance Patch.\n05 Nov. 2020 (talents page): Talents updated after recent balance patch.\n31 Jul. 2020 (talents page): Builds and Talents updated to reflect current meta.\n31 Jul. 2020 (this page): Builds updated.\n25 May 2020 (this page): Updated Enhanced Agility Build.\n07 May 2020 (talents page): Builds and Talents updated for May 6th balance patch.\n27 Apr. 2020 (abilities page): Updated Ability descriptions and tips.\n27 Apr. 2020 (this page): Updated Introduction page to fit with recent Builds and Talents Changes.\n12 Apr. 2020 (talents page): Builds and Talents updated to reflect current meta.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n18 Apr. 2019 (talents page): Talent discussion updated to account for balance patch.\n18 Apr. 2019 (abilities page): Updated to account for balance patch. Removed references to \"Warrior\" class.\n18 Apr. 2019 (this page): Guide updated to account for balance patch. Removed references to \"Warrior\" class.\n29 Jun. 2017 (talents page): Talents page updated following June 28th balance patch.\n16 May 2017 (talents page): Talents page updated following Dehaka's rework in D.va's release patch.\n16 May 2017 (this page): Guide updated following Dehaka rework in D.Va's release patch.\n14 Dec. 2016 (this page): Moved Dehaka to the new format, following its rework in Ragnaros patch.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Dehaka's Tips and Tricks",
+   "id": "dehakas-tips-and-tricks",
+   "text": "Use Dark Swarm to walk through enemies or teammates who are in your way; however, be mindful that you cannot body-block enemies while it is active.\nDrag enemies out of position, under your turrets, or into the Abilities of your allies.\nDo not use Drag instantly when enemy gets in range for it, or they will probably dodge. We recommend walking towards the hero while weaving Basic Attacks to only use Drag when you are almost sure you are going to hit.\nMaximize your map presence by evaluating options for Brushstalker before it is off cooldown.\nTry to have Essence Collection full and available for team fights. For healing outside of team fights you can fountain or hearthstone; use Brushstalker to get back into action quickly.\nUse Isolation on important targets that are very dependent on their Abilities to survive."
+  },
+  {
+   "title": "Drag",
+   "id": "drag",
+   "text": "Drag\n(Q)\nDehaka\nMana: 75\nCooldown: 15 seconds\nDehaka lashes out his tongue, dealing 160 (+4% per level) damage to the first enemy hit, Stunning and dragging them with him for 1.75 seconds.\nIf Dehaka is Stunned or Silenced while using Drag, the effect ends.\nAs the name implies, Drag is a Basic Ability\nthat can be channeled to drag an enemy in a desired\ndirection. The affected unit will be Stunned for the duration,\nunless Dehaka is interrupted. Use it to pull\nenemy Heroes into danger, either under Structures or towards your team.\nWhenever someone in your team is ready to hit them, stop moving!\nThis way skillshots will not miss the target.\nWhile Drag is being channeled,\nDehaka can use Basic Attacks, Dark Swarm, and\nEssence Collection but cannot use Heroic Abilities,\nBurrow, and Brushstalker.\nDehaka ignores collision with any unit actively Stunned by\nDrag, which means it can be used to\nreposition behind the enemy to body block them\nright after the Stun effect wear off. Similarly,\nif you happen to get body blocked while Dark Swarm\nis on cooldown, you can use it to break the body block and escape.\nAlthough it is ideal to use Drag on Heroes, there\nare times when you may effectively use it in other ways. If an enemy Siege\nGiant is damaging allied Structures, you can Drag one of them into the\nStructure's range, to help you clear them faster. When not fighting,\nyou can also use it for dealing damage to Structures, Mercenaries,\nand Monsters (such as Immortals on Battlefield of Eternity).\nOf course, Drag can be\nused to kill an enemy, if they are out of range of your Basic Attacks, and on\nthe verge of death."
+  },
+  {
+   "title": "Dark Swarm",
+   "id": "dark-swarm",
+   "text": "Dark Swarm\n(W)\nDehaka\nMana: 50\nCooldown: 10 seconds\nDeal 48 (+4% per level) damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.\nDark Swarm is a Basic Ability which deals damage\nto all enemies near Dehaka over its duration and makes Dehaka able to pass through other units.\nWhile laning, it is your only waveclear tool. While fighting,\nit allows you to position freely and can deal a considerable amount of damage. Remember\nit can be cast during Drag and Burrow.\nDark Swarm makes Dehaka unable to block,\nso it should not be used when trying to body block an enemy Hero, and immune to it,\nso it should be used when an enemy Hero is trying to body block you. Compared to Drag,\nDark Swarm is superior in this function, as it will\nallow you to pass through all enemies, rather than only one. In addition,\nDark Swarm can be used more liberally than\nDrag, as it has a much lower cooldown and costs\nless Mana."
+  },
+  {
+   "title": "Burrow",
+   "id": "burrow",
+   "text": "Burrow\n(E)\nDehaka\nMana: 65\nCooldown: 20 seconds\nBurrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds. While Burrowed, Dehaka can move at 50% movement speed.\nBurrow is a Basic Ability which puts Dehaka in\nStasis, making him temporarily Invulnerable at the cost of Movement Speed.\nEssence Collection can be used while Burrowed, allowing\nthe healing over time to take effect before you resurface. Dark Swarm\ncan also be cast while Burrowed, so that you continue to deal damage while Invulnerable.\nRemember that Burrow cannot be used while\nchanneling Drag, something\nwhich makes you more vulnerable when trying to punish enemy Heroes with it.\nA good way to use Burrow is to\nbait out powerful Abilities from the enemy team, and then nullify them.\nIdeally, the Ability you choose to nullify will be something with a higher\ncooldown than Burrow (for example\nPyroblast by Kael'thas) but avoiding\nany crowd control can also be good, especially if key\nenemy Abilities are put on cooldown and/or it allows you to survive.\nBurrow can also be manually cancelled earlier,\nso enemies cannot predict the time you\nexit from Stasis and become vulnerable again.\nThis way they will not be able to time their Abilities on you\n(like a Li-Ming's combo) as you resurface.\nWhen playing against Heroes who have access to healing reduction effects,\nremember that you can use Burrow to remove them\nwhen trying to heal yourself with Essence Collection\nor right before Adaptation's healing goes off."
+  },
+  {
+   "title": "Isolation",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nIsolation\n(R)\nDehaka\nHeroic\nMana: 70\nCooldown: 60 seconds\nLaunch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, revealing, Silencing, and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.\nIsolation is a Heroic Ability that adds a second powerful\ncrowd control to Dehaka's kit, which really helps\nto increase his threat level in team fights. Whoever gets hit by it will be\nSilenced and Slowed for 3 seconds,\nand will have their vision range reduced for 6 seconds. For this reason,\nif you are using voice communication while playing against Dehaka,\nwhoever is not affected by Isolation should\nguide the victim towards a safe location, away from enemy Heroes.\nBy landing Isolation on one\ntarget and Drag on another, you can drastically tilt\na fight in your team's favour. The ability to crowd control two enemies out\nwhile dealing damage with Dark Swarm, is what makes\nDehaka such a disruptive presence for the enemy team. The threat of this\nclose range combo can sometimes zone mutliple enemies away from you,\nespecially when you have team mates with you who can punish controlled\ntargets.\nSince it has a considerable delay, Isolation should ideally be\nused as a follow-up to other crowd control\neffects or on enemy Heroes who are locked in place channeling an Ability\n(for example Mosh Pit by E.T.C.). This way you will not risk wasting it.\nA moderate Slow is often enough to make it impossible for enemy Heroes\nto dodge it, unless they have mobility tools off cooldown."
+  },
+  {
+   "title": "Adaptation",
+   "id": "adaptation",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nAdaptation\n(R)\nDehaka\nHeroic\nMana: 70\nCooldown: 60 seconds\nAfter 4 seconds, heal for 100% of the damage Dehaka took over this period.\nAdaptation is a Heroic Ability that makes you extremely hard to kill\nduring team fights or when ganked. When timed well, this Ability can effectively double\nyour Health pool. Adaptation can give the appearance that you are about to die\nbefore it heals you, which can bait out enemies as they try to\nland a killing blow.\nThe most important weakness of Adaptation is\nthe fact that it does nothing for you during the first 4 seconds. In this\ntime, you are encouraged to sustain a lot of damage, to ensure that you get\ngood value out of your Heroic Ability. If you are ignored during the 4\nseconds, it does nothing. If you are killed while it is active, it does\nnothing, with the added inconvenience of your death.\nFortunately, Dehaka has other survivability tools. If you are worried that\nincoming damage will be fatal, you may activate Burrow\nto buy the time you need for Adaptation to heal you.\nBurrow will also remove any healing reduction effect\nfrom you."
+  },
+  {
+   "title": "Essence Collection",
+   "id": "essence-collection",
+   "text": "Essence Collection\n(D)\nDehaka\nCooldown: 1 seconds\nHeal Dehaka for 29 (+4% per level) Health per stored Essence over 5 seconds. Can be cast during Drag and Burrow.\nPassive: Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying. Maximum of 50 Essence.\nEssence Collection is a Trait that can be activated\nto heal over time based on the amount of Essence stored.\nEssence are gained from nearby enemy Minions dying or from Takedowns.\nTakedowns happen when killing enemy Heroes, including enemy Heroes\nwho die nearby (within 20 range) or within 5 seconds of damaging them.\nAt 50 stacks, Essence Collection will heal you for\n60% of your maximum Health over 5 seconds. This effect is Dehaka's\nmain source of sustain, offering a huge heal over time when at full stacks.\nWhile at full stacks, Dehaka can still collect Essence for related Talent\nQuests but the stored amount for healing purposes will not increase.\nThe self-healing provided by Essence Collection\nis a huge boost to Dehaka's survivability while fighting against enemy Heroes.\nDue to the amount of time it takes to go from zero to full Essence,\nit is advisable to keep a large store of Essence available for team fights.\nIf really needed, you can use Hearthstone and then walk back to lane.\nActivating Essence Collection as soon\nas you have taken (or will immediately take) significant damage in a team\nfight will let the healing over time begin working right away. Using your\nfull stacks right before an enemy Hero dies is better than using them\nright after that happens because it allows you to store the Essence\nfrom their Takedown too, however, this optimization should not come\nat the cost of self-healing due to being almost full Health\nand taking no damage."
+  },
+  {
+   "title": "Brushstalker",
+   "id": "brushstalker",
+   "text": "Brushstalker\n(Z)\nDehaka\nCooldown: 240 seconds\nActivate to burrow to a bush on the Battleground.\nPassive: Gain 20% movement speed while in a bush and for 2 seconds after leaving.\nPassive: Gathering a Regeneration Globe reduces the cooldown of Brushstalker by 40 seconds.\nBrushstalker is a Trait which allows Dehaka to\nquickly travel from any location to a bush.\nDehaka needs about 2 seconds of channeling to dig\ninto the ground, during which he can be interrupted,\nand about 2 more seconds to emerge at the target location. Although its cooldown\nis quite high, you can reduce it by picking up Regeneration Globes.\nThis is the most defining Ability in Dehaka's kit because it makes him\na global Hero. Thanks to it, Dehaka is\nable to soak a considerable amount of Experience by staying in lane longer\nthan other Offlaners can and still arrive in time\nto important events via Brushstalker, defending\na Mercenary Camp while your team is trying to capture it, invading\na Mercenary Camp with your team, or ganking an enemy Hero.\nThe constant threat Brushstalker inflicts on the\nenemy team can be a benefit in and of itself. If enemies play too carefully\nfor you to get value from Brushstalker, your\nteam can gain more momentum over the battlefield.\nWhen Brushstalker is activated, a noise will be made\nwhich will alert enemies near your destination. If Brushstalker's\nchannel is interrupted\nby crowd control effects\nor the target location becomes completely blocked, the digging animation\nis cancelled and Brushstalker's cooldown is set to 10 seconds.\nIf the target location becomes partially blocked, Dehaka will emerge adjacent to it.\nWhen playing Dehaka, map awareness is arguably\nmore important than on many other Heroes. You will get the most value out of\nBrushstalker when you are keenly aware of what is happening\naround the battlefield. Do not be afraid to click on the Minimap and observe\nevents directly with the camera. You can gather details this way that cannot\nbe seen on the Minimap. While this is rather general gameplay advice that can\nbe applied to any Hero, Dehaka is one of few who can quickly travel vast\ndistances and therefore benefits more from knowing what is happening elsewhere."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2025: Guide reviewed for the latest Balance Update.\n05 Aug. 2025: Guide reviewed for the latest Balance Update.\n03 May 2025: Guide updated to ensure meta relevance.\n27 Apr. 2020: Updated Ability descriptions and tips.\n18 Apr. 2019: Updated to account for balance patch. Removed references to \"Warrior\" class.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Enduring Swarm (Level 1) Dehaka Dark Swarm's duration is increased by 0.5 seconds and grants 50 Spell Armor while active."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Tissue Regeneration (Level 1) Dehaka Regeneration Globes grant 10 Essence. Repeatable Quest: Every 50 Essence collected permanently increases Health Regeneration by 4, up to 40, and maximum Essence by 1, up to 10."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Enhanced Agility (Level 1) Dehaka Brushstalker's Movement Speed bonus now lasts for 4 seconds after leaving a bush. Repeatable Quest: Every 50 Essence collected permanently increases the Movement Speed bonus of Brushstalker by 2%, up to 20%."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Lurker Strain (Level 4) Dehaka Emerging from Burrow grants Dehaka Stealth for 3 seconds and knocks nearby enemies back, dealing 125 (+4% per level) damage and Slowing them by 30% for 3 seconds. Passive: Reduce the cooldown of Burrow by 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "One-Who-Collects (Level 4) Dehaka Increases Essence collected from Minions by 50%. Dark Swarm deals 40% more damage to Mercenaries."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Hero Stalker (Level 4) Dehaka Increases Essence gained from Takedowns by 100%, and gain 1 Essence for each enemy Hero hit by Dark Swarm, up to 3 at once."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Feeding Frenzy (Level 7) Dehaka Increase Drag's duration by 0.5 seconds. Gambit: Basic Attacks reduce Drag's cooldown by 1.5 seconds. Every death reduces this cooldown reduction by 0.25 seconds, up to 3 times."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Paralyzing Enzymes (Level 7) Dehaka Drag Slows the target by 40% and reduces their healing received by 50% while active and for 2 seconds after ending. Dehaka's Basic Attacks increase the duration of the healing reduction to 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Symbiosis (Level 7) Dehaka Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.4 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Isolation (Level 10) Dehaka Mana: 70 Cooldown: 60 seconds Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, revealing, Silencing, and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Adaptation (Level 10) Dehaka Mana: 70 Cooldown: 60 seconds After 4 seconds, heal for 100% of the damage Dehaka took over this period."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Ferocious Stalker (Level 13) Dehaka Dark Swarm Slows enemy Heroes by 15% for 0.75 seconds and deals 50% more damage while Brushstalker's Movement Speed bonus is active."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Primal Swarm (Level 13) Dehaka Dark Swarm causes enemies hit to lose 10 Armor for 0.75 seconds, causing them to take 10% extra damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Primal Rage (Level 13) Dehaka Gain 1.25% increased Attack Damage per Essence stored."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Elongated Tongue (Level 16) Dehaka Increase Drag range by 20%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Tunneling Claws (Level 16) Dehaka Increase movement speed while Burrowing to 120%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Pack Leader (Level 16) Dehaka Dehaka gains 40 Armor and 15% increased Attack Speed while in a bush and for 4 seconds after leaving."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Contagion (Level 20) Dehaka Isolation hits all Heroes near the first target, but it deals 60% less damage to all targets."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Change Is Survival (Level 20) Dehaka Increases Adaptation healing to 200% of the damage received and reduces the cooldown by 40 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Essence Claws (Level 20) Dehaka Dehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Apex Predator (Level 20) Dehaka Reduces Brushstalker's cooldown by 120 seconds and the cast time by 0.5 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Dehaka's Talent Build",
+   "id": "dehakas-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n✓\n?\n13\n✓\n?\n?\n16\n?\n?\n✓\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Dehaka's Talent Build Cheatsheet",
+   "id": "dehakas-talent-build-cheatsheet",
+   "text": "Brushstalker Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's Brushstalker Build provides more Movement Speed near bushes,\nmaking it easier to fight against enemy Heroes who would otherwise easily run away from you.\nThis is also Dehaka's most bush-dependent Build, so it is not ideal on all Maps.\nWhen you have the opportunity to walk into bushes,\nthe extra Movement Speed from Enhanced Agility at Level 1\nallows you to rotate faster or to reach enemy Heroes\nmore easily while fighting, and the additional damage from\nFerocious Stalker at Level 13 increases your\nwaveclear while laning and your damage output while fighting.\nEssence Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's Essence Build is designed to increase your self-sustain\nas much as possible, so that you will be able to heal yourself when needed and be in a good\nshape when joining team fights. This is also Dehaka's most versatile Build because it does not have\nany particular requirement.\nSince Tissue Regeneration at Level 1 passively heals you, you will not\nalways need to activate Essence Collection when missing some Health,\nthus allowing you to save Essence for team fights or ganks. Furthermore,\nPrimal Rage at Level 13 will empower your Attack Damage based on Essence stored.\nDark Swarm Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's Dark Swarm Build excels against Heroes reliant on Spell Damage\nand short-range or melee Heroes who tend to group within Dark Swarm's range.\nThis is also Dehaka's most durable Build, helping you to stay alive for longer in team fights.\nSymbiosis at Level 7 allows you to cast Dark Swarm\nmore often when hitting enemy Heroes. As a consequence, you will get more value from\nEnduring Swarm at Level 1 giving you Spell Armor\nand from Primal Swarm at Level 13 reducing the Armor\nof enemy Heroes.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDehaka's ARAM Build excels against Heroes reliant on Spell Damage\nand short-range or melee Heroes who tend to group within Dark Swarm's range.\nThis is also Dehaka's most durable Build, helping you to stay alive for longer in team fights.\nSymbiosis at Level 7 allows you to cast Dark Swarm\nmore often when hitting enemy Heroes. As a consequence, you will get more value from\nEnduring Swarm at Level 1 giving you Spell Armor\nand from Primal Swarm at Level 13 reducing the Armor\nof enemy Heroes."
+  },
+  {
+   "title": "Level 1 Talents for Dehaka",
+   "id": "level-1",
+   "text": "?\nEnduring Swarm\n(Level 1)\nDehaka\nDark Swarm's duration is increased by 0.5 seconds and grants 50 Spell Armor while active.\nEnduring Swarm is a situational Talent\nwhich makes Dark Swarm last a little longer,\nindirectly increasing your waveclear,\nand allows Dehaka to reduce incoming Spell Damage\nwhen using Dark Swarm.\nWhen this Talent is paired with\nSymbiosis at Level 7, it becomes easy to have\nDark Swarm\nactive most of the time during team fights because its cooldown will be reduced\nwhen hitting enemy Heroes with it.\nIf you plan to choose Adaptation as your Heroic Ability,\nsince it takes many seconds to heal you, you can pick this Talent for using it\nas a buffer for the delayed healing, to stay alive before the healing goes off.\nYou should pick this Talent when the enemy team can threaten you\nwith Spell Damage and you should avoid picking it\nwhen they mostly deal Physical Damage.\n?\nTissue Regeneration\n(Level 1)\nDehaka\nRegeneration Globes grant 10 Essence.\nRepeatable Quest: Every 50 Essence collected permanently increases Health Regeneration by 4, up to 40, and maximum Essence by 1, up to 10.\nTissue Regeneration is a good Quest-based Talent that,\nas you collect Regeneration Globes during the game, provides a large amount of passive Health\nRegeneration, so that you can heal a bit without activating Essence Collection\nand thus consuming all your Essence, and increases the amount of Essence that can be stored,\nso that you can heal more on-demand during team fights or while in danger. Last but not the least,\nevery Regeneration Globe collected will give you Essence, which is nice for preparing to fight.\nDehaka lacks access to Basic Attack mitigation Talents, so\nTissue Regeneration is a good option if you are facing\nHeroes who can poke you with Basic Attacks. While laning,\nit can also be useful against heavy harassment Heroes (for example Zagara).\nDue to the fact that it increases your maximum Essence, this Talent\nhas great synergy with Primal Rage at Level 13\nas it will increase Basic Attack damage even more.\n✔\nEnhanced Agility\n(Level 1)\nDehaka\nBrushstalker's Movement Speed bonus now lasts for 4 seconds after leaving a bush.\nRepeatable Quest: Every 50 Essence collected permanently increases the Movement Speed bonus of Brushstalker by 2%, up to 20%.\nEnhanced Agility is a strong Quest-based Talent\nthat increases your mobility near bushes.\nFirst of all, it increases the duration of Brushstalker's\nMovement Speed bonus after leaving a bush. Secondly, collecting Essence increases the Movement Speed bonus.\nSince it needs bushes, this Talent is great on Maps that feature a lot of them\nand is awful on Maps where they are scarce. The worst Maps for this Talent are\nAlterac Pass, Hanamura Temple, Volskaya Foundry,\nand Industrial District (ARAM)."
+  },
+  {
+   "title": "Level 4 Talents for Dehaka",
+   "id": "level-4",
+   "text": "✔\nLurker Strain\n(Level 4)\nDehaka\nEmerging from Burrow grants Dehaka Stealth for 3 seconds and knocks nearby enemies back, dealing 125 (+4% per level) damage and Slowing them by 30% for 3 seconds.\nPassive: Reduce the cooldown of Burrow by 2 seconds.\nLurker Strain is a good Talent that\napplies a Knockback effect and a Slow\nto enemies hit upon emerging from Burrow, and makes Dehaka\nbecome Stealthed for a few seconds, and passively reduces\nBurrow's cooldown.\nOther than for peeling and self-peeling,\nthe crowd control component of this Talent\ncan be used as a setup for Drag.\nSimply use Burrow near an enemy Hero, wait for it\nto end or reactivate it when they are in range, and then cast\nDrag towards them while they are Slowed.\nThe ability to become Stealthed is nice to have\nas it prevents enemy Heroes from hitting you with Basic Attacks until they reveal you\nwith either a non-targeted damaging Ability or an actual revealing effect\n(for example Oracle by Tassadar).\n?\nOne-Who-Collects\n(Level 4)\nDehaka\nIncreases Essence collected from Minions by 50%. Dark Swarm deals 40% more damage to Mercenaries.\nOne-Who-Collects is a good Talent that increases\nDark Swarm's damage to Mercenaries and the amount of Essence you\ncollect from Minions while laning. Normally a wave of Minions will yield\n14 Essence, but with One-Who-Collects you can gather 21\nEssence.\nWhile this Talent will not help you in team fights as much as\nHero Stalker, it will help you have more Health\nand more Essence collected before the team fight starts.\nOne-Who-Collects is mostly recommended against compositions\nwith many ranged Heroes because you will have a hard time stacking Essence\nthrough Hero Stalker.\nSince it helps you to get Essence, this Talent is a great way to reliably\nstack up Tissue Regeneration\nor Enhanced Agility at Level 1\nand completing the corresponding Quests sooner.\n?\nHero Stalker\n(Level 4)\nDehaka\nIncreases Essence gained from Takedowns by 100%, and gain 1 Essence for each enemy Hero hit by Dark Swarm, up to 3 at once.\nHero Stalker is a good Talent that gives Essence\nwhen hitting enemy Heroes with Dark Swarm\nand increases the Essence gained from Takedowns.\nTakedowns happen when killing enemy Heroes, including enemy Heroes\nwho die nearby (within 20 range) or within 5 seconds of damaging them.\nThe ability to get Essence from enemy Heroes has synergy with Primal Rage\nat Level 13 because, while fighting, you will eventually use Essence Collection\nto heal yourself, consuming all your Essence and thus losing Primal Rage's bonus."
+  },
+  {
+   "title": "Level 7 Talents for Dehaka",
+   "id": "level-7",
+   "text": "✔\nFeeding Frenzy\n(Level 7)\nDehaka\nIncrease Drag's duration by 0.5 seconds.\nGambit: Basic Attacks reduce Drag's cooldown by 1.5 seconds. Every death reduces this cooldown reduction by 0.25 seconds, up to 3 times.\nFeeding Frenzy is a strong Talent that increases\nDrag's duration and lowers its cooldown when hitting\nenemies with Basic Attacks. Keep in mind that, due to the Gambit mechanic,\nthe cooldown reduction provided will decrease when dying.\n?\nParalyzing Enzymes\n(Level 7)\nDehaka\nDrag Slows the target by 40% and reduces their healing received by 50% while active and for 2 seconds after ending. Dehaka's Basic Attacks increase the duration of the healing reduction to 2 seconds.\nParalyzing Enzymes is a situational Talent that adds\na Slow and a healing reduction effect to Drag.\nThese effects last as much as Drag plus 2 seconds, however,\nthe healing reduction effects can be extended via Basic Attacks.\nWe find this Talent useful when playing a team composition that relies\non burst damage against Heroes with high burst healing\n(for example Ancestral Healing by Rehgar).\n?\nSymbiosis\n(Level 7)\nDehaka\nEvery time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.4 seconds.\nSymbiosis is a good Talent that allows you to keep\nDark Swarm active much more, potentially through an\nentire team fight, increasing your damage output.\nThanks to the cooldown reduction effect, this Talent has synergy with\nthe following Dark Swarm-related Talents:\nEnduring Swarm at Level 1\nand Primal Swarm at Level 16."
+  },
+  {
+   "title": "Level 10 Talents for Dehaka",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nIsolation\n(Level 10)\nDehaka\nMana: 70\nCooldown: 60 seconds\nLaunch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, revealing, Silencing, and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.\nIsolation is a strong Heroic Ability that can be used\nto render an enemy Hero useless in team fights for a few seconds while trying\nto kill another Hero, or to prevent your kill target from using survivability\nor mobility tools while they are taking damage.\nYou should pick this Heroic Ability most of the time because it offers\na lot of playmaking potential. Remember to wait for someone else\nto engage and use it as a\nfollow-up, otherwise you will waste it.\n?\nAdaptation\n(Level 10)\nDehaka\nMana: 70\nCooldown: 60 seconds\nAfter 4 seconds, heal for 100% of the damage Dehaka took over this period.\nAdaptation is a situational Heroic Ability which\ncan increase your survivability when playing against team composition\nthat lack burst damage and thus cannot kill you\nduring the delay before the healing goes off.\nYou should rarely pick this Heroic Ability because it has little to no\nplaymaking potential. When affected by healing reduction effects,\nremember to use Burrow right before it ends,\nto remove the debuff before the healing goes off."
+  },
+  {
+   "title": "Level 13 Talents for Dehaka",
+   "id": "level-13",
+   "text": "✔\nFerocious Stalker\n(Level 13)\nDehaka\nDark Swarm Slows enemy Heroes by 15% for 0.75 seconds and deals 50% more damage while Brushstalker's Movement Speed bonus is active.\nFerocious Stalker is a strong Talent that adds\na moderate Slow effect to Dark Swarm\nand, when having Brushstalker's Movement Speed bonus,\ndrastically increases the damage done by Dark Swarm,\nwhich is a great boost to your waveclear.\nSince it needs bushes, this Talent is great on Maps that feature a lot of them\nand is awful on Maps where they are scarce. The worst Maps for this Talent are\nAlterac Pass, Hanamura Temple, Volskaya Foundry,\nand Industrial District (ARAM).\n?\nPrimal Swarm\n(Level 13)\nDehaka\nDark Swarm causes enemies hit to lose 10 Armor for 0.75 seconds, causing them to take 10% extra damage.\nPrimal Swarm is a good Talent which reduces\nthe Armor of enemy Heroes hit with Dark Swarm,\ncausing them to take more damage from you and the rest of your team.\nWe find this Talent good when combined with Symbiosis\nat Level 7 because the cooldown reduction provided makes it possible to keep\nDark Swarm active much more often.\n?\nPrimal Rage\n(Level 13)\nDehaka\nGain 1.25% increased Attack Damage per Essence stored.\nPrimal Rage is a good Talent that increases\nDehaka's Attack Damage based on the amount of Essence stored.\nAt 50 Essence, Basic Attacks deal 62.5% more damage.\nAt 0 Essence, this Talent does nothing.\nYou should pair this Talent with Tissue Regeneration at Level 1\nso that you will have some self-sustain outside of consuming all your Essence,\nto increase the maximum Attack Damage, and to regain Essence faster after consuming them.\nYou should also pair this Talent with One-Who-Collects\nor Hero Stalker at Level 4 to regain Essence faster\nafter consuming them. While Essence Claws at Level 20\nhas synergy with Primal Rage too, it is not mandatory."
+  },
+  {
+   "title": "Level 16 Talents for Dehaka",
+   "id": "level-16",
+   "text": "?\nElongated Tongue\n(Level 16)\nDehaka\nIncrease Drag range by 20%.\nElongated Tongue is a strong Talent that increases\nthe number of opportunities to land Drag by increasing\nits range, making running away without sidestepping less effective to avoid it.\n?\nTunneling Claws\n(Level 16)\nDehaka\nIncrease movement speed while Burrowing to 120%.\nTunneling Claws is a good Talent that adds a ton of playmaking potential to\nBurrow by increasing Dehaka's Movement Speed during its effect instead of reducing it.\nWhen in danger, this Talent helps you survive by allowing you\nto pop out from Burrow in a safer location.\nSometimes this Talent can also be used offensively, so that you can emerge\nbehind an enemy Hero and bodyblock them.\n✔\nPack Leader\n(Level 16)\nDehaka\nDehaka gains 40 Armor and 15% increased Attack Speed while in a bush and for 4 seconds after leaving.\nPack Leader is a strong Talent that\ngives a lot of Armor when in a bush\nand shortly after leaving one, something that greatly increases Dehaka's survivability\non Maps with many bushes and barely does anything on other Maps.\nWe find this Talent underwhelming when paired with Enduring Swarm\nat Level 1 because Armor does not stack.\nWe only recommend this Talent in combination with\nEnhanced Agility at Level 1.\nSince it needs bushes, this Talent is great on Maps that feature a lot of them\nand is awful on Maps where they are scarce. The worst Maps for this Talent are\nAlterac Pass, Hanamura Temple, Volskaya Foundry,\nand Industrial District (ARAM)."
+  },
+  {
+   "title": "Level 20 Talents for Dehaka",
+   "id": "level-20",
+   "text": "✔\nContagion\n(Level 20)\nDehaka\nIsolation hits all Heroes near the first target, but it deals 60% less damage to all targets.\nContagion is a strong Talent that makes\nIsolation jump to any enemy Hero near the main target\nbut it reduces the damage dealt to them (including the main target).\nThis effect can be devastating to enemy teams who fight\nclose together, or on Maps that require fighting in tight spaces. Even landing\nIsolation onto 2 enemy Heroes can win a team fight.\nThe key to using Contagion well is patience.\nWait for an opportunity to land an Isolation\nthat will hit a target that is very close to at least another enemy Hero\nor, alternatively, wait for the enemy team to engage\nand then use Isolation to counter-engage\nafter they group for dealing damage.\n?\nChange Is Survival\n(Level 20)\nDehaka\nIncreases Adaptation healing to 200% of the damage received and reduces the cooldown by 40 seconds.\nChange Is Survival is a strong Talent that drastically increases\nthe amount of healing provided by Adaptation and reduces\nits cooldown by a considerable amount.\nHealing reduction effects (for example Mortal Wound by Xul)\nare not a problem because, thanks to the cooldown reduction, you will always be able to use\nBurrow right before Adaptation's healing\ngoes off to remove them.\n?\nEssence Claws\n(Level 20)\nDehaka\nDehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence.\nEssence Claws is a decent Talent that gives you increased\nself-sustain in the form of Essence for\nEssence Collection when hitting enemy Heroes,\nand applies a Slow to your targets.\nThe ability to get Essence from enemy Heroes has synergy with Primal Rage\nat Level 13 because, while fighting, you will eventually use Essence Collection\nto heal yourself, consuming all your Essence and thus losing Primal Rage's bonus.\n?\nApex Predator\n(Level 20)\nDehaka\nReduces Brushstalker's cooldown by 120 seconds and the cast time by 0.5 seconds.\nApex Predator is a situational Talent that allows Dehaka\nto use Brushstalker, his global Ability,\nway more often. Furthermore, it slightly reduces Brushstalker's\ncast time, which may occasionally make a difference between using it in time or too late.\nWith this Talent, Dehaka can easily contest Objectives that are split or scattered\nall around the battlefield, or be able to relieve his Structures from Catapults' pressure\nin the late game. While this Talent greatly improves your macro,\nit comes at the cost of team fight power, so it is only worth picking on big Maps."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2025: Guide reviewed for the latest Balance Update.\n05 Aug. 2025: Guide reviewed for the latest Balance Update.\n03 May 2025: Builds and Talents updated to ensure meta relevance.\n11 Dec. 2022: Updated Apex Predator's relevance.\n09 Dec. 2021: Talents and Builds updated after recent balance patch and meta development.\n28 Sep. 2021: Pack Leader description updated.\n24 Jul. 2021: Talents and Builds Updated after recent balance patch.\n05 Nov. 2020: Talents updated after recent balance patch.\n31 Jul. 2020: Builds and Talents updated to reflect current meta.\n07 May 2020: Builds and Talents updated for May 6th balance patch.\n12 Apr. 2020: Builds and Talents updated to reflect current meta.\n18 Apr. 2019: Talent discussion updated to account for balance patch.\n29 Jun. 2017: Talents page updated following June 28th balance patch.\n16 May 2017: Talents page updated following Dehaka's rework in D.va's release patch.\nShow more\nShow less"
+  }
+ ]
+}

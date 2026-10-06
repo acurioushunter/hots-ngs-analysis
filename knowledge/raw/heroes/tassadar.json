@@ -1,0 +1,300 @@
+{
+ "slug": "tassadar",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/tassadar-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/tassadar-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/tassadar-talents"
+ },
+ "guide": [
+  {
+   "title": "Tassadar's Overview",
+   "id": "tassadars-overview",
+   "text": "Tassadar is a Ranged Assassin with good damage output from high range.\nAll his abilities deal AoE damage, being an excellent\nHero if enemies tend to stay close together. Force Wall\nis an interesting ability. If used well, it can be very impactful, but without proper\ncare, it can even harm your team. Even though Tassadar can get some\nTalents that improve his survivability, he is a squishy\nand immobile Hero. Without proper positioning, Tassadar will be an easy target\nfor any tank or Melee Assassin."
+  },
+  {
+   "title": "Tassadar's Strengths and Weaknesses",
+   "id": "tassadars-strengths-and-weaknesses",
+   "text": "Strengths\nPsionic Storm and Shock Ray are great waveclear tools\nHeavy AoE damage\nHigh poke range\nCan help to get pickoffs with Shock Ray's slow and Force Wall\nHas great zoning potential, being good in small choke points\nWeaknesses\nIs very squishy, and can be easily killed or ganked\nWeak against high mobility Heroes, since all his Abilities can be easily dodged.\nNo mobility outside of specific Talents\nForce Wall is hard to use and has a high Mana cost.\nWeak against crowd control, including Knockbacks, since those will cancel Shock Ray."
+  },
+  {
+   "title": "Tassadar's Talent Build Cheatsheet",
+   "id": "tassadars-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTassadar's Standard Build is an excellent approach for every game, as it provides tassadar\nwith a good mix of burst damage, resistance and sustain damage.\nAt Levels 4 and 13, there are several Talents that improve your safety.\nInduction's extra Movement Speed is excellent\nagainst Compositions with several skillshots.\nHowever, Plasma Shield is better against poke Heroes or against enemies that\nwill chase you no matter how fast you move, like Zeratul or Genji.\nAt Level 13, while Shadow Walk is excellent against divers,\nOracle gives you a very good resistance against Spell Damage.\nFurthermore, Tassadar does not need all this safety in every game. Sometimes it will be better\nto get Electric Fence and Feedback instead,\nto increase your damage and crowd control.\nAt Level 7, Arc Discharge is a good option, since it will greatly\nincrease Basic Attack range, enhancing Archon and providing good damage from\nPsionic Storm. However, the other Talents are also very\neffective. Psionic Echo adds a good burst\ndamage, which is useful to follow up\nyour Tank, but it does not enhance his\nDPS as much as Beam Alignment does.\nWe always recommend going for Twilight Archon\nhere, because this build is very dependent on Archon's Basic Attacks and having\nBeam Alignment charged.\nPsionic Storm Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTassadar's Psionic Storm Build allows Tassadar to be poking enemies from a long and safe range.\nIt may not have the same damage capabilities as a Shock Ray Build, but due to the\nlong range of all Abilities, it is a great choice if you are concerned about enemies\neasily reaching you. This build's playstyle is focused on using Psionic Storm\nfrom a long range, to then use Shock Ray in the direction the enemy is\nmoving, so that in the moment they leave Psionic Storm area, Psionic Echo\nwill spawn another one, being a great poke and harass tool.\nPsi-Infusion does not increase Tassadar's damage, but\nit enables him to be constantly poking enemies with the combo described above while also giving\nhim good Mana sustain. However, it is not necessary if the enemy team's composition do not feature\nany high range Hero, and we recommend getting Static Charge\nin that situation. The main power spike from this Build comes\nwith Psionic Echo, which greatly increases your damage output.\nAll the Talents at Level 13 can be good;\nShadow Walk can save Tassadar from divers, Oracle\ngives him a very good resistance against Spell Damage, and\nFeedback will be outstanding during Archon, being a good pick\nif you do not need the extra survivability from the other 2 Talents.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Tassadar's Synergies and Counters",
+   "id": "tassadars-synergies-and-counters",
+   "text": "Tassadar synergizes with\nTassadar relies on hitting Shock Ray, so he excels\nwith E.T.C. or Johanna, Heroes with powerful\ncrowd controls, that can easily\nsetup enemies for his Abilities. Tassadar\nalso has a hard time finishing enemies, so Assassins with high mobility\ncan be used with him in order to kill the low-Health targets.\nTassadar is countered by\nTassadar is countered by highly mobile Heroes who can easily dive or stun him.\nHis lack of mobility and low health pool turns him into an easy target for mobile Heroes,\nbeing very dependent of allies to peel him against those."
+  },
+  {
+   "title": "Tassadar's Maps",
+   "id": "tassadars-maps",
+   "text": "Tassadar's stronger maps\nTassadar's average maps\nTassadar's weaker maps\nTassadar's insane AoE damage makes him exceptional\non maps where waveclear is necessary, or on maps with\nmany choke points. However, he will not be able to fight\nin maps where objective forces him to fight outside the wave, because he will\nbe easily dived when there are no safe spots nearby."
+  },
+  {
+   "title": "Tassadar's Tips and Tricks",
+   "id": "tassadars-tips-and-tricks",
+   "text": "Shock Ray can be used from bushes or vents so enemies do not see the channeling, and consequently do not dodge it.\nShock Ray is a slow Ability, so we recommend using it to follow slows or aim it towards a target leaving Psionic Storm.\nIf your team is retreating, remember that Psionic Storm can be used to dismount pursuing enemies.\nResonance Beam is you main way to regen your mana. When it starts to run out, you can start only using Psionic Storm to clear the wave, while keeping Resonance Beam up.\nArchon can be used to peel yourself; 25% of your health as shields may save you in many situations.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Tassadar's Role in the Current Meta",
+   "id": "tassadars-role-in-the-current-meta",
+   "text": "Tassadar will be an excellent pick if your team composition needs more\nwaveclear, and will be even better when paired with\nheroes that can setup enemies for his abilities.\nTassadar's early game is different based of his Level 1 Talent. With a quest, it is better\nto focus on stacking it while clearing waves, but Psi-Infusion\nallows you to have use all your potential to speed up the waveclear to get good advantage\nin the early game. It is very important as Tassadar to be in a safe position while using\nShock Ray.\nHe will run out of Mana very easily when using both Shock Ray\nand Psionic Storm. To play around this, you can either\nbe constantly replenishing Resonance Beam or be rotating\nwith someone else, so you will only need to use Psionic Storm\nto clear the minions.\nTassadar has an excellent poke damage. It is recommended to\nuse your Abilities to reduce enemies' HP before committing to an important fight.\nSince Tassadar does not have any mechanics that favor chasing enemies, it is better\nto only use your Heroic Ability when you are sure that enemies will not be able\nto just walk away from it."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 Sep. 2025 (talents page): Talents and Builds updated to ensure meta relevance.\n02 Sep. 2025 (abilities page): Guide updated to ensure meta relevance.\n02 Sep. 2025 (this page): Builds updated to ensure meta relevance.\n31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n30 Jun. 2021 (talents page): Updated Induction's description.\n30 Jun. 2021 (this page): Builds updated to reflect meta development.\n04 Jun. 2021 (this page): Guide reviewed after May 18 balance patch and no changes are necessary.\n25 Jan. 2021 (talents page): Updated recommended Builds and Talents.\n25 Nov. 2020 (talents page): Updated Talent recommendations.\n25 Nov. 2020 (this page): Updated builds.\n29 Oct. 2020 (talents page): Guide updated after last balance patch.\n29 Oct. 2020 (abilities page): Updated Tassadar's Black Hole description.\n03 Oct. 2020 (talents page): Executor's Will's relevance updated.\n03 Oct. 2020 (this page): Updated the Shock Ray build.\n14 Sep. 2020 (this page): Guide reviewed after recent balance patch and no changes are necessary.\n16 Jul. 2020 (talents page): Guide updated after recent balance patch.\n16 Jul. 2020 (this page): Guide updated after recent balance patch.\n24 May 2020 (this page): Updated builds.\n15 Apr. 2020 (talents page): Updated Tassadar's Guide accordingly to his Rework.\n15 Apr. 2020 (abilities page): Updated Tassadar's Guide accordingly to his Rework.\n15 Apr. 2020 (this page): Updated Tassadar's Guide accordingly to his Rework.\n16 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n29 Aug. 2019 (talents page): Updated Tassadar's Talent Builds and several of his Talent priorities in accordance with the latest Balance Update.\n29 Aug. 2019 (abilities page): Updated Tassadar's ability descriptions.\n29 Aug. 2019 (this page): Updated Tassadar's introduction to reflect the current meta more accurately.\n19 Feb. 2019 (talents page): Updated Tassadar's talent builds.\n19 Feb. 2019 (this page): Updated Tassadar's introduction.\n30 Jan. 2018 (talents page): Changed Khaydarin Resonance from Recommended to Not Recommended.\n29 Jan. 2018 (talents page): Updated Khala's Light description and updated Tassadar's Talent Builds.\n03 Sep. 2017 (talents page): Changed Force Barrier from Not Recommended to Situational and updated several other talent descriptions.\n07 Aug. 2017 (this page): Removed Tassadar's Full Support build.\n06 Jul. 2017 (talents page): Updated Adun's Wisdom's description.\n06 Jul. 2017 (abilities page): Updated Tassadar's Plasma Shield description.\n09 Jun. 2017 (talents page): Changed Khala's Embrace from Not Recommended to Recommended and updated Talent Builds.\n04 May 2017 (talents page): Updated several of Tassadar's talent descriptions.\n28 Feb. 2017 (talents page): Updated Khaydarin Resonance in accordance with the latest Balance Update.\n31 Jan. 2017 (talents page): Changed some Level 7 and Level 13 talent recommendations.\n25 Jan. 2017 (this page): Guide moved to the new format and updated following the changes in Valeera's patch.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Tassadar's Tips and Tricks",
+   "id": "tassadars-tips-and-tricks",
+   "text": "Shock Ray can be used from bushes or vents so enemies do not see the channeling, and consequently do not dodge it.\nShock Ray is a slow Ability, so we recommend using it to follow slows or aim it towards a target leaving Psionic Storm.\nIf your team is retreating, remember that Psionic Storm can be used to dismount pursuing enemies.\nResonance Beam is you main way to regen your mana. When it starts to run out, you can start only using Psionic Storm to clear the wave, while keeping Resonance Beam up.\nArchon can be used to peel yourself; 25% of your health as shields may save you in many situations."
+  },
+  {
+   "title": "Shock Ray",
+   "id": "shock-ray",
+   "text": "Shock Ray\n(Q)\nTassadar\nMana: 55\nCooldown: 7 seconds\nChannel a beam of Psionic energy, dealing 280 (+4% per level) damage and Slowing enemies in a line by 30% for 2 seconds.\nShock Ray deals high damage but can be easily dodged.\nYou can use Psionic Storm and then deliver\nShock Ray in the direction the opponent is running. Since Psionic Storm is instantaneous and\nthis Ability requires a channel time, we recommend always using Psionic Storm before it in fights.\nShock Ray has a high range but it is very narrow. To use it properly for\nwaveclear, it should be used when wave is walking towards the lane,\nright before they clash into each other, proceeding with Psionic Storm to finish the job.\nMostly we do not recommend using Shock Ray to poke heroes away from enemy team, like where\nTracer or Genji would be. It is better to use it towards 2 or 3 enemies instead,\nso you will make sure it hits someone. It can also be better to keep the Ability available for\nwhen someone controls those high mobile Heroes."
+  },
+  {
+   "title": "Psionic Storm",
+   "id": "psionic-storm",
+   "text": "Psionic Storm\n(W)\nTassadar\nMana: 60\nCooldown: 8 seconds\nCreate a Psionic Storm at the targeted location for 3 seconds. While in a storm, enemies take 38 (+4% per level) damage every 0.5 seconds, increasing by 20% for each consecutive instance of damage, up to 100%.\nPsionic Storm is a very important tool during the laning phase, as\nits radius is big enough to hit an entire minion wave if placed diligently.\nWhen aiming your Psionic Storms on enemy\nMinions, make sure to place the center over the Wizard Minion (the ones that\nalso drop Regneration Globes) in order to hit the whole minion wave. Using\nPsionic Storm efficiently will save you a lot of Mana, so feel free to take\nyour time in order to practise your Psionic Storm placement, especially if you\nare not being pressured in your lane.\nDifferent Talents will apply another Psionic Storm into a location, but when 2 of those\nare over each other, only one will deal damage, therefore it is recommended to only apply the\nsecond Psionic Storm when the target will not take any more damage from the first one. However,\nthe additional damage provided by each consecutive hit will be applied to the second storm as well,\ndo not wait too long to use the second Psionic after the first one is wasted,\nor you will lose all the extra damage."
+  },
+  {
+   "title": "Force Wall",
+   "id": "force-wall",
+   "text": "Force Wall\n(E)\nTassadar\nMana: 65\nCooldown: 18 seconds\nAfter a 0.5 second delay, create a wall that blocks all units from moving through it for 2 seconds.\nForce Wall adds the ability to lock enemies in place,\nespecially in narrow choke points.\nIt can be used both offensively and defensively. If used offensively, Force Wall\ncan cut off flight paths from retreating opponents. If used defensively, it can\nsave threatened allies from enemy initiators.\nForce Wall can also be used to block your own minions.\nTassadar is a very squishy hero in the early game. If the enemy tank is playing very aggressively,\nyou will have a hard time clearing the first wave, so we recommend to use it\nin front of the first wave at the game, at around 00:03 of game time, so the wall\nis created between the Keep and the fountain, locking your minions in place for 2 seconds.\nAlthough this may seems useless, the 2 waves will meet closer to your tower, allowing you and your\nteam to easily clear it. This can be done at any state of the game, giving your team a good advantage."
+  },
+  {
+   "title": "Archon",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nArchon\n(R)\nTassadar\nHeroic\nMana: 100\nCooldown: 90 seconds\nTassadar transforms into an Archon, gaining a Shield equal to 25% of his maximum Health and empowering Resonance Beam. Lasts for 12 seconds.\nResonance Beam: Deals 140 (+4% per level) damage to the target and splashes 70 (+4% per level) damage to nearby enemies. Heroes hit have their Spell Armor reduced by 20 for 2 seconds. Resonance Beam is fully charged while Archon is active.\nUsing Archon will turn you into a powerful\ndamage dealer that is able to\nfight most Heroes straight on in a one versus one fight. Archon brings a lot of\nextra power to team fights as well. With the help of your improved Basic\nAttacks and Basic Abilities, you will be able to deal\nheavy AoE damage, while the Archon's initial shield makes you quite resilient.\nRemember to only use Archon when committing to a fight, or enemies can just walk away\nfrom it, greatly reducing the efficiency of your Heroic ability. Keep an eye out for\nsquishy and damaged targets—you will be\nsurprised how hard your basic attacks are going to hit them.\nSince Archon only lasts 12 seconds, you should try to avoid getting stunned\nor rooted so you will not lose precious seconds while you are still\ntransformed.\nArchon will also instantly charge your Resonance Beam,\nbeing an even more powerful tool when paired with Talents that are only activated\nwhen it is charged."
+  },
+  {
+   "title": "Black Hole",
+   "id": "black-hole",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nBlack Hole\n(R)\nTassadar\nHeroic\nMana: 60\nCooldown: 60 seconds\nAfter a 0.5 second cast, create a Black Hole that travels in a long line. Enemy Heroes within the Black Hole's area are quickly pulled towards its center. Touching the center deals 310 (+4% per level) damage and Stuns the target for 1.25 seconds.\nEven though Black Hole is less reliable than Archon,\nit can be very effective to follow up a good crippling Ability,\nlike Earthquake, Entomb, or Powerslide.\nHowever, it still has many flaws. Firstly, it is a slow moving heroic,\nthat can be easily be dodged. Secondly, when it hits, it will push enemies away from\nyour team and from Psionic Storm. Since it is easy to dodge,\nwe would recommend it to be used as a follow up tool, but\nunfortunately it might push enemies away, and consequently saving them. Another\ndownside is the 0.5-second cast time. Without good setup, it will\nbe hard to hit from distance, and it can be easily interrupted at close range.\nHeroes hit by the outer area are Displaced but not\nDazed. Heroes hit by the inner area are Stunned.\nStill, if you got Black Hole, the Stun provided by it can be great against\nsquishy mobile Heroes, like Zeratul or Tracer.\nWith the correct follow up, they will mostly be killed before being pushed away."
+  },
+  {
+   "title": "Resonance Beam",
+   "id": "resonance-beam",
+   "text": "Resonance Beam\n(D)\nTassadar\nCooldown: 20 seconds\nTassadar's Basic Attack is a Channeled beam that Slows by 15%. While Channeling, your Basic Attack damage and Mana regeneration increases by 25% a second, to a maximum of 100%. While at full charge, gain an extra 3 Mana every second.\nThis bonus is lost after 6 seconds of not Channeling.\nResonance Beam greatly increases his Mana\nregeneration when stacked, while also increasing\nhis Basic Attack damage. Even though the trait adds 100% of your Basic Attack as extra damage,\nwe do not recommend standing still and constantly attacking unless it is completely safe to do so.\nIt is not worth it to take 400 damage in order to deal 100 or 200 with your Basic Attack. However,\nit is good to use a single hit on a minion or on a tank every few seconds, reapplying the maximum\ncharge duration."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 Sep. 2025: Guide updated to ensure meta relevance.\n29 Oct. 2020: Updated Tassadar's Black Hole description.\n15 Apr. 2020: Updated Tassadar's Guide accordingly to his Rework.\n29 Aug. 2019: Updated Tassadar's ability descriptions.\n06 Jul. 2017: Updated Tassadar's Plasma Shield description.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Static Charge (Level 1) Tassadar Quest: Heroes hit by Shock Ray permanently increases its damage by 5 and grants 33% Resonance Beam charge. Maximum of 200 bonus damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Psi-Infusion (Level 1) Tassadar Each non-Structure enemy hit by Psionic Storm restores 0.5 Mana, increased to 5 against Heroes. Passive: Increase the cast range of Psionic Storm by 33%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Khaydarin Amulet (Level 1) Tassadar Quest: Resonance Beam charges 50% faster. Reward: After Resonance Beam has been fully charged for 80 seconds, it bounces to hit 1 additional target for 75% damage, prioritizing Heroes. Reward: After Resonance Beam has been fully charged for 160 seconds, it bounces to hit 2 additional targets for 75% damage, prioritizing Heroes."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Induction (Level 4) Tassadar Tassadar gains 10% increased Movement Speed. Casting Shock Ray increases this bonus to 30% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Electric Fence (Level 4) Tassadar Force Wall deals 92 (+4% per level) damage a second to nearby enemies and Slows them by 35%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Plasma Shield (Level 4) Tassadar While Resonance Beam is fully charged, gain a Shield equal to 3% of max Health every second, stacking up to 12%."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Beam Alignment (Level 7) Tassadar While Resonance Beam is fully charged, Shock Ray's cooldown refreshes 100% faster and its Slow duration is increased to 4 seconds. Passive: Reduce the Mana cost of Shock Ray from 55 to 40."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Psionic Echo (Level 7) Tassadar Casting Psionic Storm causes your next Shock Ray within 3 seconds to only cost 30 Mana and create a Psionic Storm on the first enemy Hero hit."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Arc Discharge (Level 7) Tassadar When Resonance Beam is fully charged, Tassadar's Basic Attack range is increased by 1 and its next instance of damage also creates a Psionic Storm on the target. This effect has a 20 second cooldown that decays twice as fast while Resonance Beam is fully charged."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Archon (Level 10) Tassadar Mana: 100 Cooldown: 90 seconds Tassadar transforms into an Archon, gaining a Shield equal to 25% of his maximum Health and empowering Resonance Beam. Lasts for 12 seconds. Resonance Beam: Deals 140 (+4% per level) damage to the target and splashes 70 (+4% per level) damage to nearby enemies. Heroes hit have their Spell Armor reduced by 20 for 2 seconds. Resonance Beam is fully charged while Archon is active."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Black Hole (Level 10) Tassadar Mana: 60 Cooldown: 60 seconds After a 0.5 second cast, create a Black Hole that travels in a long line. Enemy Heroes within the Black Hole's area are quickly pulled towards its center. Touching the center deals 310 (+4% per level) damage and Stuns the target for 1.25 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Feedback (Level 13) Tassadar When an enemy Hero is affected by Psionic Storm, Resonance Beam's Slow is increased to 50% and it reduces Physical Armor by 25."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Shadow Walk (Level 13) Tassadar Cooldown: 60 seconds Tassadar becomes Stealthed and Unrevealable, but cannot attack or use Abilities for 1.5 seconds. While this effect is active, gain 40% increased Movement Speed and 35 Armor. Can be cast while Channeling Shock Ray."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Oracle (Level 13) Tassadar Cooldown: 45 seconds Passive: While stationary, gain 30 Spell Armor for 0.75 seconds and restore 12 (+4% per level) Health a second. Activate to Channel for up to 4 seconds, revealing a gradually increasing area anywhere on the map."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Thermal Lance (Level 16) Tassadar Shock Ray deals an additional 8% of maximum Health as damage to the first Hero it hits."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Psychic Shock (Level 16) Tassadar Psionic Storm deals damage 25% faster."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Executor's Will (Level 16) Tassadar Cooldown: 40 seconds Activate to gain full Resonance Beam charge, 20% Spell Power, and cause Basic and Heroic Ability cooldowns to regenerate 25% faster. This effect lasts as long as Resonance Beam remains at full charge."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Twilight Archon (Level 20) Tassadar Basic Attacks while in Archon form increase its duration by 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Kugelblitz (Level 20) Tassadar Enemy Heroes hit by Black Hole's center have their Armor reduced by 20 for 3 seconds and have a Psionic Storm created at their location."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Force Barrier (Level 20) Tassadar Increase the duration of Force Wall by 0.5 seconds, its cast range by 50%, and reduce its cooldown by 10 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Khala's Gift (Level 20) Tassadar Gain 4% Spell Power for yourself and each nearby ally Hero, up to 20% total Spell Power. Your total bonus is shared with all contributing allies."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Tassadar's Talent Build",
+   "id": "tassadars-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n?\n✓\n7\n?\n?\n✓\n10\n✓\n?\n13\n?\n?\n✓\n16\n?\n✓\n?\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Tassadar's Talent Build Cheatsheet",
+   "id": "tassadars-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTassadar's Standard Build is an excellent approach for every game, as it provides tassadar\nwith a good mix of burst damage, resistance and sustain damage.\nAt Levels 4 and 13, there are several Talents that improve your safety.\nInduction's extra Movement Speed is excellent\nagainst Compositions with several skillshots.\nHowever, Plasma Shield is better against poke Heroes or against enemies that\nwill chase you no matter how fast you move, like Zeratul or Genji.\nAt Level 13, while Shadow Walk is excellent against divers,\nOracle gives you a very good resistance against Spell Damage.\nFurthermore, Tassadar does not need all this safety in every game. Sometimes it will be better\nto get Electric Fence and Feedback instead,\nto increase your damage and crowd control.\nAt Level 7, Arc Discharge is a good option, since it will greatly\nincrease Basic Attack range, enhancing Archon and providing good damage from\nPsionic Storm. However, the other Talents are also very\neffective. Psionic Echo adds a good burst\ndamage, which is useful to follow up\nyour Tank, but it does not enhance his\nDPS as much as Beam Alignment does.\nWe always recommend going for Twilight Archon\nhere, because this build is very dependent on Archon's Basic Attacks and having\nBeam Alignment charged.\nPsionic Storm Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTassadar's Psionic Storm Build allows Tassadar to be poking enemies from a long and safe range.\nIt may not have the same damage capabilities as a Shock Ray Build, but due to the\nlong range of all Abilities, it is a great choice if you are concerned about enemies\neasily reaching you. This build's playstyle is focused on using Psionic Storm\nfrom a long range, to then use Shock Ray in the direction the enemy is\nmoving, so that in the moment they leave Psionic Storm area, Psionic Echo\nwill spawn another one, being a great poke and harass tool.\nPsi-Infusion does not increase Tassadar's damage, but\nit enables him to be constantly poking enemies with the combo described above while also giving\nhim good Mana sustain. However, it is not necessary if the enemy team's composition do not feature\nany high range Hero, and we recommend getting Static Charge\nin that situation. The main power spike from this Build comes\nwith Psionic Echo, which greatly increases your damage output.\nAll the Talents at Level 13 can be good;\nShadow Walk can save Tassadar from divers, Oracle\ngives him a very good resistance against Spell Damage, and\nFeedback will be outstanding during Archon, being a good pick\nif you do not need the extra survivability from the other 2 Talents."
+  },
+  {
+   "title": "Level 1 Talents for Tassadar",
+   "id": "level-1",
+   "text": "✓\nStatic Charge\n(Level 1)\nTassadar\nQuest: Heroes hit by Shock Ray permanently increases its damage by 5 and grants 33% Resonance Beam charge.\nMaximum of 200 bonus damage.\n?\nPsi-Infusion\n(Level 1)\nTassadar\nEach non-Structure enemy hit by Psionic Storm restores 0.5 Mana, increased to 5 against Heroes.\nPassive: Increase the cast range of Psionic Storm by 33%.\n?\nKhaydarin Amulet\n(Level 1)\nTassadar\nQuest: Resonance Beam charges 50% faster.\nReward: After Resonance Beam has been fully charged for 80 seconds, it bounces to hit 1 additional target for 75% damage, prioritizing Heroes.\nReward: After Resonance Beam has been fully charged for 160 seconds, it bounces to hit 2 additional targets for 75% damage, prioritizing Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Static Charge will greatly increase Shock Ray's\ndamage in the late states of the game. It also gives 33% of Resonance Beam's\ncharge for each enemy hit, turning it into a great Talent when paired with\nPlasma Shield and Beam Alignment, since\nyou will be able to have it constantly charged without having to risk yourself with\nBasic Attacks. It is a great Talent to go when committing to a Shock Ray Build.\nPsi-Infusion greatly increases Psionic Storm's\nrange, while also increasing his Mana Regeneration. Psi-Infusion is not a strong Talent\nby itself, but when picked together with Psionic Echo, it will be\nvery impactful, since it will allow you to poke enemies with Storm, to then hit them with\nShock Ray, dealing an insane amount of poke damage.\nKhaydarin Amulet is a niche Talent that can be a great nuisance\nfor the opposing team, as the bounce on Basic Attacks Slows, deals considerable damage\nand constantly dismounts enemies. However, since Tassadar is a squishy\nHero, Khaydarin Amulet is not always a good choice. We recommend getting other options if enemies\ncan easily punish you with crowd control."
+  },
+  {
+   "title": "Level 4 Talents for Tassadar",
+   "id": "level-4",
+   "text": "?\nInduction\n(Level 4)\nTassadar\nTassadar gains 10% increased Movement Speed. Casting Shock Ray increases this bonus to 30% for 3 seconds.\n?\nElectric Fence\n(Level 4)\nTassadar\nForce Wall deals 92 (+4% per level) damage a second to nearby enemies and Slows them by 35%.\n✓\nPlasma Shield\n(Level 4)\nTassadar\nWhile Resonance Beam is fully charged, gain a Shield equal to 3% of max Health every second, stacking up to 12%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Induction is a very good Talent, since it compensates for the fact\nthat Shock Ray will lock you in place for 1 second. We recommend going for this Talent against\nCompositions with several skillshots, or against Heroes that will\ntarget you easily, but do not have much chase potential after the first dash,\nlike Greymane, Thrall, or Artanis.\nElectric Fence does not add any form of survivability\nor escape like the other 2 Talents in this tier do, but the damage and slow can be very\nimpactful if you do not need be concerned about dives or pokes. Eletric Fence will be great\nif enemies cannot kill you.\nPlasma Shield essentially adds a sort of\nself-sustain source for Tassadar\nas long as he keeps Resonance Beam charged. It is a great Talent with\nStatic Charge, since it will be up almost every time."
+  },
+  {
+   "title": "Level 7 Talents for Tassadar",
+   "id": "level-7",
+   "text": "?\nBeam Alignment\n(Level 7)\nTassadar\nWhile Resonance Beam is fully charged, Shock Ray's cooldown refreshes 100% faster and its Slow duration is increased to 4 seconds.\nPassive: Reduce the Mana cost of Shock Ray from 55 to 40.\n?\nPsionic Echo\n(Level 7)\nTassadar\nCasting Psionic Storm causes your next Shock Ray within 3 seconds to only cost 30 Mana and create a Psionic Storm on the first enemy Hero hit.\n✓\nArc Discharge\n(Level 7)\nTassadar\nWhen Resonance Beam is fully charged, Tassadar's Basic Attack range is increased by 1 and its next instance of damage also creates a Psionic Storm on the target.\nThis effect has a 20 second cooldown that decays twice as fast while Resonance Beam is fully charged."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Beam Alignment will slightly improve Shock Ray's Builds.\nAs long as you keep hitting Shock Ray, you will be constantly recharging Resonance Beam.\nHowever, be aware that if you miss one, it is important to use a Basic Attack once\nto refresh your Stacks.\nPsionic Echo will not only improve your Mana management, but\nwill also greatly increase your poke capabilities. After getting this Talent, you have\nto be aware that you cannot be using Shock Ray right after you used Psionic Storm. It will\nalways be better to only apply the second Psionic Storm right after the first one stops hitting\nthe target. Also, never use Shock Ray before\nPsionic Storm, since you will have to wait for it to be available\nagain to do your combo.\nArc Discharge's extra range on Basic Attacks enables\nTassadar to play in a much safer position, enhancing Archon's powers. Be aware that\nthis Talent automatically creates a Psionic Storm, and\nit may easily overlap with one that you crated. To better take value out of Arc Discharge,\nit is better to use your own Psionic Storm right when enemy leaves the one generated\nby the Talent."
+  },
+  {
+   "title": "Level 10 Talents for Tassadar",
+   "id": "level-10",
+   "text": "✓\nArchon\n(Level 10)\nTassadar\nMana: 100\nCooldown: 90 seconds\nTassadar transforms into an Archon, gaining a Shield equal to 25% of his maximum Health and empowering Resonance Beam. Lasts for 12 seconds.\nResonance Beam: Deals 140 (+4% per level) damage to the target and splashes 70 (+4% per level) damage to nearby enemies. Heroes hit have their Spell Armor reduced by 20 for 2 seconds. Resonance Beam is fully charged while Archon is active.\n?\nBlack Hole\n(Level 10)\nTassadar\nMana: 60\nCooldown: 60 seconds\nAfter a 0.5 second cast, create a Black Hole that travels in a long line. Enemy Heroes within the Black Hole's area are quickly pulled towards its center. Touching the center deals 310 (+4% per level) damage and Stuns the target for 1.25 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nArchon will turn you into a powerful\ndamage dealer that is able to\nfight most Heroes straight on in a one versus one fight. Archon brings a lot of\nextra power to team fights as well. With the help of your improved Basic\nAttacks and Basic Abilities, you will be able to deal\nheavy area of effect damage,\nwhile the Archon's initial Shield makes you quite resilient.\nRemember to only use Archon when committing to a fight, or enemies can just walk away\nfrom it, greatly reducing the efficiency of your Heroic Ability.\nEven though Black Hole is less reliable than Archon,\nit can be very effective to follow up a good crippling Ability,\nlike Earthquake, Entomb, or Powerslide.\nHowever, it still has many flaws. Firstly, it is a slow projectile,\nthat can be easily be dodged. Secondly, when it hits, it will push enemies away from\nyour team and from Psionic Storm. Since it is easy to dodge,\nwe would recommend it to be used as a follow up tool, but\nunfortunately it might push enemies away, and consequently saving them. Another\ndownside is the 0.5-second cast time. Without good setup, it will\nbe hard to hit from distance, and it can be easily interrupted at close range."
+  },
+  {
+   "title": "Level 13 Talents for Tassadar",
+   "id": "level-13",
+   "text": "?\nFeedback\n(Level 13)\nTassadar\nWhen an enemy Hero is affected by Psionic Storm, Resonance Beam's Slow is increased to 50% and it reduces Physical Armor by 25.\n?\nShadow Walk\n(Level 13)\nTassadar\nCooldown: 60 seconds\nTassadar becomes Stealthed and Unrevealable, but cannot attack or use Abilities for 1.5 seconds. While this effect is active, gain 40% increased Movement Speed and 35 Armor.\nCan be cast while Channeling Shock Ray.\n✓\nOracle\n(Level 13)\nTassadar\nCooldown: 45 seconds\nPassive: While stationary, gain 30 Spell Armor for 0.75 seconds and restore 12 (+4% per level) Health a second.\nActivate to Channel for up to 4 seconds, revealing a gradually increasing area anywhere on the map."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Feedback is a great Talent when paired with\nArchon, since the Slow will be applied for 2 seconds after hitting the\ntarget, instead of having to be standing still attacking. The Armor reduction is an\neven better bonus, that will increase the damage output from your whole team. We\nrecommend going for this Talent when enemies do not have any Heroes capable of diving\nyou.\nShadow Walk basically gives you a worse version of the old\nTassadar Ability, Dimensional Shift. Since it adds stealth instead of invulnerable,\nwe only recommend this Talent against mobile Heroes Reliant on Basic Attacks, like\nIllidan or The Butcher.\nOracle will give Tassadar much-needed\nself-sustain and\nSpell Armor. This Talent will greatly increase Tassadar's resistance against\ndamage from mages. It is important to note that you do not have to be standing still to activate\nthis Talent, but can just stop moving once each 0.75 seconds to keep it on.\nOracle can be activated to give information of any area on the battlefield, but you have to be\nstanding still while channeling."
+  },
+  {
+   "title": "Level 16 Talents for Tassadar",
+   "id": "level-16",
+   "text": "?\nThermal Lance\n(Level 16)\nTassadar\nShock Ray deals an additional 8% of maximum Health as damage to the first Hero it hits.\n✓\nPsychic Shock\n(Level 16)\nTassadar\nPsionic Storm deals damage 25% faster.\n?\nExecutor's Will\n(Level 16)\nTassadar\nCooldown: 40 seconds\nActivate to gain full Resonance Beam charge, 20% Spell Power, and cause Basic and Heroic Ability cooldowns to regenerate 25% faster. This effect lasts as long as Resonance Beam remains at full charge."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Thermal Lance can deal heavy damage to\ntanks, but since it only affects the first target hit,\nit's best paired with Beam Alignment. The cooldown\nreduction from Beam Alignment turns Tassadar into a\ntank killer and complements this talent well.\nPsychic Shock is a great Talent when picked together with other\nPsionic Storm Talents. The fact that it increases the speed in which it does damage will also\nincrease how fast consecutive hits happen, adding much more damage than the 25% mentioned in the Talent.\nExecutor's Will will slightly increase Tassadar's Abilities'\neffectiveness. It is the middle ground between Thermal Lance\n(adds good burst damage) and Psychic Shock\n(adds good sustain damage and poke damage).\nIt is a good choice with Arc Discharge at Level 7, because\nTassadar will not take as much value from the other Talents at Level 16 as he would with\nBeam Alignment or Psionic Echo."
+  },
+  {
+   "title": "Level 20 Talents for Tassadar",
+   "id": "level-20",
+   "text": "✓\nTwilight Archon\n(Level 20)\nTassadar\nBasic Attacks while in Archon form increase its duration by 2 seconds.\n?\nKugelblitz\n(Level 20)\nTassadar\nEnemy Heroes hit by Black Hole's center have their Armor reduced by 20 for 3 seconds and have a Psionic Storm created at their location.\n?\nForce Barrier\n(Level 20)\nTassadar\nIncrease the duration of Force Wall by 0.5 seconds, its cast range by 50%, and reduce its cooldown by 10 seconds.\n?\nKhala's Gift\n(Level 20)\nTassadar\nGain 4% Spell Power for yourself and each nearby ally Hero, up to 20% total Spell Power. Your total bonus is shared with all contributing allies."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Twilight Archon will make your\nArchon even more powerful than it already is. Being able to\nremain in Archon form during an entire team fight can single-handedly make the difference to\ntip balance in your team's favor.\nKugelblitz will spawn Psionic Storms Below enemies\nhit by Black Hole. The Armor reduction provided by it\nis excellent for wombo combos.\nThis is a great upgrade for Black Hole, and should be the choice\nwith it.\nForce Barrier is the most versatile Talent at Level 20.\nIt will be useful every time. It should be the pick if you are not able to deal\nmuch damage with Archon, and would like to play a bit safer.\nKhala's Gift can be a good option if your team features\nmany different Heroes Reliant on Spell Damage, but\nmostly other options will be better in normal games."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 Sep. 2025: Talents and Builds updated to ensure meta relevance.\n31 May 2025: Guide reviewed.\n30 Jun. 2021: Updated Induction's description.\n25 Jan. 2021: Updated recommended Builds and Talents.\n25 Nov. 2020: Updated Talent recommendations.\n29 Oct. 2020: Guide updated after last balance patch.\n03 Oct. 2020: Executor's Will's relevance updated.\n16 Jul. 2020: Guide updated after recent balance patch.\n15 Apr. 2020: Updated Tassadar's Guide accordingly to his Rework.\n29 Aug. 2019: Updated Tassadar's Talent Builds and several of his Talent priorities in accordance with the latest Balance Update.\n19 Feb. 2019: Updated Tassadar's talent builds.\n30 Jan. 2018: Changed Khaydarin Resonance from Recommended to Not Recommended.\n29 Jan. 2018: Updated Khala's Light description and updated Tassadar's Talent Builds.\n03 Sep. 2017: Changed Force Barrier from Not Recommended to Situational and updated several other talent descriptions.\n06 Jul. 2017: Updated Adun's Wisdom's description.\n09 Jun. 2017: Changed Khala's Embrace from Not Recommended to Recommended and updated Talent Builds.\n04 May 2017: Updated several of Tassadar's talent descriptions.\n28 Feb. 2017: Updated Khaydarin Resonance in accordance with the latest Balance Update.\n31 Jan. 2017: Changed some Level 7 and Level 13 talent recommendations.\nShow more\nShow less"
+  }
+ ]
+}

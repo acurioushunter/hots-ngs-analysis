@@ -1,0 +1,106 @@
+{
+ "name": "blackhearts-bay",
+ "source": "https://www.icy-veins.com/heroes/blackhearts-bay-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Blackheart's Bay is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Doubloons to collect from Treasure Chests\nand Mercenary Camps.\nWhenever a team pays the required amount of Doubloons, Captain\nBlackheart will use the cannons of his ghost ship to shoot at enemy Structures."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nHeroes for clearing Mercenary Camps\nHigh-tickrate damage to open Treasure Chests\nDouble Bruiser\nGlobal presence\nOfflaner who can double soak\nPoint control for Boss Camp\nSplit-push\nVision tools\nAvoid\nEffects relying on impassable terrain\nQuests to stack on Heroes\nSee our Blackheart's Bay Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-3-1",
+   "id": "formation-1-3-1",
+   "text": "The go-to formation for Blackheart's Bay is 1-3-1:\n1 Hero, the Offlaner,\ndouble-soaks the middle and top lane;\n3 Heroes collect Doubloons from Mercenary Camps and Doubloon Camps;\n1 Hero covers the bottom lane."
+  },
+  {
+   "title": "Formation 1-4",
+   "id": "formation-1-4",
+   "text": "An alternative formation for Blackheart's Bay is 4-1:\n4 Heroes rotate between the middle and the top lane;\n1 Hero, the Offlaner, covers the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or 30-40 seconds before the next Objective phase,\nstart clearing the allied Siege Camp\nand capture it slightly before the next Treasure Chest spawns.\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 0:45 minutes or 15 seconds after a wave of Minions spawned.\nRight after capturing the allied Siege Camp or whenever available,\ncapture the allied Doubloon Camp nearby.\nRight before 1:30 minutes, send multiple Heroes near the top lane\nand be ready to get Doubloons from the Treasure Chest that will spawn there.\nAt 2:00 minute or whenever available,\nstart clearing the allied Bruiser Camp and capture it as soon as possible.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 2:35 minutes or 5 seconds after a wave of Minions spawned.\nRight after capturing the allied Bruiser Camp or whenever available,\ncapture the allied Doubloon Camp.\nAfter that, whenever your team has an advantage,\nturn in Doubloons or start clearing the neutral Bruiser Camp\nand capture it as soon as possible.\nUse the time during a bombardment for capturing Mercenary Camps.\nPutting pressure on side lanes will help you turn in Doubloons when\nthe bombardment ends.\nAt 4:30-5:00 minutes and every 4:00-4:30 minutes after that, be ready to get Doubloons\nfrom the Treasure Chests that will spawn near the top, middle, and/or bottom lane.\nAfter about 10:00 minutes, whenever your team has an advantage\nwhile there is no Objective to contest, you can capture the Boss Camp\nand either push with it or use it as a distraction for paying Doubloons.\nAvoid doing it earlier if you do not have a dedicated team composition."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Blackheart's Bay has a total of 10 Mercenary Camps:\n1 Boss Camp (red icon) in the top lane;\n2 Bruiser Camps (blue icon) in the top lane;\n2 Doubloon Camps (orange icon) between the top and the middle lanes;\n2 Doubloon Camps (orange icon) between the middle and the bottom lanes;\n2 Siege Camps (green icon) in the bottom lane;\n1 Bruiser Camp (blue icon) in the bottom lane.\nMercenary Camps on Blackheart's Bay are always active,\neven when Treasure Chests are up or during a bombardment.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Doubloon Camp",
+   "id": "doubloon-camp",
+   "text": "This type of Mercenary Camp features 2 Skeletal Pirates.\nThey are part of the Map Objective and do not go in lane.\nOnce captured, you will get 2 Doubloons from it.\nSpawn Time\nRespawn Delay\n0:30 minutes\n2:30 minutes after its last capture\nBaseline Experience\nExperience Scaling\n200 Experience\n+2 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nYou should clear these Camps on cooldown in order to get as many Doubloons as possible.\nThey are extremely easy to kill, so any Hero can solo them in a reasonable time."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Siege Giants. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nOn this Map, you will also get 2 Doubloons from it.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n280 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nInstead of attacking enemies with Basic Attacks, Siege Giants throw stones at them.\nThese stones can be dodged, so it is possible to capture them without taking any damage.\nOnce captured, they are capable of damaging enemy Structures without getting in their range.\nSiege Giants deal 100% bonus damage to Structures."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 3 Knights and 1 Wizard. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nOn this Map, you will also get 2 Doubloons from it.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n450 Experience\n+9 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nRight after being captured and while in lane, the Wizard creates a Spell Armor field\naround him which reduces some of the damage taken by Minions, Mercenaries, and Heroes within range.\nAvoid fighting the enemy team if they still have a Wizard helping them!"
+  },
+  {
+   "title": "Boss Camp",
+   "id": "boss-camp",
+   "text": "This type of Mercenary Camp features 1 Grave Golem. Once captured,\nit spawns the same unit fighting for your team in the corresponding lane.\nWhen possible, push with it to get more value.\nOn this Map, you will also get 2 Doubloons from it.\nSpawn Time\nRespawn Delay\n5:00 minutes\n5:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n750 Experience\n+10 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nWhile in combat, the Grave Golem will use Mega Smash (10-second cooldown)\nto damage and Stun all enemies in melee range\nand Binding Roots (15-second cooldown) to damage\nand Root enemies who get hit by them.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Watch Towers",
+   "id": "watch-towers",
+   "text": "Blackheart's Bay features 2 Watch Towers: they are located between\nthe middle and the bottom lane, providing vision in the area that\nleads to Captain Blackheart, where Heroes go to turn in Doubloons.\n\nSecuring a Watch Tower provides your team with greater vision,\nallowing you to keep an eye on enemy movements in that part of the battlefield.\nWatch Towers can be captured by standing in the area until your team gains control.\nAfter 45 seconds of not being occupied, they become neutral again. Because of this,\nthey should only be captured when you are playing in that area for other reasons\n(either to capture Mercenary Camps or for contesting the Objective).\nWatch Towers controlled by the enemy team are extremely dangerous,\nespecially when there are bushes nearby, therefore you should think twice\nbefore contesting them. If you do not have mobility tools at your disposal\nand your teammates are not nearby to help you, you should definitely not try\nto capture a Watch Tower as you will only risk dying for no reason.\nStaying alive is more important than getting vision."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Blackheart's Bay consists of Doubloons.\nHeroes can pay Captain Blackheart in the middle of the\nbattlefield to get his assistance. Each payment requires 8 Doubloons,\nplus 2 Doubloons for each time that team paid during the game.\nIn order to pay, Heroes have to channel for 5 seconds.\nAs soon as a bombardment ends, it is possible to pay again.\nSpawn Time\nRespawn Delay\n1:30 minutes\n3:00 minutes after the Chests are destroyed (paused while Cannonballs are being fired)\n\nCollect Doubloons\nAttack treasure chests, mercenaries, and skeletons to collect doubloons.\nTurn in Doubloons\nHand your doubloons over to Blackheart or you will drop them all when you die!\nBombard Your Enemies\nAfter receiving enough doubloons from your team, Blackheart will bombard your enemy's forts!"
+  },
+  {
+   "title": "Treasure Chests",
+   "id": "treasure-chests",
+   "text": "The amount of Treasure Chests per Objective phase goes up during the game:\nthe first time there is only 1 Treasure Chest (always near the top lane),\nthen there are 2 Treasure Chests for 3 times in a row,\nand then there are 3 Treasure Chests for the rest of the game.\nThe best Heroes for opening Treasure Chests are the ones\nwho can hit them multiple times in a couple of seconds:\nAlexstrasza, using Flame Buffet;\nAna, using Basic Attacks;\nArthas, using Frozen Tempest;\nAzmodan, using All Shall Burn;\nBlaze, using Oil Spill\nfollowed by Flame Stream to Ignite it;\nDeathwing, using Lava Burst\nand/or Molten Flame;\nDehaka, using Dark Swarm;\nDiablo, using Fire Stomp;\nD.Va, using Mech's Basic Attacks;\nFalstad, using Lightning Rod;\nGenji, using Basic Attacks and/or Shuriken;\nGul'dan, using Drain Life\nand/or Corruption;\nHogger, using a well-placed Hogg Wild;\nKharazim, using Deadly Reach;\nKel'Thuzad, using Death and Decay;\nLucio, using Basic Attacks;\nLunara, using Basic Attacks;\nMei, using Blizzard;\nNazeebo, using Corpse Spiders;\nQhira, using Carnage;\nStitches, using Basic Attacks;\nStukov, using Lurking Arm;\nSylvanas, using Withering Fire\nand/or Shadow Dagger;\nTassadar, using Basic Attacks\nand/or Psionic Storm;\nTracer, using Basic Attacks;\nTychus, using Basic Attacks;\nZarya, using Basic Attacks."
+  },
+  {
+   "title": "Doubloons",
+   "id": "doubloons",
+   "text": "Doubloons should preferably be collected by Heroes with mobility\nbecause those Heroes can easily escape from unwanted team fights to protect Doubloons\nfrom being lost upon death (only half of them, rounded down) and then being collected by enemy Heroes.\nHere is a breakdown of all ways to collect Doubloons:\nTreasure Chests contain 5 Doubloons;\nDoubloon Camps have 2 Doubloons;\nMercenary Camps have 2 Doubloons."
+  },
+  {
+   "title": "Bombardment",
+   "id": "bombardment",
+   "text": "A successful payment results in 12 Cannonballs being fired over 40 seconds.\nCannonballs deal 3000 damage (not scaling) directly to Structures and 375 splash damage\n(not scaling) to everything in a small radius around the impact.\nKeeps and Core take 20% less damage from Cannonballs.\nBombardments prioritize the top lane, the bottom lane, and then the middle lane.\nFort-level Structures are targeted before Keep-level Structures.\nForts and Keeps will only be targeted if the respective\nTowers and Gates have been destroyed. Cores will only be targeted\nif all Towers, Gates, Forts, and Keeps have been destroyed.\nIn the early game, bombardments will deal almost\nenough damage to destroy a Fort even if nearby Towers and Gate are still up.\nTo make sure the Fort falls, you need to destroy 1 Tower before paying,\nso before Captain Blackheart starts bombarding enemy Structures.\nIn the late game, if the only Structure\nleft is the Core with 100% Health and 100% Shield, a bombardment\nwill bring it down to around 19% Health remaining.\nTo make sure the Core falls, you should attack it with as many Heroes\nas possible to deal the rest of the damage needed\nbefore its Shield starts regenerating."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 4 seconds, the Core will shoot a Cannonball at 2 nearby enemy Heroes,\ndealing 5% maximum Health as damage, Slowing them by 70%\nfor 1.5 seconds, and Knocking them back."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Blackheart's Bay, you should count on\nany of the following win conditions:\nMap Objective,\nBoss Camp,\nSplit-push."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "On this Map, due to the Objective being always active,\nyou can use the Healing Fountain on cooldown\ninstead of saving it for when the Objective spawns.\nUse effects that can deal damage multiple times in a couple of seconds\nto quickly open Treasure Chests and have an allied Hero near them\nto pick up the Doubloons as they fall on the ground.\nEvery time you have 5 Doubloons or more, pay to avoid\nlosing them upon death (only half of them, rounded down).\nDoubloons that fall on the ground do not disappear\nand can be picked up by enemy Heroes too, causing your team to\ntake more damage on Structures throughout the game.\nYou can press Tab to see who has the highest amount of Doubloons among enemy Heroes.\nUse that information to not let that Hero pay while your team does\nor to kill them when no other enemy Heroes are nearby to pick up their lost Doubloons.\nThe first Objective will almost deal enough damage to take down 2 Towers, 1 Gate,\nand 1 Fort. To make sure the Fort falls, you need to destroy 1 Tower before paying,\nso before Captain Blackheart starts bombarding enemy Structures.\nDo not fight unless the enemy team has way more Doubloons than you\nand your team has an advantage,\nor they are doing a game-winning play (turning in Doubloons,\ncapturing a Boss Camp when you\nno longer have a top Keep, or going Core).\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n24 Apr. 2026: Guide updated for the latest Map Updates.\nMap Objective section updated.\n14 Feb. 2026: Guide updated for the latest Map Updates.\nWatch Towers section updated.\n26 Dec. 2025: Guide reviewed.\nMap Objective section updated.\nTips and Tricks section updated.\n16 Dec. 2025: Guide updated for the latest Map Updates.\nMap Objective section updated.\nTips and Tricks section updated.\n05 Dec. 2025: Guide updated for the latest Hotfix.\nMap Objective section updated.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\nWatch Towers section updated.\nMap Objective section updated.\nTips and Tricks section updated.\n25 Aug. 2025: Guide reviewed.\n22 Nov. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

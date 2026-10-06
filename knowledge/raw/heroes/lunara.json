@@ -1,0 +1,320 @@
+{
+ "slug": "lunara",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/lunara-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/lunara-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/lunara-talents"
+ },
+ "guide": [
+  {
+   "title": "Lunara's Overview",
+   "id": "lunaras-overview",
+   "text": "Lunara is a Ranged Assassin who relies on her high\nMovement Speed and damage over time abilities to fight her enemies from a large\ndistance. She combines the ability to grant vision to her team with strong\nBasic Attacks and outstanding maneuverability, especially during the later stages\nof the game. As most ranged Assassins, she requires good positioning and\nmap awareness in order to unfold her true\nstrength. Lunara is a challenging Hero to master, however, she is a very\nrewarding Assassin, capable of having a massive impact on team fights and\nskirmishes."
+  },
+  {
+   "title": "Lunara's Strengths and Weaknesses",
+   "id": "lunaras-strengths-and-weaknesses",
+   "text": "Strengths\nStrong sustain DPS in teamfights\nGood PvE ability with dedicated Talents\nVery mobile due to Trait\nWeaknesses\nSusceptible to crowd control\nFairly high learning curve\nNo real burst damage\nRequires good positioning"
+  },
+  {
+   "title": "Lunara's Talent Build Cheatsheet",
+   "id": "lunaras-talent-build-cheatsheet",
+   "text": "Noxious Blossom Build\nRecommended\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLunara's Noxious Blossom Build turns her into a sort of hybrid damage class. Your main focus should be\nkeeping up stacks through Basic Attacks thus activating the damage portion of Choking Pollen to\ndeal some great burst damage.\nStandard Auto Attack Build\nBeginner\nLevel 1\n?\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Standard Auto Attack Build is where Lunara shines the brightest. Focusing on\nenhancing her auto attack damage, Lunara can quickly stack up Nature's Toxin, activating\nChoking Pollen's extra damage. After level 16, Lunara\ncan shred tanks through Invigorating Spores.\nNature's Toxin Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Nature's Toxin Build enhances Lunara's trait damage. Focus on stacking up\nher poison on all enemies rewards you greatly once at 3 stacks, slowly withering the enemies down.\nLeaping Strike is the most viable Heroic ability due to the small burst damage it has and also\nallows you to stick on a target in case they were to flee.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe ARAM Build enhances Lunara's trait damage.\nFocus on stacking up her poison on all enemies, as it rewards you greatly while at 3 stacks,\nslowly withering the enemies down. Leaping Strike is the most viable Heroic ability due to the small burst damage\nit has and also allows you to stick on a target in case they were to flee.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Lunara's Synergies and Counters",
+   "id": "lunaras-synergies-and-counters",
+   "text": "Lunara synergizes with\nLunara works with a variety of different Heroes and team compositions, however,\nshe truly shines if paired with crowd control heavy Heroes such as\nArthas, Jaina,\nor Muradin who all provide plenty of Slow for\nLunara's Unfair Advantage talent at Level 16 to get value from.\nLunara is countered by\nLunara gets countered by two things: mobile Assassins like Illidan\nor Genji that can chase her down even after\nshe used Leaping Strike and strong AoE healing provided by Healers like\nMalfurion or Stukov who can shut down\nNature's Toxin's poison damage."
+  },
+  {
+   "title": "Lunara's Maps",
+   "id": "lunaras-maps",
+   "text": "Lunara's stronger maps\nLunara's average maps\nLunara's weaker maps\nLunara performs quite well on most maps with the exception of\nWarhead Junction where the fact that Lunara cannot use a mount causes her\nto feel very clunky and slow. On Battlefield of Eternity, however, Lunara feels\neven more powerful than on other battlegrounds thanks to her Level 4 talent\nNature's Culling, which allows her to inflict heavy damage\nonto enemy Immortals."
+  },
+  {
+   "title": "Lunara's Tips and Tricks",
+   "id": "lunaras-tips-and-tricks",
+   "text": "The fact that Lunara cannot use a mount is a both blessing and curse. In team fights, make sure to use your increased Movement Speed to kite enemy Heroes. Out of combat, do not forget about informing your allies about your position during rotations if you are falling behind.\nLeaping Strike is a great escape mechanism against hard-engaging Tanks and melee Assassins like Illidan or Muradin.\nLunara's efficiency sometimes depends on the type of Healer Hero the enemy team chose during draft. While she counters single-target Healers like Lt. Morales or Uther, her AoE damage over time gets countered by strong AoE Healers like Stukov or Malfurion.\nOn larger maps, Hippity Hop allows Lunara to rotate as fast as any mounted Hero, which greatly helps her to stay close to her allies.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Lunara's Role in the Current Meta",
+   "id": "lunaras-role-in-the-current-meta",
+   "text": "Lunara shines when she is able to stack and spread\nNature's Toxin on multiple targets undisturbed. Thus,\nkeeping her poison active should become her primary goal. Fortunately,\nabilities like Noxious Blossom and\nCrippling Spores can help out greatly in that regard.\nCrippling Spores, in particular, can be used to instantly refresh the duration\nof Nature's Toxin and also slows each affected enemy.\nAlthough Lunara's Heroic Abilities are quite easy to understand, it is\nextremely important to know when to use them.\nThornwood Vine adds a fairly reliable source of\nadditional AoE damage and also allows Lunara to control her\nNature's Toxin stacks more efficiently.\nLeaping Strike, on the other hand, focuses more on\nmobility and repositioning. As such, you should carefully assess your own and\nthe enemy team composition and then decide which ability to pick at Level\n10."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "21 May 2025 (talents page): Updated builds.\n21 May 2025 (this page): Updated builds.\n30 Sep. 2024 (this page): ARAM Build updated\n26 Sep. 2023 (this page): ARAM Build added.\n20 Jun. 2022 (this page): Updated builds\n12 Dec. 2021 (talents page): Updated level 13 talents.\n12 Dec. 2021 (this page): Updated level 13 talents.\n30 Aug. 2021 (this page): Talents have been updated in builds.\n01 Jun. 2021 (talents page): Talents have been updated.\n01 Jun. 2021 (this page): Guide has been updated with new builds.\n09 Nov. 2020 (talents page): Guide has been reviewed and no changes are needed.\n09 Nov. 2020 (this page): Guide has been reviewed and no changes are needed.\n02 Jul. 2020 (talents page): Guide has been reviewed and no changes are needed.\n02 Jul. 2020 (abilities page): Guide has been reviewed and no changes are needed.\n02 Jul. 2020 (this page): Guide has been reviewed and no changes are needed.\n05 Dec. 2019 (this page): Added a note regarding this seasons Anomaly.\n25 Jul. 2019 (talents page): Updated Lunara's talents.\n25 Jul. 2019 (abilities page): Reviewed Lunara's Abilities section.\n25 Jul. 2019 (this page): Guide updated.\n23 May 2018 (talents page): Updated Lunara's talents in accordance with her most recent rework.\n23 May 2018 (abilities page): Updated Lunara's abilities in accordance with her most recent rework.\n16 Jan. 2018 (this page): Guide moved to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Lunara's Tips and Tricks",
+   "id": "lunaras-tips-and-tricks",
+   "text": "The fact that Lunara cannot use a mount is a both blessing and curse. In team fights, make sure to use your increased Movement Speed to kite enemy Heroes. Out of combat, do not forget about informing your allies about your position during rotations if you are falling behind.\nLeaping Strike is a great escape mechanism against hard-engaging Tanks and melee Assassins like Illidan or Muradin.\nLunara's efficiency sometimes depends on the type of Healer Hero the enemy team chose during draft. While she counters single-target Healers like Lt. Morales or Uther, her AoE damage over time gets countered by strong AoE Healers like Stukov or Malfurion.\nOn larger maps, Hippity Hop allows Lunara to rotate as fast as any mounted Hero, which greatly helps her to stay close to her allies."
+  },
+  {
+   "title": "Noxious Blossom",
+   "id": "noxious-blossom",
+   "text": "Noxious Blossom\n(Q)\nLunara\nMana: 60\nCooldown: 8 seconds\nAfter 0.5 seconds, cause an area to explode with pollen dealing 160 (+4% per level) damage.\nNoxious Blossom is a solid ability to spread your\nfirst stacks of Nature's Toxin with from a safer distance,\nsince its casting range is larger than your normal Basic Attack range. It is\nalso a very useful tool to scout vision obscured terrain before facechecking it."
+  },
+  {
+   "title": "Crippling Spores",
+   "id": "crippling-spores",
+   "text": "Crippling Spores\n(W)\nLunara\nMana: 50\nCooldown: 10 seconds\nEnemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are Slowed by 40%, decaying over 3 seconds.\nKnowing when to use Crippling Spores efficiently is\none of the most important things to master when playing Lunara. This ability is\nthe key to enable powerful late-game damage\ngranted by Unfair Advantage at Level 16.\nIf a team fight goes well, feel\nfree to use it early in order to maximise your damage. If the fight does not go\nwell, try to utilise Crippling Spores' slow effect to keep enemy Tanks and\nmelee Assassins away from you."
+  },
+  {
+   "title": "Wisp",
+   "id": "wisp",
+   "text": "Wisp\n(E)\nLunara\nCooldown: 30 seconds\nSpawn a Wisp to scout an area. Can be redirected once active. When the Wisp is in a bush for more 2 seconds, its vision radius is increased by 75%. Lasts 45 seconds.\nLunara is not an easy Hero to master since she requires great positioning and\nquite a lot of multi-tasking. Consequently, Wisp sometimes\nbecomes an underrated ability, which many players seem to forget about at some point during\nthe game. However, Wisp turns out to have a significant impact on the game since\nit provides a lot of useful vision on your enemy team if placed wisely. Thus,\nalways try to keep Wisp on cooldown and remember that\nis has a global casting range."
+  },
+  {
+   "title": "Thornwood Vine",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nThornwood Vine\n(R)\nLunara\nHeroic\nMana: 35\nCharges: 3\nRecharge Time: 15 seconds\nSend forth vines that deal 184 (+4% per level) damage to all enemies in a line.\nStores up to 3 charges.\nOne of Lunara's biggest strengths is the fact that both of her Heroic Abilities\ncan be used to great effect. Thornwood Vine is an excellent\nlong-range poking ability, which applies Nature's Toxin\nto each enemy it hits. Due to the relatively short cooldown of 15 seconds per\ncharge, Thornwood Vine can be used to clear Minion waves as well, which makes it\na formidable Ability on maps like Dragon Shire or Tomb of the Spider Queen, where\npushing and de-pushing lanes is crucial."
+  },
+  {
+   "title": "Leaping Strike",
+   "id": "leaping-strike",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nLeaping Strike\n(R)\nLunara\nHeroic\nMana: 50\nCharges: 2\nRecharge Time: 20 seconds\nLeap over an enemy, Slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage.\nStores up to 2 charges.\nMobility is of the essence when playing a fragile ranged Assassin like Lunara.\nThus, Leaping Strike proves to be a very important asset\nto her kit, especially if you choose to play a Basic Attack oriented talent Build.\nHowever, Leaping Strike does not only provide Lunara with a powerful engage and\ndisengage mechanic, it also deals a significant amount of damage and Movement Speed\nslow to its target, which makes it a strong finishing ability.\nKeeping track of your target's positioning is important when using\nLeaping Strike, since it will always place Lunara behind\nher target in a straight line. Thus, you should avoid using it if the entire\nenemy team is still located behind your target. Instead, wait until a team fight\nhas erupted and the enemy team has spread out. Keep in mind that Leaping Strike\ncan also be used on Structures, which makes it a great escape mechanism if you\nget caught too deep inside the enemy team's base."
+  },
+  {
+   "title": "Nature's Toxin",
+   "id": "natures-toxin",
+   "text": "Nature's Toxin\n(D)\nLunara\nPassive\nLunara's Basic Attacks and damaging Abilities poison their target, dealing 33 (+4% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.\nNature's Toxin is a strong damage over time trait, which\nallows Lunara to poison multiple enemies at the same time using her Basic Attacks and\ndamaging abilities. Experienced Lunara players usually try to stack Nature's Toxin as\nquickly as possible and maintain the stacks active using\nCrippling Spores to refresh their duration.\nStealthed Heroes like Nova, Valeera, or Zeratul,\nin particular, can be kept visible\nthanks to Nature's Toxin, as its poison damage prevents\nthem from re-stealthing."
+  },
+  {
+   "title": "Dryad's Swiftness",
+   "id": "dryads-swiftness",
+   "text": "While Dryad's Swiftness causes Lunara to be one of the most mobile Heroes\nduring team fights, it can also cause her to fall behind her teammates when\ncovering large distances around the map. Thus, we strongly recommend using\nany means of communication (voice chat, ingame ping notifications, or chat messages for instance)\nto alert your allies if you need more time to catch up to them.\nLunara's Level 20 talent called Galloping Gait adds an\nincredibly powerful activatable component to Dryad's Swiftness, which allows\nher to outrun any other Hero in the game. Use it to escape dangerous situations,\nto rush to your allies' aid in time, or to chase down retreating enemies."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 Jul. 2020: Guide has been reviewed and no changes are needed.\n25 Jul. 2019: Reviewed Lunara's Abilities section.\n23 May 2018: Updated Lunara's abilities in accordance with her most recent rework.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Sentinel Wisp (Level 1) Lunara After remaining in a bush for 5 seconds, Wisp's vision radius is increased by 200% and reveals the surrounding area."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Natural Perspective (Level 1) Lunara Nature's Toxin reveals enemies for its duration."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Hippity Hop (Level 1) Lunara After not Basic Attacking or taking damage for 2 seconds, increase the Move Speed bonus of Dryad's Swiftness by 10%."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Blossom Swell (Level 4) Lunara Increases Noxious Blossom's cast range by 25%. and its radius by 20%. Blossom Swell applies 1 additional stack of Nature's Toxin to enemies hit."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Nature's Culling (Level 4) Lunara Increases Nature's Toxin's damage by 125% to non-Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Siphoning Toxin (Level 4) Lunara While at least one enemy is afflicted by Nature's Toxin, heal for 9 (+4% per level) per second. When an enemy Hero has 3 stacks of Nature's Toxin, increase this healing by 19 (+4% per level) per second."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Splintered Spear (Level 7) Lunara Casting Noxious Blossom grants Lunara 3 stacks of Splintered Spear. When Lunara uses her Basic Attack, it hits an additional enemy for each stack of Splintered Spear, consuming 1 stack for each target. Stores up to 3 stacks. Splintered Spear deals 90 (+4% per level) damage, and applies Nature's Toxin."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Choking Pollen (Level 7) Lunara Noxious Blossom deals 100% more damage to enemies afflicted by Nature's Toxin, increased to 175% against enemies with 3 stacks."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Wild Vigor (Level 7) Lunara Using Crippling Spores increases the damage of Lunara's next 4 Basic Attacks by 70%."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Thornwood Vine (Level 10) Lunara Mana: 35 Charges: 3 Recharge Time: 15 seconds Send forth vines that deal 184 (+4% per level) damage to all enemies in a line. Stores up to 3 charges."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Leaping Strike (Level 10) Lunara Mana: 50 Charges: 2 Recharge Time: 20 seconds Leap over an enemy, Slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Endless Spores (Level 13) Lunara Casting Crippling Spores while at least 2 Heroes are afflicted by Nature's Toxin reduces the cooldown by 4 seconds and refunds 50 Mana."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Let Them Wither (Level 13) Lunara Increases Crippling Spores' Slow duration by 1 second and causes it to no longer decay."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Greater Spell Shield (Level 13) Lunara Every 30 seconds, gain 75 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 75%. Can be toggled to allow or prevent this talent from triggering automatically."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Abolish Magic (Level 13) Lunara Cooldown: 20 seconds Target an ally to remove all damage over time and disabling effects from them and Lunara. For 2 seconds after, the duration of disabling effects is reduced by 50%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Accelerated Contamination (Level 16) Lunara Reduce the Mana cost of Noxious Blossom from 60 to 40. While at least 1 enemy Hero is afflicted with Nature's Toxin, Noxious Blossom's cooldown recharges 75% faster."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Star Wood Spear (Level 16) Lunara Increase Lunara's Basic Attack range by 0.5. Using Crippling Spores increases Lunara's Basic Attack range by an additional 2.25 for 6 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Invigorating Spores (Level 16) Lunara Crippling Spores grants 30% Attack Speed for 6 seconds. Basic Attacks against enemy Heroes with 3 stacks of Nature's Toxin deal damage equal to 1.5% of their maximum Health."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Unfair Advantage (Level 16) Lunara Nature's Toxin deals 60% more damage to Heroes that are Slowed, Rooted, or Stunned."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "For the Wildlands (Level 20) Lunara Thornwood Vine shoots 4 additional vines in an arc."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Boundless Stride (Level 20) Lunara All Leaping Strike charges are returned every 15 seconds. Leaping Strike can be used on allies."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Forest's Wrath (Level 20) Lunara Mana: 35 Charges: 3 Recharge Time: 15 seconds Lunara's Heroic Ability applies 1 additional stack of Nature's Toxin to enemies, and its range is increased by 30%. Passive: Increase Lunara's vision radius by 35%."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Intensifying Toxin (Level 20) Lunara At 3 stacks, Nature's Toxin deals 40% more damage."
+   },
+   {
+    "slot": 5,
+    "marker": "maybe",
+    "text": "Galloping Gait (Level 20) Lunara Activate to increase the Movement Speed bonus of Dryad's Swiftness to 80% for 6 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Lunara's Talent Build",
+   "id": "lunaras-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n?\n✓\n7\n✓\n✓\n?\n10\n✓\n✓\n13\n?\n✓\n?\n?\n16\n?\n?\n✓\n✓\n20\n✓\n?\n✓\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Lunara's Talent Build Cheatsheet",
+   "id": "lunaras-talent-build-cheatsheet",
+   "text": "Noxious Blossom Build\nRecommended\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLunara's Noxious Blossom Build turns her into a sort of hybrid damage class. Your main focus should be\nkeeping up stacks through Basic Attacks thus activating the damage portion of Choking Pollen to\ndeal some great burst damage.\nStandard Auto Attack Build\nBeginner\nLevel 1\n?\n?\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Standard Auto Attack Build is where Lunara shines the brightest. Focusing on\nenhancing her auto attack damage, Lunara can quickly stack up Nature's Toxin, activating\nChoking Pollen's extra damage. After level 16, Lunara\ncan shred tanks through Invigorating Spores.\nNature's Toxin Build\nSituational\nLevel 1\n?\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Nature's Toxin Build enhances Lunara's trait damage. Focus on stacking up\nher poison on all enemies rewards you greatly once at 3 stacks, slowly withering the enemies down.\nLeaping Strike is the most viable Heroic ability due to the small burst damage it has and also\nallows you to stick on a target in case they were to flee.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe ARAM Build enhances Lunara's trait damage.\nFocus on stacking up her poison on all enemies, as it rewards you greatly while at 3 stacks,\nslowly withering the enemies down. Leaping Strike is the most viable Heroic ability due to the small burst damage\nit has and also allows you to stick on a target in case they were to flee."
+  },
+  {
+   "title": "Level 1 Talents for Lunara",
+   "id": "level-1",
+   "text": "✓\nSentinel Wisp\n(Level 1)\nLunara\nAfter remaining in a bush for 5 seconds, Wisp's vision radius is increased by 200% and reveals the surrounding area.\n?\nNatural Perspective\n(Level 1)\nLunara\nNature's Toxin reveals enemies for its duration.\n?\nHippity Hop\n(Level 1)\nLunara\nAfter not Basic Attacking or taking damage for 2 seconds, increase the Move Speed bonus of Dryad's Swiftness by 10%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Sentinel Wisp provides an incredible amount of vision\nand stealth-detection as long as the Wisp remains hidden in a bush. This can be\nused to secure Objectives or to scout out the enemy team.\nNatural Perspective is a very useful Talent, which\nallows you to follow the enemy team's movements and warns you in time, should\nenemies try to engage on you. Keep in mind that it also makes landing\nskillshots for your allies a lot easier, since the\nvision from Natural Perspective enables them to predict the movement paths of\ntheir targets.\nHippity Hop offers a significant Movement Speed boost which allows Lunara\nto rotate around the battlefield much more quickly. This prevents her\nfrom getting caught out of position and allows her to follow up\non her teammates more easily."
+  },
+  {
+   "title": "Level 4 Talents for Lunara",
+   "id": "level-4",
+   "text": "?\nBlossom Swell\n(Level 4)\nLunara\nIncreases Noxious Blossom's cast range by 25%. and its radius by 20%. Blossom Swell applies 1 additional stack of Nature's Toxin to enemies hit.\n?\nNature's Culling\n(Level 4)\nLunara\nIncreases Nature's Toxin's damage by 125% to non-Heroes.\n✓\nSiphoning Toxin\n(Level 4)\nLunara\nWhile at least one enemy is afflicted by Nature's Toxin, heal for 9 (+4% per level) per second. When an enemy Hero has 3 stacks of Nature's Toxin, increase this healing by 19 (+4% per level) per second."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Nature's Culling is good when clearing Minion waves in\norder to relieve lane pressure. By the same token, it causes Lunara to deal a\nsignificant amount of extra damage against enemy Structures and Mercenaries, which makes her a\nvery strong pusher.\nBlossom Swell increases Noxious Blossom's radius\nand range, making it easier to hit and is very useful when playing a Noxious Blossom Build.\nSiphoning Toxin is only recommended in Quick Match when your team\ndoes not have any Healer. In competitive play,\nit is only recommended if you already have a decent lane clear Hero\nand Nature's Culling wouldn't provide enough value."
+  },
+  {
+   "title": "Level 7 Talents for Lunara",
+   "id": "level-7",
+   "text": "✓\nSplintered Spear\n(Level 7)\nLunara\nCasting Noxious Blossom grants Lunara 3 stacks of Splintered Spear. When Lunara uses her Basic Attack, it hits an additional enemy for each stack of Splintered Spear, consuming 1 stack for each target. Stores up to 3 stacks.\nSplintered Spear deals 90 (+4% per level) damage, and applies Nature's Toxin.\n✓\nChoking Pollen\n(Level 7)\nLunara\nNoxious Blossom deals 100% more damage to enemies afflicted by Nature's Toxin, increased to 175% against enemies with 3 stacks.\n?\nWild Vigor\n(Level 7)\nLunara\nUsing Crippling Spores increases the damage of Lunara's next 4 Basic Attacks by 70%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Splintered Spear is a useful tool to spread\nNature's Toxin on several enemies at the same time.\nThis Talent can have outstanding synergy with Unfair Advantage at Level 16.\nChoking Pollen adds a huge chunk of\nburst damage to Lunara if used correctly.\nWild Vigor usually performs worse than Splintered Spear\nin terms of actual damage increase. Wild Vigor only adds a bit of\nadditional single-target damage and should be picked\nif that is what you need."
+  },
+  {
+   "title": "Level 10 Talents for Lunara",
+   "id": "level-10",
+   "text": "✓\nThornwood Vine\n(Level 10)\nLunara\nMana: 35\nCharges: 3\nRecharge Time: 15 seconds\nSend forth vines that deal 184 (+4% per level) damage to all enemies in a line.\nStores up to 3 charges.\n✓\nLeaping Strike\n(Level 10)\nLunara\nMana: 50\nCharges: 2\nRecharge Time: 20 seconds\nLeap over an enemy, Slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage.\nStores up to 2 charges."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nThornwood Vine is a strong poking\nability, which allows Lunara to spread Nature's Toxin\nfrom a safe distance. Due to its large casting range, Thornwood Vine enables\nLunara to outmatch most other Ranged Assassins.\nWhile not team fighting, Thornwood Vine is also a\ngreat tool for clearing Minion waves very quickly. However, always track the\nnumber of charges and make sure to have\nat least 1 charge ready before major\nteam fights.\nLeaping Strike adds a lot of mobility to Lunara's kit,\nwhich allows her to escape dangerous situations more quickly. Thus, it is our\nprefered choice when playing Lunara as it offers her a lot of utility.\nDuring the animation of Leaping Strike, Lunara gets some\nUnstoppable frames.\nIf timed correctly, Leaping Strike can be used to negate some enemy Abilities\n(notably Temporal Loop by Chromie).\nIt is quite important to carefully observe the enemy team's position before\nusing Leaping Strike. Do not use Leaping Strike if it would\nposition yourself close to the rest of the enemy team. Instead, use it as an escape\nmechanism or to finish off retreating enemies."
+  },
+  {
+   "title": "Level 13 Talents for Lunara",
+   "id": "level-13",
+   "text": "?\nEndless Spores\n(Level 13)\nLunara\nCasting Crippling Spores while at least 2 Heroes are afflicted by Nature's Toxin reduces the cooldown by 4 seconds and refunds 50 Mana.\n✓\nLet Them Wither\n(Level 13)\nLunara\nIncreases Crippling Spores' Slow duration by 1 second and causes it to no longer decay.\n?\nGreater Spell Shield\n(Level 13)\nLunara\nEvery 30 seconds, gain 75 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 75%.\nCan be toggled to allow or prevent this talent from triggering automatically.\n?\nAbolish Magic\n(Level 13)\nLunara\nCooldown: 20 seconds\nTarget an ally to remove all damage over time and disabling effects from them and Lunara. For 2 seconds after, the duration of disabling effects is reduced by 50%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Let Them Wither paves the way for incredible late-game damage output\nsince it prevents Crippling Spores from decaying. Combined with\nUnfair Advantage at Level 16, this will greatly improve both Lunara's damage and\nchasing potential.\nAbolish Magic can be a very useful Talent if the enemy\nteam is heavy on crowd control, such as Stuns,\nSlows, and Roots. Furthermore,\nit also counters damage over time effects like Kael'thas's Living Bomb,\nwhich can be crucial to save an ally's life.\nGreater Spell Shield is an incredibly useful Talent if\nthe enemy team has a lot of Spell Damage at their disposal.\nIf you diligently keep it disabled and only activate it when needed, this Talent\ncan reduce the damage potential of Heroes like Jaina\nor Chromie significantly, so make\nsure to carefully analyse the enemy team's composition.\nEndless Spores can give some good value if you manage\nto keep at least 2 Heroes affected by Nature's Toxin. If the enemy team has\na heavy backline for example, this Talent should not be picked."
+  },
+  {
+   "title": "Level 16 Talents for Lunara",
+   "id": "level-16",
+   "text": "?\nAccelerated Contamination\n(Level 16)\nLunara\nReduce the Mana cost of Noxious Blossom from 60 to 40. While at least 1 enemy Hero is afflicted with Nature's Toxin, Noxious Blossom's cooldown recharges 75% faster.\n?\nStar Wood Spear\n(Level 16)\nLunara\nIncrease Lunara's Basic Attack range by 0.5. Using Crippling Spores increases Lunara's Basic Attack range by an additional 2.25 for 6 seconds.\n✓\nInvigorating Spores\n(Level 16)\nLunara\nCrippling Spores grants 30% Attack Speed for 6 seconds. Basic Attacks against enemy Heroes with 3 stacks of Nature's Toxin deal damage equal to 1.5% of their maximum Health.\n✓\nUnfair Advantage\n(Level 16)\nLunara\nNature's Toxin deals 60% more damage to Heroes that are Slowed, Rooted, or Stunned."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Unfair Advantage is a quite reliable Talent,\nsince Lunara's Crippling Spores can be manually activated\nto Slow enemy targets, which would then cause them\nto take increased damage from her Nature's Toxin.\nStar Wood Spear allows Lunara to attack from a large\ndistance. This prevents her from exposing herself to the enemy team, which is\nvery important for squishy Ranged Assassins in general.\nInvigorating Spores causes Lunara to attack faster and deal more damage\nto Heroes with high maximum Health. If the enemy frontline is too tanky,\nthis Talent is great to constantly pressure enemy Heroes and taking them down.\nAccelerated Contamination adds a big QoL buff to Noxious Blossom\nand should be picked when going for a Noxious Blossom Build. The recharge rate allows you to dish\nout more Noxious Blossoms, equalling into more damage."
+  },
+  {
+   "title": "Level 20 Talents for Lunara",
+   "id": "level-20",
+   "text": "✓\nFor the Wildlands\n(Level 20)\nLunara\nThornwood Vine shoots 4 additional vines in an arc.\n?\nBoundless Stride\n(Level 20)\nLunara\nAll Leaping Strike charges are returned every 15 seconds. Leaping Strike can be used on allies.\n✓\nForest's Wrath\n(Level 20)\nLunara\nMana: 35\nCharges: 3\nRecharge Time: 15 seconds\nLunara's Heroic Ability applies 1 additional stack of Nature's Toxin to enemies, and its range is increased by 30%.\nPassive: Increase Lunara's vision radius by 35%.\n✓\nIntensifying Toxin\n(Level 20)\nLunara\nAt 3 stacks, Nature's Toxin deals 40% more damage.\n?\nGalloping Gait\n(Level 20)\nLunara\nActivate to increase the Movement Speed bonus of Dryad's Swiftness to 80% for 6 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "For the Wildlands makes your Thornwood Vine shoot\nfour additional vines in an arc. This gives you an insane area of effect boost, which is\nhelpful in teamfights should the enemy team be more spread rather than stacked.\nIt's recommended to play with this talent in test-mode first to get the hang of how the arc works!\nBoundless Stride provides Lunara with a reliable source of extra mobility, which\ncan be a valuable asset against high-mobility Heroes like Illidan or\nGenji. If Unfair Advantage was taken at\nLevel 16, Boundless Stride can proc its extra damage even more frequently,\nthanks to the Slow applied by Leaping Strike.\nForest's Wrath now makes it so your heroic abilities\nstacks more of Nature's Toxin and increases the range of them both. This talent can be chosen\nregardless of what you pick at level 10 and this talent benefits both of them greatly.\nThe range helps with either hitting the enemy backline more reliably or allowing you\nto play more safe against enemy frontline. The passive increasing Lunara's vision\nis a nice \"cherry on the top\".\nIntensifying Toxin amplifies Lunara's damage on targets that\nare affected by 3 Stacks of Nature's Toxin. Thanks to Talents like\nSplintered Spear at Level 7, spreading poison damages should not\nbe too hard. As such, Intensifying Toxin becomes quite a reliable Talent in the late game.\nThis Talent synergizes very well with Lunara's other Talents.\nGalloping Gait adds an incredible amount of mobility\nto Lunara's kit. The 80% Movement Speed increase allows her to outrun every Hero in\nthe game, which can be used offensively and defensively. Against teams with\nseveral Tanks and Melee Assassins,\nin particular, this Talent allows Lunara\nto survive on the battlefield and keep a healthy distance to enemy initiators."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "21 May 2025: Updated builds.\n12 Dec. 2021: Updated level 13 talents.\n01 Jun. 2021: Talents have been updated.\n09 Nov. 2020: Guide has been reviewed and no changes are needed.\n02 Jul. 2020: Guide has been reviewed and no changes are needed.\n25 Jul. 2019: Updated Lunara's talents.\n23 May 2018: Updated Lunara's talents in accordance with her most recent rework.\nShow more\nShow less"
+  }
+ ]
+}

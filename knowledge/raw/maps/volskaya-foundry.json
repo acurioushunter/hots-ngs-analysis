@@ -1,0 +1,126 @@
+{
+ "name": "volskaya-foundry",
+ "source": "https://www.icy-veins.com/heroes/volskaya-foundry-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Volskaya Foundry is a 3-lane Map belonging to the Overwatch universe.\nThe signature Objective of this Map is a Capture Point that\nrewards a Triglav Protector. The team who wins the Objective can pilot\nthe Triglav Protector, a massive Vehicle with 2 seats that can be used\nto deal damage to enemy Structures and to Shield allied Heroes."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nStrong late game\nSiege damage for Structures\nSustain damage/healing\nAvoid\nEffects relying on bushes\nEffects relying on impassable terrain\nWeak late game\nSee our Volskaya Foundry Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 4-1",
+   "id": "formation-4-1",
+   "text": "The go-to formation for Volskaya Foundry is 4-1:\n4 Heroes rotate between the middle and the top lane;\n1 Hero, the Offlaner, covers the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available, start clearing the allied Fortification Camp\nand capture it as soon as possible. Do not forget to pick up the Turret!\nIf you are quick enough, you can get a second Turret\nat the beginning of the first Objective phase.\nIdeally, you should capture this Mercenary Camp even during the Objective phase.\nAfter that, whenever your team has an advantage\nor you believe that the enemy team is still busy clearing the enemy Fortification Camp,\nyou can capture the neutral Support Camp near the top lane.\nDo not forget to pick the Biotic Emitter!\nAt 2:15 minutes or 30-40 seconds before the next Objective phase, start clearing\nthe allied Siege Camp and capture it slightly before the Capture Point activates.\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 2:40 minutes or 10 seconds after a wave of Minions spawned.\nAt 3:00 minutes or whenever the Objective phase starts, make sure to have\na durable Hero on the Capture Point. Keep control of it for as much as possible\nwithout dying and retreat if needed. Then, whenever your team gets\nan advantage, try to push out enemy Heroes\nand win the Objective. In the early game,\nthe Offlaner should keep soaking.\nIf your team wins the Objective, the first Triglav Protector of the game\nshould preferably be used to destroy Structures in the top lane (in preparation\nfor the second Objective phase), the second one should be used to destroy\na Fort, and the following ones should be used to destroy a Keep\nand eventually go Core. In the early game,\nthe Offlaner should keep soaking.\nIf your team loses the Objective, you can either deal damage to the\nTriglav Protector or dive past it to kill\nsquishy enemy Heroes. In the early game,\nthe Offlaner should keep soaking."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Volskaya Foundry has a total of 5 Mercenary Camps:\n2 Siege Camps (green icon) in the top lane;\n1 Support Camp (red icon) between the top and the middle lanes;\n2 Fortification Camps (purple icon) between the middle and bottom lanes.\nMercenary Camps on Volskaya Foundry disappear from the battlefield\nonce the Triglav Protector has been spawned (unless their Mercenaries\nare in combat) and reappear only after the Triglav Protector has been killed.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 3 Assault Troopers. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n270 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nAssault Troopers are ranged units that can attack enemies from the distance but lack\narea of effect damage to quickly clear enemy Minions.\nOnce captured, they are capable of damaging enemy Structures without getting in their range."
+  },
+  {
+   "title": "Fortification Camp",
+   "id": "fortification-camp",
+   "text": "This type of Mercenary Camp features 1 Mechanic and 1 Turret. Once captured,\nit leaves a Turret on the ground that can be collected by allied or enemy Heroes.\nAlways kill the Mechanic first because he can repair the Turret while below 80% Health.\nSpawn Time\nRespawn Delay\n0:30 minutes\n2:30 minutes after its last capture\nBaseline Experience\nExperience Scaling\n460 Experience\n+10 Experience per minute"
+  },
+  {
+   "title": "Turret",
+   "id": "turret",
+   "text": "Turrets are consumable items that, when put on the ground, deal damage to an\nenemy within range, prioritizing Heroes and dealing double damage to Minions.\nSince they count as Mercenaries, you can empower them with some Talents\n(such as Mercenary Queen by Sylvanas)\nand weaken them with some other Talents (for example\nAmateur Opponent by Artanis).\nTurret\n[F]\nItem\nPlace a Turret that rapidly attacks\nnearby enemies for 45 (+2 per minute) damage every 0.5 seconds.\nTurret lasts for 45 seconds, or until destroyed."
+  },
+  {
+   "title": "Support Camp",
+   "id": "support-camp",
+   "text": "This type of Mercenary Camp features 1 Support Mech. Once captured, it leaves\na Biotic Emitter on the ground that can be collected by allied or enemy Heroes.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n625 Experience\n+10 Experience per minute\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Biotic Emitter",
+   "id": "biotic-emitter",
+   "text": "Biotic Emitters are consumable items that, when put on the ground, restore\nHealth and Mana of allied Heroes in range. Do not position them too forward,\notherwise they will quickly get destroyed by enemy Heroes.\nBiotic Emitter\n[F]\nItem\nCreate a Biotic Emitter that restores\n40% of nearby allied Heroes' maximum Health and Mana.\nBiotic Emitter lasts for 10 seconds, or until destroyed."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective on Volskaya Foundry is a Capture Point that rewards\na Triglav Protector to the team who gets 100% progress first.\nThe winners can pilot the Triglav Protector, a massive Vehicle with 2 seats that can be used\nto deal damage to enemy Structures and to Shield allied Heroes.\nVehicles are Unstoppable.\nCapture Points will activate 3 seconds after a Hero steps on them, then they will\ngive 2% per second over 45 seconds, pausing when abandoned for more than 12 seconds,\nand not giving the final reward if contested.\nSpawn Time\nRespawn Delay\n3:00 minutes\n3:00 minutes after the Triglav Protector dies\n\nCapture Points\nControl points activate occasionally. Stand within them to capture them. Fully capturing a point grants you control of a giant mech.\nControl the Protector\nThe Triglav Protector mech is controlled by two players: one pilot and one gunner. Work together!\nDestroy Everything\nThe Protector's abilities deal incredible damage to structures and Heroes alike. Use it to lay waste to your enemy.\nOnce claimed, the Triglav Protector lasts for 50 seconds plus 3 seconds for each\nminute of Game Time that has passed. Each of the 2 players controlling the Triglav Protector\nhas access to a different set of Abilities (similarly to Cho'Gall)\nand can decide to exit whenever they want, allowing someone else to enter in their place.\nThe pilot's Basic Attacks deals 100% more damage to enemy Structures.\nWhile both seats are occupied, the pilot's Basic Attacks deal 50% more damage\nand both the pilot's and gunner's Abilities\nrecharge 25% faster and Energy regeneration is increased by 25%.\nThe first player to enter in the Triglav Protector\nwill become the pilot, able to decide where to go, whereas the second one will become the gunner.\nIf only the gunner seat is already taken (because the previous pilot decided to exit)\nthen the next player entering in the Triglav Protector will become the pilot."
+  },
+  {
+   "title": "Triglav Pilot",
+   "id": "triglav-pilot",
+   "text": "The following Abilities can be used by the player who is in the Triglav Protector's pilot seat.\nWhoever enters first in a newly spawned Triglav Protector will be the pilot."
+  },
+  {
+   "title": "Charge",
+   "id": "charge",
+   "text": "Charge\n[Q]\nPilot\nCooldown: 8 seconds\nCharge a target and deal 160 (+14 per minute) damage in an area.\nNon-Heroes take 500% increased damage.\nCharge should ideally be used to damage enemy Structures\nbecause it deals way more damage to non-Heroes or\nto clear enemy Minions because it can hit many of them,\nresulting in more damage per cast compared to hitting a single target.\nCharge should ideally NOT be used on Heroes because it deals way less damage to them."
+  },
+  {
+   "title": "Rocket Fist",
+   "id": "rocket-fist",
+   "text": "Rocket Fist\n[W]\nPilot\nCooldown: 14 seconds\nLaunch a Rocket Fist that deals 150 (+15 per minute) damage\nto the first Hero or Structure in its path. The rocket pushes away Heroes for 1.5\nseconds and disables Structures for 4 seconds. Minions on its path are instantly killed.\nRocket Fist should ideally be used to instantly kill enemy Minions\nand/or to disable enemy Structures that are attacking someone.\nAvoid overlapping Shield Emitter to take less damage from enemy\nStructures and Rocket Fist to disable enemy Structures.\nIn case of emergency, Rocket Fist [W] can be also used to peel\nfor your team, or to interrupt a powerful\nstationary channeled Ability.\n(such as Mosh Pit by E.T.C.)."
+  },
+  {
+   "title": "Shield Emitter",
+   "id": "shield-emitter",
+   "text": "Shield Emitter\n[E]\nPilot\nCooldown: 16 seconds\nGain 25 Armor for 3 seconds and give\nnearby allied Heroes a Shield that absorbs 500 (+50 per minute) damage over 3 seconds.\nShield Emitter should be used to save allied Heroes from incoming damage\nand/or to reduce damage taken by the Triglav Protector, especially when\nin range of enemy Structures that are not disabled by Rocket Fist.\nAvoid overlapping Shield Emitter to take less damage from enemy\nStructures and Rocket Fist to disable enemy Structures."
+  },
+  {
+   "title": "Triglav Gunner",
+   "id": "triglav-gunner",
+   "text": "The following Abilities can be used by the player that is in the Triglav Protector's gunner seat.\nWhoever enters second in a newly spawned Triglav Protector will be the gunner."
+  },
+  {
+   "title": "Particle Cannon",
+   "id": "particle-cannon",
+   "text": "Particle Cannon\n[Q]\nGunner\nCooldown: 4 seconds\nStart extending the range of the Particle Cannon.\nReactivate to fire, dealing 190 (+19 per minute) damage in the targe area.\nParticle Cannon should ideally be used to clear enemy Minions because it can hit many of them,\nresulting in more damage per cast compared to hitting a single target."
+  },
+  {
+   "title": "Gatling Cannon",
+   "id": "gatling-cannon",
+   "text": "Gatling Cannon\n[W]\nGunner\nToggle to fire missiles at the cursor's location.\nEach missile deals 38 (+3.8 per minute) damage but drains 1 Energy. Reactivate\nto stop firing. Deals 50% less damage to Structures.\nGatling Cannon should ideally be used to hit enemy Heroes\nbecause it deals 50% less damage to enemy Structures.\nTo maximize cooldown usage, you should stop using Gatling Cannon\nwhen Particle Cannon and Scorching Laser are ready to use again.\nTo maximize Energy usage, you should be using Gatling Cannon\nwhen having maximum Energy or close to maximum Energy."
+  },
+  {
+   "title": "Scorching Laser",
+   "id": "scorching-laser",
+   "text": "Scorching Laser\n[E]\nGunner\nCooldown: 10 seconds\nVector Targeting\nDraw a line on the ground, dealing 60 (+6 per minute) damage.\nAfter 1 second, it explodes for 380 (+38 per minute) damage.\nDue to its delay, Scorching Laser should generally be used to damage\nenemy Structures (ideally 2-3 at the same time), however,\nit can also be used on enemy Heroes who cannot move for about 1 second\nbecause of crowd control effects.\n!\nHow to use Vehicles\nVehicles have two resources: Health and duration.\nIf they time out with high Health, it means you played too safe.\nIf they get destroyed while there is still a lot of duration remaining,\nit means you played too aggressive. As a general rule,\nyou want to keep the percentage values of Health and duration balanced.\nWhen pushing with a won Objective, you should still avoid being\ncaught alone and not fight when outnumbered, especially when going for Keeps.\nIf your Vehicle gets destroyed deep in the enemy territory, you will not be\nable to reach a safe area before getting killed unless you have a lot of\nmobility.\nIn the early game, when multiple enemy Forts are still up, Vehicles can also\nbe used as a distraction, not just for pushing directly.\nWhile they clear enemy Minions and threaten enemy Structures, the rest of\nthe team can push in another lane. The enemy team will have to split\nfor defending multiple lanes at the same time."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 6 seconds, the Core shoots 3 Rocket Fists at nearby enemy Heroes,\ndealing 150 damage and Knocking them back."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Volskaya Foundry, you should count on\nany of the following win conditions:\nMap Objective,\nSplit-push.\nTry to store Turrets and Biotic Emitters for the late game."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nGlobal Heroes should ideally take care\nof the lane that is farther away from the next Objective location,\nso that they can use their global tool\nto quickly join their team during the next Objective phase.\nWe recommend to let a non-Healer pick the Biotic Emitter, so that\nit can be used to heal the Healer if they\nhappen to be under crowd control\nor to heal your team when your Healer is dead.\nThe pilot slot of the Triglav Protector should be filled with\na squishy Hero because leaving them outside\nwhile durable Heroes (usually with crowd control\nusable to peel) are inside would make your\nbackline vulnerable to dive.\nThe gunner slot of the Triglav Protector can either be filled\nwith another squishy Hero or left empty,\nso that whoever is in danger can enter in it to protect themselves\nfrom enemy damage. Note that taking damage does not interrupt\nthe channel to enter in it.\nWhen piloting the Triglav Protector, you should generally use:\nCharge [Q] to damage enemy Structures or to clear grouped enemy Minions;\nRocket Fist [W] to instantly kill enemy Minions\nand/or to disable enemy Structures;\nand Shield Emitter [E] to gain Armor while under\nattack and/or to Shield allied Heroes.\nIn case of emergency, Rocket Fist [W] can be also used to peel\nfor your team, or to interrupt a powerful\nstationary channeled Ability\n(such as Mosh Pit by E.T.C.).\nWhen being the gunner in the Triglav Protector, you should generally use:\nParticle Cannon [Q] to clear enemy Minions when they are grouped;\nGatling Cannon [W] to damage enemy Heroes when your other Abilities\nare on cooldown (stop using it when they are usable again);\nand Scorching Laser [E] to damage enemy Structures\nand/or crowd controlled enemy Heroes.\nHeroes with percent damage\n(such as Drain Hope by Leoric) are the best\nfor defending from enemy Vehicles. In case that is your\nOfflaner and it is early game,\nyou may want to send someone else to soak in the lane they left.\nRemember that Cursed Bullet by Greymane\nand Sleep Dart by Ana cannot hit Vehicles.\nIf your team has a Hero with a powerful Quest that requires hitting enemy Heroes\n(for example Zul'jin),\nyou could let the enemy team get an early game\nTriglav Protector to easily get Quest stacks while defending from it.\nIf your team is doing fine, you can store Turrets and Biotic Emitters\nfor the late game instead of using them\nin the early game. If you are going to die,\nhowever, place them on the ground before they kill you and steal them.\nIf the enemy team is not contesting the Objective and you step out\nof the Capture Point, you get 26% additional progress. This means\nyou can leave the Capture Point at 74% progress and still get a Triglav Protector.\nSimilarly, if you want to wait for allied Heroes before getting a Triglav Protector,\nyou should leave the Capture Point before reaching 74% progress.\nAt high level of play it is common to completely ignore the Objective area\nand get value elsewhere by pushing\nbecause the Triglav Protector takes too much time to be unlocked\nand can generally be defended without much difficulty, sometimes after\ndiving and killing whoever is outside of it.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n14 Feb. 2026: Guide updated for the latest Map Updates.\nMap Objective section updated.\n07 Oct. 2025: Guide updated for the latest Hotfix.\nMap Objective section updated.\nTips and Tricks section updated.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n25 Aug. 2025: Guide reviewed.\n14 Dec. 2024: Guide rewieved for the latest Balance Update.\n08 Nov. 2024: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

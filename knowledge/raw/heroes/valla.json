@@ -1,0 +1,300 @@
+{
+ "slug": "valla",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/valla-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/valla-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/valla-talents"
+ },
+ "guide": [
+  {
+   "title": "Valla's Overview",
+   "id": "vallas-overview",
+   "text": "Valla is a highly versatile and flexible ranged damage dealer. Her strong\npoints are her exceptional single-target damage and on-demand area of effect\nburst damage. However, her relative fragility makes her a high priority target\nfor the enemy."
+  },
+  {
+   "title": "Valla's Strengths and Weaknesses",
+   "id": "vallas-strengths-and-weaknesses",
+   "text": "Strengths\nVery high single-target and area of effect damage\nGood waveclear\nGood poke\nStrong in all phases of the game\nFlexible Talents that allow her to adapt to many different situations\nWeaknesses\nDependent on good positioning\nLow base Health\nVulnerable to crowd control"
+  },
+  {
+   "title": "Valla's Talent Build Cheatsheet",
+   "id": "vallas-talent-build-cheatsheet",
+   "text": "Attack Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's Basic Attack Build provides superior sustain single-target\ndamage at the cost of personal safety. Key Basic Attack-related Talents allow\nyou to become a very threatening damage source, provided your teammates can\nprotect you well.\nBurst Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's Burst Build provides superior single-target burst damage at the cost\nof sustain damage and being weaker against mobile Heroes.\nKey Hungering Arrow-related Talents allow you\nto frontload your damage to threaten isolated enemies.\nThis Build is excellent if you have a burst composition,\nas it does not require any Hatred to start dealing damage,\nbeing the most consistent build for following up quick engages.\nMultishot Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's Multishot Build provides superior area of effect damage and ease of use at\nthe cost of single-target damage. As key Talents, Fire At Will and\nArsenal allow you to quickly achieve max Hatred,\nwhile also damaging multiple enemies at once with Multishot.\nThis build has 2 variations based on your Heroic Ability. With Strafe\nit is better to get Death Siphon at Level 20, along with\nPunishment at Level 16. However,\nsince Rain of Vengeance does not have access to Death Siphon,\nit is better to get Talents to enhance your Basic Attacks at 16 and 20, such as\nManticore and Farflight Quiver with it.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's ARAM Build is designed to exploit the frequent teamfights in ARAM, where\nenemies are often clumped together. Always look to cast\nMultishot at clustered opponents to greatly speed up your stacking.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Valla's Synergies and Counters",
+   "id": "vallas-synergies-and-counters",
+   "text": "Valla synergizes with\nValla is at her best when something stands between her and her enemies.\nLarge, Healthy Tanks are particularly desirable as they draw attention\naway from Valla, and often provide their own form of crowd control for\npotential follow-ups. Otherwise, anything that can protect Valla is also\ndesirable. Shielding effects are particularly impactful due to her limited\nHealth pool.\nValla is countered by\nAs a frail Ranged Assassin, Valla tends to naturally struggle against other\nhigh-damage Assassins who have the ability\nto effectively gap close past her\nVault's range or otherwise sneak up on her\n(such has Zeratul). With little in the way of\nself-peeling, make sure to stay near your Healer when possible\nagainst such Heroes, and make no bold attempts at outplaying your opponents."
+  },
+  {
+   "title": "Valla's Maps",
+   "id": "vallas-maps",
+   "text": "Valla's stronger maps\nValla's average maps\nValla's weaker maps\nNone\nAs a well-rounded Ranged Assassin, Valla is not particularly\nweak on any Maps. In general, it is better for her to remain accompanied\nwhile laning due to her relative frailty, something that\nshould not be an issue for most Maps. Since she is good in long teamfights, she is\nexcellent in maps that feature those, like Infernal Shrines, or Volskaya Foundry.\nA special mention should be made for Battlefield of Eternity,\nwhere her Hungering Arrow build really shines."
+  },
+  {
+   "title": "Valla's Tips and Tricks",
+   "id": "vallas-tips-and-tricks",
+   "text": "Hatred empowers Valla's Basic Attacks and increases her Movement Speed; try and attack something at least once every 5 seconds so that your stacks do not fall off.\nHungering Arrow has a high Mana cost and will home unto undesirable targets, such as Minions and Summons; avoid using the Ability unless it is going to deal useful damage.\nMultishot is your main waveclearing tool. Its wide area of effect also makes it excellent for checking hidden areas, revealing Stealthed Heroes, and dismounting opponents.\nVault can be used offensively, as a gap-closer, and defensively, to create space between yourself and opponents and dodge Abilities. Limit your offensive use of the Ability, as it leaves you vulnerable.\nStrafe's reliability goes up as opponents use up their crowd control Abilities; keep track of their Cooldowns, and remain on the move so as to minimise the chance you will be interrupted.\nRain of Vengeance is better used as a follow-up or as a self-peeling tool than merely for dealing damage.\nWith Fire At Will, in teamfights Gloom can be always used before using Multishot, as it will instantly restack most of the consumed Hatred.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Valla's Role in the Current Meta",
+   "id": "vallas-role-in-the-current-meta",
+   "text": "Valla's outstanding single-target sustain damage allows her to put an\nextreme amount of pressure on anything within her Basic Attack range.\nHer on-demand area of effect damage and poke allow her to reliably deal damage\nin all situations. A high baseline Movement Speed,\nVault, and Frost Shot\ngrant her respectable options for self-peeling, though they do not\nhelp her against crowd control.\nValla is extremely strong against Healer-heavy\nmetas, as such Heroes do not\ntypically have the tools to force her to play defensively to reduce her\neffectiveness. Picking her early during drafts may incite opposing\nplayers to choose dive-oriented Heroes, which must rely on playing\naggressively and on very good coordination to succeed against her. Picking her\nlater in a draft may leave her completely uncountered and able to freely\ndeal her damage."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 May 2025 (talents page): Builds and Talents updated to reflect meta development.\n02 May 2025 (abilities page): Guide reviewed for patch 2.55.10.\n02 May 2025 (this page): Guide updated to reflect meta development.\n27 Sep. 2021 (talents page): Talent Section reviewed and only description changes have been made.\n27 Sep. 2021 (this page): Guide reviewed and only description changes have been made.\n25 Jun. 2021 (talents page): Updated Recommended Talents for Level 16 and Level 20.\n25 Jun. 2021 (this page): Updated Talent recommendations for Standard Build.\n04 Jun. 2021 (talents page): Talents and builds updated to better reflect current meta.\n04 Jun. 2021 (this page): Guide updated to better reflect current meta.\n18 May 2021 (talents page): Talents and builds updated after recent rework.\n18 May 2021 (this page): Guide updated after recent rework.\n27 Oct. 2020 (talents page): Talents and builds reviewed and updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n05 Apr. 2020 (talents page): Description for Strafe and Rain of Vengeance updated.\n13 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent section updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n30 Apr. 2017 (this page): Guide updated and moved to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Valla's Tips and Tricks",
+   "id": "vallas-tips-and-tricks",
+   "text": "Hatred empowers Valla's Basic Attacks and increases her Movement Speed; try and attack something at least once every 5 seconds so that your stacks do not fall off.\nHungering Arrow has a high Mana cost and will home unto undesirable targets, such as Minions and Summons; avoid using the Ability unless it is going to deal useful damage.\nMultishot is your main waveclearing tool. Its wide area of effect also makes it excellent for checking hidden areas, revealing Stealthed Heroes, and dismounting opponents.\nVault can be used offensively, as a gap-closer, and defensively, to create space between yourself and opponents and dodge Abilities. Limit your offensive use of the Ability, as it leaves you vulnerable.\nStrafe's reliability goes up as opponents use up their crowd control Abilities; keep track of their Cooldowns, and remain on the move so as to minimise the chance you will be interrupted.\nRain of Vengeance is better used as a follow-up or as a self-peeling tool than merely for dealing damage.\nWith Fire At Will, in teamfights Gloom can be always used before using Multishot, as it will instantly restack most of the consumed Hatred."
+  },
+  {
+   "title": "Hungering Arrow",
+   "id": "hungering-arrow",
+   "text": "Hungering Arrow\n(Q)\nValla\nMana: 60\nCooldown: 10 seconds\nFire an arrow that deals 140 (+4% per level) damage to the first target hit, then seeks up to 2 additional enemies, prioritizing Heroes, dealing 80 (+4% per level) damage. Can hit an enemy multiple times.\nThe difficulty with using Hungering Arrow is that it will often home in on\nundesirable entities such as Minions, Summons, and Structures, if they stand\nbetween you and your intended target. The only reliable way of ensuring that\nHungering Arrow will hit a specific enemy is to simply position yourself in\nsuch a way that there is nothing standing between you and your target. This can\nbe achieved by flanking your target or quickly\nclearing nearby Minions, usually with Multishot. Given Hungering Arrow's\nlong cooldown and extremely strong single-target damage potential—equivalent\nto approximately 3 Basic Attacks—it should only be used when you are certain\nthat the Ability will successfully hit an important target and that its damage\nis going to be useful."
+  },
+  {
+   "title": "Multishot",
+   "id": "multishot",
+   "text": "Multishot\n(W)\nValla\nMana: 75\nCooldown: 13 seconds\nDeal 159 damage to enemies within the target area.\nMultishot's large area of effect, solid damage, and powerful Talents make\nit a key Ability. It is typically used on-Cooldown during laning, both as a\nwaveclearing and harassment tool, and during team fights, simply as a\nway of outputting significant area of effect damage. Try to hit as many\nenemies as possible with Multishot so as to maximise its efficiency. The\nAbility's long range and large area of effect also make it an excellent tool for dismounting and\nrevealing Stealthed Heroes. The Frost Shot Talent turns\nMultishot into one of the most powerful and reliable movement reducing effect in\nthe game, allowing you to kite and hinder escape attempts\nlike no other Hero can."
+  },
+  {
+   "title": "Vault",
+   "id": "vault",
+   "text": "Vault\n(E)\nValla\nMana: 50\nCooldown: 10 seconds\nDash to the target area. Valla's next Basic Attack within 2 seconds deals 6% increased damage per stack of Hatred.\nVault is extremely versatile; it complements Valla's kit perfectly by\nallowing her to quickly reposition to improve the accuracy of her Abilities\nand Basic Attack uptime. It can also be used defensively to create breathing\nroom between herself and dangerous melee attackers, such as Greymane, Thrall,\nSonya, or Zeratul, or to quickly avoid dangerous Abilities, such as\nApocalypse, Hinterland Blast,\nPrimal Grasp, or Hook.\nAvoid using Vault's cooldown offensively, as keen opponents will be quick to\ncapitalise on this long window of vulnerability unless it helps you safely\nsecure a kill. Remember that Vault improves your next Basic Attack's damage by\na significant amount, which may make the difference between getting a kill or\nnot."
+  },
+  {
+   "title": "Strafe",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nStrafe\n(R)\nValla\nHeroic\nMana: 60\nCooldown: 60 seconds\nRapidly attack enemies within 10 range for 70 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.\nStrafe is very powerful in terms of raw damage output, and has a relatively\nshort cooldown when compared to other Heroic Abilities. Left uninterrupted, it\ncan be a deciding factor in team fights, able to damage frail Heroes for nearly\nhalf of their total Health pool. This power comes at a cost: Strafe's\nrelatively short range means that you must position yourself aggressively, at\ntimes jeopardising your own safety. Successful Strafe usage also hinges upon\npredicting, keeping track of, and avoiding reliable interrupts, such\nas Polymorph, Shadow Charge,\nand Hammer of Justice,\nwhich can completely neutralise the Ability."
+  },
+  {
+   "title": "Rain of Vengeance",
+   "id": "rain-of-vengeance",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nRain of Vengeance\n(R)\nValla\nHeroic\nMana: 50\nCharges: 2\nRecharge Time: 50 seconds\nLaunch a wave of Shadow Beasts that deals 250 (+4% per level) damage and Stuns enemies in the target area for 0.5 seconds.\nStores up to 2 charges.\nRain of Vengeance's power stems from its near-instantaneousness and combo\npotential. Following up strong\narea of effect crowd control Abilities\ncan often secure kills or ease the\napplication of other combo pieces. As a defensive tool, Rain of Vengeance can be\nused to Stun nearby Heroes in order to create some breathing room and deter them\nfrom approaching you, or to interrupt channeled Abilities.\nIt should be noted that the shockwave-like aspect of the Ability means that enemies that are standing closer\nto Valla will be Stunned and damaged earlier than those standing further away.\nVault can be used offensively as a gap-closer to get as close to your intended\ntarget as possible in order to prevent them from avoiding the Ability's effects."
+  },
+  {
+   "title": "Hatred",
+   "id": "hatred",
+   "text": "Hatred\n(D)\nValla\nPassive\nBasic Attacks grant a stack of Hatred, up to 10. Each Hatred stack increases Basic Attack damage by 8% and Movement Speed by 1%. Lasts 5 seconds.\nHatred is what allows Valla to be one of the highest sustain\nsingle-target damage dealing ranged Heroes. While being able to constantly\ndeliver Basic Attacks is key to playing any Ranged Assassin, it is\nespecially important to Valla given Hatred's stacking nature. Her fast baseline\nAttack Speed somewhat helps with this, however, stutter-stepping truly is the key to\nmaking the most out of Hatred, and Valla as a whole."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 May 2025: Guide reviewed for patch 2.55.10.\n11 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Puncturing Arrow (Level 1) Valla Increase the number of Hungering Arrow bounces by 1. Quest: Hitting an enemy Hero with the initial impact of Hungering Arrow refunds 40 Mana and permanently increases the damage of its initial impact by 6."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Fire At Will (Level 1) Valla Quest: Hitting a Hero with Multishot grants 2 Hatred and permanently increases its damage by 2. Reward: After hitting 20 Heroes with Multishot, increase its damage by 40."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Creed of the Hunter (Level 1) Valla Quest: Every 50 Basic Attacks against Heroes increases Hatred's damage bonus per stack by 1%, up to 6%. Gambit: Gain 25% bonus Attack Speed. Every death reduces this bonus by 5%."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Arsenal (Level 4) Valla Increase the range of Multishot by 20%. Multishot also fires 3 grenades that deal 100 (+4% per level) damage and refund 25 Mana after hitting enemy Heroes."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Death Dealer (Level 4) Valla Increase Vaults Basic Attack damage bonus from 6% to 15% per stack of Hatred. If this attack kills its victim within 1.5 seconds, the Mana cost and cooldown of Vault are refunded. Passive: Reduce the cooldown of Vault by 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Repeating Arrow (Level 4) Valla Vault no longer has a Mana cost. Casting Vault resets the cooldown of Hungering Arrow."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Monster Hunter (Level 7) Valla Hungering Arrow deals 150% additional damage to Minions, Mercenaries, and Monsters."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Frost Shot (Level 7) Valla Multishot Slows enemies by 20% for 2.5 seconds. Hungering Arrows deals 25% more damage to Slowed enemies."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hot Pursuit (Level 7) Valla Increase the Movement Speed bonus of each stack of Hatred from 1% to 2%."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Strafe (Level 10) Valla Mana: 60 Cooldown: 60 seconds Rapidly attack enemies within 10 range for 70 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Rain of Vengeance (Level 10) Valla Mana: 50 Charges: 2 Recharge Time: 50 seconds Launch a wave of Shadow Beasts that deals 250 (+4% per level) damage and Stuns enemies in the target area for 0.5 seconds. Stores up to 2 charges."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Siphoning Arrows (Level 13) Valla Hitting a Hero with Hungering Arrow heals Valla for 4% of her maximum Health, and Multishot heals for 2%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Tempered by Discipline (Level 13) Valla Basic Attacks heal for 10% of the damage dealt, increased by 2% per Hatred stack."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Gloom (Level 13) Valla Cooldown: 5 seconds Activate to consume all Hatred, granting 3 Spell Armor per Hatred consumed for 5 seconds. Passive: Gain 15 Spell Armor, and each stack of Hatred heals for 1.3 (+4% per level) Health per second."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Punishment (Level 16) Valla While at max Hatred, Multishot's cooldown recharges 50% faster. Passive: Reduce Multishot's Mana cost from 75 to 55."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Seething Hatred (Level 16) Valla While at max Hatred, increase all damage dealt by 10%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Manticore (Level 16) Valla Every 3rd Basic Attack against the same Hero deals an additional 4% of their maximum Health as damage."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Death Siphon (Level 20) Valla Hitting an enemy Hero with Strafe increases its duration by 0.125 seconds. Strafe also fires penetrating bolts in a line for 34 (+4% per level) damage every 0.25 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Storm of Vengeance (Level 20) Valla Basic Attacks against Heroes reduce the cooldown of Rain of Vengeance by 5 seconds. Passive: Each stack of Hatred increases your Attack Speed by 2%. While at max Hatred, gain an additional 30% Attack Speed."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Acrobat (Level 20) Valla Gain 2 additional charges of Vault. Drop 3 Caltrops while Vaulting that deal 60 (+4% per level) damage and Slow enemies by 40% for 1 second."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Farflight Quiver (Level 20) Valla Gain 20% Basic Attack range. While at max Hatred, gain an additional 30% Basic Attack range."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Valla's Talent Build",
+   "id": "vallas-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n?\n✓\n?\n7\n?\n?\n✓\n10\n?\n✓\n13\n?\n✓\n?\n16\n?\n?\n✓\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Valla's Talent Build Cheatsheet",
+   "id": "vallas-talent-build-cheatsheet",
+   "text": "Attack Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's Basic Attack Build provides superior sustain single-target\ndamage at the cost of personal safety. Key Basic Attack-related Talents allow\nyou to become a very threatening damage source, provided your teammates can\nprotect you well.\nBurst Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's Burst Build provides superior single-target burst damage at the cost\nof sustain damage and being weaker against mobile Heroes.\nKey Hungering Arrow-related Talents allow you\nto frontload your damage to threaten isolated enemies.\nThis Build is excellent if you have a burst composition,\nas it does not require any Hatred to start dealing damage,\nbeing the most consistent build for following up quick engages.\nMultishot Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's Multishot Build provides superior area of effect damage and ease of use at\nthe cost of single-target damage. As key Talents, Fire At Will and\nArsenal allow you to quickly achieve max Hatred,\nwhile also damaging multiple enemies at once with Multishot.\nThis build has 2 variations based on your Heroic Ability. With Strafe\nit is better to get Death Siphon at Level 20, along with\nPunishment at Level 16. However,\nsince Rain of Vengeance does not have access to Death Siphon,\nit is better to get Talents to enhance your Basic Attacks at 16 and 20, such as\nManticore and Farflight Quiver with it.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValla's ARAM Build is designed to exploit the frequent teamfights in ARAM, where\nenemies are often clumped together. Always look to cast\nMultishot at clustered opponents to greatly speed up your stacking."
+  },
+  {
+   "title": "Level 1 Talents for Valla",
+   "id": "level-1",
+   "text": "?\nPuncturing Arrow\n(Level 1)\nValla\nIncrease the number of Hungering Arrow bounces by 1.\nQuest: Hitting an enemy Hero with the initial impact of Hungering Arrow refunds 40 Mana and permanently increases the damage of its initial impact by 6.\n?\nFire At Will\n(Level 1)\nValla\nQuest: Hitting a Hero with Multishot grants 2 Hatred and permanently increases its damage by 2.\nReward: After hitting 20 Heroes with Multishot, increase its damage by 40.\n✓\nCreed of the Hunter\n(Level 1)\nValla\nQuest: Every 50 Basic Attacks against Heroes increases Hatred's damage bonus per stack by 1%, up to 6%.\nGambit: Gain 25% bonus Attack Speed. Every death reduces this bonus by 5%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Puncturing Arrow is an interesting choice for single-target\nburst builds. It is excellent when combined with other\nHungering Arrow Talents.\nIt can be a good choice on Battlefield of Eternity,\nas a Hungering Arrow Build can quickly\ndefeat Immortals due to Monster Hunter's extra\nPvE damage.\nFire At Will not only increases your Multishot\ndamage, but also makes it much easier for Valla to stack Hatred. This is an\nexcellent benefit against aggressive enemy compositions that will be focusing you.\nSince this is an unending Quest, it is important to try to maximize your\nstacks during the early to mid game, as it will make a great difference at the end of the\ngame.\nCreed of the Hunter is an excellent Talent for a Basic Attack Build.\nThe 20% extra Attack Speed from the Loan will not only increase\nyour DPS, but will also make it much easier to stack the quest. However, it is important\nto be extremely cautious, as each death will come with big drawbacks."
+  },
+  {
+   "title": "Level 4 Talents for Valla",
+   "id": "level-4",
+   "text": "?\nArsenal\n(Level 4)\nValla\nIncrease the range of Multishot by 20%. Multishot also fires 3 grenades that deal 100 (+4% per level) damage and refund 25 Mana after hitting enemy Heroes.\n✓\nDeath Dealer\n(Level 4)\nValla\nIncrease Vaults Basic Attack damage bonus from 6% to 15% per stack of Hatred. If this attack kills its victim within 1.5 seconds, the Mana cost and cooldown of Vault are refunded.\nPassive: Reduce the cooldown of Vault by 5 seconds.\n?\nRepeating Arrow\n(Level 4)\nValla\nVault no longer has a Mana cost. Casting Vault resets the cooldown of Hungering Arrow."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Arsenal improves Valla's damage, safety, and Mana control\nduring fights. With this Talent, Fire At Will\nwill trigger much more often in teamfights, consequently increasing the rate\nin which Valla obtains Hatred and quest stacks.\nDeath Dealer provides a meaningful burst\ndamage, as long as you have several Hatred stacks. It can\nbe used to execute low-Health Minions to provide another vault, that can be used to\nescape or to kill an enemy. The cooldown reduction greatly reduces the window in which\nyou are vulnerable in teamfights, being a great pick against\nskillshot-reliant compositions. However, we only recommend this\nTalent in a Basic Attacks Build.\nRepeating Arrow is excellent in\na Hungering Arrow Build. The extra\nArrow provided by it will significantly increase your burst potential.\nThis Talent has outstanding synergy with Acrobat\nat Level 20."
+  },
+  {
+   "title": "Level 7 Talents for Valla",
+   "id": "level-7",
+   "text": "?\nMonster Hunter\n(Level 7)\nValla\nHungering Arrow deals 150% additional damage to Minions, Mercenaries, and Monsters.\n?\nFrost Shot\n(Level 7)\nValla\nMultishot Slows enemies by 20% for 2.5 seconds. Hungering Arrows deals 25% more damage to Slowed enemies.\n✓\nHot Pursuit\n(Level 7)\nValla\nIncrease the Movement Speed bonus of each stack of Hatred from 1% to 2%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Although Monster Hunter makes no difference in teamfights, it makes Valla one of the\nmost efficient Mercenary Camp killer in the game, especially when combined with\nthe Repeating Arrow Talent. Monster Hunter is particularly effective on\nBattlefield of Eternity, where it can be used to take down the Immortal with ease.\nFrost Shot is an excellent and versatile Talent. It is\na great choice in a Hungering Arrow Build,\nbut can also be useful in a Multishot Build too.\nThe other options are excellent in their specific niches, and this Talent\nshould only be picked if you do not need the extra Movement Speed from\nHot Pursuit or the PvE damage\nfrom Monster Hunter.\nHot Pursuit's Movement Speed increase allows you to\nkeep up with (or kite)\nmost targets with ease, greatly improving your Basic Attack uptime.\nOverall, the extra movespeed will be useful in every game, and will be even better if you can\nget several of Hatred stacks from Fire At Will\nat the start of a fight."
+  },
+  {
+   "title": "Level 10 Talents for Valla",
+   "id": "level-10",
+   "text": "?\nStrafe\n(Level 10)\nValla\nMana: 60\nCooldown: 60 seconds\nRapidly attack enemies within 10 range for 70 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.\n✓\nRain of Vengeance\n(Level 10)\nValla\nMana: 50\nCharges: 2\nRecharge Time: 50 seconds\nLaunch a wave of Shadow Beasts that deals 250 (+4% per level) damage and Stuns enemies in the target area for 0.5 seconds.\nStores up to 2 charges."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nAs Strafe and Rain of Vengeance\nare both situationally powerful, the choice of one or the other is based on\npersonal preference and team compositions.\nStrafe has the potential of dealing more damage over a larger area than\nRain of Vengeance. However, its channeled nature and long duration make it prone\nto being interrupted, unlike Rain of Vengeance, which is instantaneous.\nRain of Vengeance also provides you with a reliable Stun to protect yourself and\nyour allies, to interrupt other\nchanneled Abilites, or to keep enemy Heroes in place for longer\nwhile they get focused down by your team."
+  },
+  {
+   "title": "Level 13 Talents for Valla",
+   "id": "level-13",
+   "text": "?\nSiphoning Arrows\n(Level 13)\nValla\nHitting a Hero with Hungering Arrow heals Valla for 4% of her maximum Health, and Multishot heals for 2%.\n✓\nTempered by Discipline\n(Level 13)\nValla\nBasic Attacks heal for 10% of the damage dealt, increased by 2% per Hatred stack.\n?\nGloom\n(Level 13)\nValla\nCooldown: 5 seconds\nActivate to consume all Hatred, granting 3 Spell Armor per Hatred consumed for 5 seconds.\nPassive: Gain 15 Spell Armor, and each stack of Hatred heals for 1.3 (+4% per level) Health per second."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Siphoning Arrows provides less survivability than its counterparts, but\ndoes so in a burst fashion with Abilities, being useful if the opposing team can easily blind\nor punish Valla when she tries to deliver Basic attacks. It is excellent with\nRepeating Arrow and Acrobat. However, this Talent\ndoes not add any protection against burst damage. Against enemies\nthat can easily kill you in a combo, it might be better to pick Gloom\ninstead, as it will greatly increase your effective Health at those moments.\nTempered by Discipline is a great Talent if you can easily deliver\nBasic Attacks in fights, being a great addition in games against a tough\nfrontline, as Valla will be able to damage them constantly,\nwhile also sustaining herself. Still, like Siphoning Arrows, this\nTalent does not add any protection to burst damage, which is one of\nValla's main weaknesses, so pick it cautiously.\nGloom provides a huge amount of permanent survivability, on top of\nhaving an outstanding activated effect that will let you survive any\nAbility-based burst. Remember that although powerful, the activated effect of this Talent\nreduces your overall damage. This Talent is particularly powerful with Fire At Will\nat Level 1, because you can quickly reacquire the Hatred stacks\nlost by using it."
+  },
+  {
+   "title": "Level 16 Talents for Valla",
+   "id": "level-16",
+   "text": "?\nPunishment\n(Level 16)\nValla\nWhile at max Hatred, Multishot's cooldown recharges 50% faster.\nPassive: Reduce Multishot's Mana cost from 75 to 55.\n?\nSeething Hatred\n(Level 16)\nValla\nWhile at max Hatred, increase all damage dealt by 10%.\n✓\nManticore\n(Level 16)\nValla\nEvery 3rd Basic Attack against the same Hero deals an additional 4% of their maximum Health as damage."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Punishment is not as effective as it sounds. In perfect conditions,\nit will reduce Multishot's cooldown from 13 seconds to 8.7 seconds, which\ncannot compare to Manticore's extra damage. However, Punishment can be\na good choice in games where Valla cannot consistently deliver several Basic Attacks in a\nrow (like against several blinds, or extremely high burst damage).\nSeething Hatred slightly increases all damage dealt by Valla.\nMostly, this Talent will be overshadowed by Manticore, but it can\nbe useful with Repeating Arrow and Acrobat,\nbecause most of the damage will come from Hungering Arrow, instead of\nfrom Basic Attacks.\nManticore is an excellent choice in most games, as it adds\nbetween 16% (attacking Hanzo) to 32% (attacking Blaze) extra damage to your Basic Attacks.\nJust be sure to focus your attacks against your intended target.\nManticore has notable synergy with Creed of the Hunter and\nFarflight Quiver."
+  },
+  {
+   "title": "Level 20 Talents for Valla",
+   "id": "level-20",
+   "text": "?\nDeath Siphon\n(Level 20)\nValla\nHitting an enemy Hero with Strafe increases its duration by 0.125 seconds. Strafe also fires penetrating bolts in a line for 34 (+4% per level) damage every 0.25 seconds.\n?\nStorm of Vengeance\n(Level 20)\nValla\nBasic Attacks against Heroes reduce the cooldown of Rain of Vengeance by 5 seconds.\nPassive: Each stack of Hatred increases your Attack Speed by 2%. While at max Hatred, gain an additional 30% Attack Speed.\n?\nAcrobat\n(Level 20)\nValla\nGain 2 additional charges of Vault. Drop 3 Caltrops while Vaulting that deal 60 (+4% per level) damage and Slow enemies by 40% for 1 second.\n✓\nFarflight Quiver\n(Level 20)\nValla\nGain 20% Basic Attack range. While at max Hatred, gain an additional 30% Basic Attack range."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Death Siphon is an excellent Talent, it enhances everything\nin Strafe, turning it into a teamfight-deciding Heroic.\nIf enemies do not cancel it with a Stun\nor Silence, you will probably win the\nfight due to how oppressive it is. After getting this Talent,\nit is important to maintain 2 targets in your range during Strafe,\nas it is necessary for the duration to not reduce quickly.\nStorm of Vengeance signficantly increases your single-target damage output,\nbut does little to keep you safe as Farflight Quiver or\nAcrobat would.\nThis Talent is useful while under a limited amount of pressure, and synergises\nparticularly well with Manticore to obliterate Healthier Heroes.\nAcrobat is an excellent Talent when combined with\nRepeating Arrow. It enables 4 consecutives casts of\nHungering Arrow, dealing enough damage to burst\ndown a healthy Tank or multiple squishy Heroes.\nFarflight Quiver significantly improves the reliability of your Basic Attacks while\nsimultaneously keeping you at a safer distance. The range also indirectly\nimproves your Hatred generation as it makes Basic Attacks easier to\ndeliver safely. At 10 Hatred stacks Valla can attack Keeps, Towers or Core from outside\nits ranges."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "02 May 2025: Builds and Talents updated to reflect meta development.\n27 Sep. 2021: Talent Section reviewed and only description changes have been made.\n25 Jun. 2021: Updated Recommended Talents for Level 16 and Level 20.\n04 Jun. 2021: Talents and builds updated to better reflect current meta.\n18 May 2021: Talents and builds updated after recent rework.\n27 Oct. 2020: Talents and builds reviewed and updated.\n05 Apr. 2020: Description for Strafe and Rain of Vengeance updated.\n11 Oct. 2019: Talent section updated.\nShow more\nShow less"
+  }
+ ]
+}

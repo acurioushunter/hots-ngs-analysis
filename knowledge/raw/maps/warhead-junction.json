@@ -1,0 +1,91 @@
+{
+ "name": "warhead-junction",
+ "source": "https://www.icy-veins.com/heroes/warhead-junction-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Warhead Junction is a 3-lane Map belonging to the Starcraft universe.\nThe signature Objective of this Map are Warheads. They can be collected\nand launched on a target location, usually to damage enemy Structures.\nOn this Map, you can also find the Slime Boss, a unique Mercenary Camp\nthat deals a huge amount of damage to enemy Heroes and Structures."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nAnchor\nGankers\nGlobal presence\nPoint control for Boss Camp\nPoke tools for Objective\nSelf-sustain\nSplit-push\nAvoid\nQuests to stack on Heroes\nSee our Warhead Junction Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 3-1-1",
+   "id": "formation-3-1-1",
+   "text": "The go-to formation for Warhead Junction is 3-1-1:\n\n3 Heroes cover the top lane and push as much as possible;\n1 Hero, the Offlaner, covers the middle lane;\n1 Hero, the Anchor, covers the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available, start clearing the allied Bruiser Camp and capture it\nas soon as possible. To make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 0:45 minutes or 15 seconds after a wave of Minions spawned.\nAt 2:30 minutes or 30-40 seconds before the next Objective phase,\nstart clearing the allied Siege Camp in the bottom lane\nand capture it slightly before the Warheads spawn.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 2:35 minutes or 5 seconds after a wave of Minions spawned.\nDuring the Objective phase, get at least half the Warheads and use them to open\nthe battlefield at your advantage. If possible, poke enemy Heroes\nwho are trying to collect a Warhead and interrupt enemy Heroes\nwho are trying to launch them on your Structures.\nAfter about 10:00 minutes, whenever your team has an advantage,\nregardless if there is an Objective to contest or not, you can capture\nthe Boss Camp and push with it.\nAvoid doing it earlier if you do not have a dedicated team composition."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Warhead Junction has a total of 5 Mercenary Camps:\n1 Boss Camp (red icon) in the top lane;\n2 Bruiser Camps (blue icon) in the top lane;\n2 Siege Camps (green icon) in the bottom lane.\nMercenary Camps on Warhead Junction are always active,\neven when Warheads are available on the battlefield.\n\nMercenary Camps indicated with a red icon are immune to Bribe effects."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Hellbats. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n120 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling 1 minute later.\nHellbats reduce the Armor of enemy Structures and Heroes hit\nby their cleaving Basic Attacks for 3 seconds by 4 Armor per Basic Attack,\nstacking 5 times, for a maximum of 20 Armor reduction."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 3 Goliaths and 1 Raven. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n270 Experience\n+8 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling 1 minute later.\nRavens do not use Basic Attacks. Instead, they fire a Seeker Missile (5-second cooldown)\nwhich Reveals the targeted Hero and damages them upon impact.\nRavens deal only 20 (not scaling) damage per second whereas\nGoliaths deal 40 (+1 per minute) damage per second."
+  },
+  {
+   "title": "Boss Camp",
+   "id": "boss-camp",
+   "text": "This type of Mercenary Camp features 1 Slime Boss. Once captured,\nit spawns the same unit fighting for your team in the corresponding lane.\nWhen possible, push with it to get more value.\nSpawn Time\nRespawn Delay\n5:00 minutes\n5:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n750 Experience\n+10 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling 1 minute later.\nWhile in combat, the Slime Boss will use Slime Spit (14-second cooldown)\nto create a damaging pool on the ground, so be ready to avoid it.\nAbout 6 seconds after that, the boss will cast Spawn Pods (14-second cooldown)\nto launch multiple slime pods around him.\nDue to being Elite, this Mercenary Camp is immune to Bribe\neffects (such as Covert Mission by Nova)."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Warhead Junction are Warheads (also called Nukes).\nTo pick them up, Heroes have to channel for 5 seconds.\nWarheads also spawn a Regeneration Globe when collected from their spawn location.\nCollecting a Warhead will allow Heroes to nuke a given area and damage\nall enemy units within it. Due to their relatively long cast time\nand huge delay, Warheads are best used for damaging enemy Structures.\nSpawn Time\nRespawn Delay\n3:00 minutes\n2:55 minutes after collecting all Warheads\n\nWarhead Deployment\nMultiple Warheads will spawn periodically across the battleground.\nCollect Warheads\nPick up a Warhead to activate your Nuke. Use it or you will drop it when you die!\nCall Down the Thunder\nLaunch Nukes to burn enemy team's fortifications. Attack their structures to extend the burn!"
+  },
+  {
+   "title": "Warheads",
+   "id": "warheads",
+   "text": "Warheads can spawn in 9 possible locations over 3 rows (top, middle, and bottom).\nWarhead will be distributed evenly in each lane: if there is only 1 Warhead,\nit will be at the center; if there are 2 Warheads, they will be on the sides.\nEvery spawn will feature from 2 to 4 Warheads. Spawns with 2 Warheads\nwill have them on separate lanes. Spawns with 3 Warheads or more\nwill always have exactly one lane with 2 Warheads.\nThe number of Warheads depends on the Objective phase's number:\nthe 1st Objective phase can have from 2 to 3 Warheads;\nthe 4th Objective phase can have from 3 to 4 Warheads;\nany other Objective phase can only have exactly 2 Warheads.\nThe 1st spawn has two additional rules:\nwhen there are 2 Warheads, they will be both middle;\nwhen there are 3 Warheads, they will be 1 middle, 2 in a side lane, and 0 in the other.\nThe 4th spawn has an additional rule:\nwhen there are 3 Warheads, they will be 2 in a lane and 1 in another;\nwhen there are 4 Warheads, they will be 1 top, 2 middle, and 1 bottom.\nAfter collecting a Warhead, it will be on cooldown for 5 seconds.\nIf you do not pay attention to this characteristic, you may end up walking within range\nof enemy Structures by mistake, taking unnecessary damage or even dying in the process.\nAlso, Warheads deal damage after 4 seconds, so you will rarely hit enemy Heroes.\nWarhead\n[F]\nItem\nAfter a 3 second channel\nand a 4 second delay, launch a Warhead dealing 1750\n(+70 per minute for 25 minutes) damage.\nStructures are also ignited for 10 seconds, taking 120\n(+4.8 per minute for 25 minutes) damage per second.\nHeroic Basic Attacks pause the burning's duration for 3 seconds.\nForts, Keeps, and Core take 125% more damage.\nTry to hit multiple Structures at the same time to maximize their value.\nUsing 1 Warhead on each Fort (while also hitting nearby Towers) is more efficient\nthan using 3 Warheads on the same Fort (while also hitting nearby Towers).\nThat said, considering that Forts, Keeps, and Core take 125% more damage\nfrom Warheads, you should not hesitate to use a Warhead for damaging\na Fort without Towers nearby or a Keep without Towers nearby.\nDue to their cast time and delay, you will rarely hit enemy Heroes with them.\nThe only situation in which it makes sense to use a Warhead not to hit enemy Structures\nis when trying to secure a Boss Camp because it will\nhelp you kill the Boss faster and, more importantly, will zone enemy Heroes\nbecause they will not want to take a lot of damage from its impact.\nYou can use the Warhead timings provided below to launch a Warhead\nwhen the Game Time shows the corresponding amount of seconds.\nThis way you can instantly kill a wave of enemy Minions for free\nwhen using a Warhead to hit a Fort or Keep and its nearby Towers\nat the same time.\nWhen targeting a Fort and its nearby Towers, the Warhead timings are:\nTop: 16 seconds, 46 seconds;\nMiddle: 9 seconds, 39 seconds;\nBottom: 17 seconds, 57 seconds.\nWhen targeting a Keep and its nearby Towers, the Warhead timings are:\nTop: 29 seconds, 59 seconds;\nMiddle: 28 seconds; 58 seconds;\nBottom: 29 seconds, 59 seconds.\nHeroes trying to use a Warhead can be interrupted\nwith crowd-control Abilities,\nputting the Warhead on a 5-second cooldown. To defend from Warheads,\nstay near your Structures to constantly stop enemy Heroes for nuking them.\nAt the same time, though, enemy Heroes will try to use Warheads from the sides,\nbehind the impassable terrain surrounding your Forts.\nDo not bother trying to reduce the damage done by enemy Heroes\nwho are launching a Warhead. Their damage cannot be affected by damage reduction effects\n(such as Defense Matrix by D.Va). Once a Warhead goes off,\nthe only way to protect your Structures from its damage is putting them in\nTime Stop (only possible with Void Prison\nby Zeratul) right before the damage happens.\nWhenever a Hero having a Warhead dies, that Warhead will drop on the ground,\nready to be collected by another allied or enemy Hero. If you predict that\nyou are going to die for sure in the next 3 seconds, you can use it on the spot\nso that the enemy team will not be able to get value from it. Note that this\nmove is impossible to pull off against enemy Heroes who can quickly\nburst you down or have interrupts.\nWarheads stop scaling when picked up. For example, a Warhead picked\nup at 3:05 minutes will do about 700 less damage than a Warhead picked up at 13:05 minutes.\nThis difference may occasionally be relevant when trying to take down a Keep in the\nlate game or when going for the enemy Core.\nStore some Warheads for when you will try to end the game\nbecause they can deal a lot of damage to the enemy Core.\nWhen using Warheads to end the game, aim the Warheads more towards your team,\nso that they will not only hit the enemy Core but also\nzone enemy Heroes away from you.\nAssuming the enemy Core has 20-minute scaling (maximum possible)\nand Warheads have about 17-minute scaling (realistic scenario), each Warhead will deal\ndamage on impact equal to about 30% of the enemy Core's maximum Health (stacking) and\ndamage over time equal to about 20% of the enemy Core's maximum Health (not stacking).\nWarheads\nImpact Damage\nDamage Over Time\nTotal Damage\n1\n30%\n20%\n50%\n2\n60%\n20%\n80%\n3\n90%\n20%\n110%\n4\n120%\n20%\n140%\n5\n150%\n20%\n170%\nNote that Cores have a Shield equal to 50% of their maximum Health.\nAs a consequence, if you want to destroy the enemy Core to win the game, you need\nto deal damage equal to 150% of the enemy Core's maximum Health."
+  },
+  {
+   "title": "Sewage Tunnel",
+   "id": "sewage-tunnel",
+   "text": "Even if Warhead Junction is a big Map, it is relatively fast to travel between\nthe bottom and the top lane thanks to the Sewage Tunnel connecting them.\nWhen clicking on it, after channeling for 2 seconds,\nyou will be teleported to the other side of the tunnel. You cannot use\nthe Sewage Tunnel while directly taking damage from enemies.\n\nYou can use the Sewage Tunnel for various things, such as:\nwhen you are in the top lane but the enemy team is trying\nto siege your Structures in the bottom lane;\nto surprise enemy Heroes with a gank;\nas a valuable shortcut when traveling from a Mercenary Camp\nto the furthest lane, or in the opposite direction.\nAll that said, avoid using them if your team is not controlling\nat least one of the Watch Towers because, thanks to them, the enemy team will see\nall your movements between the bottom and top lane on the Minimap,\nindirectly gaining a tactical advantage by knowing your approximate position\nin the next few seconds and because, due to not having them, you will risk\nmeeting enemy Heroes at the exit of the Sewage Tunnel."
+  },
+  {
+   "title": "Watch Towers",
+   "id": "watch-towers",
+   "text": "Warhead Junction features 2 Watch Towers: one right above the middle lane\nand another slightly below it, each of them giving vision\non one of the entrances of the Sewage Tunnel.\n\nSecuring a Watch Tower provides your team with greater vision,\nallowing you to keep an eye on enemy movements in that part of the battlefield.\nWatch Towers can be captured by standing in the area until your team gains control.\nAfter 45 seconds of not being occupied, they become neutral again. Because of this,\nthey should only be captured when you are playing in that area for other reasons\n(either to capture Mercenary Camps or for contesting the Objective).\nWatch Towers controlled by the enemy team are extremely dangerous,\nespecially when there are bushes nearby, therefore you should think twice\nbefore contesting them. If you do not have mobility tools at your disposal\nand your teammates are not nearby to help you, you should definitely not try\nto capture a Watch Tower as you will only risk dying for no reason.\nStaying alive is more important than getting vision."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 18 seconds, the Core launches a Warhead at a nearby enemy Hero,\ndealing 30% maximum Health as damage to enemy Heroes hit."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Warhead Junction, you should count on\nany of the following win conditions:\nBoss Camp,\nSplit-push,\nstoring Warheads for hitting Core."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute\nbecause the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nWarheads do NOT deal bonus damage in the center area.\nIn order to maximize their damage, Warheads should ideally be\nused to hit as many Structures as possible at the same time.\nNote that Forts, Keeps, and Core take 125% more damage from them.\nWarheads make enemy Structures hit take damage over time.\nHeroic Basic Attacks can make the damage over time last longer.\nTo get value from this, use Warheads when accompanied by allied Heroes\nto help you and allied Minion to tank enemy Structures for you.\nWatch Towers controlled by the enemy team are extremely dangerous,\nespecially when there are bushes nearby, therefore you should think twice\nbefore contesting them.\nBefore using the Sewage Tunnel for rotating between top lane and bottom lane,\nit is important to look at the Minimap and be aware of where enemy Heroes could be.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Guide updated for the latest Map Updates.\nMap Objective section updated.\n04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n24 Apr. 2026: Guide updated for the latest Map Updates.\nMap Objective section updated.\nTips and Tricks section updated.\n14 Feb. 2026: Guide updated for the latest Map Updates.\nWatch Towers section updated.\n16 Dec. 2025: Guide updated for the latest Map Updates.\nMap Objective section updated.\n01 Dec. 2025: Guide updated for the latest Map Updates.\nMap Objective section updated.\nTips and Tricks section updated.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy Section updated.\nMercenary Camps section updated.\nMap Objective section updated.\n23 Aug. 2024: Guide reworked.\n14 Jun. 2021: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

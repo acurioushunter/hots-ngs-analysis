@@ -1,0 +1,265 @@
+{
+ "slug": "lt-morales",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/lt-morales-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/lt-morales-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/lt-morales-talents"
+ },
+ "guide": [
+  {
+   "title": "Lt. Morales's Overview",
+   "id": "lt-moraless-overview",
+   "text": "Lt. Morales is a powerful single-target Healer who can\nprovide Armor to allied Heroes, but her lack of\nmobility and crowd control\nmakes her an easy target to engage on, especially if you\nare not careful with her positioning."
+  },
+  {
+   "title": "Lt. Morales's Strengths and Weaknesses",
+   "id": "lt-moraless-strengths-and-weaknesses",
+   "text": "Strengths\nPowerful single-target heals via Healing Beam and damage reduction via Safeguard\nAbility to interrupt any stationary-channeled Ability using Displacement Grenade\nSynergy with marksmen thanks to Stim Drone\nTeam-wide global with Medivac Dropships\nWeaknesses\nLack of area of effect healing\nHealing Beam is quite Energy consuming\nAlmost non-existent crowd control\nNo mobility\nLow self-healing\nNo access to Cleanse or similar tools to remove crowd-control effects\nUnable to provide Unstoppable frames"
+  },
+  {
+   "title": "Lt. Morales's Talent Build Cheatsheet",
+   "id": "lt-moraless-talent-build-cheatsheet",
+   "text": "Healing Beam Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's Healing Beam Build is quite versatile as it allows you to deal with\nboth burst and sustain damage fairly well,\ntherefore it can be used in most situations without any problem.\nBasic Attacks Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's Basic Attacks Build is great for healing your team\nduring prolonged team fights, but it requires to use Basic Attacks\non enemy Heroes whenever it is safe to do so.\nDisplacement Grenade Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's Displacement Grenade Build gives you a lot of utility\nin the form of personal Shields and a powerful Slow\nin the early game, with extremely low cooldown\nonce you reach the late game.\nYou can use this Build against team compositions featuring a lot of low-range Heroes.\nSince they tend to play near each other, you will easily get multi-hits\nwith Displacement Grenade and, as a consequence,\nmore value from Second Opinion at Level 20\nand Blast Shield at Level 4.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's ARAM Build is quite versatile as it allows you to deal with\nboth burst and sustain damage fairly well,\ntherefore it can be used in most situations without any problem.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Lt. Morales's Synergies and Counters",
+   "id": "lt-moraless-synergies-and-counters",
+   "text": "Lt. Morales synergizes with\nLt. Morales requires a solid Tank who can consistently\npeel multiple enemy Heroes away from her (such as E.T.C.).\nIf you want to get value from Stim Drone, you need a\nmarksman in your team (for example Sgt. Hammer).\nLt. Morales is countered by\nConsidering that Healing Beam needs the targeted\nallied Hero to be in range for the whole time and not just the moment you cast it,\nLt. Morales suffers against Heroes who have Displacement\neffects (such as Garrosh and Junkrat). Due to her limited self-healing and lack of\ncrowd control, she does not like to play against\ndive compositions that count on aggressive Heroes\nwho can directly engage on her by skipping her\nfrontline (for example Zeratul and Anub'arak).\nWhat is often overlooked is the fact that she suffers poke damage\nbecause it can drain out her Energy in around 20 seconds,\nsomething that will make her almost useless for a while.\nAs a consequence of how her Energy works, she does not want to take prolonged fights,\nespecially when the enemy team can get value out of them (such as Auriel).\nLast but not the least, she definitely suffers area of effect\ndamage (for example Lunara) because all of her Abilities can heal\nor mitigate damage on a single allied Hero at a time."
+  },
+  {
+   "title": "Lt. Morales's Maps",
+   "id": "lt-moraless-maps",
+   "text": "Lt. Morales's stronger maps\nLt. Morales's average maps\nLt. Morales's weaker maps\nLt. Morales performs better on Maps where the team fight cannot evolve on\ndifferent fronts because she suffers from flank and\ndive strategies a lot. The notorious backdoor strategy\ninvolving Medivac Dropships works best on big Maps\n(preferably Sky Temple) and can completely reverse their ratings."
+  },
+  {
+   "title": "Lt. Morales's Tips and Tricks",
+   "id": "lt-moraless-tips-and-tricks",
+   "text": "When healing a Hero with Healing Beam, especially if melee, try to synchronize your movement with theirs to avoid going out of position and getting focused down by the enemy team.\nDo not use Safeguard in random moments but instead try to cast it when it will mitigate a good amount of damage.\nYou can reactivate Displacement Grenade to make it detonate immediately rather than at its maximum range.\nWhile the best targets for Stim Drone are marksmen, you can occasionally use it on Heroes from different Roles when they need Movement Speed to chase or escape.\nA short range Medivac Dropship can protect yourself from danger without leaving your team without their Healer for too much time.\nThanks to Caduceus Reactor, Healing Beam can be used to heal Lt. Morales without consuming Energy by targeting an allied Hero or allied Minion at full Health.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Lt. Morales's Role in the Current Meta",
+   "id": "lt-moraless-role-in-the-current-meta",
+   "text": "Lt. Morales is a solid but situational Healer\nthat can easily keep her frontline healthy\nagainst focused damage, but make sure to have a good target\nfor Stim Drone to get the most value out of her,\nusually a Marksman (such as Raynor).\nAlternatively, if you are playing with an organized team, you can use\nMedivac Dropships for the infamous backdoor strategy\ninvolving a Hero who can deny the damage coming from enemy Structures\n(such as Tyrael with Sanctification) and\na few Heroes who can take them down for the duration (for example Artanis\nwith Amateur Opponent, Raynor, and Greymane),\nbefore the enemy team can react."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Sep. 2026 (talents page): Guide reviewed.\n22 Sep. 2026 (abilities page): Guide reviewed.\n22 Sep. 2026 (this page): Guide reviewed.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n17 Dec. 2023 (talents page): Guide reviewed.\n17 Dec. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n02 Jun. 2022 (talents page): Builds updated.\n02 Jun. 2022 (this page): Builds and Maps updated.\n01 Sep. 2021 (talents page): Builds updated.\n01 Sep. 2021 (this page): Builds and Maps updated.\n26 Aug. 2021 (talents page): Guide reviewed for the latest Balance Update.\n26 Aug. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n26 Aug. 2021 (this page): Guide reviewed for the latest Balance Update.\n23 Jul. 2021 (talents page): Guide reviewed for the latest Balance Update.\n23 Jul. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n23 Jul. 2021 (this page): Guide reviewed for the latest Balance Update.\n14 Jun. 2021 (talents page): Builds updated.\n14 Jun. 2021 (this page): Builds updated.\n25 Feb. 2021 (talents page): New layout.\n17 Jul. 2020 (talents page): Guide reviewed for the latest Balance Update.\n17 Jul. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n17 Jul. 2020 (this page): Guide reviewed for the latest Balance Update.\n05 Jun. 2020 (talents page): Builds and Descriptions changed according to the latest Balance Update.\n05 Jun. 2020 (abilities page): Builds and Descriptions changed according to the latest Balance Update.\n05 Jun. 2020 (this page): Builds and Descriptions changed according to the latest Balance Update.\n28 Apr. 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n28 Apr. 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n28 Apr. 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nTalent Build Cheatsheet updated to reflect the current metagame.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\nRole in the Current Meta modified to reflect the current metagame and to remove the unnecessary part about the now fixed Experience Globes.\n23 Mar. 2020 (talents page): Outdated and misleading information corrected.\n23 Mar. 2020 (abilities page): Outdated information corrected.\n13 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n16 Oct. 2019 (talents page): Added the Medi-Drone talent at Level 7 and applied it to Lt. Morales' builds in accordance with the latest Balance Update.\n17 Jun. 2019 (talents page): Updated Lt. Morales' talents in accordance with the latest state of the game.\n17 Jun. 2019 (abilities page): Updated Lt. Morales' abilities section in accordance with the latest state of the game.\n13 Oct. 2018 (talents page): Updated Lt. Morales' Talent Builds in accordance with the recent Balance Update.\n15 Jan. 2018 (talents page): Changed Cellular Reactor from Not Recommended to Situational.\n22 Dec. 2017 (talents page): Changed First Responder from Not Recommended to Recommended.\n12 Sep. 2017 (talents page): Changed Life Support from Not Recommended to Recommended.\n08 Sep. 2017 (talents page): Updated Lt. Morales' talents page in accordance with the Kel'thuzad patch.\n08 Sep. 2017 (abilities page): Updated Lt. Morales' abilities page in accordance with the Kel'thuzad patch.\n09 Jan. 2017 (this page): Updated guide for recent balance patch and moved it to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Lt. Morales's Tips and Tricks",
+   "id": "lt-moraless-tips-and-tricks",
+   "text": "When healing a Hero with Healing Beam, especially if melee, try to synchronize your movement with theirs to avoid going out of position and getting focused down by the enemy team.\nDo not use Safeguard in random moments but instead try to cast it when it will mitigate a good amount of damage.\nYou can reactivate Displacement Grenade to make it detonate immediately rather than at its maximum range.\nWhile the best targets for Stim Drone are marksmen, you can occasionally use it on Heroes from different Roles when they need Movement Speed to chase or escape.\nA short range Medivac Dropship can protect yourself from danger without leaving your team without their Healer for too much time.\nThanks to Caduceus Reactor, Healing Beam can be used to heal Lt. Morales without consuming Energy by targeting an allied Hero or allied Minion at full Health."
+  },
+  {
+   "title": "Healing Beam",
+   "id": "healing-beam",
+   "text": "Healing Beam\n(Q)\nLt. Morales\nHeal target allied Hero or Minion for 172 (+4% per level) Health per second as long as they are in range. After not channeling Healing Beam for 2 seconds, regenerate 6 Energy per second.\nReactivate to switch targets, or self-cast to cancel channeling.\nHealing Beam is the only Ability that allows\nLt. Morales to heal a single Hero or Mercenary at the cost of Energy,\nhowever, it is possible to swap target whenever you want.\nChoose your target wisely and always keep an eye on your Energy level.\nYou can use Basic Attacks and other Basic Abilities\nwhile channeling this one,\nbut not Heroic Abilities because they have a channel too.\nWhen used on Heroes, Healing Beam shows their portrait and name\nin the bottom-left corner of the screen.\nConsidering that Lt. Morales has 100 Energy and that Healing Beam consumes\n6 Energy per second, you can channel it for about 17 seconds before spending\nall your Energy. To regenerate your Energy, just stop channeling Healing Beam\nand, after 2 seconds of delay, you will get 6 Energy per second while not using it.\nRemember that you will need about 17 seconds—plus 2 seconds of delay—to go from 0 to 100 Energy.\nAs a general rule, you can think about Energy consumption and regeneration as follows:\nfor each second spent channeling Healing Beam, you will need a second of not channeling it."
+  },
+  {
+   "title": "Safeguard",
+   "id": "safeguard",
+   "text": "Safeguard\n(W)\nLt. Morales\nCooldown: 11 seconds\nGrant target ally Hero 35 Armor for 3 seconds.\nSafeguard is a Basic Ability that gives\nArmor to a given allied Hero at no cost. Try to use it\nwhen you expect a lot of damage, else you waste it. The start of a team fight\nis a good moment to use it because the enemy Heroes will tend to use their cooldowns\non the most exposed of your allied Heroes. In case you notice that the enemy team\ntends to ignore your frontline and focus you instead, keep this Ability for yourself."
+  },
+  {
+   "title": "Displacement Grenade",
+   "id": "displacement-grenade",
+   "text": "Displacement Grenade\n(E)\nLt. Morales\nCooldown: 12 seconds\nFire a grenade that can be manually detonated, dealing 208 (+4% per level) to nearby enemies and knocking them away.\nDisplacement Grenade is a Basic Ability that\nallows Lt. Morales to Knockback enemies, something that\ncan be held for the right moment to interrupt\nstationary-channeled Abilities\n(such as Mosh Pit by E.T.C.) or simply used to mess\nup the enemy engage as a form of peeling for your team.\nRemember that you can reactivate this Ability to make the projectile explode\nimmediately in its current position, else it will detonate at maximum range.\nAvoid using it when your team is trying to land skillshot\nAbilities because it will only make your team waste important cooldowns on the\nposition where the enemy Hero was before you moved it to safety."
+  },
+  {
+   "title": "Stim Drone",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nStim Drone\n(R)\nLt. Morales\nHeroic\nCooldown: 70 seconds\nGrant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds.\nStim Drone is a powerful Heroic Ability that,\nafter a brief channel, greatly\nincreases the Attack Speed and Movement Speed of the targeted allied Hero.\nAs a consequence, try to use it on Heroes who can benefit from both of them,\neven if in some scenarios you may want to cast it just to give Movement Speed\nto someone to save them. If the cast gets interrupted,\nStim Drone is put on a 10-second cooldown, so watch out for enemy\ncrowd control effects while trying to cast it,\nbut this is rarely a problem thanks to the high range and the fast cast time.\nWhile the official tooltip does not mention it,\nStim Drone cannot be cast on Lt. Morales."
+  },
+  {
+   "title": "Medivac Dropship",
+   "id": "medivac-dropship",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMedivac Dropship\n(R)\nLt. Morales\nHeroic\nCooldown: 45 seconds\nTarget a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac.\nMedivac Dropship is a situational Heroic Ability\nthat summons a Medivac which can be used by Lt. Morales and her team to travel\nacross the battleground, from the casting location to the selected location.\nIn addition to that, Lt. Morales also unlocks Reinforcements\nto summon a Medivac that will travel from the allied Hall of Storms to the casting location,\nbasically working like a Death Timer reduction for allied Heroes.\nMedivac Dropship can be used in two ways:\nDefensive: When you are in trouble, cast it targeting the closest point\npossible so that you will be hidden in the Medivac until it gets destroyed\nor you will land in a nearby location to keep helping your team.\nOffensive: When your team wants to reach a given location\non the other side of the battlefield, wait for your team to group around you\nand then cast it targeting the desired location.\nHeroes can enter the Medivac to cancel most debuffs,\nbut they will not be able to exit unless the Medivac lands or gets destroyed.\nEven if the Medivac will automatically depart after 10 seconds,\nyou can manually order to depart immediately by pressing [1] when outside\nor [E] when inside, but you cannot do it within 3 seconds from its cast.\nWhen using Medivac Dropship normally:\nthe starting point will always be where Lt. Morales is when casting it;\nthe ending point cannot be too close to the starting point and has a high\nbut limited range that usually covers half of the battlefield,\nbut it depends on the Map because each of them has a different size;\nLt. Morales is automatically put in the Medivac once the cast finishes,\nwhereas allied Heroes have to click on it.\nWhen using Reinforcements:\nthe starting point will always be the allied Hall of Storms;\nthe ending point will always be where Lt. Morales is when casting it;\nif Lt. Morales is nearby or uses her Hearthstone to get there,\nshe can enter the Medivac as well.\nWe recommend using Reinforcements about 3 seconds\nbefore allied Heroes respawn, so that they will have enough time to realize\nthey have to enter in the Medivac Dropship and you will be able\nto make it depart as soon as they enter. To check if they entered already,\njust look at their icon disappearing from the Minimap."
+  },
+  {
+   "title": "Caduceus Reactor",
+   "id": "caduceus-reactor",
+   "text": "Caduceus Reactor\n(D)\nLt. Morales\nPassive\nWhile channeling Healing Beam, Lt. Morales regenerates 2% of her maximum Health per second.\nCaduceus Reactor is a Trait which allows Lt. Morales\nto heal herself for a small amount while using Healing Beam,\nbasically the only way she can gain Health back without specific Talents.\nMake sure to utilize it as much as possible by keeping Healing Beam\nactive on full Health targets when you are not full Health and keep in\nmind that Lt. Morales can also heal Minions to maintain the self-healing buff."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Sep. 2026: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n26 Aug. 2021: Guide reviewed for the latest Balance Update.\n23 Jul. 2021: Guide reviewed for the latest Balance Update.\n17 Jul. 2020: Guide reviewed for the latest Balance Update.\n05 Jun. 2020: Builds and Descriptions changed according to the latest Balance Update.\n28 Apr. 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n23 Mar. 2020: Outdated information corrected.\n17 Jun. 2019: Updated Lt. Morales' abilities section in accordance with the latest state of the game.\n08 Sep. 2017: Updated Lt. Morales' abilities page in accordance with the Kel'thuzad patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Caduceus Feedback (Level 1) Lt. Morales Increases Attack Range by 1.1 and Basic Attacks against Heroes generate 4 Energy."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Life Support (Level 1) Lt. Morales During the first 2 seconds of Energy regeneration, Healing Beam regenerates 100% more Energy. Passive: Increase your maximum Energy by 10."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Clear! (Level 1) Lt. Morales Quest: Each enemy Hero hit with Displacement Grenade restores 3 Energy. Reward: After hitting 15 Heroes, reduce the cooldown of Displacement Grenade from 12 seconds to 9 seconds. Reward: After hitting 30 Heroes, increase the detonation area of Displacement Grenade by 25%."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Cellular Reactor (Level 4) Lt. Morales Consume 30 Energy to heal Lt. Morales for 30% of her maximum Health over 3 seconds. Caduceus Reactor is disabled while this is active. Passive: Generate 2 Energy each time Safeguard reduces damage, up to a maximum of 10 Energy per use."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Trauma Trigger (Level 4) Lt. Morales Taking damage while below 40% Health grants 40 Armor for 3 seconds. This effect has a 30 second cooldown. Passive: Increase the healing provided by Caduceus Reactor from 2% to 4% of Lt. Morales's maximum Health per second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Blast Shield (Level 4) Lt. Morales Enemy Heroes hit by Displacement Grenade are Slowed by 50% for 1 second after being knocked away and grant Lt. Morales a Shield equal to 6% of her maximum Health. This shield stacks up to 5 times."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Physical Therapy (Level 7) Lt. Morales Safeguard removes all Slows from its target and its cooldown is reduced by 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Vanadium Plating (Level 7) Lt. Morales While an ally affected by Safeguard is Stunned or Rooted, Safeguard grants an additional 20 Armor. Passive: Increase the duration of Safeguard by 1 second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Medi-Drone (Level 7) Lt. Morales Allies with Safeguard receive 75% of the healing done by Healing Beam on another ally."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Stim Drone (Level 10) Lt. Morales Cooldown: 70 seconds Grant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Medivac Dropships (Level 10) Lt. Morales Cooldown: 45 seconds Unlock the Medivac Dropship and Reinforcements abilities. These abilities share a cooldown. Medivac Dropship Target a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac. Reinforcements Call down a Medivac Dropship at your Hall of Storms for your allies. After 10 seconds, or when the Ability is activated again, the Medivac will travel to the original cast location to unload its passengers."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "EMP Grenade (Level 13) Lt. Morales Displacement Grenade deals an additional 96 (+4% per level) damage over 2 seconds, and up to 400 (+4% per level) bonus damage to Heroes' Shields."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "System Shock (Level 13) Lt. Morales Heroes hit by Displacement Grenade deal 30% less damage for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Bedside Manner (Level 13) Lt. Morales Basic Attacks against enemy Heroes deal bonus damage equal to 1% of their maximum Health. Hitting an enemy Hero with Displacement Grenade increases the next instance of this damage against them to 6% for 6 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Extended Care (Level 16) Lt. Morales Channeling Healing Beam on a Hero for at least 3 seconds causes them to be healed for 258 (+4% per level) over 3 seconds when Healing Beam ends. Passive: Increase the range of Healing Beam by 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "First Responder (Level 16) Lt. Morales While above 60 Energy, Healing Beam's healing is increased by 20% and both Lt. Morales and her Healing Beam target gain 15% Movement Speed."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Shield Sequencer (Level 16) Lt. Morales Safeguard gains a second charge and its range is increased by 60%."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Hyperactivity (Level 20) Lt. Morales Reduce the cooldown of Stim Drone from 70 seconds to 35 seconds, and increase the Movement Speed bonus from 25% to 50%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Safe Zone (Level 20) Lt. Morales After exiting the Medivac, allies are Protected from all damage for 3 seconds. Passive: Reduce the cooldown of Medivac Dropship abilities by 15 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hospice Care (Level 20) Lt. Morales Safeguard grants its target Unkillable for 1 second. If the target is under 50% maximum Health when the Unkillable effect ends, they are healed for 8% of their maximum Health."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Second Opinion (Level 20) Lt. Morales Hitting 2 or more Heroes with Displacement Grenade reduces its cooldown to 2 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Lt. Morales's Talent Build",
+   "id": "lt-moraless-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n?\n✓\n?\n7\n?\n✓\n?\n10\n✓\n?\n13\n?\n✓\n?\n16\n✓\n?\n?\n20\n?\n?\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Lt. Morales's Talent Build Cheatsheet",
+   "id": "lt-moraless-talent-build-cheatsheet",
+   "text": "Healing Beam Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's Healing Beam Build is quite versatile as it allows you to deal with\nboth burst and sustain damage fairly well,\ntherefore it can be used in most situations without any problem.\nBasic Attacks Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's Basic Attacks Build is great for healing your team\nduring prolonged team fights, but it requires to use Basic Attacks\non enemy Heroes whenever it is safe to do so.\nDisplacement Grenade Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's Displacement Grenade Build gives you a lot of utility\nin the form of personal Shields and a powerful Slow\nin the early game, with extremely low cooldown\nonce you reach the late game.\nYou can use this Build against team compositions featuring a lot of low-range Heroes.\nSince they tend to play near each other, you will easily get multi-hits\nwith Displacement Grenade and, as a consequence,\nmore value from Second Opinion at Level 20\nand Blast Shield at Level 4.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\n?\n?\nLevel 10\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLt. Morales's ARAM Build is quite versatile as it allows you to deal with\nboth burst and sustain damage fairly well,\ntherefore it can be used in most situations without any problem."
+  },
+  {
+   "title": "Level 1 Talents for Lt. Morales",
+   "id": "level-1",
+   "text": "?\nCaduceus Feedback\n(Level 1)\nLt. Morales\nIncreases Attack Range by 1.1 and Basic Attacks against Heroes generate 4 Energy.\nCaduceus Feedback is a good Talent that increases\nyour Attack Range and, more importantly, makes your Basic Attacks generate Energy.\nJust be careful with your positioning when using this Talent because, once dead,\nyour remaining Energy will not matter anymore.\nIdeally, this is the best Energy Regeneration tool you have at your disposal for when\nyou need to constantly channel Healing Beam,\nbut you will not be able to use Basic Attacks against enemy Heroes all the time,\nso its real value will vary based on how aggressive the enemy team will be\nand it obviously will not work while not fighting against enemy Heroes.\nPick this Talent only if you can use Basic Attacks without risking death\nbecause it allows you to generate a considerable amount of Energy,\neven while channeling Healing Beam.\nWith it, you can extend Healing Beam's duration from about 17 seconds\n(equivalent to 100 Energy) to about 25 seconds (equivalent to 100 + 50 Energy)\nif you can Basic Attack (equivalent to 100 + 200 Energy) once every 2 seconds (usually possible)\nor to about 50 seconds if you can Basic Attack once per second (rarely possible).\nAll that said, in order to match the value of Life Support\nin a sustain healing scenario,\nyou only need about 1 Basic Attacks every 3 seconds.\n✔\nLife Support\n(Level 1)\nLt. Morales\nDuring the first 2 seconds of Energy regeneration, Healing Beam regenerates 100% more Energy.\nPassive: Increase your maximum Energy by 10.\nLife Support is a strong Talent that\nincreases your maximum Energy by a small amount\nand slightly empowers\nyour Energy Regeneration for a brief period after stopping channeling\nHealing Beam.\nThanks to how the bonus Energy Regeneration works,\nassuming you are in a situation where your team needs\nsustain healing and not burst healing,\nyou can basically heal for 50% value without spending Energy by playing as follows:\nchannel Healing Beam\nfor 4 seconds, stop channeling it, wait 4 seconds, and repeat.\nThis playstyle is pretty good for First Responder at Level 16.\n?\nClear!\n(Level 1)\nLt. Morales\nQuest: Each enemy Hero hit with Displacement Grenade restores 3 Energy.\nReward: After hitting 15 Heroes, reduce the cooldown of Displacement Grenade from 12 seconds to 9 seconds.\nReward: After hitting 30 Heroes, increase the detonation area of Displacement Grenade by 25%.\nClear! is a decent Talent that empowers\nDisplacement Grenade by reducing its cooldown,\nincreasing its detonation area, and making it restore 3 Energy for each enemy Hero hit.\nThanks to the cooldown reduction and the area increase provided, this Talent has synergy\nwith Blast Shield at Level 4\nand Second Opinion at Level 20,\nas well as with any Level 13 Talent: EMP Grenade,\nSystem Shock, and Bedside Manner."
+  },
+  {
+   "title": "Level 4 Talents for Lt. Morales",
+   "id": "level-4",
+   "text": "?\nCellular Reactor\n(Level 4)\nLt. Morales\nConsume 30 Energy to heal Lt. Morales for 30% of her maximum Health over 3 seconds. Caduceus Reactor is disabled while this is active.\nPassive: Generate 2 Energy each time Safeguard reduces damage, up to a maximum of 10 Energy per use.\nCellular Reactor is a good Talent for keeping\nLt. Morales alive in dangerous situations at the cost of 30 Energy.\nIn addition to that, Safeguard will regenerate\n2 Energy for each instance of damage, up to 5 instances of damage per cast,\nfor a total of 10 Energy gained in the best-case scenario.\nWhile its cooldown is relatively low, try to have it ready for team fights\nand keep an eye on your Energy consumption otherwise you will not have\nenough Energy to heal allied Heroes with Healing Beam.\nSince activating Cellular Reactor costs a lot of Energy,\nyou should try to use Safeguard on allied Heroes\nthat are taking damage from Abilities with high tickrate (for example\nPsionic Storm by Tassadar).\n✔\nTrauma Trigger\n(Level 4)\nLt. Morales\nTaking damage while below 40% Health grants 40 Armor for 3 seconds. This effect has a 30 second cooldown.\nPassive: Increase the healing provided by Caduceus Reactor from 2% to 4% of Lt. Morales's maximum Health per second.\nTrauma Trigger is a strong Talent that, once every 30 seconds,\nautomatically provides a solid amount of Armor to Lt. Morales\nif she gets damaged when below 40% of her maximum Health and passively doubles\nthe healing provided by Caduceus Reactor, healing her\nfor about 20% of the healing done by Healing Beam to allied Heroes.\nThe extra Armor provided by this Talent is only\nuseful when the enemy team wants to take you down using crowd control\nthat will not allow you to cast Safeguard on yourself\nand/or activate Cellular Reactor before it is too late.\nKeep in mind that Armor effects do not stack,\nso you should try to use Safeguard either before\nor after Trauma Trigger automatically goes off.\n?\nBlast Shield\n(Level 4)\nLt. Morales\nEnemy Heroes hit by Displacement Grenade are Slowed by 50% for 1 second after being knocked away and grant Lt. Morales a Shield equal to 6% of her maximum Health. This shield stacks up to 5 times.\nBlast Shield is a good Talent that allows Lt. Morales\nto Shield herself\nwith Displacement Grenade while also Slowing every enemy Hero hit.\nTo get the most out of this Talent, you need Clear! at Level 1\nto increase the area of Displacement Grenade\nand Second Opinion at Level 20\nto heavily reduce its cooldown when hitting multiple Heroes at the same time."
+  },
+  {
+   "title": "Level 7 Talents for Lt. Morales",
+   "id": "level-7",
+   "text": "?\nPhysical Therapy\n(Level 7)\nLt. Morales\nSafeguard removes all Slows from its target and its cooldown is reduced by 3 seconds.\nPhysical Therapy is a situational Talent that slightly\nreduces the cooldown of Safeguard and makes it able to\nremove Slow effects from the targeted allied Hero.\nConsider picking this Talent to counter powerful Abilities\nor Talents which rely on Slows being active\n(for example Virulent Reaction at Level 16 on Stukov).\n✔\nVanadium Plating\n(Level 7)\nLt. Morales\nWhile an ally affected by Safeguard is Stunned or Rooted, Safeguard grants an additional 20 Armor.\nPassive: Increase the duration of Safeguard by 1 second.\nVanadium Plating is a strong Talent that slightly\nincreases the duration of the Armor provided by\nSafeguard and grants additional Armor\nto allied Heroes who are Stunned or Rooted.\nGo for this Talent when the enemy team has burst damage,\nespecially if they also have at least a Stun\n(for example Powerslide by E.T.C.)\nor Root (such as Entangling Roots by Malfurion).\n?\nMedi-Drone\n(Level 7)\nLt. Morales\nAllies with Safeguard receive 75% of the healing done by Healing Beam on another ally.\nMedi-Drone is a situational Talent that makes\nSafeguard heal for 75% of the healing done via\nHealing Beam while the Armor\neffect is up. This effect does not work if whoever you are trying to heal\nwith Healing Beam is at full Health.\nPick this Talent when you want to mitigate\nLt. Morales's weakness to area of effect damage—as\nit basically lets you heal 2 Heroes at the same time—or to survive\nagainst dive—because it can be used on Lt. Morales too."
+  },
+  {
+   "title": "Level 10 Talents for Lt. Morales",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nStim Drone\n(Level 10)\nLt. Morales\nCooldown: 70 seconds\nGrant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds.\nStim Drone is a strong Heroic Ability that can be\nused to boost the combat performance of a Marksman or\neven a Bruiser who heavily relies on Basic Attacks.\n?\nMedivac Dropships\n(Level 10)\nLt. Morales\nCooldown: 45 seconds\nUnlock the Medivac Dropship and Reinforcements abilities. These abilities share a cooldown.\nMedivac Dropship\nTarget a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac.\nReinforcements\nCall down a Medivac Dropship at your Hall of Storms for your allies. After 10 seconds, or when the Ability is activated again, the Medivac will travel to the original cast location to unload its passengers.\nMedivac Dropships provides a situational Heroic Ability\nthat can be chosen when you need additional protection and/or a global,\nespecially on big Maps where traveling from a point to another takes a lot of time."
+  },
+  {
+   "title": "Level 13 Talents for Lt. Morales",
+   "id": "level-13",
+   "text": "?\nEMP Grenade\n(Level 13)\nLt. Morales\nDisplacement Grenade deals an additional 96 (+4% per level) damage over 2 seconds, and up to 400 (+4% per level) bonus damage to Heroes' Shields.\nEMP Grenade is a situational Talent that deals high\ndamage against enemy Shields (such as Shield Overload\non Artanis) and moderate damage to Heroes without Shields.\nBeing a damage Talent, it competes with Bedside Manner.\nYou should only pick this Talent when your team needs burst damage\nto quickly take down enemy Heroes who are protected by Shields, not necessarily\nevery time you see Shields in the enemy team, especially if you need\nthe damage reduction from System Shock.\n✔\nSystem Shock\n(Level 13)\nLt. Morales\nHeroes hit by Displacement Grenade deal 30% less damage for 3 seconds.\nSystem Shock is a strong Talent in most games because\nit helps Lt. Morales to mitigate incoming damage, increasing her strength\nagainst burst damage even more.\n?\nBedside Manner\n(Level 13)\nLt. Morales\nBasic Attacks against enemy Heroes deal bonus damage equal to 1% of their maximum Health. Hitting an enemy Hero with Displacement Grenade increases the next instance of this damage against them to 6% for 6 seconds.\nBedside Manner is a good Talent that gives you access to\npercent-based damage: 1% from Basic Attacks against\nany enemy Hero and 6% from the next Basic Attacks within 6 seconds against enemy Heroes\nwho have been recently hit by Displacement Grenade.\nYou can combine this Talent with Caduceus Feedback\nat Level 1 to get more value from it, especially if the enemy team has a low-threat\nTank that you can constantly pressure from the distance."
+  },
+  {
+   "title": "Level 16 Talents for Lt. Morales",
+   "id": "level-16",
+   "text": "✔\nExtended Care\n(Level 16)\nLt. Morales\nChanneling Healing Beam on a Hero for at least 3 seconds causes them to be healed for 258 (+4% per level) over 3 seconds when Healing Beam ends.\nPassive: Increase the range of Healing Beam by 30%.\nExtended Care is a strong Talent which slightly increases\nthe range of Healing Beam so that Lt. Morales has to\nexpose a bit less for healing an allied Hero and which provides extra healing\nover time when Healing Beam ends.\nThanks to this Talent, Healing Beam and Safeguard\nwill basically have the same range. This is extremely useful when trying to save allied Heroes\nwho are taking a lot of damage because you can start healing them sooner, increasing the chances they will survive.\nThe extra range provided by this Talent indirectly increases your survivability\nbecause you will be able to be in a slightly safer position while healing allied Heroes\nwho are positioned forward, in the frontline of your team.\nYou can trigger the extra healing from Extended Care\nby switching the allied Hero you are targeting with Healing Beam,\nassuming the target your are currently healing does not need your help anymore.\n?\nFirst Responder\n(Level 16)\nLt. Morales\nWhile above 60 Energy, Healing Beam's healing is increased by 20% and both Lt. Morales and her Healing Beam target gain 15% Movement Speed.\nFirst Responder is a good Talent that basically gives\nburst healing when having high Energy, something that\ncan make a significant difference in keeping focused allies\nHeroes alive against enemy burst damage.\nIn case you picked\nMedi-Drone at Level 7, the additional healing provided\nby this Talent increases its healing as well. You can use this synergy\nto make Lt. Morales harder to kill for a few seconds by using Safeguard\non herself while channeling Healing Beam on a damaged Minion\nor injured allied Hero nearby.\nTalents that increase the Energy at your disposal\nhave synergy with First Responder\nbecause they allow you to stay above the Energy threshold for longer.\n?\nShield Sequencer\n(Level 16)\nLt. Morales\nSafeguard gains a second charge and its range is increased by 60%.\nShield Sequencer is a good Talent that empowers\nSafeguard by increasing its range,\nto easily cast it on aggressively positioned allied Heroes without exposing too much,\nand by giving you an extra Charge, something\nthat enables Lt. Morales to get double value from any related Talent.\nThe extra range is great for saving allied Heroes who are way too far,\nespecially if you have Vanadium Plating at Level 7\nand they get either Rooted or Stunned.\nThis is the only Talent in this Tier that boosts Lt. Morales's own survivability.\nKeep that in mind when you are struggling to survive against enemy Heroes\nwho tend to flank or dive,\ncausing your premature death in team fights."
+  },
+  {
+   "title": "Level 20 Talents for Lt. Morales",
+   "id": "level-20",
+   "text": "?\nHyperactivity\n(Level 20)\nLt. Morales\nReduce the cooldown of Stim Drone from 70 seconds to 35 seconds, and increase the Movement Speed bonus from 25% to 50%.\nHyperactivity is a strong Talent that doubles the\nMovement Speed bonus, useful for chasing and dodging,\nand heavily reduces the cooldown of Stim Drone,\nsometimes letting you cast it twice in the same team fight.\nYou can pick this Talent to further empower the Hero in your team\nthat you buffed with Stim Drone during the game,\nunless you need the defensive value provided by Hospice Care.\n?\nSafe Zone\n(Level 20)\nLt. Morales\nAfter exiting the Medivac, allies are Protected from all damage for 3 seconds.\nPassive: Reduce the cooldown of Medivac Dropship abilities by 15 seconds.\nSafe Zone is a situational Talent that may be useful\nwhen using Medivac Dropships for a backdoor or to force\nan engage, strategies that only work if playing\nwith a coordinated team. To get value from this Talent, land near Structures so\nthat you can start damaging them when the Protected\neffect is still up. Reinforcements benefits from this Talent as well.\n✔\nHospice Care\n(Level 20)\nLt. Morales\nSafeguard grants its target Unkillable for 1 second. If the target is under 50% maximum Health when the Unkillable effect ends, they are healed for 8% of their maximum Health.\nHospice Care is a situational Talent which empowers\nSafeguard so that it gives the Unkillable status\nto the targeted allied Hero and then, if they have less than 50% maximum Health,\nthey get healed for 8% maximum Health. You can use it on Lt. Morales as well.\nYou should consider picking this Talent when the enemy team has a scary\namount of crowd control and burst\ndamage, to the point that even your Tank is constantly in danger.\nSince frontline Heroes have more maximum Health,\nusing this Talent on them means it is easier to trigger the healing effect.\n?\nSecond Opinion\n(Level 20)\nLt. Morales\nHitting 2 or more Heroes with Displacement Grenade reduces its cooldown to 2 seconds.\nSecond Opinion is a good Talent that almost resets\nthe cooldown of Displacement Grenade when hitting\nmultiple enemy Heroes with it.\nWhen planning to go for this Talent, it is important to have\nClear! at Level 1 because it increases\nDisplacement Grenade's area, making it easier\nto hit multiple enemy Heroes with it.\nIf you have good aim and the enemy team tends to clump,\nthe cooldown reduction given by this Talent will help you\nget more value from both the Slow and the Shield\nprovided by Blast Shield at Level 4."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "22 Sep. 2026: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n17 Dec. 2023: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n02 Jun. 2022: Builds updated.\n01 Sep. 2021: Builds updated.\n26 Aug. 2021: Guide reviewed for the latest Balance Update.\n23 Jul. 2021: Guide reviewed for the latest Balance Update.\n14 Jun. 2021: Builds updated.\n25 Feb. 2021: New layout.\n17 Jul. 2020: Guide reviewed for the latest Balance Update.\n05 Jun. 2020: Builds and Descriptions changed according to the latest Balance Update.\n28 Apr. 2020: Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n23 Mar. 2020: Outdated and misleading information corrected.\n16 Oct. 2019: Added the Medi-Drone talent at Level 7 and applied it to Lt. Morales' builds in accordance with the latest Balance Update.\n17 Jun. 2019: Updated Lt. Morales' talents in accordance with the latest state of the game.\n13 Oct. 2018: Updated Lt. Morales' Talent Builds in accordance with the recent Balance Update.\n15 Jan. 2018: Changed Cellular Reactor from Not Recommended to Situational.\n22 Dec. 2017: Changed First Responder from Not Recommended to Recommended.\n12 Sep. 2017: Changed Life Support from Not Recommended to Recommended.\n08 Sep. 2017: Updated Lt. Morales' talents page in accordance with the Kel'thuzad patch.\nShow more\nShow less"
+  }
+ ]
+}

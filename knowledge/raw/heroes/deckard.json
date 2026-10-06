@@ -1,0 +1,265 @@
+{
+ "slug": "deckard",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/deckard-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/deckard-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/deckard-talents"
+ },
+ "guide": [
+  {
+   "title": "Deckard Cain's Overview",
+   "id": "deckard-cains-overview",
+   "text": "Deckard is a Healer specialized in single-target healing,\nwith the possibility to prepare Healing Potion on the ground for later usage,\nand crowd control, usually used as follow-up\nto your Tank's engage."
+  },
+  {
+   "title": "Deckard Cain's Strengths and Weaknesses",
+   "id": "deckard-cains-strengths-and-weaknesses",
+   "text": "Strengths\nStrong and efficient single-target healing output\nPowerful area of effect crowd control\nAccess to Emerald for healing reduction\nWeaknesses\nWeak against burst damage\nNo access to Cleanse or similar tools to remove crowd-control effects\nStruggles when facing high-mobility Heroes\nUnable to provide Unstoppable frames"
+  },
+  {
+   "title": "Deckard Cain's Talent Build Cheatsheet",
+   "id": "deckard-cains-talent-build-cheatsheet",
+   "text": "Sapphire Emerald Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Sapphire Emerald Build increases your burst healing\nas well as your crowd control and utility.\nDue to its nature, this Build excels in short team fights.\nSapphire at Level 1 can be used to engage\nfor your team and/or as a setup Scroll Of Sealing.\nEmerald at Level 7 should be used on the kill target,\nso that the Healer will not be able to save them.\nThanks to the Shield it provides, Potion of Shielding\nat Level 4 helps you keep alive whoever is being focused by enemy Heroes.\nHoradric Staff at Level 16 can be used to peel\nfor allied Heroes and/or counter-engage.\nRuby Emerald Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Ruby Emerald Build increases your sustain healing\nand utility at the cost of crowd control.\nDue to its nature, this Build excels in long team fights.\nRuby at Level 4 is best used on multiple enemy Heroes when they\nare surrounding allied Heroes, to spawn more Lesser Healing Potions near your teammates.\nEmerald at Level 7 should be used on the kill target,\nso that the Healer will not be able to save them.\nField Study at Level 1 increases your Spell Power,\nwhich not only increases your damage done with Abilities but also your healing done.\nSafety in Numbers at Level 16 further increases\nthe value you get from your Basic Abilities by reducing their cooldown.\nSapphire Ruby Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Sapphire Ruby Build provides a balanced mix of sustain\nand burst healing, crowd control, and utility.\nDue to its nature, this Build excels against 3 or more melee Heroes.\nSapphire at Level 1 can be used to engage\nfor your team and/or as a setup Scroll Of Sealing.\nRuby at Level 4 is best used on multiple enemy Heroes when they\nare surrounding allied Heroes, to spawn more Lesser Healing Potions near your teammates.\nKanai's Cube at Level 7 is a good defensive tool usable\nfor reducing the effectiveness of dive Heroes.\nScroll of Stone Curse at Level 16 can be used to\ndeal damage to enemy Heroes who tend to group while figthing.\nEmerald Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Emerald Build increases your sustain healing\nand healing reduction. Due to its nature, this Build excels against team\ncompositions featuring multiple Healers.\nEmerald at Level 7 should be used on the kill target,\nso that the Healer will not be able to save them.\nOnce you get Perfect Gems at Level 20, you will be\nable to reduce enemy healing more often.\nSuper Healing Potion at Level 13 and\nSafety in Numbers at Level 16 combined\ntogether will greatly improve your sustain\nhealing, which is great for the long team fights that happen\nwhen the enemy team has multiple Healers.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's ARAM Build increases your damage against enemy Heroes\nwho tend to group. This damage scales as the game goes\nand spikes at Level 16. We find this Build particularly effective\nwhen there is another Healer in your team.\nThe synergy between Scroll of Identify at Level 1\nand Scroll of Stone Curse at Level 16 allows\nyou to deal a lot of damage to enemy Heroes who get caught inside\nScroll Of Sealing.\nCube Mastery at Level 7 lets you do that more often.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Deckard Cain's Synergies and Counters",
+   "id": "deckard-cains-synergies-and-counters",
+   "text": "Deckard Cain synergizes with\nScroll Of Sealing makes Deckard excellent at following up on\nHeroes that can provide their own source of reliable crowd control\n(for example Johanna) and similarly good at setting up enemy Heroes\nfor allied skillshot-based Abilities (such as Kel'Thuzad).\nHealing Potion is extremely easy to use for healing allied Heroes\nwithout mobility, so they are great to have on Deckard's side.\nFor the same reason, you should avoid picking high-mobility Heroes\nand/or dive Heroes.\nDeckard Cain is countered by\nWith little in the way of mobility,\nDeckard struggles against Heroes who can easily engage on him,\nespecially if they are ranged.\nHeroes who have access to Unstoppable effects\nhave easy life against Deckard as they can ignore all his offensive Abilities.\nSimilarly, Cleanse effects (for example Intercession\nby Whitemane) are good against Deckard\nbecause they basically deny his main strength: crowd control.\nDeckard can make up for his weakness to burst damage\nby taking short fights, however, the enemy team will usually still have an edge during them."
+  },
+  {
+   "title": "Deckard Cain's Maps",
+   "id": "deckard-cains-maps",
+   "text": "Deckard Cain's stronger maps\nDeckard Cain's average maps\nDeckard Cain's weaker maps\nDeckard tends to do well on Maps that feature many choke points,\nwhere he is able to get value from Scroll Of Sealing\nand his Heroic Ability: Stay Awhile and Listen\nor Lorenado. Battlegrounds with a lot of\nwide areas (such as Hanamura Temple)\nwill obviously make this characteristic harder to exploit.\nThe way Healing Potion works\nis particularly good when contesting powerful Objectives\nthat take a long time to be secured (for example\nShrines on Infernal Shrines).\nHaving to move too much on the battlefield means\nyou will get less value out of the potion-stocking aspect."
+  },
+  {
+   "title": "Deckard Cain's Tips and Tricks",
+   "id": "deckard-cains-tips-and-tricks",
+   "text": "Use Healing Potion to place some Healing Potions in lane, near the next Objective, or wherever you think the next team fight is going to happen.\nHoradric Cube has a short flight time, but can still hit enemies running directly away from Deckard if the targeting reticle is centered.\nDue to its slow animation, Scroll Of Sealing should be used after any crowd control effect.\nUse Stay Awhile and Listen from a safe position or from where the enemy team cannot see you (ideally from behind impassable-terrain).\nLorenado can be used for peeling, to contest a Capture Point, or to prevent enemy Heroes from escaping.\nActivate Sapphire at Level 1 to engage for your team and/or as a setup for Scroll Of Sealing.\nActivate Ruby at Level 4 to spawn multiple Lesser Healing Potions for melee Heroes a few seconds before they will need healing.\nActivate Emerald at Level 7 to immediately apply a healing reduction debuff on the enemy Hero that your team is trying to kill.\nActivate Ancient Blessings at Level 13 whenever a team fight starts, to boost your team's damage and indirectly increase your healing output.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Deckard Cain's Role in the Current Meta",
+   "id": "deckard-cains-role-in-the-current-meta",
+   "text": "Deckard's multiple crowd control Abilities give\nhim a niche as a Healer\nwho thrives in aggressive team compositions that have the ability\nto follow up with heavy loads of burst damage,\nespecially if accompanied by Heroes who can setup for him.\nDeckard's only healing Ability, Healing Potion,\nhas the unique ability to be thrown on the ground instead of being only usable\non Heroes, allowing allied Heroes to pick them whenever they want.\nBeing able to set up some of them ahead of time is useful to mitigate\nhis weakness against burst damage."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "27 Jan. 2026 (talents page): Guide reviewed.\n27 Jan. 2026 (abilities page): Guide reviewed.\n27 Jan. 2026 (this page): Guide reviewed.\n31 Jul. 2025 (talents page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Jun. 2025 (talents page): Guide reviewed.\n18 Jun. 2025 (this page): Guide reviewed.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n14 Oct. 2024 (talents page): Guide reviewed.\n14 Oct. 2024 (abilities page): Guide reviewed.\n14 Oct. 2024 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n07 Jul. 2022 (talents page): Builds updated.\n07 Jul. 2022 (this page): Builds updated.\n17 Jan. 2022 (talents page): Builds updated.\n17 Jan. 2022 (this page): Builds updated.\n26 Aug. 2021 (talents page): Talent Build page updated.\nBuilds updated.\nDescriptions improved.\nNew layout.\n26 Aug. 2021 (abilities page): Abilities and Strategy page updated.\nDescriptions improved.\nTips and Tricks improved.\nNew layout.\n26 Aug. 2021 (this page): Introduction page updated.\nBuilds updated.\nDescriptions improved.\nSynergies and Counters improved.\nMaps improved.\nTips and Tricks improved.\nNew layout.\n27 Oct. 2020 (talents page): Talent build reviewed and updated.\n07 Sep. 2020 (talents page): Talent build reviewed and updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n19 Jul. 2020 (talents page): Talent build reviewed and updated.\n05 Apr. 2020 (talents page): Description for Scroll of Identify and Morenadoes! updated.\n05 Apr. 2020 (abilities page): Description for Fortitude of the Faithful reviewed.\n13 Dec. 2019 (this page): Added a note about current Anomaly.\n16 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n16 Oct. 2019 (abilities page): Abilities section reviewed following the 2.48.2 update.\n16 Oct. 2019 (this page): Guide updated.\n06 Jun. 2018 (talents page): Talent recommendations updated.\n29 Apr. 2018 (this page): Main build updated.\n24 Apr. 2018 (talents page): Guide created.\n24 Apr. 2018 (this page): Guide created.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Deckard Cain's Tips and Tricks",
+   "id": "deckard-cains-tips-and-tricks",
+   "text": "Use Healing Potion to place some Healing Potions in lane, near the next Objective, or wherever you think the next team fight is going to happen.\nHoradric Cube has a short flight time, but can still hit enemies running directly away from Deckard if the targeting reticle is centered.\nDue to its slow animation, Scroll Of Sealing should be used after any crowd control effect.\nUse Stay Awhile and Listen from a safe position or from where the enemy team cannot see you (ideally from behind impassable-terrain).\nLorenado can be used for peeling, to contest a Capture Point, or to prevent enemy Heroes from escaping.\nActivate Sapphire at Level 1 to engage for your team and/or as a setup for Scroll Of Sealing.\nActivate Ruby at Level 4 to spawn multiple Lesser Healing Potions for melee Heroes a few seconds before they will need healing.\nActivate Emerald at Level 7 to immediately apply a healing reduction debuff on the enemy Hero that your team is trying to kill.\nActivate Ancient Blessings at Level 13 whenever a team fight starts, to boost your team's damage and indirectly increase your healing output."
+  },
+  {
+   "title": "Healing Potion",
+   "id": "healing-potion",
+   "text": "Healing Potion\n(Q)\nDeckard Cain\nMana: 25\nCooldown: 4 seconds\nThrow a Healing Potion on the ground that heals the first allied Hero that comes in contact with it for 285 (+4% per level).\nLimit 5 active Potions.\nAlthough its healing amount is not particularly high when compared to other main\nhealing Abilities, Healing Potion has one of the shortest cooldowns and lowest\nMana costs of any Ability; its sustain single-target output and efficiency are\nunmatched by other Healers. This has the implication of making Deckard or\nallies difficult to take down without the help of burst damage while they are\nactively being healed.\nHealing Potion's most notable property lies in the fact they can stay unused on the ground,\nwhich warrants a short explanation. Throwing a Healing Potion towards an area\nnot currently occupied by an allied Hero who lacks Health leaves the thrown Healing Potion behind to be\npicked up, instantly healing and applying any Talent-related effects to any\nallied Hero, including Deckard, who moves over the Potion. This means that\nseveral Healing Potions can be left on the ground (up to five) for future use. This\nhelps Deckard deal with burst damage somewhat, as a few Healing Potions can heal all but\nthe most severe of wounds, as long as several Healing Potions have been set up ahead of\ntime and in a way that they that they cannot be picked up by accident. This\nfeature also gives Deckard the unique ability to heal distant allies (such as\nHeroes in different lanes) by setting up a few Healing Potions to be picked up at the\nteammate's leisure. This is also why Healing Potion often ends up being—and\nshould almost always be—used on cooldown before impending team fights.\nHealing Potion can be difficult to use in combat.\nWith its short flight time, Healing Potion can heal an unintended\ntarget or miss outright, and particularly when dealing with moving Heroes or\nwhile under pressure. Becoming familiar with Healing Potion's flight time through sheer\npractice is therefore important for aspiring Deckard players.\nNote that holding [Alt] while casting Healing Potion will throw a Healing Potion directly onto\nDeckard for instant healing, however, allied Heroes overlapping with Deckard\nmay still pick up that Healing Potion before he does. So, when you intend to heal yourself\nwhile surrounded by allied Heroes who are not full Health, you should position far away from them\nto ensure the Healing Potion does not get accidentally picked up by them right after it spawns.\nWhile under the effects of Fortitude of the Faithful,\nthe cooldown of Healing Potion gets reduced from 4 to about 2.7 seconds.\nThis means that Deckard should ideally be close to allied Heroes for being able\nto place Healing Potions on the ground at a higher frequency, making it faster\nto set up Healing Potions for later usage or increasing his healing output."
+  },
+  {
+   "title": "Horadric Cube",
+   "id": "horadric-cube",
+   "text": "Horadric Cube\n(W)\nDeckard Cain\nMana: 35\nCooldown: 12 seconds\nRelease the Horadric Cube. After 0.5 seconds it explodes, dealing 80 (+4% per level) damage to all enemies in the area and Slowing them by 35% for 2 seconds.\nHoradric Cube's main purpose is to set up for Scroll Of Sealing,\nthanks to it relatively powerful Slow effect. Although Horadric Cube has a\nshort flight time, its fair area of effect should allow you to hit your\nintended targets if you center the Ability's targeting reticle properly.\nOtherwise, the Slow effect is also useful as a general mean of peeling\nor following up. The Level 7 Kanai's Cube Talent is notable for\nturning Horadric Cube into a powerful damage mitigation tool and changing the\nway it should be used somewhat to reduce incoming burst damage.\nWhile under the effects of Fortitude of the Faithful,\nthe cooldown of Horadric Cube gets reduced from 12 to 8 seconds."
+  },
+  {
+   "title": "Scroll Of Sealing",
+   "id": "scroll-of-sealing",
+   "text": "Scroll Of Sealing\n(E)\nDeckard Cain\nMana: 40\nCooldown: 16 seconds\nUnfurl an enchanted scroll over 2.25 seconds, forming a triangle that deals 150 (+4% per level) damage to enemies inside and Roots them for 1.5 seconds.\nScroll Of Sealing's long triggering period makes it difficult to outright\nland on targets that are actively looking out for it. There are still\nseveral ways of making good use of the Ability. By targeting Scroll Of Sealing\nin such a way that the area of effect is directly on top of an intended target\nwho has been Slowed by Horadric Cube,\nyou can greatly improve your chances of\nhitting. Attacking or channeling foes may also be reluctant or\nfind themselves unable to leave the Ability's area of effect in time.\nA good\ntactic is also to cast Scroll Of Sealing in the path of a moving foe so that\nthey are either forced to walk into the area of effect or wait for it to expire,\nblocking them off and fulfilling your purpose either way. Scroll Of Sealing's\nmain use, however, is simply as a follow-up tool: by using\nthe Ability against foes that have already been crowd controlled,\nyou can ensure successful hits and greatly improve your teammates' uptime.\nAs needed, it can also be used for waveclear, although it is not\nparticularly effective for this task, as is Deckard in general.\nWhile under the effects of Fortitude of the Faithful,\nthe cooldown of Scroll Of Sealing gets reduced from 16 to about 10 seconds."
+  },
+  {
+   "title": "Stay Awile and Listen",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nStay Awhile and Listen\n(R)\nDeckard Cain\nHeroic\nMana: 60\nCooldown: 70 seconds\nAfter 1 second, Channel for 3 seconds, putting enemy Heroes in front of Deckard to Sleep while Channeling, and for 2 seconds after.\nEnemies can only be put to Sleep once per cast, and Sleep's effects end instantly if they take damage.\nStay Awhile and Listen provides Deckard with a powerful but situational area\nof effect crowd control effect. To get the most\nvalue out of the Sleep effect, your team should ideally\ndeal damage to a single Hero and let the others Sleep. To avoid being\ninterrupted, use it from a safe position\nor from where the enemy team cannot see you (ideally from behind\nimpassable-terrain)\nand track enemy cooldowns to choose the appropriate moment.\nHealers with powerful saving tools\n(such as Auriel, Rehgar, and Uther)\nare also important targets to consider as it prevents them from exploiting\nimportant protection timings. In an uncoordinated environment, Stay Awhile and\nListen is more likely to be used as a defensive tool to peel melee\nHeroes away from you or other fragile teammates.\nStrong Stay Awhile and Listen's wide area of effect allows it to be a decent\nway to set up a number of more difficult-to-hit Abilities\n(for example Ring of Frost by Jaina).\nIt should be noted that, if they are not damaged, Sleeping targets will always\nSleep for at least 2\nseconds after Stay Awhile and Listen is canceled by yourself or enemy\ninterrupts. Informing your teammates of your\nintended targets and warning them not to damage said targets is a good way of\nimproving your success rate."
+  },
+  {
+   "title": "Lorenado",
+   "id": "lorenado",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nLorenado\n(R)\nDeckard Cain\nHeroic\nMana: 35\nCooldown: 30 seconds\nVector Targeting\nAfter 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it. Deals 20 (+4% per level) damage to Heroes hit.\nLorenado is a versatile but peculiar Ability which seeks to disrupt your\nopponents' plan. Dealing almost no damage, its main use is preventing players\nfrom moving where they may want to go, especially in tight corridors\nand on Capture Points.\nLorenado can also be used to push enemies into Scroll Of Sealing\nright before it goes off. By staying inside Lorenado, you can make yourself impossible\nto approach for melee Heroes for its duration. As a consequence, you should immediately\ndrop it in the retreat direction when getting focused.\nIt is worth noting that Lorenado uses an uncommon targeting system known as\nVector Targeting. This means that Lorenado's rectangular area of effect does\nnot originate from the caster himself, unlike most Abilities,\nbut instead from a chosen point to another. This flexible targeting\nsystem allows you to accurately control Lorenado's direction."
+  },
+  {
+   "title": "Fortitude of the Faithful",
+   "id": "fortitude-of-the-faithful",
+   "text": "Fortitude of the Faithful\n(D)\nDeckard Cain\nPassive\nWhen at least 1 other allied Hero is nearby, Deckard gains 10 Armor and his Basic Abilities recharge 50% faster.\nDeckard's Trait makes him particularly teammate-reliant, even for a Healer.\nFortitude of the Faithful's allied requirement means that Deckard loses out on\nwhat amounts to a 33% more Ability casts and a very decent 10 Armor increase.\nAlthough Deckard's Abilities do not lend themselves well to spending much time\nalone, Fortitude of the Faithful may as well read \"stay with an allied Hero at all\ntimes\" because Deckard is tuned around this Ability's effects."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "27 Jan. 2026: Guide reviewed.\n31 Jul. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n14 Oct. 2024: Guide reviewed.\n26 Aug. 2021: Abilities and Strategy page updated.\nDescriptions improved.\nTips and Tricks improved.\nNew layout.\n05 Apr. 2020: Description for Fortitude of the Faithful reviewed.\n16 Oct. 2019: Abilities section reviewed following the 2.48.2 update.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Scroll of Identify (Level 1) Deckard Cain Quest: Hitting an enemy Hero with Scroll of Sealing permanently increases its damage by 2. Reward: After hitting 15 Heroes, Scroll of Sealing reveals and reduces the Armor of Heroes hit by 10 for 4 seconds. Reward: After hitting 30 Heroes, this talent's Armor reduction effect is increased to 15 and its duration to 6 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Field Study (Level 1) Deckard Cain Each enemy Hero hit by Scroll of Sealing grants 20% Spell Power for 16 seconds, up to 40%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Sapphire (Level 1) Deckard Cain Cooldown: 30 seconds Activate to increase the damage of the next Horadric Cube by 100% and its slow by 30%. Only 1 Gem may be active at a time."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Potion of Shielding (Level 4) Deckard Cain Whenever an ally is healed by a Healing Potion, they gain a 140 (+4% per level) Shield for 6 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Rejuvenation Potion (Level 4) Deckard Cain Healing Potions restore 15 Mana and heal for an additional 114 (+4% per level) over 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Ruby (Level 4) Deckard Cain Cooldown: 20 seconds Activate to increase the damage of the next Horadric Cube by 100% and it spawns 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 250 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds. Only 1 Gem may be active at a time."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Cube Mastery (Level 7) Deckard Cain Reduce the Mana cost of Scroll of Sealing from 40 to 25. Each enemy Hero hit by Horadric Cube reduces the cooldown of Scroll of Sealing by 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Kanai's Cube (Level 7) Deckard Cain Horadric Cube reduces Hero damage dealt by 30% for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Emerald (Level 7) Deckard Cain Cooldown: 30 seconds Activate to increase the damage of the next Horadric Cube by 100% and have it reduce the healing received of enemy Heroes by 75% for 4 seconds. Only 1 Gem may be active at a time."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Stay Awhile and Listen (Level 10) Deckard Cain Mana: 60 Cooldown: 70 seconds After 1 second, Channel for 3 seconds, putting enemy Heroes in front of Deckard to Sleep while Channeling, and for 2 seconds after. Enemies can only be put to Sleep once per cast, and Sleep's effects end instantly if they take damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Lorenado (Level 10) Deckard Cain Mana: 35 Cooldown: 30 seconds Vector Targeting After 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it. Deals 20 (+4% per level) damage to Heroes hit."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Super Healing Potion (Level 13) Deckard Cain If a Healing Potion isn't picked up for at least 2 seconds, it heals for 100% more. Passive: Healing Potion heals for 25% more when the target is under 50% health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Potion of Revival (Level 13) Deckard Cain When a Healing Potion is picked up, it also heals all nearby allied Heroes for 75% of the healing amount."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Ancient Blessings (Level 13) Deckard Cain Cooldown: 45 seconds Activate Fortitude of the Faithful to empower nearby allied Hero Basic Attacks for 8 seconds, causing them to deal an additional 62 damage in an area and heal for 90 (+4% per level) for each Hero hit. This effect can only occur once per second."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Scroll of Stone Curse (Level 16) Deckard Cain Scroll of Sealing deals 200% more damage when hitting at least 2 Heroes."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Safety in Numbers (Level 16) Deckard Cain If at least 2 allied Heroes are nearby, Fortitude of the Faithful grants an additional 10 Armor, 50% Mana Regeneration per second, and causes Deckard's Basic Abilities to recharge an additional 50% faster."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Horadric Staff (Level 16) Deckard Cain Every 5 seconds, Deckard's next Basic Attack Stuns Heroes for 0.75 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Respect the Elderly (Level 20) Deckard Cain Stay Awhile and Listen Silences and Blinds enemies for 3 seconds upon waking up from Sleep."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Morenados! (Level 20) Deckard Cain Lorenado gains an additional charge and its cooldown is reduced by 10 seconds every time an enemy Hero is knocked back. This effect can only occur once per 0.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Bottomless Flask (Level 20) Deckard Cain After use, Healing Potions recharge after 8 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Perfect Gems (Level 20) Deckard Cain Reduce the cooldown of all Gems to 5 seconds and the cooldown of Horadric Cube by 6 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Deckard Cain's Talent Build",
+   "id": "deckard-cains-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n?\n7\n?\n?\n✓\n10\n✓\n?\n13\n?\n?\n✓\n16\n?\n?\n✓\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Deckard Cain's Talent Build Cheatsheet",
+   "id": "deckard-cains-talent-build-cheatsheet",
+   "text": "Sapphire Emerald Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Sapphire Emerald Build increases your burst healing\nas well as your crowd control and utility.\nDue to its nature, this Build excels in short team fights.\nSapphire at Level 1 can be used to engage\nfor your team and/or as a setup Scroll Of Sealing.\nEmerald at Level 7 should be used on the kill target,\nso that the Healer will not be able to save them.\nThanks to the Shield it provides, Potion of Shielding\nat Level 4 helps you keep alive whoever is being focused by enemy Heroes.\nHoradric Staff at Level 16 can be used to peel\nfor allied Heroes and/or counter-engage.\nRuby Emerald Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Ruby Emerald Build increases your sustain healing\nand utility at the cost of crowd control.\nDue to its nature, this Build excels in long team fights.\nRuby at Level 4 is best used on multiple enemy Heroes when they\nare surrounding allied Heroes, to spawn more Lesser Healing Potions near your teammates.\nEmerald at Level 7 should be used on the kill target,\nso that the Healer will not be able to save them.\nField Study at Level 1 increases your Spell Power,\nwhich not only increases your damage done with Abilities but also your healing done.\nSafety in Numbers at Level 16 further increases\nthe value you get from your Basic Abilities by reducing their cooldown.\nSapphire Ruby Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Sapphire Ruby Build provides a balanced mix of sustain\nand burst healing, crowd control, and utility.\nDue to its nature, this Build excels against 3 or more melee Heroes.\nSapphire at Level 1 can be used to engage\nfor your team and/or as a setup Scroll Of Sealing.\nRuby at Level 4 is best used on multiple enemy Heroes when they\nare surrounding allied Heroes, to spawn more Lesser Healing Potions near your teammates.\nKanai's Cube at Level 7 is a good defensive tool usable\nfor reducing the effectiveness of dive Heroes.\nScroll of Stone Curse at Level 16 can be used to\ndeal damage to enemy Heroes who tend to group while figthing.\nEmerald Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's Emerald Build increases your sustain healing\nand healing reduction. Due to its nature, this Build excels against team\ncompositions featuring multiple Healers.\nEmerald at Level 7 should be used on the kill target,\nso that the Healer will not be able to save them.\nOnce you get Perfect Gems at Level 20, you will be\nable to reduce enemy healing more often.\nSuper Healing Potion at Level 13 and\nSafety in Numbers at Level 16 combined\ntogether will greatly improve your sustain\nhealing, which is great for the long team fights that happen\nwhen the enemy team has multiple Healers.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDeckard's ARAM Build increases your damage against enemy Heroes\nwho tend to group. This damage scales as the game goes\nand spikes at Level 16. We find this Build particularly effective\nwhen there is another Healer in your team.\nThe synergy between Scroll of Identify at Level 1\nand Scroll of Stone Curse at Level 16 allows\nyou to deal a lot of damage to enemy Heroes who get caught inside\nScroll Of Sealing.\nCube Mastery at Level 7 lets you do that more often."
+  },
+  {
+   "title": "Level 1 Talents for Deckard Cain",
+   "id": "level-1",
+   "text": "?\nScroll of Identify\n(Level 1)\nDeckard Cain\nQuest: Hitting an enemy Hero with Scroll of Sealing permanently increases its damage by 2.\nReward: After hitting 15 Heroes, Scroll of Sealing reveals and reduces the Armor of Heroes hit by 10 for 4 seconds.\nReward: After hitting 30 Heroes, this talent's Armor reduction effect is increased to 15 and its duration to 6 seconds.\nScroll of Identify is a decent Quest-based Talent\nwhich slightly increases the damage of Scroll Of Sealing\nwhen hitting enemy Heroes with it. Unlock the first Reward\nto reduce the Armor of enemy Heroes hit\nand to Reveal them for a few seconds.\nUnlock the second Reward to slightly empower the amount and duration\nof the Armor reduction.\n?\nField Study\n(Level 1)\nDeckard Cain\nEach enemy Hero hit by Scroll of Sealing grants 20% Spell Power for 16 seconds, up to 40%.\nField Study is a good Talent that provides Deckard with a\nrespectable healing power increase as well as a bit of offensive power,\nparticularly when combined with Scroll of Stone Curse at Level 16.\n✔\nSapphire\n(Level 1)\nDeckard Cain\nCooldown: 30 seconds\nActivate to increase the damage of the next Horadric Cube by 100% and its slow by 30%.\nOnly 1 Gem may be active at a time.\nSapphire is a strong Talent that can be activated\nto make your next cast of Horadric Cube\napply a better Slow\nand, like for any other Gem, deal double damage.\nWe recommend this Talent because it allows you to easily\nengage or peel for your team\nas well as connect Scroll Of Sealing.\nDo not pick more than 2 Gems in the same Build. A second Gem is fine to have because\nit gives you more flexibility and more opportunities to increase the damage done by\nHoradric Cube. A third Gem is too much because, when using a Gem,\nthe other Gems do nothing whereas a different Talent would provide some benefits."
+  },
+  {
+   "title": "Level 4 Talents for Deckard Cain",
+   "id": "level-4",
+   "text": "✔\nPotion of Shielding\n(Level 4)\nDeckard Cain\nWhenever an ally is healed by a Healing Potion, they gain a 140 (+4% per level) Shield for 6 seconds.\nPotion of Shielding is a strong Talent\nwhich provides a decent Shield to allied Heroes\nhealed by Healing Potion.\nWhile it does not increase your sustain healing,\nPotion of Shielding is still a powerful addition\nto your kit as Deckard struggles against burst damage.\nShields generated by different instances of Healing Potion\ndo not stack, but only refresh the duration. As a consequence, you and allied Heroes\nshould ideally wait for the Shield to be almost destroyed or expired before\npicking another Healing Potion, unless relatively low on Health.\n?\nRejuvenation Potion\n(Level 4)\nDeckard Cain\nHealing Potions restore 15 Mana and heal for an additional 114 (+4% per level) over 3 seconds.\nRejuvenation Potion is a good Talent\nthat makes each Healing Potion\nheal over time for a few seconds and restore Mana\nto whoever picks them.\nConsider going for this Talent when you want to further empower\nyour already good sustain healing,\nsomething which is useful on Battlegrounds where the Objective\nis powerful and takes a while to be contested (such as Braxis Holdout).\n?\nRuby\n(Level 4)\nDeckard Cain\nCooldown: 20 seconds\nActivate to increase the damage of the next Horadric Cube by 100% and it spawns 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 250 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds.\nOnly 1 Gem may be active at a time.\nRuby is a good Talent\nthat can be activated to make your next Horadric Cube\ngenerate 3 Lesser Healing Potions for each enemy Hero hit\nand, like for any other Gem, deal double damage.\nContrary to Healing Potion,\nthey disappear after 10 seconds and heal for a bit less.\nThe way this Talent works make it more valuable when\nyour team has one or more diving Heroes\nor when your team is trying to contest a Capture Point,\nbecause in those situations it will be easier\nfor you to hit multiple Heroes with Horadric Cube\nand for allied Heroes to collect Lesser Healing Potions.\nThe fact each Lesser Healing Potion spawns in a random location nearby\nmakes Ruby weak against crowd control\neffects that can impair movement because it will be harder or even impossible to catch them.\nDo not pick more than 2 Gems in the same Build. A second Gem is fine to have because\nit gives you more flexibility and more opportunities to increase the damage done by\nHoradric Cube. A third Gem is too much because, when using a Gem,\nthe other Gems do nothing whereas a different Talent would provide some benefits."
+  },
+  {
+   "title": "Level 7 Talents for Deckard Cain",
+   "id": "level-7",
+   "text": "?\nCube Mastery\n(Level 7)\nDeckard Cain\nReduce the Mana cost of Scroll of Sealing from 40 to 25. Each enemy Hero hit by Horadric Cube reduces the cooldown of Scroll of Sealing by 4 seconds.\nCube Mastery is a decent Talent which\nreduces cooldown and Mana cost of Scroll Of Sealing,\nallowing you to Root enemy Heroes more often,\nsometimes even in quick succession if you manage to hit enough enemy Heroes\nwith Horadric Cube.\nThe cooldown reduction provided has synergy with\nScroll of Identify at Level 1\nbecause it can be helpful to stack the Quest faster\nand with Scroll of Stone Curse at Level 16\nbecause it can drastically increase your damage done,\nespecially if combined with Field Study at Level 1.\n?\nKanai's Cube\n(Level 7)\nDeckard Cain\nHoradric Cube reduces Hero damage dealt by 30% for 4 seconds.\nKanai's Cube is a good Talent\nthat turns Horadric Cube into a defensive Ability,\nallowing you to reduce the damage done by enemy Heroes hit.\nWe find this Talent particularly good when playing against Heroes\nwho can deal high but predictable damage in a short time frame\n(for example The Butcher).\nEven if not a Gem, this Talent can be combined with\nPerfect Gems at Level 20\nto constantly reduce the damage done by enemy Heroes\nduring team fights, with about 80% uptime.\n✔\nEmerald\n(Level 7)\nDeckard Cain\nCooldown: 30 seconds\nActivate to increase the damage of the next Horadric Cube by 100% and have it reduce the healing received of enemy Heroes by 75% for 4 seconds.\nOnly 1 Gem may be active at a time.\nEmerald is a strong Talent\nthat can be activated to make your next Horadric Cube\ndrastically reduce the healing received by enemy Heroes hit\nand, like for any other Gem, deal double damage.\nThe healing reduction provided by this Talent\nis great on a Hero like Deckard because he has access to\ncrowd control which\ncan be used to lock down enemy Heroes for your team\nto burst damage them\nwhile the enemy Healer cannot do much.\nDo not pick more than 2 Gems in the same Build. A second Gem is fine to have because\nit gives you more flexibility and more opportunities to increase the damage done by\nHoradric Cube. A third Gem is too much because, when using a Gem,\nthe other Gems do nothing whereas a different Talent would provide some benefits."
+  },
+  {
+   "title": "Level 10 Talents for Deckard Cain",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nStay Awhile and Listen\n(Level 10)\nDeckard Cain\nMana: 60\nCooldown: 70 seconds\nAfter 1 second, Channel for 3 seconds, putting enemy Heroes in front of Deckard to Sleep while Channeling, and for 2 seconds after.\nEnemies can only be put to Sleep once per cast, and Sleep's effects end instantly if they take damage.\nStay Awhile and Listen is a strong Heroic Ability\nwhich can be picked in most if not all situations, however,\nit has clear weaknesses you have to play around when facing Heroes\nwho have access to interrupts,\nUnstoppable effects,\nand/or mobility tools.\n?\nLorenado\n(Level 10)\nDeckard Cain\nMana: 35\nCooldown: 30 seconds\nVector Targeting\nAfter 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it. Deals 20 (+4% per level) damage to Heroes hit.\nLorenado is a good Heroic Ability\nthat you can use to peel from melee Heroes,\nto push enemy Heroes inside Scroll Of Sealing,\nor to contest a Capture Point—this last point makes it valuable\non Battlegrounds with a Boss Camp."
+  },
+  {
+   "title": "Level 13 Talents for Deckard Cain",
+   "id": "level-13",
+   "text": "?\nSuper Healing Potion\n(Level 13)\nDeckard Cain\nIf a Healing Potion isn't picked up for at least 2 seconds, it heals for 100% more.\nPassive: Healing Potion heals for 25% more when the target is under 50% health.\nSuper Healing Potion is a good Talent\nthat empowers Healing Potion in two ways:\nincreases by 25% their healing when used by allied Heroes below 50% Health\nand doubles their healing after staying on the ground for 2 seconds.\nThe delayed effect is particularly effective on Battlegrounds\nwhere the Objective is stationary and powerful, allowing you\nand your team to get there a dozen of seconds before it starts\nto safely cast Healing Potion multiple times\nin the area and prepare them for later use.\nYou should pick this Talent when you need more sustain\nhealing (generally against team compositions featuring multiple\nHealers or when playing ARAM). You can combine it\nwith Safety in Numbers at Level 16\nto further increase your sustain healing.\nSuper Healing Potion has synergy with\nSuper Healing Potion at Level 13. When picked together,\nany Healing Potion on the ground will refill\nafter 8 seconds and then become bigger after 2 more seconds.\n?\nPotion of Revival\n(Level 13)\nDeckard Cain\nWhen a Healing Potion is picked up, it also heals all nearby allied Heroes for 75% of the healing amount.\nPotion of Revival is a decent Talent\nwhich makes each Healing Potion heal for 75% value\nall Heroes around the main target who gets 100% healing instead.\nYou may consider going for this Talent when your team features\na lot of melee Heroes and the enemy team has ways\nto deal area of effect damage.\n✔\nAncient Blessings\n(Level 13)\nDeckard Cain\nCooldown: 45 seconds\nActivate Fortitude of the Faithful to empower nearby allied Hero Basic Attacks for 8 seconds, causing them to deal an additional 62 damage in an area and heal for 90 (+4% per level) for each Hero hit. This effect can only occur once per second.\nAncient Blessings is a strong Talent that,\nonce every 45 seconds, can be used to boost allied Heroes for 8 seconds.\nHeroes affected by this buff can deal additional damage in an area\nwith their Basic Attacks and heal themselves based on the number of Heroes hit.\nThis effect has an internal cooldown of 1 seconds,\nso it has no synergy with Heroes who have high Attack Speed\nand works just fine with most Heroes, unless they cannot really\nexpose to use Basic Attacks (notably Probius)."
+  },
+  {
+   "title": "Level 16 Talents for Deckard Cain",
+   "id": "level-16",
+   "text": "?\nScroll of Stone Curse\n(Level 16)\nDeckard Cain\nScroll of Sealing deals 200% more damage when hitting at least 2 Heroes.\nScroll of Stone Curse is a good Talent\nwhich drastically increases the damage done by Scroll Of Sealing,\nbut only if you manage to hit multiple Heroes with it.\nDue to how it works, we recommend combining it\nwith Sapphire at Level 1\nand/or Stay Awhile and Listen,\nunless you can rely on your Tank to hit\nmore than a single Hero with Scroll Of Sealing.\n?\nSafety in Numbers\n(Level 16)\nDeckard Cain\nIf at least 2 allied Heroes are nearby, Fortitude of the Faithful grants an additional 10 Armor, 50% Mana Regeneration per second, and causes Deckard's Basic Abilities to recharge an additional 50% faster.\nSafety in Numbers is a good Talent\nwhich improves Fortitude of the Faithful\nin various ways when there is more than one allied Hero within range:\nfurther reduce the cooldown of your Basic Abilities,\ngive you more Armor,\nand increase your Mana Regeneration.\nYou should pick this Talent when you need more sustain\nhealing (generally against team compositions featuring multiple\nHealers or when playing ARAM). You can combine it\nwith Super Healing Potion at Level 13\nto further increase your sustain healing.\n✔\nHoradric Staff\n(Level 16)\nDeckard Cain\nEvery 5 seconds, Deckard's next Basic Attack Stuns Heroes for 0.75 seconds.\nHoradric Staff is a good Talent\nthat, once every 5 seconds, Stuns the next enemy Hero\nyou hit with a Basic Attack. You cannot toggle it, so be careful not to waste it\nwhen you need it as a counter for a specific enemy Hero\n(such as Sonya using Whirlwind).\nWhen playing against melee Heroes who play aggressively,\nyou can use Horadric Staff to keep them\ninside Scroll Of Sealing while it goes off.\nDue to your short Attack Range, ranged\nand/or high-mobility Heroes will not be\neasy to catch with this, unless they misplay."
+  },
+  {
+   "title": "Level 20 Talents for Deckard Cain",
+   "id": "level-20",
+   "text": "✔\nRespect the Elderly\n(Level 20)\nDeckard Cain\nStay Awhile and Listen Silences and Blinds enemies for 3 seconds upon waking up from Sleep.\nRespect the Elderly is a strong Talent\nwhich makes Stay Awhile and Listen apply\na long-lasting Silence and Blind\nwhen its Sleep ends, gets removed, or is canceled by damage.\nWe recommend this Talent because it has huge playmaking potential in team fights,\nsomething that is extremely valuable in the late game.\nIf it connects, the team fight will immediately shift in your team's favor.\n?\nMorenados!\n(Level 20)\nDeckard Cain\nLorenado gains an additional charge and its cooldown is reduced by 10 seconds every time an enemy Hero is knocked back. This effect can only occur once per 0.5 seconds.\nMorenados! is a good Talent that gives you\na second charge of Lorenado\nand makes it reduce its cooldown by 10 seconds when hitting enemy Heroes.\nThis kind of Talent helps you to peel\nfor your team—especially in narrow areas—and to Knockback\nenemy Heroes out of Capture Points (such as a game-ending Boss).\n?\nBottomless Flask\n(Level 20)\nDeckard Cain\nAfter use, Healing Potions recharge after 8 seconds.\nBottomless Flask is a situational Talent that\nchanges the way you can use by making Healing Potion\nrefill after a few seconds. Even if empty, they still count for the cap\nand thus get replaced when exceeding it.\nThis kind of effect increases your healing output during prolonged team fights\nand is particularly effective when your team wants to control a given area,\neven if your team decided to split for some reason and you are not there anymore.\nBottomless Flask has synergy with\nSuper Healing Potion at Level 13. When picked together,\nany Healing Potion on the ground will refill\nafter 8 seconds and then become bigger after 2 more seconds.\n?\nPerfect Gems\n(Level 20)\nDeckard Cain\nReduce the cooldown of all Gems to 5 seconds and the cooldown of Horadric Cube by 6 seconds.\nPerfect Gems is a situational Talent that allows you to use Gems\n( Sapphire, Ruby, and Emerald)\nas well as Horadric Cube more often.\nA single Gem is enough to get value from Perfect Gems because,\nafter picking it, having more Gems will only increase your versatility\nand not help to have a Gem ready every time that Horadric Cube is available.\nIn addition to Gems, Kanai's Cube has synergy with\nPerfect Gems as well because it allows you to constantly\nreduce the damage done by enemy Heroes, up to around 80% uptime."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "27 Jan. 2026: Guide reviewed.\n31 Jul. 2025: Guide reviewed for the latest Balance Update.\n18 Jun. 2025: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n14 Oct. 2024: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n07 Jul. 2022: Builds updated.\n17 Jan. 2022: Builds updated.\n26 Aug. 2021: Talent Build page updated.\nBuilds updated.\nDescriptions improved.\nNew layout.\n27 Oct. 2020: Talent build reviewed and updated.\n07 Sep. 2020: Talent build reviewed and updated.\n19 Jul. 2020: Talent build reviewed and updated.\n05 Apr. 2020: Description for Scroll of Identify and Morenadoes! updated.\n16 Oct. 2019: Talent builds and recommendations reviewed and updated.\n06 Jun. 2018: Talent recommendations updated.\n24 Apr. 2018: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

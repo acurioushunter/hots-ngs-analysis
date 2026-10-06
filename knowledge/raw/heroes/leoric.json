@@ -1,0 +1,280 @@
+{
+ "slug": "leoric",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/leoric-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/leoric-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/leoric-talents"
+ },
+ "guide": [
+  {
+   "title": "Leoric's Overview",
+   "id": "leorics-overview",
+   "text": "Leoric is an aggressive melee Bruiser with strong self-sustain\nand great mobility. He excels at dealing high damage through\npowerful Basic Attacks and close-range abilities, while his survivability\nallows him to stand his ground even if outnumbered by several enemies. After\ntaking lethal damage, Undying\ncauses him to turn into a Ghost\ncapable of moving freely and using abilities to slow enemies.\nAfter a certain amount of time (influenced by how abilities are used while in\nGhost form), Leoric comes back to life at the current location of the Ghost."
+  },
+  {
+   "title": "Leoric's Strengths and Weaknesses",
+   "id": "leorics-strengths-and-weaknesses",
+   "text": "Strengths\nGood self-sustain\nSolid waveclear\nDecent mobility\nCan deal percent-based damage\nFast respawn thanks to Drain Essence\nCan become Unstoppable when needed\nStrong in the late game\nWeaknesses\nVulnerable to burst damage\nSuffers against healing reduction effects\nWeak in the early game"
+  },
+  {
+   "title": "Leoric's Talent Build Cheatsheet",
+   "id": "leorics-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\n?\n?\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLeoric's Basic Attacks Build is particularly good\nto increase your damage output in a reliable way,\nwithout the risk of losing too much value when the enemy Heroes\ndodge or disconnect Drain Hope.\nSpectral Leech\nat Level 13 and Mithril Mace at Level 16\ncombined together will empower your Basic Attacks,\nespecially against Heroes with high maximum Health\nwho do not have Armor (such as Azmodan).\nDrain Momentum at Level 7 helps you stick on enemy Heroes.\nWraith Walk Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLeoric's Wraith Walk Build provides a powerful and unique playstyle that,\nonce you reach the late game, allows Leoric to severely\ncripple the combat performance of any Heroes coming in touch with\nWraith Walk.\nOminous Wraith at Level 13\ndrastically reduce the damage done by enemy Heroes for a few seconds,\nand it can be applied over and over again with the help of Royal Focus at Level 16.\nHopelessness at Level 7 helps you keep Drain Hope\nactive during Wraith Walk.\nDrain Hope Build\nSituational\nLevel 1\n?\n?\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLeoric's Drain Hope Build is extremely effective\nagainst low-mobility Heroes\nwith high maximum Health (such as Arthas).\nUnyielding Despair at Level 13 reduces the cooldown of\nDrain Hope, Crushing Hope\nat Level 16 increases its damage when lasting its full duration, and\nHopelessness at Level 7 helping you with that.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Leoric's Synergies and Counters",
+   "id": "leorics-synergies-and-counters",
+   "text": "Leoric synergizes with\nLeoric pairs off really well with Heroes who can follow up\non his Entomb with a huge amount of burst damage\n(for example Orphea using Eternal Feast and all her Basic Abilities)\nor complementary crowd control\n(such as Lurking Arm by Stukov).\nLeoric is countered by\nLeoric struggles against high-mobility Heroes\n(such as Tracer) who can simply dodge Entomb\nand/or disconnect his Drain Hope (like Samuro using\nMirror Image or Image Transmission).\nDue to having self-healing in his kit, Leoric does not like to face Heroes who have access\nto healing reduction Abilities (for example Biotic Grenade by Ana)."
+  },
+  {
+   "title": "Leoric's Maps",
+   "id": "leorics-maps",
+   "text": "Leoric's stronger maps\nLeoric's average maps\nLeoric's weaker maps\nLeoric is a strong pick on Maps where the game lasts long enough to reach Level 20 and\nunlock Buried Alive and/or where double soaking\nis strong (notably Towers of Doom where you can count on both).\nAdditionally, Leoric is a good pick on Maps where your team requires a solid\nOfflaner with good self-sustain and waveclear."
+  },
+  {
+   "title": "Leoric's Tips and Tricks",
+   "id": "leorics-tips-and-tricks",
+   "text": "Use Skeletal Swing to reduce the chance that Drain Hope will miss.\nDrain Hope is particularly effective when used on enemy Heroes with high maximum Health and who lack mobility.\nWraith Walk allows you to walk through enemy Gates, but not through the permanent unpassable terrain that forms the Battleground.\nWhen necessary, do not be afraid to trade your life for something else because you can respawn faster with Drain Essence, but remember you still give Experience for dying.\nWhile in Ghost Form, use Ghastly Swing to reduce the chance that Drain Essence will miss.\nRemember to Slow enemy Heroes and try to give vision to your team while you are in Ghost Form.\nWhen respawning is dangerous, you can use your Hearthstone while in Ghost Form.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Leoric's Role in the Current Meta",
+   "id": "leorics-role-in-the-current-meta",
+   "text": "Leoric fulfills the role of an offensive Bruiser that\nis only played as an Offlaner, especially on Maps\nwhere double soaking is strong (for example Towers of Doom).\nDuring team fights, he poses a constant threat to nearby enemies who lack mobility\nbecause of Entomb being a powerful engage tool,\nespecially after picking Buried Alive at Level 20, a huge\npower spike for any team composition featuring Leoric."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n22 Oct. 2021 (talents page): Builds updated.\n22 Oct. 2021 (this page): Builds updated.\n21 Aug. 2021 (talents page): Guide reviewed for the latest Balance Update.\n21 Aug. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n21 Aug. 2021 (this page): Guide reviewed for the latest Balance Update.\n25 Jun. 2021 (talents page): Builds updated.\n25 Jun. 2021 (this page): Builds updated.\n13 Apr. 2021 (talents page): Builds updated.\n09 Mar. 2021 (talents page): Talents fixed.\n25 Feb. 2021 (talents page): New layout.\n17 Feb. 2021 (talents page): Builds updated.\n17 Feb. 2021 (this page): Builds updated.\n04 Nov. 2020 (talents page): Guide reviewed for the latest Balance Update.\n04 Nov. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n04 Nov. 2020 (this page): Guide reviewed for the latest Balance Update.\n21 Oct. 2020 (this page): Maps fixed.\n05 Oct. 2020 (talents page): Builds updated.\n05 Oct. 2020 (this page): Builds updated.\n09 Jul. 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n09 Jul. 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n09 Jul. 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\n12 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n12 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to remove the unnecessary part about the now fixed Experience Globes.\n09 Jan. 2020 (talents page): Changed Mithril Mace from Not Recommended to Recommended and updated the Life Leech Build accordingly.\n13 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n25 Nov. 2019 (talents page): Revised Leoric's guide and applied changes to his Drain Life Build. Entomb and Buried Alive are now prioritized.\n12 Jun. 2019 (talents page): Updated Leoric's talents and builds to better reflect the current state of the game.\n13 Nov. 2018 (talents page): Updated Leoric's talent builds and talents section.\n08 Jan. 2018 (talents page): Updated builds and talent recommendations to reflect changes in meta.\n12 Sep. 2017 (talents page): Changed Hopelessness from Not Recommended to Recommended.\n08 Sep. 2017 (talents page): Updated Ominous Wraith discussion.\n07 Sep. 2017 (talents page): Completely overhauled and updated Leoric's talents in accordance with the Kel'Thuzad patch.\n07 Sep. 2017 (abilities page): Updated Leoric's Abilities page in accordance with the Kel'Thuzad patch.\n03 Jul. 2017 (talents page): Updated Royal Focus' and Lingering Apparition's descriptions.\n07 Apr. 2017 (this page): Moved guide to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Leoric's Tips and Tricks",
+   "id": "leorics-tips-and-tricks",
+   "text": "Use Skeletal Swing to reduce the chance that Drain Hope will miss.\nDrain Hope is particularly effective when used on enemy Heroes with high maximum Health and who lack mobility.\nWraith Walk allows you to walk through enemy Gates, but not through the permanent unpassable terrain that forms the Battleground.\nWhen necessary, do not be afraid to trade your life for something else because you can respawn faster with Drain Essence, but remember you still give Experience for dying.\nWhile in Ghost Form, use Ghastly Swing to reduce the chance that Drain Essence will miss.\nRemember to Slow enemy Heroes and try to give vision to your team while you are in Ghost Form.\nWhen respawning is dangerous, you can use your Hearthstone while in Ghost Form."
+  },
+  {
+   "title": "Basic Attack",
+   "id": "basic-attack",
+   "text": "Leoric has a special Basic Attack: the first two Basic Attacks cleave for 100% damage,\nthe third Basic Attack deals 225% damage to a single target. If you keep that in mind\nwhen clearing Minions and watch the dedicated tracker in the bottom-left corner,\nyou can increase your waveclear and thus be able to\njoin your team quicker than usual."
+  },
+  {
+   "title": "Skeletal Swing",
+   "id": "skeletal-swing",
+   "text": "Skeletal Swing\n(Q)\nLeoric\nMana: 70\nCooldown: 12 seconds\nLeoric swings his mace, dealing 150 (+4% per level) damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Deals 75% additional damage to Minions. Peasants!\nSkeletal Swing is a Basic Ability that provides Leoric with a reliable source of\nwaveclear thanks to the bonus damage against Minions\nand also assists him at landing his Drain Hope\nmore easily by Slowing enemy Heroes.\nHitting enemy Heroes with Skeletal Swing\nwill heavily reduce its cooldown and refund half of the Mana cost.\nConsidering so, you should try to hit the enemy Offlaner\nwhile using Skeletal Swing to clear enemy Minions."
+  },
+  {
+   "title": "Drain Hope",
+   "id": "drain-hope",
+   "text": "Drain Hope\n(W)\nLeoric\nMana: 60\nCooldown: 10 seconds\nGrab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 3 seconds. Leoric's Movement Speed is reduced by 20% while this is active.\nDrain Hope is a Basic Ability that gives Leoric self-sustain\nwhile dealing percent-based damage at the same time.\nUse it carefully and efficiently in order to grant as much healing as possible.\nLanding this Ability is important while dueling in the\nsolo lane or during team fights. If you miss,\nyou lose your only source of self-sustain and lower your damage output as well.\nTo increase the chance it will connect, use Skeletal Swing\nto Slow an enemy Hero and then cast Drain Hope\nwithin 2.5 seconds, before the Slow fades away.\nIf you choose the wrong target, you lose part or all your self-sustain.\nDo not cast Drain Hope on enemy Heroes who can easily\noutrange it with mobility, unless you are certain they\ncannot use such Abilities for a few seconds because of cooldowns or even\ncrowd control.\nWhile the best target for Drain Hope is situational,\nyou should try to use it on enemy Heroes who have high maximum Health in order\nto deal more damage; however, you will not get more healing based on that."
+  },
+  {
+   "title": "Wraith Walk",
+   "id": "wraith-walk",
+   "text": "Wraith Walk\n(E)\nLeoric\nMana: 50\nCooldown: 14 seconds\nLeoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.\nWraith Walk is a Basic Ability that provides Leoric with\ngreat mobility and a bit of survivability.\nUse it as a gap closer to catch up to fleeing enemy Heroes,\nto escape from danger when needed, or to dodge crowd control\neffects thanks to the Unstoppable buff it provides."
+  },
+  {
+   "title": "Entomb",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nEntomb\n(R)\nLeoric\nHeroic\nMana: 90\nCooldown: 50 seconds\nCreate an unpassable tomb for 4 seconds.\nEntomb is a Heroic Ability that creates unpassable terrain\nthat can be used as a form of indirect crowd control\nbecause it works on Unstoppable enemy Heroes as well.\nWhile the Heroic Ability itself is easy to understand in terms of\nwhat it does, it requires you to know exactly when to use it and what target to\nuse it on. Do not use Entomb on enemy Heroes that have access to an Ability that\nallows them to exit from it, unless they wasted that cooldown.\nBefore casting Entomb, make sure\nto take a brief look on the Minimap and determine whether your team is nearby\nand ready to follow up on the imprisoned enemy Heroes.\nAs soon as you cast Entomb, Leoric blocks its entrance. Sometimes you will have to decide\nif you want to prevent the enemy Heroes from escaping—recommended if your team has enough\nranged Heroes to kill the encased Heroes from the distance—or allow allied Heroes\nto enter—required if most of the damage done by your team comes from melee Heroes."
+  },
+  {
+   "title": "March of the Black King",
+   "id": "march-of-the-black-king",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMarch of the Black King\n(R)\nLeoric\nHeroic\nMana: 75\nCooldown: 50 seconds\nLeoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 (+4% per level) damage, and Heroes hit heal Leoric for 12% of his maximum Health.\nMarch of the Black King is a Heroic Ability that combines raw damage\nwith great self-sustain. Each swing damages nearby enemies in a large area in front of him\nand a small area behind him. During its animation, Leoric is Unstoppable.\nThe major drawback of this Ability is the fact that it causes\nLeoric to walk towards the starting direction without the possibility to change it,\nso you should aim very carefully before casting March of the Black King\nin order to avoid finding yourself in an unfavorable\nposition at the end of its duration."
+  },
+  {
+   "title": "Undying",
+   "id": "undying",
+   "text": "Undying\n(D)\nLeoric\nPassive\nLeoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.\nWrath Of The Bone King\nLeoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 225% damage to a single target.\nUndying is a very unique Trait which allows Leoric to have an impact on\nevents even after dying.\nWhile in Ghost Form, Leoric can only move and use two Abilities:\nGhastly Swing to Slow enemies and\nDrain Essence to respawn faster.\nAnother important aspect of Undying is the fact that it provides vision\nto your team, as you can freely move around the battlefield in order\nto scout the position of every enemy Hero around you without them being able to kill you.\nKeep in mind, however, that Leoric will\nmaterialize at his current location once his Health is fully recovered.\nThus, when dying as Leoric, it is important to constantly check your Health while in Ghost Form\nin order to avoid respawning in the middle of the enemy team.\nLeoric will not be able to use his Mount while dead.\nIn case the enemy team is ready to kill you after respawning, you can use\nHearthstone [B] while in Ghost Form to teleport in the Hall of Storms.\nIt is important to know that resurrecting will automatically stop its 6-second channel,\ntherefore you can only use this trick when Leoric needs more than 6 seconds to respawn."
+  },
+  {
+   "title": "Ghastly Swing",
+   "id": "ghastly-swing",
+   "text": "Ghastly Swing\n(Q)\nLeoric\nCooldown: 8 seconds\nSlow enemies by 40% for 2.5 seconds.\nGhastly Swing is a special Basic Ability\nsimilar to Skeletal Swing that Leoric is able to use while\nin Ghost Form.\nAlthough it does not deal any damage to your enemies, the Slow\nprovided is still very useful to influence a team fight. Use this Ability as often as possible\nto help your team reach enemy Heroes or to run away from them, but also to increase the chance\nthat Drain Essence will hit your desired enemy Hero."
+  },
+  {
+   "title": "Drain Essence",
+   "id": "drain-essence",
+   "text": "Drain Essence\n(W)\nLeoric\nCooldown: 9 seconds\nThrow out a chain, attaching to the first enemy Hero hit, healing Leoric for up to 10% of his maximum Health over 4 seconds as long as the enemy remains close.\nDrain Essence is another special Basic Ability\nsimilar to Drain Hope that Leoric is able to use while\nin Ghost Form.\nIf you hit an enemy Hero with this Ability, Leoric gains Health\nas long as the target remains in range or the effect ends after a few seconds.\nAs a consequence, this Ability is crucial to accelerate Leoric's resurrection process.\nWe recommend using Drain Essence as frequently as possible,\nbut do not rush because it is important that it connects on an enemy Hero."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025: Guide reviewed.\n21 Aug. 2021: Guide reviewed for the latest Balance Update.\n04 Nov. 2020: Guide reviewed for the latest Balance Update.\n09 Jul. 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n07 Sep. 2017: Updated Leoric's Abilities page in accordance with the Kel'Thuzad patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Consume Vitality (Level 1) Leoric Skeletal Swing's cooldown is reduced by 2 seconds. Enemy Heroes hit heal Leoric for 4% of his maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Fealty Unto Death (Level 1) Leoric When a nearby friendly or enemy Minion dies, Leoric restores 32 (+4% per level) Health and 6 Mana."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Ossein Renewal (Level 1) Leoric Cooldown: 120 seconds Activate to heal Leoric for 30% of his maximum Health over 5 seconds. Regeneration Globes lower the cooldown of this Ability by 20 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Ghastly Reach (Level 4) Leoric Increase the range of Skeletal Swing by 25%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Paralyzing Rage (Level 4) Leoric Increase the Slow of Skeletal Swing by 20%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Kneel, Peasants! (Level 4) Leoric Skeletal Swing deals 75% additional damage to Mercenaries and Monsters, and hitting them activates Skeletal Swing's cost and cooldown refund."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Willing Vessel (Level 7) Leoric Increase the healing from Drain Hope to 25% of Leoric's maximum Health. If Drain Hope lasts its full duration, Leoric instantly heals for an additional 5% of his maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Drain Momentum (Level 7) Leoric Drain Hope no longer reduces Leoric's Movement Speed. If Drain Hope lasts its full duration, gain 30% Movement Speed for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Hopelessness (Level 7) Leoric Increase the range of Drain Hope by 25%."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Entomb (Level 10) Leoric Mana: 90 Cooldown: 50 seconds Create an unpassable tomb for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "March of the Black King (Level 10) Leoric Mana: 75 Cooldown: 50 seconds Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 (+4% per level) damage, and Heroes hit heal Leoric for 12% of his maximum Health."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Unyielding Despair (Level 13) Leoric Drain Hope's cooldown is reduced by 0.75 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Ominous Wraith (Level 13) Leoric Increase Wraith Walk's duration by 100%. Enemy Heroes that come in contact with the wraith deal 50% less damage for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Spectral Leech (Level 13) Leoric Basic Attacks against enemy Heroes deal bonus damage to the primary target damage equal 2.5% of the Hero's maximum Health and heal Leoric for 200% of the bonus damage dealt."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Crushing Hope (Level 16) Leoric If Drain Hope lasts its full duration, it instantly deals an additional 15% of the target's maximum Health as damage. This damage does not heal Leoric."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Royal Focus (Level 16) Leoric Wraith Walk increases the damage of the next Skeletal Swing within 5 seconds by 50%. Each enemy Hero hit by Skeletal Swing reduces the cooldown of Wraith Walk by 7 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Mithril Mace (Level 16) Leoric Increase Leoric's Attack Speed by 20%. Repeatable Quest: Nearby enemy Minion deaths grant 0.3% permanent Attack Speed, and Takedowns grant 3% permanent Attack Speed, up to 30%."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Buried Alive (Level 20) Leoric The duration of Entomb is lowered by 1 second, but enemies trapped inside are Silenced and take 50 (+4% per level) damage every 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Death March (Level 20) Leoric The final swing of March of the Black King also applies Drain Hope to nearby enemy Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Burning Despair (Level 20) Leoric Deal 40 (+4% per level) damage per second to nearby enemies. While Drain Hope is active, gain 40 Armor and the damage and area is increased by 100%."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Shroud of the Dead King (Level 20) Leoric Cooldown: 25 seconds Activate to become Protected for 3 seconds, preventing all damage."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Leoric's Talent Build",
+   "id": "leorics-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n?\n✓\n?\n7\n?\n✓\n?\n10\n✓\n?\n13\n?\n?\n✓\n16\n?\n?\n✓\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Leoric's Talent Build Cheatsheet",
+   "id": "leorics-talent-build-cheatsheet",
+   "text": "Basic Attacks Build\nRecommended\nLevel 1\n?\n?\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLeoric's Basic Attacks Build is particularly good\nto increase your damage output in a reliable way,\nwithout the risk of losing too much value when the enemy Heroes\ndodge or disconnect Drain Hope.\nSpectral Leech\nat Level 13 and Mithril Mace at Level 16\ncombined together will empower your Basic Attacks,\nespecially against Heroes with high maximum Health\nwho do not have Armor (such as Azmodan).\nDrain Momentum at Level 7 helps you stick on enemy Heroes.\nWraith Walk Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLeoric's Wraith Walk Build provides a powerful and unique playstyle that,\nonce you reach the late game, allows Leoric to severely\ncripple the combat performance of any Heroes coming in touch with\nWraith Walk.\nOminous Wraith at Level 13\ndrastically reduce the damage done by enemy Heroes for a few seconds,\nand it can be applied over and over again with the help of Royal Focus at Level 16.\nHopelessness at Level 7 helps you keep Drain Hope\nactive during Wraith Walk.\nDrain Hope Build\nSituational\nLevel 1\n?\n?\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nLeoric's Drain Hope Build is extremely effective\nagainst low-mobility Heroes\nwith high maximum Health (such as Arthas).\nUnyielding Despair at Level 13 reduces the cooldown of\nDrain Hope, Crushing Hope\nat Level 16 increases its damage when lasting its full duration, and\nHopelessness at Level 7 helping you with that."
+  },
+  {
+   "title": "Level 1 Talents for Leoric",
+   "id": "level-1",
+   "text": "?\nConsume Vitality\n(Level 1)\nLeoric\nSkeletal Swing's cooldown is reduced by 2 seconds. Enemy Heroes hit heal Leoric for 4% of his maximum Health.\nConsume Vitality is a good Talent that makes\nSkeletal Swing heal Leoric for each enemy Hero hit,\nsomething that works well in long team fights but it is not that interesting\nwhile laning, although it can be useful against some Heroes.\nConsume Vitality slightly benefits from\nGhastly Reach at Level 4.\n?\nFealty Unto Death\n(Level 1)\nLeoric\nWhen a nearby friendly or enemy Minion dies, Leoric restores 32 (+4% per level) Health and 6 Mana.\nFealty Unto Death is a good Talent that allows Leoric\nto regenerate both Health and Mana whenever a nearby allied or enemy Minion dies.\nPick this Talent when you will not really need the alternatives during team fights\nand you want to empower your self-sustain while in lane.\n✔\nOssein Renewal\n(Level 1)\nLeoric\nCooldown: 120 seconds\nActivate to heal Leoric for 30% of his maximum Health over 5 seconds. Regeneration Globes lower the cooldown of this Ability by 20 seconds.\nOssein Renewal is a strong Talent that increases\nLeoric's survivability during relatively short team fights while also\nboosting Leoric's self-sustain tool in the\nsolo lane."
+  },
+  {
+   "title": "Level 4 Talents for Leoric",
+   "id": "level-4",
+   "text": "?\nGhastly Reach\n(Level 4)\nLeoric\nIncrease the range of Skeletal Swing by 25%.\nGhastly Reach is a good Talent that slightly increases\nthe area covered by Skeletal Swing,\nmaking it easier to hit multiple enemy Heroes with it.\nWe find this Talent quite useful when going for\nConsume Vitality at Level 1 and/or\nRoyal Focus at Level 16\nbecause they give more value when hitting multiple enemy Heroes\nwith Skeletal Swing.\n✔\nParalyzing Rage\n(Level 4)\nLeoric\nIncrease the Slow of Skeletal Swing by 20%.\nParalyzing Rage is a strong Talent that increases\nthe Slow provided by Skeletal Swing,\nwhich can be good either offensively or defensively.\nIn general, we strongly recommend this Talent\nbecause it helps you with Drain Hope and Basic Attacks.\nIf your team does not have a main Tank,\nyou have to pick this Talent to make up for that\nas it allows you to engage\nor peel decently.\n?\nKneel, Peasants!\n(Level 4)\nLeoric\nSkeletal Swing deals 75% additional damage to Mercenaries and Monsters, and hitting them activates Skeletal Swing's cost and cooldown refund.\nKneel, Peasants! is a situational Talent that increases the damage\ndone by Skeletal Swing to Mercenaries and Monsters.\nAlthough this Talent makes you faster at clearing enemy Mercenaries in lane\nand/or at capturing Mercenary Camps on Maps with many of them (such as\nGarden of Terror), we only recommend it on Infernal Shrines\nbecause the cooldown reset from Monsters helps securing the Objective\nand can also provide value during team fights."
+  },
+  {
+   "title": "Level 7 Talents for Leoric",
+   "id": "level-7",
+   "text": "?\nWilling Vessel\n(Level 7)\nLeoric\nIncrease the healing from Drain Hope to 25% of Leoric's maximum Health. If Drain Hope lasts its full duration, Leoric instantly heals for an additional 5% of his maximum Health.\nWilling Vessel is a situational Talent that increases\nthe healing provided by Drain Hope, especially if it lasts\nfor its full duration. Pick this Talent only if you desperately need the additional\nhealing it provides and you are confident that Drain Hope will not be disconnected\nbefore its end. Do not pick this Talent against healing reduction effects.\n✔\nDrain Momentum\n(Level 7)\nLeoric\nDrain Hope no longer reduces Leoric's Movement Speed. If Drain Hope lasts its full duration, gain 30% Movement Speed for 4 seconds.\nDrain Momentum is a strong Talent that offers a significant\nMovement Speed bonus for a few seconds, which\nnot only allows you to both chase and escape from enemy Heroes much more efficiently,\nbut also helps you stick to the enemy Hero targeted by your Drain Hope,\ndamaging and healing for more as a result. Drain Momentum indirectly helps Talents that require\nDrain Hope to last for its full duration.\n?\nHopelessness\n(Level 7)\nLeoric\nIncrease the range of Drain Hope by 25%.\nHopelessness is a good Talent that increases the\nrange of Drain Hope, decreasing the chance that the\ntargeted enemy Hero will disconnect from it too early. Pick this Talent if you need\nthe additional range it provides. Hopelessness directly helps Talents who require\nDrain Hope to last for its full duration."
+  },
+  {
+   "title": "Level 10 Talents for Leoric",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nEntomb\n(Level 10)\nLeoric\nMana: 90\nCooldown: 50 seconds\nCreate an unpassable tomb for 4 seconds.\nEntomb is a strong Heroic Ability that gives you\naccess to otherwise weak crowd control, a strong\ntool to swing the battle in your favor, especially if your team has decent\nburst damage as a follow up\n(for example Jaina).\n?\nMarch of the Black King\n(Level 10)\nLeoric\nMana: 75\nCooldown: 50 seconds\nLeoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 (+4% per level) damage, and Heroes hit heal Leoric for 12% of his maximum Health.\nMarch of the Black King is a situational Heroic Ability\nthat increases Leoric's survivability and damage, other than\nmaking him Unstoppable for the duration.\nYou may need this Heroic Ability when your team does not have\nenough burst damage as follow-up\nfor Entomb, when you desperately need to increase\nthe damage output of your team, or when you feel the urgency of extra healing\nto keep yourself in a good shape during prolonged team fights."
+  },
+  {
+   "title": "Level 13 Talents for Leoric",
+   "id": "level-13",
+   "text": "?\nUnyielding Despair\n(Level 13)\nLeoric\nDrain Hope's cooldown is reduced by 0.75 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 2 seconds.\nUnyielding Despair is a good Talent that allows\nLeoric to use Drain Hope more often, especially if\nthe target enemy Hero does not break the connection too early.\nUnyielding Despair requires either Drain Momentum or\nHopelessness at Level 7, Talents that help with the\naforementioned weakness.\n?\nOminous Wraith\n(Level 13)\nLeoric\nIncrease Wraith Walk's duration by 100%. Enemy Heroes that come in contact with the wraith deal 50% less damage for 4 seconds.\nOminous Wraith is a good Talent that makes\nWraith Walk reduce the damage done by enemy Heroes hit\nby its trail, especially useful on Heroes that can deal a lot of damage. Remember that\ndamage reduction effects work on Unstoppable\nenemy Heroes as well (for example Deathwing). When going for Ominous Wraith,\npick Royal Focus at Level 16 for the cooldown reduction.\n✔\nSpectral Leech\n(Level 13)\nLeoric\nBasic Attacks against enemy Heroes deal bonus damage to the primary target damage equal 2.5% of the Hero's maximum Health and heal Leoric for 200% of the bonus damage dealt.\nSpectral Leech is a strong Talent that empowers\nLeoric's Basic Attacks with a leech effect. In particular, Basic Attacks against enemy Heroes\nwill deal percent-based damage and heal Leoric for twice that amount.\nSpectral Leech has good synergy with Mithril Mace at Level 16,\nunless you want Crushing Hope at the same Tier\nto increase your burst damage."
+  },
+  {
+   "title": "Level 16 Talents for Leoric",
+   "id": "level-16",
+   "text": "?\nCrushing Hope\n(Level 16)\nLeoric\nIf Drain Hope lasts its full duration, it instantly deals an additional 15% of the target's maximum Health as damage. This damage does not heal Leoric.\nCrushing Hope is a good Talent that increases\nLeoric's percent-based damage even more,\nsomething that may be useful against enemy Heroes having high maximum Health\nand no mobility at all (such as Azmodan).\nCrushing Hope requires either Drain Momentum or\nHopelessness at Level 7, else the enemy Hero\nwill just get out of range before Drain Hope ends\nand this Talent will not trigger.\n?\nRoyal Focus\n(Level 16)\nLeoric\nWraith Walk increases the damage of the next Skeletal Swing within 5 seconds by 50%. Each enemy Hero hit by Skeletal Swing reduces the cooldown of Wraith Walk by 7 seconds.\nRoyal Focus is a good Talent that increases Leoric's\ndamage by a fair amount and reduces the cooldown of Wraith Walk\nby 7 seconds for each enemy Hero hit by Skeletal Swing,\na powerful boost to Ominous Wraith at Level 13.\n✔\nMithril Mace\n(Level 16)\nLeoric\nIncrease Leoric's Attack Speed by 20%.\nRepeatable Quest: Nearby enemy Minion deaths grant 0.3% permanent Attack Speed, and Takedowns grant 3% permanent Attack Speed, up to 30%.\nMithril Mace is a strong Quest-based Talent that increases\nLeoric's Attack Speed by 20% when picked, up to 50% after killing enough Minions and/or Heroes.\nMithril Mace has good synergy with Spectral Leech at Level 13:\nthe increased percent-based damage and self-healing can\ncause severe issues for enemy Heroes with high maximum Health (for example Stitches)."
+  },
+  {
+   "title": "Level 20 Talents for Leoric",
+   "id": "level-20",
+   "text": "✔\nBuried Alive\n(Level 20)\nLeoric\nThe duration of Entomb is lowered by 1 second, but enemies trapped inside are Silenced and take 50 (+4% per level) damage every 1 second.\nBuried Alive is a strong Talent that turns Entomb\ninto an even more scary engage tool thanks to the\nSilence effect it provides to the already impactful\nunpassable terrain. Consequently, it is an excellent choice against Heroes\nwith mobility or defensive Abilities because\nthey are completely defenseless when caught by Entomb. The additional damage\nis nice to have, but this Talent is already powerful without it.\n?\nDeath March\n(Level 20)\nLeoric\nThe final swing of March of the Black King also applies Drain Hope to nearby enemy Heroes.\nDeath March is a good Talent that makes the last swing\nof March of the Black King apply Drain Hope\nto all nearby enemy Heroes. Keep in mind that any instance of Drain Hope applied by Death March will be\nempowered by Talents as well.\nAssuming you do not need Buried Alive,\nyou should prefer going for Burning Despair\nover Death March because it gives similar damage\nbut constant Armor rather than delayed healing\nand it works even when your Heroic Ability is on cooldown.\n?\nBurning Despair\n(Level 20)\nLeoric\nDeal 40 (+4% per level) damage per second to nearby enemies.\nWhile Drain Hope is active, gain 40 Armor and the damage and area is increased by 100%.\nBurning Despair is a strong Talent that offers\na significant amount of extra damage and survivability. While it passively deals\ndamage around Leoric, the damage and the area covered\nare doubled while Drain Hope is active on an enemy Hero.\nThe survivability boost only comes when Drain Hope\nis being channeled, in the form of bonus Armor,\nwhich you will be able to keep constantly active thanks to Unyielding Despair at Level 13.\nBurning Despair has good synergy with either Drain Momentum or\nHopelessness at Level 7 because they help Leoric to\nkeep the enemy Hero affected by Drain Hope in range for more time.\n?\nShroud of the Dead King\n(Level 20)\nLeoric\nCooldown: 25 seconds\nActivate to become Protected for 3 seconds, preventing all damage.\nShroud of the Dead King is a decent Talent that, when manually activated,\nmakes Leoric unkillable for 3 seconds, a powerful tool against burst damage.\nAll that said, you should rarely pick this Talent because\nthe alternatives will be more valuable most if not all the time."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "18 Apr. 2025: Guide reviewed.\n22 Oct. 2021: Builds updated.\n21 Aug. 2021: Guide reviewed for the latest Balance Update.\n25 Jun. 2021: Builds updated.\n13 Apr. 2021: Builds updated.\n09 Mar. 2021: Talents fixed.\n25 Feb. 2021: New layout.\n17 Feb. 2021: Builds updated.\n04 Nov. 2020: Guide reviewed for the latest Balance Update.\n05 Oct. 2020: Builds updated.\n09 Jul. 2020: Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n12 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n09 Jan. 2020: Changed Mithril Mace from Not Recommended to Recommended and updated the Life Leech Build accordingly.\n25 Nov. 2019: Revised Leoric's guide and applied changes to his Drain Life Build. Entomb and Buried Alive are now prioritized.\n12 Jun. 2019: Updated Leoric's talents and builds to better reflect the current state of the game.\n13 Nov. 2018: Updated Leoric's talent builds and talents section.\n08 Jan. 2018: Updated builds and talent recommendations to reflect changes in meta.\n12 Sep. 2017: Changed Hopelessness from Not Recommended to Recommended.\n08 Sep. 2017: Updated Ominous Wraith discussion.\n07 Sep. 2017: Completely overhauled and updated Leoric's talents in accordance with the Kel'Thuzad patch.\n03 Jul. 2017: Updated Royal Focus' and Lingering Apparition's descriptions.\nShow more\nShow less"
+  }
+ ]
+}

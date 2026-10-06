@@ -1,0 +1,300 @@
+{
+ "slug": "hanzo",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/hanzo-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/hanzo-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/hanzo-talents"
+ },
+ "guide": [
+  {
+   "title": "Hanzo's Overview",
+   "id": "hanzos-overview",
+   "text": "Hanzo is a long-ranged Assassin who must land skillshots from precise angles\nin order to deal damage effectively. He excels in areas that have many terrain\nfeatures, where his Abilities are most effective.\nAll his Abilities grant exceptional vision utility, and allow him to keep track of enemy\nmovements beyond the fog of war. One of his main strengths is being one of the\nfew ranged assassins that are able to start fights, through Dragon's Arrow."
+  },
+  {
+   "title": "Hanzo's Strengths and Weaknesses",
+   "id": "hanzos-strengths-and-weaknesses",
+   "text": "Strengths\nCan poke from very long range\nStrong Basic Attacks\nHas access to good sustain damage or burst damage\nHas a reliable escape\nHis Heroic Abilities are good follow up and engage tools\nCan clear Minion waves quickly from a safe distance (after Level 4)\nWeaknesses\nSomewhat locked into build paths after Level 1 Talent choice\nLimited usefulness of Basic Abilities without Talents\nNo self-sustain\nHard to play\nVery squishy\nDependent on skillshots"
+  },
+  {
+   "title": "Hanzo's Talent Build Cheatsheet",
+   "id": "hanzos-talent-build-cheatsheet",
+   "text": "Storm Bow Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Storm Bow Build has excellent poke damage,\nburst damage, good waveclear,\nand very long range. This build requires accurate and successful Storm Bow hits\nin order to be effective. It will be more difficult to use against highly\nmobile Heroes, as they are likely to avoid skillshots. This build should never\nbe used against Abathur; the slug can easily prevent you from ever completing\nTarget Practice.\nAt Level 16, there are two excellent talent options for Hanzo:\nFlawless Technique is the standard option here. By\nboosting Hanzo's single-target damage, it is great for quickly bursting\ndown any squishy target and applying strong pressure\nto the enemy frontline.\nPiercing Arrows changes focus by not increasing\nsingle-target damage but making it easier to hit enemies positioned behind\ntheir frontline. Additionally, it greatly improves\nHanzo's waveclear. This is a good choice in\nInfernal Shrines or in games where the opposing team\nstruggles to heal against poke damage.\nScatter Arrow Build\nAdvanced\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nScatter Arrow Build focuses on Talents that improve\nScatter Arrow, transforming it into your primary Ability. Of the 3 builds, this\none is the hardest to use, and an inexperienced Hanzo will deal much less\nconsistent Hero damage with it. However, this build can perform well\nif you really want a playstyle focused around Scatter Arrow. This build works\nbest on maps that have narrow corridors, where Scatter Arrow's ricochets are\nmore likely to hit enemies.\nGrab Simple Geometry at Level 1 to improve Scatter Arrow once you complete\nthe quest. Serrated Arrows will only be good at Battlefield of Eternity\nor Hanamura Temple. Explosive Arrows has\nbetter waveclear than Serrated Arrows; pick it\nup at Level 4, if you are not in one of the 2 mentioned maps. Furthermore,\nIgnore All Distractions is an excellent choice on Volskaya Foundry.\nThis build really comes online at Level 16. We recommend choosing\nGiant Slayer, as it greatly improves your\nburst damage with Scatter Arrow\nand your sustained damage with Basic Attacks.\nHowever, Piercing Arrows is also a good option.\nIt allows Scatter Arrow to be\nshot into terrain through an enemy Hero. This opens up many more angles for\nScatter Arrow, and makes it much harder for enemies to prevent it from\ncolliding with terrain. Piercing Arrows also allows Explosive Arrows to explode\ntwice with each Storm Bow arrow, greatly improving your waveclear, being relevant\nin maps such as Infernal Shrines or Tomb of the Spider Queen.\nAt Level 10, you should usually take Dragon's Arrow. It\ngives you some much needed crowd control, which\ncan be used to turn a team fight, or to set up and secure kills.\nDragonstrike\ncan also work with this build, but requires your team to have some way to\nset up a wombo-combo.\nThe Dragon Awakens makes it possible to reset Dragonstrike\nquickly enough to cast it more than once in a team fight after Level 20.\nBasic Attack Build\nSituational\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attack Build takes Talents that dramatically improve Hanzo's\nsustained damage. As with any ranged Basic Attack strategy, you want to\nposition yourself near maximum range while delivering Basic Attacks to enemy\nHeroes.\nNever Outmatched significantly reduces the cooldown of\nScatter Arrow and enhances your overall damage output. However, new Hanzo players\nmight find it challenging to get used to, as the increased attack speed from\nRedemption requires quick use of Scatter Arrow\nafter every two Basic Attacks. Sharpened Arrowheads is an easier yet\nstill excellent option, as each consecutive Basic Attack or Storm Bow hit on an enemy Hero\nreduces their armor for 3 seconds, increasing all damage done to that enemy.\nGiant Slayer works very well against enemy Tanks with large health pools.\nIf the enemy frontline is lacking and you need finishing power against squishy\nenemy Heroes, Flawless Technique can be a good choice instead.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Hanzo's Synergies and Counters",
+   "id": "hanzos-synergies-and-counters",
+   "text": "Hanzo synergizes with\nBoth of Hanzo's Heroics are excellent follow-ups,\nand can prove devastating to enemies caught by setup Heroics\nlike Zeratul's Void Prison or E.T.C.'s\nMosh Pit. However, Dragon's Arrow can\nalso be used as an engage tool, having great synergy with\nDiablo's Apocalypse or Blaze's\nJet Propulsion.\nJust like all the other marksmen, he is excellent with heroes\nthat can easily create space for him to attack, like Johanna, Mal'Ganis,\nor Blaze can.\nHanzo is countered by\nHanzo has very limited mobility during combat, and must keep his distance\nfrom enemies in order to survive. Hanzo will struggle to shake highly mobile\nHeroes when they get within melee range of him, especially if they can follow\nhim over walls when he uses Natural Agility to escape."
+  },
+  {
+   "title": "Hanzo's Maps",
+   "id": "hanzos-maps",
+   "text": "Hanzo's stronger maps\nHanzo's average maps\nHanzo's weaker maps\nHanzo does well on maps that feature objectives in small areas where\nmovement is restricted by terrain walls. This makes all of his skillshots\neasier to land, and provides several surfaces for him to split Scatter Arrow\nwith. He can also use Natural Agility on one of the\nseveral surrounding terrain features to escape threats. By the same reasoning,\nHanzo can struggle on maps that feature large areas that are free of terrain\nfeatures."
+  },
+  {
+   "title": "Hanzo's Tips and Tricks",
+   "id": "hanzos-tips-and-tricks",
+   "text": "Use Natural Agility as a shortcut around long walls, or to escape danger.\nUse Storm Bow to poke enemies from a safe distance.\nMove back and forth to keep enemies near Storm Bow's maximum range as it channels.\nScatter Arrow can be used to quickly dismount enemies or prevent hearthing, as it does not require channeling.\nAlways check bushes and vents with Sonic Arrow or Scatter Arrow before entering them.\nUse Dragon's Arrow when enemies are retreating in a straight line, so you make sure to hit them, enabling your team to follow up.\nDuring fights, if possible, you should only use Dragon's Arrow at the middle range of it, to stun enemies for 1,25 seconds. Use the stun to land your Basic Abilities dealing high damage to the targets.\nBullseye can be used as follow up to any crowd control, including Dragon's Arrow's stun.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Hanzo's Role in the Current Meta",
+   "id": "hanzos-role-in-the-current-meta",
+   "text": "Hanzo can build for long range poke or sustain damage, has\nstrong vision utility, and has access to powerful follow-up Heroics.\nHe can fit into many different team compositions, due to a variety of viable\nbuilds with waveclear. Hanzo is best picked late in the draft when it is clear\nthat one of his builds can be exploited for its specific strengths. It is not\nideal to lock him early in the draft, as this leaves him vulnerable to Heroes\nwho can follow him when he uses Natural Agility to reposition or escape.\nHanzo is a very squishy Hero that mostly should not be alone. You will be\nconstantly attacking the enemy frontline in most teamfights, while using\nBasic Abilities when available. Because of Hanzo's great range from Abilities, it is recommended\nto be always dismounting enemies rotating with Scatter Arrow.\nBesides all that, the thing that mostly differs your average Hanzo player to an\nexcellent one is using Dragon's Arrow properly. It can be\nprobably tagged as one of the best Heroics in the game. Take your time, aim it to\nhit the maximum number of squisy targets you can, to then turn a teamfight around."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "25 Sep. 2025 (talents page): Builds and Talents updated to better reflect current meta.\n25 Sep. 2025 (this page): Builds updated to better reflect current meta.\n31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n11 Dec. 2022 (talents page): Scatter Arrow Build updated.\n17 Feb. 2021 (talents page): Builds and Talents updated to better reflect current meta.\n17 Feb. 2021 (this page): Updated Builds to better reflect current meta.\n06 Feb. 2021 (this page): Updated Storm Bow Build.\n24 Aug. 2020 (talents page): Builds and Talents updated to reflect current meta.\n24 Aug. 2020 (this page): Updated Builds to better reflect current meta.\n04 Jun. 2020 (this page): Guide has been reviewed and is in accordance with the latest patch.\n27 Apr. 2020 (abilities page): Added extra information about how to properly use each ability.\n27 Apr. 2020 (this page): Updated whole Introduction page to better reflect current meta.\n14 Apr. 2020 (talents page): Builds and Talents updated to better reflect current meta.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n30 Aug. 2019 (talents page): Guide reviewed to ensure meta relevance after balance patch.\n30 Aug. 2019 (abilities page): Guide reviewed to ensure meta relevance after balance patch.\n30 Aug. 2019 (this page): Guide reviewed to ensure meta relevance after balance patch.\n21 Jun. 2019 (talents page): Builds, Talents, Abilities, Maps, and Role discussion updated to reflect current meta.\n21 Jun. 2019 (abilities page): Builds, Talents, Abilities, Maps, and Role discussion updated to reflect current meta.\n21 Jun. 2019 (this page): Builds, Talents, Abilities, Maps, and Role discussion updated to reflect current meta.\n10 Jan. 2018 (talents page): Talent choices and descriptions updated to reflect Blaze patch changes.\n10 Jan. 2018 (this page): Builds updated to reflect Blaze patch changes.\n04 Jan. 2018 (talents page): Updated Talents to reflect meta changes.\n04 Jan. 2018 (this page): Updated builds to reflect meta changes.\n12 Dec. 2017 (this page): Added Hanzo guide.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Hanzo's Tips and Tricks",
+   "id": "hanzos-tips-and-tricks",
+   "text": "Use Natural Agility as a shortcut around long walls, or to escape danger.\nUse Storm Bow to poke enemies from a safe distance.\nMove back and forth to keep enemies near Storm Bow's maximum range as it channels.\nScatter Arrow can be used to quickly dismount enemies or prevent hearthing, as it does not require channeling.\nAlways check bushes and vents with Sonic Arrow or Scatter Arrow before entering them.\nUse Dragon's Arrow when enemies are retreating in a straight line, so you make sure to hit them, enabling your team to follow up.\nDuring fights, if possible, you should only use Dragon's Arrow at the middle range of it, to stun enemies for 1,25 seconds. Use the stun to land your Basic Abilities dealing high damage to the targets.\nBullseye can be used as follow up to any crowd control, including Dragon's Arrow's stun."
+  },
+  {
+   "title": "Natural Agility (Trait)",
+   "id": "natural-agility-trait",
+   "text": "Natural Agility\n(D)\nHanzo\nCooldown: 25 seconds\nJump over unpathable terrain or Structures, up to a maximum range.\nNatural Agility allows Hanzo to jump over terrain or\nstructures. This can be used to reposition in ways that most other Heroes\ncannot, making it a good escape option (provided enemies are not waiting for\nyou on the other side). This trait can also result in increased out-of-combat\nmobility if major terrain features are bypassed."
+  },
+  {
+   "title": "Storm Bow",
+   "id": "storm-bow",
+   "text": "Storm Bow\n(Q)\nHanzo\nMana: 20\nCooldown: 4 seconds\nActivate to charge an arrow that deals 291 (+4% per level) damage to the first enemy hit. Storm Bow's range increases the longer it is Channeled.\nStorm Bow is a\nchanneled linear skillshot that gains\nincreased range as it is channeled. Because you are able to move while\nchanneling this, it can be very useful for pursuing enemies. Storm Bow can be\nfired instantly, and should be used this way when enemies are within melee\nrange."
+  },
+  {
+   "title": "Scatter Arrow",
+   "id": "scatter-arrow",
+   "text": "Scatter Arrow\n(W)\nHanzo\nMana: 50\nCooldown: 8 seconds\nFire an arrow that deals 88 (+4% per level) to the first enemy Hero hit. Scatter Arrow can collide with terrain and Structures, splitting into 5 arrows that travel extra distance, ricochet up to 4 additional times, and deal 88 (+4% per level) damage each to the first enemy hit.\nScatter Arrow deals very little damage unless an\nenemy is hit by several arrows after it splits. It will not split if it hits an\nenemy Hero, and a single arrow will only deal a trivial amount of damage to\nthem. Scatter Arrow must collide with terrain or structures at specific angles\nin order to be effective. Hitting an enemy with all of the split arrows will\nresult in a good amount of damage, but is very difficult to do. If an enemy is\nclose enough to a structure or terrain feature to be hit by a full spread of\narrows, they can prevent the split by walking into the arrow.\nUse Scatter Arrow to poke whenever many of the arrows\nwill hit enemies. Look out for opportunities to hit a single enemy with several\nsplit arrows. Very tight corridors are a great place to use Scatter Arrow,\nbecause its ricochets will be very likely to hit enemies. It is also a great tool\nfor dismounting or canceling objective channels, since it has great range and can hit many enemies."
+  },
+  {
+   "title": "Sonic Arrow",
+   "id": "sonic-arrow",
+   "text": "Sonic Arrow\n(E)\nHanzo\nMana: 50\nCooldown: 20 seconds\nFire an arrow that grants vision in a large area for 5 seconds. Enemies inside are revealed for 1 second. If Sonic Arrow lands directly on an enemy, it deals 165 (+4% per level) damage to them and follows them as they move.\nSonic Arrow is a slow-moving missile that flies in an\narc above the battlefield until it impacts. It deals damage in a tiny radius\nwhen it lands, and grants vision in a large area. If an Enemy Hero is struck\nwith Sonic Arrow, the vision radius granted is tethered to the target hit. Use\nSonic Arrow to reveal the fog of war as needed. Bushes, vents, or sharp corners\ncan be approached safely as long as you lob in a Sonic Arrow first.\nOn maps with channeled objectives, like Towers of Doom, you should be holding\nit to disrupt a channeling enemy, but only if you do not have any other Basic Ability\nto do so."
+  },
+  {
+   "title": "Dragonstrike",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDragonstrike\n(R)\nHanzo\nHeroic\nMana: 60\nCooldown: 60 seconds\nAfter 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 84 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area. Enemies in the center take 75% increased damage.\nDragonstrike is Hanzo's iconic Ability\nfrom Overwatch, and performs as one would expect. Due to the channel time,\naudio cues, and slow travel speed, this Ability is easy for enemies to avoid if\nthey are not trapped or crowd-controlled. Additionally, the center area that\ndeals more meaningful damage is very thin. Dragonstrike does not damage\nnon-Heroic units or structures; it can only damage enemy Heroes. This Ability\nis strong on maps that have objectives that spawn in tight corridors, such as\nthe tributes on Cursed Hollow. Keep in mind the dragons do not spawn directly\nfrom Hanzo, and will not hit Heroes who are within close range of him."
+  },
+  {
+   "title": "Dragon's Arrow",
+   "id": "dragons-arrow",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDragon's Arrow\n(R)\nHanzo\nHeroic\nMana: 90\nCooldown: 70 seconds\nFire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing 130 (+4% per level) damage to all nearby enemies and Stunning them for 0.5 seconds.\nAfter traveling a medium distance, the damage is increased to 260 (+4% per level) and the Stun duration to 1.25 seconds.\nAfter traveling a long distance, the damage is increased to 390 (+4% per level) and the Stun duration to 2 seconds.\nDragon's Arrow is a linear skillshot that travels\nglobally across the map, dealing damage and stunning in an area of effect upon\nimpact. The damage and stun duration increase as Dragon's Arrow travels past\ndistance intervals, which are demarcated while aiming the Ability. At maximum\ndistance Dragon's Arrow will be at its strongest, but you will not be in range\nto follow up with your other Abilities (unless you have\nPlay of the Game). Dragon's Arrow is usually going to be\nthe correct Heroic to take. It is easier to hit enemies with it, does not need\nto be channeled, and can be used both as follow up Heroic\nor as an engage tool."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide reviewed.\n27 Apr. 2020: Added extra information about how to properly use each ability.\n30 Aug. 2019: Guide reviewed to ensure meta relevance after balance patch.\n21 Jun. 2019: Builds, Talents, Abilities, Maps, and Role discussion updated to reflect current meta.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Target Practice (Level 1) Hanzo Quest: Hit every enemy Hero with Storm Bow. Reward: After hitting every enemy Hero once with Storm Bow, its range is increased by 30%. Reward: After hitting every enemy Hero 3 times with Storm Bow, its damage is increased by 100."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Simple Geometry (Level 1) Hanzo Quest: Hit a Hero with multiple arrows from the same Scatter Arrow cast 20 times. Each arrow hit after the second grants additional progress. Reward: Upon hitting terrain for the first time, Scatter Arrow creates 2 additional arrows."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Redemption (Level 1) Hanzo Quest: Every 2 Basic Attacks against the same Hero within 10 seconds grants 1 Redemption, stacking up to 12. Dying decreases Redemption by 3, and Redemption can be lost even at maximum stacks. Reward: At 12 Redemption, gain 50% Attack Speed."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Explosive Arrows (Level 4) Hanzo Upon hitting a Minion or Monster, Storm Bow deals 60% of its damage to enemies around its target."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Serrated Arrows (Level 4) Hanzo Scatter Arrow deals 100% more damage to Minions, Mercenaries, and Monsters."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Ignore All Distractions (Level 4) Hanzo Basic Attacks instantly kill Minions and increase Hanzo's Basic Attack range by 2 for 3 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "The Dragon Hungers (Level 7) Hanzo Hitting a Hero with Storm Bow grants 5% Spell Power for 12 seconds, stacking up to 20%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Never Outmatched (Level 7) Hanzo Reduce Scatter Arrow's Mana cost from 50 to 30. Basic Attacks against Heroes lower the cooldown of Scatter Arrow by 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Sharpened Arrowheads (Level 7) Hanzo Hitting a Hero with Storm Bow or Basic Attacks reduces their Armor by 3 for 3 seconds, up to a maximum reduction of 20 Armor."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Dragonstrike (Level 10) Hanzo Mana: 60 Cooldown: 60 seconds After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 84 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area. Enemies in the center take 75% increased damage."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Dragon's Arrow (Level 10) Hanzo Mana: 90 Cooldown: 70 seconds Fire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing 130 (+4% per level) damage to all nearby enemies and Stunning them for 0.5 seconds. After traveling a medium distance, the damage is increased to 260 (+4% per level) and the Stun duration to 1.25 seconds. After traveling a long distance, the damage is increased to 390 (+4% per level) and the Stun duration to 2 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Fleet of Foot (Level 13) Hanzo Hitting a Hero with Storm Bow grants 10% Movement Speed for 6 seconds, up to 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Ninja Assassin (Level 13) Hanzo Hitting Heroes with Storm Bow lowers Natural Agility's cooldown by 10 seconds. Additionally, Hero Takedowns reset Natural Agility's cooldown."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Mounted Archery (Level 13) Hanzo Reduce the cooldown of Summon Mount by 2 seconds. Upon mounting, gain 25% additional Movement Speed for 5 seconds. Using Natural Agility instantly mounts."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Flawless Technique (Level 16) Hanzo Hitting Heroes with Storm Bow increases the damage of Hanzo's next Basic Attack within 5 seconds by 40%. Basic Attacks against Heroes increase the damage of Hanzo's next Storm Bow within 5 seconds by 40%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Piercing Arrows (Level 16) Hanzo Storm Bow and Scatter Arrow pierce, hitting an additional enemy. Additionally, Scatter Arrow can pierce through 1 enemy each time it ricochets."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Giant Slayer (Level 16) Hanzo Enemy Heroes hit by Scatter Arrow and Basic Attacks take a bonus 1.6% of their maximum Health as damage."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "The Dragon Awakens (Level 20) Hanzo Hitting a Hero with Storm Bow, Scatter Arrow, or Basic Attacks reduces the cooldown of Dragonstrike by 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Play of the Game (Level 20) Hanzo While in flight or for up to 2 seconds after impacting a target, Dragon's Arrow can be reactivated to teleport to its location and jump backwards. If used after impact, Hanzo shoots arrows that deal 132 (+4% per level) damage to each target hit by the impact. Hanzo is Unstoppable during Play of the Game."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Bullseye (Level 20) Hanzo Increase Sonic Arrow's speed and center radius by 100%. Additionally, Heroes hit by Sonic Arrow's center are Stunned for 1 second."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Perfect Agility (Level 20) Hanzo Natural Agility gains a 2nd charge and its cooldown is reduced by 10 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Hanzo's Talent Build",
+   "id": "hanzos-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n✓\n?\n?\n7\n✓\n?\n?\n10\n?\n✓\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n?\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Hanzo's Talent Build Cheatsheet",
+   "id": "hanzos-talent-build-cheatsheet",
+   "text": "Storm Bow Build\nRecommended\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Storm Bow Build has excellent poke damage,\nburst damage, good waveclear,\nand very long range. This build requires accurate and successful Storm Bow hits\nin order to be effective. It will be more difficult to use against highly\nmobile Heroes, as they are likely to avoid skillshots. This build should never\nbe used against Abathur; the slug can easily prevent you from ever completing\nTarget Practice.\nAt Level 16, there are two excellent talent options for Hanzo:\nFlawless Technique is the standard option here. By\nboosting Hanzo's single-target damage, it is great for quickly bursting\ndown any squishy target and applying strong pressure\nto the enemy frontline.\nPiercing Arrows changes focus by not increasing\nsingle-target damage but making it easier to hit enemies positioned behind\ntheir frontline. Additionally, it greatly improves\nHanzo's waveclear. This is a good choice in\nInfernal Shrines or in games where the opposing team\nstruggles to heal against poke damage.\nScatter Arrow Build\nAdvanced\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nScatter Arrow Build focuses on Talents that improve\nScatter Arrow, transforming it into your primary Ability. Of the 3 builds, this\none is the hardest to use, and an inexperienced Hanzo will deal much less\nconsistent Hero damage with it. However, this build can perform well\nif you really want a playstyle focused around Scatter Arrow. This build works\nbest on maps that have narrow corridors, where Scatter Arrow's ricochets are\nmore likely to hit enemies.\nGrab Simple Geometry at Level 1 to improve Scatter Arrow once you complete\nthe quest. Serrated Arrows will only be good at Battlefield of Eternity\nor Hanamura Temple. Explosive Arrows has\nbetter waveclear than Serrated Arrows; pick it\nup at Level 4, if you are not in one of the 2 mentioned maps. Furthermore,\nIgnore All Distractions is an excellent choice on Volskaya Foundry.\nThis build really comes online at Level 16. We recommend choosing\nGiant Slayer, as it greatly improves your\nburst damage with Scatter Arrow\nand your sustained damage with Basic Attacks.\nHowever, Piercing Arrows is also a good option.\nIt allows Scatter Arrow to be\nshot into terrain through an enemy Hero. This opens up many more angles for\nScatter Arrow, and makes it much harder for enemies to prevent it from\ncolliding with terrain. Piercing Arrows also allows Explosive Arrows to explode\ntwice with each Storm Bow arrow, greatly improving your waveclear, being relevant\nin maps such as Infernal Shrines or Tomb of the Spider Queen.\nAt Level 10, you should usually take Dragon's Arrow. It\ngives you some much needed crowd control, which\ncan be used to turn a team fight, or to set up and secure kills.\nDragonstrike\ncan also work with this build, but requires your team to have some way to\nset up a wombo-combo.\nThe Dragon Awakens makes it possible to reset Dragonstrike\nquickly enough to cast it more than once in a team fight after Level 20.\nBasic Attack Build\nSituational\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attack Build takes Talents that dramatically improve Hanzo's\nsustained damage. As with any ranged Basic Attack strategy, you want to\nposition yourself near maximum range while delivering Basic Attacks to enemy\nHeroes.\nNever Outmatched significantly reduces the cooldown of\nScatter Arrow and enhances your overall damage output. However, new Hanzo players\nmight find it challenging to get used to, as the increased attack speed from\nRedemption requires quick use of Scatter Arrow\nafter every two Basic Attacks. Sharpened Arrowheads is an easier yet\nstill excellent option, as each consecutive Basic Attack or Storm Bow hit on an enemy Hero\nreduces their armor for 3 seconds, increasing all damage done to that enemy.\nGiant Slayer works very well against enemy Tanks with large health pools.\nIf the enemy frontline is lacking and you need finishing power against squishy\nenemy Heroes, Flawless Technique can be a good choice instead."
+  },
+  {
+   "title": "Level 1 Talents for Hanzo",
+   "id": "level-1",
+   "text": "✓\nTarget Practice\n(Level 1)\nHanzo\nQuest: Hit every enemy Hero with Storm Bow.\nReward: After hitting every enemy Hero once with Storm Bow, its range is increased by 30%.\nReward: After hitting every enemy Hero 3 times with Storm Bow, its damage is increased by 100.\n?\nSimple Geometry\n(Level 1)\nHanzo\nQuest: Hit a Hero with multiple arrows from the same Scatter Arrow cast 20 times. Each arrow hit after the second grants additional progress.\nReward: Upon hitting terrain for the first time, Scatter Arrow creates 2 additional arrows.\n?\nRedemption\n(Level 1)\nHanzo\nQuest: Every 2 Basic Attacks against the same Hero within 10 seconds grants 1 Redemption, stacking up to 12. Dying decreases Redemption by 3, and Redemption can be lost even at maximum stacks.\nReward: At 12 Redemption, gain 50% Attack Speed."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Target Practice is a great Talent that enhances Storm\nBow's range and damage. Achieving the first quest reward is extremely easy\nagainst most team compositions, and will enable you to poke from great\ndistances. While completing this quest will usually be a simple task, certain\nenemy Heroes can make this quest difficult (or even impossible) to complete. If\nthe enemy team has Abathur, this Talent is not recommended.\nSimple Geometry's quest reward will cause\nScatter Arrow to create additional projectiles. This\nmakes it a key Talent to take for a Scatter Arrow build, but also makes it\nnearly useless for other builds. It can be difficult to complete in the early\ngame on battlegrounds with wide lanes, as enemy Heroes will be far away from\nany terrain features during the laning phase.\nRedemption significantly increases Hanzo's otherwise\nsluggish attack speed once stacked, bringing him more in line with other\nHeroes. This Talent is essential if you plan to build around Basic Attacks."
+  },
+  {
+   "title": "Level 4 Talents for Hanzo",
+   "id": "level-4",
+   "text": "✓\nExplosive Arrows\n(Level 4)\nHanzo\nUpon hitting a Minion or Monster, Storm Bow deals 60% of its damage to enemies around its target.\n?\nSerrated Arrows\n(Level 4)\nHanzo\nScatter Arrow deals 100% more damage to Minions, Mercenaries, and Monsters.\n?\nIgnore All Distractions\n(Level 4)\nHanzo\nBasic Attacks instantly kill Minions and increase Hanzo's Basic Attack range by 2 for 3 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Explosive Arrows dramatically improves Hanzo's\nwaveclear. This Talent can cause Hero damage during confrontations\nthat take place near Minions or Monsters, which can be very good in teamfights\nthat take place in lanes.\nSerrated Arrows is not very good after the nerfs to the\nLevel 7 Talent, Never Outmatched. It used to enable Hanzo\nto solo-capture Mercenaries very quickly, but this is no longer the case. The\nwaveclear provided by this Talent is outshined by Explosive Arrows, even if no\nother Talents are invested into Storm Bow. However, in\nBattlefield of Eternity or Hanamura Temple, it is still a good\noption, since it will deal more damage to Sentinels and Immortals.\nIgnore All Distractions will help you\nwaveclear with a Basic Attack build. It also increases\nyour Basic Attack range for a short duration after killing a Minion, which will\nhelp you harass enemy Heroes in or around lanes."
+  },
+  {
+   "title": "Level 7 Talents for Hanzo",
+   "id": "level-7",
+   "text": "✓\nThe Dragon Hungers\n(Level 7)\nHanzo\nHitting a Hero with Storm Bow grants 5% Spell Power for 12 seconds, stacking up to 20%.\n?\nNever Outmatched\n(Level 7)\nHanzo\nReduce Scatter Arrow's Mana cost from 50 to 30. Basic Attacks against Heroes lower the cooldown of Scatter Arrow by 3 seconds.\n?\nSharpened Arrowheads\n(Level 7)\nHanzo\nHitting a Hero with Storm Bow or Basic Attacks reduces their Armor by 3 for 3 seconds, up to a maximum reduction of 20 Armor."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "There is not much to say in this tier. Each Talent will be good for the\ncorresponding build: The Dragon Hungers with a\nStorm Bow build,\nNever Outmatched with Scatter Arrow,\nand Sharpened Arrowheads for a Basic Attack build.\nThe Dragon Hungers can be useful with the Storm Bow build,\nwhere you will constantly poke with Storm Bow from great distances.\nNever Outmatched is an important part of the Scatter Arrow build. This\nTalent reduces the mana cost of Scatter Arrow, and reduces its cooldown each\ntime you Basic Attack an enemy Hero. If you are a very experienced Hanzo player, this\nTalent can be picked in Basic Attack build, since it will deal more damage than\nSharpened Arrowheads as long as you keep using Scatter Arrow when available.\nSharpened Arrowheads applies an armor debuff to enemy Heroes\neach time they are hit by your Basic Attacks or Storm Bow arrows. Enemies with\nnegative armor values will take increased damage from all sources. With this Talent, it is\nimportant to not change focus between heroes for long, since it will reset your stacks and\nremove the armor reduction from them. Make sure to always hit the enemy at least once every 3\nto reapply the debuff"
+  },
+  {
+   "title": "Level 10 Talents for Hanzo",
+   "id": "level-10",
+   "text": "?\nDragonstrike\n(Level 10)\nHanzo\nMana: 60\nCooldown: 60 seconds\nAfter 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 84 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area. Enemies in the center take 75% increased damage.\n✓\nDragon's Arrow\n(Level 10)\nHanzo\nMana: 90\nCooldown: 70 seconds\nFire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing 130 (+4% per level) damage to all nearby enemies and Stunning them for 0.5 seconds.\nAfter traveling a medium distance, the damage is increased to 260 (+4% per level) and the Stun duration to 1.25 seconds.\nAfter traveling a long distance, the damage is increased to 390 (+4% per level) and the Stun duration to 2 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nDragonstrike is Hanzo's iconic Ability\nfrom Overwatch, and performs as one would expect. Due to the channel time,\naudio cues, and slow travel speed, this Ability is easy for enemies to avoid if\nthey are not trapped or crowd-controlled. Additionally, the center area that\ndeals more meaningful damage is very thin. Dragonstrike does not damage\nnon-Heroic units or structures; it can only damage enemy Heroes. This Ability\nis strong on maps that have objectives that spawn in tight corridors, such as\nthe tributes on Cursed Hollow. Keep in mind the dragons do not spawn directly\nfrom Hanzo, and will not hit Heroes who are within close range of him.\nDragon's Arrow is a linear skillshot that travels\nglobally across the map, dealing damage and stunning in an area of effect upon\nimpact. The damage and stun duration increase as Dragon's Arrow travels past\ndistance intervals, which are demarcated while aiming the Ability. At maximum\ndistance Dragon's Arrow will be at its strongest, but you will not be in range\nto follow up with your other Abilities (unless you have\nPlay of the Game). Dragon's Arrow is usually going to be\nthe correct Heroic to take. It is easier to hit enemies with it, does not need\nto be channeled, and can be used both as follow up Heroic\nor as an engage tool."
+  },
+  {
+   "title": "Level 13 Talents for Hanzo",
+   "id": "level-13",
+   "text": "✓\nFleet of Foot\n(Level 13)\nHanzo\nHitting a Hero with Storm Bow grants 10% Movement Speed for 6 seconds, up to 30%.\n?\nNinja Assassin\n(Level 13)\nHanzo\nHitting Heroes with Storm Bow lowers Natural Agility's cooldown by 10 seconds. Additionally, Hero Takedowns reset Natural Agility's cooldown.\n?\nMounted Archery\n(Level 13)\nHanzo\nReduce the cooldown of Summon Mount by 2 seconds. Upon mounting, gain 25% additional Movement Speed for 5 seconds. Using Natural Agility instantly mounts."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Fleet of Foot helps Hanzo kite\nenemies while repeatedly casting Storm Bow. This is particularly effective with\nthe Storm Bow build, as you can chase or retreat from enemies at long range, but\ncan be picked with any Build.\nNinja Assassin allows you to greatly reduce the Cooldown on your\nescape, Natural Agility. It is a good option if you are against enemy Heroes\nwho will dive you, because it will increase the likelihood that Natural Agility\nis available when you need it.\nMounted Archery immediately mounts Hanzo once\nNatural Agility concludes, and grants bonus mounted\nMovement Speed for a short duration. This Talent greatly improves Hanzo's\nrotation speed across all battlefields, and is always an acceptable choice."
+  },
+  {
+   "title": "Level 16 Talents for Hanzo",
+   "id": "level-16",
+   "text": "✓\nFlawless Technique\n(Level 16)\nHanzo\nHitting Heroes with Storm Bow increases the damage of Hanzo's next Basic Attack within 5 seconds by 40%. Basic Attacks against Heroes increase the damage of Hanzo's next Storm Bow within 5 seconds by 40%.\n?\nPiercing Arrows\n(Level 16)\nHanzo\nStorm Bow and Scatter Arrow pierce, hitting an additional enemy. Additionally, Scatter Arrow can pierce through 1 enemy each time it ricochets.\n?\nGiant Slayer\n(Level 16)\nHanzo\nEnemy Heroes hit by Scatter Arrow and Basic Attacks take a bonus 1.6% of their maximum Health as damage."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Flawless Technique greatly increases Hanzo's single\ntarget damage potential. Fleet of Foot works very well\nwith Flawless Technique, because the increased Move Speed will help you deliver\nBasic Attacks after each hit from Storm Bow. This Talent\nhas great synergy with Sharpened Arrowheads, because they\nboth promote the delivery of Basic Attacks between Storm Bow casts.\nPiercing Arrows allows you to hit enemy Heroes with\noptimal splits of Scatter Arrow much more easily, as the\ninitial Scatter Arrow projectile will pass through the first enemy Hero it\ncomes in contact with. This Talent also affects the arrows caused by Scatter\nArrow's split, meaning that the split will continue to ricochet after raking\nyour initial target. Piercing Arrows also allows Explosive Arrows\nto explode twice, greatly increasing waveclear and team fight damage.\nGiant Slayer is a nice addition to a Basic Attack\nbuild, because it increases Basic Attack damage dealt to enemy Heroes based on\ntheir maximum Health. It is a good substitute for Flawless Technique in\nsituations where Storm Bow arrows may be blocked by enemy Tanks. It is also good\nwhen paired with Simple Geometry, as it increases Scatter Arrow's\ndamage, which threatens enemy Heroes who are near terrain features."
+  },
+  {
+   "title": "Level 20 Talents for Hanzo",
+   "id": "level-20",
+   "text": "?\nThe Dragon Awakens\n(Level 20)\nHanzo\nHitting a Hero with Storm Bow, Scatter Arrow, or Basic Attacks reduces the cooldown of Dragonstrike by 4 seconds.\n?\nPlay of the Game\n(Level 20)\nHanzo\nWhile in flight or for up to 2 seconds after impacting a target, Dragon's Arrow can be reactivated to teleport to its location and jump backwards. If used after impact, Hanzo shoots arrows that deal 132 (+4% per level) damage to each target hit by the impact.\nHanzo is Unstoppable during Play of the Game.\n✓\nBullseye\n(Level 20)\nHanzo\nIncrease Sonic Arrow's speed and center radius by 100%. Additionally, Heroes hit by Sonic Arrow's center are Stunned for 1 second.\n?\nPerfect Agility\n(Level 20)\nHanzo\nNatural Agility gains a 2nd charge and its cooldown is reduced by 10 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "The Dragon Awakens can be very powerful if you are using the Scatter Arrow\nbuild. This build makes it possible to reset the cooldown of Dragonstrike\nvery quickly.\nPlay of the Game allows Hanzo to travel to any point on\nthe map, by teleporting to Dragon's Arrow's location. This\nshould usually be used to join a team fight, as teleporting to the arrow after\nit impacts will cause you to fire additional arrows when you arrive. Using Play\nof the Game this way also allows Hanzo to split off from the main group until\nhe is needed.\nBullseye is the default level 20 option for Hanzo,\nsince it basically increases the stun duration of Dragon's Arrow by 1 second,\nand can also be used to cancel a channeled Ability from afar, or to follow up\nan engage. Try to always use Sonic Arrow on the target you stunned\nwith your Heroic Ability, prolonging the stun duration.\nPerfect Agility is very useful if you need additional escape during\nthe late game."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "25 Sep. 2025: Builds and Talents updated to better reflect current meta.\n31 May 2025: Guide reviewed.\n11 Dec. 2022: Scatter Arrow Build updated.\n17 Feb. 2021: Builds and Talents updated to better reflect current meta.\n24 Aug. 2020: Builds and Talents updated to reflect current meta.\n14 Apr. 2020: Builds and Talents updated to better reflect current meta.\n30 Aug. 2019: Guide reviewed to ensure meta relevance after balance patch.\n21 Jun. 2019: Builds, Talents, Abilities, Maps, and Role discussion updated to reflect current meta.\n10 Jan. 2018: Talent choices and descriptions updated to reflect Blaze patch changes.\n04 Jan. 2018: Updated Talents to reflect meta changes.\nShow more\nShow less"
+  }
+ ]
+}

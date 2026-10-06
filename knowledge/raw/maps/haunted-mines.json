@@ -1,0 +1,96 @@
+{
+ "name": "haunted-mines",
+ "source": "https://www.icy-veins.com/heroes/haunted-mines-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Haunted Mines is a 2-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map is an Undead Army dropping Cursed Skulls.\nThe team who collects more Cursed Skulls will get a stronger Grave Golem,\nthe other team will get a weaker one."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nSiege damage for Structures\nSustain damage/healing\nEffects relying on impassable terrain\nHeroes for clearing Mercenary Camps\nPoint control for Sapper Camps\nModerate waveclear\nAvoid\nQuests to stack on Heroes\nWeak early game\nSee our Haunted Mines Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-4",
+   "id": "formation-1-4",
+   "text": "The go-to formation for Haunted Mines is 1-4:\n1 Hero, the Offlaner, covers the top lane;\n4 Heroes cover the bottom lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "At 0:30 minutes or whenever available, start clearing the Sapper Camp\nin the lane your 4-man is and capture it as soon as possible. Watch out for invades!\nIf your team does not have point control tools,\ngo for the farthest Sapper Camp from the enemy 4-man.\nAt 2:20 minutes or 20-30 seconds before the Undead Army spawns in the Mines,\nstart clearing the allied Siege Camp and capture it slightly before the Undead Army\nappears in the Mines. To make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 2:40 minutes or 10 seconds after a wave of Minions spawned.\nAt 3:00 minutes and whenever the Undead Army spawns in the Mines,\neach team should decide how many Heroes to send\ninside the Mines depending on how much siege damage they have.\nIf it is early game,\nthe Offlaner can keep soaking.\nIf you decide to play for the Objective, you should collect as many Cursed Skulls\nas possible from Risen Miners without going too far from the rest of your team. Then,\nif your team has an advantage, attack the Grave Golem.\nOtherwise, you can just leave the Mines and push a lane.\nIf your team collected a lot more Cursed Skulls than the enemy team, your 4-man\nshould push together with the allied Grave Golem.\nIf it is early game,\nthe Offlaner can keep soaking.\nIf the enemy team collected a lot more Cursed Skulls than your team,\nyour 4-man should defend allied Structures from the enemy Grave Golem.\nIf it is early game,\nthe Offlaner can keep soaking.\nIf each team collected about the same amount of Cursed Skulls,\nthe team with more siege damage should push\nand the other team should defend.\nIf it is early game,\nthe Offlaner can keep soaking."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Haunted Mines has a total of 4 Mercenary Camps:\n1 Sapper Camp (purple icon) near the center of the top lane;\n1 Siege Camp (green icon) on the left side of the top lane;\n1 Siege Camp (green icon) on the right side of the bottom lane;\n1 Sapper Camp (purple icon) near the center of the bottom lane.\nMercenary Camps on Haunted Mines are always active,\neven when the Mines are open or Grave Golems are in lane."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Siege Giants. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n280 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nInstead of attacking enemies with Basic Attacks, Siege Giants throw stones at them.\nThese stones can be dodged, so it is possible to capture them without taking any damage.\nOnce captured, they are capable of damaging enemy Structures without getting in their range.\nSiege Giants deal 100% bonus damage to Structures."
+  },
+  {
+   "title": "Sapper Camp",
+   "id": "sapper-camp",
+   "text": "This type of Mercenary Camp features 3 Sappers. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n2:30 minutes after its last capture\nBaseline Experience\nExperience Scaling\n90 Experience\n+6 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nWhen in range of an enemy Structure, Sappers will sprint at it and explode.\nAll enemy non-Heroes within 2.5 range will take damage form it. Structures will take\n1750 damage (not scaling) and non-Structures will take 187 damage (not scaling).\nYou can briefly interrupt the explosion by using\nStun, Silence, or even\nKnockback effects. That said, if you do\nnot kill them in time, they will try again immediately after."
+  },
+  {
+   "title": "Watch Towers",
+   "id": "watch-towers",
+   "text": "Haunted Mines features 2 Watch Towers:\nthey are located in the middle area, one near the left entrance\nto the Mines and another one near the right entrance to the Mines.\nIf a team controls a Watch Tower, entering in the Mines from the\ncorresponding entrance becomes more dangerous as the enemy team\ncould see you walk outside and quickly prepare a trap inside.\n\nSecuring a Watch Tower provides your team with greater vision,\nallowing you to keep an eye on enemy movements in that part of the battlefield.\nWatch Towers can be captured by standing in the area until your team gains control.\nAfter 45 seconds of not being occupied, they become neutral again. Because of this,\nthey should only be captured when you are playing in that area for other reasons\n(either to capture Mercenary Camps or for contesting the Objective).\nWatch Towers controlled by the enemy team are extremely dangerous,\nespecially when there are bushes nearby. Therefore, you should think twice\nbefore contesting them. If you do not have mobility tools at your disposal\nand your teammates are not nearby to help you, you should definitely not try\nto capture a Watch Tower as you will only risk dying for no reason.\nStaying alive is more important than getting vision."
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature objective of Haunted Mines consists of an Undead Army\ncomposed of 8 groups of Risen Miners and 1 Grave Golem who drop Cursed Skulls.\nWhen active, each team has to collect 55 Cursed Skulls. Once a team does that,\neach team is rewarded with a laning Grave Golem. Their power is increased\nby the amount of Cursed Skulls collected by the corresponding team.\nSpawn Time\nRespawn Delay\n3:00\n2:00 minutes after the laning Grave Golems die\n\nVenture Underground\nThe Haunted Mines will periodically open with an Undead Army underneath.\nCollect the Skulls\nDestroy the Undead and collect their Skulls to power your Golems!\nUnleash the Golems\nAfter a team has collected 55 Skulls, the Golems will arise for both teams! The more Skulls your team collects, the stronger your Golem!"
+  },
+  {
+   "title": "Mines",
+   "id": "mines",
+   "text": "To enter or leave the Mines, you need to interact with one of the 4 Mine Shafts\nor issue a movement command on the other section of the battlefield.\n\nThe entrances are located in the following places:\n1 entrance in the middle of the top lane;\n1 entrance near the Watch Tower on the right;\n1 entrance near the Watch Tower on the left;\n1 entrance in the middle of the bottom lane.\nHero vision is reduced from 12 to 6.5 while inside the Mines.\nThis means that you will not be able to see enemy Heroes\nas usual and that some Abilities will basically have reduced\nrange unless there is an allied unit giving vision.\nWhile inside the Mines, some Heroes can use the surrounding\nimpassable terrain at their\nadvantage—to Stun enemy Heroes,\nto move faster, to block enemy Heroes, and/or to punish\nenemy Heroes who tend to group.\n\nThe exits are located in the following places:\n1 exit at the top of the underground area;\n1 exit on the right of the underground area;\n1 exit at the bottom of the underground area;\n1 exit on the left of the underground area.\nBe careful when using Mine Shafts to enter in or exit from the Mines.\nIf enemy Heroes control a Watch Tower, they will have vision\non the nearby Mine Shaft. This means they will be able to see who\nis entering and who just left the Mines."
+  },
+  {
+   "title": "Undead Army",
+   "id": "undead-army",
+   "text": "At the beginning of the Objective phase, 8 groups of Risen Miners\nand 1 Grave Golem will spawn in the Mines. They drop Cursed Skulls.\nThe 8 groups of Risen Miners are spread around the Mines but they always spawn in the\nsame locations. The underground Grave Golem always spawns in the center of the Mines.\n\nTo give you an overview, the Undead Army is arranged as follows:\n2 groups of 5 Risen Miners on the top-right;\n2 groups of 4 Risen Miners on the bottom-right;\n2 groups of 5 Risen Miners on the bottom-left;\n2 groups of 4 Risen Miners on the top-left;\n1 underground Grave Golem in the center.\nIn addition to dropping Cursed Skulls, the underground Grave Golem\nalso drops Regeneration Globes when reaching 70% Health and 30% Health."
+  },
+  {
+   "title": "Cursed Skulls",
+   "id": "cursed-skulls",
+   "text": "In the Mines there will always be 110 Cursed Skulls available for each Objective phase.\nCollect 55 Cursed Skulls before the enemy team does to get a stronger laning Grave Golem.\nRisen Miners drop 2 Cursed Skulls and are split into 8 groups of 4-5 Risen Miners.\nAs a consequence, each group of Risen Miners will drop from 8 to 10 Cursed Skulls.\nThe underground Grave Golem drops 8 Cursed Skulls for every 25% Health lost\nand 6 Cursed Skulls upon death, for a total of 38 Cursed Skulls.\n\nTo give you an overview, Cursed Skulls are distributed as follows:\n2 groups of 10 Cursed Skulls on the top-right;\n2 groups of 8 Cursed Skulls on the bottom-right;\n2 groups of 10 Cursed Skulls on the bottom-left;\n2 groups of 8 Cursed Skulls on the top-left;\na total of 38 Cursed Skulls in the center.\nIf both teams are collecting Cursed Skulls, each team will get about 4 groups of Risen Miners,\nwhich corresponds to at least 32 Cursed Skulls. This means that, in order to win the Objective,\nyou need to kill enemy Heroes either before they collect Cursed Skulls from the other 4 groups\nof Risen Miners or to have numerical advantage for fighting the Grave Golem in the middle\nof the Mines and bring him down to 25% Health for getting a total of 24 Cursed Skulls."
+  },
+  {
+   "title": "Grave Golems",
+   "id": "grave-golems",
+   "text": "Once a team collects 55 Cursed Skulls, laning Grave Golems for each team will spawn in opposite\nlanes at the same time, starting randomly and then alternating for the rest of the game.\nYou can see in which lanes they will spawn by looking at the glowing bones near the middle of each lane.\nThe allied Grave Golem will spawn in the lane with the glowing bones closer to your Core whereas\nthe enemy Grave Golem will spawn in the lane with the glowing bones further away from your Core.\nThe power of the laning Grave Golems increases with Game Time and based on Cursed Skulls collected by\nthe owners. The time-based scaling snapshots when both teams combined collect 60 Cursed Skulls.\nIf both teams combined collect less than 60 Cursed Skulls, however, the time-based scaling snapshots\nwhen the Grave Golems spawn in lane. Once the time-based scaling has been applied, Cursed Skulls\ncollected by the owners further increase the power of the laning Grave Golems by 7% each."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Contrary to all other Battlegrounds, there is no Core Ability on Haunted Mines."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Haunted Mines, you should count on\nany of the following win conditions:\nMap Objective."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 1:00 minute.\nThis is because the first Objective on this Map activates at 3:00 minutes,\nso you will have it back in time for that.\nMines will open at 3:00 minutes into the game and never close again.\nYou can use them for confusing enemy Heroes while fighting near Mine Shafts, or\nfor moving across the battlefield without being seen from Watch Towers.\nThe groups of Risen Miners in the top-right and bottom-left of the Mines\ndrop 2 more Cursed Skulls than the others. If possible, collect them first.\nThen, if they have not been killed yet, move to the nearest groups of Risen Miners.\nIf you move the camera to the center of the upper portion of the\nbattlefield, you will be able to take a peek into the center of the Mines.\nThis will allow you to see if enemy Heroes are fighting the Grave Golem.\nThe laning Grave Golem takes about 30 seconds to spawn. You can use this time\nto capture the allied Siege Camp. This way, Siege Giants will damage the enemy Grave Golem\nor support the allied Grave Golem, depending on which lane they are on.\nRight before the laning Grave Golem spawns, you can try to\ncrowd control enemy Heroes near the spawning\nlocation, so that they will get hit by his powerful Abilities.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "12 May 2026: Guide updated for the latest Balance Update.\nMap Objective section updated.\n04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n01 May 2026: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

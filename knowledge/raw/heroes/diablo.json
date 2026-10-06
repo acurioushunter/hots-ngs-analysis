@@ -1,0 +1,265 @@
+{
+ "slug": "diablo",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/diablo-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/diablo-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/diablo-talents"
+ },
+ "guide": [
+  {
+   "title": "Diablo's Overview",
+   "id": "diablos-overview",
+   "text": "Diablo is an aggressive Tank. With multiple crowd control\nAbilities that also displace his opponents, he excels at setting up\nand peeling for his teammates, and punishing poor positioning.\nDue to how Shadow Charge works, Diablo is particularly strong\nwhen enemy Heroes have impassable terrain right behind them."
+  },
+  {
+   "title": "Diablo's Strengths and Weaknesses",
+   "id": "diablos-strengths-and-weaknesses",
+   "text": "Strengths\nPowerful engage\nVery large Health pool\nExcellent at body blocking\nMay respawn very quickly upon death through Black Soulstone\nGood self-sustain\nHigh damage against enemy Heroes\nWeaknesses\nLimited and conditional mobility\nLow waveclear\nRequires impassable terrain to shine"
+  },
+  {
+   "title": "Diablo's Talent Build Cheatsheet",
+   "id": "diablos-talent-build-cheatsheet",
+   "text": "Fire Stomp Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's Fire Stomp Build boosts your survivability and damage output\nwhen hitting enemy Heroes with Fire Stomp.\nRemember to alternate it with other Basic Abilities to get more value\nfrom Eternal Flames at Level 7.\nWhile you can play this Build in most games,\nthe self-healing provided by Fire Stomp\nempowered by various Talents makes this Build particularly useful\nwhen playing against Heroes who counter you (for example Tychus)\nand therefore force you to not play aggressively.\nShadow Charge Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's Shadow Charge Build provides superior burst damage and\ncrowd control on closed Maps where one can reliably slam\nopponents against impassable terrain\n(notably Infernal Shrines).\nYou should constantly look for good angles for Shadow Charge\nbecause you have various Talents depending on your target being Stunned\nwith it. Ideally, you should go for squishy enemy Heroes,\nbut any target is fine when they are out of position and/or have no defensive tools.\nSacrificial Soul at Level 4 helps to get Souls back but,\nto benefit from it, you have to fully commit to Stun enemy Heroes\nwith Shadow Charge. Malevolence at Level 7\nincreases your burst damage when doing so.\nBasic Attacks Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's Basic Attacks Build provides superior self-sustain and\nfair single-target damage potential. As a key Talent, Diabolical Momentum\nallows Feast on Fear to trigger often through repeated Ability casts\nfor significantly increased combat survivability, especially once you get Cruelty.\nYou can get the most out of this Build when the enemy team\nhas a low amount of crowd control—including\nBlinds—at their disposal as you will be generally\nfree to hit your target and heal up via Life Leech at Level 4.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's ARAM Build boosts your survivability and damage output\nwhen hitting enemy Heroes with Fire Stomp.\nRemember to alternate it with other Basic Abilities to get more value\nfrom Eternal Flames at Level 7.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Diablo's Synergies and Counters",
+   "id": "diablos-synergies-and-counters",
+   "text": "Diablo synergizes with\nSince Diablo provides reliable means of initiating, it follows\nnaturally that he would work well with Heroes that have a strong and reliable\nway of playing off and following up said initiating. Any Hero\nthat Stuns, Roots or otherwise hinders the movement of intended targets is\npreferred, but Heroic Abilities that synergise with Apocalypse make\nfor particularly effective combos.\nDiablo is countered by\nAs a Tank with a large amount of Health, Diablo is naturally vulnerable\nto Heroes that deal percent-based damage. His reliance on being able to engage\nto be impactful also makes him lackluster against some of the more resilient\nbackline Assassins who have tools to avoid or otherwise nullify\nhis Shadow Charge + Overpower combo."
+  },
+  {
+   "title": "Diablo's Maps",
+   "id": "diablos-maps",
+   "text": "Diablo's stronger maps\nDiablo's average maps\nDiablo's weaker maps\nDiablo does great on Maps where the early game\nis not that important (such as Garden of Terror) and where\nfindining opportunities to use Shadow Charge\nnear impassable terrain is easy,\nresulting into a Stun and thus extra damage.\nDiablo does poorly on Maps with wide areas, where he cannot get\nvalue from impassable terrain,\nand on Maps where the early game\nis important (notably Braxis Holdout) because he is too weak\nbefore Level 7 and without Souls for Black Soulstone."
+  },
+  {
+   "title": "Diablo's Tips and Tricks",
+   "id": "diablos-tips-and-tricks",
+   "text": "Sometimes it is better to use Shadow Charge on an enemy Minion and then cast Overpower on an enemy Hero, so they do not get pushed first.\nFire Stomp can hit any given target up to five times in melee range. Cast it in the direction that is going to result in the highest amount of hits.\nUse Overpower right after Shadow Charge to move opponents towards your teammates, so that they can follow-up.\nBe careful right after reviving through Black Soulstone because you will not have 30% bonus maximum Health.\nIn some rare situations it may be useful to cast Lightning Breath just to become Unstoppable for a moment.\nCast Apocalypse, then use Shadow Charge, and then cast Overpower to put an enemy Hero on the rune that is below them.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Diablo's Role in the Current Meta",
+   "id": "diablos-role-in-the-current-meta",
+   "text": "Diablo's main strengths lie in his notorious Shadow Charge plus Overpower\ncombo, which can unconditionally displace and control a target of his choosing,\nand very strong zoning Heroic Ability choices. Since his ability\nto waveclear, siege, and claim Mercenary Camps\nis limited by his low damage output, Diablo is often picked for his ability to\nreliably initiate and counter team compositions that rely on one\nkey damage dealer or Healer. As Diablo is widely recognised as one of the best initiators\nin the game, Diablo players are expected to position aggressively and look\nfor ganking opportunities or Heroes who are out of position all while\ninterrupting key channeled Abilities."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026 (talents page): Guide updated for the latest Patch.\n20 Jul. 2026 (abilities page): Guide updated for the latest Patch.\n20 Jul. 2026 (this page): Guide updated for the latest Patch.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n04 Feb. 2025 (talents page): Guide reviewed.\n04 Feb. 2025 (abilities page): Guide reviewed.\n04 Feb. 2025 (this page): Guide reviewed.\n19 Aug. 2024 (talents page): Guide reviewed.\n19 Aug. 2024 (abilities page): Guide reviewed.\n19 Aug. 2024 (this page): Guide reviewed.\n11 Feb. 2024 (talents page): Explanation for Heroic Abilities improved.\n11 Feb. 2024 (abilities page): Explanation for Heroic Abilities improved.\n17 Dec. 2023 (talents page): Guide reviewed.\n17 Dec. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n15 Sep. 2023 (talents page): Guide reviewed.\n15 Sep. 2023 (this page): Guide reviewed.\n03 Feb. 2022 (talents page): Guide reviewed for the latest Balance Update.\n03 Feb. 2022 (abilities page): Guide reviewed for the latest Balance Update.\n03 Feb. 2022 (this page): Guide reviewed for the latest Balance Update.\n03 Nov. 2021 (talents page): Builds updated.\n03 Nov. 2021 (this page): Builds updated.\n10 Sep. 2021 (talents page): New layout.\n10 Sep. 2021 (abilities page): New layout.\n13 Aug. 2021 (this page): Maps updated.\n20 May 2021 (talents page): Builds updated.\n20 May 2021 (abilities page): Builds updated.\n20 May 2021 (this page): Builds updated.\n22 Nov. 2020 (talents page): Q build re-added to recommended builds.\n30 Aug. 2020 (talents page): Talent builds and recommendations updated to better reflect metagame state.\n30 Aug. 2020 (this page): Role in the Current Meta section updated.\n05 Apr. 2020 (talents page): Descriptions reviewed for Soul Armor and Devastating Charge.\n13 Dec. 2019 (this page): Added a note about current Anomaly.\n15 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n15 Oct. 2019 (abilities page): Abilities section reviewed.\n15 Oct. 2019 (this page): Guide updated.\n05 Jun. 2018 (talents page): Talents updated to better reflect metagame state.\n22 May 2018 (talents page): Talents updated to account for the Diablo rework patch.\n22 May 2018 (this page): Guide updated to account for the Diablo patch rework.\n14 Jan. 2018 (talents page): Updated Heroic Talent assessments. Updated Shadow build.\n26 Jun. 2017 (talents page): Updated the Shadow Charge build.\n22 Dec. 2016 (this page): Guide updated to account for the Ragnaros patch rework and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Diablo's Tips and Tricks",
+   "id": "diablos-tips-and-tricks",
+   "text": "Sometimes it is better to use Shadow Charge on an enemy Minion and then cast Overpower on an enemy Hero, so they do not get pushed first.\nFire Stomp can hit any given target up to five times in melee range. Cast it in the direction that is going to result in the highest amount of hits.\nUse Overpower right after Shadow Charge to move opponents towards your teammates, so that they can follow-up.\nBe careful right after reviving through Black Soulstone because you will not have 30% bonus maximum Health.\nIn some rare situations it may be useful to cast Lightning Breath just to become Unstoppable for a moment.\nCast Apocalypse, then use Shadow Charge, and then cast Overpower to put an enemy Hero on the rune that is below them."
+  },
+  {
+   "title": "Shadow Charge",
+   "id": "shadow-charge",
+   "text": "Shadow Charge\n(Q)\nDiablo\nMana: 65\nCooldown: 12 seconds\nCharge an enemy, knocking them back, dealing 45 (+4% per level) damage and gaining 15% Movement Speed for 2 seconds. If the enemy hits terrain, they are Stunned for 1 second and take an additional 140 (+4% per level) damage.\nShadow Charge is Diablo's main initiation Ability.\nIdeally, you should cast it when the target enemy Hero has impassable terrain behind them,\nso that they get Stunned in the process. When that is not possible,\nyou should immediately follow-up with Overpower.\nHold the Queue Command Modifier [Shift] while pressing [Q] to make this combo more consistent.\nIf you do not want to push the kill target too far from your teammates,\nyou can use Shadow Charge on a nearby enemy (for example a Minion)\nto close the gap and then Overpower the enemy Hero you intend to kill.\nThis trick is important to know as it can easily make the difference between\nkilling an enemy Hero or missing an opportunity to do so.\nAvoid using Shadow Charge when there are no allied Heroes\nnearby! You will waste an important cooldown and also end up being out-of-position.\nWhen you are in danger, Shadow Charge may also be\nused against a far-away hostile target (for example a Minion)\nto create some space between yourself and enemy Heroes.\nYou can even use it to get out of Entomb by Leoric.\nShadow Charge can be used to interrupt\nstationary-channeled Abilities.\nIf you want to reliably interrupt Mosh Pit,\nhowever, you have to cast Shadow Charge\nat its maximum range, otherwise you will be Stunned\nbefore reaching E.T.C..\nAs with most displacement effects, you must be mindful of not actually helping\nyour opponents by accidentally moving them to safety, such as behind their own Gates, or out\nof friendly area of effect effects. At the same time,\nyour teammates should pay attention to your cooldowns and be ready to\nfollow-up at the right moment."
+  },
+  {
+   "title": "Fire Stomp",
+   "id": "fire-stomp",
+   "text": "Fire Stomp\n(W)\nDiablo\nMana: 35\nCooldown: 8 seconds\nUnleashes fire waves toward the targeted area that deal 11 (+4% per level) damage each. Once they reach maximum range they return, dealing an additional 34 (+4% per level) damage. Diablo heals for 130% of the damage dealt to Heroes.\nFire Stomp's main purpose is to provide Diablo\nwith self-sustain and a bit of\narea of effect damage.\nSince it has a short cooldown, this Ability can be mostly used\non-cooldown when needed to damage enemy Heroes, for waveclear,\nor when you need to heal yourself.\nSince the projectiles generated by the Ability have a relatively long range,\nthey can be used to scout bushes or try to reveal Stealthed Heroes,\nso that they can be targeted with Basic Attacks and point-and-click Abilities again.\nSimilarly, before full-committing into a team fight, you can cast Fire Stomp\nfrom the distance to deal damage and get some healing.\nOne of Fire Stomp's intricacies lies in its cone shape, requiring good aim\nand correct timing when paired with other Basic Abilities.\nEach of the Ability's five projectiles can hit any single target,\nallowing you to quintuple its damage and healing by positioning properly. Due\nto the cone-like spread of the projectiles, achieving multiple hits is only\npossible against targets who are in melee range.\nMaximising Fire Stomp's effect comes down to hitting as many targets as\npossible or, sometimes, hitting the same target multiple times.\nWhile fighting, you should aim it towards multiple enemy Heroes\nor towards a specific enemy Hero who is in melee range,\nwith the help of Overpower."
+  },
+  {
+   "title": "Overpower",
+   "id": "overpower",
+   "text": "Overpower\n(E)\nDiablo\nMana: 35\nCooldown: 12 seconds\nGrabs the target and slams it behind Diablo, dealing 80 (+4% per level) damage and Stunning for 0.25 seconds.\nOverpower is what makes Diablo so threatening in melee. Whenever you find\nyourself within melee range of an opponent, its use should become natural,\nso long as you have allies near you to capitalise\non the displacement effect. An\noften overlooked aspect of the Ability is that it puts you in a perfect position\nto perform a body block. Otherwise, Overpower\nsynergises so well with Shadow Charge that they are systematically used one\nright after the other.\nJust as with Shadow Charge, when displacing enemy Heroes,\nbe mindful of not actually helping your opponents\nby accidentally moving them to safety or away from your allies. Shadow Charge deals a dismal\namount of damage and should almost exclusively be used if the effect is going\nto be useful, allow you to get several Basic Attacks off, or to interrupt\na channeled Ability with its Stun component.\nWhen defending allied Structures from enemy Heroes, Overpower\ncan be used to slam one of them behind your own Gate. This is often enough to outright seal the fate of most Heroes.\nWhen defending allied Structures from enemy Mercenaries, Overpower\ncan be used to pull one of them in range of your Structures.\nThis trick is important to know when dealing with Fallen Shamans on Diablo-themed Maps\n(Battlefield of Eternity and Infernal Shrines) but also\ncomes in handy when defending your Structures from Siege Giants on Nexus-themed Maps."
+  },
+  {
+   "title": "Apocalypse",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nApocalypse\n(R)\nDiablo\nHeroic\nMana: 50\nCooldown: 90 seconds\nCreate a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.\nApocalypse's lengthy Stun effect, respectable damage, and large area of\neffect make it one of the strongest follow up\ncrowd control Abilities in the game, however,\nsince it has a long delay, it should only be used in combination\nwith other crowd control effects.\nThe single-target combo relies on your Basic Abilities.\nYou should cast Apocalypse while the desired target is\nin range for Shadow Charge, quickly cast Shadow Charge,\nand then immediately queue up Overpower by using the Queue Command Modifier [Shift].\nThe multiple target combo relies on your team's Heroic Abilities.\nYou should cast Apocalypse when they cannot dodge it\ndue to crowd control effects preventing their movements\n(for example Ley Line Seal by Medivh).\nApocalypse's runes do not spawn below Heroes removed\nfrom the battlefield by Stasis effects that affect enemy Heroes\n(for example Devouring Maw by Zagara)."
+  },
+  {
+   "title": "Lightning Breath",
+   "id": "lightning-breath",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nLightning Breath\n(R)\nDiablo\nHeroic\nMana: 80\nCooldown: 90 seconds\nAfter 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%.\nLightning Breath's direction changes with your mouse cursor position.\nLightning Breath is one of the most damaging Abilities in the game, however,\nit has the downside of being a stationary channel,\nso Diablo has to stand still while using it and thus be vulnerable to damage.\nThat said, it makes Diablo Unstoppable\nand be cancelled when you want to move away from danger.\nAll enemy Heroes hit will be affected by a stacking Slow effect,\nwhich makes it progressively harder for them to get out of Lightning Breath\nonce it connects on them, unless they have mobility tools.\nThere are also some Heroes who deal more damage to Slowed enemy Heroes\n(for example Fenix with Purification Salvo).\nDespite being an area of effect, you should not hesitate\nto use Lightning Breath on a single target and get a kill,\nusually with the help of your team. The large area it covers will often result in\nother enemy Heroes being zoned or taking damage,\nespecially when contesting a Capture Point.\nSince you cannot move during Lightning Breath,\nyou should ideally cast it when not having low Health. Also, to increase your\nsurvivability, before using Lightning Breath,\nyou should use Fire Stomp to debuff enemy Heroes with\nDebilitating Flames at Level 16\nand activate Soul Shield at Level 1.\nDue to the fact that Diablo is Unstoppable during it,\nthe only status effect that can counter Lightning Breath is\nTime Stop (notably Containment Disc by Maiev).\nWhen countered that way, Diablo will end up wasting his Heroic Ability\nas enemy Heroes will have a lot of time to move out-of-range.\nIn some rare occasions it may be useful to cast Lightning Breath\njust to become Unstoppable and then cancel it when it is no longer needed.\nThis trick is important to know when playing against Chromie\nwith Temporal Loop as Heroic Ability."
+  },
+  {
+   "title": "Black Soulstone",
+   "id": "black-soulstone",
+   "text": "Black Soulstone\n(D)\nDiablo\nPassive\nRepeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.3% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.\nAfter reaching level 10, Diablo only consumes 75 Souls when resurrecting.\nBlack Soulstone is a Trait which increases Diablo's maximum Health\nfor each Souls collected. To collect Souls, Diablo has to be nearby enemy Minions\nwhen they die or to help his team to kill an enemy Hero. When dying with 100 Souls,\nDiablo will consume them all and respawn in the Hall of Storms after 5 seconds.\nAfter reaching Level 10, the amount of Souls consumed while respawning\nvia Black Soulstone is reduced from 100 to 75,\nmeaning you will start from 25 Souls instead.\nConsidering how Black Soulstone\ncan heavily change the amount of maximum Health that Diablo has,\nyou generally have to play less aggressively when having less than 50 Souls\nbut can play more aggressively when having close to 100 Souls.\nThis means that Diablo is weak at the start of the game and needs to\nfarm Souls for a few minutes (up to Level 7) before becoming a threat.\nTo do so, stay within 13 range from dying enemy Minions (vision has 12 range)\nor try to gank isolated enemy Heroes.\nAvoid dying for no reason and thus wasting all your Souls\nbecause then you will have lower maximum Health for a while.\nWhen you respawn via Black Soulstone,\nyou can use moments when your team does not\nreally need your help to collect a bunch of Souls from Minions,\nbut do not leave them without Tank for too long.\nWhen your team wants to disengage and you have 100 Souls,\nit may be good for you to lure the attention of enemy Heroes away\nfrom allied Heroes, so that the enemy team cannot kill them.\nYou will consume your Souls but your team will not be\noutnumbered during the next team fight. This move is\nparticularly good right before an Objective phase\nor in the late game."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Guide updated for the latest Patch.\n18 Apr. 2025: Guide reviewed.\n04 Feb. 2025: Guide reviewed.\n19 Aug. 2024: Guide reviewed.\n11 Feb. 2024: Explanation for Heroic Abilities improved.\n03 Feb. 2022: Guide reviewed for the latest Balance Update.\n10 Sep. 2021: New layout.\n20 May 2021: Builds updated.\n15 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Feast on Fear (Level 1) Diablo Stunning an enemy Hero with Shadow Charge or Overpower heals Diablo for 10% of his maximum Health over 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Devil's Due (Level 1) Diablo Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2.25% per Soul."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Soul Shield (Level 1) Diablo Cooldown: 45 seconds Activate to gain 25 plus 50% of Diablo's current Souls as Spell Armor for 4 seconds. Every time Diablo damages an enemy Hero, reduce this cooldown by 1 second."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Sacrificial Soul (Level 4) Diablo Stunning a Hero with Shadow Charge grants 10 Souls and 20 Armor for 3 seconds. While at 100 Souls, increase this Armor to 40."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Souls to the Flame (Level 4) Diablo Fire Stomp grants 1 Soul every 3 times it damages an enemy Hero, and heals for an additional 1.3% of its damage dealt per Soul."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Life Leech (Level 4) Diablo Diablo gains 1 Soul and heals for 1.75% of his maximum Health when Basic Attacking an enemy Hero. While at 100 Souls, increase this healing to 3.5% of his maximum Health."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Eternal Flames (Level 7) Diablo Reduce the cooldown of Fire Stomp by 1 second. When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp and restore 45 Mana."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Malevolence (Level 7) Diablo Basic Abilities cause Diablo's next Basic Attack within 6 seconds to deal an additional 100 (+4% per level) Spell Damage. Stores up to 2 charges."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Diabolical Momentum (Level 7) Diablo When Diablo's Basic Attacks damage enemies, reduce the cooldown of Shadow Charge and Overpower by 2 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Apocalypse (Level 10) Diablo Mana: 50 Cooldown: 90 seconds Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Lightning Breath (Level 10) Diablo Mana: 80 Cooldown: 90 seconds After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%. Lightning Breath's direction changes with your mouse cursor position."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Devastating Charge (Level 13) Diablo Increase Shadow Charge's terrain collision damage by 50%. Quest: Hit an enemy Hero against terrain 5 times. Reward: Hitting enemy Heroes against terrain reduces their Armor by 20 for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Hellfire (Level 13) Diablo Each enemy Hero hit by Fire Stomp grants 3% Spell Power for 10 seconds, up to 30%. While at maximum stacks, Diablo deals 33 (+4% per level) damage per second to nearby enemies."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Cruelty (Level 13) Diablo Stunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 7 seconds, up to 100%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Domination (Level 16) Diablo Casting Overpower resets the cooldown of Shadow Charge."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Debilitating Flames (Level 16) Diablo Enemy Heroes hit by Fire Stomp are Slowed by 6% for 4 seconds, up to 60%. Heroes Slowed by 24% or more by Debilitating Flames deal 50% less damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Overpowering Nightmare (Level 16) Diablo Gain 2 additional charges of Overpower, with a 2 second cooldown between uses."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Dying Breath (Level 20) Diablo Apocalypse's cooldown is reduced by 30 seconds for every enemy Hero hit (to a minimum of 5 seconds) and is cast for free when Diablo dies."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Hellstorm (Level 20) Diablo Lightning Breath lasts 200% longer."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Lord of Terror (Level 20) Diablo Cooldown: 60 seconds Activate to steal 12% of the maximum Health of nearby enemy Heroes and gain 5 Souls per Hero hit."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Hellgate (Level 20) Diablo Cooldown: 100 seconds Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Diablo's Talent Build",
+   "id": "diablos-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n?\n✓\n?\n7\n✓\n?\n?\n10\n?\n✓\n13\n?\n✓\n?\n16\n?\n✓\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Diablo's Talent Build Cheatsheet",
+   "id": "diablos-talent-build-cheatsheet",
+   "text": "Fire Stomp Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's Fire Stomp Build boosts your survivability and damage output\nwhen hitting enemy Heroes with Fire Stomp.\nRemember to alternate it with other Basic Abilities to get more value\nfrom Eternal Flames at Level 7.\nWhile you can play this Build in most games,\nthe self-healing provided by Fire Stomp\nempowered by various Talents makes this Build particularly useful\nwhen playing against Heroes who counter you (for example Tychus)\nand therefore force you to not play aggressively.\nShadow Charge Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's Shadow Charge Build provides superior burst damage and\ncrowd control on closed Maps where one can reliably slam\nopponents against impassable terrain\n(notably Infernal Shrines).\nYou should constantly look for good angles for Shadow Charge\nbecause you have various Talents depending on your target being Stunned\nwith it. Ideally, you should go for squishy enemy Heroes,\nbut any target is fine when they are out of position and/or have no defensive tools.\nSacrificial Soul at Level 4 helps to get Souls back but,\nto benefit from it, you have to fully commit to Stun enemy Heroes\nwith Shadow Charge. Malevolence at Level 7\nincreases your burst damage when doing so.\nBasic Attacks Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's Basic Attacks Build provides superior self-sustain and\nfair single-target damage potential. As a key Talent, Diabolical Momentum\nallows Feast on Fear to trigger often through repeated Ability casts\nfor significantly increased combat survivability, especially once you get Cruelty.\nYou can get the most out of this Build when the enemy team\nhas a low amount of crowd control—including\nBlinds—at their disposal as you will be generally\nfree to hit your target and heal up via Life Leech at Level 4.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDiablo's ARAM Build boosts your survivability and damage output\nwhen hitting enemy Heroes with Fire Stomp.\nRemember to alternate it with other Basic Abilities to get more value\nfrom Eternal Flames at Level 7."
+  },
+  {
+   "title": "Level 1 Talents for Diablo",
+   "id": "level-1",
+   "text": "?\nFeast on Fear\n(Level 1)\nDiablo\nStunning an enemy Hero with Shadow Charge or Overpower heals Diablo for 10% of his maximum Health over 3 seconds.\nFeast on Fear is a good Talent that\nprovides direct combat self sustain.\nIt should be noted that Feast on Fear does not stack, meaning that multiple\napplications will merely refresh the effect's duration. As such, it may be worth\ntrying to use Shadow Charge and Overpower with a\nfew seconds of spacing, although never at the expense of setting up\nkills.\nYou can get more value from this Talent by combining it with\nDiabolical Momentum at Level 7\nand/or Domination at Level 16.\n?\nDevil's Due\n(Level 1)\nDiablo\nBlack Soulstone increases the effects of Regen Globes and Healing Fountains by 2.25% per Soul.\nDevil's Due is a strong Talent that\nincreases your survivability and self sustain through\ntwo secondary sources of healing, Regeneration Globes and Healing Fountains.\nAssuming 100 Souls and Devil's Due, a Regeneration Globe will\nprovide Diablo with 36% of his maximum Health, whereas Healing Fountains will\nprovide him with 120%. This healing can and should be used as a way of\ntrading, as there are only few Heroes who can burn through such healing.\n✔\nSoul Shield\n(Level 1)\nDiablo\nCooldown: 45 seconds\nActivate to gain 25 plus 50% of Diablo's current Souls as Spell Armor for 4 seconds. Every time Diablo damages an enemy Hero, reduce this cooldown by 1 second.\nSoul Shield is a strong Talent that\nreduces the damage you take from enemy Abilities by increasing your\nSpell Armor, which is a threat in many games.\nIt is worth noting that both Fire Stomp and\nLightning Breath can significantly reduce or outright recharge\nSoul Shield's cooldown if multiple enemy Heroes are hit, making it wise to use\nSoul Shield early on during engagements."
+  },
+  {
+   "title": "Level 4 Talents for Diablo",
+   "id": "level-4",
+   "text": "?\nSacrificial Soul\n(Level 4)\nDiablo\nStunning a Hero with Shadow Charge grants 10 Souls and 20 Armor for 3 seconds. While at 100 Souls, increase this Armor to 40.\nSacrificial Soul provides a significant amount of Armor if there\nare enough opportunities to trigger Shadow Charge's\ncollision-based Stun. As such, this Talent is recommended on wall-heavy\nMaps such as Battlefield of Eternity, Cursed Hollow, Dragon Shire, Garden of\nTerror, Infernal Shrines, Towers of Doom, and Volskaya Foundry. It works\nparticularly well with Domination at Level 16.\n✔\nSouls to the Flame\n(Level 4)\nDiablo\nFire Stomp grants 1 Soul every 3 times it damages an enemy Hero, and heals for an additional 1.3% of its damage dealt per Soul.\nSouls to the Flame is a reliable way of improving\nyour self sustain. It\nworks particularly well with Eternal Flames at Level 7. Further, it is the\nmost effective choice for generating Black Soulstone stacks.\n?\nLife Leech\n(Level 4)\nDiablo\nDiablo gains 1 Soul and heals for 1.75% of his maximum Health when Basic Attacking an enemy Hero. While at 100 Souls, increase this healing to 3.5% of his maximum Health.\nLife Leech has the highest potential for self-healing, provided\nyou are able to deliver Basic Attacks. Not recommended against Tychus, who may\npunish you easily. Very powerful otherwise, particularly when combined with\nCruelty."
+  },
+  {
+   "title": "Level 7 Talents for Diablo",
+   "id": "level-7",
+   "text": "✔\nEternal Flames\n(Level 7)\nDiablo\nReduce the cooldown of Fire Stomp by 1 second. When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp and restore 45 Mana.\nEternal Flames is a strong Talent that resets the cooldown\nof Fire Stomp when Stunning\nenemy Heroes with Basic Abilities. The cooldown reset provided\nhas great synergy with all Fire Stomp-related Talents:\nSoul Shield at Level 1, Souls to the Flame at Level 4,\nHellfire at Level 13, and Debilitating Flames at Level 16.\n?\nMalevolence\n(Level 7)\nDiablo\nBasic Abilities cause Diablo's next Basic Attack within 6 seconds to deal an additional 100 (+4% per level) Spell Damage. Stores up to 2 charges.\nMalevolence is a good Talent that increases\nyour burst damage when using Basic Abilities.\nThe damage provided by this Talent can be easily amplified\nthanks to the Armor reduction provided by\nDevastating Charge at Level 13 and\ntriggered more often with Domination\nor even Overpowering Nightmare at Level 16.\n?\nDiabolical Momentum\n(Level 7)\nDiablo\nWhen Diablo's Basic Attacks damage enemies, reduce the cooldown of Shadow Charge and Overpower by 2 seconds.\nDiabolical Momentum is a good Talent which reduces\nthe cooldown of your Basic Abilities when hitting enemy Heroes with Basic Attacks.\nThe cooldown reduction provided has synergy with Feast on Fear\nat Level 1 and Cruelty at Level 13 as they can give you more\nself-sustain and more crowd control respectively."
+  },
+  {
+   "title": "Level 10 Talents for Diablo",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nApocalypse\n(Level 10)\nDiablo\nMana: 50\nCooldown: 90 seconds\nCreate a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.\nApocalypse is a good Heroic Ability\nthat can be used to Stun one or more enemy Heroes.\nSince it has a delay, you should use it in combination with other\ncrowd control effects (for example\nDragon's Arrow by Hanzo).\nThe single-target combo (explained in the Abilities page) is unreliable\nwhen playing against Heroes who can stop the animation of Shadow Charge\nand/or Overpower (for example Raynor\nwith Penetrating Round) because you will not be able\nto lock the desired enemy Hero in place while Apocalypse goes off.\nCleanse effects are also good against it.\nThe multiple target combo (explained in the Abilities page) can be countered\nwith Abilities that can remove\nthe Apocalypse's Stun\nor the crowd control that is being used as a\nsetup from multiple Heroes at the same time\n(for example Soothing Mist by Brightwing).\nBe aware that Apocalypse's runes do not spawn below Heroes removed\nfrom the battlefield by Stasis effects that affect enemy Heroes\n(for example Devouring Maw by Zagara).\n✔\nLightning Breath\n(Level 10)\nDiablo\nMana: 80\nCooldown: 90 seconds\nAfter 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%.\nLightning Breath's direction changes with your mouse cursor position.\nLightning Breath is a strong Heroic Ability\nas it deals a huge amount of damage to enemy Heroes hit.\nWhen combined with Hellfire at Level 13,\nit deals even more damage thanks to the Spell Power provided.\nIf your team has Heroes who deal more damage to Slowed\nenemy Heroes, you can use Lightning Breath\nin combination with them (for example Fenix\nwith Purification Salvo).\nIf the enemy team has Heroes who can Time Stop you\n(notably Containment Disc by Maiev), you should\navoid picking Lightning Breath because\nthey can freeze you while you are channeling it\nand move away from its area, taking little to no damage from it."
+  },
+  {
+   "title": "Level 13 Talents for Diablo",
+   "id": "level-13",
+   "text": "?\nDevastating Charge\n(Level 13)\nDiablo\nIncrease Shadow Charge's terrain collision damage by 50%.\nQuest: Hit an enemy Hero against terrain 5 times.\nReward: Hitting enemy Heroes against terrain reduces their Armor by 20 for 4 seconds.\nDevastating Charge can provide a powerful Armor-reduction\neffect when it matters most: right after a successful initiation with\nShadow Charge. As such, this Talent is specifically recommended on wall-heavy\nMaps such as Battlefield of Eternity, Cursed Hollow, Dragon Shire, Garden of\nTerror, Infernal Shrines, Towers of Doom, and Volskaya Foundry, although it\nremains powerful on other Maps. It works particularly well with Domination.\n✔\nHellfire\n(Level 13)\nDiablo\nEach enemy Hero hit by Fire Stomp grants 3% Spell Power for 10 seconds, up to 30%. While at maximum stacks, Diablo deals 33 (+4% per level) damage per second to nearby enemies.\nHellfire has the highest damage output potential at this Tier\nwhen combined with Eternal Flames at Level 7\nand Lightning Breath.\n?\nCruelty\n(Level 13)\nDiablo\nStunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 7 seconds, up to 100%.\nCruelty, on its own, is underwhelming. Its true power comes online, however,\nwhen combined with other Talents that benefit from Basic Attacks, notably\nDiabolical Momentum; the Attack Speed increase translates into\nadditional Abilities for significantly increased damage output and\ncrowd control."
+  },
+  {
+   "title": "Level 16 Talents for Diablo",
+   "id": "level-16",
+   "text": "?\nDomination\n(Level 16)\nDiablo\nCasting Overpower resets the cooldown of Shadow Charge.\nDomination is a game-changing Talent for Diablo. The ability to completely\nreset the cooldown of Shadow Charge allows you to follow\nany Overpower\ncast with another Shadow Charge. This is particularly potent when used to drag\nopponents right back to your teammates or to drive them into a wall for a Stun\nafter using Shadow Charge to close the distance. It works particularly well with\nSacrificial Soul and Devastating Charge.\n✔\nDebilitating Flames\n(Level 16)\nDiablo\nEnemy Heroes hit by Fire Stomp are Slowed by 6% for 4 seconds, up to 60%. Heroes Slowed by 24% or more by Debilitating Flames deal 50% less damage.\nDebilitating Flames provides Diablo with some team-wide defensive utility by\nallowing you to significantly cripple the damage output and mobility of Heroes\nwho lack ways of reliably avoiding Fire Stomp. Debilitating Flames is recommended\nagainst team compositions that feature three or more melee Heroes, as they\ntend to be much easier to hit with Fire Stomp.\n?\nOverpowering Nightmare\n(Level 16)\nDiablo\nGain 2 additional charges of Overpower, with a 2 second cooldown between uses.\nOverpowering Nightmare provides Diablo with a disruptive and reliable way to\npeel and stick to any given target. Outstanding synergy with\nMalevolence and Feast on Fear for\nmore self sustain\nthan Domination, but less engagement potential."
+  },
+  {
+   "title": "Level 20 Talents for Diablo",
+   "id": "level-20",
+   "text": "?\nDying Breath\n(Level 20)\nDiablo\nApocalypse's cooldown is reduced by 30 seconds for every enemy Hero hit (to a minimum of 5 seconds) and is cast for free when Diablo dies.\nDying Breath provides a respectable cooldown\nreduction to Apocalypse,\nas well as a nasty surprise upon dying. The Talent is, however, overshadowed by\nother options. You may need this Talent when your team features a combo\nof Heroic Abilities among which Apocalypse has the highest cooldown.\n?\nHellstorm\n(Level 20)\nDiablo\nLightning Breath lasts 200% longer.\nHellstorm allows Diablo to output an extreme amount of damage over\na large area. One added benefit of this Talent is the duration increase—equal\nto an impressive 8 seconds—it provides is also applied to\nLightning Breath's crowd control immunity clause,\nmaking it excellent against team compositions that feature a good amount of it.\nHellstorm allows you to punish team compositions that lack mobility. For this\nreason, Hellstorm is an outstanding tool for contesting Bosses.\n?\nLord of Terror\n(Level 20)\nDiablo\nCooldown: 60 seconds\nActivate to steal 12% of the maximum Health of nearby enemy Heroes and gain 5 Souls per Hero hit.\nLord of Terror is a good defensive Talent against team compositions\nthat feature at least two Heroes with high maximum Health or with high Armor,\ngiven the nature of percentage-based damage and healing. We find this Talent\nalso useful for quickly heal up while surrounded by enemy Heroes or for finishing off\nopponents that are on the brink of death in a pinch, as it is often unexpected.\n✔\nHellgate\n(Level 20)\nDiablo\nCooldown: 100 seconds\nTeleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.\nHellgate is a strong versatile Talent that can be used\nto escape or to engage. When teleporting with it,\nDiablo spawns a rune that works exactly like Apocalypse,\ndealing damage and Stunning enemies hit for 1.75 seconds.\nTeleporting away, especially in the late game,\ncan easily make the difference between winning and losing the game as\nDiablo may not always have enough Souls to instantly respawn with\nBlack Soulstone. Using it to save Souls is fine too.\nTeleporting in can give you good angles for Shadow Charge\nor enough range for Overpower. You can also use\nimpassable terrain to keep the target enemy\nHero inside the rune with the help of Shadow Charge."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jul. 2026: Guide updated for the latest Patch.\n18 Apr. 2025: Guide reviewed.\n04 Feb. 2025: Guide reviewed.\n19 Aug. 2024: Guide reviewed.\n11 Feb. 2024: Explanation for Heroic Abilities improved.\n17 Dec. 2023: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n15 Sep. 2023: Guide reviewed.\n03 Feb. 2022: Guide reviewed for the latest Balance Update.\n03 Nov. 2021: Builds updated.\n10 Sep. 2021: New layout.\n20 May 2021: Builds updated.\n22 Nov. 2020: Q build re-added to recommended builds.\n30 Aug. 2020: Talent builds and recommendations updated to better reflect metagame state.\n05 Apr. 2020: Descriptions reviewed for Soul Armor and Devastating Charge.\n15 Oct. 2019: Talent builds and recommendations reviewed and updated.\n05 Jun. 2018: Talents updated to better reflect metagame state.\n22 May 2018: Talents updated to account for the Diablo rework patch.\n14 Jan. 2018: Updated Heroic Talent assessments. Updated Shadow build.\n26 Jun. 2017: Updated the Shadow Charge build.\nShow more\nShow less"
+  }
+ ]
+}

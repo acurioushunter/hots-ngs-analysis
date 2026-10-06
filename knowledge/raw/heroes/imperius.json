@@ -1,0 +1,270 @@
+{
+ "slug": "imperius",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/imperius-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/imperius-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/imperius-talents"
+ },
+ "guide": [
+  {
+   "title": "Imperius's Overview",
+   "id": "imperiuss-overview",
+   "text": "Imperius is a durable Bruiser with extraordinary\nburst damage potential in close combat and a kit that\nprovides his team powerful crowd control Abilities\nbut lacks waveclear."
+  },
+  {
+   "title": "Imperius's Strengths and Weaknesses",
+   "id": "imperiuss-strengths-and-weaknesses",
+   "text": "Strengths\nOutstanding self-healing\nStrong burst damage\nDecent in lane\nGood late game\nCan be played as a Melee Assassin or an Offlaner\nGreat follow up for crowd controls\nWeaknesses\nDependent on hitting Celestial Charge\nLimited mobility\nHas no peeling mechanics until Level 20\nCan be kited easily by enemies with high range\nMediocre waveclear\nWeak against knockbacks, Roots, and Slows"
+  },
+  {
+   "title": "Imperius's Talent Build Cheatsheet",
+   "id": "imperiuss-talent-build-cheatsheet",
+   "text": "Celestial Charge Build\nRecommended\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's Celestial Charge Build is designed to increase your\ndamage output and your durability in team fights, but also\nfeatures a damage reduction effect that can be used to increase\nyour own survivability and the survivability of allied Heroes\nin the late game.\nPathetic Mortals at Level 13 allows you\nto reduce the damage done by enemy Heroes. Impaling Light\nat Level 1 lets you use it more often, unless you decided to pick\nBurn the Impure at Level 1 in order to deal\nmore percent-based damage.\nDue to its lack of waveclear, you should not choose\nthis Build when playing Imperius as Offlaner\nbut only consider using it when playing Imperius in the 4-man.\nHybrid Build\nAdvanced\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's Hybrid Build is designed to increase your\ndamage output in team fights by empowering\nCelestial Charge, survivability against\nburst damage, and damage contribution\nduring team fights in the late game\nby reducing the Armor of enemy Heroes.\nMelting Touch at Level 16 allows you\nto reduce the Armor of enemy Heroes,\nso that you and your teammates can burst them down.\nDivine Rage at Level 13 lets you use it more often.\nDue to its lack of waveclear, you should not choose\nthis Build when playing Imperius as Offlaner\nbut only consider using it when playing Imperius in the 4-man.\nMolten Armor Build\nSituational\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's Molten Armor Build improves your waveclear\nin the early game, survivability against\nburst damage, and damage contribution\nduring team fights in the late game\nby reducing the Armor of enemy Heroes.\nMelting Touch at Level 16 allows you\nto reduce the Armor of enemy Heroes,\nso that you and your teammates can burst them down.\nDivine Rage at Level 13 lets you use it more often.\nThe additional waveclear\ncomes from Consuming Flame at Level 1\nand particularly Holy Fervor at Level 7.\nDue to its limited amount, however, you will not be able to\ndouble soak.\nWhen playing Imperius as Offlaner,\nyou should pick Consuming Flame at Level 1.\nWhen playing Imperius in the 4-man, you should pick\nBurn the Impure at Level 1 instead.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's ARAM Build is designed to increase your\ndamage output and your durability in team fights, but also\nfeatures a damage reduction effect that can be used to increase\nyour own survivability and the survivability of allied Heroes\nin the late game.\nPathetic Mortals at Level 13 allows you\nto reduce the damage done by enemy Heroes. Impaling Light\nat Level 1 lets you use it more often, unless you decided to pick\nBurn the Impure at Level 1 in order to deal\nmore percent-based damage.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Imperius's Synergies and Counters",
+   "id": "imperiuss-synergies-and-counters",
+   "text": "Imperius synergizes with\nImperius's mobility is one of his greatest weaknesses, consequently, he pairs\nextremely well with Heroes like Jaina or Fenix that can slow\nenemies, so Imperius can catch them up with Celestial Charge.\nOn the other hand, Heroes like Mal'Ganis or E.T.C. that can keep enemies\nin place are even better, because Imperius is very dependent on hitting his Charge,\nand a sleeping or stunned enemy is a guaranteed hit. Furthermore, as a tank,\nImperius requires another resistant Hero in the frontline that can compensate\nfor his lack of peel, like Yrel or Blaze.\nImperius is countered by\nImperius has limited mobility, and can be easily punished by ranged Heroes if\nhe cannot hit Celestial Charge. For this reason, slows\nand knockbacks are very good against him, since they\ngreatly facilitate the kiting against Imperius and can be used\nto interrupt Celestial Charge."
+  },
+  {
+   "title": "Imperius's Maps",
+   "id": "imperiuss-maps",
+   "text": "Imperius's stronger maps\nImperius's average maps\nImperius's weaker maps\nImperius falls slightly behind other Offlaners when it\ncomes to waveclear and capturing Mercenary Camps,\nhowever, he excels in team fights due to his high damage and sustain.\nFor those reasons, Imperius performs better on Maps where it is not possible to\ndouble soak and there are not too many Mercenary Camps."
+  },
+  {
+   "title": "Imperius's Tips and Tricks",
+   "id": "imperiuss-tips-and-tricks",
+   "text": "The closer your target is from you, the easier it is to hit Celestial Charge. If you aim Celestial charge very close to Imperius, it will hit enemies much sooner, because there will be no time spent moving towards the enemy.\nIn combat, use Solarion's Fire right before Celestial Charge or Wrath of the Angiris. In lane, use Solarion's Fire when the enemy Minions are lined up in a straight line.\nMolten Armor can be activated while Imperius is impaling enemies with Celestial Charge, ideally on isolated enemy Heroes to maximize his damage output.\nUse Angelic Armaments to increase your survivability in combat. If the Shield does not get destroyed, reactivate it to launch 6 swords that deal damage to the first enemy hit.\nDue to its cast time, Wrath of the Angiris should ideally be cast as a follow-up to another crowd control effect.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Imperius's Role in the Current Meta",
+   "id": "imperiuss-role-in-the-current-meta",
+   "text": "Imperius is a high-damage melee Bruiser that can be either played\nas Melee Assassin in the 4-man or Offlaner,\ndepending if you build him for damage or waveclear respectively.\nWith access to a variety of self-healing and survivability mechanisms,\nhe is a strong duelist as well as a powerful combatant in team fights.\nDue to his limited waveclear, he does not excel at clearing Minions\nand is not capable to double soak.\nTo get the most out of his kit, you should draft Imperius with Heroes who can\nengage for him and against Heroes who cannot easily\ninterrupt Celestial Charge,\notherwise its Stun ends pre-emptively."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 Aug. 2025 (this page): Maps updated.\n31 Jul. 2025 (talents page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n31 Jul. 2025 (this page): Guide reviewed for the latest Balance Update.\n26 May 2025 (talents page): Builds reorganized.\n26 May 2025 (this page): Builds reorganized.\n17 May 2025 (talents page): Guide updated for the latest Balance Update.\n17 May 2025 (abilities page): Guide updated for the latest Balance Update.\n17 May 2025 (this page): Guide updated for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n13 Dec. 2024 (talents page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (this page): Guide reviewed for the latest Balance Update.\n16 Oct. 2024 (talents page): Guide reviewed.\n16 Oct. 2024 (this page): Guide reviewed.\n05 Mar. 2024 (talents page): Guide reviewed.\n05 Mar. 2024 (this page): Guide reviewed.\n29 Oct. 2023 (talents page): Guide reviewed.\n29 Oct. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n07 Dec. 2021 (talents page): Guide reviewed for the latest Major Patch.\nHoly Fervor's Description improved.\n07 Dec. 2021 (abilities page): Guide reviewed for the latest Major Patch.\n07 Dec. 2021 (this page): Guide reviewed for the latest Major Patch.\n03 Aug. 2021 (talents page): Builds updated.\n03 Aug. 2021 (this page): Builds updated.\n19 Jun. 2021 (talents page): Guide reviewed for the latest Balance Update.\n19 Jun. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n19 Jun. 2021 (this page): Guide reviewed for the latest Balance Update.\n10 Mar. 2021 (talents page): Builds updated.\n10 Mar. 2021 (this page): Builds updated.\n01 Mar. 2021 (talents page): Minor fixes.\n25 Feb. 2021 (talents page): New layout.\n20 Jan. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (this page): Guide reviewed for the latest Balance Update.\n01 Dec. 2020 (talents page): Guide reviewed for the latest Patch.\n01 Dec. 2020 (abilities page): Guide reviewed for the latest Patch.\n01 Dec. 2020 (this page): Guide reviewed for the latest Patch.\n25 Oct. 2020 (talents page): Builds and Descriptions updated.\n25 Oct. 2020 (this page): Builds updated.\n12 Oct. 2020 (talents page): Guide reviewed for the latest Balance Update.\n12 Oct. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n12 Oct. 2020 (this page): Guide reviewed for the latest Balance Update.\n19 Sep. 2020 (talents page): Builds updated.\n19 Sep. 2020 (this page): Builds updated.\n16 Jul. 2020 (talents page): Updated Talents and Builds to reflect current meta.\n16 Jul. 2020 (this page): Builds updated to reflect current meta.\n19 Jun. 2020 (talents page): Updated Builds and Talents to better reflect current meta.\n19 Jun. 2020 (abilities page): Reviewed and updated the Abilities section.\n19 Jun. 2020 (this page): Guide updated to address Imperius's tank capabilities and Celestial Charge build.\n15 May 2020 (talents page): Updated Builds and Talents to reflect Pathetic Mortals' changes.\n15 May 2020 (this page): Updated guide to better reflect current meta.\n13 Apr. 2020 (talents page): Updated Builds and Talents to better reflect current meta.\n12 Dec. 2019 (this page): Added an entry about the current Anomaly to the guide.\n12 Jul. 2019 (talents page): Updated Talents and Builds in accordance with the latest Balance Update.\n12 Jul. 2019 (abilities page): Updated Imperius's Abilities in accordance with the latest Balance Update.\n10 Jun. 2019 (talents page): Revised the Imperius guide and applied several minor updates.\n28 Jan. 2019 (talents page): Changed Burn the Impure from Situational to Recommended and updated the Build accordingly.\n10 Jan. 2019 (talents page): Changed Sovereign Armor from Situational to Recommended.\n08 Jan. 2019 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Imperius's Tips and Tricks",
+   "id": "imperiuss-tips-and-tricks",
+   "text": "The closer your target is from you, the easier it is to hit Celestial Charge. If you aim Celestial charge very close to Imperius, it will hit enemies much sooner, because there will be no time spent moving towards the enemy.\nIn combat, use Solarion's Fire right before Celestial Charge or Wrath of the Angiris. In lane, use Solarion's Fire when the enemy Minions are lined up in a straight line.\nMolten Armor can be activated while Imperius is impaling enemies with Celestial Charge, ideally on isolated enemy Heroes to maximize his damage output.\nUse Angelic Armaments to increase your survivability in combat. If the Shield does not get destroyed, reactivate it to launch 6 swords that deal damage to the first enemy hit.\nDue to its cast time, Wrath of the Angiris should ideally be cast as a follow-up to another crowd control effect."
+  },
+  {
+   "title": "Celestial Charge",
+   "id": "celestial-charge",
+   "text": "Celestial Charge\n(Q)\nImperius\nMana: 40\nCooldown: 10 seconds\nLunge towards a targeted direction and stab, dealing 35 (+4% per level) damage. If an enemy Hero is hit, Channel to Stun for 1 second and deal 80 (+4% per level) additional damage when it fully finishes.\nCelestial Charge is Imperius's main gap closer, allowing him\nto catch up to fleeing enemy Heroes and impaling them on his spear.\nIt is absolutely mandatory to aim this ability with diligence,\nas its hitbox is relatively small.\nCelestial Charge can be used both offensively and defensively.\nIt can be a great offensive tool to dive for enemy Heroes, locking them down,\nand allowing your allies to finish them off. By the same token, however,\nit can also be used defensively on engaging enemy Warriors or Assassins\nto peel for allies in trouble."
+  },
+  {
+   "title": "Solarion's Fire",
+   "id": "solarions-fire",
+   "text": "Solarion's Fire\n(W)\nImperius\nMana: 50\nCooldown: 8 seconds\nRelease a fiery wave that deals 110 (+4% per level) damage. Enemies hit by the center take 50% bonus damage and are Slowed by 40% for 3 seconds.\nSolarion's Fire provides Imperius with\nmuch needed waveclear, especially in the\nsolo-lane. It can be used against Minion waves or enemy Heroes\nto poke them from a safe distance. Make sure to hit as many enemies as possible\nwith the center of Solarion Fire's projectile to maximize its damage output."
+  },
+  {
+   "title": "Molten Armor",
+   "id": "molten-armor",
+   "text": "Molten Armor\n(E)\nImperius\nMana: 75\nCooldown: 12 seconds\nShroud Imperius in flames for 3 seconds, striking a nearby enemy for 19 (+4% per level) damage every 0.25 seconds. Imperius heals for 50% of the damage dealt, increased to 100% against Heroes. Strikes 2 additional targets if no Heroes are in range, and restores 1 Mana for each strike on expiration.\nMolten Armor is an important self-heal source\nand should be used during team fights to keep Imperius alive for\nas long as possible. When not being surrounded by non-Heroes,\nthis Ability also turns Imperius into one of\nthe strongest duelist in the game due to the fact that\nall of its damage gets focused on the singular target Imperius is dueling.\nYou will also restore some Mana for each enemy hit.\nWhen there are only non-Heroes in the area, this Ability can hit up\nto 2 additional targets, increasing your damage done and Mana restored.\nIf used with Basic Attacks in between to consume\nValorous Brand's marks, Molten Armor will provide an\nincredible amount of healing on Imperius, allowing him to march forward towards\nthe enemy team. The only major downside of this ability, however, is its\nrelatively long cooldown. Furthermore, its healing output is somewhat\nunderwhelming if used only against non-Heroic targets and should thus be\nmainly used against Heroic enemies if possible.\nWhen there are no enemy Heroes in range, you can use Molten Armor\nfor clearing Minions or getting rid of enemy Mercenaries in lane. When doing so,\nin order to maximize damage done and Mana restored, you should always try\nto have 3 non-Heroes in Molten Armor's range.\nIf your Mana is getting low, however, you should not use\nMolten Armor too much."
+  },
+  {
+   "title": "Angelic Armaments",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nAngelic Armaments\n(R)\nImperius\nHeroic\nMana: 70\nCooldown: 70 seconds\nSummon a ring of blazing swords that grants 850 (+4% per level) Shield for 3 seconds.\nIf the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.\nAngelic Armaments can be used in two ways\nto empower Imperius's combat performance during team fights.\nFirstly, it can be used as a so-called panic-button to provide strong self\nprotection during team fights thanks to the massive Shield\nit grants. Combined with the strong self-sustain deriving\nfrom consuming Valorous Brand's marks and\nusing Molten Armor, Angelic Armament's shield\ncan buy enough time for the self-heal to bring back enough\nhealth for Imperius to continue fighting.\nSecondly, it can be used to damage and potentially execute damaged enemy\nHeroes by shooting Angelic Armament's swords towards the target's location.\nFiring the swords follows similar mechanics as\nLi-Ming's\nMagic Missiles, requiring you to aim at the desired\nlocation with all swords launching towards it at once. If aimed properly, this\nHeroic Ability can deal a terrifying amount of damage."
+  },
+  {
+   "title": "Wrath of the Angiris",
+   "id": "wrath-of-the-angiris",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nWrath of the Angiris\n(R)\nImperius\nHeroic\nMana: 80\nCooldown: 80 seconds\nAfter 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.\nAfter 2 seconds, slam the target into the ground, dealing 250 (+4% per level) damage to them, increased by 20% for each Valorous Brand on the target when landing, and Stunning them for 1 second.\nWrath of the Angiris enables Imperius to dash\nto effectively remove one enemy Hero from combat for a short period of time.\nCombined with the re-location upon landing, this can be very impactful\nand allow your team to finish off an enemy Hero with great ease.\nHowever, this Heroic Ability requires precise timing and execution,\nas it comes with a short channeled activation timer. Thus, if used too early or too late,\nWrath of the Angiris can get interrupted by enemy Heroes,\nor miss completely if no enemy Hero is hit.\nUpon landing, the enemy Hero who got caught by Wrath of the Angiris\nwill take some damage, increased by 20% for each Valorous Brand's mark\non them. The duration of Valorous Brand's marks is not paused\nwhile Imperius is in the air, so they could expire before landing, resulting in less damage done."
+  },
+  {
+   "title": "Valorous Brand",
+   "id": "valorous-brand",
+   "text": "Valorous Brand\n(D)\nImperius\nPassive\nCooldown: 25 seconds\nEach Basic Ability marks enemy Heroes hit for 10 seconds. Basic Attacks consume the target's marks, dealing 20% bonus damage per mark and healing for 75 (+4% per level) per mark.\nImperius's Trait provides him with a powerful combination of self-sustain and bonus damage.\nThe important requirement to get maximum value from this Trait is smart timing and positioning to get\nas many Basic Attacks in as possible. Due to the 10-second time window\nthat Valorous Brand's marks\nstay active on enemy Heroes, Imperius can use his abilities to spread the brands on multiple targets,\nenabling him to consecutively deal bonus damage throughout a team fight."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 Jul. 2025: Guide reviewed for the latest Balance Update.\n17 May 2025: Guide updated for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\n19 Jun. 2021: Guide reviewed for the latest Balance Update.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n01 Dec. 2020: Guide reviewed for the latest Patch.\n12 Oct. 2020: Guide reviewed for the latest Balance Update.\n19 Jun. 2020: Reviewed and updated the Abilities section.\n12 Jul. 2019: Updated Imperius's Abilities in accordance with the latest Balance Update.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Impaling Light (Level 1) Imperius Celestial Charge deals 150% more damage to Heroes, reduced by 25% for each additional Hero hit. For each Valorous Brand on the target when Celestial Charge's Stun completes, reduce its cooldown by 1 second. Passive: Reduce Celestial Charge's cooldown by 1.5 seconds, and its Mana cost from 40 to 30."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Consuming Flame (Level 1) Imperius Increase the center damage of Solarion's Fire by an additional 125% and its Slow amount by 15%. The first enemy Hero hit with Solarion's Fire restores 30 Mana."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Burn the Impure (Level 1) Imperius Consuming a Valorous Brand mark deals bonus damage equal to 2.5% of the Hero's maximum Health."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Sovereign Armor (Level 4) Imperius Molten Armor grants 20 Armor for 1.5 seconds. Hitting an enemy Hero with Molten Armor extends the duration of this Armor by 0.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Battle Hunger (Level 4) Imperius Increase the healing of Valorous Brand by 80%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Press Forward (Level 4) Imperius Gain 10 Armor while being healed by a Regeneration Globe. Damaging an enemy Hero sets the duration of an active Regeneration Globe on Imperius to 8 seconds (unless it is already higher)."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Flash of Anger (Level 7) Imperius Consuming a mark from Celestial Charge deals 150 (+4% per level) damage to the target and nearby enemies and grants Imperius a 250 (+4% per level) point Shield for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Blaze of Glory (Level 7) Imperius Solarion's Fire leaves a line of scorched earth along its center that explodes after 1.75 seconds for 212 (+4% per level) damage, dealing bonus damage with Valorous Brand marks."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Holy Fervor (Level 7) Imperius Cooldown: 25 seconds Activate to reset Imperius's Basic Attack cooldown and cause the next 4 Basic Attacks within 10 seconds to cleave for 30% additional damage."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Angelic Armaments (Level 10) Imperius Mana: 70 Cooldown: 70 seconds Summon a ring of blazing swords that grants 850 (+4% per level) Shield for 3 seconds. If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Wrath of the Angiris (Level 10) Imperius Mana: 80 Cooldown: 80 seconds After 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving. After 2 seconds, slam the target into the ground, dealing 250 (+4% per level) damage to them, increased by 20% for each Valorous Brand on the target when landing, and Stunning them for 1 second."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Pathetic Mortals (Level 13) Imperius Stunning enemy Heroes with Celestial Charge reduces their Movement Speed by 25% and their damage by 50% for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Divine Rage (Level 13) Imperius Consuming a Valorous Brand mark reduces the cooldown of Molten Armor by 1 second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Heat of Battle (Level 13) Imperius Increase Molten Armor's healing against Heroes by 2% for every 1% Health Imperius is missing."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Celestial Swiftness (Level 16) Imperius Gain 20% Movement Speed for 5 seconds after casting Celestial Charge. Gain 40% Attack Speed for 5 seconds for each Hero Stunned with Celestial Charge."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Melting Touch (Level 16) Imperius Consuming a Molten Armor mark reduces the target's Armor by 25 for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Valorous Pursuit (Level 16) Imperius Cooldown: 20 seconds Activate to teleport to an enemy that has been marked by Valorous Brand and gain 25 Armor for 3 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Heavenly Host (Level 20) Imperius Shields granted by Angelic Armaments no longer expire, and on initial activation, nearby allied Heroes gain a Shield that absorbs 600 (+4% per level) damage. If a Shield granted to an allied Hero lasts 3 seconds, it fires 1 sword at a nearby enemy, prioritizing closest Heroes, dealing 140 (+4% per level) damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Unrelenting Descent (Level 20) Imperius Descending from the Heavens restores 30% of Imperius' maximum Health and Mana. Consuming a Valorous Brand reduces the cooldown of Wrath of the Angiris by 10 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Molten Wrath (Level 20) Imperius Molten Armor's radius is increased by 25%, and it always strikes 2 additional targets, even if there are Heroes in range."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Brand of Solarion (Level 20) Imperius Reduce the duration of Valorous Brand to 5 seconds, but it is no longer consumed when triggered."
+   },
+   {
+    "slot": 5,
+    "marker": "maybe",
+    "text": "Impervious (Level 20) Imperius Cooldown: 75 seconds Activate to become Unstoppable and gain 75 Spell Armor for 3 seconds. Hitting Heroes with the center of Solarion's Fire reduces this cooldown by 5 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Imperius's Talent Build",
+   "id": "imperiuss-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n✓\n?\n?\n7\n✓\n✘︎\n?\n10\n?\n✓\n13\n✓\n?\n?\n16\n✓\n?\n?\n20\n?\n?\n?\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Imperius's Talent Build Cheatsheet",
+   "id": "imperiuss-talent-build-cheatsheet",
+   "text": "Celestial Charge Build\nRecommended\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's Celestial Charge Build is designed to increase your\ndamage output and your durability in team fights, but also\nfeatures a damage reduction effect that can be used to increase\nyour own survivability and the survivability of allied Heroes\nin the late game.\nPathetic Mortals at Level 13 allows you\nto reduce the damage done by enemy Heroes. Impaling Light\nat Level 1 lets you use it more often, unless you decided to pick\nBurn the Impure at Level 1 in order to deal\nmore percent-based damage.\nDue to its lack of waveclear, you should not choose\nthis Build when playing Imperius as Offlaner\nbut only consider using it when playing Imperius in the 4-man.\nHybrid Build\nAdvanced\nLevel 1\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's Hybrid Build is designed to increase your\ndamage output in team fights by empowering\nCelestial Charge, survivability against\nburst damage, and damage contribution\nduring team fights in the late game\nby reducing the Armor of enemy Heroes.\nMelting Touch at Level 16 allows you\nto reduce the Armor of enemy Heroes,\nso that you and your teammates can burst them down.\nDivine Rage at Level 13 lets you use it more often.\nDue to its lack of waveclear, you should not choose\nthis Build when playing Imperius as Offlaner\nbut only consider using it when playing Imperius in the 4-man.\nMolten Armor Build\nSituational\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's Molten Armor Build improves your waveclear\nin the early game, survivability against\nburst damage, and damage contribution\nduring team fights in the late game\nby reducing the Armor of enemy Heroes.\nMelting Touch at Level 16 allows you\nto reduce the Armor of enemy Heroes,\nso that you and your teammates can burst them down.\nDivine Rage at Level 13 lets you use it more often.\nThe additional waveclear\ncomes from Consuming Flame at Level 1\nand particularly Holy Fervor at Level 7.\nDue to its limited amount, however, you will not be able to\ndouble soak.\nWhen playing Imperius as Offlaner,\nyou should pick Consuming Flame at Level 1.\nWhen playing Imperius in the 4-man, you should pick\nBurn the Impure at Level 1 instead.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\n?\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nImperius's ARAM Build is designed to increase your\ndamage output and your durability in team fights, but also\nfeatures a damage reduction effect that can be used to increase\nyour own survivability and the survivability of allied Heroes\nin the late game.\nPathetic Mortals at Level 13 allows you\nto reduce the damage done by enemy Heroes. Impaling Light\nat Level 1 lets you use it more often, unless you decided to pick\nBurn the Impure at Level 1 in order to deal\nmore percent-based damage."
+  },
+  {
+   "title": "Level 1 Talents for Imperius",
+   "id": "level-1",
+   "text": "✔\nImpaling Light\n(Level 1)\nImperius\nCelestial Charge deals 150% more damage to Heroes, reduced by 25% for each additional Hero hit. For each Valorous Brand on the target when Celestial Charge's Stun completes, reduce its cooldown by 1 second.\nPassive: Reduce Celestial Charge's cooldown by 1.5 seconds, and its Mana cost from 40 to 30.\nImpaling Light is a strong Talent that increases\nthe damage done by Celestial Charge and\nreduces its cooldown. The damage bonus is higher when hitting a single Hero\nand gets reduced for each additional Hero hit. The cooldown reduction\nis lower when hitting a single Hero and gets increased for each\nValorous Brand's mark on enemy Heroes\nwhen the Stun ends.\nIn order to maximize the benefits of this Talent, you should apply\nas many Valorous Brand's marks as possible\non the targets. To do so, hit your target with Solarion's Fire\nbefore using Celestial Charge on them and then use\nMolten Armor while Imperius is leaping forward.\n?\nConsuming Flame\n(Level 1)\nImperius\nIncrease the center damage of Solarion's Fire by an additional 125% and its Slow amount by 15%. The first enemy Hero hit with Solarion's Fire restores 30 Mana.\nConsuming Flame is a strong Talent that increases\nthe damage done and Slow applied by Solarion's Fire,\nwhile also giving some Mana back when hitting any number of enemy Heroes.\nPick this Talent to improve Imperius's waveclear\nwhen playing him as Offlaner,\nelse you will struggle at clearing Minions.\n?\nBurn the Impure\n(Level 1)\nImperius\nConsuming a Valorous Brand mark deals bonus damage equal to 2.5% of the Hero's maximum Health.\nBurn the Impure amplifies Imperius's early game\ndamage output tremendously. The additional percent-based damage works\nparticularly well with Molten Armor if Imperius\nmaintains a consistent Basic Attack sequence after each tick.\nWe find this Talent particularly good when playing against Heroes\nwho have high maximum Health (like Azmodan)\nand/or Armor (such as Deathwing)."
+  },
+  {
+   "title": "Level 4 Talents for Imperius",
+   "id": "level-4",
+   "text": "✔\nSovereign Armor\n(Level 4)\nImperius\nMolten Armor grants 20 Armor for 1.5 seconds. Hitting an enemy Hero with Molten Armor extends the duration of this Armor by 0.5 seconds.\nSovereign Armor is a strong Talent that boosts Imperius's survivability\nfor almost 2 seconds, right after using Molten Armor.\nIt has great synergy with Divine Rage at Level 13, allowing\nImperius to be have the Armor almost constantly.\n?\nBattle Hunger\n(Level 4)\nImperius\nIncrease the healing of Valorous Brand by 80%.\nBattle Hunger is a good Talent when paired with\nHoly Fervor, greatly increasing Imperius's\nself-sustain in fights.\n?\nPress Forward\n(Level 4)\nImperius\nGain 10 Armor while being healed by a Regeneration Globe. Damaging an enemy Hero sets the duration of an active Regeneration Globe on Imperius to 8 seconds (unless it is already higher).\nPress Forward is a very useful Talent during duels\nin the laning phase, but with almost zero value during team fights, where\nRegeneration Globes are rarely found. It can be an optimal choice if you are losing the lane\nin Braxis Holdout or Dragon Shire."
+  },
+  {
+   "title": "Level 7 Talents for Imperius",
+   "id": "level-7",
+   "text": "✔\nFlash of Anger\n(Level 7)\nImperius\nConsuming a mark from Celestial Charge deals 150 (+4% per level) damage to the target and nearby enemies and grants Imperius a 250 (+4% per level) point Shield for 4 seconds.\nFlash of Anger is a strong Talent that\nprovides a Shield and boosts your damage when hitting enemy Heroes\nwith Celestial Charge\nand then consuming the corresponding\nValorous Brand's mark with a Basic Attack.\nAfter picking Brand of Solarion at Level 20,\nFlash of Anger will go off for multiple Basic Attacks,\nfor up to 5 seconds after using Celestial Charge.\nGiven how much damage and healing you can get from Holy Fervor\nthrough the course of a game, we find this Talent lackluster when not combined with\nBrand of Solarion at Level 20.\n✘\nBlaze of Glory\n(Level 7)\nImperius\nSolarion's Fire leaves a line of scorched earth along its center that explodes after 1.75 seconds for 212 (+4% per level) damage, dealing bonus damage with Valorous Brand marks.\nBlaze of Glory is a weak Talent that\nincreases the damage done by Solarion's Fire with a short delay,\nby leaving a fire trail on the ground that explodes shortly after.\nThe damage dealt by this Talent can be increased by hitting its target\nwith other Basic Abilities first, to mark them with Valorous Brand.\nWe do not recommend this Talent because it does not provide\nenough value compared to the other options in the same Tier.\n?\nHoly Fervor\n(Level 7)\nImperius\nCooldown: 25 seconds\nActivate to reset Imperius's Basic Attack cooldown and cause the next 4 Basic Attacks within 10 seconds to cleave for 30% additional damage.\nHoly Fervor is a situational Talent that empowers your Basic Attacks,\ncausing them to deal 130% damage on the main target and cleave for the exact same amount.\nYou can manually activate this Talent to reset your Basic Attacks' cooldown\nand buff your next 4 Basic Attacks within 10 seconds.\nThe 25-second cooldown of the active component—which\nstarts after the first empowered Basic Attack gets used—allows\nyou to easily take care of Minions as they spawn once every 30 seconds.\nKeep in mind that the Holy Fervor counter\nin the bottom-left corner will not show until you use a charge\nbecause that is when their expiration time starts."
+  },
+  {
+   "title": "Level 10 Talents for Imperius",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n?\nAngelic Armaments\n(Level 10)\nImperius\nMana: 70\nCooldown: 70 seconds\nSummon a ring of blazing swords that grants 850 (+4% per level) Shield for 3 seconds.\nIf the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.\nAngelic Armaments is a good Heroic Ability\nwhich comes with everything an\naggressive Bruiser like Imperius needs:\nits massive Shield prevents enemies from bursting him down while the\ndamage from reactivation can help you securing kills,\nmaking him an even scarier foe to face.\nIf you are a beginner on Imperius, prefer picking this Heroic Ability.\nAngelic Armaments is easy to get value from\nbecause it provides a nice Shield which boosts your survivability\neven if you cannot make good use of the reactivation component.\n✔\nWrath of the Angiris\n(Level 10)\nImperius\nMana: 80\nCooldown: 80 seconds\nAfter 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.\nAfter 2 seconds, slam the target into the ground, dealing 250 (+4% per level) damage to them, increased by 20% for each Valorous Brand on the target when landing, and Stunning them for 1 second.\nWrath of the Angiris is a strong Heroic Ability\nwhich can be used to crowd control enemy Heroes\nwho are relatively easy to hit with skillshots.\nYou may need it for countering specific enemy Abilities\n(such as Phase Shift by Brightwing)\nand/or to provide additional crowd control effects to your team.\nSince it provides Unstoppable as you\ncharge forward, you could also use it for countering\ndelayed crowd control effects (notably\nTemporal Loop by Chromie).\nIf you are a beginner on Imperius, avoid picking this Heroic Ability.\nWrath of the Angiris is easy to dodge\ndue to having a cast time of 0.75 seconds, making it a high-risk\nhigh-reward Heroic Ability if not used as a follow-up\nto allied crowd control."
+  },
+  {
+   "title": "Level 13 Talents for Imperius",
+   "id": "level-13",
+   "text": "✔\nPathetic Mortals\n(Level 13)\nImperius\nStunning enemy Heroes with Celestial Charge reduces their Movement Speed by 25% and their damage by 50% for 4 seconds.\nPathetic Mortals is a situational Talent\nthat drastically reduces the damage done by enemy Heroes hit\nwith Celestial Charge for multiple seconds\nwhile also Slowing them for a moderate amount.\nThe damage reduction effect is great to shut down enemy Heroes\nwho deal a lot of damage, regardless of their Role.\nThe small Slow provided is nice to have because\nit can help you land a few more Basic Attacks on retreating enemy Heroes.\n?\nDivine Rage\n(Level 13)\nImperius\nConsuming a Valorous Brand mark reduces the cooldown of Molten Armor by 1 second.\nDivine Rage is a good Talent that significantly lowers\nMolten Armor's cooldown, which greatly increases\nImperius's survivability. Furthermore, it possesses great synergy with both\nSovereign Armor at Level 4 and\nMelting Touch at Level 16.\n?\nHeat of Battle\n(Level 13)\nImperius\nIncrease Molten Armor's healing against Heroes by 2% for every 1% Health Imperius is missing.\nHeat of Battle is a situational Talent that comes with stronger healing the lower\nImperius's Health is. You may need this Talent when playing against Heroes\nwho can inflict a good amount of percent-based damage\n(for example Tychus with Minigun).\nYou can greatly increase the amount healing received from this Talent\nby going for Molten Wrath at Level 20."
+  },
+  {
+   "title": "Level 16 Talents for Imperius",
+   "id": "level-16",
+   "text": "✔\nCelestial Swiftness\n(Level 16)\nImperius\nGain 20% Movement Speed for 5 seconds after casting Celestial Charge. Gain 40% Attack Speed for 5 seconds for each Hero Stunned with Celestial Charge.\nCelestial Swiftness increases Imperius's Attack and\nMovement Speed after Stunning foes using\nCelestial Charge. This Talent can be good when paired\nwith Brand of Solarion and Flash of Anger.\nHowever, it is very dependent on hitting your Celestial Charge, so go for this\nif you are very confident in doing that.\n?\nMelting Touch\n(Level 16)\nImperius\nConsuming a Molten Armor mark reduces the target's Armor by 25 for 4 seconds.\nMelting Touch is a strong Talent\nwhich allows Imperius to consistently\nlower the Armor of nearby enemy Heroes,\nincreasing everyone's damage done to them.\nHoly Fervor at Level 7 allows you\nto reduce the Armor of multiple enemy Heroes at the same time,\nif they happen to be within Molten Armor's range.\nIf you pick this Talent together with Divine Rage\nat Level 13, you will be able to reduce the Armor\nof enemy Heroes more often thanks to the cooldown reduction it provides.\n?\nValorous Pursuit\n(Level 16)\nImperius\nCooldown: 20 seconds\nActivate to teleport to an enemy that has been marked by Valorous Brand and gain 25 Armor for 3 seconds.\nValorous Pursuit is a strong Talent that can be activated\nto teleport near an enemy Hero marked with Valorous Brand.\nAfter teleporting, you will also gain some Armor\nthat will increase your survivability for a few seconds.\nWhen you have Wrath of the Angiris as your Heroic Ability,\nyou can use Solarion's Fire to mark an enemy Hero from the\ndistance, teleport on top of them with Valorous Pursuit,\nand then cast Wrath of the Angiris towards them.\nConsidering that Imperius lacks mobility, you may occasionally\nwant this Talent as a counter to kite, so that you can stick\non the target you want to kill even after they use something to keep you away."
+  },
+  {
+   "title": "Level 20 Talents for Imperius",
+   "id": "level-20",
+   "text": "?\nHeavenly Host\n(Level 20)\nImperius\nShields granted by Angelic Armaments no longer expire, and on initial activation, nearby allied Heroes gain a Shield that absorbs 600 (+4% per level) damage.\nIf a Shield granted to an allied Hero lasts 3 seconds, it fires 1 sword at a nearby enemy, prioritizing closest Heroes, dealing 140 (+4% per level) damage.\nHeavenly Host is a good Talent which\nputs a powerful Shield on nearby Heroes, in addition to the one\nthat Imperius gets, and makes those Shields not expire. After 3 seconds,\neach Shield that is still up will deal damage to the nearest enemy,\nprioritizing Heroes.\nWe find this Talent\nuseful for keeping your most vulnerable allied Heroes\n(for example Valla) alive.\n?\nUnrelenting Descent\n(Level 20)\nImperius\nDescending from the Heavens restores 30% of Imperius' maximum Health and Mana. Consuming a Valorous Brand reduces the cooldown of Wrath of the Angiris by 10 seconds.\nUnrelenting Descent is a good Talent\nwhich restores a good chunk of Health and Mana\nwhen hitting enemy Heroes with Wrath of the Angiris.\nIn addition to that, consuming a Valorous Brand\nwill reduce its cooldown by 10 seconds.\nAssuming you do not get bursted down\nby the enemy team, the cooldown reduction provided\nwill usually allow you to halve the cooldown of Wrath of the Angiris.\nIf you picked Wrath of the Angiris\nover Angelic Armaments at Level 10,\nthen you should heavily prefer upgrading your Heroic Ability.\n?\nMolten Wrath\n(Level 20)\nImperius\nMolten Armor's radius is increased by 25%, and it always strikes 2 additional targets, even if there are Heroes in range.\nMolten Wrath is a decent Talent that increases the\narea covered by Molten Armor makes it hit 2 additional\ntargets even when enemy Heroes are in range, meaning that you\ncan get more value from it in combat.\nThe ability to hit 2 additional enemy Heroes will further extend the\nArmor buff from Sovereign Armor at Level 4\nand, more importantly, will greatly increase the amount of self-healing\ncoming from Heat of Battle at Level 13.\n✔\nBrand of Solarion\n(Level 20)\nImperius\nReduce the duration of Valorous Brand to 5 seconds, but it is no longer consumed when triggered.\nBrand of Solarion is a strong Talent that heavily\nincreases Imperius's damage and self-healing by making\nValorous Brand's marks last only 5 seconds\nbut empower Basic Attacks without being consumed.\nThis kind of effect has synergy with Burn the Impure\nat Level 1, to deal more percent-based damage,\nand with Flash of Anger at Level 7, to constantly refresh\nyour Shield over 5 seconds and deal more damage.\n?\nImpervious\n(Level 20)\nImperius\nCooldown: 75 seconds\nActivate to become Unstoppable and gain 75 Spell Armor for 3 seconds. Hitting Heroes with the center of Solarion's Fire reduces this cooldown by 5 seconds.\nImpervious is a strong Talent\nwhich can be activated to give Imperius a huge amount\nof Spell Armor\nand to make him Unstoppable for a few seconds.\nWe find this Talent particularly useful when playing against Heroes\nwho have the potential to burst you down with\ntheir Abilities, especially when they are paired with Heroes who have access\nto crowd control effects."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 Jul. 2025: Guide reviewed for the latest Balance Update.\n26 May 2025: Builds reorganized.\n17 May 2025: Guide updated for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n16 Oct. 2024: Guide reviewed.\n05 Mar. 2024: Guide reviewed.\n29 Oct. 2023: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n07 Dec. 2021: Guide reviewed for the latest Major Patch.\nHoly Fervor's Description improved.\n03 Aug. 2021: Builds updated.\n19 Jun. 2021: Guide reviewed for the latest Balance Update.\n10 Mar. 2021: Builds updated.\n01 Mar. 2021: Minor fixes.\n25 Feb. 2021: New layout.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n01 Dec. 2020: Guide reviewed for the latest Patch.\n25 Oct. 2020: Builds and Descriptions updated.\n12 Oct. 2020: Guide reviewed for the latest Balance Update.\n19 Sep. 2020: Builds updated.\n16 Jul. 2020: Updated Talents and Builds to reflect current meta.\n19 Jun. 2020: Updated Builds and Talents to better reflect current meta.\n15 May 2020: Updated Builds and Talents to reflect Pathetic Mortals' changes.\n13 Apr. 2020: Updated Builds and Talents to better reflect current meta.\n12 Jul. 2019: Updated Talents and Builds in accordance with the latest Balance Update.\n10 Jun. 2019: Revised the Imperius guide and applied several minor updates.\n28 Jan. 2019: Changed Burn the Impure from Situational to Recommended and updated the Build accordingly.\n10 Jan. 2019: Changed Sovereign Armor from Situational to Recommended.\nShow more\nShow less"
+  }
+ ]
+}

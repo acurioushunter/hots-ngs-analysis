@@ -1,0 +1,300 @@
+{
+ "slug": "cho",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/cho-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/cho-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/cho-talents"
+ },
+ "guide": [
+  {
+   "title": "Cho's Overview",
+   "id": "chos-overview",
+   "text": "Cho is half of the entity controlled by two players known as\nCho'gall. The player in charge of Cho has the burden of controlling the entity's\nmovement and Basic Attacks, whereas the second player, in control of Gall, acts\nas a \"turret\" that uses Abilities from Cho's physical position. Cho's strongest\npoints are his area of effect disruption, outstanding resilience, and ability to\nsafely position Gall, whom can deal high levels of sustain damage, right into\nthe midst of combat. Should Cho be killed, Gall will die with him, instantly\nyielding two kills worth of Experience to opponents.\nGiven the highly unusual nature of Cho, we highly recommend that you use\nthis guide along with our guide for Gall,\nso as to get a better understanding of the Hero."
+  },
+  {
+   "title": "Cho's Strengths and Weaknesses",
+   "id": "chos-strengths-and-weaknesses",
+   "text": "Strengths\nGood waveclear\nHumongous Health pool\nOutstanding duelist\nPermanently tied to Gall, an Assassin, making coordination easy\nStrongest late game in Heroes of the Storm\nGood escape with Shove\nProvides vision for his team with Eye of Kilrogg\nWeaknesses\nWeak early game\nRequires a dedicated Healer\nVulnerable to percent-based damage\nEasily countered during drafts\nDeaths are twice as punishing, as they mean losing two Heroes\nOnly allows a team to have 4 Heroes, reducing overall Map presence\nVery reliant on Heroic Abilities to significantly impact team fights"
+  },
+  {
+   "title": "Cho's Talent Build Cheatsheet",
+   "id": "chos-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis standard build provides a balance between sustain and mobility.\nCalloused Hide greatly enhance Cho's teamfighting potential\nand escape capabilities when he is low on health, being a great Talent for surviving\nthrough the early game.\nLike all the Cho and Gall builds, it has great power spikes\nat Level 13 and beyond. At this Level, Twilight Veil is the standard Talent,\nbut Surging Dash is decent against poke compositions,\nwhile Molten Block is good against burst percent-based damage\nthat armor cannot be reduced\n(such as Greymane's Cursed Bullet and\nMalthael's Last Rites).\nBasic Attacks Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nCho's Basic Attacks build is totally focused on constantly delivering Basic\nAttacks against enemy Heroes. Since it has Consuming Fire and\nFirestarter, this build will be incredibly strong if you can\nkeep hitting enemies, but falls behind other options when enemies can punish you\nduring the early game.\nA good point to note is that with this build, you can deal good damage while\ntanking, with either Ogre Hide or Twilight Veil\nto protect yourself.\nSurging Fist Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUppercut adds good percentage damage and insane mobility\nto Cho. Being able to cast Surging Fist again after hitting\n2 targets with it can turn the tides of a fight easily. However, it can be easily canceled\nby any crowd control, greatly reducing this build's effectiveness.\nFor this reason, we recommend going for this Build when enemies do not have many\nways to cancel Surging Fist and if they do, it is better to wait for it to be wasted\nto cast the Ability again.\nSince you do not get Seared Flesh at Level 4, attack speed will\nnot be a great addition at Level 16, so Runed Gauntlet is a better\nchoice at that tier.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Cho's Synergies and Counters",
+   "id": "chos-synergies-and-counters",
+   "text": "Cho synergizes with\nCho'gall's nature makes him thrive when teamed up with a strong Healer,\nparticularly those who possesses great single target healing, like Alexstrasza's\nLife-Binder, Brightwing's Phase Shift,\nor Ana's constant Healing. Furthermore, a good bruiser\nor tank to be with Cho in the frontline\nis a great addition to the composition.\nCho is countered by\nCho'gall's nature makes him particularly vulnerable to most forms of\ncrowd control, strong single-target damage, and percent-based damage sources.\nFortunately, Cho'gall has plenty of Talent choices and maneuvers that allow him to adapt to a variety\nof less-than-ideal situations. However, Anub'arak's Cocoon or\nMaiev's Containment Disc can turn the fight into a 5v3,\nand are a major threat to Cho'gall."
+  },
+  {
+   "title": "Cho's Maps",
+   "id": "chos-maps",
+   "text": "Cho's stronger maps\nCho's average maps\nCho's weaker maps\nSince Cho'gall is completely dependent on late game\nTalents, he excels on maps which will mostly reach Levels 16 and 20. He is extremely\nweak in snowball maps, like Battlefield of Eternity and\nWarhead Junction."
+  },
+  {
+   "title": "Cho's Tips and Tricks",
+   "id": "chos-tips-and-tricks",
+   "text": "Surging Fist can be interrupted; be careful when casting it near opponents with crowd control.\nConsuming Blaze heals for each enemy hit; hit as many as possible with the Ability, and then try and attack an ignited target to gain even more healing.\nRune Bomb's slow travel time makes it much more effective at short range. Be sure to call out your cast for Gall to detonate the bomb.\nUpheaval has a short cast time, and Displaces opponents behind your position; be sure to account for these factors.\nHammer of Twilight is an excellent tool for quickly interrupting opponents.\nOgre Hide should be active whenever you are about to take a significant amount of damage.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Cho's Role in the Current Meta",
+   "id": "chos-role-in-the-current-meta",
+   "text": "Cho, differently from all the other Heroes in the game, occupies 2 slots in a composition,\ngreatly reducing the flexibility in the draft. Even though he is mentioned as a\nTank in the game, he performs better being the only Assassin of a composition.\nDue to how Cho'gall requires a personal Healer, having a fragile damage dealer\nin the composition might be a burden for his teammates. Cho'gall excels with\na resistant frontline, a good resilient Bruiser with\nwaveclear to compensates for his lacking macro play,\nand a personal Healer with good single-target healing, as mentioned in the\nSynergies Section.\nCho'gall has a large Health pool and several defensive Talents, being a unique\nranged Bruiser-like Hero that exploits Gall's damage to safely\npoke several opponents before following up\non the crowd control of teammates or initiating\nwith a double Heroic Ability chain so as to brute-force kills.\nGiven the nature of Cho'gall, communication is extremely important between the\ntwo players that are sharing the Hero, but also, with the remaining members of\nthe team that must deal with the unusual situation of playing with only four\ntotal bodies.\nCho'gall may be the best hero in the game after Level 16 or 20, due to the combination\nof Gall's Dread Orb's Talents. As long as you reach\nthose levels and play the fight carefully without dying early, game will be very\neasy. However, Cho'gall's 2 bodies debility and his dependence on Talents greatly\nreduces his early-game effectiveness. Since the opposing team can get good leads during\nthe beginning of the match, it is better to maximize soak with your team, than to\ncontest the first objectives. A match might become snowbally\nif you die during an objective and lose it due to Cho'gall's nature."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025 (talents page): Guide updated to reflect current meta.\n31 May 2025 (abilities page): Guide updated to reflect current meta.\n31 May 2025 (this page): Guide updated to reflect current meta.\n12 Feb. 2021 (abilities page): Consuming Blaze's discussion updated.\n08 Oct. 2020 (this page): The Guide has been reviewed and is in accordance with the latest patch.\n03 Oct. 2020 (talents page): Builds and Talents updated to reflect current meta.\n03 Oct. 2020 (abilities page): Abilities updated to match Build changes.\n03 Oct. 2020 (this page): Guide updated to reflect current meta.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n15 Feb. 2020 (talents page): Talents and recommendations updated to reflect February 12 patch rework.\n27 Jan. 2020 (talents page): Guide reviewed following January 22 balance patch. No changes to Talent recommendations.\n12 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilities section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n03 Mar. 2019 (talents page): Talents and recommendations updated to reflect February 27 patch rework.\n28 Jul. 2018 (talents page): Talents and recommendations updated to reflect July 25 balance patch changes.\n17 Mar. 2017 (this page): Guide updated for Probius' patch and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Cho's Tips and Tricks",
+   "id": "chos-tips-and-tricks",
+   "text": "Surging Fist can be interrupted; be careful when casting it near opponents with crowd control.\nConsuming Blaze heals for each enemy hit; hit as many as possible with the Ability, and then try and attack an ignited target to gain even more healing.\nRune Bomb's slow travel time makes it much more effective at short range. Be sure to call out your cast for Gall to detonate the bomb.\nUpheaval has a short cast time, and Displaces opponents behind your position; be sure to account for these factors.\nHammer of Twilight is an excellent tool for quickly interrupting opponents.\nOgre Hide should be active whenever you are about to take a significant amount of damage."
+  },
+  {
+   "title": "Surging Fist",
+   "id": "surging-fist",
+   "text": "Surging Fist\n(Q)\nCho\nCooldown: 12 seconds\nActivate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 (+4% per level) damage. The dash range increases by up to 250%, depending on how long it is charged.\nSurging Fist serves as Cho's main initiation and escape Ability.\nGiven these two broadly different functions, in addition to the Ability's\ninterruptible channeling period (for which you must watch out for opposing\ncrowd control) and relatively long Cooldown, very careful examination of the\nsituation at hand must be made before use. Given Gall's many ranged Abilities,\nand though counterintuitive, Surging Fist should mostly be used as a defensive\ntool. It is not to say, however, that it is not useful as a gap-closer; offensively,\nSurging Fist is particularly useful to combo with Hammer of Twilight\nto interrupt channeled abilities or otherwise quickly Knockback opponents\ntowards or away from your teammates or Objectives.\nWithout Uppercut, the Ability should never be used for\nsole damage-dealing purposes,\nas the amount it deals is negligible. Be mindful of your Gall player's attempts\nto use Twisting Nether, since you can use Surging Fist\nto reposition his Heroic Ability."
+  },
+  {
+   "title": "Consuming Blaze",
+   "id": "consuming-blaze",
+   "text": "Consuming Blaze\n(W)\nCho\nCooldown: 12 seconds\nIgnite nearby enemies, dealing 150 (+4% per level) damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 (+4% per level) when an enemy is Ignited.\nConsuming Blaze is Cho's main self sustain Ability.\nSince the healing effect is proportional to how many enemies are ignited, it is\nbetter to use this Ability trying to hit as many enemies as possible. However, most of the healing\ncomes from re-igniting the enemy Hero with Basic Attacks, so make sure to ignite\nthe targets that you will be hitting afterwards. A special mention should be made for one of Gall's seventh level Talent\nchoices, Double Trouble, which benefits greatly from timing\nhis Shadowflame Cooldown with that of Consuming Blaze to\nensure several hits of an empowered Shadowflame."
+  },
+  {
+   "title": "Rune Bomb",
+   "id": "rune-bomb",
+   "text": "Rune Bomb\n(E)\nCho\nCooldown: 8 seconds\nRoll a bomb dealing 91 (+4% per level) damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 210 (+4% per level) damage in an area.\nRune Bomb is, indirectly, Cho's main way of dealing area of effect damage.\nRune Bomb is typically used on-Cooldown, and should be lobbed towards enemy Minions,\nStructures, and Heroes without moderation. To be noted, however, is the fact\nthat Rune Bomb's slow traveling speed makes it prone to be avoided, consciously\nor otherwise, by moving opponents. As such, one must triangulate the likely\nposition of an intended target so that the projectile may actually make proper\ncontact. As with many skillshot Abilities, Rune Bomb is\nmuch more difficult to dodge at a short range."
+  },
+  {
+   "title": "Upheaval",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nUpheaval\n(R)\nCho\nHeroic\nCooldown: 40 seconds\nAfter 1 second, pull enemies towards Cho'gall, Slowing them by 25% for 3 seconds and dealing 175 (+4% per level) damage.\nUpheaval is essentially a glorified version of Kerrigan's Primal Grasp\nthat is best used in combination with other area of effect Heroic Abilities that\ncan synergise with the Displacement effect. Gall's Twisting Nether\nor Shadow Bolt Volley both synergise particularly well with Upheaval.\nLetting your allies know that you intend on picking and using the Ability (and\nwho are your priority targets) will greatly improve your effectiveness, as the\nlarge displacement effect can be just as surprising to your teammates as it can\nbe to your opponents, leading to missed Abilities and frustration. Be sure to\nalso account for Upheaval's 1-second casting time; foes that have been slowed\nor are otherwise disabled are much less likely to dodge the Ability's effects.\nIt is recommended to practice using Upheaval in Try Mode so as to get a good\nfeel for the Ability's peculiar cast time and delay."
+  },
+  {
+   "title": "Hammer of Twilight",
+   "id": "hammer-of-twilight",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nHammer of Twilight\n(R)\nCho\nHeroic\nCooldown: 15 seconds\nActivate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and Stunning them for 0.75 seconds.\nPassive: Cho's Basic Attacks deal 25% increased damage.\nHammer of Twilight pushes Cho's Basic Attack damage per attack to\nAssassin-like levels. Its active effect also sports a uniquely short Cooldown\nfor a Heroic Ability, allowing you to repeatedly disrupt your opponents'\npositioning, and reliably interrupt channeled Abilities or\ndisrupt initiation attempts. Using Surging Fist to get behind an opponent or\notherwise quickly reposition, and then using Hammer of Twilight to push them\ntowards your teammates is one way for Cho to initiate fights for himself."
+  },
+  {
+   "title": "Ogre Hide",
+   "id": "ogre-hide",
+   "text": "Ogre Hide\n(D)\nCho\nPassive\nCho's Armor is increased by 25, but Gall's damage is reduced by 25%.\nGall can activate Ogre Rage to grant himself 25% increased damage, but remove this Armor bonus.\nOgre Hide is Cho's Trait. It provides a significant amount of Armor, and should\nbe activated whenever you are about to take a significant amount of damage. It\nis important to note that while Ogre Hide is active, Gall's Ogre Rage\nis disabled, meaning that Gall's damage is significantly lowered. Judging when\nto activate Ogre Hide so to not reduce Gall's damage output too dramatically is\nkey to mastering Cho'gall as a whole."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide updated to reflect current meta.\n12 Feb. 2021: Consuming Blaze's discussion updated.\n03 Oct. 2020: Abilities updated to match Build changes.\n11 Oct. 2019: Abilities section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Consuming Fire (Level 1) Cho Consuming Blaze restores 75 (+4% per level) more Health when a Hero is Ignited."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Calloused Hide (Level 1) Cho While under 50% maximum Health, Cho gains 15% increased Movement Speed and healing received."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "The Will of Cho (Level 1) Cho Quest: Killing enemy Minions grants 1 stack of The Will of Cho, and Hero takedowns grant 10 stacks. Gain 1 Armor for every 30 stacks of The Will of Cho, up to a maximum of 10 Armor. This Armor bonus stacks with Ogre Hide."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Uppercut (Level 4) Cho Hitting an enemy Hero with Surging Fist deals additional damage to Heroes equal to 5% of their max Health and reduces the cooldown of Surging Fist by 5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Rollback (Level 4) Cho Rune Bomb rolls back to Cho, damaging enemies in its path."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Seared Flesh (Level 4) Cho Each consecutive Basic Attack to enemy Heroes deals 20% more damage, to a maximum of 60% damage. This bonus lasts 5 seconds or until a non-Heroic enemy is attacked."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Power Surge (Level 7) Cho Enemy Heroes who are hit by Surging Fist are Slowed by 30% for 2.5 seconds. Gain 15% Movement Speed while charging Surging Fist and for 2.5 seconds after casting the Ability."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Firestarter (Level 7) Cho Basic Attacks against ignited Heroes decreases the cooldown of Consuming Blaze by 1.5 second. Passive: Reduce the cooldown of Consuming Blaze by 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Enraged Regeneration (Level 7) Cho Each time Cho hits an enemy Hero with an Ability or Basic Attack, he heals for 60 (+4% per level) over 3 seconds. Enemy Heroes hit by Gall's Dread Orb receive 35% less healing for 2 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Hammer of Twilight (Level 10) Cho Cooldown: 15 seconds Activate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and Stunning them for 0.75 seconds. Passive: Cho's Basic Attacks deal 25% increased damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Upheaval (Level 10) Cho Cooldown: 40 seconds After 1 second, pull enemies towards Cho'gall, Slowing them by 25% for 3 seconds and dealing 175 (+4% per level) damage."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Surging Dash (Level 13) Cho While Channeling Surging Fist, Cho heals for 150 (+4% per level) Health per second."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Twilight Veil (Level 13) Cho Cooldown: 30 seconds Activate to increase the Armor bonus of Ogre Hide to 75 for 4 seconds. If cast while Ogre Rage is active, it instantly swaps to Ogre Hide."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Molten Block (Level 13) Cho Cooldown: 60 seconds Activate to enter Stasis and gain Invulnerability for 3 seconds, damaging nearby enemies for 92 (+4% per level) damage per second."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Frenzied Fists (Level 16) Cho Gain 75% Attack Speed for 5 seconds after using Surging Fist."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Runic Feedback (Level 16) Cho Gall's Runic Blast reduces Cho's Rune Bomb cooldown by 1 second per enemy hit, and 2 seconds for each Hero hit."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Runed Gauntlet (Level 16) Cho Basic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 6%."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "C'Thun's Gift (Level 20) Cho Cho's Basic Attack becomes ranged and Slows targets by 20% for 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Favor of the Old Gods (Level 20) Cho Upheaval Roots enemy Heroes for 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Fuel for the Flame (Level 20) Cho Basic Attacks against enemies cause them to explode, dealing 21 (+4% per level) damage to them and 45 (+4% per level) damage to nearby enemies. This damage is doubled against enemy Heroes."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Hour of Twilight (Level 20) Cho Decreases Cho'gall's death timer by 50%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Cho's Talent Build",
+   "id": "chos-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n?\n✘︎\n✓\n7\n?\n?\n✓\n10\n✓\n?\n13\n?\n✓\n?\n16\n✓\n✘︎\n?\n20\n✓\n?\n✘︎\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Cho's Talent Build Cheatsheet",
+   "id": "chos-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThis standard build provides a balance between sustain and mobility.\nCalloused Hide greatly enhance Cho's teamfighting potential\nand escape capabilities when he is low on health, being a great Talent for surviving\nthrough the early game.\nLike all the Cho and Gall builds, it has great power spikes\nat Level 13 and beyond. At this Level, Twilight Veil is the standard Talent,\nbut Surging Dash is decent against poke compositions,\nwhile Molten Block is good against burst percent-based damage\nthat armor cannot be reduced\n(such as Greymane's Cursed Bullet and\nMalthael's Last Rites).\nBasic Attacks Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nCho's Basic Attacks build is totally focused on constantly delivering Basic\nAttacks against enemy Heroes. Since it has Consuming Fire and\nFirestarter, this build will be incredibly strong if you can\nkeep hitting enemies, but falls behind other options when enemies can punish you\nduring the early game.\nA good point to note is that with this build, you can deal good damage while\ntanking, with either Ogre Hide or Twilight Veil\nto protect yourself.\nSurging Fist Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nUppercut adds good percentage damage and insane mobility\nto Cho. Being able to cast Surging Fist again after hitting\n2 targets with it can turn the tides of a fight easily. However, it can be easily canceled\nby any crowd control, greatly reducing this build's effectiveness.\nFor this reason, we recommend going for this Build when enemies do not have many\nways to cancel Surging Fist and if they do, it is better to wait for it to be wasted\nto cast the Ability again.\nSince you do not get Seared Flesh at Level 4, attack speed will\nnot be a great addition at Level 16, so Runed Gauntlet is a better\nchoice at that tier."
+  },
+  {
+   "title": "Level 1 Talents for Cho",
+   "id": "level-1",
+   "text": "?\nConsuming Fire\n(Level 1)\nCho\nConsuming Blaze restores 75 (+4% per level) more Health when a Hero is Ignited.\n✓\nCalloused Hide\n(Level 1)\nCho\nWhile under 50% maximum Health, Cho gains 15% increased Movement Speed and healing received.\n?\nThe Will of Cho\n(Level 1)\nCho\nQuest: Killing enemy Minions grants 1 stack of The Will of Cho, and Hero takedowns grant 10 stacks. Gain 1 Armor for every 30 stacks of The Will of Cho, up to a maximum of 10 Armor.\nThis Armor bonus stacks with Ogre Hide."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Consuming Fire increases the healing provided by Consuming Blaze\nby a mediocre amount, and only situationally, as it is only effective against Heroes.\nStill, it remains a good choice when paired with Firestarter.\nCalloused Hide is the main choice for this tier. It\nis excellent because it covers Cho'gall's weakness in the early game, that is being rather\nsquishy and easy to kill.\nThe Will of Cho is a niche option at Level 1. It will\nonly be useful in the late game, if you can keep double soaking\nin the early game. It is important to notice that the Armor stacks with Ogre Hide."
+  },
+  {
+   "title": "Level 4 Talents for Cho",
+   "id": "level-4",
+   "text": "?\nUppercut\n(Level 4)\nCho\nHitting an enemy Hero with Surging Fist deals additional damage to Heroes equal to 5% of their max Health and reduces the cooldown of Surging Fist by 5 seconds.\n✘︎\nRollback\n(Level 4)\nCho\nRune Bomb rolls back to Cho, damaging enemies in its path.\n✓\nSeared Flesh\n(Level 4)\nCho\nEach consecutive Basic Attack to enemy Heroes deals 20% more damage, to a maximum of 60% damage. This bonus lasts 5 seconds or until a non-Heroic enemy is attacked."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Uppercut excels against compositions without\ncrowd control to cancel your Surging Fist.\nIt has notable synergy with others Surging Fist Talents.\nRollback potentially adds a small amount of damage\nto Rune Bomb. Its main\nvalue, however, lies in giving Gall a second chance to use Runic Blast.\nWith practice, however, this becomes unnecessary.\nSeared Flesh allows Cho's damage to grow to be surprisingly threatening.\nGenerally, this will get more value than Uppercut. It does require you, however,\nto keep delivering sustain damage to enemy Heroes, making it more effective if\nthe enemy composition does not punish you easily. It has insane synergy with\nFrenzied Fists and C'Thun's Gift."
+  },
+  {
+   "title": "Level 7 Talents for Cho",
+   "id": "level-7",
+   "text": "?\nPower Surge\n(Level 7)\nCho\nEnemy Heroes who are hit by Surging Fist are Slowed by 30% for 2.5 seconds. Gain 15% Movement Speed while charging Surging Fist and for 2.5 seconds after casting the Ability.\n?\nFirestarter\n(Level 7)\nCho\nBasic Attacks against ignited Heroes decreases the cooldown of Consuming Blaze by 1.5 second.\nPassive: Reduce the cooldown of Consuming Blaze by 3 seconds.\n✓\nEnraged Regeneration\n(Level 7)\nCho\nEach time Cho hits an enemy Hero with an Ability or Basic Attack, he heals for 60 (+4% per level) over 3 seconds. Enemy Heroes hit by Gall's Dread Orb receive 35% less healing for 2 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Power Surge excels against low-mobility Heroes. The extra\nMovement Speed gained by Cho and the Slow applied to enemy Heroes,\ncombined together, can assure you will kill a Raynor, Jaina,\nor Gul'dan in a bad position.\nFirestarter is a strong Talent that improves Cho's damage potential and\nself-sustain. It is a good choice when paired with Consuming Fire\nat Level 1.\nEnraged Regeneration may not add a large amount of healing\nto Cho'gall, but since Gall's main build is focused on Dread Orb,\nthe Healing Reduction will be applied very often, being excellent in teamfights.\nThis Talent is the standard pick for this tier."
+  },
+  {
+   "title": "Level 10 Talents for Cho",
+   "id": "level-10",
+   "text": "✓\nHammer of Twilight\n(Level 10)\nCho\nCooldown: 15 seconds\nActivate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and Stunning them for 0.75 seconds.\nPassive: Cho's Basic Attacks deal 25% increased damage.\n?\nUpheaval\n(Level 10)\nCho\nCooldown: 40 seconds\nAfter 1 second, pull enemies towards Cho'gall, Slowing them by 25% for 3 seconds and dealing 175 (+4% per level) damage."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nHammer of Twilight is Cho's more defensive Heroic Ability choice.\nAlthough the passive Basic Damage increase is welcomed, the Ability's strength\nlies in the fact that it provides Cho with a very reliable, albeit short-ranged,\ncrowd control. Hammer of Twilight is typically more\nuseful when you feel that your team is on the defensive, allowing you to more\neffectively protect your vulnerable backline.\nUpheaval is Cho's niche Heroic Ability choice. It is\nexcellent in situations where your team wishes to force engagements, as the\nAbility allows you to pull several opponents to your own teammates. However,\nsince the Ability takes long to be casted, it is better to use it while enemies are\nunder some crippling effect, so it cannot be dodged."
+  },
+  {
+   "title": "Level 13 Talents for Cho",
+   "id": "level-13",
+   "text": "?\nSurging Dash\n(Level 13)\nCho\nWhile Channeling Surging Fist, Cho heals for 150 (+4% per level) Health per second.\n✓\nTwilight Veil\n(Level 13)\nCho\nCooldown: 30 seconds\nActivate to increase the Armor bonus of Ogre Hide to 75 for 4 seconds. If cast while Ogre Rage is active, it instantly swaps to Ogre Hide.\n?\nMolten Block\n(Level 13)\nCho\nCooldown: 60 seconds\nActivate to enter Stasis and gain Invulnerability for 3 seconds, damaging nearby enemies for 92 (+4% per level) damage per second."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Surging Dash greatly improves Cho's self sustain, and is a\ngood choice if you do not fear burst damage, in which case the other Talents\nwould serve you better.\nTwilight Veil provides a large amount of Armor; so large in fact\nthat it meets the game's Armor cap, and this, even when affected by other Armor\nreductions. Although excellent against burst, it suffers from one important\nweakness: Twilight Veil does not protect against percent-based damage.\nIf you are getting focused by several of those, like Seven-Sided Strike,\nLast Rites, or Cursed Bullet, consider\ngetting Molten Block instead.\nMolten Block brings some very welcomed defensive utility to Cho'gall's\notherwise extremely offense-oriented kit. The Ability is typically used to\nreliably avoid dangerous crowd control and high damage Abilities.\nIt should be noted, however, that Molten Block also prevents Gall from using his\nown Abilities and momentarily interrupts\nShadow Bolt Volley. The most\ncommon use of this Talent is to counter Kharazim's Seven-Sided Strike and\nLeoric's Entomb."
+  },
+  {
+   "title": "Level 16 Talents for Cho",
+   "id": "level-16",
+   "text": "✓\nFrenzied Fists\n(Level 16)\nCho\nGain 75% Attack Speed for 5 seconds after using Surging Fist.\n✘︎\nRunic Feedback\n(Level 16)\nCho\nGall's Runic Blast reduces Cho's Rune Bomb cooldown by 1 second per enemy hit, and 2 seconds for each Hero hit.\n?\nRuned Gauntlet\n(Level 16)\nCho\nBasic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 6%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Frenzied Fists greatly improves Cho's Attack damage per second potential.\nIt synergises particularly well with the damage bonus provided by\nHammer of Twilight and Seared Flesh.\nIt should be noted that you do not need to fully channel Surging Fist\nto benefit from the full Attack Speed bonus provided by the Talent, making it\nuseful to quickly cast-and-release the Ability to gain the buff.\nThe Attack Speed is also helpful with triggering Consuming Blaze's on-hit healing effect.\nRunic Feedback significantly reduces\nthe cooldown of Rune Bomb when it is\ndetonated against multiple targets. As such, this Talent's primary uses are\nwaveclearing and sieging, although it remains useful against\nHeroes, depending on your accuracy. In general, however, it is less likely to\nyield more overall damage than the Frenzied Fists alternative.\nRunic Feedback has strong synergy with Gall's Runic Blast's Talents, but\ncurrently, Gall is incredibly dependent on his Dread Orb Build.\nEven though you may not get enough cooldown reduction to use Twisting Nether\ntwice in a fight, having Runed Gauntlet may allow Cho to use\nHammer of Twilight a second time. Furthermore, by disengaging\nwith your second Hammer, Gall may have Twisting Nether ready in the next seconds.\nStill, it should only be the choice if you did not go for Seared Flesh\nat Level 4."
+  },
+  {
+   "title": "Level 20 Talents for Cho",
+   "id": "level-20",
+   "text": "✓\nC'Thun's Gift\n(Level 20)\nCho\nCho's Basic Attack becomes ranged and Slows targets by 20% for 2 seconds.\n?\nFavor of the Old Gods\n(Level 20)\nCho\nUpheaval Roots enemy Heroes for 2 seconds.\n✘︎\nFuel for the Flame\n(Level 20)\nCho\nBasic Attacks against enemies cause them to explode, dealing 21 (+4% per level) damage to them and 45 (+4% per level) damage to nearby enemies. This damage is doubled against enemy Heroes.\n?\nHour of Twilight\n(Level 20)\nCho\nDecreases Cho'gall's death timer by 50%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "C'Thun's Gift completely changes Cho's playstyle, turning him into\na ranged but still highly durable Hero. This Talent alone increases\nCho's damage potential by magnitudes, and the permanent Slowing effect helps\neveryone, especially Gall. This might be one of the best Talents in the game, and should\nbe the choice whenever possible.\nFavor of the Old Gods provides you with a powerful\nRooting effect, which, when combined\nwith Gall's Twisting Nether, can have devastating results. If you have\nbeen dying relatively often, consider Hour of Twilight instead.\nFuel for the Flame is extremely underwhelming when compared to\nC'Thun's Gift. In any Build, the extra Basic Attacks you will be able\nto deliver from the extra range provided by C'Thun's Gift are\nmuch more effective than the damage provided by this Talent. This Talent should never be\npicked.\nHour of Twilight has some excessively important implications for the\nlate game. Realistically, Cho'gall dying always spells bad news\nfor your team, often securing a loss. Hour of Twilight greatly reduces the\nimpact of this occurrence. If you feel safe, consider other options."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide updated to reflect current meta.\n03 Oct. 2020: Builds and Talents updated to reflect current meta.\n15 Feb. 2020: Talents and recommendations updated to reflect February 12 patch rework.\n27 Jan. 2020: Guide reviewed following January 22 balance patch. No changes to Talent recommendations.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n03 Mar. 2019: Talents and recommendations updated to reflect February 27 patch rework.\n28 Jul. 2018: Talents and recommendations updated to reflect July 25 balance patch changes.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "slug": "illidan",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/illidan-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/illidan-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/illidan-talents"
+ },
+ "guide": [
+  {
+   "title": "Illidan's Overview",
+   "id": "illidans-overview",
+   "text": "Illidan is a nimble melee Offlaner. Very fast attacks, several\ngap closers, and the ability to significantly reduce his own Cooldowns\nthrough Betrayer's Thirst make him extremely difficult to outmaneuver.\nHis polarized 'feast-or-famine' nature tends to make him the center of attention\nfor both allies and opponents — for better or for worse."
+  },
+  {
+   "title": "Illidan's Strengths and Weaknesses",
+   "id": "illidans-strengths-and-weaknesses",
+   "text": "Strengths\nNearly impossible to escape from\nExcellent duelist\nMay quickly and safely solo claim Mercenary Camps\nNo reliance on Mana and excellent self sustain\nGlobal presence with The Hunt\nExceptional against Heroes reliant on Basic Attacks, such as Raynor or Greymane\nWeaknesses\nRequires a team composition that revolves around supporting him to excel\nExceptionally vulnerable to crowd control due Basic Attack reliance\nLimited sieging potential\nVery weak when playing from behind\nLimited waveclear\nExtremely vulnerable to counter picks"
+  },
+  {
+   "title": "Illidan's Talent Build Cheatsheet",
+   "id": "illidans-talent-build-cheatsheet",
+   "text": "Universal Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nIllidan's Universal Build is a versatile option, offering a mix of good\nPvE and PvP capabilities for any match.\nHowever, it is not as effective as other builds in the late game.\nTo compensate you should play more aggressively by Level 4, as the combination of\nImmolation and Hunter's Onslaught\nallows Illidan to become much more aggressive, thanks to its excellent\nself-sustain.\nBasic Attacks Build\nAdvanced\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attacks build focuses on improving Illidan's team fighting\npresence. It is commonly picked as a means of punishing team compositions that\nlack the tools to hinder Illidan's Basic Attacks. Key Talents include\nMetamorphosis, the Heroic Ability core to the build, Battered Assault,\nwhich significantly improves Illidan's team fighting damage output, and\nDemonic Form, which further increases Illidan's damage output and\nmakes crowd control ineffective.\nSplit Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Split Build is the weakest in the early game, but after\ncompleting Unending Hatred and\nUnbound's quests, it becomes extremely powerful.\nFocused on maximum single-target damage, Illidan\ncan easily win fights when outnumbered in the late\ngame.\nSince Illidan may be split-pushing in most of the game, the\nrecommended Heroic Ability is The Hunt. However, if you're\ncertain the game will not end soon, consider Metamorphosis\nand Demonic Form instead. These will significantly boosting your damage,\nmobility, and resistance to crowd control.\nDive Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Dive Build lets Illidan deal damage even when blinded,\nunlike other builds that struggle with blinds.\nIts Level 7 talent makes it easy to chase fast\nHeroes, as enemies cannot avoid Dive. However,\nit relies heavily on Level 16, when Marked for Death\nbecomes his main damage source.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Illidan's Synergies and Counters",
+   "id": "illidans-synergies-and-counters",
+   "text": "Illidan synergizes with\nIllidan strives when played with any Hero that can increase his\nsurvivability, be it through Shielding effects, Armor, or raw instant\nhealing. He is typically known to requires allied Heroes known as \"enablers\" to be at\nhis best.\nMedivh is one of the best enablers for Illidan, due to how he covers Illidan's weaknesses\nto burst damage while he is under\ncrowd control. Additionally, it is\nimportant to not use Force of Will during Evasion,\nsince the overlap of 2 defensive Abilities may considerably cripple Illidan's\nsurvivability. We recommend using Medivh's shield right after Evasion runs out,\nso Illidan can reset his cooldowns while protected.\nIllidan is countered by\nIllidan's reliance on the healing and Cooldown reduction provided by\nBetrayer's Thirst makes him particularly vulnerable to effects that can reduce\nhis attack speed or otherwise stop him from attacking. Furthermore, his ability\nto split push can often be matched by other Heroes to even out any\nadvantage generated by this strategy. Although Illidan can be countered by many\nHeroes, his design makes him very oppressive when poorly counterpicked."
+  },
+  {
+   "title": "Illidan's Maps",
+   "id": "illidans-maps",
+   "text": "Illidan's stronger maps\nIllidan's average maps\nIllidan's weaker maps\nThe Hunt makes Illidan particularly effective on\nlarger Maps that feature multiple Objectives that must be contested, as it\nallows him to effectively soak and push\nwithout giving up potential team fighting presence, as would other Heroes.\nIllidan also strives on Maps that feature several Mercenary Camps for him to\nclaim, as he does so painlessly, and tends to be weak in lane. Since Illidan has a very\ngood chase potential, he also benefits from maps where fights happens far from the\nlane, allowing him to easily reach the opposing defenseless backline"
+  },
+  {
+   "title": "Illidan's Tips and Tricks",
+   "id": "illidans-tips-and-tricks",
+   "text": "Dive always positions you directly behind your target; use this to body block and avoid area of effect Abilities.\nWith Friend or Foe, Dive can be utilized as an engage or escape tool. It is interesting to use it towards the enemy team, to proceed with Sweeping Strike to reach your target, resetting the Cooldown of Dive, to use it to retreat when enemies turn their focus on you.\nIllidan can use walls to retreat with Dive, to heal himself, or to reset his Cooldowns. It is recommended to not break them, since those can help you a lot.\nUsing Dive when capturing Mercenaries will only slow down the speed in which they are released. Only Sweeping Strike and Evasion should be used in Mercenary Camps.\nSweeping Strike does not require a target, unlike Dive, making it useful as an escape tool.\nEvasion also mitigates the damage from Structures and other non-Heroic entities.\nMetamorphosis's short Immaterial effect can and should optimally be used to quickly dodge Abilities.\nAlways use your Basic Attacks, even when out of combat, so as to heal and reduce the Cooldowns of your Abilities with Betrayer's Thirst.\nThe Hunt's near-global range opens up opportunities to split push.\nIllidan can ignore Core damage with Evasion and Betrayer's Thirst. You can go for the core even with enemies defending it, by using Sweeping Strike and Dive to move away from opposing Heroes while also finishing the game.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Illidan's Role in the Current Meta",
+   "id": "illidans-role-in-the-current-meta",
+   "text": "Illidan's general playstyle is typically defined by the Map and draft at\nhand. On larger Maps where Mercenary Camps are plentiful, such as Garden of\nTerror and Warhead Junction, a The Hunt-oriented playstyle may be\npreferred, particularly if the opponent's team composition features other\nglobal Heroes such as Brightwing, Dehaka, or Falstad.\nUnder fortuitous circumstances, it may be possible to build a team composition\naround Illidan by early-picking some of his enablers, such as Medivh or Abathur,\nwith opponents failing to properly plan for a late Illidan pick. This opens up\nthe possibility of using Metamorphosis to become extremely oppressive."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "01 Sep. 2025 (talents page): Talents and Builds updated to ensure meta relevance.\n01 Sep. 2025 (abilities page): Guide updated to ensure meta relevance.\n01 Sep. 2025 (this page): Builds updated to ensure meta relevance.\n26 Mar. 2021 (talents page): Updated Talent recommendations.\n04 Mar. 2021 (talents page): Builds and Talents updated after recent balance patch.\n04 Mar. 2021 (this page): Builds updated after recent balance patch.\n30 Nov. 2020 (this page): Removed Gladiator's Medallion's Tip.\n22 Sep. 2020 (talents page): Builds and Talents updated to reflect current meta.\n22 Sep. 2020 (abilities page): Dive description updated.\n22 Sep. 2020 (this page): Guide fully updated to reflect current meta.\n14 Jan. 2018 (talents page): Updated Metamorphosis and Standard Split builds.\n29 Aug. 2017 (this page): Guide fully updated and moved to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Illidan's Tips and Tricks",
+   "id": "illidans-tips-and-tricks",
+   "text": "Dive always positions you directly behind your target; use this to body block and avoid area of effect Abilities.\nWith Friend or Foe, Dive can be utilized as an engage or escape tool. It is interesting to use it towards the enemy team, to proceed with Sweeping Strike to reach your target, resetting the Cooldown of Dive, to use it to retreat when enemies turn their focus on you.\nIllidan can use walls to retreat with Dive, to heal himself, or to reset his Cooldowns. It is recommended to not break them, since those can help you a lot.\nUsing Dive when capturing Mercenaries will only slow down the speed in which they are released. Only Sweeping Strike and Evasion should be used in Mercenary Camps.\nSweeping Strike does not require a target, unlike Dive, making it useful as an escape tool.\nEvasion also mitigates the damage from Structures and other non-Heroic entities.\nMetamorphosis's short Immaterial effect can and should optimally be used to quickly dodge Abilities.\nAlways use your Basic Attacks, even when out of combat, so as to heal and reduce the Cooldowns of your Abilities with Betrayer's Thirst.\nThe Hunt's near-global range opens up opportunities to split push.\nIllidan can ignore Core damage with Evasion and Betrayer's Thirst. You can go for the core even with enemies defending it, by using Sweeping Strike and Dive to move away from opposing Heroes while also finishing the game.\nAlthough we typically list Hero Abilities in order, Illidan's Trait is quite\nunique in that it heavily impacts the way that he is played. As such, it is\nlisted first, unlike in many other guides."
+  },
+  {
+   "title": "Betrayer's Thirst (Trait)",
+   "id": "betrayers-thirst-trait",
+   "text": "Betrayer's Thirst\n(D)\nIllidan\nPassive\nBasic Attacks heal for 30% of damage dealt and reduce Ability cooldowns by 1 second.\nBetrayer's Thirst is characterized by two important aspects, each of which\nare underlined in the Ability's tooltip: self-healing, and Cooldown reduction to\nall Abilities, including Heroic Abilities, on Basic Attacks.\nThe self-healing provided by Betrayer's Thirst is notable to the point of\nmaking Illidan notoriously strong at claiming Mercenary Camps and more generally\nas a duelist, particularly against Heroes who\ndeal too little damage to \"outdamage\" his self-healing. This makes Illidan\nspecifically difficult to deal with for many if not all Healers.\nSince this healing is based off the amount of damage inflicted by Illidan's\nBasic Attacks, any effect that affect the amount of damage they deal will\nproportionally increase or decrease said healing.\nThe Cooldown reduction provided by Betrayer's Thirst is what truly defines\nthe Trait, however: through continuous attacks, the Cooldown of Illidan's\nBasic Abilities can be reduced by half or more to give him unparalleled combat\nmobility. This affects his Heroic Abilities, too, making it imperative to\nalways try and keep on attacking anything, be it stray Minions, Structures,\nMercenaries, and, of course, Heroes. Effects that increase Illidan's Basic\nAttack speed are particularly valuable for this reason, as more attacks yield\nmore Cooldown reduction. Blinding effects prevent Betrayer's Thirst from\ngranting any Cooldown reduction (or healing) at all; be sure to look out for it."
+  },
+  {
+   "title": "Dive",
+   "id": "dive",
+   "text": "Dive\n(Q)\nIllidan\nCooldown: 6 seconds\nDive at the target, dealing 66 (+4% per level) damage and flipping to the other side of the target.\nDive is the quintessential gap closer, and Illidan's first source of combat\nmobility. The Ability's relatively long range and short Cooldown help define\nIllidan as the one Hero it is impossible to escape from for many. An important\naspect of Dive to understand is how it will always move Illidan to the far side\nof his target. This can be used to quickly avoid area of effect Abilities and\nto reposition yourself in a way that makes it easy to perform\nbody blocking maneuvers, while preventing opponents from being able\nto body block you. This aspect can also be used to move great distances by\ntargeting Structures due to their large size.\nIt should be noted that Dive should never be used for the sole purpose of\ndealing damage prior to acquiring the Marked for Death Talent,\nalthough even then, Dive remains primarily a means of relocating or sticking to\na target.\nIf a target dies by Dive, Illidan does not move towards the other side of it.\nThis interaction is very useful sometimes, because it removes the part of the Ability\nin which Illidan is \"Stunned\", so he can instantly attack or move after the dash."
+  },
+  {
+   "title": "Sweeping Strike",
+   "id": "sweeping-strike",
+   "text": "Sweeping Strike\n(W)\nIllidan\nCooldown: 8 seconds\nDash towards target point, dealing 119 (+4% per level) damage to enemies along the way. Hitting an enemy increases Illidan's Basic Attack damage by 35% for 3 seconds.\nSweeping Strike is Illidan's main damage dealing Ability, and second source\nof combat mobility. Although Sweeping Strike can be used similarly to its\nDive counterpart for avoiding Abilities and generally repositioning,\nit cannot be used to move through Structures and terrain. Additionally, its\nsignificant Basic Attack damage increasing effect means that unlike Dive,\nSweeping Strike should be nearly always be used whenever it is available. With\nconstant Basic Attacks, the damage bonus provided by Sweeping Strikes can be\nmaintained indefinitely, thanks to the Cooldown reduction provided by\nBetrayer's Thirst."
+  },
+  {
+   "title": "Evasion",
+   "id": "evasion",
+   "text": "Evasion\n(E)\nIllidan\nCooldown: 15 seconds\nEvade enemy Basic Attacks for 2.5 seconds.\nEvasion is Illidan's main defensive tool. Although simple at a glance, its\nusage distinguishes mediocre Illidan players from great ones, as it requires both\nan awareness of one's surroundings (i.e. when to use it) and the knowledge of\nwhose attacks are worth evading (i.e. what to use it against). Ideally, Evasion\nshould be used whenever you are being targeted by Heroes with potent Basic\nAttacks while you are yourself attacking to try and reduce its Cooldown as\nmuch as possible through Betrayer's Thirst. During team fighting\nsituations, Evasion is typically what allows Illidan to aggressively deliver\nBasic Attacks where other Assassins would simply take too much\ndamage to survive. It should be noted that Evasion can also mitigate damage from\nMercenaries and Structures."
+  },
+  {
+   "title": "Metamorphosis",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMetamorphosis\n(R)\nIllidan\nHeroic\nCooldown: 120 seconds\nTransform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 220 (+4% per level) for each Hero hit by the initial impact. Lasts for 18 seconds.\nMetamorphosis' power lies in the increase it provides to Illidan's raw\nsurvivability. This, in turn, translates into being able to stay in combat\nlonger to deal more damage and further benefit from the healing and Cooldown\nreduction provided by Betrayer's Thirst. It should be noted that\nthe Ability also has an unmentioned effect that turns Illidan immaterial (i.e.\nuntargetable and invulnerable) for 1 second upon cast, which can and should be\nused to avoid dangerous area of effect Abilities and otherwise get out of\ndangerous situations. Although it may be tempting to use Metamorphosis as a\nmeans of initiating a fight, it is often better to hold on to\nusing the Ability so as to give you a 'second wind' when out of options, and in\nparticular after using Evasion. Optimally, Metamorphosis should also\nbe used against as many Heroes as possible, as the Health increase it provides\nscales directly with how many Heroes were damaged by the Ability.\nMetamorphosis' long range and area-targeting also allows it to be used to\nchase down targets that are Stealthed, hidden by Fog of War, behind terrain or\nStructures, or otherwise untargetable."
+  },
+  {
+   "title": "The Hunt",
+   "id": "the-hunt",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nThe Hunt\n(R)\nIllidan\nHeroic\nCooldown: 100 seconds\nCharge to target unit, dealing 251 (+4% per level) damage on impact and stunning for 1 second.\nThe Hunt opens up several strategic options. Its near-global range,\nwhich is its most notable aspect, allows Illidan to always be only a few seconds\naway from potential engagements. This lets him effectively gank isolated\nHeroes with ease, forcing opponents to generally play defensively. More\nimportantly, however, The Hunt allows Illidan to become extremely proficient at\nsplit pushing and soaking to generate an Experience lead and\nthreaten Structures, particularly while players are rotation and setting\nup for impending Map Objectives.\nMore offensively, The Hunt can be used as a key component of\nburst compositions; its range and unavoidable Stunning effect are excellent\nfor both initiating and following up on allied crowd control. Just\nmake sure your allies are aware of your intentions, lest you might find\nyourself fighting alone."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "01 Sep. 2025: Guide updated to ensure meta relevance.\n22 Sep. 2020: Dive description updated.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Immolation (Level 1) Illidan After using Sweeping Strike, burn nearby enemies for 22 (+4% per level) damage a second for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Battered Assault (Level 1) Illidan Increase Sweeping Strike's Basic Attack damage bonus duration from 3 to 5 seconds. If Sweeping Strike hits 2 Heroes its damage bonus is increased from 35% to 125%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Unending Hatred (Level 1) Illidan Quest: Minion kills grant 0.2 Basic Attack Damage. Hero Takedowns grant 1 Basic Attack Damage. Reward: After gaining 20 increased Basic Attack Damage, receive an additional 20 Basic Attack Damage."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Reflexive Block (Level 4) Illidan Using Dive grants 75 Physical Armor against the next 3 Hero Basic Attacks for 4 seconds, reducing the damage taken by 75%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Thirsting Blade (Level 4) Illidan Betrayer's Thirst's healing from Basic Attacks is increased from 30% to 50% while Sweeping Strike's damage bonus is active."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hunter's Onslaught (Level 4) Illidan Basic Abilities heal for 35% of the damage they deal. This bonus is doubled versus Heroes."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Rapid Chase (Level 7) Illidan Dive grants 20% Movement Speed for 3 seconds. If the target is an enemy Hero, reduce its cooldown by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Friend or Foe (Level 7) Illidan Increases the range of Dive by 20% and allows it to be used to dive to allied Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Unbound (Level 7) Illidan Sweeping Strike can go over walls and terrain. Reward: After hitting 15 Heroes with Sweeping Strike, gain a second charge."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Metamorphosis (Level 10) Illidan Cooldown: 120 seconds Transform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 220 (+4% per level) for each Hero hit by the initial impact. Lasts for 18 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "The Hunt (Level 10) Illidan Cooldown: 100 seconds Charge to target unit, dealing 251 (+4% per level) damage on impact and stunning for 1 second."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Nimble Defender (Level 13) Illidan If Sweeping Strike hits an enemy Hero, gain 25 Armor for 2 seconds, reducing damage taken by 25%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Elusive Strike (Level 13) Illidan Sweeping Strike reduces the cooldown of Evasion by 3 seconds every time it damages an enemy Hero."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Sixth Sense (Level 13) Illidan While active, Evasion grants Illidan 75 Spell Armor against the next 2 sources of Spell Damage, reducing their damage by 75%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Marked for Death (Level 16) Illidan Dive deals an extra 180 (+4% per level) damage if used consecutively on a target within 10 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Fiery Brand (Level 16) Illidan Every 3rd attack against the same Hero deals an additional 7% of their maximum Health as damage."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Blades of Azzinoth (Level 16) Illidan Cooldown: 8 seconds Hitting 5 Heroes with Sweeping Strike allows Blades of Azzinoth to be activated, increasing Basic Attack damage by 75% for 8 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Demonic Form (Level 20) Illidan Permanently remain in Demonic Form. Metamorphosis also increases Attack Speed by 20% and reduces the duration of Stuns, Roots, and Slows by 50%. Illidan can now mount in Demonic Form."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Nowhere to Hide (Level 20) Illidan The Hunt gains unlimited range. Illidan passively reveals enemy Heroes below 25% Health anywhere on the Battleground."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Nexus Blades (Level 20) Illidan Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Bolt of the Storm (Level 20) Illidan Cooldown: 70 seconds Activate to teleport to a nearby location."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Illidan's Talent Build",
+   "id": "illidans-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n?\n✓\n7\n?\n?\n✓\n10\n?\n✓\n13\n?\n✓\n?\n16\n?\n?\n✓\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Illidan's Talent Build Cheatsheet",
+   "id": "illidans-talent-build-cheatsheet",
+   "text": "Universal Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nIllidan's Universal Build is a versatile option, offering a mix of good\nPvE and PvP capabilities for any match.\nHowever, it is not as effective as other builds in the late game.\nTo compensate you should play more aggressively by Level 4, as the combination of\nImmolation and Hunter's Onslaught\nallows Illidan to become much more aggressive, thanks to its excellent\nself-sustain.\nBasic Attacks Build\nAdvanced\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\n?\n?\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Basic Attacks build focuses on improving Illidan's team fighting\npresence. It is commonly picked as a means of punishing team compositions that\nlack the tools to hinder Illidan's Basic Attacks. Key Talents include\nMetamorphosis, the Heroic Ability core to the build, Battered Assault,\nwhich significantly improves Illidan's team fighting damage output, and\nDemonic Form, which further increases Illidan's damage output and\nmakes crowd control ineffective.\nSplit Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\n?\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Split Build is the weakest in the early game, but after\ncompleting Unending Hatred and\nUnbound's quests, it becomes extremely powerful.\nFocused on maximum single-target damage, Illidan\ncan easily win fights when outnumbered in the late\ngame.\nSince Illidan may be split-pushing in most of the game, the\nrecommended Heroic Ability is The Hunt. However, if you're\ncertain the game will not end soon, consider Metamorphosis\nand Demonic Form instead. These will significantly boosting your damage,\nmobility, and resistance to crowd control.\nDive Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Dive Build lets Illidan deal damage even when blinded,\nunlike other builds that struggle with blinds.\nIts Level 7 talent makes it easy to chase fast\nHeroes, as enemies cannot avoid Dive. However,\nit relies heavily on Level 16, when Marked for Death\nbecomes his main damage source."
+  },
+  {
+   "title": "Level 1 Talents for Illidan",
+   "id": "level-1",
+   "text": "✓\nImmolation\n(Level 1)\nIllidan\nAfter using Sweeping Strike, burn nearby enemies for 22 (+4% per level) damage a second for 4 seconds.\n?\nBattered Assault\n(Level 1)\nIllidan\nIncrease Sweeping Strike's Basic Attack damage bonus duration from 3 to 5 seconds. If Sweeping Strike hits 2 Heroes its damage bonus is increased from 35% to 125%.\n?\nUnending Hatred\n(Level 1)\nIllidan\nQuest: Minion kills grant 0.2 Basic Attack Damage. Hero Takedowns grant 1 Basic Attack Damage.\nReward: After gaining 20 increased Basic Attack Damage, receive an additional 20 Basic Attack Damage."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Immolation provides Illidan with a steady source of area of effect damage,\nsomething that his base kit sorely lacks. Immolation helps at all stages of the\ngame, be it with waveclearing, claiming Mercenary Camps,\nor simply dealing more damage whenever Sweeping Strike is\nused—which is always.\nBattered Assault has the potential of greatly increasing Illidan's team fight damage.\nHowever, you do need to ensure that Sweeping Strike meets its condition\nof hitting at least two Heroes whenever it is used. Battered Assault is\ntypically picked on Maps that do not feature many Mercenary Camps, as the\nvalue of the Immolation alternative Talent diminishes in this case.\nUnending Hatred provides the largest, most reliable\ndamage increase in this Tier, albeit much later into the game. With\none of the highest Attack Speeds in the game, Unending Hatred will\nincrease your Basic Attack damage by 40 on completion, which translate to 35%\nextra damage at Level 10. The\ndownside of Unending Hatred is that it requires time to stack and become\nimpactful. Unending Hatred is recommended on Maps where you do not need to fight\nduring the early game, such as Sky Temple\nor Cursed Hollow. It is also excellent on Maps where Illidan needs\nto double soak, like in Towers of Doom\nor Garden of Terror."
+  },
+  {
+   "title": "Level 4 Talents for Illidan",
+   "id": "level-4",
+   "text": "?\nReflexive Block\n(Level 4)\nIllidan\nUsing Dive grants 75 Physical Armor against the next 3 Hero Basic Attacks for 4 seconds, reducing the damage taken by 75%.\n?\nThirsting Blade\n(Level 4)\nIllidan\nBetrayer's Thirst's healing from Basic Attacks is increased from 30% to 50% while Sweeping Strike's damage bonus is active.\n✓\nHunter's Onslaught\n(Level 4)\nIllidan\nBasic Abilities heal for 35% of the damage they deal. This bonus is doubled versus Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Reflexive Block is a powerful choice against teams that feature at least\ntwo Heroes with powerful Basic Attacks, such as Cho'gall, Greymane, Leoric,\nRagnaros, Raynor, Sgt. Hammer, Stukov, The Butcher, Thrall, Varian, Zeratul,\nor Zul'jin. Otherwise, the other 2 options will generate more\nvalue in the form of self sustain.\nThirsting Blade fulfils the same purpose\nas Hunter's Onslaught. Its effectiveness\ndepends just on how much you are able to freely deliver Basic Attacks. If the\nopposing team features several sources of Blind or crowd control,\nHunter's Onslaught may end up being more reliable.\nHunter's Onslaught will be decent in every scenario, because\nit greatly enhances your self-sustain in lane, and its value cannot be reduced by\nblinds or fast Basic Attackers. It is the alternative to when there are either\nnot many Basic Attack-reliant Heroes on the opposing team, or in the presence\nof Tracer or Tychus, both of which quickly chew through and waste\nBlock charges."
+  },
+  {
+   "title": "Level 7 Talents for Illidan",
+   "id": "level-7",
+   "text": "?\nRapid Chase\n(Level 7)\nIllidan\nDive grants 20% Movement Speed for 3 seconds. If the target is an enemy Hero, reduce its cooldown by 1 second.\n?\nFriend or Foe\n(Level 7)\nIllidan\nIncreases the range of Dive by 20% and allows it to be used to dive to allied Heroes.\n✓\nUnbound\n(Level 7)\nIllidan\nSweeping Strike can go over walls and terrain.\nReward: After hitting 15 Heroes with Sweeping Strike, gain a second charge."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Rapid Chase provides a reliable Movement Speed\nincrease and cooldown reduction on Dive, ensuring\nyour next Dive and greatly boosting DPS when paired with\nMarked for Death. However, differently from the other options\nin this tier, this talent is only impactful after Level 16.\nFriend or Foe provides Illidan with more mobility. The range increase\nis useful for chasing, whereas the option to jump to an ally is invaluable to\nkeep yourself alive or avoid dangerous area of effect Abilities. With this Talent,\nIllidan becomes a much safer Hero, because you can easily use Dive\nfrom a large distance, Sweeping Strike towards your desired target,\nand Dive again towards an ally to disengage as soon as enemies starts to focus you.\nUnbound adds a new dimension to the way Illidan can\nbe played by allowing you to quickly move through both\nimpassable terrain and thin Structures\nlike Gates and Walls, making you much more nimble and difficult to catch. Its additional\ncharge will be incredibly strong against teams based on Basic Attacks, because\nIllidan will be able to constantly reset Evasion through\nElusive Strike. The only issue with this Talent, however, is how Illidan\nneeds to risk himself to complete the Quest, so it is better to try stacking it\nagainst your lane oponent, to avoid getting killed in early teamfights."
+  },
+  {
+   "title": "Level 10 Talents for Illidan",
+   "id": "level-10",
+   "text": "?\nMetamorphosis\n(Level 10)\nIllidan\nCooldown: 120 seconds\nTransform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 220 (+4% per level) for each Hero hit by the initial impact. Lasts for 18 seconds.\n✓\nThe Hunt\n(Level 10)\nIllidan\nCooldown: 100 seconds\nCharge to target unit, dealing 251 (+4% per level) damage on impact and stunning for 1 second."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nMetamorphosis is the source of much of Illidan's team fighting power, and is\ngenerally picked as a means of crushing team compositions that are ill-equipped\nto counter Illidan. In the presence of one or more of Illidan's \"enablers\" as\nallied Heroes, and in the absence of Illidan's counters, Metamorphosis opens\nup the possibility for team fighting-centric strategies that simply focus on\nfighting as often as Metamorphosis is available. Refer to this guide's\nCounters section for more information about Illidan's\ncounters.\nThe Hunt allows you to create Map pressure through\nsplit pushing and ganking. It may also be used as a key Ability\nin burst compositions, although using it\nas a means of initiating\nis ill-advised. The Hunt is typically used on larger Maps such as Garden of Terror\nand Warhead Junction or as a counter to other Heroes with\nglobal movement Abilities such as Brightwing, Dehaka, or Falstad."
+  },
+  {
+   "title": "Level 13 Talents for Illidan",
+   "id": "level-13",
+   "text": "?\nNimble Defender\n(Level 13)\nIllidan\nIf Sweeping Strike hits an enemy Hero, gain 25 Armor for 2 seconds, reducing damage taken by 25%.\n✓\nElusive Strike\n(Level 13)\nIllidan\nSweeping Strike reduces the cooldown of Evasion by 3 seconds every time it damages an enemy Hero.\n?\nSixth Sense\n(Level 13)\nIllidan\nWhile active, Evasion grants Illidan 75 Spell Armor against the next 2 sources of Spell Damage, reducing their damage by 75%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Nimble Defender provides a dependable damage reduction when fighting enemy Heroes,\nreducing all damage that taken by 25% with an approximate 50% uptime (via the\nCooldown reduction provided by Betrayer's Thirst). It is, however,\nless specialized than its counterparts, and should only be picked if no value\nis to be gained from them.\nElusive Strike has niche use against team compositions that feature\nthree or more Heroes with potent Basic Attacks, including, but not limited to,\nCho'gall, Greymane, Leoric, Ragnaros, Raynor, Sgt. Hammer, Stukov, The Butcher,\nThrall, Tracer, Tychus, Varian, Zeratul, and Zul'jin. The cooldown reduction\nprovided by this Talent, compounded with that provided by\nBetrayer's Thirst, will cause Evasion to be available\nmuch more often than it normally would.\nSixth Sense reduces Ability damage taken for the next 2 instances of\nAbility damage taken. This unfortunately includes any damage dealt by Abilities,\nas minute as it may be, such as ticks from Stitches's\nShambling Horror or Dehaka's\nDark Swarm. This makes it very difficult to reduce the damage of Abilities that are\nactually dangerous, such as Nova's Precision Strike. Sixth Sense still has a place\nagainst caster-heavy team compositions, such as those that might feature\nChromie, Jaina, Kael'thas, Kel'thuzad or Nova."
+  },
+  {
+   "title": "Level 16 Talents for Illidan",
+   "id": "level-16",
+   "text": "?\nMarked for Death\n(Level 16)\nIllidan\nDive deals an extra 180 (+4% per level) damage if used consecutively on a target within 10 seconds.\n?\nFiery Brand\n(Level 16)\nIllidan\nEvery 3rd attack against the same Hero deals an additional 7% of their maximum Health as damage.\n✓\nBlades of Azzinoth\n(Level 16)\nIllidan\nCooldown: 8 seconds\nHitting 5 Heroes with Sweeping Strike allows Blades of Azzinoth to be activated, increasing Basic Attack damage by 75% for 8 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Marked for Death provides Illidan with an alternative way of dealing damage that is no\nlonger tied to his Basic Attacks. This is particularly useful against Heroes\nthat are able kite to reduce your uptime, or otherwise\nhave access to Blind or other forms of crowd control. Marked for Death\nalso turns Dive into a sustain damage increase against Structures and\nMercenary Camps. It should be noted that this Talent also makes Illidan\nparticularly strong at destroying Cores. Its important to note that the extra damage\nadded to Dive is counted for Hunter's Onslaught.\nFiery Brand is Illidan's specific version of Giant Killer.\nAlthough it requires 3 consecutive Basic Attacks to trigger, Illidan's very fast\nAttack Speed, and the fact that Fiery Brand deals a hefty 7% of the target's\nHealth as pure damage makes the Talent a reasonable choice against team\ncompositions that feature healthy or Armored Heroes such as Deathwing, Cho or two or\nmore Tanks or Bruisers.\nA downside in Fiery Brand is that it, differently from the\nother 2 options, does not increase your self-sustain\nat all.\nDue to how Damage calculations are made, Blades of Azzinoth\nbenefits much more from Unending Hatred than from\nBattered Assault and is an excellent pick if you got the former.\nHowever, if the opposing team does not feature many blinds, this Talent can be good\nwith Battered Assault as well."
+  },
+  {
+   "title": "Level 20 Talents for Illidan",
+   "id": "level-20",
+   "text": "?\nDemonic Form\n(Level 20)\nIllidan\nPermanently remain in Demonic Form. Metamorphosis also increases Attack Speed by 20% and reduces the duration of Stuns, Roots, and Slows by 50%. Illidan can now mount in Demonic Form.\n?\nNowhere to Hide\n(Level 20)\nIllidan\nThe Hunt gains unlimited range. Illidan passively reveals enemy Heroes below 25% Health anywhere on the Battleground.\n?\nNexus Blades\n(Level 20)\nIllidan\nBasic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.\n✓\nBolt of the Storm\n(Level 20)\nIllidan\nCooldown: 70 seconds\nActivate to teleport to a nearby location."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Demonic Form provides Illidan with everything he needs. The Attack Speed\nincrease synergises nicely with Betrayer's Thirst, as more Basic Attacks\nprovide more cooldown reduction, which translates into more survivability. The\ncrowd control reduction also indirectly improves his survivability\nand general uptime.\nNowhere to Hide is a good option to get on extremely large Maps,\nlike Alterac Pass or Warhead Junction. It allows\nyou to constantly threaten Core, while also being able to take part in the teamfight,\nwhich is extremely useful in the lategame.\nNexus Blades offers less damage and utility than\nDemonic Form. While Nexus Blades may seem appealing\nwith its 20% increased Basic Attack damage, the additional Attack Speed from\nDemonic Form provides cooldown reduction through\nBetrayer's Thirst. It's a good choice if you've picked\nThe Hunt, but otherwise, Demonic Form is usually the\nbetter option.\nBolt of the Storm is a powerful talent that allows\nIllidan to engage freely, acting as a get-out-of-jail card that can be used after\neliminating a priority target. Although Illidan's mobility is typically\nsufficient with other talents, Bolt of the Storm is especially useful for\nThe Hunt users who need the added survivability not\nprovided by Metamorphosis."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "01 Sep. 2025: Talents and Builds updated to ensure meta relevance.\n26 Mar. 2021: Updated Talent recommendations.\n04 Mar. 2021: Builds and Talents updated after recent balance patch.\n22 Sep. 2020: Builds and Talents updated to reflect current meta.\n14 Jan. 2018: Updated Metamorphosis and Standard Split builds.\nShow more\nShow less"
+  }
+ ]
+}

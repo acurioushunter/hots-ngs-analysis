@@ -1,0 +1,305 @@
+{
+ "slug": "xalatath",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/xalatath-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/xalatath-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/xalatath-talents"
+ },
+ "guide": [
+  {
+   "title": "Xal'atath's Overview",
+   "id": "xal-ataths-overview",
+   "text": "Xal'atath is a Ranged Assassin who can deal\nburst damage by hitting an enemy Hero with the center of\nShadow Mark and detonating\nDark Heart Ritual on them. Unlike many mages, she can\nBasic Attack while moving. Her attacks deal substantial\nPhysical Damage even to frontline Heroes and\ncharge Void Volley, so she can keep dealing damage\nbetween Ability casts.\nXal'atath is very fragile and has only Void Step to escape.\nIts long, telegraphed teleport sequence gives enemies time to react, while she must\nkeep using Basic Attacks to charge Void Volley. Although she is difficult to play\nsafely, her mix of good Physical Damage from Basic Attacks\nand burst damage from Void Volley and her other Abilities\nis hard for enemies to mitigate, making her rewarding when played well."
+  },
+  {
+   "title": "Xal'atath's Strengths and Weaknesses",
+   "id": "xal-ataths-strengths-and-weaknesses",
+   "text": "Strengths\nGreat burst damage\nHas great area of effect damage\nExcellent late game scaling\nCan reposition with Void Step\nCan stall channeled Objectives with Dark Heart Ritual\nWeaknesses\nVery fragile\nVulnerable to hard engages\nSteep learning curve\nBurst depends on landing delayed skillshots\nStruggles against highly mobile Heroes"
+  },
+  {
+   "title": "Xal'atath's Talent Build Cheatsheet",
+   "id": "xal-ataths-talent-build-cheatsheet",
+   "text": "Dark Heart Ritual Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Dark Heart Ritual Build controls space, especially at narrow\nchoke points. Dark Heart Ritual\nshould be placed across paths enemies must take to advance or retreat, forcing them to take damage\nand, with Pull of the Dark Heart, be\nSlowed.\nThis Build is also strong on Maps with channeled Objectives, such as\nCursed Hollow and Towers of Doom. With\nAnchored Core, the Dark Heart lasts 10 seconds and\nDark Heart Ritual has a 15-second cooldown. By placing it\non the Objective every 15 seconds, Xal'atath can stall its 6-second channel on\nher own indefinitely, as long as she stays in range and can keep casting.\nVoid Volley Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Void Volley Build maximizes Xal'atath's burst damage and\nadds utility through Dark Heart's Protection's Silence. It\nworks best with allied crowd control, which helps\nstack Void Adept and Void Volley.\nKeep Basic Attacking anything in range to charge Void Volley, then use it to hit\nenemy Heroes whenever possible. Reaching its first 20 Quest stacks is essential\nfor this Build.\nIf your Tank has reliable crowd control, spend the early game\nusing only Basic Attacks and Void Volley until they catch an enemy Hero. Then follow\nup with Shadow Mark and Dark Heart Ritual\nto detonate the Dark Heart on the Marked target.\nWithout reliable allied setup, use Dark Heart Ritual on enemy\nHeroes or Minion waves, then aim Shadow Mark at Heroes leaving its area. In small\nskirmishes, try Shadow Mark first. If you miss, wait 2\nseconds before placing Dark Heart Ritual on the wave. Shadow Mark will be ready\nroughly 4 seconds later; hitting a Hero with its center lets the previously\nplaced Dark Heart pursue and detonate on them for a Void Adept stack while you\nclear the wave.\nVoid Step Build\nNot recommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Void Step Build requires Xal'atath to use Void Step\naggressively in fights to deal damage. Spending her only mobility Ability to close\nin leaves her vulnerable to Stuns. Even if enemies cannot stop her,\nthey can leave Basic Attack range between blinks, making the damage from\nRelentless Whispers inconsistent. For these reasons,\nwe do not recommend this Build.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe ARAM Build focuses on Shadow Mark and stacking\nVoid Adept. To get the most out of the Quest, hold\nDark Heart Ritual until Shadow Mark hits an enemy Hero,\nthen cast it to detonate the Dark Heart on the Marked target. ARAM's frequent fights\nlet Xal'atath stack Void Adept quickly, so she can already deal substantial\nburst damage by Level 7 with Toxic Mark.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Xal'atath's Synergies and Counters",
+   "id": "xal-ataths-synergies-and-counters",
+   "text": "Xal'atath synergizes with\nAllied crowd control gives Xal'atath a window\nto land Shadow Mark's center and several Void Volley projectiles. It also gives\nthe Dark Heart time to reach a Marked target. Void Prison\nand Containment Disc let Xal'atath charge\nVoid Eruption in advance.\nXal'atath is countered by\nShadow Mark travels slowly, and Void Volley's projectiles launch over time,\ngiving mobile enemies a chance to avoid both. Xal'atath has low Health, little\nself-peel, and only Void Step to escape. Hard engages such as\nDragon's Arrow or Leap can catch her\nbefore she can reposition, especially if she has already used Void Step."
+  },
+  {
+   "title": "Xal'atath's Maps",
+   "id": "xal-ataths-maps",
+   "text": "Xal'atath's stronger maps\nXal'atath's average maps\nXal'atath's weaker maps\nXal'atath benefits from Maps that bring teams together for frequent fights.\nThey give her more chances to stack Void Volley,\nwhile narrow areas make her\narea-of-effect skillshots\neasier to land. Infernal Shrines, Volskaya Foundry,\nand Towers of Doom have contested spaces that make\nDark Heart Ritual and Shadow Mark harder to avoid.\nShe struggles on Maps where enemies can flank from several directions. Her low\nHealth and predictable Void Step make it hard to escape\nonce surrounded."
+  },
+  {
+   "title": "Xal'atath's Tips and Tricks",
+   "id": "xal-ataths-tips-and-tricks",
+   "text": "Anchored Core lets Dark Heart Ritual repeatedly deny 6-second Objective channels. With Unstable Core at Level 20, its flames cover the rest of the 15-second cooldown, allowing continuous denial of even 3-second channels if you cast Dark Heart Ritual on time and stay in range.\nActivate Void Step while a Basic Attack is already traveling toward an enemy to give that attack the first 10% damage bonus when it lands.\nWith Void Acolyte, cast a charged Void Volley before Void Step, then fire the free, 25%-stronger Volley after Void Step ends.\nHit ranged Minions with Shadow Mark before placing Dark Heart Ritual in the wave. This helps the Dark Heart get the last hits so you can leave without collecting Experience Globes.\nWhen escaping with Void Step, reactivate it as soon as you reach a safe position. Ending the teleport sequence early lets you move again sooner.\nWith Void Acolyte, complete Void Step at the Hall of Storms before heading back to a lane. The free Void Volley remains available as long as you do not Basic Attack an enemy.\nIf Void Volley is charged before a rotation, cast it at an enemy Hero or a nearby Tower just before mounting. The charge would otherwise expire, and Void Volley deals excellent siege damage.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Xal'atath's Role in the Current Meta",
+   "id": "xal-ataths-role-in-the-current-meta",
+   "text": "In the early game, Xal'atath should clear waves while working toward\nVoid Volley's first 20 Quest stacks. Stay near your Tank until reaching\nthat milestone, since dying before it loses all Void Volley stacks.\nAt 20 stacks, Void Volley gains range, making enemy Heroes easier to hit\nand giving Xal'atath more freedom to follow allied\ncrowd control or look for a gank. Dying now\ncosts at most 6 stacks without removing the milestone. From Level 7,\nfollowing that crowd control with Shadow Mark's center also applies\nToxic Mark's Armor reduction, greatly increasing\nthe team's burst damage.\nThe extra range does not protect you from flanks. If enemies are hunting\nyou, keep Void Step ready to escape instead of\nspending it to follow an engage, and let your Tank peel\nwhen they turn on you."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Sep. 2026 (talents page): Updated Talent recommendations and Builds.\n29 Sep. 2026 (this page): Recommended Build changed.\n28 Sep. 2026 (talents page): Talents page added.\n28 Sep. 2026 (abilities page): Abilities page added.\n28 Sep. 2026 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Xal'atath's Tips and Tricks",
+   "id": "xal-ataths-tips-and-tricks",
+   "text": "Anchored Core lets Dark Heart Ritual repeatedly deny 6-second Objective channels. With Unstable Core at Level 20, its flames cover the rest of the 15-second cooldown, allowing continuous denial of even 3-second channels if you cast Dark Heart Ritual on time and stay in range.\nActivate Void Step while a Basic Attack is already traveling toward an enemy to give that attack the first 10% damage bonus when it lands.\nWith Void Acolyte, cast a charged Void Volley before Void Step, then fire the free, 25%-stronger Volley after Void Step ends.\nHit ranged Minions with Shadow Mark before placing Dark Heart Ritual in the wave. This helps the Dark Heart get the last hits so you can leave without collecting Experience Globes.\nWhen escaping with Void Step, reactivate it as soon as you reach a safe position. Ending the teleport sequence early lets you move again sooner.\nWith Void Acolyte, complete Void Step at the Hall of Storms before heading back to a lane. The free Void Volley remains available as long as you do not Basic Attack an enemy.\nIf Void Volley is charged before a rotation, cast it at an enemy Hero or a nearby Tower just before mounting. The charge would otherwise expire, and Void Volley deals excellent siege damage."
+  },
+  {
+   "title": "Shadow Mark",
+   "id": "shadow-mark",
+   "text": "Shadow Mark\n(Q)\nXal'atath\nMana: 45\nCooldown: 7 seconds\nShoot a Void Orb that deals 60 (+4% per level) damage to enemies hit, and an additional 120 (+4% per level) damage to enemies in the center.\nIf an enemy Hero or Structure is hit by the center, they are marked for 4 seconds.\nTargets afflicted by Shadow Mark are Revealed and draw the Dark Heart and Void Minions towards them.\nShadow Mark fires an Orb that damages enemies it\nhits, dealing extra damage at its center. Every enemy Hero or Structure hit by\nthe center is Marked and Revealed for 4 seconds. Cold Feet\nat Level 4 and Toxic Mark at Level 7 can each extend\nthe Mark by 1 second, up to 6 seconds with both Talents.\nMarked targets remain Revealed for the Mark's duration. Any Dark Heart or\nVoid Minions already active, or summoned while the Mark is active, are directed\ntowards the Marked target. If the Mark expires before they reach it, they\ncontinue moving towards that target.\nThe most reliable way to land Shadow Mark's center is to wait for allied\ncrowd control before casting it. Without that setup, you can place\nDark Heart Ritual to make an enemy move away from the\nDark Heart, then aim Shadow Mark along their expected path.\nYou can also queue\nVoid Step away from the enemy immediately after\ncasting Shadow Mark. The blink hides the Orb's initial animation, making it\nappear to fly from Xal'atath's new position and giving the enemy less time to\nreact. Queue Dark Heart Ritual before Shadow Mark as well to set up a quick\ndetonation on the Marked target after blinking away."
+  },
+  {
+   "title": "Dark Heart Ritual",
+   "id": "dark-heart-ritual",
+   "text": "Dark Heart Ritual\n(W)\nXal'atath\nMana: 50\nCooldown: 15 seconds\nSummon the Dark Heart, which pulses for 50 (+4% per level) damage per second to nearby enemies and lasts 8 seconds.\nThe Dark Heart moves to Shadow Mark's impact location.\nThe Dark Heart will pursue targets afflicted by Shadow Mark and detonate on impact, dealing 245 (+4% per level) damage to nearby enemies and 61 (+4% per level) more damage to the Marked target.\nDark Heart Ritual summons the Dark Heart for\n8 seconds, damaging nearby enemies once per second. While the Heart is active,\ncasting Shadow Mark sends it to the Orb's impact\nlocation, even if the Orb does not Mark anyone. If no target is Marked, the\nHeart continues moving until it reaches that location. If an enemy is Marked\nbefore or after the Heart is summoned, it pursues that target. The Heart detonates on\ncontact only if the enemy is still Marked, damaging nearby enemies and dealing\nadditional damage to the Marked target.\nThe Dark Heart pulses once when summoned and once each second afterward,\nfor 9 pulses over its 8-second duration. Anchored Core\nextends its duration by 2 seconds, allowing 2 more pulses. To get the most\ndamage from it, let it pulse for as long as possible before detonating it on\na Marked target near the end of its duration.\nFor waveclear, place the Dark Heart in the middle\nof the enemy wave as soon as possible, since its damage takes time to be dealt.\nHit the ranged Minions with Shadow Mark before summoning the Dark Heart.\nThe Orb softens them for the Heart to finish without moving it. When the\nHeart gets the last hit, you gain Experience immediately, so you can mount\nand leave without needing to collect Experience Globes from the Ranged Minions.\nIf you hit the melee Minions with Shadow Mark instead, they may die first,\nallowing your Minions to advance and last-hit the ranged Minions. Those kills leave\nExperience Globes that you need to collect before leaving, slowing your\nrotation speed.\nPlace the Dark Heart over a channel point to\nrepeatedly interrupt attempts to capture Objectives such as Tributes on\nCursed Hollow or Seeds on Garden of Terror.\nWith Anchored Core at Level 1, its longer duration\ncan repeatedly deny 6-second channels and make 5-second channels difficult\nto complete if you keep the Dark Heart on the Objective and cast it whenever\nit is ready. Enemies can still finish 3-second channels in the gap between casts."
+  },
+  {
+   "title": "Void Step",
+   "id": "void-step",
+   "text": "Void Step\n(E)\nXal'atath\nMana: 50\nCooldown: 15 seconds\nCast to teleport Xal'atath 3 times in a triangular pattern.\nEach time Xal'atath teleports, her Basic Attacks deal 10% more damage while the Ability is active.\nReactivate to end Void Step early and remain at your current location.\nVoid Step teleports Xal'atath three times,\nmoving counterclockwise around the points of a triangle. Each teleport increases\nher Basic Attack damage by 10% while Void Step is active, up to 30%.\nReactivate it to end the sequence early at her current position.\nVoid Step is Xal'atath's only way to escape, and its predictable path gives\nenemies time to react. Keep it ready when you might need to retreat, and\nreactivate it once you reach a safe position so you can move again sooner."
+  },
+  {
+   "title": "Void Volley (Trait)",
+   "id": "void-volley-trait",
+   "text": "Void Volley\n(D)\nXal'atath\nMana: 35\nAfter attacking enemies with her Basic Attacks 5 times, Xal'atath can activate Void Volley to unleash a barrage of 6 Void Orbs at a target location, each dealing 90 (+4% per level) damage on impact.\nCharge fully decays if Xal’atath does not hit an enemy with a Basic Attack after 6 seconds.\nQuest: Hit enemy Heroes with Void Volley to grant 1 stack per hit and increases Void Volley's damage by 1%. Lose all stacks upon dying.\nReward (20 Stacks):\n+2 Void Volley Range\nStack loss on death lowered to 6.\nReward (60 Stacks):\n-1 Basic Attack required to charge Void Volley.\nMythic Reward (100 Stacks):\n+50% Basic Attack and Void Volley Damage.\nVoid Volley projectiles Pierce all targets.\nStack loss will never cause the Hero to fall below a quest reward threshold.\nAfter five Basic Attacks against enemies, Xal'atath can cast\nVoid Volley to fire six Orbs at a location.\nA charge obtained through Basic Attacks expires after 6 seconds unless\nXal'atath hits an enemy with another Basic Attack.\nEach Orb that hits an enemy Hero adds a Quest stack and increases Void\nVolley's damage. At 20 stacks, it gains range and loses fewer stacks on\ndeath. At 60, it needs one fewer Basic Attack to charge. At 100, its\nprojectiles pierce and both Basic Attacks and Void Volley gain damage."
+  },
+  {
+   "title": "Void Eruption",
+   "id": "void-eruption",
+   "text": "Void Eruption\n(R)\nXal'atath\nHeroic\nMana: 80\nCooldown: 75 seconds\nChannel a powerful Void Orb that grows over time until reaching maximum size after 2 seconds. Recast to launch the Orb early.\nEnemies that come into contact with the Orb take 112 (+4% per level) damage and are Blinded for 1 second.\nWhen the Orb reaches the end of its path, it detonates in a large explosion, dealing 400 (+4% per level) damage.\nCharging up this Ability increases its contact damage up to 175 (+4% per level) and its explosion damage up to 700 (+4% per level).\nContact damage is dealt every 0.25 seconds.\nVoid Eruption channels a growing Orb.\nEnemies who touch it take periodic damage and are Blinded.\nRecast to launch the Orb early. It explodes at the end of its path, and\ncharging it longer increases both its contact and explosion damage."
+  },
+  {
+   "title": "Void Convergence",
+   "id": "void-convergence",
+   "text": "Void Convergence\n(R)\nXal'atath\nHeroic\nMana: 75\nCooldown: 75 seconds\nAfter channeling for 2 seconds, summon a Void Portal that spawns up to 3 Void Minions to attack nearby enemies.\nYou can have up to 1 active Void Portal.\nEnemies near the Void Portal are Slowed by 25%.\nVoid Minions are attracted to targets afflicted by Shadow Mark.\nThe Portal expires after 20 seconds.\nVoid Minions automatically choose a nearby lane to push.\nVoid Minion Basic Attacks deal 50 (+4% per level) damage per hit.\nVoid Minions lose Health over 12 seconds.\nVoid Convergence channels for 2 seconds\nbefore summoning a Void Portal that lasts up to 20 seconds if not attacked. The Portal\nSlows nearby enemies and spawns up to three Void\nMinions, which follow targets Marked by Shadow Mark or move into a lane.\nOnly one Portal can be active at a time."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "28 Sep. 2026: Abilities page added.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Void Adept (Level 1) Xal'atath Quest: Detonate the Dark Heart on targets afflicted by Shadow Mark. Each successful detonation permanently increases Shadow Mark and the Dark Heart Ritual Detonation damage by 20, up to 10 times."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Anchored Core (Level 1) Xal'atath Dark Heart Ritual: +50% Radius +25% Duration Dark Heart's damage bounces 2 times from the primary target to nearby enemies, dealing 25 (+4% per level) damage."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Cloak of Shadows (Level 1) Xal'atath Activating Void Step grants 50% Movement Speed and 25 Spell Armor for 2 seconds. This bonus refreshes each time Xal'atath teleports."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Cold Feet (Level 4) Xal'atath +1s Shadow Mark Duration Heroes afflicted by Shadow Mark have their Movement Speed reduced by 25%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Dark Barrier (Level 4) Xal'atath Each time Dark Heart damages an enemy, Xal'atath gains a Shield equal to 2% of her maximum Health, up to 10%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Void Acolyte (Level 4) Xal'atath Completing Void Step fully charges Void Volley. The next Void Volley deals 25% increased damage and costs no Mana."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Toxic Mark (Level 7) Xal'atath +1s Shadow Mark Duration Heroes affliced with Shadow Mark have their Armor reduced by 10 and take damage equal to 1% of their maximum Health every second."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Silence of the Lamb (Level 7) Xal'atath Activating Void Step summons a seal of void magic on the ground. When the seal completes, it deals 250 (+4% per level) damage to enemies inside and Silences them for 1 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Void Summoner (Level 7) Xal'atath Activating Void Step summons a single Void Minion in Xalatath's original postion. Void Minions are attracted to targets afflicted by Shadow Mark. Void Minions automatically choose a nearby lane to push. Void Minion Basic Attacks deal 50 (+4% per level) damage per hit. Void Minion loses Health over 12 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Void Eruption (Level 10) Xal'atath Mana: 80 Cooldown: 75 seconds Channel a powerful Void Orb that grows over time until reaching maximum size after 2 seconds. Recast to launch the Orb early. Enemies that come into contact with the Orb take 112 (+4% per level) damage and are Blinded for 1 second. When the Orb reaches the end of its path, it detonates in a large explosion, dealing 400 (+4% per level) damage. Charging up this Ability increases its contact damage up to 175 (+4% per level) and its explosion damage up to 700 (+4% per level). Contact damage is dealt every 0.25 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Void Convergence (Level 10) Xal'atath Mana: 75 Cooldown: 75 seconds After channeling for 2 seconds, summon a Void Portal that spawns up to 3 Void Minions to attack nearby enemies. You can have up to 1 active Void Portal. Enemies near the Void Portal are Slowed by 25%. Void Minions are attracted to targets afflicted by Shadow Mark. The Portal expires after 20 seconds. Void Minions automatically choose a nearby lane to push. Void Minion Basic Attacks deal 50 (+4% per level) damage per hit. Void Minions lose Health over 12 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Pull of the Dark Heart (Level 13) Xal'atath Enemies damaged by the Dark Heart Ritual are Slowed by 10% for each pulse, stacking up to 5 times and decaying over 1 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Dark Heart's Protection (Level 13) Xal'atath Casting Dark Heart Ritual Silences enemies inside its radius for 1 second. Xal'atath and allied Heroes gain 30 Spell Armor while inside the Dark Heart's radius."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Crushing Cascade (Level 13) Xal'atath Enemies hit by Void Volley are Slowed by 6% for 1 seconds per projectile, up to 50%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Marked Resilience (Level 16) Xal'atath Basic Attacks against enemy Heroes afflicted by Shadow Mark grant a 160 (+4% per level) point Shield that rapidly decays. Shield starts decaying after 1 second, decays over 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Relentless Whispers (Level 16) Xal'atath While Void Step is active, Xal'atath's Basic Attack Speed is increased by 150%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Fractured Reality (Level 16) Xal'atath +25% Void Volley Projectile Damage Void Volley's projectiles leave behind a trail of fire for 3 seconds, constantly dealing 9 (+4% per level) damage to enemies. Damage is increased the longer a target stands in the flames. Damage is dealt every 0.1875 seconds. Damage increases up to 300%. Damage increase from multiple fires stack."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Harbinger's Consumption (Level 20) Xal'atath Void Eruption splits into 3 orbiting Void Orbs. Each enemy Hero hit by their explosions reduces Void Eruption's cooldown by 14 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Rift Invasion (Level 20) Xal'atath Void Convergence's Void Portal no longer has a life duration, raises the active Void Portal limit to 2, and can spawn and sustain up to 4 Void Minions."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Dueling Orbs (Level 20) Xal'atath +1 Shadow Mark Charge Shadow Mark has a 3 second cooldown between uses."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Unstable Core (Level 20) Xal'atath When the Dark Heart expires or detonates on a target afflicted by Shadow Mark, it leaves behind a pool of void flames for 5 seconds. Enemies in the flames take 45 (+4% per level) damage over time. The flames deal damage every 1 second."
+   },
+   {
+    "slot": 5,
+    "marker": "no",
+    "text": "✘︎ Paradox Loop (Level 20) Xal'atath After completing Void Step, Xal'atath immediately performs a second Void Step in the opposite direction. Added effects are triggered again. Bonus Basic Attack damage stacks up to 3 times"
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Xal'atath's Talent Build",
+   "id": "xal-ataths-talent-build",
+   "text": "Level\nChoices\n1\n?\n✓\n?\n4\n?\n✓\n?\n7\n✓\n✘︎\n?\n10\n?\n✓\n13\n✓\n?\n✘︎\n16\n?\n✘︎\n✓\n20\n?\n?\n?\n✓\n✘︎\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Xal'atath's Talent Build Cheatsheet",
+   "id": "xal-ataths-talent-build-cheatsheet",
+   "text": "Dark Heart Ritual Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Dark Heart Ritual Build controls space, especially at narrow\nchoke points. Dark Heart Ritual\nshould be placed across paths enemies must take to advance or retreat, forcing them to take damage\nand, with Pull of the Dark Heart, be\nSlowed.\nThis Build is also strong on Maps with channeled Objectives, such as\nCursed Hollow and Towers of Doom. With\nAnchored Core, the Dark Heart lasts 10 seconds and\nDark Heart Ritual has a 15-second cooldown. By placing it\non the Objective every 15 seconds, Xal'atath can stall its 6-second channel on\nher own indefinitely, as long as she stays in range and can keep casting.\nVoid Volley Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Void Volley Build maximizes Xal'atath's burst damage and\nadds utility through Dark Heart's Protection's Silence. It\nworks best with allied crowd control, which helps\nstack Void Adept and Void Volley.\nKeep Basic Attacking anything in range to charge Void Volley, then use it to hit\nenemy Heroes whenever possible. Reaching its first 20 Quest stacks is essential\nfor this Build.\nIf your Tank has reliable crowd control, spend the early game\nusing only Basic Attacks and Void Volley until they catch an enemy Hero. Then follow\nup with Shadow Mark and Dark Heart Ritual\nto detonate the Dark Heart on the Marked target.\nWithout reliable allied setup, use Dark Heart Ritual on enemy\nHeroes or Minion waves, then aim Shadow Mark at Heroes leaving its area. In small\nskirmishes, try Shadow Mark first. If you miss, wait 2\nseconds before placing Dark Heart Ritual on the wave. Shadow Mark will be ready\nroughly 4 seconds later; hitting a Hero with its center lets the previously\nplaced Dark Heart pursue and detonate on them for a Void Adept stack while you\nclear the wave.\nVoid Step Build\nNot recommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Void Step Build requires Xal'atath to use Void Step\naggressively in fights to deal damage. Spending her only mobility Ability to close\nin leaves her vulnerable to Stuns. Even if enemies cannot stop her,\nthey can leave Basic Attack range between blinks, making the damage from\nRelentless Whispers inconsistent. For these reasons,\nwe do not recommend this Build.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe ARAM Build focuses on Shadow Mark and stacking\nVoid Adept. To get the most out of the Quest, hold\nDark Heart Ritual until Shadow Mark hits an enemy Hero,\nthen cast it to detonate the Dark Heart on the Marked target. ARAM's frequent fights\nlet Xal'atath stack Void Adept quickly, so she can already deal substantial\nburst damage by Level 7 with Toxic Mark."
+  },
+  {
+   "title": "Level 1 Talents for Xal'atath",
+   "id": "level-1",
+   "text": "?\nVoid Adept\n(Level 1)\nXal'atath\nQuest: Detonate the Dark Heart on targets afflicted by Shadow Mark.\nEach successful detonation permanently increases Shadow Mark and the Dark Heart Ritual Detonation damage by 20, up to 10 times.\n✓\nAnchored Core\n(Level 1)\nXal'atath\nDark Heart Ritual:\n+50% Radius\n+25% Duration\nDark Heart's damage bounces 2 times from the primary target to nearby enemies, dealing 25 (+4% per level) damage.\n?\nCloak of Shadows\n(Level 1)\nXal'atath\nActivating Void Step grants 50% Movement Speed and 25 Spell Armor for 2 seconds. This bonus refreshes each time Xal'atath teleports."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Void Adept is difficult to stack, but is an excellent\nTalent. Shadow Mark is Xal'atath's hardest Ability to hit\nbecause its center is small and its projectile travels very slowly. Since securing\na stack requires multiple conditions, it is better to wait for your team to hit an\nenemy Hero with crowd control before using Shadow Mark.\nAfter Marking the target, you can summon Dark Heart Ritual\nor redirect one that is already on the ground to detonate on them. Try to stack\nthis Quest as quickly as possible, as the resulting damage increase is significant.\nAnchored Core increases the duration and radius of\nDark Heart Ritual, making it especially effective at controlling\nchannel-based Objectives. Place the Dark Heart directly over the interaction point to repeatedly\ninterrupt enemy Heroes with its damage.\nObjectives with a 6-second channel:\nThe Coin turn-in at Captain Blackheart on Blackheart's Bay\nThe Tributes on Cursed Hollow\nThe Altars on Towers of Doom\nWith Anchored Core, the Dark Heart lasts 10 seconds, while Dark Heart Ritual has a\n15-second cooldown. This leaves only 5 seconds between consecutive Dark Hearts, which is shorter\nthan these 6-second channels. As long as Xal'atath remains in range, leaves each Dark Heart\ncovering the Objective, and casts Dark Heart Ritual every 15 seconds, an enemy Hero cannot\nnormally complete the channel during the gap.\nObjectives with a 5-second channel:\nThe Seeds on Garden of Terror\nThe Nuclear Warheads on Warhead Junction\nThe 5-second opening technically gives enemy Heroes enough time to complete these channels,\nbut they have to react immediately after the Dark Heart expires. Doing so reliably is difficult,\nso Xal'atath can stall these Objectives indefinitely in most situations as long as she remains\nin range and casts Dark Heart Ritual every 15 seconds.\nObjectives with a 3-second channel:\nThe Prison Camps on Alterac Pass\nThe Dragon Knight activation point on Dragon Shire\nEnemies have enough time to complete these shorter channels between consecutive Dark Hearts,\nso Anchored Core cannot deny them indefinitely through duration alone. It still forces the enemy\nteam to wait for the Dark Heart to expire or remove Xal'atath before attempting the channel.\nThe increased duration also improves Xal'atath's waveclear when\nshe has to clear a Minion wave without help, although the extra duration is less important when\nan allied Hero is nearby. The increased radius has strong synergy with other Dark Heart Ritual\nTalents, particularly Pull of the Dark Heart and\nUnstable Core. The additional damage bounces do not apply the effects\nof those Talents, but still provide useful damage during team fights.\nCloak of Shadows is Xal'atath's only mobility Talent and it is a good\noption for repositioning safely. Its Movement Speed and Spell Armor are applied when\nVoid Step begins and refreshed by each teleport, then remain active for 2 seconds after the most\nrecent application.\nWhen using Void Step to escape, reactivate it as soon as you reach\nthe position where you want to remain. Waiting for the sequence to end spends part of the\nMovement Speed duration standing still. Even after the third teleport, manually ending\nVoid Step lets Xal'atath move sooner."
+  },
+  {
+   "title": "Level 4 Talents for Xal'atath",
+   "id": "level-4",
+   "text": "?\nCold Feet\n(Level 4)\nXal'atath\n+1s Shadow Mark Duration\nHeroes afflicted by Shadow Mark have their Movement Speed reduced by 25%.\n✓\nDark Barrier\n(Level 4)\nXal'atath\nEach time Dark Heart damages an enemy, Xal'atath gains a Shield equal to 2% of her maximum Health, up to 10%.\n?\nVoid Acolyte\n(Level 4)\nXal'atath\nCompleting Void Step fully charges Void Volley.\nThe next Void Volley deals 25% increased damage and costs no Mana."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Even though Cold Feet increases Shadow Mark's\nduration by 1 second, the slow it provides will only last 4 seconds. This Talent is not necessary for a\nShadow Mark-oriented build, but it is good with the Void Minions from\nVoid Summoner and Void Convergence.\nWe also recommend pairing this Talent with Marked Resilience, as the Slow\nmakes it easier for Xal'atath to chase and hit the Marked target.\nDark Barrier is a good Talent for aggressive play\nin the early game. Cast Dark Heart Ritual\nin the middle of a Minion wave to gain up to 10% of Xal'atath's maximum\nHealth as a Shield: each enemy hit by a pulse grants 2%, so hitting at least\n5 Minions fills it. Further Dark Heart damage refreshes its 5-second duration.\nIts value falls off in the late game as Heroes deal more\nburst damage and fights take place in Minion waves less often.\nVoid Acolyte fully charges\nVoid Volley on the third teleport of\nVoid Step and makes its next cast free and 25% stronger.\nWhen Void Volley is charged, try to cast it before activating Void Step so\nyou do not waste the free recharge. Fire the recharged Volley after Void Step ends.\nCanceling Void Step before the third teleport prevents the recharge, but canceling\nimmediately after the third teleport does not.\nThe free Void Volley does not expire as long as Xal'atath does not Basic Attack\nan enemy. After returning to the Hall of Storms, complete Void Step before\nheading back to a lane to bring a free cast with you."
+  },
+  {
+   "title": "Level 7 Talents for Xal'atath",
+   "id": "level-7",
+   "text": "✓\nToxic Mark\n(Level 7)\nXal'atath\n+1s Shadow Mark Duration\nHeroes affliced with Shadow Mark have their Armor reduced by 10 and take damage equal to 1% of their maximum Health every second.\n✘︎\nSilence of the Lamb\n(Level 7)\nXal'atath\nActivating Void Step summons a seal of void magic on the ground. When the seal completes, it deals 250 (+4% per level) damage to enemies inside and Silences them for 1 seconds.\n?\nVoid Summoner\n(Level 7)\nXal'atath\nActivating Void Step summons a single Void Minion in Xalatath's original postion. Void Minions are attracted to targets afflicted by Shadow Mark.\nVoid Minions automatically choose a nearby lane to push.\nVoid Minion Basic Attacks deal 50 (+4% per level) damage per hit.\nVoid Minion loses Health over 12 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Toxic Mark is the recommended Talent for every Build.\nAfter hitting an enemy Hero with Shadow Mark, Xal'atath\ncan reliably follow up with Dark Heart Ritual and detonate\nit on the Marked target. The Armor reduction increases this burst damage and the\ndamage dealt by Xal'atath's allies. The Armor reduction and percent-based damage\nboth last 4 seconds, even when Shadow Mark's duration is increased.\nSilence of the Lamb only places its Seal of Void\nMagic after Xal'atath completes all three teleports of\nVoid Step without canceling. Requiring the full\nsequence makes the delayed effect too unreliable, and its payoff is not\nstrong enough to justify picking it over\nToxic Mark.\nVoid Summoner is a very situational Talent mostly used\nto speed up Mercenary Camps. The Void Minion it spawns is not as strong as it may seem,\nbut it deals double damage to Minions and Mercenaries. However, like\nSilence of the Lamb, this Talent is overshadowed by\nToxic Mark's strength."
+  },
+  {
+   "title": "Level 10 Talents for Xal'atath",
+   "id": "level-10",
+   "text": "?\nVoid Eruption\n(Level 10)\nXal'atath\nMana: 80\nCooldown: 75 seconds\nChannel a powerful Void Orb that grows over time until reaching maximum size after 2 seconds. Recast to launch the Orb early.\nEnemies that come into contact with the Orb take 112 (+4% per level) damage and are Blinded for 1 second.\nWhen the Orb reaches the end of its path, it detonates in a large explosion, dealing 400 (+4% per level) damage.\nCharging up this Ability increases its contact damage up to 175 (+4% per level) and its explosion damage up to 700 (+4% per level).\nContact damage is dealt every 0.25 seconds.\n✓\nVoid Convergence\n(Level 10)\nXal'atath\nMana: 75\nCooldown: 75 seconds\nAfter channeling for 2 seconds, summon a Void Portal that spawns up to 3 Void Minions to attack nearby enemies.\nYou can have up to 1 active Void Portal.\nEnemies near the Void Portal are Slowed by 25%.\nVoid Minions are attracted to targets afflicted by Shadow Mark.\nThe Portal expires after 20 seconds.\nVoid Minions automatically choose a nearby lane to push.\nVoid Minion Basic Attacks deal 50 (+4% per level) damage per hit.\nVoid Minions lose Health over 12 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "Void Eruption is a strong follow-up Heroic Ability\nfor long and predictable crowd control effects. Its\ncharging time makes it difficult to land on its own, but allied Heroes can set it\nup with Deckard Cain's Stay Awhile and Listen,\nZeratul's Void Prison, or\nMedivh's Ley Line Seal.\nVoid Eruption is also a decent choice against Heroes who rely heavily on Basic\nAttacks and can easily dive Xal'atath. The\nBlind applied to enemies who touch the Orb while it is being\nchanneled should not be overlooked. It gives Xal'atath a way to defend herself\nagainst Heroes such as Greymane, Artanis, and\nThe Butcher.\nVoid Convergence is a good choice on Maps where\nfights tend to happen around the same area, such as Infernal Shrines\nand Volskaya Foundry. You can place the Portal near the Objective\nbut away from enemy Heroes. This way, the Void Minions can reach the fight quickly\nwithout making it easy for enemies to kill the Portal."
+  },
+  {
+   "title": "Level 13 Talents for Xal'atath",
+   "id": "level-13",
+   "text": "✓\nPull of the Dark Heart\n(Level 13)\nXal'atath\nEnemies damaged by the Dark Heart Ritual are Slowed by 10% for each pulse, stacking up to 5 times and decaying over 1 seconds.\n?\nDark Heart's Protection\n(Level 13)\nXal'atath\nCasting Dark Heart Ritual Silences enemies inside its radius for 1 second.\nXal'atath and allied Heroes gain 30 Spell Armor while inside the Dark Heart's radius.\n✘︎\nCrushing Cascade\n(Level 13)\nXal'atath\nEnemies hit by Void Volley are Slowed by 6% for 1 seconds per projectile, up to 50%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Pull of the Dark Heart provides a decent\nSlow and works especially well with\nAnchored Core. The increased radius and duration allow\nDark Heart Ritual to control\nchoke points and disrupt the enemy team's movement.\nHowever, this Talent provides no value if the Dark Heart immediately detonates on an enemy Hero.\nWith this Talent, cast Dark Heart Ritual early to set up Xal'atath's other Abilities.\nIts area control and Slow make Shadow Mark easier to hit.\nDark Heart's Protection is an excellent Talent because\ncasting Dark Heart Ritual Silences\nnearby enemies. This can interrupt important Abilities, such as\nMosh Pit and Deflect.\nThe Silence also makes Shadow Mark easier to hit against\nhigh-mobility Heroes, such as Maiev and Zeratul. Cast Dark Heart\nRitual while Shadow Mark is traveling towards them to prevent them from blinking away.\nThe Spell Armor can also be used to protect Xal'atath\nand her allies from telegraphed damage, such as Pyroblast and\nLightbomb. However, it does not grant Spell Armor until 1\nsecond after Dark Heart Ritual is cast, so prepare accordingly.\nCrushing Cascade's 1.5-second Slow\nis too short to be relevant. Void Volley will usually land\nseveral consecutive projectiles only on enemies who are already\nimmobilized or Slowed, causing much of its Slow to be\nwasted. For these reasons, we do not recommend Crushing Cascade."
+  },
+  {
+   "title": "Level 16 Talents for Xal'atath",
+   "id": "level-16",
+   "text": "?\nMarked Resilience\n(Level 16)\nXal'atath\nBasic Attacks against enemy Heroes afflicted by Shadow Mark grant a 160 (+4% per level) point Shield that rapidly decays.\nShield starts decaying after 1 second, decays over 2 seconds.\n✘︎\nRelentless Whispers\n(Level 16)\nXal'atath\nWhile Void Step is active, Xal'atath's Basic Attack Speed is increased by 150%.\n✓\nFractured Reality\n(Level 16)\nXal'atath\n+25% Void Volley Projectile Damage\nVoid Volley's projectiles leave behind a trail of fire for 3 seconds, constantly dealing 9 (+4% per level) damage to enemies. Damage is increased the longer a target stands in the flames.\nDamage is dealt every 0.1875 seconds.\nDamage increases up to 300%.\nDamage increase from multiple fires stack."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Marked Resilience can help Xal'atath win almost every\nskirmish after she Marks an enemy Hero with\nShadow Mark. Basic Attacks against the Marked target\nrefresh the Shield, which lasts about 1.3 seconds. Xal'atath must keep\nattacking the Marked Hero to maintain it.\nBecause this Talent is obtained in the late game, these\nsmall skirmishes become less common. For this reason, consider Marked Resilience only\nwhen paired with Cold Feet and Toxic Mark,\nas Shadow Mark will last for 6 seconds.\nRelentless Whispers is an underwhelming Talent.\nAlthough it sounds good on paper, hitting the same target several times while\nblinking around them is extremely difficult. It also requires Xal'atath to use\nher only mobility Ability for a possible damage increase. Therefore, this Talent\nis not recommended.\nFractured Reality adds a good amount of damage to\nVoid Volley and is more reliable than the other options\nat this tier. The fire trails are a useful zoning tool against melee Heroes and enemies advancing\ntowards Xal'atath's team. This also gives her a minor tool for\npeeling.\nAfter choosing this Talent, cast Void Volley at maximum range whenever possible.\nLonger casts create longer fire trails, allowing them to cover more ground."
+  },
+  {
+   "title": "Level 20 Talents for Xal'atath",
+   "id": "level-20",
+   "text": "?\nHarbinger's Consumption\n(Level 20)\nXal'atath\nVoid Eruption splits into 3 orbiting Void Orbs. Each enemy Hero hit by their explosions reduces Void Eruption's cooldown by 14 seconds.\n?\nRift Invasion\n(Level 20)\nXal'atath\nVoid Convergence's Void Portal no longer has a life duration, raises the active Void Portal limit to 2, and can spawn and sustain up to 4 Void Minions.\n?\nDueling Orbs\n(Level 20)\nXal'atath\n+1 Shadow Mark Charge\nShadow Mark has a 3 second cooldown between uses.\n✓\nUnstable Core\n(Level 20)\nXal'atath\nWhen the Dark Heart expires or detonates on a target afflicted by Shadow Mark, it leaves behind a pool of void flames for 5 seconds. Enemies in the flames take 45 (+4% per level) damage over time.\nThe flames deal damage every 1 second.\n✘︎\nParadox Loop\n(Level 20)\nXal'atath\nAfter completing Void Step, Xal'atath immediately performs a second Void Step in the opposite direction. Added effects are triggered again.\nBonus Basic Attack damage stacks up to 3 times"
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Harbinger's Consumption is not recommended.\nIts orbiting Orbs' damage does not scale with Xal'atath's level, greatly\nreducing the damage of Void Eruption as the game\nprogresses. They also orbit Xal'atath instead of remaining in front of her,\nmaking it harder to damage enemies while charging and to aim the Orbs\nafter allied crowd control.\nRift Invasion lets Void Portals remain until destroyed\nor replaced and allows Xal'atath to have 2 Portals active at once. They continue\nspawning Void Minions, and the extra Minion adds more pressure around them.\nThis upgrade is excellent on Maps with predictable Objective locations, such as\nVolskaya Foundry or Infernal Shrines. Because you know where the\nnext Objective will appear, you can place a Portal nearby minutes in advance. Once the Objective\nspawns, cast a second Portal so enemies must deal with both during the fight.\nOn Maps where the next Objective location is less predictable, you can instead\nplace a Portal near a lane to help defend it between team fights.\nDueling Orbs is excellent if you picked\nVoid Adept at Level 1. Its damage bonus makes each\nadditional Shadow Mark cast much more threatening,\nwhile the second charge gives you more chances to Mark an enemy Hero and detonate\nDark Heart Ritual on them.\nWhile Dueling Orbs is a good choice for a Shadow Mark\nBuild, Unstable Core is excellent alongside\nAnchored Core at Level 1. Anchored Core greatly increases\nthe radius of the flames left behind when the Dark Heart expires or detonates on\na Marked target.\nAnchored Core makes the Dark Heart last 10 seconds. When it expires,\nUnstable Core leaves flames behind for another 5 seconds, covering\nthe rest of Dark Heart Ritual's 15-second cooldown. By casting it on the same spot\nwhenever it is available, Xal'atath can keep interrupting attempts to capture\nthe Prison Camps on Alterac Pass or the Dragon Knight on\nDragon Shire, even though their channels only take 3 seconds.\nParadox Loop makes\nVoid Step repeat in the opposite direction,\nending at the same point as a normal Void Step. The\nadditional teleports trigger effects such as\nCloak of Shadows and\nVoid Summoner again. However,\nVoid Acolyte does not recharge\nVoid Volley when Paradox Loop is active.\nEach teleport can add Basic Attack damage, but the bonus is still capped at\n30%, so the extra teleports do not keep increasing it. Paradox Loop also keeps\nXal'atath in Void Step longer, leaving more time for enemies to stop her with\ncrowd control before she finishes. Since it is\nunlikely that the enemy team has no way to do so, we do not recommend this Talent."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Sep. 2026: Updated Talent recommendations and Builds.\n28 Sep. 2026: Talents page added.\nShow more\nShow less"
+  }
+ ]
+}

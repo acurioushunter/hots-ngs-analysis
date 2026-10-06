@@ -1,0 +1,265 @@
+{
+ "slug": "malganis",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/malganis-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/malganis-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/malganis-talents"
+ },
+ "guide": [
+  {
+   "title": "Mal'Ganis's Overview",
+   "id": "mal-ganiss-overview",
+   "text": "Mal'Ganis is a Tank who relies on a really good amount of\nself-sustain to stay alive, allowing him to harass\nthe enemy backline in order to create space for his team.\nBe careful while playing him because most of his Abilities can be\ninterrupted by crowd control\neffects (say Raynor using his knockback to\nmess up Night Rush), something that can easily become\nfrustrating, especially if you do not pay enough attention to it and/or not\nadapt your playstyle accordingly."
+  },
+  {
+   "title": "Mal'Ganis's Strengths and Weaknesses",
+   "id": "mal-ganiss-strengths-and-weaknesses",
+   "text": "Strengths\nHigh survivability\nDecent damage output\nGood crowd control\nDecent waveclear\nWeaknesses\nWeak to kiting (e.g. Lunara)\nVulnerable to interrupts, especially on his Heroic Abilities\nNot able to peel from high mobility Heroes (like Illidan)\nWeak to Root (e.g. Deckard Cain)"
+  },
+  {
+   "title": "Mal'Ganis's Talent Build Cheatsheet",
+   "id": "mal-ganiss-talent-build-cheatsheet",
+   "text": "Necrotic Embrace Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMal'Ganis's Necrotic Embrace Build is designed to get as much value as possible\nfrom the Hero by increasing his survivability. Talents that increase his damage\ncontribute to this plan as well because Vampiric Touch\nheals Mal'Ganis based on damage dealt.\nFel Claws Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMal'Ganis's Fel Claws Build allows you to crowd control\nmultiple enemy Heroes when they group too much, damaging them and keeping them\nin place for your team to follow-up.\nWhen you successfully Stun enemy Heroes,\nactivate Blind as a Bat at Level 16\nand spam Fel Claws on the same targets.\nThis play is pretty good for securing Boss Camps when contested.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMal'Ganis's ARAM is designed to get as much value as possible\nfrom the Hero by increasing his survivability. Talents that increase his damage\ncontribute to this plan as well because Vampiric Touch\nheals Mal'Ganis based on damage dealt.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Mal'Ganis's Synergies and Counters",
+   "id": "mal-ganiss-synergies-and-counters",
+   "text": "Mal'Ganis synergizes with\nMal'Ganis performs better with a Mage\n(such as Kel'Thuzad) that can follow up on his\ncrowd control or with some Bruisers\n(like Sonya) or some Melee Assassins\n(such as Illidan) that can dive on a given target\nHero while the rest of the enemy team is Sleeping.\nMal'Ganis is countered by\nMal'Ganis is susceptible to enemy Heroes that can quickly Displace him away during\nNight Rush (such as Raynor with\nPenetrating Round) or lock him down with\ncrowd control to deny him any chance to use his\nHeroic Ability (like Garrosh with\nWarlord's Challenge) while he is getting\nfocused down to death. Heroes with a lot of\nmobility (such as Zeratul) are hard to hit for\nMal'Ganis, so he will not be able to provide any peeling\nfrom them. Heroes with a lot of range (such as Hanzo) can easily\nkite Mal'Ganis, rendering him quite unimpactful. Another\nweakness he has is the fact that Heroes with Roots\n(such as Deckard Cain) can stop Mal'Ganis in place during\nNight Rush."
+  },
+  {
+   "title": "Mal'Ganis's Maps",
+   "id": "mal-ganiss-maps",
+   "text": "Mal'Ganis's stronger maps\nMal'Ganis's average maps\nMal'Ganis's weaker maps\nMal'Ganis is good on Maps that have narrow passages and corridors, allowing\nhim to get amazing area of effect\nvalue from most of his Abilities, and/or where the Objective does not\nspawn too often because he really needs his Heroic Ability in order to\nbe a complete Hero, but he is bad on Maps that do not have good places where\nto flank from."
+  },
+  {
+   "title": "Mal'Ganis's Tips and Tricks",
+   "id": "mal-ganiss-tips-and-tricks",
+   "text": "Since his engage tools have a limited range, it is better to flank enemy Heroes.\nUsing Night Rush immediately after the third activation of Fel Claws will make it hard for the focused enemy Hero to react between the Stun and the Sleep.\nIt is advised to crowd control nearby enemy Heroes before using your Heroic Ability, so that they cannot interrupt it.\nSometimes it is useful not to use Fel Claws three times in quick succession to keep its Stun ready, to use the next activation for mobility, or to maximize your damage output by using Basic Attacks in between.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Mal'Ganis's Role in the Current Meta",
+   "id": "mal-ganiss-role-in-the-current-meta",
+   "text": "Mal'Ganis is a situational Tank\nthat excels when paired with Heroes who can easily\nfollow up on his engage with\nburst damage and/or additional\ncrowd control. During team fights, he is able to\nsurvive in the enemy backline for a while, wreaking\nhavoc in the enemy formation while providing distraction for his allies to do\ntheir work.\nSince his engage does not have a lot of range, it is advised\nto rely a lot on flanking when playing him,\nhowever, some Heroes can play around that strategy by giving vision\n(say Chromie with her Time Trap) and some Tank\nplayers can predict this strategy and position on key points to nullify it."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026 (talents page): Guide reviewed for the latest Balance Update.\n30 Sep. 2026 (abilities page): Guide reviewed for the latest Balance Update.\n30 Sep. 2026 (this page): Guide reviewed for the latest Balance Update.\n20 Jul. 2026 (talents page): Guide updated for the latest Patch.\n20 Jul. 2026 (abilities page): Guide updated for the latest Patch.\n20 Jul. 2026 (this page): Guide updated for the latest Patch.\n13 Jun. 2026 (talents page): Guide reviewed.\n13 Jun. 2026 (abilities page): Guide reviewed.\n13 Jun. 2026 (this page): Guide reviewed.\n12 May 2026 (talents page): Guide updated for the latest Balance Update.\n12 May 2026 (abilities page): Guide updated for the latest Balance Update.\n12 May 2026 (this page): Guide updated for the latest Balance Update.\n23 Apr. 2026 (talents page): Guide updated for the latest Balance Update.\n23 Apr. 2026 (abilities page): Guide updated for the latest Balance Update.\n23 Apr. 2026 (this page): Guide updated for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n11 Apr. 2025 (talents page): Level 7 Talents Description improved.\n17 Dec. 2023 (talents page): Guide reviewed.\n17 Dec. 2023 (this page): Guide reviewed.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n19 Aug. 2023 (talents page): Level 4 Talents Description improved.\n28 Jun. 2021 (talents page): Dark Conversion's Description improved.\n28 Jun. 2021 (abilities page): Dark Conversion's Description improved.\n26 Apr. 2021 (talents page): Builds updated.\n26 Apr. 2021 (this page): Builds updated.\n03 Mar. 2021 (talents page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (this page): Guide reviewed for the latest Balance Update.\n25 Feb. 2021 (talents page): New layout.\n05 Nov. 2020 (talents page): Guide updated for the latest Balance Update.\n05 Nov. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n05 Nov. 2020 (this page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (talents page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (abilities page): Guide reviewed for the latest Balance Update.\n16 Jul. 2020 (this page): Guide reviewed for the latest Balance Update.\n25 Jun. 2020 (talents page): Builds and Descriptions changed according to the latest Patch.\n25 Jun. 2020 (abilities page): Abilities section reviewed.\n25 Jun. 2020 (this page): Builds and Descriptions changed according to the latest Patch.\n22 Mar. 2020 (talents page): Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n22 Mar. 2020 (abilities page): Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n22 Mar. 2020 (this page): Introduction fully revised to match new standards.\nOverview rewritten to better describe the Hero.\nStrengths and Weaknesses modified to give a better idea about the Hero when being played right.\nTalent Build Cheatsheet updated to reflect the current metagame.\nSynergies and Counters modified to mention notable Heroes that were missing and to remove misleading Heroes that were listed.\nMaps modified to focus on the main aspects of the Hero when evaluating a Map.\nTips and Tricks modified to list important tips that were missing before and to delete more obvious ones.\nRole in the Current Meta modified to reflect the current metagame and to remove the unnecessary part about the now fixed Experience Globes.\n14 Feb. 2020 (talents page): Guide revised in accordance to the latest Balance Update and found no changes were needed.\n03 Dec. 2019 (talents page): Builds updated and changed Blood Rush to Recommended.\n03 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n19 Jun. 2019 (talents page): Talents and Builds updated to better reflect the current state of the game.\n19 Jun. 2019 (abilities page): Updated Mal'Ganis's Abilities page to better reflect the current state of the game.\n16 Oct. 2018 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Mal'Ganis's Tips and Tricks",
+   "id": "mal-ganiss-tips-and-tricks",
+   "text": "Since his engage tools have a limited range, it is better to flank enemy Heroes.\nUsing Night Rush immediately after the third activation of Fel Claws will make it hard for the focused enemy Hero to react between the Stun and the Sleep.\nIt is advised to crowd control nearby enemy Heroes before using your Heroic Ability, so that they cannot interrupt it.\nSometimes it is useful not to use Fel Claws three times in quick succession to keep its Stun ready, to use the next activation for mobility, or to maximize your damage output by using Basic Attacks in between."
+  },
+  {
+   "title": "Fel Claws",
+   "id": "fel-claws",
+   "text": "Fel Claws\n(Q)\nMal'Ganis\nMana: 45\nCooldown: 8 seconds\nViolently slash in the chosen direction, dealing 66 (+4% per level) damage to enemies.\nReactivate to slash up to 2 more times. The third slash Stuns enemies for 0.75 seconds.\nFel Claws consists of an\narea of effect swipe that affects all enemies\ncaught within its path. The unique aspect of this Ability is that it can be\nreactivated twice per cooldown, but only within 3 seconds of casting it.\nEven if you cannot immediately see the\ncooldown ticking, it starts counting as soon as you cast the first slash.\nThe last reactivation will also Stun all enemies hit. Although you can\ndo a good amount of damage with Fel Claws, you should\ngenerally use it as a form of engage, peeling,\nor to get out of danger when needed."
+  },
+  {
+   "title": "Necrotic Embrace",
+   "id": "necrotic-embrace",
+   "text": "Necrotic Embrace\n(W)\nMal'Ganis\nMana: 35\nCooldown: 8 seconds\nDesecrate the air, dealing 121 (+4% per level) damage to nearby enemies and gaining 15 Spell Armor for 3 Seconds.\nThis ability's base damage provides double healing from Vampiric Touch.\nNecrotic Embrace is a versatile Basic Ability which can\nbe used defensively and/or offensively depending on the situation. You can use it\noffensively when you need to deal damage and defensively when you need survivability.\nIf you use it both offensively and defensively at the same time, you get even more\nvalue because its damage gets converted into healing with double value from\nVampiric Touch.\nWhen fighting against enemy Heroes, try to cast Necrotic Embrace when you expect\ncrowd control and/or burst damage\nto hit you really soon, so that you will have 15 Spell Armor\nwhile taking damage. If you need to finish off an enemy Hero, do not hesitate\nto use this Ability only for dealing damage to help secure the kill."
+  },
+  {
+   "title": "Night Rush",
+   "id": "night-rush",
+   "text": "Night Rush\n(E)\nMal'Ganis\nMana: 70\nCooldown: 14 seconds\nAfter 0.63 seconds, gain 50% Movement Speed for 2 seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for 2.5 seconds.\nAfter a short cast time,\nNight Rush grants Mal'Ganis a nice boost in Movement Speed.\nAny enemy Hero getting in contact with him during the effect will be put to\nSleep for a few seconds. Remember that it also makes Mal'Ganis immune to\ncollision with Heroes for the duration.\nIf you want to pass through enemy Heroes, use it. If you want to\nbody block an enemy Hero, then you have to cancel\nit by pressing the same key again."
+  },
+  {
+   "title": "Carrion Swarm",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nCarrion Swarm\n(R)\nMal'Ganis\nHeroic\nMana: 70\nCooldown: 100 seconds\nAfter 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 120 (+4% per level) damage per second to enemies.\nVampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.\nCarrion Swarm can deal moderate damage to several enemy Heroes\nwhile also healing Mal'Ganis a sizable amount, however, it is mostly used as a great source\nof survivability and escape, especially after getting quickly burst down after\nengaging. Keep in mind\nthat we are talking about a mobile channeled Ability\nthat requires a short cast time, therefore it can easily be\ninterrupted by a careful enemy player using\nStun or Silence effects, but not\nknockback effects. If it happens to be interrupted, Mal'Ganis\nwill have a very difficult time to survive. For the same reason, it is highly\nadvised not to engage or play aggressively when it is on cooldown."
+  },
+  {
+   "title": "Dark Conversion",
+   "id": "dark-conversion",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDark Conversion\n(R)\nMal'Ganis\nHeroic\nMana: 60\nCooldown: 60 seconds\nChannel on an enemy Hero for 0.75 seconds, then swap Health percentages with the target over 3 seconds.\nDark Conversion is a unique Heroic\nAbility that requires quite a bit of finesse to effectively pull off. After a\nshort cast time, it causes Mal'Ganis to swap Health percentages with the target\nHero. Remember to make sure that the Health percentage of the enemy Hero is\nhigher than Mal'Ganis's Health percentage, else it will end up healing the enemy\nHero instead of dealing damage to it and damaging Mal'Ganis instead of\nhealing him. Due to how it works, it deals more damage on Heroes that have high maximum Health\n(such as Stitches), however, it is not considered percent-based damage,\ntherefore it can be affected by damage modifers. A well-timed interrupt\nwill deny its cast and put it on a 10-second cooldown."
+  },
+  {
+   "title": "Vampiric Touch",
+   "id": "vampiric-touch",
+   "text": "Vampiric Touch\n(D)\nMal'Ganis\nPassive\nMal'Ganis heals for 50% of damage dealt to enemy Heroes and 15% of damage dealt to non-Heroes.\nWhile not being Mal'Ganis's strongest surviving tool when in trouble,\nVampiric Touch is his primary source of survivability\nwhile fighting in close range. The low but consistent self-healing it provides\nis something that the enemy team should not overlook because it easily adds up.\nAlthough the healing is way higher when damaging Heroes, it is good to know that\nit works when hitting non-Heroes as well."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026: Guide reviewed for the latest Balance Update.\n20 Jul. 2026: Guide updated for the latest Patch.\n13 Jun. 2026: Guide reviewed.\n12 May 2026: Guide updated for the latest Balance Update.\n23 Apr. 2026: Guide updated for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n28 Jun. 2021: Dark Conversion's Description improved.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n05 Nov. 2020: Guide reviewed for the latest Balance Update.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n25 Jun. 2020: Abilities section reviewed.\n22 Mar. 2020: Ability and Strategy fully revised to match new standards.\nTips and Tricks modified to add important tips that were missing and to remove obvious ones that were not worth mentioning.\nAbility Descriptions modified to better explain how to use Abilities effectively.\n19 Jun. 2019: Updated Mal'Ganis's Abilities page to better reflect the current state of the game.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Will of Tichondrius (Level 1) Mal'Ganis Quest: Hit Heroes with Fel Claws to permanently increase Fel Claw's damage by 0.25. Quest: Hit 4 Heroes in the first 2 slashes to cause the final slash to increase damage by 1. Reward: Upon gaining 20 bonus damage, the final Stun is increased by 0.25 seconds and the final slash steals 4% of enemy Hero Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Winged Guard (Level 1) Mal'Ganis Each time Necrotic Embrace hits an enemy Hero, gain 75 Physical Armor against the next enemy Hero Basic Attack. If Winged Guard has no charges, Mal'Ganis will gain 1 charge after 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Time to Feed (Level 1) Mal'Ganis Mal'Ganis heals for 70 (+4% per level) when damaging a nearby enemy Hero. This can occur once every 6 seconds against each enemy Hero, but is also refreshed when they are Slept by Night Rush."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Might of Sargeras (Level 4) Mal'Ganis Necrotic Embrace now provides 35 Armor for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Echo of Doom (Level 4) Mal'Ganis When Necrotic Embrace expires, it explodes again for 68 (+4% per level) damage. For each enemy Hero hit, gain 5 Mana and reduce the cooldown of Necrotic Embrace by 0.75 seconds. Does not wake Sleeping targets."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Vampiric Aura (Level 4) Mal'Ganis Mal'Ganis heals for 40% of Physical Damage dealt, and nearby allied Heroes heal for 20% of Physical Damage dealt."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Black Claws (Level 7) Mal'Ganis After Mal'Ganis hits an enemy Hero with Fel Claws, his next Basic Attack deals 60% more damage and reduces the Armor of enemy Heroes by 15 for 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Fueled by Torment (Level 7) Mal'Ganis Necrotic Embrace now Slows nearby enemies by 25% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Spreading Plague (Level 7) Mal'Ganis After casting Night Rush, deal 33 (+4% per level) damage per second to nearby enemies. This effect lasts for 5 seconds and Basic Attacks against Heroes refresh its duration. Does not wake Sleeping targets."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Carrion Swarm (Level 10) Mal'Ganis Mana: 70 Cooldown: 100 seconds After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 120 (+4% per level) damage per second to enemies. Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Dark Conversion (Level 10) Mal'Ganis Mana: 60 Cooldown: 60 seconds Channel on an enemy Hero for 0.75 seconds, then swap Health percentages with the target over 3 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Deep Sleep (Level 13) Mal'Ganis Increase Night Rush's Sleep duration by 0.75 seconds and its Movement Speed bonus by 15%."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "The Night Beckons (Level 13) Mal'Ganis Basic Attacks deal 200% bonus damage to Sleeping enemies. After Night Rush's Sleep ends, targets are Slowed by 30% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Blood Rush (Level 13) Mal'Ganis When Mal'Ganis is healed by a Hero, he gains 1% Movement Speed for 6 seconds, up to 15%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Plague Bats (Level 16) Mal'Ganis Necrotic Embrace unleashes a wave of bats in front of Mal'Ganis, dealing 81 (+4% per level) damage."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Frenzied Assault (Level 16) Mal'Ganis Basic Attacks against Heroes with a higher Health percentage heal for an additional 50% of damage dealt. Basic Attacks against Heroes with a lower Health percentage grant 35% Attack Speed for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Blind as a Bat (Level 16) Mal'Ganis Cooldown: 60 seconds Activate to erupt with blind rage, removing the cooldown and Mana cost of Fel Claws, but losing all vision. Lasts 5.5 seconds. Enemy Heroes hit by the final slash of Fel Claws reduces the cooldown of this Ability by 4 seconds. Does not provide quest stacks while active."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Seeker Swarm (Level 20) Mal'Ganis Upon expiring, Carrion Swarm's bats seek nearby enemy Heroes, dealing 132 (+4% per level) damage and Sleeping them for 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Wrath of Nathreza (Level 20) Mal'Ganis Enemy Heroes near the target suffer 85% of the transferred Health as damage over 3 seconds. Does not benefit from Vampiric Touch."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Vanquish the Weak (Level 20) Mal'Ganis Damage from Fel Claws and Basic Attacks Slows enemies by 25% for 1.5 seconds, and Vampiric Touch converts 10% more damage into healing versus Slowed Heroes."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Alone in the Dark (Level 20) Mal'Ganis Reduce the cooldown of Night Rush by 4 seconds. Enemy Heroes put to Sleep by Night Rush have their vision greatly reduced during the Sleep and for 2 seconds after."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Mal'Ganis's Talent Build",
+   "id": "mal-ganiss-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n?\n7\n?\n?\n✓\n10\n✓\n?\n13\n?\n✘︎\n✓\n16\n✓\n?\n?\n20\n✓\n✘︎\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Mal'Ganis's Talent Build Cheatsheet",
+   "id": "mal-ganiss-talent-build-cheatsheet",
+   "text": "Necrotic Embrace Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMal'Ganis's Necrotic Embrace Build is designed to get as much value as possible\nfrom the Hero by increasing his survivability. Talents that increase his damage\ncontribute to this plan as well because Vampiric Touch\nheals Mal'Ganis based on damage dealt.\nFel Claws Build\nSituational\nLevel 1\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMal'Ganis's Fel Claws Build allows you to crowd control\nmultiple enemy Heroes when they group too much, damaging them and keeping them\nin place for your team to follow-up.\nWhen you successfully Stun enemy Heroes,\nactivate Blind as a Bat at Level 16\nand spam Fel Claws on the same targets.\nThis play is pretty good for securing Boss Camps when contested.\nARAM Build\nARAM\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMal'Ganis's ARAM is designed to get as much value as possible\nfrom the Hero by increasing his survivability. Talents that increase his damage\ncontribute to this plan as well because Vampiric Touch\nheals Mal'Ganis based on damage dealt."
+  },
+  {
+   "title": "Level 1 Talents for Mal'Ganis",
+   "id": "level-1",
+   "text": "?\nWill of Tichondrius\n(Level 1)\nMal'Ganis\nQuest: Hit Heroes with Fel Claws to permanently increase Fel Claw's damage by 0.25.\nQuest: Hit 4 Heroes in the first 2 slashes to cause the final slash to increase damage by 1.\nReward: Upon gaining 20 bonus damage, the final Stun is increased by 0.25 seconds and the final slash steals 4% of enemy Hero Health.\nWill of Tichondrius is a good Talent that increases\nthe damage done by Fel Claws. Hit enemy Heroes with\nFel Claws to gain 0.25 damage bonus. In addition to that, if you hit 4 enemy\nHeroes with the first 2 slashes, the final slash will grant 1 damage bonus.\nUpon gaining 20 bonus damage, Fel Claws steals 4% of maximum Health from\nenemy Heroes and the final slash Stun enemies\nfor an additional 0.25 seconds, so for a total of 1 second.\nWe find this Talent useful against Heroes that have high maximum Health\n(such as Stitches), especially if they have Armor\n(like Deathwing). Do not worry about the fact you will not always\nbe able to get full value out of it by hitting multiple enemy\nHeroes at the same time with a single Fel Claws\nto get the bonus Stun duration.\nIf you plan to pick Blind as a Bat at Level 16,\nyou should heavily prefer picking this Talent. By making the\nStun from Fel Claws last\nslightly longer, this Talent makes it easier to hit enemy Heroes multiple\ntimes in quick succession during Blind as a Bat.\nNote that they will always have a small time window to react between Stuns.\n?\nWinged Guard\n(Level 1)\nMal'Ganis\nEach time Necrotic Embrace hits an enemy Hero, gain 75 Physical Armor against the next enemy Hero Basic Attack.\nIf Winged Guard has no charges, Mal'Ganis will gain 1 charge after 5 seconds.\nWinged Guard is a situational Talent that gives\nPhysical Armor in the form of\nBlock charges\nwhen hitting enemy Heroes with Necrotic Embrace. Furthermore,\nif you stay at 0 Block charges for 5 seconds, you passively gain 1 Block charge.\nBlock charges are especially valuable\nwhen facing Heroes with slow but heavy-hitting Basic Attacks (such as Hanzo) and\nterrible when playing against Heroes with fast-hitting Basic Attacks (D.Va,\nGenji, Kharazim, Lúcio, Tassadar, Tracer,\nand Tychus). Heroes with Clones (for example Nova) can consume them faster\ntoo, however, it is generally not a problem because their AI will not always target you.\n✔\nTime to Feed\n(Level 1)\nMal'Ganis\nMal'Ganis heals for 70 (+4% per level) when damaging a nearby enemy Hero. This can occur once every 6 seconds against each enemy Hero, but is also refreshed when they are Slept by Night Rush.\nTime to Feed is a good Talent to increase\nMal'Ganis's survivability when hitting enemy Heroes.\nOnce picked, this Talent will show a mark on any nearby Hero that can\ntrigger the bonus healing when damaged by Mal'Ganis.\nThe unique effect of this Talent consists of healing Mal'Ganis for a fixed\namount each time he damages an enemy Hero, but only once every 6 seconds per\nenemy Hero. Sleeping enemy Heroes with\nNight Rush will refresh their mark,\nallowing you to heal again from the same Hero before the 6-second cooldown expires.\nHitting enemy Heroes with Carrion Swarm\nor even with Seeker Swarm at Level 20\nwill trigger this Talent as well."
+  },
+  {
+   "title": "Level 4 Talents for Mal'Ganis",
+   "id": "level-4",
+   "text": "✔\nMight of Sargeras\n(Level 4)\nMal'Ganis\nNecrotic Embrace now provides 35 Armor for 3 seconds.\nMight of Sargeras is a strong Talent\nwhich upgrades Necrotic Embrace's defensive\neffect from 15 Spell Armor to\n35 Armor. This effect can be used\nto make Mal'Ganis quite resistant when he needs it the most.\nIn particular, having more Armor\nis great for mitigating burst damage.\nAgainst coordinated opponents, make sure to activate it before\nbeing hit by crowd-control effects:\nusing it when at low Health will result in less damage reduction.\n?\nEcho of Doom\n(Level 4)\nMal'Ganis\nWhen Necrotic Embrace expires, it explodes again for 68 (+4% per level) damage. For each enemy Hero hit, gain 5 Mana and reduce the cooldown of Necrotic Embrace by 0.75 seconds.\nDoes not wake Sleeping targets.\nEcho of Doom is a decent Talent that makes\nNecrotic Embrace explode for about half its damage\nafter 3 seconds. Each enemy Hero hit reduce its cooldown and restores Mana.\nThe explosion does not break Sleep, so you do not have to worry about it.\nYou may want to pick this Talent when you really want additional damage against enemy Heroes\nand/or, more importantly, to compensate the lack of clear in your team.\n?\nVampiric Aura\n(Level 4)\nMal'Ganis\nMal'Ganis heals for 40% of Physical Damage dealt, and nearby allied Heroes heal for 20% of Physical Damage dealt.\nVampiric Aura is a decent Talent that\nheals Mal'Ganis for 40% of the Physical Damage dealt and allied Heroes\nand 20% of the Physical Damage dealt.\nWe find this Talent useful to help allied Heroes that use Basic Attacks a\nlot and that like to have additional survivability (such as Greymane).\nSince it provides healing, this Talent pairs well with Armor\neffects (for example Avoidance by Cassia).\nRemember that allied Heroes must be within 8 range to benefit from this Talent.\nFurthermore, due to it being based on Basic Attacks, enemy Heroes who have access to\nBlinds (notably Johanna) can make this Talent less effective."
+  },
+  {
+   "title": "Level 7 Talents for Mal'Ganis",
+   "id": "level-7",
+   "text": "?\nBlack Claws\n(Level 7)\nMal'Ganis\nAfter Mal'Ganis hits an enemy Hero with Fel Claws, his next Basic Attack deals 60% more damage and reduces the Armor of enemy Heroes by 15 for 2 seconds.\nBlack Claws is a good Talent that increases your\nAttack Damage after every usage of Fel Claws and make\nthem reduce the Armor of enemy Heroes by a decent amount\nfor a few seconds.\nWhen possible, try to alternate Fel Claws and\nBasic Attacks to increase the uptime of the Armor debuff.\nWhen not possible, even if you will get less value from this Talent by using all\ncharges of Fel Claws in quick succession, the Armor\nreduction bonus will still help you and your team deal more damage.\nWe find this Talent useful when your team is trying to burst\ndown enemy Heroes and/or when playing against Heroes who have\nArmor increase effects (for example Deathwing).\n?\nFueled by Torment\n(Level 7)\nMal'Ganis\nNecrotic Embrace now Slows nearby enemies by 25% for 3 seconds.\nFueled by Torment is a decent Talent which causes\nNecrotic Embrace to apply a moderate Slow\nto enemies (including non-Heroes) who take damage from it.\nIf you have this Talent, you can use Necrotic Embrace\nright before Fel Claws to make it slightly harder for\nenemy Heroes to dodge you. This is only useful if they have\nMovement Speed buffs, otherwise they would be easy enough to hit.\n✔\nSpreading Plague\n(Level 7)\nMal'Ganis\nAfter casting Night Rush, deal 33 (+4% per level) damage per second to nearby enemies. This effect lasts for 5 seconds and Basic Attacks against Heroes refresh its duration.\nDoes not wake Sleeping targets.\nSpreading Plague is a good Talent that gives\nMal'Ganis more sustain damage in an area around him,\nand therefore more self-sustain\nfrom Vampiric Touch.\nRemember that hitting the affected Hero with a\nBasic Attack will refresh its duration, however, the effect provided is strong\nenough even if you cannot refresh it multiple times.\nThe area of effect damage done by\nSpreading Plague can trigger\nTime to Feed at Level 1 without waking up\nSleeping targets and can provide\nMovement Speed via Blood Rush at Level 13.\nIf you have this Talent, you can use Night Rush\nfor clearing Minions when necessary, but keep an eye on your positioning\nand Mana when doing so because that is your only mobility\ntool and it is your most expensive Basic Ability."
+  },
+  {
+   "title": "Level 10 Talents for Mal'Ganis",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nCarrion Swarm\n(Level 10)\nMal'Ganis\nMana: 70\nCooldown: 100 seconds\nAfter 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 120 (+4% per level) damage per second to enemies.\nVampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.\nCarrion Swarm is the preferred choice because of\ntwo main reasons: it has a shorter cast time compared to\nDark Conversion and it can be cast while moving,\nmeaning that knockback effects (say Raynor\nwith Penetrating Round)\nand other daze effects will not\ninterrupt it.\n?\nDark Conversion\n(Level 10)\nMal'Ganis\nMana: 60\nCooldown: 60 seconds\nChannel on an enemy Hero for 0.75 seconds, then swap Health percentages with the target over 3 seconds.\nDark Conversion is situational for when there is\nan urgent need of additional damage, usually because the enemy team has a Hero\nwith high maximum Health (like Stitches)\nwithout ways to mitigate Spell Damage\nas this Ability does not deal percent-based damage\ndespite being based on maximum Health.\nNote that Dark Conversion is easier to\ninterrupt than Carrion Swarm.\nSince it is a stationary channel instead\nof a mobile channel, it can also be\ninterrupted by Knockback effects."
+  },
+  {
+   "title": "Level 13 Talents for Mal'Ganis",
+   "id": "level-13",
+   "text": "?\nDeep Sleep\n(Level 13)\nMal'Ganis\nIncrease Night Rush's Sleep duration by 0.75 seconds and its Movement Speed bonus by 15%.\nDeep Sleep is a situational Talent that provides\n15% additional Movement Speed during Night Rush\non top of the baseline 50% additional Movement Speed,\nallowing you to move at 165% total Movement Speed. This effect can be used to better close\nthe gap with the enemy Heroes you want to engage.\n✘\nThe Night Beckons\n(Level 13)\nMal'Ganis\nBasic Attacks deal 200% bonus damage to Sleeping enemies. After Night Rush's Sleep ends, targets are Slowed by 30% for 3 seconds.\nThe Night Beckons is a weak Talent because, while\nit can be used to apply a decent Slow to all enemy Heroes,\nit competes with Talents that actually help Mal'Ganis to reach the enemy\nHeroes in the first place, something that is way more important for him.\n✔\nBlood Rush\n(Level 13)\nMal'Ganis\nWhen Mal'Ganis is healed by a Hero, he gains 1% Movement Speed for 6 seconds, up to 15%.\nBlood Rush is a strong Talent in most if not all\nmatches because it provides Mal'Ganis\nmore mobility, which is quite noticeable and useful when it comes to\nengaging enemy Heroes or escaping dangerous situations.\nIn addition to that, it has synergy with Spreading Plague\nat Level 7 and Carrion Swarm at Level 10."
+  },
+  {
+   "title": "Level 16 Talents for Mal'Ganis",
+   "id": "level-16",
+   "text": "✔\nPlague Bats\n(Level 16)\nMal'Ganis\nNecrotic Embrace unleashes a wave of bats in front of Mal'Ganis, dealing 81 (+4% per level) damage.\nPlague Bats is a good Talent that increases\nhis burst damage by a solid amount. Considering\nthat it deals damage only in front of Mal'Ganis, remember to change his\norientation before using it.\n?\nFrenzied Assault\n(Level 16)\nMal'Ganis\nBasic Attacks against Heroes with a higher Health percentage heal for an additional 50% of damage dealt.\nBasic Attacks against Heroes with a lower Health percentage grant 35% Attack Speed for 3 seconds.\nFrenzied Assault is a decent Talent that gives Mal'Ganis\na fair amount of Attack Speed when hitting enemy Heroes who have a lower Health percentage\nthan him or makes his Basic Attack heal him for an additional 50% of the damage dealt\nwhen hitting enemy Heroes who have a higher Health percentage than him.\n?\nBlind as a Bat\n(Level 16)\nMal'Ganis\nCooldown: 60 seconds\nActivate to erupt with blind rage, removing the cooldown and Mana cost of Fel Claws, but losing all vision. Lasts 5.5 seconds.\nEnemy Heroes hit by the final slash of Fel Claws reduces the cooldown of this Ability by 4 seconds.\nDoes not provide quest stacks while active.\nBlind as a Bat is a strong Talent that allows Mal'Ganis to deal\nan insane amount of area of effect damage, however, not being able\nto see anything puts him at a significant\ndisadvantage because he will not be able to reliably hit enemy Heroes or to dodge\nenemy Abilities when needed.\nWhile it is generally a good Talent, we find this Talent stronger on Maps\nthat feature at least 1 Boss Camp\nand/or various choke points\nand narrow corridors (such as Cursed Hollow).\nIn case you opted for this Talent, remember that it can also be used to escape!\nTo get the most out of this Talent, combine it with Will of Tichondrius\nat Level 1. Catch at least 1 enemy Hero with the final slash of Fel Claws\nand then activate Blind as a Bat to repeatedly hit them.\nNote that they will always have a small time window to react between Stuns.\nYon can rely on sound effects to understand if you are hitting enemy Heroes or not.\nIf you are not full Health, you can also use the green healing numbers as a guide\nto figure out if you are hitting enemy Heroes or not."
+  },
+  {
+   "title": "Level 20 Talents for Mal'Ganis",
+   "id": "level-20",
+   "text": "✔\nSeeker Swarm\n(Level 20)\nMal'Ganis\nUpon expiring, Carrion Swarm's bats seek nearby enemy Heroes, dealing 132 (+4% per level) damage and Sleeping them for 2.5 seconds.\nSeeker Swarm is a great upgrade to the already very powerful\nCarrion Swarm. The ability to put enemy Heroes\nto Sleep from the distance at the cost of a major defensive\ncooldown allows Mal'Ganis to set up a powerful engage.\nIf your team is trying to kill one target, you can keep the rest of the enemy\nteam unable to act by using Night Rush on them right before\nthe Sleep effect from Seeker Swarm ends.\nThe damage done by Seeker Swarm can\ntrigger Time to Feed at Level 1 on enemy Heroes\nwho are too far to be hit by Carrion Swarm.\n✘\nWrath of Nathreza\n(Level 20)\nMal'Ganis\nEnemy Heroes near the target suffer 85% of the transferred Health as damage over 3 seconds.\nDoes not benefit from Vampiric Touch.\nWrath of Nathreza is considered a bad choice because\nit counts on the enemy team to misplay by having multiple Heroes one\nnear the other in the same location and not having any interrupt.\n?\nVanquish the Weak\n(Level 20)\nMal'Ganis\nDamage from Fel Claws and Basic Attacks Slows enemies by 25% for 1.5 seconds, and Vampiric Touch converts 10% more damage into healing versus Slowed Heroes.\nVanquish the Weak is a decent alternative in case you\nneed a bit more power against melee Heroes, however, it is rarely the choice\nbecause the other options are usually more interesting and more useful.\n?\nAlone in the Dark\n(Level 20)\nMal'Ganis\nReduce the cooldown of Night Rush by 4 seconds. Enemy Heroes put to Sleep by Night Rush have their vision greatly reduced during the Sleep and for 2 seconds after.\nAlone in the Dark is a situational Talent that can make the life\nharder for all enemy Heroes that get caught by Night Rush,\neffectively increasing the crowd control\nthat it provides. The cooldown reduction helps you use it twice in a single team fight."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026: Guide reviewed for the latest Balance Update.\n20 Jul. 2026: Guide updated for the latest Patch.\n13 Jun. 2026: Guide reviewed.\n12 May 2026: Guide updated for the latest Balance Update.\n23 Apr. 2026: Guide updated for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n11 Apr. 2025: Level 7 Talents Description improved.\n17 Dec. 2023: Guide reviewed.\n20 Sep. 2023: ARAM Build added.\n19 Aug. 2023: Level 4 Talents Description improved.\n28 Jun. 2021: Dark Conversion's Description improved.\n26 Apr. 2021: Builds updated.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n25 Feb. 2021: New layout.\n05 Nov. 2020: Guide updated for the latest Balance Update.\n16 Jul. 2020: Guide reviewed for the latest Balance Update.\n25 Jun. 2020: Builds and Descriptions changed according to the latest Patch.\n22 Mar. 2020: Talent Build fully revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n14 Feb. 2020: Guide revised in accordance to the latest Balance Update and found no changes were needed.\n03 Dec. 2019: Builds updated and changed Blood Rush to Recommended.\n19 Jun. 2019: Talents and Builds updated to better reflect the current state of the game.\nShow more\nShow less"
+  }
+ ]
+}

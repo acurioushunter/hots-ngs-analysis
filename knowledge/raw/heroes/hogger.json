@@ -1,0 +1,270 @@
+{
+ "slug": "hogger",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/hogger-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/hogger-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/hogger-talents"
+ },
+ "guide": [
+  {
+   "title": "Hogger's Overview",
+   "id": "hoggers-overview",
+   "text": "Hogger is a Bruiser with the unique Ability to create\nand get advantage of impassable terrain with terrain outlines,\nsomething that works great in narrow spaces and has low value in wide areas.\nThis characteristic can be used to easily capture Mercenary Camps\nby strategically aiming Hogg Wild.\nThanks to having Rage instead of Mana, Hogger inherently prefers drawn-out battles\nthat tend to exhaust enemy resources, especially when paired with a sustain\nHealer that can keep him healthy for long periods of time.\nThat said, Hogger has access to a respectable amount of burst damage."
+  },
+  {
+   "title": "Hogger's Strengths and Weaknesses",
+   "id": "hoggers-strengths-and-weaknesses",
+   "text": "Strengths\nGood waveclear\nDecent crowd control\nSolid damage output, especially when full Rage\nDecent mobility\nGreat at capturing Mercenary Camps\nWeaknesses\nWeak to poke damage\nCountered by percent-based damage\nCannot deal with high-mobility Heroes\nSlightly vulnerable to healing reduction effects"
+  },
+  {
+   "title": "Hogger's Talent Build Cheatsheet",
+   "id": "hoggers-talent-build-cheatsheet",
+   "text": "Hoardapult Rage Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's Hoardapult Rage Build allows you to dive\nthe enemy backline with the help of\nHoardapult. In case of emergency, you can also use\nit for escaping and/or becoming Unstoppable.\nThe damage done by Garbage Fire at Level 7\nalso applies to the Loot Hoard created\nwhen using Hoardapult, so you should\nalways pair them together.\nHeadbanger at Level 16\nwill also go off when pushing enemy Heroes\ntowards the Loot Hoard\ncreated with Hoardapult.\nShockwave Rage Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's Shockwave Rage Build is designed to burst down\nenemy Heroes by using Shockwave in melee range\nto Stun them, so it should be picked when your team\nwhats to kill the enemy frontline first.\nUse Shockwave and Staggering Blow\ntowards your Loot Hoard in quick sequence\nto stun enemy Heroes for longer.\nThis combo is particularly strong after you get\nHeadbanger at Level 16.\nEz-Thro Dynamite Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's Ez-Thro Dynamite Build makes you not only a threat for enemy Heroes who step\ntoo close but also allows you to deal poke damage from the distance,\nwithout fully committing to the team fight.\nDense Blasting Powder at Level 7 makes this Build particularly interesting\nwhen you can poke the enemy team, however, this Talent is also good\nin burst scenarios as you can hit the same Hero multiple times with it.\nYou should only go for this Build when playing Hogger in the 4-man because\nthere you can easily stack Journeyman Cooking at Level 1\nto increase your maximum Health and, as a consequence, how much it heals you.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's ARAM Build makes you not only a threat for enemy Heroes who step\ntoo close but also allows you to deal poke damage from the distance,\nwithout fully committing to the team fight.\nDense Blasting Powder at Level 7 makes this Build particularly interesting\nwhen you can poke the enemy team, however, this Talent is also good\nin burst scenarios as you can hit the same Hero multiple times with it.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Hogger's Synergies and Counters",
+   "id": "hoggers-synergies-and-counters",
+   "text": "Hogger synergizes with\nHeroes who benefit from impassable terrain with (for example Hanzo\nwith Scatter Arrow) or without (such as Auriel\nwith Detainment Strike) terrain outlines can get value\nfrom Loot Hoard.\nWhen enemy Heroes are stuck between Hogger and impassable terrain,\nallied Heroes can easily follow up with Abilities\nthat require their target to stay still for a moment (like Chromie)\nor inside one area for a few seconds (for example Stukov).\nHaving access to a high amount of damage, Hogger can be paired with\nanother similar Bruiser to have a more solid\nfrontline than usual. One of them\n(usually not Hogger because he will take care of Mercenary Camps)\nwill be played as Offlaner\nwhereas the other will stay in the 4-man.\nHogger is countered by\nTry to lock Hogger in place with quick and unpredictable crowd control Abilities\nand then burst him down before he can get out with either Hogg Wild\nor Hoardapult (if selected and not on cooldown after an aggressive play).\nSince he has access to Armor, percent-based damage helps with that.\nBeing a melee Hero, Hogger does not like to play against poke damage\nand kite (for example Lunara),\nunless he can dive them with the help other Heroes.\nThere are some Heroes who can easily deny any value which Hogger could get\nwith impassable terrain thanks to their mobility tools\n(such as Zeratul with Blink\nor even Medivh with Portal).\nEven worse, some of them can use impassable terrain against Hogger thanks to dedicated Abilities\n(for example Diablo with Shadow Charge).\nBe careful when playing against Heroes who can reduce healing (such as Ana\nwith Biotic Grenade) because they reduce your survivability\nby partially or completely denying the healing provided by your chunks of Meat.\nThe same is true for Heroes who can reduce your Spell Power,\nas it will decrease your self-healing too."
+  },
+  {
+   "title": "Hogger's Maps",
+   "id": "hoggers-maps",
+   "text": "Hogger's stronger maps\nHogger's average maps\nHogger's weaker maps\nHogger does well on medium-sized Battlegrounds where he can double soak\n(such as Infernal Shrines) and is great on Maps with narrow spaces\nwhere he can get value from impassable terrain,\neither by Knocking back\nenemy Heroes towards it or by blocking enemy Heroes in small corridors\n(notably Cursed Hollow).\nBattlegrounds where most of the action happens in wide areas\n(for example Hanamura Temple) do not favor Hogger\nbecause he will not be able to get enough value from impassable terrain\nand 2-lane Maps will not allow him to dominate the early game\nby double soaking."
+  },
+  {
+   "title": "Hogger's Tips and Tricks",
+   "id": "hoggers-tips-and-tricks",
+   "text": "Staggering Blow can be used to Knockback enemy Heroes into Ez-Thro Dynamite.\nEz-Thro Dynamite explodes immediately if thrown directly on enemy Heroes.\nHogg Wild can be used to quickly clear Mercenary Camps between two parallel segments of impassable terrain or, when that is not possible, with the use of Loot Hoard on one side.\nHoardapult has Vector Targeting that allows you to choose on which side of the Loot Hoard you want to land.\nShockwave is easier to use on enemy Heroes previously Slowed with Ez-Thro Dynamite and is a great setup for using Loot Hoard right behind them for getting full value from Staggering Blow immediately after.\nLoot Hoard can be canceled before it expires to immediately collect its Meat and/or to open up a path that would be otherwise inaccessible for a few more seconds.\nBoth Hoardapult and Loot Hoard can be used to interrupt stationary-channeled Abilities.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Hogger's Role in the Current Meta",
+   "id": "hoggers-role-in-the-current-meta",
+   "text": "Thanks to his self-sustain and waveclear,\nHogger is a solid Offlaner who can easily take care of side lanes.\nWhen needed, he is also able to double soak\nor quickly capture Mercenary Camps. That said, he can also be paired with\nanother Bruiser (such as Sonya)\nand be played in the 4-man, similarly to a Melee Assassin.\nDuring team fights, Hogger will act as a powerful Bruiser\ncapable of providing additional peeling for allied Heroes\nand dealing a respectable amount of damage to enemy Heroes. Depending on the Build\nbeing played, Hogger can either focus the enemy frontline\nor dive the enemy backline."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Sep. 2026 (talents page): Guide reviewed.\n11 Sep. 2026 (abilities page): Guide reviewed.\n11 Sep. 2026 (this page): Guide reviewed.\n20 Jul. 2026 (talents page): Guide updated for the latest Patch.\n20 Jul. 2026 (abilities page): Guide updated for the latest Patch.\n20 Jul. 2026 (this page): Guide updated for the latest Patch.\n28 May 2026 (talents page): Guide reviewed.\n28 May 2026 (abilities page): Guide reviewed.\n28 May 2026 (this page): Guide reviewed.\n14 Oct. 2025 (abilities page): Explanation for doing Mercenary Camps improved.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n21 May 2024 (talents page): Builds reorganized.\n21 May 2024 (this page): Builds reorganized.\n24 Nov. 2023 (talents page): Guide reviewed.\n24 Nov. 2023 (this page): Guide reviewed.\n17 Nov. 2023 (talents page): Talents rearranged based on the latest Patch.\n26 Sep. 2023 (abilities page): Explanation for doing Mercenary Camps added.\n20 Sep. 2023 (talents page): ARAM Build added.\n20 Sep. 2023 (this page): ARAM Build added.\n27 Nov. 2022 (talents page): Guide reviewed.\n27 Nov. 2022 (abilities page): Guide reviewed.\n27 Nov. 2022 (this page): Guide reviewed.\n14 Jan. 2022 (talents page): Builds updated.\n14 Jan. 2022 (this page): Builds updated.\n17 May 2021 (talents page): Guide reviewed for the latest Patch.\n17 May 2021 (abilities page): Guide reviewed for the latest Patch.\n17 May 2021 (this page): Guide reviewed for the latest Patch.\n22 Apr. 2021 (abilities page): Abilities page improved.\n21 Apr. 2021 (talents page): Builds updated.\n21 Apr. 2021 (this page): Builds updated.\n16 Mar. 2021 (talents page): Builds updated.\n16 Mar. 2021 (this page): Builds updated.\n03 Mar. 2021 (talents page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (this page): Guide reviewed for the latest Balance Update.\n18 Feb. 2021 (this page): Synergies and Counters updated.\n15 Feb. 2021 (talents page): Builds updated.\n15 Feb. 2021 (this page): Builds updated.\n20 Jan. 2021 (talents page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n20 Jan. 2021 (this page): Guide reviewed for the latest Balance Update.\n21 Dec. 2020 (talents page): Builds and Talents updated.\n21 Dec. 2020 (this page): Builds updated.\n04 Dec. 2020 (talents page): Builds updated.\n04 Dec. 2020 (abilities page): Abilities page improved.\n04 Dec. 2020 (this page): Builds updated.\n01 Dec. 2020 (talents page): Guide reviewed for the latest Patch.\n01 Dec. 2020 (abilities page): Guide reviewed for the latest Patch.\n01 Dec. 2020 (this page): Guide reviewed for the latest Patch.\n30 Nov. 2020 (talents page): Guide created.\n30 Nov. 2020 (abilities page): Guide created.\n30 Nov. 2020 (this page): Guide created.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Hogger's Tips and Tricks",
+   "id": "hoggers-tips-and-tricks",
+   "text": "Staggering Blow can be used to Knockback enemy Heroes into Ez-Thro Dynamite.\nEz-Thro Dynamite explodes immediately if thrown directly on enemy Heroes.\nHogg Wild can be used to quickly clear Mercenary Camps between two parallel segments of impassable terrain or, when that is not possible, with the use of Loot Hoard on one side.\nHoardapult has Vector Targeting that allows you to choose on which side of the Loot Hoard you want to land.\nShockwave is easier to use on enemy Heroes previously Slowed with Ez-Thro Dynamite and is a great setup for using Loot Hoard right behind them for getting full value from Staggering Blow immediately after.\nLoot Hoard can be canceled before it expires to immediately collect its Meat and/or to open up a path that would be otherwise inaccessible for a few more seconds.\nBoth Hoardapult and Loot Hoard can be used to interrupt stationary-channeled Abilities."
+  },
+  {
+   "title": "Rage",
+   "id": "rage",
+   "text": "Hogger has 100 Rage (not scaling) instead of Mana, but it is not used to pay\nfor Abilities. Instead, it gives cooldown reduction for Basic Abilities\nand increases the damage done with Hogg Wild.\nThe cooldown of your Basic Abilities refreshes 1% faster every 2 Rage stored,\nup to 50% additional cooldown refresh rate at maximum Rage, and\nHogg Wild deals 0.5% more damage to enemy Heroes every 1 Rage,\nup to 50% additional damage at maximum Rage. There are some Talents\nthat can be picked to increase the benefits you get from your Rage.\nBasic Attacks generate 5 Rage and taking an instance of damage generates 1 Rage.\nAfter not gaining Rage for 3 seconds, you will lose 10 Rage per seconds,\nbut it will not decay during Hogg Wild."
+  },
+  {
+   "title": "Staggering Blow",
+   "id": "staggering-blow",
+   "text": "Staggering Blow\n(Q)\nHogger\nCooldown: 12 seconds\nSwing your chain in a wide arc, dealing 140 (+4% per level) damage to enemies hit and knocking them away. If an enemy hits terrain, deal an additional 150 (+4% per level) damage, Stun for 0.75 seconds, and gain 15 Rage.\nStaggering Blow is a Basic Ability that allows Hogger\nto damage and Knockback enemy Heroes away from him.\nIf they hit impassable-terrain\nin the process, Hogger gains 15 Rage\nwhile they take bonus damage and get Stunned.\nYou can use Staggering Blow on Minions or Mercenaries\nnearby impassable terrain to quickly get 15 Rage per target Stunned with it,\nhowever, it does not work on Bosses because they cannot be affected by crowd control.\nRegardless of the presence of impassable terrain nearby,\nyou can use Staggering Blow to peel\naway enemy Heroes that are threatening your team. If you have good reaction times,\nyou can also interrupt some animations\n(such as Shadow Charge) with it.\nWhen there is impassable terrain nearby, you can use Staggering Blow\nto engage on enemy Heroes by pushing them towards it\nto trigger the Stun. Remember that\nyou can use Loot Hoard or Hoardapult\nto create your own impassable terrain right behind enemy Heroes when needed."
+  },
+  {
+   "title": "Ez-Thro Dynamite",
+   "id": "ez-thro-dynamite",
+   "text": "Ez-Thro Dynamite\n(W)\nHogger\nCooldown: 8 seconds\nToss a bundle of Dynamite with a 1.5 second fuse. Upon detonation, enemies take 180 (+4% per level) damage and are Slowed by 30% for 2 seconds.\nThe Dynamite instantly detonates when landing on an enemy Hero granting Hogger 10 Rage.\nEz-Thro Dynamite is a Basic Ability that can be used\nto throw a Dynamite on the ground. After 1.5 seconds, it explodes.\nIf the Dynamite lands exactly where an enemy Hero is, then it explodes\nwithout any delay and gives 10 Rage. The explosion deals damage\nand applies a Slow to all enemies within range.\nYou can use the Slow provided by Ez-Thro Dynamite\nto better body block enemy Heroes, especially near\nimpassable terrain, or to increases the chance to hit them with Shockwave."
+  },
+  {
+   "title": "Hogg Wild",
+   "id": "hogg-wild",
+   "text": "Hogg Wild\n(E)\nHogger\nCooldown: 14 seconds\nAfter 0.25 seconds, become Unstoppable and uncontrollably spin towards the target direction, ricocheting off terrain. Ricocheting off terrain refreshes the duration.\nEvery 0.125 seconds, deal 44 (+4% per level) damage to nearby non-Structure enemies. Damage against Heroes is increased by .5% for each point of Rage.\nHogg Wild is a Basic Ability with a unique design\nthat, after a brief delay, gives Hogger Unstoppable\nand makes him spin in the chosen direction and damage non-Structure enemies along his path,\nricocheting off impassable terrain marked with terrain outlines\n(for example Loot Hoard by Hogger himself)\nbut ignoring impassable terrain without them\n(such as Entomb by Leoric).\nWhile laning, avoid using Hogg Wild for clearing Minions\nbecause it is your escape tool and you want to have it up for when you get\nganked by the enemy team.\nDuring team fights, you can use Hogg Wild to execute\npowerful engages to threaten the enemy backline\nwith the help of at least another allied Hero who can do the same aggressive play.\nIf you find a good trajectory for it, you can use Hogg Wild\nto move from a lane to another faster than when using your Mount,\nhowever, you need to know the exact place and aim required to use this trick,\nelse you will not get any value out of it because you will end up ricocheting in random directions.\nIn case you do not like your direction anymore or want to perform other actions,\njust press its key again to cancel it, but you cannot do it within 0.5 seconds\nfrom when Hogg Wild actually started.\nHogg Wild is great for clearing Mercenary Camps. You need to\nfind a way to group all Mercenaries with Staggering Blow, place\nLoot Hoard if possible, and then cast Hogg Wild.\nYou also want to use Ez-Thro Dynamite on cooldown for damage.\nSee our Hogger Hogg Wild Angles Guide for further information »"
+  },
+  {
+   "title": "Hoardapult",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nHoardapult\n(R)\nHogger\nHeroic\nCooldown: 60 seconds\nLaunch an empowered Loot Hoard with Hogger attached, dealing 100 (+4% per level) damage and Slowing enemies by 50% for 2 seconds.\nHoardapult's Loot Hoard lasts for up to 20 seconds, decaying rapidly while not nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard.\nHoardapult is a Heroic Ability with Vector Targeting\nthat allows Hogger to execute a long and Unstoppable jump,\ncreating a special Loot Hoard at its final destination.\nWhen hitting the ground, it deals damage to all enemies hit and pushes them away\nfrom its area where the impassable terrain marked with terrain outlines will appear.\nThe terrain outlines allow Hogger to bounce on it during Hogg Wild.\nUpon landing, Hogger applies a Slow to all nearby enemies\nand pushes them away, a subtle effect\nthat can interrupt\nstationary-channeled Abilities\n(such as Mosh Pit by E.T.C.).\nThe special Loot Hoard created via Hoardapult\nthrows a chunk of Meat towards Hogger once every 10 seconds\nand leaves a chunk of Meat on the ground when it expires or gets canceled,\nso you can get up to 3 chunks of Meat from it.\nRead the Trait section below for more details about Meat.\nRemember to use the Vector Targeting system to choose on which side\nof the Loot Hoard you want to land,\nelse you might find yourself stuck behind impassable terrain and be forced to remove\nyour Loot Hoard by pressing again the corresponding key,\nbut only after 0.75 seconds of cooldown.\nThe special Loot Hoard created via Hoardapult\nlasts for up to 20 seconds, but its timer goes insanely fast if Hogger is not within 15 range—the\nsame as Hoardapult's maximum cast range."
+  },
+  {
+   "title": "Shockwave",
+   "id": "shockwave",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nShockwave\n(R)\nHogger\nHeroic\nCooldown: 70 seconds\nAfter 0.5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 335 (+4% per level) damage and are Stunned for 1.5 seconds. Enemies only hit by the shockwave take 230 (+4% per level) damage and are Stunned for 0.75 seconds.\nShockwave is a Heroic Ability that provides crowd control.\nAfter a 0.5-second channel, Hogger will Stun for 1.5 seconds\nall enemies in a circular area in front of him and for 0.75 seconds all enemies across a line in front of him.\nThey will also take damage, slightly higher in the initial impact area.\nIn order to get the most value out of this Heroic Ability, you have to use Shockwave\nin melee range as that will Stun enemy Heroes hit for longer.\nHogg Wild can be used as a gap closer\nat the beginning of the sequence or as a finisher at the end of the sequence."
+  },
+  {
+   "title": "Loot Hoard",
+   "id": "loot-hoard",
+   "text": "Loot Hoard\n(D)\nHogger\nCooldown: 20 seconds\nToss a pile of junk onto the battlefield, dealing 102 (+4% per level) damage in an area, knocking enemies away, and acting as terrain for up to 5 seconds.\nWhen the Loot Hoard expires or is destroyed, a chunk of Meat falls out that can be picked up to restore 3% of maximum Health every second for 4 seconds.\nReactivate to destroy Loot Hoard.\nLoot Hoard is a Trait that can be used to throw\na block of impassable-terrain\nmarked with terrain outlines on the battlefield.\nWhen hitting the ground, it deals damage to all enemies hit\nand pushes them away, a subtle effect\nthat can interrupt\nstationary-channeled Abilities\n(such as Mosh Pit by E.T.C.).\nThe terrain outlines allow Hogger to bounce on it during Hogg Wild.\nWhen it expires or gets canceled, it leaves a chunk of Meat on the ground.\nA single chunk of Meat heals Hogger for a total of 12% of his maximum Health over 4 seconds.\nIn order to collect a chunk of Meat, Hogger has to be almost on top of it.\nAfter 0.75 seconds from its creation, you can cancel Loot Hoard\nby pressing the same key in order to free the path and/or immediately collect its Meat."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Sep. 2026: Guide reviewed.\n20 Jul. 2026: Guide updated for the latest Patch.\n28 May 2026: Guide reviewed.\n14 Oct. 2025: Explanation for doing Mercenary Camps improved.\n18 Apr. 2025: Guide reviewed.\n26 Sep. 2023: Explanation for doing Mercenary Camps added.\n27 Nov. 2022: Guide reviewed.\n17 May 2021: Guide reviewed for the latest Patch.\n22 Apr. 2021: Abilities page improved.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n04 Dec. 2020: Abilities page improved.\n01 Dec. 2020: Guide reviewed for the latest Patch.\n30 Nov. 2020: Guide created.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Journeyman Cooking (Level 1) Hogger Each Hero hit by Ez-Thro Dynamite heals you for 8% of maximum Health. Quest: Hitting Heroes with Ez-Thro Dynamite permanently increases your maximum Health by 10, to a maximum of 750 bonus Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Bones to Gnaw (Level 1) Hogger Loot Hoard creates a chunk of Meat when it lands. While under the effects of Meat, gain 10 Armor."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "On The Prowl (Level 1) Hogger Cooldown: 45 seconds Activate to gain 25 Rage over 8 seconds. Passive: You heal for 7 (+4% per level) Health every second, increased by 2% per point of Rage."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "Brute Force (Level 4) Hogger Increase the range of Loot Hoard by 25% and its damage by 50%. Quest: Hitting Heroes with Staggering Blow permanently increases Basic Attack damage by 2, to a maximum of 150 bonus damage. Enemy Heroes that hit terrain grant an additional 6 damage."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "Aggro Range (Level 4) Hogger Increase Hogg Wild's radius by 20% and each enemy hit generates 0.5 Rage, increased to 2 against Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hogger's Joggers (Level 4) Hogger While above 35Rage, gain 10% increased Movement Speed and healing received. When at or above 50 Rage, increase these bonuses to 15%."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Dense Blasting Powder (Level 7) Hogger Instant detonations of Ez-Thro Dynamite creates an additional dynamite behind the Hero hit. Hitting the bundle of Ez-Thro Dynamite with Staggering Blow breaks it into three sticks and launches them forward in an arc."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Garbage Fire (Level 7) Hogger Reduce the cooldown of Loot Hoard by 2 seconds. Every 0.5 seconds, enemies in a large area around Loot Hoard take 23 (+4% per level) damage and are Slowed by 20%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Seeing Red (Level 7) Hogger While above 50 Rage, gain 35% Attack Speed and the cooldowns of Staggering Blow and Hogg Wild refresh 30% faster."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Hoardapult (Level 10) Hogger Cooldown: 60 seconds Launch an empowered Loot Hoard with Hogger attached, dealing 100 (+4% per level) damage and Slowing enemies by 50% for 2 seconds. Hoardapult's Loot Hoard lasts for up to 20 seconds, decaying rapidly while not nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Shockwave (Level 10) Hogger Cooldown: 70 seconds After 0.5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 335 (+4% per level) damage and are Stunned for 1.5 seconds. Enemies only hit by the shockwave take 230 (+4% per level) damage and are Stunned for 0.75 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Dust Devil (Level 13) Hogger Gain 25 Armor while Hogg Wild is active and for 4 seconds after. When at or above 50 Rage, increase this Armor to 40."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Pummel (Level 13) Hogger Enemies hit by Hogg Wild are Slowed by 10% for 2 seconds, stacking up to 5 times. Heroes hit have their Spell Power reduced by 30% for 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Bloodthirst (Level 13) Hogger Damaging Heroes with Basic Attacks, Staggering Blow, or Hogg Wild heals you for 33% of the damage dealt."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Headbanger (Level 16) Hogger Enemy Heroes Stunned by Staggering Blow take an additional 8% of their maximum Health as damage and are Stunned for an additional 0.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Kablooie! (Level 16) Hogger Instant Ez-Thro Dynamite detonations deal 50% more damage, reduce its cooldown by 1.5 seconds, and increase its Slow amount to 50%. Passive: Increase Ez-Thro Dynamite's range by 25%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Furzerker (Level 16) Hogger Hitting Heroes with Staggering Blow or Ez-Thro Dynamite increases the damage of the next Basic Attack within 8 seconds by 50%, stacking up to 2 times. When Hogg Wild ends, gain 30% Movement Speed for 2 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Secret Stash (Level 20) Hogger Every 2 seconds, Hoardapults' Loot Hoard randomly launches Ez-Thro Dynamite, prioritizing nearby enemy Heroes. Every 5 seconds, it also launches a chunk of Meat towards Hogger."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Power Spike (Level 20) Hogger Hitting Heroes with Shockwave reduces their Armor by 15 for 4 seconds and grants 20 Rage. Passive: Rage's cooldown reduction affects Shockwave's cooldown."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "No Control (Level 20) Hogger Cooldown: 60 seconds Activate to cast an untalented Hogg Wild and begin chasing an enemy Hero. After reaching the Hero, bounce to a random nearby enemy Hero. Lasts up to 5 seconds, rapidly decaying if there are no other enemy Heroes nearby. Cannot be cancelled."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Anger Management (Level 20) Hogger Increase maximum Rage by 50, raising the maximum bonuses for its cooldown refresh rate to 75% and Hogg Wild's Hero damage to 75%. Passive: Basic Attacks grant 5 additional Rage."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Hogger's Talent Build",
+   "id": "hoggers-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✘︎\n✘︎\n✓\n7\n?\n✓\n?\n10\n✓\n?\n13\n?\n✓\n?\n16\n✓\n?\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Hogger's Talent Build Cheatsheet",
+   "id": "hoggers-talent-build-cheatsheet",
+   "text": "Hoardapult Rage Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's Hoardapult Rage Build allows you to dive\nthe enemy backline with the help of\nHoardapult. In case of emergency, you can also use\nit for escaping and/or becoming Unstoppable.\nThe damage done by Garbage Fire at Level 7\nalso applies to the Loot Hoard created\nwhen using Hoardapult, so you should\nalways pair them together.\nHeadbanger at Level 16\nwill also go off when pushing enemy Heroes\ntowards the Loot Hoard\ncreated with Hoardapult.\nShockwave Rage Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's Shockwave Rage Build is designed to burst down\nenemy Heroes by using Shockwave in melee range\nto Stun them, so it should be picked when your team\nwhats to kill the enemy frontline first.\nUse Shockwave and Staggering Blow\ntowards your Loot Hoard in quick sequence\nto stun enemy Heroes for longer.\nThis combo is particularly strong after you get\nHeadbanger at Level 16.\nEz-Thro Dynamite Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's Ez-Thro Dynamite Build makes you not only a threat for enemy Heroes who step\ntoo close but also allows you to deal poke damage from the distance,\nwithout fully committing to the team fight.\nDense Blasting Powder at Level 7 makes this Build particularly interesting\nwhen you can poke the enemy team, however, this Talent is also good\nin burst scenarios as you can hit the same Hero multiple times with it.\nYou should only go for this Build when playing Hogger in the 4-man because\nthere you can easily stack Journeyman Cooking at Level 1\nto increase your maximum Health and, as a consequence, how much it heals you.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nHogger's ARAM Build makes you not only a threat for enemy Heroes who step\ntoo close but also allows you to deal poke damage from the distance,\nwithout fully committing to the team fight.\nDense Blasting Powder at Level 7 makes this Build particularly interesting\nwhen you can poke the enemy team, however, this Talent is also good\nin burst scenarios as you can hit the same Hero multiple times with it."
+  },
+  {
+   "title": "Level 1 Talents for Hogger",
+   "id": "level-1",
+   "text": "?\nJourneyman Cooking\n(Level 1)\nHogger\nEach Hero hit by Ez-Thro Dynamite heals you for 8% of maximum Health.\nQuest: Hitting Heroes with Ez-Thro Dynamite permanently increases your maximum Health by 10, to a maximum of 750 bonus Health.\nJourneyman Cooking is a situational Quest-based Talent\nthat heals Hogger by a percentage of his maximum Health for each enemy Hero hit\nwith Ez-Thro Dynamite. When doing so,\nHogger gains 10 maximum Health, up to 750 additional maximum Health\nafter stacking 75 times.\nTalents that empower Ez-Thro Dynamite have synergy\nwith Journeyman Cooking because they help you\nwith its Quest progress: Dense Blasting Powder at Level 7\nand Kablooie! at Level 16.\nYou can pick this Talent when playing Hogger in the 4-man\nbecause it is easier to stack when there are more enemy Heroes nearby\nand scales well into the late game.\n?\nBones to Gnaw\n(Level 1)\nHogger\nLoot Hoard creates a chunk of Meat when it lands. While under the effects of Meat, gain 10 Armor.\nBones to Gnaw is a decent Talent that gives Hogger\n10 Armor while under the effect of Meat, so for 5 seconds,\nand creates a chunk of Meat when Loot Hoard lands.\nBones to Gnaw has synergy with Garbage Fire at Level 7\nbecause it slightly reduces the cooldown of Loot Hoard,\nHoardapult at Level 10 because it creates additional Meat,\nand Secret Stash at Level 20 for the same reason.\n✔\nOn The Prowl\n(Level 1)\nHogger\nCooldown: 45 seconds\nActivate to gain 25 Rage over 8 seconds.\nPassive: You heal for 7 (+4% per level) Health every second, increased by 2% per point of Rage.\nOn The Prowl is a strong Talent that passively\nheals Hogger for 8 Health per second, increased by 0.16 Health per point of Rage,\nup to 24 Health per second at maximum Rage. Once every 40 seconds, you can activate it to gain\n25 Rage over 8 seconds and stop your Rage decay during that time.\nYou have to pick this Talent when playing Hogger in the offlane\nbecause it gives you self-sustain in the laning phase,\nwhen there is no Healer with you."
+  },
+  {
+   "title": "Level 4 Talents for Hogger",
+   "id": "level-4",
+   "text": "✘\nBrute Force\n(Level 4)\nHogger\nIncrease the range of Loot Hoard by 25% and its damage by 50%.\nQuest: Hitting Heroes with Staggering Blow permanently increases Basic Attack damage by 2, to a maximum of 150 bonus damage. Enemy Heroes that hit terrain grant an additional 6 damage.\nBrute Force is a weak Talent that slightly increases\nLoot Hoard's range and landing damage. In addition to that, this Talent has a Quest component\nthat increases Hogger's Attack Damage when hitting enemy Heroes with Staggering Blow,\nquadrupled when you successfully Stun them against impassable terrain.\nThe idea behind Brute Force is to quickly stack up\nits Quest by Stunning enemy Heroes against impassable terrain,\nelse you will take too much time to complete it. As a consequence, this Talent\nis better on Maps where team fights happen in narrow areas (such as Cursed Hollow).\nThe bonus Attack Damage provided by Brute Force\ndoes not scale and it is equal to about 45% additional Attack Damage with Quest completed at Level 20,\nresulting in a good synergy with Bloodthirst at Level 13\nand Furzerker at Level 16.\nWhen having this Talent, keep in mind that the extra range may cause\nStaggering Blow not to Stun\nenemy Heroes if they are near you and you cast Loot Hoard\nat the new maximum range, however, you can play around it by placing it closer.\nWe do not recommend picking this Talent because it competes with\nHogger's Joggers. With it, you will have more\nsurvivability because of the increased healing and Movement Speed buffs.\n✘\nAggro Range\n(Level 4)\nHogger\nIncrease Hogg Wild's radius by 20% and each enemy hit generates 0.5 Rage, increased to 2 against Heroes.\nAggro Range is a weak Talent that increases\nthe radius of Hogg Wild and allows it to generate Rage\nwhen hitting enemies, with quadruple value against enemy Heroes.\nThe only use-case for this Talent is clearing the Guardians spawning\nat the Objective on Infernal Shrines because you will be faster\nat clearing them and you will also accumulate more Rage for upcoming team fights.\nSince it increases your Rage, this Talent has synergy with Rage-based Talents:\nSeeing Red at Level 7 and Anger Management at Level 20.\nWe do not recommend picking this Talent because it competes with\nHogger's Joggers. With it, you will have more\nsurvivability because of the increased healing and Movement Speed buffs.\n✔\nHogger's Joggers\n(Level 4)\nHogger\nWhile above 35Rage, gain 10% increased Movement Speed and healing received.\nWhen at or above 50 Rage, increase these bonuses to 15%.\nHogger's Joggers is a strong Talent that gives you\nbonus Movement Speed and healing received: 10% when between 35 and 50 Rage\nor 15% when above 50 Rage.\nWe recommend this Talent because the healing increase makes you more durable,\nespecially with a Healer on your side,\nand the Movement Speed helps you a lot when moving around during team fights."
+  },
+  {
+   "title": "Level 7 Talents for Hogger",
+   "id": "level-7",
+   "text": "?\nDense Blasting Powder\n(Level 7)\nHogger\nInstant detonations of Ez-Thro Dynamite creates an additional dynamite behind the Hero hit.\nHitting the bundle of Ez-Thro Dynamite with Staggering Blow breaks it into three sticks and launches them forward in an arc.\nDense Blasting Powder is a good Talent that increases\nthe value of Ez-Thro Dynamite in two ways:\ndirectly hitting enemy Heroes with Ez-Thro Dynamite\nand causing it to explode instantly throws a second Ez-Thro Dynamite\nbehind them;\nhitting a Ez-Thro Dynamite that is already on the ground\nwith Staggering Blow breaks into 3 new instances\nof Ez-Thro Dynamite and throws them forward in a line.\nEspecially when playing with this Talent, you can use Staggering Blow\nto Knockback enemy Heroes into soon-to-explode\nEz-Thro Dynamite laying on the ground.\n✔\nGarbage Fire\n(Level 7)\nHogger\nReduce the cooldown of Loot Hoard by 2 seconds. Every 0.5 seconds, enemies in a large area around Loot Hoard take 23 (+4% per level) damage and are Slowed by 20%.\nGarbage Fire is a good Talent that slightly reduces the cooldown\nof Loot Hoard. In addition to that, enemies around it\ntake periodic damage and are Slowed by a small amount.\nWhen you have this Talent, you can use Loot Hoard\nfor clearing Minions. This may be useful when you need to\ndouble-soak or simply to have\npriority on the enemy Offlaner.\nThe damage and debuff effects provided by this Talent count for the special\nLoot Hoard created via Hoardapult as well,\nso you should pick them together to get more value out of both Talents.\n?\nSeeing Red\n(Level 7)\nHogger\nWhile above 50 Rage, gain 35% Attack Speed and the cooldowns of Staggering Blow and Hogg Wild refresh 30% faster.\nSeeing Red is a good Talent that, when above 50 Rage,\nincreases your Attack Speed by 35% and makes the cooldown of Staggering Blow\nand Hogg Wild refresh 30% faster.\nConsidering that it requires 50 Rage to actually give you some value,\nwe recommend to combine this Talent with Aggro Range\nat Level 4 as it helps you to quickly generate a bunch of Rage."
+  },
+  {
+   "title": "Level 10 Talents for Hogger",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nHoardapult\n(Level 10)\nHogger\nCooldown: 60 seconds\nLaunch an empowered Loot Hoard with Hogger attached, dealing 100 (+4% per level) damage and Slowing enemies by 50% for 2 seconds.\nHoardapult's Loot Hoard lasts for up to 20 seconds, decaying rapidly while not nearby. Every 10 seconds Hogger can take a chunk of Meat from the Loot Hoard.\nHoardapult is a strong Heroic Ability that increases\nHogger's survivability and gives him another way to create impassable terrain\nwith terrain outlines, usable for Staggering Blow\nand Hogg Wild as well.\nThanks to its utility, Hoardapult is particularly effective\non Battlegrounds where team fights happen in narrow areas (such as Cursed Hollow)\nbecause you will not be able to get much value from impassable terrain\nin wide areas (for example Hanamura Temple).\nPrefer picking Hoardapult when you need\nan escape tool and/or an additional source of Unstoppable\nto play around enemy crowd control.\n?\nShockwave\n(Level 10)\nHogger\nCooldown: 70 seconds\nAfter 0.5 seconds, slam the ground, sending out a shockwave that travels in a long line. Enemies hit by the initial slam take 335 (+4% per level) damage and are Stunned for 1.5 seconds. Enemies only hit by the shockwave take 230 (+4% per level) damage and are Stunned for 0.75 seconds.\nShockwave is a good Heroic Ability that adds\na powerful crowd control tool to your kit\nwhile also increasing your burst damage by a decent amount.\nDue to its delay, you should only pick this Heroic Ability when your team features\nHeroes who can engage for you. Wait for them to\ncrowd control someone and then use\nShockwave as follow-up."
+  },
+  {
+   "title": "Level 13 Talents for Hogger",
+   "id": "level-13",
+   "text": "?\nDust Devil\n(Level 13)\nHogger\nGain 25 Armor while Hogg Wild is active and for 4 seconds after. When at or above 50 Rage, increase this Armor to 40.\nDust Devil is a good Talent that gives a considerable amount\nof Armor to Hogger during Hogg Wild\nand for 3 seconds after that. The amount of Armor\ngained is higher when above 50 Rage.\nRemember to use Hogg Wild to benefit from the insane defensive\nvalue of Dust Devil when targeted by heavy-hitting Abilities\n(such as Pyroblast by Kael'thas).\nConsidering that having more than 50 Rage makes it more powerful,\nDust Devil has synergy with Aggro Range\nat Level 4 because it helps you to quickly generate a bunch of Rage.\n✔\nPummel\n(Level 13)\nHogger\nEnemies hit by Hogg Wild are Slowed by 10% for 2 seconds, stacking up to 5 times.\nHeroes hit have their Spell Power reduced by 30% for 2 seconds.\nPummel is a strong Talent that empowers Hogg Wild\nso that it immediately reduces the Spell Power of enemy Heroes hit for a few seconds\nand constantly debuffs enemies hit with a small but rapidly stacking Slow.\nAs it reduces Spell Power, you can use Pummel\nto reduce the healing and/or damage done by enemy Heroes via Abilities\n(for example against Whitemane), especially if they are melee Heroes\nand/or lack mobility to dodge Hogg Wild.\nThe powerful Slow provided by Pummel\ncan be useful for increasing your chances to hit enemy Heroes\nwith Shockwave too.\n?\nBloodthirst\n(Level 13)\nHogger\nDamaging Heroes with Basic Attacks, Staggering Blow, or Hogg Wild heals you for 33% of the damage dealt.\nBloodthirst is a decent Talent that gives Hogger\nthe ability to heal himself when damaging enemy Heroes with Basic Attacks,\nStaggering Blow, or Hogg Wild.\nThe healing amount will be 1/3 of the damage dealt to them.\nAs it works with both Basic Attacks and Basic Abilities,\nBloodthirst has synergy with Seeing Red at Level 7\nand Furzerker at Level 16."
+  },
+  {
+   "title": "Level 16 Talents for Hogger",
+   "id": "level-16",
+   "text": "✔\nHeadbanger\n(Level 16)\nHogger\nEnemy Heroes Stunned by Staggering Blow take an additional 8% of their maximum Health as damage and are Stunned for an additional 0.5 seconds.\nHeadbanger is a strong Talent that improves Staggering Blow,\nbut only when the Knockback successfully slams enemy Heroes on impassable terrain,\nmaking them take additional damage in the form of percent-based damage\nand increasing the Stun duration from 0.75 to 1.25 seconds.\nEven if you can combo Staggering Blow with Loot Hoard in wide areas,\navoid picking Headbanger while playing on Battlegrounds\nthat lack narrow areas (such as Hanamura Temple).\n?\nKablooie!\n(Level 16)\nHogger\nInstant Ez-Thro Dynamite detonations deal 50% more damage, reduce its cooldown by 1.5 seconds, and increase its Slow amount to 50%.\nPassive: Increase Ez-Thro Dynamite's range by 25%.\nKablooie! is a good Talent that empowers\nEz-Thro Dynamites that instantly explode on enemy Heroes as follows:\nincreases their damage, slightly reduces their cooldown, and increases their Slow.\nThe cooldown reduction you get from Kablooie!\nis nice to have because it allows you to constantly annoy enemy Heroes\nwith your best Slow while also dealing slightly more damage\nand gaining a bit more Rage than usual in the process.\nThe powerful Slow provided by Kablooie!\nis useful to increase your chances to hit enemy Heroes\nwith Shockwave and for repeatedly hitting them with Basic Attacks.\n?\nFurzerker\n(Level 16)\nHogger\nHitting Heroes with Staggering Blow or Ez-Thro Dynamite increases the damage of the next Basic Attack within 8 seconds by 50%, stacking up to 2 times.\nWhen Hogg Wild ends, gain 30% Movement Speed for 2 seconds.\nFurzerker is a decent Talent that increases Hogger's\nMovement Speed at the end of Hogg Wild for 2 seconds and\nthe damage done by your next 1-2 Basic Attacks within 8 seconds of hitting enemy Heroes\nwith Staggering Blow or Ez-Thro Dynamite.\nThe mentioned Basic Abilities will provide 1 stack per enemy Hero hit.\nBasic Attacks will consume 1 stack of Furzerker\nto deal additional Physical Damage to enemy Heroes hit."
+  },
+  {
+   "title": "Level 20 Talents for Hogger",
+   "id": "level-20",
+   "text": "?\nSecret Stash\n(Level 20)\nHogger\nEvery 2 seconds, Hoardapults' Loot Hoard randomly launches Ez-Thro Dynamite, prioritizing nearby enemy Heroes.\nEvery 5 seconds, it also launches a chunk of Meat towards Hogger.\nSecret Stash is a decent Talent that drastically increases\nHogger's survivability in prolonged team fights. Once upgraded with this Talent,\nHoardapult launches a chunk of Meat towards Hogger\nonce every 5 seconds and creates a bit of chaos in the surrounding area\nby launching an Ez-Thro Dynamite once every 2 seconds.\nAvoid picking Secret Stash when team fights are short\nbecause you will not be able to get value from the additional chunks of Meat.\n?\nPower Spike\n(Level 20)\nHogger\nHitting Heroes with Shockwave reduces their Armor by 15 for 4 seconds and grants 20 Rage.\nPassive: Rage's cooldown reduction affects Shockwave's cooldown.\nPower Spike is a good Talent that greatly empowers\nShockwave, making it reduce the Armor\nof enemy Heroes hit by a decent amount for multiple seconds. In addition to that,\nhitting enemy Heroes with Shockwave will give you 20 Rage\nand the cooldown reduction effect provided by your Rage will affect it.\nWe find Power Spike only playable in team compositions\nwhich want to quickly take down a single enemy Hero with burst damage\nbecause the Armor reduction effect provided is great for doing\nso—unless your team already has Armor reduction effect,\nconsidering they do not stack.\n?\nNo Control\n(Level 20)\nHogger\nCooldown: 60 seconds\nActivate to cast an untalented Hogg Wild and begin chasing an enemy Hero. After reaching the Hero, bounce to a random nearby enemy Hero. Lasts up to 5 seconds, rapidly decaying if there are no other enemy Heroes nearby.\nCannot be cancelled.\nNo Control is a strong Talent that, when activated\nwhile mouse-hovering an enemy Hero, makes Hogger cast an untalented and modified\nversion of Hogg Wild that follows and damages\nenemy Heroes for up to 5 seconds, changing target to a random enemy Hero every time Hogger reaches his target.\nWhen lacking targets, Hogger will just spin on the spot until No Control ends.\nYou cannot cancel No Control pre-emptively.\nDespite the random component, No Control can add\na lot of damage during team fights. Similarly to Hogg Wild,\nNo Control deals more damage based on the amount of Rage you have,\nso try to build up your Rage with Basic Attacks and Basic Abilities before using it.\nDo not use No Control when enemy Heroes are near\ntheir own Structures and/or have access to mobility tools,\nelse you will end up dying without accomplishing anything. You have been warned!\n✔\nAnger Management\n(Level 20)\nHogger\nIncrease maximum Rage by 50, raising the maximum bonuses for its cooldown refresh rate to 75% and Hogg Wild's Hero damage to 75%.\nPassive: Basic Attacks grant 5 additional Rage.\nAnger Management is a strong Talent that increases\nyour maximum Rage and every Rage-related bonus by 50%: cooldown reduction\nfor your Basic Abilities, Rage generation via Basic Attacks, and damage\nagainst enemy Heroes with Hogg Wild.\nFurthermore, Basic Attacks will give 5 additional Rage.\nWe find Anger Management particularly good in long team fights\nbecause in that case you will easily be able to get past 100 Rage and get more value from it.\nYou can combine this Talent with Rage-generating Talents to speed up the process:\nOn The Prowl at Level 1 and Aggro Range at Level 4."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "11 Sep. 2026: Guide reviewed.\n20 Jul. 2026: Guide updated for the latest Patch.\n28 May 2026: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n21 May 2024: Builds reorganized.\n24 Nov. 2023: Guide reviewed.\n17 Nov. 2023: Talents rearranged based on the latest Patch.\n20 Sep. 2023: ARAM Build added.\n27 Nov. 2022: Guide reviewed.\n14 Jan. 2022: Builds updated.\n17 May 2021: Guide reviewed for the latest Patch.\n21 Apr. 2021: Builds updated.\n16 Mar. 2021: Builds updated.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n15 Feb. 2021: Builds updated.\n20 Jan. 2021: Guide reviewed for the latest Balance Update.\n21 Dec. 2020: Builds and Talents updated.\n04 Dec. 2020: Builds updated.\n01 Dec. 2020: Guide reviewed for the latest Patch.\n30 Nov. 2020: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "slug": "murky",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/murky-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/murky-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/murky-talents"
+ },
+ "guide": [
+  {
+   "title": "Murky's Overview",
+   "id": "murkys-overview",
+   "text": "Murky is a Melee Assassin that excels at frustrating his opponents. Uniquely\ndesigned, he is adept at attracting the attention of enemy players, causing\nthem to behave inefficiently to respond to his abrasive presence. Murky's allies\nmust capitalise on the fact that he thrives in attrition battles; even if his\nattributes and damage values are limited, his Hero Trait, Spawn Egg, makes\nit so that he is never away from battle for long when killed."
+  },
+  {
+   "title": "Murky's Strengths and Weaknesses",
+   "id": "murkys-strengths-and-weaknesses",
+   "text": "Strengths\nGood waveclear\nStrong revival mechanic in the form of Spawn Egg\nHas access to Octo-Grab, one of the strongest Heroic Abilities in the game\nAbilities have no Mana cost\nGenerally very threatening late-game presence\nWeaknesses\nExtremely fragile; by far the lowest amount of Health amongst all Heroes\nInept at carrying coin-like Objectives, which are dropped on death\nSeveral conditions may limit his damage potential\nUnderwhelming early-game presence\nDistinct playstyle to which your team must adapt"
+  },
+  {
+   "title": "Murky's Talent Build Cheatsheet",
+   "id": "murkys-talent-build-cheatsheet",
+   "text": "Slime Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMurky's Slime Build is designed to increase his survivability during team fights,\nespecially if he happens to hit multiple enemies with Slime.\nThis allows Murky to be quite annoying when he does not get killed quickly.\nIn order to stack Slime Time at Level 4, try to hit enemy Heroes\nwith Slime when there are no enemy Minions to clear. The range\nfrom Black Lagoon at Level 7 makes it easier to hit enemy Heroes\nwith Slime. Toxic Buildup at Level 16\nand Making Inky at Level 20 increase your damage output.\nPufferfish Build\nAdvanced\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMurky's Pufferfish Build is designed to empower your waveclear\nand, more in general, your macro impact on the game.\nThis allows Murky to put a lot of pressure on the enemy team outside of team fights.\nTufferfish at Level 4 increases your waveclear.\nFish Oil at Level 16 allows you to clear Minions by just using\nPufferfish. Faster Fish at Level 20\nmakes Pufferfish more reliable against enemy Heroes.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMurky's ARAM Build is designed to increase his survivability during team fights,\nespecially if he happens to hit multiple enemies with Slime.\nThis allows Murky to be quite annoying when he does not get killed quickly.\nIn order to stack Slime Time at Level 4, try to hit enemy Heroes\nwith Slime when there are no enemy Minions to clear. The range\nfrom Black Lagoon at Level 7 makes it easier to hit enemy Heroes\nwith Slime. Toxic Buildup at Level 16\nand Making Inky at Level 20 increase your damage output.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Murky's Synergies and Counters",
+   "id": "murkys-synergies-and-counters",
+   "text": "Murky synergizes with\nMurky's small Health pool benefits from any effect that can mitigate incoming damage\n(for example Blinds, Armor, or Shields).\nMurky is countered by\nMurky's predictable attack plan and his dependency on remaining within close\nrange of his targets to effectively deal damage make him vulnerable to most\nhigh damage Hero with some way of kiting him or quickly\ndestroying Pufferfish."
+  },
+  {
+   "title": "Murky's Maps",
+   "id": "murkys-maps",
+   "text": "Murky's stronger maps\nMurky's average maps\nMurky's weaker maps\nMurky needs to scale for being impactful in team fights\nand that Murky's main strengths in the early game\nare gank resistance and waveclear.\nAs such, Murky does great on late game Maps,\nespecially if it possible to double soak,\nand does poorly on early game Maps.\nSince one of Murky's main strengths is the ability to quickly respawn\nfrom Spawn Egg, he is not a great choice on Maps where\nthe Objective consists of items that need to be collected and are lost on death\n(Coins on Blackheart's Bay, Gems on Tomb of the Spider Queen,\nWarheads on Warhead Junction) because they require you to play safe."
+  },
+  {
+   "title": "Murky's Tips and Tricks",
+   "id": "murkys-tips-and-tricks",
+   "text": "Hide your Spawn Egg in nooks and crannies, bushes, or near allied Structures so that it is difficult to find.\nUse Slime and Pufferfish to efficiently waveclear at all stages of the game.\nStanding on top of Pufferfish will prevent opponents from targeting it easily.\nTry and dodge dangerous skillshots or area of effect Abilities with Safety Bubble.\nCall out your intended Octo-Grab target so that your teammates know just who to focus down.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Murky's Role in the Current Meta",
+   "id": "murkys-role-in-the-current-meta",
+   "text": "Murky's primary team fighting goal is to single-out key opponents for quick,\none-sided kills. He also conditionally deals a fair amount of area of effect\ndamage, however,\nmost of his damage can be avoided by playing in a particularly defensive way.\nThis peculiar aspect is made up for by the facts that Murky can revive and come\nback to an ongoing fight nearly instantly, thanks to his Spawn Egg\nAbility. Because of this, any energy spent killing Murky is inefficiently used,\nand one should see to capitalise on this attribute to take pressure away from\nallies. This makes him especially strong against team compositions that lack\nreliable targeted burst damage.\nOutside of combat, Murky has some of the best waveclear available,\nand can scout where it would be dangerous for any other Hero to do so."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "21 Sep. 2026 (talents page): Guide reviewed.\n21 Sep. 2026 (abilities page): Guide reviewed.\n21 Sep. 2026 (this page): Guide reviewed.\n12 May 2026 (talents page): Guide reviewed for the latest Balance Update.\n12 May 2026 (abilities page): Guide reviewed for the latest Balance Update.\n12 May 2026 (this page): Guide reviewed for the latest Balance Update.\n19 Feb. 2026 (talents page): Guide updated for the latest Balance Update.\n19 Feb. 2026 (abilities page): Guide updated for the latest Balance Update.\n19 Feb. 2026 (this page): Guide updated for the latest Balance Update.\n14 Feb. 2026 (talents page): Guide updated for the latest Balance Update.\n14 Feb. 2026 (abilities page): Guide updated for the latest Balance Update.\n14 Feb. 2026 (this page): Guide updated for the latest Balance Update.\n31 Aug. 2025 (this page): Maps updated.\n01 Aug. 2025 (talents page): Guide reviewed for the latest Balance Update.\n01 Aug. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n01 Aug. 2025 (this page): Guide reviewed for the latest Balance Update.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n13 Dec. 2024 (talents page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (abilities page): Guide reviewed for the latest Balance Update.\n13 Dec. 2024 (this page): Guide reviewed for the latest Balance Update.\n21 Sep. 2023 (talents page): ARAM Build added.\n21 Sep. 2023 (this page): ARAM Build added.\n20 Sep. 2023 (talents page): Guide reviewed.\n20 Sep. 2023 (this page): Guide reviewed.\n29 Mar. 2021 (this page): Synergies and Counters updated.\n11 Mar. 2021 (talents page): Builds updated.\n11 Mar. 2021 (this page): Builds updated.\n25 Feb. 2021 (talents page): New layout.\n24 Sep. 2020 (talents page): Builds updated.\n24 Sep. 2020 (abilities page): Minor fixes.\n24 Sep. 2020 (this page): Builds updated.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n05 Apr. 2020 (talents page): Description updated for Egg Hunt and Octo-Grab.\n13 Dec. 2019 (this page): Added a note about current Anomaly.\n11 Oct. 2019 (talents page): Talent builds and recommendations reviewed and updated.\n11 Oct. 2019 (abilities page): Abilites section reviewed.\n11 Oct. 2019 (this page): Guide updated.\n28 Jul. 2018 (talents page): Updated Talents and recommendations to reflect July 25 balance patch changes.\n21 Feb. 2017 (this page): Guide updated for Lúcio's patch and moved to the new format.\n14 Jan. 2017 (talents page): Updated Tier 1, 3, and 6 Talent assessments. Updated Balanced build.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Murky's Tips and Tricks",
+   "id": "murkys-tips-and-tricks",
+   "text": "Hide your Spawn Egg in nooks and crannies, bushes, or near allied Structures so that it is difficult to find.\nUse Slime and Pufferfish to efficiently waveclear at all stages of the game.\nStanding on top of Pufferfish will prevent opponents from targeting it easily.\nTry and dodge dangerous skillshots or area of effect Abilities with Safety Bubble.\nCall out your intended Octo-Grab target so that your teammates know just who to focus down."
+  },
+  {
+   "title": "Slime",
+   "id": "slime",
+   "text": "Slime\n(Q)\nMurky\nCooldown: 4 seconds\nDeal 86 (+4% per level) damage and apply Slime on nearby enemies for 6 seconds, Slowing them by 20%.\nDeal 210 (+4% per level) damage to enemies who are already Slimed. Structures take 50% damage.\nSlime is Murky's bread and butter. As such, it should aggressively be used on-cooldown\nwhenever you are in range of anything hostile. In lane, it is possible to hit an\nentire wave of Minions by placing yourself directly on top\nof the Wizard Minion. When used against enemy Heroes, the Slow provided\nis useful at all stages of the game for body blocking,\nas its long uptime allows you to remain in front of your target.\nWhen used against enemy Structures, it only deals 50% damage.\nAn important aspect of Slime to consider is that its damage is significantly\nincreased against foes that have already been afflicted by its lengthy effect.\nYou should always try to repeatedly hit Slimed targets so as to benefit from it."
+  },
+  {
+   "title": "Pufferfish",
+   "id": "pufferfish",
+   "text": "Pufferfish\n(W)\nMurky\nCooldown: 15 seconds\nSpit out a Pufferfish with 225 (+5.5% per level) health at the target point. After 2.75 seconds, the fish will blow up for 330 (+4% per level) damage. Deals 50% less damage to Structures.\nQuest: Kill Slimed Enemies or hit them with Pufferfish. Heroes and Structures award 4 bonus stacks.\nReward: After obtaining 200 stacks, Murky's Basic Abilities no longer deal reduced damage to structures.\nMythic Reward: After obtaining 400 stacks, Murky's health is increased by 50%.\nPufferfish is one of the hardest-hitting Abilities in the game. It is, however,\ndifficult to successfully hit individual foes with it. When it is not\nsidestepped, it might just see itself destroyed.\nDuring team fights, it is important to try and cast Pufferfish where it is\nunlikely to be killed by incidental area of effect damage. This generally\nmeans somewhere between your opponents' frontline\nand backline, and never on top of your own teammates.\nWhile laning, one way of preventing your opponents\nfrom attacking the Pufferfish is to self-cast it by pressing [Alt + Q]\nand not move to stand directly on top of it, making clicking\nthrough to attack it harder.\nYou can also hide it in bushes, to surprise enemy Heroes\nwho are right outside but still within Pufferfish range.\nThis trick is possible because an exploding Pufferfish\nin a bush is only visible to the enemy team if they have vision inside that bush."
+  },
+  {
+   "title": "Safety Bubble",
+   "id": "safety-bubble",
+   "text": "Safety Bubble\n(E)\nMurky\nCooldown: 14 seconds\nBecomes Invulnerable for 2 seconds. While active, Murky cannot attack or use abilities.\nSafety Bubble is Murky's main defensive Ability. Since it renders him\ncompletely invulnerable, and instantly so, it can be used to avoid dangerous\nincoming Abilities. A less-known aspect of the Ability is that it can also be\nused to disjoint inbound projectiles, such as those from Basic Attacks. The fact\nthat it removes movement-impairing effects (as well as providing a temporary\nimmunity to them) can be used offensively, allowing you to move through\nlingering area effects that would stop other Heroes in their tracks. Murky\nplayers become extremely difficult to peel off when tracking the cooldown of\nstrong crowd control Abilities to completely avoid them with\nSafety Bubble."
+  },
+  {
+   "title": "March of the Murlocs",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nMarch of the Murlocs\n(R)\nMurky\nHeroic\nCooldown: 90 seconds\nAfter 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 130 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.\nTo balance out to its immense damage potential, March of the Murlocs is very\neasy for your opponents to avoid. Due to its very long cooldown, it is typically\nonly used in major team fights that occur around Structures or Objectives, as to\nforce opponents to either potentially face a large amount of damage, or let go\nof the contested element. It can also be used to completely block off a\npotential escape route."
+  },
+  {
+   "title": "Octo-Grab",
+   "id": "octo-grab",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nOcto-Grab\n(R)\nMurky\nHeroic\nCooldown: 50 seconds\nMurky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second.\nOcto-Grab is the longest targeted\nStun in the game. It is almost always used\nright after placing Pufferfish to guarantee a large amount\nof damage.\nThe most reliable way of preventing Octo-Grab from being used as a\nway of locking down kill targets is to use cleanse effects\n(for example Intercession by Whitemane), as well\nas a few other select Heroic Abilities ( Crystal Aegis,\nDivine Shield, and\nSanctification) and Talents. It is therefore essential that you learn to\ntrack the cooldown of those Abilities, lest Octo-Grab could end up being partly or\ncompletely countered. Another alternative is to aim—with the help of\nyour teammates—for the Heroes that do have access to\ncleanse effects (for example Intercession by Whitemane)\nor similar tools to deal with crowd control effects."
+  },
+  {
+   "title": "Spawn Egg",
+   "id": "spawn-egg",
+   "text": "Spawn Egg\n(D)\nMurky\nCooldown: 15 seconds\nPlace an Egg at target location, revealing the nearby area. Upon dying, Murky respawns at the Egg after 8 seconds. Murky only grants 25% of a real Hero's experience upon dying.\nIf Murky's Egg is killed, he is revealed to enemies for 15 seconds, and Spawn Egg is placed on cooldown.\nSpawn Egg is what makes Murky unique, and the main factor that separates\ngood Murky players from outstanding ones, depending on where it is placed and moved during the game.\nAfter 5 seconds of not taking damage, Murky's Egg starts regenerating 42 Health per second (scaling),\nso the opponents have to ideally destroy it in one go\nif they want to avoid wasting time. Upon reviving from an Egg,\nMurky gains a Shield equal to 35% of his maximum Health for 15 seconds.\nThe fact that Murky only yields 25% of a normal Hero's Experience upon death makes\nit so that, essentially, efforts spent to kill\nhim are poorly invested. As a Murky player, your main goal is to exploit this\nfact to take as much pressure as possible away from your allies. Willingly\nabsorbing skillshots, aggressively body blocking,\nor bullying vulnerable enemy Heroes so\nas to force a response are all legitimate manners of imposing your presence.\nAnother important aspect to consider is that Murky's\nrespawn time from his Egg is only 8 seconds at all stages of the game. Early on, this\nadvantage is mediocre; later in the game, it is outstanding. Furthermore, the\ntime it takes you to travel back to points of contention—Objectives,\nallied Structures that need to be defended, or general team fights—is entirely dependent on how aggressively\nyou decide to position your Egg. Spawn Egg rewards selective aggressivity."
+  },
+  {
+   "title": "Baseline Quest",
+   "id": "baseline-quest",
+   "text": "Murky has a Baseline Quest which requires to kill Slimed enemies\nor to hit Slimed enemies with Pufferfish.\nHeroes and Structures give 4 additional stacks. Upon reaching 200 stacks,\nMurky's Basic Abilities no longer deal 50% less damage to Structures.\nUpon reaching 400 stacks, you unlock the Mythic Reward: Murky's maximum Health\nis increased by 50%. This means that Murky will be harder to kill.\nIn order to get the highest amount of stacks possible from enemy Minions,\nyou need to hit them with Pufferfish while they\nare Slimed. This way each Minion within Slime range\nwill give you 1 stack for killing a Slimed enemy and 1 stack for hitting\na Slimed enemy with Pufferfish. If you cast\nPufferfish too late or it gets destroyed\nby opponents, you will gain fewer stacks in the process."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "21 Sep. 2026: Guide reviewed.\n12 May 2026: Guide reviewed for the latest Balance Update.\n19 Feb. 2026: Guide updated for the latest Balance Update.\n14 Feb. 2026: Guide updated for the latest Balance Update.\n01 Aug. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n24 Sep. 2020: Minor fixes.\n11 Oct. 2019: Abilites section reviewed.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Fish Eye (Level 1) Murky Spawning from his Egg increases Murky's mount speed to 45% for 5 seconds. Passive: Increase the Egg's Health by 100%, its sight radius by 300%, and it reveals all enemies in its sight radius."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Shell Game (Level 1) Murky Murky can now place 2 Eggs and will randomly revive from them, however, the cooldown of placing an Egg is increased by 15 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "A Fishy Deal (Level 1) Murky Killing a Minion with Pufferfish grants a stack of Bribe. Use 8 stacks to bribe a Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum of 32 stacks of Bribe."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Slime Time (Level 4) Murky Quest: Slime enemy Heroes that are already Slimed. Reward: After Sliming 10 Heroes, increase Slime's bonus damage by 125. Reward: After Sliming 20 Heroes, increase Slime's slow amount to 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Tufferfish (Level 4) Murky Pufferfish gains 50 Spell Armor and deals 50% more damage to Slimed targets."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Living the Dream (Level 4) Murky Quest: Every 15 seconds Murky is alive, he gains 5% Spell Power, up to 25%. This bonus is reset upon his death."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Black Lagoon (Level 7) Murky Increase Slime's radius by 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Slippery When Wet (Level 7) Murky Gain 50% Movement Speed and move through units while in Safety Bubble. Additionally, Safety Bubble's cooldown is reduced by 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Time to Krill (Level 7) Murky Basic Attacks against Heroes deal an additional 7 (+4% per level) damage a second and slow the target by 7% for 4 seconds. This effect can stack up to 5 times."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "March of the Murlocs (Level 10) Murky Cooldown: 90 seconds After 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 130 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Octo-Grab (Level 10) Murky Cooldown: 50 seconds Murky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Rejuvenating Bubble (Level 13) Murky Safety Bubble restores 40% of Murky's maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Egg Shell (Level 13) Murky Upon casting Spawn Egg, or when one of his eggs is killed, Murky gains a Shield for an amount equal to 50% of Murky's current Health."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Fish Tank (Level 13) Murky Murky is healed for 20% of the damage he deals with Basic Attacks and Basic Abilities."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Toxic Buildup (Level 16) Murky Every 3rd consecutive Basic Attack against an enemy Hero causes a free Slime to be cast upon them."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Fish Oil (Level 16) Murky The Pufferfish casts Slime at its location upon landing."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Wrath of Cod (Level 16) Murky Heroes hit by Pufferfish take additional damage equal to 16% of their maximum Health over 4 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Never-Ending Murlocs (Level 20) Murky March of the Murlocs can be channeled indefinitely, and will always last its base duration when canceled early. In addition, it no longer deals reduced damage to Structures."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "... And a Shark Too! (Level 20) Murky Increase the damage of Octo-Grab by 13700%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Making Inky (Level 20) Murky Reduces the cooldown of Slime by 1.5 seconds."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Faster Fish (Level 20) Murky Pufferfish explodes 1.5 seconds faster."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Murky's Talent Build",
+   "id": "murkys-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n✓\n?\n✘︎\n7\n✓\n?\n?\n10\n✓\n?\n13\n?\n?\n✓\n16\n✓\n?\n?\n20\n?\n✘︎\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Murky's Talent Build Cheatsheet",
+   "id": "murkys-talent-build-cheatsheet",
+   "text": "Slime Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMurky's Slime Build is designed to increase his survivability during team fights,\nespecially if he happens to hit multiple enemies with Slime.\nThis allows Murky to be quite annoying when he does not get killed quickly.\nIn order to stack Slime Time at Level 4, try to hit enemy Heroes\nwith Slime when there are no enemy Minions to clear. The range\nfrom Black Lagoon at Level 7 makes it easier to hit enemy Heroes\nwith Slime. Toxic Buildup at Level 16\nand Making Inky at Level 20 increase your damage output.\nPufferfish Build\nAdvanced\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMurky's Pufferfish Build is designed to empower your waveclear\nand, more in general, your macro impact on the game.\nThis allows Murky to put a lot of pressure on the enemy team outside of team fights.\nTufferfish at Level 4 increases your waveclear.\nFish Oil at Level 16 allows you to clear Minions by just using\nPufferfish. Faster Fish at Level 20\nmakes Pufferfish more reliable against enemy Heroes.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nMurky's ARAM Build is designed to increase his survivability during team fights,\nespecially if he happens to hit multiple enemies with Slime.\nThis allows Murky to be quite annoying when he does not get killed quickly.\nIn order to stack Slime Time at Level 4, try to hit enemy Heroes\nwith Slime when there are no enemy Minions to clear. The range\nfrom Black Lagoon at Level 7 makes it easier to hit enemy Heroes\nwith Slime. Toxic Buildup at Level 16\nand Making Inky at Level 20 increase your damage output."
+  },
+  {
+   "title": "Level 1 Talents for Murky",
+   "id": "level-1",
+   "text": "?\nFish Eye\n(Level 1)\nMurky\nSpawning from his Egg increases Murky's mount speed to 45% for 5 seconds.\nPassive: Increase the Egg's Health by 100%, its sight radius by 300%, and it reveals all enemies in its sight radius.\nFish Eye promotes aggressively using\nSpawn Egg by significantly increasing its\nHealth pool and sight range. This Health increase is generally enough to re-cast\nSpawn Egg should a Hero find and attack your Egg, granted you react quickly\nenough. The real power of this Talent, however, lies in its ability to detect\nStealthed Heroes and generally give vision in a wide area,\ndrastically reducing the space usable by enemy Heroes to approach you unnoticed.\nUsing your Egg anywhere where a team fight might\nerupt can absolutely frustrate opposing flanking attempts,\nparticularly by Heroes with Stealth (such as Nova,\nSamuro, Valeera, or Zeratul). The Movement Speed provided by\nthe Talent is also useful for quickly returning to any ongoing fight.\n?\nShell Game\n(Level 1)\nMurky\nMurky can now place 2 Eggs and will randomly revive from them, however, the cooldown of placing an Egg is increased by 15 seconds.\nShell Game allows Murky to place a total of 2 Eggs on the battlefield\nand randomly revive from one of them. As a drawback, Spawn Egg\nhas its cooldown increased to 30 seconds (including when an Egg is destroyed).\nIf you place each Egg in a different lane, you will be subject to the random factor\nbecause sometimes you will spawn nearby and sometimes you will spawn far away.\nThis strategy is not good when you want to make sure that you will respawn\nin a specific lane, regardless of it being nearby or far away.\nIf you place both Eggs around to the same lane, you can mitigate the random factor\nbecause you will always spawn in that area. This strategy is not good on Maps where\nyou need to relocate your Egg often because, after placing an Egg with this Talent\nselected, you need to wait 30 seconds before being able to place another one.\n✔\nA Fishy Deal\n(Level 1)\nMurky\nKilling a Minion with Pufferfish grants a stack of Bribe. Use 8 stacks to bribe a Mercenary, instantly defeating them. Does not work on Elite Mercenaries.\nMaximum of 32 stacks of Bribe.\nA Fishy Deal turns Murky into one of the most effective Mercenary Camp\nclaimer. With proper preparation and setup, as little as two Minion waves can\nset you up for capturing basic Mercenary Camps. This is, however, reliant on how\neffective your opponents are at killing Pufferfish. Furthermore,\nthe Talent is less than effective on Maps where Mercenary Camps are not plentiful. The\ntask can also be made even more difficult by allied Heroes preventing you from\nkilling Minions. As such, you should let them know of your intention.\nThe key to using A Fishy Deal is learning just how much you need to weaken\nMinions for Pufferfish to be able to kill them. For your typical Minion wave,\nMelee Minions are generally at the right level of Health due to the fighting.\nRanged Minions, however, must be set up with Slime and at least two\nBasic Attacks each. As you grow stronger, fewer Basic Attacks will be necessary.\nTry Mode is particularly helpful for learning how to gauge just how much damage\nyou need to deal at any particular Level. The Tufferfish\nTalent helps significantly with this process.\nA Fishy Deal is particularly recommended on the following Maps:\nBlackheart's Bay, Cursed Hollow, Dragon Shire,\nGarden of Terror, and Sky Temple."
+  },
+  {
+   "title": "Level 4 Talents for Murky",
+   "id": "level-4",
+   "text": "✔\nSlime Time\n(Level 4)\nMurky\nQuest: Slime enemy Heroes that are already Slimed.\nReward: After Sliming 10 Heroes, increase Slime's bonus damage by 125.\nReward: After Sliming 20 Heroes, increase Slime's slow amount to 30%.\nSlime Time significantly boosts\nthe effectiveness of Slime. However,\nthe Quest can be quite difficult to complete, especially against ranged Heroes.\nAs such, it is only recommendable against team compositions that feature at\nleast two melee Heroes.\nTo get this Quest done at\nan opportune time, you will have to be very aggressive with using Slime\nagainst opponents that have already been Slimed. It should be noted that the\nBlack Lagoon, Toxic Buildup,\nand Fish Oil Talents can make this Quest\nmuch easier to complete, although the latter two come online rather late.\n?\nTufferfish\n(Level 4)\nMurky\nPufferfish gains 50 Spell Armor and deals 50% more damage to Slimed targets.\nTufferfish makes Pufferfish\na bit more difficult to destroy, although\nnot by much, and especially not versus Heroes with quick Basic Attacks. The\ndamage increase is also rather negligible when compared to the two other\nTalents available at this Tier, and even more so should the Pufferfish be\ndestroyed.\nThis Talent's saving grace is its ability to improve your\nOcto-Grab combo, although Slime Time\nand Living the Dream will both\nprovide more overall sustain damage. Tufferfish also works well against solo\nLaners who rely on Abilities to destroy Pufferfish, such as Azmodan.\n✘\nLiving the Dream\n(Level 4)\nMurky\nQuest: Every 15 seconds Murky is alive, he gains 5% Spell Power, up to 25%. This bonus is reset upon his death.\nLiving the Dream generally competes with\nSlime Time in terms of raw added damage\noutput. Its main upside is that you get to benefit from the Talent almost as\nsoon as you pick it up, unlike Slime Time. Living the Dream also increases the\ndamage output of all your Abilities (including March of the Murlocs) and some Talents\n( Time to Krill), making it generally more versatile.\nSlime Time, however, is not lost on death, on top of providing additional Slow,\nmeaning that Living the Dream makes dying twice as punishing, although this risk\ncan be mitigated by later Talents. When playing against Heroes with limited\nburst damage, making it easier for you to survive, Living the Dream surpasses\nSlime Time so slightly that the risk is simply not worth it."
+  },
+  {
+   "title": "Level 7 Talents for Murky",
+   "id": "level-7",
+   "text": "✔\nBlack Lagoon\n(Level 7)\nMurky\nIncrease Slime's radius by 30%.\nBlack Lagoon is a good Talent that nearly doubles the\narea of effect of Slime. On top of simply allowing Murky to more reliably\nhit multiple Heroes, this increased area of effect also provides him with a\npseudo-ranged Ability that allows to kite melee Heroes and easily\nkeep up with ranged Heroes trying to escape, granted they have already been\naffected by Slime.\n?\nSlippery When Wet\n(Level 7)\nMurky\nGain 50% Movement Speed and move through units while in Safety Bubble. Additionally, Safety Bubble's cooldown is reduced by 2 seconds.\nSlippery When Wet is a strong Talent that provides Murky with some combat mobility.\nThe main advantage of this Talent is that it allows you to unconditionally waltz\nright up to your intended Octo-Grab target. The Movement Speed increased by\nSlippery When Wet allows Murky to effectively escape all but the most mobile of\nHeroes while using Safety Bubble, which may help maintaining\nLiving the Dream Stacks.\n?\nTime to Krill\n(Level 7)\nMurky\nBasic Attacks against Heroes deal an additional 7 (+4% per level) damage a second and slow the target by 7% for 4 seconds. This effect can stack up to 5 times.\nTime to Krill is a decent Talent that increases your damage\nwhen you can use Basic Attacks a lot. However, it needs a few seconds to ramp up.\nDo not pick this Talent when playing against burst damage\nor you will end up having a dead Talent."
+  },
+  {
+   "title": "Level 10 Talents for Murky",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nMarch of the Murlocs\n(Level 10)\nMurky\nCooldown: 90 seconds\nAfter 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 130 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.\nMarch of the Murlocs has the potential\nof dealing an immense amount of damage. This is, however,\nreliant on using the Ability in conjunction with some form of area of effect\ncrowd control, or during a fight from which your opponents can not (or\nshould not) avoid.\n?\nOcto-Grab\n(Level 10)\nMurky\nCooldown: 50 seconds\nMurky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second.\nOcto-Grab is one of the longest targeted Stuns\nin the game. It is almost always used\nin conjunction with Pufferfish to guarantee a large amount\nof damage. Besides killing Murky, the only reliable way of preventing Octo-Grab\nfrom being used as a way of locking down kill targets is to use cleanse effects\n(for example Intercession by Whitemane),\nas well as a few other select Heroic Abilities and Talents. If the opposing team\nhas a particularly important target to focus down, this is the choice for you."
+  },
+  {
+   "title": "Level 13 Talents for Murky",
+   "id": "level-13",
+   "text": "?\nRejuvenating Bubble\n(Level 13)\nMurky\nSafety Bubble restores 40% of Murky's maximum Health.\nRejuvenating Bubble greatly increases Murky's survivability by essentially allowing\nhim to near-fully heal during Safety Bubble when combined with his very high\nbaseline Health Regeneration. Rejuvenating Bubble becomes particularly effective\nif you manage to unlock the Mythic Reward from your\nBaseline Quest, which increases\nyour maximum Health by a considerable amount. Just make sure to use Safety Bubble\nwhen you have actually taken damage.\n?\nEgg Shell\n(Level 13)\nMurky\nUpon casting Spawn Egg, or when one of his eggs is killed, Murky gains a Shield for an amount equal to 50% of Murky's current Health.\nEgg Shell makes it so that, upon placing an Egg or when one of his Eggs\nis destroyed, Murky gets a Shield equal to 50% of his maximum Health that lasts indefinitely,\nuntil destroyed. This effect stacks with the Shield provided by Spawn Egg\nupon reviving from an Egg, making it possible to have a very large amount of Shield\nfor a short time when you place an Egg immediately after.\n✔\nFish Tank\n(Level 13)\nMurky\nMurky is healed for 20% of the damage he deals with Basic Attacks and Basic Abilities.\nFish Tank increases Murky's survivability against team compositions\nwith limited damage output. Double Healer compositions\nmay actually find it impossible to shed Murky unless they can also commit a\ndamage dealer's time to dealing with him, particularly with Slime-oriented\nBuilds. It should be noted that the area of effect-nature of Murky's\nAbilities means that Fish Tank works exceptionally well when surrounded by\nMinions."
+  },
+  {
+   "title": "Level 16 Talents for Murky",
+   "id": "level-16",
+   "text": "✔\nToxic Buildup\n(Level 16)\nMurky\nEvery 3rd consecutive Basic Attack against an enemy Hero causes a free Slime to be cast upon them.\nToxic Buildup turns Murky's Basic Attacks into something to be feared by\nall Heroes. This Talent single-handedly allows Murky to take on the majority of\nHeroes in a head-on fight. This high damage output, however, is dependent on\nyour ability to deliver said Basic Attacks. As such, Toxic Buildup is generally\nrecommendable against team compositions that feature at least 3 melee or low-range Heroes.\n?\nFish Oil\n(Level 16)\nMurky\nThe Pufferfish casts Slime at its location upon landing.\nFish Oil is a good Talent that hits all enemies\nnear the Pufferfish's landing spot with a free\nSlime, damaging and Slowing them.\nThe fact that it applies Slime on enemies\nmakes this Talent work well in combination with Tufferfish\nat Level 4, which makes Pufferfish deal more damage to\nSlimed targets.\n?\nWrath of Cod\n(Level 16)\nMurky\nHeroes hit by Pufferfish take additional damage equal to 16% of their maximum Health over 4 seconds.\nWrath of Cod is a good Talent that increases\nthe damage done by Pufferfish by applying a debuff\nwhich deals percent damage to enemy Heroes hit.\nDue to the nature of its damage, we find this Talent useful against\nHeroes with high maximum Health (for example Azmodan)\nbecause they will take more damage from it or against Heroes who rely\non Armor to survive (such as Garrosh)\nbecause they will not be able to mitigate its damage."
+  },
+  {
+   "title": "Level 20 Talents for Murky",
+   "id": "level-20",
+   "text": "?\nNever-Ending Murlocs\n(Level 20)\nMurky\nMarch of the Murlocs can be channeled indefinitely, and will always last its base duration when canceled early.\nIn addition, it no longer deals reduced damage to Structures.\nNever-Ending Murlocs turns March of the Murlocs\ninto an infinite channel and makes it deal full damage to Structures.\nIf your opponents are unable to interrupt the Ability, they are essentially forced\noff any Objective or away from Structures they may be trying to defend or\nassault. Keep track of important interrupts to get the most out of\nthis Talent. Even if interrupted, it will always last a minimum of 7 seconds.\n✘\n... And a Shark Too!\n(Level 20)\nMurky\nIncrease the damage of Octo-Grab by 13700%.\n... And a Shark Too! adds a measly amount of damage to an Ability that is generally used\nas a combo piece for your allies to follow up upon for near-unconditional kills.\nYou will get more mileage out of other Talent choices.\n✔\nMaking Inky\n(Level 20)\nMurky\nReduces the cooldown of Slime by 1.5 seconds.\nMaking Inky increases your damage output by reducing the cooldown\nof Slime. This effect allows you to constantly pressure enemy Heroes\nwithin range with more damage, granted you can stick on them and do not get killed quickly.\nSince it allows you to cast Slime more often, this Talent has\nsynergy with the following Talents: Slime Time at Level 4 increases\nits damage done, Slow, Black Lagoon at Level 7\nmakes it easier to hit enemy Heroes with it, and Fish Tank at Level 13\nincreases your self-healing.\n?\nFaster Fish\n(Level 20)\nMurky\nPufferfish explodes 1.5 seconds faster.\nFaster Fish makes Pufferfish detonate 80% faster.\nThanks to this effect, enemy Heroes will have a harder time destroying a Pufferfish\nbefore it explodes or getting out of its area before it is too late."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "21 Sep. 2026: Guide reviewed.\n12 May 2026: Guide reviewed for the latest Balance Update.\n19 Feb. 2026: Guide updated for the latest Balance Update.\n14 Feb. 2026: Guide updated for the latest Balance Update.\n01 Aug. 2025: Guide reviewed for the latest Balance Update.\n18 Apr. 2025: Guide reviewed.\n13 Dec. 2024: Guide reviewed for the latest Balance Update.\n21 Sep. 2023: ARAM Build added.\n20 Sep. 2023: Guide reviewed.\n11 Mar. 2021: Builds updated.\n25 Feb. 2021: New layout.\n24 Sep. 2020: Builds updated.\n05 Apr. 2020: Description updated for Egg Hunt and Octo-Grab.\n11 Oct. 2019: Talent builds and recommendations reviewed and updated.\n28 Jul. 2018: Updated Talents and recommendations to reflect July 25 balance patch changes.\n14 Jan. 2017: Updated Tier 1, 3, and 6 Talent assessments. Updated Balanced build.\nShow more\nShow less"
+  }
+ ]
+}

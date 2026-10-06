@@ -1,0 +1,330 @@
+{
+ "slug": "abathur",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/abathur-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/abathur-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/abathur-talents"
+ },
+ "guide": [
+  {
+   "title": "Abathur's Overview",
+   "id": "abathurs-overview",
+   "text": "Abathur plays differently from every other Hero in the game. With extremely\nlow health and negligible Basic Attack damage, he needs to avoid direct\nconfrontations with enemy Heroes. He instead applies pressure to\nthe map through use of his global Abilities, and participates in team fights by\nempowering his allies with Symbiote.\nAbathur is very dependent on good strategy, and can greatly benefit from (or\nsuffer on) certain maps and team compositions."
+  },
+  {
+   "title": "Abathur's Strengths and Weaknesses",
+   "id": "abathurs-strengths-and-weaknesses",
+   "text": "Strengths\nCan soak multiple lanes at once, creating an XP lead\nExcellent synergy with specific Heroes\nOne of the best split-pushing Heroes in the game\nCan teleport anywhere on the map (provided there is vision) using Deep Tunnel\nToxic Nest is excellent at spotting and dismounting enemies attempting to gank allies or sneak objectives\nWeaknesses\nWeak early game\nCannot solo a lane by himself\nBody is extremely vulnerable if found\nRequires very good multitasking and map awareness\nTeam must adapt to Abathur's unique gameplay style in order to succeed\nViability is very dependent on the map and team compositions"
+  },
+  {
+   "title": "Abathur's Talent Build Cheatsheet",
+   "id": "abathurs-talent-build-cheatsheet",
+   "text": "Symbiote Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Symbiote Build maximises Abathur's team fight presence by taking Talents\nthat improve Symbiote's damage dealing Abilities. This team fight presence\ncomes at the cost of global pressure, as you will lack the huge lane pressure\nprovided by other builds. Although this is not a build that focuses on pushing\nlanes, it is still important to soak as much experience as possible.\nDue to the short range of Symbiote's Abilities, this build is ideally paired\nwith a melee assassin who benefits from increased attack speed.\nAdrenal Overload will greatly increase the performance\nof certain heroes, like Illidan, or Greymane. When the Symbiote\nhost is not reliant on Basic Attacks, you should get Needlespine\ninstead. Even though Calldown: MULE will be useful in most games,\nVile Nest is also an option in Dragon Shire and Cursed Hollow,\nsince it will provide much control for enemy rotation and objectives. At Level 16\nAdrenaline Boost is the standard Talent, but\nEnvenomed Spikes is a great option against team compositions\nwith limited mobility, since the slow will affect all enemies, greatly disrupting\ntheir movement. Together with a Dragonblade Genji or Maiev,\nyou can go for Evolutionary Link at Level 20, since the shield\nand the extra duration will be incredibly good for those Heroes.\nToxic Nest Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nToxic Nest build can be a good choice in situations\nwhere you do not have viable heroes to place Symbiote on. It excels in maps with\nconstant rotation, such as Dragon Shire, Blackheart's Bay,\nCursed Hollow, Garden of Terror and Towers of Doom.\nEven though it sounds interesting to use all your Toxic Nest in the same point, this is not the\nbest way to abuse this build. We recommend using the Nests between the waves, while\nmaking sure they are not very close between them. The main focus is to\nabuse Vile Nest's slow to delay enemy rotations or to control\nthe way towards the objective. It is also very important to always have a Toxic Nest\non enemy's Mercenary camps, since it will give that information to your team, and\nsometimes it will even stop their intention in capturing it.\nEnvenomed Nest is especially strong when your team has a good\nganker or roamer, as Toxic Nests can catch enemies during rotations.\nTogether with Vile Nest, affected Heroes are Slowed and have their\nArmor reduced by 15, giving your ally time to secure the kill.\nAt level 13, Soma Transference is the default\npick as long as most of your simbiote hosts are frontline Heroes.\nTherefore, it is better to go for Spatial Efficiency when\nbackliners are the hosts. Evolutionary Link can be a good\nTalent as well, and you should use the Heroic Ability on your teammate that is having\nmore trouble staying alive, since the 35% shield will be applied to them, giving them\nsome much needed protection.\nLocust Strain Build\nSituational\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Locust Strain Build is strong on large Maps, where\nDeep Tunnel and Locust Brood allow Abathur to create\nsplit-push pressure far from the enemy team. Locusts can sustain themselves through\nundefended Minion waves, making their pressure harder to answer after Bombard Strain\nat Level 13 and Survival Instincts at Level 16. When enemies are visible elsewhere,\ntunnel to an advanced position, use Locust Brood, and retreat. Ultimate Evolution\ncan then be used to assist your team while enemies respond to the Locusts.\nAt Level 4, Adrenal Overload is excellent when your team has a decent\nBasic Attacker, such as Illidan or Greymane, who can take full advantage of its bonus\nAttack Speed. Without such an ally, Prolific Dispersal provides more map control\nand information through additional Toxic Nests, while Slapathur\nmakes Abathur much harder to dive when facing Heroes such as Genji or Zeratul.\nAt Level 7, Networked Carapace greatly strengthens the\npush of allied Minion waves, but Calldown: MULE is essential on\nSky Temple and Haunted Mines, where repairing Structures helps counter objective pressure.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Abathur's Synergies and Counters",
+   "id": "abathurs-synergies-and-counters",
+   "text": "Abathur synergizes with\nAbathur is strong with Heroes who serve as ideal Symbiote hosts, or who are\ngood targets for Ultimate Evolution. Ideal Symbiote hosts are Heroes that\nnaturally position themselves in melee range, or with mobile assassins, that can\neasily abuse Symbiote to kill squishy targets.\nAbathur is countered by\nAbathur's Symbiote and Locusts help him to deny the enemy team experience\nwhen objectives spawn, when most Heroes will need to vacate lanes in order to\nrotate. This tactic is directly countered by Heroes who can travel globally,\nand who waveclear very efficiently. He is also very weak against compositions that can\njoin as four to push down a lane. Heroes like Sylvanas, Zarya\nor Sgt. Hammer are great for that purpose, and for this reason are a big threat\nfor Abathur's team."
+  },
+  {
+   "title": "Abathur's Maps",
+   "id": "abathurs-maps",
+   "text": "Abathur's stronger maps\nAbathur's average maps\nAbathur's weaker maps\nAbathur's win condition is to be more places at once than his enemy, and\noverwhelm the other team with a constant stream of subtle pressure. Abathur is\nvery strong on large maps that feature frequent objective spawns, which allow\nhim to be somewhat ignored for some of the match. These maps allow him to\neither soak an advantage, or force the enemy team to split. His strength,\nhowever, is also his weakness. Abathur gets very little value on small maps\nthat feature fewer lanes, team fights near lanes, or objectives that do not\nrequire immediate rotations. Abathur is excellent on Sky Temple due\nto Calldown: MULE denying most of objective's shots."
+  },
+  {
+   "title": "Abathur's Tips and Tricks",
+   "id": "abathurs-tips-and-tricks",
+   "text": "Use Symbiote to soak Experience from distant lanes, making sure your team does not lose any Experience from lanes they are not present.\nPlace Toxic Nests around the battlefield to provide vision, deal damage, and dismount enemies who are rotating. Using them on enemy Mercenary Camps is a great way to spot enemies frequently, allowing your team to invade it or to push somewhere else.\nAfter getting Soma Transference it is better to only use Spike Burst when there are many enemies inside the area of effect, since you should be always trying to maximize sustain healing in your empowered ally.\nUltimate Evolution should be used as team fights start.\nWhen using Ultimate Evolution, the Monstrosity can use Deep Tunnel on its own separate cooldown to move to an empty side lane, or to return to the Hall of Storms to heal.\nUse Deep Tunnel to quickly traverse the battlefield and get out of harm's way.\nDeep Tunnel should be used towards empty lanes when enemies cannot reach them, so you will be soaking Experience for your team with Abathur's body, while also assisting them with Symbiote.\nCalldown: MULE should be used when ready on any damaged lane to maximize its value.\nYou should be careful about body position when playing against Heroes that can easily hunt you down, such as Zeratul, Medivh, or Genji. In those scenarios it might even be better to not be in lane at all while you do not know where they are.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Abathur's Role in the Current Meta",
+   "id": "abathurs-role-in-the-current-meta",
+   "text": "Abathur's biggest strength is being able to contest map objectives while\nsoaking experience. This is done by moving Abathur within\nrange of Minions and then using Symbiote or\nUltimate Evolution to assist your team. This creates\nan experience advantage over the enemy team. If the enemy team has one of their\nHeroes soak a lane to try to catch up, then your team is at a significant\nadvantage in any team fight that occurs during that time.\nDue to the specific nature of his strengths and weaknesses, Abathur's place\nin the meta will likely remain situational. He can be extremely powerful with\nthe right team composition, or can struggle to provide value because of a map's\nmechanics. Even in drafts where you have a good team composition and map for\nAbathur, you should make sure your team is comfortable with the pick. Abathur\nrequires your team to play differently than normal, and you will have the most\nsuccess when your teammates understand this."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "24 Aug. 2026 (talents page): Updated Talents and Builds after recent balance patch.\n24 Aug. 2026 (abilities page): Updated Abilities after recent balance patch.\n24 Aug. 2026 (this page): Guide updated after recent balance patch.\n11 Mar. 2026 (talents page): Updated builds and Talents to reflect meta development.\n11 Mar. 2026 (abilities page): Guide updated to reflect meta development.\n11 Mar. 2026 (this page): Guide updated to reflect meta development.\n31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n26 Mar. 2021 (talents page): Updated builds and Talents to better reflect Current Meta.\n26 Mar. 2021 (this page): Updated builds to better reflect Current Meta.\n17 May 2020 (this page): Updated guide to ensure meta relevance.\n09 Apr. 2020 (talents page): Updated builds and Talents to better reflect Current Meta.\n15 Feb. 2020 (talents page): Updated text for Prolific Dispersal to account for balance patch.\n15 Feb. 2020 (this page): Guide reviewed and text updated for Prolific Dispersal to account for February 12 balance patch.\n29 Jan. 2020 (talents page): Reviewed Talents section for relevance and fixed grammatical error.\n29 Jan. 2020 (this page): Updated synergies to stress the strength of symbiote on high sustain melee Heroes.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n18 Apr. 2019 (talents page): Updated Talents section to account for balance patch.\n18 Apr. 2019 (this page): Updated Talents section to account for balance patch.\n12 Feb. 2019 (talents page): Updated guide to reflect Hero rework in balance patch.\n12 Feb. 2019 (this page): Updated guide to reflect Hero rework in balance patch.\n12 Dec. 2017 (talents page): Edited Calldown: MULE to reflect 2018 game design changes.\n16 Feb. 2017 (this page): Updated guide and moved it to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Abathur's Tips and Tricks",
+   "id": "abathurs-tips-and-tricks",
+   "text": "Use Symbiote to soak Experience from distant lanes, making sure your team does not lose any Experience from lanes they are not present.\nPlace Toxic Nests around the battlefield to provide vision, deal damage, and dismount enemies who are rotating. Using them on enemy Mercenary Camps is a great way to spot enemies frequently, allowing your team to invade it or to push somewhere else.\nAfter getting Soma Transference it is better to only use Spike Burst when there are many enemies inside the area of effect, since you should be always trying to maximize sustain healing in your empowered ally.\nUltimate Evolution should be used as team fights start.\nWhen using Ultimate Evolution, the Monstrosity can use Deep Tunnel on its own separate cooldown to move to an empty side lane, or to return to the Hall of Storms to heal.\nUse Deep Tunnel to quickly traverse the battlefield and get out of harm's way.\nDeep Tunnel should be used towards empty lanes when enemies cannot reach them, so you will be soaking Experience for your team with Abathur's body, while also assisting them with Symbiote.\nCalldown: MULE should be used when ready on any damaged lane to maximize its value.\nYou should be careful about body position when playing against Heroes that can easily hunt you down, such as Zeratul, Medivh, or Genji. In those scenarios it might even be better to not be in lane at all while you do not know where they are."
+  },
+  {
+   "title": "Locust Strain (Trait)",
+   "id": "locust-strain-trait",
+   "text": "Locust Strain\n(D)\nAbathur\nCooldown: 15 seconds\nSpawns a Locust to attack down the nearest lane every 15 seconds. Locusts heal for 20% of the damage they deal, and regain 20% of their Maximum health when a nearby minion dies.\nLocusts lose health over 17 seconds, have 225 (+4% per level) health and deal 36 (+4% per level) damage with each Basic Attack, dealing 100% bonus damage to enemy non-Heroes.\nLocusts will passively push the lane you are closest to.\nThey have a constant influence on a lane's balance; similar to (albeit much\nless significant than) Catapult Minions. It is ideal to place yourself near an\nempty lane when possible, in order to create static lane pressure that will\nforce an enemy to rotate to you.\nLocusts excel at unattended split-push because their healing from damage dealt\nand nearby deaths of enemy units or Structures allows them to survive and accumulate until an enemy\nHero responds. Their Health drains proportionally over time, so increasing it helps against\nattacks, but does not extend their lifetime. Locusts focus the closest targetable enemy,\nmeaning that spawning them near an active Mercenary Camp will cause them to attack it.\nIt is important to note that Locust Strain cannot be toggled off and\nspawned Locusts will lead the enemy team right to you. Toxic Nests\ncan be used to see potential threats moving toward your location; be aware of\nenemy locations on the minimap. When enemies begin closing on your location,\nyou can quickly travel to a position far away via Deep Tunnel."
+  },
+  {
+   "title": "Deep Tunnel",
+   "id": "deep-tunnel",
+   "text": "Deep Tunnel\n(Z)\nAbathur\nCooldown: 30 seconds\nQuickly tunnel to a visible location.\nDeep Tunnel allows you to teleport anywhere on the\nmap that you have vision of after channelling for 3 seconds. Deep Tunnel only\ngoes on a full cooldown when successfully used, although cancelling it will\nresult in a much shorter cooldown.\nAlthough Abathur lacks a mount, Deep Tunnel allows you to almost instantly\nadapt to changing situations. Deep Tunnel should generally be used to\nreposition yourself to body-soak XP from minions, but it\ncan also be used to escape ganks, sneak map objective\ncaptures, or to spawn Locusts at a specific location. If you are being pursued\nby an enemy who is capable of interrupting Deep Tunnel, make sure you use Deep\nTunnel before they are in range to stop you.\nIf you lack vision of a location that you want to tunnel to, you can reveal\nit by placing a Toxic Nest. You will need to place nests\nahead of time, as they will not grant vision until they have gone through a\n5 second activation process."
+  },
+  {
+   "title": "Toxic Nest",
+   "id": "toxic-nest",
+   "text": "Toxic Nest\n(W)\nAbathur\nCharges: 3\nRecharge Time: 10 seconds\nSpawn a mine that becomes active after a short time. Deals 153 (+4% per level) damage and reveals the enemy for 4 seconds. Lasts 90 seconds.\nStores up to 3 charges.\nToxic Nest creates a mine at the targeted location\nthat takes 5 seconds to activate. Once active, it provides vision, gains Stealth,\nand will explode if an enemy moves over it, damaging nearby enemies and destroying\nthe mine. The mine has its own health pool and can be destroyed by\nAoE abilities and Basic Attacks, although it can\nonly be targeted with Basic Attacks if revealed. Minions and Mercenaries will\nnot target the mines, but Structures will (when they are visible). Mines can be\nplaced beside each other, but not on top of each other. Mines work on a charge\nsystem, allowing you to hold up to 3 charges at a time. One charge is generated\nevery 10 seconds. Toxic Nests last for 90 seconds.\nToxic Nests have a variety of uses but are primarily used to provide vision\nalong key paths, dismounting and revealing passing Heroes. This is exceptionally\nstrong against Heroes that focus on ganking, especially\nthose that rely on Stealth to perform ganks. Place Toxic Nests at choke-points\nand along routes that enemies are likely to take to get to an objective or\nlane. Toxic Nests can also be used to help waveclear by placing\nthem in the midst of enemy minions.\nWith so much emphasis on Symbiote, it can be easy to\nforget to use Toxic Nest charges as they become available. Place mines as frequently\nas you can in between Symbiote uses. Although Toxic Nests can only be placed\nwithin a certain range of Abathur, do not feel obligated to move if you cannot\nplace them in a specific area. It is more important to body-soak\nfor XP or to spawn Locusts down a specific lane than to place mines in a\ndifferent location."
+  },
+  {
+   "title": "Symbiote",
+   "id": "symbiote",
+   "text": "Symbiote\n(Q)\nAbathur\nCooldown: 4 seconds\nSpawn and attach a Symbiote to a target ally or Structure. While active, Abathur controls the Symbiote, gaining access to new Abilities. The Symbiote is able to gain XP from nearby enemy deaths.\nSymbiote defines Abathur as a Hero. By creating a\ndirect link between him and any allied Hero, Structure, Minion, or Mercenary,\nSymbiote allows Abathur to soak or assist allied Heroes in a\nglobal manner. Symbiote is often lovingly refered\nto by the community as \"aba hat\" or simply \"hat\" due to its appearance. While\nSymbiote is active, you will have access to three additional Abilities that\nwill originate from or benefit the hosted target: Stab,\nSpike Burst, and\nCarapace. If the host dies or Abathur is Stunned,\nPolymorphed, or Silenced, Symbiote is immediately cancelled.\nSymbiote will remain on a host affected by Stasis; however, Symbiote Abilities\nwill not be usable during the untargetable period.\nSymbiote may be cancelled at any time (even when the host is in Stasis).\nStab, Spike Burst, and Carapace have their cooldowns immediately refreshed when\nSymbiote is discontinued. While Symbiote is active, you soak\nall nearby XP. It cannot be used on Bosses, or summoned creatures other than\nLocusts.\nWhen playing Abathur, Symbiote should be active or on cooldown for\nmost of the game. Since Abathur does not have Mana, the only downside\nto using Symbiote is that it will not be immediately available to use on\nanother ally if they need it. Symbiote does not always have to be used on\nallied Heroes, it may also be used on Minions, Locusts, Mercenaries, or\nStructures to push lanes and soak XP.\nDuring team fights, Symbiote should almost\nexclusively be placed on your frontline melee Heroes. If your team has a\nvariety of these Heroes, Assassins should take priority,\nas you will increase your team's kill potential the most this way. Stab and\nSpike Burst have relatively short ranges, and Melee Heroes will naturally\nposition so that you can use them effectively."
+  },
+  {
+   "title": "Stab",
+   "id": "stab",
+   "text": "Stab\n(Q)\nAbathur\nCharges: 2\nRecharge Time: 3 seconds\nShoots a spike towards target area that deals 119 (+4% per level) damage to the first enemy it contacts.\nStab deals significantly more damage-per-second\nthan Spike Burst against single-targets, while also\nbeing a ranged attack. This can be extremely useful when defending channelled\nobjectives with a melee Hero, as Abathur can give them a ranged attack to\ninterrupt the enemies' channelling."
+  },
+  {
+   "title": "Spike Burst",
+   "id": "spike-burst",
+   "text": "Spike Burst\n(W)\nAbathur\nCooldown: 6 seconds\nDeals 120 (+4% per level) damage to nearby enemies.\nSpike Burst may seem underwhelming during the early game, but\nit can become much stronger if you take Soma Transference\nand Envenomed Spikes at Levels 13 and 16 respectively. Even\nwith no talents invested into it, it is very useful for assisting with\nwaveclear and Mercenary Camps. It is also very useful\nfor revealing cloaked units."
+  },
+  {
+   "title": "Carapace",
+   "id": "carapace",
+   "text": "Carapace\n(E)\nAbathur\nCooldown: 6 seconds\nShields the assisted ally for 150 (+4% per level). Allied Heroes are healed for 22 (+4% per level) Health per second while the Shield is active. Lasts for 6 seconds.\nCarapace provides a fairly weak shield, but can be\nused very often with no resource cost. While active, this shield heals all\nHeroes affected by it. It does not heal Minions, Mercenaries, or Structures.\nThe cooldown of Carapace is equal to the duration of the shield it provides.\nUse Carapace to prevent damage to allies during fights, or to help them heal\nwhen they are out of combat."
+  },
+  {
+   "title": "Ultimate Evolution",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nUltimate Evolution\n(R)\nAbathur\nHeroic\nCooldown: 70 seconds\nClone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.\nUltimate Evolution is a fantastic and versatile Heroic ability. It should\nusually be used on high damage Heroes, as these clones will benefit the most\nfrom the extra Ability Power and Basic Attack damage. Ideally, the cloned Hero\nwill also have a gap closer to ensure that you are able to close\nin on enemies and deal meaningful damage during the 20 second window. Cloning\nTanks will yield less damage, but can be useful if your team requires\nmore crowd control.\nUse Ultimate Evolution just before a team fight breaks out. Play the cloned\nHero as an extremely aggressive version of themselves, as Abathur will not\nactually die if the clone dies. It is in your best interest to have the\nclone absorb as many of the enemies' abilities as possible. Note that Abathur\ndisappears from the map while the clone is active; Ultimate Evolution\ncan be used to escape ganks if it is not possible to\nuse Deep Tunnel to escape. Do not forget that Abathur\nwill return to the location Ultimate Evolution was cast from once the Heroic\nends."
+  },
+  {
+   "title": "Evolve Monstrosity",
+   "id": "evolve-monstrosity",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nEvolve Monstrosity\n(R)\nAbathur\nHeroic\nCooldown: 90 seconds\nTurn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 2% Health and 2% Basic Attack damage, stacking up to 40 times. The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every 80 seconds.\nUsing Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits. This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.\nEvolve Monstrosity should be used in a lane with many enemy Minions and\nwhen no enemy Heroes are nearby. This gives the Monstrosity time to gain stacks,\nincreasing its health and damage. If you create the Monstrosity with enemies\nnear, it will be killed before it can have any meaningful impact. When the\nMonstrosity is pushing down a lane, there is no need to control\nit with Symbiote, except to\nsoak XP. However, there are some situatons where you can\nor should control it. If the enemy team is coming to kill the Monstrosity, you\nshould have the Monstrosity flee, making the enemy team waste a significant\namount of time chasing it (if they wish to do so). When the Monstrosity is\npushing Structures, do not allow it take Tower shots. Instead, wait for allied\nMinions to absorb the shots. You can take the Monstrosity into direct combat.\nIt can be incredibly strong against enemy Heroes, especially if you have built\nup full stacks on it.\nThe Monstrosity cannot collect Regeneration Globes, pick up Gems or Coins, or\nparticipate in Map Objectives that need to be channeled. It also cannot capture\nareas, such as Mercenary Camps, the temples on Sky Temple, or the shrines on\nDragon Shire. It can only collect Experience from Minions if it gets the last\nhit on them. If it does not, the Experience Globe will drop, so keep your\nattention on the lane it is pushing and use Symbiote\nto collect any Experience Globes it does not pick up.\nThe Monstrosity can also be controlled by pressing your Heroic Ability\nbutton again. This will automatically center your camera on the Monstrosity\nand place Symbiote on it. Like Abathur, the\nMonstrosity also has Deep Tunnel on its own separate\ncooldown. Use it to move the Monstrosity to an empty side lane, or to send it\nback to the Hall of Storms, where it can heal like a Hero."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "24 Aug. 2026: Updated Abilities after recent balance patch.\n11 Mar. 2026: Guide updated to reflect meta development.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Pressurized Glands (Level 1) Abathur Increases the range of Symbiote's Spike Burst by 25% and decreases the cooldown by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Envenomed Nest (Level 1) Abathur Toxic Nests deal 75% more damage over 3 seconds and reduce the Armor of enemy Heroes hit by 15 for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Reinforced Carapace (Level 1) Abathur Increase the Shield amount of Carapace by 40%."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Locust Brood (Level 1) Abathur Cooldown: 75 seconds Activate to spawn 3 Locusts at a nearby location."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Adrenal Overload (Level 4) Abathur Heroic Symbiote hosts gain 25% increased Attack Speed."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Needlespine (Level 4) Abathur Increases the damage and range of Symbiote's Stab by 20%."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Prolific Dispersal (Level 4) Abathur Increase the duration of Toxic Nests by 45 seconds, reduce its cooldown by 2 seconds, and add 2 additional charges."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Slapathur (Level 4) Abathur Cooldown: 6 seconds Abathur’s Basic Attacks deal 350% additional damage and Stun non-Elite enemies and disable Structures for 1.5 seconds. The same Hero or Structure can only be Stunned or disabled once every 6 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Vile Nest (Level 7) Abathur Toxic Nests Slow enemy Movement Speed by 40% for 2.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Networked Carapace (Level 7) Abathur Using Symbiote's Carapace also applies an untalented Carapace Shield to all nearby allied Heroes, Minions, and Mercenaries."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Calldown: MULE (Level 7) Abathur Cooldown: 60 seconds Activate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 90 Health every 1 second."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Ultimate Evolution (Level 10) Abathur Cooldown: 70 seconds Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Evolve Monstrosity (Level 10) Abathur Cooldown: 90 seconds Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 2% Health and 2% Basic Attack damage, stacking up to 40 times. The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every 80 seconds. Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits. This Ability can be reactivated to automatically cast Symbiote on his Monstrosity."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Spatial Efficiency (Level 13) Abathur Symbiote's Stab gains 1 additional charge and its cooldown is reduced by .5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Soma Transference (Level 13) Abathur Symbiote's Spike Burst heals the host for 64 (+4% per level) Health per enemy Hero hit."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Bombard Strain (Level 13) Abathur Locust's Basic Attacks become a long-range siege attack and they now lose health 40% more slowly."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Envenomed Spikes (Level 16) Abathur Abathur's Symbiote's Spike Burst also Slows enemy Movement Speed by 40% for 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Adrenaline Boost (Level 16) Abathur Symbiote's Carapace increases the Movement Speed of the target by 40% for 3.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Volatile Mutation (Level 16) Abathur Ultimate Evolution clones and Monstrosities deal 137 (+4% per level) damage to nearby enemies every 3 seconds and when they die. Enemy Heroes hit heal the clone or Monstrosity for 100% of the damage dealt."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Survival Instincts (Level 16) Abathur Reduce damage taken by Locusts from non-Heroes by 50% and increase their damage by 60%."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Evolutionary Link (Level 20) Abathur Increase the duration of Ultimate Evolution by 50%. As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to 35% of their maximum Health. Refreshes every 5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Evolution Complete (Level 20) Abathur Increase Monstrosity's Basic Attack damage by 100%."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hivemind (Level 20) Abathur Symbiote creates an additional Symbiote on a nearby allied Hero. This Symbiote mimics the commands of the first, but does half damage and Shielding."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Locust Nest (Level 20) Abathur Cooldown: 45 seconds Activate to create a nest that periodically spawns Locusts. Only one Locust Nest can be active at a time."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Abathur's Talent Build",
+   "id": "abathurs-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n✘︎\n?\n4\n✓\n?\n?\n?\n7\n?\n✓\n?\n10\n✓\n?\n13\n?\n✓\n?\n16\n?\n✓\n✘︎\n?\n20\n?\n✘︎\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Abathur's Talent Build Cheatsheet",
+   "id": "abathurs-talent-build-cheatsheet",
+   "text": "Symbiote Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Symbiote Build maximises Abathur's team fight presence by taking Talents\nthat improve Symbiote's damage dealing Abilities. This team fight presence\ncomes at the cost of global pressure, as you will lack the huge lane pressure\nprovided by other builds. Although this is not a build that focuses on pushing\nlanes, it is still important to soak as much experience as possible.\nDue to the short range of Symbiote's Abilities, this build is ideally paired\nwith a melee assassin who benefits from increased attack speed.\nAdrenal Overload will greatly increase the performance\nof certain heroes, like Illidan, or Greymane. When the Symbiote\nhost is not reliant on Basic Attacks, you should get Needlespine\ninstead. Even though Calldown: MULE will be useful in most games,\nVile Nest is also an option in Dragon Shire and Cursed Hollow,\nsince it will provide much control for enemy rotation and objectives. At Level 16\nAdrenaline Boost is the standard Talent, but\nEnvenomed Spikes is a great option against team compositions\nwith limited mobility, since the slow will affect all enemies, greatly disrupting\ntheir movement. Together with a Dragonblade Genji or Maiev,\nyou can go for Evolutionary Link at Level 20, since the shield\nand the extra duration will be incredibly good for those Heroes.\nToxic Nest Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nToxic Nest build can be a good choice in situations\nwhere you do not have viable heroes to place Symbiote on. It excels in maps with\nconstant rotation, such as Dragon Shire, Blackheart's Bay,\nCursed Hollow, Garden of Terror and Towers of Doom.\nEven though it sounds interesting to use all your Toxic Nest in the same point, this is not the\nbest way to abuse this build. We recommend using the Nests between the waves, while\nmaking sure they are not very close between them. The main focus is to\nabuse Vile Nest's slow to delay enemy rotations or to control\nthe way towards the objective. It is also very important to always have a Toxic Nest\non enemy's Mercenary camps, since it will give that information to your team, and\nsometimes it will even stop their intention in capturing it.\nEnvenomed Nest is especially strong when your team has a good\nganker or roamer, as Toxic Nests can catch enemies during rotations.\nTogether with Vile Nest, affected Heroes are Slowed and have their\nArmor reduced by 15, giving your ally time to secure the kill.\nAt level 13, Soma Transference is the default\npick as long as most of your simbiote hosts are frontline Heroes.\nTherefore, it is better to go for Spatial Efficiency when\nbackliners are the hosts. Evolutionary Link can be a good\nTalent as well, and you should use the Heroic Ability on your teammate that is having\nmore trouble staying alive, since the 35% shield will be applied to them, giving them\nsome much needed protection.\nLocust Strain Build\nSituational\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Locust Strain Build is strong on large Maps, where\nDeep Tunnel and Locust Brood allow Abathur to create\nsplit-push pressure far from the enemy team. Locusts can sustain themselves through\nundefended Minion waves, making their pressure harder to answer after Bombard Strain\nat Level 13 and Survival Instincts at Level 16. When enemies are visible elsewhere,\ntunnel to an advanced position, use Locust Brood, and retreat. Ultimate Evolution\ncan then be used to assist your team while enemies respond to the Locusts.\nAt Level 4, Adrenal Overload is excellent when your team has a decent\nBasic Attacker, such as Illidan or Greymane, who can take full advantage of its bonus\nAttack Speed. Without such an ally, Prolific Dispersal provides more map control\nand information through additional Toxic Nests, while Slapathur\nmakes Abathur much harder to dive when facing Heroes such as Genji or Zeratul.\nAt Level 7, Networked Carapace greatly strengthens the\npush of allied Minion waves, but Calldown: MULE is essential on\nSky Temple and Haunted Mines, where repairing Structures helps counter objective pressure."
+  },
+  {
+   "title": "Level 1 Talents for Abathur",
+   "id": "level-1",
+   "text": "✓\nPressurized Glands\n(Level 1)\nAbathur\nIncreases the range of Symbiote's Spike Burst by 25% and decreases the cooldown by 1 second.\n?\nEnvenomed Nest\n(Level 1)\nAbathur\nToxic Nests deal 75% more damage over 3 seconds and reduce the Armor of enemy Heroes hit by 15 for 4 seconds.\n✘︎\nReinforced Carapace\n(Level 1)\nAbathur\nIncrease the Shield amount of Carapace by 40%.\n?\nLocust Brood\n(Level 1)\nAbathur\nCooldown: 75 seconds\nActivate to spawn 3 Locusts at a nearby location."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Pressurized Glands provides\nSpike Burst with a reasonable power increase during the\nearly game, and has good synergy with Soma Transference\nand Envenomed Spikes at Levels 13 and 16 respectively.\nPressurized Glands also helps improve your waveclear. It\nis the best option for a Symbiote build.\nEnvenomed Nest dramatically increases the damage of\nToxic Nest, but deals this extra damage over time.\nConsider taking this if you are\nplanning on taking the other Toxic nest talents at levels 4 and 7. This Talent\ncan also be useful in Quick Match games when the enemy team lacks a healer or\nself-sustain options.\nReinforced Carapace increases Carapace's shield amount.\nCarapace's healing effect ends if the shield is destroyed. This Talent adds a\nvery small boost to shield strength; for this reason we recommend Pressurized Glands instead.\nLocust Brood is an excellent Talent for creating pressure\nacross the map. However, Locusts remain fragile until Survival Instincts\nis unlocked, so Locust Brood should only be activated when the enemy team's position is known and\nfar from the targeted lane. Spawn the Locusts from an advanced position to give the enemy team less time to react."
+  },
+  {
+   "title": "Level 4 Talents for Abathur",
+   "id": "level-4",
+   "text": "✓\nAdrenal Overload\n(Level 4)\nAbathur\nHeroic Symbiote hosts gain 25% increased Attack Speed.\n?\nNeedlespine\n(Level 4)\nAbathur\nIncreases the damage and range of Symbiote's Stab by 20%.\n?\nProlific Dispersal\n(Level 4)\nAbathur\nIncrease the duration of Toxic Nests by 45 seconds, reduce its cooldown by 2 seconds, and add 2 additional charges.\n?\nSlapathur\n(Level 4)\nAbathur\nCooldown: 6 seconds\nAbathur’s Basic Attacks deal 350% additional damage and Stun non-Elite enemies and disable Structures for 1.5 seconds.\nThe same Hero or Structure can only be Stunned or disabled once every 6 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Adrenal Overload significantly increases the damage\npotential of Heroes who depend on Basic Attacks for damage, self-sustain, or\nto trigger other effects. Heroes that do not rely on Basic Attacks benefit much\nless from this Talent; its usefulness depends on team composition.\nNeedlespine allows Abathur to deal more damage with\nSymbiote by increasing Stab's range and damage. This\ntalent is very impactful, but if you have a good Hero reliant on Basic Attacks,\nAdrenal Overload will be a better option. Otherwise, Needlespine will have great value.\nProlific Dispersal dramatically increases the number of\nToxic Nests\nAbathur can deploy simultaneously. Prolific Dispersal has strong synergy with\nVile Nest at level 7, even in the absence of\nEnvenomed Nest from\nlevel 1. Consider this talent in maps where you can easily disrupt enemy rotations,\nsuch as Towers of Doom, Dragon Shire or Infernal Shrines.\nSlapathur is a strong defensive option against melee Heroes that\ndive Abathur under allied Structures. It also allows you to capture Mercenary Camps alone\nor defend against enemy Mercenaries when your team is absent. However, it competes with\nAdrenal Overload, which is a powerful choice when your team has a good\nHero who benefits greatly from the bonus Attack Speed.\nWhen the rest of the enemy team is visible elsewhere, coordinate with an ally and use\nDeep Tunnel to surprise an isolated Offlaner,\nStunning and heavily damaging them so your ally can immediately follow up and secure the kill.\nThis risky play works well against Heroes with low burst damage, such as Malthael,\nor Heroes whose Abilities can be interrupted by Stuns, such as Yrel.\nAgainst Xul or Imperius, use Deep Tunnel after their main\ncrowd control Abilities are on cooldown, as they will not be able\nto turn on Abathur while your ally finishes them."
+  },
+  {
+   "title": "Level 7 Talents for Abathur",
+   "id": "level-7",
+   "text": "?\nVile Nest\n(Level 7)\nAbathur\nToxic Nests Slow enemy Movement Speed by 40% for 2.5 seconds.\n✓\nNetworked Carapace\n(Level 7)\nAbathur\nUsing Symbiote's Carapace also applies an untalented Carapace Shield to all nearby allied Heroes, Minions, and Mercenaries.\n?\nCalldown: MULE\n(Level 7)\nAbathur\nCooldown: 60 seconds\nActivate to calldown a Mule that repairs Structures, one at a time, near target point for 40 seconds, healing for 90 Health every 1 second."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Vile Nest can be extremely annoying for the enemy team.\nThis talent can help your team secure objectives and kills by reducing the\neffectiveness of enemy rotations and ganks. Vile Nest has great synergy with\nProlific Dispersal.\nNetworked Carapace is predominantly a\nPvE Talent focused on\npushing empty lanes by keeping large numbers of Minions and\nMercenaries healthy. It applies untalented shields to allied Heroes who are\nnearby the Symbiote host. Carapace's heal\neffect is not applied to Minions or Mercenaries, but it is applied to all\nHeroes that are shielded by Networked Carapace. This Talent is good against\nteams with low waveclear, as it makes it much harder\nfor them to deal with waves or Evolve Monstrosity.\nCalldown: MULE should almost always be taken on Sky\nTemple, because it gets insane value due to the way the main objective plays\nout there. It is a situational pick on other maps. Calldown: Mule is usually\na very strong choice. It allows you to apply pressure and push\nlanes during all stages of the game while repairing your own Structures."
+  },
+  {
+   "title": "Level 10 Talents for Abathur",
+   "id": "level-10",
+   "text": "✓\nUltimate Evolution\n(Level 10)\nAbathur\nCooldown: 70 seconds\nClone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.\n?\nEvolve Monstrosity\n(Level 10)\nAbathur\nCooldown: 90 seconds\nTurn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 2% Health and 2% Basic Attack damage, stacking up to 40 times. The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every 80 seconds.\nUsing Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits. This Ability can be reactivated to automatically cast Symbiote on his Monstrosity."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nUltimate Evolution is a fantastic and versatile Heroic ability. It should\nusually be used on high damage Heroes, as these clones will benefit the most\nfrom the extra Ability Power and Basic Attack damage. Ideally, the cloned Hero\nwill also have a gap closer to ensure that you are able to close\nin on enemies and deal meaningful damage during the 20 second window. Cloning\nTanks will yield less damage, but can be useful if your team requires\nmore crowd control.\nEvolve Monstrosity is a strong pushing and sieging\ntool, but you must sacrifice a lot of team fight presence in order to take it.\nIt is unrealistic to assume that you will be able to get the monstrosity into an\nideal position. Sometimes having Symbiote on a hero will\nbe better than using Ultimate Evolution in a fight. At those\ngames, we recommend picking Evolve Monstrosity instead, as\nit will push the offlane while you are supporting your team in the best possible way."
+  },
+  {
+   "title": "Level 13 Talents for Abathur",
+   "id": "level-13",
+   "text": "?\nSpatial Efficiency\n(Level 13)\nAbathur\nSymbiote's Stab gains 1 additional charge and its cooldown is reduced by .5 seconds.\n✓\nSoma Transference\n(Level 13)\nAbathur\nSymbiote's Spike Burst heals the host for 64 (+4% per level) Health per enemy Hero hit.\n?\nBombard Strain\n(Level 13)\nAbathur\nLocust's Basic Attacks become a long-range siege attack and they now lose health 40% more slowly."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Spatial Efficiency can put out a lot of damage when\npaired with Needlespine. This can be useful when you\nfind yourself primarily using Symbiote to imbue a ranged Basic Attacker with\nAdrenal Overload, or would otherwise get decreased\nvalue out of Spike Burst Talents.\nSoma Transference can heal the host for a significant\namount of Health, especially if Symbiote is on a melee\nHero who will be within range of multiple enemy Heroes.\nPressurized Glands synergises very well with this Talent.\nSoma Transference is less effective on ranged allies.\nBombard Strain is essential for a dedicated Locust Build, as it greatly\nimproves the Locusts' unattended split-push pressure. By attacking quickly from the\nbackline, Locusts are less likely to die early while clearing enemy Minion waves\nor Mercenary Camps, or when facing enemy Catapults. This makes defending against them much harder,\neven when the enemy team is ahead. If an ally uses crowd control on an enemy\nHero trying to clear them, the Locusts' fast ranged Basic Attacks can quickly shred the target."
+  },
+  {
+   "title": "Level 16 Talents for Abathur",
+   "id": "level-16",
+   "text": "?\nEnvenomed Spikes\n(Level 16)\nAbathur\nAbathur's Symbiote's Spike Burst also Slows enemy Movement Speed by 40% for 2 seconds.\n✓\nAdrenaline Boost\n(Level 16)\nAbathur\nSymbiote's Carapace increases the Movement Speed of the target by 40% for 3.5 seconds.\n✘︎\nVolatile Mutation\n(Level 16)\nAbathur\nUltimate Evolution clones and Monstrosities deal 137 (+4% per level) damage to nearby enemies every 3 seconds and when they die. Enemy Heroes hit heal the clone or Monstrosity for 100% of the damage dealt.\n?\nSurvival Instincts\n(Level 16)\nAbathur\nReduce damage taken by Locusts from non-Heroes by 50% and increase their damage by 60%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Envenomed Spikes provides a significant Slow over\na large area, especially when combined with Pressurized Glands at\nLevel 1. It allows melee Heroes to stick to targets much more easily than they\nwould otherwise be able to. One advantage this has over Adrenaline Boost\nis that its effect cannot be removed by damaging your Symbiote host. The other\nimportant difference is that Envenomed Spikes can affect multiple enemies.\nAdrenaline Boost is essentially the opposite of\nEnvenomed Spikes, speeding up a single ally, rather than\nslowing down multiple enemies. Slowing enemies allows your entire team to\nreposition, as opposed to giving a single ally increased Movement Speed.\nHowever, Adrenaline Boost can help your team run down kills that would\notherwise escape. The main drawback to Adrenaline Boost\nis that its effect is removed when Carapace shield is destroyed. Despite those\nflaws, this Talent is very impactful when Symbiote is on a hypercarry,\nor on a very mobile hero, such as Zeratul, Tracer, Genji\nor Greymane.\nVolatile Mutation deals damage to enemies very near\nAbathur's Heroic entities. This talent may have some conflicts with Ultimate Evolution,\nwhere you will often clone a ranged Hero and may only be within range for\nVolatile Mutation very briefly. Volatile Mutation is overshadowed by Envenomed Spikes\nand Adrenaline Boost, since those will be much more effective and reliable in fights\nthan Volatile Mutation.\nLike other Locust Talents, Survival Instincts is essential for\na dedicated Locust Build. Once selected, it greatly increases Abathur's\nsplit-push pressure, forcing the enemy team to respond to Locusts in side lanes\neven while Locust Brood is on cooldown. The additional Health and damage\nguarantee that they will survive against undefended Minion waves, allowing them to\naccumulate in greater numbers and threaten enemy Forts and Keeps."
+  },
+  {
+   "title": "Level 20 Talents for Abathur",
+   "id": "level-20",
+   "text": "?\nEvolutionary Link\n(Level 20)\nAbathur\nIncrease the duration of Ultimate Evolution by 50%. As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to 35% of their maximum Health. Refreshes every 5 seconds.\n✘︎\nEvolution Complete\n(Level 20)\nAbathur\nIncrease Monstrosity's Basic Attack damage by 100%.\n✓\nHivemind\n(Level 20)\nAbathur\nSymbiote creates an additional Symbiote on a nearby allied Hero. This Symbiote mimics the commands of the first, but does half damage and Shielding.\n?\nLocust Nest\n(Level 20)\nAbathur\nCooldown: 45 seconds\nActivate to create a nest that periodically spawns Locusts. Only one Locust Nest can be active at a time."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Evolutionary Link makes it harder for the enemy team\nto kill Ultimate Evolution's target. Because the shield\nis based on the target's maximum Health, this can be situationally useful if\nyour composition's preferred clone is a melee assassin.\nWe recommend going for this Talent when you are not going for a Symbiote build, but\nstill picked Ultimate Evolution. However, it can still be picked with Symbiote build,\nas long as you have Genji, Maiev, or Qhira to clone.\nEvolution Complete is a great Level 20 talent to\ntake in games where Evolve Monstrosity has been selected.\nHowever, Evolve Monstrosity is really underwhelming\nwhen compared to Ultimate Evolution.\nHivemind increases Symbiote's\neffectiveness by 50% when considering Symbiote Abilities directly. However,\nHivemind doubles Symbiote's effectiveness when considering Talents like\nSoma Transference and\nEnvenomed Spikes, as these Talents work per Hero hit,\nrather than per Ability cast. This provides you with greatly increased team\nfight presence. Regardless of what other Talents you take, you will almost\nalways get good value out of Hivemind in team fights.\nLocust Nest pushes a full Locust build to the limit,\nhelping to generate as many Locusts as possible. It will double the number of\npassively generated Locusts, and allows you to simultaneously spawn Locusts in\ndifferent lanes. This Talent is only recommended when you have several Talents\nalready invested into Locusts, as other options at this tier will\nget more value otherwise."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "24 Aug. 2026: Updated Talents and Builds after recent balance patch.\n11 Mar. 2026: Updated builds and Talents to reflect meta development.\n31 May 2025: Guide reviewed.\n26 Mar. 2021: Updated builds and Talents to better reflect Current Meta.\n09 Apr. 2020: Updated builds and Talents to better reflect Current Meta.\n15 Feb. 2020: Updated text for Prolific Dispersal to account for balance patch.\n29 Jan. 2020: Reviewed Talents section for relevance and fixed grammatical error.\n18 Apr. 2019: Updated Talents section to account for balance patch.\n12 Feb. 2019: Updated guide to reflect Hero rework in balance patch.\n12 Dec. 2017: Edited Calldown: MULE to reflect 2018 game design changes.\nShow more\nShow less"
+  }
+ ]
+}

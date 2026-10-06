@@ -1,0 +1,315 @@
+{
+ "slug": "kel-thuzad",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/kel-thuzad-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/kel-thuzad-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/kel-thuzad-talents"
+ },
+ "guide": [
+  {
+   "title": "Kel'Thuzad's Overview",
+   "id": "kel-thuzads-overview",
+   "text": "Kel'Thuzad is a combo-oriented ranged damage dealer with outstanding area of\neffect crowd control and burst damage potential. Relying on\nskillshot Abilities to grow through\nMaster of the Cold Dark makes him\nweak in the early stages of the game and harder than most Heroes to play, let\nalone master."
+  },
+  {
+   "title": "Kel'Thuzad's Strengths and Weaknesses",
+   "id": "kel-thuzads-strengths-and-weaknesses",
+   "text": "Strengths\nExtremely potent crowd control chain\nPowerful situational burst damage\nPotent sieger\nGlobal presence through Shadow Fissure\nWeaknesses\nVery vulnerable to mobile Heroes\nDifficult to play due to all Basic Abilities being skillshots\nLimited defensive Talent options and general mobility\nWeak in the early game"
+  },
+  {
+   "title": "Kel'Thuzad's Talent Build Cheatsheet",
+   "id": "kel-thuzads-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKel'Thuzad's Standard Build focuses on helping you out in hitting your skillshots, siege damage and\ncrowd control. The key to playing\nKel'Thuzad well is managing to time your combo.\nWith Chilling Touch, this becomes a lot easier\ndue to the area of effect Slow component of it.\nOnce Kel'Thuzad hits Level 10, he gets access to Frost Blast which can be a\ngamechanger either for catching an enemy hero out of bounds or in teamfights, rooting several members of the\nenemy team.\nWhen we get to level 20 and pick up The Damned Return, Kel'Thuzad is able to\ndish out a lot of siege damage.\nTo successfully perform a combo, we recommend using E-W-E.\nYou have to cast Chains of Kel'Thuzad on an enemy Hero,\nthen cast Frost Nova between that Hero and another enemy Hero,\nand then reactivate Chains of Kel'Thuzad targeting the other enemy Hero.\nWhen using Glacial Spike, the recommended combo is landing Chains, use Glacial Spike,\nFrost Nova right in front of the Glacial Spike and reactivating Chains onto the spike.\nShould the enemy hero be slowed, stunned or rooted from other sources, it can also be fine to pop Glacial Spike and\nchaining from the Spike onto the enemy hero.\nWith Frost Blast the combo doesn't change.\nFrost Blast can be used either before or after the combo, depending on the situation. Should you use Frost Blast\nbefore a combo, Glacial Spike has some follow-up value. Should you go with Shadow Fissure,\nthe combo becomes E-W-E-R.\nShould you struggle to perform the recommended combo, you can use the E-E-W Combo,\nbut it's less effective because Heroes with mobility can get out.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKel'Thuzad's ARAM build is similar to the standard build as the build works very well even in ARAM.\nKel'Thuzad hits his powerspike pretty fast as landing his spells on multiple targets is a lot easier in ARAM.\nHe also makes great use of Phylactery as globes are easy to come by.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Kel'Thuzad's Synergies and Counters",
+   "id": "kel-thuzads-synergies-and-counters",
+   "text": "Kel'Thuzad synergizes with\nSince Kel'Thuzad depends highly on skillshots to deal damage, he\nnaturally works well with any Hero that can provide reliable crowd control\nagainst a kill target for him to follow up. His frailty also makes him\ndependent on other Heroes to peel for him; Tanks tend to fulfill these\ntwo needs, though other Hero types can too.\nKel'Thuzad is countered by\nSince Kel'Thuzad relies chiefly on skillshots to deal\ndamage, he does particularly poorly against Heroes that have ways of\nquickly dodging his Abilities. Furthermore, his frailty and lack of\nself-peel makes him vulnerable to high-damage, nimble Heroes\nthat can quickly reach him."
+  },
+  {
+   "title": "Kel'Thuzad's Maps",
+   "id": "kel-thuzads-maps",
+   "text": "Kel'Thuzad's stronger maps\nKel'Thuzad's average maps\nKel'Thuzad's weaker maps\nMaps that promote early skirmishes are optimal for the purpose\nof quickly completing Master of the Cold Dark."
+  },
+  {
+   "title": "Kel'Thuzad's Tips and Tricks",
+   "id": "kel-thuzads-tips-and-tricks",
+   "text": "Generating Master of the Cold Dark stacks is of the utmost importance early on; the faster you complete this Quest, the more likely you are to snowball.\nWhen targeting two Heroes, Chains of Kel'Thuzad Pulls them towards the middle point between the two Heroes. Cast Frost Nova there.\nWhen targeting a Hero and a Glacial Spike, Chains of Kel'Thuzad Pulls the Hero to the Spike.\nUsing Chains of Kel'Thuzad against a frontline Hero is useful to then hit a more vulnerable backline Hero without being blocked.\nUpon hitting a Hero with Chains of Kel'Thuzad, use Glacial Spike, wait 0.5 seconds, then recast Chains of Kel'Thuzad towards the Spike for an easy hit.\nFrost Nova should be used as a follow up to Chains of Kel'Thuzad or allied crowd control.\nFrost Blast can be negated through effects that render your target Invulnerable, such as Ice Block; pick your target accordingly.\nShadow Fissure combos particularly well with a center Frost Nova hit due to the Rooting effect.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Kel'Thuzad's Role in the Current Meta",
+   "id": "kel-thuzads-role-in-the-current-meta",
+   "text": "Kel'Thuzad has a niche role as a counterpick to immobile team compositions.\nDue to his stacking nature, he also does well on Maps that feature constant\nbrawls, notably 2-lane Maps such as Braxis Holdout and Battlefield of\nEternity. Under such circumstances, Kel'Thuzad players are expected to exploit\nhis powerful mid-game to snowball the game with excellent\nburst damage.\nHis particular vulnerability to highly mobile Heroes makes drafting a Tank\nwith reliable peel essential to ensure Kel'Thuzad's survival.\nThe crowd control provided by most popular Tanks also doubles up\nas an offensive tool to ease hitting with Kel'Thuzad's powerful yet\navoidable Abilities."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "27 Apr. 2025 (this page): Updated ARAM Build\n30 Sep. 2024 (talents page): Updated talents and build.\n30 Sep. 2024 (this page): Updated Standard Build\n26 Sep. 2023 (this page): ARAM Build added.\n23 Sep. 2020 (talents page): Updated talents and build.\n23 Sep. 2020 (this page): Updated talents and build.\n08 Sep. 2020 (talents page): Talent builds and recommendations reviewed and updated. Again.\n07 Sep. 2020 (abilities page): Section updated with additional information.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n19 Jul. 2020 (talents page): Talent builds and recommendations reviewed and updated.\n05 Apr. 2020 (talents page): Description updated for Chain-Link.\n15 Dec. 2019 (this page): Added a note about current Anomaly.\n27 Sep. 2019 (abilities page): Section updated following the nerf to Shadow Fissure.\n03 Sep. 2019 (talents page): Talent descriptions and recommendations updated to reflect latest Talent rework.\n03 Sep. 2019 (abilities page): Guide reviewed and updated.\n03 Sep. 2019 (this page): Guide reviewed and updated.\n30 Aug. 2018 (talents page): Talent descriptions and recommendations updated to reflect latest balance patch.\n30 Aug. 2018 (abilities page): Ability descriptions updated to reflect latest balance patch.\n05 Sep. 2017 (this page): Guide published.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Kel'Thuzad's Tips and Tricks",
+   "id": "kel-thuzads-tips-and-tricks",
+   "text": "Generating Master of the Cold Dark stacks is of the utmost importance early on; the faster you complete this Quest, the more likely you are to snowball.\nWhen targeting two Heroes, Chains of Kel'Thuzad Pulls them towards the middle point between the two Heroes. Cast Frost Nova there.\nWhen targeting a Hero and a Glacial Spike, Chains of Kel'Thuzad Pulls the Hero to the Spike.\nUsing Chains of Kel'Thuzad against a frontline Hero is useful to then hit a more vulnerable backline Hero without being blocked.\nUpon hitting a Hero with Chains of Kel'Thuzad, use Glacial Spike, wait 0.5 seconds, then recast Chains of Kel'Thuzad towards the Spike for an easy hit.\nFrost Nova should be used as a follow up to Chains of Kel'Thuzad or allied crowd control.\nFrost Blast can be negated through effects that render your target Invulnerable, such as Ice Block; pick your target accordingly.\nShadow Fissure combos particularly well with a center Frost Nova hit due to the Rooting effect."
+  },
+  {
+   "title": "Important Hero-Specific Information",
+   "id": "important-hero-specific-information",
+   "text": "Kel'Thuzad's playstyle revolves around what we call \"The Combo\". The\ncombo, to which we will often refer to throughout this guide, is best described\nas an Ability chain performed by pulling Heroes into\nFrost Nova's area of effect with\nChains of Kel'Thuzad and\nGlacial Spike, as needed. This is typically\nfollowed up with Shadow Fissure,\nif it was selected as a Heroic Ability, and Death and Decay\nto deal a large amount of area of\neffect damage to Heroes frozen by Frost Nova.\nAs such, we exceptionally list Kel'Thuzad's Abilities in the order they are\ngenerally used to perform the aforementioned combo, and not in the order they\nare presented in-game, as we usually do."
+  },
+  {
+   "title": "Chains of Kel'Thuzad",
+   "id": "chains-of-kel-thuzad",
+   "text": "Chains of Kel'Thuzad\n(E)\nKel'Thuzad\nMana: 50\nCooldown: 10 seconds\nLaunch a chain, dealing 97 (+2.5% per level) damage to the first enemy Hero hit. For 3 seconds after hitting an enemy, Chains can be reactivated to launch to an additional enemy, pulling both enemies together and Stunning them for 0.5 seconds.\nChains of Kel'Thuzad is one of the most complex Abilities in Heroes of the\nStorm, and the first piece of the combo discussed earlier. Its two-part\nnature and general complexity makes it one of the most difficult Abilities to\nuse, yet its power justifies this completely, and mastering it goes a long way\nin becoming a strong Kel'Thuzad player. As such, its mechanic warrants\nadditional explanations.\nChains of Kel'Thuzad is a two-part Ability. The first part is a relatively\nfast projectile which originates from Kel'Thuzad and moves towards the targeted\npoint. This projectile can pass through Minions, but \"attaches\" itself to the\nfirst enemy Hero or Glacial Spike it hits, dealing damage. If this initial\nprojectile misses, the Ability goes on cooldown, and the second part of the\nAbility does not trigger.\nThe second part of the Ability is similar to the first part, except that the\nprojectile originates from the Hero or Glacial Spike, upon which it\nhad attached to initially instead of from Kel'Thuzad himself. If this projectile\nhits another enemy Hero, both Heroes are dragged to each other until they meet at the center\npoint between each other, where they are briefly Stunned. If the projectile had\ninstead hit a Glacial Spike then a Hero (or a Hero then a Glacial Spike), the\nHero is dragged to the Spike and briefly Stunned.\nThis second projectile has to be cast within 3 seconds, else the Ability will go\non cooldown, as it will if this projectile misses. It is worth noting that\nHeroes can never be pulled through\nimpassable terrain or Structures, and will\nsimply be stopped upon contact instead.\nThe first aspect of Chains of Kel'Thuzad to master is the Ability's skillshot\nnature. Although relatively fast, the projectile generated by the Ability is\nrather thin. Furthermore, capable players will always try and avoid\nit due to its importance. It is therefore essential that you develop a good\n\"feel\" for the projectile's speed and width. Try Mode, which can be accessed\nthrough your Hero Collection, allows you to remove the cooldown of Abilities,\nmaking it perfect to develop this kind of muscle memory.\nThe second aspect of the Ability to master lies in its pulling mechanic.\nSince Heroes that are pulled meet at the middle point between each other, you\nneed to be able to evaluate perfectly where they are going to land in order to\nfollow up with a center Frost Nova hit perfectly. This\ncan be quite difficult at first, as the distance pulled varies depending on how\nclose the Heroes are to each other; practice, however, makes perfect. Using\nthe Ability against Glacial Spike is easier, however, as targeted Heroes are\nalways predictably pulled to it. Note that\nGlacial Spike can also be used for easier hits and long-range pulls, as it is\nimmobile and thus makes it impossible to avoid the pulling effect should you\nfirst hit a Hero with Chains of Kel'Thuzad. This is particularly important to\nKel'Thuzad as it allows Heroes to be hit without needing other enemy Heroes to\nbe nearby.\nThe third aspect to master is related to decision making. Ideally, you would\nalways try and use Chains of Kel'Thuzad against key targets such as frail\nHealers or Assassins. The Ability's relatively\nshort range, however, makes this seldom possible. As such, it is generally\nbetter to try and hit frontline Heroes with the initial projectile\nto then pull backline Heroes towards you with the second projectile. Besides\nthe obvious advantage of providing you with additional range, this tends to\nmake opponents play less aggressively than they normally would."
+  },
+  {
+   "title": "Frost Nova",
+   "id": "frost-nova",
+   "text": "Frost Nova\n(W)\nKel'Thuzad\nMana: 50\nCooldown: 8 seconds\nCreate a nova that explodes after 1 second, dealing 180 (+2.5% per level) damage to enemies inside and Slowing them by 35% for 2.5 seconds. Enemies in the center are Rooted for 1 second.\nFrost Nova is the second piece of the combo discussed earlier. Although its\neffect has a short delay, successful Chains of Kel'Thuzad hits allow you to\nsecure hits much more easily, which is why we recommend using the Abilities in\nthis order. Frost Nova can also be used as a follow up\nfor crowd control\nprovided by allied Heroes. Furthermore, its respectable damage can help with\nwaveclearing, although this should only be done when no imminent Hero\ncombat is expected. Successful Frost Nova should mechanically be followed by\nShadow Fissure if was selected as a Heroic Ability,\nand by Death and Decay\nafterwards. If you have selected Frost Blast as your Heroic Ability instead, it can be\nused to provide a reliable Root effect which can be followed naturally by\nFrost Nova for a guaranteed hit.\nShould Chains of Kel'Thuzad be on cooldown, Frost Nova can still be used on\nits own. Although center hits may be difficult, you may be able to secure\nouter hits for a reasonable amount of damage and a useful Slowing effect. As\nwith all delayed area of effect Abilities, Frost Nova should be aimed slightly\nahead of your target's current direction. At best, they may be hit by the\nAbility; at worst, they will have to steer away from its area of effect, giving\nyou or your teammates some time to catch up to them. You can also use Frost\nNova on top of yourself while running away to try to Root or deter opponents\nchasing you down."
+  },
+  {
+   "title": "Death and Decay",
+   "id": "death-and-decay",
+   "text": "Death and Decay\n(Q)\nKel'Thuzad\nMana: 20\nCooldown: 5 seconds\nAfter 0.5 seconds, launch an orb that explodes upon hitting an enemy, dealing 150 (+2.5% per level) damage to enemies in the area. The explosion leaves behind a pool of decay that lasts 2 seconds, dealing 82 (+2.5% per level) damage every 0.5 seconds to enemies.\nDeath and Decay is Kel'Thuzad's main source of sustain damage. Due to its\narea of effect damage over time effect and skillshot nature, it is\ntypically used third in the combo (or fourth if Shadow Fissure was your\nselected Heroic Ability). The Ability's extremely short cooldown, insignificant\nMana cost, and relatively long range means that it should typically be used\non-cooldown whenever enemies are within its range—whether it be Minions,\nStructures, Mercenaries, or Heroes. It is worth noting that the initial damage\nexplosion radius is very slightly larger than the lingering area of effect.\nDeath and Decay's high damage output also makes it perfect for common tasks\nsuch as waveclearing, sieging, claiming Mercenary Camps,\nor simply poking enemy Heroes. Since its cooldown is about half that of\nKel'Thuzad's other Abilities, you will have to learn to play around its\nshort cast time and relatively slow speed for use outside of the combo. Playing\noff allied crowd control effects is certainly one way of ensuring\nhits. It is worth noting that Death and Decay does not leave its lingering area\nof effect unless it actually directly hits a target, making it important to\neither predict enemy movement or aim at Minions or Structures, as unlike\nChains of Kel'Thuzad, Death and Decay does not go through Minions."
+  },
+  {
+   "title": "Frost Blast",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nFrost Blast\n(R)\nKel'Thuzad\nHeroic\nMana: 45\nCooldown: 50 seconds\nLaunch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 115 (+2.5% per level) damage to its target and 275 (+2.5% per level) damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 2 seconds.\nFrost Blast is Kel'Thuzad's crowd control-oriented\nHeroic Ability choice. Its power lies in its powerful\nRoot effect that is unavoidable under most circumstances. This effectively\nallows Kel'Thuzad to initiate from afar against high value targets\nfor allies to follow up with their own crowd control Abilities, or counter-initiate\nby threatening to Root and heavily damage several Heroes unless they spread out.\nSince Frost Blast moves particularly slowly and has a very blatant area of\neffect indicator, it is possible for players to greatly delay its explosion by\nrunning away, or outright negate it with a few Abilities, which should always\nbe kept in mind when selecting a target (for example Burrow by Dehaka).\nSuccessful Frost Blast hits should naturally be followed up by either\nChains of Kel'Thuzad or Frost Nova,\nshould your target still be within range.\nLikewise, Frost Blast can and should follow a regular combo to keep struck\nenemies within Death and Decay's area of effect and to generally make\nkills easier to secure.\nIt is worth noting that Frost Blast can be used at point-blank range to hit your\nintended target almost instantly."
+  },
+  {
+   "title": "Shadow Fissure",
+   "id": "shadow-fissure",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nShadow Fissure\n(R)\nKel'Thuzad\nHeroic\nMana: 40\nCooldown: 16 seconds\nCreate a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 320 (+2.5% per level) damage to enemy Heroes in its area. If an enemy Hero is hit, set its cooldown to 1.5 seconds.\nShadow Fissure is Kel'Thuzad's damage-oriented Heroic Ability choice. It is\nnotable for having an extremely short cooldown—16 seconds—and\nglobal range. Its 1.5 seconds impact delay and\nrelatively small area of effect, however, make it difficult to use against\ntargets that not under the effects of crowd control. This is effectively\nwhy Shadow Fissure generally comes third in the combo: casting the Ability as\nHeroes are being pulled by Chains of Kel'Thuzad into the Root effect\nprovided by Frost Nova is generally enough to secure a hit.\nAdditionally, Shadow Fissure is unique in that its cooldown is reduced to 1.5s on\nsuccessful hits, allowing it to be recast almost immediately. Although it may be\ntempting, avoid using the Ability exactly where it was just cast, as most\nPlayers naturally move away following being hit.\nWhen using Shadow Fissure, one must work on developing their global\nawareness of the battlefield as the Ability's global range opens up many\nopportunities to follow up on allied\ncrowd control when opponents\nexpect it the least. Shadow Fissure can also be used to deter players from going\nto certain areas; this is particularly useful when chasing Heroes in narrow\npaths or near their Gate to block off their path or while contesting\nMercenary Camps or Objectives which require\na 6-second channeling.\nOne last and particularly devious usage of Shadow Fissure is against players\nusing their Hearthstone; by waiting towards the end of the channel (about 2/3 of\nthe way), you may catch inattentive players off guard and kill them or at the\nvery least waste their time."
+  },
+  {
+   "title": "Master of the Cold Dark",
+   "id": "master-of-the-cold-dark",
+   "text": "Master of the Cold Dark\n(D)\nKel'Thuzad\nPassive\nQuest: Gain 1 Blight every time a Hero is Rooted by Frost Nova or hit by Chains of Kel'Thuzad.\nReward: After gaining 15 Blight, gain the Glacial Spike Ability.\nReward: After gaining 30 Blight, gain 75% Spell Power.\nBlight: 0/30\nMaster of the Cold Dark is a simple Trait that rewards you for hitting with\nyour most important Abilities. Master of the Cold Dark heavily promotes trying to\nbe part of as many early game skirmishes. In essence, this means\nthat you should never be solo laning as Kel'Thuzad, as the\nopportunities to generate Stacks of Master of the Cold Dark will be rarer.\nCompleting the both the 15- and 30-Stack Quests should be a priority, as Kel'Thuzad's killing\npower in the mid- and late-game depend completely on these. You\nshould always aim to have the Quest completed by Level 10, although\nfinishing it faster will certainly allow you to snowball.\nThe 15-Stack Quest unlocks Glacial Spike, mapped by\ndefault to the [1] key."
+  },
+  {
+   "title": "Glacial Spike",
+   "id": "glacial-spike",
+   "text": "Glacial Spike\n(1)\nKel'Thuzad\nActivate to create a spike that detonates after 4 seconds, dealing 70 (+2.5% per level) damage to nearby enemies. The spike can be affected by Chains of Kel'Thuzad.\nGlacial Spike's main use is creating\na new target for Chains of Kel'Thuzad.\nAs it acts as an immovable Hero for targeting purposes, the summoned Spike can\nbe used to pull a target towards it without having to rely on the presence\nof a second enemy Hero. Since the Spike is stationary, it is incidentally much\neasier to hit than Heroes, and allows you to aggressively pull Heroes towards\nyour team, not unlike Hook. Furthermore, the Spike's relatively large\ncollision can be used to block off narrow\nchoke points and\neven create some space between melee Heroes and what it is they might be\npursuing. With proper Chains of Kel'Thuzad usage, Glacial Spike's explosion\ndamage can be timed with the pulling effect\nfor a reasonable amount of burst\ndamage. It is worth noting that this damage scales with\nthe Spell Power provided by a fully stacked Master of the Cold Dark.\nJust like Heroes, Glacial Spike is invisible while in bushes, allowing for\nsneaky hits against unsuspecting opponents."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "07 Sep. 2020: Section updated with additional information.\n27 Sep. 2019: Section updated following the nerf to Shadow Fissure.\n03 Sep. 2019: Guide reviewed and updated.\n30 Aug. 2018: Ability descriptions updated to reflect latest balance patch.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "The Plaguelands (Level 1) Kel'Thuzad Increase Death and Decay's duration by 1 second. After gaining 30 Blight, increase the radius of Death and Decay's pool by 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Blighted Frost (Level 1) Kel'Thuzad Frost Nova deals 75% more damage to enemies in the center. After gaining 30 Blight, increase Frost Nova's Root duration by 0.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Barbed Chains (Level 1) Kel'Thuzad Increase Chains of Kel'Thuzad damage by 125%. After gaining 30 Blight, Chains of Kel'Thuzad reduces the Armor of pulled Heroes by 10 for 4 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Strip Shields (Level 4) Kel'Thuzad Pulling a Hero with Chains of Kel'Thuzad grants Kel'Thuzad a permanent 128 (+4% per level) Shield, stacking up to 2 times. Additionally, Chains of Kel'Thuzad deals up to 270 (+2.5% per level) bonus damage to Heroes' Shields."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Phylactery of Kel'Thuzad (Level 4) Kel'Thuzad Quest: Collect 12 Regeneration Globes to charge Kel'Thuzad's Phylactery. Reward: Kel'Thuzad's Phylactery can be activated while dead to immediately respawn at the Hall of Storms, but must be charged again. Passive: Kel'Thuzad heals for 10% of all Spell Damage dealt while the Phylactery is charged."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Armor of the Archlich (Level 4) Kel'Thuzad Cooldown: 25 seconds Activate to gain 50 Physical Armor for 4 seconds. Upon activation, nearby enemies take 45 (+4% per level) damage and are Slowed by 35% for 4 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Accelerated Decay (Level 7) Kel'Thuzad Each time a Hero is hit by Death and Decay's pool, they take 25% more periodic damage from Death and Decay for the next 4 seconds, stacking up to 4 times."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Chilling Touch (Level 7) Kel'Thuzad Every 8 seconds, Kel'Thuzad's next Basic Attack hits all enemies in the area for 80% additional damage, deals Spell damage instead of Physical, and Slows by 30% for 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Ice Cold (Level 7) Kel'Thuzad Reduce the cooldown of Glacial Spike by 10 seconds and increase its damage by 400%."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Frost Blast (Level 10) Kel'Thuzad Mana: 45 Cooldown: 50 seconds Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 115 (+2.5% per level) damage to its target and 275 (+2.5% per level) damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Shadow Fissure (Level 10) Kel'Thuzad Mana: 40 Cooldown: 16 seconds Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 320 (+2.5% per level) damage to enemy Heroes in its area. If an enemy Hero is hit, set its cooldown to 1.5 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Icy Grasp (Level 13) Kel'Thuzad Increase Frost Nova's Slow by 20%. Each time Kel'Thuzad damages enemies Slowed by Frost Nova, reduce the cooldown of Frost Nova by 0.75 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Chains of Ice (Level 13) Kel'Thuzad After Chains of Kel'Thuzad's Stun expires, the enemy is also Slowed by 60% for 1 second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Chain-Link (Level 13) Kel'Thuzad Pulling a Hero with Chains of Kel'Thuzad reduces its cooldown by 5 seconds and refunds its Mana cost."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Arcane Echoes (Level 16) Kel'Thuzad Whenever Kel'Thuzad hits an enemy Hero with Death and Decay's explosion, its cooldown is reduced by 1.5 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Hungering Cold (Level 16) Kel'Thuzad Enemies that are Rooted take an additional 55 (+2.5% per level) damage each time they are damaged by Kel'Thuzad."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Power of Icecrown (Level 16) Kel'Thuzad Stunning, Rooting, or Slowing a Hero grants 6% Spell Power for 10 seconds, stacking up to 5 times."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Deathchill (Level 20) Kel'Thuzad When Frost Blast's Root expires, enemies are Slowed by 40% for 3 seconds. Heroes killed while under the effects of Frost Blast instantly release another Frost Blast explosion."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Might of the Scourge (Level 20) Kel'Thuzad If a Hero is hit with Shadow Fissure, a second one is cast below them 1 second later. This second cast will not duplicate itself."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Shifting Malice (Level 20) Kel'Thuzad Cooldown: 240 seconds Activate to dash forward, dealing 150 (+2.5% per level) damage to enemies in the path. Takedowns reset the cooldown of Shifting Malice."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "The Damned Return (Level 20) Kel'Thuzad Cooldown: 15 seconds Activate to create a Shade of Naxxramas that lasts 15 seconds and mimics Kel'Thuzad's casts of Death and Decay."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Kel'Thuzad's Talent Build",
+   "id": "kel-thuzads-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n?\n✓\n7\n✘︎\n✓\n✘︎\n10\n✓\n?\n13\n✓\n?\n?\n16\n✘︎\n✓\n?\n20\n✘︎\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Kel'Thuzad's Talent Build Cheatsheet",
+   "id": "kel-thuzads-talent-build-cheatsheet",
+   "text": "Standard Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKel'Thuzad's Standard Build focuses on helping you out in hitting your skillshots, siege damage and\ncrowd control. The key to playing\nKel'Thuzad well is managing to time your combo.\nWith Chilling Touch, this becomes a lot easier\ndue to the area of effect Slow component of it.\nOnce Kel'Thuzad hits Level 10, he gets access to Frost Blast which can be a\ngamechanger either for catching an enemy hero out of bounds or in teamfights, rooting several members of the\nenemy team.\nWhen we get to level 20 and pick up The Damned Return, Kel'Thuzad is able to\ndish out a lot of siege damage.\nTo successfully perform a combo, we recommend using E-W-E.\nYou have to cast Chains of Kel'Thuzad on an enemy Hero,\nthen cast Frost Nova between that Hero and another enemy Hero,\nand then reactivate Chains of Kel'Thuzad targeting the other enemy Hero.\nWhen using Glacial Spike, the recommended combo is landing Chains, use Glacial Spike,\nFrost Nova right in front of the Glacial Spike and reactivating Chains onto the spike.\nShould the enemy hero be slowed, stunned or rooted from other sources, it can also be fine to pop Glacial Spike and\nchaining from the Spike onto the enemy hero.\nWith Frost Blast the combo doesn't change.\nFrost Blast can be used either before or after the combo, depending on the situation. Should you use Frost Blast\nbefore a combo, Glacial Spike has some follow-up value. Should you go with Shadow Fissure,\nthe combo becomes E-W-E-R.\nShould you struggle to perform the recommended combo, you can use the E-E-W Combo,\nbut it's less effective because Heroes with mobility can get out.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nKel'Thuzad's ARAM build is similar to the standard build as the build works very well even in ARAM.\nKel'Thuzad hits his powerspike pretty fast as landing his spells on multiple targets is a lot easier in ARAM.\nHe also makes great use of Phylactery as globes are easy to come by."
+  },
+  {
+   "title": "Important Hero-Specific Information",
+   "id": "important-hero-specific-information",
+   "text": "Kel'Thuzad's playstyle revolves around what we call \"The Combo\". The combo,\nto which we will often refer to throughout this guide, is best described as an\nAbility chain performed by pulling Heroes into\nFrost Nova's area of effect with\nChains of Kel'Thuzad. This is typically\nfollowed up with\nShadow Fissure, if it was selected as a Heroic\nAbility, and Death and Decay to deal a large amount\nof area of effect damage to Heroes frozen by Frost Nova."
+  },
+  {
+   "title": "Level 1 Talents for Kel'Thuzad",
+   "id": "level-1",
+   "text": "✓\nThe Plaguelands\n(Level 1)\nKel'Thuzad\nIncrease Death and Decay's duration by 1 second. After gaining 30 Blight, increase the radius of Death and Decay's pool by 30%.\n?\nBlighted Frost\n(Level 1)\nKel'Thuzad\nFrost Nova deals 75% more damage to enemies in the center. After gaining 30 Blight, increase Frost Nova's Root duration by 0.5 seconds.\n?\nBarbed Chains\n(Level 1)\nKel'Thuzad\nIncrease Chains of Kel'Thuzad damage by 125%. After gaining 30 Blight, Chains of Kel'Thuzad reduces the Armor of pulled Heroes by 10 for 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "This Tier focuses on improving the damage output of Kel'Thuzad's\nBasic Abilities.\nThe Plaguelands increases\nDeath and Decay's damage potential by approximately\n35%, assuming the target remains within the Ability's area of effect for its\nfull duration. The area of effect increase provided by the Talent helps with\nkeeping Heroes within said area of effect somewhat, although it remains unlikely\nfor Death and Decay to ever deal its full damage. As such, we judge The\nPlaguelands to be primarily PvE- and siege-oriented; it helps with\ntaking down Mercenaries and razing Structures, on top of improving Kel'Thuzad's\nwaveclear by allowing Death and Decay to hit an entire Minion wave, which is\ndifficult to do without the radius increase provided by the Talent. The\nPlaguelands also has obvious synergy with The Damned Return, as it\nalso benefits the summoned Shade's own Death and Decay.\nBlighted Frost's power lies in its increase to the\nduration of Frost Nova's Root effect, which is\nimportant to Kel'Thuzad's ability to further inflict damage, as well as\npotential follow up from allies. Blighted Frost\nsynergises particularly well with Hungering Cold, as\nthe increased Root duration increases the potential number of damage\ninstances that can be inflicted by Death and Decay.\nThe burst damage provided by this Talent is also notable\nwhen Master of the Cold Dark has been completed.\nBlighted Frost also shines if you have an allied team\nconsisting of crowd control Heroes. The 0.5-second\nduration can likely entice your allies into further CCing the enemy Hero.\nBarbed Chains provides a notable damage\nincrease to Chains of Kel'Thuzad;\nits power, however, lies in improving the damage of any follow up\nthrough its Armor reducing effect. As such, with high-level or otherwise reliable\nteammates, Barbed Chains-based Builds are likely to yield more damage than\nother builds."
+  },
+  {
+   "title": "Level 4 Talents for Kel'Thuzad",
+   "id": "level-4",
+   "text": "?\nStrip Shields\n(Level 4)\nKel'Thuzad\nPulling a Hero with Chains of Kel'Thuzad grants Kel'Thuzad a permanent 128 (+4% per level) Shield, stacking up to 2 times.\nAdditionally, Chains of Kel'Thuzad deals up to 270 (+2.5% per level) bonus damage to Heroes' Shields.\n?\nPhylactery of Kel'Thuzad\n(Level 4)\nKel'Thuzad\nQuest: Collect 12 Regeneration Globes to charge Kel'Thuzad's Phylactery.\nReward: Kel'Thuzad's Phylactery can be activated while dead to immediately respawn at the Hall of Storms, but must be charged again.\nPassive: Kel'Thuzad heals for 10% of all Spell Damage dealt while the Phylactery is charged.\n✓\nArmor of the Archlich\n(Level 4)\nKel'Thuzad\nCooldown: 25 seconds\nActivate to gain 50 Physical Armor for 4 seconds. Upon activation, nearby enemies take 45 (+4% per level) damage and are Slowed by 35% for 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "This Tier focuses on improving Kel'Thuzad's survivability.\nThe Shielding effect provided by Strip Shields is equal to approximately 15%\nof Kel'Thuzad's total Health pool, which is reasonably powerful, especially\nconsidering it can be reapplied with relative ease mid-combat. Strip Shields\ngains real value, however, when used to counter team compositions that make\nheavy usage of Shields. As such, we recommend Strip Shields against heroes like\nZarya, and against team compositions that feature at least two of the\nfollowing Heroes: Abathur, Anub'arak, Artanis, Chen,\nJohanna, Kerrigan, Lúcio, Tyrael, and Xul.\nStrip Shields has notable synergy with Chain-Link.\nIt should be noted that Strip Shields' bonus damage against Shields does scale\nwith the Spell Power provided by Master of the Cold Dark.\nPhylactery of Kel'Thuzad provides Kel'Thuzad with two powerful effects, granted\nyou hurry and gather the 12 required Regeneration Globes as quickly as possible.\nThe self-healing aspect is Kel'Thuzad's sole form of sustain,\nwhereas the respawn element is extremely powerful in the late-game.\nPhylactery of Kel'Thuzad effectively lets you play more aggressively and\npotentially \"trade\" your life for that of an enemy Hero to then revive instantly\nfor an advantage, or, less ideally, make a mistake less punishing for your team.\nBe sure to revive when relevant; reviving when your entire time has died, for\ninstance, would have no value.\nArmor of the Archlich provides Kel'Thuzad with instant, on-demand protection against\nBasic Attacks. Armor of the Archlich is particularly useful against sticky\nmelee Assassins which rely on Basic Attacks to deal damage,\nas Kel'Thuzad tends to be a priority target due to his lack of reliable escape\nmeans. The Slowing effect is also useful for easily following up with\nFrost Nova. This Talent is particularly useful against Illidan, Samuro,\nThe Butcher, and Tracer."
+  },
+  {
+   "title": "Level 7 Talents for Kel'Thuzad",
+   "id": "level-7",
+   "text": "✘︎\nAccelerated Decay\n(Level 7)\nKel'Thuzad\nEach time a Hero is hit by Death and Decay's pool, they take 25% more periodic damage from Death and Decay for the next 4 seconds, stacking up to 4 times.\n✓\nChilling Touch\n(Level 7)\nKel'Thuzad\nEvery 8 seconds, Kel'Thuzad's next Basic Attack hits all enemies in the area for 80% additional damage, deals Spell damage instead of Physical, and Slows by 30% for 2 seconds.\n✘︎\nIce Cold\n(Level 7)\nKel'Thuzad\nReduce the cooldown of Glacial Spike by 10 seconds and increase its damage by 400%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "This Tier focuses on improving Kel'Thuzad's damage output and utility.\nAccelerated Decay has the potential of greatly\nimproving Death and Decay's\ndamage against Heroes. It does, however, require opponents to stand within the\nAbility's area of effect. Works well with The Damned Return, as\nboth effects can rapidly increase one another to Death and Decay's damage cap.\nHowever, considering the raw power of Chilling Touch, we do not recommended\npicking Accelerated Decay.\nChilling Touch provides Kel'Thuzad with something he sorely lacks:\nan unavoidable source of damage and Slowing effect. Chilling Touch is\nparticularly useful when used to Slow a target before initiating the combo, as\nSlowed targets are less likely to be able to avoid your Abilities. The\nunavoidable nature of the damage provided by this Talent is also especially\nuseful against mobile Heroes who may be difficult to hit with Abilities, such\nas Genji, Illidan, or Tracer. It is worth noting\nthat Chilling Touch's damage scales with\nthe Spell Power provided by Master of the Cold Dark and\nPower of Icecrown. Chilling Touch is also useful for waveclearing\nwhen used with Frost Nova against the centermost Minion.\nIce Cold provides\nGlacial Spike with a reasonably strong cooldown reduction.\nThe alternatives are likely to provide more long-term value, however, particularly\nas one becomes better at hitting Heroes without relying on Glacial Spike."
+  },
+  {
+   "title": "Level 10 Talents for Kel'Thuzad",
+   "id": "level-10",
+   "text": "✓\nFrost Blast\n(Level 10)\nKel'Thuzad\nMana: 45\nCooldown: 50 seconds\nLaunch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 115 (+2.5% per level) damage to its target and 275 (+2.5% per level) damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 2 seconds.\n?\nShadow Fissure\n(Level 10)\nKel'Thuzad\nMana: 40\nCooldown: 16 seconds\nCreate a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 320 (+2.5% per level) damage to enemy Heroes in its area. If an enemy Hero is hit, set its cooldown to 1.5 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nFrost Blast is Kel'Thuzad's\ncrowd control-oriented Heroic Ability choice.\nIt can be used to great effect as the initiating Ability of\nburst compositions that seek to isolate a specific target.\nOne side effect of Frost Blast's extremely telegraphed effect is how it forces\nopponents to spread out and away from your target. Frost Blast can also be\nused as a counter-initiation move as a means of making following up\nmore difficult.\nShadow Fissure works well in conjunction\nwith any crowd control,\nincluding Kel'Thuzad's own. This is Kel'Thuzad's most versatile Heroic Ability and it provides you with a lot\nof burst damage which is needed to make sure you are able to\nfinish off an enemy Hero should you hit them with\na full combo."
+  },
+  {
+   "title": "Level 13 Talents for Kel'Thuzad",
+   "id": "level-13",
+   "text": "✓\nIcy Grasp\n(Level 13)\nKel'Thuzad\nIncrease Frost Nova's Slow by 20%. Each time Kel'Thuzad damages enemies Slowed by Frost Nova, reduce the cooldown of Frost Nova by 0.75 seconds.\n?\nChains of Ice\n(Level 13)\nKel'Thuzad\nAfter Chains of Kel'Thuzad's Stun expires, the enemy is also Slowed by 60% for 1 second.\n?\nChain-Link\n(Level 13)\nKel'Thuzad\nPulling a Hero with Chains of Kel'Thuzad reduces its cooldown by 5 seconds and refunds its Mana cost."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "This Tier focuses on improving Kel'Thuzad's crowd control\npotential.\nIcy Grasp provides a situationally powerful\nreduction to Frost Nova's\nCooldown. This talent also provides us with a more powerful slow on our Frost Nova\nChains of Ice provides a powerful Slow effect when it is most\nneeded. Its sheer intensity makes it much easier to follow up\nfor you and your allies after successful Chains of Kel'Thuzad hits,\neven without Frost Nova.\nChain-Link reduces the cooldown of what is arguably Kel'Thuzad's most\nimportant Ability by 50%. Chain-Link requires good accuracy however, as the\nCooldown reduction may only trigger on double hits. This makes it a poor choice\nfor novice players. Otherwise, Chain-Link has particularly strong synergy with\nStrip Shields and Barbed Chains;\npick if you went for either Talent."
+  },
+  {
+   "title": "Level 16 Talents for Kel'Thuzad",
+   "id": "level-16",
+   "text": "✘︎\nArcane Echoes\n(Level 16)\nKel'Thuzad\nWhenever Kel'Thuzad hits an enemy Hero with Death and Decay's explosion, its cooldown is reduced by 1.5 seconds.\n✓\nHungering Cold\n(Level 16)\nKel'Thuzad\nEnemies that are Rooted take an additional 55 (+2.5% per level) damage each time they are damaged by Kel'Thuzad.\n?\nPower of Icecrown\n(Level 16)\nKel'Thuzad\nStunning, Rooting, or Slowing a Hero grants 6% Spell Power for 10 seconds, stacking up to 5 times."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "This Tier focuses on improving Kel'Thuzad's damage output.\nArcane Echoes can be rather difficult to benefit from; although the cooldown\nreduction is reasonable, and may work with Accelerated Decay\nto maintain the damage increase\neffect, situations where you are able to chain several\nDeath and Decay casts are rare. The cooldown reduction provided by Arcane Echoes\ndoes not trigger through The Damned Return's Death and Decay casts.\nHungering Cold provides a massive damage increase to the combo. Successfully casting\nDeath and Decay against a Hero Rooted\nby Frost Nova\nand Frost Blast increases Kel'Thuzad's short term damage\noutput immensely, on top of making subsequent Basic Attacks extremely powerful.\nFurther, Root effects provided by allied Heroes can also trigger Hungering\nCold, making it powerful with Arthas, Deckard, and\nMalfurion, among others.\nPower of Icecrown is a simple and powerful damage increase that affects\nall of Kel'Thuzad's most relevant damage sources. A single Chains of Kel'Thuzad\nhit against two Heroes grants four stacks immediately."
+  },
+  {
+   "title": "Level 20 Talents for Kel'Thuzad",
+   "id": "level-20",
+   "text": "✘︎\nDeathchill\n(Level 20)\nKel'Thuzad\nWhen Frost Blast's Root expires, enemies are Slowed by 40% for 3 seconds. Heroes killed while under the effects of Frost Blast instantly release another Frost Blast explosion.\n?\nMight of the Scourge\n(Level 20)\nKel'Thuzad\nIf a Hero is hit with Shadow Fissure, a second one is cast below them 1 second later. This second cast will not duplicate itself.\n?\nShifting Malice\n(Level 20)\nKel'Thuzad\nCooldown: 240 seconds\nActivate to dash forward, dealing 150 (+2.5% per level) damage to enemies in the path. Takedowns reset the cooldown of Shifting Malice.\n✓\nThe Damned Return\n(Level 20)\nKel'Thuzad\nCooldown: 15 seconds\nActivate to create a Shade of Naxxramas that lasts 15 seconds and mimics Kel'Thuzad's casts of Death and Decay."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "This Tier focuses on improving Kel'Thuzad's damage output and utility.\nDeathchill is a winmore Talent that serves mostly to\npunish poor play or as a counter to The Lost Vikings. Hitting more than one Hero with\nFrost Blast is rare, and successfully triggering Deathchill hits\nis about as rare.\nMight of the Scourge's potential depends on just\nhow much crowd control\nyour team composition has to offer. With two or more Stuns or Roots besides\nyour own, and some Map awareness, Might of the Scourge may constitute\na proper win condition. Otherwise, look\ninto The Damned Return instead.\nShifting Malice is essentially a defensive Talent for Kel'Thuzad,\nand is reminiscent of a Bolt of the Storm which can be used to deal\na fair amount of damage, but cannot pass through\nimpassable terrain. Shifting Malice is\nespecially useful when being heavily pressured by melee Assassins or\notherwise dived repeatedly.\nThe Damned Return turns Kel'Thuzad into an extremely powerful\nsustained damage dealer by essentially doubling the effects of\nDeath and Decay. This lets Kel'Thuzad waveclear,\nclaim Mercenary Camps, and siege better than most Heroes, on top of\nimproving his poke. The summoned Shade also acts as an indestructible\nunit to provide vision over a small area, and may be used as a means of\nincreasing the range of Death and Decay by casting the Ability by proxy. Be\ncreative with this one."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2024: Updated talents and build.\n23 Sep. 2020: Updated talents and build.\n08 Sep. 2020: Talent builds and recommendations reviewed and updated. Again.\n19 Jul. 2020: Talent builds and recommendations reviewed and updated.\n05 Apr. 2020: Description updated for Chain-Link.\n03 Sep. 2019: Talent descriptions and recommendations updated to reflect latest Talent rework.\n30 Aug. 2018: Talent descriptions and recommendations updated to reflect latest balance patch.\nShow more\nShow less"
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "slug": "tracer",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/tracer-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/tracer-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/tracer-talents"
+ },
+ "guide": [
+  {
+   "title": "Tracer's Overview",
+   "id": "tracers-overview",
+   "text": "Tracer is an extremely mobile Ranged Assassin. Due to her fragility, she\nrelies on her Abilities to constantly reposition and outmaneuver enemy forces.\nWith her high burst damage and many escapes, she can be a nuisance to the enemy\nbackline."
+  },
+  {
+   "title": "Tracer's Strengths and Weaknesses",
+   "id": "tracers-strengths-and-weaknesses",
+   "text": "Strengths\nCan move while Basic Attacking\nHigh Basic Attack speed\nExcellent mobility\nCan remove debuffs with Recall\nHas sustained and burst damage\nCan safely overextend with Recall\nHas a decent self-sustain from Basic Attacks and Talents\nWeaknesses\nExtremely poor waveclear\nVery fragile\nRequires Level 7 to deal decent damage\nCan be difficult to master\nEasy to kill if controlled\nIs easily countered by Heroes with good ranged damage, such as Raynor or Sgt. Hammer"
+  },
+  {
+   "title": "Tracer's Talent Build Cheatsheet",
+   "id": "tracers-talent-build-cheatsheet",
+   "text": "Burst Build\nRecommended\nLevel 1\n?\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\n?\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTracer's Burst Build is a good template to use while approaching each game.\nBecause Tracer must typically deal sustain damage until she can go in for a\nkill, her effectiveness scales with the amount of time that she can safely\nremain within Basic Attack range. While Talents like Jumper\nand Pulse Generator facilitate her playstyle around that,\nyour Level 1 and Level 16 Talents are great for having more burst\ndamage to execute the target.\nOne-Two Punch greatly increases Tracer's damage outside\nof team fights, but you will not be able to use melee that often during\na team fight for an Objective.\nHowever, Parting Gift is a good choice at that Level, as it adds\na more consistent burst damage on an immobilized target, because\nyou do not need to wait for the cooldowns between Melee charges.\nBasic Attacks Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDifferently from Burst Build, this build is focused on constantly attacking the\nopposing frontline, while dealing the maximum possible damage\nwithout risking yourself. This Build is recommended if the opposing team has many\nstuns or polymorphs that can shut you down during your dive.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Tracer's Synergies and Counters",
+   "id": "tracers-synergies-and-counters",
+   "text": "Tracer synergizes with\nTracer does well with Heroes who have strong waveclear, who can also deal\narea damage over time. Malfurion is a good pick for Tracer. He can heal her\nfrom a long distance due to how Regrowth works. Anduin\nis also good with her, because with her high mobility, Tracer can easily make\nLightbomb hit the opposing backline.\nTracer is countered by\nTracer is threatened by Heroes who have Abilities that can target her\ndirectly, such as Poly Bomb or Taunt.\nHer survival depends on mobility; she dies very quickly when she\ncannot avoid damage. This makes her vulnerable against Heroes with powerful\nranged Basic Attacks, and Heroes who can disable her with single target\ncrowdcontrol that prevents Recall from being cast."
+  },
+  {
+   "title": "Tracer's Maps",
+   "id": "tracers-maps",
+   "text": "Tracer's stronger maps\nTracer's average maps\nTracer's weaker maps\nTracer is generally strong on maps that encourage enemies to split up, where\nshe can punish Heroes caught away from the safety of structures or allies. She\ncan struggle against PvE map objectives, especially if the design promotes\nteams to group up."
+  },
+  {
+   "title": "Tracer's Tips and Tricks",
+   "id": "tracers-tips-and-tricks",
+   "text": "Use Blink to close distance on enemies, dodge Abilities, or escape danger.\nIf you have not already, set Blink's Quick Cast to \"On\" (under Settings > Hotkeys > Quick Cast Setting). This will make the Ability much more responsive, which will help you to avoid skillshots with it.\nUse Melee to deal burst damage to enemy Heroes and quickly charge Pulse Bomb. Melee can also be used to assist with waveclear as needed.\nTracer can safely overextend thanks to Recall. Use this to kill low Health enemies, who may be too dangerous to reach for your allies.\nActivate Recall to remove negative effects before other enemy Heroes are able to follow-up with Silences or Stuns.\nUse Tracer's extremely high Attack Speed from Reload to quickly clear units that do not have Health, but take a certain number of Basic Attacks. Examples include Doubloon Chests or Cocoon.\nUse Tracer's life steal to sustain yourself. Even if you cannot hit Heroes, it is good to retreat and attack Minions or Structures to get your Health back.\nEven thought Tracer's Basic Abilities cannot reveal targets, Pulse Bomb can be used on Heroes in Stealth to finish them off or reveal them with damage.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Tracer's Role in the Current Meta",
+   "id": "tracers-role-in-the-current-meta",
+   "text": "Tracer works best on a team that can reliably waveclear, so that she can\nfocus on killing Heroes. She can be the hyper-carry of\na team, but can also fit into team compositions as a finisher, much\nlike Nova or Zeratul. Tracer can run down most enemy Heroes who try to flee from team fights. She is\nvery good against fragile Heroes who lack mobility.\nTracer's ability to reposition constantly can make her hard to deal with for\nsome Heroes, especially those who lack a way to target her directly. While she\ncan be a terror to Heroes who lack answers, she can be stopped in a variety of\nways. Because she can self-cleanse soft crowd-control\nwith Recall, silences,\nstuns, and displacements are\nthe most effective tools against her. Abilities like\nPolymorph, and\nHammer of Justice cannot be dodged, making her extremely\nvulnerable to follow-up when these affect her.\nKnockback from Abilities like\nFace Melt and\nConcussive Blast can disrupt her combo, since she\nwill often use up Blink charges to get in range for\nMelee. Being aware of (and playing around) Abilities\nthat can hinder your mobility is key to getting the most out of Tracer."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "08 Mar. 2025 (talents page): Updated Talent descriptions after recent Balance patch.\n08 Mar. 2025 (this page): Updated Builds after recent Balance patch.\n09 Feb. 2022 (talents page): Updated Level 1 Talent descriptions after recent Balance patch.\n09 Feb. 2022 (this page): Guide updated after recent Balance patch.\n30 Jan. 2022 (this page): Updated Builds to reflect meta development.\n03 Mar. 2021 (talents page): Updated Talents and Builds after recent Balance patch.\n03 Mar. 2021 (this page): Updated Builds after recent Balance patch.\n30 Jan. 2021 (talents page): Updated Chrono Triggers and Untouchable's descriptions and recommendations.\n28 Nov. 2020 (talents page): Updated Talents and Builds to reflect current meta.\n28 Nov. 2020 (this page): Builds updated to reflect current meta.\n08 Oct. 2020 (this page): The Guide has been reviewed and is in accordance with the latest patch.\n30 Jul. 2020 (this page): Updated Quantum Spike's relevance.\n08 Jul. 2020 (talents page): Updated Heavy Handed discussion.\n08 Jul. 2020 (this page): Updated Heavy Handed's relevance in her Builds.\n04 Jun. 2020 (talents page): Updated Talents and Builds to reflect June 3rd balance patch.\n04 Jun. 2020 (this page): Updated Builds and Weaknesses to Reflect June 3rd balance patch.\n24 May 2020 (talents page): Updated Talent recommendations.\n07 May 2020 (talents page): Updated Talents and Builds accordingly to May 6th balance patch.\n07 May 2020 (abilities page): Updated Abilities accordingly to May 6th balance patch.\n07 May 2020 (this page): Updated Builds, Strengths and Weaknesses accordingly to May 6th balance patch.\n25 Mar. 2020 (talents page): Updated Talent discussion and build to current meta.\n25 Mar. 2020 (this page): Updated Basic Attack build and her Weaknesses and Strengths.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n17 Oct. 2019 (talents page): Updated Talent discussion and recommended build to reflect current meta.\n17 Oct. 2019 (abilities page): Reviewed Abilities discussion to ensure relevance.\n17 Oct. 2019 (this page): Updated Talent discussion and recommended build to reflect current meta.\n27 Mar. 2018 (talents page): Updated Talent discussion to reflect balance changes in Fenix patch.\n27 Mar. 2018 (this page): Updated Talent discussion and builds to reflect balance changes in Fenix patch.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Tracer's Tips and Tricks",
+   "id": "tracers-tips-and-tricks",
+   "text": "Use Blink to close distance on enemies, dodge Abilities, or escape danger.\nIf you have not already, set Blink's Quick Cast to \"On\" (under Settings > Hotkeys > Quick Cast Setting). This will make the Ability much more responsive, which will help you to avoid skillshots with it.\nUse Melee to deal burst damage to enemy Heroes and quickly charge Pulse Bomb. Melee can also be used to assist with waveclear as needed.\nTracer can safely overextend thanks to Recall. Use this to kill low Health enemies, who may be too dangerous to reach for your allies.\nActivate Recall to remove negative effects before other enemy Heroes are able to follow-up with Silences or Stuns.\nUse Tracer's extremely high Attack Speed from Reload to quickly clear units that do not have Health, but take a certain number of Basic Attacks. Examples include Doubloon Chests or Cocoon.\nUse Tracer's life steal to sustain yourself. Even if you cannot hit Heroes, it is good to retreat and attack Minions or Structures to get your Health back.\nEven thought Tracer's Basic Abilities cannot reveal targets, Pulse Bomb can be used on Heroes in Stealth to finish them off or reveal them with damage."
+  },
+  {
+   "title": "Blink",
+   "id": "blink",
+   "text": "Blink\n(Q)\nTracer\nCharges: 3\nRecharge Time: 9 seconds\nDash towards an area.\nStores up to 3 charges.\nBlink gives Tracer extraordinary mobility\nallowing her to outmaneuver most\nHeroes. Although it ignores unit collision, Blink can be blocked by terrain and\nStructures. Use Blink to close distance on enemy Heroes, avoid skillshots, or\nescape. Refrain from using charges unnecessarily so that they will be\navailable when you need them to secure kills, or for self preservation. Blink\nis an excellent way to get into range to deal damage with Melee and\nPulse Bomb."
+  },
+  {
+   "title": "Melee",
+   "id": "melee",
+   "text": "Melee\n(W)\nTracer\nCooldown: 8 seconds\nDeal 220 (+4% per level) damage to a nearby enemy, prioritizing Heroes. Gain 5% Pulse Bomb charge when using Melee against an enemy, and 10% against Heroes.\nMelee deals a decent amount of burst damage.\nUse Melee whenever Recall\nis off cooldown, so that you may Recall away if you need to. Because Tracer is\nextremely fragile, it is best to avoid getting into Melee range without an\nescape plan. While Blink can be used for escape, it\ndoes not remove negative status effects like Recall does. Melee as often as\nyou have safe opportunities to do so. When comboing your Abilities, cast Pulse\nBomb first so that it begins charging up when you Melee."
+  },
+  {
+   "title": "Recall",
+   "id": "recall",
+   "text": "Recall\n(E)\nTracer\nCooldown: 20 seconds\nAfter 1.25 seconds, Tracer returns to the position she was at 2 seconds prior to casting, refilling her ammo, and removing all negative status effects from herself.\nRecall relocates Tracer to the position she\noccupied 2 seconds prior. Upon activating Recall, Tracer enters a 1 second\nStasis before being relocated. Recall also removes all negative status\neffects, and refills Tracer's Ammo.\nRecall defines Tracer's hit and run shenanigans gameplay style, enabling\nher to get away with aggressive positioning that would otherwise result in a\ndeath. When Recall is available for use, you should be looking for\nopportunities to kill vulnerable enemy Heroes. Use Recall to extract yourself\nto safety after being aggressive. Avoid overextending when Recall is on\ncooldown."
+  },
+  {
+   "title": "Pulse Bomb",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nPulse Bomb\n(R)\nTracer\nHeroic\nFire a short range bomb that can attach to an enemy if it hits them. The bomb explodes after 2 seconds dealing 298 (+6% per level) damage to them and 149 (+6% per level) damage to other nearby enemies.\nThis ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.\nPulse Bomb is Tracer's highest damage Ability, and gives her solo kill\npotential on many Heroes. Apply Pulse Bomb before using Melee when possible,\nin order to begin charging your next Pulse Bomb. Given Pulse Bomb's\ncharacteristic to stick to the first target it contacts, it may be difficult\nto target Heroes that are obstructed by Minions or other undesirable targets.\nAvoid using Pulse Bomb for harassment; it should be used in conjuction with\nyour other damaging Abilities to attempt kills."
+  },
+  {
+   "title": "Reload",
+   "id": "reload",
+   "text": "Reload\n(D)\nTracer\nCooldown: 1 seconds\nTracer can Basic Attack while moving, and after attacking 10 times she needs to reload over 0.75 seconds. Tracer can manually reload early by activating Reload.\nBasic Attacks heal Tracer for 10% of the damage dealt.\nReload enables Tracer to move while Basic\nAttacking. She can deliver 10 basic attacks before needing to Reload. Reload\nwill automatically activate if Tracer runs out of Ammo, but can be manually\nactivated at any time. Reloading takes 0.75 seconds.\nReload exceptionally allows Tracer to deliver Basic Attacks while moving.\nRight-clicking a target will cause her to lock onto that target, making it\nthe focus of her Basic Attacks. Because Tracer will always focus the selected\ntarget, you can focus on positioning freely, without needing to reacquire your\ntarget with right click again. Using the attack move command (\"a\" + left click)\nwill automatically lock onto the closest unit within range. Target locks are\nmaintained at an infinite range. When you disengage, remember to activate\nReload so that you maximise your damage in the next encounter."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "07 May 2020: Updated Abilities accordingly to May 6th balance patch.\n17 Oct. 2019: Reviewed Abilities discussion to ensure relevance.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "One-Two Punch (Level 1) Tracer Reduce the cooldown of Melee by 1 second and it gains an additional charge."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Parting Gift (Level 1) Tracer Recall leaves behind 6 bombs that deal 240 (+4% per level) damage each to different targets. Heroes hit with these bombs are Slowed by 50% for 0.75 seconds and grant 7% Pulse Bomb charge."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Tracer Rounds (Level 1) Tracer Increase Basic Attack range by 10%. Basic Attacks against Heroes reveal a small area around them for 3 seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Leeching Rounds (Level 4) Tracer Increase the healing from Basic Attacks by up to 200%, based on the amount of health Tracer is missing."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Pulse Generator (Level 4) Tracer Successfully sticking a Pulse Bomb to an enemy Hero heals Tracer for 12% of her maximum Health over 1.5 seconds and refunds a charge of Blink."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Is That a Health Pack?! (Level 4) Tracer Collecting a Regeneration Globe instantly heals Tracer for 15% of her maximum Health and reduces the cooldown of Healing Fountain by 15 seconds. Drinking from a Healing Fountain instantly heals for 20% of Tracer's maximum Health."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Sleight of Hand (Level 7) Tracer Reduces Reload time by 50%. This equals 20% more damage per second."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Focus Fire (Level 7) Tracer If an entire ammo magazine is unloaded on an enemy within 2 seconds, the last bullet will deal 80 (+4% per level) bonus damage. This is equal to 35% of the total magazine."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Locked and Loaded (Level 7) Tracer Reactivate Reload within the last 50% of its cast time to increase Tracer's Basic Attack damage by 40% for that magazine."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Sticky Bomb (Level 10) Tracer Increases Pulse Bomb's radius by 50% and enemies hit are Slowed by 70% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Quantum Spike (Level 10) Tracer Pulse Bomb deals an additional 6% of maximum Health as damage to Heroes."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Pulse Rounds (Level 10) Tracer Increases Pulse Bomb's range and charge rate from Basic Attacks against Heroes by 100%."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Untouchable (Level 13) Tracer Passive: After Blinking, gain 20% Movement Speed for 1.25 seconds. Quest: Takedowns increase Tracer's Basic Attack damage by 5%, up to 25%. These bonuses are lost on death."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Jumper (Level 13) Tracer Passive: When Blink has no charges remaining, its cooldown refreshes 100% faster. Casting Blink grants Tracer a Shield equal to 6% of her maximum Health for 3 seconds. This Shield stacks up to 3 times."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Telefrag (Level 13) Tracer Passive: Basic Attacks against enemy Heroes reduce the cooldown of Recall by 0.1875 seconds. When Tracer arrives at her Recall location she becomes Unkillable for 1 second and nearby enemies take 175 (+4% per level) damage and are knocked back."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Bullet Spray (Level 16) Tracer Increases the radius of Melee by 30%, and causes it to damage all enemies in range."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Heavy Handed (Level 16) Tracer Heroes hit by Melee have their Armor reduced by 15 for 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Ricochet (Level 16) Tracer Tracer's Basic Attacks have a 60% chance to hit another nearby enemy, prioritizing Heroes."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Chrono Triggers (Level 20) Tracer Casting Blink causes Basic Attacks to not consume ammo for 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Get Stuffed! (Level 20) Tracer Increases Melee's Pulse Bomb charge against Heroes from 10% to 20%. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knock the target away."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Total Recall (Level 20) Tracer Recall heals Tracer equal to the amount of Health she lost during that time."
+   },
+   {
+    "slot": 4,
+    "marker": "no",
+    "text": "✘︎ Composition B (Level 20) Tracer Successfully sticking a Pulse Bomb to an enemy Hero also drops another one at their feet that deals 50% damage and explodes slightly earlier."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Tracer's Talent Build",
+   "id": "tracers-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n?\n✓\n?\n7\n?\n✘︎\n✓\n10\n?\n?\n✓\n13\n?\n✓\n✘︎\n16\n?\n✓\n✓\n20\n?\n✓\n✘︎\n✘︎\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Tracer's Talent Build Cheatsheet",
+   "id": "tracers-talent-build-cheatsheet",
+   "text": "Burst Build\nRecommended\nLevel 1\n?\nLevel 4\n?\nLevel 7\n?\nLevel 10\n?\n?\nLevel 13\nLevel 16\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTracer's Burst Build is a good template to use while approaching each game.\nBecause Tracer must typically deal sustain damage until she can go in for a\nkill, her effectiveness scales with the amount of time that she can safely\nremain within Basic Attack range. While Talents like Jumper\nand Pulse Generator facilitate her playstyle around that,\nyour Level 1 and Level 16 Talents are great for having more burst\ndamage to execute the target.\nOne-Two Punch greatly increases Tracer's damage outside\nof team fights, but you will not be able to use melee that often during\na team fight for an Objective.\nHowever, Parting Gift is a good choice at that Level, as it adds\na more consistent burst damage on an immobilized target, because\nyou do not need to wait for the cooldowns between Melee charges.\nBasic Attacks Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\nLevel 10\nLevel 13\n?\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nDifferently from Burst Build, this build is focused on constantly attacking the\nopposing frontline, while dealing the maximum possible damage\nwithout risking yourself. This Build is recommended if the opposing team has many\nstuns or polymorphs that can shut you down during your dive."
+  },
+  {
+   "title": "Level 1 Talents for Tracer",
+   "id": "level-1",
+   "text": "✓\nOne-Two Punch\n(Level 1)\nTracer\nReduce the cooldown of Melee by 1 second and it gains an additional charge.\n?\nParting Gift\n(Level 1)\nTracer\nRecall leaves behind 6 bombs that deal 240 (+4% per level) damage each to different targets. Heroes hit with these bombs are Slowed by 50% for 0.75 seconds and grant 7% Pulse Bomb charge.\n?\nTracer Rounds\n(Level 1)\nTracer\nIncrease Basic Attack range by 10%. Basic Attacks against Heroes reveal a small area around them for 3 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "One-Two Punch will greatly increase Tracer's single-target\ndamage and bomb generation speed. This Talent is recommended when playing Tracer as\nganker, since the extra damage from Melee will be crucial to secure\na kill. However, be aware that the charges have a 3-second cooldown between them,\nso it is good to use the first one instantly when ganking, to then use the second charge,\nfinishing the target.\nParting Gift adds damage to Recall,\nwhich otherwise deals no damage. 6 bombs that Slow and charge Pulse Bomb will be created when\nRecall is used.\nIt is recommended to use a blink behind the target before recalling, making sure\none of the bombs will hit. This Talent is considerably harder to use than\nOne-Two Punch is. However, it can be a great pick if your team has\ngood single target burst damage, as the damage can be\ndone instantly, without needing to wait the 3 seconds cooldown between\nMelees.\nTracer Rounds can be useful when chasing enemies\ninto bushes, or around corners. When you would normally lose vision\nof your target and be unable to continue attacking, this Talent allows you to\ncontinue your assault. Besides the extra vision, it will also increase Tracer's\nBasic Attack range, allowing her to kite enemies easier.\nWe recommend going for Tracer Rounds when you are playing against a composition\nwith good crowd control, since they will punish\ndives attempts. The extra range will be necessary to play\nsafe in those situations."
+  },
+  {
+   "title": "Level 4 Talents for Tracer",
+   "id": "level-4",
+   "text": "?\nLeeching Rounds\n(Level 4)\nTracer\nIncrease the healing from Basic Attacks by up to 200%, based on the amount of health Tracer is missing.\n✓\nPulse Generator\n(Level 4)\nTracer\nSuccessfully sticking a Pulse Bomb to an enemy Hero heals Tracer for 12% of her maximum Health over 1.5 seconds and refunds a charge of Blink.\n?\nIs That a Health Pack?!\n(Level 4)\nTracer\nCollecting a Regeneration Globe instantly heals Tracer for 15% of her maximum Health and reduces the cooldown of Healing Fountain by 15 seconds.\nDrinking from a Healing Fountain instantly heals for 20% of Tracer's maximum Health."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Leeching Rounds slightly improves your\nself-sustain based on how much Health you are missing.\nIn a fight, this Talent has the potential to heal Tracer more than any other\nTalent in this tier. However, Tracer is a very squishy Hero,\nand to use Leeching Rounds effectively, you should be constantly hitting enemies\nwhen you are low on Health. Therefore, we only recommend this Talent if the enemy composition\ncannot easily burst you down.\nPulse Generator is a great Talent that provides two benefits.\nWhile the healing it offers can help you survive or make slightly better trades against enemies,\nthe extra Blink charge is what makes this Talent truly valuable.\nThis additional Blink can be used to go deeper, to reposition in battle, or to retreat if necessary.\nThis is the standard Talent for this tier due to the flexibility and usefulness\nthat comes primarily from the extra mobility.\nIs That a Health Pack?! provides the most healing of all talents in this tier\nwhen you are not in combat. However, it adds almost nothing to team fights.\nDespite its strong healing potential, we consider this Talent to be very situational,\nand we only recommend it if your healer does not have a good way\nto heal you out of combat, such as with Uther or Auriel."
+  },
+  {
+   "title": "Level 7 Talents for Tracer",
+   "id": "level-7",
+   "text": "?\nSleight of Hand\n(Level 7)\nTracer\nReduces Reload time by 50%. This equals 20% more damage per second.\n✘︎\nFocus Fire\n(Level 7)\nTracer\nIf an entire ammo magazine is unloaded on an enemy within 2 seconds, the last bullet will deal 80 (+4% per level) bonus damage. This is equal to 35% of the total magazine.\n✓\nLocked and Loaded\n(Level 7)\nTracer\nReactivate Reload within the last 50% of its cast time to increase Tracer's Basic Attack damage by 40% for that magazine."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Sleight of Hand increases your damage per second\nunconditionally. It does not require planning or good timing, it just works.\nIt is a great Talent to take if you are just learning Tracer, or if you are a\nseasoned Tracer player facing a difficult matchup.\nFocus Fire does not benefit from Ricochet.\nIt only works if you spend all your magazine in a single target, and still deals less damage\nthan Locked and Loaded. If you are not comfortable going\nLocked and Loaded, it is still better to go for Sleight of Hand instead, since\nit will have synergy with Ricochet,\nPulse Generator, and Pulse Bomb.\nLocked and Loaded is the hardest Talent to use\neffectively in this tier, but has the highest potential damage bonus. This\nTalent further increases her mechanical difficulty, while increasing your\ndamage if you can reliably land the timed Reload. Bonus damage from Locked and\nLoaded are also applied to Ricochet. Take this\nTalent if you are up to the challenge. While adjusting to this Talent, try\n\"priming\" it on Minions and holding the bonus damage for an enemy Hero. This\nwill allow you to practice the Reload timing, and will guarantee the\n40% bonus damage for the first magazine used against a Hero."
+  },
+  {
+   "title": "Level 10 Talents for Tracer",
+   "id": "level-10",
+   "text": "?\nSticky Bomb\n(Level 10)\nTracer\nIncreases Pulse Bomb's radius by 50% and enemies hit are Slowed by 70% for 3 seconds.\n?\nQuantum Spike\n(Level 10)\nTracer\nPulse Bomb deals an additional 6% of maximum Health as damage to Heroes.\n✓\nPulse Rounds\n(Level 10)\nTracer\nIncreases Pulse Bomb's range and charge rate from Basic Attacks against Heroes by 100%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given upgrade for your Heroic Ability.\nIf you want to read how it works in detail and/or you are looking for some tips on how to use it,\ncheck it out in the Abilities and Strategy page.\nSticky Bomb transforms Pulse Bomb into a better\nfollow-up Ability. Sticky Bomb is strong with combo oriented team\ncompositions. It can be a choice if you are coordinated with another Hero such as a\nDiablo with Apocalypse or a Fenix with\nPlanet Cracker to combo with you.\nQuantum Spike deals increased damage to targets\nbased on their maximum Health. This allows Tracer to deal more damage with\neach Pulse Bomb. While it has a greater effect on Heroes\nwith large Health pools, the extra percent-based damage\nadds burst damage to\nall takedown attempts. This Heroic will usually help you secure takedowns\nfaster than the others, and will be a great option in games where you need to focus\na squishy backline.\nPulse Rounds greatly increases the range and charge\nrate of Pulse Bomb. This, in turn, increases the\nfrequency with which Pulse Bomb may be cast, and the number of positions from\nwhich you can stick it to enemy Heroes. This Talent has great synergy with\nPulse Generator, since it will add much more Blinks and\nbetter self-sustain for Tracer. We recommend going for this Talent if you got Pulse\nGenerator."
+  },
+  {
+   "title": "Level 13 Talents for Tracer",
+   "id": "level-13",
+   "text": "?\nUntouchable\n(Level 13)\nTracer\nPassive: After Blinking, gain 20% Movement Speed for 1.25 seconds.\nQuest: Takedowns increase Tracer's Basic Attack damage by 5%, up to 25%. These bonuses are lost on death.\n✓\nJumper\n(Level 13)\nTracer\nPassive: When Blink has no charges remaining, its cooldown refreshes 100% faster.\nCasting Blink grants Tracer a Shield equal to 6% of her maximum Health for 3 seconds. This Shield stacks up to 3 times.\n✘︎\nTelefrag\n(Level 13)\nTracer\nPassive: Basic Attacks against enemy Heroes reduce the cooldown of Recall by 0.1875 seconds.\nWhen Tracer arrives at her Recall location she becomes Unkillable for 1 second and nearby enemies take 175 (+4% per level) damage and are knocked back."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Untouchable is a situational Talent that may be good in\ngames where Tracer cannot be easily bursted down and she is\nthe main source of damage in your composition. In these scenarios, it should be paired with\nRicochet and Tracer Rounds to maximize her\ndamage output and safety. The extra movement speed can become significant when fully stacked,\nthough it still cannot fully compare to the reliability of extra Blink\ncharges provided by Jumper.\nJumper significantly reduces Blink's\ncooldown when no charges are available. This Talent excels in situations where tracer\nwants to constantly harass their enemies, since it gives her a Blink charges whenever\nshe needs it. With good sustain damage and extra mobility, she can be a great nuisance\nto enemy frontline. We recommend Jumper in every game, unless\nyou are very confident on your abilities and need the extra Attack Damage from\nUntouchable.\nTelefrag is an underwhelming Talent, since Tracer wants\nto only use Recall when it is extremely necessary, instead\nof spamming it. The damage, unkillable status, and knockback effect provided by the Talent\nwill be useless in most games, because Tracer will be recalling towards a\nsafe position, far from enemies."
+  },
+  {
+   "title": "Level 16 Talents for Tracer",
+   "id": "level-16",
+   "text": "?\nBullet Spray\n(Level 16)\nTracer\nIncreases the radius of Melee by 30%, and causes it to damage all enemies in range.\n✓\nHeavy Handed\n(Level 16)\nTracer\nHeroes hit by Melee have their Armor reduced by 15 for 4 seconds.\n✓\nRicochet\n(Level 16)\nTracer\nTracer's Basic Attacks have a 60% chance to hit another nearby enemy, prioritizing Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Bullet Spray slightly increases Tracer's\narea of effect damage in team\nfights, and gives her more waveclear. Only take this Talent\ntogether with One-Two Punch, and if enemies cannot punish\nyou for staying in melee range, or you will not be able to get value from it.\nHowever, be aware that Tracer's sustain damage in late game without\nRicochet will be considerably lower than it could be.\nHeavy Handed will increase all the subsequent\ndamage after Melee for 4 seconds. Since this Armor reduction is only applied after\nMelee, it will not increase Pulse Bomb's damage when it gets\nexploded earlier with Get Stuffed!. It is also decent against targets\nwith high Armor, like Garrosh, since it will greatly increase the damage dealt\nby your whole team.\nRicochet will greatly increase your damage in fights.\nTracer will be most of the time abusing her high mobility,\nby positioning herself at the edge of the fight while hitting the enemy\nfrontline. So, even though Ricochet's damage is random,\nit will be effective, since you will be damaging the opposing backline\nwhile being far away from them. This is the standard Talent for this tier, since\nit is essential to increase Tracer's sustain damage in the fight. However, be\naware that you will have a hard time hitting Forts and Keeps with it, since the ricochet\ncan easily bounce towards an enemy Hero, making these dangerous Structures focus you."
+  },
+  {
+   "title": "Level 20 Talents for Tracer",
+   "id": "level-20",
+   "text": "?\nChrono Triggers\n(Level 20)\nTracer\nCasting Blink causes Basic Attacks to not consume ammo for 1 second.\n✓\nGet Stuffed!\n(Level 20)\nTracer\nIncreases Melee's Pulse Bomb charge against Heroes from 10% to 20%. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knock the target away.\n✘︎\nTotal Recall\n(Level 20)\nTracer\nRecall heals Tracer equal to the amount of Health she lost during that time.\n✘︎\nComposition B\n(Level 20)\nTracer\nSuccessfully sticking a Pulse Bomb to an enemy Hero also drops another one at their feet that deals 50% damage and explodes slightly earlier."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Chrono Triggers slightly increase Tracer's damage over time, but\ngets better the more Attack Speed she has. For this reason we recommend going for it\nif you have Abathur with Adrenal Overload, Lt. Morales\nwith Stim Drone or Rehgar with\nBloodlust to empower you. It also requires\nJumper at Level 13, since blinks will be constantly available\nwith it.\nGet Stuffed! increases Pulse Bomb charge rate, and can be used for\npeeling or to push an enemy towards your team. You will have\nan instantaneous strong burst damage; Turning Tracer into a real threat.\nWith this Talent, do not be afraid to use your bombs to peel or harass someone,\nsince it will be available again in 6-10 seconds.\nTotal Recall returns all recently lost Health when\nRecall is activated, effectively making it a burst heal. Unfortunately, since Tracer\ngets healing from many other ways, this Talent is not necessary. Chrono Triggers\nand Get Stuffed! will be better options.\nComposition B can be strong on combo oriented\nteams, and pairs well with Sticky Bomb. But again,\nGet Stuffed! should not be skipped for small and unreliable\ndamage."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "08 Mar. 2025: Updated Talent descriptions after recent Balance patch.\n09 Feb. 2022: Updated Level 1 Talent descriptions after recent Balance patch.\n03 Mar. 2021: Updated Talents and Builds after recent Balance patch.\n30 Jan. 2021: Updated Chrono Triggers and Untouchable's descriptions and recommendations.\n28 Nov. 2020: Updated Talents and Builds to reflect current meta.\n08 Jul. 2020: Updated Heavy Handed discussion.\n04 Jun. 2020: Updated Talents and Builds to reflect June 3rd balance patch.\n24 May 2020: Updated Talent recommendations.\n07 May 2020: Updated Talents and Builds accordingly to May 6th balance patch.\n25 Mar. 2020: Updated Talent discussion and build to current meta.\n17 Oct. 2019: Updated Talent discussion and recommended build to reflect current meta.\n27 Mar. 2018: Updated Talent discussion to reflect balance changes in Fenix patch.\nShow more\nShow less"
+  }
+ ]
+}

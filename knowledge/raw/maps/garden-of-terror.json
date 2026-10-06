@@ -1,0 +1,86 @@
+{
+ "name": "garden-of-terror",
+ "source": "https://www.icy-veins.com/heroes/garden-of-terror-map-guide",
+ "sections": [
+  {
+   "title": "Introduction",
+   "id": "introduction",
+   "text": "Garden of Terror is a 3-lane Map belonging to the Nexus universe.\nThe signature Objective of this Map are Seeds required to get Garden Terrors.\nOne per lane, the Garden Terrors will fight alongside the team who gets 3 Seeds, temporarily\ndisabling enemy Structures on their path."
+  },
+  {
+   "title": "Draft Strategy",
+   "id": "draft-strategy",
+   "text": "Prefer\nHeroes for clearing Mercenary Camps\nDouble Bruiser\nEffects relying on impassable terrain\nGankers\nGlobal presence\nPoke tools for Objective\nStrong late game\nSiege damage for Structures\nSplit-push\nTools for solo-capturing the Objective\nVision tools\nAvoid\nWeak late game\nQuests to stack on Heroes\nSee our Garden of Terror Tier List page for further information »"
+  },
+  {
+   "title": "Lane Assignments",
+   "id": "lane-assignments",
+   "text": "Here you can find one or more formations\nthat are viable on this Map. Keep in mind that positions in lane\nare not strict and will often change based on the situation."
+  },
+  {
+   "title": "Formation 1-1-3",
+   "id": "formation-1-1-3",
+   "text": "A good formation for Garden of Terror is 1-1-3:\n3 Heroes cover the side lane where the allied Bruiser Camp is\nor, alternatively, the side lane near the next Objective;\n1 Hero covers the middle lane;\n1 Hero, the Offlaner, covers\nthe side lane far away from the next Objective."
+  },
+  {
+   "title": "Formation 1-3-1",
+   "id": "formation-1-3-1",
+   "text": "A good formation for Garden of Terror is 1-3-1:\n1 Hero, preferably ranged, covers the lane where the enemy Siege Camp is;\n3 Heroes cover the middle lane;\n1 Hero, the Offlaner, covers the other side lane."
+  },
+  {
+   "title": "Map Strategy",
+   "id": "map-strategy",
+   "text": "When possible, send a Hero with mobility\nto scout the enemy Bruiser Camp. If the enemy team is clearing it,\nstart clearing the allied Siege Camp in the same lane and capture it\nabout 15 seconds after the enemy team captures their Bruiser Camp,\nso that Siege Giants will help you while defending the Fort.\nAt 0:30 or whenever available,\nstart clearing the allied Siege Camp in the middle lane\nand capture it as soon as possible.\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 0:42 minutes or 12 seconds after a wave of Minions spawned.\nAt 0:45 minutes or right after capturing the allied Siege Camp in the middle lane,\nstart clearing the allied Bruiser Camp in the side lane\nand capture it as soon as possible.\nTo make this Mercenary Camp join the lane in front of allied Minions,\ncapture it at 1:12 minutes or 12 seconds after a wave of Minions spawned.\nAt 1:45 minutes or 30-40 seconds before the next Objective phase,\nif the allied Siege Camp in the side lane is NOT in the same lane as the next Seed location\nand you did not use it in response to the enemy Bruiser Camp,\nstart clearing the allied Siege Camp in the side lane\nand capture it as soon as possible.\nTo make this Mercenary Camp join the lane behind allied Minions,\ncapture it at 2:12 minutes or 12 seconds after a wave of Minions spawned.\nIf you want to contest the next Seed, be there in time with 4 Heroes\nwhile 1 Hero defends enemy Mercenaries and then joins the team\nat the Objective. If it is the first Seed of the game,\nthe Offlaner can keep soaking.\nIf you want to give the next Seed, poke\nwith a couple of Heroes and let the rest of your team\npush in the opposite lane from the Objective.\nWhen you reach 3 Seeds, push side lanes.\nDo not forget to soak in this phase.\nIf you lose the Objective, try to save as many Forts and Keeps as possible.\nIn case the enemy team is playing grouped, however, you must immediately retreat from\nthe lane near them while your teammates get value elsewhere."
+  },
+  {
+   "title": "Mercenary Camps",
+   "id": "mercenary-camps",
+   "text": "As shown in the image below, Garden of Terror has a total of 6 Mercenary Camps:\n1 Siege Camp (green icon) on the left side of the top lane;\n1 Bruiser Camp (blue icon) on the right side of the top lane;\n2 Siege Camps (green icon) in the middle lane;\n1 Bruiser Camp (blue icon) on the left side of the bottom lane;\n1 Siege Camp (green icon) on the right side of the bottom lane.\nMercenary Camps on Garden of Terror disappear from the battlefield\nonce the Garden Terrors begin spawning (unless their Mercenaries are in combat)\nand reappear only after all Garden Terrors have been killed."
+  },
+  {
+   "title": "Siege Camp",
+   "id": "siege-camp",
+   "text": "This type of Mercenary Camp features 2 Siege Giants. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n3:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n280 Experience\n+4 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nInstead of attacking enemies with Basic Attacks, Siege Giants throw stones at them.\nThese stones can be dodged, so it is possible to capture them without taking any damage.\nOnce captured, they are capable of damaging enemy Structures without getting in their range.\nSiege Giants deal 100% bonus damage to Structures."
+  },
+  {
+   "title": "Bruiser Camp",
+   "id": "bruiser-camp",
+   "text": "This type of Mercenary Camp features 3 Knights and 1 Wizard. Once captured,\nit spawns the same units fighting for your team in the corresponding lane.\nWhen possible, push with them to get more value.\nSpawn Time\nRespawn Delay\n0:30 minutes\n4:00 minutes after its last capture\nBaseline Experience\nExperience Scaling\n450 Experience\n+9 Experience per minute (*)\n(*) For this Mercenary Camp, Experience starts scaling after 1 minute.\nRight after being captured and while in lane, the Wizard creates a Spell Armor field\naround him which reduces some of the damage taken by Minions, Mercenaries, and Heroes within range.\nAvoid fighting the enemy team if they still have a Wizard helping them!"
+  },
+  {
+   "title": "Map Objective",
+   "id": "map-objective",
+   "text": "The signature Objective of Garden of Terror consists of Seeds required to get Garden Terrors.\nIn order to collect a Seed, Heroes have to channel for 6 seconds.\nSeeds also spawn a Regeneration Globe when collected.\nThe first team who gets 3 Seeds will spawn a Garden Terror per lane.\nYou should push with them once they reach\nenemy Structures and start hitting them.\nSpawn Time\nRespawn Delay\n2:30 minutes\nfrom 0:50 to 1:20 minutes after collecting a Seed, from 1:30 to 2:00 minutes after all Garden Terrors die\n\nFight the Shamblers\nAt night, Shamblers will rise from the gardens.\nCollect Seeds\nKill the Shamblers and collect seeds for your team.\nControl Garden Terror\nWith 100 seeds, control a garden terror and destroy your enemies!\nSeeds can spawn in 6 possible locations, with each Objective phase\nhaving only 1 Seed active. The spawning rules are:\nthe first Seed is always bottom-left or bottom-right;\na Seed cannot be in the same row as the previous one;\n3 consecutive Seeds are always in 3 different columns."
+  },
+  {
+   "title": "Seeds Sequences",
+   "id": "seeds-sequences",
+   "text": "Once you know the second Seed's location, it is possible to predict all other Seed's locations.\nbottom-left, top-right, bottom-middle, top-left, bottom-right, top-middle;\nbottom-right, top-left, bottom-middle, top-right, bottom-left, top-middle;\nbottom-left, top-middle, bottom-right, top-left, bottom-middle, top-right;\nbottom-right, top-middle, bottom-left, top-right, bottom-middle, top-left."
+  },
+  {
+   "title": "Garden Terror",
+   "id": "garden-terror",
+   "text": "While approaching enemy Structures, Garden Terrors spawn an Overgrowth\nthat takes damage equal to 10% of its maximum Health every second and disables\nenemy Structures as long as it is alive, for up to 10 seconds.\nWhen attacking, use it to push\nor even dive when possible.\nWhen defending, destroy it as quickly as possible\nto enable your Structures again."
+  },
+  {
+   "title": "Core Ability",
+   "id": "core-ability",
+   "text": "Every 5 seconds, the Core shoots a Seed under a nearby enemy Hero.\nWhen the seed explodes, Heroes inside are\nPolymorphed for 3 seconds."
+  },
+  {
+   "title": "Win Conditions",
+   "id": "win-conditions",
+   "text": "To win the game on Garden of Terror, you should count on\nany of the following win conditions:\nMap Objective,\nSplit-push."
+  },
+  {
+   "title": "Tips and Tricks",
+   "id": "tips-and-tricks",
+   "text": "Use the first Healing Fountain (2-minute cooldown) before 0:30 minutes\nbecause the first Objective on this Map activates at 2:30 minutes,\nso you will have it back in time for that.\nDepending on where the next Seed is, you should decide if you want\nto contest it or not. Seeds on the enemy side of the battlefield are harder\nto contest whereas Seeds on your side of the battlefield are easier to contest.\nIf you want to contest the next Seed, be there in time with 4 Heroes\nwhile 1 Hero defends enemy Mercenaries and then joins the team\nat the Objective. If it is the first Seed of the game,\nthe Offlaner can keep soaking.\nIf you are not ready to contest or capture a Seed,\ndo not kill the Shamblers that are defending it.\nThey will slow down the enemy team while your team gets ready.\nTo capture a Seed as quick as possible, one Hero should distract the Shamblers\nby taking aggro and another Hero should click on the Seed.\nGarden Terrors spawn an Overgrowth that disables enemy Structures.\nWhen attacking, use it to dive when possible.\nWhen defending, destroy it to enable your Structures again.\nGlobal Heroes should ideally take care\nof the lane that is farther away from the next Objective location,\nso that they can use their global tool\nto quickly join their team during the next Objective phase.\nSee our Map Guides page for further information »"
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "04 May 2026: Guide improved.\nExperience gained from Mercenary Camps added.\n01 Dec. 2025: Guide reviewed for the latest Map Updates.\n30 Sep. 2025: Guide updated for the latest Map Updates.\nMap Strategy section updated.\nMercenary Camps section updated.\n23 Aug. 2024: Guide reworked.\n28 Oct. 2022: Guide created.\nShow more\nShow less"
+  }
+ ]
+}

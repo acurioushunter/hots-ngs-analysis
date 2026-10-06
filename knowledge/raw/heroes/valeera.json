@@ -1,0 +1,325 @@
+{
+ "slug": "valeera",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/valeera-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/valeera-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/valeera-talents"
+ },
+ "guide": [
+  {
+   "title": "Valeera's Overview",
+   "id": "valeeras-overview",
+   "text": "Valeera is a Melee Assassin who uses Stealth and a\nunique Combo Point system to deal devastating amounts of burst damage to her enemies.\nCombo Points are generated every time Valeera strikes an enemy Hero with one of her\nBasic Abilities, which can then be spent on a powerful finishing move called\nEviscerate. Unlike other Stealth based Heroes, Valeera is able\nto activate Vanish at will, allowing her to regularly shift\nback and forth between the shadows to trick and deceive her opponents. When Stealthed,\nValeera has access to a whole new set of Abilities commonly referred to as \"openers\",\nas these Abilities are used to break Valeera from stealth and be the opening sequence\nto her unrelenting Ability combo.\nEach one of Valeera's three openers providers her with a different bonus;\nAmbush can be used for instantaneous pure damage,\nCheap Shot for hard crowd-control\nin the form of a Stun, and Garrote for damage-over-time\nand a crippling Silence. It is important for players to recognize which opener will best\nsuit Valeera's needs at that exact moment, and being able to recognize this is an integral\nstep in pursuing mastery of Valeera's kit."
+  },
+  {
+   "title": "Valeera's Strengths and Weaknesses",
+   "id": "valeeras-strengths-and-weaknesses",
+   "text": "Strengths\nVery high skill ceiling\nAnti-Assassin, can take down high priority targets deep within the backline\nExceptional at roaming and ganking\nDiverse kit with lots of utility\nPotential for various playstyles\nStrong crowd control\nHigh HP pool\nWeaknesses\nDependent on Level 4 and 7 Talents\nWeak PvE\nParticularly susceptible to heavy crowd-control\nVery hard learning curve\nIncredibly weak when revealed\nSuffers against coordinated teams"
+  },
+  {
+   "title": "Valeera's Talent Build Cheatsheet",
+   "id": "valeeras-talent-build-cheatsheet",
+   "text": "Sinister Strike Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValeera's Sinister Strike Build focuses on Talents that\ncause Sinister Strike to become one of Valeera's\nprimary sources of burst damage. Relentless Strikes\nat Level 4 will allow Valeera to cast Sinister strike more regularly and\nMutilate at Level 7 will vastly increase Sinister Strike's\noverall damage. When Seal Fate\nis used in conjunction with Mutilate, Valeera will be able to deal\na very large amount of instantaneous burst damage when leaping onto a\ntarget effected by a Silence, Root,\nor Stun (which conveniently can be\nprovided through Cheap Shot or\nGarrote).\nLimpanjo Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValeera's Limpanjo Build is dedicated to Limpanjo, a well-known multiple Grand Master Valeera\nmain from Europe, who was kind enough to share his input on our Valeera Build Guide.\nThe Build itself is quite similar to the Sinister Strike Build with\nfew exceptions. At Level 1, Combat Readiness can be picked\nto provide very strong\nprotection against enemy Basic Attacks, which allows Valeera to be played more safely both\nas a Melee Assassin in the 4-man\ncapable to gank or as an Offlaner.\nAt Level 13 and 16, the Build takes a unique path. There, the focus lies on taking\ndown individual (and preferably) isolated targets by opening Valeera's combo with\nAmbush. Thanks to Death From Above,\nValeera is able to close the distance to her target nicely while also reducing the cooldown on\nVanish, which in return allows her to strike from the shadows\nagain more quickly. Assassinate works great with previous\nburst damage Talents, most importantly, Mutilate at Level 7,\nas it lowers her targets Armor even further and deals extra damage as well.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Valeera's Synergies and Counters",
+   "id": "valeeras-synergies-and-counters",
+   "text": "Valeera synergizes with\nValeera peforms best with Heroes who have a reliable source of\ncrowd-control, high burst damage, or both.\nBesides those, Garrosh and E.T.C. are good partners, because they\ncan easily displace an enemy for Valeera to silence and kill. Furthermore, Abathur\nis a great pick with her. He will turn Valeera into an even more dangerous roamer,\ncapable of killing targets anywhere before they leave silence.\nValeera is countered by\nValeera is countered by Heroes who are able to easily break her from Stealth,\nas this will prevent her from being able to cast any of her opener abilities. She also\nis very susceptible to crowd-control as her\noverextended positioning within the enemy\nbackline will often cause her to be quickly taken down\nonce rendered immobile."
+  },
+  {
+   "title": "Valeera's Maps",
+   "id": "valeeras-maps",
+   "text": "Valeera's stronger maps\nValeera's average maps\nValeera's weaker maps\nValeera is best suited for larger maps with multiple Objective locations,\nas she will be able to roam around the Battleground\nlooking for vulnerable enemy Heroes. Due to her limited waveclear\nand overall PvE potential she tends to suffer on maps\nwhere clearing large amounts of enemy Minions or Mercenaries is of high priority."
+  },
+  {
+   "title": "Valeera's Tips and Tricks",
+   "id": "valeeras-tips-and-tricks",
+   "text": "Only use Blade Flurry for PvE purposes or if you started a combo with Ambush, or you will run out of energy very quickly.\nThe Unrevealable portion of Vanish allows Valeera to pass through other units, and may be used mid-fight to trick enemies with new positioning.\nDo not hesitate to use Sinister Strike to dodge powerful enemy skillshots or even to disengage from a losing fight.\nResist the temptation to use Cheap Shot to lock down enemies. This ability is mainly used for the blind. It is better to use Garrote to crowd control.\nTry to use Eviscerate when 3 Combo Points are available to maximize its damage output.\nThe Silence portion of Garrote can be used to interrupt an enemy's channeled ability.\nDo not be afraid to use Cloak of Shadows liberally, as the cooldown is rather short for a Heroic Ability. In 1v1 scenarios, Cloak of Shadows should be used just as Garrote's silence ends, so enemies cannot interrupt your damage with abilities.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Valeera's Role in the Current Meta",
+   "id": "valeeras-role-in-the-current-meta",
+   "text": "Valeera is a great counter-pick against low-Health, high-priority targets;\nparticularly Assassins known for their massive damage\noutput such as Valla or Kael'thas. Valeera's damage and utility works best as a followup,\nfirst allowing her team to initiate before heading into\nthe mix herself. She pairs excellently with Heroes who provide reliable\ncrowd-control alongside high burst damage. When\nattempting to enter combat, it is incredibly important for Valeera to avoid all damage\n(particularly area of effect), as this will break her from\nStealth and ruin her chance to get off an opener Ability.\nDue to her relatively weak PvE and her strong\nganking potential, Valeera should spend most of the match\nroaming between lanes, looking for overextended\nenemy Heroes to pick off. Despite the fact that Valeera's true potential\nis best unfolded when she is able to roam and\nrotate between lanes, she is a respectable solo laner\nand can be played there if no other options are available for your team."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "05 Jun. 2022 (talents page): Smoke Bomb's relevance updated to reflect meta development.\n05 Jun. 2022 (this page): Builds updated to reflect meta development.\n20 Jan. 2021 (talents page): Talents updated for the latest balance patch.\n20 Jan. 2021 (abilities page): Smoke Bomb description updated.\n20 Jan. 2021 (this page): Guide updated for the latest balance patch.\n25 May 2020 (this page): Updated Limpanjo Build.\n01 May 2020 (abilities page): Applied small additions to be more informative on how to use Abilities.\n01 May 2020 (this page): Updated whole guide to better reflect current meta.\n08 Apr. 2020 (talents page): Updated Builds and Talents to reflect current meta.\n16 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n14 Jul. 2019 (talents page): Completely overhauled and updated Valeera's talents and builds in accordance with the recent Balance Update.\n14 Jul. 2019 (abilities page): Applied some minor updates to Valeera's ability section.\n14 Jul. 2019 (this page): Updated Valeera's intro section.\n15 Dec. 2017 (talents page): Talents and their discussions have been updated for the latest balance patch.\n15 Dec. 2017 (this page): Guide has been updated to reflect latest balance patch, detailing Stealth rework (Vanish Build has been removed).\n26 Apr. 2017 (talents page): Removed Cold Blood from Level 20 Talent options; Talent Builds previously containing Cold Blood have been adjusted accordingly.\n14 Apr. 2017 (talents page): Adjusted Crippling Poison's duration from 3 to 5 seconds and the talent is now deemed situational (was not recommended before).\n14 Apr. 2017 (abilities page): Adjusted Cloak of Shadows's cooldown duration from 25 to 15 seconds.\n04 Feb. 2017 (talents page): Added Vanish talent build and added talent discussions.\n04 Feb. 2017 (this page): Added Vanish talent build.\n25 Jan. 2017 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Valeera's Tips and Tricks",
+   "id": "valeeras-tips-and-tricks",
+   "text": "Only use Blade Flurry for PvE purposes or if you started a combo with Ambush, or you will run out of energy very quickly.\nThe Unrevealable portion of Vanish allows Valeera to pass through other units, and may be used mid-fight to trick enemies with new positioning.\nDo not hesitate to use Sinister Strike to dodge powerful enemy skillshots or even to disengage from a losing fight.\nResist the temptation to use Cheap Shot to lock down enemies. This ability is mainly used for the blind. It is better to use Garrote to crowd control.\nTry to use Eviscerate when 3 Combo Points are available to maximize its damage output.\nThe Silence portion of Garrote can be used to interrupt an enemy's channeled ability.\nDo not be afraid to use Cloak of Shadows liberally, as the cooldown is rather short for a Heroic Ability. In 1v1 scenarios, Cloak of Shadows should be used just as Garrote's silence ends, so enemies cannot interrupt your damage with abilities."
+  },
+  {
+   "title": "Vanish",
+   "id": "vanish",
+   "text": "Vanish\n(D)\nValeera\nCooldown: 8 seconds\nVanish from sight, becoming Stealthed, gaining 20% Movement Speed and access to new Abilities. For the first second, Valeera is Unrevealable and can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.\nAfter being Stealthed for 3 seconds, the cast range of Ambush, Cheap Shot, and Garrote is increased from 2.5 to 5, and they cause Valeera to teleport to the target when used.\nThe first step to success with Valeera is mastering every facet of her\nStealth mechanic Vanish. Vanish can be used for\nboth engage and disengage and when utilized properly will allow Valeera to\nfreely stride through teamfights to pick off her target(s) of choice.\nUse the increased Movement Speed bonus from Vanish to flee from pursuing enemies or to\ncatch an enemy trying who many themselves be trying to escape. The Unrevealable portion of the\nAbility is invaluable and allows Valeera to more safely reposition within\na fight even while taking damage. This can also be used to juke enemy Heroes\nand force them to head in a direction opposite to that of Valeera.\nMuch of Valeera's kit ( Ambush, Cheap Shot,\nand Garrote), may only be used when in Stealth, so\nkeep in mind that these Abilities effectively share the 8-second cooldown with Vanish.\nIt is also important to note that when Valeera is already Stealthed,\nusing her Mount will not only break the effect but will also place Vanish\non full cooldown.\nIf you stand still for over 1.5 seconds, Valeera will be completely invisible.\nThis can and should be abused if you know where an enemy is heading towards, by just\nstanding still on the way to that destination.\nThey will not be able to see you coming, and therefore will not react to your engage."
+  },
+  {
+   "title": "Sinister Strike",
+   "id": "sinister-strike",
+   "text": "Sinister Strike\n(Q)\nValeera\nEnergy: 25\nCooldown: 5 seconds\nDash forward, hitting all enemies in a line for 110 (+4% per level) damage. If Sinister Strike hits a Hero, Valeera stops dashing immediately and the cooldown is reduced to 1 second.\nAwards 1 Combo Point.\nStealth: Ambush\nHeavily damage an enemy and reduce their Armor.\nSinister Strike is a strong\ngap-closer that provides Valeera with much\nof her mobility during fights. When possible, Valeera should always\ntry to hit an enemy Hero with every cast of Sinister Strike to not\nonly generate a Combo Point, but to greatly reduce its cooldown. Sinister\nStrike can also be used to dodge powerful enemy skillshots\nor to disengage from an enemy Hero altogether."
+  },
+  {
+   "title": "Ambush",
+   "id": "ambush",
+   "text": "Ambush\n(Q)\nValeera\nEnergy: 10\nCooldown: 1 seconds\nAmbush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 5 seconds.\nAwards 1 Combo Point.\nUnstealth: Sinister Strike\nDash forward, damaging enemies.\nAmbush is Sinister Strike's\nStealth counterpart and is used to deal a large amount of burst damage to a target\nand reducing their Armor. Should burning down a target as fast\nas possible be Valeera's primary objective, she should open out of Stealth by casting\nAmbush onto her target. If Valeera is Vanished for 3 seconds, this Ability has 5 range\nand teleports Valeera behind her target. This gap-closer\neffect is integral to Valeera’s ability to reach her desired target’s, especially when\nthey are hidden away in the enemy backline."
+  },
+  {
+   "title": "Blade Flurry",
+   "id": "blade-flurry",
+   "text": "Blade Flurry\n(W)\nValeera\nEnergy: 40\nCooldown: 4 seconds\nDeal 130 (+4% per level) damage in an area around Valeera.\nAwards 1 Combo Point per enemy Hero hit.\nStealth: Cheap Shot\nStun, Blind, and damage an enemy.\nBlade Flurry is an area of effect\ndamage Ability that can be used by Valeera on multiple enemy Heroes to quickly\ngenerate Combo Points. Blade Flurry will serve as a reliable source of\nwave-clear when in lane. It is mostly not recommended\nto use Blade Flurry in fights. The energy cost of the Ability is way too high, and\ngreatly reduces your damage potential. However, if you started with Ambush,\nit should be used instantly, because the low energy cost from Ambush compensates it."
+  },
+  {
+   "title": "Cheap Shot",
+   "id": "cheap-shot",
+   "text": "Cheap Shot\n(W)\nValeera\nEnergy: 30\nCooldown: 1 seconds\nDeal 30 (+4% per level) damage to an enemy, Stun them for 0.75 seconds, and Blind them for 2 seconds once Cheap Shot's Stun expires.\nAwards 1 Combo Point.\nUnstealth: Blade Flurry\nDeal damage in an area around Valeera.\nCheap Shot is Blade Flurry's\nStealth counterpart and Valeera's primary source of hard crowd-control. The Stun\nduration makes it feel quite impactful and is great for following up on allies\nother sources of crowd control in order to lock down a specific target. The 2\nsecond Blind that follows the Stun also makes Cheap Shot a great opener against\ntargets that rely primarily on Basic Attacks to deal damage. The damage generated\nby Cheap Shot is almost negligible therefore Valeera should only open out of Stealth\nwith Cheap Shot in order to Stun as a setup\nand/or Blind for peeling.\nSimilarly to Ambush, if Valeera is Vanished for 3 seconds,\nthis Ability has 5 range and teleports Valeera behind her target."
+  },
+  {
+   "title": "Eviscerate",
+   "id": "eviscerate",
+   "text": "Eviscerate\n(E)\nValeera\nEnergy: 25\nCooldown: 1 seconds\nEviscerate an enemy, dealing damage per Combo Point.\n1 Point: 85 (+4% per level)\n2 Points: 170 (+4% per level)\n3 Points: 255 (+4% per level)\nStealth: Garrote\nSilence and damage an enemy over time.\nEviscerate is Valeera's highest source of single target damage\nand works based off of a \"Combo Point\" system. Eviscerate can only be cast when she has both\nat least 1 Combo Point and the required amount of Energy. Combo Points are awarded to Valeera\nevery time she successfully strikes an enemy Hero with one of her Basic Abilities. The more\nCombo Points Valeera has stored, the more damage Eviscerate will do when cast (up to a\nmaximum of 3 Combo Points). Because of this interaction, Eviscerate is most efficient when\nit is the next Ability cast after Valeera has attained 3 Combo Points, as anything less will result\nin a weaker Eviscerate, and anything more will waste potential Combo Point generation."
+  },
+  {
+   "title": "Garrote",
+   "id": "garrote",
+   "text": "Garrote\n(E)\nValeera\nEnergy: 30\nCooldown: 1 seconds\nDeal 20 (+4% per level) damage to an enemy and an additional 140 (+4% per level) damage over 7 seconds, and Silence them for 2.5 seconds.\nAwards 1 Combo Point.\nUnstealth: Eviscerate\nHigh damage finishing move.\nGarrote is Eviscerate's Stealth\ncounterpart and provides Valeera an opener with a good mix of both damage and utility\nin the form of a Silence. Although the immediate damage output of Garrote is\nnot as high as Ambush, the combination of damage and utility does make\nit an incredibly useful opener for when Valeera needs to not only blow up a target,\nbut help ensure they have no means of escape through casting their own Abilities, such as a\ngap-closer or any means of damage mitigation. Similarly to\nAmbush and Cheap Shot, if Valeera\nis Vanished for 3 seconds, this Ability has 5 range and teleports Valeera behind her target."
+  },
+  {
+   "title": "Smoke Bomb",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nSmoke Bomb\n(R)\nValeera\nHeroic\nCooldown: 60 seconds\nCreate a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 60 Armor, reducing damage taken by 60%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.\nUsing this Ability does not break Stealth.\nSmoke Bomb is the first option of Valeera's two defensive Heroic Abilities.\nOnce Valeera has activated Smoke Bomb, she is able to stand within its area-of-effect\nto become Unrevealable, unaffected by Unit Collision, and much harder to kill with a\n60% reduction in damage taken. Being \"Unrevealable\" means that Valeera will remain not only untargetable\nbut completely invisible to her opponents while under its effect. This implies that enemy Heroes will\nnot be able to strike Valeera with Basic Attacks or targeted Abilities. Smoke Bomb is incredibly strong against\nAssassins who rely heavily on Basic Attacks as\ntheir primary source of damage. Smoke Bomb is a phenomenal Ability which allows Valeera to\ndart back and forth within a crowd picking off any misfortunate Hero who remains within its\npresence. Make sure to always cast Smoke Bomb within close proximity to team fights to\nensure that enemies will not be able to simply walk away from the area and completely\nnegate the Ability altogether. Valeera may also cast Vanish\nduring Smoke Bomb and simply walk away from its area-of-effect. This will trick many players\ninto thinking that Valeera is still within the smoke and will cause them to wait for her to\nappear after its duration."
+  },
+  {
+   "title": "Cloak of Shadows",
+   "id": "cloak-of-shadows",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nCloak of Shadows\n(R)\nValeera\nHeroic\nCooldown: 15 seconds\nValeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%.\nUsing this Ability does not break Stealth.\nCloak of Shadows is Valeera's second Heroic Ability choice and\nmuch like Smoke Bomb provides her with a nice amount of defensive utility.\nCloak of Shadows may be heavily considered if Valeera finds herself matched up against a\ncrowd-control heavy team composition, as that tends\nto be one of her greatest weaknesses. The 15 second cooldown of Cloak of Shadows is\nsurprisingly low for a Heroic Ability and makes it a rather strong choice. Because of this,\nValeera should not be afraid to use Cloak of Shadows anytime she fears mortal\ndanger is imminent when caught in the midst of hard crowd control\nor heavy Spell Damage."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "20 Jan. 2021: Smoke Bomb description updated.\n01 May 2020: Applied small additions to be more informative on how to use Abilities.\n14 Jul. 2019: Applied some minor updates to Valeera's ability section.\n14 Apr. 2017: Adjusted Cloak of Shadows's cooldown duration from 25 to 15 seconds.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Vigor (Level 1) Valeera Valeera regenerates an additional 3 Energy per second. Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Subtlety (Level 1) Valeera After teleporting with Ambush, Cheap Shot, or Garrote, regenerate 10 Energy per second for 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Combat Readiness (Level 1) Valeera Each Combo Point spent grants 75 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 75%. Stores up to 3 charges."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Crippling Poison (Level 1) Valeera Cooldown: 15 seconds Activate to make Valeera's next damaging Ability and subsequent Abilities within 4 seconds Slow targets by 20% for 4 seconds. Activating Crippling Poison does not break Stealth."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Relentless Strikes (Level 4) Valeera Reduces the Energy cost of Sinister Strike by 10."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Hemorrhage (Level 4) Valeera Valeera's Basic Attacks deal 40% additional damage to enemies affected by Garrote."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Initiative (Level 4) Valeera Ambush, Cheap Shot, and Garrote grant 15% Movement Speed for 3 seconds and award 2 Combo Points."
+   },
+   {
+    "slot": 4,
+    "marker": "no",
+    "text": "✘︎ Wound Poison (Level 4) Valeera Cooldown: 15 seconds Activate to make Valeera's next damaging Ability and subsequent Abilities within 4 seconds reduce enemy healing received by 50% for 4 seconds. Activating Wound Poison does not break Stealth."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Mutilate (Level 7) Valeera Sinister Strike now hits with both blades, dealing 125% additional damage, but its range is reduced by 1."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Fatal Finesse (Level 7) Valeera Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 6, up to 90. Reward: After damaging 15 Heroes with Blade Flurry, permanently reduce its Energy cost by 20."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Slice and Dice (Level 7) Valeera Eviscerating an enemy with 3 Combo Points grants 400% Attack Speed. Lasts 3 seconds or 3 Basic Attacks. Passive: Basic Attacks restore 2 Energy."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Smoke Bomb (Level 10) Valeera Cooldown: 60 seconds Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 60 Armor, reducing damage taken by 60%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Stealth."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Cloak of Shadows (Level 10) Valeera Cooldown: 15 seconds Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Stealth."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Death From Above (Level 13) Valeera Teleporting with Ambush reduces the cooldown of Vanish by 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Blind (Level 13) Valeera Increase the duration of Cheap Shot's Blind by 2.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Strangle (Level 13) Valeera Using Garrote on a Hero reduces their Spell Power by 40% for 6 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Seal Fate (Level 16) Valeera Sinister Strike deals 50% additional damage and generates an additional Combo Point when used against Silenced, Rooted, or Stunned enemy Heroes."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Assassinate (Level 16) Valeera Ambush deals 50% additional damage and reduces the target's Armor by an additional 10 if no other enemy Heroes are within 4 range of the victim."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Thistle Tea (Level 16) Valeera Cooldown: 20 seconds Activate to instantly restore 100 Energy. Activating Thistle Tea does not break Stealth."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Adrenaline Rush (Level 20) Valeera While in the Smoke Bomb, Valeera regenerates an additional 40 Energy per second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Enveloping Shadows (Level 20) Valeera Whenever Valeera uses Vanish, she also gains Cloak of Shadows."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Rupture (Level 20) Valeera Increase Garrote's damage over time by 100%. Valeera's Basic Attacks refresh the duration of Garrote."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Elusiveness (Level 20) Valeera Increases Valeera's Movement Speed while Vanished by an additional 20%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Valeera's Talent Build",
+   "id": "valeeras-talent-build",
+   "text": "Level\nChoices\n1\n✘︎\n✘︎\n?\n✓\n4\n✓\n✘︎\n✘︎\n✘︎\n7\n✓\n✘︎\n✘︎\n10\n✓\n?\n13\n?\n?\n?\n16\n✓\n✓\n✘︎\n20\n✘︎\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Valeera's Talent Build Cheatsheet",
+   "id": "valeeras-talent-build-cheatsheet",
+   "text": "Sinister Strike Build\nRecommended\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValeera's Sinister Strike Build focuses on Talents that\ncause Sinister Strike to become one of Valeera's\nprimary sources of burst damage. Relentless Strikes\nat Level 4 will allow Valeera to cast Sinister strike more regularly and\nMutilate at Level 7 will vastly increase Sinister Strike's\noverall damage. When Seal Fate\nis used in conjunction with Mutilate, Valeera will be able to deal\na very large amount of instantaneous burst damage when leaping onto a\ntarget effected by a Silence, Root,\nor Stun (which conveniently can be\nprovided through Cheap Shot or\nGarrote).\nLimpanjo Build\nSituational\nLevel 1\n?\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nValeera's Limpanjo Build is dedicated to Limpanjo, a well-known multiple Grand Master Valeera\nmain from Europe, who was kind enough to share his input on our Valeera Build Guide.\nThe Build itself is quite similar to the Sinister Strike Build with\nfew exceptions. At Level 1, Combat Readiness can be picked\nto provide very strong\nprotection against enemy Basic Attacks, which allows Valeera to be played more safely both\nas a Melee Assassin in the 4-man\ncapable to gank or as an Offlaner.\nAt Level 13 and 16, the Build takes a unique path. There, the focus lies on taking\ndown individual (and preferably) isolated targets by opening Valeera's combo with\nAmbush. Thanks to Death From Above,\nValeera is able to close the distance to her target nicely while also reducing the cooldown on\nVanish, which in return allows her to strike from the shadows\nagain more quickly. Assassinate works great with previous\nburst damage Talents, most importantly, Mutilate at Level 7,\nas it lowers her targets Armor even further and deals extra damage as well."
+  },
+  {
+   "title": "Level 1 Talents for Valeera",
+   "id": "level-1",
+   "text": "✘︎\nVigor\n(Level 1)\nValeera\nValeera regenerates an additional 3 Energy per second.\nReward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.\n✘︎\nSubtlety\n(Level 1)\nValeera\nAfter teleporting with Ambush, Cheap Shot, or Garrote, regenerate 10 Energy per second for 5 seconds.\n?\nCombat Readiness\n(Level 1)\nValeera\nEach Combo Point spent grants 75 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 75%. Stores up to 3 charges.\n✓\nCrippling Poison\n(Level 1)\nValeera\nCooldown: 15 seconds\nActivate to make Valeera's next damaging Ability and subsequent Abilities within 4 seconds Slow targets by 20% for 4 seconds.\nActivating Crippling Poison does not break Stealth."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Vigor and all the other Talents that add energy are\nwasted in Valeera. With Relentless Strikes, and as long\nas Valeera does not use Blade Flurry in\nfights, she will not run out of energy. We do not recommend this Talent.\nSubtlety's active Energy regeneration\nis usually not enough to make a noticeable difference during team fights and as such\nremains an underwhelming Talent.\nCombat Readiness can be a useful Talent\noption should Valeera find herself matched up against multiple Basic\nAttack damage dependent Heroes, or play the early stages of the game as\nan Offlaner.\nCrippling Poison adds an additional source\nof crowd-control to Valeera's kit, which helps\nher chase down squishy targets in the backline. This Talent is essential when\ngoing for Mutilate, since it will enable you to keep\nhitting your target, ignoring the reduced mobility from it."
+  },
+  {
+   "title": "Level 4 Talents for Valeera",
+   "id": "level-4",
+   "text": "✓\nRelentless Strikes\n(Level 4)\nValeera\nReduces the Energy cost of Sinister Strike by 10.\n✘︎\nHemorrhage\n(Level 4)\nValeera\nValeera's Basic Attacks deal 40% additional damage to enemies affected by Garrote.\n✘︎\nInitiative\n(Level 4)\nValeera\nAmbush, Cheap Shot, and Garrote grant 15% Movement Speed for 3 seconds and award 2 Combo Points.\n✘︎\nWound Poison\n(Level 4)\nValeera\nCooldown: 15 seconds\nActivate to make Valeera's next damaging Ability and subsequent Abilities within 4 seconds reduce enemy healing received by 50% for 4 seconds.\nActivating Wound Poison does not break Stealth."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Relentless Strikes greatly reduces Valeera's Energy Cost\nof Sinister Strike. This grants her more uses of Sinister Strike\nand Eviscerate in a fight, increasing her damage output\nthroughout the game.\nHemorrhage is too situational to become a\nrecommended Talent. The requirement of constantly attacking targets affected\nby Garrote is too specific in many situations to\njustify picking this Talent.\nInitiative gives all of Valeera's openers an\nadditional combo point. While this sounds good at first, it becomes a futile Talent\nrelatively quickly, since Valeera's primary source of damage is Sinister Strike\nand not Eviscerate.\nWound Poison's effect is too situational to make\nit a better choice than Relentless Strikes, which greatly empowers\nValeera's damage output throughout the game."
+  },
+  {
+   "title": "Level 7 Talents for Valeera",
+   "id": "level-7",
+   "text": "✓\nMutilate\n(Level 7)\nValeera\nSinister Strike now hits with both blades, dealing 125% additional damage, but its range is reduced by 1.\n✘︎\nFatal Finesse\n(Level 7)\nValeera\nQuest: Each time Blade Flurry damages an enemy Hero, its damage increases by 6, up to 90.\nReward: After damaging 15 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.\n✘︎\nSlice and Dice\n(Level 7)\nValeera\nEviscerating an enemy with 3 Combo Points grants 400% Attack Speed. Lasts 3 seconds or 3 Basic Attacks.\nPassive: Basic Attacks restore 2 Energy."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Mutilate is an important Talent and marks Valeera's first\nsignificant power spike, as it really ramps up her single-target damage significantly and\nworks very well together with Relentless Strikes\nat Level 4.\nFatal Finesse adds\narea of effect damage to Valeera's kit. However,\nthe damage it provides is relatively insignificant and also weakens Valeera's\nmain purpose, which is single-target\nburst damage. Thus, we do not recommend picking this Talent.\nSlice and Dice's damage is significantly lower than\nMutilate's, which\nis why we consider it the inferior choice between the two."
+  },
+  {
+   "title": "Level 10 Talents for Valeera",
+   "id": "level-10",
+   "text": "✓\nSmoke Bomb\n(Level 10)\nValeera\nCooldown: 60 seconds\nCreate a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 60 Armor, reducing damage taken by 60%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.\nUsing this Ability does not break Stealth.\n?\nCloak of Shadows\n(Level 10)\nValeera\nCooldown: 15 seconds\nValeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%.\nUsing this Ability does not break Stealth."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nSmoke Bomb is the first option of Valeera's two\ndefensive Heroic Abilities. When Valeera activates Smoke Bomb, she is able\nto stand within its area-of-effect to become Unrevealable, unaffected by Unit\nCollision, and much harder to kill with a 60% reduction in damage taken. Being\n\"Unrevealable\" means that Valeera will remain not only untargetable but\ncompletely invisible to her opponents while under its effect. This implies that\nenemy Heroes will not be able to strike Valeera with Basic Attacks or targeted\nAbilities. Smoke Bomb is incredibly strong against Assassins\nwho rely heavily on Basic Attacks as their primary source of damage. Smoke Bomb\nis a phenomenal Ability which allows Valeera to dart back and forth within a\ncrowd picking off any unfortunate Hero who remains within its presence. Make\nsure to always cast Smoke Bomb within close proximity to team fights to ensure\nthat enemies will not be able to simply walk away from the area and completely\nnegate the Ability altogether. Valeera may also cast\nVanish during Smoke Bomb and simply walk away from\nits area-of-effect. This will trick many players into thinking that Valeera is\nstill within the smoke and will cause them to wait for her to appear after its\nduration.\nCloak of Shadows is Valeera's second Heroic Ability\nchoice and much like Smoke Bomb provides her with a\nnice amount of defensive utility. Cloak of Shadows may be heavily considered\nif Valeera finds herself matched up against a\ncrowd-control heavy team composition, as that\ntends to be one of her greatest weaknesses. The 15-second cooldown of Cloak of\nShadows is surprisingly low for a Heroic Ability and makes it a rather strong\nchoice. Because of this, Valeera should not be afraid to use Cloak of\nShadows anytime she fears mortal danger is imminent when caught in the midst of\nhard crowd-control or heavy Spell Damage."
+  },
+  {
+   "title": "Level 13 Talents for Valeera",
+   "id": "level-13",
+   "text": "?\nDeath From Above\n(Level 13)\nValeera\nTeleporting with Ambush reduces the cooldown of Vanish by 4 seconds.\n?\nBlind\n(Level 13)\nValeera\nIncrease the duration of Cheap Shot's Blind by 2.5 seconds.\n?\nStrangle\n(Level 13)\nValeera\nUsing Garrote on a Hero reduces their Spell Power by 40% for 6 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "DISCLAIMER: every Talent in this tier provides Valeera with some sort\nof bonus utility to her kit. Each one of these Talents is beneficial in its own\nway and the specific Map and team compositions will greatly determine\nwhich is best for each given match.\nDeath From Above's reduced cooldown of\nVanish allows Valeera to use her Stealth more quickly\nin between skirmishes, which also means she can use her openers more frequently.\nAll these factors make Death From Above a considerable choice.\nBlind is probably the most situational of all of\nValeera's Level 13 Talents. This Talent should only ever be considered should\nthe teams primary target of focus rely heavily on Basic Attacks to function\n(such as The Butcher).\nStrangle is similar to\nBlind in that it is always situational depending on\nValeera's matchup. Strangle is most useful against\nAssassins who utilize heavy-hitting Basic Abilities to\ndeal damage, so Mages like Jaina."
+  },
+  {
+   "title": "Level 16 Talents for Valeera",
+   "id": "level-16",
+   "text": "✓\nSeal Fate\n(Level 16)\nValeera\nSinister Strike deals 50% additional damage and generates an additional Combo Point when used against Silenced, Rooted, or Stunned enemy Heroes.\n✓\nAssassinate\n(Level 16)\nValeera\nAmbush deals 50% additional damage and reduces the target's Armor by an additional 10 if no other enemy Heroes are within 4 range of the victim.\n✘︎\nThistle Tea\n(Level 16)\nValeera\nCooldown: 20 seconds\nActivate to instantly restore 100 Energy.\nActivating Thistle Tea does not break Stealth."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Seal Fate is an integral component to the maximize\nSinister Strike's damage potential,\nas it not only increases the amount of damage it deals but also lowers the\nEnergy cost needed to execute a 3 Combo Point Eviscerate.\nAssassinate provides Valeera with great burst\ndamage against targets in the backline, as long as they remain isolated from allies. We recommend\nthis Talent if the enemy team has a relatively weak frontline and several squishy targets in\nthe backline that lack escape mechanisms.\nThistle Tea's extra energy is only useful if Valeera wants\nto use Blade Flurry in her combo. However, the extra damage provided by\nthe other options at this tier are greater than Blade Flurry's damage."
+  },
+  {
+   "title": "Level 20 Talents for Valeera",
+   "id": "level-20",
+   "text": "✘︎\nAdrenaline Rush\n(Level 20)\nValeera\nWhile in the Smoke Bomb, Valeera regenerates an additional 40 Energy per second.\n?\nEnveloping Shadows\n(Level 20)\nValeera\nWhenever Valeera uses Vanish, she also gains Cloak of Shadows.\n?\nRupture\n(Level 20)\nValeera\nIncrease Garrote's damage over time by 100%. Valeera's Basic Attacks refresh the duration of Garrote.\n✓\nElusiveness\n(Level 20)\nValeera\nIncreases Valeera's Movement Speed while Vanished by an additional 20%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "The additional Movement Speed bonus of Elusiveness\nallows Valeera to position much faster during team fights after casting\nVanish. The speed of Valeera while under the effect\nof Elusiveness is actually 10% faster than that while mounted. Because of this,\nfrom Level 20 and on, Valeera should always move around the battlefield Stealthed\nrather than mounted, as she will be able to rotate faster. Elusiveness is also\nvery powerful when attempting to peel away from an enemy Hero or when\npursuing one who happens to be fleeing Valeera.\nAt this point in the match, Adrenaline Rush feels\nsomewhat redundant and does not seem to help Valeera too much in one specific\narea. Other Talents may have already been selected to ease the burden of\nEnergy management and in terms of Utility, Adrenaline Rush feels outclassed by\nthe Movement Speed bonus of Elusiveness.\nEnveloping Shadows is a situational Talent which\nshould be considered if (at this point in the match), Valeera constantly finds\nherself being picked off and burst down very quickly. Using\nVanish will grant Valeera a free cast of\nCloak of Shadows which greatly increases her mobility\nand survivability. Keep in mind that a single death after Level 20 can often\ntimes result in a loss; something to consider if Valeera is having trouble\nstaying up in fights.\nRupture can be a wortwhile investment if additional\ndamage is needed. While Elusiveness' bonus Movement Speed\nis very potent, the additional damage over time, especially on targets that lack escape mechanisms,\ncan definitely help secure kills."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "05 Jun. 2022: Smoke Bomb's relevance updated to reflect meta development.\n20 Jan. 2021: Talents updated for the latest balance patch.\n08 Apr. 2020: Updated Builds and Talents to reflect current meta.\n14 Jul. 2019: Completely overhauled and updated Valeera's talents and builds in accordance with the recent Balance Update.\n15 Dec. 2017: Talents and their discussions have been updated for the latest balance patch.\n26 Apr. 2017: Removed Cold Blood from Level 20 Talent options; Talent Builds previously containing Cold Blood have been adjusted accordingly.\n14 Apr. 2017: Adjusted Crippling Poison's duration from 3 to 5 seconds and the talent is now deemed situational (was not recommended before).\n04 Feb. 2017: Added Vanish talent build and added talent discussions.\nShow more\nShow less"
+  }
+ ]
+}

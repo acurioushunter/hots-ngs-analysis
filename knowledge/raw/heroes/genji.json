@@ -1,0 +1,300 @@
+{
+ "slug": "genji",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/genji-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/genji-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/genji-talents"
+ },
+ "guide": [
+  {
+   "title": "Genji's Overview",
+   "id": "genjis-overview",
+   "text": "Genji is a highly mobile ranged Assassin whose kit also consists of\nexplosive melee components allowing him to quickly dash in and out of combat.\nWhile his innate health pool is quite low, which makes him susceptible to enemy\ncrowd control abilities, he does have several\nescape mechanisms that allow him to escape dangerous situations. If you are\nlooking for a challenging high risk high reward Hero with tricky cooldown reset\nmechanics, Genji is the right choice for you."
+  },
+  {
+   "title": "Genji's Strengths and Weaknesses",
+   "id": "genjis-strengths-and-weaknesses",
+   "text": "Strengths\nExtremely mobile\nFlashy playstyle\nCooldown resets on Swift Strike allow for devastating combos\nDecent poke\nWeaknesses\nWeak waveclear\nVery high learning curve\nLow health pool\nNeeds constant healing"
+  },
+  {
+   "title": "Genji's Talent Build Cheatsheet",
+   "id": "genjis-talent-build-cheatsheet",
+   "text": "Shuriken Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Shuriken Build focuses primarily on getting the most out of your\nShingan talent. The key to playing this build is to be as close as you can\nto your enemy target, shotgunning your shurikens to trigger Shingan.\nZanshin allows for aggressive gameplay to finish off\ntargets in close combat. If you cannot complete Zanshin any time soon, or, if you\nprefer cooldown reduction on your Heroic Ability, Living Weapon\nis a great choice, too.\nSwift Strike Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGenji's Swift Strike Build is a high skill-cap Build that focuses on Genji\nslicing and dicing his way through the enemy team, aiming to get as many\ncooldown resets and Mana cost refunds on Swift Strike as\npossible. Timing is crucial when playing this Build, as Genji needs to make\nsure to quickly execute an individual target in order to get his combo rolling.\nActivating Dragonblade shortly after using\nSwift Strike usually allows Genji to deal a heavy amount\nof burst damage. However, remember that he is still very susceptible to enemy\nStuns and Roots, as they can completely shut down his momentum. Consequently,\nwait until some of those crowd control Abilities have been used before\nrecklessly diving deep into the enemy lines.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGenji's ARAM build is very cooldown-dependent and you likely want to wait with engaging until you have Deflect up.\nDue to the nature of ARAM games, it's very easy for Genji to secure kills and get out safely with Swift Strike resets.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Genji's Synergies and Counters",
+   "id": "genjis-synergies-and-counters",
+   "text": "Genji synergizes with\nGenji synergizes extremely well with Heroes who can provide both\nburst damage and some form of crowd control,\nsuch as Jaina or Kael'thas, who can help him take down\nindividual targets very quickly in order to proc his cooldown reset on\nSwift Strike. He also pairs very well with burst\nHealers like Uther, whose Armor buffs and\nDivine Shield can greatly enhance Genji's own\nsurvivability.\nGenji is countered by\nDue to his very low health pool, Genji struggles against Heroes with strong\ncrowd control that render him defenseless for a short period of time. Thus,\nabilities like Varian's\nTaunt or Malfurion's\nTwilight Dream can cause great problems for him.\nFurthermore, nimble ranged Assassins with great kiting\npotential such as Lunara can bait him\ninto overextending only to get outnumbered by the enemy team. Keep in mind\nthat any form of poison damage continues to tick after Genji's\nDeflect expires, which is another reason why Lunara is\na dangerous enemy for him to face. Heroes with point-and-click CC such as Uther\nwork great in countering Genji should he dive into the backline."
+  },
+  {
+   "title": "Genji's Maps",
+   "id": "genjis-maps",
+   "text": "Genji's stronger maps\nGenji's average maps\nGenji's weaker maps\nGenji excels on Maps like Cursed Hollow, Hanamura Temple,\nor Garden of Terror, on\nwhich he can utilize his superior mobility to quickly engage and disengage\nusing impassable terrain to his advantage. Doing so\nallows him to surprise the enemy team's backline from\nan unexpected angle. On smaller Maps like Battlefield of Eternity\nor Tomb of the Spider Queen, that require good waveclear, Genji's options are\nrather limited and make him a suboptimal pick. On Braxis Holdout, however, he can use his\nsuperior mobility to gank the offlane.\nFurthermore, Deflect\ncan be used to great effect against the Boss on Braxis Holdout, whose fast Attack Speed\ncauses Deflect to inflict heavy damage against it."
+  },
+  {
+   "title": "Genji's Tips and Tricks",
+   "id": "genjis-tips-and-tricks",
+   "text": "Set up ganks using the terrain to your advantage. Both Swift Strike and Cyber Agility can be cast to cross Walls and other impassable terrain.\nChoose your targets wisely when playing Genji. Focus on executing low health targets using Swift Strike to immediately gain a cooldown reset and Mana refund for this ability.\nDeflect can be used to protect Genji against Structure damage while diving deep.\nGenji is surprisingly Mana-hungry. Try to avoid committing to a team fight while below 25% of your total Mana.\nIf used from point blank range, all three Shuriken projectiles hit the same target. However, doing so also exposes Genji to enemy counter attacks more.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Genji's Role in the Current Meta",
+   "id": "genjis-role-in-the-current-meta",
+   "text": "Genji's biggest strength is his exceptional mobility that allows him to\ndodge almost any Ability in the game. As such, he poses a serious threat to the\nenemy backline, especially if\nDragonblade was chosen at Level 10. Genji does,\nhowever, come with a significant weakness and that is his susceptibility to\nStuns, Roots,\nand Silences. These crowd control effects will render him\ndefenseless for a short period of time, unable to use neither\nSwift Strike nor Cyber Agility to\ndisengage.\nMastering Genji will require more practice and experience than on many other\nHero due to the fact that he entirely dependeds on timing his Abilities well,\nespecially Deflect and\nSwift Strike. However, a well played Genji has the\npotential to single-handedly carry his team. To do so, he requires strong\nmap awareness and swift reflexes to activate\nDeflect while focused by the enemy team's burst damage.\nThus, we strongly recommend practicing Genji in Unranked and\nQuick Match first before using him in Hero League."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "23 Jul. 2026 (talents page): Builds have been updated.\n23 Jul. 2026 (this page): Builds have been updated.\n21 May 2025 (talents page): Guide has been reviewed and no changes are needed for now.\n21 May 2025 (this page): Guide has been reviewed and no changes are needed for now.\n26 Sep. 2023 (this page): ARAM Build added.\n25 May 2022 (talents page): Updated builds and talents.\n25 May 2022 (this page): Updated builds\n08 Feb. 2022 (talents page): Updated builds and talents.\n30 Jan. 2022 (this page): Updated builds.\n28 Oct. 2020 (talents page): Builds and talents updated.\n28 Oct. 2020 (this page): Builds and talents updated.\n23 Sep. 2020 (talents page): Builds updated.\n23 Sep. 2020 (this page): Builds updated.\n08 Aug. 2020 (talents page): Builds updated\n08 Aug. 2020 (this page): Builds updated\n05 Jun. 2020 (talents page): Updated talents to reflect new patch.\n29 Mar. 2020 (talents page): Updated talent explanations.\n29 Mar. 2020 (abilities page): Updated ability descriptions.\n29 Mar. 2020 (this page): Updated talent explanations.\n05 Dec. 2019 (this page): Added a note regarding this seasons Anomaly.\n24 Nov. 2019 (talents page): Reviewed guide and no changes are needed.\n24 Nov. 2019 (abilities page): Reviewed guide and no changes are needed.\n24 Nov. 2019 (this page): Reviewed guide and no changes are needed.\n23 Aug. 2019 (talents page): Reviewed guide and no changes are needed.\n23 Aug. 2019 (abilities page): Reviewed guide and no changes are needed.\n23 Aug. 2019 (this page): Reviewed guide and no changes are needed.\n08 May 2018 (talents page): Updated Genji's talents in accordance with the most recent Balance Updates.\n08 May 2018 (abilities page): Updated Genji's Dragonblade in accordance with the recent balance updates.\n29 May 2017 (talents page): Updated Genji's Level 1 talents and changed Agile Dismount from Not Recommended to Recommended.\n21 May 2017 (talents page): Changed Genji's Level 16 talents and changed Pathfinder from not recommended to recommended.\n30 Apr. 2017 (talents page): Explained in better terms why we think that Living Weapon is not a desirable talent.\n22 Apr. 2017 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Genji's Tips and Tricks",
+   "id": "genjis-tips-and-tricks",
+   "text": "Set up ganks using the terrain to your advantage. Both Swift Strike and Cyber Agility can be cast to cross Walls and other impassable terrain.\nChoose your targets wisely when playing Genji. Focus on executing low health targets using Swift Strike to immediately gain a cooldown reset and Mana refund for this ability.\nDeflect can be used to protect Genji against Structure damage while diving deep.\nGenji is surprisingly Mana-hungry. Try to avoid committing to a team fight while below 25% of your total Mana.\nIf used from point blank range, all three Shuriken projectiles hit the same target. However, doing so also exposes Genji to enemy counter attacks more."
+  },
+  {
+   "title": "Shuriken",
+   "id": "shuriken",
+   "text": "Shuriken\n(Q)\nGenji\nMana: 20\nCharges: 3\nRecharge Time: 12 seconds\nThrow 3 Shuriken in a spread pattern, each dealing 65 (+4% per level) damage to the first enemy hit.\nStores up to 3 charges. Shuriken's cooldown replenishes all charges at the same time.\nShuriken is Genji's primary source of ranged\npoke damage. The Ability can sometimes be hard to aim,\nwhich is why newer players, in particular, may want to change the Quick Cast configuration\nfor this Ability from \"On\" to \"On Release\" (under Settings > Hotkeys > Quick Cast Setting).\nShuriken's damage can be\namplified if Genji fires it from very close range, as it causes all three\nprojectiles to hit the same target."
+  },
+  {
+   "title": "Deflect",
+   "id": "deflect",
+   "text": "Deflect\n(W)\nGenji\nMana: 70\nCooldown: 16 seconds\nChannel for 1.25 seconds, becoming Protected and blocking damage. Any damage blocked while channeling causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing 55 (+4% per level) damage.\nDeflect protects Genji against enemy damage. It\nalso reflects incoming damage to the nearest enemy Hero, which makes it a\nformidable defense tool against fast Basic Attacks and Abilities, such as\nDisintegrate. Keep in mind that Deflect's damage\nretaliation can also be used against non-Heroic sources, such as Bosses,\nMercenaries, or Minions."
+  },
+  {
+   "title": "Swift Strike",
+   "id": "swift-strike",
+   "text": "Swift Strike\n(E)\nGenji\nMana: 75\nCooldown: 12 seconds\nDash forward, dealing 190 (+4% per level) damage to all enemies in a line. Enemy Heroes that die within 1.5 seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.\nSwift Strike can be considered Genji's most impactful\nAbility during team fights. Its cooldown reset and Mana refund mechanics allow\nGenji to quickly dash in and out in order to secure Hero takedowns. In order\nto enable these flashy plays it is crucial to time Swift Strike precisely. Do\nnot use it on full Health targets; instead, wait for your target to drop in\nHealth and for you to be certain that your team's damage is going to be enough to\nguarantee a takedown.\nHowever, Swift Strike is also an important escape mechanism that allows\nGenji to escape dangerous situations. It can be used to dash through Structures\nand other impassable terrain to quickly leave chasing enemies behind."
+  },
+  {
+   "title": "Dragonblade",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDragonblade\n(R)\nGenji\nHeroic\nMana: 75\nCooldown: 100 seconds\nUnleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage.\nDragonblade turns Genji into a highly mobile and\nlethal Melee Assassin. Keep in mind that Shuriken\ncannot be used while Dragonblade is active. It is usually a good idea to\nactivate Dragonblade as soon as you spot a severely wounded enemy Hero at the\nbrink of death. However, it is of utmost importance to carefully check on the enemy team's\ncrowd control Abilities before activating Dragonblade.\nThere is nothing more frustrating than\ngetting Stunned, Rooted,\nor Silenced while Genji's Heroic Ability is active."
+  },
+  {
+   "title": "X-Strike",
+   "id": "x-strike",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nX-Strike\n(R)\nGenji\nHeroic\nMana: 70\nCooldown: 75 seconds\nPerform two slashes dealing 145 (+4% per level) damage. The slashes detonate after 1.25 seconds causing an additional 290 (+4% per level) damage to enemies in their area.\nX-Strike is a useful\ngap-closing Heroic Ability with a strong damage\ncomponent. While it may be harder to execute than\nDragonblade, X-Strike can act as an escape mechanism\nthat allows Genji to dodge incoming burst damage\nand crowd control only to\nstrike back a few moments later. Keep in mind that X-Strike can be used to\ncover short distances in order to jump over impassable terrain for\ninstance."
+  },
+  {
+   "title": "Cyber Agility",
+   "id": "cyber-agility",
+   "text": "Cyber Agility\n(D)\nGenji\nCooldown: 20 seconds\nActivate to jump to the target area.\nCyber Agility fulfills a similar role as\nSwift Strike. It can be used offensively to chase down\nretreating foes or defensively to get Genji out of harm's way. As a rule of\nthumb, it is usually better to use Cyber Agility instead of Swift Strike to\ndodge incoming Abilities and crowd control effects."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "29 Mar. 2020: Updated ability descriptions.\n24 Nov. 2019: Reviewed guide and no changes are needed.\n23 Aug. 2019: Reviewed guide and no changes are needed.\n08 May 2018: Updated Genji's Dragonblade in accordance with the recent balance updates.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Swift as the Wind (Level 1) Genji Hitting an enemy Hero with Swift Strike increases Genji's Movement Speed by 40% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Agile Dismount (Level 1) Genji While mounted the range of Cyber Agility is increased by 70%, its cooldown is reduced by 14 seconds, and it Slows enemy Heroes in its landing area by 25% for 2 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Pathfinder (Level 1) Genji Jumping over terrain with Cyber Agility increases Movement Speed by 30%, and grants Stealth, for 6 seconds. Passive: Genji's Heroic Ability heals him for 10% of the damage dealt to enemy Heroes, increasing up to 30% the lower Genji's Health is."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Shuriken Mastery (Level 4) Genji Quest: Hit enemy Heroes with Shuriken. Reward: After hitting 30 Heroes, Shuriken damage is increased by 25. Reward: After hitting 60 Heroes, Cyber Agility now refunds 3 charges of Shuriken."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Strike At The Heart (Level 4) Genji Enemies hit by the end of Swift Strike take an additional 142 (+4% per level) damage after 1 second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Dragon Claw (Level 4) Genji After Genji blocks 330 (+4% per level) damage with Deflect, activate to release a Dragon Claw, dealing 190 (+4% per level) damage to all nearby enemies."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Augmented Guard (Level 7) Genji When Deflect ends, Genji gains a Shield equal to 100% of the damage blocked for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Perfect Defense (Level 7) Genji Deflected damage reduces the cooldown of Deflect by 2.5 seconds, up to a maximum of 12.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Cyber Shield (Level 7) Genji Using Cyber Agility grants 40 Spell Armor for 4 seconds. Passive: Genji dodges 1 Heroic Basic Attack every 5 seconds."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Dragonblade (Level 10) Genji Mana: 75 Cooldown: 100 seconds Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "X-Strike (Level 10) Genji Mana: 70 Cooldown: 75 seconds Perform two slashes dealing 145 (+4% per level) damage. The slashes detonate after 1.25 seconds causing an additional 290 (+4% per level) damage to enemies in their area."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Shingan (Level 13) Genji Hitting an enemy with all 3 Shuriken deals 100 (+4% per level) bonus damage. Deals 40% less damage to Structures."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Flow Like Water (Level 13) Genji Each enemy Hero hit with Swift Strike reduces its cooldown by 4 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Way Of The Shimada (Level 13) Genji Increase Genji's Basic Attack range by 1. Each time Genji hits an enemy Hero with a Basic Attack, increase his Basic Attack damage by 1% for 3 seconds, stacking up to 15%."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Reflect (Level 16) Genji Deflect also deals an additional 33% of the damage blocked."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Final Cut (Level 16) Genji After 1 second, Swift Strike deals an additional 115 (+4% per level) damage to all enemies in the area."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Steady Blade (Level 16) Genji Each enemy Hero hit by Swift Strike increases the damage of the next Swift Strike by 30%. This bonus stacks up to 3 times."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "The Dragon Becomes Me (Level 20) Genji Each time Dragonblade hits an enemy Hero, the duration of Dragonblade is increased by 0.5 seconds. If a Hero is killed within 1.5 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Living Weapon (Level 20) Genji Each enemy Hero hit by X-Strike reduces its cooldown by 12.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Sharpened Stars (Level 20) Genji Shuriken now pierce all enemies hit. Swift Strike's refund grants 1 charge of Shuriken."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Zanshin (Level 20) Genji Quest: Block 6500 damage with Deflect, including damage blocked so far. Reward: Deflect hits all nearby enemy Heroes."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Genji's Talent Build",
+   "id": "genjis-talent-build",
+   "text": "Level\nChoices\n1\n✓\n✓\n✘︎\n4\n✓\n?\n?\n7\n✓\n?\n✓\n10\n✓\n✓\n13\n✓\n✓\n?\n16\n?\n✓\n✓\n20\n✓\n✓\n✘︎\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Genji's Talent Build Cheatsheet",
+   "id": "genjis-talent-build-cheatsheet",
+   "text": "Shuriken Build\nRecommended\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Shuriken Build focuses primarily on getting the most out of your\nShingan talent. The key to playing this build is to be as close as you can\nto your enemy target, shotgunning your shurikens to trigger Shingan.\nZanshin allows for aggressive gameplay to finish off\ntargets in close combat. If you cannot complete Zanshin any time soon, or, if you\nprefer cooldown reduction on your Heroic Ability, Living Weapon\nis a great choice, too.\nSwift Strike Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\n?\nLevel 10\nLevel 13\nLevel 16\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGenji's Swift Strike Build is a high skill-cap Build that focuses on Genji\nslicing and dicing his way through the enemy team, aiming to get as many\ncooldown resets and Mana cost refunds on Swift Strike as\npossible. Timing is crucial when playing this Build, as Genji needs to make\nsure to quickly execute an individual target in order to get his combo rolling.\nActivating Dragonblade shortly after using\nSwift Strike usually allows Genji to deal a heavy amount\nof burst damage. However, remember that he is still very susceptible to enemy\nStuns and Roots, as they can completely shut down his momentum. Consequently,\nwait until some of those crowd control Abilities have been used before\nrecklessly diving deep into the enemy lines.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGenji's ARAM build is very cooldown-dependent and you likely want to wait with engaging until you have Deflect up.\nDue to the nature of ARAM games, it's very easy for Genji to secure kills and get out safely with Swift Strike resets."
+  },
+  {
+   "title": "Level 1 Talents for Genji",
+   "id": "level-1",
+   "text": "✓\nSwift as the Wind\n(Level 1)\nGenji\nHitting an enemy Hero with Swift Strike increases Genji's Movement Speed by 40% for 3 seconds.\n✓\nAgile Dismount\n(Level 1)\nGenji\nWhile mounted the range of Cyber Agility is increased by 70%, its cooldown is reduced by 14 seconds, and it Slows enemy Heroes in its landing area by 25% for 2 seconds.\n✘︎\nPathfinder\n(Level 1)\nGenji\nJumping over terrain with Cyber Agility increases Movement Speed by 30%, and grants Stealth, for 6 seconds.\nPassive: Genji's Heroic Ability heals him for 10% of the damage dealt to enemy Heroes, increasing up to 30% the lower Genji's Health is."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Swift as the Wind is our recommended Talent at Level 1\nbecause it is the safest to get value from. Hitting an enemy Hero with\nSwift Strike will happen a lot during the game, whereas\nthe other two Talents can be considered situational at best.\nAgile Dismount allows Genji to engage from a larger\ndistance while mounted. This can be used offensively to chase down retreating targets or\ndefensively to escape pursuing enemies.\nPathfinder requires Genji to use\nCyber Agility in order to jump over terrain, which is a\nrequirement he cannot always meet. Consequently, this Talent will likely end up\nbeing rather unimportant."
+  },
+  {
+   "title": "Level 4 Talents for Genji",
+   "id": "level-4",
+   "text": "✓\nShuriken Mastery\n(Level 4)\nGenji\nQuest: Hit enemy Heroes with Shuriken.\nReward: After hitting 30 Heroes, Shuriken damage is increased by 25.\nReward: After hitting 60 Heroes, Cyber Agility now refunds 3 charges of Shuriken.\n?\nStrike At The Heart\n(Level 4)\nGenji\nEnemies hit by the end of Swift Strike take an additional 142 (+4% per level) damage after 1 second.\n?\nDragon Claw\n(Level 4)\nGenji\nAfter Genji blocks 330 (+4% per level) damage with Deflect, activate to release a Dragon Claw, dealing 190 (+4% per level) damage to all nearby enemies."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Shuriken Mastery provides Genji with stronger\npoke the more targets he hits throughout the game. This\nTalent will accumulate a lot of extra damage from a safe distance and should\nusually be completed relatively quickly, which makes it a solid choice.\nStrike At The Heart grants a lot of burst damage\nif you manage to hit enemy Heroes at the end of your\nSwift Strike and should be picked if playing the Swift Strike Build.\nDragon Claw can be a useful Talent if you think\nyou can manage getting at least two uses of it during a teamfight. The key to\nproperly utilizing Dragon Claw is to charge it before a teamfight, either through baiting some poke damage\nfrom enemy Heroes, Mercenaries, or multiple Minions. Once you engage in a teamfight, always use\nDragon Claw before you pop your Deflect to recharge it and potentially securing a second Dragon Claw."
+  },
+  {
+   "title": "Level 7 Talents for Genji",
+   "id": "level-7",
+   "text": "✓\nAugmented Guard\n(Level 7)\nGenji\nWhen Deflect ends, Genji gains a Shield equal to 100% of the damage blocked for 4 seconds.\n?\nPerfect Defense\n(Level 7)\nGenji\nDeflected damage reduces the cooldown of Deflect by 2.5 seconds, up to a maximum of 12.5 seconds.\n✓\nCyber Shield\n(Level 7)\nGenji\nUsing Cyber Agility grants 40 Spell Armor for 4 seconds.\nPassive: Genji dodges 1 Heroic Basic Attack every 5 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Augmented Guard provides a Shield that further\nprotects Genji. This Talent is great, should the enemy team consist of enemy Heroes with\nhard-hitting Abilities such as Li-Ming or Chromie.\nPerfect Defense reduces the cooldown of\nDeflect, which is Genji's only defensive tool and as\nsuch which is crucial to his survival during team fights. This Talent is great if the enemy team\nconsists of Heroes with frequent damage hits, such as Tracer or Tassadar.\nCyber Shield can be worth picking if the enemy team\nsolely relies on Ability damage by picking Heroes like\nJaina or Ragnaros or if the enemy team\nconsists mainly of Basic Attack-dependent Assassins such as\nIllidan or Valla."
+  },
+  {
+   "title": "Level 10 Talents for Genji",
+   "id": "level-10",
+   "text": "✓\nDragonblade\n(Level 10)\nGenji\nMana: 75\nCooldown: 100 seconds\nUnleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage.\n✓\nX-Strike\n(Level 10)\nGenji\nMana: 70\nCooldown: 75 seconds\nPerform two slashes dealing 145 (+4% per level) damage. The slashes detonate after 1.25 seconds causing an additional 290 (+4% per level) damage to enemies in their area."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nDragonblade turns Genji into a highly mobile and\nlethal Melee Assassin. Keep in mind that Shuriken\ncannot be used while Dragonblade is active. It is usually a good idea to\nactivate Dragonblade as soon as you spot a severely wounded enemy Hero at the\nbrink of death. However, it is of utmost importance to carefully check on the enemy team's\ncrowd control Abilities before activating Dragonblade.\nThere is nothing more frustrating than\ngetting Stunned, Rooted,\nor Silenced while Genji's Heroic Ability is active.\nX-Strike is a strong damage Ability. While it may be\nharder to execute than Dragonblade, X-Strike can act as\nan escape mechanism that allows Genji to dodge incoming burst damage and crowd\ncontrol only to strike back a few moments later. Keep in mind that X-Strike can\nbe used to cover short distances in order to jump over impassable terrain, for\ninstance. To get the most damage out of X-Strike, try to cast it on a\nStunned or Rooted\ntarget. The strikes overlap on anyone beneath Genji, granting a lot of burst damage."
+  },
+  {
+   "title": "Level 13 Talents for Genji",
+   "id": "level-13",
+   "text": "✓\nShingan\n(Level 13)\nGenji\nHitting an enemy with all 3 Shuriken deals 100 (+4% per level) bonus damage. Deals 40% less damage to Structures.\n✓\nFlow Like Water\n(Level 13)\nGenji\nEach enemy Hero hit with Swift Strike reduces its cooldown by 4 seconds.\n?\nWay Of The Shimada\n(Level 13)\nGenji\nIncrease Genji's Basic Attack range by 1. Each time Genji hits an enemy Hero with a Basic Attack, increase his Basic Attack damage by 1% for 3 seconds, stacking up to 15%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Shingan should be picked if you chose\nShuriken Mastery at Level 4. Admittedly, it is hard to\nhit a single target with all three Shuriken projectiles, however, if\nsuccessfully executed, Shingan will deal an outstanding amount of bonus damage.\nKeep in mind that you should never jump into a team aggressively in order to\nhit targets from point blank range just to proc Shingan's bonus effect damage.\nFlow Like Water is a great Talent to trigger the\nbonuses of other Swift Strike-related Talents, such as\nSwift as the Wind or\nStrike At The Heart, more frequently.\nWay Of The Shimada is a very strong\nTalent as it increases Genji's range, allowing him to poke a bit more aggressively.\nThe key to playing with this Talent is stacking up the Attack damage\nas much as possible on the enemy frontline before diving into their backline.\nIt also allows Genji to reliably chase the enemy squishies as they try to run to safety."
+  },
+  {
+   "title": "Level 16 Talents for Genji",
+   "id": "level-16",
+   "text": "?\nReflect\n(Level 16)\nGenji\nDeflect also deals an additional 33% of the damage blocked.\n✓\nFinal Cut\n(Level 16)\nGenji\nAfter 1 second, Swift Strike deals an additional 115 (+4% per level) damage to all enemies in the area.\n✓\nSteady Blade\n(Level 16)\nGenji\nEach enemy Hero hit by Swift Strike increases the damage of the next Swift Strike by 30%. This bonus stacks up to 3 times."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Reflect pairs well with\nPerfect Defense at Level 7 and\nZanshin at Level 20, in particular. Choose this Talent\nto further punish fast-attacking Heroes (for example Tracer),\ngiven they do not play around it.\nFinal Cut's 1-second time window proves to be short\nenough to provide a reliable source of extra damage. After unlocking\na cooldown reset for Swift Strike, Final Cut can be an extremely\nstrong damage tool.\nSteady Blade rewards Genji when you consistently hit enemy Heroes.\nWith two stacks it will deal the same damage as Final Cut."
+  },
+  {
+   "title": "Level 20 Talents for Genji",
+   "id": "level-20",
+   "text": "✓\nThe Dragon Becomes Me\n(Level 20)\nGenji\nEach time Dragonblade hits an enemy Hero, the duration of Dragonblade is increased by 0.5 seconds. If a Hero is killed within 1.5 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.\n✓\nLiving Weapon\n(Level 20)\nGenji\nEach enemy Hero hit by X-Strike reduces its cooldown by 12.5 seconds.\n✘︎\nSharpened Stars\n(Level 20)\nGenji\nShuriken now pierce all enemies hit. Swift Strike's refund grants 1 charge of Shuriken.\n?\nZanshin\n(Level 20)\nGenji\nQuest: Block 6500 damage with Deflect, including damage blocked so far.\nReward: Deflect hits all nearby enemy Heroes."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "The Dragon Becomes Me is a strong upgrade after picking\nDragonblade at Level 10. By hitting multiple enemy\nHeroes at the same time, Dragonblade's duration can be extended significantly,\nwhich increases Genji's chances of resetting\nSwift Strike's cooldown. It is worth mentioning that\nthis Talent gains a lot of value if the enemy team composition features a lot\nof melee Heroes who tend to clump and thus get hit more easily by\nDragonblade.\nLiving Weapon is a bit of risky Talent to pick at\nLevel 20, as it fully relies on X-Strike to hit several\nenemy Heroes in order to get any value from it. However, if X-Strike is used diligently,\nthe cooldown reduction Living Weapon provides cannot be underestimated. In a best case scenario,\nGenji will be able to use the Ability several times in one team fight, which is going\nto inflict tremendous amounts of damage onto the enemy team.\nSharpened Stars adds a lot more\nwaveclear to Genji's Shuriken\nand does offer decent synergy with Shuriken Mastery at\nLevel 4. However, this Talent usually comes too late to have a significant\nimpact on Genji's overall combat performance.\nZanshin allows Genji to deal heavy\ndamage to all nearby enemy Heroes at the same time, which becomes particularly\npowerful with the cooldown reduction Perfect Defense at\nLevel 7 provides you with."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "23 Jul. 2026: Builds have been updated.\n21 May 2025: Guide has been reviewed and no changes are needed for now.\n25 May 2022: Updated builds and talents.\n08 Feb. 2022: Updated builds and talents.\n28 Oct. 2020: Builds and talents updated.\n23 Sep. 2020: Builds updated.\n08 Aug. 2020: Builds updated\n05 Jun. 2020: Updated talents to reflect new patch.\n29 Mar. 2020: Updated talent explanations.\n24 Nov. 2019: Reviewed guide and no changes are needed.\n23 Aug. 2019: Reviewed guide and no changes are needed.\n08 May 2018: Updated Genji's talents in accordance with the most recent Balance Updates.\n29 May 2017: Updated Genji's Level 1 talents and changed Agile Dismount from Not Recommended to Recommended.\n21 May 2017: Changed Genji's Level 16 talents and changed Pathfinder from not recommended to recommended.\n30 Apr. 2017: Explained in better terms why we think that Living Weapon is not a desirable talent.\nShow more\nShow less"
+  }
+ ]
+}

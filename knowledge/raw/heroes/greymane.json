@@ -1,0 +1,310 @@
+{
+ "slug": "greymane",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/greymane-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/greymane-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/greymane-talents"
+ },
+ "guide": [
+  {
+   "title": "Greymane's Overview",
+   "id": "greymanes-overview",
+   "text": "Greymane is a Ranged Assassin that thrives on aggression. With an unusual\nability to transform into a melee Hero to temporarily reveal a different set of\nAbilities, Greymane offers unparalleled versatility in terms of damage-dealing.\nHis lack of defensive Abilities and Talents and limited utility, however, may\nspell his downfall... in the hands of an unprepared player."
+  },
+  {
+   "title": "Greymane's Strengths and Weaknesses",
+   "id": "greymanes-strengths-and-weaknesses",
+   "text": "Strengths\nOutstanding on-demand burst damage\nExcellent PvE damage output\nPotent duelist\nFlexible pick that can work in almost all compositions\nDecent waveclear\nWeaknesses\nOffers zero utility beyond raw damage\nLow survivability albeit having a reasonably-sized Health pool\nParticularly weak when playing \"from behind\""
+  },
+  {
+   "title": "Greymane's Talent Build Cheatsheet",
+   "id": "greymanes-talent-build-cheatsheet",
+   "text": "Attack Build\nRecommended\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGreymane's Basic Attack Build revolves around improving his Basic Attacks and thus\nsustained damage output. Although it provides less waveclear and\nburst damage than its counterpart, it provides Greymane with more consistent sustain\ndamage.\nLord of His Pack greatly increases Greymane's damage, and should\nbe the pick in most games where you have any kind of crowd control.\nIf you do not have many Abilities to trigger Lord of His Pack in your team,\nAlpha Killer is a great option for more power in teamfights,\nwhile Eager Wolf is better in the PvE.\nWorgen Build\nSituational\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGreymane's Worgen Build, as the name suggests, is totally focused on dealing high damage as a\nWorgen. This build may not have the reliability provided by Quicksilver Bullets,\nbut it has a much better kill potential and higher burst damage in melee form.\nConsidering this build has several Talents that require Greymane to play as Worgen\nin fights, it is much riskier to use. We do not recommend using this Build against\nTeam Compositions with good single target damage and several crowd control\ntools to punish you. Otherwise, this\nbuild provides an excellent chase potential, dive\ncapability, and a good way to dodge skillshots with\nUnfettered Assault.\nCocktail Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGreymane's Cocktail Build focuses on dealing high damage to the opposing team's\nbackline. Differently from Greymane's other builds, this\none does not have a good early game, as it will only be useful after stacking\nIncendiary Elixir. However, once stacked, Greymane will\nstart to deal massive damage in fights.\nGilnean Cocktail requires an enemy in front of a Hero\nto actually damage them. For this reason, we only recommend this build on maps\nwith several Minions or Monsters where fights happen, such as Infernal Shrines\nor Tomb of the Spider Queen.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Greymane's Synergies and Counters",
+   "id": "greymanes-synergies-and-counters",
+   "text": "Greymane synergizes with\nGreymane's excellent damage output scales well with anything that might\nimprove his Attacks or give him extra resistance during Worgen form.\nOtherwise, strong initiation and\nteam fight presence goes a long way to opening windows of opportunity for him\nto pick off Heroes that are out of position. He also has a good synergy with Malthael,\nas Cursed Bullet is excellent with Last Rites.\nGreymane is countered by\nAs an Assassin with a rather telegraphed play style, Greymane\nis very vulnerable to any form of targeted crowd control. Given that\nhis Basic Attacks are his main source of damage, he is also greatly hindered by\nany form of debuff that might blind him or reduce his Attack speed."
+  },
+  {
+   "title": "Greymane's Maps",
+   "id": "greymanes-maps",
+   "text": "Greymane's stronger maps\nGreymane's average maps\nGreymane's weaker maps\nNone\nGreymane's outstanding single-target DPS makes him particularly potent on Maps\nwhere there are multiple Mercenary Camps to be captured. Beyond this point,\nGreymane's relative well-roundedness does not make him particularly\neffective or weak anywhere, although his lack of self sustain might\nmake him unsuited to offlane\nagainst some of the better duelists."
+  },
+  {
+   "title": "Greymane's Tips and Tricks",
+   "id": "greymanes-tips-and-tricks",
+   "text": "Use Minions, Summons and Structures to trigger Gilnean Cocktail's increased cone damage against Heroes.\nInner Beast's duration can be increased by attacking anything — not just Heroes.\nRazor Swipe is useful for quickly avoiding skillshots and area of effect Abilities.\nA marker appears above Heroes that would die to Go for the Throat's damage.\nCursed Bullet should not be used as a poke tool. It is extremely important to have it ready to follow up an engage on any character, as its damage is essential for the kill.\nDarkflight's Cooldown runs while Greymane is in Worgen form. Cursed Bullet can be used during that form to become Human, allowing Greymane to instantly use Darkflight again.\nGreymane gets 10 Armor during Worgen form. Use it to take less damage from unavoidable spells, like Pyroblast.\nIf you are not in Melee range from your target, Go for the Throat can be used to give you 1-4 frames of unstoppable, removing blinds affecting you.\nDuring a blind, you cannot refresh Inner Beast's duration through Basic Attacks. At that moment, you should use an Ability to not lose the Attack Speed buff (assuming you picked Viciousness at Level 1).\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Greymane's Role in the Current Meta",
+   "id": "greymanes-role-in-the-current-meta",
+   "text": "Greymane's melee-ranged hybrid archetype allows him to benefit from both\nthe safety of Ranged Assassin and the raw damage output of melee Assassins.\nWhile this allows him to perform well in any given situation, Greymane will\nnever outperform \"pure\" ranged or melee damage dealers at their best. This\nflexibility also comes at the cost of utility — Greymane offers zero\noptions for crowd control, and has absolutely no means\nof healing himself. These factors make him particularly reliant on teamplay to\nsucceed.\nIn general, he tends to do well against team compositions that feature\nmultiple ranged Heroes, and more particularly, \"mage\"-like Heroes, who tend\nto be weak against aggressive melee Heroes. If several reliable tools for\ncrowd control are available to your opponents, it may be wise to look into\nanother ranged Assassin to take up Greymane's spot, as he is not particularly\nstrong when Worgen form can not be reliably or safely utilised."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025 (talents page): Guide reviewed.\n31 May 2025 (abilities page): Guide reviewed.\n31 May 2025 (this page): Guide reviewed.\n16 Dec. 2024 (talents page): Updated Talents and Builds after recent balance patch.\n16 Dec. 2024 (this page): Updated Builds after recent balance patch.\n18 Apr. 2022 (abilities page): Updated Cursed Bullet's discussion.\n18 Apr. 2022 (this page): Tips section updated.\n15 Apr. 2022 (this page): Tips section updated.\n09 Feb. 2022 (talents page): Updated Talents and Builds after recent balance patch.\n09 Feb. 2022 (this page): Guide Updated after recent balance patch.\n17 Feb. 2021 (this page): Updated Attack Build.\n21 Oct. 2020 (talents page): Updated Talents and Builds.\n21 Oct. 2020 (abilities page): Updated Ability page.\n21 Oct. 2020 (this page): Guide update to ensure relevance in the current meta.\n24 Sep. 2020 (talents page): Talents and Builds updated to reflect current meta.\n24 Sep. 2020 (this page): Builds updated to reflect current meta.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n19 Jul. 2020 (talents page): Talent builds and recommendations updated.\n05 Apr. 2020 (talents page): Updated description for Gilnean Roulette.\n15 Dec. 2019 (this page): Added a note about current Anomaly.\n30 Jun. 2018 (talents page): Updated Talents to account for the June 27 balance patch changes.\n07 Feb. 2018 (talents page): Updated Talents and Build to account for the Maiev's patch changes.\n14 Jan. 2018 (talents page): Updated Cocktail Party build.\n26 Jun. 2017 (talents page): Updated the amount of damage Cursed Bullet deals to 40%.\n26 Jun. 2017 (abilities page): Updated the amount of damage Cursed Bullet deals to 40%.\n19 Feb. 2017 (talents page): Added Cursed Bullet.\n19 Feb. 2017 (abilities page): Added Cursed Bullet.\n08 Jan. 2017 (this page): Guide updated and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Greymane's Tips and Tricks",
+   "id": "greymanes-tips-and-tricks",
+   "text": "Use Minions, Summons and Structures to trigger Gilnean Cocktail's increased cone damage against Heroes.\nInner Beast's duration can be increased by attacking anything — not just Heroes.\nRazor Swipe is useful for quickly avoiding skillshots and area of effect Abilities.\nA marker appears above Heroes that would die to Go for the Throat's damage.\nCursed Bullet should not be used as a poke tool. It is extremely important to have it ready to follow up an engage on any character, as its damage is essential for the kill.\nDarkflight's Cooldown runs while Greymane is in Worgen form. Cursed Bullet can be used during that form to become Human, allowing Greymane to instantly use Darkflight again.\nGreymane gets 10 Armor during Worgen form. Use it to take less damage from unavoidable spells, like Pyroblast.\nIf you are not in Melee range from your target, Go for the Throat can be used to give you 1-4 frames of unstoppable, removing blinds affecting you.\nDuring a blind, you cannot refresh Inner Beast's duration through Basic Attacks. At that moment, you should use an Ability to not lose the Attack Speed buff (assuming you picked Viciousness at Level 1)."
+  },
+  {
+   "title": "Curse of the Worgen",
+   "id": "curse-of-the-worgen",
+   "text": "Curse of the Worgen\n(D)\nGreymane\nPassive\nGreymane can use certain Abilities to shapeshift between a Human and a Worgen.\nWhile Human, Greymane's Basic Attacks are ranged.\nWhile Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage.\nAlthough we typically list Hero Abilities in their in-game order, Greymane's\nTrait is quite unique in that it certainly impacts the rest of his Abilities. It\nis thus listed first, so as to provide a clearer context for everything else.\nCurse of the Worgen passively causes Greymane's Basic Attacks to have\na Range of 5.5 (the average for the majority of ranged Heroes) while in Human\nform, and to deal 40% more damage and gain 10 Armor while in Worgen form, at the\ncost of becoming melee. This effect also dictates which Abilities are currently\navailable to Greymane; the Human form has access to Gilnean Cocktail and\nDarkflight, whereas the Worgen form has access to Razor Swipe\nand Disengage.\nBy default, Greymane assumes his ranged Human form. There are two ways of\nbecoming Worgen: Darkflight and Go for the Throat.\nBecoming Human again is achieved through Disengage,\nCursed Bullet, mounting, or dying. Although there is no inherent cooldown\nto transforming, the act is in of itself \"gated\" behind the base cooldown of the\naforementioned Abilities.\nProperly using Greymane's alternate forms is absolutely key to his mastering.\nFor general Hero combat, one should associate the Human form with lower,\nsafer damage. The Worgen form should be reserved for situations where burst\ndamage is needed and relatively safe to carry out. This very basic breakdown, of\ncourse, fluctuates and is entirely dependent upon the current situation at hand.\nVariables such as strategic advantages (Cooldowns, Experience or numerical\nadvantage, position, pressure), team compositions,\nand win condition must all\nbe gauged to figure out exactly when to exploit either form. This comes with\nmuch practice... and many unjustifiable deaths.\nFor PvE purposes, such as razing Structures of claiming\nMercenary Camps, the Worgen form is often preferred for its markedly higher\nsustained damage potential. It also allows Disengage to be used to\nwithdraw from potential ganking attempts."
+  },
+  {
+   "title": "Gilnean Cocktail",
+   "id": "gilnean-cocktail",
+   "text": "Gilnean Cocktail\n(Q)\nGreymane\nMana: 55\nCooldown: 9 seconds\nHurl a flask that deals 55 (+4% per level) damage to the first enemy hit and explodes for 220 (+4% per level) damage to enemies in a cone behind them.\nWorgen: Razor Swipe\nSwipe forward, damaging enemies hit.\nGilnean Cocktail's high area of effect damage makes it a key\ncomponent for Greymane's waveclear and Mercenary clear\nspeed. Aside from that, it is a good addition to his teamfight damage.\nGilnean Cocktail is\ntypically used in such a way that it will hit as many enemy Heroes as possible.\nOne of your most important goals is to bring the Health of key targets down to\nor below 50% of their maximum so as to threaten a kill to jeopardise their\nability to contribute to engagements. Consistency with Gilnean Cocktail hits\ngoes a long way towards this goal.\nIt is important to always try and use Gilnean Cocktail before turning to\nWorgen so as to avoid leaving its cooldown unexploited. The Ability's\nnear-instantaneous cast time makes it hard to justify anything less, unless\nyour intended target would outright die to Go for the Throat\nto meet its on-kill clause."
+  },
+  {
+   "title": "Razor Swipe",
+   "id": "razor-swipe",
+   "text": "Razor Swipe\n(Q)\nGreymane\nMana: 25\nCooldown: 4 seconds\nSwipe in the targeted direction, dealing 126 (+4% per level) damage to enemies hit.\nHuman: Gilnean Cocktail\nDamage the first enemy hit and deal heavy damage behind them.\nRazor Swipe replaces Gilnean Cocktail\nwhile in Worgen form.\nRazor Swipe provides Greymane with outstanding combat mobility which, in\nturn, translates into high uptime. Combined with the large\nBasic Attack increase provided by Curse of the Worgen\nand Inner Beast,\nGreymane becomes one of the most dangerous Heroes to have\npressure any non-Tank,\nand particularly when defensive Abilities have been expended. With proper\npositioning, Razor Swipe can even be used to body block escaping\nor chasing foes. This becomes particularly obvious with the Level 13\nTalent Unfettered Assault. Its speed also makes it useful for dodging\nimpending delayed Abilities, such as Jaina's Blizzard.\nFor general PvE purposes, Razor Swipe can also provide a modest\narea of effect damage increase at a reasonable Mana cost, making the Ability\nparticularly useful for waveclearing or rapidly claiming\nMercenary Camps."
+  },
+  {
+   "title": "Inner Beast",
+   "id": "inner-beast",
+   "text": "Inner Beast\n(W)\nGreymane\nMana: 70\nCooldown: 20 seconds\nGain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds.\nInner Beast is what pushes Greymane's sustain\ndamage to levels beyond that\nof most Assassins. Although the Ability is not particularly difficult to\nuse, maintaining its effects over extended periods of time is what separates\nmediocre from strong Greymane players. It is worth noting that any hostile\ntarget can be used to refresh the Ability—from Heroes to Minions to Structures\nto Summons—making paying attention to your immediate environment for\nBasic Attack opportunities an important skill to develop. Inner Beast should\nabsolutely be used to speed up any Mercenary Camp claiming or sieging\nprocess, granted that no potential PvP encounter is inbound.\nInner Beast's cooldown is reduced every time he hits someone\nwhile it is active, refunding it all after 40 Basic Attacks (17 with Wolfheart).\nFor this reason, it is important to constantly attack Minions, Structures, or Mercenaries\nduring it."
+  },
+  {
+   "title": "Darkflight",
+   "id": "darkflight",
+   "text": "Darkflight\n(E)\nGreymane\nMana: 10\nCooldown: 5 seconds\nShapeshift into a Worgen and leap at an enemy dealing 88 (+4% per level) damage.\nWorgen: Disengage\nRoll away and shapeshift into a Human.\nDarkflight is Greymane's main way of becoming Worgen, giving it an important\ndouble purpose beyond that of being a reliable gap closer.\nIt is generally held onto until an important target is at 50% or less of their\nmaximum Health, however, in dueling situations, it should be used\nearlier so as to benefit from the damage increase provided by\nCurse of the Worgen and opening up\nDisengage for escaping purposes.\nIn a pinch, however, Darkflight itself can be used as an escape move by using it\non a target directly away from whatever may be chasing you and following up with\nRazor Swipe for more distance."
+  },
+  {
+   "title": "Disengage",
+   "id": "disengage",
+   "text": "Disengage\n(E)\nGreymane\nCooldown: 5 seconds\nRoll away and shapeshift into a Human.\nHuman: Darkflight\nLeap at an enemy and shapeshift into a Worgen.\nDisengage is essentially the opposite of\nDarkflight. As its name\nimplies, it is particularly useful for escaping, as unlike Darkflight, it does\nnot require a target to be used. This does not mean, however, that it can not be\nused for chasing purposes as well; turning Human has some interesting\nimplications, as escaping the ranged Basic Attacks and impending\nGilnean Cocktail would be very difficult for any Hero."
+  },
+  {
+   "title": "Go for the Throat",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nGo for the Throat\n(R)\nGreymane\nHeroic\nMana: 90\nCooldown: 80 seconds\nLeap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.\nGo for the Throat perfectly complements Greymane's playstyle by providing him\nwith potent unavoidable burst damage and yet another gap closer. The\nAbility is almost the same as Darkflight in terms of functionality, with\nthe usage consideration timing being the biggest differing factor. A best-case\nscenario is to work with your teammates so as to poke down one or\nseveral targets so that you may outright use\nGilnean Cocktail, Darkflight,\nRazor Swipe, and Go for the Throat to almost instantly dispatch your intended target.\nIt should be noted, however, that one should not obsess over the on-kill reset\nclause of the Ability; in a pinch, Go for the Throat is just a long-range gap\ncloser that just deals a large amount of damage."
+  },
+  {
+   "title": "Cursed Bullet",
+   "id": "cursed-bullet",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nCursed Bullet\n(R)\nGreymane\nHeroic\nMana: 50\nCooldown: 30 seconds\nGreymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.\nDoes not affect Vehicles.\nCursed Bullet's power lies in its ability to deal some of the game's highest\nburst damage from range. The fact that Cursed Bullet's damage scales with how\nhealthy the target is means that you should see to hit targets that are close to\nor at full Health in order to maximise the Ability's damage potential. This fact\nalso justifies using the Ability against Tanks, something that is not\ngenerally recommendable. This is not to say, however, that Cursed Bullet should\nexclusively be used against such Heroes; 35% of any given target's current\nHealth is enough to endanger any Hero, especially when chaining up with\nGilnean Cocktail and Darkflight.\nAnother important aspect of Cursed\nBullet is that it allows you to become Human without the use of Disengage,\npermitting the use of Darkflight as a gap closer while maintaining the damage increase\nprobided by Curse of the Worgen.\nAs with all skillshot Heroic Ability, it is important that you practice\n(in Try Mode or otherwise) to get a good feel of the Ability's projectile's\nflight speed. It should be noted that the projectile passes through anything\nthat is not a Hero.\nDespite Cursed Bullet being a fast projectile and having\nlow cooldown, Greymane should avoid using it just to poke\nenemies, as they can be easily healed if his team cannot finish the target. Therefore,\nit is better to use it to follow up a team's engage.\nit should be used as soon as an enemy gets controlled,\nto quickly burst them."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide reviewed.\n18 Apr. 2022: Updated Cursed Bullet's discussion.\n21 Oct. 2020: Updated Ability page.\n26 Jun. 2017: Updated the amount of damage Cursed Bullet deals to 40%.\n19 Feb. 2017: Added Cursed Bullet.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Wolfheart (Level 1) Greymane Increase the cooldown reduction from Basic Attacks during Inner Beast from 0.5 to 1.2 seconds, and Worgen Form's Armor bonus from 10 to 15."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Perfect Aim (Level 1) Greymane Increases Gilnean Cocktail's range by 30% and refunds 45 Mana if it hits an enemy Hero."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Viciousness (Level 1) Greymane Increases Inner Beast's duration to 4 seconds, and causes Ability damage to also refresh its duration."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Thick Skin (Level 4) Greymane Using Darkflight grants 50 Physical Armor against the next 2 Hero Basic Attacks while in Worgen Form, reducing the damage taken by 50%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Eyes in the Dark (Level 4) Greymane Disengage grants Stealth for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Insatiable (Level 4) Greymane Inner Beast causes Basic Attacks to restore 10 Mana, and reduce the cooldown of Healing Fountain by 0.5 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Quicksilver Bullets (Level 7) Greymane Increases Greymane's Human Basic Attack range by 1.1."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Incendiary Elixir (Level 7) Greymane Quest: Reduce the cooldown of Gilnean Cocktail by 2 seconds. Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 25, up to 375. Reward: After hitting 15 Heroes, the cooldown is reduced by an additional 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Wizened Duelist (Level 7) Greymane Quest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Go for the Throat (Level 10) Greymane Mana: 90 Cooldown: 80 seconds Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Cursed Bullet (Level 10) Greymane Mana: 50 Cooldown: 30 seconds Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage. Does not affect Vehicles."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Running Wild (Level 13) Greymane Increases Darkflight and Disengage's range by 35%, and reduce their cooldowns by 1 second."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Unfettered Assault (Level 13) Greymane Increases Razor Swipe's lunge distance by 60%, and Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "On the Prowl (Level 13) Greymane Inner Beast increases Movement Speed by 30% once it has been active for 3 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Eager Wolf (Level 16) Greymane Increases the Attack Speed bonus of Inner Beast by an additional 40% after it has been active for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Lord of His Pack (Level 16) Greymane Attacking a Hero that is Slowed, Rooted, or Stunned increases Greymane's Basic Attack damage by 25% for 3 seconds, increased to 50% while in Worgen Form."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Alpha Killer (Level 16) Greymane Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Unleashed (Level 20) Greymane Passive: Go For The Throat's damage is increased by 25%. If Go for the Throat kills its target, refund its Mana cost and reset the cooldowns of Greymane's Abilities."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Gilnean Roulette (Level 20) Greymane Cursed Bullet's damage is reduced to 30% of current health but its cooldown is reduced by 24 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Hunter's Blunderbuss (Level 20) Greymane Human Basic Attacks splash for 100% damage behind the target."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Tooth and Claw (Level 20) Greymane Worgen Basic Attacks cleave for 100% damage. Increase Razor Swipe's damage by 100%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Greymane's Talent Build",
+   "id": "greymanes-talent-build",
+   "text": "Level\nChoices\n1\n?\n?\n✓\n4\n?\n✓\n?\n7\n✓\n?\n?\n10\n✓\n✓\n13\n?\n?\n✓\n16\n?\n✓\n?\n20\n?\n✘︎\n✓\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Greymane's Talent Build Cheatsheet",
+   "id": "greymanes-talent-build-cheatsheet",
+   "text": "Attack Build\nRecommended\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGreymane's Basic Attack Build revolves around improving his Basic Attacks and thus\nsustained damage output. Although it provides less waveclear and\nburst damage than its counterpart, it provides Greymane with more consistent sustain\ndamage.\nLord of His Pack greatly increases Greymane's damage, and should\nbe the pick in most games where you have any kind of crowd control.\nIf you do not have many Abilities to trigger Lord of His Pack in your team,\nAlpha Killer is a great option for more power in teamfights,\nwhile Eager Wolf is better in the PvE.\nWorgen Build\nSituational\nLevel 1\n?\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGreymane's Worgen Build, as the name suggests, is totally focused on dealing high damage as a\nWorgen. This build may not have the reliability provided by Quicksilver Bullets,\nbut it has a much better kill potential and higher burst damage in melee form.\nConsidering this build has several Talents that require Greymane to play as Worgen\nin fights, it is much riskier to use. We do not recommend using this Build against\nTeam Compositions with good single target damage and several crowd control\ntools to punish you. Otherwise, this\nbuild provides an excellent chase potential, dive\ncapability, and a good way to dodge skillshots with\nUnfettered Assault.\nCocktail Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\nLevel 10\n?\nLevel 13\n?\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nGreymane's Cocktail Build focuses on dealing high damage to the opposing team's\nbackline. Differently from Greymane's other builds, this\none does not have a good early game, as it will only be useful after stacking\nIncendiary Elixir. However, once stacked, Greymane will\nstart to deal massive damage in fights.\nGilnean Cocktail requires an enemy in front of a Hero\nto actually damage them. For this reason, we only recommend this build on maps\nwith several Minions or Monsters where fights happen, such as Infernal Shrines\nor Tomb of the Spider Queen."
+  },
+  {
+   "title": "Level 1 Talents for Greymane",
+   "id": "level-1",
+   "text": "?\nWolfheart\n(Level 1)\nGreymane\nIncrease the cooldown reduction from Basic Attacks during Inner Beast from 0.5 to 1.2 seconds, and Worgen Form's Armor bonus from 10 to 15.\n?\nPerfect Aim\n(Level 1)\nGreymane\nIncreases Gilnean Cocktail's range by 30% and refunds 45 Mana if it hits an enemy Hero.\n✓\nViciousness\n(Level 1)\nGreymane\nIncreases Inner Beast's duration to 4 seconds, and causes Ability damage to also refresh its duration."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Wolfheart provides a significant increase to Inner Beast's\npotential uptime. This Talent's usefulness is more obvious in situations where\nyou may need to repeatedly use the Ability, such as when claiming Mercenary\nCamps, roaming, or simply laning; it is never a poor choice.\nIt is particularly useful in Battlefield of Eternity, because it will\nguarantee that Greymane will have Inner Beast after Immortals'\nfirst phase.\nPerfect Aim is a good Talent when paired with\nIncendiary Elixir at Level 7. However, be aware that it should\nonly be chosen on Infernal Shrines or Tomb of the Spider Queen.\nViciousness fulfills a purpose that is similar to Wolfheart.\nIt is typically considered to be the weaker choice for extended fights, but may\nhelp you maintain Inner Beast's duration in skirmishing situations\nsuch as while laning."
+  },
+  {
+   "title": "Level 4 Talents for Greymane",
+   "id": "level-4",
+   "text": "?\nThick Skin\n(Level 4)\nGreymane\nUsing Darkflight grants 50 Physical Armor against the next 2 Hero Basic Attacks while in Worgen Form, reducing the damage taken by 50%.\n✓\nEyes in the Dark\n(Level 4)\nGreymane\nDisengage grants Stealth for 3 seconds.\n?\nInsatiable\n(Level 4)\nGreymane\nInner Beast causes Basic Attacks to restore 10 Mana, and reduce the cooldown of Healing Fountain by 0.5 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Thick Skin provides a amall amount of survivability with limited\nuptime when you need it. Thick Skin is a good choice to improve your ability to\ntrade against Basic Attack-reliant Heroes. However, since\nit only gives 2 Block charges,\nit is useless against fast attackers such\nas Tracer, D.Va, or Tychus.\nEyes in the Dark provides Greymane with a reliable\nescape mechanism that essentially makes him impossible to chase down for Heroes\nwho do not possess area of effect Abilities, or do not currently have them off\nCooldown.\nInsatiable is Greymane's main choice for Mana management.\nBy simply attacking, it shall replenish all wasted Mana. However, since Greymane's\nmain damage source comes from Basic Attacks, he does not have frequent Mana issues.\nThis Talent is only decent on Maps where you need to be constantly doing Mercenaries,\nsuch as Garden of Terror."
+  },
+  {
+   "title": "Level 7 Talents for Greymane",
+   "id": "level-7",
+   "text": "✓\nQuicksilver Bullets\n(Level 7)\nGreymane\nIncreases Greymane's Human Basic Attack range by 1.1.\n?\nIncendiary Elixir\n(Level 7)\nGreymane\nQuest: Reduce the cooldown of Gilnean Cocktail by 2 seconds. Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 25, up to 375.\nReward: After hitting 15 Heroes, the cooldown is reduced by an additional 3 seconds.\n?\nWizened Duelist\n(Level 7)\nGreymane\nQuest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Quicksilver Bullets is an excellent Talent, as it facilitates\nGreymane's kite, applies good pressure onto the enemy Tank,\nand allows for a much safer playstyle in fights. This is the standard Talent for this tier,\nbut Wizened Duelist is also a great option if you can reliably\nfight in Worgen form.\nIncendiary Elixir is like Gilnean Roulette:\nit is a good Talent, but should only be picked in\nInfernal Shrines or Tomb of the Spider Queen.\nAfter picking this Talent, it is important to focus all your playstyle around stacking it\nas soon as possible, as the reduced cooldown after completion is very impactful.\nWizened Duelist has the potential of providing an outstanding\n30% increase to your Basic Attack damage. Daring players\nmay find this Talent appealing, especially against team compositions with low\nsingle-target damage or little crowd control.\nSince this Talent takes too long to stack in Human form, it should only be picked\nif you can fight as a Worgen without dying."
+  },
+  {
+   "title": "Level 10 Talents for Greymane",
+   "id": "level-10",
+   "text": "✓\nGo for the Throat\n(Level 10)\nGreymane\nMana: 90\nCooldown: 80 seconds\nLeap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.\n✓\nCursed Bullet\n(Level 10)\nGreymane\nMana: 50\nCooldown: 30 seconds\nGreymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.\nDoes not affect Vehicles."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nGo for the Throat perfectly complements Greymane's playstyle by providing him\nwith potent unavoidable burst damage. Go for the Throat is particularly\neffective when the reset clause allows you to snowball one kill into more damage.\nCursed Bullet gives Greymane a unique niche role:\nthat of bursting down\nTanks or otherwise very healthy Heroes, such as Azmodan. This is not to\nsay, however, that Cursed Bullet should not be used against any other target;\n35% damage is nothing to scoff at for most Heroes. In general, Cursed Bullet tends\nto be prefered over Go for the Throat when faced with team compositions\nthat feature multiple crowd control effects and make it difficult for\nyou to single out opponents."
+  },
+  {
+   "title": "Level 13 Talents for Greymane",
+   "id": "level-13",
+   "text": "?\nRunning Wild\n(Level 13)\nGreymane\nIncreases Darkflight and Disengage's range by 35%, and reduce their cooldowns by 1 second.\n?\nUnfettered Assault\n(Level 13)\nGreymane\nIncreases Razor Swipe's lunge distance by 60%, and Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds.\n✓\nOn the Prowl\n(Level 13)\nGreymane\nInner Beast increases Movement Speed by 30% once it has been active for 3 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Running Wild provides you with some very effective engaging and disengaging\nutility, as it turns Darkflight and Disengage into some of the\nlongest-ranged gap closers around. This Talent is effective when\nyou are unable to deliver many Basic Attacks.\nOn the Prowl provides Greymane with a Movement Speed increase that\nis as reliable as it is potent, allowing you to keep up with or kite all but the most\nmobile of targets. This, in turn, increases your uptime potential and\nsurvivability. Proper Inner Beast management allows one to maintain\nthis effect almost indefinitely.\nUnfettered Assault fulfils a purpose that\nis similar to On the Prowl,\nalthough it does so differently. While the aforementioned Talent provides a\nsteady boost to your mobility, Unfettered Assault does so in a bursty fashion,\nallowing you to use Razor Swipe to very reliably avoid\ndangerous area of effect Abilities and position yourself for nearly unavoidable\nbody blocking maneuvers. Unfettered Assault is particularly useful\nagainst E.T.C., Jaina, and Kerrigan, amongst others, as they heavily rely on\nhitting you with specific Abilities to be effective. Furthermore, Unfettered\nAssault is the only Talent available at this tier to provide a direct damage\noutput increase through the cooldown reduction clause, making it useful for\nclaiming Mercenary Camps. It synergises particularly well with Wizened Duelist,\nAlpha Killer, and Tooth and Claw."
+  },
+  {
+   "title": "Level 16 Talents for Greymane",
+   "id": "level-16",
+   "text": "?\nEager Wolf\n(Level 16)\nGreymane\nIncreases the Attack Speed bonus of Inner Beast by an additional 40% after it has been active for 4 seconds.\n✓\nLord of His Pack\n(Level 16)\nGreymane\nAttacking a Hero that is Slowed, Rooted, or Stunned increases Greymane's Basic Attack damage by 25% for 3 seconds, increased to 50% while in Worgen Form.\n?\nAlpha Killer\n(Level 16)\nGreymane\nWorgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Eager Wolf provides a reliable increase to Greymane's main source of\ndamage. It is particularly effective in PvE situations, where DPS\ngreatly contributes to securing Objectives featuring a single big Monster\nand to taking down enemy Structures.\nLord of His Pack is an alternative to the other two Talents when\none or several of your teammates can provide you with a reliable means of\nmeeting the Talent's triggering condition. Heroes such as Arthas, Jaina, and\nRehgar are particularly effective for this. In general, this Talent will always\nbe better if it can be activated very often.\nAlpha Killer allows you to punish Tank-heavy team compositions\nby providing a substantial damage increase against tougher Heroes. However, since\nthis Talent is only active during Worgen form, it should not be picked if the enemy team\ncan easily punish your dives."
+  },
+  {
+   "title": "Level 20 Talents for Greymane",
+   "id": "level-20",
+   "text": "?\nUnleashed\n(Level 20)\nGreymane\nPassive: Go For The Throat's damage is increased by 25%.\nIf Go for the Throat kills its target, refund its Mana cost and reset the cooldowns of Greymane's Abilities.\n✘︎\nGilnean Roulette\n(Level 20)\nGreymane\nCursed Bullet's damage is reduced to 30% of current health but its cooldown is reduced by 24 seconds.\n✓\nHunter's Blunderbuss\n(Level 20)\nGreymane\nHuman Basic Attacks splash for 100% damage behind the target.\n?\nTooth and Claw\n(Level 20)\nGreymane\nWorgen Basic Attacks cleave for 100% damage. Increase Razor Swipe's damage by 100%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Unleashed is mostly picked for the extra damage\nadded to Go for the Throat, being a good option against\nvery squishy Heroes.\nGilnean Roulette is an extremely underwhelming Talent\nwhen compared to Hunter's Blunderbuss and Tooth and Claw,\nwhich greatly increase Greymane's proficiency in fights by making his Basic Attacks cleave.\nHunter's Blunderbuss takes Greymane's poking potential to\nstratospheric levels. Combined with Gilnean Cocktail and related\nTalents, Hunter's Blunderbuss creates an immense amount of pressure by forcing\nopponents to spread out at all times. Blunderbuss is particularly potent in\nsieging scenarios, as the area of effect damage makes it very difficult to\nmount an effective defense. The waveclear potential provided by the\nTalent can not be overstated.\nTooth and Claw is Hunter's Blunderbuss's Worgen counterpart.\nWhile it is able to deal a significantly more damage than the former Talent,\nit is also much riskier, requiring you to spend an extended\namount of time in melee range. However, if your Healers\nand Supports enable Greymane\nto go in during Worgen form, it will greatly increase his damage. It is important to note\nthat it has great synergy with Unfettered Assault\nand Wizened Duelist."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "31 May 2025: Guide reviewed.\n16 Dec. 2024: Updated Talents and Builds after recent balance patch.\n09 Feb. 2022: Updated Talents and Builds after recent balance patch.\n21 Oct. 2020: Updated Talents and Builds.\n24 Sep. 2020: Talents and Builds updated to reflect current meta.\n19 Jul. 2020: Talent builds and recommendations updated.\n05 Apr. 2020: Updated description for Gilnean Roulette.\n30 Jun. 2018: Updated Talents to account for the June 27 balance patch changes.\n07 Feb. 2018: Updated Talents and Build to account for the Maiev's patch changes.\n14 Jan. 2018: Updated Cocktail Party build.\n26 Jun. 2017: Updated the amount of damage Cursed Bullet deals to 40%.\n19 Feb. 2017: Added Cursed Bullet.\nShow more\nShow less"
+  }
+ ]
+}

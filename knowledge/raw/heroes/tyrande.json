@@ -1,0 +1,300 @@
+{
+ "slug": "tyrande",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/tyrande-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/tyrande-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/tyrande-talents"
+ },
+ "guide": [
+  {
+   "title": "Tyrande's Overview",
+   "id": "tyrandes-overview",
+   "text": "Tyrande is a ranged Healer that offers an\nexceptional amount of utility.\nShe is capable of providing vision for the rest of her team, healing wounded\nteammates, and disrupting enemy Heroes by Stunning\nand Slowing them. Tyrande is\na very versatile Hero which allows her to adapt to the course of the game very\nwell. Her strong crowd control and her ability to keep track of the enemy\nteam's movements make up for her low Health pool\nand lack of mobility."
+  },
+  {
+   "title": "Tyrande's Strengths and Weaknesses",
+   "id": "tyrandes-strengths-and-weaknesses",
+   "text": "Strengths\nSentinel is a useful scouting Ability\nLunar Flare works incredibly well with other crowd control Abilities\nHunter's Mark significantly increases her team's damage when focusing on a single enemy target\nGreat single target healing\nAccess to a low-cooldown cleanse effect at Level 16\nIs the only hero that can reliably increase Basic Attack Damage of allies\nWeaknesses\nLacks any form of escape ability\nBad waveclear\nHigh learning curve\nRequires a lot of map awareness\nvery susceptible to dives"
+  },
+  {
+   "title": "Tyrande's Talent Build Cheatsheet",
+   "id": "tyrandes-talent-build-cheatsheet",
+   "text": "Hunter Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTyrande's Hunter Build focuses on maximizing\nHunter's Mark uptime to enable multiple\nLunar Flare casts during team fights. It also\nprovides strong healing through the Level 4 and Level 7 Talents, especially\nwhen you can attack without being punished.\nThis build encourages frequent use of Lunar Flare\nduring team fights, enabled by the cooldown reduction from\nRanger's Mark. In most fights, place\nHunter's Mark on the enemy Tank to\nheal your frontline while applying pressure. When your frontline engages,\nuse Hunter's Mark and immediately activate\nTrueshot Aura. Save the refreshed\nHunter's Mark to follow up\non another target if the original Mark target can no longer be hit.\nRanger Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTyrande's Ranger Build is completely focused on maximizing her Sentinel's\npower. While Ranger and Empower\nadd some decent extra damage to Sentinel, Harsh Moonlight\nwill greatly reduce the damage and Movement Speed of up to two enemies.\nAfter Level 13, Sentinel can be used either to peel\nteammates, to engage enemies, or to Slow down fleeing Heroes so your allies\ncan easily finish them.\nSince this build revolves around Sentinel,\nprioritize stacking Lunar Flare early and secure the\n20-Hero hits milestone quickly to unlock piercing for the mid\nand late-game. At Level 20,\nCommander of Sentinels adds a second\nSentinel charge, turning Tyrande into a serious\nthreat once that milestone is reached.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTyrande's ARAM Build focuses on maximizing Sentinel\nvalue. Differently from normal builds, at Level 4, it takes\nEverlasting Light, as it is the only option that\nprovides reliable healing value without forcing Tyrande to risk positioning\nto land Basic Attacks. To enable Sentinel's piercing, prioritize stacking\nLunar Flare quickly and reach the first 20-Hero hits\nmilestone as soon as possible.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Tyrande's Synergies and Counters",
+   "id": "tyrandes-synergies-and-counters",
+   "text": "Tyrande synergizes with\nTyrande synergizes very well with Tanks like Diablo,\nE.T.C., or Varian, whose\ninitiation Abilities lay a perfect foundation for\nLunar Flare's Stun effect.\nBurst-oriented Assassins can easily\ncapitalize on Hunter's Mark Armor Reduction, while\nBasic Attack-heavy Heroes benefit from Trueshot Aura's\n40% damage increase for 5 seconds.\nTyrande is countered by\nTyrande struggles against heavy dive Heroes, that can easily\nreach her, such as Anub'arak or Maiev.\nDespite that, since Tyrande lacks AoE healing, she also\nsuffers against Heroes like Fenix or Lunara, that can damage\nall of her team at the same time."
+  },
+  {
+   "title": "Tyrande's Maps",
+   "id": "tyrandes-maps",
+   "text": "Tyrande's stronger maps\nTyrande's average maps\nTyrande's weaker maps\nNone\nTyrande is great on smaller maps like Dragon Shire or\nTomb of the Spider Queen that focus a lot on\nearly game rotations. These frequent\nskirmishes also help her stack Lunar Flare's Quest\nearly. Thanks to Hunter's Mark and Lunar Flare, she excels\nat taking down enemy Heroes with other crowd control abilities.\nHunter's Mark can also be applied to non-Heroic\ntargets, such as Bosses, Immortals, or Punishers, which makes Tyrande a\npowerful pick on Battlefield of Eternity. When combined with\nTrueshot Aura, your team can quickly burn these\nhigh-Health targets during the 40% extra damage window. She is also excellent on\nmaps where Objectives keep Minions nearby, allowing safer cooldown refunds\nwhile healing her team, such as Infernal Shrines or\nTomb of the Spider Queen."
+  },
+  {
+   "title": "Tyrande's Tips and Tricks",
+   "id": "tyrandes-tips-and-tricks",
+   "text": "Use Sentinel as frequently as possible. The vision it provides helps your team in making better decisions.\nAlways mind your positioning when playing Tyrande. If caught by surprise, she is an easy Hero to get taken down.\nShadowstalk is an incredibly versatile Heroic Ability. Use it to ambush the enemy team or to cover your retreat.\nLanding Lunar Flare on moving targets requires practice and experience. Try to anticipate their movement paths and aim accordingly.\nWhen low on Mana, use Lunar Flare on Minions or other nearby targets, as hitting 3 or more enemies restores more Mana than the Ability costs.\nHunter's Mark can be used on non-Heroic targets, such as Bosses, Immortals, or Punishers, in order to kill them faster.\nTo make the most out of your healing, you should be always using basic attacks. In many situations it will be dangerous to do so, and you should be waiting for enemy tank to use his Abilities to start delivering Basic Attacks.\nStarfall will greatly reduce Light of Elune's Cooldown. Be ready to use it quickly to not waste any healing.\nAll of Light of Elune's charges are refilled together, so you can have 1 charge left and start attacking. Use it right before the Cooldown comes back again, giving you 3 uses of the Ability. This is mostly useful against burst damage to surprise your enemies.\nSince Sentinel resets on a kill, it is excellent to use it on dying or fleeing targets, being even better after hitting 20 enemies with her Lunar Flare, as you can hit an enemy several times in a fight with its pierce.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Tyrande's Role in the Current Meta",
+   "id": "tyrandes-role-in-the-current-meta",
+   "text": "Tyrande's potent defensive and offensive skills make her one of the most\nflexible Heroes in the game that fits into many team compositions. Although she does\nnot have the strongest of early game healing, Light of Elune\nprovides a useful low-cooldown healing Ability that will assist your allies in need,\nwhile Lunar Flare is a very nice follow-up Stun that\ncan be chained with other crowd control\nAbilities.\nTyrande, furthermore, thrives against team compositions\nthat rely on crowd control, since\nher Celestial Attunement\nTalent at Level 16 can be used to quickly remove impairing effects and thus has outstanding saving\npotential when death timers become dangerously long.\nBesides, Sentinel greatly improves your team's vision\nwhich is useful on every Maps in order to act and react to your enemies' movements.\nAnother aspect that makes Tyrande a very strong pick is her ability to increase\nall damage dealt to a single enemy Hero by 15% for 4 seconds using\nHunter's Mark. This allows her\nand her teammates to focus and kill priority targets (whether it is an enemy\nHero or a neutral Objective) a lot faster, especially if her team\nhas good communication."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "08 May 2026 (talents page): Builds and Talents updated after last balance patch.\n08 May 2026 (abilities page): Guide updated after last balance patch.\n08 May 2026 (this page): Guide updated after last balance patch.\n23 Feb. 2026 (talents page): Builds and Talents updated after recent Balance Patch.\n23 Feb. 2026 (abilities page): Updated Tyrande's abilities section after recent balance patch.\n23 Feb. 2026 (this page): Guide Updated in accordance with recent Balance Patch.\n08 Dec. 2021 (talents page): Builds and Talents updated after recent Balance Patch.\n08 Dec. 2021 (this page): Guide Updated in accordance with recent Balance Patch.\n27 Jul. 2021 (talents page): Builds and Talents updated after recent Balance Patch.\n27 Jul. 2021 (this page): Guide Updated in accordance with recent Balance Patch.\n24 Jul. 2021 (abilities page): Updated Tyrande's abilities section after recent balance patch.\n24 Aug. 2020 (talents page): Builds and Talents updated after recent Balance Patch.\n24 Aug. 2020 (this page): Added Ranger Build.\n04 Jun. 2020 (talents page): Builds and Talents updated to reflect most recent Balance Patch.\n01 May 2020 (this page): Updated introduction page to reflect current meta.\n12 Apr. 2020 (talents page): Builds and Talents updated to better reflect current meta.\n16 Dec. 2019 (this page): Added the current Anomaly (Experience Globes) to the guide.\n25 Nov. 2019 (talents page): We are currently evaluating Tyrande's talent changes that came with the most recent Balance Patch for potential updates in the near future.\n29 Aug. 2019 (talents page): Overhauled and updated Tyrande's Talent Builds and Talents section in general in accordance with the latest Balance Update.\n29 Aug. 2019 (abilities page): Applied minor updates on Tyrande's abilities.\n29 Aug. 2019 (this page): Updated Tyrande's introduction.\n28 Nov. 2018 (talents page): Swapped Level 7 talents with Level 1 talents, following the changes in today's balance patch.\n24 Oct. 2018 (talents page): Changed Elune's Chosen from Not Recommended to Recommended and adjusted Talent Builds accordingly.\n10 Sep. 2018 (talents page): Updated Tyrande's talents and talent builds.\n03 Sep. 2018 (talents page): Completely overhauled and updated Tyrande's talents section in accordance with her latest rework.\n03 Sep. 2018 (abilities page): Updated Tyrande's abilities section in accordance with her latest rework.\n03 Sep. 2018 (this page): Updated for Tyrande's rework.\n12 Sep. 2017 (talents page): Changed Ranger from Not Recommended to Recommended.\n03 Sep. 2017 (talents page): Updated talent descriptions on multiple tiers.\n16 Jul. 2017 (talents page): Changed Darnassian Archery from Not Recommended to Recommended.\n16 May 2017 (this page): Guide updated for D.Va patch and moved to new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Tyrande's Tips and Tricks",
+   "id": "tyrandes-tips-and-tricks",
+   "text": "Use Sentinel as frequently as possible. The vision it provides helps your team in making better decisions.\nAlways mind your positioning when playing Tyrande. If caught by surprise, she is an easy Hero to get taken down.\nShadowstalk is an incredibly versatile Heroic Ability. Use it to ambush the enemy team or to cover your retreat.\nLanding Lunar Flare on moving targets requires practice and experience. Try to anticipate their movement paths and aim accordingly.\nWhen low on Mana, use Lunar Flare on Minions or other nearby targets, as hitting 3 or more enemies restores more Mana than the Ability costs.\nHunter's Mark can be used on non-Heroic targets, such as Bosses, Immortals, or Punishers, in order to kill them faster.\nTo make the most out of your healing, you should be always using basic attacks. In many situations it will be dangerous to do so, and you should be waiting for enemy tank to use his Abilities to start delivering Basic Attacks.\nStarfall will greatly reduce Light of Elune's Cooldown. Be ready to use it quickly to not waste any healing.\nAll of Light of Elune's charges are refilled together, so you can have 1 charge left and start attacking. Use it right before the Cooldown comes back again, giving you 3 uses of the Ability. This is mostly useful against burst damage to surprise your enemies.\nSince Sentinel resets on a kill, it is excellent to use it on dying or fleeing targets, being even better after hitting 20 enemies with her Lunar Flare, as you can hit an enemy several times in a fight with its pierce."
+  },
+  {
+   "title": "Light of Elune",
+   "id": "light-of-elune",
+   "text": "Light of Elune\n(Q)\nTyrande\nMana: 15\nCharges: 2\nRecharge Time: 16 seconds\nHeal an ally Hero for 270 (+4% per level). Light of Elune's cooldown is reduced by 1.5 seconds every time Tyrande hits an enemy with a Basic Attack or damages an enemy Hero.\nStores up to 2 charges. Cooldown replenishes all charges at the same time.\nBeing Tyrande's only burst heal Ability, Light of Elune is crucial in\norder to keep allies and herself alive. Tyrande should use Light of Elune regularly, as the Ability comes with\n2 charges. In order to heal with maximum efficiency, it is of utmost importance\nto consistently use Basic Attacks with Tyrande, as every attack lowers the cooldown of Light of Elune."
+  },
+  {
+   "title": "Sentinel",
+   "id": "sentinel",
+   "text": "Sentinel\n(W)\nTyrande\nMana: 55\nCooldown: 15 seconds\nSend an Owl across the battleground revealing its path, dealing 120 (+4% per level) damage to the first Hero hit, and revealing them for 5 seconds. If a Hero revealed by Sentinel dies, refresh its cooldown.\nSentinel can be used in order to scout if you do not see the opposing team on your\nMinimap or before blindly facechecking bushes.\nHowever, keep in mind that in certain situations it may not be the best choice\nto use Sentinel. If your team is trying to capture Mercenary Camps or Golem\nBosses for example, an ill timed Owl could tell enemies about your position and\nconsequently enable them to catch you off guard.\nSentinel resets its cooldown when a Hero dies\nwhile Revealed, so casting it on a target Stunned by\nLunar Flare often makes it available again right\nafter the kill. Since it does not refund Mana, avoid using it when you are\nlow on Mana."
+  },
+  {
+   "title": "Lunar Flare",
+   "id": "lunar-flare",
+   "text": "Lunar Flare\n(E)\nTyrande\nMana: 65\nCooldown: 13 seconds\nAfter 0.75 seconds, deal 150 (+4% per level) damage and Stun enemies in the target area for 0.75 seconds. Restores 25 Mana per enemy hit.\nQuest: Hitting a Hero with Lunar Flare increases its damage by 3%, up to 120%. Double this bonus if the Hero dies within 3 seconds.\nReward: After hitting 10 Heroes, increase Lunar Flare's range by 30%.\nReward: After hitting 20 Heroes, Sentinel now pierces the first Hero hit.\nMythic Reward: After hitting 40 Heroes, Every 8th Basic Attacks fires a Lunar Flare, prioritizing Heroes. Attack Range increased by 1.\nLunar Flare is a powerful Ability that adds some great\ncrowd control to Tyrande's kit. Unlike most other\nHealers, Tyrande can be played as a strong ganker.\nWhile Lunar Flare allows Tyrande to disrupt enemies from a safe distance,\nthe fact that it is a skillshot makes it a skill that\nrequires a lot of experience in order to be used efficiently. One of the most\nimportant things to keep in mind when using Lunar Flare is to\npredict your target's movement path. Anticipating the position of your\ntarget correctly is crucial when playing Tyrande, so do not shy away from practising\nagainst the AI before diving into Hero League or Team League matches.\nLunar Flare restores 25 Mana for each enemy hit,\nincluding Heroes, Minions, Mercenaries, Monsters, and Structures. Because of\nthis, it can be used to recover Mana when you are running low. Hitting 3 enemies\nrestores more Mana than the Ability costs, so if no enemy Heroes are nearby,\nyou can cast it on a Minion wave to clear it faster. Hitting 4 Minions results in a\nnet gain of 35 Mana, while a stacked wave or a nearby Mercenary can restore\neven more.\nTyrande has a Quest tied to Lunar Flare that\nprogresses whenever it hits enemy Heroes. If a target Hero dies within 3\nseconds of being hit by Lunar Flare, Tyrande gains 1 additional stack. Each\nstack increases its damage by 3%, so early progress matters. At 10 Hero hits,\nit gains additional range, making further stacking easier. At 20 Hero hits,\nSentinel gains piercing, which is essential for\nSentinel-oriented builds. The final milestone at 40 Hero hits is difficult to\nreach in most games, but it unlocks the Mythic Reward: Tyrande gains 1\nadditional Attack Range, allowing her to attack from a safer distance,\nand automatically casts Lunar Flare for free\nafter every 8 Basic Attacks.\nProgressing this Quest quickly is important for maximizing Tyrande's\nimpact. To stack efficiently, you should adapt your play as follows:\nFollow up on allied crowd control,\nespecially from your Tank, to land reliable hits.\nWhen no cc is available, aim it at a\nRegeneration Globe that the enemy team is about to pick up.\nLook for stacks on enemy-controlled Objectives, such as the Dragon Knight on\nDragon Shire or the Triglav Protector on\nVolskaya Foundry.\nLevel 13 Talents can greatly speed up stacking.\nHarsh Moonlight provides a powerful\nSlow that helps you land it consistently, while\nRanger's Mark reduces its cooldown, allowing it to be\nused far more often and accelerating Quest progress.\nAfter completing the Quest, you can prepare the automatic cast by\nattacking Minions or Heroes 7 times. Then, wait for allied\ncrowd control to hit an enemy Hero and follow up\nwith it. A single Basic Attack on the Stunned target will\ntrigger the next cast, adding another Stun on top of your chain."
+  },
+  {
+   "title": "Starfall",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nStarfall\n(R)\nTyrande\nHeroic\nMana: 85\nCooldown: 80 seconds\nDeal 92 (+4% per level) damage per second and Slow enemies by 20% in an area. Lasts 6 seconds.\nStarfall damages and Slows every enemy\nin its area of effect, which makes it\na very powerful Heroic Ability during team fights and pushes.\nAs soon as a team fight breaks out, Starfall should be first Abilitiy to be cast. Doing so\nmaximizes the damage output during the fight and provides Tyrande with cooldown reduction\non her Light of Elune. One of Starfall's greatest\nadvantages is its versatility, because it can be used both offensively and\ndefensively. If used offensively, Starfall is able to Slow retreating enemies\nwhich allows your teammates to collapse on them. If used defensively, Starfall\ncan be used to disengage and run away from charging enemies."
+  },
+  {
+   "title": "Shadowstalk",
+   "id": "shadowstalk",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nShadowstalk\n(R)\nTyrande\nHeroic\nMana: 85\nCooldown: 90 seconds\nGrant all allied Heroes Stealth for 10 seconds and heal them for 380 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.\nShadowstalk is a useful supportive Heroic Ability, which provides\nsignificant healing to your allies. Furthermore,\nit allows Tyrande to initiate hidden manoeuvres on the battlefield to catch the enemy\nteam off guard.\nOn bigger Maps like Cursed Hollow or Sky Temple on which it is harder for the enemy\nteam to predict your position, Shadowstalk can gain a lot of value. On smaller\nMaps like Towers of Doom or Tomb of the Spider Queen,\nhowever, the strong area of effect damage\nfrom Starfall can sometimes be the better choice."
+  },
+  {
+   "title": "Hunter's Mark",
+   "id": "hunters-mark",
+   "text": "Hunter's Mark\n(D)\nTyrande\nCooldown: 20 seconds\nReveal a non-Structure enemy and reduce their Armor by 15 for 4 seconds.\nPassive: Tyrande's Basic Attacks heal her for 1% of her maximum Health, doubled against targets with Hunter's Mark.\nTyrande's Hunter's Mark is one of the strongest Traits in the game when it\ncomes to taking down a single target very quickly. It synergises extremely well\nwith both Tyrande's own and her allies' sources of burst damage. Hunter's Mark can\neven cause enemy Tanks and Bruisers\nto become relatively squishy targets, which forces\nthem to think carefully about engaging a team fight or not.\nKeep in mind that Hunter's Mark can be used to greatly increase\nLunar Flare's and Sentinel's damage\nas well. Since it has the same casting range as Lunar Flare, we recommend marking your\nchosen target first before hitting it with your other Abilities in order to\nmaximise your overall damage."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "08 May 2026: Guide updated after last balance patch.\n23 Feb. 2026: Updated Tyrande's abilities section after recent balance patch.\n24 Jul. 2021: Updated Tyrande's abilities section after recent balance patch.\n29 Aug. 2019: Applied minor updates on Tyrande's abilities.\n03 Sep. 2018: Updated Tyrande's abilities section in accordance with her latest rework.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Ranger (Level 1) Tyrande Sentinel width is increased by 25% and deals up to 250% more damage based on distance traveled."
+   },
+   {
+    "slot": 2,
+    "marker": "no",
+    "text": "✘︎ Moonlit Arrows (Level 1) Tyrande Basic Attacks decrease the cooldown of Light of Elune by an additional 0.5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Trueshot Aura (Level 1) Tyrande Activate to grant Tyrande and nearby allied Heroes 40% increased Attack Damage for 5 seconds, and to reset the cooldown of Hunter's Mark."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Everlasting Light (Level 4) Tyrande If Light of Elune's second charge is cast on a different target from the first, it heals for 80% more."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Mark of Mending (Level 4) Tyrande Tyrande's Basic Attacks against Marked targets heal other allied Heroes near the enemy for 4% of their maximum Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Elune's Chosen (Level 4) Tyrande Cooldown: 30 seconds Activate to make Tyrande's Basic Attacks heal target allied Hero for 175% of the damage dealt. Lasts for 8 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Elune's Gift (Level 7) Tyrande Mana: 65 Cooldown: 13 seconds Hitting an enemy Hero with Lunar Flare grants 20% Spell Power for 10 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Kaldorei Resistance (Level 7) Tyrande Light of Elune grants the target 10 Spell Armor for 2 seconds. This effect stacks up to 2 times."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Huntress' Fury (Level 7) Tyrande Tyrande's Basic Attacks against targets with Hunter's Mark bounce to nearby enemy Heroes. Passive: Increase Hunter's Mark duration by 1 second, and its cast range by 25%."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Shadowstalk (Level 10) Tyrande Mana: 85 Cooldown: 90 seconds Grant all allied Heroes Stealth for 10 seconds and heal them for 380 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Starfall (Level 10) Tyrande Mana: 85 Cooldown: 80 seconds Deal 92 (+4% per level) damage per second and Slow enemies by 20% in an area. Lasts 6 seconds."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Quickening Blessing (Level 13) Tyrande Gain 5% Movement Speed. Light of Elune increases the target's Movement Speed by 25% for 3 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Harsh Moonlight (Level 13) Tyrande Sentinel Slows enemies hit by 35% and reduces their damage dealt by 35% for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Ranger's Mark (Level 13) Tyrande Basic Attacks reduce the cooldown of Hunter's Mark by 2 second. Basic Attacks against marked targets reduce the cooldown of Lunar Flare by 4 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Celestial Attunement (Level 16) Tyrande Light of Elune removes Stuns, Silences, and Slows from its target."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Empower (Level 16) Tyrande Reduce Sentinel's cooldown by 3 seconds. Heroes hit by Sentinel takes bonus damage equal to 6% of their maximum Health."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Darnassian Archery (Level 16) Tyrande Basic Attacks against enemy Heroes grant a stacking 12% increased Attack Damage bonus for 4 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Eyes of the Huntress (Level 20) Tyrande Shadowstalk reveals all enemy Heroes for 10 seconds and heals for 100% more."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Celestial Wrath (Level 20) Tyrande Increase the Slow of Starfall to 60% and cause it to apply Hunter's Mark to enemy Heroes while inside of its area of effect."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Commander of Sentinels (Level 20) Tyrande Sentinel gains a 2nd charge."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Iceblade Arrows (Level 20) Tyrande Increase Attack Speed by 20%. Basic Attacks against enemy Heroes reduce their damage dealt by 8% for 2 seconds. This effect stacks up to 5 times."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Tyrande's Talent Build",
+   "id": "tyrandes-talent-build",
+   "text": "Level\nChoices\n1\n?\n✘︎\n✓\n4\n?\n✓\n?\n7\n?\n?\n✓\n10\n?\n✓\n13\n?\n?\n✓\n16\n✓\n?\n?\n20\n?\n✓\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Tyrande's Talent Build Cheatsheet",
+   "id": "tyrandes-talent-build-cheatsheet",
+   "text": "Hunter Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\n?\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTyrande's Hunter Build focuses on maximizing\nHunter's Mark uptime to enable multiple\nLunar Flare casts during team fights. It also\nprovides strong healing through the Level 4 and Level 7 Talents, especially\nwhen you can attack without being punished.\nThis build encourages frequent use of Lunar Flare\nduring team fights, enabled by the cooldown reduction from\nRanger's Mark. In most fights, place\nHunter's Mark on the enemy Tank to\nheal your frontline while applying pressure. When your frontline engages,\nuse Hunter's Mark and immediately activate\nTrueshot Aura. Save the refreshed\nHunter's Mark to follow up\non another target if the original Mark target can no longer be hit.\nRanger Build\nSituational\nLevel 1\nLevel 4\n?\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTyrande's Ranger Build is completely focused on maximizing her Sentinel's\npower. While Ranger and Empower\nadd some decent extra damage to Sentinel, Harsh Moonlight\nwill greatly reduce the damage and Movement Speed of up to two enemies.\nAfter Level 13, Sentinel can be used either to peel\nteammates, to engage enemies, or to Slow down fleeing Heroes so your allies\ncan easily finish them.\nSince this build revolves around Sentinel,\nprioritize stacking Lunar Flare early and secure the\n20-Hero hits milestone quickly to unlock piercing for the mid\nand late-game. At Level 20,\nCommander of Sentinels adds a second\nSentinel charge, turning Tyrande into a serious\nthreat once that milestone is reached.\nARAM Build\nARAM\nLevel 1\nLevel 4\n?\n?\nLevel 7\n?\n?\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nTyrande's ARAM Build focuses on maximizing Sentinel\nvalue. Differently from normal builds, at Level 4, it takes\nEverlasting Light, as it is the only option that\nprovides reliable healing value without forcing Tyrande to risk positioning\nto land Basic Attacks. To enable Sentinel's piercing, prioritize stacking\nLunar Flare quickly and reach the first 20-Hero hits\nmilestone as soon as possible."
+  },
+  {
+   "title": "Level 1 Talents for Tyrande",
+   "id": "level-1",
+   "text": "?\nRanger\n(Level 1)\nTyrande\nSentinel width is increased by 25% and deals up to 250% more damage based on distance traveled.\n✘︎\nMoonlit Arrows\n(Level 1)\nTyrande\nBasic Attacks decrease the cooldown of Light of Elune by an additional 0.5 seconds.\n✓\nTrueshot Aura\n(Level 1)\nTyrande\nActivate to grant Tyrande and nearby allied Heroes 40% increased Attack Damage for 5 seconds, and to reset the cooldown of Hunter's Mark."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "Ranger greatly increases Sentinel's damage.\nHowever, it requires the second milestone of Lunar Flare's\nQuest (hitting 20 Heroes) to be completed before it becomes impactful. As a\nresult, it is mostly a late-game option, especially\nwhen paired with Commander of Sentinels at Level 20.\nMoonlit Arrows is the only option in this tier that\ndirectly increases your healing frequency. However, unlike the other two\noptions, it is mainly valuable in the early game,\nas it has limited synergy with other Talents.\nTrueshot Aura is a strong Talent because the\nHunter's Mark cooldown reset alone provides\nsignificant value and has excellent synergy with other Mark-oriented Talents.\nOn top of that, the 40% damage increase for 5 seconds is a major bonus that\nhelps your team quickly burst an immobilized\ntarget."
+  },
+  {
+   "title": "Level 4 Talents for Tyrande",
+   "id": "level-4",
+   "text": "?\nEverlasting Light\n(Level 4)\nTyrande\nIf Light of Elune's second charge is cast on a different target from the first, it heals for 80% more.\n✓\nMark of Mending\n(Level 4)\nTyrande\nTyrande's Basic Attacks against Marked targets heal other allied Heroes near the enemy for 4% of their maximum Health.\n?\nElune's Chosen\n(Level 4)\nTyrande\nCooldown: 30 seconds\nActivate to make Tyrande's Basic Attacks heal target allied Hero for 175% of the damage dealt. Lasts for 8 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "Everlasting Light is the only option in this tier\nthat improves your healing when you cannot reliably hit enemies with Basic\nAttacks. However, unlike the other options, it does not increase healing when\nyou are forced to repeatedly heal a single target, which can be crippling\nwhen trying to keep an ally alive.\nMark of Mending is excellent with a good frontline, as it\nconstantly heals 4% of maximum Health of your whole team. It also excels in\nBattlefield of Eternity, in which it can be used at Immortal\nto quickly heal your whole team. However, if your team has Heroes that demand\ngood single-target healing, Elune's Chosen will still\nbe a better option.\nElune's Chosen is a great Talent, not\nnecessarily because of Tyrande's strong Basic Attacks, but more\nbecause of its long duration of 8 seconds and its\nrelatively short cooldown of 30 seconds. The additional single-target healing,\nover time, really adds up and adds some great utility to Tyrande during team\nfights."
+  },
+  {
+   "title": "Level 7 Talents for Tyrande",
+   "id": "level-7",
+   "text": "?\nElune's Gift\n(Level 7)\nTyrande\nMana: 65\nCooldown: 13 seconds\nHitting an enemy Hero with Lunar Flare grants 20% Spell Power for 10 seconds.\n?\nKaldorei Resistance\n(Level 7)\nTyrande\nLight of Elune grants the target 10 Spell Armor for 2 seconds. This effect stacks up to 2 times.\n✓\nHuntress' Fury\n(Level 7)\nTyrande\nTyrande's Basic Attacks against targets with Hunter's Mark bounce to nearby enemy Heroes.\nPassive: Increase Hunter's Mark duration by 1 second, and its cast range by 25%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Elune's Gift is a good Talent when paired with\nRanger. However, it is not recommended for a\nLunar Flare build, as that build relies more on\nHunter's Mark Talents to enable frequent cooldown\nresets.\nKaldorei Resistance is a good Talent and can be picked\nagainst heavy Mage compositions that exclusively rely on Ability damage.\nHuntress' Fury's splash damage is not always noticeable, and it does\nnot interact with Elune's Chosen, but it greatly reduces the cooldown of\nLight of Elune. This Talent is excellent when paired with\nTrueshot Aura, as the extra damage and the extra Hunter's Mark\nincrease its efficacy. Furthermore, with this Talent you can use your Hunter's Mark on Minions or Mercenaries\nclose to enemy Heroes, to maximize the Cooldown Reduction of Light of Elune\nwhen attacking that marked target."
+  },
+  {
+   "title": "Level 10 Talents for Tyrande",
+   "id": "level-10",
+   "text": "?\nShadowstalk\n(Level 10)\nTyrande\nMana: 85\nCooldown: 90 seconds\nGrant all allied Heroes Stealth for 10 seconds and heal them for 380 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.\n✓\nStarfall\n(Level 10)\nTyrande\nMana: 85\nCooldown: 80 seconds\nDeal 92 (+4% per level) damage per second and Slow enemies by 20% in an area. Lasts 6 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nShadowstalk\nis a strong Heroic Ability for two major reasons. Firstly, it enhances Tyrande's and her allies'\nescape capabilities significantly. Secondly, it allows experienced players and teams to execute deadly\nambushes and ganks on enemy Heroes.\nStarfall provides Tyrande with a strong zoning tool.\nBeing able to Slow and damage multiple enemies at\nthe same time for 8 seconds is especially useful when fighting over static\nObjectives such as Temples or Tributes. Thus, we recommend casting Starfall on\nnarrow terrain and choke points in order to make it\nharder for the enemy to escape. Keep in mind that every hit of Starfall also lowers the cooldown\nof Light of Elune, which can drastically increase Tyrande's healing output.\nIt is excellent against heavy melee compositions as well."
+  },
+  {
+   "title": "Level 13 Talents for Tyrande",
+   "id": "level-13",
+   "text": "?\nQuickening Blessing\n(Level 13)\nTyrande\nGain 5% Movement Speed. Light of Elune increases the target's Movement Speed by 25% for 3 seconds.\n?\nHarsh Moonlight\n(Level 13)\nTyrande\nSentinel Slows enemies hit by 35% and reduces their damage dealt by 35% for 3 seconds.\n✓\nRanger's Mark\n(Level 13)\nTyrande\nBasic Attacks reduce the cooldown of Hunter's Mark by 2 second. Basic Attacks against marked targets reduce the cooldown of Lunar Flare by 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "Quickening Blessing's value depends more\non your team composition than on build. It can be a good\nchoice with Heroes who benefit a lot from extra Movement Speed, such as\nSgt. Hammer, Garrosh, or Arthas.\nHarsh Moonlight is a strong Talent that can be used to reduce a Hero's damage by\na significant amount. However, it can also be used offensively since it Slows the target,\nallowing your team to chase it down or follow up with\ncrowd control.\nRanger's Mark is an excellent Talent when paired\nwith Trueshot Aura, as it significantly boosts\nTyrande's damage, crowd control potential, and\nLunar Flare Quest completion speed. However, do not\nforce risky positioning just to get Lunar Flare\nresets, as overstepping can lead to unnecessary deaths."
+  },
+  {
+   "title": "Level 16 Talents for Tyrande",
+   "id": "level-16",
+   "text": "✓\nCelestial Attunement\n(Level 16)\nTyrande\nLight of Elune removes Stuns, Silences, and Slows from its target.\n?\nEmpower\n(Level 16)\nTyrande\nReduce Sentinel's cooldown by 3 seconds. Heroes hit by Sentinel takes bonus damage equal to 6% of their maximum Health.\n?\nDarnassian Archery\n(Level 16)\nTyrande\nBasic Attacks against enemy Heroes grant a stacking 12% increased Attack Damage bonus for 4 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "Celestial Attunement allows Tyrande to counter\ncrowd control efficiently, as it removes\nStuns, Slows, and\nSilences (including Taunt and Fear).\nThis makes it valuable against Heroes such as Varian and Muradin.\nHowever, it does not cleanse Roots\nor Blinds. If the enemy team has few Stuns, Slows, or Silences,\nanother Talent is usually better.\nEmpower is a solid Talent. The cooldown reduction comes in handy, while the\nadditional percent-based damage adds a bit\nof extra damage, which is always appreciated. Go for\nit if enemies do not have crowd controls for you to worry about.\nDarnassian Archery's damage amplification is very noticeable\nafter a few stacks. However, if you want more reliable output,\nEmpower usually offers more consistent value through its flat damage and\ncooldown reduction."
+  },
+  {
+   "title": "Level 20 Talents for Tyrande",
+   "id": "level-20",
+   "text": "?\nEyes of the Huntress\n(Level 20)\nTyrande\nShadowstalk reveals all enemy Heroes for 10 seconds and heals for 100% more.\n✓\nCelestial Wrath\n(Level 20)\nTyrande\nIncrease the Slow of Starfall to 60% and cause it to apply Hunter's Mark to enemy Heroes while inside of its area of effect.\n?\nCommander of Sentinels\n(Level 20)\nTyrande\nSentinel gains a 2nd charge.\n?\nIceblade Arrows\n(Level 20)\nTyrande\nIncrease Attack Speed by 20%. Basic Attacks against enemy Heroes reduce their damage dealt by 8% for 2 seconds. This effect stacks up to 5 times."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "Eyes of the Huntress is a valuable Talent in games where\nTyrande is not able to attack frequently, as it grants good healing regardless\nof the situation.\nCelestial Wrath is a powerful upgrade to\nStarfall against most compositions. It applies free\nHunter's Marks, making it an excellent choice with\nother Mark-oriented Talents. It is especially effective into low-mobility\nteams, as the added Slow makes\nLunar Flare hits more reliable. If the enemy team is\nvery mobile, the other options are usually better.\nCommander of Sentinels is an excellent Talent, but\nit is not always the best pick. It becomes impactful only after you complete the\nsecond milestone of Lunar Flare's Quest (hitting\n20 Heroes). It also requires some Sentinel\nTalents, such as Empower or\nHarsh Moonlight, to provide consistent value.\nIceblade Arrows is a decent Talent against heavy mobility Heroes\nwhich will likely dive your teammates, such as Genji or Greymane.\nWith it, you can greatly reduce their effectiveness, since you will not be able to retreat against them."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "08 May 2026: Builds and Talents updated after last balance patch.\n23 Feb. 2026: Builds and Talents updated after recent Balance Patch.\n08 Dec. 2021: Builds and Talents updated after recent Balance Patch.\n27 Jul. 2021: Builds and Talents updated after recent Balance Patch.\n24 Aug. 2020: Builds and Talents updated after recent Balance Patch.\n04 Jun. 2020: Builds and Talents updated to reflect most recent Balance Patch.\n12 Apr. 2020: Builds and Talents updated to better reflect current meta.\n25 Nov. 2019: We are currently evaluating Tyrande's talent changes that came with the most recent Balance Patch for potential updates in the near future.\n29 Aug. 2019: Overhauled and updated Tyrande's Talent Builds and Talents section in general in accordance with the latest Balance Update.\n28 Nov. 2018: Swapped Level 7 talents with Level 1 talents, following the changes in today's balance patch.\n24 Oct. 2018: Changed Elune's Chosen from Not Recommended to Recommended and adjusted Talent Builds accordingly.\n10 Sep. 2018: Updated Tyrande's talents and talent builds.\n03 Sep. 2018: Completely overhauled and updated Tyrande's talents section in accordance with her latest rework.\n12 Sep. 2017: Changed Ranger from Not Recommended to Recommended.\n03 Sep. 2017: Updated talent descriptions on multiple tiers.\n16 Jul. 2017: Changed Darnassian Archery from Not Recommended to Recommended.\nShow more\nShow less"
+  }
+ ]
+}

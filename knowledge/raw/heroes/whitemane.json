@@ -1,0 +1,275 @@
+{
+ "slug": "whitemane",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/whitemane-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/whitemane-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/whitemane-talents"
+ },
+ "guide": [
+  {
+   "title": "Whitemane's Overview",
+   "id": "whitemanes-overview",
+   "text": "Whitemane is a Healer who can heal her allies with\nZeal by damaging her enemies. She is capable of\ntrading damage favourably against most Heroes, and must do so in order to\nmaximise her healing. If she is able to consistently deal damage, she can\ngenerate immense healing for her team."
+  },
+  {
+   "title": "Whitemane's Strengths and Weaknesses",
+   "id": "whitemanes-strengths-and-weaknesses",
+   "text": "Strengths\nHigh burst healing\nAccess to a cleanse effect\nWeaknesses\nVery poor waveclear and Camp clear\nLack of mobility\nHealing output largely dependent on damage dealt, therefore low out-of-combat healing\nNo crowd control\nWeak to healing reduction effects"
+  },
+  {
+   "title": "Whitemane's Talent Build Cheatsheet",
+   "id": "whitemanes-talent-build-cheatsheet",
+   "text": "Inquisition Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nWhitemane's Inquisition Build is based on Talents that increase the defensive and\noffensive effectiveness of Inquisition,\nmaking it a useful peeling tool and a powerful\nfollow up for allied engages.\nSubjugation at Level 13 will reduce the damage done by enemy Heroes\nand Shared Punishment at Level 16 will reduce their Armor,\na great combination of Talents that will shift damage and healing in your team's favor.\nTo do all of this more often, we have Pity the Frail at Level 1.\nSearing Lash Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nWhitemane's Searing Lash Build empowers Searing Lash, increasing your damage output\nand giving you access to crowd control in the late game.\nConsider going for this Build when you expect Inquisition\nto be interrupted too often and too quickly.\nBlock enemy Heroes with Harsh Discipline at Level 16\nto help your team deal more damage to them or to peel when needed.\nWhen doing so, you can easily get a cooldown reset from Lashing Out at Level 13.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nWhitemane's ARAM Build is based on Talents that increase the defensive and\noffensive effectiveness of Inquisition,\nmaking it a useful peeling tool and a powerful\nfollow up for allied engages.\nSubjugation at Level 13 will reduce the damage done by enemy Heroes\nand Shared Punishment at Level 16 will reduce their Armor,\na great combination of Talents that will shift damage and healing in your team's favor.\nTo do all of this more often, we have Pity the Frail at Level 1.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Whitemane's Synergies and Counters",
+   "id": "whitemanes-synergies-and-counters",
+   "text": "Whitemane synergizes with\nWhitemane has synergy with Heroes who can create a lot of space\n(for example Johanna) or that like to take prolonged team fights\n(such as Sonya) as she can keep healing them for long.\nDue to the high amount of raw healing she has access to, Whitemane\nis great when paired with Heroes who have Armor\nbaseline (like Garrosh) or with high uptime\n(notably Cassia).\nWhitemane is countered by\nWhitemane has very limited mobility, and must remain within the threat range\nof enemies in order to deal damage to heal her allies. She will struggle\nagainst Heroes who can displace her,\nas she lacks any kind of escape once\ncaught, or crowd control her to death.\nHeroes who can deal damage to Whitemane and her teammates\nwhile she cannot damage them back (for example Chromie)\nmay be difficult to play against. Additionally, Heroes who can significantly reduce or\nprevent healing received (such as Deckard Cain with Sapphire\nat Level 7) can greatly reduce the effectiveness of Zeal during teamfights."
+  },
+  {
+   "title": "Whitemane's Maps",
+   "id": "whitemanes-maps",
+   "text": "Whitemane's stronger maps\nWhitemane's average maps\nWhitemane's weaker maps\nWhitemane excels in short team fights and at contesting Objectives\nthat take less than 30 seconds to be secured (for example Infernal Shrines).\nIf the fight takes too long, she struggles to keep up with her Mana consumption.\nThe least interesting Maps to play Whitemane on are the ones\nwhere she cannot abuse her kit around the Objective,\nthat are heavily focused on Mercenaries (such as Sky Temple),\nor where the early game is too important (notably Braxis Holdout)."
+  },
+  {
+   "title": "Whitemane's Tips and Tricks",
+   "id": "whitemanes-tips-and-tricks",
+   "text": "Desperate Plea is the only Ability in Whitemane's kit that has a Mana cost, but you have to manage your Mana wisely because of the Desperation mechanic.\nUse Inquisition immediately after casting Searing Lash to maximise your damage output while they are Slowed.\nCast Searing Lash when you can hit enemy Heroes, preferably when they are under crowd control effects that impair their movements.\nScarlet Aegis can be used during team fights to apply Zeal to multiple allied Heroes without having to pay Desperation cost, given they are in range.\nDivine Reckoning should be preferably used as a follow-up to allied crowd control effects that can keep enemy Heroes in place.\nMake sure to apply Zeal to allied Heroes before using your Abilities to deal damage, otherwise you will not convert that damage into healing.\nWhen there are no enemy Heroes in range, make sure to use Clemency to sustain your team with out-of-combat healing.\nTo save Mana, try to use either Inquisition or Clemency to remove 1 Desperation stack before casting Desperate Plea again.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Whitemane's Role in the Current Meta",
+   "id": "whitemanes-role-in-the-current-meta",
+   "text": "Whitemane excels at relatively quick team fights, during which she can get value\nfrom her burst healing and have time to go back for restoring her Mana.\nAmong her Talents, she has various tools to save teammates from enemy Heroes\nwho hard engage, leading the opponents to expose\nfor getting a kill and then suddenly deny it.\nWhitemane needs to be able to deal damage in order to heal optimally, so a\nstrong frontline is necessary for her to reach peak performance. Her complete\nlack of waveclear is another weakness that will limit\nthe team compositions she can fit into. She must have allies who can generate\nenough map pressure to make up for her weak macro.\nAlthough Whitemane has clearly defined weaknesses, she can be powerful in many\nteam compositions, given they have a strong frontline and plenty of waveclear."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026 (talents page): Guide updated for the latest Balance Update.\n30 Sep. 2026 (abilities page): Guide updated for the latest Balance Update.\n30 Sep. 2026 (this page): Guide updated for the latest Balance Update.\n20 Jul. 2026 (talents page): Guide updated for the latest Patch.\n20 Jul. 2026 (abilities page): Guide updated for the latest Patch.\n20 Jul. 2026 (this page): Guide updated for the latest Patch.\n27 Jan. 2026 (talents page): Guide reviewed.\n27 Jan. 2026 (abilities page): Guide reviewed.\n27 Jan. 2026 (this page): Guide reviewed.\n26 Dec. 2025 (talents page): Guide reviewed.\n26 Dec. 2025 (abilities page): Guide reviewed.\n26 Dec. 2025 (this page): Guide reviewed.\n18 Apr. 2025 (talents page): Guide reviewed.\n18 Apr. 2025 (abilities page): Guide reviewed.\n18 Apr. 2025 (this page): Guide reviewed.\n13 Mar. 2025 (talents page): Guide reviewed for the latest Balance Update.\n13 Mar. 2025 (abilities page): Guide reviewed for the latest Balance Update.\n13 Mar. 2025 (this page): Guide reviewed for the latest Balance Update.\n21 Sep. 2023 (talents page): ARAM Build added.\n21 Sep. 2023 (this page): ARAM Build added.\n16 Jul. 2022 (this page): Maps updated.\n30 Mar. 2022 (talents page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (abilities page): Guide reviewed for the latest Balance Update.\n30 Mar. 2022 (this page): Guide reviewed for the latest Balance Update.\n12 Mar. 2022 (talents page): Builds updated.\n12 Mar. 2022 (this page): Builds updated.\n06 Mar. 2021 (talents page): Builds updated.\n06 Mar. 2021 (this page): Builds updated.\n03 Mar. 2021 (talents page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (abilities page): Guide reviewed for the latest Balance Update.\n03 Mar. 2021 (this page): Guide reviewed for the latest Balance Update.\n25 Feb. 2021 (talents page): New layout.\n16 Feb. 2021 (talents page): Builds and Maps updated.\n16 Feb. 2021 (this page): Builds and Maps updated.\n07 Jun. 2020 (talents page): Builds and Descriptions changed according to the latest Balance Update.\n07 Jun. 2020 (abilities page): Builds and Descriptions changed according to the latest Balance Update.\n07 Jun. 2020 (this page): Builds and Descriptions changed according to the latest Balance Update.\n05 Apr. 2020 (talents page): Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n05 Apr. 2020 (this page): Introduction partially revised to match new standards.\nTalent Build Cheatsheet updated to reflect the current metagame.\nRole in the Current Meta modified to reflect the current metagame and to remove the unnecessary part about the now fixed Experience Globes.\n23 Mar. 2020 (talents page): Missing information added.\n23 Mar. 2020 (abilities page): Outdated, misleading, and wrong information corrected.\n23 Mar. 2020 (this page): Outdated and misleading information corrected.\n15 Dec. 2019 (this page): Updated Role in the Current Meta to include information on current Nexus Anomaly.\n28 Nov. 2019 (talents page): Updated suggested builds to reflect changes in balance patch.\n28 Nov. 2019 (abilities page): Abilities section reviewed.\n28 Nov. 2019 (this page): Updated suggested builds to reflect changes in balance patch.\n17 Oct. 2019 (talents page): Updated Talent discussion and recommended builds to account for balance patch.\n17 Oct. 2019 (abilities page): Updated Abilities discussion to account for balance patch.\n17 Oct. 2019 (this page): Updated Talent and Abilities discussions, recommended builds, and Role in the Current Meta to account for balance patch.\n26 Sep. 2019 (talents page): Updated Talent discussion to account for Hero rework.\n26 Sep. 2019 (abilities page): Updated Talent discussion to account for Hero rework.\n26 Sep. 2019 (this page): Updated guide to account for Hero rework.\n23 Aug. 2018 (talents page): Updated Talent discussion to reflect balance patch.\n11 Aug. 2018 (talents page): Updated builds and added Desperate Plea build.\n07 Aug. 2018 (abilities page): Guide added.\n07 Aug. 2018 (this page): Guide added.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Whitemane's Tips and Tricks",
+   "id": "whitemanes-tips-and-tricks",
+   "text": "Desperate Plea is the only Ability in Whitemane's kit that has a Mana cost, but you have to manage your Mana wisely because of the Desperation mechanic.\nUse Inquisition immediately after casting Searing Lash to maximise your damage output while they are Slowed.\nCast Searing Lash when you can hit enemy Heroes, preferably when they are under crowd control effects that impair their movements.\nScarlet Aegis can be used during team fights to apply Zeal to multiple allied Heroes without having to pay Desperation cost, given they are in range.\nDivine Reckoning should be preferably used as a follow-up to allied crowd control effects that can keep enemy Heroes in place.\nMake sure to apply Zeal to allied Heroes before using your Abilities to deal damage, otherwise you will not convert that damage into healing.\nWhen there are no enemy Heroes in range, make sure to use Clemency to sustain your team with out-of-combat healing.\nTo save Mana, try to use either Inquisition or Clemency to remove 1 Desperation stack before casting Desperate Plea again."
+  },
+  {
+   "title": "Desperate Plea",
+   "id": "desperate-plea",
+   "text": "Desperate Plea\n(Q)\nWhitemane\nMana: 45\nHeal an allied Hero for 140 (+4% per level) and gain Desperation for 4 seconds.\nDesperation increases Desperate Plea's Mana cost by 40, and stacks up to 3 times.\nCurrent Mana Cost: 45\nDesperate Plea is the only Ability in Whitemane's kit that has a Mana cost.\nIt is also the only Ability in her kit that has no cooldown.\nWhile it does provide a small amount of direct healing, the primary function of\nDesperate Plea is to apply Zeal to allies relatively often. The\nDesperation mechanic allows you to decide on your own cooldown.\nCasting Desperate Plea often with\nfull Desperation stacks is not sustainable. You should\ngenerally prioritise allies that need Zeal during early fights. A good thing to remember\nis that the Zeal buff lasts longer than the Desperation debuff. This means that\nwith careful management, Zeal can be sustainably applied to several allies at\nonce.\nA good practice to default to is to cast Desperate Plea twice, and then\nwait for Desperation to expire before casting it again. While there will be\nmany situations that require you to improvise outside of this pattern, it is a\ngood starting point to preserve your Mana for when you need it.\nIn case of emergency, do not hesitate to use Desperate Plea\nseveral times in a row, regardless of how many Desperation stacks you have.\nThis way you can save an allied Hero from death at the cost of having to use\nyour Healing Fountain or your Hearthstone to get Mana before the next team fight,\nwhich does not give Experience to the enemy team and is faster than waiting for\nan allied Hero to respawn in the late game."
+  },
+  {
+   "title": "Inquisition",
+   "id": "inquisition",
+   "text": "Inquisition\n(W)\nWhitemane\nCooldown: 12 seconds\nChannel on an enemy Hero for up to 3 seconds, dealing 50 (+4% per level) damage every 0.5 seconds and Slowing them by 30%. Removes a stack of Desperation.\nShares a cooldown with Clemency.\nInquisition damages a target enemy Hero, but must\nbe channeled. This means that it will lock Whitemane in place unless it is\ncancelled or interrupted. You should choose wisely when to\nstart casting this Ability so you can keep channeling it\nfor longer but you should also not hesitate cancelling it to move in case of danger\nor to cast another Ability if needed.\nBecause Inquisition removes 1 stack of\nDesperation, Desperate Plea\nshould ideally be cast at least once just before channeling it.\nThis way, you can damage someone and then reapply\nZeal by spending less Mana.\nInquisition may also be used specifically\nfor the Slow effect. If an enemy\nHero is out of position and your Allies are nearby, reducing their Movement\nSpeed may help your team secure a kill. Inquisition has a rather long cooldown,\nand should be used this way only when allies are likely to complete the\ntakedown. Inquisition should be primarily used to maximise your healing output\nwhen allies need it."
+  },
+  {
+   "title": "Searing Lash",
+   "id": "searing-lash",
+   "text": "Searing Lash\n(E)\nWhitemane\nCooldown: 6 seconds\nAfter 0.5 seconds, smite enemies in a straight line for 82 (+4% per level) damage.\nIf the first strike hits an enemy Hero, a second strike will occur after a short delay.\nRepeatable Quest: Hit Heroes with Searing Lash.\nRepeatable Quest: Hit 3 Heroes with Basic Attacks.\nReward: Permanently increase Whitemane's maximum Health by 3 and Mana by 2. Heroes hit with the second strike of Searing Lash count as 2 hits.\nSearing Lash has a low cooldown, no Mana cost,\nand a very short cast animation. It should usually be cast whenever it is\navailable. It is good to practice casting it all the time, as this will\nincrease your familiarity with the Ability. Once constant use of Searing Lash\nis second nature, it will be easier to do while managing\nDesperate Plea's Desperation stacks.\nSearing Lash should ideally be on cooldown\nright before casting Inquisition\nbecause its cooldown will keep going while you are\nbusy channeling that."
+  },
+  {
+   "title": "Scarlet Aegis",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nScarlet Aegis\n(R)\nWhitemane\nHeroic\nCooldown: 60 seconds\nBolster the spirits of nearby allied Heroes, healing them for 300 (+4% per level) and granting them 40 Armor for 4 seconds.\nScarlet Aegis is a fantastic Heroic that heals\nall nearby allies, which applies Zeal to them. This means that you can apply\nZeal to all teammates simultaneously without gaining any Desperation stacks.\nThe armor provided by this Heroic is also very beneficial."
+  },
+  {
+   "title": "Divine Reckoning",
+   "id": "divine-reckoning",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDivine Reckoning\n(R)\nWhitemane\nHeroic\nCooldown: 75 seconds\nAfter 1 second, consecrate an area for 4 seconds, dealing 50 (+4% per level) damage every 0.5 seconds to enemies inside. 25% of the damage dealt to Heroes is returned as Mana.\nDivine Reckoning deals damage over time in an\narea. This can be a great way to increase your healing through Zeal. Divine\nReckoning works best in team compositions that can help trap enemies inside the\nconsecrated area."
+  },
+  {
+   "title": "Zeal",
+   "id": "zeal",
+   "text": "Zeal\n(D)\nWhitemane\nCooldown: 40 seconds\nWhitemane's healing Abilities apply Zeal for 8 seconds. Allies with Zeal are healed for 100% of the damage Whitemane deals to Heroes.\nActivate to gain 25% Spell Power and lose 15 Armor for 5 seconds. Can be cast while channeling abilities.\nZeal is an extremely powerful buff that can be\napplied to Whitemane and her allies. By converting damage into healing,\nit allows Whitemane to trade damage\nexceptionally well and to heal several members of her team at the same time.\nWhitemane's damage-dealing Abilities can and should\nbe thought of as potential healing, multiplied by the number of allied Heroes\nwith a Zeal buff on them. Because of this,\nit is important to think about how to maximise your damage per second when\nplaying her. This can be accomplished by casting her damage dealing Abilities\nas often as it is safe to do so.\nWhen the enemy team commits to a fight, it\nis ideal to have Zeal applied to all allied Heroes who are in combat.\nZeal can be applied to teammates with any healing Whitemane provides that is\nnot from Zeal itself. This means that\nDesperate Plea, Clemency,\nand Scarlet Aegis can be used to apply Zeal. Understanding\nthis is important for Mana management because Desperate Plea\nis the only tool Whitemane has that\nhas any Mana cost limiting its use.\nZeal's active component temporarily increases Whitemane's Spell Power and\nreduces her Armor. This can greatly increase Whitemane's healing\nand damage done with Abilities for a short\ntime but will also increase Whitemane's vulnerability to damage taken,\nso you should activate it only when not in danger."
+  },
+  {
+   "title": "Clemency",
+   "id": "clemency",
+   "text": "Clemency\n(1)\nWhitemane\nActivate to cast Inquisition on an allied Hero, healing them for up to 329 (+4% per level) over 3 seconds while Channeling. Removes a stack of Desperation\nShares a cooldown with Inquisition.\nClemency heals a target allied Hero, but must\nbe channeled. This means that it will lock Whitemane in place unless it is\ncancelled or interrupted. You should choose wisely when to\nstart casting this Ability so you can keep channeling it\nfor longer but you should also not hesitate to cancel it to move in case of danger\nor to cast another Ability if needed.\nBecause Clemency removes 1 stack of\nDesperation, Desperate Plea\nshould ideally be cast at least once just before channeling it.\nThis way, you can heal someone and then reapply\nZeal by spending less Mana."
+  },
+  {
+   "title": "Baseline Quest",
+   "id": "baseline-quest",
+   "text": "Whitemane has a Baseline Quest which requires to hit enemy Heroes\nwith Searing Lash. Every hit increases\nyour maximum Health by 3 and maximum Mana by 2.\nYou should not play too much around this Baseline Quest because\nWhitemane is perfectly playable without additional Health and Mana.\nThat said, any additional Health and Mana you gain is good for you."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026: Guide updated for the latest Balance Update.\n20 Jul. 2026: Guide updated for the latest Patch.\n27 Jan. 2026: Guide reviewed.\n26 Dec. 2025: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n13 Mar. 2025: Guide reviewed for the latest Balance Update.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n07 Jun. 2020: Builds and Descriptions changed according to the latest Balance Update.\n23 Mar. 2020: Outdated, misleading, and wrong information corrected.\n28 Nov. 2019: Abilities section reviewed.\n17 Oct. 2019: Updated Abilities discussion to account for balance patch.\n26 Sep. 2019: Updated Talent discussion to account for Hero rework.\n07 Aug. 2018: Guide added.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Pity the Frail (Level 1) Whitemane For every Hero hit with Searing Lash, lower the cooldown of Inquisition by 1 seconds. Allies below 30% Health receive 25% more healing from Whitemane."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Righteous Flame (Level 1) Whitemane Searing Lash deals 25% more damage to enemies. If the second strike hits an enemy Hero, they take an additional 25% damage and Whitemane gains 40% Attack Speed for 3 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Inquisitor's Prayer (Level 1) Whitemane Searing Lash restores 25 Mana for each Hero it hits, and Zeal lasts 2 additional seconds."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Unwavering Faith (Level 4) Whitemane Increase Whitemane's Basic Attack range by 1.1. Whitemane gains 20% increased Basic Attack damage for each active Zeal buff."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Martyrdom (Level 4) Whitemane Desperate Plea's healing is increased by 30%. Increase this by an additional 10% for each active Zeal."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Indulgence (Level 4) Whitemane Gain 5% Movement Speed. Increase this by an additional 5% for each active Zeal."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Zealous Spirit (Level 7) Whitemane Upon reaching 2 stacks of Desperation, Whitemane gains Zeal."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Saintly Greatstaff (Level 7) Whitemane Enemy Heroes hit by Searing Lash are marked for 3 seconds. Basic Attacks against them deal an additional 55 (+4% per level) Spell damage and remove the mark."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Intercession (Level 7) Whitemane Cooldown: 75 seconds Activate to make an ally Unstoppable for 1 second."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Scarlet Aegis (Level 10) Whitemane Cooldown: 60 seconds Bolster the spirits of nearby allied Heroes, healing them for 300 (+4% per level) and granting them 40 Armor for 4 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Divine Reckoning (Level 10) Whitemane Cooldown: 75 seconds After 1 second, consecrate an area for 4 seconds, dealing 50 (+4% per level) damage every 0.5 seconds to enemies inside. 25% of the damage dealt to Heroes is returned as Mana."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Subjugation (Level 13) Whitemane Inquisition reduces all damage the target deals by 50%."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Lashing Out (Level 13) Whitemane If Searing Lash's second strike hits an enemy Hero, reduce its cooldown to 1 second."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "Scarlet Wrath (Level 13) Whitemane Basic Attacks against Heroes increase the duration of all active Zeals by 0.75 seconds, restore 1% Mana to all Zeal targets, and lower the cooldown of Zeals activation by 4 seconds."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Radiance (Level 16) Whitemane Reaching 3 stacks of Desperation heals for 190 (+4% per level) and reapplies Zeal to allies with Zeal."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Shared Punishment (Level 16) Whitemane Upon casting, Inquisition can chain to an additional enemy Hero near its target, dealing 50 (+4% per level) damage every 0.5 seconds. Affected enemies lose 10 Armor."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Harsh Discipline (Level 16) Whitemane Hitting a Hero with Searing Lash while they are being targeted by Inquisition Roots them for 1.5 seconds. Passive: Reduce Inquisition's cooldown by 2 seconds."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Scarlet Crusade (Level 20) Whitemane Scarlet Aegis heals for 50% more and makes affected allies Unstoppable for 2 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Judgment Day (Level 20) Whitemane Divine Reckoning deals 50% more damage and pulls enemies to its center the first time it hits them."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Guiding Light (Level 20) Whitemane Cooldown: 30 seconds Activate to cast a permanent Zeal on an allied Hero that costs no Mana and doesn't grant Desperation. Only one can be active at a time and has global cast range. Increases the Spell Power bonus provided by Whitemane's trait by 15%."
+   },
+   {
+    "slot": 4,
+    "marker": "maybe",
+    "text": "Purge the Wicked (Level 20) Whitemane Cooldown: 40 seconds Activate to blast an enemy Hero with holy fire, reducing their Armor by 25 and dealing 300 (+4% per level) damage over 4 seconds."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Whitemane's Talent Build",
+   "id": "whitemanes-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n✘︎\n4\n?\n✓\n?\n7\n?\n?\n✓\n10\n✓\n?\n13\n✓\n?\n✘︎\n16\n?\n✓\n?\n20\n✓\n?\n?\n?\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Whitemane's Talent Build Cheatsheet",
+   "id": "whitemanes-talent-build-cheatsheet",
+   "text": "Inquisition Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nWhitemane's Inquisition Build is based on Talents that increase the defensive and\noffensive effectiveness of Inquisition,\nmaking it a useful peeling tool and a powerful\nfollow up for allied engages.\nSubjugation at Level 13 will reduce the damage done by enemy Heroes\nand Shared Punishment at Level 16 will reduce their Armor,\na great combination of Talents that will shift damage and healing in your team's favor.\nTo do all of this more often, we have Pity the Frail at Level 1.\nSearing Lash Build\nAdvanced\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nWhitemane's Searing Lash Build empowers Searing Lash, increasing your damage output\nand giving you access to crowd control in the late game.\nConsider going for this Build when you expect Inquisition\nto be interrupted too often and too quickly.\nBlock enemy Heroes with Harsh Discipline at Level 16\nto help your team deal more damage to them or to peel when needed.\nWhen doing so, you can easily get a cooldown reset from Lashing Out at Level 13.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\n?\nLevel 13\nLevel 16\nLevel 20\n?\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nWhitemane's ARAM Build is based on Talents that increase the defensive and\noffensive effectiveness of Inquisition,\nmaking it a useful peeling tool and a powerful\nfollow up for allied engages.\nSubjugation at Level 13 will reduce the damage done by enemy Heroes\nand Shared Punishment at Level 16 will reduce their Armor,\na great combination of Talents that will shift damage and healing in your team's favor.\nTo do all of this more often, we have Pity the Frail at Level 1."
+  },
+  {
+   "title": "Level 1 Talents for Whitemane",
+   "id": "level-1",
+   "text": "✔\nPity the Frail\n(Level 1)\nWhitemane\nFor every Hero hit with Searing Lash, lower the cooldown of Inquisition by 1 seconds. Allies below 30% Health receive 25% more healing from Whitemane.\nPity the Frail is a strong Talent that increases all of your healing to targets with\nlow Health and reduces the cooldown of Inquisition\nbased on the number of enemy Heroes hit by Searing Lash.\n?\nRighteous Flame\n(Level 1)\nWhitemane\nSearing Lash deals 25% more damage to enemies. If the second strike hits an enemy Hero, they take an additional 25% damage and Whitemane gains 40% Attack Speed for 3 seconds.\nRighteous Flame is a decent Talent that increases the damage done by\nSearing Lash and, if its second strike connects,\nyour Attack Speed by 25% for 4 seconds.\nAs a consequence of how Zeal works,\nthe additional damage provided by this Talent will let you heal more.\n✘\nInquisitor's Prayer\n(Level 1)\nWhitemane\nSearing Lash restores 25 Mana for each Hero it hits, and Zeal lasts 2 additional seconds.\nInquisitor's Prayer is a good Talent that restores\n25 Mana for each enemy Hero hit with Searing Lash\nand passively increases the duration of the Zeal buff\nfrom 8 to 10 seconds."
+  },
+  {
+   "title": "Level 4 Talents for Whitemane",
+   "id": "level-4",
+   "text": "?\nUnwavering Faith\n(Level 4)\nWhitemane\nIncrease Whitemane's Basic Attack range by 1.1. Whitemane gains 20% increased Basic Attack damage for each active Zeal buff.\nUnwavering Faith is a good Talent that gives you\nmore Attack Damage and more Attack Range, making it easier to deliver Basic Attacks.\nSince dealing damage increases healing\nvia Zeal, this Talent makes Whitemane heal more.\nThe additional Attack Range is useful for Talents based on Basic Attacks:\nRighteous Flame at Level 1,\nSaintly Greatstaff at Level 7,\nand Scarlet Wrath at Level 13.\n✔\nMartyrdom\n(Level 4)\nWhitemane\nDesperate Plea's healing is increased by 30%. Increase this by an additional 10% for each active Zeal.\nMartyrdom increases your healing without the need\nof enemy Heroes nearby, basically mitigating the main weakness that Whitemane has\nwithout lowering your healing output in team fights.\nWhen you want to heal multiple Heroes out of combat, try to use\nthe first Desperate Plea on who needs less healing\nbecause the second one will heal more. When in combat, however,\nyou should be careful because you may not have enough time for doing it.\n?\nIndulgence\n(Level 4)\nWhitemane\nGain 5% Movement Speed. Increase this by an additional 5% for each active Zeal.\nIndulgence gives Whitemane bonus Movement Speed\nthat helps you to dodge enemy Abilities, to land Basic Attacks,\nand to get in a better position for casting Abilities. While not a bad Talent,\nit does not directly increase your healing output, therefore it is the least\ninteresting choice of this Tier."
+  },
+  {
+   "title": "Level 7 Talents for Whitemane",
+   "id": "level-7",
+   "text": "?\nZealous Spirit\n(Level 7)\nWhitemane\nUpon reaching 2 stacks of Desperation, Whitemane gains Zeal.\nZealous Spirit is a tool that helps you manage\nyour Mana by creating a Zeal buff on yourself that does not generate a stack\nof Desperation. This means that you can have 3 recently activated Zeal buffs\nwith only 2 stacks of Desperation. Another way to think about this is that\nthe sustainable amount of active Zeal targets is increased from 2 to 3.\n?\nSaintly Greatstaff\n(Level 7)\nWhitemane\nEnemy Heroes hit by Searing Lash are marked for 3 seconds. Basic Attacks against them deal an additional 55 (+4% per level) Spell damage and remove the mark.\nSaintly Greatstaff makes the next Basic Attack\nagainst enemy Heroes recently hit with Searing Lash\ndeal bonus Spell Damage. Remember that the additional\ndamage will increase your healing output because of Zeal.\nIf you issue a Basic Attack command immediately after casting Searing Lash,\nyou can benefit from this Talent twice with a single cast because that\nBasic Attack will consume the first mark before the second mark will be applied.\n✔\nIntercession\n(Level 7)\nWhitemane\nCooldown: 75 seconds\nActivate to make an ally Unstoppable for 1 second.\nIntercession is one of two tools that Whitemane\nhas that can grant an ally Unstoppable, the other option being\nScarlet Crusade at Level 20.\nPick this Talent against team compositions who have access to\ncrowd control effects. You should\nposition in a way that you will not be the first target\nbecause it cannot be self-cast."
+  },
+  {
+   "title": "Level 10 Talents for Whitemane",
+   "id": "level-10",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\n✔\nScarlet Aegis\n(Level 10)\nWhitemane\nCooldown: 60 seconds\nBolster the spirits of nearby allied Heroes, healing them for 300 (+4% per level) and granting them 40 Armor for 4 seconds.\nScarlet Aegis is a strong Heroic Ability that heals all\nnearby allies and applies Zeal to them. This means that you can apply Zeal\nto all nearby allied Heroes simultaneously without gaining any Desperation stacks.\nThe bonus Armor provided by this Heroic is also very beneficial, and can counterbalance the\nArmor debuff that is caused by activating Zeal.\nIf you lose 15 Armor and gain 40 Armor, you end up having 25 Armor remaining.\n?\nDivine Reckoning\n(Level 10)\nWhitemane\nCooldown: 75 seconds\nAfter 1 second, consecrate an area for 4 seconds, dealing 50 (+4% per level) damage every 0.5 seconds to enemies inside. 25% of the damage dealt to Heroes is returned as Mana.\nDivine Reckoning is a good Heroic Ability that deals damage over time in an\narea, and restores some Mana based on damage dealt. The damage done by it will\nincrease your Zeal's healing. Divine Reckoning works best in team\ncompositions that can help trap enemy Heroes within its area."
+  },
+  {
+   "title": "Level 13 Talents for Whitemane",
+   "id": "level-13",
+   "text": "✔\nSubjugation\n(Level 13)\nWhitemane\nInquisition reduces all damage the target deals by 50%.\nSubjugation greatly reduces the damage of any\nenemies affected by Inquisition. It pairs extremely well with\nShared Punishment, which can double the number of\naffected enemy Heroes.\n?\nLashing Out\n(Level 13)\nWhitemane\nIf Searing Lash's second strike hits an enemy Hero, reduce its cooldown to 1 second.\nLashing Out allows you to cast Searing Lash much more\noften in team fights, as long as the second strike hits an enemy Hero.\nWhile in theory it is a powerful Talent, in practice it will be hard to get value from it,\nunless the enemy team has low mobility\nand/or your team has a lot of crowd control.\n✘\nScarlet Wrath\n(Level 13)\nWhitemane\nBasic Attacks against Heroes increase the duration of all active Zeals by 0.75 seconds, restore 1% Mana to all Zeal targets, and lower the cooldown of Zeals activation by 4 seconds.\nScarlet Wrath is a weak Talent that provides\nvarious effects when Whitemane hits an enemy Hero with Basic Attacks:\nextend the duration of all active Zeal buffs by a small amount,\nrestore a bit of Mana to all allied Heroes who have a Zeal buff on them,\nand reduce the cooldown of Zeal.\nA prolonged Zeal buff does not need to be refreshed by casting\nDesperate Plea that often,\nresulting in less Mana consumption during long team fights.\nThe fact that Basic Attacks on enemy Heroes restore Mana as a percentage\nof your maximum Mana means you will gain more Mana when having a lot of stacks\non your Baseline Quest.\nWe do not recommend this Talent because is does not have any strong synergy with other Talents\nand it has low value compared to the alternatives in the same Tier."
+  },
+  {
+   "title": "Level 16 Talents for Whitemane",
+   "id": "level-16",
+   "text": "?\nRadiance\n(Level 16)\nWhitemane\nReaching 3 stacks of Desperation heals for 190 (+4% per level) and reapplies Zeal to allies with Zeal.\nRadiance is situational Talent that can help Whitemane\nheal more than usual, mostly in the form of burst healing,\nbut also by refreshing the duration of any active Zeal,\nwhich helps when sustain healing is needed.\nA common trick is to use Scarlet Aegis to spread Zeal\nto make it trigger on as many allied Heroes as possible rather than only on 3 Heroes,\nhowever, you still need to use Desperate Plea to reach\n3 stack of Desperation in order to get the healing from Radiance.\nA secret trick is to make Radiance trigger\nby reaching 3 stacks of Desperation, use Inquisition\nor Clemency to remove 1 stack of Desperation,\nand make it trigger again by going back to 3 stacks of Desperation.\n✔\nShared Punishment\n(Level 16)\nWhitemane\nUpon casting, Inquisition can chain to an additional enemy Hero near its target, dealing 50 (+4% per level) damage every 0.5 seconds. Affected enemies lose 10 Armor.\nShared Punishment increases healing by doubling\nthe number of Inquisition targets, if two enemy Heroes happen to be close\nto each other, and reduces the Armor of enemy Heroes\naffected by Inquisition.\nShared Punishment will still cause Inquisition to\nchain to an enemy Hero if it is cast onto an allied Hero via Clemency.\nThis trick enables you to position more safely when you intend to use Inquisition on an enemy Hero\nor to reach an enemy Hero that is out of range.\n?\nHarsh Discipline\n(Level 16)\nWhitemane\nHitting a Hero with Searing Lash while they are being targeted by Inquisition Roots them for 1.5 seconds.\nPassive: Reduce Inquisition's cooldown by 2 seconds.\nHarsh Discipline is the only Talent in Whitemane's\nkit that can inflict hard crowd-control.\nTo make the Root happen, you have to cast Searing Lash\nand then follow with Inquisition immediately after.\nWhile being a crowd control Talent, Harsh Discipline might indirectly increase\nyour healing by ensuring that the second strike of Searing Lash\nwill hit an enemy Hero. The damage produced this way will be converted to healing thanks to\nZeal. All that said, following up\non crowd control by allied Heroes\nwill give you the same result, unless your team lacks crowd control,\nin which case you might like this Talent a bit more."
+  },
+  {
+   "title": "Level 20 Talents for Whitemane",
+   "id": "level-20",
+   "text": "✔\nScarlet Crusade\n(Level 20)\nWhitemane\nScarlet Aegis heals for 50% more and makes affected allies Unstoppable for 2 seconds.\nScarlet Crusade is a strong Talent that\ncan grant multiple allied Heroes, and even Whitemane, Unstoppable.\nDuring the late game, preventing or removing\ncrowd-control Abilities can often mean turning the\ngame in your team's favor.\n?\nJudgment Day\n(Level 20)\nWhitemane\nDivine Reckoning deals 50% more damage and pulls enemies to its center the first time it hits them.\nJudgment Day is a good upgrade for Divine\nReckoning that adds a bit of crowd-control to the\nconsecrated area. If your team composition's win condition is to\nchain damage dealing Heroics, this may be a good\noption.\n?\nGuiding Light\n(Level 20)\nWhitemane\nCooldown: 30 seconds\nActivate to cast a permanent Zeal on an allied Hero that costs no Mana and doesn't grant Desperation. Only one can be active at a time and has global cast range.\nIncreases the Spell Power bonus provided by Whitemane's trait by 15%.\nGuiding Light is a situational Talent that increases\nthe Spell Power gained from Zeal's activation\nfrom 25% to 40%. In addition to that, it can be activated to permanently grant\nZeal to an allied Hero.\nThanks to the infinite Zeal's duration\non a single Hero, you may want this Talent if your team has a Hero who likes\nto dive (for example Zeratul), however,\nthe default Zeal duration of 8 seconds is enough in most situations.\nThe additional Spell Power provided by this Talent when activating\nZeal can be quite useful to heal allied\nHeroes for more but it is generally less useful than either\nHeroic Ability's upgrade and can barely compete with\nPurge the Wicked's offensive uses.\n?\nPurge the Wicked\n(Level 20)\nWhitemane\nCooldown: 40 seconds\nActivate to blast an enemy Hero with holy fire, reducing their Armor by 25 and dealing 300 (+4% per level) damage over 4 seconds.\nPurge the Wicked is a good Talent that can be cast on an enemy Hero\nto reduce their Armor and deal damage over time, useful\nwhen your team struggles getting a kill.\nKeep in mind that the additional damage\nwill be converted to healing from your Trait, Zeal,\nmaking it a good option when you require additional healing as well."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Sep. 2026: Guide updated for the latest Balance Update.\n20 Jul. 2026: Guide updated for the latest Patch.\n27 Jan. 2026: Guide reviewed.\n26 Dec. 2025: Guide reviewed.\n18 Apr. 2025: Guide reviewed.\n13 Mar. 2025: Guide reviewed for the latest Balance Update.\n21 Sep. 2023: ARAM Build added.\n30 Mar. 2022: Guide reviewed for the latest Balance Update.\n12 Mar. 2022: Builds updated.\n06 Mar. 2021: Builds updated.\n03 Mar. 2021: Guide reviewed for the latest Balance Update.\n25 Feb. 2021: New layout.\n16 Feb. 2021: Builds and Maps updated.\n07 Jun. 2020: Builds and Descriptions changed according to the latest Balance Update.\n05 Apr. 2020: Talent Build partially revised to match new standards.\nTalent Build and Talent Build Cheatsheet modified to reflect the current metagame.\nTalent Descriptions modified to better describe when to pick them.\n23 Mar. 2020: Missing information added.\n28 Nov. 2019: Updated suggested builds to reflect changes in balance patch.\n17 Oct. 2019: Updated Talent discussion and recommended builds to account for balance patch.\n26 Sep. 2019: Updated Talent discussion to account for Hero rework.\n23 Aug. 2018: Updated Talent discussion to reflect balance patch.\n11 Aug. 2018: Updated builds and added Desperate Plea build.\nShow more\nShow less"
+  }
+ ]
+}

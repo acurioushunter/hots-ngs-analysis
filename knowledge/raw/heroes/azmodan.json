@@ -1,0 +1,300 @@
+{
+ "slug": "azmodan",
+ "source": {
+  "guide": "https://www.icy-veins.com/heroes/azmodan-build-guide",
+  "abilities": "https://www.icy-veins.com/heroes/azmodan-abilities-strategy",
+  "talents": "https://www.icy-veins.com/heroes/azmodan-talents"
+ },
+ "guide": [
+  {
+   "title": "Azmodan's Overview",
+   "id": "azmodans-overview",
+   "text": "Azmodan is a caster that revels in long-range assaults and sieging.\nDefined by his abnormally large Health pool and Globe of Annihilation\nAbility, Azmodan is able to scale his damage output beyond that of most other\nHeroes. As a tradeoff, he has very limited options for crowd control\nand mobility."
+  },
+  {
+   "title": "Azmodan's Strengths and Weaknesses",
+   "id": "azmodans-strengths-and-weaknesses",
+   "text": "Strengths\nHigh area of effect damage output potential and waveclear\nOutstanding survivability for a Ranged Assassin\nExcellent sieger, particularly when left alone\nWeaknesses\nLarge and relatively immobile; easy to body block\nVery vulnerable to interruption\nLimited team fight utility beyond raw damage; no crowd control"
+  },
+  {
+   "title": "Azmodan's Talent Build Cheatsheet",
+   "id": "azmodans-talent-build-cheatsheet",
+   "text": "Greed Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Greed build focuses primarily on split pushing\nthrough the use of Azmodan's minions\nand heroic ability. Demonic Invasion does significant\nsiege damage and can be used behind turrets directly\nonto a keep or fort and can slowly demolish them throughout the game. With the\ntalents buffing Azmodan's All Shall Burn,\nhe can provide some good teamfight presence as well.\nGluttony Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Gluttony exploits the synergy between the aforementioned Talent, Art of Chaos,\nTotal Annihilation, and Inescapable Annihilation, which are notable for making Globe of Annihilation powerful\nat all stages of the game. The rest of the build seeks to improves Summon Demon Warrior.\nAlthough inherently weak, Demon Warriors become significantly more useful with\nthe key Hellforged Armor and Brutish Vanguard Talents.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAzmodan's ARAM build is similar to the Gluttony Build and sees no changes in terms of playstyle.\nSpam Globe of Annhilation until you win the game.\nSee our Talents page for further information »\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Azmodan's Synergies and Counters",
+   "id": "azmodans-synergies-and-counters",
+   "text": "Azmodan synergizes with\nAzmodan's dependency on stacking up Annihilation makes him particularly\neffective with Heroes that can \"cook up\" Minion waves for him to last-hit.\nOtherwise, he works well with anyone that provides reliable crowd control,\nparticularly over an area of effect. Since Azmodan's early-game presence\ntends to be limited, avoid picking him along other lacklustre early-game\nHeroes such as Abathur or Murky.\nAzmodan is countered by\nGiven his reliance upon channeling, as both Globe of Annihilation\nand All Shall Burn are put on a full Cooldown after interruption,\nAzmodan is naturally countered by Heroes that provide reliable means of\nStunning or Silencing him. His tendency to split push also leaves\nhim vulnerable to aggressive gankers, especially due to his large\ncollision that makes him easy to hit and body block."
+  },
+  {
+   "title": "Azmodan's Maps",
+   "id": "azmodans-maps",
+   "text": "Azmodan's stronger maps\nAzmodan's average maps\nAzmodan's weaker maps\nAzmodan revels on Maps that are either very large or very small;\nthis is due to his broadly different play styles. Small, three-Lane Maps are\ngenerally good for Annihilation stacking, whereas larger Maps promote\nsplit pushing styles. Regardless, Azmodan can work\non most Maps, granted you adapt your strategy."
+  },
+  {
+   "title": "Azmodan's Tips and Tricks",
+   "id": "azmodans-tips-and-tricks",
+   "text": "Cast Demon Lieutenant whenever it is off-Cooldown; prioritise empty lanes with plenty of Minions, as the Ability has global range.\nCommunicate to your allies that you intend on stacking up Globe of Annihilation on a given Minion wave through Pings so that they may help you out or hold back on waveclearing.\nThe area of effect damage effect provided by Summon Demon Warrior can be helpful for stacking up Globe of Annihilation as well.\nKeep track of enemy crowd control so that Globe of Annihilation and All Shall Burn are not interrupted.\nSee our Abilities page for further information »"
+  },
+  {
+   "title": "Azmodan's Role in the Current Meta",
+   "id": "azmodans-role-in-the-current-meta",
+   "text": "Once classified as a Specialist, Azmodan has always been closer to\nhis new Ranged Assassin role. Following the rework, your primary\ngoal remains to inflict damage to whatever is in sight. The main difference between Azmodan and most regular\nAssassins, however, is that the majority of his damage can be countered or\notherwise avoided in one way or another. The trade-off for this weakness is that\nall of his Abilities double up as very effective sieging tools. As\nsuch, Azmodan players are expected to have a solid grasp on game flow,\nso as to know when to contribute to skirmishes and team fights, and when to\ncapitalise on isolation to deal important Structural damage.\nIn general, Azmodan does well against team compositions that lack hard-engages.\nHis very large Health pool and the threat of his Summon Demon Warrior and\nAll Shall Burn make him hard to assassinate, unlike most damage dealers.\nThe early game should be dedicated to gathering Globe of Annihilation stacks\nand passively pushing. As Tide of Sin becomes available, Azmodan\nbecomes significantly more threatening in team fights. Do not neglect\nparticipating in them even if it might cost you a few Minion kills."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "23 Feb. 2026 (talents page): Updated builds and talents.\n23 Feb. 2026 (this page): Updated builds and talents.\n21 May 2025 (talents page): Guide has been reviewed and no changes are needed for now.\n21 May 2025 (this page): Guide has been reviewed and no changes are needed for now.\n30 Jan. 2025 (talents page): Guide has been reviewed and no changes are needed for now.\n30 Jan. 2025 (abilities page): Guide has been reviewed and no changes are needed for now.\n30 Jan. 2025 (this page): Guide has been reviewed and no changes are needed for now.\n26 Sep. 2023 (this page): ARAM Build added.\n08 Feb. 2022 (this page): Guide has been reviewed and no changes are needed for now.\n19 May 2021 (talents page): Guide has been reviewed and no changes are needed for now.\n19 May 2021 (this page): Guide has been reviewed and no changes are needed for now.\n24 Mar. 2021 (talents page): Guide has been updated with talents reflecting the new build.\n24 Mar. 2021 (this page): Updated builds.\n09 Nov. 2020 (talents page): Guide has been reviewed and no changes are needed.\n09 Nov. 2020 (this page): Guide has been reviewed and no changes are needed.\n30 Aug. 2020 (this page): Role in Current Meta section updated.\n05 Apr. 2020 (talents page): Descriptions and recommendations updated for Battleborn and Trample.\n15 Feb. 2020 (talents page): Talents and recommendations updated to reflect February 12 patch rework.\n27 Jan. 2020 (talents page): Guide reviewed following January 22 balance patch. No changes to Talent recommendations.\n15 Dec. 2019 (this page): Added a note about current Anomaly.\n27 Jun. 2019 (talents page): Guide reviewed and updated.\n27 Jun. 2019 (abilities page): Guide reviewed and updated.\n27 Jun. 2019 (this page): Guide reviewed and updated.\n03 Mar. 2019 (talents page): Talent recommendations reviewed and deemed appropriate following February 27 rework.\n09 Aug. 2018 (talents page): Talent discussions added\n08 Aug. 2018 (abilities page): Ability information further updated.\n07 Aug. 2018 (talents page): Talent recommendations further updated following July 25 balance patch and metagame changes.\n11 Jul. 2018 (talents page): Talent recommendations updated following July 10 Azmodan rework patch.\n11 Jul. 2018 (abilities page): Ability information updated following July 10 Azmodan rework patch.\n11 Jul. 2018 (this page): Guide updated following July 10 Azmodan rework patch.\n14 Jan. 2018 (talents page): Updated Heroic Talent assessments. Updated Wrath build.\n14 Jan. 2018 (this page): Updated role in current meta.\n28 Jun. 2017 (talents page): Added Battleborn build and removed the other advised build, which had fallen out of fashion.\n26 Jun. 2017 (talents page): Updated the discussion and evaluation of many Talents.\n26 Jun. 2017 (abilities page): Updated Globe of Annihilation discussion and made a few more small tweaks on the page.\n08 Jan. 2017 (this page): Guide updated for Zul'jin's patch and moved to the new format.\nShow more\nShow less"
+  }
+ ],
+ "abilities": [
+  {
+   "title": "Azmodan's Tips and Tricks",
+   "id": "azmodans-tips-and-tricks",
+   "text": "Cast Demon Lieutenant whenever it is off-Cooldown; prioritise empty lanes with plenty of Minions, as the Ability has global range.\nCommunicate to your allies that you intend on stacking up Globe of Annihilation on a given Minion wave through Pings so that they may help you out or hold back on waveclearing.\nThe area of effect damage effect provided by Summon Demon Warrior can be helpful for stacking up Globe of Annihilation as well.\nKeep track of enemy crowd control so that Globe of Annihilation and All Shall Burn are not interrupted."
+  },
+  {
+   "title": "Globe of Annihilation",
+   "id": "globe-of-annihilation",
+   "text": "Globe of Annihilation\n(Q)\nAzmodan\nMana: 70\nCooldown: 10 seconds\nShoot a globe of destruction, dealing 176 (+4% per level) damage on impact. Deals 50% damage to non-Heroes.\nQuest: Hitting a Hero or killing a Minion within 3 seconds of being hit by Globe Of Annihilation grants 2 stacks of Annihilation. Each stack increases its damage by 1.\nMythic Reward: After gaining 450 Annihilation, the area of Globe of Annihilation is increased by 15% and it deals 150 additional damage.\nGlobe of Annihilation is Azmodan's defining Ability. It deals a moderate\namount of damage from a remarkable range and over a large area. Its most notable\nfeature, however, lies in its ever-increasing damage: as Globe of Annihilation\nhits Heroes or Minions within 3 seconds of their death (or outright kills\nthem), its damage is permanently increased by 2, up to 450. This damage stacking\neffect is known as Annihilation, with each point of Annihilation representing\none additional point of damage.\nAzmodan's Level 1 Talents— Greed,\nGluttony, and Wrath—all\ncomplement Globe of Annihilation by improving your ability to gather\nAnnihilation, provided a certain condition is met. As such, Globe of\nAnnihilation's general usage is dictated by your first Talent choice, although\nthe Ability's main purpose always remains to inflict heavy amounts of area of\neffect damage and, by extension, waveclear distant lanes. Much of Azmodan's playstyle is\nbased on these Talents, and thus, Globe of Annihilation. Mastering it is\ntherefore quintessential to mastering Azmodan himself.\nBesides dealing damage, Globe of Annihilation has quite a few uses, thanks to\nits long range. Many Objectives, such as Cursed Hollow's Tribute mechanic,\nare interrupted by damage, making this Ability a safe way of\ndelaying capture. Furthermore, the fact that the Ability briefly grants vision\nin its flight path can be used to scout points of interest, such as bushes or even Mercenary\nCamps. It can even be used to assist in waveclearing a distant lane.\nIt is worth noting that Globe of Annihilation has a traveling time that\nbecomes longer the further away the Ability is aimed, which translates into a\nlonger impact delay. This means that in order to hit an intended target, you\nmust first learn to estimate how long it takes for the Ability's projectile to\nhit at different distances, on top of having to take into consideration the\nAbility's oddly specific 0.5625 seconds casting time. This task is made more\ndifficult by the fact that Globe of Annihilation is prone to be interrupted.\nThen, you need to account for the potential movement of your target. Although\ncrowd control can help with successful hits,\ngrasping how to properly use Globe of Annihilation takes hours of practice, and\nyet, the Ability's raw power justifies this steep requirement absolutely."
+  },
+  {
+   "title": "Summon Demon Warrior",
+   "id": "summon-demon-warrior",
+   "text": "Summon Demon Warrior\n(W)\nAzmodan\nMana: 25\nCharges: 2\nRecharge Time: 10 seconds\nSpawn a Demon Warrior that marches forward. Warriors deal 53 (+4% per level) damage per Attack. Loses Health over 17 seconds. Deals 100% bonus damage to Minions and Mercenaries.\nUsable while Channeling All Shall Burn.\nSummon Demon Warrior is a straightforward Ability that should be used\nwhenever a general need for more bodies arises, such as during team fights, when\npushing, or when claiming Mercenary Camps. Demon Warriors are useful\nfor absorbing damage from Structures, Objectives, Mercenary Camps, and the\noccasional skillshot (such as\nHook) that may be coming your way.\nIt is worth mentioning that the Demon Warriors are tuned in such a way that they\ndeal a significant amount of damage in the early stages of the game, and help\ndefine Azmodan as an excellent duelist. Be wary of using Demon Warrior\nwithout purpose however, as it competes with Globe of Annihilation for\nvaluable Mana while being significantly less powerful.\nBeyond these facts, Demon Warriors can be used as targets for your\nDemon Lieutenant when no Minions are nearby. They are also useful for scouting\npotentially dangerous areas, such as bushes, and make waveclearing\nfaster as needed. The Brutish Vanguard Talent available at\nLevel 13 makes Demon Warriors disruptive by causing them to reduce the movement\nspeed of nearby enemies."
+  },
+  {
+   "title": "All Shall Burn",
+   "id": "all-shall-burn",
+   "text": "All Shall Burn\n(E)\nAzmodan\nMana: 25\nCooldown: 6 seconds\nChannel a beam of death on an enemy, dealing 128 (+4% per level) damage per second for 2.5 seconds. If the Channel lasts its full duration, deal an extra 340 (+4% per level) damage to the target.\nAzmodan's Movement Speed is reduced by 30% while Channeling.\nAll Shall Burn is one of the highest sources of single-target DPS in the game.\nThis power comes at the cost of greatly reducing Azmodan's Movement Speed for as\nlong as the Ability is being channeled. This is not usually a problem when\ntrying to claim Mercenary Camps, sieging, or dueling opponents without\nthe necessary interrupts to break your channel.\nHowever, one must be more careful during team fights or other situations where\nyou may become a target.\nA key to successfully using All Shall Burn is to get to know which Heroes can\nreliably interrupt you so that the Ability is not countered. This is because\nmost of the Ability's damage comes from its final burst. Tanks can\ntypically provide such interrupts, although the list of Heroes that possess\ninterrupting Abilities is far more extensive, and should be thoroughly studied.\nIt is also a good idea to try and keep track of the cooldowns of said\ninterrupting Abilities so that you may exploit their downtime for full hits. You\nmay also want to try and capitalise on your own teammates' crowd control to\nfully channel All Shall Burn.\nWhile laning, All Shall Burn can effectively be used to bully your\nopponents. The mere sight of the beam the Ability produces is often enough to\ntrigger players into running away from you—and rightly so, as there\nare few Heroes who can effectively trade with Azmodan. All\nShall Burn's excellent Mana cost-to-damage ratio makes it worth using\non-Cooldown against anything more resilient than your typical Lane Minion."
+  },
+  {
+   "title": "Demonic Invasion",
+   "id": "heroic-1",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nDemonic Invasion\n(R)\nAzmodan\nHeroic\nMana: 60\nCooldown: 100 seconds\nRain a small army of Demonic Grunts down on enemies, dealing 85 (+4% per level) damage per impact. Grunts deal 30 (+4% per level) damage, have 750 (+4% per level) Health and last up to 20 seconds. When Grunts die they explode, dealing 40 (+4% per level) damage to nearby enemies, doubled against enemy Heroes.\nUsable while Channeling All Shall Burn.\nDemonic Invasion is a simple \"fire-and-forget\" Ability that is typically\nused right on top of one's intended target. Because the Demonic Grunts\nsummoned by Demonic Invasion move very slowly and deal most of their damage\nthrough Basic Attacks, ideal targets include those without gap closers\nor under the effect of crowd control. In most games, this\nmeans your target will be Ranged Assassins, who will also have to\ndeal with the Demonic Grunts hindering their movement.\nFor PvE purposes, and particularly for\nsieging, Demonic Invasion deals enough damage to\nbe worth casting against Forts and Keeps. Its main advantage there is that of\nsummoning expendable bodies to absorb the attacks of Structures, allowing your\nteam to force kills where you would otherwise need Minions or Mercenaries. Such\ndecisions should never be taken lightly however, as Heroic Abilities are\nimportant to have for team fights. If you think you might be about to fight,\nconsider how long Demonic Invasion's cooldown is before using it."
+  },
+  {
+   "title": "Tide of Sin",
+   "id": "tide-of-sin",
+   "text": "In this section we discuss how this Heroic Ability works and give some tips on how to use it.\nIf you are looking for a detailed explanation on when and why you should pick it,\ncheck out the dedicated section in the Talent Build page.\nTide of Sin\n(R)\nAzmodan\nHeroic\nMana: 100\nCooldown: 20 seconds\nActivate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.\nUsable while Channeling All Shall Burn.\nTide of Sin is key to turning Globe of Annihilation into a truly devastating\narea of effect damage-dealing tool. In this regard, its purpose is twofold: to\nincrease the damage of Globe of Annihilation, and to ease the process of\ngathering Annihilation stacks by allowing the Ability to instantly kill\nMinion waves, which then translates into more damage for future casts. Tide of\nSin is otherwise used very sparingly, so as to try and conserve its cooldown\nfor impending team fights."
+  },
+  {
+   "title": "Demon Lieutenant",
+   "id": "demon-lieutenant",
+   "text": "Demon Lieutenant\n(D)\nAzmodan\nCooldown: 60 seconds\nSummon a Demon Lieutenant at any allied Mercenary, Minion, or Azmodan Demon. The Lieutenant will cast Demonic Smite every 7 seconds, instantly killing an enemy Minion. Loses Health over 21 seconds.\nUsable while Channeling All Shall Burn.\nDemon Lieutenant allows Azmodan players to improve their immediate lane\npresence, or apply pressure to distant lanes, thanks to the Ability's global\ncast range. One essential aspect of playing Azmodan is to develop a certain\nlevel of discipline with Demon Lieutenant, so that it is used whenever it comes\noff-Cooldown. This becomes even more important as Talents that improve the Demon\nLieutenant are acquired.\nThe Demon Lieutenant's real strength lies in its Demonic Smite, which\ninstantly kills an enemy Minion every 7 seconds. Otherwise, it is rather weak by\nitself. You should avoid using it for skirmishes and team fights, where it is\nliable to die off without having much of an impact."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "30 Jan. 2025: Guide has been reviewed and no changes are needed for now.\n27 Jun. 2019: Guide reviewed and updated.\n08 Aug. 2018: Ability information further updated.\n11 Jul. 2018: Ability information updated following July 10 Azmodan rework patch.\n26 Jun. 2017: Updated Globe of Annihilation discussion and made a few more small tweaks on the page.\nShow more\nShow less"
+  }
+ ],
+ "talents": {
+  "1": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Greed (Level 1) Azmodan Globe of Annihilation deals 15% more damage to non-Heroic targets. Quest: After gaining 225 Annihilation, increase the range of All Shall Burn by 25% and Demon Warriors gain 20% Attack Speed and Movement Speed. Globe of Annihilation's damage penalty against Minions and Mercenaries is removed."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Gluttony (Level 1) Azmodan Increase the number of stacks of Annihilation gained by hitting Heroes with Globe of Annihilation from 2 to 4. Quest: After gaining 225 Annihilation, each enemy hit by Globe of Annihilation reduces its cooldown by 0.25 seconds, doubled against Heroes. Globe of Annihilation's damage penalty against Minions and Mercenaries is removed."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Wrath (Level 1) Azmodan Every other Basic Attack against Heroes or Structures grant Annihilation. Quest: After gaining 225 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 3 seconds by 85% the amount of Annihilation he has. Globe of Annihilation's damage penalty against Minions and Mercenaries is removed."
+   }
+  ],
+  "4": [
+   {
+    "slot": 1,
+    "marker": "no",
+    "text": "✘︎ Army of Hell (Level 4) Azmodan Summon Demon Warrior spawns an additional Demon, but its cooldown is increased by 10 seconds."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Hellforged Armor (Level 4) Azmodan Demon Warriors and Lieutenants gain 20 Armor and lose 25% less health per second."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Battleborn (Level 4) Azmodan Reduce the Mana cost of Summon Demon Warrior from 25 to 20. Azmodan's Basic Attacks reduce the cooldown of Summon Demon Warrior by 0.75 seconds and Demon Lieutenant by 1.5 seconds."
+   }
+  ],
+  "7": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Art of Chaos (Level 7) Azmodan If Globe of Annihilation hits 2 or more Heroes, restore 40 Mana and gain an extra 2 Annihilation."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Bombardment (Level 7) Azmodan After casting Globe of Annihilation, Azmodan's Basic Attacks within the next 3 seconds have an additional 1.5 range and can hit 3 additional targets. Hitting Heroes with Basic Attacks empowered by Bombardment grant 1 Annihilation."
+   },
+   {
+    "slot": 3,
+    "marker": "yes",
+    "text": "Master of Destruction (Level 7) Azmodan If All Shall Burn's Channel kills or lasts its full duration, All Shall Burn's final damage applies to all enemies in an area around the target and grants 1 Annihilation per Hero hit."
+   }
+  ],
+  "10": [
+   {
+    "slot": 1,
+    "marker": "yes",
+    "text": "Demonic Invasion (Level 10) Azmodan Mana: 60 Cooldown: 100 seconds Rain a small army of Demonic Grunts down on enemies, dealing 85 (+4% per level) damage per impact. Grunts deal 30 (+4% per level) damage, have 750 (+4% per level) Health and last up to 20 seconds. When Grunts die they explode, dealing 40 (+4% per level) damage to nearby enemies, doubled against enemy Heroes. Usable while Channeling All Shall Burn."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Tide of Sin (Level 10) Azmodan Mana: 100 Cooldown: 20 seconds Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage. Usable while Channeling All Shall Burn."
+   }
+  ],
+  "13": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Brutish Vanguard (Level 13) Azmodan Demon Warriors and Lieutenants gain 25% increased Health. Demon Warriors Slow attacked targets by 30%."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Cydaea's Kiss (Level 13) Azmodan Reduces the Channel time of All Shall Burn by 0.5 seconds. If All Shall Burn's Channel kills or lasts its full duration against a Hero, Azmodan is healed for 8% of his maximum Health."
+   },
+   {
+    "slot": 3,
+    "marker": "no",
+    "text": "✘︎ Chain of Command (Level 13) Azmodan The cooldown of Demon Lieutenants' Demonic Smite is reduced by 2 seconds and they grant 25% increased damage to nearby friendly Minions, Mercenaries, and Azmodan's summoned Demons."
+   }
+  ],
+  "16": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Total Annihilation (Level 16) Azmodan Globe of Annihilation damages Heroes for an additional 4% of their maximum Health."
+   },
+   {
+    "slot": 2,
+    "marker": "yes",
+    "text": "Hell Rift (Level 16) Azmodan If All Shall Burn Channels for its full duration or kills the target, a Demon Warrior is summoned at the target's location and all Demon Warriors deal 35% increased damage for 5 seconds."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Trample (Level 16) Azmodan Cooldown: 20 seconds Activate to charge a short distance, dealing 275 (+4% per level) damage and Slowing enemies caught in the path by 60% for 1.25 second. After hitting an enemy Hero with Trample, reduce the cooldown of Azmodan's Heroic Ability by 25%."
+   }
+  ],
+  "20": [
+   {
+    "slot": 1,
+    "marker": "maybe",
+    "text": "Siegebreaker (Level 20) Azmodan Azmodan's Demons deal 40% increased damage to Structures."
+   },
+   {
+    "slot": 2,
+    "marker": "maybe",
+    "text": "Black Pool (Level 20) Azmodan Globes of Annihilation empowered by Tide of Sin also leave a Black Pool at their impact location for 5 seconds. Enemies within the pool lose 8 Armor per second, up to 15, and take 56 (+4% per level) damage per second."
+   },
+   {
+    "slot": 3,
+    "marker": "maybe",
+    "text": "Inescapable Annihilation (Level 20) Azmodan Globe of Annihilation can now be cast globally."
+   },
+   {
+    "slot": 4,
+    "marker": "yes",
+    "text": "Sin's Grasp (Level 20) Azmodan All Shall Burn Slows enemy Heroes. While active, the target is Slowed by 15%, and if it lasts its full duration, they are Slowed by 50% for 2.5 seconds. If All Shall Burn's Channel kills or lasts its full duration against a Hero, reduce its cooldown by 50%."
+   }
+  ]
+ },
+ "talent_pages": [
+  {
+   "title": "Azmodan's Talent Build",
+   "id": "azmodans-talent-build",
+   "text": "Level\nChoices\n1\n✓\n?\n?\n4\n✘︎\n✓\n✘︎\n7\n?\n?\n✓\n10\n✓\n?\n13\n?\n✓\n✘︎\n16\n?\n✓\n?\n20\n?\n?\n?\n✓\nCreate your own build and share it with friends!"
+  },
+  {
+   "title": "Azmodan's Talent Build Cheatsheet",
+   "id": "azmodans-talent-build-cheatsheet",
+   "text": "Greed Build\nRecommended\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Greed build focuses primarily on split pushing\nthrough the use of Azmodan's minions\nand heroic ability. Demonic Invasion does significant\nsiege damage and can be used behind turrets directly\nonto a keep or fort and can slowly demolish them throughout the game. With the\ntalents buffing Azmodan's All Shall Burn,\nhe can provide some good teamfight presence as well.\nGluttony Build\nSituational\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\n?\nLevel 20\n?\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nThe Gluttony exploits the synergy between the aforementioned Talent, Art of Chaos,\nTotal Annihilation, and Inescapable Annihilation, which are notable for making Globe of Annihilation powerful\nat all stages of the game. The rest of the build seeks to improves Summon Demon Warrior.\nAlthough inherently weak, Demon Warriors become significantly more useful with\nthe key Hellforged Armor and Brutish Vanguard Talents.\nARAM Build\nARAM\nLevel 1\nLevel 4\nLevel 7\nLevel 10\nLevel 13\nLevel 16\nLevel 20\nCopy build to clipboard\nBuild copied!\nTalent calculator »\nAzmodan's ARAM build is similar to the Gluttony Build and sees no changes in terms of playstyle.\nSpam Globe of Annhilation until you win the game."
+  },
+  {
+   "title": "Level 1 Talents for Azmodan",
+   "id": "level-1",
+   "text": "✓\nGreed\n(Level 1)\nAzmodan\nGlobe of Annihilation deals 15% more damage to non-Heroic targets.\nQuest: After gaining 225 Annihilation, increase the range of All Shall Burn by 25% and Demon Warriors gain 20% Attack Speed and Movement Speed. Globe of Annihilation's damage penalty against Minions and Mercenaries is removed.\n?\nGluttony\n(Level 1)\nAzmodan\nIncrease the number of stacks of Annihilation gained by hitting Heroes with Globe of Annihilation from 2 to 4.\nQuest: After gaining 225 Annihilation, each enemy hit by Globe of Annihilation reduces its cooldown by 0.25 seconds, doubled against Heroes. Globe of Annihilation's damage penalty against Minions and Mercenaries is removed.\n?\nWrath\n(Level 1)\nAzmodan\nEvery other Basic Attack against Heroes or Structures grant Annihilation.\nQuest: After gaining 225 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 3 seconds by 85% the amount of Annihilation he has. Globe of Annihilation's damage penalty against Minions and Mercenaries is removed."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion",
+   "text": "This tier improves Globe of Annihilation.\nGreed is the best pick when going for\na siege type of build on Azmodan.\nGreed synergizes well with Demonic Invasion and allows you to split-push better\nand take down Forts or Keeps in the mid and late game.\nGluttony is the Talent to go for if you want more teamfight presence.\nThe Quest effect is particularly powerful, as reducing\nGlobe of Annihilation's cooldown is invaluable for gathering\nAnnihilation stacks beyond 200 and generally damaging opponents during\nteam fights.\nWrath trades Gluttony's reliability for potentially\nmore Annihilation stacks. Wrath is typically picked against double Tank team\ncompositions on 2-lane Maps. Such compositions often allow you to get many\nBasic Attacks off, which greatly improves your overall Annihilation stack\ngeneration. Wrath's Quest effect also provides more burst damage than the\nalternatives. Wrath synergises particularly well with Bombardment."
+  },
+  {
+   "title": "Level 4 Talents for Azmodan",
+   "id": "level-4",
+   "text": "✘︎\nArmy of Hell\n(Level 4)\nAzmodan\nSummon Demon Warrior spawns an additional Demon, but its cooldown is increased by 10 seconds.\n✓\nHellforged Armor\n(Level 4)\nAzmodan\nDemon Warriors and Lieutenants gain 20 Armor and lose 25% less health per second.\n✘︎\nBattleborn\n(Level 4)\nAzmodan\nReduce the Mana cost of Summon Demon Warrior from 25 to 20. Azmodan's Basic Attacks reduce the cooldown of Summon Demon Warrior by 0.75 seconds and Demon Lieutenant by 1.5 seconds."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-1",
+   "text": "This Tier improves Summon Demon Warrior.\nArmy of Hell doubles the burst\npower of Summon Demon Warrior\nat the cost of doubling its cooldown. Although this Talent may seem like an\nattractive effect at first glance, Summon Demon Warrior's true utility comes\nfrom using the Ability to selectively take damage for you, absorb skillshots, and\nreducing the Movement Speed of enemies (through Brutish Vanguard later on).\nThe alternative Hellforged Armor Talent fulfills this purpose much better,\non top of providing more opportunities to use Summon Demon Warrior by keeping\nits reasonable 10-second cooldown untouched. Further, summoning two Demon\nWarriors are at once makes them prone to be killed by area of effect damage.\nArmy of Hell is an easy trap to fall into.\nHellforged Armor makes Demon Warriors\nand Demon Lieutenant surprisingly\nresilient, allowing them to survive Hero attacks to ultimately be more\ndisruptive and deal more damage. The 4-second increased duration also represents\na 40% overall damage increase for Demon Warriors (20% for Demon Lieutenants),\nshould they remain alive for the full duration. This Talent single-handedly\nmakes Summon Demon Warrior worth using in most cases, whereas it would\notherwise be a very situational Ability.\nBattleborn provides both\nSummon Demon Warrior and Demon Lieutenant\nwith a reasonable cooldown reduction effect. This effect, however, requires\nAzmodan to constantly deliver Basic Attacks to see any value, which is rarely\npossible during team fighting situations, even when combined with other Basic\nAttack-oriented Talents. Battleborn also suffers from being a very poor\nlate-game Talent due to the general late-game weakness of Demon Warriors. The\nHellforged Armor alternative is just too good to not pick."
+  },
+  {
+   "title": "Level 7 Talents for Azmodan",
+   "id": "level-7",
+   "text": "?\nArt of Chaos\n(Level 7)\nAzmodan\nIf Globe of Annihilation hits 2 or more Heroes, restore 40 Mana and gain an extra 2 Annihilation.\n?\nBombardment\n(Level 7)\nAzmodan\nAfter casting Globe of Annihilation, Azmodan's Basic Attacks within the next 3 seconds have an additional 1.5 range and can hit 3 additional targets. Hitting Heroes with Basic Attacks empowered by Bombardment grant 1 Annihilation.\n✓\nMaster of Destruction\n(Level 7)\nAzmodan\nIf All Shall Burn's Channel kills or lasts its full duration, All Shall Burn's final damage applies to all enemies in an area around the target and grants 1 Annihilation per Hero hit.\nThis tier improves Annihilation generation."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-2",
+   "text": "Art of Chaos is a straightforward Talent with a great payoff that helps\nwith both Mana management and gathering additional Annihilation. Since you\nshould be already be aiming to hit as many Heroes as possible with\nGlobe of Annihilation at all times, Art of Chaos requires no adjustment\nfrom your part; simply keep on dunking.\nBombardment is a situational Talent picked alongside Wrath.\nIts main advantage is making it easier for Azmodan to deliver Basic Attacks,\nthanks to the added range provided by the Talent.\nMaster of Destruction helps with\nsplit-pushing, as it provides\nAzmodan with more area of effect damage. When synergized with the other\nTalents, it can reliably get you those last stacks\nof Annihiliaton as well."
+  },
+  {
+   "title": "Level 10 Talents for Azmodan",
+   "id": "level-10",
+   "text": "✓\nDemonic Invasion\n(Level 10)\nAzmodan\nMana: 60\nCooldown: 100 seconds\nRain a small army of Demonic Grunts down on enemies, dealing 85 (+4% per level) damage per impact. Grunts deal 30 (+4% per level) damage, have 750 (+4% per level) Health and last up to 20 seconds. When Grunts die they explode, dealing 40 (+4% per level) damage to nearby enemies, doubled against enemy Heroes.\nUsable while Channeling All Shall Burn.\n?\nTide of Sin\n(Level 10)\nAzmodan\nMana: 100\nCooldown: 20 seconds\nActivate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.\nUsable while Channeling All Shall Burn."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-3",
+   "text": "In this section we discuss when and why to pick a given Heroic Ability.\nIf you want to read how they work in detail and/or you are looking for some tips on how to use them,\ncheck them out on the Abilities and Strategy page.\nDemonic Invasion summons Demonic Grunts\nand does great siege damage.\nThis Ability should rarely be used in team fights as it would\njust be used for a type of wall, which could work in specific scenarios if\nthe enemy team consists of skillshot Heroes whose Abilities can be blocked.\nTide of Sin is a generic way of improving\nAzmodan's area of effect damage output and waveclear,\nand incidentally, his ability to generate Annihilation."
+  },
+  {
+   "title": "Level 13 Talents for Azmodan",
+   "id": "level-13",
+   "text": "?\nBrutish Vanguard\n(Level 13)\nAzmodan\nDemon Warriors and Lieutenants gain 25% increased Health. Demon Warriors Slow attacked targets by 30%.\n✓\nCydaea's Kiss\n(Level 13)\nAzmodan\nReduces the Channel time of All Shall Burn by 0.5 seconds. If All Shall Burn's Channel kills or lasts its full duration against a Hero, Azmodan is healed for 8% of his maximum Health.\n✘︎\nChain of Command\n(Level 13)\nAzmodan\nThe cooldown of Demon Lieutenants' Demonic Smite is reduced by 2 seconds and they grant 25% increased damage to nearby friendly Minions, Mercenaries, and Azmodan's summoned Demons."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-4",
+   "text": "This tier provides utility.\nBrutish Vanguard synergises well with\nHellforged Armor by multiplying\nthe survivability of your Demon Warriors. Further, this Talent provides Azmodan\nwith something his baseline kit sorely lacks: a Slow.\nOn top of improving your Demon Warriors' uptime, this effect helps\nwith hitting both Globe of Annihilation and\nAll Shall Burn's end effect.\nCydaea's Kiss provides Azmodan with some\nself sustain and improves the reliability of\nAll Shall Burn slightly. This Talent also helps with\nAnnihilation generation through\nMaster of Destruction.\nChain of Command improves Azmodan's\nmap presence by allowing you to bolster\nMercenary Camps and generally split-push faster. Although it is a powerful\nTalent, Chain of Command suffers from Demon Lieutenant's long 1-minute\nCooldown. This means that for any given match, you will only get to benefit from\nChain of Command a few times, and this, under the specific circumstances where\nno opposing Hero is able to kill off your Demon Lieutenant."
+  },
+  {
+   "title": "Level 16 Talents for Azmodan",
+   "id": "level-16",
+   "text": "?\nTotal Annihilation\n(Level 16)\nAzmodan\nGlobe of Annihilation damages Heroes for an additional 4% of their maximum Health.\n✓\nHell Rift\n(Level 16)\nAzmodan\nIf All Shall Burn Channels for its full duration or kills the target, a Demon Warrior is summoned at the target's location and all Demon Warriors deal 35% increased damage for 5 seconds.\n?\nTrample\n(Level 16)\nAzmodan\nCooldown: 20 seconds\nActivate to charge a short distance, dealing 275 (+4% per level) damage and Slowing enemies caught in the path by 60% for 1.25 second.\nAfter hitting an enemy Hero with Trample, reduce the cooldown of Azmodan's Heroic Ability by 25%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-5",
+   "text": "This Tier improves Azmodan's late-game damage output.\nTotal Annihilation significantly increases\nGlobe of Annihilation's damage. This\nincrease ranges between 25 and 75% of the Ability's base damage (before taking\nAnnihilation stacks into consideration) depending on the target's total Health.\nAssuming full Annhilation stacks, this damage increase instead ranges between\n10 and 30%. Regardless, few Talents in Heroes of the Storm provide such a\nsteep damage increase to any given Ability, making Total Annihilation incredibly\npotent.\nHell Rift has powerful split-pushing implications\nand notable synergy with most All Shall Burn-related Talents.\nDemon Warriors from Summon Demon Warrior\nand from Hell Rift itself will deal more damage,\nhowever, Demonic Lieutenants from Demon Lieutenant\nand Demonic Grunts from Demonic Invasion will not.\nTrample provides Azmodan with a welcomed short-ranged, high damage\ngap closer. Trample is particularly powerful against some of the more frail\nMelee Assassins, such as Genji and Zeratul. It is also worth picking\nas tool for escaping dive-heavy team compositions or those that feature\nAzmodan's counters, including Malthael and Muradin. If you do not feel\npressured, however, Total Annihilation is likely to provide more overall\ndamage."
+  },
+  {
+   "title": "Level 20 Talents for Azmodan",
+   "id": "level-20",
+   "text": "?\nSiegebreaker\n(Level 20)\nAzmodan\nAzmodan's Demons deal 40% increased damage to Structures.\n?\nBlack Pool\n(Level 20)\nAzmodan\nGlobes of Annihilation empowered by Tide of Sin also leave a Black Pool at their impact location for 5 seconds. Enemies within the pool lose 8 Armor per second, up to 15, and take 56 (+4% per level) damage per second.\n?\nInescapable Annihilation\n(Level 20)\nAzmodan\nGlobe of Annihilation can now be cast globally.\n✓\nSin's Grasp\n(Level 20)\nAzmodan\nAll Shall Burn Slows enemy Heroes. While active, the target is Slowed by 15%, and if it lasts its full duration, they are Slowed by 50% for 2.5 seconds.\nIf All Shall Burn's Channel kills or lasts its full duration against a Hero, reduce its cooldown by 50%."
+  },
+  {
+   "title": "Discussion",
+   "id": "discussion-6",
+   "text": "This tier further improves Azmodan's late-game damage output.\n\nSiegebreaker allows Demonic Invasion\nto become a small win condition. With\nSiegebreaker, a single cast of Demonic Invasion plus Demon Lieutenant can destroy a Fort\n(approximately 13000 damage at Level 20). A single cast of Demonic Invasion\nplus Demon Lieutenant and three full-Annihilation Globe of Annihilations\ncan destroy a Keep (17000 damage). To do so, you need to time Demonic Invasion\nin a way that Minion Waves do not distract your Demonic Grunts. Further,\nSiegebreaker makes for a powerful Core racing Talent. Do not be too greedy,\nhowever; you may still need your Heroic Ability to win a decisive team fight.\nBlack Pool should be selected when you do not need the extended range from\nInescapable Annihilation. On smaller maps Azmodan already has long enough range\nto be able to cast his globe anywhere.\nInescapable Annihilation gives Azmodan a much larger presence in matches.\nThis talent makes your globe have unlimited range, meaning you can cast it anywhere on the map from where you are standing.\nThis can be very useful for pushing other lanes or trying to snipe kills on enemy heroes or structures.\nSin's Grasp improves the reliability\nof All Shall Burn, not unlike\nCydaea's Kiss. This Talent provides Azmodan with some teamfight presence\nand the Slow can be useful\nto help your team catch up to your target."
+  },
+  {
+   "title": "Changelog",
+   "id": "changelog",
+   "text": "23 Feb. 2026: Updated builds and talents.\n21 May 2025: Guide has been reviewed and no changes are needed for now.\n30 Jan. 2025: Guide has been reviewed and no changes are needed for now.\n19 May 2021: Guide has been reviewed and no changes are needed for now.\n24 Mar. 2021: Guide has been updated with talents reflecting the new build.\n09 Nov. 2020: Guide has been reviewed and no changes are needed.\n05 Apr. 2020: Descriptions and recommendations updated for Battleborn and Trample.\n15 Feb. 2020: Talents and recommendations updated to reflect February 12 patch rework.\n27 Jan. 2020: Guide reviewed following January 22 balance patch. No changes to Talent recommendations.\n27 Jun. 2019: Guide reviewed and updated.\n03 Mar. 2019: Talent recommendations reviewed and deemed appropriate following February 27 rework.\n09 Aug. 2018: Talent discussions added\n07 Aug. 2018: Talent recommendations further updated following July 25 balance patch and metagame changes.\n11 Jul. 2018: Talent recommendations updated following July 10 Azmodan rework patch.\n14 Jan. 2018: Updated Heroic Talent assessments. Updated Wrath build.\n28 Jun. 2017: Added Battleborn build and removed the other advised build, which had fallen out of fashion.\n26 Jun. 2017: Updated the discussion and evaluation of many Talents.\nShow more\nShow less"
+  }
+ ]
+}
