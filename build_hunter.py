@@ -117,7 +117,11 @@ def build():
         load_matchups(db, scope, load(d / "matchups.json"))
         load_friends(db, scope, "friend", load(d / "friends.json"))
         load_friends(db, scope, "foe", load(d / "foes.json"))
-        load_talents(db, scope, load(d / "talents.json"))
+        talents = load(d / "talents.json")
+        refetched = d / "talents_missing.json"  # heroes that were rate limited on the first pull
+        if refetched.exists():
+            talents.update({h: v for h, v in load(refetched).items() if "talentData" in v})
+        load_talents(db, scope, talents)
     # One hp_game table: the "all" history already contains every Storm League game.
     history = sorted((RAW / "all" / "match_history").glob("page_*.json")) or sorted((RAW / "sl" / "match_history").glob("page_*.json"))
     load_games(db, history)

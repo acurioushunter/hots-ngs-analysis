@@ -2,22 +2,20 @@
 
 Last updated 2026-10-06.
 
-## Done
+## Done (2026-10-06)
 | Data | Where | Notes |
 |---|---|---|
 | Icy Veins: 91 heroes, 15 maps, 19 tier lists, 15 general guides | `knowledge/raw/`, `knowledge/hots_knowledge.db` | Complete |
-| hunterstag Heroes Profile, all game types and Storm League only | `knowledge/raw/hunter/hp/`, `knowledge/hunter_hp.db` | 4,735 games in the match history |
+| hunterstag Heroes Profile, all game types and Storm League only | `knowledge/raw/hunter/hp/`, `knowledge/hunter_hp.db` | 4,735 games, talents for every hero (10 refetched) |
 | NGS Div C West season 22: 6 teams, 38 players, each player all time plus seasons 20, 21, 22 | `knowledge/raw/ngs/`, `knowledge/ngs.db` | Complete |
-| Storm League overview, hero, map, role stats and seasons 32 to 34 hero stats for 16 other players | `knowledge/raw/players_hp/` | See below |
+| Storm League overview, hero, map, role stats and seasons 32 to 34 hero stats for the other 37 players | `knowledge/raw/players_hp/`, `knowledge/players_hp.db` | Complete |
 
-Players finished in `players_hp`: Tauros, HarkinEH, MooseCannons, TebbyBear33, Korosive, Mosley, SilverJackal, Icon, Nae, oddthought, Imbuement, Valkamer, UnicycleYay, ultear, WitsEnd, ShadowDroid.
+All four `test_*.py` files print OK.
 
-## Still to do (Heroes Profile stopped answering with a Cloudflare challenge after about 130 requests)
-1. **Storm League pulls for 21 players:** Jaws (3 of 8 files done), Zephy, Hiscabibbel, YataGarasu, Edawg187, Batlin, moon, Xylophone, Cymfonique, OnyxBat, Grombri, Ltlbearista, SoulShepherd, chelsi, NorthrnTouch, R1EZad, R1ERockYourW, R1EJuaneba, Shadowleaves, Vacuity, Xehlyv. Four of these are on PRA (Ltlbearista, SoulShepherd, chelsi, NorthrnTouch).
-2. **hunterstag Storm League talents** for 10 heroes that hit the rate limit: Tassadar, Thrall, Tychus, Tyrael, Valla, Varian, Xul, Yrel, Zarya, Zul'jin. Valla and Tychus matter most.
-3. **Compact database for `players_hp`** (a `build_players_hp.py` plus test, same style as `build_hunter.py`). Do this after step 1.
-4. If usage is tight, skip steps 1 and 3 for non PRA, non upcoming opponents. The NGS data is the most relevant and it is complete.
-5. Seasons 20 and 21 of the other NGS divisions, and the six missing Good Lordy games, are not pulled.
+## Not pulled (optional, later)
+- NGS seasons 20 and 21 for other divisions, and the six missing Good Lordy games (Heroes Profile does not have them).
+- Per player talent builds and full match histories for the other 37 players (deliberately skipped, too much data).
+- Other NGS divisions and the other 36 or so teams in NGS.
 
 ## How to resume
 1. In your own Chrome, open https://www.heroesprofile.com and pass the Cloudflare check yourself. Never bypass it.
