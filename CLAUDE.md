@@ -24,6 +24,7 @@ Private repo `acurioushunter/hots-ngs-analysis`. Purpose: help Hunter and his te
 ## Draft Room (the real time draft tool)
 - `python build_playbook.py` regenerates `playbook/data.json`, `facts/teams/*.md`, `facts/maps/*.md`, `draft_tool.html` (stand alone) and `draft_tool_artifact.html` (the page fragment published as the phone artifact). Then `python test_playbook.py` and `node test_engine.js`.
 - Judgment lives in `playbook/config/our_team.json` (pools), `playbook/config/rules.json` (rules with reasons and evidence) and `playbook/notes/`. Engine is `playbook/engine.js`, UI is `playbook/app.html`. How to update: `UPDATE_PLAYBOOK.md`.
+- Published phone artifact (private): https://claude.ai/artifact/QuQ1FdsJfFn7sH3988KrYU. To update it, publish `draft_tool_artifact.html` with that `url` (read it first). Do not create a second artifact.
 - Never edit the generated files by hand. A hero named in config must exist or the build stops.
 
 ## State as of 2026-10-07
