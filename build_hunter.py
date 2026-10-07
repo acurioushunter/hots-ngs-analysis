@@ -26,6 +26,10 @@ CREATE TABLE hp_game(replay_id INT PRIMARY KEY, game_type TEXT, date TEXT, map T
                      level INT, kills INT, assists INT, takedowns INT, deaths INT, hero_damage INT, siege_damage INT, healing INT,
                      damage_taken INT, xp_contribution INT, time_spent_dead INT, time_on_fire INT, first_to_ten INT,
                      player_mmr INT, hero_mmr INT, role_mmr INT, mmr_change REAL, award TEXT,
+                     minion_damage INT, creep_damage INT, structure_damage INT, summon_damage INT, merc_camp_captures INT,
+                     watch_tower_captures INT, time_cc_enemy_heroes INT, escapes INT, vengeance INT, outnumbered_deaths INT,
+                     teamfight_hero_damage INT, teamfight_damage_taken INT, multikill INT, regen_globes INT, town_kills INT,
+                     highest_kill_streak INT, physical_damage INT, spell_damage INT,
                      l1 TEXT, l4 TEXT, l7 TEXT, l10 TEXT, l13 TEXT, l16 TEXT, l20 TEXT);
 """
 
@@ -87,19 +91,24 @@ def load_talents(db, scope, by_hero):
                        (scope, hero, b["games_played"], b["wins"], b["win_rate"], *[b[t]["title"] for t in TIERS]))
 
 
+EXTRA_STATS = ("minion_damage", "creep_damage", "structure_damage", "summon_damage", "merc_camp_captures", "watch_tower_captures",
+               "time_cc_enemy_heroes", "escapes", "vengeance", "outnumbered_deaths", "teamfight_hero_damage", "teamfight_damage_taken",
+               "multikill", "regen_globes", "town_kills", "highest_kill_streak", "physical_damage", "spell_damage")
+
+
 def game_row(g):
     talents = [(g.get(t) or {}).get("title") for t in TIERS]
     return (g["replayID"], g["game_type"]["short_name"], g["game_date"], g["game_map"]["name"], g["hero"]["name"],
             g["role"], g["winner"], g["level"], g["kills"], g["assists"], g["takedowns"], g["deaths"], g["hero_damage"],
             g["siege_damage"], g["healing"], g["damage_taken"], g["experience_contribution"], g["time_spent_dead"],
             g["time_on_fire"], g["first_to_ten"], g["player_mmr"], g["hero_mmr"], g["role_mmr"], g["player_change"],
-            g["match_award"], *talents)
+            g["match_award"], *[g[k] for k in EXTRA_STATS], *talents)
 
 
 def load_games(db, pages):
     for page in pages:
         for g in load(page)["data"]:
-            db.execute("INSERT OR IGNORE INTO hp_game VALUES (" + ",".join("?" * 32) + ")", game_row(g))
+            db.execute("INSERT OR IGNORE INTO hp_game VALUES (" + ",".join("?" * 50) + ")", game_row(g))
 
 
 def build():

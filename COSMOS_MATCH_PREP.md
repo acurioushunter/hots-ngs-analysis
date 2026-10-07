@@ -51,6 +51,20 @@ Built from the Season 22 Div C West games we have (53 games), Heroes Profile NGS
 - **Maps this season:** Infernal Shrines 5-0, Tomb 3-1, Towers of Doom 2-1, Volskaya 1-1, Braxis 1-0, Cursed Hollow 1-0, Garden of Terror 0-1, Battlefield of Eternity 0-1.
 - **Draft side:** first pick 7-2, second pick 6-3.
 
+## Your teammates (Storm League and NGS)
+| Player | Role | NGS Season 22 | Storm League |
+|---|---|---|---|
+| Ltlbearista | Healer | Brightwing 10 games, 6-4 | 4,898-4,691 (51%), Gold 5. Brightwing 1,977 games (57%), Rehgar 56%, Anduin 49%. Recent: Rehgar 58%, Anduin 48%. |
+| SoulShepherd | Bruiser / offlane | Blaze 9 games, 5-4 | 3,889-3,808 (50.5%), Platinum 4. Stitches 687 (55%), Anub'arak 606 (57%). Recent: Leoric, Stitches 59%, Blaze 62%. |
+| NorthrnTouch | Tank | Johanna 6 games, 3-3, Muradin 4-0 | 796-766 (51%), Platinum 1. Anub'arak 55%, Johanna 52%, Mei 57%. Recent: Johanna 60%, Muradin 40%. |
+| chelsi | Ranged assassin | Tychus 7 games, 5-2, Thrall 3-0 | Does not use this account for Storm League. |
+
+- **chelsi:** On Tychus or Thrall PRA is 8-2, on any other hero 4-6. Tell chelsi to stay on Tychus or Thrall tonight.
+- **NorthrnTouch:** Muradin is 4-0 in NGS, and he has played it only 15 times in the last three Storm League seasons (40%), so treat the Muradin edge as an NGS fact, not a Storm League one.
+- **Ltlbearista:** Brightwing is the most played and best NGS hero. Cosmos banned Anduin never against us, we banned it twice.
+- **HealsOnly** (the account you recently played Storm League with, 71 games together at 62%) is not in these numbers yet.
+- Your full breakdown, with Hanzo, hero pool and team picture, is in `HUNTER_DEEP_DIVE.md`.
+
 ## Suggested plan
 - **Bans to consider:** Anub'arak (Nae is at 86% on it and has been banned 10 times for a reason) and Kael'thas or Tassadar (SilverJackal's two picks). Keep Muradin open for NorthrnTouch since Cosmos has never banned it.
 - **Our comp:** at least one of Muradin or Stitches on the frontline, plus sustain. Their poke and siege comps are 0-2, so they are weakest when forced out of brawl.
