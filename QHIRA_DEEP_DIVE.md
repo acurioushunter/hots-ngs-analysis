@@ -50,7 +50,7 @@ Icy Veins also says she is weak on enclosed maps (Towers, Shrines) and strong on
 3. **If Qhira is open and he takes her, treat it as a good sign and punish it.** Pick the Cosmos shape: a frontline with a stun (Johanna if she is open, otherwise Varian or Muradin), Brightwing or Rehgar with crowd control, and a ranged damage hero with poke. Keep our fights compact so she cannot flank.
 4. **Kill her in fights.** She takes 36k to 62k damage a game in fights, so she is the front of their dive. If we kill her, the 1.6k to 3.3k damage numbers appear.
 5. **Pick a clearer that answers Ragnaros and Li-Ming on camp maps** (Garden): Leoric, Blaze, Tassadar. Do not ask Sylvanas to clear.
-6. **If E.T.C. is on the table, NorthrnTouch should play it only with a plan.** It is in Icy Veins' counter list, but he was 1/6/7 on it in the Garden game and 1-2 this season.
+6. **If E.T.C. is on the table, NorthrnTouch should play it only with a plan.** It is in Icy Veins' counter list, but he was 1/6/7 on it in the Garden game and 2-2 this season.
 
 ## Honest limits
 - Five Qhira games, three of them against Cosmos, and no timeline data, so I cannot say when she snowballed.
