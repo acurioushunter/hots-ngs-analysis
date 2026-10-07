@@ -29,3 +29,37 @@ Seeds are likely CCS 1, COSMOS 2, PRA 3, Good Lordy 4, R1E 5, Anomaly 6.
 - Round 1: PRA v Anomaly, Good Lordy v R1E.
 - Round 2: COSMOS v (PRA or Anomaly), CCS v (Good Lordy or R1E).
 - So the likely semifinal is **PRA v COSMOS**, and CCS and COSMOS are on opposite sides, meeting only in the West final.
+
+## Last season (Season 21, Division D) for comparison
+Source: NGS past seasons page and the Challonge bracket "Division D Season 21 Playoffs". 10 teams, top 8 made the playoffs.
+
+### Regular season
+| Place | Team | Points | Games |
+|---|---|---|---|
+| 1 | **Phoenix Rising Amethyst** | 39 | 21-2 |
+| 2 | COSMOS | 28 | 15-5 |
+| 3 | Cream Team | 27 | 15-9 |
+| 4 | Dehakin' Donuts | 23 | 12-7 |
+| 5 | Habitual Line Steppers (withdrawn, still played) | 23 | 13-8 |
+| 6 | F.H.K. Marry Kill | 17 | 9-10 |
+| 7 | Sugarman's Soggy Sandwich Shop | 11 | 7-14 |
+| 8 | 30 Seconds to Mosh | 9 | 5-14 |
+| 9 | YCMYCCaST: Ahsoka (Da Lanes) | 6 | 4-16 |
+| 10 | Beyonce Gnolls | 2 | 2-18 |
+
+### Playoffs (single elimination, best of 5, seeded 1 to 8 in regular season order)
+| Round | Match | Result |
+|---|---|---|
+| Quarterfinal | #1 PRA v #8 30 Seconds to Mosh | **PRA 3-0** |
+| Quarterfinal | #4 Dehakin' Donuts v #5 Habitual Line Steppers | Line Steppers 3-1 |
+| Quarterfinal | #3 Cream Team v #6 F.H.K. Marry Kill | Cream Team 3-0 |
+| Quarterfinal | #2 COSMOS v #7 Sugarman's | COSMOS 3-1 |
+| Semifinal | #1 PRA v #5 Habitual Line Steppers | **PRA 3-0** |
+| Semifinal | #2 COSMOS v #3 Cream Team | Cream Team 3-1 (COSMOS out) |
+| Final | #1 PRA v #3 Cream Team | **PRA 3-0, champions** |
+
+### What it tells us about the bracket
+- It is a fixed seeded bracket (1 v 8, 4 v 5 on one side, 3 v 6, 2 v 7 on the other). The 1 seed and the 2 seed are on opposite sides and can only meet in the final.
+- Seeds 2 and 3 meet in the semifinal. Last season the 3 seed (Cream Team) beat the 2 seed (COSMOS) 3-1 and then lost the final to us.
+- Cosmos was never on our side of the bracket. We did not play them in the playoffs.
+- With 6 teams this season the top two seeds should get byes, so the matching shape is: 1 v (4/5 winner), 2 v (3/6 winner), then the final. That puts seeds 2 and 3 in the same half exactly like last season.
