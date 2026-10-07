@@ -31,4 +31,4 @@ Bans against PRA by all opponents: Junkrat 15, Tychus 6, Thrall 5, Chromie 5, Sy
 ## What it means for the final and the semifinal
 - **CCS leaves Towers of Doom and Infernal Shrines alone,** and those are two of its best maps (4-1 and 2-1, and 2-0 when it picks). We ban both. They will probably ban Braxis Holdout plus Cursed Hollow or Alterac Pass, which are not maps we need.
 - **COSMOS bans Alterac Pass every time,** so do not count on it. They have never banned Infernal Shrines (their 5-0 map), Tomb, Volskaya or Towers of Doom, so those are open for them to pick. We ban Infernal Shrines.
-- **COSMOS bans Junkrat in round one half the time and Johanna 6 times,** so expect NorthrnTouch's Johanna to be contested.
+- **COSMOS bans Junkrat in 5 of 21 games and Johanna in 6,** and banned Junkrat in all three games of the Oct 6 match, so expect Junkrat gone and Johanna contested.
