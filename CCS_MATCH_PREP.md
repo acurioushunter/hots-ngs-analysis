@@ -161,3 +161,5 @@ Do not give UnicycleYay a free Sylvanas when it is open early, he plays it 3-1. 
 - Who picks the map and who gets first pick (a coin toss, the winner chooses).
 - CCS's other seasons, since this is only Season 22 (18 games).
 - The three missing Good Lordy games. Heroes Profile did not capture them.
+
+See `DRAFT_LESSONS_AND_COMPS_BY_MAP.md` for comps by map (ranged count, camps) and last night's Tomb draft replay.
