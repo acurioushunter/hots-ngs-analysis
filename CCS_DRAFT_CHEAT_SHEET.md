@@ -91,6 +91,9 @@ Always check: **2 real damage dealers**, **2 or more marksmen if we can**, and a
 **Our two map bans:** Towers of Doom and Infernal Shrines (CCS 4-1 and 2-1, they never ban either). Maps we want left: Sky Temple, Tomb, Garden.
 **If we have the map pick:** choose **Sky Temple**, then Tomb, then Garden. They usually ban Braxis and Cursed Hollow, so those stay out.
 
+## 6b. Qhira (UnicycleYay)
+All 18 CCS games checked. CCS is 2-3 when it plays Qhira (ratings 47, 48, 50, 62, 71), 6-1 when we or another team bans it, and 4-2 when it was never picked. Against us it came out once, in Garden on Sep 22 game 2: UnicycleYay went 71 rating with 2 deaths and we lost. In the four games we banned it we went 1-3, so the ban did not save us, and the one unbanned game we lost was the one where he played it well. Read: not a hero that wins CCS games on its own, but his best game against us. With Sylvanas ours, Qhira is where UnicycleYay goes (his other options are Hanzo 2-1 and Tychus 2-0). Put it on the **slot 11 or slot 10 react list**, not in the round one bans. If it is open, NorthrnTouch **E.T.C.** or **Diablo** is the counter.
+
 ## 7. In game, not in the draft
 - **Deaths decide this series.** We lost every game where we died 15 or more times and won both where we died 7 or fewer.
 - Kill **ûltear** (Gold 3) first and make WitsEnd leave Lunara. Do not chase kills on the side lanes where ShadowDroid and WitsEnd can catch us.
