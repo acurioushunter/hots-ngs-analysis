@@ -21,6 +21,11 @@ Private repo `acurioushunter/hots-ngs-analysis`. Purpose: help Hunter and his te
 - Raw JSON in `knowledge/raw/`. Analysis scripts at the top level (`analyze_*.py`), builders `build_*.py`, checks `test_*.py` (all must print OK after a rebuild).
 - Pull and resume notes: `PULL_STATUS.md`. New NGS games: `ngs_games_to_raw.py`, then `build_ngs_division.py` and `test_ngs_division.py`.
 
+## Draft Room (the real time draft tool)
+- `python build_playbook.py` regenerates `playbook/data.json`, `facts/teams/*.md`, `facts/maps/*.md`, `draft_tool.html` (stand alone) and `draft_tool_artifact.html` (the page fragment published as the phone artifact). Then `python test_playbook.py` and `node test_engine.js`.
+- Judgment lives in `playbook/config/our_team.json` (pools), `playbook/config/rules.json` (rules with reasons and evidence) and `playbook/notes/`. Engine is `playbook/engine.js`, UI is `playbook/app.html`. How to update: `UPDATE_PLAYBOOK.md`.
+- Never edit the generated files by hand. A hero named in config must exist or the build stops.
+
 ## State as of 2026-10-07
 - 56 of 56 Division C West games on Heroes Profile are on disk (through 23347, the Oct 6 PRA v Cosmos match). Six Good Lordy games are not on Heroes Profile.
 - Hunter's Storm League data ends Oct 5.

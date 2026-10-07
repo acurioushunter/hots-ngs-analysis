@@ -1,0 +1,1 @@
+- CCS is 4-1 here. We are 0-1. Ban it. If it comes up: gankers, camp clearers, an offlaner who can double soak.

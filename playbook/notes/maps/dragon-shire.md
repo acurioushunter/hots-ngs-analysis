@@ -1,0 +1,1 @@
+- Needs sustain and a durable shrine holder. CCS beat us here in 26 minutes with 18 of our deaths. Brightwing or Rehgar, Leoric for the shrine, Hanzo is their pick to ban.

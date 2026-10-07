@@ -1,0 +1,52 @@
+{
+  "_help": "Judgment calls live here, each with a reason and where the evidence is. Edit, add or delete rules freely, then run build_playbook.py. scope: opp (team name or *), map (map name or *), side (first, second or *). kinds: pick_bonus {heroes}, ban_bonus {heroes}, ban_discount {heroes: multiplier below 1}, ranged_target {min and or max}, min_marksmen {n}, note {text}.",
+  "weights": {
+    "pool_primary": 5, "pool_secondary": 3, "pool_practice": 1.2, "pool_unknown": -3, "pool_avoid": -6,
+    "evidence": 3, "map_tier": 0.8, "counter": 1.5, "synergy": 0.5, "lock_urgency": 2.0, "denial": 1.0,
+    "role_gap": 2.5, "marksman_need": 1.2, "ranged_target": 1.5, "flex": 0.8, "irreplaceable": 0.5
+  },
+  "tier_values": {"S": 2, "A": 1, "B": 0, "C": -0.7, "D": -1.5},
+  "rules": [
+    {"id": "g-marksmen", "scope": {"opp": "*", "map": "*", "side": "*"}, "kind": "min_marksmen", "n": 2,
+     "why": "Teams with two or more marksmen are 13-6 in Division C West S22. Facing two or more with one or none of our own is 5-12.",
+     "evidence": "COMP_AND_POKE_INSIGHTS.md"},
+    {"id": "m-tomb", "scope": {"opp": "*", "map": "Tomb of the Spider Queen", "side": "*"}, "kind": "ranged_target", "min": 3,
+     "why": "Tomb: 7-3 with three or more ranged heroes (Blaze not counted) and 2-6 with two or fewer. Icy Veins wants poke for the objective and high wave clear.",
+     "evidence": "analyze_ranged_by_map.py"},
+    {"id": "m-garden", "scope": {"opp": "*", "map": "Garden of Terror", "side": "*"}, "kind": "ranged_target", "max": 2,
+     "why": "Garden: 4-1 with two or fewer ranged heroes and 0-3 with three or more. Camp clearers, double bruiser, Rehgar.",
+     "evidence": "analyze_ranged_by_map.py"},
+    {"id": "m-shrines", "scope": {"opp": "*", "map": "Infernal Shrines", "side": "*"}, "kind": "ranged_target", "min": 3,
+     "why": "Shrines: 7-3 with three or more ranged heroes and 4-8 with two or fewer. A lean from 11 games. Icy Veins wants a double healer and high wave clear.",
+     "evidence": "analyze_ranged_by_map.py"},
+
+    {"id": "ccs-brightwing", "scope": {"opp": "Can't Counterpick Stupid", "map": "*", "side": "*"}, "kind": "pick_bonus", "heroes": {"Brightwing": 1.8, "Anduin": 0.8},
+     "why": "CCS is 3-6 against Brightwing or Anduin teams and 9-0 against every other healer. We are 2-1 with Brightwing against them and 0-3 with Rehgar or Stukov.",
+     "evidence": "CCS_FULL_PICTURE.md section 4"},
+    {"id": "ccs-ban-johanna", "scope": {"opp": "Can't Counterpick Stupid", "map": "*", "side": "*"}, "kind": "ban_bonus", "heroes": {"Johanna": 4.5, "Lunara": 2.4},
+     "why": "Johanna is their favorite first pick (4 times, Valkamer 5-1) and counters our Tychus and Brightwing. Lunara is WitsEnd's 8-3 hero and a second marksman.",
+     "evidence": "CCS_MATCH_PREP.md"},
+    {"id": "ccs-qhira", "scope": {"opp": "Can't Counterpick Stupid", "map": "*", "side": "*"}, "kind": "ban_discount", "heroes": {"Qhira": 0.15},
+     "why": "UnicycleYay is 2-3 on Qhira (4.0 deaths a game) and 8-2 on everything else. Banning her sends him to Sylvanas, Hanzo or Tychus.",
+     "evidence": "QHIRA_DEEP_DIVE.md"},
+    {"id": "ccs-ragnaros", "scope": {"opp": "Can't Counterpick Stupid", "map": "Garden of Terror", "side": "*"}, "kind": "ban_bonus", "heroes": {"Ragnaros": 2.6},
+     "why": "Ragnaros had 265k minion damage and 34k experience in the Garden loss. Chen and Stukov are our answers if it is open.",
+     "evidence": "CCS_FULL_PICTURE.md section 6"},
+    {"id": "ccs-ragnaros-sky", "scope": {"opp": "Can't Counterpick Stupid", "map": "Sky Temple", "side": "*"}, "kind": "ban_bonus", "heroes": {"Ragnaros": 1.6},
+     "why": "Their splitpusher on Sky Temple.", "evidence": "CCS_DRAFT_CHEAT_SHEET.md"},
+    {"id": "ccs-hanzo-ds", "scope": {"opp": "Can't Counterpick Stupid", "map": "Dragon Shire", "side": "*"}, "kind": "ban_bonus", "heroes": {"Hanzo": 1.8},
+     "why": "UnicycleYay Hanzo was in their Dragon Shire win over us.", "evidence": "CCS_FULL_PICTURE.md"},
+    {"id": "ccs-hanzo-vol", "scope": {"opp": "Can't Counterpick Stupid", "map": "Volskaya Foundry", "side": "*"}, "kind": "ban_bonus", "heroes": {"Hanzo": 1.4},
+     "why": "UnicycleYay's highest damage hero (4.1k a minute).", "evidence": "CCS_FULL_PICTURE.md"},
+    {"id": "ccs-gazlowe-tomb", "scope": {"opp": "Can't Counterpick Stupid", "map": "Tomb of the Spider Queen", "side": "*"}, "kind": "ban_bonus", "heroes": {"Gazlowe": 1.8},
+     "why": "ShadowDroid's clear and carry hero (3-1 for CCS).", "evidence": "CCS_MATCH_PREP.md"},
+    {"id": "ccs-lockearly", "scope": {"opp": "Can't Counterpick Stupid", "map": "*", "side": "*"}, "kind": "note",
+     "text": "CCS bans Thrall and Tychus in round two (slot 10 or 11). Lock them by slot 9 (first pick) or slot 7 (second pick). They have never banned Sylvanas or Brightwing against us.",
+     "why": "Thrall banned in 5 of 6 games against us, Tychus in 2 of 6.", "evidence": "CCS_MATCH_PREP.md"},
+
+    {"id": "cos-kael", "scope": {"opp": "COSMOS", "map": "*", "side": "*"}, "kind": "ban_bonus", "heroes": {"Kael'thas": 2.4, "Anub'arak": 2.0, "Greymane": 1.2},
+     "why": "In Season 22 NGS: SilverJackal is 8-2 on Kael'thas, Nae 6-1 on Anub'arak, Imbuement 6-0 on Greymane.", "evidence": "COSMOS_MATCH_PREP.md"},
+    {"id": "cos-johanna", "scope": {"opp": "COSMOS", "map": "*", "side": "*"}, "kind": "pick_bonus", "heroes": {"Johanna": 1.0, "Muradin": 0.8},
+     "why": "Cosmos is 4-0 with Johanna. Taking it is a denial. Cosmos struggles into Muradin and Stitches comps.", "evidence": "COSMOS_MATCH_PREP.md"}
+  ]
+}

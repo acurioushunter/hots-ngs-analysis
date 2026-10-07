@@ -1,0 +1,2 @@
+- Our best map against CCS (we won, they lost on their own pick). Camp clearers, gankers, split push. Sylvanas is 7-4 here in Storm League.
+- Chen is S tier here. Ban Ragnaros if CCS shows it.

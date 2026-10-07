@@ -1,0 +1,352 @@
+<title>PRA Draft Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a one-hand phone tool. Top tabs, a 16 slot board, one decision card at a time. Amethyst is us, burnt orange is them. */
+:root {
+  --bg: #F4F3F8; --surface: #FFFFFF; --surface2: #ECEAF3; --line: #D9D5E6; --ink: #1B1830; --muted: #5E5875;
+  --us: #5B34A0; --us-soft: #E9E1F7; --them: #A84A12; --them-soft: #F7E6DA;
+  --good: #1B6E46; --good-soft: #DDF1E6; --warn: #8F6200; --warn-soft: #F8EBC8; --bad: #B3261E; --bad-soft: #F9DEDB; --focus: #2F6FEB;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #13101D; --surface: #1C1830; --surface2: #262140; --line: #38325C; --ink: #ECE9F7; --muted: #A59FBD;
+    --us: #B99BF2; --us-soft: #2E2350; --them: #F0A06B; --them-soft: #3A2619;
+    --good: #5FD39A; --good-soft: #17352A; --warn: #E3B44F; --warn-soft: #3B2F10; --bad: #FF8A80; --bad-soft: #3F1D1B; --focus: #7FA8FF; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #13101D; --surface: #1C1830; --surface2: #262140; --line: #38325C; --ink: #ECE9F7; --muted: #A59FBD;
+  --us: #B99BF2; --us-soft: #2E2350; --them: #F0A06B; --them-soft: #3A2619;
+  --good: #5FD39A; --good-soft: #17352A; --warn: #E3B44F; --warn-soft: #3B2F10; --bad: #FF8A80; --bad-soft: #3F1D1B; --focus: #7FA8FF; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.45; padding-inline: 16px; padding-block: 0 40px; }
+* { box-sizing: border-box; }
+.wrap { max-width: 760px; margin-inline: auto; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: 0.01em; line-height: 1.1; margin: 0; text-wrap: balance; }
+h2 { font-size: 1.5rem; } h3 { font-size: 1.15rem; }
+p { margin: 0.4em 0; }
+button, select, input { font: inherit; color: inherit; }
+button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px 8px; border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.brand h1 { font-size: 1.6rem; }
+.brand small { color: var(--muted); font-size: 0.78rem; }
+.tabs { display: flex; gap: 6px; margin-top: 8px; overflow-x: auto; }
+.tab { flex: 1 0 auto; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 8px 14px; font-weight: 600; cursor: pointer; min-height: 40px; }
+.tab[aria-selected="true"] { background: var(--us); color: var(--bg); border-color: var(--us); }
+main { padding-top: 14px; display: grid; gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; }
+.card.us { border-color: var(--us); } .card.them { border-color: var(--them); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.grow { flex: 1 1 160px; min-width: 0; }
+.muted { color: var(--muted); } .small { font-size: 0.82rem; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+label.f { display: grid; gap: 4px; font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+select, input[type="text"] { width: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; min-height: 42px; color: var(--ink); }
+.btn { border: 1px solid var(--line); background: var(--surface2); border-radius: 8px; padding: 9px 14px; font-weight: 600; cursor: pointer; min-height: 42px; }
+.btn.primary { background: var(--us); color: var(--bg); border-color: var(--us); }
+.btn.them { background: var(--them); color: var(--bg); border-color: var(--them); }
+.btn.big { padding: 14px 16px; min-height: 52px; flex: 1 1 200px; text-align: left; }
+.btn small { display: block; font-weight: 400; opacity: 0.9; }
+.board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.slot { border: 1px solid var(--line); border-radius: 8px; padding: 6px 7px; min-height: 52px; background: var(--surface); position: relative; overflow: hidden; }
+.slot b { font-family: var(--mono); font-size: 0.62rem; color: var(--muted); font-weight: 500; white-space: nowrap; display: block; }
+.slot span { display: block; font-weight: 600; font-size: 0.78rem; overflow-wrap: break-word; line-height: 1.15; }
+.slot.us { border-left: 4px solid var(--us); } .slot.opp { border-left: 4px solid var(--them); }
+.slot.ban span { text-decoration: line-through; text-decoration-thickness: 1.5px; color: var(--muted); }
+.slot.now { outline: 3px solid var(--focus); outline-offset: 1px; }
+.slot.sim span { font-style: italic; }
+.tag { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 2px 7px; border-radius: 99px; background: var(--surface2); }
+.tag.good { background: var(--good-soft); color: var(--good); } .tag.warn { background: var(--warn-soft); color: var(--warn); } .tag.bad { background: var(--bad-soft); color: var(--bad); }
+.tag.us { background: var(--us-soft); color: var(--us); } .tag.them { background: var(--them-soft); color: var(--them); }
+.rec { display: grid; gap: 6px; border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: var(--surface); }
+.rec.first { border-color: var(--us); box-shadow: inset 4px 0 0 var(--us); }
+.rec.skip { opacity: 0.8; }
+.rec h3 { font-size: 1.4rem; }
+.bar-score { height: 5px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+.bar-score i { display: block; height: 100%; background: var(--us); }
+details summary { cursor: pointer; font-size: 0.85rem; color: var(--muted); min-height: 28px; }
+ul.r { margin: 6px 0 0; padding-left: 18px; } ul.r li { margin: 2px 0; }
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.scroll { overflow-x: auto; }
+.meter { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 8px; }
+.meter div { background: var(--surface2); border-radius: 8px; padding: 8px 10px; }
+.meter b { font-family: var(--mono); font-size: 1.3rem; display: block; } .meter span { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.note h2, .note h3 { margin-top: 10px; } .note ul { padding-left: 18px; }
+.warnbox { background: var(--warn-soft); color: var(--ink); border: 1px solid var(--warn); border-radius: 8px; padding: 8px 10px; font-size: 0.88rem; }
+.err { color: var(--bad); font-size: 0.86rem; }
+@media (min-width: 640px) { .board { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <div class="bar">
+    <div class="brand"><h1 id="brand">Draft Room</h1><small id="stamp"></small></div>
+    <div class="tabs" role="tablist" id="tabs"></div>
+  </div>
+  <main id="view"></main>
+</div>
+
+<script>/*DATA*/</script>
+<script>/*ENGINE*/</script>
+<script>
+(function () {
+  "use strict";
+  const P = window.PLAYBOOK, E = window.Engine;
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const keyOf = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const heroKey = {}; Object.keys(P.heroes).forEach(h => { heroKey[keyOf(h)] = h; });
+  const opponents = Object.keys(P.teams).filter(t => t !== P.us.team).sort();
+  const SAVE = "pra-draft-room-v1";
+  let ui = { tab: "draft", opp: (P.meta.next_opponent && P.teams[P.meta.next_opponent]) ? P.meta.next_opponent : opponents[0], side: null, map: null, actions: [], sim: null, msg: "", showAll: false };
+
+  function load() { try { const s = JSON.parse(localStorage.getItem(SAVE) || "null"); if (s && P.teams[s.opp]) { ui.opp = s.opp; ui.side = s.side; ui.map = s.map; ui.actions = s.actions || []; ui.tab = s.tab || "draft"; } } catch (e) { /* storage unavailable */ } }
+  function save() { try { localStorage.setItem(SAVE, JSON.stringify({ opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
+  function state() { return { opp: ui.opp, side: ui.side || "first", map: ui.map, actions: ui.actions }; }
+
+  const TABS = [["draft", "Draft"], ["overview", "Pre-match"], ["maps", "Maps"], ["about", "About"]];
+  function renderTabs() {
+    $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" data-tab="${t[0]}" aria-selected="${ui.tab === t[0]}">${t[1]}</button>`).join("");
+    $("#brand").textContent = (P.us.team.split(" ").map(w => w[0]).join("")) + " Draft Room";
+    $("#stamp").textContent = `${P.meta.division} S${P.meta.season} · ${P.meta.games} games · to ${P.meta.newest_date}`;
+  }
+
+  // ---------------------------------------------------------------- small renderers
+  function md(text) {
+    if (!text) return "";
+    const out = []; let inList = false;
+    const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/`(.+?)`/g, "<code>$1</code>");
+    text.split("\n").forEach(line => {
+      const t = line.trim();
+      if (/^[-*] /.test(t)) { if (!inList) { out.push("<ul>"); inList = true; } out.push("<li>" + inline(t.slice(2)) + "</li>"); return; }
+      if (inList) { out.push("</ul>"); inList = false; }
+      if (/^## /.test(t)) out.push("<h3>" + inline(t.slice(3)) + "</h3>");
+      else if (/^# /.test(t)) out.push("<h2>" + inline(t.slice(2)) + "</h2>");
+      else if (t) out.push("<p>" + inline(t) + "</p>");
+    });
+    if (inList) out.push("</ul>");
+    return out.join("");
+  }
+  const rec = E.rec;
+  function recText(v) { return v && v[0] ? rec(v) : "0-0"; }
+
+  // ---------------------------------------------------------------- DRAFT TAB
+  function setupCard() {
+    const t = E.tossAdvice(ui.opp);
+    const pickTxt = t.pick === "first" ? "Take <b>first pick</b>" : t.pick === "map" ? "Take the <b>map pick</b>" : "A <b>toss-up</b>";
+    const close = Math.abs(t.edgeFirst - t.edgeMap) < 0.12 ? " It is close, so use the notes." : "";
+    const h2 = t.h2h;
+    return `<details class="card" ${ui.actions.length ? "" : "open"}><summary><b>Setup</b> <span class="muted small">${esc(ui.opp)} · ${ui.side ? (ui.side === "first" ? "we have first pick" : "they have first pick") : "toss not set"} · ${ui.map ? esc(ui.map) : "map not set"}</span></summary>
+      <div class="row" style="margin-top:8px">
+        <label class="f grow">Opponent<select id="opp">${opponents.map(o => `<option ${o === ui.opp ? "selected" : ""}>${esc(o)}</option>`).join("")}</select></label>
+        <label class="f grow">Map (when known)<select id="map"><option value="">Not set yet</option>${Object.keys(P.maps).sort().map(m => `<option ${m === ui.map ? "selected" : ""}>${esc(m)}</option>`).join("")}</select></label>
+      </div>
+      <h3 style="margin-top:12px">Coin toss</h3>
+      <p class="small muted">If we win the toss: ${pickTxt} against ${esc(ui.opp)}.${close}
+        We are ${rec(t.usFirst)} with first pick and ${rec(t.usMap)} with the map pick. They are ${rec(t.themFirst)} with first pick and ${rec(t.themMap)} when they pick the map.
+        Head to head: ${rec(h2.first)} when we had first pick, ${rec(h2.map)} when they did.</p>
+      <div class="row" style="margin-top:8px">
+        <button class="btn big ${ui.side === "first" ? "primary" : ""}" data-side="first">We have first pick<small>They pick the map. We ban 1, 3, 11 and pick 5, 8, 9, 14, 15.</small></button>
+        <button class="btn big ${ui.side === "second" ? "primary" : ""}" data-side="second">They have first pick<small>We pick the map. We ban 2, 4, 10 and pick 6, 7, 12, 13, 16.</small></button>
+      </div>
+    </details>`;
+  }
+
+  function boardCard(st) {
+    const plan = E.plan(st.side);
+    const sim = ui.sim;
+    const cells = plan.map((s, i) => {
+      const a = st.actions[i] || (sim && sim.actions[i]);
+      const now = !sim || st.actions[i] ? i === st.actions.length : false;
+      const cls = ["slot", s.team === "us" ? "us" : "opp", s.type, now ? "now" : "", a && !st.actions[i] ? "sim" : ""].join(" ");
+      return `<div class="${cls}"><b>${s.slot} ${s.team === "us" ? "US" : "THEM"} ${s.type.toUpperCase()}</b><span>${a ? esc(a.hero) : "&nbsp;"}</span></div>`;
+    }).join("");
+    return `<section class="card"><div class="board">${cells}</div>
+      <div class="row" style="margin-top:10px"><button class="btn" data-act="undo" ${st.actions.length ? "" : "disabled"}>Undo last</button>
+      <button class="btn" data-act="sim">${ui.sim ? "Hide projection" : "Project the rest"}</button><button class="btn" data-act="reset">Reset draft</button></div>
+      ${ui.sim ? `<p class="small muted">Italic names are a projection: the opponent does what they usually do and we take our top recommendation each time.</p>` : ""}</section>`;
+  }
+
+  function recCard(r, i, type, st) {
+    const pct = Math.max(4, Math.min(100, r.score * 10));
+    const who = (r.who || []).slice(0, 3).map(w => `<span class="tag us">${esc(w.label)} ${esc(w.tier)}</span>`).join(" ");
+    const flags = (r.flags || []).map(f => `<span class="tag ${/LOCK NOW/.test(f) ? "bad" : /DO NOT|LEAVE/.test(f) ? "warn" : "good"}">${esc(f)}</span>`).join(" ");
+    const reasons = (r.reasons || []).filter(Boolean);
+    const skip = (r.flags || []).some(f => /DO NOT|LEAVE/.test(f));
+    return `<div class="rec ${i === 0 && !skip ? "first" : ""} ${skip ? "skip" : ""}">
+      <div class="row" style="justify-content:space-between"><h3>${esc(r.hero)}</h3><span class="num small muted">${r.score.toFixed(1)}</span></div>
+      <div class="bar-score"><i style="width:${pct}%"></i></div>
+      <div class="row">${who} ${flags}</div>
+      ${reasons.length ? `<details ${i === 0 ? "open" : ""}><summary>Why (${reasons.length})</summary><ul class="r small">${reasons.slice(0, 8).map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}
+      <div class="row"><button class="btn primary" data-take="${esc(r.hero)}">${type === "ban" ? "We ban it" : "We pick it"}</button></div>
+    </div>`;
+  }
+
+  function turnCard(st) {
+    const slot = E.nextSlot(st);
+    if (!slot) return `<section class="card"><h2>Draft complete</h2>${finalCard(st)}</section>`;
+    const what = slot.type === "ban" ? "ban" : "pick";
+    const ours = slot.team === "us";
+    let body = "";
+    if (ours) {
+      const list = (slot.type === "ban" ? E.recommendBans(st) : E.recommendPicks(st));
+      const show = ui.showAll ? list.slice(0, 14) : list.slice(0, 5);
+      body = show.map((r, i) => recCard(r, i, slot.type, st)).join("") +
+        `<div class="row"><button class="btn" data-act="more">${ui.showAll ? "Show fewer" : "Show more options"}</button></div>`;
+    } else {
+      const ex = slot.type === "ban" ? E.expectOppBans(st) : null;
+      const picks = slot.type === "pick" ? E.expectOppPicks(st).slice(0, 8) : null;
+      const chips = (slot.type === "ban" ? (slot.slot <= 4 ? ex.round1 : ex.round2).slice(0, 8) : picks);
+      body = `<p class="muted small">${slot.type === "ban" ? `Their usual ${slot.slot <= 4 ? "round one" : "round two"} bans (over ${ex.games} games, ${ex.gamesVsUs} against us). Tap what they actually did.` :
+        "Their usual picks at this point. Tap what they actually did."}</p>
+        <div class="row">${chips.map(c => `<button class="btn" data-take="${esc(c.hero)}">${esc(c.hero)} <span class="muted small">${slot.type === "ban" ? c.n + (c.vs ? " (" + c.vs + " vs us)" : "") : (c.player ? esc(c.player.tag) : c.g + " games")}</span></button>`).join("")}</div>`;
+    }
+    const heroList = Object.keys(P.heroes).sort();
+    return `<section class="card ${ours ? "us" : "them"}">
+      <div class="row" style="justify-content:space-between"><h2>Slot ${slot.slot}: ${ours ? "our" : "their"} ${what}</h2><span class="tag ${ours ? "us" : "them"}">${ours ? "US" : "THEM"}</span></div>
+      <div style="display:grid;gap:10px;margin-top:10px">${body}</div>
+      <div class="row" style="margin-top:12px"><label class="f grow">${ours ? "Pick any other hero" : "Something else"}<input type="text" id="free" list="heroes" placeholder="Type a hero" autocomplete="off"></label>
+        <button class="btn ${ours ? "primary" : "them"}" data-act="free">Record</button>
+        ${slot.type === "ban" ? `<button class="btn" data-take="No Pick">No ban (missed)</button>` : ""}</div>
+      <datalist id="heroes">${heroList.map(h => `<option value="${esc(h)}">`).join("")}</datalist>
+      ${ui.msg ? `<p class="err">${esc(ui.msg)}</p>` : ""}
+    </section>`;
+  }
+
+  function compCard(st) {
+    const c = E.compSummary(st);
+    const picks = E.picks(st, "us");
+    const asg = E.bestAssign(picks, st.map);
+    const theirs = E.picks(st, "opp");
+    const rules = E.rulesFor(st).filter(r => r.kind === "note");
+    return `<section class="card us"><h3>Our comp</h3>
+      <div class="meter" style="margin-top:8px"><div><b>${c.ranged}</b><span>Ranged</span></div><div><b>${c.marksmen}</b><span>Marksmen</span></div><div><b>${c.frontline}</b><span>Front</span></div><div><b>${c.healers}</b><span>Healer</span></div><div><b>${c.highClear}</b><span>Strong clear</span></div><div><b>${c.highDamage}</b><span>Damage dealers</span></div></div>
+      <p class="small muted">Blaze is never counted as ranged. Strong clear is 3,500+ minion damage a minute, damage dealer is 2,400+ hero damage a minute (this division).</p>
+      ${c.warnings.map(w => `<div class="warnbox" style="margin-top:6px">${esc(w)}</div>`).join("")}
+      ${asg.assign.length ? `<table style="margin-top:8px"><tr><th>Player</th><th>Hero</th><th>Evidence</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td><b>${esc(a.hero)}</b></td><td class="small muted">${esc(a.why.slice(0, 2).join("; "))}</td></tr>`).join("")}</table>
+      <p class="small muted">This is the best way to hand out the picks so far. Swap the players when the draft ends if a hero fits someone else better.</p>` : ""}
+      ${theirs.length ? `<p class="small"><b>Their picks:</b> ${theirs.map(esc).join(", ")}</p>` : ""}
+      ${rules.map(r => `<p class="small muted">${esc(r.text)}</p>`).join("")}
+    </section>`;
+  }
+
+  function finalCard(st) {
+    const asg = E.bestAssign(E.picks(st, "us"), st.map);
+    return `<table><tr><th>Player</th><th>Hero</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td><b>${esc(a.hero)}</b></td></tr>`).join("")}</table>`;
+  }
+
+  function renderDraft() {
+    if (!ui.side) return setupCard() + `<section class="card"><p class="muted">Pick who has first pick to start the draft board.</p></section>`;
+    const st = state();
+    return setupCard() + turnCard(st) + boardCard(st) + compCard(st);
+  }
+
+  // ---------------------------------------------------------------- OVERVIEW TAB
+  function renderOverview() {
+    const o = P.teams[ui.opp], t = E.tossAdvice(ui.opp), mp = E.mapPlan(ui.opp), st = E.newDraft(ui.opp, "first", ui.map);
+    const ex = E.expectOppBans(st);
+    const rules = E.rulesFor({ opp: ui.opp, side: "first", map: ui.map });
+    const players = Object.keys(o.players).sort((a, b) => o.players[b].games - o.players[a].games).filter(tag => o.players[tag].games >= 3);
+    const lock = [];
+    P.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const n = (o.bans_r2[h] || 0); if (n >= 2) lock.push(`${h} (${p.label}): banned in round two ${n} time(s)${o.bans_r2_vs_us && o.bans_r2_vs_us[h] ? ", " + o.bans_r2_vs_us[h] + " against us" : ""}`); }));
+    return `<section class="card"><label class="f">Opponent<select id="opp">${opponents.map(x => `<option ${x === ui.opp ? "selected" : ""}>${esc(x)}</option>`).join("")}</select></label>
+      <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
+      ${o.h2h.length ? "Against us: " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "W" : "L"}`).join(", ") + "." : "No games against us yet."}</p></section>
+    <section class="card us"><h3>Coin toss</h3><p>If we win it: <b>${t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss-up)"}</b>.
+      Our record with first pick ${rec(t.usFirst)}, with map pick ${rec(t.usMap)}; theirs ${rec(t.themFirst)} and ${rec(t.themMap)}. First pick lets us decide who takes the contested heroes; the map pick lets us choose where.</p></section>
+    <section class="card"><h3>Maps</h3>
+      <p class="small muted">Suggested map bans: <b>${mp.bans.map(esc).join(" and ") || "none yet"}</b>. If we get the map pick: ${mp.picks.map(esc).join(", ")}. Records are this season in this division, so most are 1 to 4 games.</p>
+      <div class="scroll"><table><tr><th>Map</th><th>Us</th><th>Them</th><th>They pick</th><th>They ban</th><th></th></tr>
+      ${mp.table.sort((a, b) => b.banScore - a.banScore).map(m => `<tr><td>${esc(m.map)}</td><td class="num">${recText(m.us)}</td><td class="num">${recText(m.them)}</td><td class="num">${recText(m.themPicker)}</td><td class="num">${m.theyBan}</td>
+        <td>${mp.bans.includes(m.map) ? '<span class="tag bad">ban</span>' : mp.picks.includes(m.map) ? '<span class="tag good">pick</span>' : ""}</td></tr>`).join("")}</table></div></section>
+    <section class="card them"><h3>What they ban</h3>
+      <p class="small">Round one: ${ex.round1.slice(0, 6).map(x => `${esc(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
+      <p class="small">Round two (slot 10 or 11): ${ex.round2.slice(0, 6).map(x => `${esc(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
+      ${lock.length ? `<p class="small"><b>Heroes of ours they ban late, so lock them early:</b></p><ul class="r small">${lock.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</section>
+    <section class="card them"><h3>Their players</h3><div class="scroll"><table><tr><th>Player</th><th>Heroes this season</th></tr>
+      ${players.map(tag => `<tr><td>${esc(tag)}<div class="muted small">rating ${o.players[tag].avg_rating}</div></td><td class="small">${Object.keys(o.players[tag].heroes).slice(0, 5).map(h => { const d = o.players[tag].heroes[h]; return `${esc(h)} ${d.w}-${d.g - d.w}${d.weak ? ' <span class="tag warn">weaker</span>' : ""}`; }).join(", ")}</td></tr>`).join("")}</table></div>
+      <p class="small muted">"Weaker" means the player rates clearly lower on that hero than on his others, so banning it may do nothing.</p></section>
+    <section class="card"><h3>Rules in play</h3><ul class="r small">${rules.map(r => `<li><b>${esc(r.id)}:</b> ${esc(r.text || r.why)} <span class="muted">(${esc(r.evidence || "")})</span></li>`).join("")}</ul></section>
+    ${o.notes ? `<section class="card note"><h3>Notes on ${esc(ui.opp)}</h3>${md(o.notes)}</section>` : ""}`;
+  }
+
+  // ---------------------------------------------------------------- MAPS TAB
+  function renderMaps() {
+    const names = Object.keys(P.maps).sort();
+    const cur = ui.map || names[0];
+    const m = P.maps[cur], st = P.map_stats[cur] || {};
+    const rows = [];
+    P.us.players.forEach(p => Object.keys(p.pool).forEach(h => {
+      const tiers = (m.tiers[h] || {});
+      const role = Object.keys(tiers).find(r => p.tier_roles.some(x => r.indexOf(x) === 0)) || Object.keys(tiers)[0];
+      if (role) rows.push({ p: p.label, h, role, tier: tiers[role], pool: p.pool[h] });
+    }));
+    rows.sort((a, b) => "SABCD".indexOf(a.tier) - "SABCD".indexOf(b.tier));
+    const mine = P.our_map_hero[cur] || {};
+    const oppRec = P.teams[ui.opp].by_map[cur];
+    return `<section class="card"><label class="f">Map<select id="mapview">${names.map(n => `<option ${n === cur ? "selected" : ""}>${esc(n)}</option>`).join("")}</select></label>
+      <p><b>Icy Veins prefers:</b> ${m.prefer.map(esc).join(", ") || "n/a"}</p><p><b>Avoids:</b> ${m.avoid.map(esc).join(", ") || "n/a"}</p>
+      <p class="small">We are ${recText(P.teams[P.us.team].by_map[cur])} here; ${esc(ui.opp)} are ${recText(oppRec)}. ${st.games || 0} games in the division, average ${st.avg_len || "?"} minutes.</p></section>
+    ${st.games ? `<section class="card"><h3>What wins here</h3>
+      <p class="small">Ranged heroes (Blaze not counted): winners average ${st.win_ranged_avg}, losers ${st.loss_ranged_avg}. Three or more ranged ${rec(st.ranged_rec["3+"])}, two or fewer ${rec(st.ranged_rec["2-"])}.</p>
+      <p class="small">Per minute, winners against losers: camp damage ${st.macro.win.camp_dmg}k v ${st.macro.loss.camp_dmg}k, structure damage ${st.macro.win.struct}k v ${st.macro.loss.struct}k, minion damage ${st.macro.win.minion}k v ${st.macro.loss.minion}k. Deaths ${st.macro.win.deaths} v ${st.macro.loss.deaths}.</p></section>` : ""}
+    <section class="card us"><h3>Our heroes here (Icy Veins tier by the role each player fills)</h3><div class="scroll"><table><tr><th>Hero</th><th>Player</th><th>Tier</th><th>Our NGS here</th></tr>
+      ${rows.map(r => { const p = P.us.players.find(x => x.label === r.p); const g = mine[p.tag] && mine[p.tag][r.h]; return `<tr><td><b>${esc(r.h)}</b> <span class="muted small">${esc(r.pool)}</span></td><td>${esc(r.p)}</td><td><span class="tag ${"SA".includes(r.tier) ? "good" : "DC".includes(r.tier) ? "warn" : ""}">${r.tier} ${esc(r.role)}</span></td><td class="num">${g ? rec(g) : ""}</td></tr>`; }).join("")}</table></div></section>
+    ${m.notes ? `<section class="card note"><h3>Notes</h3>${md(m.notes)}</section>` : ""}`;
+  }
+
+  function renderAbout() {
+    return `<section class="card note"><h3>About this tool</h3>
+      <p>Built ${esc(P.meta.built)} from ${P.meta.games} Division ${esc(P.meta.division)} Season ${P.meta.season} games (newest game ${P.meta.newest_game}, ${esc(P.meta.newest_date)}). Opponents: ${opponents.map(esc).join(", ")}.</p>
+      <ul><li>Every suggestion shows its reasons and the record behind it. Most records are 1 to 12 games, so treat them as leans.</li>
+      <li>Judgment calls (who to ban, which healer, ranged limits per map) are in <code>rules.json</code> with the evidence. Pools are in <code>our_team.json</code>.</li>
+      <li>NGS pages have no timeline, so nothing here knows who led at ten minutes.</li>
+      <li>Blaze is counted as melee in every ranged count. Icy Veins tiers are looked up by role.</li>
+      <li>The draft you are working on is kept on this device only.</li></ul>
+      <p>To refresh: pull the new games, run <code>python build_playbook.py</code>, then publish the new file over the same link. See UPDATE_PLAYBOOK.md.</p></section>`;
+  }
+
+  // ---------------------------------------------------------------- wiring
+  function render() {
+    renderTabs();
+    $("#view").innerHTML = ui.tab === "draft" ? renderDraft() : ui.tab === "overview" ? renderOverview() : ui.tab === "maps" ? renderMaps() : renderAbout();
+  }
+  function record(hero, st) {
+    const key = heroKey[keyOf(hero)];
+    if (hero === "No Pick") { E.apply(st, "No Pick"); return true; }
+    if (!key) { ui.msg = `"${hero}" is not a hero in the list. Check the spelling.`; return false; }
+    if (E.used(st).has(key)) { ui.msg = `${key} is already banned or picked.`; return false; }
+    E.apply(st, key); ui.msg = ""; return true;
+  }
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest("button");
+    if (!b) return;
+    if (b.dataset.tab) { ui.tab = b.dataset.tab; }
+    else if (b.dataset.side) { if (ui.side !== b.dataset.side) { ui.actions = []; ui.sim = null; } ui.side = b.dataset.side; }
+    else if (b.dataset.take) { const st = state(); if (record(b.dataset.take, st)) { ui.actions = st.actions; ui.sim = null; } }
+    else if (b.dataset.act === "free") { const v = ($("#free") || {}).value || ""; const st = state(); if (v && record(v, st)) { ui.actions = st.actions; ui.sim = null; } else if (!v) ui.msg = "Type a hero first."; }
+    else if (b.dataset.act === "undo") { ui.actions.pop(); ui.sim = null; ui.msg = ""; }
+    else if (b.dataset.act === "reset") { ui.actions = []; ui.sim = null; ui.msg = ""; }
+    else if (b.dataset.act === "more") { ui.showAll = !ui.showAll; }
+    else if (b.dataset.act === "sim") { ui.sim = ui.sim ? null : E.simulate(state()); }
+    save(); render();
+  });
+  document.addEventListener("change", ev => {
+    const t = ev.target;
+    if (t.id === "opp") { ui.opp = t.value; ui.actions = []; ui.sim = null; }
+    else if (t.id === "map") { ui.map = t.value || null; ui.sim = null; }
+    else if (t.id === "mapview") { ui.map = t.value; }
+    save(); render();
+  });
+  document.addEventListener("keydown", ev => { if (ev.key === "Enter" && ev.target.id === "free") { const b = document.querySelector('[data-act="free"]'); if (b) b.click(); } });
+  load(); render();
+})();
+</script>

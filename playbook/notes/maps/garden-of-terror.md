@@ -1,0 +1,2 @@
+- Camp clearers, a double bruiser, Rehgar. Two or fewer ranged heroes (4-1, against 0-3 with three or more).
+- We are 3-1 here, all with Rehgar. The loss was to Qhira, Anub'arak, Li-Ming, Tyrande and Ragnaros. Do not leave the tank alone in the front.

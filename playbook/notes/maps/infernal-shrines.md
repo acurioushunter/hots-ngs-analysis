@@ -1,0 +1,1 @@
+- CCS is 2-1 and has won both of its own picks here. Ban it. If it comes up: double healer and high wave clear. Three or more ranged heroes is 7-3 on this map.

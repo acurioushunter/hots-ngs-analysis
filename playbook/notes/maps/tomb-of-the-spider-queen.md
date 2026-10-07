@@ -1,0 +1,3 @@
+- Three or more ranged heroes (7-3) and two high clear heroes, one of them ranged. Two or fewer ranged is 2-6.
+- Hunter on Chromie or Sylvanas, chelsi on Tassadar, Gul'dan or Tychus. Do not repeat the Oct 6 draft (Sylvanas, Thrall, Leoric, Rehgar, Tyrael, one ranged hero).
+- Hunter's Storm League record here is his worst (31-39).

@@ -1,0 +1,1 @@
+- Early game and camps. We beat Cosmos here in 13 minutes on Oct 6 with Johanna, Brightwing, Li-Ming, Tychus and Blaze. Chen and Sylvanas are S tier.

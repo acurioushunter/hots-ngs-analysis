@@ -1,0 +1,1 @@
+- Hunter's best Sylvanas map (9-5). CCS beat us here with 15 deaths. Anchor, camp clearers, objective poke, self sustain.

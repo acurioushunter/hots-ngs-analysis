@@ -1,0 +1,85 @@
+{
+  "_help": "Edit this file when the roster or the hero pools change. 'pool' tiers: primary, secondary, practice. 'avoid' heroes are scored down. 'tier_roles' picks which Icy Veins tier list role applies to the player (Blaze is S as an Offlaner but D as a Tank). Evidence numbers (NGS this season, Storm League) are added by build_playbook.py; do not type records here.",
+  "team": "Phoenix Rising Amethyst",
+  "season": 22,
+  "division": "C West",
+  "next_opponent": "Can't Counterpick Stupid",
+  "not_ranged": ["Blaze"],
+  "ranged_extra": [],
+  "marksmen": ["Greymane", "Valla", "Raynor", "Tychus", "Lunara", "Hanzo", "Cassia", "Sylvanas", "Zul'jin", "Fenix", "Falstad"],
+  "high_damage_note": "Teams with exactly two real damage dealers (2,400+ hero damage a minute) are 37-23 in Division C West S22.",
+  "players": [
+    {
+      "tag": "hunterstag", "label": "Hunter", "slot_role": "Ranged Assassin", "tier_roles": ["Ranged Assassin"],
+      "sl_source": "knowledge/hunter_hp.db", "sl_since": "2025-10-07",
+      "pool": {
+        "Sylvanas": "primary", "Junkrat": "primary",
+        "Orphea": "secondary", "Chromie": "secondary", "Cassia": "secondary", "Valla": "secondary",
+        "Mephisto": "practice", "Tychus": "practice", "Raynor": "practice", "Greymane": "practice"
+      },
+      "avoid": ["Hanzo", "Falstad", "Li-Ming", "Medivh", "Garrosh"],
+      "notes": {
+        "Sylvanas": "58% over 119 Storm League games in the last year, 62% in the last 6 months, 2 deaths or fewer wins 79%. A structure and camp hero, not a wave clearer.",
+        "Junkrat": "56.7% in Storm League but CCS and Cosmos ban it, so do not plan around it.",
+        "Hanzo": "45.9% over 268 games, 41% in the last 6 months.",
+        "Li-Ming": "41.7% in Storm League. It won Battlefield of Eternity on Oct 6, so it is not banned forever.",
+        "Raynor": "Only 8 games in the last year. Practice before using."
+      }
+    },
+    {
+      "tag": "chelsi", "label": "chelsi", "slot_role": "Ranged Assassin", "tier_roles": ["Ranged Assassin", "Melee Assassin"],
+      "pool": {
+        "Tychus": "primary", "Thrall": "primary",
+        "Chromie": "secondary", "Tassadar": "secondary", "Gul'dan": "secondary", "Sylvanas": "secondary",
+        "Azmodan": "practice", "Orphea": "practice", "Jaina": "practice", "Chen": "practice"
+      },
+      "avoid": ["Tyrael", "Johanna", "Sonya"],
+      "notes": {
+        "Tychus": "NGS 7-2 this season with 0.7 deaths a game.",
+        "Thrall": "NGS 3-1, 7-2 in the HealsOnly team games.",
+        "Sylvanas": "5-2 in HealsOnly team games but 0-1 in NGS (4 deaths). Only if Hunter is off it.",
+        "Tassadar": "Lowest deaths on the roster (1.0), a strong Tomb clearer.",
+        "Gul'dan": "Highest damage (5.4k a minute) but 3.0 deaths."
+      }
+    },
+    {
+      "tag": "SoulShepherd", "label": "SoulShepherd", "slot_role": "Offlaner", "tier_roles": ["Offlaner"],
+      "pool": {
+        "Blaze": "primary", "Leoric": "primary",
+        "Stitches": "secondary", "Dehaka": "secondary", "Rexxar": "secondary"
+      },
+      "avoid": ["Diablo", "Garrosh"],
+      "notes": {
+        "Blaze": "Counted as MELEE in all ranged counts. S tier as an offlaner on most maps (D only as a tank).",
+        "Leoric": "Counters Anub'arak and Johanna on paper; A tier offlaner on Garden, Dragon Shire and Volskaya."
+      }
+    },
+    {
+      "tag": "NorthrnTouch", "label": "NorthrnTouch", "slot_role": "Tank", "tier_roles": ["Tank"],
+      "pool": {
+        "Muradin": "primary", "Johanna": "primary",
+        "Varian": "secondary", "E.T.C.": "secondary", "Mei": "secondary",
+        "Anub'arak": "practice"
+      },
+      "avoid": ["Stitches", "Diablo", "Tyrael"],
+      "notes": {
+        "Muradin": "NGS 4-0, 0.8 deaths. But 47.5% career in Storm League, so a small sample.",
+        "Johanna": "NGS 4-3, 60% recent in Storm League. Valkamer (CCS) is 5-1 on it, so we usually ban it against CCS.",
+        "E.T.C.": "NGS 2-2 with 2.8 deaths. Listed Qhira counter but went 1/6/7 alone in the front on Garden.",
+        "Stitches": "35% in Storm League."
+      }
+    },
+    {
+      "tag": "Ltlbearista", "label": "Ltlbearista", "slot_role": "Healer", "tier_roles": ["Healer"],
+      "pool": {
+        "Brightwing": "primary", "Rehgar": "primary",
+        "Stukov": "secondary", "Anduin": "secondary"
+      },
+      "avoid": ["Malfurion"],
+      "notes": {
+        "Brightwing": "NGS 8-4. CCS is 3-6 against Brightwing or Anduin teams and 9-0 against any other healer.",
+        "Rehgar": "NGS 4-3 (Garden 3-1), but 0-2 against CCS."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+- Late game, siege damage and sustain. Hunter's weaker map in Storm League (48%), so Sylvanas, Valla or Orphea and not Hanzo or Li-Ming. We beat CCS here in 18 minutes with two deaths.
