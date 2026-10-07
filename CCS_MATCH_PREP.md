@@ -4,7 +4,7 @@ Built from the Season 22 NGS games we have (18 of CCS's 21 games, the missing th
 
 ## The short version
 1. **We are 0-2 against CCS (both 1-2), and both times we won game 1 and lost games 2 and 3.** In all four losses they had banned both Junkrat and Thrall. In our two wins at most one of them was banned. The final is decided by pool depth, not by game 1.
-2. **CCS bans Junkrat (5 of 6 games against us), Thrall (5), Chromie (3) and Tychus (2).** That is Hunter's two best heroes and chelsi's two best. Plan as if all four are gone.
+2. **CCS bans Junkrat (5 of 6 games against us), Thrall (5), Chromie (3) and Tychus (2).** Junkrat and Chromie go in round one, Thrall and Tychus in round two (slot 10 or 11). So **lock chelsi's Thrall by slot 9** (first pick) or slot 7 (second pick) and it cannot be banned late. Junkrat cannot be had, so you play Raynor.
 3. **Their carry is ShadowDroid** (Gazlowe 3-1 with a 76 average rating, Dehaka 4-2 with 68). **Raynor counters both Dehaka and Gazlowe** and Hunter is 61% on Raynor in Storm League. The catch: **Johanna counters Raynor,** and Valkamer is 5-1 on Johanna. So Johanna has to be taken or banned first.
 4. **Choose first pick if we win the toss.** CCS is 9-2 when they get first pick but only 3-4 when they pick the map, and 2-2 against us as map pickers. Ban Towers of Doom and Infernal Shrines.
 5. Their weak links are **ûltear** (Gold 3 in Storm League, 2,637) and **UnicycleYay** (Qhira 2-3, Garrosh and Diablo in Storm League). Their best rated player is **Valkamer** (Diamond 3, 2,883).
@@ -80,17 +80,31 @@ Our map ban pair: **Towers of Doom and Infernal Shrines.** Maps we want left: Sk
 3. Slot 11: react to what they showed (Dehaka, Rehgar or Sylvanas).
 **If they are first pick** (we win the toss and still choose second, or lose it): our first ban (slot 2) goes on **Johanna** before they can open with it. Then Lunara at slot 4.
 
-**Picks, if we are first pick:**
+**Draft timing matters more than the hero list.** CCS bans in two rounds. Junkrat is always banned in round one (slots 1 and 2, five of six games against us) and Chromie in round one (slots 3 and 4). Thrall is banned in round two (slot 10 or 11) in 4 of 5 games and Tychus at slot 10 in both games it was banned. Round two comes after picks 5 to 9, so **a hero we lock by slot 9 (first pick) or slot 7 (second pick) cannot be banned late.** In the one game we had Thrall (Sep 22 game 1) it was open at slot 15 and we won, but in the three games we left it, it was banned.
+
+**chelsi's pool (from the HealsOnly games with you, 71 games, assuming those are her):**
+| Hero | Games | Record | Notes |
+|---|---|---|---|
+| **Thrall** | 9 | **7-2 (78%)** | 4.2 kills, 13.8 takedowns, 78k hero damage, **104k siege, 79k minion damage, 14.8k experience**, the best macro numbers on any hero. NGS 3-0. With you on Sylvanas it is 5-1 |
+| **Sylvanas** | 7 | 5-2 (71%) | 4.7 kills, 14.1 takedowns, 65k damage, 2.6 deaths. Your guess is right as the backup |
+| Tychus | 1 | 1-0 | 130k damage in that game, NGS 5-2 |
+| Gul'dan | 2 | 1-1 | 119k damage but 4.5 deaths |
+| Chromie | 1 | 1-0 | NGS 2-1 |
+Avoid: Tyrael 1-3, Johanna 1-2, Sonya 2-2. Chen is 3-1 (5.2 kills, 19 takedowns) if a bruiser slot is open.
+**If you play Raynor, chelsi can have Sylvanas.** Raynor also pairs with Thrall (Icy Veins synergy).
+
+**Picks, if we are first pick** (picks at 5, 8, 9, 14, 15; their bans at 2, 4 and 10):
 | Slot | Pick | Why |
 |---|---|---|
-| 5 | **Johanna** (NorthrnTouch, NGS 3-3, 60% recent in Storm League) | Takes their 5-1 tank and it counters Garrosh. Raynor is then safe. Valkamer falls to Arthas (3-0), Muradin or Garrosh (1-3) |
-| 8 | **Raynor** (Hunter) | Counters Dehaka, Gazlowe and Arthas |
-| 9 | **Brightwing** (Ltlbearista, NGS 6-4, 57% Storm League) or **Rehgar** | Rehgar is safer if they hold Johanna's counters |
-| 14 | **Leoric** or **Blaze** (SoulShepherd) | Leoric counters Johanna, Blaze is 5-4 |
-| 15 | chelsi last | See below |
-If **Sylvanas** is still open at 8, take it and play Raynor at 9. Do not give UnicycleYay a free Sylvanas.
-
-**chelsi is the gap.** Her four best heroes (Tychus 5-2, Thrall 3-0, Chromie 2-1, Tassadar) are the ones CCS bans or can take. Practice and plan for **Gul'dan** (NGS 1-1, and it counters Gazlowe), **Tassadar** and **Ragnaros** (68 rating in our Aug 18 loss) so the last pick is not a scramble.
+| 5 | **Johanna** (NorthrnTouch, NGS 3-3, 60% recent in Storm League) | Takes their 5-1 tank, counters Garrosh, and makes Raynor safe. Valkamer falls to Arthas, Muradin or Garrosh |
+| 8 | **Thrall** (chelsi) | Lock it before their slot 10 ban. If Thrall was banned in round one, take **Sylvanas** here |
+| 9 | **Raynor** (Hunter) | CCS has never banned Raynor, but lock it before slot 10 anyway. It counters Dehaka, Gazlowe and Arthas |
+| 14 | **Brightwing** or **Rehgar** (Ltlbearista) | Neither is on their ban list. Rehgar is their own 4-0 hero, so take it if it is open |
+| 15 | **Leoric** or **Blaze** (SoulShepherd) | Leoric counters Johanna, Blaze is 5-4 |
+**If they are first pick** (our picks at 6, 7, 12, 13, 16; our bans at 2, 4, 10; their late ban is slot 11):
+- Bans: slot 2 **Johanna**, slot 4 **Lunara**, slot 10 react.
+- Picks: slots 6 and 7 are **Thrall and Raynor** (both locked before their slot 11 ban), then slots 12 and 13 Brightwing and Leoric or Blaze, and slot 16 **Sylvanas** (or Tychus or Gul'dan) as the flex.
+Do not give UnicycleYay a free Sylvanas when it is open early, he plays it 3-1.
 
 **Counters that fit our players** (and the ones we skip because we do not play them):
 - Johanna → NorthrnTouch **Varian** (61% Storm League) or SoulShepherd **Leoric**. Hanzo is also a counter and we skip it.
