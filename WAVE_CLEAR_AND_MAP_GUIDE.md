@@ -42,7 +42,7 @@ Minion damage per minute is the wave clear measure and camp damage per minute is
 | Leoric | Melee | 23 | 6,529 | 625 | 672 | 61% | SoulShepherd |
 | Tassadar | Ranged | 13 | 5,520 | 1,046 | 1,067 | 54% | chelsi |
 | Gazlowe | Melee | 7 | 5,433 | 1,452 | 1,658 | 43% |  |
-| Blaze | Ranged | 22 | 5,407 | 879 | 574 | 36% | SoulShepherd |
+| Blaze | Melee (offlaner) | 22 | 5,407 | 879 | 574 | 36% | SoulShepherd |
 | Dehaka | Melee | 19 | 5,356 | 829 | 402 | 63% | SoulShepherd |
 | Sonya | Melee | 10 | 4,648 | 2,188 | 768 | 50% |  |
 | Yrel | Melee | 4 | 4,512 | 452 | 204 | 25% |  |
@@ -82,7 +82,7 @@ Minion damage per minute is the wave clear measure and camp damage per minute is
 | Whitemane | Ranged | 10 | 611 | 358 | 192 | 50% |  |
 | Malfurion | Ranged | 4 | 337 | 241 | 303 | 50% |  |
 
-**Safe clear versus melee clear.** The ranged strong clearers are Tassadar, Kael'thas, Junkrat, Gul'dan and Lunara. Leoric, Gazlowe, Dehaka, Thrall, Ragnaros, Sonya and Yrel are melee, and Blaze is short range. They clear a lot but have to walk into lane. Against poke (Kael'thas, Greymane, Li-Ming, Hanzo, Lunara) a melee clearer takes damage while clearing and a ranged one does not. This part is reasoning, not something the stats can prove.
+**Safe clear versus melee clear.** The ranged strong clearers are Tassadar, Kael'thas, Junkrat, Gul'dan and Lunara. Leoric, Gazlowe, Dehaka, Thrall, Ragnaros, Sonya and Yrel are melee, and Blaze is counted as melee here because his range is too short to count. They clear a lot but have to walk into lane. Against poke (Kael'thas, Greymane, Li-Ming, Hanzo, Lunara) a melee clearer takes damage while clearing and a ranged one does not. This part is reasoning, not something the stats can prove.
 
 ## Our players and CCS players (this division)
 **PRA**

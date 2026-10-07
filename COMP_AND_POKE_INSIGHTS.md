@@ -5,7 +5,7 @@ You asked me to look at burst versus sustained damage instead of just auto attac
 ## How I measured it
 - **Poke** = hero damage dealt outside team fights, per minute. That is the chip damage that wears down a tank or healer before a fight.
 - **Fight damage** = hero damage inside team fights, per minute. That is the burst or sustained damage that punishes an overextension and wins the fight.
-- **Marksman** = an auto attack ranged hero. My list (a judgment call): Greymane, Valla, Raynor, Tychus, Lunara, Hanzo, Cassia, Sylvanas, Zul'jin, Fenix, Falstad.
+- **Marksman** = an auto attack ranged hero. Blaze is not counted as ranged anywhere in these tables (hunterstag's call). My marksman list (a judgment call): Greymane, Valla, Raynor, Tychus, Lunara, Hanzo, Cassia, Sylvanas, Zul'jin, Fenix, Falstad.
 - **Real damage dealer** = averages 2,400 or more hero damage per minute in this division.
 
 ## Your heroes and the ones you worry about (per minute, this division)
@@ -46,8 +46,8 @@ That means "draft more poke" is not a rule. What it points to is **play**: not l
 | **2 or more marksmen** on the team | **13-6 (68%)** | 1 marksman is 36-42 (46%), 0 is 7-8 |
 | Facing 2 or more marksmen with 1 or none of our own | **5-12** | with 1 marksman it is 3-9 |
 | **Exactly 2 real damage dealers** (2,400+ a minute) | **37-23 (62%)** | with only 1 it is **12-22 (35%)**, with 3 it is 3-5 |
-| Tomb: 3 or more ranged heroes | 8-4 | 2 or fewer 1-5 |
-| Garden of Terror: 2 or fewer ranged | 3-0 | 3 or more 1-4 |
+| Tomb: 3 or more ranged heroes | 7-3 | 2 or fewer 2-6 |
+| Garden of Terror: 2 or fewer ranged | 4-1 | 3 or more 0-3 |
 | Icy Veins counters, net in our favor | 24-20 (55%) | a small edge. Net against 20-24 |
 | Tank plus bruiser count (1, 2, 3) | 3-2, 49-49, 4-5 | not a signal |
 | One healer or support v two | 54-53 v 2-3 | not a signal |

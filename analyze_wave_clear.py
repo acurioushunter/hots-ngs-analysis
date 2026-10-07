@@ -42,6 +42,7 @@ def hero_types():
         for side in json.loads(pathlib.Path(path).read_text(encoding="utf-8"))["players"]:
             for p in side:
                 types[p["hero"]["name"]] = p["hero"]["type"]
+    types["Blaze"] = "Melee"  # offlaner, range too short to count as ranged
     return types
 
 

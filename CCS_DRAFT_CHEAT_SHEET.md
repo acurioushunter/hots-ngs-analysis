@@ -40,7 +40,8 @@ Updated Oct 7 with the Garden and healer lessons and a map by map plan. Sources:
 - **Where they are likely to pick:** CCS's seven map picks were Infernal Shrines 2-0, Dragon Shire 1-1, Sky Temple 0-1, Tomb 0-1 and Volskaya 0-1 (3-4). Against us they chose Sky Temple, Dragon Shire, Volskaya and Infernal Shrines. With Towers and Shrines banned, expect **Dragon Shire, Volskaya or Tomb**, and Sky Temple is the one we are happy to see.
 - **Their map bans:** Braxis Holdout and Cursed Hollow. They have never banned Towers, Shrines, Sky Temple, Garden or Volskaya.
 - Hunter's Garden number is mostly Junkrat. With Junkrat banned, his Garden evidence is Sylvanas 6-6 and our team is 3-1 there because of the camp and Rehgar comp.
-- Icy Veins tiers are the guide's opinion, not our data. Notably Blaze is D tier on all seven maps and Qhira is S on all seven.
+- Icy Veins tiers are the guide's opinion, not our data, and they are listed by role. **Blaze is S tier as an offlaner on every map here except Dragon Shire (A);** his D tier is only the tank list, which does not apply to how SoulShepherd plays him. Qhira is S on all seven. Johanna is the S tier tank on six of seven maps, which is one more reason CCS gets her and we ban her.
+- **Ranged heroes in this sheet never include Blaze.** Counts use Heroes Profile's hero type, with Blaze counted as melee.
 
 ## 3. We have first pick (they have the map)
 Bans are ours at 1, 3, 11. Picks at 5, 8, 9, 14, 15. Their bans are 2, 4, 10.
@@ -58,7 +59,7 @@ If Johanna is gone at slot 1, ban **Ragnaros** or **Whitemane**. If Lunara goes 
 | 8 | **Tychus** (chelsi), or **Thrall** if Tychus is banned | Tychus is 7-2 for chelsi and only banned 2 of 6. Thrall is banned in 5 of 6, so there is no loss if it is taken |
 | 9 | **Brightwing** (Ltlbearista) | Lock it before slot 10. Fallback **Rehgar** (Garden, Tomb, Sky Temple, Dragon Shire) |
 | 14 | Tank: **Muradin** (NorthrnTouch 4-0), or Varian | Muradin stuns and counters Tyrande, but he is 47.5% in Storm League, so the 4-0 is a small sample. Johanna is banned |
-| 15 | **Leoric** (SoulShepherd) or Blaze | Leoric counters Anub'arak and is A tier on Garden, Dragon Shire and Volskaya. Blaze is D tier everywhere |
+| 15 | **Blaze** or **Leoric** (SoulShepherd) | Blaze is S tier as an offlaner on six of seven maps (A on Dragon Shire) and SoulShepherd is 6-4 on him. Leoric (5-4) is A tier on Garden, Dragon Shire and Volskaya and counters Anub'arak, so he is the pick into an Anub'arak comp |
 Shape: Sylvanas and Tychus is **2 marksmen and 2 real damage dealers** (the 13-6 shape), Brightwing, a stun tank and a clearer.
 
 ## 4. They have first pick (we have the map)
@@ -108,12 +109,12 @@ Round one bans are Johanna and Lunara unless a line says otherwise. "Their usual
 **Garden of Terror (Tier 1).** Icy Veins wants camp clearers, a double bruiser, siege damage, split push, ganking, vision.
 - Their usual: Qhira, Anub'arak, Li-Ming, Ragnaros, Tyrande (won the Sep 22 game). They won on fight damage (5.0k against 3.5k a minute) and experience (3.33k against 2.69k), with Ragnaros at 265k minion damage.
 - **Ban Ragnaros before Lunara.** Answers: **Chen** (chelsi, counters Ragnaros and Li-Ming) or Stukov for Ragnaros, **Leoric or Varian** for Anub'arak.
-- Our wins used **Rehgar**, **two or fewer ranged heroes** (the 1-4 shape is three or more), and a tank with a stun (Muradin, Johanna). Not E.T.C. alone in the front (1/6/7). Blaze is D tier here, Leoric is A.
+- Our wins used **Rehgar**, **two or fewer ranged heroes** (Garden is 4-1 with two or fewer and 0-3 with three or more, Blaze not counted), and a tank with a stun (Muradin, Johanna). The Sep 22 loss also had two ranged heroes, so the count alone does not save us. Not E.T.C. alone in the front (1/6/7). Blaze is S tier as an offlaner here, Leoric is A.
 - Comp: Sylvanas, Tychus (2 ranged), Muradin, Leoric, Rehgar. Fight as five and do not leave the tank alone.
 **Tomb of the Spider Queen (Tier 2).** Wants poke for the objective, high wave clear, sustain, strong late game.
 - Their usual: Qhira, Kael'thas, Stukov, E.T.C., Gazlowe (lost to Cosmos); Lunara, Gazlowe, Garrosh, Rehgar, Tychus (won). Ban **Gazlowe**.
-- **3 or more ranged heroes and 2 high clear heroes, one of them ranged.** Hunter on **Chromie** (SL 3-0 here, A tier) or Sylvanas (5-4, S tier, but she clears 1.7k a minute); chelsi on Tassadar (A) or Gul'dan (S) or Tychus. Rehgar is S tier. Avoid Blaze, E.T.C. and Varian here (D tier). Muradin is the tank we know.
-- Do not draft Sylvanas, Thrall, Leoric, Rehgar and Tyrael again (the Oct 6 loss, one ranged hero).
+- **3 or more ranged heroes and 2 high clear heroes, one of them ranged.** Hunter on **Chromie** (SL 3-0 here, A tier) or Sylvanas (5-4, S tier, but she clears 1.7k a minute); chelsi on Tassadar (A) or Gul'dan (S) or Tychus. Rehgar is S tier. Blaze is S tier as an offlaner here. Tanks are weak on this map in Icy Veins (Johanna is S but banned, E.T.C. B, Varian and Muradin C), so Muradin is the tank we know and NorthrnTouch is 4-0 on him.
+- Do not draft Sylvanas, Thrall, Leoric, Rehgar and Tyrael again (the Oct 6 loss, one ranged hero). Tomb is 7-3 with three or more ranged heroes and 2-6 with two or fewer.
 **Dragon Shire (Tier 2).** Wants an anchor, camp clearers, ganking, sustain, strong late game.
 - Their usual: Rehgar, Johanna, Dehaka, Li-Ming, Hanzo (beat us in 26 minutes, we died 18 times). Ban **Hanzo** at slot 11.
 - Brightwing or Rehgar (S), a durable shrine holder (Leoric, A tier), Hunter on Sylvanas or Chromie (Chromie won on Oct 7 and lost on Aug 19 with a 47 rating, Junkrat won on Sep 9). Do not take fights without the tank.
@@ -125,13 +126,13 @@ Round one bans are Johanna and Lunara unless a line says otherwise. "Their usual
 **Battlefield of Eternity (Tier 2).** Wants a strong early game, poke for the Immortals, vision.
 - Their usual: Johanna, Qhira, Artanis, Lunara, Rehgar. Chen and Sylvanas are S tier; our fast win used Johanna, Brightwing, Li-Ming, Tychus, Blaze (13 minutes). Camps and early game decide it. We ban it a lot, but it is not a bad map for us.
 **If Towers of Doom comes up:** wants gankers, camp clearers, an offlaner who can double soak. CCS is 4-1. Sylvanas, Tychus, Muradin, Leoric, Brightwing and fight near our structures.
-**If Infernal Shrines comes up:** wants a double healer and high wave clear. Brightwing and Rehgar, Sylvanas, Tychus, Muradin. Our only win here was Anduin, Sylvanas, Muradin, Blaze, Tychus in 14 minutes.
+**If Infernal Shrines comes up:** wants a double healer and high wave clear. Brightwing and Rehgar, Sylvanas, Tychus, Muradin. Our only win here was Anduin, Sylvanas, Muradin, Blaze, Tychus in 14 minutes. Shrines is 7-3 for teams with three or more ranged heroes and 4-8 with two or fewer.
 
 ## 8. Lessons that apply to every map
 - **Qhira (UnicycleYay):** do not ban her in round one. He is 2-3 on her (4.0 deaths) and 8-2 on everything else, and the one time we banned her he went Sylvanas 7/0/9. Deny his marksmen (Sylvanas, Hanzo). If he takes Qhira, draft a stun tank and Brightwing, stay together, and kill her in the fights. Icy Veins lists her counters as E.T.C., Diablo, Garrosh, Lunara and Tracer.
 - **Healer:** Brightwing first. CCS is 3-6 against Brightwing or Anduin teams.
-- **Garden:** do not draft three ranged heroes (1-4), do not leave E.T.C. alone, ban Ragnaros.
-- **Tomb:** do not end on one ranged hero.
+- **Garden:** two or fewer ranged heroes (4-1, against 0-3 with three or more), do not leave E.T.C. alone, ban Ragnaros.
+- **Tomb:** three or more ranged heroes (7-3, against 2-6). Do not end on one.
 
 ## 9. In game
 - Deaths decide this series: we lost every game where we died 15 or more times and won both where we died 7 or fewer.
