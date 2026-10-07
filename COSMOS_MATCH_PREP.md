@@ -62,7 +62,7 @@ Built from the Season 22 Div C West games we have (53 games), Heroes Profile NGS
 - **chelsi:** On Tychus or Thrall PRA is 8-2, on any other hero 4-6. Tell chelsi to stay on Tychus or Thrall tonight.
 - **NorthrnTouch:** Muradin is 4-0 in NGS, and he has played it only 15 times in the last three Storm League seasons (40%), so treat the Muradin edge as an NGS fact, not a Storm League one.
 - **Ltlbearista:** Brightwing is the most played and best NGS hero. Cosmos banned Anduin never against us, we banned it twice.
-- **HealsOnly** (the account you recently played Storm League with, 71 games together at 62%) is not in these numbers yet.
+- **HealsOnly** (a shared account, 71 Storm League games on your team at 44-27): in those games you were 23-10 on Sylvanas, 8-4 on Junkrat and 3-7 on Hanzo. Lock Sylvanas or Junkrat, not Hanzo.
 - Your full breakdown, with Hanzo, hero pool and team picture, is in `HUNTER_DEEP_DIVE.md`.
 
 ## Suggested plan

@@ -99,7 +99,7 @@ Icy Veins: Hanzo does well on maps where objectives sit in small areas and terra
 | "I fight instead of soaking or doing camps" | **Half right** | You take more camps than Junkrat, but almost no structures, and your team reaches level 10 first only 51% of the time |
 | "My team says we lack wave clear" | **Partly right** | Hanzo is tagged poke and burst with no push in our tag list, and Serrated Arrows cuts your wave clear by 28% |
 | "My team says we lack damage" | **Not supported** | Your hero damage matches Junkrat's; your 3 or more deaths in 53% of games is the bigger leak |
-| "Chelsi fights and skips camps and offlane soak" | **Cannot test in Storm League yet** | She does not use that account for Storm League. See part 3 |
+| "Chelsi fights and skips camps and offlane soak" | **No evidence either way** | NGS: PRA is 8-2 with chelsi on Tychus or Thrall. Storm League: the shared HealsOnly account's macro numbers in your games are normal (part 3) |
 
 ## Part 2: Your hero pool (Storm League career, with at least 40 games)
 | Hero | Games | Win rate | Deaths | Notes |
@@ -143,7 +143,19 @@ Icy Veins says to pick Hanzo late, to avoid being countered by Genji, Illidan or
 
 Chelsi on **Tychus or Thrall: 8-2**. Chelsi on any other hero: 4-6.
 
-**Chelsi's Storm League account.** You told me she does not use the chelsi account for Storm League, so the Storm League numbers under that name (Azmodan, Thrall, Zul'jin, Falstad) are not hers and I have left them out. You also told me your recent Storm League games were with **HealsOnly** (Heroes Profile shows 71 games together, 44-27, 62.0%). To test your macro hunch on your real Storm League team I need HealsOnly's Storm League stats, which is about 8 requests. That pull is waiting until I know which Chrome is the work laptop's.
+**Your Storm League games with the HealsOnly account.** HealsOnly is a shared account (1,162 Storm League games, 54.1%), and most of its games are with other people (Zooke 655 games, Rwcw1984 631). You and the account shared 73 games, 71 on the same team. Those 71 games are the group you described:
+| Your hero in those games | Games | Record | Same hero without the group |
+|---|---|---|---|
+| Sylvanas | 33 | **23-10 (70%)** | 70-69 (50.4%) over 139 games |
+| Junkrat | 12 | 8-4 (67%) | 195-118 (62.3%) over 313 games |
+| **Hanzo** | 10 | **3-7 (30%)** | 147-159 (48.0%) over 306 games |
+| Everything else | 16 | 10-6 | |
+
+- **The group wins:** 44-27 (62%) together versus 53% in your other Storm League games. Sylvanas with them is your best result of any hero.
+- **Hanzo does not improve with them,** it gets worse (3-7). So the Hanzo problem is not random teammates. It follows the hero.
+- **The account's own macro numbers do not show the gap you suspected.** In your 71 games its player averaged 74k siege damage, 51.6k minion damage and 11.0k experience, against 67k, 45.6k and 10.9k in its other games. Camps are slightly lower (2.7 vs 3.0 a game). I cannot say who was playing the account in each game, and I do not have the rosters yet (the roster pull was interrupted by a Cloudflare check after 47 of 73 games), so treat this as "no evidence for the hunch", not as a clear verdict.
+- **Its best heroes in your games:** Thrall 9 games 78%, Arthas 5 games 80%, Sylvanas 7 games 71%. The weakest were Tyrael (1-3) and Johanna (1-2).
+- The 71 games, with both sides' heroes for your side, are in `knowledge/healsonly_shared_games.csv`.
 
 **Your usual Storm League stack (all time):** Ltlbearista 538 games (53.2%), SoulShepherd 404 (50.7%), NorthrnTouch 62 (61.3%). Ltlbearista is mostly Brightwing, Anduin, Rehgar. SoulShepherd is Stitches, Anub'arak, Leoric, Blaze.
 
@@ -152,8 +164,9 @@ Chelsi on **Tychus or Thrall: 8-2**. Chelsi on any other hero: 4-6.
 2. **If you do play Hanzo:** only on Dragon Shire, Towers of Doom or Sky Temple (all three are 57% or better for you), take Explosive Arrows at level 4, try Ninja Assassin at 13, and ask for a wave clear partner (Junkrat, Azmodan, Sylvanas, Raynor, Zagara) so the comp is not poke with no push. Avoid Volskaya, Tomb and Battlefield of Eternity.
 3. **Treat 2 deaths as your cap.** At 2 or fewer you win 68%. Use Natural Agility earlier, and stay behind the tank in fights. This is the largest single lever in the data.
 4. **Give Hanzo a job between fights:** take one lane's towers while the tank holds the other, instead of waiting for the next fight. The structure damage gap (490 per level vs about 1,000 on Sylvanas and Raynor) is where a lead is being left on the table.
-5. **In NGS:** win the map pick, lock Sylvanas or Junkrat in your first pick slot, and expect Junkrat to be banned. Ask chelsi to stay on Tychus or Thrall.
-6. **Watch three of your recent Hanzo losses** and count how many of your deaths came while no one else was in the fight. If most were solo deaths, the deaths cap is the fix. If most were fights that your team started without you, the fix is communication.
+5. **With your usual group:** Sylvanas is 23-10 and Junkrat 8-4, Hanzo 3-7. Lock Sylvanas or Junkrat when you queue together.
+6. **In NGS:** win the map pick, lock Sylvanas or Junkrat in your first pick slot, and expect Junkrat to be banned. Ask chelsi to stay on Tychus or Thrall.
+7. **Watch three of your recent Hanzo losses** and count how many of your deaths came while no one else was in the fight. If most were solo deaths, the deaths cap is the fix. If most were fights that your team started without you, the fix is communication.
 
 ## What this cannot tell us
 - Storm League games in Heroes Profile do not include who was on your team or the enemy team, so I cannot say which teammate or comp lost a given Hanzo game.
