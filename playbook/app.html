@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* Layout: a one-hand phone tool. Top tabs, a 16 slot board, one decision card at a time. Amethyst is us, burnt orange is them. */
+/* Layout: a one-hand phone tool. Top tabs, a 16 slot board, one decision card at a time. Amethyst is us, burnt orange is them. Hero sheets slide up over any tab. */
 :root {
   --bg: #F4F3F8; --surface: #FFFFFF; --surface2: #ECEAF3; --line: #D9D5E6; --ink: #1B1830; --muted: #5E5875;
   --us: #5B34A0; --us-soft: #E9E1F7; --them: #A84A12; --them-soft: #F7E6DA;
@@ -36,9 +36,11 @@ button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-v
 .brand { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
 .brand h1 { font-size: 1.6rem; }
 .brand small { color: var(--muted); font-size: 0.78rem; }
-.tabs { display: flex; gap: 6px; margin-top: 8px; overflow-x: auto; }
+.tabs { display: flex; gap: 6px; margin-top: 8px; overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
 .tab { flex: 1 0 auto; border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 8px 14px; font-weight: 600; cursor: pointer; min-height: 40px; }
 .tab[aria-selected="true"] { background: var(--us); color: var(--bg); border-color: var(--us); }
+.tabs.small .tab { padding: 6px 12px; min-height: 36px; font-size: 0.86rem; }
 main { padding-top: 14px; display: grid; gap: 14px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; }
 .card.us { border-color: var(--us); } .card.them { border-color: var(--them); }
@@ -47,14 +49,17 @@ main { padding-top: 14px; display: grid; gap: 14px; }
 .muted { color: var(--muted); } .small { font-size: 0.82rem; }
 .num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
 label.f { display: grid; gap: 4px; font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
-select, input[type="text"] { width: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; min-height: 42px; color: var(--ink); }
+select, input[type="text"], input[type="search"] { width: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; min-height: 42px; color: var(--ink); }
 .btn { border: 1px solid var(--line); background: var(--surface2); border-radius: 8px; padding: 9px 14px; font-weight: 600; cursor: pointer; min-height: 42px; }
+.btn:disabled { opacity: 0.5; cursor: default; }
 .btn.primary { background: var(--us); color: var(--bg); border-color: var(--us); }
 .btn.them { background: var(--them); color: var(--bg); border-color: var(--them); }
+.btn.sm { padding: 5px 10px; min-height: 34px; font-size: 0.84rem; }
 .btn.big { padding: 14px 16px; min-height: 52px; flex: 1 1 200px; text-align: left; }
 .btn small { display: block; font-weight: 400; opacity: 0.9; }
 .board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
-.slot { border: 1px solid var(--line); border-radius: 8px; padding: 6px 7px; min-height: 52px; background: var(--surface); position: relative; overflow: hidden; }
+.slot { border: 1px solid var(--line); border-radius: 8px; padding: 6px 7px; min-height: 52px; background: var(--surface); position: relative; overflow: hidden; text-align: left; display: block; width: 100%; }
+button.slot { cursor: pointer; }
 .slot b { font-family: var(--mono); font-size: 0.62rem; color: var(--muted); font-weight: 500; white-space: nowrap; display: block; }
 .slot span { display: block; font-weight: 600; font-size: 0.78rem; overflow-wrap: break-word; line-height: 1.15; }
 .slot.us { border-left: 4px solid var(--us); } .slot.opp { border-left: 4px solid var(--them); }
@@ -64,6 +69,9 @@ select, input[type="text"] { width: 100%; background: var(--surface); border: 1p
 .tag { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 2px 7px; border-radius: 99px; background: var(--surface2); }
 .tag.good { background: var(--good-soft); color: var(--good); } .tag.warn { background: var(--warn-soft); color: var(--warn); } .tag.bad { background: var(--bad-soft); color: var(--bad); }
 .tag.us { background: var(--us-soft); color: var(--us); } .tag.them { background: var(--them-soft); color: var(--them); }
+.tier { display: inline-block; min-width: 24px; text-align: center; font-family: var(--mono); font-weight: 700; border-radius: 6px; padding: 1px 6px; font-size: 0.78rem; background: var(--surface2); }
+.tier.tS { background: var(--good-soft); color: var(--good); } .tier.tA { background: var(--us-soft); color: var(--us); } .tier.tB { background: var(--surface2); color: var(--muted); }
+.tier.tC { background: var(--warn-soft); color: var(--warn); } .tier.tD { background: var(--bad-soft); color: var(--bad); }
 .rec { display: grid; gap: 6px; border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: var(--surface); }
 .rec.first { border-color: var(--us); box-shadow: inset 4px 0 0 var(--us); }
 .rec.skip { opacity: 0.8; }
@@ -71,6 +79,8 @@ select, input[type="text"] { width: 100%; background: var(--surface); border: 1p
 .bar-score { height: 5px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
 .bar-score i { display: block; height: 100%; background: var(--us); }
 details summary { cursor: pointer; font-size: 0.85rem; color: var(--muted); min-height: 28px; }
+details.sec { border-top: 1px solid var(--line); padding-block: 4px; }
+details.sec > summary { font-weight: 600; color: var(--ink); font-size: 0.95rem; padding-block: 6px; }
 ul.r { margin: 6px 0 0; padding-left: 18px; } ul.r li { margin: 2px 0; }
 table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -82,7 +92,31 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
 .note h2, .note h3 { margin-top: 10px; } .note ul { padding-left: 18px; }
 .warnbox { background: var(--warn-soft); color: var(--ink); border: 1px solid var(--warn); border-radius: 8px; padding: 8px 10px; font-size: 0.88rem; }
 .err { color: var(--bad); font-size: 0.86rem; }
-@media (min-width: 640px) { .board { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 99px; padding: 5px 11px; font-size: 0.82rem; font-weight: 600; min-height: 34px; cursor: pointer; }
+.chip.pool { border-color: var(--us); background: var(--us-soft); }
+.chip.on { background: var(--us); color: var(--bg); border-color: var(--us); }
+.chip.used { opacity: 0.5; text-decoration: line-through; }
+button.hl { background: none; border: 0; padding: 0; margin: 0; font-weight: 700; text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; text-align: left; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.hrow { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 11px; min-height: 48px; cursor: pointer; }
+.hrow .meta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+.hlist { display: grid; gap: 6px; }
+.prose p { margin: 0.55em 0; } .prose h3 { margin-top: 12px; }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.cols ul { margin: 4px 0 0; padding-left: 18px; }
+.tal { display: grid; grid-template-columns: 52px 1fr; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); }
+.tal .lv { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+.opt { padding: 6px 0; } .opt + .opt { border-top: 1px dashed var(--line); }
+.mk { display: inline-block; width: 1.4em; text-align: center; font-weight: 700; }
+.mk.y { color: var(--good); } .mk.m { color: var(--muted); } .mk.n { color: var(--bad); }
+code.code { font-family: var(--mono); background: var(--surface2); border-radius: 6px; padding: 3px 8px; word-break: break-all; }
+dialog.sheet { border: 0; padding: 0; width: min(760px, 100%); max-width: 100%; height: min(92vh, 100%); max-height: 100%; margin: auto auto 0; border-radius: 14px 14px 0 0; background: var(--bg); color: var(--ink); box-shadow: 0 -6px 28px rgba(0, 0, 0, 0.35); overflow: hidden; }
+dialog.sheet[open] { display: flex; flex-direction: column; }
+dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
+.sheet-head { padding: 12px 14px 8px; border-bottom: 1px solid var(--line); background: var(--bg); }
+.sheet-body { padding: 12px 14px 32px; overflow-y: auto; flex: 1; display: grid; gap: 12px; align-content: start; }
+.sheet-body > * { min-width: 0; }
+@media (min-width: 640px) { .board { grid-template-columns: repeat(8, minmax(0, 1fr)); } dialog.sheet { margin: auto; border-radius: 14px; height: min(90vh, 100%); } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 
@@ -94,32 +128,39 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
   <main id="view"></main>
 </div>
 
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-title"></dialog>
+<dialog class="sheet" id="picker" aria-labelledby="picker-title"></dialog>
+
 <script>/*DATA*/</script>
+<script>/*LIB*/</script>
 <script>/*ENGINE*/</script>
 <script>
 (function () {
   "use strict";
   const P = window.PLAYBOOK, E = window.Engine;
+  const LIB = window.LIBRARY || { heroes: {}, maps: {}, guides: [], glossary: [], facts: [], tips: "" };
   const $ = s => document.querySelector(s);
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const keyOf = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
   const heroKey = {}; Object.keys(P.heroes).forEach(h => { heroKey[keyOf(h)] = h; });
   const opponents = Object.keys(P.teams).filter(t => t !== P.us.team).sort();
   const SAVE = "pra-draft-room-v1";
-  let ui = { tab: "draft", opp: (P.meta.next_opponent && P.teams[P.meta.next_opponent]) ? P.meta.next_opponent : opponents[0], side: null, map: null, actions: [], sim: null, msg: "", showAll: false };
+  const ROLES = ["Tank", "Bruiser", "Melee Assassin", "Ranged Assassin", "Healer", "Support"];
+  let ui = { tab: "draft", opp: (P.meta.next_opponent && P.teams[P.meta.next_opponent]) ? P.meta.next_opponent : opponents[0], side: null, map: null, actions: [], sim: null, msg: "", showAll: false,
+    mapview: null, hq: "", hrole: "All", hscope: "general", hpool: false, hsort: "name", ltab: "tips", gq: "", pq: "", prole: "All" };
 
   function load() { try { const s = JSON.parse(localStorage.getItem(SAVE) || "null"); if (s && P.teams[s.opp]) { ui.opp = s.opp; ui.side = s.side; ui.map = s.map; ui.actions = s.actions || []; ui.tab = s.tab || "draft"; } } catch (e) { /* storage unavailable */ } }
   function save() { try { localStorage.setItem(SAVE, JSON.stringify({ opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
   function state() { return { opp: ui.opp, side: ui.side || "first", map: ui.map, actions: ui.actions }; }
 
-  const TABS = [["draft", "Draft"], ["overview", "Pre-match"], ["maps", "Maps"], ["about", "About"]];
+  const TABS = [["draft", "Draft"], ["overview", "Prep"], ["heroes", "Heroes"], ["maps", "Maps"], ["learn", "Learn"], ["about", "About"]];
   function renderTabs() {
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" data-tab="${t[0]}" aria-selected="${ui.tab === t[0]}">${t[1]}</button>`).join("");
     $("#brand").textContent = (P.us.team.split(" ").map(w => w[0]).join("")) + " Draft Room";
     $("#stamp").textContent = `${P.meta.division} S${P.meta.season} · ${P.meta.games} games · to ${P.meta.newest_date}`;
   }
 
-  // ---------------------------------------------------------------- small renderers
+  // ---------------------------------------------------------------- small renderers and hero helpers
   function md(text) {
     if (!text) return "";
     const out = []; let inList = false;
@@ -135,13 +176,39 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
     if (inList) out.push("</ul>");
     return out.join("");
   }
+  const paras = t => String(t || "").split("\n\n").filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("");
   const rec = E.rec;
   function recText(v) { return v && v[0] ? rec(v) : "0-0"; }
+  const lh = h => LIB.heroes[h] || null;
+  const roleOf = h => (P.heroes[h] && P.heroes[h].role) || "Unknown";
+  const iceRole = r => r === "Bruiser" ? "Offlaner" : r;
+  const TIERS = "SABCD";
+  const prettyDate = s => { if (!s) return "unknown"; const m = String(s).match(/^(\d{4})-(\d{2})-(\d{2})$/); if (!m) return s; return ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][+m[2] - 1] + " " + (+m[3]) + " " + m[1]; };
+  function scopeSlug(scope) { if (scope === "general" || scope === "master") return scope; return LIB.maps[scope] ? LIB.maps[scope].slug : scope; }
+  function tierRows(h, scope) {
+    const d = lh(h); if (!d) return [];
+    const s = scopeSlug(scope);
+    const t = (s === "general" || s === "master") ? d.tiers[s] : (d.tiers.maps[s] || {});
+    return Object.values(t || {});
+  }
+  function mainTier(h, scope) {
+    const rows = tierRows(h, scope); if (!rows.length) return null;
+    return rows.find(r => r.role === iceRole(roleOf(h))) || rows.slice().sort((a, b) => TIERS.indexOf(a.tier) - TIERS.indexOf(b.tier))[0];
+  }
+  const tierTag = t => t ? `<span class="tier t${t.tier}" title="Icy Veins tier ${t.tier} as ${esc(t.role)}">${t.tier}</span>` : "";
+  function poolOf(h) { return P.us.players.filter(p => p.pool[h]).map(p => ({ label: p.label, tier: p.pool[h], tag: p.tag })); }
+  const heroBtn = h => `<button class="hl" data-hero="${esc(h)}">${esc(h)}</button>`;
+  function chip(h, used, tier) {
+    const pl = poolOf(h), gone = used && used.has(h);
+    return `<button class="chip ${pl.length ? "pool" : ""} ${gone ? "used" : ""}" data-hero="${esc(h)}">${esc(h)}${tier ? ` <span class="tier t${tier}">${tier}</span>` : ""}${pl.length ? ` <span class="small muted">${pl.map(x => esc(x.label)).join(", ")}</span>` : ""}${gone ? ` <span class="small">(gone)</span>` : ""}</button>`;
+  }
+  const usedSet = () => ui.side ? E.used(state()) : null;
+  const mapNames = () => Array.from(new Set(Object.keys(P.maps).concat(Object.keys(LIB.maps)))).sort();
 
   // ---------------------------------------------------------------- DRAFT TAB
   function setupCard() {
     const t = E.tossAdvice(ui.opp);
-    const pickTxt = t.pick === "first" ? "Take <b>first pick</b>" : t.pick === "map" ? "Take the <b>map pick</b>" : "A <b>toss-up</b>";
+    const pickTxt = t.pick === "first" ? "Take <b>first pick</b>" : t.pick === "map" ? "Take the <b>map pick</b>" : "A <b>toss up</b>";
     const close = Math.abs(t.edgeFirst - t.edgeMap) < 0.12 ? " It is close, so use the notes." : "";
     const h2 = t.h2h;
     return `<details class="card" ${ui.actions.length ? "" : "open"}><summary><b>Setup</b> <span class="muted small">${esc(ui.opp)} · ${ui.side ? (ui.side === "first" ? "we have first pick" : "they have first pick") : "toss not set"} · ${ui.map ? esc(ui.map) : "map not set"}</span></summary>
@@ -167,7 +234,8 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
       const a = st.actions[i] || (sim && sim.actions[i]);
       const now = !sim || st.actions[i] ? i === st.actions.length : false;
       const cls = ["slot", s.team === "us" ? "us" : "opp", s.type, now ? "now" : "", a && !st.actions[i] ? "sim" : ""].join(" ");
-      return `<div class="${cls}"><b>${s.slot} ${s.team === "us" ? "US" : "THEM"} ${s.type.toUpperCase()}</b><span>${a ? esc(a.hero) : "&nbsp;"}</span></div>`;
+      const inner = `<b>${s.slot} ${s.team === "us" ? "US" : "THEM"} ${s.type.toUpperCase()}</b><span>${a && a.hero ? esc(a.hero) : "&nbsp;"}</span>`;
+      return a && a.hero && P.heroes[a.hero] ? `<button class="${cls}" data-hero="${esc(a.hero)}" aria-label="Slot ${s.slot}, ${s.team === "us" ? "our" : "their"} ${s.type}, ${esc(a.hero)}. Open hero info.">${inner}</button>` : `<div class="${cls}">${inner}</div>`;
     }).join("");
     return `<section class="card"><div class="board">${cells}</div>
       <div class="row" style="margin-top:10px"><button class="btn" data-act="undo" ${st.actions.length ? "" : "disabled"}>Undo last</button>
@@ -181,12 +249,13 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
     const flags = (r.flags || []).map(f => `<span class="tag ${/LOCK NOW/.test(f) ? "bad" : /DO NOT|LEAVE/.test(f) ? "warn" : "good"}">${esc(f)}</span>`).join(" ");
     const reasons = (r.reasons || []).filter(Boolean);
     const skip = (r.flags || []).some(f => /DO NOT|LEAVE/.test(f));
+    const tt = st.map ? mainTier(r.hero, st.map) : mainTier(r.hero, "general");
     return `<div class="rec ${i === 0 && !skip ? "first" : ""} ${skip ? "skip" : ""}">
-      <div class="row" style="justify-content:space-between"><h3>${esc(r.hero)}</h3><span class="num small muted">${r.score.toFixed(1)}</span></div>
+      <div class="row" style="justify-content:space-between"><h3>${esc(r.hero)}</h3><span class="row" style="gap:6px"><span class="small muted">${st.map ? "map tier" : "general tier"}</span>${tierTag(tt)}<span class="num small muted">${r.score.toFixed(1)}</span></span></div>
       <div class="bar-score"><i style="width:${pct}%"></i></div>
       <div class="row">${who} ${flags}</div>
       ${reasons.length ? `<details ${i === 0 ? "open" : ""}><summary>Why (${reasons.length})</summary><ul class="r small">${reasons.slice(0, 8).map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}
-      <div class="row"><button class="btn primary" data-take="${esc(r.hero)}">${type === "ban" ? "We ban it" : "We pick it"}</button></div>
+      <div class="row"><button class="btn primary" data-take="${esc(r.hero)}">${type === "ban" ? "We ban it" : "We pick it"}</button><button class="btn" data-hero="${esc(r.hero)}">Hero info</button></div>
     </div>`;
   }
 
@@ -209,14 +278,14 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
         "Their usual picks at this point. Tap what they actually did."}</p>
         <div class="row">${chips.map(c => `<button class="btn" data-take="${esc(c.hero)}">${esc(c.hero)} <span class="muted small">${slot.type === "ban" ? c.n + (c.vs ? " (" + c.vs + " vs us)" : "") : (c.player ? esc(c.player.tag) : c.g + " games")}</span></button>`).join("")}</div>`;
     }
-    const heroList = Object.keys(P.heroes).sort();
     return `<section class="card ${ours ? "us" : "them"}">
       <div class="row" style="justify-content:space-between"><h2>Slot ${slot.slot}: ${ours ? "our" : "their"} ${what}</h2><span class="tag ${ours ? "us" : "them"}">${ours ? "US" : "THEM"}</span></div>
       <div style="display:grid;gap:10px;margin-top:10px">${body}</div>
       <div class="row" style="margin-top:12px"><label class="f grow">${ours ? "Pick any other hero" : "Something else"}<input type="text" id="free" list="heroes" placeholder="Type a hero" autocomplete="off"></label>
         <button class="btn ${ours ? "primary" : "them"}" data-act="free">Record</button>
+        <button class="btn" data-act="browse">Browse all heroes</button>
         ${slot.type === "ban" ? `<button class="btn" data-take="No Pick">No ban (missed)</button>` : ""}</div>
-      <datalist id="heroes">${heroList.map(h => `<option value="${esc(h)}">`).join("")}</datalist>
+      <datalist id="heroes">${Object.keys(P.heroes).sort().map(h => `<option value="${esc(h)}">`).join("")}</datalist>
       ${ui.msg ? `<p class="err">${esc(ui.msg)}</p>` : ""}
     </section>`;
   }
@@ -231,25 +300,74 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
       <div class="meter" style="margin-top:8px"><div><b>${c.ranged}</b><span>Ranged</span></div><div><b>${c.marksmen}</b><span>Marksmen</span></div><div><b>${c.frontline}</b><span>Front</span></div><div><b>${c.healers}</b><span>Healer</span></div><div><b>${c.highClear}</b><span>Strong clear</span></div><div><b>${c.highDamage}</b><span>Damage dealers</span></div></div>
       <p class="small muted">Blaze is never counted as ranged. Strong clear is 3,500+ minion damage a minute, damage dealer is 2,400+ hero damage a minute (this division).</p>
       ${c.warnings.map(w => `<div class="warnbox" style="margin-top:6px">${esc(w)}</div>`).join("")}
-      ${asg.assign.length ? `<table style="margin-top:8px"><tr><th>Player</th><th>Hero</th><th>Evidence</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td><b>${esc(a.hero)}</b></td><td class="small muted">${esc(a.why.slice(0, 2).join("; "))}</td></tr>`).join("")}</table>
+      ${asg.assign.length ? `<table style="margin-top:8px"><tr><th>Player</th><th>Hero</th><th>Evidence</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td>${heroBtn(a.hero)}</td><td class="small muted">${esc(a.why.slice(0, 2).join("; "))}</td></tr>`).join("")}</table>
       <p class="small muted">This is the best way to hand out the picks so far. Swap the players when the draft ends if a hero fits someone else better.</p>` : ""}
-      ${theirs.length ? `<p class="small"><b>Their picks:</b> ${theirs.map(esc).join(", ")}</p>` : ""}
+      ${theirs.length ? `<p class="small"><b>Their picks:</b> ${theirs.map(heroBtn).join(", ")}</p>` : ""}
       ${rules.map(r => `<p class="small muted">${esc(r.text)}</p>`).join("")}
     </section>`;
   }
 
+  // What their picks mean for us: Icy Veins counter lists, filtered to heroes still in the draft.
+  function intelCard(st) {
+    const theirs = E.picks(st, "opp");
+    if (!theirs.length) return "";
+    const used = E.used(st);
+    const rows = theirs.map(h => {
+      const d = lh(h), info = P.heroes[h] || {};
+      const open = (info.counters || []).filter(c => !used.has(c));
+      const mine = open.filter(c => poolOf(c).length), rest = open.filter(c => !poolOf(c).length);
+      const t = st.map ? mainTier(h, st.map) : null;
+      return `<div style="border-top:1px solid var(--line);padding-top:8px;margin-top:8px"><div class="row" style="justify-content:space-between"><span>${heroBtn(h)} <span class="muted small">${esc(roleOf(h))}</span></span>${t ? `<span class="small muted">${esc(st.map)} ${tierTag(t)}</span>` : ""}</div>
+        ${d && d.weaknesses && d.weaknesses.length ? `<p class="small muted">Weak to: ${esc(d.weaknesses.slice(0, 3).join(", "))}</p>` : ""}
+        <p class="small" style="margin-bottom:4px">Icy Veins counters still open:</p>
+        <div class="chips">${mine.concat(rest).slice(0, 10).map(c => chip(c, used)).join("") || '<span class="small muted">none left in the list</span>'}</div></div>`;
+    }).join("");
+    return `<section class="card them"><h3>What their picks mean</h3><p class="small muted">Icy Veins counter lists for each hero they have taken. Heroes in our pools are outlined and show the player. Tap any hero for the detail.</p>${rows}</section>`;
+  }
+
+  function buildLine(h) {
+    const d = lh(h); if (!d || !d.codes || !d.codes.length) return `<span class="small muted">no build code in the sheet</span>`;
+    const best = d.codes.slice().sort((a, b) => (a.flags.length - b.flags.length) || b.date.localeCompare(a.date))[0];
+    const flag = best.flags.length ? ` <span class="tag warn">${best.flags.map(f => f === "old" ? "old" : "talents changed").join(", ")}</span>` : "";
+    return `<span class="small">${esc(best.label)}, ${esc(prettyDate(best.date))}${flag}</span> <button class="btn sm" data-copy="${esc(best.code)}">Copy code</button>`;
+  }
+
+  function summaryText(st) {
+    const plan = E.plan(st.side);
+    const lines = [`${P.us.team} vs ${st.opp}${st.map ? " on " + st.map : ""}`, st.side === "first" ? "We had first pick." : "They had first pick."];
+    st.actions.forEach((a, i) => lines.push(`${a.slot} ${plan[i].team === "us" ? "US" : "THEM"} ${a.type.toUpperCase()}: ${a.hero}`));
+    const asg = E.bestAssign(E.picks(st, "us"), st.map);
+    if (asg.assign.length) lines.push("Plan: " + asg.assign.map(a => `${a.label} ${a.hero}`).join(", "));
+    return lines.join("\n");
+  }
+
   function finalCard(st) {
     const asg = E.bestAssign(E.picks(st, "us"), st.map);
-    return `<table><tr><th>Player</th><th>Hero</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td><b>${esc(a.hero)}</b></td></tr>`).join("")}</table>`;
+    return `<table><tr><th>Player</th><th>Hero</th><th>Build</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td>${heroBtn(a.hero)}</td><td>${buildLine(a.hero)} <button class="btn sm" data-hero="${esc(a.hero)}" data-htab="builds">Builds</button></td></tr>`).join("")}</table>
+      <p class="small muted">Build codes come from the Icy Veins sheet. A flag means the code is more than a year old, or the Icy talent page changed after it was made. Check the picks in game before you trust it.</p>
+      ${st.map ? `<p class="small">Map plan: <button class="btn sm" data-gomap="${esc(st.map)}">Open ${esc(st.map)}</button></p>` : ""}
+      <div class="row" style="margin-top:8px"><button class="btn" data-copy-summary="1">Copy draft summary</button></div>`;
   }
 
   function renderDraft() {
     if (!ui.side) return setupCard() + `<section class="card"><p class="muted">Pick who has first pick to start the draft board.</p></section>`;
     const st = state();
-    return setupCard() + turnCard(st) + boardCard(st) + compCard(st);
+    return setupCard() + turnCard(st) + boardCard(st) + compCard(st) + intelCard(st);
   }
 
-  // ---------------------------------------------------------------- OVERVIEW TAB
+  // ---------------------------------------------------------------- PREP TAB (the opponent)
+  function answersCard() {
+    const st = E.newDraft(ui.opp, "first", ui.map), th = E.threats(st);
+    const top = Object.keys(th).sort((a, b) => th[b].v - th[a].v).slice(0, 8);
+    const rows = top.map(h => {
+      const info = P.heroes[h] || {}, mine = (info.counters || []).filter(c => poolOf(c).length);
+      const who = th[h].rows.slice(0, 2).map(r => `${esc(r.tag)} ${r.w}-${r.g - r.w}`).join(", ");
+      return `<tr><td>${heroBtn(h)}<div class="small muted">${who}</div></td><td>${mine.length ? `<div class="chips">${mine.map(c => chip(c)).join("")}</div>` : '<span class="small muted">none in our pools</span>'}</td></tr>`;
+    }).join("");
+    return `<section class="card us"><h3>Answers in our pools</h3><p class="small muted">Their top heroes by how much they rely on them, and the Icy Veins counters that we can play. Icy lists are general advice, so check the hero page before you lean on one.</p>
+      <div class="scroll"><table><tr><th>Their hero</th><th>Counters in our pools</th></tr>${rows}</table></div></section>`;
+  }
+
   function renderOverview() {
     const o = P.teams[ui.opp], t = E.tossAdvice(ui.opp), mp = E.mapPlan(ui.opp), st = E.newDraft(ui.opp, "first", ui.map);
     const ex = E.expectOppBans(st);
@@ -260,64 +378,264 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
     return `<section class="card"><label class="f">Opponent<select id="opp">${opponents.map(x => `<option ${x === ui.opp ? "selected" : ""}>${esc(x)}</option>`).join("")}</select></label>
       <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
       ${o.h2h.length ? "Against us: " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "W" : "L"}`).join(", ") + "." : "No games against us yet."}</p></section>
-    <section class="card us"><h3>Coin toss</h3><p>If we win it: <b>${t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss-up)"}</b>.
+    <section class="card us"><h3>Coin toss</h3><p>If we win it: <b>${t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss up)"}</b>.
       Our record with first pick ${rec(t.usFirst)}, with map pick ${rec(t.usMap)}; theirs ${rec(t.themFirst)} and ${rec(t.themMap)}. First pick lets us decide who takes the contested heroes; the map pick lets us choose where.</p></section>
     <section class="card"><h3>Maps</h3>
       <p class="small muted">Suggested map bans: <b>${mp.bans.map(esc).join(" and ") || "none yet"}</b>. If we get the map pick: ${mp.picks.map(esc).join(", ")}. Records are this season in this division, so most are 1 to 4 games.</p>
       <div class="scroll"><table><tr><th>Map</th><th>Us</th><th>Them</th><th>They pick</th><th>They ban</th><th></th></tr>
-      ${mp.table.sort((a, b) => b.banScore - a.banScore).map(m => `<tr><td>${esc(m.map)}</td><td class="num">${recText(m.us)}</td><td class="num">${recText(m.them)}</td><td class="num">${recText(m.themPicker)}</td><td class="num">${m.theyBan}</td>
+      ${mp.table.sort((a, b) => b.banScore - a.banScore).map(m => `<tr><td><button class="hl" data-gomap="${esc(m.map)}">${esc(m.map)}</button></td><td class="num">${recText(m.us)}</td><td class="num">${recText(m.them)}</td><td class="num">${recText(m.themPicker)}</td><td class="num">${m.theyBan}</td>
         <td>${mp.bans.includes(m.map) ? '<span class="tag bad">ban</span>' : mp.picks.includes(m.map) ? '<span class="tag good">pick</span>' : ""}</td></tr>`).join("")}</table></div></section>
     <section class="card them"><h3>What they ban</h3>
-      <p class="small">Round one: ${ex.round1.slice(0, 6).map(x => `${esc(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
-      <p class="small">Round two (slot 10 or 11): ${ex.round2.slice(0, 6).map(x => `${esc(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
+      <p class="small">Round one: ${ex.round1.slice(0, 6).map(x => `${heroBtn(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
+      <p class="small">Round two (slot 10 or 11): ${ex.round2.slice(0, 6).map(x => `${heroBtn(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
       ${lock.length ? `<p class="small"><b>Heroes of ours they ban late, so lock them early:</b></p><ul class="r small">${lock.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</section>
+    ${answersCard()}
     <section class="card them"><h3>Their players</h3><div class="scroll"><table><tr><th>Player</th><th>Heroes this season</th></tr>
-      ${players.map(tag => `<tr><td>${esc(tag)}<div class="muted small">rating ${o.players[tag].avg_rating}</div></td><td class="small">${Object.keys(o.players[tag].heroes).slice(0, 5).map(h => { const d = o.players[tag].heroes[h]; return `${esc(h)} ${d.w}-${d.g - d.w}${d.weak ? ' <span class="tag warn">weaker</span>' : ""}`; }).join(", ")}</td></tr>`).join("")}</table></div>
+      ${players.map(tag => `<tr><td>${esc(tag)}<div class="muted small">rating ${o.players[tag].avg_rating}</div></td><td class="small">${Object.keys(o.players[tag].heroes).slice(0, 6).map(h => { const d = o.players[tag].heroes[h]; return `${heroBtn(h)} ${d.w}-${d.g - d.w}${d.weak ? ' <span class="tag warn">weaker</span>' : ""}`; }).join(", ")}</td></tr>`).join("")}</table></div>
       <p class="small muted">"Weaker" means the player rates clearly lower on that hero than on his others, so banning it may do nothing.</p></section>
     <section class="card"><h3>Rules in play</h3><ul class="r small">${rules.map(r => `<li><b>${esc(r.id)}:</b> ${esc(r.text || r.why)} <span class="muted">(${esc(r.evidence || "")})</span></li>`).join("")}</ul></section>
     ${o.notes ? `<section class="card note"><h3>Notes on ${esc(ui.opp)}</h3>${md(o.notes)}</section>` : ""}`;
   }
 
+  // ---------------------------------------------------------------- HEROES TAB
+  function heroRowHtml(h) {
+    const d = lh(h), t = mainTier(h, ui.hscope), pl = poolOf(h), div = d && d.division;
+    return `<button class="hrow" data-hero="${esc(h)}"><span><b>${esc(h)}</b><br><span class="small muted">${esc(roleOf(h))}</span>${pl.length ? ` ${pl.map(x => `<span class="tag us">${esc(x.label)} ${esc(x.tier)}</span>`).join(" ")}` : ""}</span>
+      <span class="meta">${div && div.g ? `<span class="small muted">${div.g}g ${div.w}w</span>` : ""}${div && div.bans ? `<span class="small muted">${div.bans} bans</span>` : ""}${t ? `${tierTag(t)}<span class="small muted">${esc(t.role)}</span>` : ""}</span></button>`;
+  }
+  function heroListHtml() {
+    const q = keyOf(ui.hq);
+    let names = Object.keys(P.heroes).sort().filter(h => (!q || keyOf(h).includes(q) || keyOf(roleOf(h)).includes(q)) && (ui.hrole === "All" || roleOf(h) === ui.hrole) && (!ui.hpool || poolOf(h).length));
+    if (ui.hsort === "tier") names.sort((a, b) => { const ta = mainTier(a, ui.hscope), tb = mainTier(b, ui.hscope); return (ta ? TIERS.indexOf(ta.tier) : 9) - (tb ? TIERS.indexOf(tb.tier) : 9) || a.localeCompare(b); });
+    else if (ui.hsort === "picked") names.sort((a, b) => ((lh(b) && lh(b).division ? lh(b).division.g : 0) - (lh(a) && lh(a).division ? lh(a).division.g : 0)) || a.localeCompare(b));
+    else if (ui.hsort === "banned") names.sort((a, b) => ((lh(b) && lh(b).division ? lh(b).division.bans : 0) - (lh(a) && lh(a).division ? lh(a).division.bans : 0)) || a.localeCompare(b));
+    return `<p class="small muted">${names.length} heroes</p><div class="hlist">${names.map(heroRowHtml).join("") || '<p class="muted">No heroes match.</p>'}</div>`;
+  }
+  function renderHeroes() {
+    const scopes = [["general", "Icy general tier list"], ["master", "Icy master tier list (Diamond and up)"]].concat(Object.keys(P.maps).sort().map(m => [m, "Icy tier list on " + m]));
+    return `<section class="card"><div class="row">
+        <label class="f grow">Search<input type="search" id="hq" value="${esc(ui.hq)}" placeholder="Hero or role" autocomplete="off"></label>
+        <label class="f grow">Sort<select id="hsort">${[["name", "Name"], ["tier", "Tier"], ["picked", "Most picked here"], ["banned", "Most banned here"]].map(s => `<option value="${s[0]}" ${s[0] === ui.hsort ? "selected" : ""}>${s[1]}</option>`).join("")}</select></label></div>
+      <div class="chips" style="margin-top:10px">${["All"].concat(ROLES).map(r => `<button class="chip ${ui.hrole === r ? "on" : ""}" data-hrole="${esc(r)}" aria-pressed="${ui.hrole === r}">${esc(r)}</button>`).join("")}
+        <button class="chip ${ui.hpool ? "on" : ""}" data-hpool="1" aria-pressed="${ui.hpool}">Our pools only</button></div>
+      <details style="margin-top:8px"><summary>Tier list and how to read this</summary>
+        <label class="f" style="margin-top:6px">Tier list shown<select id="hscope">${scopes.map(s => `<option value="${esc(s[0])}" ${s[0] === ui.hscope ? "selected" : ""}>${esc(s[1])}</option>`).join("")}</select></label>
+        <p class="small muted">Tier is the Icy Veins tier for the hero's main role. Tap a hero for the overview, builds, talents, abilities, matchups, maps and who on our team plays it. "g" and "w" are games and wins in this division, "bans" is how often it was banned in ${P.meta.games} games.</p></details></section>
+      <div id="hlist">${heroListHtml()}</div>`;
+  }
+
+  // ---------------------------------------------------------------- HERO SHEET
+  let sheet = { stack: [], tab: "overview" };
+  const STABS = [["overview", "Overview"], ["builds", "Builds"], ["talents", "Talents"], ["abilities", "Abilities"], ["matchups", "Matchups"], ["maps", "Maps"], ["team", "Team"]];
+  const noLib = () => `<p class="warnbox">The Icy Veins library has no page for this hero.</p>`;
+  function heroTags(h) {
+    const g = mainTier(h, "general"), m = mainTier(h, "master"), mp = ui.map ? mainTier(h, ui.map) : null;
+    return `<span class="tag">${esc(roleOf(h))}</span> ${g ? `<span class="small">General ${tierTag(g)}</span>` : ""} ${m ? `<span class="small">Master ${tierTag(m)}</span>` : ""} ${mp ? `<span class="small">${esc(ui.map)} ${tierTag(mp)}</span>` : ""}
+      ${poolOf(h).map(x => `<span class="tag us">${esc(x.label)} ${esc(x.tier)}</span>`).join(" ")}`;
+  }
+  function sOverview(h) {
+    const d = lh(h); if (!d) return noLib();
+    const div = d.division;
+    const bits = [];
+    if (div) bits.push(`In this division: picked ${div.g} time${div.g === 1 ? "" : "s"}${div.g ? ` (${div.w} win${div.w === 1 ? "" : "s"})` : ""}, banned in ${div.bans} of ${div.games} games.`);
+    return `${bits.length ? `<p class="small">${esc(bits.join(" "))}</p>` : ""}
+      <div class="prose">${paras(d.overview)}</div>
+      <div class="cols"><div><h3>Strengths</h3><ul>${(d.strengths || []).map(x => `<li>${esc(x)}</li>`).join("") || "<li>none listed</li>"}</ul></div><div><h3>Weaknesses</h3><ul>${(d.weaknesses || []).map(x => `<li>${esc(x)}</li>`).join("") || "<li>none listed</li>"}</ul></div></div>
+      ${d.meta_text ? `<div class="prose"><h3>Role in the current meta</h3>${paras(d.meta_text)}</div>` : ""}
+      ${d.tips ? `<details class="sec"><summary>Tips and tricks</summary><div class="prose">${paras(d.tips)}</div></details>` : ""}
+      <p class="small muted">Icy Veins pages for ${esc(h)}: guide updated ${esc(prettyDate(d.updated.guide))}, talents updated ${esc(prettyDate(d.updated.talents))}.</p>`;
+  }
+  function flagText(c, d) {
+    const out = [];
+    if (c.flags.includes("old")) out.push(c.before ? "Icy lists this build as before June 2020." : "This build is more than a year old.");
+    if (c.flags.includes("patched")) out.push(`The Icy talent page changed on ${prettyDate(d.updated.talents)}, after this code was made. Check each pick in game.`);
+    return out;
+  }
+  const mk = m => m === "yes" ? '<span class="mk y" title="Icy marker: tick">✓</span>' : m === "no" ? '<span class="mk n" title="Icy marker: cross">✗</span>' : '<span class="mk m" title="Icy marker: question mark">?</span>';
+  function sBuilds(h) {
+    const d = lh(h); if (!d) return noLib();
+    const codes = d.codes || [];
+    const cards = codes.map(c => {
+      const ft = flagText(c, d);
+      return `<div class="card" style="padding:10px"><div class="row" style="justify-content:space-between"><b>${esc(c.label)}</b><span class="small muted">Icy build updated ${c.before ? "before " : ""}${esc(prettyDate(c.date))}</span></div>
+        ${ft.map(x => `<div class="warnbox small" style="margin-top:6px">${esc(x)}</div>`).join("")}
+        <div class="row" style="margin-top:8px"><code class="code">${esc(c.code)}</code><button class="btn sm" data-copy="${esc(c.code)}">Copy code</button></div>
+        <table style="margin-top:6px"><tr><th>Level</th><th>Talent</th></tr>${c.picks.map(p => `<tr><td class="num">${p.level}</td><td>${mk(p.mark)} ${esc(p.name)}</td></tr>`).join("")}</table></div>`;
+    }).join("");
+    const notes = (d.build_notes || []).map(b => `<details class="sec"><summary>${esc(b.name)} <span class="tag">${esc(b.tag)}</span></summary><div class="prose">${paras(b.text)}</div></details>`).join("");
+    return `<p class="small muted">Codes are the in game import codes from your Icy Veins sheet. Each pick is looked up in the Icy talent table for ${esc(h)}. The marks are the Icy Veins markers on that table: ✓ tick, ? question mark, ✗ cross. To use a code, copy it and paste it in the in game talent calculator (the import box).</p>
+      ${cards || `<p class="warnbox">No build code for ${esc(h)} in the sheet. The Icy notes below still describe the builds.</p>`}
+      ${notes ? `<h3>Icy Veins build notes</h3><p class="small muted">The talent icons are not in our copy of the guide, so these notes do not list the picks. Open the Talents tab to read every option.</p>${notes}` : ""}`;
+  }
+  function sTalents(h) {
+    const d = lh(h); if (!d) return noLib();
+    const inCode = new Set(); (d.codes || []).forEach(c => c.picks.forEach(p => inCode.add(p.level + "|" + p.name)));
+    return `<p class="small muted">Every talent with the Icy Veins marker (✓ tick, ? question mark, ✗ cross). "In a code" means one of the build codes picks it.</p>` +
+      (d.talents || []).map(t => `<div class="tal"><div class="lv">Level ${t.level}</div><div>${t.opts.map(o => `<div class="opt">${mk(o.mark)} <b>${esc(o.name)}</b>${inCode.has(t.level + "|" + o.name) ? ' <span class="tag us">in a code</span>' : ""}<div class="small muted">${esc(o.text)}</div></div>`).join("")}</div></div>`).join("");
+  }
+  function sAbilities(h) {
+    const d = lh(h); if (!d) return noLib();
+    return (d.abilities || []).map(a => `<div class="card" style="padding:10px"><div class="row" style="justify-content:space-between"><b>${esc(a.title)}</b>${a.key ? `<span class="tag">${esc(a.key)}</span>` : ""}</div>
+      ${a.cost && a.cost.length ? `<p class="small muted">${a.cost.map(esc).join(" · ")}</p>` : ""}<div class="prose small">${paras(a.text)}</div></div>`).join("") || '<p class="muted">No ability text.</p>';
+  }
+  function sMatchups(h) {
+    const d = lh(h), info = P.heroes[h] || { counters: [], synergies: [] }, used = usedSet();
+    const counters = Object.keys(P.heroes).filter(x => (P.heroes[x].counters || []).includes(h));
+    return `${used ? '<p class="small muted">Crossed out heroes are already banned or picked in this draft.</p>' : ""}
+      <h3>Icy Veins lists these as counters to ${esc(h)}</h3><div class="chips">${info.counters.map(c => chip(c, used)).join("") || '<span class="small muted">none listed</span>'}</div>
+      ${d && d.counter_text ? `<div class="prose small">${paras(d.counter_text)}</div>` : ""}
+      <h3>Works well with</h3><div class="chips">${info.synergies.map(c => chip(c, used)).join("") || '<span class="small muted">none listed</span>'}</div>
+      ${d && d.synergy_text ? `<div class="prose small">${paras(d.synergy_text)}</div>` : ""}
+      <h3>${esc(h)} is listed as a counter to</h3><div class="chips">${counters.map(c => chip(c, used)).join("") || '<span class="small muted">none listed</span>'}</div>
+      ${d && d.pairs && d.pairs.length ? `<h3>Pair notes</h3>${d.pairs.map(p => `<div class="card" style="padding:10px"><b>${esc(h)} and ${heroBtn(p.with_)}</b><div class="prose small">${paras(p.text)}</div></div>`).join("")}` : ""}`;
+  }
+  function sMaps(h) {
+    const d = lh(h); if (!d) return noLib();
+    const rows = mapNames().map(m => ({ m, rows: tierRows(h, m) })).filter(x => x.rows.length);
+    rows.sort((a, b) => Math.min.apply(null, a.rows.map(r => TIERS.indexOf(r.tier))) - Math.min.apply(null, b.rows.map(r => TIERS.indexOf(r.tier))) || a.m.localeCompare(b.m));
+    return `${d.maps_text ? `<div class="prose">${paras(d.maps_text)}</div>` : ""}
+      <div class="scroll"><table><tr><th>Map</th><th>Icy tier (by role)</th><th></th></tr>${rows.map(x => `<tr><td><button class="hl" data-gomap="${esc(x.m)}">${esc(x.m)}</button>${P.maps[x.m] ? "" : ' <span class="tag">not in the NGS pool</span>'}</td><td>${x.rows.map(r => `${tierTag(r)} <span class="small muted">${esc(r.role)}</span>`).join(" ")}</td><td>${ui.map === x.m ? '<span class="tag us">draft map</span>' : ""}</td></tr>`).join("")}</table></div>`;
+  }
+  function sTeam(h) {
+    const out = [];
+    P.us.players.forEach(p => {
+      const ng = p.ngs && p.ngs[h], sl = p.sl && p.sl.heroes && p.sl.heroes[h], note = p.notes && p.notes[h], avoid = (p.avoid || []).includes(h);
+      if (!p.pool[h] && !ng && !avoid && !(sl && sl[0] >= 3)) return;
+      out.push(`<tr><td><b>${esc(p.label)}</b></td><td>${p.pool[h] ? `<span class="tag us">${esc(p.pool[h])}</span>` : avoid ? '<span class="tag warn">avoid</span>' : '<span class="small muted">not in pool</span>'}</td><td class="num">${ng ? `${ng.w}-${ng.g - ng.w}` : ""}</td><td class="num">${sl && sl[0] ? `${sl[1]}-${sl[0] - sl[1]}` : ""}</td></tr>${note ? `<tr><td colspan="4" class="small muted">${esc(note)}</td></tr>` : ""}`);
+    });
+    const theirs = [];
+    Object.keys(P.teams).filter(t => t !== P.us.team).forEach(t => Object.keys(P.teams[t].players).forEach(tag => { const r = P.teams[t].players[tag].heroes[h]; if (r) theirs.push(`${esc(tag)} (${esc(t)}) ${r.w}-${r.g - r.w}${r.weak ? " weaker" : ""}`); }));
+    return `<h3>Our team</h3>${out.length ? `<div class="scroll"><table><tr><th>Player</th><th>Pool</th><th>NGS S${P.meta.season}</th><th>Storm League</th></tr>${out.join("")}</table></div>
+      <p class="small muted">Storm League covers the games on file for the players that have them (Hunter, the last 12 months). Small samples, read them as leans.</p>` : '<p class="muted">Nobody on our team has this hero in a pool or a record this season.</p>'}
+      <h3>Who plays it in this division</h3>${theirs.length ? `<p class="small">${theirs.join("; ")}</p>` : '<p class="muted small">Nobody on the other teams has a game on it this season.</p>'}`;
+  }
+  const SBODY = { overview: sOverview, builds: sBuilds, talents: sTalents, abilities: sAbilities, matchups: sMatchups, maps: sMaps, team: sTeam };
+  function renderSheet() {
+    const h = sheet.stack[sheet.stack.length - 1]; if (!h) return;
+    $("#sheet").innerHTML = `<div class="sheet-head"><div class="row" style="justify-content:space-between;flex-wrap:nowrap">
+        <div class="row" style="flex-wrap:nowrap">${sheet.stack.length > 1 ? '<button class="btn sm" data-back="1" aria-label="Back to the previous hero">Back</button>' : ""}<h2 id="sheet-title">${esc(h)}</h2></div>
+        <button class="btn sm" data-close="sheet">Close</button></div>
+      <div class="row" style="margin-top:6px">${heroTags(h)}</div>
+      <div class="tabs small" role="tablist" id="stabs">${STABS.map(t => `<button class="tab" role="tab" data-stab="${t[0]}" aria-selected="${sheet.tab === t[0]}">${t[1]}</button>`).join("")}</div></div>
+      <div class="sheet-body" id="sbody">${SBODY[sheet.tab](h)}</div>`;
+  }
+  function openHero(h, tab) {
+    if (!P.heroes[h]) return;
+    const d = $("#sheet");
+    if (!d.open) sheet.stack = [];   // a closed sheet starts a fresh trail (Esc closes it without our code running)
+    if (sheet.stack[sheet.stack.length - 1] !== h) sheet.stack.push(h);
+    sheet.tab = tab || "overview";
+    renderSheet();
+    if (!d.open) { if (d.showModal) d.showModal(); else d.setAttribute("open", ""); }
+    const b = $("#sbody"); if (b) b.scrollTop = 0;
+  }
+  function closeDialog(id) { const d = $("#" + id); if (d.open) { if (d.close) d.close(); else d.removeAttribute("open"); } if (id === "sheet") sheet.stack = []; }
+
+  // ---------------------------------------------------------------- HERO PICKER (for the draft board)
+  function pickerListHtml() {
+    const st = state(), used = E.used(st), q = keyOf(ui.pq);
+    const names = Object.keys(P.heroes).sort().filter(h => (!q || keyOf(h).includes(q)) && (ui.prole === "All" || roleOf(h) === ui.prole));
+    return `<div class="hlist" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr))">${names.map(h => {
+      const gone = used.has(h), t = st.map ? mainTier(h, st.map) : mainTier(h, "general"), pl = poolOf(h);
+      return `<div class="row" style="gap:4px;flex-wrap:nowrap"><button class="hrow" style="min-height:44px;padding:6px 8px" data-take="${esc(h)}" ${gone ? "disabled" : ""}><span><b>${esc(h)}</b><br><span class="small muted">${gone ? "banned or picked" : esc(roleOf(h))}</span>${pl.length && !gone ? `<br><span class="tag us">${pl.map(x => esc(x.label)).join(", ")}</span>` : ""}</span>${t ? tierTag(t) : ""}</button>
+        <button class="btn sm" data-hero="${esc(h)}" aria-label="Info on ${esc(h)}">i</button></div>`;
+    }).join("") || '<p class="muted">No heroes match.</p>'}</div>`;
+  }
+  function openPicker() {
+    const slot = E.nextSlot(state());
+    $("#picker").innerHTML = `<div class="sheet-head"><div class="row" style="justify-content:space-between;flex-wrap:nowrap"><h2 id="picker-title">${slot ? `Slot ${slot.slot}: ${slot.team === "us" ? "our" : "their"} ${slot.type}` : "Heroes"}</h2><button class="btn sm" data-close="picker">Close</button></div>
+      <label class="f" style="margin-top:6px">Search<input type="search" id="pq" value="${esc(ui.pq)}" placeholder="Hero name" autocomplete="off"></label>
+      <div class="chips" style="margin-top:8px">${["All"].concat(ROLES).map(r => `<button class="chip ${ui.prole === r ? "on" : ""}" data-prole="${esc(r)}" aria-pressed="${ui.prole === r}">${esc(r)}</button>`).join("")}</div></div>
+      <div class="sheet-body" id="plist">${pickerListHtml()}</div>`;
+    const d = $("#picker"); if (!d.open) { if (d.showModal) d.showModal(); else d.setAttribute("open", ""); }
+  }
+
   // ---------------------------------------------------------------- MAPS TAB
   function renderMaps() {
-    const names = Object.keys(P.maps).sort();
-    const cur = ui.map || names[0];
-    const m = P.maps[cur], st = P.map_stats[cur] || {};
+    const names = mapNames();
+    const cur = (ui.mapview && names.includes(ui.mapview)) ? ui.mapview : (ui.map && names.includes(ui.map)) ? ui.map : names[0];
+    const ngs = !!P.maps[cur], m = P.maps[cur], st = P.map_stats[cur] || {};
+    const lib = LIB.maps[cur];
     const rows = [];
-    P.us.players.forEach(p => Object.keys(p.pool).forEach(h => {
+    if (ngs) P.us.players.forEach(p => Object.keys(p.pool).forEach(h => {
       const tiers = (m.tiers[h] || {});
       const role = Object.keys(tiers).find(r => p.tier_roles.some(x => r.indexOf(x) === 0)) || Object.keys(tiers)[0];
       if (role) rows.push({ p: p.label, h, role, tier: tiers[role], pool: p.pool[h] });
     }));
     rows.sort((a, b) => "SABCD".indexOf(a.tier) - "SABCD".indexOf(b.tier));
-    const mine = P.our_map_hero[cur] || {};
-    const oppRec = P.teams[ui.opp].by_map[cur];
-    return `<section class="card"><label class="f">Map<select id="mapview">${names.map(n => `<option ${n === cur ? "selected" : ""}>${esc(n)}</option>`).join("")}</select></label>
-      <p><b>Icy Veins prefers:</b> ${m.prefer.map(esc).join(", ") || "n/a"}</p><p><b>Avoids:</b> ${m.avoid.map(esc).join(", ") || "n/a"}</p>
-      <p class="small">We are ${recText(P.teams[P.us.team].by_map[cur])} here; ${esc(ui.opp)} are ${recText(oppRec)}. ${st.games || 0} games in the division, average ${st.avg_len || "?"} minutes.</p></section>
+    const mine = ngs ? (P.our_map_hero[cur] || {}) : {};
+    const oppRec = ngs ? P.teams[ui.opp].by_map[cur] : null;
+    const slug = lib ? lib.slug : "";
+    const top = {};
+    Object.keys(LIB.heroes).forEach(h => { const t = (LIB.heroes[h].tiers.maps[slug] || {}); Object.values(t).forEach(r => { if (r.tier === "S" || r.tier === "A") { top[r.role] = top[r.role] || { S: [], A: [] }; top[r.role][r.tier].push(h); } }); });
+    const lava = (LIB.guides.find(g => g.slug === "lava-wave-timings") || { sections: [] }).sections.find(s => keyOf(s.title) === keyOf(cur));
+    return `<section class="card"><label class="f">Map<select id="mapview">${names.map(n => `<option value="${esc(n)}" ${n === cur ? "selected" : ""}>${esc(n)}${P.maps[n] ? "" : " (not in the NGS pool)"}</option>`).join("")}</select></label>
+      ${ngs ? `${ui.map !== cur ? `<p><button class="btn sm" data-setmap="${esc(cur)}">Use ${esc(cur)} as the draft map</button></p>` : `<p class="small"><span class="tag us">draft map</span></p>`}<p><b>Icy Veins prefers:</b> ${m.prefer.map(esc).join(", ") || "n/a"}</p><p><b>Avoids:</b> ${m.avoid.map(esc).join(", ") || "n/a"}</p>
+      <p class="small">We are ${recText(P.teams[P.us.team].by_map[cur])} here; ${esc(ui.opp)} are ${recText(oppRec)}. ${st.games || 0} games in the division, average ${st.avg_len || "?"} minutes.</p>` : `<p class="small muted">This map is not in the NGS pool this season, so there are no division numbers for it. The Icy Veins guide is below.</p>`}</section>
     ${st.games ? `<section class="card"><h3>What wins here</h3>
       <p class="small">Ranged heroes (Blaze not counted): winners average ${st.win_ranged_avg}, losers ${st.loss_ranged_avg}. Three or more ranged ${rec(st.ranged_rec["3+"])}, two or fewer ${rec(st.ranged_rec["2-"])}.</p>
       <p class="small">Per minute, winners against losers: camp damage ${st.macro.win.camp_dmg}k v ${st.macro.loss.camp_dmg}k, structure damage ${st.macro.win.struct}k v ${st.macro.loss.struct}k, minion damage ${st.macro.win.minion}k v ${st.macro.loss.minion}k. Deaths ${st.macro.win.deaths} v ${st.macro.loss.deaths}.</p></section>` : ""}
-    <section class="card us"><h3>Our heroes here (Icy Veins tier by the role each player fills)</h3><div class="scroll"><table><tr><th>Hero</th><th>Player</th><th>Tier</th><th>Our NGS here</th></tr>
-      ${rows.map(r => { const p = P.us.players.find(x => x.label === r.p); const g = mine[p.tag] && mine[p.tag][r.h]; return `<tr><td><b>${esc(r.h)}</b> <span class="muted small">${esc(r.pool)}</span></td><td>${esc(r.p)}</td><td><span class="tag ${"SA".includes(r.tier) ? "good" : "DC".includes(r.tier) ? "warn" : ""}">${r.tier} ${esc(r.role)}</span></td><td class="num">${g ? rec(g) : ""}</td></tr>`; }).join("")}</table></div></section>
-    ${m.notes ? `<section class="card note"><h3>Notes</h3>${md(m.notes)}</section>` : ""}`;
+    ${rows.length ? `<section class="card us"><h3>Our heroes here (Icy Veins tier by the role each player fills)</h3><div class="scroll"><table><tr><th>Hero</th><th>Player</th><th>Tier</th><th>Our NGS here</th></tr>
+      ${rows.map(r => { const p = P.us.players.find(x => x.label === r.p); const g = mine[p.tag] && mine[p.tag][r.h]; return `<tr><td>${heroBtn(r.h)} <span class="muted small">${esc(r.pool)}</span></td><td>${esc(r.p)}</td><td><span class="tag ${"SA".includes(r.tier) ? "good" : "DC".includes(r.tier) ? "warn" : ""}">${r.tier} ${esc(r.role)}</span></td><td class="num">${g ? rec(g) : ""}</td></tr>`; }).join("")}</table></div></section>` : ""}
+    ${Object.keys(top).length ? `<section class="card"><h3>Icy Veins top tiers here</h3><p class="small muted">S and A tier heroes on the ${esc(cur)} tier list, by role. Outlined heroes are in our pools.</p>
+      ${Object.keys(top).sort().map(role => `<p class="small" style="margin-bottom:2px"><b>${esc(role)}</b></p><div class="chips" style="margin-bottom:8px">${top[role].S.sort().map(h => chip(h, null, "S")).join("")}${top[role].A.sort().map(h => chip(h, null, "A")).join("")}</div>`).join("")}</section>` : ""}
+    ${lava ? `<section class="card"><h3>Ragnaros Lava Wave timings</h3><div class="prose small">${paras(lava.text)}</div></section>` : ""}
+    ${ngs && m.notes ? `<section class="card note"><h3>Our notes</h3>${md(m.notes)}</section>` : ""}
+    ${lib && lib.sections.length ? `<section class="card"><h3>Icy Veins map guide</h3><p class="small muted">The objective, camps, lane formations and win conditions. Dates and numbers are as Icy Veins states them.</p>
+      ${lib.sections.map((s, i) => `<details class="sec" ${i < 1 ? "open" : ""}><summary>${esc(s.title)}</summary><div class="prose small">${paras(s.text)}</div></details>`).join("")}</section>` : ""}`;
   }
 
+  // ---------------------------------------------------------------- LEARN TAB
+  function glossaryHtml() {
+    const q = keyOf(ui.gq);
+    const items = (LIB.glossary || []).filter(g => !q || keyOf(g.term).includes(q) || keyOf(g.text).includes(q));
+    return `<p class="small muted">${items.length} terms</p>${items.map(g => `<div style="border-top:1px solid var(--line);padding:8px 0"><b>${esc(g.term)}</b><div class="small">${esc(g.text)}</div></div>`).join("")}`;
+  }
+  function renderLearn() {
+    const tabs = [["tips", "Draft tips"], ["guides", "Guides"], ["glossary", "Glossary"]];
+    let body = "";
+    if (ui.ltab === "tips") {
+      body = `<section class="card note">${md(LIB.tips)}</section>
+        <section class="card"><h3>What this division shows</h3><p class="small muted">Recomputed from every game in the database each time the tool is built. Both teams of every game count.</p>
+          <ul class="r">${(LIB.facts || []).map(f => `<li>${esc(f.text)} <span class="muted small">(${f.n} ${f.n === P.meta.games ? "games" : "team games"})</span></li>`).join("")}</ul>
+          <p class="small muted">These are leans from one division and one season. Say "lean", not "rule".</p></section>`;
+    } else if (ui.ltab === "guides") {
+      body = (LIB.guides || []).map(g => `<section class="card"><details><summary><b>${esc(g.title)}</b> <span class="muted small">${esc(g.blurb)}</span></summary>${g.sections.map(s => `<details class="sec"><summary>${esc(s.title)}</summary><div class="prose small">${paras(s.text)}</div></details>`).join("")}</details></section>`).join("") +
+        `<p class="small muted">Guides are Icy Veins pages saved in our knowledge database. Hero specific guides (Chen, Hogger, Medivh, Ragnaros) are also useful when you play them.</p>`;
+    } else {
+      body = `<section class="card"><label class="f">Search terms<input type="search" id="gq" value="${esc(ui.gq)}" placeholder="Term or word" autocomplete="off"></label><div id="glist">${glossaryHtml()}</div></section>`;
+    }
+    return `<div class="tabs small" role="tablist">${tabs.map(t => `<button class="tab" role="tab" data-ltab="${t[0]}" aria-selected="${ui.ltab === t[0]}">${t[1]}</button>`).join("")}</div>${body}`;
+  }
+
+  // ---------------------------------------------------------------- ABOUT
   function renderAbout() {
+    const hs = Object.values(LIB.heroes), codes = [];
+    hs.forEach(d => (d.codes || []).forEach(c => codes.push(c)));
+    const g = hs.map(d => d.updated.guide).filter(Boolean).sort(), t = hs.map(d => d.updated.talents).filter(Boolean).sort();
     return `<section class="card note"><h3>About this tool</h3>
       <p>Built ${esc(P.meta.built)} from ${P.meta.games} Division ${esc(P.meta.division)} Season ${P.meta.season} games (newest game ${P.meta.newest_game}, ${esc(P.meta.newest_date)}). Opponents: ${opponents.map(esc).join(", ")}.</p>
-      <ul><li>Every suggestion shows its reasons and the record behind it. Most records are 1 to 12 games, so treat them as leans.</li>
+      <ul><li><b>Draft</b> runs the 16 slot draft with recommendations, the comp meter, what their picks mean, the final plan with builds, and a copy button for the summary.</li>
+      <li><b>Prep</b> is the opponent: toss, maps, bans, their players and the answers in our pools.</li>
+      <li><b>Heroes</b> is every hero: overview, builds, talents, abilities, matchups, maps and who plays it. Tap any hero name anywhere.</li>
+      <li><b>Maps</b> has the Icy Veins guide, tiers and our numbers for each map. <b>Learn</b> has draft tips, guides and the glossary.</li></ul>
+      <h3>Where the information comes from</h3>
+      <ul><li>Hero, map and guide text, talents and tier lists are saved Icy Veins pages. Hero guides range from ${esc(prettyDate(g[0]))} to ${esc(prettyDate(g[g.length - 1]))}, talent pages from ${esc(prettyDate(t[0]))} to ${esc(prettyDate(t[t.length - 1]))}. Library built ${esc(prettyDate(LIB.built))}.</li>
+      <li>${LIB.build_codes} build codes come from Hunter's Icy Veins sheet. ${codes.filter(c => c.flags.includes("old")).length} are more than a year old and ${codes.filter(c => c.flags.includes("patched")).length} have a talent page that changed after the code was made. Those carry a flag.</li>
+      <li>Records, drafts and stats come from the NGS match pages on Heroes Profile. Every suggestion shows its reasons and the record behind it. Most records are 1 to 12 games, so treat them as leans.</li>
       <li>Judgment calls (who to ban, which healer, ranged limits per map) are in <code>rules.json</code> with the evidence. Pools are in <code>our_team.json</code>.</li>
-      <li>NGS pages have no timeline, so nothing here knows who led at ten minutes.</li>
-      <li>Blaze is counted as melee in every ranged count. Icy Veins tiers are looked up by role.</li>
+      <li>NGS pages have no timeline, so nothing here knows who led at ten minutes. Blaze is counted as melee in every ranged count.</li>
       <li>The draft you are working on is kept on this device only.</li></ul>
-      <p>To refresh: pull the new games, run <code>python build_playbook.py</code>, then publish the new file over the same link. See UPDATE_PLAYBOOK.md.</p></section>`;
+      <p>To refresh: pull the new games, run <code>python build_playbook.py</code>, then publish the new file over the same link. See UPDATE_PLAYBOOK.md. Build codes live in <code>knowledge/icy_build_codes.txt</code>.</p></section>`;
   }
 
   // ---------------------------------------------------------------- wiring
   function render() {
     renderTabs();
-    $("#view").innerHTML = ui.tab === "draft" ? renderDraft() : ui.tab === "overview" ? renderOverview() : ui.tab === "maps" ? renderMaps() : renderAbout();
+    const v = ui.tab === "draft" ? renderDraft() : ui.tab === "overview" ? renderOverview() : ui.tab === "heroes" ? renderHeroes() : ui.tab === "maps" ? renderMaps() : ui.tab === "learn" ? renderLearn() : renderAbout();
+    const keep = window.scrollY;
+    $("#view").innerHTML = v;
+    if (ui._keepScroll) { window.scrollTo(0, keep); ui._keepScroll = false; }
   }
   function record(hero, st) {
     const key = heroKey[keyOf(hero)];
@@ -326,25 +644,61 @@ th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; colo
     if (E.used(st).has(key)) { ui.msg = `${key} is already banned or picked.`; return false; }
     E.apply(st, key); ui.msg = ""; return true;
   }
+  function flash(btn, text) { const old = btn.textContent; btn.textContent = text; setTimeout(() => { btn.textContent = old; }, 1600); }
+  function copyText(text, btn) {
+    const fallback = () => {
+      const ta = document.createElement("textarea"); ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0"; document.body.appendChild(ta); ta.select();
+      let ok = false; try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+      document.body.removeChild(ta); flash(btn, ok ? "Copied" : "Select and copy by hand: " + text.slice(0, 40));
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(() => flash(btn, "Copied"), fallback); else fallback();
+  }
   document.addEventListener("click", ev => {
+    const dlg = ev.target;
+    if (dlg && dlg.tagName === "DIALOG") { closeDialog(dlg.id); return; }  // click on the backdrop
     const b = ev.target.closest("button");
     if (!b) return;
-    if (b.dataset.tab) { ui.tab = b.dataset.tab; }
-    else if (b.dataset.side) { if (ui.side !== b.dataset.side) { ui.actions = []; ui.sim = null; } ui.side = b.dataset.side; }
-    else if (b.dataset.take) { const st = state(); if (record(b.dataset.take, st)) { ui.actions = st.actions; ui.sim = null; } }
-    else if (b.dataset.act === "free") { const v = ($("#free") || {}).value || ""; const st = state(); if (v && record(v, st)) { ui.actions = st.actions; ui.sim = null; } else if (!v) ui.msg = "Type a hero first."; }
-    else if (b.dataset.act === "undo") { ui.actions.pop(); ui.sim = null; ui.msg = ""; }
-    else if (b.dataset.act === "reset") { ui.actions = []; ui.sim = null; ui.msg = ""; }
-    else if (b.dataset.act === "more") { ui.showAll = !ui.showAll; }
-    else if (b.dataset.act === "sim") { ui.sim = ui.sim ? null : E.simulate(state()); }
+    const d = b.dataset;
+    if (d.copy) { copyText(d.copy, b); return; }
+    if (d.copySummary) { copyText(summaryText(state()), b); return; }
+    if (d.close) { closeDialog(d.close); return; }
+    if (d.back) { sheet.stack.pop(); sheet.tab = "overview"; renderSheet(); return; }
+    if (d.stab) { sheet.tab = d.stab; renderSheet(); const sb = $("#sbody"); if (sb) sb.scrollTop = 0; return; }
+    if (d.take && ev.target.closest("#picker")) { const st = state(); if (record(d.take, st)) { ui.actions = st.actions; ui.sim = null; closeDialog("picker"); closeDialog("sheet"); save(); render(); } return; }
+    if (d.hero && !d.take) { openHero(d.hero, d.htab); return; }
+    if (d.prole) { ui.prole = d.prole; openPicker(); return; }
+    if (d.gomap) { ui.mapview = d.gomap; ui.tab = "maps"; closeDialog("sheet"); window.scrollTo(0, 0); }
+    else if (d.setmap) { ui.map = d.setmap; ui.sim = null; }
+    else if (d.hrole) { ui.hrole = d.hrole; ui._keepScroll = true; }
+    else if (d.hpool) { ui.hpool = !ui.hpool; ui._keepScroll = true; }
+    else if (d.ltab) { ui.ltab = d.ltab; }
+    else if (d.tab) { ui.tab = d.tab; window.scrollTo(0, 0); }
+    else if (d.side) { if (ui.side !== d.side) { ui.actions = []; ui.sim = null; } ui.side = d.side; }
+    else if (d.take) { const st = state(); if (record(d.take, st)) { ui.actions = st.actions; ui.sim = null; } }
+    else if (d.act === "free") { const v = ($("#free") || {}).value || ""; const st = state(); if (v && record(v, st)) { ui.actions = st.actions; ui.sim = null; } else if (!v) ui.msg = "Type a hero first."; }
+    else if (d.act === "browse") { openPicker(); return; }
+    else if (d.act === "undo") { ui.actions.pop(); ui.sim = null; ui.msg = ""; }
+    else if (d.act === "reset") { ui.actions = []; ui.sim = null; ui.msg = ""; }
+    else if (d.act === "more") { ui.showAll = !ui.showAll; }
+    else if (d.act === "sim") { ui.sim = ui.sim ? null : E.simulate(state()); }
+    else return;
     save(); render();
   });
   document.addEventListener("change", ev => {
     const t = ev.target;
     if (t.id === "opp") { ui.opp = t.value; ui.actions = []; ui.sim = null; }
     else if (t.id === "map") { ui.map = t.value || null; ui.sim = null; }
-    else if (t.id === "mapview") { ui.map = t.value; }
+    else if (t.id === "mapview") { ui.mapview = t.value; }
+    else if (t.id === "hscope") { ui.hscope = t.value; }
+    else if (t.id === "hsort") { ui.hsort = t.value; }
+    else return;
     save(); render();
+  });
+  document.addEventListener("input", ev => {
+    const t = ev.target;
+    if (t.id === "hq") { ui.hq = t.value; $("#hlist").innerHTML = heroListHtml(); }
+    else if (t.id === "gq") { ui.gq = t.value; $("#glist").innerHTML = glossaryHtml(); }
+    else if (t.id === "pq") { ui.pq = t.value; $("#plist").innerHTML = pickerListHtml(); }
   });
   document.addEventListener("keydown", ev => { if (ev.key === "Enter" && ev.target.id === "free") { const b = document.querySelector('[data-act="free"]'); if (b) b.click(); } });
   load(); render();

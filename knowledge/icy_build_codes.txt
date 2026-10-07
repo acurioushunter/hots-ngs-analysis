@@ -1,0 +1,42 @@
+# Icy Veins build links as the in game import code "[T<one digit per talent tier>,<HeroSlug>]" plus the date Icy Veins last updated that build.
+# Pasted by Hunter on 2026-10-07 from his own spreadsheet. Parsed by build_library.py (regex over the whole text, so the layout does not matter).
+# Digit order is levels 1, 4, 7, 10, 13, 16, 20, the position of the talent inside its level as shown in game. "< Jun 2020" means last updated before June 2020.
+Build Link (Icy)	HotS Build Link	Last Updated		Build Link (Icy)	HotS Build Link	Last Updated		Build Link (Icy)	HotS Build Link	Last Updated		Build Link (Icy)	HotS Build Link	Last Updated
+Abathur	[T1231223,Abathur]	< Jun 2020		Genji Q	[T2132122,Genji]	Feb 10 2022		Muradin DPS	[T3231123,Muradin]	Mar 17 2026		Tychus Standard	[T1211321,Tychus]	Nov 12 2020
+Alarak	[T2332214,Alarak]	Jul 10 2020		Greymane Regular	[T3112333,Greymane]	May 25 2021		Murky Split	[T3222124,Murky]	Mar 17 2026		Tychus Q	[T2211113,Tychus]	Jul 20 2020
+Alexstrasza E	[T3232233,Alexstrasza]	< Jun 2020		Greymane Greedy Worgen	[T3132234,Greymane]	May 25 2021		Murky Q	[T3112313,Murky]	Mar 17 2026		Tyrael	[T2211211,Tyrael]	Aug 8 2025
+Alexstrasza W	[T2122222,Alexstrasza]	< Jun 2020		Gul'dan Sustained Dmg	[T1311111,Guldan]	< Jun 2020		Nazeebo Q	[T1211313,Nazeebo]	Sep 28 2021		Tyrande Regular	[T2322113,Tyrande]	Jun 4 2020
+Alexstrasza Q	[T1312212,Alexstrasza]	< Jun 2020		Gul'dan Burst Dmg	[T3331121,Guldan]	< Jun 2020		Nazeebo E	[T2231133,Nazeebo]	Sep 28 2021		Tyrande Darnassian	[T3222134,Tyrande]	Jun 4 2020
+Ana Standard	[T1311331,Ana]	< Jun 2020		Gul'dan BIG SUCC	[T2121231,Guldan]	Jun 25 2020		Nova Burst	[T1132224,Nova]	< Jun 2020		Uther Q	[T1131133,Uther]	< Jun 2020
+Ana Sgt Hammer/Non-optimal	[T3231334,Ana]	< Jun 2020		Hanzo	[T2122222,Hanzo]	< Jun 2020		Nova Q	[T2112114,Nova]	< Jun 2020		Uther E	[T3232233,Uther]	< Jun 2020
+Anduin	[T2232132,Anduin]	May 19 2021		Hogger	[T3211213,Hogger]	May 5 2021		Orphea	[T3312223,Orphea]	Sep 23 2020		Valeera	[T4111314,Valeera]	< Jun 2020
+Anub'arak	[T3212314,Anubarak]	< Jun 2020		Illidan Offlane	[T3222334,Illidan]	< Jun 2020		Probius Q	[T1311211,Probius]	< Jun 2020		Valla Q	[T1321133,Valla]	May 19 2021
+Artanis	[T2321421,Artanis]	Jul 18 2020		Illidan Teamfight	[T2231231,Illidan]	Mar 5 2021		Probius W	[T2222212,Probius]	< Jun 2020		Valla W	[T2121334,Valla]	May 25 2021
+Arthas	[T1131231,Arthas]	Jul 27 2026		Imperius Q	[T1111123,Imperius]	Aug 17 2020		Probius E	[T3231311,Probius]	< Jun 2020		Valla AA	[T3232234,Valla]	Jan 19 2023
+Auriel	[T3312312,Auriel]	Aug 21 2022		Imperius Offlane	[T3131123,Imperius]	Aug 17 2020		Qhira	[T1312112,Qhira]	Jul 30 2026		Varian Twin	[T3322234,Varian]	< Jun 2020
+Azmodan Teamfight	[T1332313,Azmodan]	Mar 17 2026		Jaina	[T2222332,Jaina]	Jan 23 2022		Ragnaros Q	[T1311114,Ragnaros]	< Jun 2020		Varian Smash	[T3222234,Varian]	< Jun 2020
+Azmodan Kamikaze	[T1131321,Azmodan]	Mar 17 2026		Johanna	[T1112122,Johanna]	Dec 13 2021		Ragnaros E	[T3231234,Ragnaros]	Sep 6 2020		Varian Taunt	[T2122234,Varian]	< Jun 2020
+Blaze	[T4131311,Blaze]	Jul 11 2021		Junkrat Trap	[T3331321,Junkrat]	< Jun 2020		Raynor Q	[T1111115,Raynor]	May 19 2021		Whitemane	[T1131231,Whitemane]	< Jun 2020
+Brightwing	[T2221321,Brightwing]	Mar 5 2021		Junkrat Q	[T3131223,Junkrat]	< Jun 2020		Raynor Ding	[T2111225,Raynor]	Aug 1 2021		Xal'atath	[T2211224,Xalatath]	Sep 29 2026
+Cassia AA	[T3231333,Cassia]	Jul 3 2020		Kael'thas	[T3111124,Kaelthas]	< Jun 2020		Rehgar	[T2311321,Rehgar]	Dec 16 2021		Xul W	[T2212223,Xul]	< Jun 2020
+Cassia Q	[T1131221,Cassia]	Oct 28 2020		Kel'Thuzad	[T3322324,KelThuzad]	< Jun 2020		Rexxar Q	[T1212134,Rexxar]	< Jun 2020		Xul Q	[T2131113,Xul]	< Jun 2020
+Chen	[T1221234,Chen]	Sep 20 2026		Kerrigan	[T3121234,Kerrigan]	< Jun 2020		Rexxar W	[T1232234,Rexxar]	< Jun 2020		Yrel	[T2321331,Yrel]	< Jun 2020
+Cho	[T1321311,Cho]	Aug 25 2020		Kharazim	[T2212214,Kharazim]	< Jun 2020		Samuro	[T3211333,Samuro]	Jan 19 2023		Zagara	[T2231114,Zagara]	Sep 4 2026
+Chromie W	[T2221331,Chromie]	Aug 22 2020		Leoric Damage Reduction	[T1121221,Leoric]	Aug 21 2022		Sgt. Hammer	[T1222334,SgtHammer]	< Jun 2020		Zarya Q	[T1112423,Zarya]	Jul 31 2020
+Chromie Q	[T1212323,Chromie]	Aug 22 2020		Leoric AA	[T1321331,Leoric]	< Jun 2020		Sonya Wrath	[T3222234,Sonya]	May 19 2021		Zarya Feel the Heat	[T3122424,Zarya]	Jul 31 2020
+D.Va	[T2112122,Dva]	Sep 18 2020		Li Li Solo Heal	[T1331211,LiLi]	Feb 9 2026		Sonya Leap	[T1311314,Sonya]	Dec 5 2024		Zeratul Q	[T1122224,Zeratul]	< Jun 2020
+Deathwing	[T1222333,Deathwing]	< Jun 2020		Li Li DPS	[T2132132,LiLi]	Mar 27 2021		Stitches Bile	[T1321111,Stitches]	May 22 2021		Zeratul W	[T3221131,Zeratul]	< Jun 2020
+Deckard	[T1111311,Deckard]	Sep 27 2020		Li-Ming	[T2332122,LiMing]	< Jun 2020		Stitches Gorge	[T3112113,Stitches]	Dec 9 2025		Zeratul E	[T2211213,Zeratul]	Sep 14 2021
+Dehaka Standard	[T2211321,Dehaka]	Jun 29 2025		Lt. Morales Grenade	[T3322314,LtMorales]	< Jun 2020		Stukov Regular	[T3232232,Stukov]	Jul 14 2026		Zul'jin Stacking	[T2321221,Zuljin]	Mar 5 2021
+Dehaka Racecar	[T3212123,Dehaka]	Nov 27 2020		Lt. Morales Regular	[T1122314,LtMorales]	Sep 3 2021		Stukov E	[T2222114,Stukov]	Jul 14 2026		Zul'jin Q	[T1311211,Zuljin]	< Jun 2020
+Diablo DJ Dibbles (AA)	[T1331334,Diablo]	Jul 28 2020		Lúcio	[T2221313,Lucio]	< Jun 2020		Sylvanas Regular	[T2121334,Sylvanas]	Jul 6 2026
+Diablo W	[T2212214,Diablo]	Jul 28 2020		Lunara	[T2222343,Lunara]	Aug 3 2024		Tassadar Q	[T1311311,Tassadar]	Jul 5 2020
+Diablo Q	[T2131114,Diablo]	Jul 28 2020		Maiev	[T3212333,Maiev]	< Jun 2020		Tassadar W	[T1321321,Tassadar]	Jul 20 2020
+E.T.C.	[T2231125,ETC]	Aug 19 2020		Mal'Ganis	[T1131331,MalGanis]	Jul 25 2026		Thrall Echo	[T1312323,Thrall]	May 9 2026
+Falstad AA	[T3312312,Falstad]	Mar 5 2021		Malfurion	[T3232122,Malfurion]	Mar 5 2021		Thrall E	[T3232335,Thrall]	Dec 8 2025
+Falstad Q	[T1322222,Falstad]	Sep 11 2021		Malthael	[T2122414,Malthael]	< Jun 2020		Thrall Crash	[T2222325,Thrall]	Dec 8 2025
+Fenix	[T2111423,Fenix]	< Jun 2020		Mephisto W	[T2322323,Mephisto]	Jun 5 2020		The Butcher	[T3232214,TheButcher]	< Jun 2020
+Gall	[T2122314,Gall]	Aug 25 2020		Mephisto Q	[T1322112,Mephisto]	Jun 11 2021		The Lost Vikings	[T4222214,LostVikings]	< Jun 2020
+Garrosh	[T1331113,Garrosh]	Jul 20 2020		Muradin Tank	[T3331223,Muradin]	Mar 17 2026		Tracer	[T2232212,Tracer]	Mar 5 2021
+Gazlowe	[T2111233,Gazlowe]	Oct 12 2020		Genji E	[T1221321,Genji]	Jun 5 2020
+Medivh	[T3222224,Medivh]	< Jun 2020		Mei	[T2221224,Mei]	Aug 21 2022		Sylvanas E Dive	[T2131234,Sylvanas]	Jul 6 2026		Tassadar AA	[T3331331,Tassadar]	Aug 21 2022

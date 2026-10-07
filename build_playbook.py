@@ -12,6 +12,8 @@ New season or new division: rebuild the databases for it (see UPDATE_PLAYBOOK.md
 """
 import collections, datetime, glob, json, pathlib, re, sqlite3, unicodedata
 
+import build_library
+
 ROOT = pathlib.Path(__file__).parent
 KN = ROOT / "knowledge"
 PB = ROOT / "playbook"
@@ -420,12 +422,16 @@ def main():
             if h not in heroes:
                 raise SystemExit(f"rules.json rule {r['id']}: unknown hero {h!r}")
     (PB / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    lib = build_library.build_library(heroes, canon, db, kdb, G)
+    (PB / "library.json").write_text(json.dumps(lib, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    for prob in lib["build_code_problems"]:
+        print("build code problem:", prob)
     for n, t in teams.items():
         if n != cfg["team"]:
             (OUT_FACTS / "teams" / f"{slug_text(n)}.md").write_text(team_sheet(t, data, cfg["team"]), encoding="utf-8")
     for n, m in maps.items():
         (OUT_FACTS / "maps" / f"{slug_text(n)}.md").write_text(map_sheet(m, data), encoding="utf-8")
-    frag = build_tool(data)
+    frag = build_tool(data, lib)
     (ROOT / "draft_tool_artifact.html").write_text(frag, encoding="utf-8")   # page fragment: the Artifact publisher adds the document skeleton
     page = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"></head><body>'
             + frag + "</body></html>")
@@ -433,11 +439,12 @@ def main():
     print(f"data.json {(PB / 'data.json').stat().st_size // 1024} KB, {len(teams)} teams, {len(maps)} maps, draft_tool.html {len(page) // 1024} KB")
 
 
-def build_tool(data):
+def build_tool(data, lib):
     tpl = (PB / "app.html").read_text(encoding="utf-8") if (PB / "app.html").exists() else "<!--ENGINE--><!--DATA-->"
     engine = (PB / "engine.js").read_text(encoding="utf-8") if (PB / "engine.js").exists() else ""
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    return tpl.replace("/*ENGINE*/", engine).replace("/*DATA*/", "window.PLAYBOOK=" + blob + ";")
+    libblob = json.dumps(lib, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return tpl.replace("/*ENGINE*/", engine).replace("/*DATA*/", "window.PLAYBOOK=" + blob + ";").replace("/*LIB*/", "window.LIBRARY=" + libblob + ";")
 
 
 if __name__ == "__main__":

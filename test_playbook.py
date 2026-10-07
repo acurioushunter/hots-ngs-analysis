@@ -54,5 +54,40 @@ check("every rule hero exists", all(h in data["heroes"] for r in data["rules"]["
 check("every rule has a reason and evidence", all(r.get("why") and r.get("evidence") for r in data["rules"]["rules"]), "")
 check("each team has facts and the CCS sheet carries the curated notes", (ROOT / "facts" / "teams" / "can-t-counterpick-stupid.md").read_text(encoding="utf-8").count("Curated notes") == 1, "")
 check("draft_tool.html carries the data", "window.PLAYBOOK=" in (ROOT / "draft_tool.html").read_text(encoding="utf-8"), "")
+# ---------------------------------------------------------------- library (heroes, builds, maps, guides)
+import re
+lib = json.loads((ROOT / "playbook" / "library.json").read_text(encoding="utf-8"))
+kdb = sqlite3.connect(ROOT / "knowledge" / "hots_knowledge.db")
+DASHES = re.compile("[—–]")
+check("library covers every hero in data.json", set(data["heroes"]) <= set(lib["heroes"]), sorted(set(data["heroes"]) - set(lib["heroes"])))
+n_talents = kdb.execute("SELECT COUNT(*) FROM talent").fetchone()[0]
+lib_talents = sum(len(t["opts"]) for h in lib["heroes"].values() for t in h["talents"])
+check("library holds every talent in the Icy Veins database", lib_talents == n_talents, (lib_talents, n_talents))
+check("every library hero has an overview", all(h.get("overview") for h in lib["heroes"].values()), [n for n, h in lib["heroes"].items() if not h.get("overview")])
+codes_text = (ROOT / "knowledge" / "icy_build_codes.txt").read_text(encoding="utf-8")
+raw_codes = re.findall(r"\[T(\d+),(\w+)\]", codes_text)
+lib_codes = [c for h in lib["heroes"].values() for c in h.get("codes", [])]
+check("every build code in the sheet is decoded (none dropped)", len(raw_codes) == len(lib_codes) == lib["build_codes"] and not lib["build_code_problems"], (len(raw_codes), len(lib_codes), lib["build_code_problems"]))
+q = lib["heroes"]["Qhira"]["codes"][0]
+digits = re.search(r"T(\d+)", q["code"]).group(1)
+sql_names = [kdb.execute("SELECT name FROM talent WHERE slug='qhira' AND level=? AND slot=?", (lv, int(d))).fetchone()[0] for lv, d in zip([1, 4, 7, 10, 13, 16, 20], digits)]
+check("Qhira's build code decodes to the talent names in the database", [p["name"] for p in q["picks"]] == sql_names, (q["picks"], sql_names))
+check("Chromie's code uses her own talent levels (1, 2, 5, 8, 11, 14, 18)", [p["level"] for p in lib["heroes"]["Chromie"]["codes"][0]["picks"]] == [1, 2, 5, 8, 11, 14, 18], lib["heroes"]["Chromie"]["codes"][0]["picks"])
+check("The Lost Vikings has a decoded code", bool(lib["heroes"]["The Lost Vikings"].get("codes")), "")
+check("every Division map has a library guide", all(m in lib["maps"] and lib["maps"][m]["sections"] for m in data["maps"]), [m for m in data["maps"] if m not in lib["maps"]])
+check("the map guides carry the lane formations or objective", all(any("Objective" in s["title"] or "Formation" in s["title"] for s in lib["maps"][m]["sections"]) for m in data["maps"]), "")
+check("glossary has terms and the guides are not empty", len(lib["glossary"]) > 100 and all(g["sections"] for g in lib["guides"]), len(lib["glossary"]))
+fp = db.execute("SELECT COUNT(*), SUM(winner=first_pick_team) FROM ngs_game").fetchone()
+mp = db.execute("SELECT COUNT(*), SUM(winner=map_pick_team) FROM ngs_game").fetchone()
+want = f"won {fp[1]}-{fp[0] - fp[1]} ({fp[0]} games). The team that picked the map won {mp[1]}-{mp[0] - mp[1]}"
+check("division fact: first pick and map pick records match SQL", want in lib["facts"][0]["text"], (lib["facts"][0]["text"], fp, mp))
+tips = (ROOT / "playbook" / "notes" / "draft_tips.md").read_text(encoding="utf-8")
+check("draft tips exist and have no em dashes, en dashes or spaced hyphens", len(tips) > 500 and not DASHES.search(tips) and " - " not in tips, "")
+check("no em or en dashes in the library text (Hunter reads them as AI giveaways)", not DASHES.search(json.dumps(lib, ensure_ascii=False)), "")
+page = (ROOT / "draft_tool.html").read_text(encoding="utf-8")
+head = page.split("<script>")[0]
+check("draft_tool.html carries the library and the hero sheet", "window.LIBRARY=" in page and 'id="sheet"' in page and not DASHES.search(head), "")
+check("the artifact fragment carries the library", "window.LIBRARY=" in (ROOT / "draft_tool_artifact.html").read_text(encoding="utf-8"), "")
+
 print("\n" + (f"{len(fails)} FAILED" if fails else "ALL OK"))
 sys.exit(1 if fails else 0)
