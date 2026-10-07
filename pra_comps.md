@@ -3,51 +3,51 @@
 ## Our comp style
 | style | record |
 |---|---|
-| Balanced | 5-3 |
-| Brawl / sustain | 7-3 |
+| Balanced | 6-3 |
+| Brawl / sustain | 8-4 |
 | Dive / engage | 0-1 |
 | Poke / siege | 0-1 |
 
 ## Enemy comp style
 | style | our record vs it |
 |---|---|
-| Balanced | 5-4 |
-| Brawl / sustain | 4-3 |
+| Balanced | 6-4 |
+| Brawl / sustain | 4-4 |
 | Dive / engage | 1-1 |
-| Poke / siege | 2-0 |
+| Poke / siege | 3-0 |
 
 ## Matchups (ours vs theirs)
 | ours | theirs | record |
 |---|---|---|
-| Balanced | Balanced | 2-1 |
+| Balanced | Balanced | 3-1 |
 | Balanced | Brawl / sustain | 1-1 |
 | Balanced | Dive / engage | 1-1 |
 | Balanced | Poke / siege | 1-0 |
 | Brawl / sustain | Balanced | 3-3 |
-| Brawl / sustain | Brawl / sustain | 3-0 |
-| Brawl / sustain | Poke / siege | 1-0 |
+| Brawl / sustain | Brawl / sustain | 3-1 |
+| Brawl / sustain | Poke / siege | 2-0 |
 | Dive / engage | Brawl / sustain | 0-1 |
 | Poke / siege | Brawl / sustain | 0-1 |
 
 ## Comp structure
 | frontline / heal / damage | record |
 |---|---|
-| 2 frontline / 1 heal+support / 2 damage | 9-7 |
-| 3 frontline / 1 heal+support / 1 damage | 3-1 |
+| 2 frontline / 1 heal+support / 2 damage | 11-7 |
+| 3 frontline / 1 heal+support / 1 damage | 3-2 |
 
 ## Wave clear / push heroes in our comp
 | heroes with push tag | record |
 |---|---|
-| 0 | 1-2 |
-| 1 | 5-3 |
+| 0 | 2-2 |
+| 1 | 6-4 |
 | 2 | 6-3 |
 
 ## Sustain (healing or self sustain) in our comp
 | heroes with sustain tag | record |
 |---|---|
-| 1 | 6-5 |
-| 2 | 5-2 |
-| 3 | 1-1 |
+| 1 | 7-5 |
+| 2 | 6-2 |
+| 3 | 1-2 |
 
 ## Every game
 | game | date | res | opponent | map | our style | our comp | their style | their comp |
@@ -72,3 +72,6 @@
 | 23284 | 09/29/2026 | W | GOOD LORDY | Garden of Terror | Balanced | Rehgar, Blaze, Chromie, Sylvanas, Tyrael | Dive / engage | Anduin, Mei, Abathur, Dehaka, Falstad |
 | 23285 | 09/29/2026 | L | GOOD LORDY | Braxis Holdout | Balanced | Brightwing, Rexxar, Chromie, Sylvanas, E.T.C. | Dive / engage | Stukov, Johanna, Tassadar, Illidan, Alarak |
 | 23286 | 09/29/2026 | W | GOOD LORDY | Infernal Shrines | Balanced | Anduin, Blaze, Tychus, Sylvanas, Muradin | Balanced | Rehgar, Mei, Valeera, Leoric, Alarak |
+| 23345 | 10/06/2026 | L | COSMOS | Tomb of the Spider Queen | Brawl / sustain | Rehgar, Leoric, Thrall, Sylvanas, Tyrael | Brawl / sustain | Kael'thas, Brightwing, Muradin, Yrel, Greymane |
+| 23346 | 10/06/2026 | W | COSMOS | Dragon Shire | Brawl / sustain | Brightwing, Leoric, Tychus, Chromie, E.T.C. | Poke / siege | Li-Ming, Anduin, Muradin, Gazlowe, Sylvanas |
+| 23347 | 10/06/2026 | W | COSMOS | Battlefield of Eternity | Balanced | Brightwing, Blaze, Tychus, Li-Ming, Johanna | Balanced | Tassadar, Deckard, Diablo, Artanis, Hanzo |

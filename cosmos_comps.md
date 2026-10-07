@@ -3,47 +3,49 @@
 ## Our comp style
 | style | record |
 |---|---|
-| Balanced | 5-2 |
-| Brawl / sustain | 8-1 |
-| Poke / siege | 0-2 |
+| Balanced | 5-3 |
+| Brawl / sustain | 9-1 |
+| Poke / siege | 0-3 |
 
 ## Enemy comp style
 | style | our record vs it |
 |---|---|
-| Balanced | 2-3 |
-| Brawl / sustain | 6-1 |
+| Balanced | 2-4 |
+| Brawl / sustain | 7-2 |
 | Dive / engage | 2-0 |
 | Poke / siege | 3-1 |
 
 ## Matchups (ours vs theirs)
 | ours | theirs | record |
 |---|---|---|
-| Balanced | Balanced | 0-1 |
+| Balanced | Balanced | 0-2 |
 | Balanced | Brawl / sustain | 3-1 |
 | Balanced | Dive / engage | 1-0 |
 | Balanced | Poke / siege | 1-0 |
 | Brawl / sustain | Balanced | 2-0 |
-| Brawl / sustain | Brawl / sustain | 3-0 |
+| Brawl / sustain | Brawl / sustain | 4-0 |
 | Brawl / sustain | Dive / engage | 1-0 |
 | Brawl / sustain | Poke / siege | 2-1 |
 | Poke / siege | Balanced | 0-2 |
+| Poke / siege | Brawl / sustain | 0-1 |
 
 ## Comp structure
 | frontline / heal / damage | record |
 |---|---|
-| 2 frontline / 1 heal+support / 2 damage | 13-5 |
+| 2 frontline / 1 heal+support / 2 damage | 14-7 |
 
 ## Wave clear / push heroes in our comp
 | heroes with push tag | record |
 |---|---|
-| 0 | 6-0 |
+| 0 | 7-1 |
 | 1 | 7-5 |
+| 2 | 0-1 |
 
 ## Sustain (healing or self sustain) in our comp
 | heroes with sustain tag | record |
 |---|---|
-| 1 | 4-4 |
-| 2 | 8-1 |
+| 1 | 4-5 |
+| 2 | 9-2 |
 | 3 | 1-0 |
 
 ## Every game
@@ -67,3 +69,6 @@
 | 23307 | 10/01/2026 | W | CAN'T COUNTERPICK STUPID | Infernal Shrines | Brawl / sustain | Tassadar, Brightwing, Anub'arak, Rexxar, Valla | Balanced | Garrosh, Qhira, Whitemane, Lunara, Sonya |
 | 23308 | 10/01/2026 | L | CAN'T COUNTERPICK STUPID | Towers of Doom | Balanced | Kael'thas, Brightwing, Stitches, Gazlowe, Zul'jin | Balanced | Muradin, Sylvanas, Whitemane, Lunara, Dehaka |
 | 23309 | 10/01/2026 | L | CAN'T COUNTERPICK STUPID | Volskaya Foundry | Brawl / sustain | Orphea, Anduin, Arthas, Thrall, Tychus | Poke / siege | Muradin, Sylvanas, Whitemane, Gul'dan, Gazlowe |
+| 23345 | 10/06/2026 | W | PHOENIX RISING AMETHYST | Tomb of the Spider Queen | Brawl / sustain | Kael'thas, Brightwing, Muradin, Yrel, Greymane | Brawl / sustain | Rehgar, Leoric, Thrall, Sylvanas, Tyrael |
+| 23346 | 10/06/2026 | L | PHOENIX RISING AMETHYST | Dragon Shire | Poke / siege | Li-Ming, Anduin, Muradin, Gazlowe, Sylvanas | Brawl / sustain | Brightwing, Leoric, Tychus, Chromie, E.T.C. |
+| 23347 | 10/06/2026 | L | PHOENIX RISING AMETHYST | Battlefield of Eternity | Balanced | Tassadar, Deckard, Diablo, Artanis, Hanzo | Balanced | Brightwing, Blaze, Tychus, Li-Ming, Johanna |
