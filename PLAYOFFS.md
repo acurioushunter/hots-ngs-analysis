@@ -63,3 +63,14 @@ Source: NGS past seasons page and the Challonge bracket "Division D Season 21 Pl
 - Seeds 2 and 3 meet in the semifinal. Last season the 3 seed (Cream Team) beat the 2 seed (COSMOS) 3-1 and then lost the final to us.
 - Cosmos was never on our side of the bracket. We did not play them in the playoffs.
 - With 6 teams this season the top two seeds should get byes, so the matching shape is: 1 v (4/5 winner), 2 v (3/6 winner), then the final. That puts seeds 2 and 3 in the same half exactly like last season.
+
+## Update after PRA beat COSMOS 2-1 on Oct 6 (not yet reported on the NGS site at the time of writing)
+The site still showed the old standings, so these are projected: CCS 25, COSMOS 25, PRA 23, Good Lordy 15, R1E 12, Anomaly 2.
+- **CCS and COSMOS tie at 25.** Tiebreak is head to head points. COSMOS 5 (a 4 point win Aug 24, a 1 point loss Oct 1), CCS 3. COSMOS holds the tiebreak today.
+- **Remaining:** CCS has R1E (Oct 8) and Anomaly, COSMOS has Good Lordy, PRA has R1E (Oct 13), Good Lordy v Anomaly (Oct 9).
+- **Most likely final order:** CCS 1 (about 31 to 33), COSMOS 2 (about 28 to 29), PRA 3 (26 to 27), Good Lordy 4, R1E 5, Anomaly 6.
+- **PRA moves above COSMOS only if Good Lordy beats COSMOS and PRA beats R1E.** A 26 to 26 tie goes to PRA on head to head (PRA 7 points to COSMOS 1).
+- **Either way the semifinal is PRA v COSMOS.** Seeds 2 and 3 share a half. The only difference is the bye: seed 2 skips round 1, seed 3 plays Anomaly. The higher seed also chooses map pick or first pick for game 1 of the match (rule 6.3.1).
+- **Worst case for us:** COSMOS ends 1 and CCS 2. Then PRA (3) meets CCS (0-2 against us) in the semifinal. That needs CCS to take 4 points or fewer from R1E and Anomaly, which is unlikely.
+- **CCS v COSMOS** can only happen in the West final.
+- **Report the match.** Rule 4.6.3: the winning team loses 1 point if it does not submit the result within 4 days.
