@@ -157,6 +157,22 @@ Chelsi on **Tychus or Thrall: 8-2**. Chelsi on any other hero: 4-6.
 - **Its best heroes in your games:** Thrall 9 games 78%, Arthas 5 games 80%, Sylvanas 7 games 71%. The weakest were Tyrael (1-3) and Johanna (1-2).
 - The 71 games, with both sides' heroes for your side, are in `knowledge/healsonly_shared_games.csv`.
 
+**Rosters for those 71 games** (the full match data is in `knowledge/raw/healsonly/matches/`, one file per game, and `python analyze_healsonly_rosters.py` reprints everything below):
+| With on your team | Games | Record |
+|---|---|---|
+| Ltlbearista | 22 | 14-8 |
+| SoulShepherd | 20 | 12-8 |
+| NorthrnTouch | 12 | 9-3 |
+| ZergPern | 6 | 3-3 |
+| HealsOnly, Ltlbearista and SoulShepherd together | 17 | 11-6 |
+
+- **Premade size:** 5-stack 34-22 (56 games), 4-stack 6-2, 3-stack 4-1, 2-stack 0-2.
+- **Game length:** under 15 minutes 9-1, 15 to 20 minutes 22-11, 20 to 25 minutes 10-10, over 25 minutes 3-5. Your group wins by ending games early, and loses the long ones. A slow scaling poke hero like Hanzo (average 19.5 minutes) is working against the group's tempo.
+- **Your hero as the first pick of the game:** 9-3. As the fifth pick: 8-7. As the ninth pick: 3-4.
+- **Frontline (tank plus bruiser) on your team:** 1 frontline 1-4, 2 frontline 38-22, 3 frontline 5-1.
+- **Your 10 Hanzo games with this group (3-7):** every one had a second ranged assassin on your team. With Sylvanas as that partner you were 3-1. With anyone else (Falstad twice, Lunara twice, Nazeebo, Valla) you were 0-6. Six games is far too few to call it a rule, but it is the one pairing that worked.
+- **Enemy had Genji, Illidan or Zeratul** (the heroes Icy Veins lists as Hanzo counters): in none of the 10 Hanzo games, so counters do not explain the losses either.
+
 **Your usual Storm League stack (all time):** Ltlbearista 538 games (53.2%), SoulShepherd 404 (50.7%), NorthrnTouch 62 (61.3%). Ltlbearista is mostly Brightwing, Anduin, Rehgar. SoulShepherd is Stitches, Anub'arak, Leoric, Blaze.
 
 ## What to do about it
