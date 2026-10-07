@@ -55,6 +55,40 @@ You are 2-4. Junkrat is your only hero they cannot let you play, and they ban it
 - **When they lose** (6 losses in our data), they had Garrosh in 3 of them and Qhira in 3, and the winners had Brightwing or Anduin plus a sturdy frontline.
 - **Style:** balanced or poke comps, 12-6 in our data. They are 9-2 on first pick.
 
+## CCS across all 18 games (every opponent) and our six games in detail
+Source: `knowledge/ngs_div.db`, per minute team totals. Full wave clear and map analysis is in `WAVE_CLEAR_AND_MAP_GUIDE.md`.
+
+| | CCS wins (12) | CCS losses (6) |
+|---|---|---|
+| Average length | 18.9 min | 18.1 min |
+| Team deaths | 7.2 | 15.2 |
+| Minion damage per min (CCS v opponent) | 15.1k v 14.2k | 14.8k v 17.2k |
+| Camp damage per min | 5.8k v 3.8k | 4.7k v 4.3k |
+| Structure damage per min | 5.8k v 2.1k | 2.1k v 5.1k |
+| Experience per min | 3.32k v 2.77k | 2.75k v 3.39k |
+CCS wins by winning fights (67 takedowns and 7 deaths in wins, 24 and 15 in losses). Wave clear is even in both. They are not a macro team, they are a fight team that snowballs.
+
+| CCS player | Games | Rating | Minion per min | Camps per min | XP per min | Deaths in wins | Deaths in losses |
+|---|---|---|---|---|---|---|---|
+| **ShadowDroid** | 18 | 68 | **5,709** | **1,900** | **1,000** | 1.2 | 2.3 |
+| WitsEnd | 18 | 63 | 3,102 | 1,248 | 612 | 1.2 | 3.2 |
+| UnicycleYay | 15 | 61 | 2,350 | 882 | 567 | 1.6 | 3.2 |
+| Valkamer | 16 | 58 | 1,829 | 443 | 524 | 1.6 | 3.2 |
+| ûltear | 18 | 57 | 1,682 | 665 | 389 | 1.7 | 3.5 |
+ShadowDroid is their wave clear and camp engine. WitsEnd on Lunara is the only other real clearer. In their six losses one of their supports, tank or UnicycleYay always had the lowest rating, usually with 4 to 6 deaths.
+
+**Our six games against CCS, per minute team totals (PRA v CCS)**
+| Game | Map | Result | Length | Minion | Camps | Structure | XP | Deaths |
+|---|---|---|---|---|---|---|---|---|
+| 22944 | Sky Temple | **W** | 15:24 | 14.5k v 15.3k | 7.1k v 5.0k | 5.0k v 1.6k | 3.24k v 2.75k | 7 v 19 |
+| 22945 | Dragon Shire | L | 26:32 | 15.7k v 17.2k | 4.6k v 5.0k | 2.9k v 5.5k | 2.92k v 3.35k | 18 v 9 |
+| 22946 | Alterac Pass | L | 23:22 | 17.5k v 15.1k | 8.0k v 7.8k | 1.3k v 5.9k | 2.84k v 2.95k | 15 v 6 |
+| 23229 | Volskaya | **W** | 18:12 | 17.9k v 18.1k | 3.9k v 3.8k | 8.0k v 1.7k | 3.67k v 2.95k | 2 v 10 |
+| 23230 | Garden of Terror | L | 24:20 | 12.0k v 18.2k | 5.3k v 5.7k | 3.4k v 3.0k | 2.69k v 3.33k | 15 v 11 |
+| 23231 | Infernal Shrines | L | 15:21 | 16.4k v 16.3k | 4.9k v 6.5k | 1.6k v 10.6k | 3.06k v 3.69k | 17 v 5 |
+Across the six games: minion damage within 6%, camp damage within 1%, experience within 3%, structure damage 22k against 28k. **We lost every game where we died 15 or more times and won both where we died 7 or fewer.** Only game 23230 (Garden, minion 12.0k against 18.2k) shows a real wave clear gap, and it also shows the worst deaths for NorthrnTouch (E.T.C., 6 deaths).
+**Deaths in our losses:** Hunter 6 (Chromie), 2, 2, 4 (Falstad), chelsi 4, 1, 3, 2, SoulShepherd 5, 5, 2, 4, NorthrnTouch 2, 3, 6, 5, Ltlbearista 1, 4, 2, 2. The tank and offlaner feed most in the long games.
+
 ## Maps (CCS record in our data, 12-6)
 | Map | CCS | PRA | Verdict |
 |---|---|---|---|
@@ -118,7 +152,8 @@ Do not give UnicycleYay a free Sylvanas when it is open early, he plays it 3-1.
 ## How to play it
 - **Kill ûltear first** (Gold 3, 2,637) and force WitsEnd off Lunara. The rest of their rating is 2,790 to 2,883 and none of those players are weak.
 - Do not let ShadowDroid carry: take Raynor and keep Johanna away from him.
-- Stay compact. We won game 1 both times by keeping the team together on a map they picked. Both losses came when our draft was thin.
+- **Deaths decide games against CCS, not wave clear.** All four losses were 15 to 18 deaths against 5 to 11. Stay compact, fight near our structures, and do not chase kills on the side lanes where ShadowDroid and WitsEnd can catch us.
+- Keep two real wave clear heroes (see `WAVE_CLEAR_AND_MAP_GUIDE.md`), one of them ranged, so the clear does not fall on SoulShepherd alone.
 - Hunter: 2 deaths or fewer, and take structures as well as camps between fights.
 
 ## What we do not know
