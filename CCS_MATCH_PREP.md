@@ -163,3 +163,5 @@ Do not give UnicycleYay a free Sylvanas when it is open early, he plays it 3-1. 
 - The three missing Good Lordy games. Heroes Profile did not capture them.
 
 See `DRAFT_LESSONS_AND_COMPS_BY_MAP.md` for comps by map (ranged count, camps) and last night's Tomb draft replay.
+
+> Burst, poke and drafting insights: see `COMP_AND_POKE_INSIGHTS.md`.

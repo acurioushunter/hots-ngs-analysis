@@ -92,3 +92,5 @@ Built from the Season 22 Div C West games we have (53 games), Heroes Profile NGS
 *Sources: `hots_s22.db` (53 games), `knowledge/ngs.db`, `knowledge/hunter_hp.db`, `knowledge/raw/players_hp/*`, `knowledge/hots_knowledge.db` (Icy Veins).*
 
 See `DRAFT_LESSONS_AND_COMPS_BY_MAP.md` for the Oct 6 Tomb draft replayed slot by slot, comps by map and the Chromie question.
+
+> Burst, poke and drafting insights: see `COMP_AND_POKE_INSIGHTS.md`.
