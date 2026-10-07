@@ -95,13 +95,13 @@ Across the six games: minion damage within 6%, camp damage within 1%, experience
 |---|---|---|---|
 | **Towers of Doom** | **4-1** (even when others pick it) | 0-1 | **Ban** |
 | **Infernal Shrines** | 2-1, 2-0 as map picker | 1-2 | **Ban** |
-| Dragon Shire | 1-1 | 1-1 | Fine, but they beat us here |
-| Tomb of the Spider Queen | 1-1 | 3-0 | **Good for us** |
+| Dragon Shire | 1-1 | 2-1 | Fine, but they beat us here (we beat Cosmos here Oct 6) |
+| Tomb of the Spider Queen | 1-1 | 3-1 | **Good for us**, but we lost the Oct 6 game here to Cosmos |
 | Volskaya Foundry | 1-1 | 1-0 | We beat them here, but it is your worst map |
 | Sky Temple | **0-1** | 1-0 | **Good for us, we beat them there** |
 | Garden of Terror | 1-0 | 3-1 | They beat us here |
 | Alterac Pass | 1-0 | 1-1 | They beat us here |
-| Battlefield of Eternity | 1-0 | 0-1 | Neutral |
+| Battlefield of Eternity | 1-0 | 1-1 | Neutral, we won it in 13 minutes on Oct 6 |
 Our map ban pair: **Towers of Doom and Infernal Shrines.** Maps we want left: Sky Temple, Tomb, Garden.
 **Their map ban habit (7 series):** Braxis Holdout 6, Cursed Hollow 4, then one each of Tomb, Dragon Shire, Battlefield of Eternity and Alterac Pass. They have **never banned Towers of Doom or Infernal Shrines**, so those two stay open for them to pick unless we ban them. Against PRA they banned Braxis Holdout plus Cursed Hollow (R2) and Alterac Pass plus Braxis (R7).
 
@@ -121,7 +121,7 @@ Our map ban pair: **Towers of Doom and Infernal Shrines.** Maps we want left: Sk
 **chelsi's pool (from the HealsOnly games with you, 71 games, assuming those are her):**
 | Hero | Games | Record | Notes |
 |---|---|---|---|
-| **Thrall** | 9 | **7-2 (78%)** | 4.2 kills, 13.8 takedowns, 78k hero damage, **104k siege, 79k minion damage, 14.8k experience**, the best macro numbers on any hero. NGS 3-0. With you on Sylvanas it is 5-1 |
+| **Thrall** | 9 | **7-2 (78%)** | 4.2 kills, 13.8 takedowns, 78k hero damage, **104k siege, 79k minion damage, 14.8k experience**, the best macro numbers on any hero. NGS 3-1. With you on Sylvanas it is 5-1 |
 | **Sylvanas** | 7 | 5-2 (71%) | 4.7 kills, 14.1 takedowns, 65k damage, 2.6 deaths. Your guess is right as the backup |
 | Tychus | 1 | 1-0 | 130k damage in that game, NGS 5-2 |
 | Gul'dan | 2 | 1-1 | 119k damage but 4.5 deaths |
