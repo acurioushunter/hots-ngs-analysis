@@ -11,7 +11,7 @@ The draft tool (`draft_tool_artifact.html` for the published page, `draft_tool.h
 | Written lessons per opponent and per map | `playbook/notes/teams/<team>.md`, `playbook/notes/maps/<map>.md` | Yes |
 
 ## After every match night
-1. Get the new games. In your own Chrome pass the Heroes Profile check, then ask Claude to pull the new division games (it compares the division match list with `knowledge/raw/ngs/matches/` and saves what is missing).
+1. Get the new games. In your own Chrome pass the Heroes Profile check, then ask Claude to pull the new division games. It runs `scripts/hp_pull_division.js` (with `python receiver.py` running and the list from `python scripts/known_games.py`), which compares the site's division match list with `knowledge/raw/ngs/matches/` and saves what is missing.
 2. Rebuild and check:
    ```
    python build_ngs_division.py

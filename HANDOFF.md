@@ -1,3 +1,5 @@
+> **Superseded (2026-10-07).** This was the brief for the first session. Start with `CLAUDE.md`, then `PROJECT_STATE.md`. The hero pools, goals and the Oct 6 match line below are out of date; the database, tools and documents it describes have all been built since.
+
 # HANDOFF: Heroes of the Storm project for Hunter (Code session brief)
 
 Read this first. Everything is in this folder. Follow Hunter's coding principles at the bottom.

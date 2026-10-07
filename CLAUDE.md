@@ -14,6 +14,9 @@ Private repo `acurioushunter/hots-ngs-analysis`. Purpose: help Hunter and his te
 9. **Say how big the sample is.** Most per map and per hero numbers rest on 2 to 12 games. Say "lean", not "rule", and say what the data cannot show (NGS pages have no timeline).
 10. **Do not claim a mechanism the data does not show.** Separate "the numbers say" from "the hero kit suggests".
 
+## Start here
+Read `PROJECT_STATE.md` after this file: who is on the team, where the season stands, the document map, open work, how to refresh the data, and the git routine. Hunter does not use git. At the start of a session `git pull`; when the work is done run the tests, commit with a plain message and `git push` (this repo only). The folder `C:\Users\visio\Downloads\Claude Code` is the Vision business project with its own repo and rules: do not open or change it from a HOTS session.
+
 ## Where things are
 - Start with `CCS_DRAFT_CHEAT_SHEET.md` (next opponent), then `CCS_FULL_PICTURE.md`, `QHIRA_DEEP_DIVE.md`, `COMP_AND_POKE_INSIGHTS.md`, `DRAFT_LESSONS_AND_COMPS_BY_MAP.md`, `WAVE_CLEAR_AND_MAP_GUIDE.md`, `RECENT_FORM_AND_POOLS.md` (Hunter and chelsi pools), `COSMOS_MATCH_PREP.md`, `PLAYOFFS.md`, `NGS_DIVISION_SUMMARY.md`.
 - Superseded: `TONIGHT_PLAN.md`, parts of `HUNTER_DEEP_DIVE.md` (banners say so).
