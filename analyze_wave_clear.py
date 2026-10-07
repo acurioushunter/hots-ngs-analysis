@@ -9,8 +9,8 @@ ROOT = pathlib.Path(__file__).parent
 DIV = sqlite3.connect(ROOT / "knowledge" / "ngs_div.db")
 KB = sqlite3.connect(ROOT / "knowledge" / "hots_knowledge.db")
 PRA, CCS, COS = "Phoenix Rising Amethyst", "Can't Counterpick Stupid", "COSMOS"
-OUR_POOL = {"hunterstag": {"Junkrat", "Raynor", "Sylvanas", "Chromie", "Li-Ming", "Valla", "Cassia"},
-            "chelsi": {"Thrall", "Tychus", "Chromie", "Tassadar", "Gul'dan", "Sylvanas"},
+OUR_POOL = {"hunterstag": {"Junkrat", "Sylvanas", "Orphea", "Chromie", "Cassia", "Mephisto", "Tychus"},
+            "chelsi": {"Thrall", "Tychus", "Chromie", "Tassadar", "Gul'dan", "Azmodan"},
             "SoulShepherd": {"Leoric", "Blaze", "Dehaka", "Rexxar", "Stitches"},
             "NorthrnTouch": {"Johanna", "Muradin", "E.T.C.", "Varian", "Tyrael", "Anub'arak"},
             "Ltlbearista": {"Brightwing", "Rehgar", "Anduin", "Stukov"}}

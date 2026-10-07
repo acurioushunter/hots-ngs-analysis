@@ -5,7 +5,7 @@ Built from the Season 22 Div C West games we have (53 games), Heroes Profile NGS
 ## The short version
 1. **We are 2-0 against Cosmos in matches this season.** Sept 1 was 2-0 (Tomb of the Spider Queen and Garden of Terror), Oct 6 was 2-1 (lost Tomb, won Dragon Shire and Battlefield of Eternity). In games it is 5-4.
 2. **Cosmos is 11-1 when we do NOT field Muradin or Stitches, and 2-4 when the enemy has one.** 4 of their 5 losses came into a Muradin or Stitches comp. NorthrnTouch is 4-0 on Muradin and Cosmos has never banned Muradin.
-3. **Expect Junkrat to be banned.** Cosmos banned Junkrat in both games against us (slots 1 and 2). Be ready with Sylvanas first, Raynor second.
+3. **Expect Junkrat to be banned.** Cosmos banned Junkrat in both games against us (slots 1 and 2). Be ready with Sylvanas first, then Orphea or Chromie.
 4. **Cosmos is 5-0 on Infernal Shrines.** If they pick the map, that is their best one. Tomb of the Spider Queen is now 4-1 for them (they beat us there on Oct 6), and they pick it.
 
 ## Focus on you (hunterstag)
@@ -14,20 +14,20 @@ Built from the Season 22 Div C West games we have (53 games), Heroes Profile NGS
 | Context | Record | Note |
 |---|---|---|
 | NGS career (S20 to S22) | 50-25 (66.7%) | S21 was 25-2, S20 was 13-15 |
-| NGS S22 | 12-8 | Sylvanas 6-3 (57 avg rating), Junkrat 4-0 (66), Falstad 1-2, Raynor 1-0 |
-| Storm League, since July 1 | 88-72 (55%), 160 games | Almost all on Sylvanas, Junkrat and Hanzo |
-| SL Sylvanas since July 1 | 36-26 (58%) | 12.9 takedowns, 3.0 deaths per game |
-| SL Junkrat since July 1 | 19-12 (61%) | 14.0 takedowns, 1.8 deaths per game |
-| SL Hanzo since July 1 | 8-14 (36%) | Career 150-166 (47%) in SL, below your Junkrat, Raynor, Valla, Cassia and Sylvanas |
+| NGS S22 | 14-9 | Sylvanas 6-4 (58 avg rating), Junkrat 4-0 (66), Falstad 1-2, Li-Ming 1-1, Chromie 1-1, Raynor 1-0 |
+| Storm League, last 12 months | 428-401 (51.6%), 829 games | Hanzo 268 games (46%), Sylvanas 119 (58%), Junkrat 104 (57%) |
+| SL Sylvanas, last 6 months | 59-36 (62%) | 79% at 2 deaths or fewer since the rework, 42% at 3 or more |
+| SL Junkrat, last 6 months | 30-17 (64%) | 1.6 deaths a game |
+| SL Hanzo, last 6 months | 24-34 (41%) | 46% over 268 games in the last 12 months |
 
-**Your picks tonight, in order**
-1. **Junkrat** if it is not banned. 13-2 in NGS career, 61% recent SL, and the lowest deaths of any hero you play. Best on Tomb (26-25 career SL is average), Braxis Holdout (33-18), Garden of Terror (27-5). Cosmos banned it twice against us, so do not build the plan around it.
-2. **Sylvanas** is the real default. 11-6 in NGS career, 58% recent SL. Maps where it is strongest in SL: Garden of Terror 11-7, Tomb 11-6, Alterac 10-7. Avoid Cursed Hollow (4-6) and Dragon Shire (6-9).
-3. **Raynor** as the backup if Sylvanas is also banned. 61% in 176 SL games (108-68). Strong on Garden of Terror (13-2) and Towers of Doom (9-2). Weak on Volskaya (1-9) and Infernal Shrines (5-7), so skip it there.
-4. **Not tonight: Hanzo.** The recent form (8-14) and the map pool (Cosmos picks Shrines, Tomb, Towers) do not fit. Imbuement plays Hanzo for Cosmos (17 NGS games, 10-7), so you may face one.
-5. **Avoid Falstad** (1-2 in NGS S22, 43% in SL) unless the draft truly needs it. You did win Garden of Terror on it against Cosmos (70 rating).
+**Your picks, in order (from the last 12 months, team games and NGS; see `RECENT_FORM_AND_POOLS.md`)**
+1. **Junkrat** if it is not banned. 4-0 in NGS this season and 64% in Storm League over the last 6 months, with the fewest deaths of any hero you play. Cosmos banned it in all three games on Oct 6, so do not build the plan around it.
+2. **Sylvanas** is the real default. 58% over 119 Storm League games in the last year, 6-4 in NGS this season. Her job is structure pressure (Possession on minions, Mind Control to follow up kills). **Cosmos took Sylvanas in game 2 on Oct 6 (Imbuement plays it), so lock her early.**
+3. **Orphea or Chromie** as the backups: Orphea 12-5 (70.6%) and Chromie 12-3 (80%) in Storm League over the last year, and you won on Chromie in game 2 on Oct 6. Raynor is a practice pick only (8 games in the last year).
+4. **Not Hanzo.** 46% over 268 games in the last year, 41% in the last 6 months. Imbuement plays Hanzo for Cosmos (17 NGS games, 10-7), so you may face one.
+5. **Avoid Falstad** (44% last year), **Li-Ming** (42%) and **Medivh** (37%) in Storm League.
 
-**Heroes that bother you (Storm League win rate when they are on the enemy team)**
+**Heroes that bother you (career Storm League win rate when they are on the enemy team, so it includes older games)**
 - Leoric 46% (170 games) and E.T.C. 45% (254 games). Cosmos is 5-0 on Leoric.
 - Fine matchups: Greymane 59% for you, Dehaka 63%, Blaze 61%, Hanzo 64%, Uther 62%.
 - Everything else Cosmos plays (Kael'thas, Anub'arak, Tassadar, Anduin, Brightwing) is a coin flip for you (51 to 53%), so draft matters more than the matchup.
@@ -70,7 +70,7 @@ Built from the Season 22 Div C West games we have (53 games), Heroes Profile NGS
 ## Lessons from the Oct 6 Tomb loss (see `WAVE_CLEAR_AND_MAP_GUIDE.md`)
 - Cosmos had three heroes clearing 4.1k to 5.4k minion damage per minute (Kael'thas, Greymane, Yrel), two of them ranged. We had two melee clearers (Leoric, Thrall) and a Sylvanas that cleared 1.7k. They also out camped us 140k to 110k.
 - Icy Veins says Tomb wants **high wave clear and a strong late game, and to avoid low wave clear**. Cosmos is 4-1 on Tomb and picks it.
-- If they pick Tomb: draft two high clear heroes with at least one ranged (chelsi on Tassadar, Gul'dan or Chromie, SoulShepherd on Leoric or Blaze), and put Hunter on a hero that gets camps and structures (Raynor) or a better clearer (Chromie, Li-Ming), not on Sylvanas as the only damage.
+- If they pick Tomb: draft two high clear heroes with at least one ranged (chelsi on Tassadar, Gul'dan or Chromie, SoulShepherd on Leoric or Blaze), and keep Hunter on Sylvanas for structure pressure only if chelsi and SoulShepherd bring the clear. If Hunter needs to clear himself, Orphea (3.7k minion damage a minute) or Chromie (3.0k) do it better than Sylvanas (2.0k).
 - Ban Kael'thas (SilverJackal 4.3k per minute, 7-2) to remove their safest clearer on Tomb.
 
 ## Suggested plan

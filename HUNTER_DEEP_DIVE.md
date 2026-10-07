@@ -3,13 +3,15 @@
 Written 2026-10-06. Sources: your 4,735 Heroes Profile games (2,364 Storm League), the Season 22 NGS games we have (53 total, 20 are PRA), NGS records for all 38 players, and Icy Veins.
 Every number below came from a query on the databases in this repo (`knowledge/hunter_hp.db`, `hots_s22.db`, `knowledge/ngs.db`, `knowledge/players_hp.db`).
 
+> **Update Oct 7 2026:** the career Storm League numbers in this file include a lot of 2020 games (161 of the 176 Raynor games and 155 of the 206 Abathur games are from 2020). **For picks use `RECENT_FORM_AND_POOLS.md`,** which uses the last 12 months, the team games and NGS. The Hanzo conclusions below still hold (45.9% over 268 games in the last 12 months, 41% in the last 6 months). The Raynor, Valla and Abathur advice is superseded.
+
 ## The short version
 
 1. **You do not play Hanzo badly.** Your Storm League kills (4.7), takedowns (13.4) and hero damage (72.8k) match your Junkrat, and your 47.5% beats every other Hanzo main in Div C West (Imbuement 43.7% over 396 games, HarkinEH 46.0% over 259). Across the other 37 players, Hanzo wins only 43.3% of 953 Storm League games, 23rd out of 24 ranged assassins with at least 300 games.
 2. **Hanzo costs you about 7 points per game.** Your Storm League win rate on everything else is 54.2%, on Hanzo it is 47.5%. Over 316 Hanzo games that is roughly 21 wins you would have had on an average pick.
 3. **The damage is fine, the map presence is not.** On Hanzo your team reaches level 10 first only 51% of the time (Junkrat 63%, Sylvanas 59%), you clear waves at the same rate as Sylvanas but take only half to two thirds of the structure damage of your other ranged assassins, and you die 3 or more times in 53% of games. With 2 deaths or fewer you win 68%, with 3 or more you win 30%.
 4. **Two fixes are in your hands:** take Explosive Arrows at level 4 instead of Serrated Arrows (+5 points, about 40% more minion damage), and play Hanzo only on maps with tight terrain (Dragon Shire, Towers of Doom, Sky Temple).
-5. **Your best path to winning is Junkrat, Raynor, Valla and Abathur in Storm League, and Junkrat or Sylvanas locked early in NGS.**
+5. **Your best path to winning is Sylvanas and Junkrat (and Orphea, Chromie or Tychus as the backups) in both Storm League and NGS, locked early.** Raynor, Valla and Abathur were career numbers from 2020 and are not part of the plan.
 
 ## Part 1: Why Hanzo is not winning
 
@@ -106,7 +108,7 @@ Icy Veins: Hanzo does well on maps where objectives sit in small areas and terra
 |---|---|---|---|---|
 | Junkrat | 325 | **62.5%** | 1.9 | Best hero by a mile. First to ten 63%. Strong on Garden of Terror (27-5), Braxis Holdout (33-18), Alterac (20-5) |
 | Valla | 55 | 61.8% | 2.5 | 7.1 kills per game, Manticore at level 16 in most games (61.5%) |
-| Raynor | 176 | 61.4% | 2.6 | Best on Garden of Terror (13-2), Towers of Doom (9-2), Tomb (11-4). Avoid Volskaya (1-9) |
+| Raynor | 176 | 61.4% | 2.6 | **Mostly 2020** (161 of 176 games). Only 8 games in the last 12 months |
 | Abathur | 206 | 60.7% | 0.5 | Depends on your team's healer and tank |
 | Leoric | 64 | 59.4% | 3.1 | |
 | Cassia | 52 | 57.7% | 3.0 | |
@@ -176,7 +178,7 @@ Chelsi on **Tychus or Thrall: 8-2**. Chelsi on any other hero: 4-6.
 **Your usual Storm League stack (all time):** Ltlbearista 538 games (53.2%), SoulShepherd 404 (50.7%), NorthrnTouch 62 (61.3%). Ltlbearista is mostly Brightwing, Anduin, Rehgar. SoulShepherd is Stitches, Anub'arak, Leoric, Blaze.
 
 ## What to do about it
-1. **Make Junkrat, Raynor, Valla, Sylvanas and Abathur your Storm League defaults.** Use Hanzo as a deliberate pick, not a habit.
+1. **Make Sylvanas and Junkrat your Storm League defaults, with Orphea, Chromie and Tychus as backups** (last 12 months: Sylvanas 58%, Junkrat 57%, Orphea 71%, Chromie 80%, Tychus 70%). Use Hanzo as a deliberate pick, not a habit.
 2. **If you do play Hanzo:** only on Dragon Shire, Towers of Doom or Sky Temple (all three are 57% or better for you), take Explosive Arrows at level 4, try Ninja Assassin at 13, and ask for a wave clear partner (Junkrat, Azmodan, Sylvanas, Raynor, Zagara) so the comp is not poke with no push. Avoid Volskaya, Tomb and Battlefield of Eternity.
 3. **Treat 2 deaths as your cap.** At 2 or fewer you win 68%. Use Natural Agility earlier, and stay behind the tank in fights. This is the largest single lever in the data.
 4. **Give Hanzo a job between fights:** take one lane's towers while the tank holds the other, instead of waiting for the next fight. The structure damage gap (490 per level vs about 1,000 on Sylvanas and Raynor) is where a lead is being left on the table.

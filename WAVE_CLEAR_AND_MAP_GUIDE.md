@@ -7,7 +7,7 @@ Built from all 56 Season 22 games (`knowledge/ngs_div.db`, per minute numbers fr
 2. **The heroes that clear well still matter a little, and on Tomb a lot.** Teams with two or more strong wave clear heroes (3,500 or more minion damage per minute) won 55% of games, teams with one or none 45%. On **Tomb of the Spider Queen teams with only one such hero were 0-3**.
 3. **Last night's Tomb loss was not a clear gap in total wave clear** (Cosmos 17.1k per minute against our 16.1k, and we had more experience and structure damage). It was **who** cleared. Cosmos had three heroes at 4.1k to 5.4k per minute (Kael'thas, Greymane, Yrel). We had two (Leoric 5.9k and Thrall 5.1k, both melee), while Sylvanas cleared only 1.7k, Tyrael 2.6k and Rehgar 0.9k. They also took far more camps (140k camp damage against our 110k). Whether we lost early towers cannot be seen in this data (NGS gives no timeline), but the shape matches what you saw.
 4. **Against CCS the macro was even, and we lost on deaths.** In our six games the teams were within 6% on minion damage, 1% on camp damage and 3% on experience. In all four losses we died 15 to 18 times against 5 to 11 for CCS. In the two wins we died 7 and 2 times.
-5. **Sylvanas is not a wave clear hero by the numbers** (2.0k per minute across 26 games, and 1.7k for Hunter in Tomb). It is a camp and structure hero (1.5k and 1.3k per minute). On a map that says "avoid low wave clear", the clear has to come from the other four players.
+5. **Sylvanas is not a wave clear hero by minion damage** (2.0k per minute across 26 games, and 1.7k for Hunter in Tomb). She is a push, camp and structure hero: Possession on enemy minions, 1.3k structure and 1.5k camp damage per minute in this division, and in Storm League last year 25.4k structure damage a game (Junkrat 17.2k). In Tomb last night Hunter's structure damage per minute (0.90k) matched the best on our team. On a map that says "avoid low wave clear", the clear has to come from the other four players.
 
 ## What predicts a win (56 games)
 | Stat | Team with more of it won |
@@ -51,21 +51,21 @@ Minion damage per minute is the wave clear measure and camp damage per minute is
 | Thrall | Melee | 8 | 4,124 | 348 | 727 | 38% | chelsi |
 | Gul'dan | Ranged | 6 | 4,067 | 1,358 | 1,457 | 50% | chelsi |
 | Lunara | Ranged | 14 | 3,970 | 1,685 | 1,594 | 71% |  |
-| Tychus | Ranged | 24 | 3,265 | 1,490 | 1,489 | 58% | chelsi |
+| Tychus | Ranged | 24 | 3,265 | 1,490 | 1,489 | 58% | hunterstag, chelsi |
 | Falstad | Ranged | 10 | 3,228 | 1,210 | 698 | 40% |  |
 | Artanis | Melee | 4 | 3,165 | 1,685 | 450 | 50% |  |
 | Chromie | Ranged | 10 | 3,007 | 1,296 | 699 | 40% | hunterstag, chelsi |
-| Li-Ming | Ranged | 14 | 2,902 | 1,564 | 1,338 | 50% | hunterstag |
+| Li-Ming | Ranged | 14 | 2,902 | 1,564 | 1,338 | 50% |  |
 | Jaina | Ranged | 11 | 2,834 | 1,559 | 814 | 27% |  |
 | Greymane | Ranged | 11 | 2,815 | 2,272 | 1,191 | 73% |  |
 | Johanna | Melee | 31 | 2,738 | 397 | 513 | 58% | NorthrnTouch |
-| Raynor | Ranged | 7 | 2,338 | 2,387 | 1,610 | 71% | hunterstag |
+| Raynor | Ranged | 7 | 2,338 | 2,387 | 1,610 | 71% |  |
 | Stitches | Melee | 6 | 2,161 | 494 | 314 | 50% | SoulShepherd |
 | Hanzo | Ranged | 9 | 2,092 | 1,596 | 623 | 33% |  |
-| Sylvanas | Ranged | 26 | 1,986 | 1,473 | 1,326 | 58% | hunterstag, chelsi |
+| Sylvanas | Ranged | 26 | 1,986 | 1,473 | 1,326 | 58% | hunterstag |
 | Arthas | Melee | 8 | 1,943 | 515 | 609 | 38% |  |
 | Mei | Ranged | 5 | 1,783 | 217 | 98 | 0% |  |
-| Valla | Ranged | 8 | 1,722 | 1,996 | 498 | 25% | hunterstag |
+| Valla | Ranged | 8 | 1,722 | 1,996 | 498 | 25% |  |
 | Qhira | Melee | 5 | 1,603 | 1,018 | 367 | 40% |  |
 | Varian | Melee | 11 | 1,576 | 265 | 288 | 55% | NorthrnTouch |
 | Auriel | Ranged | 5 | 1,283 | 412 | 193 | 20% |  |
@@ -112,9 +112,9 @@ Minion damage per minute is the wave clear measure and camp damage per minute is
 Icy Veins: **prefer** impassable terrain effects, poke tools for the objective, quests to stack, strong late game, sustain, vision and **high wave clear**. **Avoid** weak late game, **low wave clear** and effects relying on bushes. Win conditions: the map objective (Webweavers, paid for with gems) or the boss camp.
 - This division, Tomb: PRA 3-1, COSMOS 4-1, CCS 1-1.
 - Last night's loss (23345, 29:35, the longest Tomb game): our per minute totals were minion 16.1k, camps 3.7k, structure 3.2k and experience 3.1k, against Cosmos 17.1k, 4.7k, 2.6k and 2.7k. Cosmos took 30k more camp damage. Deaths: Leoric 5 and Tyrael 6 for us, Greymane 5 and Brightwing and Muradin 4 each for Cosmos. We lost the late game with a Sylvanas that never cleared.
-- **Draft for Tomb:** at least two high clear heroes and at least one ranged. With Hunter on Sylvanas or Raynor (2.0k and 2.3k per minute), chelsi should be a ranged clearer (Tassadar 5.5k, Gul'dan 4.1k or Chromie 3.0k) and SoulShepherd Leoric or Blaze. Brightwing and Rehgar are right for sustain but add almost no clear (about 1.0k).
-- **If Hunter has no Junkrat, Chromie (3.0k) or Li-Ming (2.9k) clear better than Sylvanas or Raynor,** and you won with both last night.
-- **Do not combine two low clear damage heroes with a low clear tank** (for example Sylvanas, Raynor and Muradin or Johanna). That leaves SoulShepherd clearing alone.
+- **Draft for Tomb:** at least two high clear heroes and at least one ranged. With Hunter on Sylvanas (2.0k per minute), chelsi should be a ranged clearer (Tassadar 5.5k, Gul'dan 4.1k or Chromie 3.0k) and SoulShepherd Leoric or Blaze. Brightwing and Rehgar are right for sustain but add almost no clear (about 1.0k).
+- **If Hunter has no Junkrat, Orphea (3.7k minion damage a minute, 70.6% in Storm League over the last year) or Chromie (3.0k, 80%) clear better than Sylvanas,** and you won on Chromie last night. Tomb is Hunter's worst big map in Storm League over the last year (31-39), though Orphea, Chromie and Tychus are 5-3 there.
+- **Do not combine low clear heroes everywhere** (for example Sylvanas, a Muradin or Johanna tank and a healer). That leaves SoulShepherd clearing alone.
 
 ## Map by map (Icy Veins draft advice and the three team records)
 | Map | Icy Veins prefers | Icy Veins avoids | PRA | CCS | COSMOS |
@@ -136,16 +136,16 @@ We ban **Towers of Doom and Infernal Shrines** (their best, and they never ban t
 
 | Map | CCS | PRA | What the map wants | Our approach |
 |---|---|---|---|---|
-| **Sky Temple** | 0-1 | 1-0 | Camp clearers, gankers, split push | Our best fit. Raynor takes camps (2.4k), Leoric or Blaze clear, Thrall or Tychus push |
+| **Sky Temple** | 0-1 | 1-0 | Camp clearers, gankers, split push | Our best fit. Sylvanas is 7-4 there in Storm League over the last year. Leoric or Blaze clear, Thrall or Tychus push |
 | **Tomb** | 1-1 | 3-1 | High wave clear, late game, sustain | Two high clear heroes with one ranged (see above). Their clear is ShadowDroid and WitsEnd only, so ban Lunara and Gazlowe |
-| **Garden of Terror** | 1-0 | 3-1 | Camp clearers, siege, split push, double bruiser | Raynor is 13-2 there for Hunter in Storm League and we have won there 3 times. Camps decide it |
+| **Garden of Terror** | 1-0 | 3-1 | Camp clearers, siege, split push, double bruiser | Hunter is 44-26 there in Storm League over the last year (Junkrat 11-1, Sylvanas 6-6) and we have won there 3 times. Camps decide it |
 | **Dragon Shire** | 1-1 | 2-1 | Camp clearers, strong late game, sustain | They beat us there. Keep a sustain healer and a durable shrine holder |
-| **Volskaya** | 1-1 | 1-0 | Late game, siege damage, sustain | Hunter's worst map (Raynor 1-9 in Storm League). Sylvanas only, or ban it |
+| **Volskaya** | 1-1 | 1-0 | Late game, siege damage, sustain | Hunter is 28-31 there in Storm League over the last year (Sylvanas 4-3). Sylvanas only, or ban it |
 | Battlefield of Eternity | 1-0 | 1-1 | Strong early game, quests, poke | We win it fast (13:30 last night). Keep Tychus and Johanna |
 
 ## The checklist
 1. **Count the clear before locking the last picks:** two heroes at 3,500 or more per minute, at least one ranged. If SoulShepherd is the only one, chelsi must be a clearer.
-2. **Hunter's job is camps, structures and kills.** Raynor takes camps best (2.4k per minute), Sylvanas structures (1.3k) and camps (1.5k). Do not expect clear from either.
+2. **Hunter's job is camps, structures and kills.** Sylvanas gives structure pressure (Possession) and camps. If he needs to clear for himself, Orphea or Chromie do it better.
 3. **Win the camp fight on purpose.** In our wins we out camp them 6.6k to 3.3k, in our losses we are out camped 4.8k to 6.2k.
 4. **Keep the deaths down.** 13 of our 14 wins came with 9 or fewer team deaths (the exception was a 22 death Tomb win), and we have never lost with fewer than 10. In all four losses to CCS we died 15 or more times.
 5. **Aim at CCS's weak links.** In their six losses one of ûltear, WitsEnd, Valkamer or UnicycleYay had the lowest rating, usually with 4 to 6 deaths (ûltear on Nazeebo scored 32 with 6 deaths in our Aug 18 win).

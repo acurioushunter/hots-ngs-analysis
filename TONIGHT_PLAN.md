@@ -1,3 +1,5 @@
+> **Superseded in part (Oct 7):** pool and hero claims here now follow `RECENT_FORM_AND_POOLS.md`. This plan was for the Oct 6 match.
+
 # PRA vs COSMOS tonight: draft plan v2
 
 Fixed assumption: we ban Anub'arak. Everything else (our second ban, their first two bans) is a branch below. Each team also bans two maps (11 in the pool, 7 left). Evidence: Season 22 NGS games, each player's NGS and Storm League record, Icy Veins counters. A counter is only listed if the player really plays it. Small samples, treat as leans.
