@@ -1,0 +1,572 @@
+{
+ "source": "Fan Heroes of the Storm 'Heroes Tierlist' image shared by Hunter on 2026-10-07 (no names in the image). Icons were matched to Icy Veins portraits by script and checked by eye. 'check' marks a weak match to confirm.",
+ "note": "SSS applies only below Diamond; B tier above Diamond. Tiers by role column: Tank, Bruiser, Ranged Assassin, Melee Assassin, Healer, Support. Varian appears three times in the image (one tank cell, two bruiser cells with build badges).",
+ "tiers": [
+  "SSS",
+  "S",
+  "A",
+  "B",
+  "C",
+  "F"
+ ],
+ "entries": [
+  {
+   "hero": "Ragnaros",
+   "tier": "SSS",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Xul",
+   "tier": "SSS",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Azmodan",
+   "tier": "SSS",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Kael'thas",
+   "tier": "SSS",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Li Li",
+   "tier": "SSS",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Johanna",
+   "tier": "S",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Tyrael",
+   "tier": "S",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Blaze",
+   "tier": "S",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Thrall",
+   "tier": "S",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Dehaka",
+   "tier": "S",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Yrel",
+   "tier": "S",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Hogger",
+   "tier": "S",
+   "role": "Bruiser",
+   "check": true
+  },
+  {
+   "hero": "Hanzo",
+   "tier": "S",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Xal'atath",
+   "tier": "S",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Junkrat",
+   "tier": "S",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Sylvanas",
+   "tier": "S",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Tychus",
+   "tier": "S",
+   "role": "Ranged Assassin",
+   "check": true
+  },
+  {
+   "hero": "Maiev",
+   "tier": "S",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Auriel",
+   "tier": "S",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Rehgar",
+   "tier": "S",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Brightwing",
+   "tier": "S",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Whitemane",
+   "tier": "S",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Lúcio",
+   "tier": "S",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Abathur",
+   "tier": "S",
+   "role": "Support",
+   "check": true
+  },
+  {
+   "hero": "Medivh",
+   "tier": "S",
+   "role": "Support",
+   "check": false
+  },
+  {
+   "hero": "Anub'arak",
+   "tier": "A",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Cho",
+   "tier": "A",
+   "role": "Tank",
+   "check": true
+  },
+  {
+   "hero": "Varian",
+   "tier": "A",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Arthas",
+   "tier": "A",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Muradin",
+   "tier": "A",
+   "role": "Tank",
+   "check": true
+  },
+  {
+   "hero": "Diablo",
+   "tier": "A",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Stitches",
+   "tier": "A",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Deathwing",
+   "tier": "A",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Malthael",
+   "tier": "A",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Imperius",
+   "tier": "A",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Rexxar",
+   "tier": "A",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Leoric",
+   "tier": "A",
+   "role": "Bruiser",
+   "check": true
+  },
+  {
+   "hero": "Cassia",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Greymane",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": true
+  },
+  {
+   "hero": "Mephisto",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": true
+  },
+  {
+   "hero": "Tassadar",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Chromie",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Gul'dan",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Orphea",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Valla",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Falstad",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Jaina",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Raynor",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Genji",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Li-Ming",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Sgt. Hammer",
+   "tier": "A",
+   "role": "Ranged Assassin",
+   "check": true
+  },
+  {
+   "hero": "Alarak",
+   "tier": "A",
+   "role": "Melee Assassin",
+   "check": true
+  },
+  {
+   "hero": "Zeratul",
+   "tier": "A",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Kerrigan",
+   "tier": "A",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Qhira",
+   "tier": "A",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Anduin",
+   "tier": "A",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Tyrande",
+   "tier": "A",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Malfurion",
+   "tier": "A",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Uther",
+   "tier": "A",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Stukov",
+   "tier": "A",
+   "role": "Healer",
+   "check": true
+  },
+  {
+   "hero": "E.T.C.",
+   "tier": "B",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Mal'Ganis",
+   "tier": "B",
+   "role": "Tank",
+   "check": true
+  },
+  {
+   "hero": "Mei",
+   "tier": "B",
+   "role": "Tank",
+   "check": false
+  },
+  {
+   "hero": "Artanis",
+   "tier": "B",
+   "role": "Bruiser",
+   "check": true
+  },
+  {
+   "hero": "Sonya",
+   "tier": "B",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Chen",
+   "tier": "B",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Gazlowe",
+   "tier": "B",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Fenix",
+   "tier": "B",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Tracer",
+   "tier": "B",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Lunara",
+   "tier": "B",
+   "role": "Ranged Assassin",
+   "check": true
+  },
+  {
+   "hero": "Zagara",
+   "tier": "B",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Nazeebo",
+   "tier": "B",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Zul'jin",
+   "tier": "B",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Nova",
+   "tier": "B",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "Illidan",
+   "tier": "B",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Valeera",
+   "tier": "B",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Murky",
+   "tier": "B",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Samuro",
+   "tier": "B",
+   "role": "Melee Assassin",
+   "check": false
+  },
+  {
+   "hero": "Alexstrasza",
+   "tier": "B",
+   "role": "Healer",
+   "check": true
+  },
+  {
+   "hero": "Kharazim",
+   "tier": "B",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Ana",
+   "tier": "B",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Lt. Morales",
+   "tier": "B",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "Deckard",
+   "tier": "B",
+   "role": "Healer",
+   "check": false
+  },
+  {
+   "hero": "The Lost Vikings",
+   "tier": "B",
+   "role": "Support",
+   "check": false
+  },
+  {
+   "hero": "Zarya",
+   "tier": "B",
+   "role": "Support",
+   "check": false
+  },
+  {
+   "hero": "Garrosh",
+   "tier": "C",
+   "role": "Tank",
+   "check": true
+  },
+  {
+   "hero": "D.Va",
+   "tier": "C",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Varian",
+   "tier": "C",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Varian",
+   "tier": "C",
+   "role": "Bruiser",
+   "check": false
+  },
+  {
+   "hero": "Gall",
+   "tier": "C",
+   "role": "Ranged Assassin",
+   "check": true
+  },
+  {
+   "hero": "Kel'Thuzad",
+   "tier": "C",
+   "role": "Ranged Assassin",
+   "check": false
+  },
+  {
+   "hero": "The Butcher",
+   "tier": "C",
+   "role": "Melee Assassin",
+   "check": true
+  },
+  {
+   "hero": "Probius",
+   "tier": "F",
+   "role": "Ranged Assassin",
+   "check": false
+  }
+ ]
+}

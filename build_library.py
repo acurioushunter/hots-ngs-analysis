@@ -280,6 +280,47 @@ def division_usage(db, pages, G=None):
             pages[h]["division"] = dict(u, games=games)
 
 
+def hp_global(pages, canon):
+    """Heroes Profile global hero stats (the page Hunter filtered: Storm League), saved by hand from his tab into knowledge/raw/hp_global/.
+    hero_stats_2.57.json is the newest minor patch alone ('now'); hero_stats_2.57_plus_2.55.json is the newest patches together with the last 2.55 patch ('deep', a bigger sample)."""
+    out = {}
+    for f in sorted((KN / "raw" / "hp_global").glob("hero_stats_*.json")):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        key = "deep" if len(d.get("patches", [])) > 1 else "now"
+        num = lambda x: float(re.search(r"-?\d+(?:\.\d+)?", x.replace(",", "").replace("−", "-")).group(0))
+        ctx = " ".join(d.get("ctx", []))
+        asof = (re.search(r"Up to date as of: (\d\d/\d\d/\d{4})", ctx) or [None, ""])[1]
+        cols = d["cols"]
+        n = 0
+        for r in d["rows"]:
+            h = canon.get(norm(r[0]))
+            if not h or h not in pages:
+                continue
+            row = dict(zip(cols, r))
+            rec = dict(win=num(row["win_rate"]), ci=num(row["win_rate_ci"]), pop=num(row["popularity"]), pick=num(row["pick_rate"]), ban=num(row["ban_rate"]), infl=num(row["influence"]), games=int(num(row["games"])))
+            if "win_rate_change" in row:
+                rec["change"] = num(row["win_rate_change"])
+            pages[h].setdefault("hp", {})[key] = rec
+            n += 1
+        avg = dict(zip(d.get("avg_cols") or ["avg"] + cols[1:], d["avg"]))
+        out[key] = dict(patches=d.get("patches") or [(re.search(r"Patch (\d+\.\d+\.\d+\.\d+)", ctx) or [None, ""])[1]], asof=asof, heroes=n, avg_win=num(avg["win_rate"]), avg_games=int(num(avg["games"])), file=f.name)
+    return out or None
+
+
+def fan_tiers(pages, canon):
+    """Fan Heroes of the Storm tier list, read from the image Hunter shared (knowledge/fanhots_tiers.json)."""
+    path = KN / "fanhots_tiers.json"
+    if not path.exists():
+        return None
+    d = json.loads(path.read_text(encoding="utf-8"))
+    for e in d["entries"]:
+        h = canon.get(norm(e["hero"]))
+        if not h or h not in pages:
+            raise SystemExit(f"fanhots_tiers.json: unknown hero {e['hero']!r}")
+        pages[h].setdefault("fan", []).append(dict(tier=e["tier"], role=e["role"], check=bool(e.get("check"))))
+    return dict(source=d["source"], note=d["note"], tiers=d["tiers"], entries=len(d["entries"]))
+
+
 def rec_txt(v):
     return f"{v[1]}-{v[0] - v[1]}"
 
@@ -319,7 +360,9 @@ def build_library(heroes, canon, db, kdb, G=None):
     hero_tiers(kdb, pages, canon)
     pair_notes(kdb, pages, canon)
     division_usage(db, pages)
-    lib = dict(built=TODAY.isoformat(), heroes=pages, maps=map_library(kdb), guides=guide_library(kdb), tips=written_tips(), glossary=glossary(kdb), facts=division_facts(G, heroes) if G else [],
+    hp_meta = hp_global(pages, canon)
+    fan_meta = fan_tiers(pages, canon)
+    lib = dict(built=TODAY.isoformat(), heroes=pages, maps=map_library(kdb), guides=guide_library(kdb), tips=written_tips(), hp_meta=hp_meta, fan_meta=fan_meta, glossary=glossary(kdb), facts=division_facts(G, heroes) if G else [],
                build_code_problems=problems, build_codes=n_codes)
     # third party text uses em dashes; Hunter reads them as an AI giveaway, so swap them for a comma on the way in
     lib = json.loads(json.dumps(lib, ensure_ascii=False).replace("—", ", ").replace("–", "-").replace(" , ", ", "))

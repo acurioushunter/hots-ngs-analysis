@@ -29,6 +29,9 @@ The draft tool (`draft_tool_artifact.html` for the published page, `draft_tool.h
 ## Build codes
 `knowledge/icy_build_codes.txt` holds Icy Veins builds as in game import codes (`[T2121334,Sylvanas]`) with the date Icy last updated each one. The builder decodes each digit against the Icy talent table (the digits are the option positions for levels 1, 4, 7, 10, 13, 16, 20; Chromie and The Lost Vikings have their own levels, handled automatically). A code that does not fit the talent table is printed as "build code problem" and left out, and `test_playbook.py` fails. Codes more than a year old, or older than the hero's last Icy talent page change, are flagged in the tool. To add a source such as Fan HotS or Heroes Profile builds, add lines in the same layout (`Label<TAB>[Tcode,Slug]<TAB>Mon D YYYY`) or extend `decode_builds` in `build_library.py`.
 
+## Fan HotS tiers and Heroes Profile stats
+Both are saved files, not live. `knowledge/fanhots_tiers.json` is the Fan HotS tier list (read from Hunter's image, entries marked `check` need confirming). `knowledge/raw/hp_global/hero_stats_*.json` is the Heroes Profile global hero table: a file with `patches` listing more than one patch is shown as the deeper sample, any other as the newest patch. To refresh: Hunter opens Global Hero Stats in his Chrome and sets the filter (Storm League, the patches he wants, mirror matches excluded), Claude reads the table in that tab and saves it with `receiver.py`. One page load, never loop over hero pages without asking.
+
 ## New season or a new division
 1. Pull the new games into `knowledge/raw/ngs/matches/` (move the old season's files to a folder like `knowledge/raw/ngs/season_22/` first, or the two seasons mix) and rebuild `ngs_div.db`.
 2. Edit `playbook/config/our_team.json`: `team`, `season`, `division`, `next_opponent`, the roster tags and pools. Keep `not_ranged` (Blaze).

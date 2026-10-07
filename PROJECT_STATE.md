@@ -34,6 +34,10 @@ Tabs (added 2026-10-07): **Draft** (board, recommendations, comp meter, "what th
 
 The hero, map and guide content is built by `build_library.py` (called by `build_playbook.py`) into `playbook/library.json` and embedded in the page. Build codes are in `knowledge/icy_build_codes.txt` (Hunter's Icy Veins sheet, pasted 2026-10-07, 141 codes). Written draft tips are `playbook/notes/draft_tips.md`.
 
+**Fan HotS tier list:** `knowledge/fanhots_tiers.json`, read from the image Hunter shared on 2026-10-07 (the image has portraits only). The icons were matched to Icy Veins portraits by script (portraits are saved locally in `knowledge/raw/portraits/`, not in git because it is Blizzard artwork), then checked by eye. 18 cells carry `check: true` because the match was weak or resolved by elimination; ask Hunter to confirm those. If he shares a newer image, redo the match the same way.
+
+**Heroes Profile global stats:** `knowledge/raw/hp_global/` holds the Global Hero Stats table for Storm League as Hunter filtered it: `hero_stats_2.57.json` (newest minor patch alone) and `hero_stats_2.57_plus_2.55.json` (2.57.0.98348, 98304, 98285 and the last 2.55 patch together, about 6,500 games per hero on average). Saved from the page table in Hunter's Chrome (one page load, no API calls) through `receiver.py`. Shown in the hero sheets and the Heroes tab. Refresh each patch the same way and rename the file.
+
 **Build code freshness:** on 2026-10-07 only 9 of the 141 codes were both under a year old and newer than their hero's Icy talent page; 120 were over a year old (many from 2020). The tool flags them. Real current patch builds need another source (Fan HotS or Heroes Profile).
 
 ## Open work, roughly in order
@@ -41,7 +45,7 @@ The hero, map and guide content is built by `build_library.py` (called by `build
 2. Write `playbook/notes/teams/cosmos.md` (the CCS note exists, the other opponents have none). The tool works without them but the pre-match page is thinner.
 3. Hunter's Storm League data ends Oct 5. Refresh `knowledge/hunter_hp.db` if his recent Storm League form matters.
 4. Tune the recommendation weights (`playbook/config/rules.json`) after Hunter and his captain use the tool in a real draft, and add any rule they say was missing.
-5. Ideas Hunter has raised: Fan HotS tier list and builds per hero (the tier list he shared was an image of portraits with no names, so a text list is needed), and Heroes Profile builds for the current patch (needs paid access, so ask first). A shared live draft board for the whole team (needs the artifact `db` capability) is possible but not built.
+5. Ideas Hunter has raised: Fan HotS builds per hero, and Heroes Profile talent builds for the current patch (per hero pages, needs paid access for the full set, so ask first and never burst requests). The Fan HotS tier list is done (see below). A shared live draft board for the whole team (needs the artifact `db` capability) is possible but not built.
 6. Optional: earlier seasons or other divisions for deeper opponent history; practice picks the team wants to test (Raynor, Azmodan, Chen).
 
 ## Refreshing the game data (how it was done)

@@ -71,6 +71,7 @@ button.slot { cursor: pointer; }
 .tag.us { background: var(--us-soft); color: var(--us); } .tag.them { background: var(--them-soft); color: var(--them); }
 .tier { display: inline-block; min-width: 24px; text-align: center; font-family: var(--mono); font-weight: 700; border-radius: 6px; padding: 1px 6px; font-size: 0.78rem; background: var(--surface2); }
 .tier.tS { background: var(--good-soft); color: var(--good); } .tier.tA { background: var(--us-soft); color: var(--us); } .tier.tB { background: var(--surface2); color: var(--muted); }
+.tier.tSSS { background: var(--good); color: var(--bg); } .tier.tF { background: var(--bad); color: var(--bg); }
 .tier.tC { background: var(--warn-soft); color: var(--warn); } .tier.tD { background: var(--bad-soft); color: var(--bad); }
 .rec { display: grid; gap: 6px; border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: var(--surface); }
 .rec.first { border-color: var(--us); box-shadow: inset 4px 0 0 var(--us); }
@@ -182,18 +183,20 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   const lh = h => LIB.heroes[h] || null;
   const roleOf = h => (P.heroes[h] && P.heroes[h].role) || "Unknown";
   const iceRole = r => r === "Bruiser" ? "Offlaner" : r;
-  const TIERS = "SABCD";
+  const RANK = { SSS: -1, S: 0, A: 1, B: 2, C: 3, D: 4, F: 5 };
+  const rk = t => (t in RANK ? RANK[t] : 9);
   const prettyDate = s => { if (!s) return "unknown"; const m = String(s).match(/^(\d{4})-(\d{2})-(\d{2})$/); if (!m) return s; return ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][+m[2] - 1] + " " + (+m[3]) + " " + m[1]; };
   function scopeSlug(scope) { if (scope === "general" || scope === "master") return scope; return LIB.maps[scope] ? LIB.maps[scope].slug : scope; }
   function tierRows(h, scope) {
     const d = lh(h); if (!d) return [];
+    if (scope === "fan") return d.fan || [];
     const s = scopeSlug(scope);
     const t = (s === "general" || s === "master") ? d.tiers[s] : (d.tiers.maps[s] || {});
     return Object.values(t || {});
   }
   function mainTier(h, scope) {
     const rows = tierRows(h, scope); if (!rows.length) return null;
-    return rows.find(r => r.role === iceRole(roleOf(h))) || rows.slice().sort((a, b) => TIERS.indexOf(a.tier) - TIERS.indexOf(b.tier))[0];
+    return rows.find(r => r.role === (scope === "fan" ? roleOf(h) : iceRole(roleOf(h)))) || rows.slice().sort((a, b) => rk(a.tier) - rk(b.tier))[0];
   }
   const tierTag = t => t ? `<span class="tier t${t.tier}" title="Icy Veins tier ${t.tier} as ${esc(t.role)}">${t.tier}</span>` : "";
   function poolOf(h) { return P.us.players.filter(p => p.pool[h]).map(p => ({ label: p.label, tier: p.pool[h], tag: p.tag })); }
@@ -401,26 +404,29 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   function heroRowHtml(h) {
     const d = lh(h), t = mainTier(h, ui.hscope), pl = poolOf(h), div = d && d.division;
     return `<button class="hrow" data-hero="${esc(h)}"><span><b>${esc(h)}</b><br><span class="small muted">${esc(roleOf(h))}</span>${pl.length ? ` ${pl.map(x => `<span class="tag us">${esc(x.label)} ${esc(x.tier)}</span>`).join(" ")}` : ""}</span>
-      <span class="meta">${div && div.g ? `<span class="small muted">${div.g}g ${div.w}w</span>` : ""}${div && div.bans ? `<span class="small muted">${div.bans} bans</span>` : ""}${t ? `${tierTag(t)}<span class="small muted">${esc(t.role)}</span>` : ""}</span></button>`;
+      <span class="meta">${d && d.hp && (d.hp.deep || d.hp.now) ? `<span class="small muted" title="Heroes Profile Storm League win rate, ${d.hp.deep ? "the newest patches together with the last 2.55 patch" : "newest patch"}">HP ${(d.hp.deep || d.hp.now).win}%</span>` : ""}${div && div.g ? `<span class="small muted">${div.g}g ${div.w}w</span>` : ""}${div && div.bans ? `<span class="small muted">${div.bans} bans</span>` : ""}${t ? `${tierTag(t)}<span class="small muted">${esc(t.role)}</span>` : ""}</span></button>`;
   }
+  const hpv = (h, k) => { const x = lh(h) && lh(h).hp ? (lh(h).hp.deep || lh(h).hp.now) : null; return x ? x[k] : 0; };
   function heroListHtml() {
     const q = keyOf(ui.hq);
     let names = Object.keys(P.heroes).sort().filter(h => (!q || keyOf(h).includes(q) || keyOf(roleOf(h)).includes(q)) && (ui.hrole === "All" || roleOf(h) === ui.hrole) && (!ui.hpool || poolOf(h).length));
-    if (ui.hsort === "tier") names.sort((a, b) => { const ta = mainTier(a, ui.hscope), tb = mainTier(b, ui.hscope); return (ta ? TIERS.indexOf(ta.tier) : 9) - (tb ? TIERS.indexOf(tb.tier) : 9) || a.localeCompare(b); });
+    if (ui.hsort === "tier") names.sort((a, b) => { const ta = mainTier(a, ui.hscope), tb = mainTier(b, ui.hscope); return (ta ? rk(ta.tier) : 9) - (tb ? rk(tb.tier) : 9) || a.localeCompare(b); });
     else if (ui.hsort === "picked") names.sort((a, b) => ((lh(b) && lh(b).division ? lh(b).division.g : 0) - (lh(a) && lh(a).division ? lh(a).division.g : 0)) || a.localeCompare(b));
+    else if (ui.hsort === "hpwin") names.sort((a, b) => (hpv(b, "win") - hpv(a, "win")) || a.localeCompare(b));
+    else if (ui.hsort === "hpban") names.sort((a, b) => (hpv(b, "ban") - hpv(a, "ban")) || a.localeCompare(b));
     else if (ui.hsort === "banned") names.sort((a, b) => ((lh(b) && lh(b).division ? lh(b).division.bans : 0) - (lh(a) && lh(a).division ? lh(a).division.bans : 0)) || a.localeCompare(b));
     return `<p class="small muted">${names.length} heroes</p><div class="hlist">${names.map(heroRowHtml).join("") || '<p class="muted">No heroes match.</p>'}</div>`;
   }
   function renderHeroes() {
-    const scopes = [["general", "Icy general tier list"], ["master", "Icy master tier list (Diamond and up)"]].concat(Object.keys(P.maps).sort().map(m => [m, "Icy tier list on " + m]));
+    const scopes = [["general", "Icy general tier list"], ["master", "Icy master tier list (Diamond and up)"], ["fan", "Fan HotS tier list (from the image)"]].concat(Object.keys(P.maps).sort().map(m => [m, "Icy tier list on " + m]));
     return `<section class="card"><div class="row">
         <label class="f grow">Search<input type="search" id="hq" value="${esc(ui.hq)}" placeholder="Hero or role" autocomplete="off"></label>
-        <label class="f grow">Sort<select id="hsort">${[["name", "Name"], ["tier", "Tier"], ["picked", "Most picked here"], ["banned", "Most banned here"]].map(s => `<option value="${s[0]}" ${s[0] === ui.hsort ? "selected" : ""}>${s[1]}</option>`).join("")}</select></label></div>
+        <label class="f grow">Sort<select id="hsort">${[["name", "Name"], ["tier", "Tier"], ["picked", "Most picked here"], ["banned", "Most banned here"], ["hpwin", "Heroes Profile win rate"], ["hpban", "Heroes Profile ban rate"]].map(s => `<option value="${s[0]}" ${s[0] === ui.hsort ? "selected" : ""}>${s[1]}</option>`).join("")}</select></label></div>
       <div class="chips" style="margin-top:10px">${["All"].concat(ROLES).map(r => `<button class="chip ${ui.hrole === r ? "on" : ""}" data-hrole="${esc(r)}" aria-pressed="${ui.hrole === r}">${esc(r)}</button>`).join("")}
         <button class="chip ${ui.hpool ? "on" : ""}" data-hpool="1" aria-pressed="${ui.hpool}">Our pools only</button></div>
       <details style="margin-top:8px"><summary>Tier list and how to read this</summary>
         <label class="f" style="margin-top:6px">Tier list shown<select id="hscope">${scopes.map(s => `<option value="${esc(s[0])}" ${s[0] === ui.hscope ? "selected" : ""}>${esc(s[1])}</option>`).join("")}</select></label>
-        <p class="small muted">Tier is the Icy Veins tier for the hero's main role. Tap a hero for the overview, builds, talents, abilities, matchups, maps and who on our team plays it. "g" and "w" are games and wins in this division, "bans" is how often it was banned in ${P.meta.games} games.</p></details></section>
+        <p class="small muted">Tier is the Icy Veins tier for the hero's main role. Tap a hero for the overview, builds, talents, abilities, matchups, maps and who on our team plays it. "g" and "w" are games and wins in this division, "bans" is how often it was banned in ${P.meta.games} games. "HP" is the Heroes Profile Storm League win rate over the newest 2.57 patches plus the last 2.55 patch${LIB.hp_meta && LIB.hp_meta.deep ? " (as of " + esc(LIB.hp_meta.deep.asof) + ")" : ""}.</p></details></section>
       <div id="hlist">${heroListHtml()}</div>`;
   }
 
@@ -430,7 +436,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   const noLib = () => `<p class="warnbox">The Icy Veins library has no page for this hero.</p>`;
   function heroTags(h) {
     const g = mainTier(h, "general"), m = mainTier(h, "master"), mp = ui.map ? mainTier(h, ui.map) : null;
-    return `<span class="tag">${esc(roleOf(h))}</span> ${g ? `<span class="small">General ${tierTag(g)}</span>` : ""} ${m ? `<span class="small">Master ${tierTag(m)}</span>` : ""} ${mp ? `<span class="small">${esc(ui.map)} ${tierTag(mp)}</span>` : ""}
+    return `<span class="tag">${esc(roleOf(h))}</span> ${g ? `<span class="small">General ${tierTag(g)}</span>` : ""} ${m ? `<span class="small">Master ${tierTag(m)}</span>` : ""} ${(lh(h) && lh(h).fan || []).map(f => `<span class="small" title="Fan HotS tier list${f.check ? ", weak match to confirm" : ""}">Fan ${esc(f.role)} ${tierTag(f)}${f.check ? "?" : ""}</span>`).join(" ")} ${mp ? `<span class="small">${esc(ui.map)} ${tierTag(mp)}</span>` : ""}
       ${poolOf(h).map(x => `<span class="tag us">${esc(x.label)} ${esc(x.tier)}</span>`).join(" ")}`;
   }
   function sOverview(h) {
@@ -438,7 +444,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const div = d.division;
     const bits = [];
     if (div) bits.push(`In this division: picked ${div.g} time${div.g === 1 ? "" : "s"}${div.g ? ` (${div.w} win${div.w === 1 ? "" : "s"})` : ""}, banned in ${div.bans} of ${div.games} games.`);
-    return `${bits.length ? `<p class="small">${esc(bits.join(" "))}</p>` : ""}
+    const hm = LIB.hp_meta || {}, hpLine = ["now", "deep"].filter(k => d.hp && d.hp[k] && hm[k]).map(k => { const x = d.hp[k], m = hm[k]; return `<p class="small"><b>Heroes Profile, Storm League, ${k === "now" ? "patch " + esc(m.patches[0]) : "patches " + esc(m.patches.join(", "))} (as of ${esc(m.asof)}):</b> win rate ${x.win}% (plus or minus ${x.ci}), pick rate ${x.pick}%, ban rate ${x.ban}%, ${x.games} games. The average hero on that page wins ${m.avg_win}%.</p>`; }).join("");
+    return `${bits.length ? `<p class="small">${esc(bits.join(" "))}</p>` : ""}${hpLine}
       <div class="prose">${paras(d.overview)}</div>
       <div class="cols"><div><h3>Strengths</h3><ul>${(d.strengths || []).map(x => `<li>${esc(x)}</li>`).join("") || "<li>none listed</li>"}</ul></div><div><h3>Weaknesses</h3><ul>${(d.weaknesses || []).map(x => `<li>${esc(x)}</li>`).join("") || "<li>none listed</li>"}</ul></div></div>
       ${d.meta_text ? `<div class="prose"><h3>Role in the current meta</h3>${paras(d.meta_text)}</div>` : ""}
@@ -492,7 +499,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   function sMaps(h) {
     const d = lh(h); if (!d) return noLib();
     const rows = mapNames().map(m => ({ m, rows: tierRows(h, m) })).filter(x => x.rows.length);
-    rows.sort((a, b) => Math.min.apply(null, a.rows.map(r => TIERS.indexOf(r.tier))) - Math.min.apply(null, b.rows.map(r => TIERS.indexOf(r.tier))) || a.m.localeCompare(b.m));
+    rows.sort((a, b) => Math.min.apply(null, a.rows.map(r => rk(r.tier))) - Math.min.apply(null, b.rows.map(r => rk(r.tier))) || a.m.localeCompare(b.m));
     return `${d.maps_text ? `<div class="prose">${paras(d.maps_text)}</div>` : ""}
       <div class="scroll"><table><tr><th>Map</th><th>Icy tier (by role)</th><th></th></tr>${rows.map(x => `<tr><td><button class="hl" data-gomap="${esc(x.m)}">${esc(x.m)}</button>${P.maps[x.m] ? "" : ' <span class="tag">not in the NGS pool</span>'}</td><td>${x.rows.map(r => `${tierTag(r)} <span class="small muted">${esc(r.role)}</span>`).join(" ")}</td><td>${ui.map === x.m ? '<span class="tag us">draft map</span>' : ""}</td></tr>`).join("")}</table></div>`;
   }
@@ -623,6 +630,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <ul><li>Hero, map and guide text, talents and tier lists are saved Icy Veins pages. Hero guides range from ${esc(prettyDate(g[0]))} to ${esc(prettyDate(g[g.length - 1]))}, talent pages from ${esc(prettyDate(t[0]))} to ${esc(prettyDate(t[t.length - 1]))}. Library built ${esc(prettyDate(LIB.built))}.</li>
       <li>${LIB.build_codes} build codes come from Hunter's Icy Veins sheet. ${codes.filter(c => c.flags.includes("old")).length} are more than a year old and ${codes.filter(c => c.flags.includes("patched")).length} have a talent page that changed after the code was made. Those carry a flag.</li>
       <li>Records, drafts and stats come from the NGS match pages on Heroes Profile. Every suggestion shows its reasons and the record behind it. Most records are 1 to 12 games, so treat them as leans.</li>
+      ${LIB.hp_meta ? `<li>Heroes Profile Storm League stats, saved from the global hero page: ${["now", "deep"].filter(k => LIB.hp_meta[k]).map(k => `${LIB.hp_meta[k].heroes} heroes for ${esc(LIB.hp_meta[k].patches.join(", "))} (as of ${esc(LIB.hp_meta[k].asof)})`).join(" and ")}. These are global numbers across all players, not NGS.</li>` : ""}
       <li>Judgment calls (who to ban, which healer, ranged limits per map) are in <code>rules.json</code> with the evidence. Pools are in <code>our_team.json</code>.</li>
       <li>NGS pages have no timeline, so nothing here knows who led at ten minutes. Blaze is counted as melee in every ranged count.</li>
       <li>The draft you are working on is kept on this device only.</li></ul>

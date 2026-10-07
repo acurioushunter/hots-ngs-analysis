@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 *_UNVERIFIED*
 knowledge/raw/hunter/hp/*/match_history/
+knowledge/raw/portraits/
