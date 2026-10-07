@@ -65,6 +65,8 @@ Built from the Season 22 Div C West games we have (53 games), Heroes Profile NGS
 - **HealsOnly** (a shared account, 71 Storm League games on your team at 44-27): in those games you were 23-10 on Sylvanas, 8-4 on Junkrat and 3-7 on Hanzo. Lock Sylvanas or Junkrat, not Hanzo. That group is 14-8 with Ltlbearista, 12-8 with SoulShepherd and 9-3 with NorthrnTouch, wins most when games end before 20 minutes, and is 9-3 when your hero is the first pick.
 - Your full breakdown, with Hanzo, hero pool and team picture, is in `HUNTER_DEEP_DIVE.md`.
 
+**Map ban habit (9 series):** COSMOS bans **Alterac Pass in every series** (9 of 9), then Garden of Terror (5) or Dragon Shire (4). They have never banned Infernal Shrines, Tomb, Volskaya or Towers of Doom. Two weeks ago they banned Alterac Pass and Garden of Terror, our two best maps, and we banned Towers of Doom and Infernal Shrines.
+
 ## Suggested plan
 - **Bans to consider:** Anub'arak (Nae is at 86% on it and has been banned 10 times for a reason) and Kael'thas or Tassadar (SilverJackal's two picks). Keep Muradin open for NorthrnTouch since Cosmos has never banned it.
 - **Our comp:** at least one of Muradin or Stitches on the frontline, plus sustain. Their poke and siege comps are 0-2, so they are weakest when forced out of brawl.

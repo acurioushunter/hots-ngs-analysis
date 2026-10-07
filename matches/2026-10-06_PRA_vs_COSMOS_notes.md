@@ -14,7 +14,7 @@ PRA was first pick in games 1 and 3 and COSMOS in game 2.
 | Game | PRA bans | COSMOS bans |
 |---|---|---|
 | 1 | Anub'arak, Anduin, Blaze | Junkrat, Johanna, Qhira |
-| 2 | Anub'arak, Kael'thas, Tassadar | Junkrat, Stitches (skipped one ban) |
+| 2 | Anub'arak, Kael'thas, Tassadar | Junkrat, Stitches (Johanna was meant to be banned, the click missed, and PRA did not take it) |
 | 3 | Anub'arak, Kael'thas, Anduin | Junkrat, Valla, Leoric |
 **Map bans for the series:** COSMOS banned Alterac Pass and Garden of Terror (our two best maps). PRA banned Towers of Doom and Infernal Shrines (their two best).
 

@@ -68,6 +68,7 @@ You are 2-4. Junkrat is your only hero they cannot let you play, and they ban it
 | Alterac Pass | 1-0 | 1-1 | They beat us here |
 | Battlefield of Eternity | 1-0 | 0-1 | Neutral |
 Our map ban pair: **Towers of Doom and Infernal Shrines.** Maps we want left: Sky Temple, Tomb, Garden.
+**Their map ban habit (7 series):** Braxis Holdout 6, Cursed Hollow 4, then one each of Tomb, Dragon Shire, Battlefield of Eternity and Alterac Pass. They have **never banned Towers of Doom or Infernal Shrines**, so those two stay open for them to pick unless we ban them. Against PRA they banned Braxis Holdout plus Cursed Hollow (R2) and Alterac Pass plus Braxis (R7).
 
 ## Coin toss: choose first pick
 - CCS is **3-4 when they pick the map** and **9-2 when they have first pick**. Against us, as map pickers they are 2-2.
