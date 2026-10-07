@@ -29,7 +29,7 @@ Per minute totals (CCS first, opponent second), fight damage and poke in k.
 | 23229 | Sep 23 | Volskaya | PRA | L | 18:12 | 10-2 | 5.6-5.8 | 6.2-5.0 | 1.7-8.0 |
 | 23230 | Sep 23 | Garden of Terror | PRA | W | 24:20 | 11-15 | 5.0-3.5 | 5.8-4.3 | 3.0-3.4 |
 | 23231 | Sep 23 | Infernal Shrines | PRA | W | 15:21 | 5-17 | 8.0-5.9 | 6.0-4.4 | 10.6-1.6 |
-| 23307 | Oct 2 | Infernal Shrines | **Cosmos** | **L** | 24:58 | 18-15 | 5.5-4.7 | 2.4-5.2 | 3.5-4.1 |
+| 23307 | Oct 2 | Infernal Shrines | **Cosmos** | **L** | 24:57 | 18-15 | 5.5-4.7 | 2.4-5.2 | 3.5-4.1 |
 | 23308 | Oct 2 | Towers of Doom | **Cosmos** | W | 15:55 | 5-16 | 5.9-6.1 | 4.8-4.7 | 4.4-2.1 |
 | 23309 | Oct 2 | Volskaya | **Cosmos** | W | 19:41 | 5-14 | 6.1-6.6 | 6.9-5.3 | 8.4-2.3 |
 - **Mean differences, CCS minus opponent.** In 12 wins: deaths -8.3, structure damage +3.7k a minute, camp damage +2.0k, experience +0.5k, takedowns +36. In 6 losses: deaths +9.5, structure damage -2.9k, minion damage -2.3k, experience -0.6k, takedowns -40.
@@ -45,8 +45,7 @@ Per minute totals (CCS first, opponent second), fight damage and poke in k.
 | 23167 | Dragon Shire | Johanna, Jaina, Falstad, Leoric, **Anduin** (Good Lordy) | Dehaka, Lunara, Hanzo, Brightwing, Garrosh | Lost Vikings, Zeratul, Chen / Chromie, Stukov, Varian |
 | 23229 | Volskaya | Johanna, Sylvanas, Leoric, **Brightwing**, Thrall (PRA) | Lunara, Blaze, Garrosh, Anduin, Hanzo | Junkrat, Chromie, Tychus / Li-Ming, Qhira, Hammer |
 | 23307 | Shrines | Anub'arak, **Brightwing**, Tassadar, Valla, Rexxar (Cosmos) | Qhira, Lunara, Garrosh, Whitemane, Sonya | Blaze, Kael'thas, Sylvanas / Arthas, Johanna, Gazlowe |
-Shape of the six: **Johanna or Anub'arak up front (5 of 6), a mobile healer (Brightwing or Anduin, 6 of 6), and a high output mage or marksman (Tassadar, Kael'thas, Jaina, Sylvanas, Valla, Tychus).** In four of the six CCS used a healer that is not mobile (Tyrande, Stukov, Whitemane) or a worse one, and in the two Anduin games CCS drafted Tyrande and Brightwing. The Brightwing and Anduin pattern is the one repeated number I can rely on, but remember it is 9 games that went 3-6 and the 3 wins include two against Cosmos in the same match (see below).
-Icy Veins points the same way: Brightwing is only countered by Anub'arak, Johanna and E.T.C. (so mostly by tanks, not by anything CCS plays much), and Anduin is countered by Varian, Sonya, Lunara, Kael'thas and Stukov.
+Shape of the six: **Johanna or Anub'arak up front (6 of 6), a mobile healer (Brightwing or Anduin, 6 of 6), and a high output mage or marksman (Tassadar, Kael'thas, Jaina, Sylvanas, Valla, Tychus).** CCS's own healers in those six were Tyrande twice, Stukov, Brightwing, Anduin and Whitemane. The Brightwing and Anduin pattern is the repeated one I can rely on, but it is 9 games that went 3-6, and two of the three CCS wins came in the same match against Cosmos (see below). CCS also owns Johanna and Anub'arak, which Icy Veins lists as counters to Brightwing, so the pairing is not a free answer for them.
 
 ## 3. Cosmos against CCS: the two matches
 **Aug 25: Cosmos 2-0**
@@ -61,9 +60,9 @@ Icy Veins points the same way: Brightwing is only countered by Anub'arak, Johann
 | Towers | Towers | yes | Kael'thas, Brightwing, Stitches, Gazlowe, Zul'jin | Sylvanas, Whitemane, Dehaka, Lunara, Muradin | **CCS banned Tassadar, Anub'arak, Valla.** Cosmos banned Johanna, Arthas, Garrosh. **CCS won** |
 | Volskaya | Volskaya | yes | Arthas, Anduin, Tychus, Thrall, Orphea | Sylvanas, Gazlowe, Whitemane, Gul'dan, Muradin | CCS banned Anub'arak, Tassadar, Valla. Cosmos banned Johanna, Li-Ming, Lunara. **CCS won** |
 What it says:
-- **Cosmos beat CCS on Tomb, Towers and Infernal Shrines, and lost on Towers and Volskaya.** All three Cosmos wins had **Anub'arak or Johanna, Brightwing or Anduin, and Tassadar or Kael'thas**, with a clear and push hero (Blaze twice, Rexxar). In the losses CCS opened with Qhira every time (Tomb slot 6, Shrines slot 5) and Cosmos killed her team in fights.
+- **Cosmos beat CCS on Tomb, Towers and Infernal Shrines, and lost on Towers and Volskaya.** All three Cosmos wins had **Anub'arak or Johanna, Brightwing or Anduin, and Tassadar or Kael'thas**, with a clear and push hero (Blaze twice, Rexxar). CCS played Qhira in all three (Tomb slot 6, Towers slot 9, Shrines slot 5) and Cosmos won the fights every time.
 - **After losing game 1 on Oct 2, CCS banned Tassadar, Anub'arak and Valla** (the three Cosmos heroes that carried the win) and **won twice with Sylvanas, Whitemane and Lunara**, and left Qhira out. Cosmos kept Brightwing and Anduin, so the answer was removing the carries, not the healer.
-- **Cosmos banned Garrosh in 4 of 5 games** and Johanna in all three on Oct 2. Garrosh is Valkamer's third hero and is on Qhira's counter list, so these bans also hit what CCS wants.
+- **Cosmos banned Garrosh in 3 of 5 games** and Johanna in all three on Oct 2. Garrosh is Valkamer's third hero and is on Qhira's counter list, so these bans also hit what CCS wants.
 - **What this means for us:** CCS has shown how it beats Cosmos (ban the carries, play Sylvanas and Whitemane) and how Cosmos beats CCS (Anub'arak or Johanna, Brightwing, a big mage). If we face Cosmos in the final the reverse is also true. If CCS are our opponent, we should copy the Cosmos recipe, not the Cosmos Qhira bait.
 
 ## 4. Healer pattern in detail
@@ -74,7 +73,7 @@ What it says:
 | Stukov | 2 | 2-0 |
 | Rehgar | 2 | 2-0 |
 | Tyrande, Malfurion, Whitemane, Auriel, Ana | 1 each | 5-0 |
-- Against **us** CCS is 3-0 when we play Rehgar or Stukov, 1-2 when we play Brightwing (the loss was Alterac, 23 minutes, 15 deaths).
+- Against **us** CCS is 3-0 when we play Rehgar or Stukov, 1-2 when we play Brightwing (we won Sky Temple and Volskaya, and lost Alterac in 23 minutes with 15 deaths).
 - Division wide, Brightwing teams are 14-9, Anduin teams 13-11, Tyrande 2-8, Auriel 1-4, Stukov 4-7, Rehgar 8-7, Whitemane 5-5. A team with Brightwing or Anduin is 27-20 (57%) against 29-36 (45%) with any other healer.
 - **Why, probably:** both are the mobile peel healers (Emerald Wind, Polymorph, Anduin's Lightbomb and Prayer of Mending, knockback and root), which is the same kind of crowd control Icy Veins lists as Qhira's weakness and also makes Qhira and ShadowDroid dives hard to finish. This is my read of the kits plus the numbers, not a stat in the data.
 - **What we do:** Brightwing should be our first healer choice against CCS. It has been banned only once (Aug 25 Towers, round one, by CCS against Cosmos), never against us. Lock it by slot 9 (first pick) or 7 (second pick) and put the tank after it.
@@ -89,7 +88,7 @@ Per game averages, wins (12) against losses (6).
 | UnicycleYay | 3,427 to 2,921 | 1,633 to 1,663 | 1.6 to 3.2 | 67 to 50 |
 | ûltear | 1,645 to 1,700 | 752 to 801 | 1.7 to 3.5 | 62 to 47 |
 - **WitsEnd collapses the most** (damage down 28%, rating 70 to 48), and the collapse is in fights. When WitsEnd is dead or off Lunara the team loses.
-- **ShadowDroid is the steadiest** (rating 63 in losses) and the most carried by his own clear (5.7k minion damage a minute). He is the player we cannot outfarm, so deny him Gazlowe and take Dehaka's role with a counter.
+- **ShadowDroid is the steadiest** (rating 63 in losses) and the most carried by his own clear (5.7k minion damage a minute). He is the player we cannot outfarm, so deny him Gazlowe and keep a counter ready for Dehaka.
 - **UnicycleYay's fight damage is the same in wins and losses (1.63k against 1.66k);** the difference is deaths. He dies twice as much and gives up poke.
 
 ## 6. The Garden of Terror game (Sep 22 game 2, a loss, 24:20)
@@ -112,8 +111,8 @@ Per game averages, wins (12) against losses (6).
 - **Qhira pulled the damage.** Her 53.4k fight damage was 66% of our whole team's 81k and double our best (Tychus 27k). She also did 27k to camps and cleared 66k of minions, so she was soaking and fighting at once.
 - **We could not fight.** Their fight damage was 5.0k a minute to our 3.5k, total hero damage 264k to 188k, and they spent 7.8 minutes dead to our 12.0. Our healer and tank put out 20k of hero damage between them while their Tyrande and Anub'arak put out 81k (Tyrande's 57k was the third highest on her team).
 - **Our front line was alone.** E.T.C. died 6 times and was dead 4.4 of 24 minutes; Blaze took 84k damage. Qhira took only 63k (Anub'arak 70k, Blaze 84k, E.T.C. 75k), so she was not the one absorbing the damage, but she was the one who could not be killed: 72 seconds dead for the whole game.
-- **Self healing helped her:** 23k, the second highest on her team. Her self healing was 12k to 15k in the Cosmos losses and 23k to 25k in her two wins, so it follows how well she is doing.
-- **Ragnaros stalled and cleared.** 265k minion damage (4.6 times Li-Ming) and 34k experience contribution, more than double anyone on our team (best 18k). CCS out-experienced us 3.33k to 2.69k a minute and out-cleared us 18.2k to 12.0k.
+- **Self healing helped her:** 23k, the highest on her team. Her self healing was 12k to 15k in the Cosmos losses and 23k to 25k in her two wins, so it follows how well she is doing.
+- **Ragnaros stalled and cleared.** 265k minion damage (over 4 times Li-Ming) and 34k experience contribution, more than double anyone on our team (best 18k). CCS out-experienced us 3.33k to 2.69k a minute and out-cleared us 18.2k to 12.0k.
 
 **Where the data says something different**
 - **The healer that saved kills was Tyrande, not Whitemane.** Whitemane (ûltear) was in game 3. In game 2 ûltear was on Li-Ming. Sylvanas was our hero in the Garden game (their Sylvanas was UnicycleYay in game 3), so I think you are blending the two games. The two hero comparisons you want are therefore "Li-Ming and Ragnaros space" for Garden and "Sylvanas and Lunara space" for game 3 (Shrines).
@@ -121,17 +120,17 @@ Per game averages, wins (12) against losses (6).
 - **Our tank and offlaner did their jobs on the map but not in the fights.** Blaze (63 rating) was our best rated player and took 84k damage, and Rehgar captured 10 camps. The two players who lost the fights were E.T.C. (6 deaths) and our fight damage (Tychus and Sylvanas 48k together against Qhira 53k alone).
 
 **What we could have done in the draft (within our pool)**
-- **Qhira and Anub'arak counters:** Icy Veins lists Leoric, Varian and Valla as counters to Anub'arak and E.T.C., Diablo as counters to Qhira. Varian (NorthrnTouch's 61% pool) or Leoric (SoulShepherd) answer Anub'arak; both are better than E.T.C. into a team with Qhira, because E.T.C. has no way to stop Qhira's dive and was 47 rating. (Two hero kit ideas, not tested in our games.)
+- **Qhira and Anub'arak counters:** Icy Veins lists E.T.C. and Diablo as counters to Qhira, and Leoric, Varian and Valla (among others) as counters to Anub'arak. E.T.C. is the listed Qhira answer and still went 1/6/7 with a 47 rating here, so the listing alone is not enough. Varian (NorthrnTouch's 61% pool) or Leoric (SoulShepherd) answer Anub'arak, who is the hero Qhira, Tyrande and Li-Ming all pair with. These are guide matchups, not tested in our games.
 - **Ragnaros:** Icy Veins lists Stukov, Chen, Garrosh, Lunara and Jaina as counters. **Stukov (Ltlbearista) and Chen (chelsi, 3-1, 5.2 kills a game)** are the in pool answers. Chen also counters Li-Ming. A Chen and Stukov Garden draft takes away their two clear and objective engines.
 - **Tyrande** is countered by Anub'arak, Muradin, Zeratul, Maiev, Fenix and Lunara; **Muradin (NorthrnTouch, NGS 4-0)** is the one we play.
-- **Ranged count:** two ranged heroes was right for Garden (3-0 with two or fewer, 1-4 with three or more) and we had three (Tychus, Sylvanas, plus Rehgar and E.T.C. who are melee, so two true ranged). The fix is who we fought with, not the count.
-- **Consider banning Ragnaros or Qhira?** Ragnaros has been banned by nobody against CCS (we banned Johanna, Hammer, Sonya). If Garden is the map, **Ragnaros is a better ban than Sonya** (ShadowDroid 62 to 65 ratings on it and the clear that decided the game).
+- **Ranged count:** we had three ranged heroes (Tychus, Sylvanas and Blaze, who counts as ranged on Heroes Profile). On Garden teams with three or more ranged heroes are 1-4 and teams with two or fewer are 3-0. CCS had two (Li-Ming, Tyrande). So this draft was in the losing bucket for the map before the first fight.
+- **Consider banning Ragnaros or Qhira?** Ragnaros has been banned by nobody against CCS (we banned Johanna, Hammer, Sonya). If Garden is the map, **Ragnaros is a better ban than Sonya**, since it was the clear and experience engine that decided that game.
 
 ## 7. What to do about it (plans for the CCS series)
 1. **Brightwing first.** Lock it with the early picks. If Brightwing is gone, take Rehgar only with a plan for the early game (we are 0-3 with Rehgar or Stukov against them).
-2. **Ban Johanna, Lunara and Ragnaros as the first three on the maps where they fit** (Garden: Ragnaros). Hunter's Sylvanas is not on their ban list against us.
+2. **Bans:** Johanna and Lunara as in the cheat sheet, and add **Ragnaros on Garden**. Hunter's Sylvanas has never been on their ban list against us (they only banned it against Cosmos).
 3. **Play the CCS losing formula back at them:** a tank with a stun (Varian, Muradin, Johanna if she is open), Brightwing, a ranged poker, a clearer who can stand up to ShadowDroid (Leoric, Blaze or Tassadar), and kill WitsEnd's Lunara or Tyrande first.
-4. **Do not leave the tank alone in fights.** Our losses to CCS had NorthrnTouch dying 3 to 6 times in each. If he picks Varian, ping Qhira when she shows; if Qhira is on the map, no one dives past our front.
+4. **Do not leave the tank alone in fights.** In our four losses to CCS NorthrnTouch died 2, 3, 6 and 5 times. If he picks Varian, ping Qhira when she shows; if Qhira is on the map, no one dives past our front.
 5. **Do not copy the Cosmos Qhira bait without the carries.** Cosmos beats CCS with Anub'arak, Brightwing and a mage; the part we can use is that CCS dies more.
 6. **Win by deaths:** CCS loses when each of their players dies 2 to 3 times more. Fight near our structures and our camps, and do not feed WitsEnd or ShadowDroid.
 

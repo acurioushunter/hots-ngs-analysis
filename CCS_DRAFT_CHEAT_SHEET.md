@@ -94,6 +94,11 @@ Always check: **2 real damage dealers**, **2 or more marksmen if we can**, and a
 ## 6b. Qhira (UnicycleYay)
 Full detail in `QHIRA_DEEP_DIVE.md`. Short version: **do not ban Qhira in round one.** UnicycleYay is 2-3 on Qhira (4.0 deaths a game) and **8-2 on everything else** (Sylvanas 3-1, Hanzo 2-1, Tychus 2-0, Valla 1-0). The one time we banned it first and let Sylvanas go, he went 7/0/9 and we lost. Deny his marksmen instead: Sylvanas is ours at slot 5, a late ban on **Hanzo** (his highest damage hero) if it is open. If he does take Qhira, draft the Cosmos shape that beat her three times: a frontline with a stun, Brightwing or Rehgar, a ranged poker, and kill her in the fights.
 
+## 6c. Healer and Garden lessons (details in `CCS_FULL_PICTURE.md`)
+- CCS is **3-6 against Brightwing or Anduin teams and 9-0 against any other healer**, and we are 2-1 with Brightwing against them and 0-3 with Rehgar or Stukov. **Lock Brightwing early** (slot 9 on first pick with Thrall at 8, slot 7 on second pick if Thrall is already ours), and put the tank after it.
+- **Garden:** three ranged heroes is the 1-4 shape. Their Garden comp is Qhira, Anub'arak, Li-Ming, Tyrande and Ragnaros. Ban Ragnaros before Sonya. Chen (chelsi) and Stukov (Ltlbearista) are the in pool answers to Ragnaros, Leoric or Varian answer Anub'arak.
+- If E.T.C. is the Qhira answer, give him a partner: he was 1/6/7 alone in the front.
+
 ## 7. In game, not in the draft
 - **Deaths decide this series.** We lost every game where we died 15 or more times and won both where we died 7 or fewer.
 - Kill **ûltear** (Gold 3) first and make WitsEnd leave Lunara. Do not chase kills on the side lanes where ShadowDroid and WitsEnd can catch us.
