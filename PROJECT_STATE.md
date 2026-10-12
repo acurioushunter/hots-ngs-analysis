@@ -1,3 +1,22 @@
+# Handoff 2026-10-12 (read this first, the rest of this file is from Oct 7)
+
+**What exists now.** The tool is called **HotS Drafter** (page title). It works for any NGS team: Team tab picks the team, who you are, and a data window (NGS seasons 21 and 22, regular season and playoffs, Storm League scopes and MMR). Live link in `CLAUDE.md`; republish by publishing `draft_tool_artifact.html` to that link (read it first).
+
+**Data on disk** (all rebuilt, all tests pass, see `CLAUDE.md` "State as of"):
+- Season 22: all 500 game ids, 7 divisions (`build_ngs_season.py`, `test_ngs_season.py`).
+- Season 21 from Heroes Profile: 523 of 868 (all of Divisions C and D with playoffs). `python build_ngs_season.py 21` then `python test_ngs_season.py 21`. 345 left in A, B East, B West, Heroic, Nexus. Paused on purpose; resume only if the team wants it.
+- Storm League MMR for all 363 Season 22 players (`knowledge/sl_mmr.json`), Storm League only.
+- Hunter's Heroes Profile games to Oct 12 (4,741), profile and hero tables refreshed.
+- Team name changes inferred from shared players (`build_team_aliases.py`).
+
+**How to pull more safely.** Hunter passes Cloudflare in his own Chrome. Run `python receiver.py`, then a small page script in a light Heroes Profile tab (the FAQ page). One request every 4 seconds, stop on a 403 and ask. Do not let him refresh that tab while it runs (it kills the script). Scripts: `scripts/hp_pull_sl_mmr.js`, `scripts/sl_mmr_todo.py`, `scripts/hp_pull_division.js`.
+
+**Rebuild order after new data:** `build_ngs_season.py` (and `21`), `build_team_aliases.py`, `build_sl_mmr.py`, `build_hunter.py`, `build_playbook.py`, then every `test_*.py` and `node test_engine.js`, commit, push, republish.
+
+**Ideas not built:** pull the rest of Season 21, a series result history across sessions, head to head for cross division playoff pairs, Storm League hero data for other divisions (only Division C West players have it).
+
+---
+
 # Project state and handoff (read after CLAUDE.md)
 
 Written 2026-10-07, state updated 2026-10-12. This is what a new session needs to carry on without the chat history.
