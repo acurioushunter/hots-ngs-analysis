@@ -1,6 +1,6 @@
 # Sky Temple: map fact sheet
 
-Built 2026-10-07. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/sky-temple.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/sky-temple.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Gankers, Global presence, Point control for Boss Camp, Split-push
 

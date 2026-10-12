@@ -1,6 +1,6 @@
 # Tomb of the Spider Queen: map fact sheet
 
-Built 2026-10-07. Icy Veins draft advice and tier lists, plus 9 Season 22 games. Edit `playbook/notes/maps/tomb-of-the-spider-queen.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 9 Season 22 games. Edit `playbook/notes/maps/tomb-of-the-spider-queen.md` for written lessons.
 
 **Icy Veins prefers:** Effects relying on impassable terrain, Poke tools for Objective, Quests to stack on Heroes, Strong late game, Sustain damage/healing, Vision tools, High waveclear
 

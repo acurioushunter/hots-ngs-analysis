@@ -1,6 +1,6 @@
 # Garden of Terror: map fact sheet
 
-Built 2026-10-07. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/garden-of-terror.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/garden-of-terror.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Double Bruiser, Effects relying on impassable terrain, Gankers, Global presence, Poke tools for Objective, Strong late game, Siege damage for Structures, Split-push, Tools for solo-capturing the Objective, Vision tools
 

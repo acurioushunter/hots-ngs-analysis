@@ -158,7 +158,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   function renderTabs() {
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" data-tab="${t[0]}" aria-selected="${ui.tab === t[0]}">${t[1]}</button>`).join("");
     $("#brand").textContent = (P.us.team.split(" ").map(w => w[0]).join("")) + " Draft Room";
-    $("#stamp").textContent = `${P.meta.division} S${P.meta.season} · ${P.meta.games} games · to ${P.meta.newest_date}`;
+    $("#stamp").textContent = `${P.meta.division} S${P.meta.season} · ${P.meta.games} games · to ${P.meta.newest_date} UTC`;
   }
 
   // ---------------------------------------------------------------- small renderers and hero helpers
@@ -380,7 +380,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     P.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const n = (o.bans_r2[h] || 0); if (n >= 2) lock.push(`${h} (${p.label}): banned in round two ${n} time(s)${o.bans_r2_vs_us && o.bans_r2_vs_us[h] ? ", " + o.bans_r2_vs_us[h] + " against us" : ""}`); }));
     return `<section class="card"><label class="f">Opponent<select id="opp">${opponents.map(x => `<option ${x === ui.opp ? "selected" : ""}>${esc(x)}</option>`).join("")}</select></label>
       <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
-      ${o.h2h.length ? "Against us: " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "W" : "L"}`).join(", ") + "." : "No games against us yet."}</p></section>
+      ${o.h2h.length ? "Against us (our result): " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "L" : "W"}`).join(", ") + "." : "No games against us yet."}</p></section>
     <section class="card us"><h3>Coin toss</h3><p>If we win it: <b>${t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss up)"}</b>.
       Our record with first pick ${rec(t.usFirst)}, with map pick ${rec(t.usMap)}; theirs ${rec(t.themFirst)} and ${rec(t.themMap)}. First pick lets us decide who takes the contested heroes; the map pick lets us choose where.</p></section>
     <section class="card"><h3>Maps</h3>

@@ -1,6 +1,6 @@
 # Infernal Shrines: map fact sheet
 
-Built 2026-10-07. Icy Veins draft advice and tier lists, plus 11 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 11 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
 
 **Icy Veins prefers:** Double Healer, Effects relying on impassable terrain, Quests to stack on Heroes, Strong late game, High waveclear
 

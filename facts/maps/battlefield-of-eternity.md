@@ -1,6 +1,6 @@
 # Battlefield of Eternity: map fact sheet
 
-Built 2026-10-07. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/battlefield-of-eternity.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/battlefield-of-eternity.md` for written lessons.
 
 **Icy Veins prefers:** Displacements into Immortal's Stun, Poke tools for Objective, Quests to stack on Heroes, Race damage for Immortal, Strong early game, Vision tools
 

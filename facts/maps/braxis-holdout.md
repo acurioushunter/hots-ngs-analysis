@@ -1,6 +1,6 @@
 # Braxis Holdout: map fact sheet
 
-Built 2026-10-07. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
 
 **Icy Veins prefers:** Gankers, Global presence, Point control for Boss Camp, Point control for Objective, Quests to stack on Heroes, Strong early game, Sustain damage/healing, Moderate waveclear
 
