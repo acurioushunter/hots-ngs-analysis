@@ -38,7 +38,7 @@ def rd(path):
 # ---------------------------------------------------------------- heroes and Icy Veins
 def hero_types():
     types = {}
-    for path in glob.glob(str(KN / "raw" / "ngs" / "matches" / "*.json")):
+    for path in glob.glob(str(KN / "raw" / "ngs" / "matches" / "*.json")) + glob.glob(str(KN / "raw" / "ngs" / "other_divisions" / "*.json")):
         for side in rd(path)["players"]:
             for p in side:
                 h = p["hero"]
@@ -64,6 +64,7 @@ def build_heroes(cfg):
     not_ranged = set(cfg.get("not_ranged", []))
     ranged_extra = set(cfg.get("ranged_extra", []))
     marksmen = set(cfg.get("marksmen", []))
+    arch = cfg.get("archetypes", {})
     ROLE_MAP = {"healer": "Healer", "tank": "Tank", "bruiser": "Bruiser", "support": "Support", "melee-assassin": "Melee Assassin", "ranged-assassin": "Ranged Assassin"}
     for h, d in heroes.items():
         s = seen.get(h)
@@ -72,6 +73,7 @@ def build_heroes(cfg):
         d["hp_ranged"] = hp_ranged
         d["ranged"] = (hp_ranged or h in ranged_extra) and h not in not_ranged
         d["marksman"] = h in marksmen
+        d["arch"] = archetype(d["role"], h, arch)
     for slug, kind, other in kdb.execute("SELECT slug, kind, other_slug FROM matchup"):
         a = canon.get(norm(slug)); b = canon.get(norm(other))
         if not a or not b:
@@ -79,6 +81,17 @@ def build_heroes(cfg):
         # IV semantics: the heroes listed under a hero's counter list are the ones that counter it
         (heroes[a]["counters"] if kind == "counter" else heroes[a]["synergies"]).append(b)
     return heroes, canon, kdb
+
+
+def archetype(role, hero, arch):
+    """Label used in the roster table: Offlaner, Bruiser DPS, Dive assassin, Ranged DPS, Tank, Healer or Support."""
+    if hero in arch.get("bruiser_dps", []):
+        return "Bruiser DPS"
+    if hero in arch.get("dive", []):
+        return "Dive assassin"
+    if hero in arch.get("offlaner_extra", []) or role == "Bruiser":
+        return "Offlaner"
+    return {"Ranged Assassin": "Ranged DPS", "Melee Assassin": "Dive assassin"}.get(role, role if role in ("Tank", "Healer", "Support") else "Unknown")
 
 
 def parse_draft_strategy(text):
@@ -308,6 +321,116 @@ def canon_name(h, heroes):
     return h
 
 
+# ---------------------------------------------------------------- the whole league (every NGS division we have games for)
+ICE_ROLE = {"Bruiser": "Offlaner"}
+
+
+def sl_mmr_table(db):
+    """battletag (lower case) -> [Storm League MMR, rank, wins, losses]: knowledge/sl_mmr.json is keyed by Heroes Profile id (build_sl_mmr.py),
+    the match pages give the id for each battletag."""
+    path = KN / "sl_mmr.json"
+    if not path.exists():
+        return {}
+    by_id = rd(path)
+    out = {}
+    for tag, bid in db.execute("SELECT DISTINCT battletag, blizz_id FROM ngs_player_game WHERE blizz_id IS NOT NULL"):
+        if str(bid) in by_id:
+            out[tag.lower()] = by_id[str(bid)]
+    return out
+
+
+def derived_profile(team, G, heroes, mmr):
+    """A usable 'us' for a team we have no hand written pools for: pools come from this season's NGS games."""
+    stats = collections.defaultdict(lambda: collections.defaultdict(lambda: dict(g=0, w=0, rating=0, deaths=0)))
+    for g in G.values():
+        for r in g["players"]:
+            if r["team"] == team:
+                s = stats[r["battletag"]][r["hero"]]
+                s["g"] += 1; s["w"] += r["won"]; s["rating"] += r["rating"] or 0; s["deaths"] += r["deaths"] or 0
+    players = []
+    for tag, hs in sorted(stats.items(), key=lambda kv: -sum(s["g"] for s in kv[1].values())):
+        games = sum(s["g"] for s in hs.values())
+        if games < 2 and len(players) >= 5:
+            continue
+        pool = {}
+        for h, s in sorted(hs.items(), key=lambda kv: -kv[1]["g"])[:10]:
+            if h in heroes:
+                pool[h] = "primary" if s["g"] >= 3 else ("secondary" if s["g"] == 2 else "practice")
+        roles = collections.Counter()
+        for h, s in hs.items():
+            r = heroes.get(h, {}).get("role")
+            if r and r != "Unknown":
+                roles[ICE_ROLE.get(r, r)] += s["g"]
+        top = [r for r, _ in roles.most_common(2)]
+        m = mmr.get(tag.lower())
+        players.append(dict(tag=tag, label=tag, slot_role=(top[0] if top else "Unknown"), tier_roles=top or ["Ranged Assassin"], pool=pool, avoid=[], notes={},
+                            ngs={h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in hs.items()},
+                            sl_mmr=m, derived=True))
+    return dict(team=team, players=players[:7], derived=True)
+
+
+def pair_view(G, a, b, heroes):
+    """What team a did against team b, from a's side (the parts of a team profile that depend on who 'us' is)."""
+    sub = {rid: g for rid, g in G.items() if {g["team0"], g["team1"]} == {a, b}}
+    if not sub:
+        return None
+    t = team_profile(a, sub, heroes, b)
+    return {k: t[k] for k in ("h2h", "bans_vs_us", "bans_r2_vs_us", "bans_games_vs_us", "hero_picks_vs_us", "our_heroes_vs_them")}
+
+
+def league_maps():
+    path = KN / "ngs_season.db"
+    if not path.exists():
+        return set()
+    return {m for (m,) in sqlite3.connect(path).execute("SELECT DISTINCT map FROM ngs_game")}
+
+
+def build_league(cfg, curated_us, heroes):
+    path = KN / "ngs_season.db"
+    if not path.exists():
+        return None
+    db = sqlite3.connect(path)
+    G = games(db)
+    if not G:
+        return None
+    div = {}
+    for t0, t1, d in db.execute("SELECT team0, team1, division FROM ngs_game"):
+        div[t0] = d; div[t1] = d
+    mmr = sl_mmr_table(db)
+    names = sorted(div)
+    teams = {n: team_profile(n, G, heroes, None) for n in names}
+    for t in teams.values():
+        for tag, p in t["players"].items():
+            m = mmr.get(tag.lower())
+            if m:
+                p["sl_mmr"] = m
+    pairs = {}
+    for a in names:
+        for b in names:
+            if a != b and div[a] == div[b]:
+                v = pair_view(G, a, b, heroes)
+                if v:
+                    pairs[a + "|" + b] = v
+    profiles = {}
+    map_hero = {}
+    for n in names:
+        mh = collections.defaultdict(lambda: collections.defaultdict(dict))
+        for g in G.values():
+            for p in g["players"]:
+                if p["team"] == n:
+                    add(mh[g["map"]][p["battletag"]], p["hero"], p["won"])
+        map_hero[n] = {m: dict(v) for m, v in mh.items()}
+        if n != cfg["team"]:
+            profiles[n] = derived_profile(n, G, heroes, mmr)
+    # curated players also get their Storm League MMR
+    for p in curated_us["players"]:
+        m = mmr.get(p["tag"].lower())
+        if m:
+            p["sl_mmr"] = m
+    return dict(divisions=div, teams=teams, pairs=pairs, profiles=profiles, map_hero=map_hero, map_stats=map_stats(G, heroes),
+                map_bans=map_ban_habits(db), games=len(G), mmr_players=len(mmr), curated=cfg["team"])
+
+
 # ---------------------------------------------------------------- notes and fact sheets
 def read_note(kind, name):
     path = PB / "notes" / kind / f"{slug_text(name)}.md"
@@ -405,7 +528,7 @@ def main():
     G = games(db)
     attach_hero_stats(heroes, G)
     names = sorted({g["team0"] for g in G.values()} | {g["team1"] for g in G.values()})
-    map_names = sorted({g["map"] for g in G.values()})
+    map_names = sorted({g["map"] for g in G.values()} | league_maps())
     maps = build_maps(kdb, canon, map_names)
     teams = {n: team_profile(n, G, heroes, cfg["team"]) for n in names}
     for n, t in teams.items():
@@ -422,6 +545,7 @@ def main():
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
         our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules)
+    data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:
         for h in list(r.get("heroes", {})):

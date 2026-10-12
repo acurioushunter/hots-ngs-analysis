@@ -46,6 +46,7 @@
     if (s.opp && s.opp !== "*" && s.opp !== st.opp) return false;
     if (s.map && s.map !== "*" && s.map !== st.map) return false;
     if (s.side && s.side !== "*" && s.side !== st.side) return false;
+    if (s.us && s.us !== "*" && D().us && s.us !== D().us.team) return false;   // rules written about one team's own players
     return true;
   }
   E.rulesFor = function (st) { return D().rules.rules.filter(r => applicable(r, st)); };
@@ -82,7 +83,8 @@
     if (map) {
       const slm = player.sl && player.sl.by_map[map] && player.sl.by_map[map][hero];
       if (slm && slm[0] >= 4) { s += 2 * (sm(slm[1], slm[0]) - 0.5); why.push("on this map in Storm League " + slm[1] + "-" + (slm[0] - slm[1])); }
-      const nm = D().our_map_hero[map] && D().our_map_hero[map][player.tag] && D().our_map_hero[map][player.tag][hero];
+      const omh = D().our_map_hero || {};
+      const nm = omh[map] && omh[map][player.tag] && omh[map][player.tag][hero];
       if (nm && nm[0] >= 2) { s += 1.5 * (sm(nm[1], nm[0]) - 0.5); why.push("on this map in NGS " + nm[1] + "-" + (nm[0] - nm[1])); }
       const t = tierValue(hero, map, player.tier_roles);
       if (t.letter) { s += w.map_tier * t.v; why.push("Icy Veins " + t.letter + " tier on " + map + " (" + t.role + ")"); }

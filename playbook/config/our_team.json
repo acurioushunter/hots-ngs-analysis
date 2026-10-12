@@ -5,6 +5,7 @@
   "division": "C West",
   "next_opponent": "Can't Counterpick Stupid",
   "not_ranged": ["Blaze"],
+  "archetypes": {"_help": "Labels for the roster table. Bruiser DPS are melee heroes that play as the second damage dealer next to an offlaner (the four man pick). Dive assassins are burst heroes that jump in. Offlaner extras are heroes the game lists as tanks that play the offlane.", "bruiser_dps": ["Thrall", "Deathwing", "Qhira", "Alarak"], "dive": ["Zeratul", "Genji", "Illidan", "Kerrigan", "Maiev", "Samuro", "Valeera"], "offlaner_extra": ["Blaze"]},
   "ranged_extra": [],
   "marksmen": ["Greymane", "Valla", "Raynor", "Tychus", "Lunara", "Hanzo", "Cassia", "Sylvanas", "Zul'jin", "Fenix", "Falstad"],
   "high_damage_note": "Teams with exactly two real damage dealers (2,400+ hero damage a minute) are 37-23 in Division C West S22.",

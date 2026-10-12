@@ -48,3 +48,13 @@ Both are saved files, not live. `knowledge/fanhots_tiers.json` is the Fan HotS t
 - NGS match pages have no timeline, so nothing knows who led at ten minutes.
 - Most records are 1 to 12 games.
 - Only one division is in the database at a time. Other divisions need their own pull before their teams can be added.
+
+
+## League wide data and the team picker (added 2026-10-12)
+The page can be used by any NGS team. Pieces:
+1. `python build_ngs_season.py` then `python test_ngs_season.py` builds `knowledge/ngs_season.db` from every saved match page (`knowledge/raw/ngs/matches/` plus `knowledge/raw/ngs/other_divisions/`). The division of each game comes from the match page. Forfeits are skipped.
+2. The list of season game ids comes from the Heroes Profile NGS Recent Matches view (season filter 22). Pull only the ids that are in neither raw folder (`scripts/hp_pull_division.js` shows the receiver and rate limit pattern; it works the same for other divisions).
+3. Storm League MMR: `python scripts/sl_mmr_todo.py` lists players without one, `scripts/hp_pull_sl_mmr.js` pulls the Storm League profile only (one request per player, about every 3 seconds, stops on 403), then `python build_sl_mmr.py` writes `knowledge/sl_mmr.json`.
+4. `python build_playbook.py` adds a `league` block to `playbook/data.json`: every team's profile, the head to head numbers for every pair in a division, pools worked out from NGS games for teams without hand written ones, and Storm League MMR where known.
+5. A rule with `scope.us` only applies when that team is the one picked (the CCS and Cosmos rules are written about Phoenix Rising Amethyst).
+Roster labels (Offlaner, Bruiser DPS, Dive assassin, Ranged DPS) come from `archetypes` in `playbook/config/our_team.json`.
