@@ -151,7 +151,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   let opponents = [];
   const SAVE = "ngs-draft-room-v2";
   const ROLES = ["Tank", "Bruiser", "Melee Assassin", "Ranged Assassin", "Healer", "Support"];
-  let ui = { tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, aliasOff: {}, ngsSeasons: ["22"], slScopes: [], opp: null, side: null, map: null, actions: [], sim: null, msg: "", showAll: false,
+  let ui = { tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, aliasOff: {}, ngsSeasons: ["22"], stages: ["reg", "po"], slScopes: [], opp: null, side: null, map: null, actions: [], sim: null, msg: "", showAll: false,
     mapview: null, hq: "", hrole: "All", hscope: "general", hpool: false, hsort: "name", ltab: "tips", gq: "", pq: "", prole: "All" };
 
   // Point the page at the picked team: its roster and pools, the opponents of its division, and the head to head numbers against each.
@@ -173,9 +173,10 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     // Data window: which NGS seasons and which Storm League scopes the numbers are built from.
     const has = k => ui.ngsSeasons.indexOf(k) >= 0;
     us.players.forEach(p => {
-      if (p.ngs_by && !(ui.ngsSeasons.length === 1 && has("22"))) {
-        const out = {};
-        ui.ngsSeasons.forEach(k => Object.keys(p.ngs_by[k] || {}).forEach(h => {
+      if (p.ngs_by) {
+        const out = {}, keys = [];
+        ui.ngsSeasons.forEach(k => { if (ui.stages.indexOf("reg") >= 0) keys.push(k); if (ui.stages.indexOf("po") >= 0) keys.push(k + "p"); });
+        keys.forEach(k => Object.keys(p.ngs_by[k] || {}).forEach(h => {
           const x = p.ngs_by[k][h], o = out[h];
           if (!o) out[h] = { g: x.g, w: x.w, rating: x.rating == null ? 0 : x.rating, deaths: x.deaths || 0 };
           else { const n = o.g + x.g; o.deaths = Math.round(10 * ((o.deaths * o.g) + ((x.deaths || 0) * x.g)) / n) / 10; o.g = n; o.w += x.w; }
@@ -188,18 +189,22 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         p.sl = { since: ui.slScopes.map(k => k === "all" ? "all time" : "season " + k.slice(1)).join(" + "), heroes: hs, by_map: {}, map_all: {} };
       } else if (ui.slScopes.length) { p.sl = null; }
     });
-    if (!(ui.ngsSeasons.length === 1 && has("22"))) {
+    if (!(ui.ngsSeasons.length === 1 && has("22") && ui.stages.indexOf("reg") >= 0)) {
       const view = {};
+      const reg = ui.stages.indexOf("reg") >= 0, po = ui.stages.indexOf("po") >= 0;
       Object.keys(teams).forEach(name => {
         const tm = teams[name], pl = {};
         Object.keys(tm.players || {}).forEach(tag => {
-          const q = tm.players[tag], prev = LG && LG.teams[name] && LG.teams[name].players[tag] && LG.teams[name].players[tag].prev_heroes;
+          const q = tm.players[tag], L = LG && LG.teams[name] && LG.teams[name].players[tag];
           const hs = {};
-          if (has("22")) Object.keys(q.heroes || {}).forEach(h => { hs[h] = Object.assign({}, q.heroes[h]); });
-          if (has("21") && prev) Object.keys(prev).forEach(h => {
+          // this season's saved games are regular season (no playoffs played yet)
+          if (has("22") && reg) Object.keys(q.heroes || {}).forEach(h => { hs[h] = Object.assign({}, q.heroes[h]); });
+          const addPrev = prev => { if (prev) Object.keys(prev).forEach(h => {
             const x = prev[h];
             if (hs[h]) { hs[h].g += x.g; hs[h].w += x.w; } else hs[h] = { g: x.g, w: x.w, rating: 60, deaths: x.deaths || 0, dmg: 0, others_avg: null, weak: false };
-          });
+          }); };
+          if (has("21") && reg && L) addPrev(L.prev_heroes);
+          if (has("21") && po && L) addPrev(L.prev_heroes_p);
           const sorted = {}; Object.keys(hs).sort((a, b) => hs[b].g - hs[a].g).forEach(h => { sorted[h] = hs[h]; });
           pl[tag] = Object.assign({}, q, { heroes: sorted });
         });
@@ -217,7 +222,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     try {
       const s = JSON.parse(localStorage.getItem(SAVE) || "null");
       if (s) {
-        ui.team = s.team || ui.team; ui.me = s.me || null; ui.mypool = s.mypool || {}; ui.teamPicked = !!s.teamPicked; ui.aliasOff = s.aliasOff || {}; ui.ngsSeasons = (s.ngsSeasons && s.ngsSeasons.length) ? s.ngsSeasons : ["22"]; ui.slScopes = s.slScopes || [];
+        ui.team = s.team || ui.team; ui.me = s.me || null; ui.mypool = s.mypool || {}; ui.teamPicked = !!s.teamPicked; ui.aliasOff = s.aliasOff || {}; ui.ngsSeasons = (s.ngsSeasons && s.ngsSeasons.length) ? s.ngsSeasons : ["22"]; ui.slScopes = s.slScopes || []; ui.stages = (s.stages && s.stages.length) ? s.stages : ["reg", "po"];
         applyTeam();
         if (s.opp && P.teams[s.opp] && s.opp !== P.us.team) { ui.opp = s.opp; ui.side = s.side; ui.map = s.map; ui.actions = s.actions || []; }
         ui.tab = s.tab || "draft";
@@ -225,14 +230,14 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     } catch (e) { /* storage unavailable */ }
     applyTeam();
   }
-  function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, slScopes: ui.slScopes, opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
+  function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, stages: ui.stages, slScopes: ui.slScopes, opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
   function state() { return { opp: ui.opp, side: ui.side || "first", map: ui.map, actions: ui.actions }; }
 
   const TABS = [["draft", "Draft"], ["overview", "Prep"], ["heroes", "Heroes"], ["maps", "Maps"], ["learn", "Learn"], ["team", "Team"], ["about", "About"]];
   function renderTabs() {
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" data-tab="${t[0]}" aria-selected="${ui.tab === t[0]}">${t[1]}</button>`).join("");
     $("#brand").textContent = (P.us.team.split(" ").map(w => w[0]).join("").toUpperCase().slice(0, 4)) + " Draft Room";
-    $("#stamp").textContent = `NGS S${ui.ngsSeasons.slice().sort().join("+")} · SL ${ui.slScopes.length ? ui.slScopes.join("+") : "recent"} · ${P.meta.games} games to ${P.meta.newest_date} UTC`;
+    $("#stamp").textContent = `NGS S${ui.ngsSeasons.slice().sort().join("+")}${ui.stages.length === 1 ? (ui.stages[0] === "po" ? " playoffs" : " regular") : ""} · SL ${ui.slScopes.length ? ui.slScopes.join("+") : "recent"} · ${P.meta.games} games to ${P.meta.newest_date} UTC`;
   }
 
   // ---------------------------------------------------------------- small renderers and hero helpers
@@ -494,7 +499,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const rows = names.map(n => {
       const h = LG.history[n], a = cands.find(x => x.former === n);
       return `<div style="border-top:1px solid var(--line);padding-top:8px;margin-top:8px"><b>${esc(n)}</b>${a ? ` <span class="tag warn">probably the same team: ${a.shared} of ${a.core_now} players</span>` : ""}
-        <p class="small">Season 21: ${h.wins}-${h.games - h.wins}. First pick ${h.first_pick[1]}-${h.first_pick[0] - h.first_pick[1]}.</p>
+        <p class="small">Season 21: ${h.wins}-${h.games - h.wins}${h.playoffs && h.playoffs[0] ? ` (playoffs ${h.playoffs[1]}-${h.playoffs[0] - h.playoffs[1]})` : ""}. First pick ${h.first_pick[1]}-${h.first_pick[0] - h.first_pick[1]}.</p>
         <p class="small">Picked most: ${h.picks.slice(0, 6).map(p => `${heroBtn(p[0])} ${p[2]}-${p[1] - p[2]}`).join(", ") || "none"}</p>
         <p class="small">Banned most: ${h.bans.slice(0, 5).map(b => `${heroBtn(b[0])} ${b[1]}`).join(", ") || "none"}</p></div>`;
     }).join("");
@@ -770,6 +775,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         <p class="small muted">Choose which seasons the player and hero numbers are built from. Tick more than one to combine them. Team level records (maps, picks by slot, bans) are always this season; last season is on the Prep tab.</p>
         <p class="small" style="margin-bottom:4px"><b>NGS seasons</b></p>
         <div class="chips">${["22", "21"].map(k => `<button class="chip ${ui.ngsSeasons.indexOf(k) >= 0 ? "on" : ""}" data-ngs="${k}" aria-pressed="${ui.ngsSeasons.indexOf(k) >= 0}">Season ${k}</button>`).join("")}</div>
+        <p class="small" style="margin:10px 0 4px"><b>Games</b> <span class="muted">(playoff games are only in last season so far)</span></p>
+        <div class="chips">${[["reg", "Regular season"], ["po", "Playoffs"]].map(x => `<button class="chip ${ui.stages.indexOf(x[0]) >= 0 ? "on" : ""}" data-stage="${x[0]}" aria-pressed="${ui.stages.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>
         <p class="small" style="margin:10px 0 4px"><b>Storm League</b> <span class="muted">(none ticked means the recent window the tool was built with)</span></p>
         <div class="chips">${[["all", "All time"], ["s34", "Season 34"], ["s33", "Season 33"], ["s32", "Season 32"]].map(x => `<button class="chip ${ui.slScopes.indexOf(x[0]) >= 0 ? "on" : ""}" data-sl="${x[0]}" aria-pressed="${ui.slScopes.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>
         <p class="small muted" style="margin-top:8px">Storm League hero data is only held for Division C West players.</p></section>`;
@@ -870,6 +877,11 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       const k = d.ngs, i = ui.ngsSeasons.indexOf(k);
       if (i >= 0) { if (ui.ngsSeasons.length > 1) ui.ngsSeasons.splice(i, 1); } else ui.ngsSeasons.push(k);
       ui.ngsSeasons.sort().reverse(); applyTeam();
+    }
+    else if (d.stage) {
+      const k = d.stage, i = ui.stages.indexOf(k);
+      if (i >= 0) { if (ui.stages.length > 1) ui.stages.splice(i, 1); } else ui.stages.push(k);
+      applyTeam();
     }
     else if (d.sl) {
       const k = d.sl, i = ui.slScopes.indexOf(k);

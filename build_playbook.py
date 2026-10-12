@@ -69,6 +69,8 @@ def build_heroes(cfg):
     for h, d in heroes.items():
         s = seen.get(h)
         d["role"] = (s["role"] if s else ROLE_MAP.get(d["iv_role"], "Unknown"))
+        if h in cfg.get("role_override", {}) and not h.startswith("_"):
+            d["role"] = cfg["role_override"][h]
         hp_ranged = (s["type"] == "Ranged") if s else (d["iv_role"] == "ranged-assassin")
         d["hp_ranged"] = hp_ranged
         d["ranged"] = (hp_ranged or h in ranged_extra) and h not in not_ranged
@@ -128,7 +130,7 @@ def build_maps(kdb, canon, map_names):
 
 # ---------------------------------------------------------------- game data
 def games(db):
-    cols = ["replay_id", "date_utc", "map", "length_sec", "team0", "team1", "winner", "first_pick_team", "map_pick_team", "series"]
+    cols = ["replay_id", "date_utc", "map", "length_sec", "team0", "team1", "winner", "first_pick_team", "map_pick_team", "series", "round"]
     out = {}
     for row in db.execute(f"SELECT {','.join(cols)} FROM ngs_game ORDER BY date_utc"):
         g = dict(zip(cols, row))
@@ -302,8 +304,10 @@ def prev_ngs(heroes):
     if not _PREV:
         p21 = KN / "ngs_season21.db"
         if p21.exists():
-            for bid, hero, won, deaths in sqlite3.connect(p21).execute("SELECT blizz_id, hero, won, deaths FROM ngs_player_game WHERE blizz_id IS NOT NULL"):
-                r = _PREV.setdefault(str(bid), {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
+            for bid, hero, won, deaths, rnd in sqlite3.connect(p21).execute(
+                    "SELECT p.blizz_id, p.hero, p.won, p.deaths, g.round FROM ngs_player_game p JOIN ngs_game g USING(replay_id) WHERE p.blizz_id IS NOT NULL"):
+                key = str(bid) + ("p" if str(rnd).upper().startswith("T") else "")
+                r = _PREV.setdefault(key, {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
                 r["g"] += 1; r["w"] += int(won); r["deaths"] += deaths or 0
             for hs in _PREV.values():
                 for r in hs.values():
@@ -349,7 +353,7 @@ def our_team(cfg, G, heroes):
                     s["g"] += 1; s["w"] += r["won"]; s["rating"] += r["rating"] or 0; s["deaths"] += r["deaths"] or 0
         p["ngs"] = {h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in stats.items()}
         bid = bid_by_tag().get(p["tag"])
-        p["ngs_by"] = {"22": p["ngs"], "21": prev_ngs(heroes).get(bid, {}) if bid else {}}
+        p["ngs_by"] = {"22": p["ngs"], "22p": {}, "21": prev_ngs(heroes).get(bid, {}) if bid else {}, "21p": prev_ngs(heroes).get(str(bid) + "p", {}) if bid else {}}
         if bid:
             p["sl_scopes"] = sl_scopes(bid, heroes)
         for h in list(p["pool"]) + list(p.get("avoid", [])):
@@ -426,7 +430,7 @@ def derived_profile(team, G, heroes, mmr):
         extra = {}
         if bid:
             extra = dict(ngs_by={"22": {h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in hs.items()},
-                                 "21": prev_ngs(heroes).get(bid, {})}, sl_scopes=sl_scopes(bid, heroes))
+                                 "22p": {}, "21": prev_ngs(heroes).get(bid, {}), "21p": prev_ngs(heroes).get(bid + "p", {})}, sl_scopes=sl_scopes(bid, heroes))
         players.append(dict(tag=tag, label=tag, **extra, slot_role=(top[0] if top else "Unknown"), tier_roles=top or ["Ranged Assassin"], pool=pool, avoid=[], notes={},
                             ngs={h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in hs.items()},
                             sl_mmr=m, derived=True))
@@ -461,7 +465,10 @@ def last_season_history(names):
                 picks[hero][0] += 1; picks[hero][1] += int(won[rid])
             for (hero,) in db.execute(f"SELECT hero FROM ngs_hero_ban WHERE team=? AND replay_id IN ({q})", [name] + ids):
                 bans[hero] += 1
+            rounds = {rid: str(r) for rid, r in db.execute(f"SELECT replay_id, round FROM ngs_game WHERE replay_id IN ({q})", ids)}
+            po = [rid for rid in ids if rounds[rid].upper().startswith("T")]
             out[name] = dict(games=len(games), wins=sum(won.values()), first_pick=[len(first), sum(first)],
+                             playoffs=[len(po), sum(1 for rid in po if won[rid])],
                              picks=[[h, v[0], v[1]] for h, v in sorted(picks.items(), key=lambda kv: -kv[1][0])[:8]],
                              bans=[[h, n] for h, n in bans.most_common(6)])
         return out
@@ -519,6 +526,8 @@ def build_league(cfg, curated_us, heroes):
             bid = bid_by_tag().get(tag)
             if bid and prev_ngs(heroes).get(bid):
                 p["prev_heroes"] = prev_ngs(heroes)[bid]
+            if bid and prev_ngs(heroes).get(bid + "p"):
+                p["prev_heroes_p"] = prev_ngs(heroes)[bid + "p"]
     pairs = {}
     for a in names:
         for b in names:
