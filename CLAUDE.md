@@ -24,7 +24,7 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - Raw JSON in `knowledge/raw/`. Analysis scripts at the top level (`analyze_*.py`), builders `build_*.py`, checks `test_*.py` (all must print OK after a rebuild).
 - Pull and resume notes: `PULL_STATUS.md`. New NGS games: `ngs_games_to_raw.py`, then `build_ngs_division.py` and `test_ngs_division.py`.
 
-## Draft Room (the real time draft tool)
+## Draft Room (the real time draft tool, shown in the page as HotS Drafter)
 - `python build_playbook.py` regenerates `playbook/data.json`, `facts/teams/*.md`, `facts/maps/*.md`, `draft_tool.html` (stand alone) and `draft_tool_artifact.html` (the page fragment published as the phone artifact). Then `python test_playbook.py` and `node test_engine.js`.
 - The hero, map and guide library (`build_library.py` into `playbook/library.json`, build codes in `knowledge/icy_build_codes.txt`, tips in `playbook/notes/draft_tips.md`) is built by the same command and shown in the Heroes, Maps and Learn tabs and the hero sheets. Build codes are mostly old, the tool flags them.
 - Judgment lives in `playbook/config/our_team.json` (pools), `playbook/config/rules.json` (rules with reasons and evidence) and `playbook/notes/`. Engine is `playbook/engine.js`, UI is `playbook/app.html`. How to update: `UPDATE_PLAYBOOK.md`.
@@ -36,7 +36,8 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - Every Season 22 game across all 7 divisions is saved (500 ids, 497 played, 3 forfeits skipped): C West in `knowledge/raw/ngs/matches/`, the rest in `knowledge/raw/ngs/other_divisions/` (not in git). `python build_ngs_season.py` builds `knowledge/ngs_season.db` from both; `test_ngs_season.py` checks it.
 - Hunter's game history (`hunter_hp.db`, 4,741 games) and his profile, hero, map and role summaries run to Oct 12.
 - Storm League MMR for NGS players: `scripts/sl_mmr_todo.py`, `scripts/hp_pull_sl_mmr.js`, `build_sl_mmr.py` into `knowledge/sl_mmr.json` (Storm League only). All 363 Season 22 players have one.
-- Season 21 from Heroes Profile (868 games, ids 22006 to 22874 except 22352) is NOT pulled yet: save match pages to `knowledge/raw/ngs/season21/` (gitignored), then `python build_ngs_season.py 21`, `python test_ngs_season.py 21`, `python build_team_aliases.py`, `python build_playbook.py`. Until then last season comes from the replay export `ngs_league.db`.
+- Season 21 from Heroes Profile: 353 of 868 games saved in `knowledge/raw/ngs/season21/` (gitignored): all of Division C (105) and Division D (118) including their playoffs, plus partial A, B East, B West, Heroic and Nexus. `python build_ngs_season.py 21` builds `knowledge/ngs_season21.db`; `python test_ngs_season.py 21` checks it. Players' last season hero records and the Last season card use these pages where a division is complete and the replay export `ngs_league.db` for the rest. Remaining ids are in `knowledge/raw/ngs/season21_all_list.json`; the other divisions are paused by choice until the team wants them.
+- The tool is called HotS Drafter (the page title and header). Files keep the old names (`draft_tool.html`, `build_playbook.py`).
 - Team name changes are inferred from shared players by `build_team_aliases.py` into `knowledge/team_aliases.json`.
 - The Draft Room has a Team tab (pick any team, who you are, data window for NGS seasons and Storm League scopes). Rules with `scope.us` only apply to that team.
 - Next opponent: CCS (Can't Counterpick Stupid), the likely final. PRA beat Cosmos 2-1 on Oct 6 (Cosmos won Tomb).

@@ -12,16 +12,20 @@ THIS, LAST = 22, 21
 
 
 def rosters_last():
+    """Last season's rosters: the replay export (every division) with Heroes Profile pages (some divisions) added, keeping the larger count."""
     ro = collections.defaultdict(collections.Counter)
-    p21 = ROOT / "ngs_season21.db"
-    if p21.exists():
-        for team, bid in sqlite3.connect(p21).execute("SELECT team, blizz_id FROM ngs_player_game WHERE blizz_id IS NOT NULL"):
-            ro[team][str(bid)] += 1
-        return ro
     lg = sqlite3.connect(ROOT / "ngs_league.db")
     for t0, t1, side, toon in lg.execute(
             "SELECT g.team0, g.team1, p.team, p.toon FROM lg_players p JOIN lg_games g USING(game_id) WHERE g.season=?", (LAST,)):
         ro[t0 if side == 0 else t1][toon.split("-")[-1]] += 1
+    p21 = ROOT / "ngs_season21.db"
+    if p21.exists():
+        hp = collections.defaultdict(collections.Counter)
+        for team, bid in sqlite3.connect(p21).execute("SELECT team, blizz_id FROM ngs_player_game WHERE blizz_id IS NOT NULL"):
+            hp[team][str(bid)] += 1
+        for team, c in hp.items():
+            for bid, n in c.items():
+                ro[team][bid] = max(ro[team][bid], n)
     return ro
 
 

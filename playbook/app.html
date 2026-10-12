@@ -1,4 +1,4 @@
-<title>PRA Draft Room</title>
+<title>HotS Drafter</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -123,7 +123,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
 
 <div class="wrap">
   <div class="bar">
-    <div class="brand"><h1 id="brand">Draft Room</h1><small id="stamp"></small></div>
+    <div class="brand"><h1 id="brand">HotS Drafter</h1><small id="stamp"></small></div>
     <div class="tabs" role="tablist" id="tabs"></div>
   </div>
   <main id="view"></main>
@@ -236,8 +236,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   const TABS = [["draft", "Draft"], ["overview", "Prep"], ["heroes", "Heroes"], ["maps", "Maps"], ["learn", "Learn"], ["team", "Team"], ["about", "About"]];
   function renderTabs() {
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" data-tab="${t[0]}" aria-selected="${ui.tab === t[0]}">${t[1]}</button>`).join("");
-    $("#brand").textContent = (P.us.team.split(" ").map(w => w[0]).join("").toUpperCase().slice(0, 4)) + " Draft Room";
-    $("#stamp").textContent = `NGS S${ui.ngsSeasons.slice().sort().join("+")}${ui.stages.length === 1 ? (ui.stages[0] === "po" ? " playoffs" : " regular") : ""} · SL ${ui.slScopes.length ? ui.slScopes.join("+") : "recent"} · ${P.meta.games} games to ${P.meta.newest_date} UTC`;
+    $("#brand").textContent = "HotS Drafter";
+    $("#stamp").textContent = `${P.us.team} · NGS S${ui.ngsSeasons.slice().sort().join("+")}${ui.stages.length === 1 ? (ui.stages[0] === "po" ? " playoffs" : " regular") : ""} · SL ${ui.slScopes.length ? ui.slScopes.join("+") : "recent"} · ${P.meta.games} games to ${P.meta.newest_date} UTC`;
   }
 
   // ---------------------------------------------------------------- small renderers and hero helpers
@@ -507,6 +507,12 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     return `<section class="card them"><h3>Last season</h3><p class="small muted">Season 21 record and habits from last season's games. Name changes are not published, so earlier names are guessed from which players are on the roster. Untick one that is wrong.</p>${rows}${toggles}</section>`;
   }
 
+  // Average Storm League MMR of a roster's five most used players, when at least three of them have one.
+  function teamMmr(players) {
+    const list = players.slice().sort((a, b) => (b.games || 0) - (a.games || 0)).slice(0, 5).map(p => p.sl_mmr && p.sl_mmr[0]).filter(Boolean);
+    return list.length >= 3 ? Math.round(list.reduce((a, b) => a + b, 0) / list.length) : null;
+  }
+
   function renderOverview() {
     const o = P.teams[ui.opp], t = E.tossAdvice(ui.opp), mp = E.mapPlan(ui.opp), st = E.newDraft(ui.opp, "first", ui.map);
     const ex = E.expectOppBans(st);
@@ -516,7 +522,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     P.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const n = (o.bans_r2[h] || 0); if (n >= 2) lock.push(`${h} (${p.label}): banned in round two ${n} time(s)${o.bans_r2_vs_us && o.bans_r2_vs_us[h] ? ", " + o.bans_r2_vs_us[h] + " against us" : ""}`); }));
     return `<section class="card"><label class="f">Opponent<select id="opp">${opponents.map(x => `<option ${x === ui.opp ? "selected" : ""}>${esc(x)}</option>`).join("")}</select></label>
       <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
-      ${o.h2h.length ? "Against us (our result): " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "L" : "W"}`).join(", ") + "." : "No games against us yet."}</p></section>
+      ${o.h2h.length ? "Against us (our result): " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "L" : "W"}`).join(", ") + "." : "No games against us yet."}
+      ${(() => { const them = teamMmr(Object.keys(o.players).map(t => ({ games: o.players[t].games, sl_mmr: o.players[t].sl_mmr }))); const us = teamMmr(P.us.players.map(p => ({ games: Object.keys(p.ngs || {}).reduce((x, h) => x + p.ngs[h].g, 0), sl_mmr: p.sl_mmr }))); return them && us ? `<br><span class="small muted">Average Storm League MMR of the five most used players: ${esc(ui.opp)} ${them}, ${esc(P.us.team)} ${us}.</span>` : ""; })()}</p></section>
     <section class="card us"><h3>Coin toss</h3><p>If we win it: <b>${t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss up)"}</b>.
       Our record with first pick ${rec(t.usFirst)}, with map pick ${rec(t.usMap)}; theirs ${rec(t.themFirst)} and ${rec(t.themMap)}. First pick lets us decide who takes the contested heroes; the map pick lets us choose where.</p></section>
     <section class="card"><h3>Maps</h3>
@@ -797,6 +804,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
           <p class="small muted" style="margin-top:6px">Storm League hero win rates are only included for players whose Heroes Profile games were pulled into the tool. For everyone else the pool comes from NGS games plus whatever you add here.</p></div>` : ""}
       </section>
       ${winCard}
+      <section class="card"><button class="btn" data-act="wipe">Clear my saved choices on this device</button><p class="small muted" style="margin-top:6px">Forgets your team, who you are, your added heroes, the draft in progress and the data window.</p></section>
       <section class="card"><h3>${esc(P.us.team)} roster</h3><div class="scroll"><table><tr><th>Player</th><th>Role and flex</th><th>SL MMR</th><th>Heroes: NGS record, win rate, Storm League</th></tr>${roster}</table></div>
         <p class="small muted">Games and win rate are NGS this season. Role is where most of a player's games are; off role only shows when a second role is 3 or more games and at least 15% of their games. Flex lists the other roles with the heroes used (Bruiser DPS is the melee second damage dealer next to an offlaner). MMR is Heroes Profile Storm League only, blank when the profile has not been pulled.</p></section>`;
   }
@@ -807,7 +815,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     hs.forEach(d => (d.codes || []).forEach(c => codes.push(c)));
     const g = hs.map(d => d.updated.guide).filter(Boolean).sort(), t = hs.map(d => d.updated.talents).filter(Boolean).sort();
     return `<section class="card note"><h3>About this tool</h3>
-      <p>A draft helper for the Nexus Gaming Series. Pick your team in the Team tab and it works for any division we have games for. Built ${esc(P.meta.built)} from ${LG ? LG.games : P.meta.games} Season ${P.meta.season} games${LG ? " across every division we could pull" : " of Division " + esc(P.meta.division)}.</p>
+      <p><b>HotS Drafter</b> is a draft helper for the Nexus Gaming Series. Pick your team in the Team tab and it works for any division we have games for. Built ${esc(P.meta.built)} from ${LG ? LG.games : P.meta.games} Season ${P.meta.season} games${LG ? " across every division we could pull" : " of Division " + esc(P.meta.division)}.</p>
       <ul><li><b>Draft</b> runs the 16 slot draft with recommendations, the comp meter, what their picks mean, the final plan with builds, and a copy button for the summary.</li>
       <li><b>Prep</b> is the opponent: toss, maps, bans, their players, how they have done against your team, and the answers in your pools.</li>
       <li><b>Heroes</b> is every hero: overview, builds, talents, abilities, matchups, maps and who plays it. Tap any hero name anywhere.</li>
@@ -894,6 +902,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       if (!key) ui.msg = v ? `"${v}" is not a hero in the list.` : "Type a hero first.";
       else { ui.mypool = ui.mypool || {}; ui.mypool[key] = tier; ui.msg = ""; applyTeam(); }
     }
+    else if (d.act === "wipe") { try { localStorage.removeItem(SAVE); } catch (e) { /* ignore */ } location.reload(); return; }
     else if (d.act === "browse") { openPicker(); return; }
     else if (d.act === "undo") { ui.actions.pop(); ui.sim = null; ui.msg = ""; }
     else if (d.act === "reset") { ui.actions = []; ui.sim = null; ui.msg = ""; }

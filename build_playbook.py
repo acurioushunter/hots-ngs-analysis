@@ -300,30 +300,36 @@ def bid_by_tag():
 
 
 def prev_ngs(heroes):
-    """Season 21 NGS hero records per Heroes Profile id from the replay export: {id: {hero: {g, w, deaths}}}."""
+    """Season 21 NGS hero records per Heroes Profile id: {id: {hero: {g, w, deaths}}} and, for playoff games, {id + "p": ...}.
+    Heroes Profile match pages (knowledge/ngs_season21.db, some divisions) are richer and have the round, so they win where a player has at
+    least as many games there as in the replay export (knowledge/ngs_league.db, every division, no round)."""
     if not _PREV:
+        hp, ex = {}, {}
         p21 = KN / "ngs_season21.db"
         if p21.exists():
             for bid, hero, won, deaths, rnd in sqlite3.connect(p21).execute(
                     "SELECT p.blizz_id, p.hero, p.won, p.deaths, g.round FROM ngs_player_game p JOIN ngs_game g USING(replay_id) WHERE p.blizz_id IS NOT NULL"):
                 key = str(bid) + ("p" if str(rnd).upper().startswith("T") else "")
-                r = _PREV.setdefault(key, {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
+                r = hp.setdefault(key, {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
                 r["g"] += 1; r["w"] += int(won); r["deaths"] += deaths or 0
-            for hs in _PREV.values():
-                for r in hs.values():
-                    r["deaths"] = round(r["deaths"] / r["g"], 1)
-            return _PREV
         path = KN / "ngs_league.db"
         if path.exists():
             db = sqlite3.connect(path)
             for winner, side, hero, toon, deaths in db.execute(
                     "SELECT g.winner, p.team, p.hero, p.toon, p.deaths FROM lg_players p JOIN lg_games g USING(game_id) WHERE g.season=21"):
                 bid = toon.split("-")[-1]
-                r = _PREV.setdefault(bid, {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
+                r = ex.setdefault(bid, {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
                 r["g"] += 1; r["w"] += int(winner == side); r["deaths"] += deaths or 0
-            for hs in _PREV.values():
-                for r in hs.values():
-                    r["deaths"] = round(r["deaths"] / r["g"], 1)
+        total = lambda d: sum(r["g"] for r in d.values()) if d else 0
+        for key in set(hp) | set(ex):
+            if key.endswith("p"):
+                chosen = hp.get(key)
+            else:
+                a, b = hp.get(key), ex.get(key)
+                chosen = a if total(a) >= total(b) else b
+                # playoff games in the export would be counted in the regular figure; only Heroes Profile pages can tell them apart
+            if chosen:
+                _PREV[key] = {h: dict(g=r["g"], w=r["w"], deaths=round(r["deaths"] / r["g"], 1)) for h, r in chosen.items()}
     return _PREV
 
 
@@ -450,10 +456,21 @@ def last_season_history(names):
     """Last season's record and habits for the given team names, from the replay export (knowledge/ngs_league.db), if we have it."""
     out = {}
     p21 = KN / "ngs_season21.db"
+    complete = set()
     if p21.exists():
+        # a division counts as complete when we hold (nearly) every game the export lists for it
+        have = dict(sqlite3.connect(p21).execute("SELECT division, COUNT(*) FROM ngs_game GROUP BY division").fetchall())
+        lg = KN / "ngs_league.db"
+        if lg.exists():
+            tot = dict(sqlite3.connect(lg).execute("SELECT division, COUNT(*) FROM lg_games WHERE season=21 GROUP BY division").fetchall())
+            complete = {d for d, n in have.items() if n >= 0.95 * tot.get(d, 10 ** 9)}
+        else:
+            complete = set(have)
+    if p21.exists() and complete:
         db = sqlite3.connect(p21)
         for name in names:
-            games = db.execute("SELECT replay_id, winner, first_pick_team FROM ngs_game WHERE team0=? OR team1=?", (name, name)).fetchall()
+            games = db.execute("SELECT replay_id, winner, first_pick_team FROM ngs_game WHERE (team0=? OR team1=?) AND division IN (%s)" % ",".join("?" * len(complete)),
+                               [name, name] + sorted(complete)).fetchall()
             if not games:
                 continue
             ids = [g[0] for g in games]
@@ -471,12 +488,13 @@ def last_season_history(names):
                              playoffs=[len(po), sum(1 for rid in po if won[rid])],
                              picks=[[h, v[0], v[1]] for h, v in sorted(picks.items(), key=lambda kv: -kv[1][0])[:8]],
                              bans=[[h, n] for h, n in bans.most_common(6)])
-        return out
     path = KN / "ngs_league.db"
     if not path.exists():
         return out
     db = sqlite3.connect(path)
     for name in names:
+        if name in out:
+            continue
         games = db.execute("SELECT game_id, team0, team1, winner, first_pick FROM lg_games WHERE season=21 AND (team0=? OR team1=?)", (name, name)).fetchall()
         if not games:
             continue
