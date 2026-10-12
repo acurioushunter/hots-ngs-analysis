@@ -32,6 +32,10 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - Never edit the generated files by hand. A hero named in config must exist or the build stops.
 
 ## State as of 2026-10-12
-- 60 of 60 Division C West games on Heroes Profile are on disk (through 23372, Good Lordy v Anomaly on Oct 9). Six Good Lordy games are not on Heroes Profile. A pull of the other divisions' season 22 games (440 games, raw match pages) is PARTIAL: 147 are in `knowledge/raw/ngs/other_divisions/` (not in git, no builder yet); the list of all 500 season 22 game ids is `knowledge/raw/ngs/season22_all_list.json`. Resume by pulling only ids that are in neither `matches/` nor `other_divisions/`.
-- Hunter's game history (`hunter_hp.db`, 4,741 games) runs to Oct 12. His profile summary files are still from Oct 6, so `test_hunter.py` fails by 5 wins and 1 loss until `profile.json` (all and sl) is re-pulled.
+- 60 of 60 Division C West games on Heroes Profile are on disk (through 23372, Good Lordy v Anomaly on Oct 9). Six Good Lordy games are not on Heroes Profile.
+- Every Season 22 game across all 7 divisions is saved (500 ids, 497 played, 3 forfeits skipped): C West in `knowledge/raw/ngs/matches/`, the rest in `knowledge/raw/ngs/other_divisions/` (not in git). `python build_ngs_season.py` builds `knowledge/ngs_season.db` from both; `test_ngs_season.py` checks it.
+- Hunter's game history (`hunter_hp.db`, 4,741 games) and his profile, hero, map and role summaries run to Oct 12.
+- Storm League MMR for NGS players: `scripts/sl_mmr_todo.py`, `scripts/hp_pull_sl_mmr.js`, `build_sl_mmr.py` into `knowledge/sl_mmr.json` (Storm League only). The pull was partial at last commit; re-run the todo script for the rest.
+- Team name changes are inferred from shared players by `build_team_aliases.py` into `knowledge/team_aliases.json`.
+- The Draft Room has a Team tab (pick any team, who you are, data window for NGS seasons and Storm League scopes). Rules with `scope.us` only apply to that team.
 - Next opponent: CCS (Can't Counterpick Stupid), the likely final. PRA beat Cosmos 2-1 on Oct 6 (Cosmos won Tomb).

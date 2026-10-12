@@ -282,6 +282,50 @@ def map_ban_habits(db):
     return {t: dict(bans=dict(d), series=len(series[t])) for t, d in out.items()}
 
 
+# ---------------------------------------------------------------- seasons (NGS last season, Storm League seasons)
+_BID = {}
+_PREV = {}
+
+
+def bid_by_tag():
+    """battletag -> Heroes Profile id, from the saved NGS match pages (ngs_season.db)."""
+    if not _BID:
+        path = KN / "ngs_season.db"
+        if path.exists():
+            for tag, bid in sqlite3.connect(path).execute("SELECT DISTINCT battletag, blizz_id FROM ngs_player_game WHERE blizz_id IS NOT NULL"):
+                _BID[tag] = str(bid)
+    return _BID
+
+
+def prev_ngs(heroes):
+    """Season 21 NGS hero records per Heroes Profile id from the replay export: {id: {hero: {g, w, deaths}}}."""
+    if not _PREV:
+        path = KN / "ngs_league.db"
+        if path.exists():
+            db = sqlite3.connect(path)
+            for winner, side, hero, toon, deaths in db.execute(
+                    "SELECT g.winner, p.team, p.hero, p.toon, p.deaths FROM lg_players p JOIN lg_games g USING(game_id) WHERE g.season=21"):
+                bid = toon.split("-")[-1]
+                r = _PREV.setdefault(bid, {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
+                r["g"] += 1; r["w"] += int(winner == side); r["deaths"] += deaths or 0
+            for hs in _PREV.values():
+                for r in hs.values():
+                    r["deaths"] = round(r["deaths"] / r["g"], 1)
+    return _PREV
+
+
+def sl_scopes(bid, heroes):
+    """Storm League hero games and wins per scope (all time, seasons 32 to 34) from the pulled Heroes Profile files, when we have them."""
+    out = {}
+    for folder in glob.glob(str(KN / "raw" / "players_hp" / f"*_{bid}")):
+        for scope, name in (("all", "sl_heroes.json"), ("s32", "sl_heroes_s32.json"), ("s33", "sl_heroes_s33.json"), ("s34", "sl_heroes_s34.json")):
+            f = pathlib.Path(folder) / name
+            if f.exists():
+                rows = rd(f)
+                out[scope] = {canon_name(r["name"], heroes): [r["games_played"], r["wins"]] for r in rows if r.get("games_played")}
+    return out
+
+
 # ---------------------------------------------------------------- our team
 def our_team(cfg, G, heroes):
     us = cfg["team"]
@@ -295,6 +339,10 @@ def our_team(cfg, G, heroes):
                     s = stats[r["hero"]]
                     s["g"] += 1; s["w"] += r["won"]; s["rating"] += r["rating"] or 0; s["deaths"] += r["deaths"] or 0
         p["ngs"] = {h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in stats.items()}
+        bid = bid_by_tag().get(p["tag"])
+        p["ngs_by"] = {"22": p["ngs"], "21": prev_ngs(heroes).get(bid, {}) if bid else {}}
+        if bid:
+            p["sl_scopes"] = sl_scopes(bid, heroes)
         for h in list(p["pool"]) + list(p.get("avoid", [])):
             if h not in heroes:
                 raise SystemExit(f"our_team.json: unknown hero {h!r} for {p['tag']}")
@@ -307,6 +355,8 @@ def our_team(cfg, G, heroes):
             for m, h, n, w in db.execute("SELECT map, hero, COUNT(*), SUM(won) FROM hp_game WHERE game_type='sl' AND date>=? GROUP BY map, hero", (since,)):
                 by_map[m][h] = [n, w]
             map_all = {m: [sum(v[0] for v in d.values()), sum(v[1] for v in d.values())] for m, d in by_map.items()}
+            all_sl = {canon_name(h, heroes): [n, w] for h, n, w in db.execute("SELECT hero, COUNT(*), SUM(won) FROM hp_game WHERE game_type='sl' GROUP BY hero")}
+            p.setdefault("sl_scopes", {})["all"] = all_sl
             p["sl"] = dict(since=since, heroes={canon_name(h, heroes): v for h, v in sl.items()}, by_map={m: {canon_name(h, heroes): v for h, v in d.items()} for m, d in by_map.items()}, map_all=map_all)
     return team
 
@@ -363,7 +413,12 @@ def derived_profile(team, G, heroes, mmr):
                 roles[ICE_ROLE.get(r, r)] += s["g"]
         top = [r for r, _ in roles.most_common(2)]
         m = mmr.get(tag.lower())
-        players.append(dict(tag=tag, label=tag, slot_role=(top[0] if top else "Unknown"), tier_roles=top or ["Ranged Assassin"], pool=pool, avoid=[], notes={},
+        bid = bid_by_tag().get(tag)
+        extra = {}
+        if bid:
+            extra = dict(ngs_by={"22": {h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in hs.items()},
+                                 "21": prev_ngs(heroes).get(bid, {})}, sl_scopes=sl_scopes(bid, heroes))
+        players.append(dict(tag=tag, label=tag, **extra, slot_role=(top[0] if top else "Unknown"), tier_roles=top or ["Ranged Assassin"], pool=pool, avoid=[], notes={},
                             ngs={h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in hs.items()},
                             sl_mmr=m, derived=True))
     return dict(team=team, players=players[:7], derived=True)
@@ -376,6 +431,34 @@ def pair_view(G, a, b, heroes):
         return None
     t = team_profile(a, sub, heroes, b)
     return {k: t[k] for k in ("h2h", "bans_vs_us", "bans_r2_vs_us", "bans_games_vs_us", "hero_picks_vs_us", "our_heroes_vs_them")}
+
+
+def last_season_history(names):
+    """Last season's record and habits for the given team names, from the replay export (knowledge/ngs_league.db), if we have it."""
+    path = KN / "ngs_league.db"
+    out = {}
+    if not path.exists():
+        return out
+    db = sqlite3.connect(path)
+    for name in names:
+        games = db.execute("SELECT game_id, team0, team1, winner, first_pick FROM lg_games WHERE season=21 AND (team0=? OR team1=?)", (name, name)).fetchall()
+        if not games:
+            continue
+        side = {gid: (0 if t0 == name else 1) for gid, t0, t1, w, f in games}
+        wins = sum(1 for gid, t0, t1, w, f in games if w == side[gid])
+        first = [(gid, w == side[gid]) for gid, t0, t1, w, f in games if f == side[gid]]
+        picks, bans = collections.defaultdict(lambda: [0, 0]), collections.Counter()
+        won = {gid: (w == side[gid]) for gid, t0, t1, w, f in games}
+        for gid, team, hero in db.execute("SELECT game_id, team, hero FROM lg_picks WHERE game_id IN (%s)" % ",".join("?" * len(side)), list(side)):
+            if team == side[gid]:
+                picks[hero][0] += 1; picks[hero][1] += int(won[gid])
+        for gid, team, hero in db.execute("SELECT game_id, team, hero FROM lg_bans WHERE game_id IN (%s)" % ",".join("?" * len(side)), list(side)):
+            if team == side[gid] and hero:
+                bans[hero] += 1
+        out[name] = dict(games=len(games), wins=wins, first_pick=[len(first), sum(w for _, w in first)],
+                         picks=[[h, v[0], v[1]] for h, v in sorted(picks.items(), key=lambda kv: -kv[1][0])[:8]],
+                         bans=[[h, n] for h, n in bans.most_common(6)])
+    return out
 
 
 def league_maps():
@@ -404,6 +487,9 @@ def build_league(cfg, curated_us, heroes):
             m = mmr.get(tag.lower())
             if m:
                 p["sl_mmr"] = m
+            bid = bid_by_tag().get(tag)
+            if bid and prev_ngs(heroes).get(bid):
+                p["prev_heroes"] = prev_ngs(heroes)[bid]
     pairs = {}
     for a in names:
         for b in names:
@@ -427,7 +513,13 @@ def build_league(cfg, curated_us, heroes):
         m = mmr.get(p["tag"].lower())
         if m:
             p["sl_mmr"] = m
+    aliases = []
+    ap = KN / "team_aliases.json"
+    if ap.exists():
+        aliases = [a for a in rd(ap) if a["team"] in div]
+    history = last_season_history(sorted({a["former"] for a in aliases} | set(names)))
     return dict(divisions=div, teams=teams, pairs=pairs, profiles=profiles, map_hero=map_hero, map_stats=map_stats(G, heroes),
+                aliases=aliases, history=history,
                 map_bans=map_ban_habits(db), games=len(G), mmr_players=len(mmr), curated=cfg["team"])
 
 

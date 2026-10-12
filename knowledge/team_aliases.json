@@ -1,0 +1,200 @@
+[
+ {
+  "team": "YCMYCCaST:Rebels oftheMeta",
+  "former": "YCMYCCaST: Ahsoka (Da Lanes)",
+  "shared": 6,
+  "core_now": 7,
+  "core_before": 6,
+  "ratio": 1.0,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Toxic Lizards",
+  "former": "Habitual Line Steppers",
+  "shared": 5,
+  "core_now": 6,
+  "core_before": 7,
+  "ratio": 0.83,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Randy Newman",
+  "former": "BeatGen: El Classico",
+  "shared": 2,
+  "core_now": 7,
+  "core_before": 6,
+  "ratio": 0.33,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Randy Newman",
+  "former": "Heavy Greg",
+  "shared": 2,
+  "core_now": 7,
+  "core_before": 7,
+  "ratio": 0.29,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Gen.M Esports",
+  "former": "Gambit Gaming",
+  "shared": 2,
+  "core_now": 6,
+  "core_before": 5,
+  "ratio": 0.4,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "BG I Need My Caster Role",
+  "former": "BeatGen: El Classico",
+  "shared": 4,
+  "core_now": 6,
+  "core_before": 6,
+  "ratio": 0.67,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Hat saika and r",
+  "former": "TouchGrassTomorrow",
+  "shared": 2,
+  "core_now": 6,
+  "core_before": 7,
+  "ratio": 0.33,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Cats On My Saddle",
+  "former": "Cats On My Keyboard",
+  "shared": 2,
+  "core_now": 7,
+  "core_before": 6,
+  "ratio": 0.33,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Crowd Control Syndicate",
+  "former": "Let's Spam Dehaka",
+  "shared": 2,
+  "core_now": 6,
+  "core_before": 6,
+  "ratio": 0.33,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Magnitude: Oblivion",
+  "former": "Magnitude: Aftershock",
+  "shared": 2,
+  "core_now": 9,
+  "core_before": 6,
+  "ratio": 0.33,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Uncle Chens House of Blues",
+  "former": "Well, you know...",
+  "shared": 4,
+  "core_now": 7,
+  "core_before": 6,
+  "ratio": 0.67,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Roll1Esports",
+  "former": "Completely Clueless Strategies",
+  "shared": 2,
+  "core_now": 6,
+  "core_before": 7,
+  "ratio": 0.33,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "LTK - Shaken, Not Tilted",
+  "former": "LTK - Groovy Baby!",
+  "shared": 5,
+  "core_now": 6,
+  "core_before": 9,
+  "ratio": 0.83,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Is Shoopufff Inting Still",
+  "former": "Four Blatant Inters",
+  "shared": 7,
+  "core_now": 11,
+  "core_before": 9,
+  "ratio": 0.78,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": "several teams share this former roster (a split)"
+ },
+ {
+  "team": "Can't Counterpick Stupid",
+  "former": "Start Slow Then Taper Off",
+  "shared": 2,
+  "core_now": 7,
+  "core_before": 6,
+  "ratio": 0.33,
+  "confidence": "low",
+  "former_still_exists": false,
+  "note": ""
+ },
+ {
+  "team": "Fake Taxi",
+  "former": "Banana Fever",
+  "shared": 4,
+  "core_now": 5,
+  "core_before": 8,
+  "ratio": 0.8,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": "several teams share this former roster (a split)"
+ },
+ {
+  "team": "Pending",
+  "former": "Banana Fever",
+  "shared": 4,
+  "core_now": 5,
+  "core_before": 8,
+  "ratio": 0.8,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": "several teams share this former roster (a split)"
+ },
+ {
+  "team": "Is Shoopufff Still Inting",
+  "former": "Four Blatant Inters",
+  "shared": 3,
+  "core_now": 5,
+  "core_before": 9,
+  "ratio": 0.6,
+  "confidence": "high",
+  "former_still_exists": false,
+  "note": "several teams share this former roster (a split)"
+ }
+]
