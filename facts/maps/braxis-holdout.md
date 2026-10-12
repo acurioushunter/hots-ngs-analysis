@@ -1,6 +1,6 @@
 # Braxis Holdout: map fact sheet
 
-Built 2026-10-12. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
 
 **Icy Veins prefers:** Gankers, Global presence, Point control for Boss Camp, Point control for Objective, Quests to stack on Heroes, Strong early game, Sustain damage/healing, Moderate waveclear
 
@@ -9,13 +9,13 @@ Built 2026-10-12. Icy Veins draft advice and tier lists, plus 3 Season 22 games.
 ## Records on this map
 | Team | Record |
 |---|---|
-| Anomaly | 0-2 |
+| Anomaly | 1-2 |
 | COSMOS | 1-0 |
-| Good Lordy | 2-0 |
+| Good Lordy | 2-1 |
 | Phoenix Rising Amethyst | 0-1 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.0, losers 3.33. Three or more ranged 1-3, two or fewer 2-0.
-**Macro, winners against losers (per minute, k):** camp damage 4.94 v 2.63, structure damage 3.99 v 2.26, minion damage 11.05 v 9.95, experience 2.59 v 1.97. Deaths 7.67 v 17.0. Average length 18.7 minutes.
+**Ranged heroes** (Blaze not counted): winners average 2.25, losers 3.25. Three or more ranged 2-4, two or fewer 2-0.
+**Macro, winners against losers (per minute, k):** camp damage 4.74 v 2.66, structure damage 4.26 v 1.86, minion damage 11.36 v 10.33, experience 2.6 v 2.06. Deaths 8.25 v 16.0. Average length 18.3 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
@@ -66,6 +66,6 @@ Built 2026-10-12. Icy Veins draft advice and tier lists, plus 3 Season 22 games.
 | Ltlbearista | Anduin | Healer | A |
 
 ## Most used heroes on this map (NGS)
-Tassadar 1-1, Auriel 0-2, Johanna 1-1, Cassia 0-1, Arthas 0-1, Yrel 0-1, Anduin 1-0, Maiev 1-0, Varian 1-0, The Lost Vikings 1-0, Jaina 1-0, Kael'thas 1-0, Li Li 1-0, Stitches 1-0
+Tassadar 2-1, Johanna 2-1, Auriel 0-2, Leoric 2-0, Rexxar 0-2, Cassia 0-1, Arthas 0-1, Yrel 0-1, Anduin 1-0, Maiev 1-0, Varian 1-0, The Lost Vikings 1-0, Jaina 1-0, Kael'thas 1-0
 
-Most banned: Chen 2, Stukov 2, Anduin 2, Kerrigan 1, Sylvanas 1, Sgt. Hammer 1, Zeratul 1, Anub'arak 1
+Most banned: Anduin 3, Chen 2, Stukov 2, Anub'arak 2, Kerrigan 1, Sylvanas 1, Sgt. Hammer 1, Zeratul 1

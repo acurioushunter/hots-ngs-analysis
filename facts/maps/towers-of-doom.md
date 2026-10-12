@@ -22,7 +22,7 @@ Built 2026-10-12. Icy Veins draft advice and tier lists, plus 8 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Falstad 0-1 | Hanzo 11-6, Sylvanas 5-6, Junkrat 5-4, Medivh 3-6, Falstad 1-2 |
+| hunterstag | Falstad 0-1 | Hanzo 11-6, Sylvanas 5-6, Junkrat 5-4, Medivh 3-6, Chromie 3-0 |
 | chelsi | Gul'dan 0-1 | n/a |
 | SoulShepherd | Blaze 0-1 | n/a |
 | NorthrnTouch | Johanna 0-1 | n/a |

@@ -7,16 +7,16 @@ Updated Oct 7 with the Garden and healer lessons and a map by map plan. Sources:
 - **A hero already picked cannot be banned in round two.** Lock Thrall or Tychus by **slot 9** (first pick) or **slot 7** (second pick).
 - **Their first picks:** Johanna 4 times (Valkamer 5-1), Sylvanas 2, Qhira 2. Best hero Lunara (WitsEnd 8-3). Carry ShadowDroid (Gazlowe, Dehaka, Ragnaros).
 - **Deaths decide it.** All four losses to CCS had 15 to 18 deaths. Every CCS player's deaths roughly double when they lose.
-- **Healer pattern:** CCS is **3-6 against Brightwing or Anduin teams and 9-0 against any other healer.** We are 2-1 with Brightwing against them and 0-3 with Rehgar or Stukov. Our own Brightwing record this season is 8-4.
+- **Healer pattern:** CCS is **3-6 against Brightwing or Anduin teams and 11-0 against any other healer.** We are 2-1 with Brightwing against them and 0-3 with Rehgar or Stukov. Our own Brightwing record this season is 8-4.
 - **Our players, this season in NGS:** chelsi **Tychus 7-2 (0.7 deaths)**, Thrall 3-1, Chromie 2-1. NorthrnTouch **Muradin 4-0 (0.8 deaths)**, Johanna 4-3, E.T.C. 2-2 (2.8 deaths). Hunter Sylvanas 6-4. SoulShepherd Blaze 6-4, Leoric 5-4. Ltlbearista Brightwing 8-4, Rehgar 4-3.
 
 ## 1. The coin toss
 **If we win it, take first pick, let them have the map.** It is close, and here are the numbers both ways:
 | Record | PRA | CCS |
 |---|---|---|
-| All season 22 games | 7-7 with first pick, **7-2 with map pick** | **9-2 with first pick**, 3-4 with map pick |
+| All season 22 games | 7-7 with first pick, **7-2 with map pick** | **11-2 with first pick**, 3-4 with map pick |
 | Against each other | 2-2 when we had first pick, **0-2 when they did** | |
-- Our overall record is better when we pick the map, but against CCS specifically we are 0-2 when they have first pick, and CCS is 9-2 with it. Giving first pick to the team that is 9-2 with it is the bigger risk, and first pick lets us take Sylvanas at slot 5 before UnicycleYay can.
+- Our overall record is better when we pick the map, but against CCS specifically we are 0-2 when they have first pick, and CCS is 11-2 with it. Giving first pick to the team that is 11-2 with it is the bigger risk, and first pick lets us take Sylvanas at slot 5 before UnicycleYay can.
 - If you prefer the map, use Section 4. The cost is that they open the draft.
 **If we lose the toss,** CCS will take first pick, so we have the map. Use Section 4.
 
@@ -129,7 +129,7 @@ Round one bans are Johanna and Lunara unless a line says otherwise. "Their usual
 **If Infernal Shrines comes up:** wants a double healer and high wave clear. Brightwing and Rehgar, Sylvanas, Tychus, Muradin. Our only win here was Anduin, Sylvanas, Muradin, Blaze, Tychus in 14 minutes. Shrines is 7-3 for teams with three or more ranged heroes and 4-8 with two or fewer.
 
 ## 8. Lessons that apply to every map
-- **Qhira (UnicycleYay):** do not ban her in round one. He is 2-3 on her (4.0 deaths) and 8-2 on everything else, and the one time we banned her he went Sylvanas 7/0/9. Deny his marksmen (Sylvanas, Hanzo). If he takes Qhira, draft a stun tank and Brightwing, stay together, and kill her in the fights. Icy Veins lists her counters as E.T.C., Diablo, Garrosh, Lunara and Tracer.
+- **Qhira (UnicycleYay):** do not ban her in round one. He is 2-3 on her (4.0 deaths) and 10-2 on everything else, and the one time we banned her he went Sylvanas 7/0/9. Deny his marksmen (Sylvanas, Hanzo). If he takes Qhira, draft a stun tank and Brightwing, stay together, and kill her in the fights. Icy Veins lists her counters as E.T.C., Diablo, Garrosh, Lunara and Tracer.
 - **Healer:** Brightwing first. CCS is 3-6 against Brightwing or Anduin teams.
 - **Garden:** two or fewer ranged heroes (4-1, against 0-3 with three or more), do not leave E.T.C. alone, ban Ragnaros.
 - **Tomb:** three or more ranged heroes (7-3, against 2-6). Do not end on one.

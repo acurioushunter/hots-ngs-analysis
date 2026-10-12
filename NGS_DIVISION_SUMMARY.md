@@ -1,5 +1,7 @@
 # Division C West, Season 22: every game, bans and all
 
+> **Update 2026-10-12:** the division now has 60 games (four new ones: Roll1Esports v CCS on Tomb and Infernal Shrines, Good Lordy v Anomaly on Braxis Holdout and Cursed Hollow). Headline counts that were re-checked are marked with 60 games. Per hero and per map tables below were built on the first 56 games (Oct 7), so treat their small samples as slightly stale until `build_ngs_division.py` is re-run and pasted.
+
 Source: the NGS match pages on Heroes Profile (esport NGS), saved one file per game in `knowledge/raw/ngs/matches/` (56 games, rounds 1 to 9). Built into `knowledge/ngs_div.db` by `build_ngs_division.py`, checked by `test_ngs_division.py` (it agrees with the older `hots_s22.db` on every winner, hero list and hero ban for the original 53 games).
 Tables: `ngs_game` (map, length, winner, first and map pick team, round, game), `ngs_hero_ban` and `ngs_pick` (with slot and team), `ngs_map_ban` (per series), `ngs_player_game` (rating, kills, assists, takedowns, deaths, hero damage, siege, minions, camps, experience, talents).
 

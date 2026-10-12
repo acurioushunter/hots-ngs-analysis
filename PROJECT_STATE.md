@@ -1,6 +1,6 @@
 # Project state and handoff (read after CLAUDE.md)
 
-Written 2026-10-07. This is what a new session needs to carry on without the chat history.
+Written 2026-10-07, state updated 2026-10-12. This is what a new session needs to carry on without the chat history.
 
 ## Who
 - **Hunter** (hunterstag#1314) plays a roaming ranged assassin for **Phoenix Rising Amethyst (PRA)** in Nexus Gaming Series (NGS) **Division C West, Season 22**. He is not a programmer and does not use git: Claude handles all of it (see "Git" below).
@@ -8,8 +8,8 @@ Written 2026-10-07. This is what a new session needs to carry on without the cha
 - Hunter wants plain explanations, honest uncertainty, and options with reasons. He corrects numbers quickly, so check every figure before writing it down (several documents were fixed after he caught an error).
 
 ## Where the season stands (verified from `knowledge/ngs_div.db`)
-- 56 games, six teams, newest game 23347 (the Oct 6 PRA v Cosmos match, PRA won 2-1).
-- Records: Cosmos 14-7, PRA 14-9, CCS 12-6, Good Lordy 9-6, Roll1Esports 5-12, Anomaly 2-16.
+- 60 games, six teams, newest game 23372 (Good Lordy v Anomaly, Oct 9). PRA's last match was Oct 6 v Cosmos (won 2-1).
+- Records: Cosmos 14-7, PRA 14-9, CCS 14-6, Good Lordy 9-8, Roll1Esports 5-14, Anomaly 4-16.
 - **Next opponent: CCS (Can't Counterpick Stupid)**, the likely final. The date is not known. The match is a best of 3. The coin toss winner chooses first pick or map pick.
 - Six Good Lordy games are not on Heroes Profile and cannot be pulled.
 

@@ -1,5 +1,7 @@
 # Draft lessons and team comps by map (Division C West, Season 22)
 
+> **Update 2026-10-12:** the division now has 60 games (four new ones: Roll1Esports v CCS on Tomb and Infernal Shrines, Good Lordy v Anomaly on Braxis Holdout and Cursed Hollow). Headline counts that were re-checked are marked with 60 games. Per hero and per map tables below were built on the first 56 games (Oct 7), so treat their small samples as slightly stale until `analyze_ranged_by_map.py` is re-run and pasted.
+
 Built from all 56 games in `knowledge/ngs_div.db`. "Ranged" means the hero's type on Heroes Profile (so Brightwing, Anduin and Tyrande count as ranged, Thrall, Leoric and Rehgar do not), **except Blaze, who is counted as melee** (an offlaner whose range is too short to count, per hunterstag). `python analyze_ranged_by_map.py` reprints the ranged tables. "High clear" means 3,500 or more minion damage a minute. Every per map number rests on 2 to 11 games, so these are patterns to test, not rules.
 
 ## 1. Last night's Tomb draft, slot by slot (game 1, 29:35, loss)

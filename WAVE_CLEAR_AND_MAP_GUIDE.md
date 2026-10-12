@@ -1,22 +1,24 @@
 # Wave clear, camps and objectives: what wins in Division C West and how we draft for it
 
-Built from all 56 Season 22 games (`knowledge/ngs_div.db`, per minute numbers from each player's own stats) plus the Icy Veins map guides. Rerun `python analyze_wave_clear.py` for the raw tables. Everything here is correlation from small samples: winners naturally take more camps, towers and experience, so read it as "what our wins and losses look like", not proof of cause.
+> **Update 2026-10-12:** the division now has 60 games (four new ones: Roll1Esports v CCS on Tomb and Infernal Shrines, Good Lordy v Anomaly on Braxis Holdout and Cursed Hollow). Headline counts that were re-checked are marked with 60 games. Per hero and per map tables below were built on the first 56 games (Oct 7), so treat their small samples as slightly stale until `analyze_wave_clear.py` is re-run and pasted.
+
+Built from the Season 22 games (`knowledge/ngs_div.db`, per minute numbers from each player's own stats) plus the Icy Veins map guides. Rerun `python analyze_wave_clear.py` for the raw tables. Everything here is correlation from small samples: winners naturally take more camps, towers and experience, so read it as "what our wins and losses look like", not proof of cause.
 
 ## The short version
-1. **Raw minion damage does not decide games here.** The team with more minion damage won only 22 of 56 games. The team with more **camp damage** won 50 of 56, more **structure damage** 50, more **experience** 49, more **takedowns** 49.
+1. **Raw minion damage does not decide games here.** The team with more minion damage won only 24 of 60 games. The team with more **camp damage** won 54 of 60, more **structure damage** 54, more **experience** 52, more **takedowns** 52.
 2. **The heroes that clear well still matter a little, and on Tomb a lot.** Teams with two or more strong wave clear heroes (3,500 or more minion damage per minute) won 55% of games, teams with one or none 45%. On **Tomb of the Spider Queen teams with only one such hero were 0-3**.
 3. **Last night's Tomb loss was not a clear gap in total wave clear** (Cosmos 17.1k per minute against our 16.1k, and we had more experience and structure damage). It was **who** cleared. Cosmos had three heroes at 4.1k to 5.4k per minute (Kael'thas, Greymane, Yrel). We had two (Leoric 5.9k and Thrall 5.1k, both melee), while Sylvanas cleared only 1.7k, Tyrael 2.6k and Rehgar 0.9k. They also took far more camps (140k camp damage against our 110k). Whether we lost early towers cannot be seen in this data (NGS gives no timeline), but the shape matches what you saw.
 4. **Against CCS the macro was even, and we lost on deaths.** In our six games the teams were within 6% on minion damage, 1% on camp damage and 3% on experience. In all four losses we died 15 to 18 times against 5 to 11 for CCS. In the two wins we died 7 and 2 times.
 5. **Sylvanas is not a wave clear hero by minion damage** (2.0k per minute across 26 games, and 1.7k for Hunter in Tomb). She is a push, camp and structure hero: Possession on enemy minions, 1.3k structure and 1.5k camp damage per minute in this division, and in Storm League last year 25.4k structure damage a game (Junkrat 17.2k). In Tomb last night Hunter's structure damage per minute (0.90k) matched the best on our team. On a map that says "avoid low wave clear", the clear has to come from the other four players.
 
-## What predicts a win (56 games)
+## What predicts a win (60 games)
 | Stat | Team with more of it won |
 |---|---|
-| Minion damage | 22 of 56 |
-| Camp damage | 50 of 56 |
-| Structure damage | 50 of 56 |
-| Experience contribution | 49 of 56 |
-| Takedowns | 49 of 56 |
+| Minion damage | 24 of 60 |
+| Camp damage | 54 of 60 |
+| Structure damage | 54 of 60 |
+| Experience contribution | 52 of 60 |
+| Takedowns | 52 of 60 |
 
 **Number of strong wave clear heroes on a team** (strong heroes: Blaze, Dehaka, Gazlowe, Gul'dan, Junkrat, Kael'thas, Kerrigan, Leoric, Lunara, Orphea, Ragnaros, Rexxar, Sonya, Tassadar, Thrall, Yrel):
 - All maps: 0 high clear: 4-6, 1 high clear: 21-25, 2 high clear: 28-22, 3+ high clear: 3-3

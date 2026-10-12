@@ -6,7 +6,7 @@ Built from the Season 22 NGS games we have (18 of CCS's 21 games, the missing th
 1. **We are 0-2 against CCS (both 1-2), and both times we won game 1 and lost games 2 and 3.** In all four losses they had banned both Junkrat and Thrall. In our two wins at most one of them was banned. The final is decided by pool depth, not by game 1.
 2. **CCS bans Junkrat (5 of 6 games against us), Thrall (5), Chromie (3) and Tychus (2).** Junkrat and Chromie go in round one, Thrall and Tychus in round two (slot 10 or 11). So **lock chelsi's Thrall by slot 9** (first pick) or slot 7 (second pick) and it cannot be banned late. Junkrat cannot be had, so Hunter plays Sylvanas, then Orphea or Chromie.
 3. **Their carry is ShadowDroid** (Gazlowe 3-1 with a 76 average rating, Dehaka 4-2 with 68). **Johanna (Valkamer is 5-1 on it) counters Tychus and Brightwing,** two of our core picks, so Johanna has to be taken or banned first.
-4. **Choose first pick if we win the toss.** CCS is 9-2 when they get first pick but only 3-4 when they pick the map, and 2-2 against us as map pickers. Ban Towers of Doom and Infernal Shrines.
+4. **Choose first pick if we win the toss.** CCS is 11-2 when they get first pick but only 3-4 when they pick the map, and 2-2 against us as map pickers. Ban Towers of Doom and Infernal Shrines.
 5. Their weak links are **ûltear** (Gold 3 in Storm League, 2,637) and **UnicycleYay** (Qhira 2-3, Garrosh and Diablo in Storm League). Their best rated player is **Valkamer** (Diamond 3, 2,883).
 
 ## How we have lost to them
@@ -54,7 +54,7 @@ You are 2-4. Junkrat is your only hero they cannot let you play, and they ban it
 - **Their first pick (slot 5):** Johanna 4 times (3-1), Sylvanas 2 (2-0), Qhira 2 (1-1), Stukov, Lunara, Dehaka once.
 - **Most played:** Lunara 11 (8-3), Johanna 7 (5-2), Whitemane 6 (5-1), Dehaka 6 (4-2), Qhira 5 (2-3), Tychus 4 (4-0), Rehgar 4 (4-0), Sylvanas 4 (3-1), Gazlowe 4 (3-1), Hanzo 4 (2-2), Garrosh 4 (1-3).
 - **When they lose** (6 losses in our data), they had Garrosh in 3 of them and Qhira in 3, and the winners had Brightwing or Anduin plus a sturdy frontline.
-- **Style:** balanced or poke comps, 12-6 in our data. They are 9-2 on first pick.
+- **Style:** balanced or poke comps, 14-6 in our data. They are 11-2 on first pick.
 
 ## CCS across all 18 games (every opponent) and our six games in detail
 Source: `knowledge/ngs_div.db`, per minute team totals. Full wave clear and map analysis is in `WAVE_CLEAR_AND_MAP_GUIDE.md`.
@@ -90,7 +90,7 @@ ShadowDroid is their wave clear and camp engine. WitsEnd on Lunara is the only o
 Across the six games: minion damage within 6%, camp damage within 1%, experience within 3%, structure damage 22k against 28k. **We lost every game where we died 15 or more times and won both where we died 7 or fewer.** Only game 23230 (Garden, minion 12.0k against 18.2k) shows a real wave clear gap, and it also shows the worst deaths for NorthrnTouch (E.T.C., 6 deaths).
 **Deaths in our losses:** Hunter 6 (Chromie), 2, 2, 4 (Falstad), chelsi 4, 1, 3, 2, SoulShepherd 5, 5, 2, 4, NorthrnTouch 2, 3, 6, 5, Ltlbearista 1, 4, 2, 2. The tank and offlaner feed most in the long games.
 
-## Maps (CCS record in our data, 12-6)
+## Maps (CCS record in our data, 14-6)
 | Map | CCS | PRA | Verdict |
 |---|---|---|---|
 | **Towers of Doom** | **4-1** (even when others pick it) | 0-1 | **Ban** |
@@ -106,7 +106,7 @@ Our map ban pair: **Towers of Doom and Infernal Shrines.** Maps we want left: Sk
 **Their map ban habit (7 series):** Braxis Holdout 6, Cursed Hollow 4, then one each of Tomb, Dragon Shire, Battlefield of Eternity and Alterac Pass. They have **never banned Towers of Doom or Infernal Shrines**, so those two stay open for them to pick unless we ban them. Against PRA they banned Braxis Holdout plus Cursed Hollow (R2) and Alterac Pass plus Braxis (R7).
 
 ## Coin toss: choose first pick
-- CCS is **3-4 when they pick the map** and **9-2 when they have first pick**. Against us, as map pickers they are 2-2.
+- CCS is **3-4 when they pick the map** and **11-2 when they have first pick**. Against us, as map pickers they are 2-2.
 - First pick gives us bans 1, 3 and 11 and picks 5, 8, 9, 14 and 15. They pick the map and open at slot 6 and 7.
 
 ## Our plan (proven pools only)

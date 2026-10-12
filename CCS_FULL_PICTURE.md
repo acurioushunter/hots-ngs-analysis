@@ -3,7 +3,7 @@
 Built from all 18 CCS games (Season 22, Division C West) with `python analyze_ccs_full.py`, the draft tables in `knowledge/ngs_div.db`, and Icy Veins matchup and map notes. NGS pages have no timeline, so anything about "who led when" is your memory, not something I can check. Small samples throughout.
 
 ## The short version
-1. **CCS is 12-6. All six losses share two things: they died far more (9.5 more deaths than the other team on average) and the opponent had Brightwing or Anduin.** CCS is **3-6 against a Brightwing or Anduin team and 9-0 against every other healer** (Stukov, Rehgar, Tyrande, Malfurion, Whitemane, Auriel, Ana). Part of that is who plays Brightwing (Cosmos, us), but across the whole division Brightwing and Anduin teams are also 27-20 against 29-36 for the rest.
+1. **CCS is 14-6 (20 games, updated Oct 12 with their two Oct 8 wins over Roll1Esports on Tomb and Infernal Shrines). All six losses share two things: they died far more (9.5 more deaths than the other team on average) and the opponent had Brightwing or Anduin.** CCS is **3-6 against a Brightwing or Anduin team and 11-0 against every other healer** (Stukov, Rehgar, Tyrande, Malfurion, Whitemane, Auriel, Ana). Part of that is who plays Brightwing (Cosmos, us), but across the whole division Brightwing and Anduin teams are also 28-20 against 32-40 for the rest.
 2. **Against us it is the same split.** We are 2-1 against CCS when Ltlbearista plays Brightwing and 0-3 when he plays Rehgar (twice) or Stukov.
 3. **Cosmos beat them three times (Tomb, Towers, Infernal Shrines) and lost to them twice (Towers, Volskaya).** The two CCS wins came after they **banned Tassadar, Anub'arak and Valla** and drafted Sylvanas, Whitemane, Lunara and Muradin.
 4. **Garden of Terror, the fight picture:** Qhira did **53k fight damage, two thirds of our whole team's 81k**. CCS dealt 5.0k fight damage a minute to our 3.5k and 264k total hero damage to our 188k. Our tank (E.T.C.) died 6 times and spent 4.4 of the 24 minutes dead. Camps (35 v 34) and structure damage (3.4k v 3.0k a minute, in our favor) were even at the end.
@@ -32,9 +32,9 @@ Per minute totals (CCS first, opponent second), fight damage and poke in k.
 | 23307 | Oct 2 | Infernal Shrines | **Cosmos** | **L** | 24:57 | 18-15 | 5.5-4.7 | 2.4-5.2 | 3.5-4.1 |
 | 23308 | Oct 2 | Towers of Doom | **Cosmos** | W | 15:55 | 5-16 | 5.9-6.1 | 4.8-4.7 | 4.4-2.1 |
 | 23309 | Oct 2 | Volskaya | **Cosmos** | W | 19:41 | 5-14 | 6.1-6.6 | 6.9-5.3 | 8.4-2.3 |
-- **Mean differences, CCS minus opponent.** In 12 wins: deaths -8.3, structure damage +3.7k a minute, camp damage +2.0k, experience +0.5k, takedowns +36. In 6 losses: deaths +9.5, structure damage -2.9k, minion damage -2.3k, experience -0.6k, takedowns -40.
+- **Mean differences, CCS minus opponent.** In 14 wins: deaths -9.4, structure damage +4.1k a minute, camp damage +2.0k, experience +0.6k, takedowns +42. In 6 losses: deaths +9.5, structure damage -2.9k, minion damage -2.3k, experience -0.6k, takedowns -40.
 - **Fight damage and poke are small in both** (about +0.8k in wins and -0.5k in losses). They win the game by winning fights and then taking structures; the six losses are not a poke problem.
-- **Maps for CCS:** Towers of Doom 4-1 (the loss was Cosmos), Infernal Shrines 2-1 (the loss was Cosmos), Dragon Shire 1-1, Tomb 1-1, Volskaya 1-1, Sky Temple 0-1, Alterac 1-0, Battlefield of Eternity 1-0, Garden 1-0.
+- **Maps for CCS:** Towers of Doom 4-1 (the loss was Cosmos), Infernal Shrines 3-1 (the loss was Cosmos), Dragon Shire 1-1, Tomb 2-1, Volskaya 1-1, Sky Temple 0-1, Alterac 1-0, Battlefield of Eternity 1-0, Garden 1-0.
 
 ## 2. The six CCS losses, drafts and bans
 | Game | Map | Opponent draft | CCS draft | CCS bans, opp bans |
@@ -135,6 +135,6 @@ Per game averages, wins (12) against losses (6).
 6. **Win by deaths:** CCS loses when each of their players dies 2 to 3 times more. Fight near our structures and our camps, and do not feed WitsEnd or ShadowDroid.
 
 ## Limits
-- Eighteen CCS games, five Qhira games, six losses. The healer split is 9 games against 9, and CCS's opponents in the 9-0 group are mostly weaker teams.
+- Twenty CCS games, five Qhira games, six losses. The healer split is 9 games against 11, and CCS's opponents in the 11-0 group are mostly weaker teams. The two newest games (23367 Tomb, 23368 Infernal Shrines) were both wins over Roll1Esports and are not in the game table below.
 - No timeline. I cannot see who led at 10 minutes, which fight started the snowball, or what Ragnaros was doing on the map. Your account of those parts stands.
 - Counter lists come from Icy Veins guides, not from our data.

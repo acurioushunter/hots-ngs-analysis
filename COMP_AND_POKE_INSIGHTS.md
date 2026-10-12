@@ -1,5 +1,7 @@
 # Burst, poke and sustained damage: what the data says about our drafts
 
+> **Update 2026-10-12:** the division now has 60 games (four new ones: Roll1Esports v CCS on Tomb and Infernal Shrines, Good Lordy v Anomaly on Braxis Holdout and Cursed Hollow). Headline counts that were re-checked are marked with 60 games. Per hero and per map tables below were built on the first 56 games (Oct 7), so treat their small samples as slightly stale until `analyze_poke_vs_burst.py` is re-run and pasted.
+
 You asked me to look at burst versus sustained damage instead of just auto attackers, because a Gul'dan can poke out a tank as well as a Valla can. The match pages give every player's damage **inside** and **outside** team fights, so I used that. `python analyze_poke_vs_burst.py` reprints the main numbers. 56 games, Division C West Season 22. Small samples, treat as leans.
 
 ## How I measured it
@@ -31,7 +33,7 @@ You asked me to look at burst versus sustained damage instead of just auto attac
 So the heroes that actually chip a tank down in this division are the **ability pokers** (Chromie, Junkrat, Gul'dan, Tassadar, Hanzo, Li-Ming, Kael'thas), not Greymane and Valla. Your point is right: a Gul'dan or a Kael'thas outpokes a Valla, and they are the ones a tank has to worry about. Chromie and Junkrat chip hard but do little in fights, so they need a partner that punishes. Thrall punishes (1.5k a minute in fights) but barely pokes.
 
 ## What the actual poke margin does in a game
-- The team that dealt more poke damage won **39 of 56** games. The team with more fight damage won 36.
+- The team that dealt more poke damage won **41 of 60** games. The team with more fight damage won 38.
 - **Poke margin to results:** +3k or more 5-0, +1k to +3k 23-8, within 1k 20-20, -1k to -3k 8-23, -3k or worse 0-5. A 1k edge is 28-8 and a 1k deficit is 8-28.
 - **PRA:** with a poke edge of 1k or more we are **9-2**, with a deficit of 1k or more **1-5**.
 - **Last night's Tomb loss (23345):** we were outpoked 4.3k to 6.2k a minute (a deficit of 1.9k) even though we outfought them (6.9k to 5.3k). That is exactly your picture: Cosmos chipped us with Kael'thas, Greymane and Brightwing, we had no ranged poke to answer, and we only won the fights that happened.
@@ -43,7 +45,7 @@ That means "draft more poke" is not a rule. What it points to is **play**: not l
 ## What does predict the result at draft time
 | Signal | Record | Notes |
 |---|---|---|
-| **2 or more marksmen** on the team | **13-6 (68%)** | 1 marksman is 36-42 (46%), 0 is 7-8 |
+| **2 or more marksmen** on the team | **13-6 (68%)** | 1 marksman is 40-43 (48%), 0 is 7-11 |
 | Facing 2 or more marksmen with 1 or none of our own | **5-12** | with 1 marksman it is 3-9 |
 | **Exactly 2 real damage dealers** (2,400+ a minute) | **37-23 (62%)** | with only 1 it is **12-22 (35%)**, with 3 it is 3-5 |
 | Tomb: 3 or more ranged heroes | 7-3 | 2 or fewer 2-6 |
@@ -51,7 +53,7 @@ That means "draft more poke" is not a rule. What it points to is **play**: not l
 | Icy Veins counters, net in our favor | 24-20 (55%) | a small edge. Net against 20-24 |
 | Tank plus bruiser count (1, 2, 3) | 3-2, 49-49, 4-5 | not a signal |
 | One healer or support v two | 54-53 v 2-3 | not a signal |
-| First pick v map pick | CCS 9-2 and 3-4, PRA 7-7 and 7-2, COSMOS 7-3 and 7-4 | team specific |
+| First pick v map pick | CCS 11-2 and 3-4, PRA 7-7 and 7-2, COSMOS 7-3 and 7-4 | team specific |
 **Comp styles (our hero tags):** the pure poke and siege comps are **2-12**. Brawl and sustain comps are 7-2 against them, balanced 3-0, dive 2-0. Poke alone loses to the comps that run it down.
 **Greymane and Valla in this division:** Greymane is 8-3 (73%), Valla is 2-6 (25%). Teams facing Greymane are 3-8. Icy Veins counters to Greymane are Brightwing, Johanna, Muradin, Arthas, Uther, The Butcher and Xul. Valla is countered by Greymane, Illidan, Nova, The Butcher, Valeera and Zeratul.
 
@@ -72,6 +74,6 @@ What I would do with that:
 - **Do not draft one real damage dealer.** Teams with one are 12-22. We have two (Hunter and chelsi) only if both are on high damage heroes (Raynor, Falstad and Leoric are not).
 
 ## Caveats
-- Hero averages come from this division's 56 games, so a hero with a few games (Orphea has 3) is not reliable.
+- Hero averages come from this division's 60 games, so a hero with a few games (Orphea has 3) is not reliable.
 - NGS match pages have no early game timeline, so "feels bad in the early game" cannot be measured. These numbers are whole game.
 - The marksman list and the 2,400 line are my judgment, not Icy Veins.

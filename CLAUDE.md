@@ -31,7 +31,7 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - Published phone artifact (private): https://claude.ai/artifact/QuQ1FdsJfFn7sH3988KrYU. To update it, publish `draft_tool_artifact.html` with that `url` (read it first). Do not create a second artifact.
 - Never edit the generated files by hand. A hero named in config must exist or the build stops.
 
-## State as of 2026-10-07
-- 56 of 56 Division C West games on Heroes Profile are on disk (through 23347, the Oct 6 PRA v Cosmos match). Six Good Lordy games are not on Heroes Profile.
-- Hunter's Storm League data ends Oct 5.
+## State as of 2026-10-12
+- 60 of 60 Division C West games on Heroes Profile are on disk (through 23372, Good Lordy v Anomaly on Oct 9). Six Good Lordy games are not on Heroes Profile. A pull of the other divisions' season 22 games (440 games, raw match pages) is PARTIAL: 147 are in `knowledge/raw/ngs/other_divisions/` (not in git, no builder yet); the list of all 500 season 22 game ids is `knowledge/raw/ngs/season22_all_list.json`. Resume by pulling only ids that are in neither `matches/` nor `other_divisions/`.
+- Hunter's game history (`hunter_hp.db`, 4,741 games) runs to Oct 12. His profile summary files are still from Oct 6, so `test_hunter.py` fails by 5 wins and 1 loss until `profile.json` (all and sl) is re-pulled.
 - Next opponent: CCS (Can't Counterpick Stupid), the likely final. PRA beat Cosmos 2-1 on Oct 6 (Cosmos won Tomb).

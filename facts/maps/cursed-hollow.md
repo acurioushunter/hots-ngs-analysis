@@ -1,6 +1,6 @@
 # Cursed Hollow: map fact sheet
 
-Built 2026-10-12. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/cursed-hollow.md` for written lessons.
+Built 2026-10-12. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/cursed-hollow.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Effects relying on impassable terrain, Global presence, Point control for Boss Camp, Poke tools for Objective, Split-push, Vision tools
 
@@ -9,12 +9,13 @@ Built 2026-10-12. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 ## Records on this map
 | Team | Record |
 |---|---|
-| Anomaly | 0-2 |
+| Anomaly | 1-2 |
 | COSMOS | 1-0 |
+| Good Lordy | 0-1 |
 | Phoenix Rising Amethyst | 1-0 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.5, losers 3.0. Three or more ranged 1-2, two or fewer 1-0.
-**Macro, winners against losers (per minute, k):** camp damage 8.52 v 3.16, structure damage 5.72 v 1.15, minion damage 9.89 v 16.34, experience 2.78 v 2.58. Deaths 4.0 v 11.5. Average length 18.9 minutes.
+**Ranged heroes** (Blaze not counted): winners average 2.67, losers 2.67. Three or more ranged 2-2, two or fewer 1-1.
+**Macro, winners against losers (per minute, k):** camp damage 8.38 v 3.9, structure damage 5.2 v 1.17, minion damage 10.89 v 16.8, experience 2.79 v 2.82. Deaths 8.67 v 11.67. Average length 22.3 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
@@ -65,6 +66,6 @@ Built 2026-10-12. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 | Ltlbearista | Anduin | Healer | A |
 
 ## Most used heroes on this map (NGS)
-Tychus 2-0, Sylvanas 1-1, Muradin 1-1, Rehgar 1-0, Blaze 1-0, Thrall 0-1, Anub'arak 0-1, Lunara 0-1, Whitemane 0-1, Li-Ming 0-1, Chromie 0-1, Brightwing 0-1, Ragnaros 0-1, Orphea 1-0
+Blaze 1-1, Tychus 2-0, Sylvanas 1-1, Muradin 1-1, Brightwing 1-1, Ragnaros 0-2, Rehgar 1-0, Thrall 0-1, Anub'arak 0-1, Lunara 0-1, Whitemane 0-1, Li-Ming 0-1, Chromie 0-1, Orphea 1-0
 
-Most banned: Abathur 2, Falstad 2, Brightwing 1, Dehaka 1, Ragnaros 1, Stukov 1, Anub'arak 1, Tassadar 1
+Most banned: Abathur 2, Falstad 2, Anub'arak 2, Lunara 2, Brightwing 1, Dehaka 1, Ragnaros 1, Stukov 1

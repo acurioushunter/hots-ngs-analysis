@@ -29,7 +29,7 @@ for team, t in data["teams"].items():
     check(f"{team}: first pick record matches", t["first_pick"] == [fp[0], fp[1] or 0], (t["first_pick"], fp))
 
 ccs = data["teams"]["Can't Counterpick Stupid"]
-check("CCS is 12-6 (known from the Oct 7 analysis)", (ccs["wins"], ccs["games"] - ccs["wins"]) == (12, 6), "")
+check("CCS is 14-6 (60 games, through Oct 9)", (ccs["wins"], ccs["games"] - ccs["wins"]) == (14, 6), "")
 q = db.execute("SELECT COUNT(*), SUM(won) FROM ngs_player_game WHERE battletag='UnicycleYay' AND hero='Qhira'").fetchone()
 r = ccs["players"]["UnicycleYay"]["heroes"]["Qhira"]
 check("UnicycleYay Qhira 5 games 2 wins matches SQL and is flagged weak", (r["g"], r["w"]) == (q[0], q[1]) == (5, 2) and r["weak"], r)
@@ -39,7 +39,7 @@ late = db.execute("SELECT COUNT(*) FROM ngs_hero_ban b JOIN ngs_game g USING(rep
 check("CCS round two Thrall bans against us match SQL (4)", ccs["bans_r2_vs_us"].get("Thrall") == late and late > 0, (ccs["bans_r2_vs_us"].get("Thrall"), late))
 
 tomb = data["map_stats"]["Tomb of the Spider Queen"]["ranged_rec"]
-check("Tomb ranged record is 7-3 and 2-6 with Blaze counted as melee", tomb == {"3+": [10, 7], "2-": [8, 2]}, tomb)
+check("Tomb ranged record is 8-4 and 2-6 with Blaze counted as melee", tomb == {"3+": [12, 8], "2-": [8, 2]}, tomb)
 check("Blaze is not ranged, Brightwing is", data["heroes"]["Blaze"]["ranged"] is False and data["heroes"]["Brightwing"]["ranged"] is True, "")
 
 chelsi = next(p for p in data["us"]["players"] if p["tag"] == "chelsi")
