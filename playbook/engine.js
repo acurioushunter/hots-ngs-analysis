@@ -19,9 +19,11 @@
   };
 
   E.newDraft = function (opp, side, map) {
-    return { opp, side, map: map || null, actions: [] };
+    return { opp, side, map: map || null, actions: [], series: [] };
   };
-  E.clone = function (st) { return { opp: st.opp, side: st.side, map: st.map, actions: st.actions.map(a => Object.assign({}, a)) }; };
+  E.clone = function (st) { return { opp: st.opp, side: st.side, map: st.map, series: st.series || [], actions: st.actions.map(a => Object.assign({}, a)) }; };
+  // what happened in the earlier games of this best of three: {map, won, ours: [heroes], theirs: [heroes]}
+  E.seriesGames = function (st) { return st.series || []; };
   E.nextSlot = function (st) { return st.actions.length < 16 ? E.plan(st.side)[st.actions.length] : null; };
   E.apply = function (st, hero, player) {
     const s = E.nextSlot(st);
@@ -233,6 +235,13 @@
         const risk = opp ? Math.min(1, (((opp.hero_picks[h] || [0])[0]) + (opp.bans_r1[h] || 0) + (opp.bans_r2[h] || 0)) / oppGames) : 0;
         if (loss > 0.4) { score += w.irreplaceable * loss * (0.2 + 2 * risk); if (loss > 1.2 && risk > 0.15) reasons.push("hard to replace (our plan loses " + loss.toFixed(1) + " points) and they pick or ban it in " + Math.round(risk * 100) + "% of games"); }
       }
+      E.seriesGames(st).forEach((g, gi) => {
+        if (g.ours && g.ours.indexOf(h) >= 0) {
+          reasons.push("we " + (g.won ? "won" : "lost") + " game " + (gi + 1) + " of this series with it");
+          if (g.won) score += 0.3;
+        }
+        if (g.theirs && g.theirs.indexOf(h) >= 0) reasons.push("they played it in game " + (gi + 1) + (g.won ? " and lost" : " and won"));
+      });
       // our own record with this hero against this opponent (a lean only, tiny samples)
       const ov = opp && opp.our_heroes_vs_them && opp.our_heroes_vs_them[h];
       if (ov && ov[0] >= 1) {
@@ -316,6 +325,12 @@
         if (r.kind === "ban_discount" && r.heroes[h] != null) { score *= r.heroes[h]; flags.push("PROBABLY DO NOT BAN"); reasons.push(r.why); }
       });
       if (info.marksman) { score += 0.2; }
+      E.seriesGames(st).forEach((g, gi) => {
+        if (g.theirs && g.theirs.indexOf(h) >= 0) {
+          if (!g.won) { score += 0.8; reasons.push("they won game " + (gi + 1) + " of this series with it"); }
+          else reasons.push("they played it in game " + (gi + 1) + " and lost");
+        }
+      });
       out.push({ hero: h, score, reasons, flags });
     });
     // heroes with rule bonuses that never appear in their rows (for example a hero we want gone)

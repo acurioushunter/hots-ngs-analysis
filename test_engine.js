@@ -91,5 +91,18 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   PLAYBOOK.heroes["Blaze"].ranged = false;
   check("Blaze as melee: the same draft is at 2 ranged", E.compSummary(g).ranged === 2, E.compSummary(g).ranged);
 }
+// series: what happened in earlier games of a best of three shows up in the reasons
+{
+  const st = E.newDraft(CCS, "first", "Sky Temple");
+  st.series = [{ map: "Garden of Terror", won: false, ours: ["Sylvanas", "Brightwing"], theirs: ["Johanna", "Ragnaros"] }];
+  const picks = E.recommendPicks(st);
+  const syl = picks.find(p => p.hero === "Sylvanas");
+  check("series: a hero we lost with is mentioned, not boosted", syl && syl.reasons.some(r => /lost game 1 of this series/.test(r)), JSON.stringify(syl && syl.reasons));
+  const bans = E.recommendBans(st);
+  const rag = bans.find(b => b.hero === "Ragnaros");
+  check("series: a hero they won game 1 with is mentioned and boosted", rag && rag.reasons.some(r => /won game 1 of this series/.test(r)), JSON.stringify(rag && rag.reasons));
+  const base = E.recommendBans(E.newDraft(CCS, "first", "Sky Temple")).find(b => b.hero === "Ragnaros");
+  check("series: that ban score is higher than without the series", rag.score > base.score, rag.score + " vs " + base.score);
+}
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);

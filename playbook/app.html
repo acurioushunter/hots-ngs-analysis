@@ -151,7 +151,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   let opponents = [];
   const SAVE = "ngs-draft-room-v2";
   const ROLES = ["Tank", "Bruiser", "Melee Assassin", "Ranged Assassin", "Healer", "Support"];
-  let ui = { tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, aliasOff: {}, ngsSeasons: ["22"], stages: ["reg", "po"], slScopes: [], opp: null, side: null, map: null, actions: [], sim: null, msg: "", showAll: false,
+  let ui = { tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, series: [], aliasOff: {}, ngsSeasons: ["22"], stages: ["reg", "po"], slScopes: ["recent", "mmr"], opp: null, side: null, map: null, actions: [], sim: null, msg: "", showAll: false,
     mapview: null, hq: "", hrole: "All", hscope: "general", hpool: false, hsort: "name", ltab: "tips", gq: "", pq: "", prole: "All" };
 
   // Point the page at the picked team: its roster and pools, the opponents of its division, and the head to head numbers against each.
@@ -160,12 +160,14 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     let us, teams, mh, ms, mb;
     if (!LG || ui.team === CUR.us.team || !LG.profiles[ui.team]) {
       ui.team = CUR.us.team;
-      us = JSON.parse(JSON.stringify(CUR.us)); teams = CUR.teams; mh = CUR.map_hero; ms = CUR.map_stats; mb = CUR.map_bans;
+      us = JSON.parse(JSON.stringify(CUR.us)); mh = CUR.map_hero; ms = CUR.map_stats; mb = CUR.map_bans;
+      teams = Object.assign({}, CUR.teams);
+      // other divisions too (no games against us, so head to head is empty), when the league data is there
+      if (LG) Object.keys(LG.teams).forEach(t => { if (!teams[t]) teams[t] = Object.assign({ notes: "" }, LG.teams[t], emptyVs()); });
     } else {
       us = Object.assign({}, CUR.us, JSON.parse(JSON.stringify(LG.profiles[ui.team])));
-      const div = LG.divisions[ui.team];
       teams = {};
-      Object.keys(LG.teams).filter(t => LG.divisions[t] === div).forEach(t => { teams[t] = Object.assign({ notes: "" }, LG.teams[t], t === ui.team ? emptyVs() : (LG.pairs[t + "|" + ui.team] || emptyVs())); });
+      Object.keys(LG.teams).forEach(t => { teams[t] = Object.assign({ notes: "" }, LG.teams[t], t === ui.team ? emptyVs() : (LG.pairs[t + "|" + ui.team] || emptyVs())); });
       mh = LG.map_hero[ui.team] || {}; ms = LG.map_stats; mb = LG.map_bans;
     }
     // the person using the tool: their own pool entries replace what is guessed for them
@@ -183,11 +185,16 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         }));
         p.ngs = out;
       }
-      if (ui.slScopes.length && p.sl_scopes) {
+      // Storm League hero numbers: the chosen seasons, or the recent window the tool was built with, or nothing at all
+      const sets = ui.slScopes.filter(k => k !== "recent" && k !== "mmr");
+      if (sets.length && p.sl_scopes) {
         const hs = {};
-        ui.slScopes.forEach(k => Object.keys(p.sl_scopes[k] || {}).forEach(h => { const v = p.sl_scopes[k][h]; hs[h] = hs[h] ? [hs[h][0] + v[0], hs[h][1] + v[1]] : [v[0], v[1]]; }));
-        p.sl = { since: ui.slScopes.map(k => k === "all" ? "all time" : "season " + k.slice(1)).join(" + "), heroes: hs, by_map: {}, map_all: {} };
-      } else if (ui.slScopes.length) { p.sl = null; }
+        sets.forEach(k => Object.keys(p.sl_scopes[k] || {}).forEach(h => { const v = p.sl_scopes[k][h]; hs[h] = hs[h] ? [hs[h][0] + v[0], hs[h][1] + v[1]] : [v[0], v[1]]; }));
+        p.sl = { since: sets.map(k => k === "all" ? "all time" : "season " + k.slice(1)).join(" + "), heroes: hs, by_map: {}, map_all: {} };
+      } else if (sets.length || ui.slScopes.indexOf("recent") < 0) {
+        p.sl = null;
+      }
+      if (ui.slScopes.indexOf("mmr") < 0) delete p.sl_mmr;
     });
     if (!(ui.ngsSeasons.length === 1 && has("22") && ui.stages.indexOf("reg") >= 0)) {
       const view = {};
@@ -212,9 +219,22 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       });
       teams = view;
     }
+    if (ui.slScopes.indexOf("mmr") < 0) {
+      const bare = {};
+      Object.keys(teams).forEach(name => {
+        const tm = teams[name], pl = {};
+        Object.keys(tm.players || {}).forEach(tag => { const q = Object.assign({}, tm.players[tag]); delete q.sl_mmr; pl[tag] = q; });
+        bare[name] = Object.assign({}, tm, { players: pl });
+      });
+      teams = bare;
+    }
     P.us = us; P.teams = teams; P.our_map_hero = mh; P.map_stats = ms; P.map_bans = mb;
     P.meta.next_opponent = ui.team === CUR.us.team ? CUR.next : null;
-    opponents = Object.keys(teams).filter(t => t !== us.team).sort();
+    const myDiv = LG && LG.divisions ? LG.divisions[us.team] : null;
+    opponents = Object.keys(teams).filter(t => t !== us.team).sort((a, b) => {
+      const sa = LG && LG.divisions[a] === myDiv ? 0 : 1, sb = LG && LG.divisions[b] === myDiv ? 0 : 1;
+      return sa - sb || a.localeCompare(b);
+    });
     if (!ui.opp || !teams[ui.opp] || ui.opp === us.team) ui.opp = (P.meta.next_opponent && teams[P.meta.next_opponent]) ? P.meta.next_opponent : opponents[0];
   }
 
@@ -222,7 +242,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     try {
       const s = JSON.parse(localStorage.getItem(SAVE) || "null");
       if (s) {
-        ui.team = s.team || ui.team; ui.me = s.me || null; ui.mypool = s.mypool || {}; ui.teamPicked = !!s.teamPicked; ui.aliasOff = s.aliasOff || {}; ui.ngsSeasons = (s.ngsSeasons && s.ngsSeasons.length) ? s.ngsSeasons : ["22"]; ui.slScopes = s.slScopes || []; ui.stages = (s.stages && s.stages.length) ? s.stages : ["reg", "po"];
+        ui.team = s.team || ui.team; ui.me = s.me || null; ui.mypool = s.mypool || {}; ui.teamPicked = !!s.teamPicked; ui.aliasOff = s.aliasOff || {}; ui.series = s.series || []; ui.ngsSeasons = (s.ngsSeasons && s.ngsSeasons.length) ? s.ngsSeasons : ["22"]; ui.slScopes = (s.slV2 && Array.isArray(s.slScopes)) ? s.slScopes : ["recent", "mmr"]; ui.stages = (s.stages && s.stages.length) ? s.stages : ["reg", "po"];
         applyTeam();
         if (s.opp && P.teams[s.opp] && s.opp !== P.us.team) { ui.opp = s.opp; ui.side = s.side; ui.map = s.map; ui.actions = s.actions || []; }
         ui.tab = s.tab || "draft";
@@ -230,14 +250,14 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     } catch (e) { /* storage unavailable */ }
     applyTeam();
   }
-  function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, stages: ui.stages, slScopes: ui.slScopes, opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
-  function state() { return { opp: ui.opp, side: ui.side || "first", map: ui.map, actions: ui.actions }; }
+  function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, series: ui.series, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, stages: ui.stages, slScopes: ui.slScopes, slV2: true, opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
+  function state() { return { opp: ui.opp, side: ui.side || "first", map: ui.map, actions: ui.actions, series: ui.series }; }
 
   const TABS = [["draft", "Draft"], ["overview", "Prep"], ["heroes", "Heroes"], ["maps", "Maps"], ["learn", "Learn"], ["team", "Team"], ["about", "About"]];
   function renderTabs() {
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" data-tab="${t[0]}" aria-selected="${ui.tab === t[0]}">${t[1]}</button>`).join("");
     $("#brand").textContent = "HotS Drafter";
-    $("#stamp").textContent = `${P.us.team} · NGS S${ui.ngsSeasons.slice().sort().join("+")}${ui.stages.length === 1 ? (ui.stages[0] === "po" ? " playoffs" : " regular") : ""} · SL ${ui.slScopes.length ? ui.slScopes.join("+") : "recent"} · ${P.meta.games} games to ${P.meta.newest_date} UTC`;
+    $("#stamp").textContent = `${P.us.team} · NGS S${ui.ngsSeasons.slice().sort().join("+")}${ui.stages.length === 1 ? (ui.stages[0] === "po" ? " playoffs" : " regular") : ""} · SL ${ui.slScopes.filter(k => k !== "mmr").join("+") || "off"}${ui.slScopes.indexOf("mmr") >= 0 ? " + MMR" : ""} · ${P.meta.games} games to ${P.meta.newest_date} UTC`;
   }
 
   // ---------------------------------------------------------------- small renderers and hero helpers
@@ -310,6 +330,15 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     return t;
   }
 
+  // Opponent dropdown: the team's own division first, then every other division.
+  function oppOptions() {
+    const myDiv = LG && LG.divisions ? LG.divisions[P.us.team] : null;
+    const same = opponents.filter(o => !LG || LG.divisions[o] === myDiv), other = opponents.filter(o => LG && LG.divisions[o] !== myDiv);
+    const opt = o => `<option ${o === ui.opp ? "selected" : ""}>${esc(o)}</option>`;
+    if (!other.length) return opponents.map(opt).join("");
+    return `<optgroup label="Your division${myDiv ? " (" + esc(myDiv) + ")" : ""}">${same.map(opt).join("")}</optgroup><optgroup label="Other divisions">${other.map(o => `<option value="${esc(o)}" ${o === ui.opp ? "selected" : ""}>${esc(o)} (${esc(LG.divisions[o])})</option>`).join("")}</optgroup>`;
+  }
+
   // ---------------------------------------------------------------- DRAFT TAB
   function setupCard() {
     const t = E.tossAdvice(ui.opp);
@@ -318,7 +347,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const h2 = t.h2h;
     return `<details class="card" ${ui.actions.length ? "" : "open"}><summary><b>Setup</b> <span class="muted small">${esc(ui.opp)} · ${ui.side ? (ui.side === "first" ? "we have first pick" : "they have first pick") : "toss not set"} · ${ui.map ? esc(ui.map) : "map not set"}</span></summary>
       <div class="row" style="margin-top:8px">
-        <label class="f grow">Opponent<select id="opp">${opponents.map(o => `<option ${o === ui.opp ? "selected" : ""}>${esc(o)}</option>`).join("")}</select></label>
+        <label class="f grow">Opponent<select id="opp">${oppOptions()}</select></label>
         <label class="f grow">Map (when known)<select id="map"><option value="">Not set yet</option>${Object.keys(P.maps).sort().map(m => `<option ${m === ui.map ? "selected" : ""}>${esc(m)}</option>`).join("")}</select></label>
       </div>
       <h3 style="margin-top:12px">Coin toss</h3>
@@ -454,11 +483,25 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <div class="row" style="margin-top:8px"><button class="btn" data-copy-summary="1">Copy draft summary</button></div>`;
   }
 
+  // Best of three: finish a game with its result, and the next draft remembers what was played.
+  function seriesCard(st) {
+    const done = ui.series.length;
+    const score = ui.series.reduce((a, g) => [a[0] + (g.won ? 1 : 0), a[1] + (g.won ? 0 : 1)], [0, 0]);
+    const over = score[0] >= 2 || score[1] >= 2;
+    const rows = ui.series.map((g, i) => `<li><b>Game ${i + 1}</b> ${g.map ? "on " + esc(g.map) : ""}: ${g.won ? '<span class="tag good">we won</span>' : '<span class="tag bad">we lost</span>'}
+      <div class="small">Ours: ${(g.ours || []).map(heroBtn).join(", ") || "none"}</div><div class="small muted">Theirs: ${(g.theirs || []).map(heroBtn).join(", ") || "none"}</div></li>`).join("");
+    const started = st.actions.length > 0;
+    return `<section class="card"><details ${done ? "open" : ""}><summary><b>Series</b> <span class="muted small">${over ? "over " + score[0] + "-" + score[1] : "game " + (done + 1) + " of 3" + (done ? ", " + score[0] + "-" + score[1] : "")}</span></summary>
+      ${rows ? `<ul class="r">${rows}</ul>` : '<p class="small muted">Finish a game here and the next draft will remember what each side played and who won.</p>'}
+      <div class="row" style="margin-top:8px">${started && !over ? `<button class="btn primary" data-series="won">Game over: we won</button><button class="btn" data-series="lost">Game over: we lost</button>` : ""}
+        ${done ? `<button class="btn" data-series="clear">Clear series</button><button class="btn" data-series="undo">Undo last game</button>` : ""}</div></details></section>`;
+  }
+
   function renderDraft() {
     const hint = (!ui.teamPicked && LG) ? `<section class="card"><p class="small">Playing as <b>${esc(P.us.team)}</b>${CUR.us.team === P.us.team ? " (the team this tool was tuned for)" : ""}. Not your team? Pick yours in the <button class="hl" data-tab="team">Team</button> tab. It takes ten seconds.</p></section>` : "";
     if (!ui.side) return hint + setupCard() + `<section class="card"><p class="muted">Pick who has first pick to start the draft board.</p></section>`;
     const st = state();
-    return hint + setupCard() + turnCard(st) + boardCard(st) + compCard(st) + intelCard(st);
+    return hint + setupCard() + seriesCard(st) + turnCard(st) + boardCard(st) + compCard(st) + intelCard(st);
   }
 
   // ---------------------------------------------------------------- PREP TAB (the opponent)
@@ -520,7 +563,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const players = Object.keys(o.players).sort((a, b) => o.players[b].games - o.players[a].games).filter(tag => o.players[tag].games >= 3);
     const lock = [];
     P.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const n = (o.bans_r2[h] || 0); if (n >= 2) lock.push(`${h} (${p.label}): banned in round two ${n} time(s)${o.bans_r2_vs_us && o.bans_r2_vs_us[h] ? ", " + o.bans_r2_vs_us[h] + " against us" : ""}`); }));
-    return `<section class="card"><label class="f">Opponent<select id="opp">${opponents.map(x => `<option ${x === ui.opp ? "selected" : ""}>${esc(x)}</option>`).join("")}</select></label>
+    return `<section class="card"><label class="f">Opponent<select id="opp">${oppOptions()}</select></label>
       <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
       ${o.h2h.length ? "Against us (our result): " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "L" : "W"}`).join(", ") + "." : "No games against us yet."}
       ${(() => { const them = teamMmr(Object.keys(o.players).map(t => ({ games: o.players[t].games, sl_mmr: o.players[t].sl_mmr }))); const us = teamMmr(P.us.players.map(p => ({ games: Object.keys(p.ngs || {}).reduce((x, h) => x + p.ngs[h].g, 0), sl_mmr: p.sl_mmr }))); return them && us ? `<br><span class="small muted">Average Storm League MMR of the five most used players: ${esc(ui.opp)} ${them}, ${esc(P.us.team)} ${us}.</span>` : ""; })()}</p></section>
@@ -784,9 +827,9 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         <div class="chips">${["22", "21"].map(k => `<button class="chip ${ui.ngsSeasons.indexOf(k) >= 0 ? "on" : ""}" data-ngs="${k}" aria-pressed="${ui.ngsSeasons.indexOf(k) >= 0}">Season ${k}</button>`).join("")}</div>
         <p class="small" style="margin:10px 0 4px"><b>Games</b> <span class="muted">(playoff games are only in last season so far)</span></p>
         <div class="chips">${[["reg", "Regular season"], ["po", "Playoffs"]].map(x => `<button class="chip ${ui.stages.indexOf(x[0]) >= 0 ? "on" : ""}" data-stage="${x[0]}" aria-pressed="${ui.stages.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>
-        <p class="small" style="margin:10px 0 4px"><b>Storm League</b> <span class="muted">(none ticked means the recent window the tool was built with)</span></p>
-        <div class="chips">${[["all", "All time"], ["s34", "Season 34"], ["s33", "Season 33"], ["s32", "Season 32"]].map(x => `<button class="chip ${ui.slScopes.indexOf(x[0]) >= 0 ? "on" : ""}" data-sl="${x[0]}" aria-pressed="${ui.slScopes.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>
-        <p class="small muted" style="margin-top:8px">Storm League hero data is only held for Division C West players.</p></section>`;
+        <p class="small" style="margin:10px 0 4px"><b>Storm League</b> <span class="muted">(untick everything to hide Storm League completely)</span></p>
+        <div class="chips">${[["recent", "Recent (last 12 months)"], ["all", "All time"], ["s34", "Season 34"], ["s33", "Season 33"], ["s32", "Season 32"], ["mmr", "Show MMR"]].map(x => `<button class="chip ${ui.slScopes.indexOf(x[0]) >= 0 ? "on" : ""}" data-sl="${x[0]}" aria-pressed="${ui.slScopes.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>
+        <p class="small muted" style="margin-top:8px">Storm League hero data is only held for Division C West players. Recent is the window the tool was built with (Hunter's last 12 months); all time and the seasons come from the pulled Heroes Profile tables and replace it. MMR is shown or hidden on its own.</p></section>`;
     return `<section class="card us"><h3>Your team</h3>
         <p class="small muted">Every NGS team we have games for is here (${LG ? Object.keys(LG.teams).length + " teams, " + LG.games + " games this season" : "one division"}). Pick yours and the tool re-points the opponents, the maps and the head to head numbers at your team.</p>
         <label class="f">Team<select id="teamsel">${opts}</select></label>
@@ -886,6 +929,15 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       if (i >= 0) { if (ui.ngsSeasons.length > 1) ui.ngsSeasons.splice(i, 1); } else ui.ngsSeasons.push(k);
       ui.ngsSeasons.sort().reverse(); applyTeam();
     }
+    else if (d.series) {
+      const st = state();
+      if (d.series === "clear") { ui.series = []; ui.actions = []; ui.sim = null; }
+      else if (d.series === "undo") { ui.series.pop(); ui.sim = null; }
+      else {
+        ui.series.push({ map: ui.map, won: d.series === "won", ours: E.picks(st, "us"), theirs: E.picks(st, "opp"), bans: { ours: E.bans(st, "us"), theirs: E.bans(st, "opp") } });
+        ui.actions = []; ui.sim = null; ui.side = null; ui.map = null;   // who has first pick next depends on the series rules, so it is asked again
+      }
+    }
     else if (d.stage) {
       const k = d.stage, i = ui.stages.indexOf(k);
       if (i >= 0) { if (ui.stages.length > 1) ui.stages.splice(i, 1); } else ui.stages.push(k);
@@ -913,10 +965,10 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   });
   document.addEventListener("change", ev => {
     const t = ev.target;
-    if (t.id === "teamsel") { ui.team = t.value; ui.teamPicked = true; ui.me = null; ui.mypool = {}; ui.opp = null; ui.actions = []; ui.side = null; ui.map = null; ui.sim = null; ui.msg = ""; applyTeam(); }
+    if (t.id === "teamsel") { ui.team = t.value; ui.teamPicked = true; ui.me = null; ui.mypool = {}; ui.opp = null; ui.actions = []; ui.series = []; ui.side = null; ui.map = null; ui.sim = null; ui.msg = ""; applyTeam(); }
     else if (t.dataset && t.dataset.alias) { ui.aliasOff[t.dataset.alias] = !t.checked; }
     else if (t.id === "mesel") { ui.me = t.value || null; ui.mypool = {}; ui.teamPicked = true; ui.msg = ""; applyTeam(); }
-    else if (t.id === "opp") { ui.opp = t.value; ui.actions = []; ui.sim = null; }
+    else if (t.id === "opp") { ui.opp = t.value; ui.actions = []; ui.sim = null; ui.series = []; }
     else if (t.id === "map") { ui.map = t.value || null; ui.sim = null; }
     else if (t.id === "mapview") { ui.mapview = t.value; }
     else if (t.id === "hscope") { ui.hscope = t.value; }
