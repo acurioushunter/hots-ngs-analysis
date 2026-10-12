@@ -231,6 +231,12 @@
         const risk = opp ? Math.min(1, (((opp.hero_picks[h] || [0])[0]) + (opp.bans_r1[h] || 0) + (opp.bans_r2[h] || 0)) / oppGames) : 0;
         if (loss > 0.4) { score += w.irreplaceable * loss * (0.2 + 2 * risk); if (loss > 1.2 && risk > 0.15) reasons.push("hard to replace (our plan loses " + loss.toFixed(1) + " points) and they pick or ban it in " + Math.round(risk * 100) + "% of games"); }
       }
+      // our own record with this hero against this opponent (a lean only, tiny samples)
+      const ov = opp && opp.our_heroes_vs_them && opp.our_heroes_vs_them[h];
+      if (ov && ov[0] >= 1) {
+        if (ov[0] >= 2) score += w.vs_us * (sm(ov[1], ov[0]) - 0.5);
+        reasons.push("we are " + rec(ov) + " with it against " + st.opp);
+      }
       // a hero two of our players can play hides the plan and keeps options open
       const capable = d.us.players.filter(p => p.pool[h] && E.poolScore(p, h, map).s > 2.5).length;
       if (capable >= 2) { score += w.flex; reasons.push(capable + " of our players can play it (swap hero)"); }
@@ -337,7 +343,8 @@
     const slot = E.nextSlot(st);
     const bySlot = (slot && opp.picks_by_slot[String(slot.slot)]) || {};
     const all = opp.hero_picks;
-    const list = Object.keys(all).filter(h => !used.has(h)).map(h => ({ hero: h, atSlot: bySlot[h] || 0, g: all[h][0], w: all[h][1], score: (bySlot[h] || 0) * 3 + all[h][0] }))
+    const vsUs = opp.hero_picks_vs_us || {};
+    const list = Object.keys(all).filter(h => !used.has(h)).map(h => ({ hero: h, vsUs: vsUs[h] || null, atSlot: bySlot[h] || 0, g: all[h][0], w: all[h][1], score: (bySlot[h] || 0) * 3 + all[h][0] }))
       .sort((a, b) => b.score - a.score);
     // which of their players is the usual user
     list.forEach(x => {
@@ -392,7 +399,9 @@
       const ow = sm(o ? o[1] : 0, o ? o[0] : 0), tw = sm(t ? t[1] : 0, t ? t[0] : 0);
       const theirPick = them.as_map_picker[m];
       const ban = (tw - ow) + (theirPick && theirPick[0] ? 0.05 * (sm(theirPick[1], theirPick[0]) - 0.5) : 0);
-      return { map: m, us: o || [0, 0], them: t || [0, 0], themPicker: theirPick || [0, 0], edge: ow - tw, banScore: ban, theyBan: habits.bans[m] || 0, series: habits.series };
+      const vs = [0, 0]; // our record against this opponent on this map ([games, our wins]); h2h.won is the opponent's result
+      them.h2h.forEach(g => { if (g.map === m) { vs[0]++; vs[1] += g.won ? 0 : 1; } });
+      return { map: m, us: o || [0, 0], them: t || [0, 0], themPicker: theirPick || [0, 0], vsUs: vs, edge: ow - tw, banScore: ban, theyBan: habits.bans[m] || 0, series: habits.series };
     });
   };
 

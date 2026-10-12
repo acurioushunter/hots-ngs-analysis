@@ -167,7 +167,8 @@ def add(d, key, won):
 def team_profile(name, G, heroes, us_name):
     mine = [g for g in G.values() if name in (g["team0"], g["team1"])]
     t = dict(name=name, games=len(mine), wins=sum(g["winner"] == name for g in mine), by_map={}, as_map_picker={}, first_pick=[0, 0], map_pick=[0, 0],
-             bans_r1={}, bans_r2={}, bans_vs_us={}, bans_r2_vs_us={}, bans_games_vs_us=0, picks_by_slot={}, hero_picks={}, players={}, faced={}, vs_healer={}, h2h=[])
+             bans_r1={}, bans_r2={}, bans_vs_us={}, bans_r2_vs_us={}, bans_games_vs_us=0, picks_by_slot={}, hero_picks={}, players={}, faced={}, vs_healer={}, h2h=[],
+             hero_picks_vs_us={}, our_heroes_vs_them={})
     pl = collections.defaultdict(lambda: collections.defaultdict(lambda: dict(g=0, w=0, rating=0, deaths=0, dmg=0.0)))
     for g in mine:
         won = g["winner"] == name
@@ -181,6 +182,11 @@ def team_profile(name, G, heroes, us_name):
         if opp == us_name:
             t["bans_games_vs_us"] += 1
             t["h2h"].append(dict(id=g["replay_id"], date=g["date_utc"][:10], map=g["map"], won=won, first_pick=g["first_pick_team"] == name, map_pick=g["map_pick_team"] == name))
+            for tm, slot, hero in g["picks"]:
+                if tm == name:
+                    add(t["hero_picks_vs_us"], hero, won)      # [games, their wins] with the hero against us
+                else:
+                    add(t["our_heroes_vs_them"], hero, not won)  # [games, OUR wins] with the hero against them
         for team, slot, hero in g["bans"]:
             if team == name:
                 tgt = t["bans_r1"] if slot <= 4 else t["bans_r2"]

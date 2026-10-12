@@ -279,7 +279,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       const chips = (slot.type === "ban" ? (slot.slot <= 4 ? ex.round1 : ex.round2).slice(0, 8) : picks);
       body = `<p class="muted small">${slot.type === "ban" ? `Their usual ${slot.slot <= 4 ? "round one" : "round two"} bans (over ${ex.games} games, ${ex.gamesVsUs} against us). Tap what they actually did.` :
         "Their usual picks at this point. Tap what they actually did."}</p>
-        <div class="row">${chips.map(c => `<button class="btn" data-take="${esc(c.hero)}">${esc(c.hero)} <span class="muted small">${slot.type === "ban" ? c.n + (c.vs ? " (" + c.vs + " vs us)" : "") : (c.player ? esc(c.player.tag) : c.g + " games")}</span></button>`).join("")}</div>`;
+        <div class="row">${chips.map(c => `<button class="btn" data-take="${esc(c.hero)}">${esc(c.hero)} <span class="muted small">${slot.type === "ban" ? c.n + (c.vs ? " (" + c.vs + " vs us)" : "") : (c.player ? esc(c.player.tag) : c.g + " games") + (c.vsUs ? ", " + c.vsUs[0] + " vs us (" + c.vsUs[1] + "-" + (c.vsUs[0] - c.vsUs[1]) + ")" : "")}</span></button>`).join("")}</div>`;
     }
     return `<section class="card ${ours ? "us" : "them"}">
       <div class="row" style="justify-content:space-between"><h2>Slot ${slot.slot}: ${ours ? "our" : "their"} ${what}</h2><span class="tag ${ours ? "us" : "them"}">${ours ? "US" : "THEM"}</span></div>
@@ -371,6 +371,19 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <div class="scroll"><table><tr><th>Their hero</th><th>Counters in our pools</th></tr>${rows}</table></div></section>`;
   }
 
+  // Head to head only: what they played against us, and how our heroes did against them. Samples are tiny, so it is shown as a lean.
+  function vsUsCard(o) {
+    const theirs = Object.keys(o.hero_picks_vs_us || {}).sort((a, b) => o.hero_picks_vs_us[b][0] - o.hero_picks_vs_us[a][0] || a.localeCompare(b)).slice(0, 8);
+    const ours = Object.keys(o.our_heroes_vs_them || {}).sort((a, b) => o.our_heroes_vs_them[b][0] - o.our_heroes_vs_them[a][0] || a.localeCompare(b)).slice(0, 8);
+    if (!theirs.length && !ours.length) return "";
+    const ourWins = o.h2h.filter(g => !g.won).length;
+    const line = (h, v, label) => `<li>${heroBtn(h)} <span class="num">${rec(v)}</span> <span class="small muted">${label}</span></li>`;
+    return `<section class="card"><h3>Against us so far</h3>
+      <p class="small muted">${o.h2h.length} games between us and ${esc(ui.opp)} this season (we won ${ourWins}). Records are from our side for our heroes and from their side for theirs. Tiny samples, read as leans.</p>
+      <div class="cols"><div><b class="small">Their heroes against us (their record)</b><ul class="r">${theirs.map(h => line(h, o.hero_picks_vs_us[h], "")).join("") || "<li class='muted small'>none</li>"}</ul></div>
+      <div><b class="small">Our heroes against them (our record)</b><ul class="r">${ours.map(h => line(h, o.our_heroes_vs_them[h], poolOf(h).length ? poolOf(h).map(x => esc(x.label)).join(", ") : "")).join("") || "<li class='muted small'>none</li>"}</ul></div></div></section>`;
+  }
+
   function renderOverview() {
     const o = P.teams[ui.opp], t = E.tossAdvice(ui.opp), mp = E.mapPlan(ui.opp), st = E.newDraft(ui.opp, "first", ui.map);
     const ex = E.expectOppBans(st);
@@ -384,14 +397,15 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     <section class="card us"><h3>Coin toss</h3><p>If we win it: <b>${t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss up)"}</b>.
       Our record with first pick ${rec(t.usFirst)}, with map pick ${rec(t.usMap)}; theirs ${rec(t.themFirst)} and ${rec(t.themMap)}. First pick lets us decide who takes the contested heroes; the map pick lets us choose where.</p></section>
     <section class="card"><h3>Maps</h3>
-      <p class="small muted">Suggested map bans: <b>${mp.bans.map(esc).join(" and ") || "none yet"}</b>. If we get the map pick: ${mp.picks.map(esc).join(", ")}. Records are this season in this division, so most are 1 to 4 games.</p>
-      <div class="scroll"><table><tr><th>Map</th><th>Us</th><th>Them</th><th>They pick</th><th>They ban</th><th></th></tr>
-      ${mp.table.sort((a, b) => b.banScore - a.banScore).map(m => `<tr><td><button class="hl" data-gomap="${esc(m.map)}">${esc(m.map)}</button></td><td class="num">${recText(m.us)}</td><td class="num">${recText(m.them)}</td><td class="num">${recText(m.themPicker)}</td><td class="num">${m.theyBan}</td>
+      <p class="small muted">Suggested map bans: <b>${mp.bans.map(esc).join(" and ") || "none yet"}</b>. If we get the map pick: ${mp.picks.map(esc).join(", ")}. Records are this season in this division, so most are 1 to 4 games. "Us v them" is our record in games against ${esc(ui.opp)} only (blank if we have not played them there).</p>
+      <div class="scroll"><table><tr><th>Map</th><th>Us</th><th>Them</th><th>Us v them</th><th>They pick</th><th>They ban</th><th></th></tr>
+      ${mp.table.sort((a, b) => b.banScore - a.banScore).map(m => `<tr><td><button class="hl" data-gomap="${esc(m.map)}">${esc(m.map)}</button></td><td class="num">${recText(m.us)}</td><td class="num">${recText(m.them)}</td><td class="num">${m.vsUs[0] ? recText(m.vsUs) : ""}</td><td class="num">${recText(m.themPicker)}</td><td class="num">${m.theyBan}</td>
         <td>${mp.bans.includes(m.map) ? '<span class="tag bad">ban</span>' : mp.picks.includes(m.map) ? '<span class="tag good">pick</span>' : ""}</td></tr>`).join("")}</table></div></section>
     <section class="card them"><h3>What they ban</h3>
       <p class="small">Round one: ${ex.round1.slice(0, 6).map(x => `${heroBtn(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
       <p class="small">Round two (slot 10 or 11): ${ex.round2.slice(0, 6).map(x => `${heroBtn(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
       ${lock.length ? `<p class="small"><b>Heroes of ours they ban late, so lock them early:</b></p><ul class="r small">${lock.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</section>
+    ${vsUsCard(o)}
     ${answersCard()}
     <section class="card them"><h3>Their players</h3><div class="scroll"><table><tr><th>Player</th><th>Heroes this season</th></tr>
       ${players.map(tag => `<tr><td>${esc(tag)}<div class="muted small">rating ${o.players[tag].avg_rating}</div></td><td class="small">${Object.keys(o.players[tag].heroes).slice(0, 6).map(h => { const d = o.players[tag].heroes[h]; return `${heroBtn(h)} ${d.w}-${d.g - d.w}${d.weak ? ' <span class="tag warn">weaker</span>' : ""}`; }).join(", ")}</td></tr>`).join("")}</table></div>
@@ -578,7 +592,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const lava = (LIB.guides.find(g => g.slug === "lava-wave-timings") || { sections: [] }).sections.find(s => keyOf(s.title) === keyOf(cur));
     return `<section class="card"><label class="f">Map<select id="mapview">${names.map(n => `<option value="${esc(n)}" ${n === cur ? "selected" : ""}>${esc(n)}${P.maps[n] ? "" : " (not in the NGS pool)"}</option>`).join("")}</select></label>
       ${ngs ? `${ui.map !== cur ? `<p><button class="btn sm" data-setmap="${esc(cur)}">Use ${esc(cur)} as the draft map</button></p>` : `<p class="small"><span class="tag us">draft map</span></p>`}<p><b>Icy Veins prefers:</b> ${m.prefer.map(esc).join(", ") || "n/a"}</p><p><b>Avoids:</b> ${m.avoid.map(esc).join(", ") || "n/a"}</p>
-      <p class="small">We are ${recText(P.teams[P.us.team].by_map[cur])} here; ${esc(ui.opp)} are ${recText(oppRec)}. ${st.games || 0} games in the division, average ${st.avg_len || "?"} minutes.</p>` : `<p class="small muted">This map is not in the NGS pool this season, so there are no division numbers for it. The Icy Veins guide is below.</p>`}</section>
+      <p class="small">We are ${recText(P.teams[P.us.team].by_map[cur])} here; ${esc(ui.opp)} are ${recText(oppRec)}.${(() => { const g = (P.teams[ui.opp].h2h || []).filter(x => x.map === cur); return g.length ? ` Against each other here we are ${g.filter(x => !x.won).length}-${g.filter(x => x.won).length}.` : ""; })()} ${st.games || 0} games in the division, average ${st.avg_len || "?"} minutes.</p>` : `<p class="small muted">This map is not in the NGS pool this season, so there are no division numbers for it. The Icy Veins guide is below.</p>`}</section>
     ${st.games ? `<section class="card"><h3>What wins here</h3>
       <p class="small">Ranged heroes (Blaze not counted): winners average ${st.win_ranged_avg}, losers ${st.loss_ranged_avg}. Three or more ranged ${rec(st.ranged_rec["3+"])}, two or fewer ${rec(st.ranged_rec["2-"])}.</p>
       <p class="small">Per minute, winners against losers: camp damage ${st.macro.win.camp_dmg}k v ${st.macro.loss.camp_dmg}k, structure damage ${st.macro.win.struct}k v ${st.macro.loss.struct}k, minion damage ${st.macro.win.minion}k v ${st.macro.loss.minion}k. Deaths ${st.macro.win.deaths} v ${st.macro.loss.deaths}.</p></section>` : ""}

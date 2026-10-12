@@ -3,7 +3,7 @@
   "weights": {
     "pool_primary": 5, "pool_secondary": 3, "pool_practice": 1.2, "pool_unknown": -3, "pool_avoid": -6,
     "evidence": 3, "map_tier": 0.8, "counter": 1.5, "synergy": 0.5, "lock_urgency": 2.0, "denial": 1.0,
-    "role_gap": 2.5, "marksman_need": 1.2, "ranged_target": 1.5, "flex": 0.8, "irreplaceable": 0.5
+    "role_gap": 2.5, "marksman_need": 1.2, "ranged_target": 1.5, "flex": 0.8, "irreplaceable": 0.5, "vs_us": 1.0
   },
   "tier_values": {"S": 2, "A": 1, "B": 0, "C": -0.7, "D": -1.5},
   "rules": [
