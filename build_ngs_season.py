@@ -2,7 +2,7 @@
 
 Input : knowledge/raw/ngs/matches/*.json and knowledge/raw/ngs/other_divisions/*.json (match/single responses)
 Output: knowledge/ngs_season.db  tables ngs_game (with division), ngs_hero_ban, ngs_pick, ngs_map_ban, ngs_player_game (with blizz_id)
-Run   : python build_ngs_season.py ; python test_ngs_season.py
+Run   : python build_ngs_season.py [season] ; python test_ngs_season.py   (season 21 reads knowledge/raw/ngs/season21/ into ngs_season21.db)
 Division comes from the match page itself (team_names.*.division). Forfeits (no draft) are skipped.
 """
 import collections, json, pathlib, sqlite3, sys
@@ -10,9 +10,13 @@ import collections, json, pathlib, sqlite3, sys
 import build_ngs_division as D
 
 ROOT = pathlib.Path(__file__).parent / "knowledge"
-FOLDERS = [ROOT / "raw" / "ngs" / "matches", ROOT / "raw" / "ngs" / "other_divisions"]
-DB_PATH = ROOT / "ngs_season.db"
-SEASON = 22
+SEASON = int(sys.argv[1]) if len(sys.argv) > 1 else 22
+if SEASON == 22:
+    FOLDERS = [ROOT / "raw" / "ngs" / "matches", ROOT / "raw" / "ngs" / "other_divisions"]
+    DB_PATH = ROOT / "ngs_season.db"
+else:
+    FOLDERS = [ROOT / "raw" / "ngs" / f"season{SEASON}"]
+    DB_PATH = ROOT / f"ngs_season{SEASON}.db"
 
 SCHEMA = D.SCHEMA.replace("series TEXT);", "series TEXT, division TEXT, season INT);").replace(
     "award TEXT, l1 TEXT", "award TEXT, blizz_id INT, l1 TEXT")
@@ -92,6 +96,14 @@ def build():
         D.insert_map_bans(db, key, round_no, match, seen_series)
     if skipped:
         print("skipped (forfeit, no draft):", skipped)
+    # two different players can use the same battletag (different Heroes Profile ids). Tell them apart with "#id", except in Division C West
+    # where the hand tuned pools and ngs_div.db use the plain tag.
+    clash = [t for (t,) in db.execute("SELECT battletag FROM ngs_player_game WHERE blizz_id IS NOT NULL GROUP BY battletag HAVING COUNT(DISTINCT blizz_id) > 1")]
+    for tag in clash:
+        db.execute("""UPDATE ngs_player_game SET battletag = battletag || ' #' || blizz_id
+                      WHERE battletag = ? AND replay_id NOT IN (SELECT replay_id FROM ngs_game WHERE division = 'C West')""", (tag,))
+    if clash:
+        print("battletags used by more than one player:", clash)
     db.commit()
     return db
 

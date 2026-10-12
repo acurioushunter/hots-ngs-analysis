@@ -499,7 +499,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         <p class="small">Banned most: ${h.bans.slice(0, 5).map(b => `${heroBtn(b[0])} ${b[1]}`).join(", ") || "none"}</p></div>`;
     }).join("");
     const toggles = cands.map(a => `<label class="small" style="display:flex;gap:8px;align-items:center;margin-top:6px"><input type="checkbox" data-alias="${esc(a.team + "|" + a.former)}" ${ui.aliasOff[a.team + "|" + a.former] ? "" : "checked"}> Treat ${esc(a.former)} as an earlier name (${a.shared} players in common, ${esc(a.confidence)} confidence${a.note ? ", " + esc(a.note) : ""})</label>`).join("");
-    return `<section class="card them"><h3>Last season</h3><p class="small muted">Season 21 record and habits from the replay export. Name changes are not published, so earlier names are guessed from which players are on the roster. Untick one that is wrong.</p>${rows}${toggles}</section>`;
+    return `<section class="card them"><h3>Last season</h3><p class="small muted">Season 21 record and habits from last season's games. Name changes are not published, so earlier names are guessed from which players are on the roster. Untick one that is wrong.</p>${rows}${toggles}</section>`;
   }
 
   function renderOverview() {
@@ -772,7 +772,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         <div class="chips">${["22", "21"].map(k => `<button class="chip ${ui.ngsSeasons.indexOf(k) >= 0 ? "on" : ""}" data-ngs="${k}" aria-pressed="${ui.ngsSeasons.indexOf(k) >= 0}">Season ${k}</button>`).join("")}</div>
         <p class="small" style="margin:10px 0 4px"><b>Storm League</b> <span class="muted">(none ticked means the recent window the tool was built with)</span></p>
         <div class="chips">${[["all", "All time"], ["s34", "Season 34"], ["s33", "Season 33"], ["s32", "Season 32"]].map(x => `<button class="chip ${ui.slScopes.indexOf(x[0]) >= 0 ? "on" : ""}" data-sl="${x[0]}" aria-pressed="${ui.slScopes.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>
-        <p class="small muted" style="margin-top:8px">Storm League hero data is only held for Division C West players. Last season's NGS comes from the replay export.</p></section>`;
+        <p class="small muted" style="margin-top:8px">Storm League hero data is only held for Division C West players.</p></section>`;
     return `<section class="card us"><h3>Your team</h3>
         <p class="small muted">Every NGS team we have games for is here (${LG ? Object.keys(LG.teams).length + " teams, " + LG.games + " games this season" : "one division"}). Pick yours and the tool re-points the opponents, the maps and the head to head numbers at your team.</p>
         <label class="f">Team<select id="teamsel">${opts}</select></label>

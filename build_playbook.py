@@ -300,6 +300,15 @@ def bid_by_tag():
 def prev_ngs(heroes):
     """Season 21 NGS hero records per Heroes Profile id from the replay export: {id: {hero: {g, w, deaths}}}."""
     if not _PREV:
+        p21 = KN / "ngs_season21.db"
+        if p21.exists():
+            for bid, hero, won, deaths in sqlite3.connect(p21).execute("SELECT blizz_id, hero, won, deaths FROM ngs_player_game WHERE blizz_id IS NOT NULL"):
+                r = _PREV.setdefault(str(bid), {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
+                r["g"] += 1; r["w"] += int(won); r["deaths"] += deaths or 0
+            for hs in _PREV.values():
+                for r in hs.values():
+                    r["deaths"] = round(r["deaths"] / r["g"], 1)
+            return _PREV
         path = KN / "ngs_league.db"
         if path.exists():
             db = sqlite3.connect(path)
@@ -376,7 +385,7 @@ ICE_ROLE = {"Bruiser": "Offlaner"}
 
 
 def sl_mmr_table(db):
-    """battletag (lower case) -> [Storm League MMR, rank, wins, losses]: knowledge/sl_mmr.json is keyed by Heroes Profile id (build_sl_mmr.py),
+    """battletag -> [Storm League MMR, rank, wins, losses]: knowledge/sl_mmr.json is keyed by Heroes Profile id (build_sl_mmr.py),
     the match pages give the id for each battletag."""
     path = KN / "sl_mmr.json"
     if not path.exists():
@@ -385,7 +394,7 @@ def sl_mmr_table(db):
     out = {}
     for tag, bid in db.execute("SELECT DISTINCT battletag, blizz_id FROM ngs_player_game WHERE blizz_id IS NOT NULL"):
         if str(bid) in by_id:
-            out[tag.lower()] = by_id[str(bid)]
+            out[tag] = by_id[str(bid)]
     return out
 
 
@@ -412,7 +421,7 @@ def derived_profile(team, G, heroes, mmr):
             if r and r != "Unknown":
                 roles[ICE_ROLE.get(r, r)] += s["g"]
         top = [r for r, _ in roles.most_common(2)]
-        m = mmr.get(tag.lower())
+        m = mmr.get(tag)
         bid = bid_by_tag().get(tag)
         extra = {}
         if bid:
@@ -435,8 +444,28 @@ def pair_view(G, a, b, heroes):
 
 def last_season_history(names):
     """Last season's record and habits for the given team names, from the replay export (knowledge/ngs_league.db), if we have it."""
-    path = KN / "ngs_league.db"
     out = {}
+    p21 = KN / "ngs_season21.db"
+    if p21.exists():
+        db = sqlite3.connect(p21)
+        for name in names:
+            games = db.execute("SELECT replay_id, winner, first_pick_team FROM ngs_game WHERE team0=? OR team1=?", (name, name)).fetchall()
+            if not games:
+                continue
+            ids = [g[0] for g in games]
+            q = ",".join("?" * len(ids))
+            won = {rid: w == name for rid, w, f in games}
+            first = [won[rid] for rid, w, f in games if f == name]
+            picks, bans = collections.defaultdict(lambda: [0, 0]), collections.Counter()
+            for rid, hero in db.execute(f"SELECT replay_id, hero FROM ngs_pick WHERE team=? AND replay_id IN ({q})", [name] + ids):
+                picks[hero][0] += 1; picks[hero][1] += int(won[rid])
+            for (hero,) in db.execute(f"SELECT hero FROM ngs_hero_ban WHERE team=? AND replay_id IN ({q})", [name] + ids):
+                bans[hero] += 1
+            out[name] = dict(games=len(games), wins=sum(won.values()), first_pick=[len(first), sum(first)],
+                             picks=[[h, v[0], v[1]] for h, v in sorted(picks.items(), key=lambda kv: -kv[1][0])[:8]],
+                             bans=[[h, n] for h, n in bans.most_common(6)])
+        return out
+    path = KN / "ngs_league.db"
     if not path.exists():
         return out
     db = sqlite3.connect(path)
@@ -484,7 +513,7 @@ def build_league(cfg, curated_us, heroes):
     teams = {n: team_profile(n, G, heroes, None) for n in names}
     for t in teams.values():
         for tag, p in t["players"].items():
-            m = mmr.get(tag.lower())
+            m = mmr.get(tag)
             if m:
                 p["sl_mmr"] = m
             bid = bid_by_tag().get(tag)
@@ -510,7 +539,7 @@ def build_league(cfg, curated_us, heroes):
             profiles[n] = derived_profile(n, G, heroes, mmr)
     # curated players also get their Storm League MMR
     for p in curated_us["players"]:
-        m = mmr.get(p["tag"].lower())
+        m = mmr.get(p["tag"])
         if m:
             p["sl_mmr"] = m
     aliases = []

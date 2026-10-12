@@ -35,7 +35,8 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - 60 of 60 Division C West games on Heroes Profile are on disk (through 23372, Good Lordy v Anomaly on Oct 9). Six Good Lordy games are not on Heroes Profile.
 - Every Season 22 game across all 7 divisions is saved (500 ids, 497 played, 3 forfeits skipped): C West in `knowledge/raw/ngs/matches/`, the rest in `knowledge/raw/ngs/other_divisions/` (not in git). `python build_ngs_season.py` builds `knowledge/ngs_season.db` from both; `test_ngs_season.py` checks it.
 - Hunter's game history (`hunter_hp.db`, 4,741 games) and his profile, hero, map and role summaries run to Oct 12.
-- Storm League MMR for NGS players: `scripts/sl_mmr_todo.py`, `scripts/hp_pull_sl_mmr.js`, `build_sl_mmr.py` into `knowledge/sl_mmr.json` (Storm League only). The pull was partial at last commit; re-run the todo script for the rest.
+- Storm League MMR for NGS players: `scripts/sl_mmr_todo.py`, `scripts/hp_pull_sl_mmr.js`, `build_sl_mmr.py` into `knowledge/sl_mmr.json` (Storm League only). All 363 Season 22 players have one.
+- Season 21 from Heroes Profile (868 games, ids 22006 to 22874 except 22352) is NOT pulled yet: save match pages to `knowledge/raw/ngs/season21/` (gitignored), then `python build_ngs_season.py 21`, `python test_ngs_season.py 21`, `python build_team_aliases.py`, `python build_playbook.py`. Until then last season comes from the replay export `ngs_league.db`.
 - Team name changes are inferred from shared players by `build_team_aliases.py` into `knowledge/team_aliases.json`.
 - The Draft Room has a Team tab (pick any team, who you are, data window for NGS seasons and Storm League scopes). Rules with `scope.us` only apply to that team.
 - Next opponent: CCS (Can't Counterpick Stupid), the likely final. PRA beat Cosmos 2-1 on Oct 6 (Cosmos won Tomb).
