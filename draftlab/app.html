@@ -1,0 +1,42 @@
+<title>HotS Draft Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Saira+Condensed:wght@600;700&display=swap">
+<style>
+/*__CSS__*/
+</style>
+<div class="wrap" id="app">
+<header class="top">
+  <div class="brand"><h1>HotS Draft Lab</h1><span>Draft, map and meta analysis for Heroes of the Storm</span></div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Sections"></nav>
+</header>
+<div class="fbar" id="fbar" aria-label="Game selection"></div>
+<main>
+  <section class="panel" id="tab-draft" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-maps" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-counters" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-heroes" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-meta" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-scout" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-review" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-team" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-learn" role="tabpanel" hidden></section>
+  <section class="panel" id="tab-about" role="tabpanel" hidden></section>
+</main>
+<p class="small muted" style="margin-top:24px">Numbers are leans from the games in the selection, not rules. Check the sample size next to each one.</p>
+</div>
+<template id="t-learn">
+/*__LEARN__*/
+</template>
+<script type="application/json" id="d-matrix">/*__MATRIX__*/</script>
+<script type="application/json" id="d-games">/*__GAMES__*/</script>
+<script>
+window.BUILD_DATE = /*__BUILD_DATE__*/;
+window.MAP_NOTES = /*__MAPNOTES__*/;
+window.EXAMPLE_PROFILE = /*__EXAMPLE__*/;
+</script>
+<script>
+/*__ENGINE__*/
+</script>
+<script>
+/*__UI__*/
+</script>

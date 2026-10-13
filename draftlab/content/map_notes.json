@@ -1,0 +1,80 @@
+{
+"Alterac Pass": [
+ ["Objective: free the prisoners by killing the tanky minions, then channel and hold. Cavalry pushes all three lanes and gives a push buff.", "source", "Boostroom map guide, Dignitas"],
+ ["Take the siege camp as soon as it spawns and again before the objective. Respawn is roughly 90 seconds in the mid game.", "source", "Dignitas, about 2019, may be stale"],
+ ["One player can hold the channel because guards do not interrupt it. The others can take XP or camps and return.", "source", "Dignitas, about 2019, may be stale"],
+ ["Comp wants global heroes, wave clear, mercenary control and poke.", "source", "Boostroom map guide"],
+ ["Common mistakes: collapsing the side lanes while grouped at the prison, starting the objective while behind in XP, overextending for forts, and chasing the core once it is weak because it regenerates.", "source", "Boostroom map guide, Dignitas"]
+],
+"Battlefield of Eternity": [
+ ["Objective: two Immortals, each team races the enemy one. The winner's Immortal pushes a lane.", "source", "Boostroom map guide"],
+ ["Comp wants strong damage on the Immortal to win the race, or better teamfighting to pull the enemy off theirs.", "source", "Boostroom map guide"],
+ ["Common mistake: committing to the race without checking that you win the damage race.", "source", "Boostroom map guide"]
+],
+"Braxis Holdout": [
+ ["Objective: two beacons. Both teams get Zerg waves and the winner gets the stronger one.", "source", "Boostroom map guide"],
+ ["Comp wants sustain, duelists, displacement, reliable control and a strong solo laner.", "source", "Boostroom map guide"],
+ ["Common mistakes: panicking when the enemy briefly holds both beacons, dying alone at a beacon, and leaving a lane open.", "source", "Boostroom map guide"]
+],
+"Cursed Hollow": [
+ ["Objective: three tributes. Each curses the enemy, so minions drop to one health and structures stop firing. The third tribute matters most.", "source", "Boostroom map guide"],
+ ["Comp wants global mobility, fast rotations, wave clear and independent offlaners.", "source", "Boostroom map guide"],
+ ["Giving up an early tribute is often better than losing several heroes to contest it. Convert a curse into lasting structure damage.", "source", "Boostroom map guide"]
+],
+"Dragon Shire": [
+ ["Objective: hold both shrines to activate the Dragon Knight.", "source", "Boostroom map guide"],
+ ["Comp wants strong rotations and offlane play rather than one specific type.", "source", "Boostroom map guide"],
+ ["Common mistake: sending all five to the middle with neither shrine controlled. If they commit to one shrine, pressure the other.", "source", "Boostroom map guide"]
+],
+"Garden of Terror": [
+ ["Objective: three seeds spawn a Garden Terror per lane, and Overgrowth disables enemy structures.", "source", "Boostroom map guide"],
+ ["Push with the Terrors and use the disabled structures. When defending, destroy the Overgrowth. Three lane pressure matters.", "source", "Boostroom map guide"],
+ ["The 28 Sep 2026 patch lowered Shambler health and damage by 25 percent at the start, growing back over the match. This is newer than most games in this tool.", "source", "PTR coverage, jeu.video"]
+],
+"Infernal Shrines": [
+ ["Objective: shrines summon guardians. The first team to 40 gets a Punisher. The first shrine appears about 30 seconds in and is weak.", "source", "Dignitas, about 2019, may be stale"],
+ ["Comp wants area damage that clears guardians. Line skillshots get eaten by guardians.", "source", "Dignitas, Boostroom"],
+ ["Kill the top lane Shaman first or it keeps respawning dogs. Take siege camps early. Do not fight over a weak first Punisher.", "source", "Dignitas, about 2019, may be stale"],
+ ["The 39 of 40 hold (leave the shrine one short and claim it when ready) is useful when the enemy is far behind.", "source", "Dignitas, about 2019, may be stale"],
+ ["On defense, stay back from structures because Punishers leap and stun.", "source", "Boostroom map guide"]
+],
+"Sky Temple": [
+ ["Objective: temples activate periodically, and holding one fires at enemy structures.", "source", "Boostroom map guide"],
+ ["You do not need every temple. Trading one is fine, and a bad fight over a single temple is worse than giving it up.", "source", "Boostroom map guide"],
+ ["Forts and towers lost make later temple hits more dangerous, so stack objectives.", "source", "Boostroom map guide"]
+],
+"Tomb of the Spider Queen": [
+ ["Objective: minions drop gems and turning in enough summons a Webweaver in each lane.", "source", "Boostroom map guide"],
+ ["Comp wants wave clear and efficient four player rotations.", "source", "Boostroom map guide"],
+ ["Common mistakes: hoarding gems and chasing kills while carrying a large stack.", "source", "Boostroom map guide"]
+],
+"Towers of Doom": [
+ ["Objective: cores start at 40 health and altars fire at the core, with damage rising as bell towers are held. Core health is a resource.", "source", "Boostroom map guide, Dignitas"],
+ ["Early: sapper camps, the bottom lane is key, and the top camp supports the solo lane.", "source", "Dignitas, about 2019, may be stale"],
+ ["Altar channel takes about 6 seconds, so poke the channeler to interrupt. Later altars spawn about 110 seconds after the last capture.", "source", "Dignitas, about 2019, may be stale"],
+ ["Common mistakes: ignoring the bottom lane and treating altar shots as minor.", "source", "Dignitas, about 2019, may be stale"]
+],
+"Volskaya Foundry": [
+ ["Objective: capture the large point to get the Triglav Protector. Points cycle middle, top, bottom and take about a minute to capture. One hero can hold, and contesting can push into overtime.", "source", "Dignitas, about 2019, may be stale"],
+ ["Fortification camps give XP and turrets. The support camp gives a Healing Pulse, so take it with a lead.", "source", "Dignitas, about 2019, may be stale"],
+ ["Players inside the Protector lose their own kit, so choose who goes in. Pull the tank back if the enemy engages.", "source", "Boostroom map guide, Dignitas"],
+ ["Comp wants sustain and good positioning. Avoid overextending for towers.", "source", "Boostroom map guide"]
+],
+"Blackheart's Bay": [
+ ["Objective: collect doubloons from chests and camps and turn them in to Blackheart. The paid ship bombards enemy structures. Carried doubloons drop on death.", "source", "Boostroom map guide"],
+ ["Protect the carrier, punish a heavily loaded enemy and turn in safely. Chasing kills while carrying a big stack is a mistake.", "judgment", "matches the Tomb advice"]
+],
+"Hanamura Temple": [
+ ["Objective: stand near the contested payload to move it. Delivery fires a barrage at enemy structures. The Sentinel camp adds pushing pressure.", "source", "Boostroom map guide"],
+ ["Comp wants heroes who hold space around the payload and give mercenary pressure. Ignoring the Sentinel is a mistake.", "source", "Boostroom map guide"]
+],
+"Haunted Mines": [
+ ["Objective: defeat the undead army in the mine for skulls. The team with more skulls gets the stronger Grave Golem.", "source", "Boostroom map guide"],
+ ["The 11 May 2026 balance patch raised skull scaling and shifted Golem strength toward the late game. Frontline and sustain read as better after it, which is commentary, not data.", "source", "Blizzard patch notes, gamer.org commentary"],
+ ["Do not die for small Golem upgrades, and do not abandon every lane or the enemy gets value above ground.", "source", "Boostroom map guide"]
+],
+"Warhead Junction": [
+ ["Objective: collect warheads and launch them at a target area. An interrupted launch penalty was reduced from 10 to 5 seconds in a July 2026 update (date unverified).", "source", "Boostroom map guide"],
+ ["Comp wants global heroes, strong solo laners and players who track missing enemies. Aim at the most valuable structures, and do not walk alone with a warhead.", "source", "Boostroom map guide"]
+]
+}

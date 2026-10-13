@@ -111,6 +111,7 @@ button.hl { background: none; border: 0; padding: 0; margin: 0; font-weight: 700
 .mk { display: inline-block; width: 1.4em; text-align: center; font-weight: 700; }
 .mk.y { color: var(--good); } .mk.m { color: var(--muted); } .mk.n { color: var(--bad); }
 code.code { font-family: var(--mono); background: var(--surface2); border-radius: 6px; padding: 3px 8px; word-break: break-all; }
+.rb { display: inline-flex; gap: 2px; vertical-align: middle; } .rb i { width: 14px; height: 8px; border-radius: 2px; background: var(--surface2); } .rb i.on { background: var(--us); }
 dialog.sheet { border: 0; padding: 0; width: min(760px, 100%); max-width: 100%; height: min(92vh, 100%); max-height: 100%; margin: auto auto 0; border-radius: 14px 14px 0 0; background: var(--bg); color: var(--ink); box-shadow: 0 -6px 28px rgba(0, 0, 0, 0.35); overflow: hidden; }
 dialog.sheet[open] { display: flex; flex-direction: column; }
 dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
@@ -459,6 +460,77 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     return `<section class="card them"><h3>What their picks mean</h3><p class="small muted">Icy Veins counter lists for each hero they have taken. Heroes in our pools are outlined and show the player. Tap any hero for the detail.</p>${rows}</section>`;
   }
 
+  // ---------------------------------------------------------------- league read (the HotS Tools league engine, present when embedded)
+  let LAB = null;
+  function lab() {
+    if (LAB !== null) return LAB;
+    LAB = false;
+    try {
+      const L = window.DraftLabEngine, src = window.HOTS_LAB;
+      if (L && src && src.matrix && src.games) {
+        const data = L.createData({ matrix: src.matrix, games: src.games });
+        LAB = { L, data, games: L.filterGames(data.games, { leagues: ["NGS"] }) };
+      }
+    } catch (e) { LAB = false; }
+    return LAB;
+  }
+  const pc = (v, d) => v == null ? "n/a" : (v * 100).toFixed(d == null ? 0 : d) + "%";
+  const basisTag = b => b ? `<span class="tag" title="${b === "data" ? "measured from games" : b === "kit" ? "read from ability text" : "authored rating"}">${esc(b)}</span>` : "";
+  const lowTag = low => low ? ' <span class="tag warn">low sample</span>' : "";
+  function leagueCard(st) {
+    const x = lab(); if (!x) return "";
+    const mine = E.picks(st, "us").filter(h => x.data.heroes[h]), theirs = E.picks(st, "opp").filter(h => x.data.heroes[h]);
+    if (mine.length < 2 && theirs.length < 2) return "";
+    const { L, data, games } = x, used = E.used(st);
+    let html = "";
+    if (mine.length >= 2) {
+      const rd = L.compRead(data, games, mine, theirs), a = rd.archetype, miss = (a.missing || []).slice(0, 3);
+      html += `<div><b>Our comp reads as ${esc(a.label || "unclear")}</b>${a.partial ? ' <span class="small muted">(' + a.count + ' of 5 picked)</span>' : ""}
+        ${miss.length ? `<ul class="r small">${miss.map(n => `<li><b>${esc(n.label)}</b> is ${esc(n.status)}. ${esc(n.note || "")} ${basisTag(n.basis)}</li>`).join("")}</ul>` : '<p class="small muted">No obvious holes yet.</p>'}
+        ${rd.versusEnemy ? `<p class="small">Our style against theirs (${esc(rd.versusEnemy.enemyArchetype)}): ${pc(rd.versusEnemy.shrunk)} over ${rd.versusEnemy.n} league games${rd.versusEnemy.mirror ? " (mirror)" : ""}${lowTag(rd.versusEnemy.low)}</p>` : ""}
+        ${rd.weakAgainst && rd.weakAgainst.length ? `<p class="small muted">Styles it has struggled against: ${rd.weakAgainst.slice(0, 2).map(w => `${esc(w.arch)} ${pc(w.shrunk)} (${w.n})`).join(", ")}.</p>` : ""}</div>`;
+    }
+    if (theirs.length >= 2) {
+      const rd = L.compRead(data, games, theirs, mine), a = rd.archetype;
+      const wb = L.whatBeats(data, games, theirs, { limit: 16 });
+      const open = (wb.heroes || []).filter(h => !used.has(h.hero)).slice(0, 5);
+      html += `<div><b>Their comp reads as ${esc(a.label || "unclear")}</b>${a.partial ? ' <span class="small muted">(' + a.count + ' of 5 picked)</span>' : ""}
+        ${(rd.vulnerabilities || []).length ? `<p class="small muted">Weak to: ${rd.vulnerabilities.slice(0, 3).map(v => esc(v.type) + " (" + v.heroes + " heroes)").join("; ")}. ${basisTag("judgment")}</p>` : ""}
+        ${(wb.archetypeAnswers || []).length ? `<p class="small">Styles that beat it in league games: ${wb.archetypeAnswers.slice(0, 3).map(w => `${esc(w.arch)} ${pc(w.shrunk)} (${w.n})`).join(", ")}.</p>` : ""}
+        ${open.length ? `<p class="small" style="margin-bottom:4px">Heroes still open that fit as an answer (score from games and kit):</p><div class="chips">${open.map(h => chip(h.hero, used)).join("")}</div>` : ""}</div>`;
+    }
+    return `<section class="card"><h3>League read</h3><p class="small muted">From ${games.length.toLocaleString()} NGS games across every division (seasons 21 and 22). A second opinion on style and holes, not a rule.</p><div class="cols">${html}</div></section>`;
+  }
+  function sRatings(h) {
+    const x = lab(); if (!x) return noLib();
+    const m = x.data.heroes[h]; if (!m) return '<p class="muted">No rating sheet for this hero.</p>';
+    const L = x.L, d = L.heroDetail(x.games, h), st = d.stat, r = m.ratings || {}, ex = m.extra || {};
+    const rows = [["wave_clear", "Wave clear"], ["camp_clear", "Camp clear"], ["siege", "Siege"], ["objective_burst", "Objective burst"], ["teamfight", "Teamfight"], ["engage", "Engage"], ["peel", "Peel"], ["self_sustain", "Self sustain"], ["mobility", "Mobility"], ["ease_of_execution", "Ease of execution"]];
+    const bar = v => `<span class="rb" title="${v} of 5">${[1, 2, 3, 4, 5].map(i => `<i class="${i <= v ? "on" : ""}"></i>`).join("")}</span>`;
+    const lst = (arr, f) => (arr || []).map(f).join("") || '<li class="small muted">not enough games</li>';
+    return `<p class="small muted">Ratings 1 (poor) to 5 (elite) from the HotS Tools hero matrix. They are a mix of measured data, ability text and authored judgment, so treat them as a way to ask a question.</p>
+      <p class="small">${esc(m.role)}${m.sub_role ? ", " + esc(m.sub_role) : ""}. ${esc(m.range_class || "")} range, ${esc(m.dmg_profile || "")} damage. Fits: ${(m.comp_fit || []).map(esc).join(", ") || "n/a"}.</p>
+      <div class="scroll"><table>${rows.map(k => `<tr><td>${k[1]}</td><td>${bar(r[k[0]] || 0)} <span class="num small muted">${r[k[0]] || "?"}/5</span></td></tr>`).join("")}</table></div>
+      <p class="small">${ex.power_spike ? "Power spike: " + esc(ex.power_spike) + ". " : ""}${ex.pick_risk ? "Pick risk: " + esc(ex.pick_risk) + ". " : ""}${ex.skill_floor ? "Skill floor " + ex.skill_floor + " of 5, ceiling " + ex.skill_ceiling + ". " : ""}${(ex.vulnerable_to || []).length ? "Vulnerable to: " + ex.vulnerable_to.map(esc).join(", ") + "." : ""}</p>
+      ${m.strengths_note ? `<p class="small"><b>Strengths:</b> ${esc(m.strengths_note)}</p>` : ""}${m.weaknesses_note ? `<p class="small"><b>Weaknesses:</b> ${esc(m.weaknesses_note)}</p>` : ""}
+      <h3>League games (${x.games.length.toLocaleString()} NGS games)</h3>
+      <p class="small">${st ? `Picked ${st.picks} times, ${pc(st.shrunk, 1)} win rate${lowTag(st.low)}, banned ${st.bans} times (${pc(st.banRate)} of games).` : "No games in the data."}</p>
+      <div class="cols"><div><b class="small">Best maps</b><ul class="r small">${lst((d.bestMaps || []).slice(0, 4), b => `<li>${esc(b.map)} ${pc(b.shrunk)} over ${b.n}${lowTag(b.low)}</li>`)}</ul></div>
+      <div><b class="small">Does well with</b><ul class="r small">${lst((d.bestPartners || []).slice(0, 4), b => `<li>${esc(b.b)} ${b.wins}-${b.n - b.wins}${lowTag(b.low)}</li>`)}</ul></div>
+      <div><b class="small">Struggles against</b><ul class="r small">${lst((d.worstAgainst || []).slice(0, 4), b => `<li>${esc(b.b)} ${b.aWins}-${b.bWins}${lowTag(b.low)}</li>`)}</ul></div></div>`;
+  }
+  function leagueMapCard(cur) {
+    const x = lab(); if (!x) return "";
+    const ms = x.L.mapSummary(x.data, x.games, cur);
+    if (!ms || !ms.n) return "";
+    const arch = (ms.archetypes || []).slice(0, 4), best = (ms.bestDelta || []).slice(0, 5), bans = (ms.topBans || []).slice(0, 4), bf = ((ms.buildFor || {}).heroes || []).slice(0, 5);
+    return `<section class="card"><h3>League data for this map</h3><p class="small muted">${ms.n} NGS games across every division${ms.low ? ", a low sample" : ""}. Leans, not rules.</p>
+      <div class="cols"><div><b class="small">Comp styles that win here</b><ul class="r small">${arch.map(a => `<li>${esc(a.arch)} ${pc(a.shrunk)} over ${a.n}${lowTag(a.low)}</li>`).join("") || '<li class="muted">none</li>'}</ul></div>
+      <div><b class="small">Heroes that do better here than elsewhere</b><ul class="r small">${best.map(b => `<li>${heroBtn(b.hero)} ${pc(b.mapShrunk)} (${b.delta > 0 ? "+" : ""}${(b.delta * 100).toFixed(0)} points) over ${b.n}${lowTag(b.low)}</li>`).join("") || '<li class="muted">none with 3 or more games</li>'}</ul></div>
+      <div><b class="small">Most banned</b><ul class="r small">${bans.map(b => `<li>${heroBtn(b.hero)} ${b.bans}</li>`).join("") || '<li class="muted">none</li>'}</ul></div></div>
+      ${bf.length ? `<p class="small"><b>Built for this map by attributes</b> ${basisTag("judgment")}: ${bf.map(b => heroBtn(b.hero) + " <span class='muted'>(" + esc(b.why) + ")</span>").join("; ")}</p>` : ""}</section>`;
+  }
+
   function buildLine(h) {
     const d = lh(h); if (!d || !d.codes || !d.codes.length) return `<span class="small muted">no build code in the sheet</span>`;
     const best = d.codes.slice().sort((a, b) => (a.flags.length - b.flags.length) || b.date.localeCompare(a.date))[0];
@@ -501,7 +573,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const hint = (!ui.teamPicked && LG) ? `<section class="card"><p class="small">Playing as <b>${esc(P.us.team)}</b>${CUR.us.team === P.us.team ? " (the team this tool was tuned for)" : ""}. Not your team? Pick yours in the <button class="hl" data-tab="team">Team</button> tab. It takes ten seconds.</p></section>` : "";
     if (!ui.side) return hint + setupCard() + `<section class="card"><p class="muted">Pick who has first pick to start the draft board.</p></section>`;
     const st = state();
-    return hint + setupCard() + seriesCard(st) + turnCard(st) + boardCard(st) + compCard(st) + intelCard(st);
+    return hint + setupCard() + seriesCard(st) + turnCard(st) + boardCard(st) + compCard(st) + leagueCard(st) + intelCard(st);
   }
 
   // ---------------------------------------------------------------- PREP TAB (the opponent)
@@ -620,7 +692,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
 
   // ---------------------------------------------------------------- HERO SHEET
   let sheet = { stack: [], tab: "overview" };
-  const STABS = [["overview", "Overview"], ["builds", "Builds"], ["talents", "Talents"], ["abilities", "Abilities"], ["matchups", "Matchups"], ["maps", "Maps"], ["team", "Team"]];
+  const STABS = [["overview", "Overview"], ["ratings", "Ratings"], ["builds", "Builds"], ["talents", "Talents"], ["abilities", "Abilities"], ["matchups", "Matchups"], ["maps", "Maps"], ["team", "Team"]];
   const noLib = () => `<p class="warnbox">The Icy Veins library has no page for this hero.</p>`;
   function heroTags(h) {
     const g = mainTier(h, "general"), m = mainTier(h, "master"), mp = ui.map ? mainTier(h, ui.map) : null;
@@ -704,14 +776,14 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <p class="small muted">Storm League covers the games on file for the players that have them (Hunter, the last 12 months). Small samples, read them as leans.</p>` : '<p class="muted">Nobody on our team has this hero in a pool or a record this season.</p>'}
       <h3>Who plays it in this division</h3>${theirs.length ? `<p class="small">${theirs.join("; ")}</p>` : '<p class="muted small">Nobody on the other teams has a game on it this season.</p>'}`;
   }
-  const SBODY = { overview: sOverview, builds: sBuilds, talents: sTalents, abilities: sAbilities, matchups: sMatchups, maps: sMaps, team: sTeam };
+  const SBODY = { overview: sOverview, ratings: sRatings, builds: sBuilds, talents: sTalents, abilities: sAbilities, matchups: sMatchups, maps: sMaps, team: sTeam };
   function renderSheet() {
     const h = sheet.stack[sheet.stack.length - 1]; if (!h) return;
     $("#sheet").innerHTML = `<div class="sheet-head"><div class="row" style="justify-content:space-between;flex-wrap:nowrap">
         <div class="row" style="flex-wrap:nowrap">${sheet.stack.length > 1 ? '<button class="btn sm" data-back="1" aria-label="Back to the previous hero">Back</button>' : ""}<h2 id="sheet-title">${esc(h)}</h2></div>
         <button class="btn sm" data-close="sheet">Close</button></div>
       <div class="row" style="margin-top:6px">${heroTags(h)}</div>
-      <div class="tabs small" role="tablist" id="stabs">${STABS.map(t => `<button class="tab" role="tab" data-stab="${t[0]}" aria-selected="${sheet.tab === t[0]}">${t[1]}</button>`).join("")}</div></div>
+      <div class="tabs small" role="tablist" id="stabs">${STABS.filter(t => t[0] !== "ratings" || lab()).map(t => `<button class="tab" role="tab" data-stab="${t[0]}" aria-selected="${sheet.tab === t[0]}">${t[1]}</button>`).join("")}</div></div>
       <div class="sheet-body" id="sbody">${SBODY[sheet.tab](h)}</div>`;
   }
   function openHero(h, tab) {
@@ -770,6 +842,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     ${st.games ? `<section class="card"><h3>What wins here</h3>
       <p class="small">Ranged heroes (Blaze not counted): winners average ${st.win_ranged_avg}, losers ${st.loss_ranged_avg}. Three or more ranged ${rec(st.ranged_rec["3+"])}, two or fewer ${rec(st.ranged_rec["2-"])}.</p>
       <p class="small">Per minute, winners against losers: camp damage ${st.macro.win.camp_dmg}k v ${st.macro.loss.camp_dmg}k, structure damage ${st.macro.win.struct}k v ${st.macro.loss.struct}k, minion damage ${st.macro.win.minion}k v ${st.macro.loss.minion}k. Deaths ${st.macro.win.deaths} v ${st.macro.loss.deaths}.</p></section>` : ""}
+    ${leagueMapCard(cur)}
     ${rows.length ? `<section class="card us"><h3>Our heroes here (Icy Veins tier by the role each player fills)</h3><div class="scroll"><table><tr><th>Hero</th><th>Player</th><th>Tier</th><th>Our NGS here</th></tr>
       ${rows.map(r => { const p = P.us.players.find(x => x.label === r.p); const g = mine[p.tag] && mine[p.tag][r.h]; return `<tr><td>${heroBtn(r.h)} <span class="muted small">${esc(r.pool)}</span></td><td>${esc(r.p)}</td><td><span class="tag ${"SA".includes(r.tier) ? "good" : "DC".includes(r.tier) ? "warn" : ""}">${r.tier} ${esc(r.role)}</span></td><td class="num">${g ? rec(g) : ""}</td></tr>`; }).join("")}</table></div></section>` : ""}
     ${Object.keys(top).length ? `<section class="card"><h3>Icy Veins top tiers here</h3><p class="small muted">S and A tier heroes on the ${esc(cur)} tier list, by role. Outlined heroes are in our pools.</p>
@@ -884,6 +957,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const keep = window.scrollY;
     $("#view").innerHTML = v;
     if (ui._keepScroll) { window.scrollTo(0, keep); ui._keepScroll = false; }
+    if (window.hotsPost) window.hotsPost({ type: "tab", tab: ui.tab });
   }
   function record(hero, st) {
     const key = heroKey[keyOf(hero)];
@@ -983,6 +1057,16 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     else if (t.id === "pq") { ui.pq = t.value; $("#plist").innerHTML = pickerListHtml(); }
   });
   document.addEventListener("keydown", ev => { if (ev.key === "Enter" && ev.target.id === "free") { const b = document.querySelector('[data-act="free"]'); if (b) b.click(); } });
-  load(); render();
+  // HotS Tools: when embedded, the shell drives the tab and can open a hero sheet.
+  if (window.HOTS_EMBED) {
+    window.addEventListener("message", ev => {
+      const d = ev.data; if (!d || !d.hots) return;
+      if (d.type === "goto" && TABS.some(t => t[0] === d.tab)) { closeDialog("sheet"); closeDialog("picker"); ui.tab = d.tab; render(); window.scrollTo(0, 0); }
+      else if (d.type === "hero" && P.heroes[d.hero]) { openHero(d.hero); }
+    });
+  }
+  load();
+  if (window.HOTS_EMBED && window.HOTS_TAB && TABS.some(t => t[0] === window.HOTS_TAB)) ui.tab = window.HOTS_TAB;
+  render();
 })();
 </script>

@@ -1,4 +1,16 @@
-# Handoff 2026-10-12 (read this first, the rest of this file is from Oct 7)
+# Handoff 2026-10-13 (HotS Tools, read this first)
+
+**The two apps are now one.** `hots_tools.html` (built by `python build_hotstools.py --all`) holds the Draft Room, the Draft Lab, My Games and the Learn pages behind one navigation. Read `HOTS_TOOLS.md`. The artifact link in `CLAUDE.md` should carry it: publish `hots_tools_artifact.html` over that link (read the live artifact first).
+
+**Done this session:** My Games (import, overview, heroes, maps, habits, pool coach, send pool to the draft board), Review a draft, the league read inside the Draft Room, the Ratings tab on hero sheets, early lead statistics from replay timelines in the Meta tab, the correct NGS draft order in the Draft Lab, a refreshed league dataset (2,210 games), the PRA and CCS deep dive (`PRA_CCS_DEEP_DIVE.md`, with timelines in section 8).
+
+**Not verified live:** the console snippet in My Games that reads a player's Heroes Profile history. Cloudflare returned 403 when it was tried, so the request shape (the same one our own pulls use) has not been confirmed in this session. The paste and CSV routes are tested.
+
+**Open ideas:** use takedown times and positions from the replay export (who died first, where fights happened); a per player view of the replay export for any NGS player; refresh the example games in My Games; replay export for Heroes Lounge does not exist.
+
+---
+
+# Handoff 2026-10-12 (the Draft Room, still true)
 
 **What exists now.** The tool is called **HotS Drafter** (page title). It works for any NGS team: Team tab picks the team, who you are, and a data window (NGS seasons 21 and 22, regular season and playoffs, Storm League scopes and MMR). Live link in `CLAUDE.md`; republish by publishing `draft_tool_artifact.html` to that link (read it first).
 

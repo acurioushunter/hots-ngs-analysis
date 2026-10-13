@@ -126,9 +126,47 @@ Patterns:
 8. **Offlaner and tank:** Blaze and Muradin on Shrines. Leoric is 5-4 for us and 0-4 on Shrines across the division, so keep him off that map.
 9. **Hunter's open pool:** Sylvanas, Tychus, Orphea, Raynor, Cassia. Falstad is on the config's avoid list and is 1-3 for us. Raynor (5-2 division wide, 5.6 camps, 30k structures, 1.6 deaths) and Tychus (15-10, 27k structures, 1.7 deaths) fit the safe and siege description best. Gul'dan (5-3, 31k structures) and Kael'thas (8-4, 1.6 deaths) are the next two.
 
-## 8. What the data cannot show
+## 8. What the replay timelines add (added Oct 13)
 
-- When fights happened, who started them, and who won each shrine or gem turn in.
+Hunter's fresh replay export of Season 22 carries what the match pages do not: experience by minute, who died first and when, level lead over time, structures and camps with timestamps, mercenary uptime. It covers 22 of our 23 games and all 20 of CCS's. Runs below are Season 22 only. League wide figures use 1,409 NGS games from Seasons 21 and 22.
+
+| Signal | PRA when it happened | PRA when it did not | CCS when it happened | CCS when it did not |
+|---|---|---|---|---|
+| Ahead on experience at 5 minutes | 12-5 | 2-3 | 7-2 | 7-4 |
+| Ahead on experience at 10 minutes | 11-4 | 3-4 | 12-1 | 2-5 |
+| Ahead on experience at 15 minutes | 8-2 | 2-6 | 12-2 | 1-3 |
+| More mercenary uptime | 13-3 | 1-5 | 12-2 | 2-4 |
+| First kill | 8-6 | 6-2 | 7-1 | 7-5 |
+| Destroyed the first structure | 12-4 | 2-4 | 10-1 | 4-5 |
+
+- **Mercenary uptime is the clearest split for us.** In our wins we have 41% uptime against their 20%. In our losses it is 26% against 30%. It is not camp captures (about 21 a game either way). It is the parser's own measure of how much of the game a team's mercenaries were up, so it likely reflects holding and using camps, not just taking them.
+- **Our early lead is real but it is not enough.** Average experience lead for us at 5, 10 and 15 minutes is +1,743, +4,583 and +7,147 in wins and +640, +236 and -3,496 in losses.
+- **CCS is very good with a 10 minute lead (12-1) and poor without one (2-5).** Their median first kill comes at 1:15, ours at 2:14, so they look for early fights. They average +1,753 at 10 minutes against our +3,002.
+- **The first kill does not matter for us** (8-6 with it, 6-2 without).
+
+The six games between us, experience lead from our side:
+
+| Game | Result | First kill | At 5 min | At 10 min | At 15 min |
+|---|---|---|---|---|---|
+| Sky Temple, Aug 19 | W | PRA at 0:21 | +5,470 | +10,253 | +8,640 |
+| Dragon Shire, Aug 19 | L | PRA at 1:15 | +3,148 | +5,491 | -2,904 |
+| Alterac Pass, Aug 19 | L | PRA at 4:29 | +922 | +122 | -4,110 |
+| Volskaya, Sep 22 | W | PRA at 5:57 | +1,221 | +3,168 | +5,544 |
+| Garden of Terror, Sep 22 | L | CCS at 1:15 | +376 | -244 | +6,809 |
+| Infernal Shrines, Sep 22 | L | PRA at 1:02 | +1,648 | -5,186 | -14,871 |
+
+What it says:
+- **Three of the four losses turned between minute 10 and minute 15.** Dragon Shire went from +5,491 to -2,904, Alterac from +122 to -4,110. On Shrines we were ahead at 5 minutes (+1,648) and 6,800 behind at 10, so the damage was done in minutes 5 to 10.
+- **Garden was different.** We were 6,809 ahead at 15 minutes and still lost in 24.8 minutes. That one is about late structure damage (their Ragnaros 351k siege), not early leads.
+- **The Shrines loss was not a slow start.** We won the first kill at 1:02 and led on experience at 5 minutes. Look at the draft and the first shrine fights, but the data does not show which of them cost the 6,800.
+
+Sample sizes are small (22 and 20 games) and a team that is ahead late is usually ahead because it was already winning. The 5 and 10 minute rows are the ones to lean on.
+
+League wide, the side ahead on experience wins 68% of the time at 5 minutes, 77% at 10 and 81% at 15. A lead of 3,000 or more at 10 minutes wins 87% (820 games). The first kill wins only 58%. More mercenary uptime wins 78%, the first fort 76% and fewer deaths 92%.
+
+## 9. What the data still cannot show
+
+- Who started each fight and who won each shrine or gem turn in (the replay timelines have takedown times and positions, which a later pass could use).
 - Whether a death was a solo pick off or a lost team fight.
 - Why a player picked something. The Tychus and Falstad picks may have had reasons I cannot see.
 - Anything beyond 20 to 60 games: most lines above rest on 2 to 12 games.

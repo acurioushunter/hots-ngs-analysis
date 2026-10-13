@@ -1,0 +1,3769 @@
+{
+ "games": 56,
+ "method": "Archetype = comps.classify() on ngs_player_game heroes using hero_tags.HEROES. Primary tag scores 2 and secondary 1, summed into Poke/siege (poke), Dive/engage (dive, engage), Brawl/sustain (brawl, sustain). The leading group names the comp; if the top two groups are within 1 point it is Balanced. push and burst tags score nothing. Chen, Murky, Probius, Samuro, Sgt. Hammer and Zeratul are untagged but were only banned, never picked.",
+ "per_map": {
+  "Alterac Pass": {
+   "games": 2,
+   "archetype_wr": {
+    "Brawl / sustain": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Battlefield of Eternity": {
+   "games": 6,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 5,
+     "l": 4,
+     "n": 9,
+     "wr": 56,
+     "low_n": false
+    },
+    "Brawl / sustain": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Braxis Holdout": {
+   "games": 3,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 1,
+     "l": 2,
+     "n": 3,
+     "wr": 33,
+     "low_n": true
+    },
+    "Dive / engage": {
+     "w": 2,
+     "l": 0,
+     "n": 2,
+     "wr": 100,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Cursed Hollow": {
+   "games": 2,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Dragon Shire": {
+   "games": 6,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 3,
+     "l": 1,
+     "n": 4,
+     "wr": 75,
+     "low_n": true
+    },
+    "Dive / engage": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 3,
+     "n": 3,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Garden of Terror": {
+   "games": 4,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 3,
+     "l": 1,
+     "n": 4,
+     "wr": 75,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Dive / engage": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Infernal Shrines": {
+   "games": 11,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 4,
+     "l": 3,
+     "n": 7,
+     "wr": 57,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 6,
+     "l": 5,
+     "n": 11,
+     "wr": 55,
+     "low_n": false
+    },
+    "Dive / engage": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 2,
+     "n": 2,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Sky Temple": {
+   "games": 2,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Tomb of the Spider Queen": {
+   "games": 9,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 5,
+     "l": 5,
+     "n": 10,
+     "wr": 50,
+     "low_n": false
+    },
+    "Brawl / sustain": {
+     "w": 4,
+     "l": 3,
+     "n": 7,
+     "wr": 57,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Towers of Doom": {
+   "games": 8,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 4,
+     "l": 2,
+     "n": 6,
+     "wr": 67,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 3,
+     "l": 3,
+     "n": 6,
+     "wr": 50,
+     "low_n": true
+    },
+    "Dive / engage": {
+     "w": 0,
+     "l": 2,
+     "n": 2,
+     "wr": 0,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  },
+  "Volskaya Foundry": {
+   "games": 3,
+   "archetype_wr": {
+    "Balanced": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 1,
+     "l": 2,
+     "n": 3,
+     "wr": 33,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    }
+   },
+   "winning_comps_repeated": []
+  }
+ },
+ "archetype_matchups": [
+  {
+   "ours": "Balanced",
+   "theirs": "Balanced",
+   "w": 10,
+   "l": 10,
+   "n": 20,
+   "wr": 50,
+   "low_n": false
+  },
+  {
+   "ours": "Balanced",
+   "theirs": "Brawl / sustain",
+   "w": 10,
+   "l": 7,
+   "n": 17,
+   "wr": 59,
+   "low_n": false
+  },
+  {
+   "ours": "Balanced",
+   "theirs": "Dive / engage",
+   "w": 3,
+   "l": 1,
+   "n": 4,
+   "wr": 75,
+   "low_n": true
+  },
+  {
+   "ours": "Balanced",
+   "theirs": "Poke / siege",
+   "w": 3,
+   "l": 0,
+   "n": 3,
+   "wr": 100,
+   "low_n": true
+  },
+  {
+   "ours": "Brawl / sustain",
+   "theirs": "Balanced",
+   "w": 7,
+   "l": 10,
+   "n": 17,
+   "wr": 41,
+   "low_n": false
+  },
+  {
+   "ours": "Brawl / sustain",
+   "theirs": "Brawl / sustain",
+   "w": 8,
+   "l": 8,
+   "n": 16,
+   "wr": 50,
+   "low_n": false
+  },
+  {
+   "ours": "Brawl / sustain",
+   "theirs": "Dive / engage",
+   "w": 2,
+   "l": 1,
+   "n": 3,
+   "wr": 67,
+   "low_n": true
+  },
+  {
+   "ours": "Brawl / sustain",
+   "theirs": "Poke / siege",
+   "w": 7,
+   "l": 2,
+   "n": 9,
+   "wr": 78,
+   "low_n": false
+  },
+  {
+   "ours": "Dive / engage",
+   "theirs": "Balanced",
+   "w": 1,
+   "l": 3,
+   "n": 4,
+   "wr": 25,
+   "low_n": true
+  },
+  {
+   "ours": "Dive / engage",
+   "theirs": "Brawl / sustain",
+   "w": 1,
+   "l": 2,
+   "n": 3,
+   "wr": 33,
+   "low_n": true
+  },
+  {
+   "ours": "Dive / engage",
+   "theirs": "Poke / siege",
+   "w": 2,
+   "l": 0,
+   "n": 2,
+   "wr": 100,
+   "low_n": true
+  },
+  {
+   "ours": "Poke / siege",
+   "theirs": "Balanced",
+   "w": 0,
+   "l": 3,
+   "n": 3,
+   "wr": 0,
+   "low_n": true
+  },
+  {
+   "ours": "Poke / siege",
+   "theirs": "Brawl / sustain",
+   "w": 2,
+   "l": 7,
+   "n": 9,
+   "wr": 22,
+   "low_n": false
+  },
+  {
+   "ours": "Poke / siege",
+   "theirs": "Dive / engage",
+   "w": 0,
+   "l": 2,
+   "n": 2,
+   "wr": 0,
+   "low_n": true
+  }
+ ],
+ "archetype_overall": {
+  "Balanced": {
+   "w": 26,
+   "l": 18,
+   "n": 44,
+   "wr": 59,
+   "low_n": false
+  },
+  "Brawl / sustain": {
+   "w": 24,
+   "l": 21,
+   "n": 45,
+   "wr": 53,
+   "low_n": false
+  },
+  "Dive / engage": {
+   "w": 4,
+   "l": 5,
+   "n": 9,
+   "wr": 44,
+   "low_n": false
+  },
+  "Poke / siege": {
+   "w": 2,
+   "l": 12,
+   "n": 14,
+   "wr": 14,
+   "low_n": false
+  }
+ },
+ "heroes": {
+  "Kael'thas": {
+   "picks": 12,
+   "pick_rate_pct": 21,
+   "w": 8,
+   "l": 4,
+   "n": 12,
+   "wr": 67,
+   "low_n": false,
+   "bans": 7
+  },
+  "Sonya": {
+   "picks": 10,
+   "pick_rate_pct": 18,
+   "w": 5,
+   "l": 5,
+   "n": 10,
+   "wr": 50,
+   "low_n": false,
+   "bans": 4
+  },
+  "Anub'arak": {
+   "picks": 16,
+   "pick_rate_pct": 29,
+   "w": 9,
+   "l": 7,
+   "n": 16,
+   "wr": 56,
+   "low_n": false,
+   "bans": 24
+  },
+  "Uther": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 2,
+   "l": 0,
+   "n": 2,
+   "wr": 100,
+   "low_n": true,
+   "bans": 1
+  },
+  "Greymane": {
+   "picks": 11,
+   "pick_rate_pct": 20,
+   "w": 8,
+   "l": 3,
+   "n": 11,
+   "wr": 73,
+   "low_n": false,
+   "bans": 2
+  },
+  "Hogger": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 0,
+   "l": 2,
+   "n": 2,
+   "wr": 0,
+   "low_n": true,
+   "bans": 4
+  },
+  "Arthas": {
+   "picks": 8,
+   "pick_rate_pct": 14,
+   "w": 3,
+   "l": 5,
+   "n": 8,
+   "wr": 38,
+   "low_n": false,
+   "bans": 2
+  },
+  "Deckard": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 1,
+   "l": 2,
+   "n": 3,
+   "wr": 33,
+   "low_n": true,
+   "bans": 0
+  },
+  "Rehgar": {
+   "picks": 15,
+   "pick_rate_pct": 27,
+   "w": 8,
+   "l": 7,
+   "n": 15,
+   "wr": 53,
+   "low_n": false,
+   "bans": 5
+  },
+  "Valla": {
+   "picks": 8,
+   "pick_rate_pct": 14,
+   "w": 2,
+   "l": 6,
+   "n": 8,
+   "wr": 25,
+   "low_n": false,
+   "bans": 10
+  },
+  "Leoric": {
+   "picks": 23,
+   "pick_rate_pct": 41,
+   "w": 14,
+   "l": 9,
+   "n": 23,
+   "wr": 61,
+   "low_n": false,
+   "bans": 6
+  },
+  "Li Li": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 3,
+   "l": 0,
+   "n": 3,
+   "wr": 100,
+   "low_n": true,
+   "bans": 0
+  },
+  "Sylvanas": {
+   "picks": 26,
+   "pick_rate_pct": 46,
+   "w": 15,
+   "l": 11,
+   "n": 26,
+   "wr": 58,
+   "low_n": false,
+   "bans": 11
+  },
+  "Johanna": {
+   "picks": 31,
+   "pick_rate_pct": 55,
+   "w": 18,
+   "l": 13,
+   "n": 31,
+   "wr": 58,
+   "low_n": false,
+   "bans": 18
+  },
+  "Jaina": {
+   "picks": 11,
+   "pick_rate_pct": 20,
+   "w": 3,
+   "l": 8,
+   "n": 11,
+   "wr": 27,
+   "low_n": false,
+   "bans": 4
+  },
+  "Cassia": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 0,
+   "l": 3,
+   "n": 3,
+   "wr": 0,
+   "low_n": true,
+   "bans": 0
+  },
+  "Brightwing": {
+   "picks": 23,
+   "pick_rate_pct": 41,
+   "w": 14,
+   "l": 9,
+   "n": 23,
+   "wr": 61,
+   "low_n": false,
+   "bans": 7
+  },
+  "Blaze": {
+   "picks": 22,
+   "pick_rate_pct": 39,
+   "w": 8,
+   "l": 14,
+   "n": 22,
+   "wr": 36,
+   "low_n": false,
+   "bans": 4
+  },
+  "Tychus": {
+   "picks": 24,
+   "pick_rate_pct": 43,
+   "w": 14,
+   "l": 10,
+   "n": 24,
+   "wr": 58,
+   "low_n": false,
+   "bans": 10
+  },
+  "Junkrat": {
+   "picks": 8,
+   "pick_rate_pct": 14,
+   "w": 5,
+   "l": 3,
+   "n": 8,
+   "wr": 62,
+   "low_n": false,
+   "bans": 16
+  },
+  "Thrall": {
+   "picks": 8,
+   "pick_rate_pct": 14,
+   "w": 3,
+   "l": 5,
+   "n": 8,
+   "wr": 38,
+   "low_n": false,
+   "bans": 7
+  },
+  "Varian": {
+   "picks": 11,
+   "pick_rate_pct": 20,
+   "w": 6,
+   "l": 5,
+   "n": 11,
+   "wr": 55,
+   "low_n": false,
+   "bans": 6
+  },
+  "Tyrande": {
+   "picks": 10,
+   "pick_rate_pct": 18,
+   "w": 2,
+   "l": 8,
+   "n": 10,
+   "wr": 20,
+   "low_n": false,
+   "bans": 2
+  },
+  "Tassadar": {
+   "picks": 13,
+   "pick_rate_pct": 23,
+   "w": 7,
+   "l": 6,
+   "n": 13,
+   "wr": 54,
+   "low_n": false,
+   "bans": 10
+  },
+  "Muradin": {
+   "picks": 12,
+   "pick_rate_pct": 21,
+   "w": 9,
+   "l": 3,
+   "n": 12,
+   "wr": 75,
+   "low_n": false,
+   "bans": 0
+  },
+  "Lunara": {
+   "picks": 14,
+   "pick_rate_pct": 25,
+   "w": 10,
+   "l": 4,
+   "n": 14,
+   "wr": 71,
+   "low_n": false,
+   "bans": 7
+  },
+  "Whitemane": {
+   "picks": 10,
+   "pick_rate_pct": 18,
+   "w": 5,
+   "l": 5,
+   "n": 10,
+   "wr": 50,
+   "low_n": false,
+   "bans": 4
+  },
+  "Li-Ming": {
+   "picks": 14,
+   "pick_rate_pct": 25,
+   "w": 7,
+   "l": 7,
+   "n": 14,
+   "wr": 50,
+   "low_n": false,
+   "bans": 4
+  },
+  "Nazeebo": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 0,
+   "l": 2,
+   "n": 2,
+   "wr": 0,
+   "low_n": true,
+   "bans": 0
+  },
+  "Ragnaros": {
+   "picks": 9,
+   "pick_rate_pct": 16,
+   "w": 4,
+   "l": 5,
+   "n": 9,
+   "wr": 44,
+   "low_n": false,
+   "bans": 3
+  },
+  "Hanzo": {
+   "picks": 9,
+   "pick_rate_pct": 16,
+   "w": 3,
+   "l": 6,
+   "n": 9,
+   "wr": 33,
+   "low_n": false,
+   "bans": 0
+  },
+  "Dehaka": {
+   "picks": 19,
+   "pick_rate_pct": 34,
+   "w": 12,
+   "l": 7,
+   "n": 19,
+   "wr": 63,
+   "low_n": false,
+   "bans": 6
+  },
+  "Stukov": {
+   "picks": 11,
+   "pick_rate_pct": 20,
+   "w": 4,
+   "l": 7,
+   "n": 11,
+   "wr": 36,
+   "low_n": false,
+   "bans": 22
+  },
+  "Chromie": {
+   "picks": 10,
+   "pick_rate_pct": 18,
+   "w": 4,
+   "l": 6,
+   "n": 10,
+   "wr": 40,
+   "low_n": false,
+   "bans": 9
+  },
+  "Garrosh": {
+   "picks": 6,
+   "pick_rate_pct": 11,
+   "w": 1,
+   "l": 5,
+   "n": 6,
+   "wr": 17,
+   "low_n": true,
+   "bans": 7
+  },
+  "Anduin": {
+   "picks": 24,
+   "pick_rate_pct": 43,
+   "w": 13,
+   "l": 11,
+   "n": 24,
+   "wr": 54,
+   "low_n": false,
+   "bans": 10
+  },
+  "Orphea": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 1,
+   "l": 2,
+   "n": 3,
+   "wr": 33,
+   "low_n": true,
+   "bans": 0
+  },
+  "E.T.C.": {
+   "picks": 12,
+   "pick_rate_pct": 21,
+   "w": 5,
+   "l": 7,
+   "n": 12,
+   "wr": 42,
+   "low_n": false,
+   "bans": 2
+  },
+  "Qhira": {
+   "picks": 5,
+   "pick_rate_pct": 9,
+   "w": 2,
+   "l": 3,
+   "n": 5,
+   "wr": 40,
+   "low_n": true,
+   "bans": 11
+  },
+  "Gazlowe": {
+   "picks": 7,
+   "pick_rate_pct": 12,
+   "w": 3,
+   "l": 4,
+   "n": 7,
+   "wr": 43,
+   "low_n": true,
+   "bans": 1
+  },
+  "Zul'jin": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 1,
+   "l": 2,
+   "n": 3,
+   "wr": 33,
+   "low_n": true,
+   "bans": 1
+  },
+  "Gul'dan": {
+   "picks": 6,
+   "pick_rate_pct": 11,
+   "w": 3,
+   "l": 3,
+   "n": 6,
+   "wr": 50,
+   "low_n": true,
+   "bans": 1
+  },
+  "Falstad": {
+   "picks": 10,
+   "pick_rate_pct": 18,
+   "w": 4,
+   "l": 6,
+   "n": 10,
+   "wr": 40,
+   "low_n": false,
+   "bans": 12
+  },
+  "Auriel": {
+   "picks": 5,
+   "pick_rate_pct": 9,
+   "w": 1,
+   "l": 4,
+   "n": 5,
+   "wr": 20,
+   "low_n": true,
+   "bans": 0
+  },
+  "Fenix": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 0,
+   "l": 1,
+   "n": 1,
+   "wr": 0,
+   "low_n": true,
+   "bans": 0
+  },
+  "Deathwing": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 1,
+   "l": 0,
+   "n": 1,
+   "wr": 100,
+   "low_n": true,
+   "bans": 7
+  },
+  "Stitches": {
+   "picks": 6,
+   "pick_rate_pct": 11,
+   "w": 3,
+   "l": 3,
+   "n": 6,
+   "wr": 50,
+   "low_n": true,
+   "bans": 7
+  },
+  "Malfurion": {
+   "picks": 4,
+   "pick_rate_pct": 7,
+   "w": 2,
+   "l": 2,
+   "n": 4,
+   "wr": 50,
+   "low_n": true,
+   "bans": 0
+  },
+  "Zagara": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 1,
+   "l": 0,
+   "n": 1,
+   "wr": 100,
+   "low_n": true,
+   "bans": 0
+  },
+  "Kharazim": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 0,
+   "l": 1,
+   "n": 1,
+   "wr": 0,
+   "low_n": true,
+   "bans": 0
+  },
+  "Mei": {
+   "picks": 5,
+   "pick_rate_pct": 9,
+   "w": 0,
+   "l": 5,
+   "n": 5,
+   "wr": 0,
+   "low_n": true,
+   "bans": 1
+  },
+  "Yrel": {
+   "picks": 4,
+   "pick_rate_pct": 7,
+   "w": 1,
+   "l": 3,
+   "n": 4,
+   "wr": 25,
+   "low_n": true,
+   "bans": 0
+  },
+  "Maiev": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 1,
+   "l": 0,
+   "n": 1,
+   "wr": 100,
+   "low_n": true,
+   "bans": 0
+  },
+  "The Lost Vikings": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 2,
+   "l": 0,
+   "n": 2,
+   "wr": 100,
+   "low_n": true,
+   "bans": 13
+  },
+  "Diablo": {
+   "picks": 6,
+   "pick_rate_pct": 11,
+   "w": 2,
+   "l": 4,
+   "n": 6,
+   "wr": 33,
+   "low_n": true,
+   "bans": 2
+  },
+  "Artanis": {
+   "picks": 4,
+   "pick_rate_pct": 7,
+   "w": 2,
+   "l": 2,
+   "n": 4,
+   "wr": 50,
+   "low_n": true,
+   "bans": 1
+  },
+  "Kerrigan": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 0,
+   "l": 3,
+   "n": 3,
+   "wr": 0,
+   "low_n": true,
+   "bans": 7
+  },
+  "Ana": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 1,
+   "l": 1,
+   "n": 2,
+   "wr": 50,
+   "low_n": true,
+   "bans": 0
+  },
+  "Mephisto": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 0,
+   "l": 1,
+   "n": 1,
+   "wr": 0,
+   "low_n": true,
+   "bans": 0
+  },
+  "Raynor": {
+   "picks": 7,
+   "pick_rate_pct": 12,
+   "w": 5,
+   "l": 2,
+   "n": 7,
+   "wr": 71,
+   "low_n": true,
+   "bans": 4
+  },
+  "Rexxar": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 2,
+   "l": 1,
+   "n": 3,
+   "wr": 67,
+   "low_n": true,
+   "bans": 0
+  },
+  "Illidan": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 1,
+   "l": 1,
+   "n": 2,
+   "wr": 50,
+   "low_n": true,
+   "bans": 1
+  },
+  "Azmodan": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 0,
+   "l": 1,
+   "n": 1,
+   "wr": 0,
+   "low_n": true,
+   "bans": 0
+  },
+  "Abathur": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 0,
+   "l": 2,
+   "n": 2,
+   "wr": 0,
+   "low_n": true,
+   "bans": 2
+  },
+  "Valeera": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 1,
+   "l": 1,
+   "n": 2,
+   "wr": 50,
+   "low_n": true,
+   "bans": 0
+  },
+  "Alarak": {
+   "picks": 3,
+   "pick_rate_pct": 5,
+   "w": 2,
+   "l": 1,
+   "n": 3,
+   "wr": 67,
+   "low_n": true,
+   "bans": 2
+  },
+  "Tyrael": {
+   "picks": 2,
+   "pick_rate_pct": 4,
+   "w": 1,
+   "l": 1,
+   "n": 2,
+   "wr": 50,
+   "low_n": true,
+   "bans": 0
+  },
+  "Tracer": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 1,
+   "l": 0,
+   "n": 1,
+   "wr": 100,
+   "low_n": true,
+   "bans": 0
+  },
+  "Imperius": {
+   "picks": 1,
+   "pick_rate_pct": 2,
+   "w": 1,
+   "l": 0,
+   "n": 1,
+   "wr": 100,
+   "low_n": true,
+   "bans": 0
+  },
+  "Sgt. Hammer": {
+   "picks": 0,
+   "bans": 12
+  },
+  "Zeratul": {
+   "picks": 0,
+   "bans": 5
+  },
+  "Chen": {
+   "picks": 0,
+   "bans": 6
+  },
+  "Probius": {
+   "picks": 0,
+   "bans": 1
+  },
+  "Samuro": {
+   "picks": 0,
+   "bans": 2
+  },
+  "Murky": {
+   "picks": 0,
+   "bans": 2
+  }
+ },
+ "top_banned": [
+  {
+   "hero": "Anub'arak",
+   "bans": 24,
+   "ban_rate_pct": 43,
+   "picked": 16,
+   "pick_wr": 56,
+   "top_banners": [
+    [
+     "Roll1Esports",
+     8
+    ],
+    [
+     "Phoenix Rising Amethyst",
+     6
+    ]
+   ]
+  },
+  {
+   "hero": "Stukov",
+   "bans": 22,
+   "ban_rate_pct": 39,
+   "picked": 11,
+   "pick_wr": 36,
+   "top_banners": [
+    [
+     "Phoenix Rising Amethyst",
+     8
+    ],
+    [
+     "COSMOS",
+     7
+    ]
+   ]
+  },
+  {
+   "hero": "Johanna",
+   "bans": 18,
+   "ban_rate_pct": 32,
+   "picked": 31,
+   "pick_wr": 58,
+   "top_banners": [
+    [
+     "Phoenix Rising Amethyst",
+     6
+    ],
+    [
+     "COSMOS",
+     6
+    ]
+   ]
+  },
+  {
+   "hero": "Junkrat",
+   "bans": 16,
+   "ban_rate_pct": 29,
+   "picked": 8,
+   "pick_wr": 62,
+   "top_banners": [
+    [
+     "Can't Counterpick Stupid",
+     6
+    ],
+    [
+     "COSMOS",
+     5
+    ]
+   ]
+  },
+  {
+   "hero": "The Lost Vikings",
+   "bans": 13,
+   "ban_rate_pct": 23,
+   "picked": 2,
+   "pick_wr": 100,
+   "top_banners": [
+    [
+     "Can't Counterpick Stupid",
+     4
+    ],
+    [
+     "Phoenix Rising Amethyst",
+     4
+    ]
+   ]
+  },
+  {
+   "hero": "Falstad",
+   "bans": 12,
+   "ban_rate_pct": 21,
+   "picked": 10,
+   "pick_wr": 40,
+   "top_banners": [
+    [
+     "Phoenix Rising Amethyst",
+     6
+    ],
+    [
+     "Roll1Esports",
+     3
+    ]
+   ]
+  },
+  {
+   "hero": "Sgt. Hammer",
+   "bans": 12,
+   "ban_rate_pct": 21,
+   "picked": 0,
+   "pick_wr": null,
+   "top_banners": [
+    [
+     "Phoenix Rising Amethyst",
+     8
+    ],
+    [
+     "Good Lordy",
+     2
+    ]
+   ]
+  },
+  {
+   "hero": "Qhira",
+   "bans": 11,
+   "ban_rate_pct": 20,
+   "picked": 5,
+   "pick_wr": 40,
+   "top_banners": [
+    [
+     "Phoenix Rising Amethyst",
+     4
+    ],
+    [
+     "Good Lordy",
+     3
+    ]
+   ]
+  },
+  {
+   "hero": "Sylvanas",
+   "bans": 11,
+   "ban_rate_pct": 20,
+   "picked": 26,
+   "pick_wr": 58,
+   "top_banners": [
+    [
+     "Anomaly",
+     4
+    ],
+    [
+     "Roll1Esports",
+     4
+    ]
+   ]
+  },
+  {
+   "hero": "Anduin",
+   "bans": 10,
+   "ban_rate_pct": 18,
+   "picked": 24,
+   "pick_wr": 54,
+   "top_banners": [
+    [
+     "Phoenix Rising Amethyst",
+     5
+    ],
+    [
+     "COSMOS",
+     2
+    ]
+   ]
+  },
+  {
+   "hero": "Tassadar",
+   "bans": 10,
+   "ban_rate_pct": 18,
+   "picked": 13,
+   "pick_wr": 54,
+   "top_banners": [
+    [
+     "Anomaly",
+     4
+    ],
+    [
+     "Roll1Esports",
+     2
+    ]
+   ]
+  },
+  {
+   "hero": "Valla",
+   "bans": 10,
+   "ban_rate_pct": 18,
+   "picked": 8,
+   "pick_wr": 25,
+   "top_banners": [
+    [
+     "Can't Counterpick Stupid",
+     4
+    ],
+    [
+     "COSMOS",
+     3
+    ]
+   ]
+  },
+  {
+   "hero": "Tychus",
+   "bans": 10,
+   "ban_rate_pct": 18,
+   "picked": 24,
+   "pick_wr": 58,
+   "top_banners": [
+    [
+     "Anomaly",
+     4
+    ],
+    [
+     "Can't Counterpick Stupid",
+     3
+    ]
+   ]
+  },
+  {
+   "hero": "Chromie",
+   "bans": 9,
+   "ban_rate_pct": 16,
+   "picked": 10,
+   "pick_wr": 40,
+   "top_banners": [
+    [
+     "Anomaly",
+     3
+    ],
+    [
+     "Can't Counterpick Stupid",
+     3
+    ]
+   ]
+  },
+  {
+   "hero": "Brightwing",
+   "bans": 7,
+   "ban_rate_pct": 12,
+   "picked": 23,
+   "pick_wr": 61,
+   "top_banners": [
+    [
+     "Roll1Esports",
+     2
+    ],
+    [
+     "Anomaly",
+     2
+    ]
+   ]
+  }
+ ],
+ "most_picked": [
+  {
+   "hero": "Johanna",
+   "picks": 31,
+   "pick_rate_pct": 55,
+   "w": 18,
+   "l": 13,
+   "n": 31,
+   "wr": 58,
+   "low_n": false,
+   "bans": 18
+  },
+  {
+   "hero": "Sylvanas",
+   "picks": 26,
+   "pick_rate_pct": 46,
+   "w": 15,
+   "l": 11,
+   "n": 26,
+   "wr": 58,
+   "low_n": false,
+   "bans": 11
+  },
+  {
+   "hero": "Tychus",
+   "picks": 24,
+   "pick_rate_pct": 43,
+   "w": 14,
+   "l": 10,
+   "n": 24,
+   "wr": 58,
+   "low_n": false,
+   "bans": 10
+  },
+  {
+   "hero": "Anduin",
+   "picks": 24,
+   "pick_rate_pct": 43,
+   "w": 13,
+   "l": 11,
+   "n": 24,
+   "wr": 54,
+   "low_n": false,
+   "bans": 10
+  },
+  {
+   "hero": "Leoric",
+   "picks": 23,
+   "pick_rate_pct": 41,
+   "w": 14,
+   "l": 9,
+   "n": 23,
+   "wr": 61,
+   "low_n": false,
+   "bans": 6
+  },
+  {
+   "hero": "Brightwing",
+   "picks": 23,
+   "pick_rate_pct": 41,
+   "w": 14,
+   "l": 9,
+   "n": 23,
+   "wr": 61,
+   "low_n": false,
+   "bans": 7
+  },
+  {
+   "hero": "Blaze",
+   "picks": 22,
+   "pick_rate_pct": 39,
+   "w": 8,
+   "l": 14,
+   "n": 22,
+   "wr": 36,
+   "low_n": false,
+   "bans": 4
+  },
+  {
+   "hero": "Dehaka",
+   "picks": 19,
+   "pick_rate_pct": 34,
+   "w": 12,
+   "l": 7,
+   "n": 19,
+   "wr": 63,
+   "low_n": false,
+   "bans": 6
+  },
+  {
+   "hero": "Anub'arak",
+   "picks": 16,
+   "pick_rate_pct": 29,
+   "w": 9,
+   "l": 7,
+   "n": 16,
+   "wr": 56,
+   "low_n": false,
+   "bans": 24
+  },
+  {
+   "hero": "Rehgar",
+   "picks": 15,
+   "pick_rate_pct": 27,
+   "w": 8,
+   "l": 7,
+   "n": 15,
+   "wr": 53,
+   "low_n": false,
+   "bans": 5
+  },
+  {
+   "hero": "Lunara",
+   "picks": 14,
+   "pick_rate_pct": 25,
+   "w": 10,
+   "l": 4,
+   "n": 14,
+   "wr": 71,
+   "low_n": false,
+   "bans": 7
+  },
+  {
+   "hero": "Li-Ming",
+   "picks": 14,
+   "pick_rate_pct": 25,
+   "w": 7,
+   "l": 7,
+   "n": 14,
+   "wr": 50,
+   "low_n": false,
+   "bans": 4
+  },
+  {
+   "hero": "Tassadar",
+   "picks": 13,
+   "pick_rate_pct": 23,
+   "w": 7,
+   "l": 6,
+   "n": 13,
+   "wr": 54,
+   "low_n": false,
+   "bans": 10
+  },
+  {
+   "hero": "Kael'thas",
+   "picks": 12,
+   "pick_rate_pct": 21,
+   "w": 8,
+   "l": 4,
+   "n": 12,
+   "wr": 67,
+   "low_n": false,
+   "bans": 7
+  },
+  {
+   "hero": "Muradin",
+   "picks": 12,
+   "pick_rate_pct": 21,
+   "w": 9,
+   "l": 3,
+   "n": 12,
+   "wr": 75,
+   "low_n": false,
+   "bans": 0
+  }
+ ],
+ "teams": {
+  "Can't Counterpick Stupid": {
+   "record": {
+    "w": 12,
+    "l": 6,
+    "n": 18,
+    "wr": 67,
+    "low_n": false
+   },
+   "maps": {
+    "Alterac Pass": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Battlefield of Eternity": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Dragon Shire": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Garden of Terror": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Infernal Shrines": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    },
+    "Sky Temple": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Tomb of the Spider Queen": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Towers of Doom": {
+     "w": 4,
+     "l": 1,
+     "n": 5,
+     "wr": 80,
+     "low_n": true
+    },
+    "Volskaya Foundry": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    }
+   },
+   "archetypes": {
+    "Balanced": {
+     "w": 6,
+     "l": 2,
+     "n": 8,
+     "wr": 75,
+     "low_n": false
+    },
+    "Brawl / sustain": {
+     "w": 4,
+     "l": 0,
+     "n": 4,
+     "wr": 100,
+     "low_n": true
+    },
+    "Dive / engage": {
+     "w": 0,
+     "l": 2,
+     "n": 2,
+     "wr": 0,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 2,
+     "l": 2,
+     "n": 4,
+     "wr": 50,
+     "low_n": true
+    }
+   },
+   "vs_opponent": {
+    "Anomaly": {
+     "w": 2,
+     "l": 0,
+     "n": 2,
+     "wr": 100,
+     "low_n": true
+    },
+    "COSMOS": {
+     "w": 2,
+     "l": 3,
+     "n": 5,
+     "wr": 40,
+     "low_n": true
+    },
+    "Good Lordy": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    },
+    "Phoenix Rising Amethyst": {
+     "w": 4,
+     "l": 2,
+     "n": 6,
+     "wr": 67,
+     "low_n": true
+    },
+    "Roll1Esports": {
+     "w": 2,
+     "l": 0,
+     "n": 2,
+     "wr": 100,
+     "low_n": true
+    }
+   },
+   "first_pick_team_record": {
+    "w": 9,
+    "l": 2,
+    "n": 11,
+    "wr": 82,
+    "low_n": false
+   },
+   "second_pick_team_record": {
+    "w": 3,
+    "l": 4,
+    "n": 7,
+    "wr": 43,
+    "low_n": true
+   },
+   "signature_heroes": [
+    {
+     "hero": "Lunara",
+     "games": 11,
+     "w": 8,
+     "l": 3
+    },
+    {
+     "hero": "Johanna",
+     "games": 7,
+     "w": 5,
+     "l": 2
+    },
+    {
+     "hero": "Dehaka",
+     "games": 6,
+     "w": 4,
+     "l": 2
+    },
+    {
+     "hero": "Whitemane",
+     "games": 6,
+     "w": 5,
+     "l": 1
+    },
+    {
+     "hero": "Qhira",
+     "games": 5,
+     "w": 2,
+     "l": 3
+    },
+    {
+     "hero": "Sylvanas",
+     "games": 4,
+     "w": 3,
+     "l": 1
+    },
+    {
+     "hero": "Hanzo",
+     "games": 4,
+     "w": 2,
+     "l": 2
+    },
+    {
+     "hero": "Rehgar",
+     "games": 4,
+     "w": 4,
+     "l": 0
+    }
+   ],
+   "first_pick_hero_when_first": [
+    [
+     "Johanna",
+     4
+    ],
+    [
+     "Qhira",
+     2
+    ],
+    [
+     "Sylvanas",
+     2
+    ],
+    [
+     "Stukov",
+     1
+    ],
+    [
+     "Lunara",
+     1
+    ]
+   ],
+   "slot6_pick_when_second": [
+    [
+     "Johanna",
+     1
+    ],
+    [
+     "Rehgar",
+     1
+    ],
+    [
+     "Qhira",
+     1
+    ],
+    [
+     "Sonya",
+     1
+    ],
+    [
+     "Dehaka",
+     1
+    ]
+   ],
+   "own_bans_slots_1_2": [
+    [
+     "Junkrat",
+     5
+    ],
+    [
+     "The Lost Vikings",
+     3
+    ],
+    [
+     "Sylvanas",
+     2
+    ],
+    [
+     "Stukov",
+     1
+    ],
+    [
+     "Probius",
+     1
+    ],
+    [
+     "Samuro",
+     1
+    ]
+   ],
+   "ban_counts": [
+    [
+     "Thrall",
+     7
+    ],
+    [
+     "Junkrat",
+     6
+    ],
+    [
+     "The Lost Vikings",
+     4
+    ],
+    [
+     "Anub'arak",
+     4
+    ],
+    [
+     "Valla",
+     4
+    ],
+    [
+     "Tychus",
+     3
+    ],
+    [
+     "Sylvanas",
+     3
+    ],
+    [
+     "Chromie",
+     3
+    ]
+   ],
+   "losses": [
+    {
+     "game": 22944,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Sky Temple",
+     "our_arch": "Poke / siege",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Johanna",
+      "Sylvanas",
+      "Nazeebo",
+      "Tyrande",
+      "Ragnaros"
+     ],
+     "their_comp": [
+      "Brightwing",
+      "Sonya",
+      "Tychus",
+      "Junkrat",
+      "Anub'arak"
+     ]
+    },
+    {
+     "game": 22998,
+     "vs": "COSMOS",
+     "map": "Tomb of the Spider Queen",
+     "our_arch": "Poke / siege",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Qhira",
+      "Kael'thas",
+      "Stukov",
+      "Gazlowe",
+      "E.T.C."
+     ],
+     "their_comp": [
+      "Tassadar",
+      "Blaze",
+      "Johanna",
+      "Brightwing",
+      "Tychus"
+     ]
+    },
+    {
+     "game": 22999,
+     "vs": "COSMOS",
+     "map": "Towers of Doom",
+     "our_arch": "Dive / engage",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Qhira",
+      "Zul'jin",
+      "Tyrande",
+      "Dehaka",
+      "Johanna"
+     ],
+     "their_comp": [
+      "Kael'thas",
+      "Blaze",
+      "Anub'arak",
+      "Anduin",
+      "Greymane"
+     ]
+    },
+    {
+     "game": 23167,
+     "vs": "Good Lordy",
+     "map": "Dragon Shire",
+     "our_arch": "Dive / engage",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Garrosh",
+      "Brightwing",
+      "Lunara",
+      "Dehaka",
+      "Hanzo"
+     ],
+     "their_comp": [
+      "Anduin",
+      "Johanna",
+      "Leoric",
+      "Jaina",
+      "Falstad"
+     ]
+    },
+    {
+     "game": 23229,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Volskaya Foundry",
+     "our_arch": "Balanced",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Garrosh",
+      "Hanzo",
+      "Anduin",
+      "Lunara",
+      "Blaze"
+     ],
+     "their_comp": [
+      "Brightwing",
+      "Leoric",
+      "Thrall",
+      "Sylvanas",
+      "Johanna"
+     ]
+    },
+    {
+     "game": 23307,
+     "vs": "COSMOS",
+     "map": "Infernal Shrines",
+     "our_arch": "Balanced",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Garrosh",
+      "Qhira",
+      "Whitemane",
+      "Lunara",
+      "Sonya"
+     ],
+     "their_comp": [
+      "Tassadar",
+      "Brightwing",
+      "Anub'arak",
+      "Rexxar",
+      "Valla"
+     ]
+    }
+   ]
+  },
+  "COSMOS": {
+   "record": {
+    "w": 14,
+    "l": 7,
+    "n": 21,
+    "wr": 67,
+    "low_n": false
+   },
+   "maps": {
+    "Battlefield of Eternity": {
+     "w": 0,
+     "l": 2,
+     "n": 2,
+     "wr": 0,
+     "low_n": true
+    },
+    "Braxis Holdout": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Cursed Hollow": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Dragon Shire": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Garden of Terror": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Infernal Shrines": {
+     "w": 5,
+     "l": 0,
+     "n": 5,
+     "wr": 100,
+     "low_n": true
+    },
+    "Tomb of the Spider Queen": {
+     "w": 4,
+     "l": 1,
+     "n": 5,
+     "wr": 80,
+     "low_n": true
+    },
+    "Towers of Doom": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    },
+    "Volskaya Foundry": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    }
+   },
+   "archetypes": {
+    "Balanced": {
+     "w": 5,
+     "l": 3,
+     "n": 8,
+     "wr": 62,
+     "low_n": false
+    },
+    "Brawl / sustain": {
+     "w": 9,
+     "l": 1,
+     "n": 10,
+     "wr": 90,
+     "low_n": false
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 3,
+     "n": 3,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "vs_opponent": {
+    "Anomaly": {
+     "w": 4,
+     "l": 0,
+     "n": 4,
+     "wr": 100,
+     "low_n": true
+    },
+    "Can't Counterpick Stupid": {
+     "w": 3,
+     "l": 2,
+     "n": 5,
+     "wr": 60,
+     "low_n": true
+    },
+    "Good Lordy": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    },
+    "Phoenix Rising Amethyst": {
+     "w": 1,
+     "l": 4,
+     "n": 5,
+     "wr": 20,
+     "low_n": true
+    },
+    "Roll1Esports": {
+     "w": 4,
+     "l": 0,
+     "n": 4,
+     "wr": 100,
+     "low_n": true
+    }
+   },
+   "first_pick_team_record": {
+    "w": 7,
+    "l": 3,
+    "n": 10,
+    "wr": 70,
+    "low_n": false
+   },
+   "second_pick_team_record": {
+    "w": 7,
+    "l": 4,
+    "n": 11,
+    "wr": 64,
+    "low_n": false
+   },
+   "signature_heroes": [
+    {
+     "hero": "Kael'thas",
+     "games": 10,
+     "w": 8,
+     "l": 2
+    },
+    {
+     "hero": "Anduin",
+     "games": 8,
+     "w": 5,
+     "l": 3
+    },
+    {
+     "hero": "Anub'arak",
+     "games": 7,
+     "w": 6,
+     "l": 1
+    },
+    {
+     "hero": "Brightwing",
+     "games": 7,
+     "w": 5,
+     "l": 2
+    },
+    {
+     "hero": "Greymane",
+     "games": 6,
+     "w": 6,
+     "l": 0
+    },
+    {
+     "hero": "Tassadar",
+     "games": 6,
+     "w": 4,
+     "l": 2
+    },
+    {
+     "hero": "Leoric",
+     "games": 5,
+     "w": 5,
+     "l": 0
+    },
+    {
+     "hero": "Sylvanas",
+     "games": 5,
+     "w": 3,
+     "l": 2
+    }
+   ],
+   "first_pick_hero_when_first": [
+    [
+     "Anduin",
+     4
+    ],
+    [
+     "Sylvanas",
+     2
+    ],
+    [
+     "Kael'thas",
+     1
+    ],
+    [
+     "Dehaka",
+     1
+    ],
+    [
+     "Johanna",
+     1
+    ]
+   ],
+   "slot6_pick_when_second": [
+    [
+     "Anub'arak",
+     3
+    ],
+    [
+     "Kael'thas",
+     3
+    ],
+    [
+     "Tassadar",
+     1
+    ],
+    [
+     "Blaze",
+     1
+    ],
+    [
+     "Arthas",
+     1
+    ]
+   ],
+   "own_bans_slots_1_2": [
+    [
+     "Stukov",
+     7
+    ],
+    [
+     "Junkrat",
+     5
+    ],
+    [
+     "The Lost Vikings",
+     3
+    ],
+    [
+     "Johanna",
+     2
+    ],
+    [
+     "Abathur",
+     1
+    ],
+    [
+     "Valla",
+     1
+    ]
+   ],
+   "ban_counts": [
+    [
+     "Stukov",
+     7
+    ],
+    [
+     "Johanna",
+     6
+    ],
+    [
+     "Garrosh",
+     5
+    ],
+    [
+     "Junkrat",
+     5
+    ],
+    [
+     "Valla",
+     3
+    ],
+    [
+     "Lunara",
+     3
+    ],
+    [
+     "Stitches",
+     3
+    ],
+    [
+     "The Lost Vikings",
+     3
+    ]
+   ],
+   "losses": [
+    {
+     "game": 23057,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Tomb of the Spider Queen",
+     "our_arch": "Balanced",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Kael'thas",
+      "Blaze",
+      "E.T.C.",
+      "Kharazim",
+      "Tychus"
+     ],
+     "their_comp": [
+      "Brightwing",
+      "Leoric",
+      "Gul'dan",
+      "Sylvanas",
+      "Stitches"
+     ]
+    },
+    {
+     "game": 23058,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Garden of Terror",
+     "our_arch": "Poke / siege",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Tassadar",
+      "Ragnaros",
+      "Mei",
+      "Brightwing",
+      "Sylvanas"
+     ],
+     "their_comp": [
+      "Rehgar",
+      "Dehaka",
+      "Tychus",
+      "Falstad",
+      "Muradin"
+     ]
+    },
+    {
+     "game": 23143,
+     "vs": "Good Lordy",
+     "map": "Battlefield of Eternity",
+     "our_arch": "Poke / siege",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Chromie",
+      "Anduin",
+      "Anub'arak",
+      "Blaze",
+      "Hanzo"
+     ],
+     "their_comp": [
+      "Li-Ming",
+      "Brightwing",
+      "Artanis",
+      "Raynor",
+      "E.T.C."
+     ]
+    },
+    {
+     "game": 23308,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Towers of Doom",
+     "our_arch": "Balanced",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Kael'thas",
+      "Brightwing",
+      "Stitches",
+      "Gazlowe",
+      "Zul'jin"
+     ],
+     "their_comp": [
+      "Muradin",
+      "Sylvanas",
+      "Whitemane",
+      "Lunara",
+      "Dehaka"
+     ]
+    },
+    {
+     "game": 23309,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Volskaya Foundry",
+     "our_arch": "Brawl / sustain",
+     "their_arch": "Poke / siege",
+     "our_comp": [
+      "Orphea",
+      "Anduin",
+      "Arthas",
+      "Thrall",
+      "Tychus"
+     ],
+     "their_comp": [
+      "Muradin",
+      "Sylvanas",
+      "Whitemane",
+      "Gul'dan",
+      "Gazlowe"
+     ]
+    },
+    {
+     "game": 23346,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Dragon Shire",
+     "our_arch": "Poke / siege",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Li-Ming",
+      "Anduin",
+      "Muradin",
+      "Gazlowe",
+      "Sylvanas"
+     ],
+     "their_comp": [
+      "Brightwing",
+      "Leoric",
+      "Tychus",
+      "Chromie",
+      "E.T.C."
+     ]
+    },
+    {
+     "game": 23347,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Battlefield of Eternity",
+     "our_arch": "Balanced",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Tassadar",
+      "Deckard",
+      "Diablo",
+      "Artanis",
+      "Hanzo"
+     ],
+     "their_comp": [
+      "Brightwing",
+      "Blaze",
+      "Tychus",
+      "Li-Ming",
+      "Johanna"
+     ]
+    }
+   ]
+  },
+  "Good Lordy": {
+   "record": {
+    "w": 9,
+    "l": 6,
+    "n": 15,
+    "wr": 60,
+    "low_n": false
+   },
+   "maps": {
+    "Battlefield of Eternity": {
+     "w": 3,
+     "l": 1,
+     "n": 4,
+     "wr": 75,
+     "low_n": true
+    },
+    "Braxis Holdout": {
+     "w": 2,
+     "l": 0,
+     "n": 2,
+     "wr": 100,
+     "low_n": true
+    },
+    "Dragon Shire": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Garden of Terror": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Infernal Shrines": {
+     "w": 1,
+     "l": 2,
+     "n": 3,
+     "wr": 33,
+     "low_n": true
+    },
+    "Towers of Doom": {
+     "w": 2,
+     "l": 2,
+     "n": 4,
+     "wr": 50,
+     "low_n": true
+    }
+   },
+   "archetypes": {
+    "Balanced": {
+     "w": 4,
+     "l": 1,
+     "n": 5,
+     "wr": 80,
+     "low_n": true
+    },
+    "Brawl / sustain": {
+     "w": 2,
+     "l": 2,
+     "n": 4,
+     "wr": 50,
+     "low_n": true
+    },
+    "Dive / engage": {
+     "w": 3,
+     "l": 2,
+     "n": 5,
+     "wr": 60,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "vs_opponent": {
+    "Anomaly": {
+     "w": 2,
+     "l": 0,
+     "n": 2,
+     "wr": 100,
+     "low_n": true
+    },
+    "COSMOS": {
+     "w": 1,
+     "l": 2,
+     "n": 3,
+     "wr": 33,
+     "low_n": true
+    },
+    "Can't Counterpick Stupid": {
+     "w": 1,
+     "l": 2,
+     "n": 3,
+     "wr": 33,
+     "low_n": true
+    },
+    "Phoenix Rising Amethyst": {
+     "w": 3,
+     "l": 2,
+     "n": 5,
+     "wr": 60,
+     "low_n": true
+    },
+    "Roll1Esports": {
+     "w": 2,
+     "l": 0,
+     "n": 2,
+     "wr": 100,
+     "low_n": true
+    }
+   },
+   "first_pick_team_record": {
+    "w": 4,
+    "l": 3,
+    "n": 7,
+    "wr": 57,
+    "low_n": true
+   },
+   "second_pick_team_record": {
+    "w": 5,
+    "l": 3,
+    "n": 8,
+    "wr": 62,
+    "low_n": false
+   },
+   "signature_heroes": [
+    {
+     "hero": "Anduin",
+     "games": 7,
+     "w": 5,
+     "l": 2
+    },
+    {
+     "hero": "Varian",
+     "games": 6,
+     "w": 4,
+     "l": 2
+    },
+    {
+     "hero": "Leoric",
+     "games": 5,
+     "w": 3,
+     "l": 2
+    },
+    {
+     "hero": "Johanna",
+     "games": 5,
+     "w": 4,
+     "l": 1
+    },
+    {
+     "hero": "Jaina",
+     "games": 4,
+     "w": 2,
+     "l": 2
+    },
+    {
+     "hero": "Falstad",
+     "games": 4,
+     "w": 2,
+     "l": 2
+    },
+    {
+     "hero": "Sylvanas",
+     "games": 3,
+     "w": 2,
+     "l": 1
+    },
+    {
+     "hero": "Auriel",
+     "games": 3,
+     "w": 1,
+     "l": 2
+    }
+   ],
+   "first_pick_hero_when_first": [
+    [
+     "Johanna",
+     2
+    ],
+    [
+     "Jaina",
+     1
+    ],
+    [
+     "Li-Ming",
+     1
+    ],
+    [
+     "Anduin",
+     1
+    ],
+    [
+     "Dehaka",
+     1
+    ]
+   ],
+   "slot6_pick_when_second": [
+    [
+     "Varian",
+     3
+    ],
+    [
+     "Sylvanas",
+     2
+    ],
+    [
+     "Johanna",
+     1
+    ],
+    [
+     "Raynor",
+     1
+    ],
+    [
+     "Alarak",
+     1
+    ]
+   ],
+   "own_bans_slots_1_2": [
+    [
+     "Valla",
+     2
+    ],
+    [
+     "Kerrigan",
+     2
+    ],
+    [
+     "Stukov",
+     2
+    ],
+    [
+     "Deathwing",
+     2
+    ],
+    [
+     "Junkrat",
+     2
+    ],
+    [
+     "Illidan",
+     1
+    ]
+   ],
+   "ban_counts": [
+    [
+     "Stukov",
+     4
+    ],
+    [
+     "Dehaka",
+     3
+    ],
+    [
+     "Raynor",
+     3
+    ],
+    [
+     "Qhira",
+     3
+    ],
+    [
+     "Junkrat",
+     3
+    ],
+    [
+     "Chen",
+     2
+    ],
+    [
+     "Valla",
+     2
+    ],
+    [
+     "Kerrigan",
+     2
+    ]
+   ],
+   "losses": [
+    {
+     "game": 23142,
+     "vs": "COSMOS",
+     "map": "Towers of Doom",
+     "our_arch": "Brawl / sustain",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Auriel",
+      "Johanna",
+      "Illidan",
+      "Azmodan",
+      "Valla"
+     ],
+     "their_comp": [
+      "Kael'thas",
+      "Anduin",
+      "Anub'arak",
+      "Leoric",
+      "Sylvanas"
+     ]
+    },
+    {
+     "game": 23144,
+     "vs": "COSMOS",
+     "map": "Infernal Shrines",
+     "our_arch": "Dive / engage",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Li-Ming",
+      "Anduin",
+      "Kerrigan",
+      "Jaina",
+      "E.T.C."
+     ],
+     "their_comp": [
+      "Kael'thas",
+      "Brightwing",
+      "Anub'arak",
+      "Ragnaros",
+      "Tychus"
+     ]
+    },
+    {
+     "game": 23168,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Battlefield of Eternity",
+     "our_arch": "Brawl / sustain",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Auriel",
+      "Varian",
+      "Valla",
+      "Falstad",
+      "Arthas"
+     ],
+     "their_comp": [
+      "Johanna",
+      "Qhira",
+      "Rehgar",
+      "Lunara",
+      "Artanis"
+     ]
+    },
+    {
+     "game": 23169,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Towers of Doom",
+     "our_arch": "Poke / siege",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Ana",
+      "Sylvanas",
+      "Varian",
+      "Leoric",
+      "Jaina"
+     ],
+     "their_comp": [
+      "Johanna",
+      "Valla",
+      "Whitemane",
+      "Lunara",
+      "Dehaka"
+     ]
+    },
+    {
+     "game": 23284,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Garden of Terror",
+     "our_arch": "Dive / engage",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Anduin",
+      "Mei",
+      "Abathur",
+      "Dehaka",
+      "Falstad"
+     ],
+     "their_comp": [
+      "Rehgar",
+      "Blaze",
+      "Chromie",
+      "Sylvanas",
+      "Tyrael"
+     ]
+    },
+    {
+     "game": 23286,
+     "vs": "Phoenix Rising Amethyst",
+     "map": "Infernal Shrines",
+     "our_arch": "Balanced",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Rehgar",
+      "Mei",
+      "Valeera",
+      "Leoric",
+      "Alarak"
+     ],
+     "their_comp": [
+      "Anduin",
+      "Blaze",
+      "Tychus",
+      "Sylvanas",
+      "Muradin"
+     ]
+    }
+   ]
+  },
+  "Phoenix Rising Amethyst": {
+   "record": {
+    "w": 14,
+    "l": 9,
+    "n": 23,
+    "wr": 61,
+    "low_n": false
+   },
+   "maps": {
+    "Alterac Pass": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Battlefield of Eternity": {
+     "w": 1,
+     "l": 1,
+     "n": 2,
+     "wr": 50,
+     "low_n": true
+    },
+    "Braxis Holdout": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Cursed Hollow": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Dragon Shire": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    },
+    "Garden of Terror": {
+     "w": 3,
+     "l": 1,
+     "n": 4,
+     "wr": 75,
+     "low_n": true
+    },
+    "Infernal Shrines": {
+     "w": 1,
+     "l": 2,
+     "n": 3,
+     "wr": 33,
+     "low_n": true
+    },
+    "Sky Temple": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    },
+    "Tomb of the Spider Queen": {
+     "w": 3,
+     "l": 1,
+     "n": 4,
+     "wr": 75,
+     "low_n": true
+    },
+    "Towers of Doom": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Volskaya Foundry": {
+     "w": 1,
+     "l": 0,
+     "n": 1,
+     "wr": 100,
+     "low_n": true
+    }
+   },
+   "archetypes": {
+    "Balanced": {
+     "w": 6,
+     "l": 3,
+     "n": 9,
+     "wr": 67,
+     "low_n": false
+    },
+    "Brawl / sustain": {
+     "w": 8,
+     "l": 4,
+     "n": 12,
+     "wr": 67,
+     "low_n": false
+    },
+    "Dive / engage": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    },
+    "Poke / siege": {
+     "w": 0,
+     "l": 1,
+     "n": 1,
+     "wr": 0,
+     "low_n": true
+    }
+   },
+   "vs_opponent": {
+    "Anomaly": {
+     "w": 4,
+     "l": 0,
+     "n": 4,
+     "wr": 100,
+     "low_n": true
+    },
+    "COSMOS": {
+     "w": 4,
+     "l": 1,
+     "n": 5,
+     "wr": 80,
+     "low_n": true
+    },
+    "Can't Counterpick Stupid": {
+     "w": 2,
+     "l": 4,
+     "n": 6,
+     "wr": 33,
+     "low_n": true
+    },
+    "Good Lordy": {
+     "w": 2,
+     "l": 3,
+     "n": 5,
+     "wr": 40,
+     "low_n": true
+    },
+    "Roll1Esports": {
+     "w": 2,
+     "l": 1,
+     "n": 3,
+     "wr": 67,
+     "low_n": true
+    }
+   },
+   "first_pick_team_record": {
+    "w": 7,
+    "l": 7,
+    "n": 14,
+    "wr": 50,
+    "low_n": false
+   },
+   "second_pick_team_record": {
+    "w": 7,
+    "l": 2,
+    "n": 9,
+    "wr": 78,
+    "low_n": false
+   },
+   "signature_heroes": [
+    {
+     "hero": "Brightwing",
+     "games": 12,
+     "w": 8,
+     "l": 4
+    },
+    {
+     "hero": "Sylvanas",
+     "games": 11,
+     "w": 6,
+     "l": 5
+    },
+    {
+     "hero": "Blaze",
+     "games": 10,
+     "w": 6,
+     "l": 4
+    },
+    {
+     "hero": "Tychus",
+     "games": 9,
+     "w": 7,
+     "l": 2
+    },
+    {
+     "hero": "Leoric",
+     "games": 9,
+     "w": 5,
+     "l": 4
+    },
+    {
+     "hero": "Johanna",
+     "games": 7,
+     "w": 4,
+     "l": 3
+    },
+    {
+     "hero": "Rehgar",
+     "games": 7,
+     "w": 4,
+     "l": 3
+    },
+    {
+     "hero": "Chromie",
+     "games": 5,
+     "w": 3,
+     "l": 2
+    }
+   ],
+   "first_pick_hero_when_first": [
+    [
+     "Johanna",
+     6
+    ],
+    [
+     "Sylvanas",
+     5
+    ],
+    [
+     "Junkrat",
+     2
+    ],
+    [
+     "Li-Ming",
+     1
+    ]
+   ],
+   "slot6_pick_when_second": [
+    [
+     "Sylvanas",
+     3
+    ],
+    [
+     "Rehgar",
+     3
+    ],
+    [
+     "Junkrat",
+     1
+    ],
+    [
+     "Anduin",
+     1
+    ],
+    [
+     "Brightwing",
+     1
+    ]
+   ],
+   "own_bans_slots_1_2": [
+    [
+     "Anub'arak",
+     4
+    ],
+    [
+     "Falstad",
+     3
+    ],
+    [
+     "Stukov",
+     3
+    ],
+    [
+     "The Lost Vikings",
+     3
+    ],
+    [
+     "Qhira",
+     2
+    ],
+    [
+     "Johanna",
+     2
+    ]
+   ],
+   "ban_counts": [
+    [
+     "Stukov",
+     8
+    ],
+    [
+     "Sgt. Hammer",
+     8
+    ],
+    [
+     "Falstad",
+     6
+    ],
+    [
+     "Johanna",
+     6
+    ],
+    [
+     "Anub'arak",
+     6
+    ],
+    [
+     "Anduin",
+     5
+    ],
+    [
+     "Qhira",
+     4
+    ],
+    [
+     "The Lost Vikings",
+     4
+    ]
+   ],
+   "losses": [
+    {
+     "game": 22945,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Dragon Shire",
+     "our_arch": "Balanced",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Stukov",
+      "Leoric",
+      "Sylvanas",
+      "Chromie",
+      "Varian"
+     ],
+     "their_comp": [
+      "Johanna",
+      "Hanzo",
+      "Li-Ming",
+      "Rehgar",
+      "Dehaka"
+     ]
+    },
+    {
+     "game": 22946,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Alterac Pass",
+     "our_arch": "Poke / siege",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Brightwing",
+      "Blaze",
+      "Ragnaros",
+      "Sylvanas",
+      "Anub'arak"
+     ],
+     "their_comp": [
+      "Johanna",
+      "Tychus",
+      "Li-Ming",
+      "Rehgar",
+      "Sonya"
+     ]
+    },
+    {
+     "game": 23008,
+     "vs": "Good Lordy",
+     "map": "Towers of Doom",
+     "our_arch": "Dive / engage",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Anduin",
+      "Blaze",
+      "Gul'dan",
+      "Falstad",
+      "Johanna"
+     ],
+     "their_comp": [
+      "Uther",
+      "Sylvanas",
+      "Chromie",
+      "Varian",
+      "Leoric"
+     ]
+    },
+    {
+     "game": 23009,
+     "vs": "Good Lordy",
+     "map": "Battlefield of Eternity",
+     "our_arch": "Balanced",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Brightwing",
+      "Blaze",
+      "Tychus",
+      "Li-Ming",
+      "Anub'arak"
+     ],
+     "their_comp": [
+      "Auriel",
+      "Sylvanas",
+      "Muradin",
+      "Varian",
+      "Zul'jin"
+     ]
+    },
+    {
+     "game": 23120,
+     "vs": "Roll1Esports",
+     "map": "Infernal Shrines",
+     "our_arch": "Brawl / sustain",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Brightwing",
+      "Leoric",
+      "Falstad",
+      "Mephisto",
+      "Johanna"
+     ],
+     "their_comp": [
+      "Diablo",
+      "Deckard",
+      "Dehaka",
+      "Lunara",
+      "Junkrat"
+     ]
+    },
+    {
+     "game": 23230,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Garden of Terror",
+     "our_arch": "Brawl / sustain",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Rehgar",
+      "Blaze",
+      "Tychus",
+      "Sylvanas",
+      "E.T.C."
+     ],
+     "their_comp": [
+      "Anub'arak",
+      "Qhira",
+      "Li-Ming",
+      "Tyrande",
+      "Ragnaros"
+     ]
+    },
+    {
+     "game": 23231,
+     "vs": "Can't Counterpick Stupid",
+     "map": "Infernal Shrines",
+     "our_arch": "Brawl / sustain",
+     "their_arch": "Balanced",
+     "our_comp": [
+      "Rehgar",
+      "Leoric",
+      "Tassadar",
+      "Falstad",
+      "Johanna"
+     ],
+     "their_comp": [
+      "Arthas",
+      "Sylvanas",
+      "Whitemane",
+      "Lunara",
+      "Gazlowe"
+     ]
+    },
+    {
+     "game": 23285,
+     "vs": "Good Lordy",
+     "map": "Braxis Holdout",
+     "our_arch": "Balanced",
+     "their_arch": "Dive / engage",
+     "our_comp": [
+      "Brightwing",
+      "Rexxar",
+      "Chromie",
+      "Sylvanas",
+      "E.T.C."
+     ],
+     "their_comp": [
+      "Stukov",
+      "Johanna",
+      "Tassadar",
+      "Illidan",
+      "Alarak"
+     ]
+    },
+    {
+     "game": 23345,
+     "vs": "COSMOS",
+     "map": "Tomb of the Spider Queen",
+     "our_arch": "Brawl / sustain",
+     "their_arch": "Brawl / sustain",
+     "our_comp": [
+      "Rehgar",
+      "Leoric",
+      "Thrall",
+      "Sylvanas",
+      "Tyrael"
+     ],
+     "their_comp": [
+      "Kael'thas",
+      "Brightwing",
+      "Muradin",
+      "Yrel",
+      "Greymane"
+     ]
+    }
+   ]
+  }
+ },
+ "pick_slots": {
+  "slot 5 first team pick 1": [
+   {
+    "hero": "Johanna",
+    "n": 18,
+    "wr": 56
+   },
+   {
+    "hero": "Sylvanas",
+    "n": 9,
+    "wr": 44
+   },
+   {
+    "hero": "Anduin",
+    "n": 6,
+    "wr": 50
+   },
+   {
+    "hero": "Stukov",
+    "n": 4,
+    "wr": 50
+   },
+   {
+    "hero": "Dehaka",
+    "n": 3,
+    "wr": 67
+   },
+   {
+    "hero": "Junkrat",
+    "n": 2,
+    "wr": 100
+   }
+  ],
+  "slot 6 second team pick 1": [
+   {
+    "hero": "Sylvanas",
+    "n": 7,
+    "wr": 71
+   },
+   {
+    "hero": "Anub'arak",
+    "n": 6,
+    "wr": 50
+   },
+   {
+    "hero": "Rehgar",
+    "n": 5,
+    "wr": 60
+   },
+   {
+    "hero": "Tassadar",
+    "n": 4,
+    "wr": 50
+   },
+   {
+    "hero": "Johanna",
+    "n": 4,
+    "wr": 0
+   },
+   {
+    "hero": "Kael'thas",
+    "n": 3,
+    "wr": 67
+   }
+  ],
+  "slot 7 second team pick 2": [
+   {
+    "hero": "Kael'thas",
+    "n": 5,
+    "wr": 60
+   },
+   {
+    "hero": "Brightwing",
+    "n": 5,
+    "wr": 40
+   },
+   {
+    "hero": "Valla",
+    "n": 4,
+    "wr": 0
+   },
+   {
+    "hero": "Sylvanas",
+    "n": 4,
+    "wr": 25
+   },
+   {
+    "hero": "Johanna",
+    "n": 4,
+    "wr": 75
+   },
+   {
+    "hero": "Dehaka",
+    "n": 4,
+    "wr": 75
+   }
+  ],
+  "slot 8 first team pick 2": [
+   {
+    "hero": "Anub'arak",
+    "n": 6,
+    "wr": 67
+   },
+   {
+    "hero": "Brightwing",
+    "n": 5,
+    "wr": 60
+   },
+   {
+    "hero": "Dehaka",
+    "n": 5,
+    "wr": 40
+   },
+   {
+    "hero": "Rehgar",
+    "n": 3,
+    "wr": 33
+   },
+   {
+    "hero": "Leoric",
+    "n": 3,
+    "wr": 33
+   },
+   {
+    "hero": "Sylvanas",
+    "n": 3,
+    "wr": 67
+   }
+  ]
+ },
+ "ban_slots": {
+  "1": [
+   [
+    "Junkrat",
+    8
+   ],
+   [
+    "Stukov",
+    6
+   ],
+   [
+    "The Lost Vikings",
+    6
+   ],
+   [
+    "Anub'arak",
+    5
+   ]
+  ],
+  "2": [
+   [
+    "Johanna",
+    7
+   ],
+   [
+    "Stukov",
+    7
+   ],
+   [
+    "Junkrat",
+    6
+   ],
+   [
+    "Anub'arak",
+    5
+   ]
+  ],
+  "3": [
+   [
+    "Kael'thas",
+    4
+   ],
+   [
+    "Anub'arak",
+    4
+   ],
+   [
+    "Falstad",
+    3
+   ],
+   [
+    "Tychus",
+    3
+   ]
+  ],
+  "4": [
+   [
+    "Johanna",
+    8
+   ],
+   [
+    "Anub'arak",
+    7
+   ],
+   [
+    "Qhira",
+    5
+   ],
+   [
+    "Anduin",
+    3
+   ]
+  ],
+  "10": [
+   [
+    "Chen",
+    5
+   ],
+   [
+    "Leoric",
+    5
+   ],
+   [
+    "Brightwing",
+    3
+   ],
+   [
+    "Thrall",
+    3
+   ]
+  ],
+  "11": [
+   [
+    "Stukov",
+    5
+   ],
+   [
+    "Sgt. Hammer",
+    4
+   ],
+   [
+    "Sylvanas",
+    4
+   ],
+   [
+    "Varian",
+    4
+   ]
+  ]
+ },
+ "first_pick_team_win": {
+  "w": 30,
+  "l": 26,
+  "n": 56,
+  "wr": 54,
+  "low_n": false
+ },
+ "role_first_pick": {
+  "Ranged": 20,
+  "Tank": 18,
+  "Bruiser": 4,
+  "Healer": 11,
+  "Melee": 3
+ },
+ "role_picks_6_7": {
+  "Healer": 23,
+  "Ranged": 45,
+  "Tank": 21,
+  "Bruiser": 20,
+  "Melee": 3
+ },
+ "ban_then_own_early_pick": [
+  {
+   "ban": "Stukov",
+   "pick": "Johanna",
+   "n": 6
+  },
+  {
+   "ban": "Anub'arak",
+   "pick": "Sylvanas",
+   "n": 5
+  },
+  {
+   "ban": "Johanna",
+   "pick": "Rehgar",
+   "n": 4
+  },
+  {
+   "ban": "Falstad",
+   "pick": "Johanna",
+   "n": 4
+  },
+  {
+   "ban": "Stukov",
+   "pick": "Sylvanas",
+   "n": 4
+  },
+  {
+   "ban": "Junkrat",
+   "pick": "Johanna",
+   "n": 4
+  }
+ ],
+ "ban_then_enemy_early_pick": [
+  {
+   "ban": "Junkrat",
+   "enemy_pick": "Sylvanas",
+   "n": 9
+  },
+  {
+   "ban": "Stukov",
+   "enemy_pick": "Johanna",
+   "n": 7
+  },
+  {
+   "ban": "Johanna",
+   "enemy_pick": "Sylvanas",
+   "n": 6
+  },
+  {
+   "ban": "Sgt. Hammer",
+   "enemy_pick": "Johanna",
+   "n": 5
+  },
+  {
+   "ban": "Junkrat",
+   "enemy_pick": "Johanna",
+   "n": 5
+  },
+  {
+   "ban": "Tassadar",
+   "enemy_pick": "Kael'thas",
+   "n": 4
+  }
+ ],
+ "data_notes": [
+  "Game 23009 has a 6th PRA pick (slot 16) and a slot 17 Good Lordy pick; comps use ngs_player_game (10 players per game).",
+  "One game has no slot 3 ban.",
+  "Ban then pick pairs are co-occurrence in the same game; the data does not show one caused the other.",
+  "Six Good Lordy games are not on Heroes Profile, so their record is partial."
+ ]
+}

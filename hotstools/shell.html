@@ -1,0 +1,49 @@
+<title>HotS Tools</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/*__CSS__*/
+</style>
+
+<header class="hdr">
+  <div class="hdr-row">
+    <button class="logo" id="logo" aria-label="HotS Tools home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 28 9v14L16 30 4 23V9z" fill="var(--accent)"/><path d="M11 10v12M21 10v12M11 16h10" stroke="var(--accent-ink)" stroke-width="2.6" stroke-linecap="round" fill="none"/></svg>
+      <span><b>HotS Tools</b><small>Scout, improve, learn</small></span>
+    </button>
+    <nav class="sections" id="sections" aria-label="Sections"></nav>
+    <div class="tools">
+      <button class="ico" id="theme" title="Switch light and dark" aria-label="Switch light and dark">◐</button>
+    </div>
+  </div>
+</header>
+<div class="pages" id="pagesbar">
+  <div class="pages-row">
+    <nav class="pagelist" id="pagelist" aria-label="Pages"></nav>
+    <span class="pagedesc" id="pagedesc"></span>
+  </div>
+</div>
+<div id="stage" role="main">
+  <div class="loading" id="loading" hidden><div><div class="spin"></div><span id="loadmsg">Loading</span></div></div>
+</div>
+
+<script type="application/json" id="d-matrix">/*__MATRIX__*/</script>
+<script type="application/json" id="d-games">/*__GAMES__*/</script>
+<script type="application/json" id="d-meta">/*__META__*/</script>
+<script type="application/json" id="d-example">/*__EXAMPLE__*/</script>
+<script type="text/plain" id="d-labengine">/*__LAB_ENGINE__*/</script>
+<script>
+window.HOTS_BUILD = /*__BUILD__*/;
+window.HOTS_APPS = { drafter: /*__APP_DRAFTER__*/, lab: /*__APP_LAB__*/ };
+window.HOTS_THEME_CSS = /*__THEME_CSS__*/;
+</script>
+<script>
+/*__MYGAMES_ENGINE__*/
+</script>
+<script>
+/*__MYGAMES_UI__*/
+</script>
+<script>
+/*__SHELL_JS__*/
+</script>

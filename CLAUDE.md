@@ -24,11 +24,17 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - Raw JSON in `knowledge/raw/`. Analysis scripts at the top level (`analyze_*.py`), builders `build_*.py`, checks `test_*.py` (all must print OK after a rebuild).
 - Pull and resume notes: `PULL_STATUS.md`. New NGS games: `ngs_games_to_raw.py`, then `build_ngs_division.py` and `test_ngs_division.py`.
 
+## HotS Tools (the master app)
+- `hots_tools.html` is the one page that holds everything: the Draft Room (HotS Drafter), the Draft Lab (league wide analysis, hero ratings, draft review), My Games (import a player's match history and get insights) and the Learn pages. Read `HOTS_TOOLS.md` for how it is put together, how to build it (`python build_hotstools.py --all`) and how to refresh its data.
+- Tests: `node test_hotstools.js` (My Games engine and the built page), `node test_draftlab.js`, plus the Draft Room tests below. All must print OK.
+- The published artifact link (below) now carries HotS Tools. Publish `hots_tools_artifact.html` with that `url`.
+- `knowledge/ngs_league.db` is built from the NGS replay export (folders in Downloads, not in git) by `build_ngs_league.py`. It has the timeline per game (`lg_timeline`) that the match pages lack.
+
 ## Draft Room (the real time draft tool, shown in the page as HotS Drafter)
 - `python build_playbook.py` regenerates `playbook/data.json`, `facts/teams/*.md`, `facts/maps/*.md`, `draft_tool.html` (stand alone) and `draft_tool_artifact.html` (the page fragment published as the phone artifact). Then `python test_playbook.py` and `node test_engine.js`.
 - The hero, map and guide library (`build_library.py` into `playbook/library.json`, build codes in `knowledge/icy_build_codes.txt`, tips in `playbook/notes/draft_tips.md`) is built by the same command and shown in the Heroes, Maps and Learn tabs and the hero sheets. Build codes are mostly old, the tool flags them.
 - Judgment lives in `playbook/config/our_team.json` (pools), `playbook/config/rules.json` (rules with reasons and evidence) and `playbook/notes/`. Engine is `playbook/engine.js`, UI is `playbook/app.html`. How to update: `UPDATE_PLAYBOOK.md`.
-- Published phone artifact (private): https://claude.ai/artifact/QuQ1FdsJfFn7sH3988KrYU. To update it, publish `draft_tool_artifact.html` with that `url` (read it first). Do not create a second artifact.
+- Published phone artifact (private): https://claude.ai/artifact/QuQ1FdsJfFn7sH3988KrYU. To update it, publish `hots_tools_artifact.html` (HotS Tools, which contains the Draft Room) with that `url` (read it first). `draft_tool_artifact.html` is the Draft Room alone. Do not create a second artifact.
 - Never edit the generated files by hand. A hero named in config must exist or the build stops.
 
 ## State as of 2026-10-12
