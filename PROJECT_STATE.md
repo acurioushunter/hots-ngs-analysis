@@ -4,7 +4,7 @@
 
 **Done this session:** My Games (import, overview, heroes, maps, habits, pool coach, send pool to the draft board), Review a draft, the league read inside the Draft Room, the Ratings tab on hero sheets, early lead statistics from replay timelines in the Meta tab, the correct NGS draft order in the Draft Lab, a refreshed league dataset (2,210 games), the PRA and CCS deep dive (`PRA_CCS_DEEP_DIVE.md`, with timelines in section 8).
 
-**Not verified live:** the console snippet in My Games that reads a player's Heroes Profile history. Cloudflare returned 403 when it was tried, so the request shape (the same one our own pulls use) has not been confirmed in this session. The paste and CSV routes are tested.
+**Verified live (Oct 13):** the My Games console snippet. One request to `player/match/history` with the snippet's body returned 200 (100 games a page, 48 pages for 4,741 games) and the fields it packs are all present. The full multi page loop and file download were not run end to end.
 
 **Open ideas:** use takedown times and positions from the replay export (who died first, where fights happened); a per player view of the replay export for any NGS player; refresh the example games in My Games; replay export for Heroes Lounge does not exist.
 

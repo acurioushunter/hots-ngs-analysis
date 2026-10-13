@@ -49,7 +49,7 @@ Outputs: `hots_tools.html` (tracked, stand alone) and `hots_tools_artifact.html`
 
 ## My Games formats
 
-Accepted by the importer: raw Heroes Profile `player/match/history` pages (one or several, pasted or as files), the HotS Tools export (`{"format":"hots-tools-games","games":[...]}`), and CSV with at least a hero and a result column. The in page snippet reads the history from the player's own Heroes Profile tab. It uses the same endpoint and body as our own pulls but was not exercised against the live site in the build session (Cloudflare was asking for a check). If it fails the paste and CSV routes still work.
+Accepted by the importer: raw Heroes Profile `player/match/history` pages (one or several, pasted or as files), the HotS Tools export (`{"format":"hots-tools-games","games":[...]}`), and CSV with at least a hero and a result column. The in page snippet reads the history from the player's own Heroes Profile tab. It uses the same endpoint and body as our own pulls, and one request with that body was confirmed live on Oct 13 (200, 100 games a page). The paste and CSV routes work without it.
 
 ## Known limits
 
