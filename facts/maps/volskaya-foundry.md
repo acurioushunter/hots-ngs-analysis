@@ -1,6 +1,6 @@
 # Volskaya Foundry: map fact sheet
 
-Built 2026-10-12. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/volskaya-foundry.md` for written lessons.
+Built 2026-10-13. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/volskaya-foundry.md` for written lessons.
 
 **Icy Veins prefers:** Strong late game, Siege damage for Structures, Sustain damage/healing
 

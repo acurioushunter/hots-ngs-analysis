@@ -1,6 +1,6 @@
 # Towers of Doom: map fact sheet
 
-Built 2026-10-12. Icy Veins draft advice and tier lists, plus 8 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
+Built 2026-10-13. Icy Veins draft advice and tier lists, plus 8 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Gankers, Global presence, Offlaner who can double soak, Poke tools for Objective, Strong late game
 

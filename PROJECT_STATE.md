@@ -4,7 +4,7 @@
 
 **Data on disk** (all rebuilt, all tests pass, see `CLAUDE.md` "State as of"):
 - Season 22: all 500 game ids, 7 divisions (`build_ngs_season.py`, `test_ngs_season.py`).
-- Season 21 from Heroes Profile: 676 of 868 built (all of Divisions C and D with playoffs, most of the rest). `python build_ngs_season.py 21` then `python test_ngs_season.py 21`. 191 ids left (22626 to 22874 in season21_miss.json minus saved files). The pull stopped when the Heroes Profile tab left the workspace; resume with a light /FAQ tab and python receiver.py.
+- Season 21 from Heroes Profile: complete, all 868 ids saved and 867 games built (one forfeit skipped). Nothing left to pull for NGS seasons 21 and 22.
 - Storm League MMR for all 363 Season 22 players (`knowledge/sl_mmr.json`), Storm League only.
 - Hunter's Heroes Profile games to Oct 12 (4,741), profile and hero tables refreshed.
 - Team name changes inferred from shared players (`build_team_aliases.py`).

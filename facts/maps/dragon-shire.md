@@ -1,6 +1,6 @@
 # Dragon Shire: map fact sheet
 
-Built 2026-10-12. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/dragon-shire.md` for written lessons.
+Built 2026-10-13. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/dragon-shire.md` for written lessons.
 
 **Icy Veins prefers:** Anchor, Heroes for clearing Mercenary Camps, Effects relying on impassable terrain, Gankers, Global presence, Point control for Objective, Strong late game, Sustain damage/healing, Vision tools
 
