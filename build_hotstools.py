@@ -7,7 +7,10 @@ Inputs (build them first, or pass --all):
   knowledge/expert/          hero_matrix_draft.json, league_games.json
   playbook/library.json      global Storm League hero win rates
   knowledge/hunter_hp.db     the example games for My Games (last 12 months of Storm League, anonymised)
-Outputs: hots_tools_artifact.html (page fragment for publishing) and hots_tools.html (stand alone, opens locally)."""
+Outputs: hots_tools_artifact.html (page fragment for publishing) and hots_tools.html (stand alone, opens locally).
+With --personal it also writes hots_tools_hunter.html and hots_tools_hunter_artifact.html: the same app with the owner's
+Heroes Profile games loaded in My Games, the owner's team picked in Team Scout and the team pool on the open draft board.
+Those two files hold personal data, are git ignored, and are not the ones to share."""
 import datetime, json, pathlib, re, sqlite3, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -96,6 +99,28 @@ def example_games():
     return {'format': 'hots-tools-games', 'version': 1, 'battletag': 'Example player', 'games': out}
 
 
+def personal_data(playbook):
+    """The owner's whole Heroes Profile history (every mode) in My Games format, plus the team and pool the apps should start on."""
+    db = sqlite3.connect(ROOT / 'knowledge' / 'hunter_hp.db')
+    db.row_factory = sqlite3.Row
+    games = []
+    for r in db.execute("select * from hp_game order by date"):
+        dt = datetime.datetime.strptime(r['date'], '%Y-%m-%d %H:%M:%S')
+        tal = [r[k] for k in ('l1', 'l4', 'l7', 'l10', 'l13', 'l16', 'l20')]
+        games.append({'id': r['replay_id'], 't': int(dt.replace(tzinfo=datetime.timezone.utc).timestamp() * 1000), 'type': r['game_type'], 'map': r['map'],
+                      'hero': r['hero'], 'role': r['role'], 'won': r['won'], 'lvl': r['level'], 'k': r['kills'], 'a': r['assists'], 'td': r['takedowns'], 'd': r['deaths'],
+                      'hd': r['hero_damage'], 'sd': r['siege_damage'], 'st': r['structure_damage'], 'mn': r['minion_damage'], 'cr': r['creep_damage'],
+                      'heal': r['healing'], 'taken': r['damage_taken'], 'xp': r['xp_contribution'], 'dead': r['time_spent_dead'], 'camps': r['merc_camp_captures'],
+                      'fto': r['first_to_ten'], 'mmr': r['player_mmr'], 'hmmr': r['hero_mmr'], 'rmmr': r['role_mmr'], 'award': r['award'], 'tal': tal if any(tal) else None})
+    cfg = json.loads(read(ROOT / 'playbook' / 'config' / 'our_team.json'))
+    comfort = {'primary': 3, 'secondary': 2, 'practice': 1}
+    players = [{'name': pl.get('label') or pl['tag'], 'role': pl.get('slot_role', ''),
+                'pool': [{'hero': h, 'comfort': comfort.get(t, 2)} for h, t in pl.get('pool', {}).items()]} for pl in cfg['players']]
+    return {'name': 'Hunter', 'battletag': 'hunterstag', 'games': games, 'filters': {'types': ['sl'], 'range': '365'},
+            'team': cfg['team'], 'me': 'hunterstag', 'next': playbook.get('meta', {}).get('next_opponent'),
+            'profile': {'players': players}, 'profileName': cfg['team']}
+
+
 def theme_css():
     css = read(HT / 'shell.css')
     tokens = css.split('* { box-sizing: border-box; }')[0]
@@ -103,6 +128,20 @@ def theme_css():
              # the embedded apps draw their own header and tabs; the shell owns navigation
              '.bar,header.top .brand,header.top .tabs{display:none!important}header.top{padding:0!important;border:0!important;min-height:0!important}\n')
     return extra + tokens
+
+
+def assemble(tpl, subs, personal=None):
+    out = tpl
+    subs = dict(subs)
+    subs['/*__PERSONAL__*/'] = js_json(personal) if personal else 'null'
+    subs['/*__NS__*/'] = js_json('hunter:') if personal else '""'
+    for k, v in subs.items():
+        assert k in out, k
+        out = out.replace(k, v)
+    wrapped = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+               '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+               '</head>\n<body>\n' + out + '\n</body>\n</html>\n')
+    return out, wrapped
 
 
 def main():
@@ -131,16 +170,16 @@ def main():
         '/*__MYGAMES_UI__*/': read(HT / 'mygames' / 'ui.js').replace('</script', '<' + BS + '/script'),
         '/*__SHELL_JS__*/': read(HT / 'shell.js').replace('</script', '<' + BS + '/script'),
     }
-    out = tpl
-    for k, v in subs.items():
-        assert k in out, k
-        out = out.replace(k, v)
-    wrapped = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
-               '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-               '</head>\n<body>\n' + out + '\n</body>\n</html>\n')
+    out, wrapped = assemble(tpl, subs)
     (ROOT / 'hots_tools_artifact.html').write_text(out, encoding='utf8')
     (ROOT / 'hots_tools.html').write_text(wrapped, encoding='utf8')
     print('hots_tools_artifact.html %.2f MB, hots_tools.html %.2f MB' % (len(out.encode('utf8')) / 1e6, len(wrapped.encode('utf8')) / 1e6))
+    if '--personal' in sys.argv:
+        pd = personal_data(playbook)
+        out, wrapped = assemble(tpl, subs, pd)
+        (ROOT / 'hots_tools_hunter_artifact.html').write_text(out, encoding='utf8')
+        (ROOT / 'hots_tools_hunter.html').write_text(wrapped, encoding='utf8')
+        print('personal edition: %d games, hots_tools_hunter.html %.2f MB' % (len(pd['games']), len(wrapped.encode('utf8')) / 1e6))
 
 
 if __name__ == '__main__':

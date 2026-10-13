@@ -214,6 +214,9 @@ function boot() {
   App.overrides = load('overrides', {}) || {};
   var pr = load('profile', null);
   if (pr && pr.profile) { App.profile = pr.profile; App.profileName = pr.name || 'Saved profile'; App.useProfile = !!load('useprof', false); }
+  else if (window.HOTS_PRESET && window.HOTS_PRESET.profile) {   // HotS Tools personal edition
+    try { App.profile = canonProfile(window.HOTS_PRESET.profile); App.profileName = window.HOTS_PRESET.name || 'My team'; App.useProfile = true; } catch (e) { }
+  }
   // drop overrides for heroes that no longer exist
   Object.keys(App.overrides).forEach(function (h) { if (!App.rawMatrix.heroes[h]) delete App.overrides[h]; });
   try { rebuildData(); } catch (e) { $('#app').innerHTML = '<div class="card note warn">Data failed to load: ' + esc(e.message) + '</div>'; return; }

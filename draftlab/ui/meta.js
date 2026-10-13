@@ -41,7 +41,7 @@ RENDER.meta = function (p) {
 };
 
 /* ---------------------------------------------------------------- Scout */
-var Sc = { team: '', q: '' };
+var Sc = { team: (window.HOTS_PRESET && window.HOTS_PRESET.team) || '', q: '' };
 RENDER.scout = function (p) {
   if (noGames()) { p.innerHTML = emptyMsg(); return; }
   var teams = E.listTeams(App.selMap);

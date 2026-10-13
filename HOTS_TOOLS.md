@@ -32,11 +32,21 @@ The shell (`hotstools/shell.*`) shows each of them in its own frame and owns the
 ```
 python build_hotstools.py --all      # builds the draft room, the Draft Lab and the master page
 python build_hotstools.py            # only the master page (the two fragments must already be built)
-node test_hotstools.js               # My Games engine and the built page (93 checks)
+python build_hotstools.py --personal # also the personal edition
+node test_hotstools.js               # My Games engine and the built page (99 checks with the personal edition built)
 node test_draftlab.js ; python test_playbook.py ; node test_engine.js   # the two apps as before
 ```
 
 Outputs: `hots_tools.html` (tracked, stand alone) and `hots_tools_artifact.html` (the fragment for publishing, not tracked).
+
+## The personal edition (not for sharing)
+
+`python build_hotstools.py --personal` also writes `hots_tools_hunter.html` (and `hots_tools_hunter_artifact.html`). It is the same app with:
+- the owner's whole Heroes Profile history (every mode, with replay ids) loaded in My Games, filtered to Storm League for the last year;
+- Team Scout starting on Phoenix Rising Amethyst with the owner as `hunterstag`;
+- the five player pools of the team as the profile on the open draft board, and the review page opening on the team.
+
+It keeps its own storage (every key prefixed `hunter:`), so opening both editions from local files never mixes their saved data. Both files are git ignored. Do not send the personal one to anyone: it holds the owner's game history.
 
 ## Refreshing the data
 

@@ -136,5 +136,21 @@ if (fs.existsSync(built)) {
   ok(ex.games.length > 400, 'example games'); ok(ex.games.every(g => g.id === undefined), 'example games carry no replay ids');
   ok(!/hunterstag/i.test(JSON.stringify(ex)), 'example is anonymous');
 }
+// the shareable build carries no personal data; the personal edition (when built) does and keeps its own storage keys
+if (fs.existsSync(built)) {
+  const html = fs.readFileSync(built, 'utf8');
+  ok(/window\.HOTS_PERSONAL = null;/.test(html), 'the shareable build has no personal data');
+  ok(/window\.HOTS_NS = "";/.test(html), 'the shareable build uses plain storage keys');
+}
+const mine = path.join(__dirname, 'hots_tools_hunter.html');
+if (fs.existsSync(mine)) {
+  const html = fs.readFileSync(mine, 'utf8');
+  const m = html.match(/window\.HOTS_PERSONAL = (\{[\s\S]*?\});\s*window\.HOTS_NS = "([^"]*)";/);
+  ok(m, 'personal block found');
+  ok(m[2] === 'hunter:', 'personal edition has its own storage prefix');
+  const P = JSON.parse(m[1]);
+  ok(P.games.length > 4000 && P.battletag === 'hunterstag' && P.team && P.profile.players.length === 5, 'personal data: games, name, team, five players');
+  ok(P.games.every((g) => g.id != null), 'personal games keep their replay ids so a later import merges cleanly');
+}
 console.log(checks + ' checks passed');
 console.log('OK');

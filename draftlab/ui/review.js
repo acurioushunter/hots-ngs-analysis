@@ -1,6 +1,6 @@
 /* Review tab: replay a real draft slot by slot and compare each choice with what the engine would have suggested.
    The reviewed game is left out of the data the engine sees, so it cannot know its own result. */
-var Rv = { team: '', gameId: null, slot: 0, excl: null, exclId: null, cache: {} };
+var Rv = { team: (window.HOTS_PRESET && window.HOTS_PRESET.team) || '', gameId: null, slot: 0, excl: null, exclId: null, cache: {} };
 
 function rvSlots(g) {
   var fmt = E.draftFormats().filter(function (f) { return f.id === 'ngs'; })[0].slots;

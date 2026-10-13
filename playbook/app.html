@@ -249,6 +249,11 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         ui.tab = s.tab || "draft";
       }
     } catch (e) { /* storage unavailable */ }
+    // HotS Tools personal edition: start on the owner's team and name, unless a saved choice already set them
+    const pre = window.HOTS_PRESET;
+    if (pre && pre.team && !ui.teamPicked && (pre.team === CUR.us.team || (LG && LG.profiles[pre.team]))) {
+      ui.team = pre.team; ui.me = pre.me || null; ui.teamPicked = true;
+    }
     applyTeam();
   }
   function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, series: ui.series, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, stages: ui.stages, slScopes: ui.slScopes, slV2: true, opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }

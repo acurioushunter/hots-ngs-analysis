@@ -1,6 +1,25 @@
 /* HotS Tools shell: navigation, embedded apps, home, learn hub, about, theme. */
 (function () {
   'use strict';
+  // A personal edition keeps its own saved data: every storage key gets a prefix, in this page and in both frames.
+  // (Local files in some browsers share one storage area, so two editions would otherwise see each other's games.)
+  function installStorage(win, ns) {
+    if (!ns) return;
+    try {
+      var real = win.localStorage;
+      var own = function () { var a = []; for (var j = 0; j < real.length; j++) { var kk = real.key(j); if (kk && kk.indexOf(ns) === 0) a.push(kk); } return a; };
+      var wrap = {
+        getItem: function (k) { return real.getItem(ns + k); },
+        setItem: function (k, v) { real.setItem(ns + k, v); },
+        removeItem: function (k) { real.removeItem(ns + k); },
+        key: function (i) { var a = own(); return i < a.length ? a[i].slice(ns.length) : null; },
+        clear: function () { own().forEach(function (kk) { real.removeItem(kk); }); }
+      };
+      Object.defineProperty(wrap, 'length', { get: function () { return own().length; } });
+      Object.defineProperty(win, 'localStorage', { configurable: true, get: function () { return wrap; } });
+    } catch (e) { /* storage unavailable: nothing to prefix */ }
+  }
+  installStorage(window, window.HOTS_NS);
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
   function lsGet(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
@@ -72,15 +91,21 @@
   function skeleton(app, tab) {
     var html = (window.HOTS_APPS || {})[app] || '';
     html = html.split('/*__MATRIX__*/').join(Shared.matrixText()).split('/*__GAMES__*/').join(Shared.gamesText());
-    var boot = '<script>window.HOTS_EMBED=true;window.HOTS_APP=' + JSON.stringify(app) + ';window.HOTS_TAB=' + JSON.stringify(tab) + ';window.HOTS_THEME=' + JSON.stringify(theme) + ';' +
+    var ns = window.HOTS_NS ? '(' + installStorage.toString() + ')(window,' + JSON.stringify(window.HOTS_NS) + ');' : '';
+    var boot = '<script>' + ns + 'window.HOTS_EMBED=true;window.HOTS_APP=' + JSON.stringify(app) + ';window.HOTS_TAB=' + JSON.stringify(tab) + ';window.HOTS_THEME=' + JSON.stringify(theme) + ';' +
       'if(window.HOTS_THEME&&window.HOTS_THEME!=="auto")document.documentElement.setAttribute("data-theme",window.HOTS_THEME);' +
       'window.addEventListener("message",function(e){var d=e.data;if(d&&d.hots&&d.type==="theme"){if(d.value==="auto")document.documentElement.removeAttribute("data-theme");else document.documentElement.setAttribute("data-theme",d.value);}});' +
       'window.hotsPost=function(m){m.hots=1;m.app=window.HOTS_APP;try{parent.postMessage(m,"*");}catch(e){}};<\/script>';
     var tail = '<style id="hots-theme">' + (window.HOTS_THEME_CSS || '') + '</style>';
     var extra = '';
+    var P = window.HOTS_PERSONAL;
+    if (P) {   // a personal edition starts the apps on the owner's team and pool (saved choices still win)
+      var preset = app === 'drafter' ? { team: P.team, me: P.me } : { profile: P.profile, name: P.profileName, team: P.team };
+      extra += '<script>window.HOTS_PRESET=' + JSON.stringify(preset).replace(/</g, '\\u003c') + ';<\/script>';
+    }
     if (app === 'drafter') {   // the draft room gets the league engine and the games so it can give a style read
       var eng = document.getElementById('d-labengine');
-      if (eng) extra = '<script>' + eng.textContent + '<\/script><script>window.HOTS_LAB={matrix:' + Shared.matrixText() + ',games:' + Shared.gamesText() + '};<\/script>';
+      if (eng) extra += '<script>' + eng.textContent + '<\/script><script>window.HOTS_LAB={matrix:' + Shared.matrixText() + ',games:' + Shared.gamesText() + '};<\/script>';
     }
     return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>' + esc(app) + '</title>' + boot + '</head><body>' + extra + html + tail + '</body></html>';
   }
@@ -194,6 +219,7 @@
     matrix: function () { return Shared.matrix; },
     meta: function () { return Shared.meta; },
     example: function () { return Shared.example; },
+    personal: function () { return window.HOTS_PERSONAL || null; },
     go: go, lsGet: lsGet, lsSet: lsSet, lsDel: lsDel, esc: esc,
     toast: function (msg) {
       var t = document.createElement('div'); t.className = 'toast'; t.textContent = msg; document.body.appendChild(t);
@@ -213,8 +239,15 @@
   /* ------------------------------------------------------------ native pages */
   function renderHome(el) {
     var m = Shared.meta, last = lsGet('hots.route', null);
-    var games = lsGet('hots.games.count', 0);
-    el.innerHTML =
+    var games = window.HOTS_PERSONAL ? window.HOTS_PERSONAL.games.length : lsGet('hots.games.count', 0);
+    var P = window.HOTS_PERSONAL, mine = '';
+    if (P) {
+      var sl = P.games.filter(function (g) { return g.type === 'sl'; }).length;
+      mine = '<section class="card us"><h3>' + esc(P.name) + '\'s edition</h3><p class="small">Your ' + P.games.length.toLocaleString() + ' Heroes Profile games (' + sl.toLocaleString() + ' Storm League) are loaded in My Games, and Team Scout starts on ' + esc(P.team) + ' with you as ' + esc(P.me) + '. ' +
+        'Next opponent in the draft room: ' + esc(P.next || 'not set') + '.</p>' +
+        '<div class="row"><button class="btn primary" data-go="mygames/overview">My overview</button><button class="btn" data-go="mygames/coach">My pool coach</button><button class="btn" data-go="scout/draft">Draft room</button><button class="btn" data-go="scout/prep">Opponent prep</button></div></section>';
+    }
+    el.innerHTML = mine +
       '<section class="card accent"><h2>HotS Tools</h2>' +
       '<p class="muted" style="max-width:62ch">Drafting, scouting and improvement tools for Heroes of the Storm, in one place. Everything runs in this page. Nothing is uploaded anywhere.</p></section>' +
       '<div class="grid g3">' +

@@ -39,8 +39,14 @@
   }
   function loadSaved() {
     if (MG.loaded) return; MG.loaded = true;
-    var s = S.lsGet(STORE, null);
+    var s = S.lsGet(STORE, null), p = S.personal && S.personal();
     if (s && Array.isArray(s.games)) { MG.games = s.games; MG.battletag = s.battletag || ''; }
+    else if (p && p.games) {   // personal edition: the owner's games are already here
+      MG.games = p.games.slice(); G.canonHeroes(MG.games, Object.keys(S.matrix().heroes)); MG.battletag = p.battletag || '';
+      MG.f = { types: p.filters && p.filters.types || null, range: p.filters && p.filters.range || 'all', roles: [], maps: [] };
+      persist(); saveFilters();
+      return;
+    }
     var f = S.lsGet('hots.games.filters', null);
     if (f) MG.f = { types: f.types || null, range: f.range || 'all', roles: f.roles || [], maps: f.maps || [] };
   }

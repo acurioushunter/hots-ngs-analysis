@@ -26,6 +26,7 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 
 ## HotS Tools (the master app)
 - `hots_tools.html` is the one page that holds everything: the Draft Room (HotS Drafter), the Draft Lab (league wide analysis, hero ratings, draft review), My Games (import a player's match history and get insights) and the Learn pages. Read `HOTS_TOOLS.md` for how it is put together, how to build it (`python build_hotstools.py --all`) and how to refresh its data.
+- `python build_hotstools.py --personal` also builds `hots_tools_hunter.html`: the same app preloaded with Hunter's games and team. It is git ignored and not for sharing. Share `hots_tools.html` (or `hots_tools.zip`).
 - Tests: `node test_hotstools.js` (My Games engine and the built page), `node test_draftlab.js`, plus the Draft Room tests below. All must print OK.
 - The published artifact link (below) now carries HotS Tools. Publish `hots_tools_artifact.html` with that `url`.
 - `knowledge/ngs_league.db` is built from the NGS replay export (folders in Downloads, not in git) by `build_ngs_league.py`. It has the timeline per game (`lg_timeline`) that the match pages lack.
