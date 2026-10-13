@@ -2118,12 +2118,25 @@ window.HOTS_THEME_CSS = ":root{--font-body:var(--body);--font-display:var(--disp
   function redraw() { if (lastEl) { var sc = lastEl.parentNode.scrollTop; render(lastEl, lastPage, S); lastEl.parentNode.scrollTop = sc; } }
 
   /* ------------------------------------------------------------ actions */
+  // Saves a file. In the published artifact the viewer grants downloads through the page capability; as a local file a plain link works.
   function download(name, text, mime) {
+    var viaLink = function () {
+      try {
+        var blob = new Blob([text], { type: mime || 'application/json' }), a = document.createElement('a');
+        a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click();
+        setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+      } catch (e) { S.toast('This browser blocked the download.'); }
+    };
     try {
-      var blob = new Blob([text], { type: mime || 'application/json' }), a = document.createElement('a');
-      a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click();
-      setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 500);
-    } catch (e) { S.toast('This browser blocked the download.'); }
+      if (window.claude && typeof window.claude.use === 'function') {
+        window.claude.use('downloads').then(function (d) {
+          if (!d) { viaLink(); return; }
+          d.save({ filename: name, data: text }).then(function () { S.toast('Saved ' + name); }, function (e) { if (e && e.code !== 'declined') S.toast('Could not save the file in this view. Open the stand alone hots_tools.html file to download it.'); });
+        }, viaLink);
+        return;
+      }
+    } catch (e) { /* fall through */ }
+    viaLink();
   }
   function readFiles(files) {
     var list = Array.prototype.slice.call(files), texts = [], done = 0;
