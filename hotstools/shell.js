@@ -65,6 +65,7 @@
       { id: 'ratings', label: 'Hero ratings', app: 'lab', tab: 'heroes', desc: 'Compare heroes on wave clear, camps, engage, peel and more.' },
       { id: 'maps', label: 'Map guides', app: 'drafter', tab: 'maps', desc: 'Objectives, tiers and what each map rewards.' },
       { id: 'mapdata', label: 'Map data', app: 'lab', tab: 'maps', desc: 'Which comps and heroes win on each map, from the games.' },
+      { id: 'comps', label: 'Comps and strategy', native: 'comps', desc: 'Which comp shapes and counts won in the league, per map, with the sample behind each.' },
       { id: 'lenses', label: 'Hero lenses', native: 'lenses', desc: 'Every axis a draft is reasoned on, who carries it, and what the league says it is worth.' },
       { id: 'drafting', label: 'Drafting and strategy', app: 'lab', tab: 'learn', desc: 'Draft theory, concepts and what to look for.' },
       { id: 'tips', label: 'Tips and glossary', app: 'drafter', tab: 'learn', desc: 'Draft tips, guides and a glossary of terms.' }
@@ -169,6 +170,7 @@
         if (key === 'home') renderHome(inner);
         else if (key === 'learn') renderLearn(inner);
         else if (key === 'lenses') renderLenses(inner);
+        else if (key === 'comps') renderComps(inner);
         else if (key === 'about') renderAbout(inner);
         else if (key === 'mygames') window.HotsGamesUI.render(inner, page, API);
       } catch (e) { inner.innerHTML = '<div class="note bad">This page failed to draw: ' + esc(e.message) + '</div>'; if (window.console) console.error(e); }
@@ -276,6 +278,7 @@
     var cards = [
       ['learn/heroes', 'Hero guides', 'Pick a hero and get its overview, builds, talents, abilities, matchups, maps and who plays it. Tier lists per role and per map, and global win rates.', 'Builds and talents'],
       ['learn/ratings', 'Hero ratings', 'Compare heroes on wave clear, camp clear, engage, peel, siege, mobility and ease of execution, with the evidence tag on every rating.', 'Compare heroes'],
+      ['learn/comps', 'Comps and strategy', 'Win rate by ranged count, healers, marksmen and role shape, overall and per map, with the sample behind each number.', 'League read'],
       ['learn/lenses', 'Hero lenses', 'The axes a draft is reasoned on (damage type, front line style, healer class, crowd control, macro, weaknesses), which heroes carry each, and what the league says it is worth.', 'Heroes by trait'],
       ['learn/maps', 'Map guides', 'What each map rewards, its objective, the tier list and the notes that matter in a draft.', 'Maps'],
       ['learn/mapdata', 'Map data', 'Which comp styles and heroes actually win on each map in the league games, with sample sizes.', 'Maps from data'],
@@ -288,6 +291,79 @@
       '<section class="card"><h3>Three habits that help in every draft</h3><ol class="steps"><li><b>Decide what you are building before the second pick.</b> A comp that wins by dive, by poke or by wave clear and sieging needs different heroes. The open draft board names the style as you pick.</li>' +
       '<li><b>Save a ban for what you cannot play against.</b> The strongest ban is the hero that beats your comp, not the hero with the highest win rate.</li>' +
       '<li><b>Have a fallback for your main.</b> If it is banned or taken, the pool coach in My Games lists your next best heroes in that role.</li></ol></section>';
+  }
+
+
+  // Learn > Comps and strategy: what the whole league's drafts did (data.comps, NGS seasons 15 to 22, sides with five known heroes).
+  function renderComps(el) {
+    var C = Shared.meta.comps || {}, all = C.all || {}, maps = C.maps || {};
+    if (!all.shapes) { el.innerHTML = '<section class="card"><h2>Comps and strategy</h2><p class="muted">The league comp data is not in this build.</p></section>'; return; }
+    var NAMES = { T: 'tank', B: 'bruiser', M: 'melee assassin', R: 'ranged damage dealer', S: 'support', H: 'healer' };
+    function words(k) { return k.split(' ').map(function (t) { var n = +t.slice(1); return n + ' ' + NAMES[t.charAt(0)] + (n > 1 ? 's' : ''); }).join(', '); }
+    function wr(c) { return c && c[0] ? c[1] / c[0] : null; }
+    function shr(c) { return c && c[0] ? (c[1] + 5) / (c[0] + 10) : null; }
+    function rec(c) { return c && c[4] ? c[5] / c[4] : null; }
+    function pc(x) { return x == null ? 'n/a' : Math.round(x * 100) + '%'; }
+    function lowTag(n) { return n < 100 ? ' <span class="tag warn">small sample</span>' : ''; }
+    var LEVERS = [
+      ['ranged', 'Ranged damage dealers', ['0', '1', '2', '3+'], 'Ranged means a ranged damage dealer (Li-Ming, Valla, Raynor, Kael\u2019thas), not a healer or a bruiser who shoots.'],
+      ['healers', 'Healers', ['1', '2+'], 'Two healers is rare in these leagues.'],
+      ['marks', 'Marksmen', ['0', '1', '2+'], 'Marksman means a ranged dealer whose damage is mostly auto attacks.'],
+      ['tanks', 'Tanks', ['0', '1', '2+'], 'Bruisers are not counted as tanks here.'],
+      ['rdiff', 'Ranged dealers minus the other side', ['-2', '-1', '0', '1', '2'], 'Positive means more ranged dealers than the other side.']
+    ];
+    function leverTable(src) {
+      return LEVERS.map(function (L) {
+        var d = (src || {})[L[0]] || {};
+        var rows = L[2].filter(function (v) { return d[v]; }).map(function (v) {
+          var c = d[v];
+          return '<tr><td>' + esc(v) + '</td><td class="r num">' + c[0].toLocaleString() + lowTag(c[0]) + '</td><td class="r num">' + pc(wr(c)) + '</td><td class="r num">' + pc(rec(c)) + '</td></tr>';
+        }).join('');
+        return '<h4 style="margin-top:12px">' + esc(L[1]) + '</h4><div class="scroll"><table><thead><tr><th>Count</th><th class="r">Sides</th><th class="r">Won</th><th class="r">Newest three seasons</th></tr></thead><tbody>' + rows + '</tbody></table></div><p class="small muted">' + esc(L[3]) + '</p>';
+      }).join('');
+    }
+    function shapeTable(shapes, minN, limit) {
+      var rows = Object.keys(shapes || {}).filter(function (k) { return shapes[k][0] >= minN; }).sort(function (a, b) { return shapes[b][0] - shapes[a][0]; }).slice(0, limit);
+      if (!rows.length) return '<p class="muted small">No shape has ' + minN + ' or more sides here.</p>';
+      return '<div class="scroll"><table><thead><tr><th>Shape</th><th class="r">Sides</th><th class="r">Won</th><th class="r">Nudged to 50%</th><th class="r">Newest three seasons</th></tr></thead><tbody>' + rows.map(function (k) {
+        var c = shapes[k];
+        return '<tr><td>' + esc(words(k)) + '</td><td class="r num">' + c[0].toLocaleString() + lowTag(c[0]) + '</td><td class="r num">' + pc(wr(c)) + '</td><td class="r num">' + pc(shr(c)) + '</td><td class="r num">' + pc(rec(c)) + '</td></tr>';
+      }).join('') + '</tbody></table></div>';
+    }
+    // plain sentences that the numbers support: a bucket with 100 or more sides that sits 3 or more points off 50%
+    var says = [];
+    LEVERS.forEach(function (L) {
+      var d = all[L[0]] || {};
+      L[2].forEach(function (v) {
+        var c = d[v];
+        if (c && c[0] >= 100 && Math.abs(wr(c) - 0.5) >= 0.03) says.push({ gap: Math.abs(wr(c) - 0.5), text: L[1] + ' = ' + v + ': ' + pc(wr(c)) + ' won over ' + c[0].toLocaleString() + ' sides' + (rec(c) != null ? ' (newest three seasons ' + pc(rec(c)) + ' over ' + c[4].toLocaleString() + ')' : '') + '.' });
+      });
+    });
+    says.sort(function (a, b) { return b.gap - a.gap; });
+    var mapNames = Object.keys(maps).sort();
+    var items = ((Shared.meta.lens_signal || {}).items || []).filter(function (i) { return i.n >= 300 && Math.abs(i.z) >= 3; });
+    var helps = items.filter(function (i) { return i.with_wr > i.without_wr; }).sort(function (a, b) { return b.z - a.z; }).slice(0, 6);
+    var hurts = items.filter(function (i) { return i.with_wr < i.without_wr; }).sort(function (a, b) { return a.z - b.z; }).slice(0, 6);
+    function lensLine(i) { return '<li><b>' + esc(i.lens.replace(/_/g, ' ')) + ': ' + esc(String(i.value).replace(/_/g, ' ')) + '</b> (' + i.min + ' or more heroes) won ' + pc(i.with_wr) + ' against ' + pc(i.without_wr) + ' without, over ' + i.n.toLocaleString() + ' sides.</li>'; }
+    el.innerHTML = '<section class="card accent"><h2>Comps and strategy</h2><p class="muted" style="max-width:70ch">What drafts did across ' + (C.sides || 0).toLocaleString() + ' NGS sides (seasons 15 to 22, every division) that had five heroes the tool knows. Win rates are of the drafting side and describe what happened, not why: strong teams draft certain shapes, and a shape is also a stand in for wave clear, poke and front line. Anything near 50% means the count alone did not decide games.</p></section>' +
+      '<section class="card"><h3>What the numbers say ' + '<span class="tag acc">data</span></h3>' +
+      (says.length ? '<ul class="ins">' + says.slice(0, 8).map(function (x) { return '<li class="info">' + esc(x.text) + '</li>'; }).join('') + '</ul>' : '<p class="muted small">No count with 100 or more sides sits 3 or more points off 50%.</p>') +
+      '<p class="small muted">Shown only when 100 or more sides back it. The old "three ranged heroes wins" idea is not in the league data once ranged means damage dealers.</p></section>' +
+      '<div class="grid g2"><section class="card"><h3>Counts, every map</h3>' + leverTable(all) + '</section>' +
+      '<section class="card"><h3>Role shapes, every map</h3><p class="small muted">T tank, B bruiser, M melee assassin, R ranged damage dealer, S support, H healer. Shapes with 60 or more sides.</p>' + shapeTable(all.shapes, 60, 14) + '</section></div>' +
+      '<section class="card us"><h3>One map</h3><div class="row"><label class="f" style="min-width:220px">Map<select id="comp-map">' + mapNames.map(function (m) { return '<option>' + esc(m) + '</option>'; }).join('') + '</select></label></div><div id="comp-map-out"></div></section>' +
+      '<div class="grid g2"><section class="card"><h3>Hero traits that went with winning <span class="tag acc">data</span></h3><ul class="ins">' + (helps.length ? helps.map(lensLine).join('') : '<li class="info">none clear</li>') + '</ul></section>' +
+      '<section class="card"><h3>Hero traits that went with losing <span class="tag acc">data</span></h3><ul class="ins">' + (hurts.length ? hurts.map(lensLine).join('') : '<li class="info">none clear</li>') + '</ul></section></div>' +
+      '<p class="small muted">Traits come from the hero profiles (ability text and measured stats, with Hunter\u2019s notes), the win rates from games. See Learn, Hero lenses for the full catalog. These are associations, not causes.</p>';
+    function drawMap() {
+      var sel = el.querySelector('#comp-map'), out = el.querySelector('#comp-map-out');
+      if (!sel || !out) return;
+      var m = maps[sel.value] || {}, tot = 0;
+      Object.keys(m.ranged || {}).forEach(function (k) { tot += m.ranged[k][0]; });
+      out.innerHTML = '<p class="small muted">' + tot.toLocaleString() + ' sides on ' + esc(sel.value) + '. Cells under 8 sides are left out.</p><div class="grid g2"><div>' + leverTable(m) + '</div><div><h4 style="margin-top:12px">Role shapes here</h4>' + shapeTable(m.shapes, 15, 12) + '</div></div>';
+    }
+    var sel = el.querySelector('#comp-map');
+    if (sel) { sel.onchange = drawMap; drawMap(); }
   }
 
   // Learn > Hero lenses: the catalog (knowledge/expert/lenses.json), who carries each value (the matrix, from the hero profiles) and the league association.

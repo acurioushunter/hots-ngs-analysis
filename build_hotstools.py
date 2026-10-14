@@ -73,6 +73,7 @@ def meta(matrix, games, lib, playbook):
         'global': glob, 'maps': sorted({g[3] for g in games if g[3]}), 'facts': facts, 'hero_count': len(matrix['heroes']),
         'games_total': len(games), 'ngs_games': len(ngs), 'hl_games': len(hl), 'ngs_teams': len(playbook.get('league', {}).get('teams', {})) or None,
         'lens_catalog': playbook.get('lens_catalog', {}), 'lens_signal': (playbook.get('comps', {}) or {}).get('lens_signal', {}),
+        'comps': {k: v for k, v in (playbook.get('comps', {}) or {}).items() if k in ('sides', 'newest', 'recent_seasons', 'half_life', 'all', 'maps')},
         'data_asof': ('NGS games to ' + dates[-1]) if dates else '', 'global_asof': (lib.get('hp_meta', {}).get('deep', {}) or {}).get('asof', ''),
     }
 
