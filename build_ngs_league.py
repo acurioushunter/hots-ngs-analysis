@@ -1,7 +1,7 @@
 """Build knowledge/ngs_league.db from the NGS replay parser exports (Medea stores, one folder per season).
 Usage: python -I build_ngs_league.py <season>=<export folder> [...]
    e.g. python -I build_ngs_league.py 21=C:/Users/visio/Downloads/NGS-season-21 22=C:/Users/visio/Downloads/NGS-season-22
-Covers every NGS division the export holds. Chat messages, position traces and cosmetics are NOT copied. A timeline summary per game (first takedown, experience leads, first structure, level advantage) goes in lg_timeline.
+Covers every NGS division the export holds. Incremental: only the seasons named on the command line are replaced, other seasons stay. Chat messages, position traces and cosmetics are NOT copied. A timeline summary per game (first takedown, experience leads, first structure, level advantage) goes in lg_timeline.
 Bans in the export are cut to 4 letters, they are matched back to full hero names (ambiguous ones are left blank and counted)."""
 import json, pathlib, sqlite3, sys
 
@@ -12,30 +12,28 @@ DB = HERE / "knowledge" / "ngs_league.db"
 HEROES = list(json.load(open(HERE / "knowledge" / "expert" / "hero_matrix_draft.json", encoding="utf-8"))["heroes"])
 
 SCHEMA = """
-DROP TABLE IF EXISTS lg_games; DROP TABLE IF EXISTS lg_picks; DROP TABLE IF EXISTS lg_bans; DROP TABLE IF EXISTS lg_players;
-CREATE TABLE lg_games(game_id TEXT PRIMARY KEY, league TEXT, season INTEGER, division TEXT, date TEXT, map TEXT,
+CREATE TABLE IF NOT EXISTS lg_games(game_id TEXT PRIMARY KEY, league TEXT, season INTEGER, division TEXT, date TEXT, map TEXT,
   length_sec REAL, team0 TEXT, team1 TEXT, winner INTEGER, first_pick INTEGER, level0 INTEGER, level1 INTEGER,
   takedowns0 INTEGER, takedowns1 INTEGER, first_objective INTEGER, first_fort INTEGER, first_keep INTEGER,
   objectives0 INTEGER, objectives1 INTEGER, merc_caps0 INTEGER, merc_caps1 INTEGER,
   time_to10_0 REAL, time_to10_1 REAL, time_to20_0 REAL, time_to20_1 REAL, game_version TEXT);
-CREATE TABLE lg_picks(game_id TEXT, team INTEGER, pick_no INTEGER, hero TEXT);
-CREATE TABLE lg_bans(game_id TEXT, team INTEGER, ban_no INTEGER, hero TEXT, hero_raw TEXT);
-CREATE TABLE lg_players(game_id TEXT, team INTEGER, hero TEXT, toon TEXT, name TEXT, takedowns INTEGER, deaths INTEGER,
+CREATE TABLE IF NOT EXISTS lg_picks(game_id TEXT, team INTEGER, pick_no INTEGER, hero TEXT);
+CREATE TABLE IF NOT EXISTS lg_bans(game_id TEXT, team INTEGER, ban_no INTEGER, hero TEXT, hero_raw TEXT);
+CREATE TABLE IF NOT EXISTS lg_players(game_id TEXT, team INTEGER, hero TEXT, toon TEXT, name TEXT, takedowns INTEGER, deaths INTEGER,
   assists INTEGER, siege INTEGER, hero_dmg INTEGER, healing INTEGER, dmg_taken INTEGER, xp_contrib INTEGER,
   merc_caps INTEGER, time_dead REAL, cc_time REAL, talents TEXT);
-DROP TABLE IF EXISTS lg_timeline;
-CREATE TABLE lg_timeline(game_id TEXT PRIMARY KEY, first_td_team INTEGER, first_td_time REAL, xp_lead_5 REAL, xp_lead_10 REAL, xp_lead_15 REAL,
+CREATE TABLE IF NOT EXISTS lg_timeline(game_id TEXT PRIMARY KEY, first_td_team INTEGER, first_td_time REAL, xp_lead_5 REAL, xp_lead_10 REAL, xp_lead_15 REAL,
   first_struct_team INTEGER, first_struct_time REAL, first_camp_team INTEGER, first_camp_time REAL,
   level_adv_pct0 REAL, level_adv_pct1 REAL, max_level_adv0 INTEGER, max_level_adv1 INTEGER, wipes0 INTEGER, wipes1 INTEGER,
   aces0 INTEGER, aces1 INTEGER, avg_alive0 REAL, avg_alive1 REAL, pct_hero_adv0 REAL, pct_hero_adv1 REAL, merc_uptime0 REAL, merc_uptime1 REAL);
-CREATE INDEX i_picks ON lg_picks(game_id); CREATE INDEX i_bans ON lg_bans(game_id); CREATE INDEX i_pl ON lg_players(game_id);
+CREATE INDEX IF NOT EXISTS i_picks ON lg_picks(game_id); CREATE INDEX IF NOT EXISTS i_bans ON lg_bans(game_id); CREATE INDEX IF NOT EXISTS i_pl ON lg_players(game_id);
 """
 
 # The export cuts bans to 4 letters and some are the game's internal code, not the hero name.
 ALIASES = {"crus": "Johanna", "demo": "Valla", "faer": "Brightwing", "nxhu": "Qhira", "fire": "Blaze", "luci": "Lucio",
            "tyrl": "Tyrael", "wiza": "Li-Ming", "barb": "Sonya", "l90e": "E.T.C.", "lost": "The Lost Vikings",
            "genn": "Greymane", "mdvh": "Medivh", "tra0": "Tracer", "ccho": "Cho", "tyrd": "Tyrande", "hmei": "Mei",
-           "hana": "Ana", "drya": "Lunara", "amaz": "Cassia", "arts": "Artanis", "fenx": "Fenix", "dva0": "D.Va",
+           "hana": "Ana", "necr": "Xul", "butc": "The Butcher", "drya": "Lunara", "amaz": "Cassia", "arts": "Artanis", "fenx": "Fenix", "dva0": "D.Va",
            "monk": "Kharazim", "witc": "Nazeebo", "tink": "Gazlowe", "hxal": "Xal'atath"}
 
 def _norm(x):
@@ -108,6 +106,10 @@ def main(args):
         season, folder = a.split("=", 1)
         season = int(season)
         folder = pathlib.Path(folder)
+        # incremental: only the seasons passed in are replaced, the rest of the database is kept
+        pre = f"ngs_s{season}_"
+        for tbl in ("lg_games", "lg_picks", "lg_bans", "lg_players", "lg_timeline"):
+            con.execute(f"DELETE FROM {tbl} WHERE substr(game_id, 1, ?) = ?", (len(pre), pre))
         st, _ = read_store(folder / "settings.ldb")
         cols = {k: v["name"] for k, v in st.items() if v["type"] == "collection"}
         matches, _ = read_store(folder / "matches.ldb")
@@ -144,6 +146,8 @@ def main(args):
             toon_team = {hr.get("ToonHandle"): hr.get("team") for hr in by_match.get(mid, [])}
             con.execute("INSERT INTO lg_timeline VALUES(" + ",".join("?" * 24) + ")", timeline_row(gid, r, toon_team))
             for hr in by_match.get(mid, []):
+                if not hr.get("hero"):
+                    continue   # a few replays carry a player row the parser could not name
                 g = hr.get("gameStats", {})
                 con.execute("INSERT INTO lg_players VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                             (gid, int(hr["team"]), hr["hero"], hr["ToonHandle"], hr["name"], g.get("Takedowns"), g.get("Deaths"),

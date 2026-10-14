@@ -10,7 +10,8 @@ HEROES = list(json.load(open(K / "expert" / "hero_matrix_draft.json", encoding="
 norm = lambda x: "".join(ch for ch in x.lower() if ch.isalnum())
 LOOKUP = {norm(h): h for h in HEROES}
 LOOKUP.update({"lucio": LOOKUP.get("lcio", "Lúcio"), "chogall": "Cho", "cho": "Cho", "gall": "Gall", "lostvikings": "The Lost Vikings",
-               "thelostvikings": "The Lost Vikings", "dva": "D.Va", "etc": "E.T.C."})
+               "thelostvikings": "The Lost Vikings", "dva": "D.Va", "etc": "E.T.C.",
+               "necr": "Xul", "butc": "The Butcher"})   # four letter ban codes from older export seasons
 unmatched = collections.Counter()
 
 def hn(x):

@@ -59,9 +59,10 @@ ok(E.filterGames(all, {}).length === all.length && E.filterGames(all).length ===
 const ngs = E.filterGames(all, { leagues: ['NGS'] }), hl = E.filterGames(all, { leagues: ['HL'] });
 ok(ngs.length + hl.length === all.length && ngs.length > 0 && hl.length > 0, 'leagues partition the games');
 const s21 = E.filterGames(all, { leagues: ['NGS'], seasons: [21] }), s22 = E.filterGames(all, { leagues: ['NGS'], seasons: [22] });
-ok(s21.length + s22.length === ngs.length, 'NGS seasons add up');
+const seasonsNgs = Array.from(new Set(ngs.map((g) => g.season)));
+ok(seasonsNgs.reduce((n, k) => n + E.filterGames(all, { leagues: ['NGS'], seasons: [k] }).length, 0) === ngs.length && s21.length > 0 && s22.length > 0, 'NGS seasons add up');
 const combo = E.filterGames(all, { leagueSeasons: ['NGS:21', 'NGS:22', 'HL:30'] });
-ok(combo.length === all.filter((g) => g.league === 'NGS' || g.season === 30).length, 'league season combos');
+ok(combo.length === all.filter((g) => (g.league === 'NGS' && (g.season === 21 || g.season === 22)) || (g.league === 'HL' && g.season === 30)).length, 'league season combos');
 const ch = E.filterGames(all, { maps: ['Cursed Hollow'] });
 ok(ch.length > 0 && ch.every((g) => g.map === 'Cursed Hollow'), 'map filter');
 const both = E.filterGames(all, { leagues: ['NGS'], seasons: [21], maps: ['Cursed Hollow'], divisions: ['A'] });
@@ -186,7 +187,7 @@ ok(E.listTeams(all)[0].n >= E.listTeams(all)[1].n, 'listTeams sorted');
 const meta = E.metaSummary(all);
 const fpRows = all.filter((g) => g.firstPick != null);
 ok(meta.firstPick.n === fpRows.length && meta.firstPick.wins === fpRows.filter((g) => g.winner === g.firstPick).length, 'first pick numbers recomputed');
-ok(meta.limits.length >= 4 && meta.trends.length === 3, 'meta limits and trends per league season');
+ok(meta.limits.length >= 4 && meta.trends.length === new Set(all.map((g) => g.key)).size && meta.trends.length >= 3, 'meta limits and trends per league season');
 ok(E.metaSummary(E.filterGames(all, { leagues: ['HL'] })).firstPick.n === 0, 'HL has no first pick data');
 
 console.log('--- DATA REPORT ---');

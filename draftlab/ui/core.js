@@ -131,6 +131,7 @@ function renderFilterBar() {
     '<span class="muted small grow" style="min-width:140px">' + esc(filterDescription()) + (f.maps.length ? ' (' + all + ' before map filter)' : '') + '</span>' +
     '<button class="btn sm" data-act="preset" data-v="all">Everything</button>' +
     '<button class="btn sm" data-act="preset" data-v="ngs">NGS latest season</button>' +
+    '<button class="btn sm" data-act="preset" data-v="ngs3" title="Newest three NGS seasons: more games per hero and map, a little older balance">NGS last three seasons</button>' +
     '<button class="btn sm" data-act="preset" data-v="low" title="NGS C, C East, C West, D and Heroes Lounge EU Div 4 and 5">Low divisions only</button>' +
     '<button class="btn sm pri" data-act="fopen" aria-expanded="' + App.fOpen + '">' + (App.fOpen ? 'Hide filters' : 'Edit filters') + '</button></div>';
   if (App.fOpen) {
@@ -165,6 +166,9 @@ ACT.preset = function (el) {
   if (v === 'ngs') {
     var s = App.data.options.leagueSeasons.filter(function (x) { return x.value.indexOf('NGS:') === 0; }).map(function (x) { return +x.value.split(':')[1]; });
     if (s.length) f.leagueSeasons = ['NGS:' + Math.max.apply(null, s)];
+  } else if (v === 'ngs3') {
+    var s3 = App.data.options.leagueSeasons.filter(function (x) { return x.value.indexOf('NGS:') === 0; }).map(function (x) { return +x.value.split(':')[1]; }).sort(function (a, b) { return b - a; });
+    f.leagueSeasons = s3.slice(0, 3).map(function (n) { return 'NGS:' + n; });
   } else if (v === 'low') {
     f.divisions = App.data.options.divisions.map(function (d) { return d.value; }).filter(function (d) { return LOW_DIVS.indexOf(d) >= 0; });
   } else { f.maps = []; }
