@@ -81,3 +81,6 @@ Anti heal: ana has her anti heal grenade, varian has an anit heal talent so does
 
 ## Other
 Hunter asked for a clean download to use when reviewing the project with Dakota (CS degree friend).
+
+## Gazlowe (2026-10-14, Hunter)
+Gazlowe is listed as a ranged assassin, he is an offlaner/bruiser. He does some ranged damage but I don't think he'd be considered a ranged dps, save that for heroes who are actual range dps like li ming valla raynor kael'thas etc.

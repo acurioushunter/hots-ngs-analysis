@@ -10609,8 +10609,8 @@
    "heal_blunted": 2
   },
   "Gazlowe": {
-   "role": "Ranged Assassin",
-   "sub_role": "summoner",
+   "role": "Bruiser",
+   "sub_role": "split pusher bruiser",
    "dmg_profile": "sustain",
    "pct_damage": true,
    "pct_damage_basis": [
@@ -10883,8 +10883,8 @@
     }
    },
    "labels": [
-    "summoner",
-    "ranged damage dealer",
+    "split pusher bruiser",
+    "melee damage dealer",
     "sustained damage",
     "no escape",
     "lane hero"
@@ -11005,7 +11005,8 @@
      "why": "Assassins can ignore turrets and kill him directly while he is fragile."
     }
    ],
-   "heal_blunted": 3
+   "heal_blunted": 3,
+   "owner_notes": "A bruiser who plays the offlane. He does some ranged damage with turrets and Deth Lazor, but he is not a ranged damage dealer like Li-Ming, Valla, Raynor or Kael'thas."
   },
   "Genji": {
    "role": "Melee Assassin",

@@ -1,7 +1,7 @@
 {
  "hero": "Gazlowe",
  "slug": "gazlowe",
- "role": "Ranged Assassin",
+ "role": "Bruiser",
  "attack": {
   "type": "ranged",
   "range": "medium",
@@ -10,7 +10,7 @@
  },
  "damage": {
   "carry": true,
-  "ranged_dealer": true,
+  "ranged_dealer": false,
   "style": [
    "sustained",
    "siege",
@@ -185,5 +185,10 @@
   "kill_pattern": "Wears targets down with Deth Lazor and turrets, not a burst hero.",
   "damage_reliability": "Turret placement decides the value."
  },
- "lens_gaps": []
+ "lens_gaps": [],
+ "owner_notes": "A bruiser who plays the offlane. He does some ranged damage with turrets and Deth Lazor, but he is not a ranged damage dealer like Li-Ming, Valla, Raynor or Kael'thas.",
+ "owner_corrections": [
+  "role Ranged Assassin to Bruiser",
+  "damage.ranged_dealer to False"
+ ]
 }

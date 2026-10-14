@@ -13,6 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parent
 PROFILES = ROOT / "knowledge" / "expert" / "hero_profiles"
 
 NOTES = {
+    "gazlowe": "A bruiser who plays the offlane. He does some ranged damage with turrets and Deth Lazor, but he is not a ranged damage dealer like Li-Ming, Valla, Raynor or Kael'thas.",
     "cho": "Cho and Gall are one hero in game played by two players. Cho is the bruiser half.",
     "gall": "Gall is the ranged assassin half of Cho and Gall.",
     "blaze": "Blaze plays as a bruiser (offlaner), not a tank.",
@@ -58,13 +59,13 @@ NOTES = {
 }
 
 # role as Hunter plays and drafts them (a bruiser is not a tank). Data side uses playbook/config/our_team.json role_override.
-ROLE = {"cho": "Bruiser", "blaze": "Bruiser", "hogger": "Bruiser", "imperius": "Bruiser", "dva": "Bruiser", "deathwing": "Bruiser",
+ROLE = {"gazlowe": "Bruiser", "cho": "Bruiser", "blaze": "Bruiser", "hogger": "Bruiser", "imperius": "Bruiser", "dva": "Bruiser", "deathwing": "Bruiser",
         "thrall": "Bruiser", "varian": "Bruiser", "sonya": "Bruiser", "gall": "Ranged Assassin"}
 FLEX = {"varian": ["Tank (with Taunt at level 4)", "Melee Assassin (Twin Blades or Colossus Smash at 4)"],
         "thrall": ["Melee Assassin"], "dehaka": ["Offlaner who pulls the other offlaner away"]}
 CARRY = {"deathwing": True, "thrall": True, "sonya": True, "orphea": True}
 # his note settles the attack reach: Orphea is a medium range burst mage, so she is a ranged damage dealer
-RANGED_DEALER = {"orphea": True, "cho": False, "gall": True}   # Cho is the bruiser half, Gall the ranged half
+RANGED_DEALER = {"gazlowe": False, "orphea": True, "cho": False, "gall": True}   # Cho is the bruiser half, Gall the ranged half
 HEALING = {   # sustain, burst_heal, aoe overrides (0 to 5). Stukov: mix, excels at neither.
     "stukov": dict(sustain=3, burst_heal=3),
     "tyrande": dict(sustain=3),

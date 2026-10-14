@@ -410,8 +410,16 @@
     });
     ht.slice(0, 4).forEach(function (h) {
       if (h.n < 15) return;
-      var alts = ht.filter(function (x) { return x.key !== h.key && x.role === h.role && x.n >= 5; }).sort(function (a, b) { return b.shrunk - a.shrunk; });
-      out.retreat.push({ hero: h.key, role: h.role, n: h.n, wr: h.wr, share: h.share, alts: alts.slice(0, 3).map(function (x) { return { hero: x.key, n: x.n, wr: x.wr, shrunk: x.shrunk, low: x.low }; }) });
+      // fall backs: same role, ranked by how you do on them plus how much they play like the banned hero (so each main gets its own list)
+      var hv = heroVec(matrix[h.key]);
+      var alts = ht.filter(function (x) { return x.key !== h.key && x.role === h.role && x.n >= 5; }).map(function (x) {
+        var xv = heroVec(matrix[x.key]), sim = hv && xv ? cosine(hv, xv) : 0;
+        return { x: x, sim: sim, score: x.shrunk + 0.12 * sim };
+      }).sort(function (a, b) { return b.score - a.score; });
+      out.retreat.push({ hero: h.key, role: h.role, n: h.n, wr: h.wr, share: h.share, alts: alts.slice(0, 3).map(function (o) {
+        var like = matrix[h.key] && matrix[o.x.key] ? describeLike(matrix[o.x.key], matrix[h.key]) : [];
+        return { hero: o.x.key, n: o.x.n, wr: o.x.wr, shrunk: o.x.shrunk, low: o.x.low, sim: o.sim, like: like.slice(0, 2) };
+      }) });
     });
     var good = ht.filter(function (h) { return h.n >= LOW_N && h.shrunk >= 0.52 && matrix[h.key]; }).slice(0, 8);
     var mainRoles = rt.filter(function (r) { return r.share >= 0.12; }).map(function (r) { return r.key; });

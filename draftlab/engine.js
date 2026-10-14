@@ -53,7 +53,7 @@
   };
 
   var LIMITS = [
-    'Rows hold picks, bans, map, winner, length and a level 10 lead number. There is no timeline, no talent choices, no player skill and no lane or rotation data.',
+    'Rows hold picks, bans, map, winner, length and a level 10 lead number. Only replay export games carry a timeline summary (first takedown, experience leads, first structure). There is no player skill, lane or rotation data.',
     'Heroes Lounge rows have no first pick information. First pick statistics use NGS rows only.',
     'Win rates describe games in the selection. They do not show why a team won, and strong players can inflate their favourite heroes.',
     'Ban order within a team is not recorded as a timeline, so a hero ban cannot be tied to a pick round.',

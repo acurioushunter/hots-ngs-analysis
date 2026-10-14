@@ -1,3 +1,9 @@
+# Final pass 2026-10-14
+- Gazlowe is a bruiser, not a ranged dealer (Hunter's note in `owner_hero_notes.md`, `apply_owner_notes.py`). Heroes still counted as ranged dealers that Hunter may want to review: Probius, Zagara, Tassadar, Azmodan, Sgt. Hammer, Fenix, Falstad, Junkrat, Nazeebo.
+- Stale limit text fixed (About, Lab Learn, Lab Heroes, Drafter sources): replay export games do carry a timeline summary, ratings come from the hero profiles.
+- Pool coach fall backs are now ranked by your results plus how much the hero plays like the banned one, each with a short reason, so every main gets its own list.
+- Known and not done: team name changes across seasons (the Team list shows both "Is Shoopufff Inting Still" and "Is Shoopufff Still Inting").
+
 # Integration pass 2026-10-14 (profiles and lenses reach the whole tool)
 - Matrix overlay: `merge_profiles_into_matrix.py` (run by build_playbook, build_draftlab and build_hotstools) makes `hero_matrix_draft.json` follow the profiles: role, range, damage profile, sub role, comp fit, ratings (clamped 1 to 5; a gap of 3 or more between old and profile is the midpoint and listed in `ratings_contested`; old values under `prior`), plus labels, lenses, wants, gives, weak, owner notes. The Draft Lab archetype classifier, hero pages and My Games read it.
 - Drafter: `marksman` is derived (ranged dealer, auto attacker with autos 3 or more, hybrid with 4 or more, or the old hand list), `arch` from the profile (hand lists still win). 13 marksmen now. Rules `g-marksmen` and the three `ranged_target` rules are retired in `rules.json` with the league numbers in their text (2 or more marksmen 47%, 3 or more ranged dealers 40%).

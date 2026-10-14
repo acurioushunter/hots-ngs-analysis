@@ -1063,8 +1063,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <li>Records, drafts and stats come from the NGS match pages on Heroes Profile. Every suggestion shows its reasons and the record behind it. Most records are 1 to 12 games, so treat them as leans.</li>
       ${LIB.hp_meta ? `<li>Heroes Profile Storm League hero stats, saved from the global hero page: ${["now", "deep"].filter(k => LIB.hp_meta[k]).map(k => `${LIB.hp_meta[k].heroes} heroes for ${esc(LIB.hp_meta[k].patches.join(", "))} (as of ${esc(LIB.hp_meta[k].asof)})`).join(" and ")}. These are global numbers across all players, not NGS.</li>` : ""}
       ${LG && LG.mmr_players ? `<li>Storm League MMR for ${LG.mmr_players} NGS players comes from their Heroes Profile profiles (Storm League only).</li>` : ""}
-      <li>Judgment calls (who to ban, which healer, ranged limits per map) are in <code>rules.json</code> with the evidence, and hand tuned pools are in <code>our_team.json</code>. Rules written about one team only apply to that team.</li>
-      <li>NGS pages have no timeline, so nothing here knows who led at ten minutes.</li>
+      <li>Judgment calls (who to ban, which healer) are in <code>rules.json</code> with the evidence, and hand tuned pools are in <code>our_team.json</code>. Rules written about one team only apply to that team.</li>
+      <li>Match pages have no timeline. Replay export games (seasons 15 to 22) carry a summary: first takedown, experience lead at 5, 10 and 15 minutes, first structure, and who took part in each takedown.</li>
       <li>The draft you are working on, your team and your pool are kept on this device only.</li></ul>
       <h3>How complete is a team's data?</h3>
       <p class="small">A team that has played 6 or more games this season has real pools and ban habits. A team with 2 or 3 games shows what little there is. The tool was first tuned for one team, which has hand written pools, Storm League history and notes. Every other team gets pools worked out from its NGS games. Adding a player's own heroes in the Team tab is the quickest way to improve that.</p>

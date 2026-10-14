@@ -43,5 +43,5 @@
 
 ## Limits of this tool
 - Match records are small samples. Most are 1 to 12 games, so read them as leans, not rules.
-- The NGS match pages have no timeline, so nothing here knows who was ahead at ten minutes.
+- The NGS match pages have no timeline. Only the replay export games (seasons 15 to 22) carry a summary of first takedown and experience leads.
 - Icy Veins pages carry their own update dates. A page that has not changed since 2020 can describe a hero that has since changed.

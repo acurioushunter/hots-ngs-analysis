@@ -322,7 +322,7 @@
     el.innerHTML = '<section class="card"><h2>About HotS Tools</h2>' +
       '<p>One app from two projects: a draft room built for an NGS team, and a general draft and meta lab for any league, plus the My Games analyser for individual players and a library of hero and map guides. Built ' + esc(window.HOTS_BUILD || '') + '.</p>' +
       '<h3 style="margin-top:12px">Where the data comes from</h3><ul class="small">' +
-      '<li><b>NGS games</b> (Nexus Gaming Series seasons 21 and 22, every division, playoffs included): Heroes Profile match pages and a replay export. Drafts, bans, map picks and per player stats. ' + (m.ngs_games ? m.ngs_games.toLocaleString() + ' games.' : '') + '</li>' +
+      '<li><b>NGS games</b> (Nexus Gaming Series, every division, playoffs included): Heroes Profile match pages for seasons 21 and 22 and the NGS replay export for seasons 15 to 22. Drafts, bans, map picks and per player stats. ' + (m.ngs_games ? m.ngs_games.toLocaleString() + ' games.' : '') + '</li>' +
       '<li><b>Heroes Lounge</b> (EU amateur league, season 30): ' + (m.hl_games ? m.hl_games + ' games' : 'games') + ' with drafts and results, no player stats.</li>' +
       '<li><b>Hero and map guides, talents, tier lists</b>: Icy Veins pages saved into the tool. Dates are shown on each hero.</li>' +
       '<li><b>Global Storm League hero win rates</b>: Heroes Profile global hero page, patches 2.55 to 2.57' + (m.global_asof ? ', as of ' + esc(m.global_asof) : '') + '.</li>' +
@@ -330,7 +330,7 @@
       '<li><b>Hero profiles</b> (knowledge/expert/hero_profiles): one per hero, written from the Icy Veins ability and talent text beside measured damage, healing, siege, damage taken and crowd control from NGS replays, then corrected with the owner\'s own notes (marked as his read). <b>Hero ratings</b> follow the profiles; where the old matrix and the profile differed by 3 or more the midpoint is used and flagged. Each rating carries its source tag and you can override any of them.</li>' +
       '<li><b>League read</b>: win rates by comp trait and healer class use every NGS replay of seasons 15 to 22, newer seasons weighted more, with the newest three seasons shown beside them.</li></ul>' +
       '<h3 style="margin-top:12px">What it cannot tell you</h3><ul class="small">' +
-      '<li>Match pages have no timeline. Nothing here knows who led at ten minutes or won a particular fight, except through totals.</li>' +
+      '<li>Match pages have no timeline. Only games from the replay export carry one (first takedown, experience lead at 5, 10 and 15 minutes, first structure, takedown lists), and it is summarised, not replayed. Nothing here knows who won a particular fight except through those totals.</li>' +
       '<li>Most records are 2 to 12 games. They are leans, not rules.</li>' +
       '<li>Hero ratings and lenses are a model, not a measurement. Use them to ask a question, not to settle one.</li>' +
       '<li>Win rate gaps by trait are associations: a healer or a trait is picked into particular comps, so a gap can come from the comp, the players or the season.</li></ul>' +
