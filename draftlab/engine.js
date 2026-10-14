@@ -204,7 +204,7 @@
   function heroTable(games) {
     return memo(games, 'hero', function () {
       var t = new Map();
-      function get(h) { var e = t.get(h); if (!e) { e = { hero: h, picks: 0, wins: 0, bans: 0, orderSum: 0, openers: 0, arch: {} }; t.set(h, e); } return e; }
+      function get(h) { var e = t.get(h); if (!e) { e = { hero: h, picks: 0, wins: 0, bans: 0, banWins: 0, orderSum: 0, openers: 0, arch: {} }; t.set(h, e); } return e; }
       games.forEach(function (g) {
         [0, 1].forEach(function (s) {
           g.picks[s].forEach(function (h, i) {
@@ -212,7 +212,7 @@
             var won = g.winner === s ? 1 : 0; e.wins += won;
             var a = g.arch[s]; var c = e.arch[a] || (e.arch[a] = { n: 0, wins: 0 }); c.n++; c.wins += won;
           });
-          g.bans[s].forEach(function (h) { if (h) get(h).bans++; });
+          g.bans[s].forEach(function (h) { if (h) { var b = get(h); b.bans++; if (g.winner === s) b.banWins++; } });
         });
       });
       return t;
@@ -247,6 +247,7 @@
     var o = rate(wins, picks);
     o.picks = picks; o.bans = bans; o.pickRate = n ? picks / n : 0; o.banRate = n ? bans / n : 0; o.presence = n ? (picks + bans) / n : 0;
     o.avgPickOrder = picks ? e.orderSum / picks + 1 : null; o.openers = e ? e.openers : 0;
+    o.banWins = e ? e.banWins : 0; o.banRec = rate(o.banWins, bans);   // the banning side's record in games where it banned this hero
     if (extra) for (var k in extra) o[k] = extra[k];
     return o;
   }
@@ -321,15 +322,15 @@
   function heroTrend(games, hero) {
     var keys = {}, out = [];
     games.forEach(function (g) {
-      var k = keys[g.key] || (keys[g.key] = { key: g.key, n: 0, picks: 0, wins: 0, bans: 0 });
+      var k = keys[g.key] || (keys[g.key] = { key: g.key, n: 0, picks: 0, wins: 0, bans: 0, banWins: 0 });
       k.n++;
       [0, 1].forEach(function (s) {
         if (g.picks[s].indexOf(hero) >= 0) { k.picks++; if (g.winner === s) k.wins++; }
-        if (g.bans[s].indexOf(hero) >= 0) k.bans++;
+        if (g.bans[s].indexOf(hero) >= 0) { k.bans++; if (g.winner === s) k.banWins++; }
       });
     });
     Object.keys(keys).sort().forEach(function (k) {
-      var x = keys[k], r = rate(x.wins, x.picks); r.key = k; r.games = x.n; r.picks = x.picks; r.bans = x.bans;
+      var x = keys[k], r = rate(x.wins, x.picks); r.key = k; r.games = x.n; r.picks = x.picks; r.bans = x.bans; r.banWins = x.banWins;
       r.pickRate = x.n ? x.picks / x.n : 0; r.banRate = x.n ? x.bans / x.n : 0; out.push(r);
     });
     return out;
@@ -535,8 +536,8 @@
     });
     var winningPairs = []; pairs.forEach(function (c, k) { var p = k.split('|'); winningPairs.push({ a: p[0], b: p[1], wins: c }); });
     winningPairs.sort(cmp(function (x) { return x.wins; }));
-    var bans = {}; sub.forEach(function (g) { g.bans[0].concat(g.bans[1]).forEach(function (h) { if (h) bans[h] = (bans[h] || 0) + 1; }); });
-    var topBans = Object.keys(bans).map(function (h) { return { hero: h, bans: bans[h], banRate: sub.length ? bans[h] / sub.length : 0 }; }).sort(cmp(function (x) { return x.bans; })).slice(0, 10);
+    var bans = {}, banW = {}; sub.forEach(function (g) { [0, 1].forEach(function (s) { g.bans[s].forEach(function (h) { if (h) { bans[h] = (bans[h] || 0) + 1; if (g.winner === s) banW[h] = (banW[h] || 0) + 1; } }); }); });
+    var topBans = Object.keys(bans).map(function (h) { return { hero: h, bans: bans[h], banRate: sub.length ? bans[h] / sub.length : 0, banWins: banW[h] || 0, banRec: rate(banW[h] || 0, bans[h]) }; }).sort(cmp(function (x) { return x.bans; })).slice(0, 10);
     var am = archetypeByMap(sub)[map] || { n: 0, list: [] };
     var wins = {}; sub.forEach(function (g) { var a = g.arch[g.winner]; wins[a] = (wins[a] || 0) + 1; });
     return {
@@ -816,8 +817,10 @@
       } else comps.push(C('Opponent habit', 0, 'No opponent team chosen', 'data', { n: 0, low: true }));
       var cf = applyPool ? (ctx.profile.pool[name] || 0) : 0;
       comps.push(C('My pool protection', -(cf >= 2 ? cf : 0) * W.banPool, cf >= 2 ? 'In my pool at comfort ' + cf + ', so banning it costs me' : 'Not a protected pool hero', 'judgment'));
+      var bw = e ? e.banWins : 0, bn = e ? e.bans : 0;
+      comps.push(C('Banning side result', 0, bn ? 'The side that banned it won ' + bw + '-' + (bn - bw) + ' (' + bn + ' bans). This is what happened around the ban, not what the ban caused.' : 'Never banned in the selection', 'data', { n: bn, low: bn < LOW_N }));
       var score = r3(comps.reduce(function (s, c) { return s + c.value; }, 0));
-      items.push({ hero: name, role: h.role, score: score, components: comps, n: picks, low: picks < LOW_N, winRate: shr });
+      items.push({ hero: name, role: h.role, score: score, components: comps, n: picks, low: picks < LOW_N, winRate: shr, bans: bn, banWins: bw });
     });
     items.sort(cmp(function (x) { return x.score; }));
     return { kind: 'ban', side: side, slot: slot, sampleN: games.length, items: opts.limit ? items.slice(0, opts.limit) : items };
@@ -906,14 +909,15 @@
     var byMap = bucket(function (r) { return r.g.map; }).map(function (x) { x.map = x.key; return x; }).sort(cmp(function (x) { return x.n; }));
     var archs = bucket(function (r) { return r.g.arch[r.s]; }).map(function (x) { x.arch = x.key; return x; }).sort(cmp(function (x) { return x.n; }));
     var heroMap = {};
-    var banMap = {}, banAgainst = {};
+    var banMap = {}, banAgainst = {}, banMapW = {}, banAgainstW = {};
     rows.forEach(function (r) {
       r.g.picks[r.s].forEach(function (h, i) { var e = heroMap[h] || (heroMap[h] = { n: 0, wins: 0 }); e.n++; if (r.g.winner === r.s) e.wins++; });
-      r.g.bans[r.s].forEach(function (h) { if (h) banMap[h] = (banMap[h] || 0) + 1; });
-      r.g.bans[1 - r.s].forEach(function (h) { if (h) banAgainst[h] = (banAgainst[h] || 0) + 1; });
+      var tw = r.g.winner === r.s ? 1 : 0;
+      r.g.bans[r.s].forEach(function (h) { if (h) { banMap[h] = (banMap[h] || 0) + 1; banMapW[h] = (banMapW[h] || 0) + tw; } });
+      r.g.bans[1 - r.s].forEach(function (h) { if (h) { banAgainst[h] = (banAgainst[h] || 0) + 1; banAgainstW[h] = (banAgainstW[h] || 0) + tw; } });
     });
     var heroes = Object.keys(heroMap).map(function (h) { var x = rate(heroMap[h].wins, heroMap[h].n); x.hero = h; x.share = rows.length ? heroMap[h].n / rows.length : 0; return x; }).sort(cmp(function (x) { return x.n * 1000 + x.wins; }));
-    function counts(m, tot) { return Object.keys(m).map(function (h) { return { hero: h, n: m[h], share: tot ? m[h] / tot : 0, low: m[h] < LOW_N }; }).sort(cmp(function (x) { return x.n; })); }
+    function counts(m, tot, w) { return Object.keys(m).map(function (h) { var o = { hero: h, n: m[h], share: tot ? m[h] / tot : 0, low: m[h] < LOW_N }; if (w) { o.teamWins = w[h] || 0; o.teamRec = rate(w[h] || 0, m[h]); } return o; }).sort(cmp(function (x) { return x.n; })); }
     var fpKnown = rows.filter(function (r) { return r.g.firstPick != null; });
     var fpHad = fpKnown.filter(function (r) { return r.g.firstPick === r.s; }), fpNot = fpKnown.filter(function (r) { return r.g.firstPick !== r.s; });
     var fpW = fpHad.filter(function (r) { return r.g.winner === r.s; }).length, nfW = fpNot.filter(function (r) { return r.g.winner === r.s; }).length;
@@ -945,7 +949,7 @@
     }
     return {
       team: teamName, record: rec, found: rows.length > 0, byMap: byMap, archetypes: archs, heroes: heroes,
-      bans: counts(banMap, rows.length), bansAgainst: counts(banAgainst, rows.length),
+      bans: counts(banMap, rows.length, banMapW), bansAgainst: counts(banAgainst, rows.length, banAgainstW),
       firstPick: { known: fpKnown.length, hadFirstPick: fpHad.length, winsWithFirstPick: fpW, hadSecond: fpNot.length, winsWithSecond: nfW,
         withFirst: rate(fpW, fpHad.length), withSecond: rate(nfW, fpNot.length) },
       openers: counts(openers, fpHad.length),
@@ -1021,7 +1025,7 @@
     var trends = Object.keys(tr).sort().map(function (k) {
       var h2 = heroStats(tr[k]);
       return { key: k, n: tr[k].length, topPicks: h2.list.slice().sort(cmp(function (s) { return s.picks; })).slice(0, 8).map(function (s) { return { hero: s.hero, picks: s.picks, pickRate: s.pickRate, shrunk: s.shrunk, low: s.low }; }),
-        topBans: h2.list.filter(function (s) { return s.bans > 0; }).sort(cmp(function (s) { return s.bans; })).slice(0, 8).map(function (s) { return { hero: s.hero, bans: s.bans, banRate: s.banRate }; }) };
+        topBans: h2.list.filter(function (s) { return s.bans > 0; }).sort(cmp(function (s) { return s.bans; })).slice(0, 8).map(function (s) { return { hero: s.hero, bans: s.bans, banRate: s.banRate, banWins: s.banWins, banRec: s.banRec }; }) };
     });
     var lens = games.map(function (g) { return g.length; }).filter(function (x) { return typeof x === 'number'; });
     var maps = {}; games.forEach(function (g) { maps[g.map] = (maps[g.map] || 0) + 1; });

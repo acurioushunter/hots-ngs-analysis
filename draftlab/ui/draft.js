@@ -147,7 +147,7 @@ function drawSugg(st, plan) {
     var open = D.open[it.hero];
     var after = it.archetypeAfter ? ' <span class="pill" title="Primary archetype of the side if this hero is picked">becomes ' + esc(typeof it.archetypeAfter === 'string' ? it.archetypeAfter : (it.archetypeAfter.label || it.archetypeAfter.primary || '')) + '</span>' : '';
     return '<div class="sug"><div class="sug-head" data-act="d-sugg" data-hero="' + esc(it.hero) + '" role="button" tabindex="0" aria-expanded="' + !!open + '"><span class="rank">' + (i + 1) + '</span>' + chip(it.hero) +
-      '<div class="main"><b>' + esc(disp(it.hero)) + '</b> <span class="muted small">' + esc(it.role) + '</span>' + after + '<div class="why">' + esc(topWhy(it)) + ' | ' + pct(it.winRate) + ' shrunk, ' + nn(it.n) + lowb(it.low) + '</div></div>' +
+      '<div class="main"><b>' + esc(disp(it.hero)) + '</b> <span class="muted small">' + esc(it.role) + '</span>' + after + '<div class="why">' + esc(topWhy(it)) + ' | ' + pct(it.winRate) + ' shrunk, ' + nn(it.n) + lowb(it.low) + (rec.kind === 'ban' ? ' | banning side ' + it.banWins + '-' + (it.bans - it.banWins) + ' over ' + it.bans + ' bans' + lowb(it.bans < 8) : '') + '</div></div>' +
       '<span class="score num" title="Sum of components, in points">' + it.score.toFixed(1) + '</span>' +
       '<button class="btn sm" data-act="d-place" data-hero="' + esc(it.hero) + '"' + (plan.slot.done ? ' disabled' : '') + '>Place</button></div>' +
       (open ? '<div class="sug-body">' + compTable(it.components) + '</div>' : '') + '</div>';

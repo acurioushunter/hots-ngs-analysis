@@ -219,5 +219,23 @@ console.log('Most banned: ' + meta.topBanned.slice(0, 5).map((x) => x.hero + ' '
 const topPick = E.recommendPicks(data, all, { map: 'Cursed Hollow', picks: [[], []], bans: [[], []] }, { limit: 5 }).items.map((x) => x.hero + ' ' + x.score).join(', ');
 console.log('Sample open board on Cursed Hollow, top 5 picks: ' + topPick);
 
+// ---------------------------------------------------------------- win rate on bans
+{
+  const hs = E.heroStats(G);
+  const banned = hs.list.filter((x) => x.bans > 0);
+  ok(banned.every((x) => x.banWins >= 0 && x.banWins <= x.bans), 'ban wins never exceed bans');
+  const totalBans = banned.reduce((a, x) => a + x.bans, 0), totalWins = banned.reduce((a, x) => a + x.banWins, 0);
+  let direct = 0, directWins = 0;
+  G.forEach((g) => [0, 1].forEach((s) => g.bans[s].forEach((h) => { if (h) { direct++; if (g.winner === s) directWins++; } })));
+  ok(totalBans === direct && totalWins === directWins, 'ban wins match a direct count (' + totalWins + ' of ' + totalBans + ')');
+  const m = E.metaSummary(G);
+  ok(m.topBanned.every((x) => typeof x.banWins === 'number' && x.banRec), 'meta most banned carries ban wins');
+  const mp = E.mapSummary(data, G, data.options.maps[0]);
+  ok(mp.topBans.every((x) => typeof x.banWins === 'number'), 'map top bans carry ban wins');
+  const rb = E.recommendBans(data, G, { map: null, picks: [[], []], bans: [[], []] }, { limit: 3 });
+  ok(rb.items.every((x) => typeof x.banWins === 'number'), 'ban suggestions carry the banning side record');
+  console.log('Banning side won ' + totalWins + ' of ' + totalBans + ' bans (' + pct(totalWins / totalBans) + ')');
+}
+
 console.log('\n' + checks + ' checks passed');
 console.log('OK');
