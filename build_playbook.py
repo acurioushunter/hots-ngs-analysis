@@ -431,6 +431,8 @@ def games(db):
 def attach_hero_stats(heroes, G):
     acc = collections.defaultdict(lambda: [0, 0.0, 0.0, 0.0, 0.0, 0])
     for g in G.values():
+        if g["replay_id"] >= 9_000_000:
+            continue   # filled in from the replay export: no minion or camp damage split
         mins = (g["length_sec"] or 1) / 60
         for p in g["players"]:
             a = acc[p["hero"]]
@@ -539,11 +541,12 @@ def map_stats(G, heroes):
             (m["win_ranged"] if won else m["loss_ranged"]).append(rcount)
             side = m["macro"]["win" if won else "loss"]
             side["deaths"].append(sum(p["deaths"] or 0 for p in ps))
-            side["camp_dmg"].append(sum(p["creep_damage"] or 0 for p in ps) / mins / 1000)
-            side["camps"].append(sum(p["merc_camps"] or 0 for p in ps))
-            side["struct"].append(sum(p["structure_damage"] or 0 for p in ps) / mins / 1000)
-            side["minion"].append(sum(p["minion_damage"] or 0 for p in ps) / mins / 1000)
-            side["xp"].append(sum(p["xp_contribution"] or 0 for p in ps) / mins / 1000)
+            if g["replay_id"] < 9_000_000:   # filled in games lack the damage split
+                side["camp_dmg"].append(sum(p["creep_damage"] or 0 for p in ps) / mins / 1000)
+                side["camps"].append(sum(p["merc_camps"] or 0 for p in ps))
+                side["struct"].append(sum(p["structure_damage"] or 0 for p in ps) / mins / 1000)
+                side["minion"].append(sum(p["minion_damage"] or 0 for p in ps) / mins / 1000)
+                side["xp"].append(sum(p["xp_contribution"] or 0 for p in ps) / mins / 1000)
             for p in ps:
                 add(m["hero_picks"], p["hero"], won)
         for team, slot, hero in g["bans"]:
@@ -967,7 +970,10 @@ def main():
     team_merge.apply()   # one team that played under two names inside a season counts once
     cfg = rd(PB / "config" / "our_team.json")
     rules = rd(PB / "config" / "rules.json")
-    db = sqlite3.connect(KN / "ngs_div.db")
+    import supplement_div_from_export
+    filled = supplement_div_from_export.build()   # games the match pages lack yet, from the replay export (ngs_div_plus.db)
+    print("games filled in from the replay export:", filled)
+    db = sqlite3.connect(KN / "ngs_div_plus.db")
     heroes, canon, kdb = build_heroes(cfg)
     G = games(db)
     attach_hero_stats(heroes, G)
@@ -991,7 +997,7 @@ def main():
             if p["team"] == cfg["team"]:
                 add(our_map_hero[g["map"]][p["battletag"]], p["hero"], p["won"])
     data = dict(
-        meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values()),
+        meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values() if g["replay_id"] < 9_000_000), filled_from_export=sum(1 for g in G.values() if g["replay_id"] >= 9_000_000),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
         our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, lens_catalog={k: dict(family=v.get('family'), question=v['question'], kind=v['kind'], values=v['values'], draft_use=v.get('draft_use', '')) for k, v in json.load(open(KN / 'expert' / 'lenses.json', encoding='utf-8'))['lenses'].items()}, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'])

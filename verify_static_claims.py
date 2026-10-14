@@ -5,7 +5,7 @@ Add a line to CLAIMS when a new number goes into a rule or a note.
 """
 import collections, sqlite3, pathlib, sys
 
-DB = pathlib.Path(__file__).resolve().parent / "knowledge" / "ngs_div.db"
+DB = pathlib.Path(__file__).resolve().parent / "knowledge" / "ngs_div_plus.db"   # match pages plus games filled in from the replay export (run build_playbook.py first)
 PRA, CCS, COS = "Phoenix Rising Amethyst", "Can't Counterpick Stupid", "COSMOS"
 c = sqlite3.connect(DB)
 games = c.execute("SELECT replay_id, team0, team1, winner, first_pick_team, map_pick_team FROM ngs_game").fetchall()
@@ -53,9 +53,9 @@ def claim(label, got, want):
 
 
 hi, other = vs_healer(CCS, ["Brightwing", "Anduin"])
-claim("CCS against teams with Brightwing or Anduin (games, wins)", hi, [9, 3])
-claim("CCS against every other healer (games, wins)", other, [11, 11])
-claim("CCS with first pick (games, wins)", rec([int(g[3] == CCS) for g in mine(CCS) if g[4] == CCS]), [13, 11])
+claim("CCS against teams with Brightwing or Anduin (games, wins)", hi, [10, 4])
+claim("CCS against every other healer (games, wins)", other, [13, 12])
+claim("CCS with first pick (games, wins)", rec([int(g[3] == CCS) for g in mine(CCS) if g[4] == CCS]), [14, 12])
 claim("CCS when they pick the map (games, wins)", rec([int(g[3] == CCS) for g in mine(CCS) if g[5] == CCS]), [7, 3])
 vs = [g for g in mine(CCS) if PRA in (g[1], g[2])]
 claim("games CCS v PRA", [len(vs)], [6])
@@ -63,8 +63,8 @@ claim("Thrall banned by CCS against us", [sum(1 for g in vs if "Thrall" in bans[
 claim("Tychus banned by CCS against us", [sum(1 for g in vs if "Tychus" in bans[g[0]][CCS])], [2])
 claim("CCS with first pick against us (games, wins)", rec([int(g[3] == CCS) for g in vs if g[4] == CCS]), [2, 2])
 claim("UnicycleYay on Qhira (games, wins)", player(CCS, "UnicycleYay", "Qhira"), [5, 2])
-claim("UnicycleYay on everything else (games, wins)", player(CCS, "UnicycleYay", "Qhira", True), [12, 10])
-claim("Valkamer on Johanna (games, wins)", player(CCS, "Valkamer", "Johanna"), [6, 5])
+claim("UnicycleYay on everything else (games, wins)", player(CCS, "UnicycleYay", "Qhira", True), [15, 12])
+claim("Valkamer on Johanna (games, wins)", player(CCS, "Valkamer", "Johanna"), [7, 6])
 claim("WitsEnd on Lunara (games, wins)", player(CCS, "WitsEnd", "Lunara"), [11, 8])
 claim("ShadowDroid on Gazlowe (games, wins)", player(CCS, "ShadowDroid", "Gazlowe"), [6, 5])
 claim("CCS first picks that were Johanna", [sum(1 for g in mine(CCS) if g[4] == CCS and picks[g[0]][CCS][:1] == ["Johanna"])], [4])

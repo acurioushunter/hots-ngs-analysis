@@ -1,6 +1,6 @@
 # Alterac Pass: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/alterac-pass.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/alterac-pass.md` for written lessons.
 
 **Icy Veins prefers:** Anchor, Heroes for clearing Mercenary Camps, Global presence, Point control for Boss Camp, Poke tools for Objective, Self-sustain, Split-push, Tools for solo-capturing the Objective
 
@@ -11,19 +11,20 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 |---|---|
 | Anomaly | 0-1 |
 | Can't Counterpick Stupid | 1-0 |
-| Phoenix Rising Amethyst | 1-1 |
+| Phoenix Rising Amethyst | 2-1 |
+| Roll1Esports | 0-1 |
 
-**Ranged heroes**: winners average 2.0, losers 1.5. Three or more ranged 0-0, two or fewer 2-2.
-**Macro, winners against losers (per minute, k):** camp damage 8.06 v 7.22, structure damage 4.78 v 1.38, minion damage 14.8 v 17.62, experience 2.98 v 2.93. Deaths 7.5 v 13.5. Average length 23.8 minutes.
+**Ranged heroes**: winners average 1.67, losers 1.67. Three or more ranged 0-0, two or fewer 3-3.
+**Macro, winners against losers (per minute, k):** camp damage 8.06 v 7.22, structure damage 4.78 v 1.38, minion damage 14.8 v 17.62, experience 2.98 v 2.93. Deaths 6.0 v 14.67. Average length 22.2 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Sylvanas 1-1 | Hanzo 12-17, Sylvanas 9-5, Junkrat 6-1 |
-| chelsi | Ragnaros 0-1, Chromie 1-0 | n/a |
-| SoulShepherd | Blaze 0-1, Leoric 1-0 | n/a |
-| NorthrnTouch | Anub'arak 0-1, E.T.C. 1-0 | n/a |
-| Ltlbearista | Brightwing 1-1 | n/a |
+| hunterstag | Sylvanas 1-1, Junkrat 1-0 | Hanzo 12-17, Sylvanas 9-5, Junkrat 6-1 |
+| chelsi | Ragnaros 0-1, Chromie 1-0, Thrall 1-0 | n/a |
+| SoulShepherd | Blaze 0-1, Leoric 1-0, Yrel 1-0 | n/a |
+| NorthrnTouch | Anub'arak 0-1, E.T.C. 1-0, Muradin 1-0 | n/a |
+| Ltlbearista | Brightwing 1-1, Rehgar 1-0 | n/a |
 
 ## Icy Veins tiers for our pools (by the role each player fills)
 | Player | Hero | Role list | Tier |
@@ -65,9 +66,9 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 | Ltlbearista | Anduin | Healer | A |
 
 ## Most used heroes on this map (NGS)
-Johanna 1-1, Rehgar 1-1, Brightwing 1-1, Sylvanas 1-1, Tychus 1-0, Li-Ming 1-0, Sonya 1-0, Blaze 0-1, Ragnaros 0-1, Anub'arak 0-1, Jaina 0-1, Falstad 0-1, Yrel 0-1, Leoric 1-0
+Rehgar 2-1, Johanna 1-1, Brightwing 1-1, Blaze 0-2, Sylvanas 1-1, Yrel 1-1, E.T.C. 1-1, Tychus 1-0, Li-Ming 1-0, Sonya 1-0, Ragnaros 0-1, Anub'arak 0-1, Jaina 0-1, Falstad 0-1
 
-Most banned: Junkrat 2, Sgt. Hammer 2, Falstad 1, The Lost Vikings 1, Qhira 1, Thrall 1, Stukov 1, Tychus 1
+Most banned: Junkrat 2, Falstad 2, Sgt. Hammer 2, Stukov 2, The Lost Vikings 1, Qhira 1, Thrall 1, Tychus 1
 
 ## Curated notes
 

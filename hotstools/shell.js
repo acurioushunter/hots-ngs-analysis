@@ -321,6 +321,14 @@
     var m = Shared.meta;
     el.innerHTML = '<section class="card"><h2>About HotS Tools</h2>' +
       '<p>One app from two projects: a draft room built for an NGS team, and a general draft and meta lab for any league, plus the My Games analyser for individual players and a library of hero and map guides. Built ' + esc(window.HOTS_BUILD || '') + '.</p>' +
+      '<section class="card us" style="margin:12px 0"><h3>Quick guide</h3><ol class="small" style="margin:6px 0 0;padding-left:20px;display:grid;gap:6px">' +
+      '<li><b>Prepare for a match:</b> Team Scout, Opponent prep. Pick the opponent, read their maps, bans and players. The player card has filters (player, hero, playstyle, weaker heroes only).</li>' +
+      '<li><b>Run the draft:</b> Team Scout, Draft room. Set the toss, map and map bans, then enter each ban and pick in order. Every suggestion opens to show its reasons and sample size. Notes in grey are leans, orange boxes are warnings.</li>' +
+      '<li><b>Look at any team:</b> Team Scout, Scout any team. Type a team name, then filter its games by map, result, first or second pick, recent games, hero played, hero banned and more.</li>' +
+      '<li><b>Check the league:</b> Meta, Counters and Learn, Map data. Use the filter bar at the top (league and season, division, map). A chip that reads 0 cannot be combined with what is on now.</li>' +
+      '<li><b>Your own games:</b> My Games. Import once (Import page), then Overview, Heroes, Maps, Habits and Pool coach. Open a row marked Why and where for the map, build and style read.</li>' +
+      '<li><b>Learn:</b> hero guides, ratings, lenses, map guides and draft theory. Every number carries its sample size.</li></ol>' +
+      '<p class="small muted" style="margin-top:8px">Read leans as leans: most records are 2 to 12 games. The data is a snapshot from when this page was built, so new games need a rebuild. Lists scroll inside their boxes when they are long.</p></section>' +
       '<h3 style="margin-top:12px">Where the data comes from</h3><ul class="small">' +
       '<li><b>NGS games</b> (Nexus Gaming Series, every division, playoffs included): Heroes Profile match pages for seasons 21 and 22 and the NGS replay export for seasons 15 to 22. Drafts, bans, map picks and per player stats. ' + (m.ngs_games ? m.ngs_games.toLocaleString() + ' games.' : '') + '</li>' +
       '<li><b>Heroes Lounge</b> (EU amateur league, season 30): ' + (m.hl_games ? m.hl_games + ' games' : 'games') + ' with drafts and results, no player stats.</li>' +

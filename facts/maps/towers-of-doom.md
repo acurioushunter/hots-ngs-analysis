@@ -1,6 +1,6 @@
 # Towers of Doom: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 8 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 9 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Gankers, Global presence, Offlaner who can double soak, Poke tools for Objective, Strong late game
 
@@ -9,15 +9,15 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 8 Season 22 games.
 ## Records on this map
 | Team | Record |
 |---|---|
-| Anomaly | 0-1 |
+| Anomaly | 0-2 |
 | COSMOS | 2-1 |
-| Can't Counterpick Stupid | 4-1 |
+| Can't Counterpick Stupid | 5-1 |
 | Good Lordy | 2-2 |
 | Phoenix Rising Amethyst | 0-1 |
 | Roll1Esports | 0-2 |
 
-**Ranged heroes**: winners average 2.0, losers 1.75. Three or more ranged 0-0, two or fewer 8-8.
-**Macro, winners against losers (per minute, k):** camp damage 4.44 v 2.09, structure damage 2.7 v 2.34, minion damage 15.36 v 14.79, experience 3.43 v 2.88. Deaths 6.62 v 15.25. Average length 17.6 minutes.
+**Ranged heroes**: winners average 1.78, losers 1.67. Three or more ranged 0-0, two or fewer 9-9.
+**Macro, winners against losers (per minute, k):** camp damage 4.44 v 2.09, structure damage 2.7 v 2.34, minion damage 15.36 v 14.79, experience 3.43 v 2.88. Deaths 6.89 v 15.56. Average length 17.6 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
@@ -68,9 +68,9 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 8 Season 22 games.
 | Ltlbearista | Anduin | Healer | A |
 
 ## Most used heroes on this map (NGS)
-Dehaka 3-3, Leoric 4-2, Johanna 2-3, Anduin 3-1, Sylvanas 3-1, Lunara 4-0, Kael'thas 2-1, Varian 2-1, Whitemane 2-1, Blaze 1-1, Anub'arak 2-0, Greymane 1-1, Zul'jin 0-2, Falstad 1-1
+Dehaka 4-3, Leoric 4-3, Anduin 3-2, Johanna 2-3, Sylvanas 3-1, Lunara 4-0, Whitemane 3-1, Kael'thas 2-1, Varian 2-1, Blaze 1-1, Anub'arak 2-0, Greymane 1-1, Zul'jin 0-2, Falstad 1-1
 
-Most banned: The Lost Vikings 4, Anub'arak 4, Rehgar 3, Qhira 3, Sylvanas 2, Garrosh 2, Brightwing 2, Zeratul 2
+Most banned: Anub'arak 5, The Lost Vikings 4, Rehgar 3, Johanna 3, Qhira 3, Sylvanas 2, Garrosh 2, Brightwing 2
 
 ## Curated notes
 

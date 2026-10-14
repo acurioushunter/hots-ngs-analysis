@@ -1,6 +1,6 @@
 # Tomb of the Spider Queen: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 10 Season 22 games. Edit `playbook/notes/maps/tomb-of-the-spider-queen.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 11 Season 22 games. Edit `playbook/notes/maps/tomb-of-the-spider-queen.md` for written lessons.
 
 **Icy Veins prefers:** Effects relying on impassable terrain, Poke tools for Objective, Quests to stack on Heroes, Strong late game, Sustain damage/healing, Vision tools, High waveclear
 
@@ -12,20 +12,20 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 10 Season 22 games
 | Anomaly | 0-4 |
 | COSMOS | 4-1 |
 | Can't Counterpick Stupid | 2-1 |
-| Phoenix Rising Amethyst | 3-1 |
-| Roll1Esports | 1-3 |
+| Phoenix Rising Amethyst | 4-1 |
+| Roll1Esports | 1-4 |
 
-**Ranged heroes**: winners average 1.9, losers 1.7. Three or more ranged 0-0, two or fewer 10-10.
-**Macro, winners against losers (per minute, k):** camp damage 3.38 v 2.65, structure damage 5.04 v 2.1, minion damage 16.25 v 15.99, experience 2.91 v 2.5. Deaths 6.8 v 12.6. Average length 18.9 minutes.
+**Ranged heroes**: winners average 1.91, losers 1.73. Three or more ranged 0-0, two or fewer 11-11.
+**Macro, winners against losers (per minute, k):** camp damage 3.38 v 2.65, structure damage 5.04 v 2.1, minion damage 16.25 v 15.99, experience 2.91 v 2.5. Deaths 6.91 v 12.45. Average length 20.1 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Junkrat 2-0, Sylvanas 1-1 | Junkrat 9-12, Hanzo 4-12, Sylvanas 5-4, Garrosh 2-2, Chromie 3-0 |
-| chelsi | Thrall 1-1, Tychus 1-0, Gul'dan 1-0 | n/a |
-| SoulShepherd | Blaze 2-0, Leoric 1-1 | n/a |
-| NorthrnTouch | Johanna 1-0, Stitches 1-0, Muradin 1-0, Tyrael 0-1 | n/a |
-| Ltlbearista | Brightwing 2-0, Anduin 1-0, Rehgar 0-1 | n/a |
+| hunterstag | Junkrat 3-0, Sylvanas 1-1 | Junkrat 9-12, Hanzo 4-12, Sylvanas 5-4, Garrosh 2-2, Chromie 3-0 |
+| chelsi | Tychus 2-0, Thrall 1-1, Gul'dan 1-0 | n/a |
+| SoulShepherd | Leoric 2-1, Blaze 2-0 | n/a |
+| NorthrnTouch | Muradin 2-0, Johanna 1-0, Stitches 1-0, Tyrael 0-1 | n/a |
+| Ltlbearista | Brightwing 2-0, Anduin 2-0, Rehgar 0-1 | n/a |
 
 ## Icy Veins tiers for our pools (by the role each player fills)
 | Player | Hero | Role list | Tier |
@@ -67,9 +67,9 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 10 Season 22 games
 | Ltlbearista | Anduin | Healer | A |
 
 ## Most used heroes on this map (NGS)
-Tychus 4-3, Johanna 3-3, Tassadar 3-3, Leoric 3-2, Blaze 3-2, Kael'thas 2-2, Brightwing 4-0, Anub'arak 1-2, Li Li 3-0, Sylvanas 2-1, Rehgar 1-2, Thrall 1-2, Garrosh 2-1, Anduin 1-2
+Tychus 5-3, Tassadar 3-4, Leoric 4-2, Johanna 3-3, Blaze 3-3, Kael'thas 2-2, Brightwing 4-0, Anduin 2-2, E.T.C. 1-3, Anub'arak 1-2, Li Li 3-0, Sylvanas 2-1, Rehgar 1-2, Junkrat 3-0
 
-Most banned: Stukov 6, Anduin 5, Anub'arak 5, Johanna 4, Valla 3, Falstad 3, Lunara 3, Sylvanas 3
+Most banned: Stukov 7, Anub'arak 6, Anduin 5, Johanna 5, Valla 3, Falstad 3, Lunara 3, Sylvanas 3
 
 ## Curated notes
 

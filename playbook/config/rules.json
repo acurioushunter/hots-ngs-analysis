@@ -93,7 +93,7 @@
         "Rehgar": -1.5,
         "Stukov": -1.5
       },
-      "why": "CCS is 3-6 against Brightwing or Anduin teams and 11-0 against every other healer. We are 2-1 with Brightwing against them and 0-3 with Rehgar or Stukov.",
+      "why": "CCS is 4-6 against Brightwing or Anduin teams and 12-1 against every other healer (through Oct 14). We are 2-1 with Brightwing against them and 0-3 with Rehgar or Stukov.",
       "evidence": "CCS_FULL_PICTURE.md section 4"
     },
     {
@@ -109,7 +109,7 @@
         "Johanna": 4.5,
         "Lunara": 2.4
       },
-      "why": "Johanna is their favorite first pick (4 times, Valkamer 5-1) and counters our Tychus and Brightwing. Lunara is WitsEnd's 8-3 hero and a second marksman.",
+      "why": "Johanna is their favorite first pick (4 times, Valkamer 6-1) and counters our Tychus and Brightwing. Lunara is WitsEnd's 8-3 hero and a second marksman.",
       "evidence": "CCS_MATCH_PREP.md"
     },
     {
@@ -124,7 +124,7 @@
       "heroes": {
         "Qhira": 0.15
       },
-      "why": "UnicycleYay is 2-3 on Qhira (4.0 deaths a game) and 10-2 on everything else. Banning her sends him to Sylvanas, Hanzo or Tychus.",
+      "why": "UnicycleYay is 2-3 on Qhira (4.0 deaths a game) and 12-3 on everything else. Banning her sends him to Sylvanas, Hanzo or Tychus.",
       "evidence": "QHIRA_DEEP_DIVE.md"
     },
     {

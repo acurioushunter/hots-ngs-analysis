@@ -1,6 +1,6 @@
 # Infernal Shrines: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 12 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 13 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
 
 **Icy Veins prefers:** Double Healer, Effects relying on impassable terrain, Quests to stack on Heroes, Strong late game, High waveclear
 
@@ -9,15 +9,15 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 12 Season 22 games
 ## Records on this map
 | Team | Record |
 |---|---|
-| Anomaly | 0-2 |
+| Anomaly | 1-2 |
 | COSMOS | 5-0 |
-| Can't Counterpick Stupid | 3-1 |
+| Can't Counterpick Stupid | 3-2 |
 | Good Lordy | 1-2 |
 | Phoenix Rising Amethyst | 1-2 |
 | Roll1Esports | 2-5 |
 
-**Ranged heroes**: winners average 1.75, losers 1.42. Three or more ranged 0-0, two or fewer 12-12.
-**Macro, winners against losers (per minute, k):** camp damage 7.96 v 5.63, structure damage 5.91 v 1.54, minion damage 13.51 v 13.42, experience 3.09 v 2.6. Deaths 6.83 v 16.25. Average length 19.4 minutes.
+**Ranged heroes**: winners average 1.62, losers 1.46. Three or more ranged 0-0, two or fewer 13-13.
+**Macro, winners against losers (per minute, k):** camp damage 7.96 v 5.63, structure damage 5.91 v 1.54, minion damage 13.51 v 13.42, experience 3.09 v 2.6. Deaths 7.46 v 16.15. Average length 20.2 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
@@ -68,9 +68,9 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 12 Season 22 games
 | Ltlbearista | Anduin | Healer | A |
 
 ## Most used heroes on this map (NGS)
-Anub'arak 3-2, Blaze 1-4, Tychus 3-2, Johanna 2-3, Anduin 3-2, Kael'thas 3-1, Sonya 2-2, Greymane 4-0, Arthas 2-2, Lunara 3-1, Sylvanas 2-2, Brightwing 3-1, Leoric 0-4, Tassadar 3-1
+Blaze 2-4, Anub'arak 3-2, Tychus 3-2, Johanna 2-3, Anduin 3-2, Kael'thas 3-1, Sonya 2-2, Greymane 4-0, Arthas 2-2, Rehgar 0-4, Lunara 3-1, Sylvanas 2-2, Brightwing 3-1, Leoric 0-4
 
-Most banned: Stukov 6, Johanna 5, Anub'arak 5, Junkrat 4, Tychus 3, Deathwing 3, Qhira 3, The Lost Vikings 3
+Most banned: Stukov 7, Anub'arak 6, Johanna 5, Junkrat 4, Lunara 4, Tychus 3, Deathwing 3, Qhira 3
 
 ## Curated notes
 
