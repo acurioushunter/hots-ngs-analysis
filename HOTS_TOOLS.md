@@ -61,6 +61,13 @@ It keeps its own storage (every key prefixed `hunter:`), so opening both edition
 
 Accepted by the importer: raw Heroes Profile `player/match/history` pages (one or several, pasted or as files), the HotS Tools export (`{"format":"hots-tools-games","games":[...]}`), and CSV with at least a hero and a result column. The in page snippet reads the history from the player's own Heroes Profile tab. It uses the same endpoint and body as our own pulls, and one request with that body was confirmed live on Oct 13 (200, 100 games a page). The paste and CSV routes work without it.
 
+## Hero profiles and lenses (how they reach every part of the app)
+
+`knowledge/expert/hero_profiles` (91 profiles) and `lenses.json` are the hero knowledge base. They reach the app through two paths:
+- `merge_profiles_into_matrix.py` rewrites role, range, damage profile, sub role, comp fit and ratings in `hero_matrix_draft.json` (the old values are kept under `prior`; a rating that moved 3 or more is the midpoint and listed in `ratings_contested`). The Draft Lab archetype classifier, hero pages, My Games "worth learning next" and the Drafter kit lines all read that matrix, so they follow the profiles.
+- `build_playbook.py` `attach_profiles` puts a compact `profile`, `ranged` (ranged damage dealer), `marksman`, `arch` and `hclass` on each Drafter hero, and builds the league facts (`data.comps`, heal lens, lens signal, owner combos).
+Surfaces: Drafter hero sheet Ratings tab (How it plays), Our comp card (ranged and melee dealers, league table, known combos, lens read), Draft Lab hero detail (labels, Hunter's read, how it plays), My Games hero page and pool coach (labels, Hunter's read, why and where for each costing hero), Learn > Hero lenses (catalog, carriers, league read).
+
 ## Known limits
 
 - Hero ratings (wave clear, camps and so on) are a draft matrix, mostly judgment. Every rating carries a source tag and can be overridden in the Draft Lab Heroes tab.

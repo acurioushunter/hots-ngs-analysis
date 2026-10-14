@@ -297,7 +297,21 @@ def healer_class(p):
     return "other"
 
 
-def attach_profiles(heroes):
+def arch_from_profile(p, fallback):
+    """Roster table label from the profile; the hand lists in our_team.json (bruiser_dps, dive) still win where they name a hero."""
+    if fallback in ("Bruiser DPS", "Dive assassin") or p["role"] in ("Healer", "Support"):
+        return fallback if fallback in ("Bruiser DPS", "Dive assassin") else p["role"]
+    d, L = p["damage"], p.get("lenses", {})
+    if p["role"] == "Tank":
+        return "Tank"
+    if p["role"] == "Bruiser":
+        return "Bruiser DPS" if d.get("carry") and L.get("lane_role") not in ("solo_laner", "split_pusher") else "Offlaner"
+    if p["role"] == "Melee Assassin" or not d.get("ranged_dealer"):
+        return "Dive assassin"
+    return "Ranged DPS"
+
+
+def attach_profiles(heroes, cfg=None):
     """knowledge/expert/hero_profiles/<slug>.json (one per hero, see HERO_PROFILE_SPEC.md). A profile decides what counts as a ranged damage
     dealer: a ranged healer, support or tank is not one. The old Heroes Profile attack type stays as hp_ranged."""
     root = KN / "expert" / "hero_profiles"
@@ -314,6 +328,12 @@ def attach_profiles(heroes):
         heroes[h]["hclass"] = healer_class(p)
         heroes[h]["ranged"] = bool(p["damage"].get("ranged_dealer")) and h not in set()
         heroes[h]["carry"] = bool(p["damage"].get("carry"))
+        # marksman: a ranged damage dealer whose damage is mostly autos (the old hand list stays as the fallback for heroes without a profile)
+        am, dd = p["attack"].get("autos_matter", 0), p.get("lenses", {}).get("damage_delivery")
+        heroes[h]["marksman"] = bool(p["damage"].get("ranged_dealer") and (
+            (dd == "auto_attacker" and am >= 3) or (dd == "hybrid" and am >= 4) or h in set((cfg or {}).get("marksmen", []))))
+        heroes[h]["arch"] = arch_from_profile(p, heroes[h].get("arch"))
+        heroes[h]["labels"] = (p.get("lenses") and heroes[h].get("labels")) or []
         n += 1
     return n
 
@@ -323,6 +343,10 @@ def attach_kit(heroes):
     path = KN / "expert" / "hero_matrix_draft.json"
     if not path.exists():
         return
+    import sys as _sys, pathlib as _pl
+    _sys.path.insert(0, str(_pl.Path(__file__).resolve().parent))
+    import merge_profiles_into_matrix
+    merge_profiles_into_matrix.main()   # the matrix follows the hero profiles
     m = rd(path)["heroes"]
     by_norm = {norm(k): k for k in m}
     for h, d in heroes.items():
@@ -946,7 +970,7 @@ def main():
     G = games(db)
     attach_hero_stats(heroes, G)
     attach_kit(heroes)
-    attach_profiles(heroes)
+    attach_profiles(heroes, cfg)
     obs, h2h, combos, comps = league_observed(heroes)
     for h, o in obs.items():
         if h in heroes:
@@ -968,7 +992,7 @@ def main():
         meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values()),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
-        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, lens_catalog={k: dict(question=v['question'], kind=v['kind'], values=v['values']) for k, v in json.load(open(KN / 'expert' / 'lenses.json', encoding='utf-8'))['lenses'].items()}, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'])
+        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, lens_catalog={k: dict(family=v.get('family'), question=v['question'], kind=v['kind'], values=v['values'], draft_use=v.get('draft_use', '')) for k, v in json.load(open(KN / 'expert' / 'lenses.json', encoding='utf-8'))['lenses'].items()}, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'])
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:

@@ -58,3 +58,10 @@ The page can be used by any NGS team. Pieces:
 4. `python build_playbook.py` adds a `league` block to `playbook/data.json`: every team's profile, the head to head numbers for every pair in a division, pools worked out from NGS games for teams without hand written ones, and Storm League MMR where known.
 5. A rule with `scope.us` only applies when that team is the one picked (the CCS and Cosmos rules are written about Phoenix Rising Amethyst).
 Roster labels (Offlaner, Bruiser DPS, Dive assassin, Ranged DPS) come from `archetypes` in `playbook/config/our_team.json`.
+
+
+## Hero profiles in the rebuild order
+1. Edit a profile in `knowledge/expert/hero_profiles/` or Hunter's notes in `apply_owner_notes.py`; run `python apply_owner_notes.py` then `python test_hero_profiles.py`.
+2. `python build_playbook.py` (it overlays the matrix first), then `python build_hotstools.py --all --personal`.
+3. Tests: `python test_playbook.py`, `node test_engine.js`, `node test_hotstools.js`, `node test_draftlab.js`, `python test_hero_profiles.py`.
+4. `python make_review_zip.py` for the clean review package.

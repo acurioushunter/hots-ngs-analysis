@@ -65,6 +65,7 @@
       { id: 'ratings', label: 'Hero ratings', app: 'lab', tab: 'heroes', desc: 'Compare heroes on wave clear, camps, engage, peel and more.' },
       { id: 'maps', label: 'Map guides', app: 'drafter', tab: 'maps', desc: 'Objectives, tiers and what each map rewards.' },
       { id: 'mapdata', label: 'Map data', app: 'lab', tab: 'maps', desc: 'Which comps and heroes win on each map, from the games.' },
+      { id: 'lenses', label: 'Hero lenses', native: 'lenses', desc: 'Every axis a draft is reasoned on, who carries it, and what the league says it is worth.' },
       { id: 'drafting', label: 'Drafting and strategy', app: 'lab', tab: 'learn', desc: 'Draft theory, concepts and what to look for.' },
       { id: 'tips', label: 'Tips and glossary', app: 'drafter', tab: 'learn', desc: 'Draft tips, guides and a glossary of terms.' }
     ] },
@@ -167,6 +168,7 @@
       try {
         if (key === 'home') renderHome(inner);
         else if (key === 'learn') renderLearn(inner);
+        else if (key === 'lenses') renderLenses(inner);
         else if (key === 'about') renderAbout(inner);
         else if (key === 'mygames') window.HotsGamesUI.render(inner, page, API);
       } catch (e) { inner.innerHTML = '<div class="note bad">This page failed to draw: ' + esc(e.message) + '</div>'; if (window.console) console.error(e); }
@@ -259,7 +261,7 @@
       '<section class="card"><h3>What is in here</h3><dl class="defs">' +
       '<dt>Hero guides</dt><dd>' + (m.hero_count || 91) + ' heroes: builds, talents, abilities, matchups, tier lists, global win rates.</dd>' +
       '<dt>League data</dt><dd>' + (m.games_total ? m.games_total.toLocaleString() : '2,000+') + ' league games (NGS seasons 21 and 22, Heroes Lounge season 30) with drafts, bans and results.</dd>' +
-      '<dt>Hero ratings</dt><dd>Ratings for wave clear, camps, engage, peel and more, each tagged as data, kit or judgment.</dd>' +
+      '<dt>Hero profiles and lenses</dt><dd>All ' + (m.hero_count || 91) + ' heroes read from their ability text and measured numbers: how each deals damage, what front line or healer it is, how it controls a fight, what it needs and what it loses to. Ratings for wave clear, camps, engage and peel sit on top.</dd>' +
       '<dt>Draft room</dt><dd>Rules, pools and opponent habits for ' + (m.ngs_teams || 57) + ' NGS teams.</dd></dl></section>' +
       '<section class="card"><h3>How to read the numbers</h3>' +
       '<p class="small">Most records here rest on a handful of games. A 5-0 is a hint, not a law. Every number shows its sample size, and a result under 8 games is marked <span class="tag warn">low sample</span>. "Lean" means the data points that way and could change.</p>' +
@@ -274,6 +276,7 @@
     var cards = [
       ['learn/heroes', 'Hero guides', 'Pick a hero and get its overview, builds, talents, abilities, matchups, maps and who plays it. Tier lists per role and per map, and global win rates.', 'Builds and talents'],
       ['learn/ratings', 'Hero ratings', 'Compare heroes on wave clear, camp clear, engage, peel, siege, mobility and ease of execution, with the evidence tag on every rating.', 'Compare heroes'],
+      ['learn/lenses', 'Hero lenses', 'The axes a draft is reasoned on (damage type, front line style, healer class, crowd control, macro, weaknesses), which heroes carry each, and what the league says it is worth.', 'Heroes by trait'],
       ['learn/maps', 'Map guides', 'What each map rewards, its objective, the tier list and the notes that matter in a draft.', 'Maps'],
       ['learn/mapdata', 'Map data', 'Which comp styles and heroes actually win on each map in the league games, with sample sizes.', 'Maps from data'],
       ['learn/drafting', 'Drafting and strategy', 'Draft theory, archetypes, wave clear, camps, rotations and how to read the other team\'s picks.', 'Theory'],
@@ -287,6 +290,33 @@
       '<li><b>Have a fallback for your main.</b> If it is banned or taken, the pool coach in My Games lists your next best heroes in that role.</li></ol></section>';
   }
 
+  // Learn > Hero lenses: the catalog (knowledge/expert/lenses.json), who carries each value (the matrix, from the hero profiles) and the league association.
+  function renderLenses(el) {
+    var cat = Shared.meta.lens_catalog || {}, sig = (Shared.meta.lens_signal || {}), items = sig.items || [], H = (Shared.matrix && Shared.matrix.heroes) || {};
+    var keys = Object.keys(cat);
+    if (!keys.length) { el.innerHTML = '<section class="card"><h2>Hero lenses</h2><p class="muted">The lens catalog is not in this build.</p></section>'; return; }
+    var fam = {}, famOrder = [];
+    keys.forEach(function (k) { var c = cat[k], f = c.family || 'Other'; if (!fam[f]) { fam[f] = []; famOrder.push(f); } fam[f].push(k); });
+    function carriers(k, v) {
+      return Object.keys(H).filter(function (h) { var x = (H[h].lenses || {})[k]; return Array.isArray(x) ? x.indexOf(v) >= 0 : x === v; }).sort();
+    }
+    function sigFor(k, v) { return items.filter(function (i) { return i.lens === k && i.value === v; }).sort(function (a, b) { return a.min - b.min; }); }
+    var body = famOrder.map(function (f) {
+      return '<section class="card"><h3>' + esc(f) + '</h3>' + fam[f].map(function (k) {
+        var c = cat[k], vals = Object.keys(c.values);
+        return '<details class="sec"><summary><b>' + esc(c.question) + '</b> <span class="muted small">' + esc(k) + (c.kind === 'multi' ? ', can hold several values' : '') + '</span></summary>' +
+          '<div class="scroll"><table><thead><tr><th>Value</th><th>Means</th><th class="r">Heroes</th><th>League read</th></tr></thead><tbody>' +
+          vals.map(function (v) {
+            var who = carriers(k, v), sg = sigFor(k, v)[0];
+            return '<tr><td><b>' + esc(v.replace(/_/g, ' ')) + '</b></td><td class="small">' + esc(c.values[v]) + '</td><td class="small">' + (who.length ? '<span class="muted num">' + who.length + '</span> ' + who.slice(0, 12).map(esc).join(', ') + (who.length > 12 ? ', and ' + (who.length - 12) + ' more' : '') : '<span class="muted">none yet</span>') + '</td>' +
+              '<td class="small">' + (sg ? '<span class="tag ' + (sg.with_wr > sg.without_wr ? 'good' : 'warn') + '">' + (sg.with_wr > sg.without_wr ? 'helps' : 'hurts') + '</span> ' + Math.round(sg.with_wr * 100) + '% with ' + sg.min + ' or more, ' + Math.round(sg.without_wr * 100) + '% without (' + sg.n.toLocaleString() + ' sides)' : '<span class="muted">no clear gap</span>') + '</td></tr>';
+          }).join('') + '</tbody></table></div><p class="small muted">' + esc(c.draft_use || '') + '</p></details>';
+      }).join('') + '</section>';
+    }).join('');
+    el.innerHTML = '<section class="card accent"><h2>Hero lenses</h2><p class="muted" style="max-width:68ch">A draft is more than healing and range. Each lens is one question about a hero: how it deals damage, what kind of front line it is, what kind of healer, how it controls a fight, what it does on the map, when it is strong, and what it loses to. Every hero is classified on all of them from its ability text, measured numbers and the owner\'s own notes.</p>' +
+      '<p class="small muted">The league read compares the win rate of drafting sides with and without a trait over ' + (sig.sides ? sig.sides.toLocaleString() : 'thousands of') + ' NGS sides (seasons 15 to 22). It is an association: traits cluster in comps, so a gap can come from the comp or the players. Only large gaps are shown.</p></section>' + body;
+  }
+
   function renderAbout(el) {
     var m = Shared.meta;
     el.innerHTML = '<section class="card"><h2>About HotS Tools</h2>' +
@@ -297,11 +327,13 @@
       '<li><b>Hero and map guides, talents, tier lists</b>: Icy Veins pages saved into the tool. Dates are shown on each hero.</li>' +
       '<li><b>Global Storm League hero win rates</b>: Heroes Profile global hero page, patches 2.55 to 2.57' + (m.global_asof ? ', as of ' + esc(m.global_asof) : '') + '.</li>' +
       '<li><b>Storm League MMR</b> of NGS players: their Heroes Profile profiles, Storm League only.</li>' +
-      '<li><b>Hero ratings</b> (wave clear, camps and so on) are a draft matrix: part measured, part read from ability text, part authored. Each rating carries its source tag and you can override any of them.</li></ul>' +
+      '<li><b>Hero profiles</b> (knowledge/expert/hero_profiles): one per hero, written from the Icy Veins ability and talent text beside measured damage, healing, siege, damage taken and crowd control from NGS replays, then corrected with the owner\'s own notes (marked as his read). <b>Hero ratings</b> follow the profiles; where the old matrix and the profile differed by 3 or more the midpoint is used and flagged. Each rating carries its source tag and you can override any of them.</li>' +
+      '<li><b>League read</b>: win rates by comp trait and healer class use every NGS replay of seasons 15 to 22, newer seasons weighted more, with the newest three seasons shown beside them.</li></ul>' +
       '<h3 style="margin-top:12px">What it cannot tell you</h3><ul class="small">' +
       '<li>Match pages have no timeline. Nothing here knows who led at ten minutes or won a particular fight, except through totals.</li>' +
       '<li>Most records are 2 to 12 games. They are leans, not rules.</li>' +
-      '<li>Hero ratings are a model, not a measurement. Use them to ask a question, not to settle one.</li></ul>' +
+      '<li>Hero ratings and lenses are a model, not a measurement. Use them to ask a question, not to settle one.</li>' +
+      '<li>Win rate gaps by trait are associations: a healer or a trait is picked into particular comps, so a gap can come from the comp, the players or the season.</li></ul>' +
       '<h3 style="margin-top:12px">Privacy</h3><p class="small">Everything runs in your browser. The games you import in My Games, your team choice and your draft in progress are kept on this device only, in this browser. Clear them any time from My Games and from the Team setup page.</p>' +
       '<h3 style="margin-top:12px">Sharing</h3><p class="small">Send the single file <span class="kbd">hots_tools.html</span> (a zip works) and open it in any browser. It needs no install and no account.</p></section>' +
       '<section class="card"><h3>Reset</h3><p class="small muted">Two separate buttons, so clearing your choices never costs you your games.</p>' +

@@ -93,6 +93,17 @@ function drawHDetail() {
   var nOv = Object.keys(App.overrides).length;
   var h = '<div class="card stack"><div class="row between"><h2>' + hn(hero) + '</h2><span class="small muted">' + esc(d.role) + ', ' + esc(d.sub_role) + '</span></div>';
   h += '<div class="row"><span class="pill">' + esc(d.dmg_profile) + ' damage</span><span class="pill">' + esc(d.range_class) + ' range</span>' + (d.pct_damage ? '<span class="pill" title="' + esc((d.pct_damage_basis || []).join(', ')) + '">percent health damage</span>' : '') + (d.comp_fit || []).map(function (c) { return '<span class="pill">fits ' + esc(c) + '</span>'; }).join('') + '</div>';
+  if (d.labels && d.labels.length) {
+    h += '<div class="row">' + d.labels.map(function (x) { return '<span class="pill">' + esc(x) + '</span>'; }).join('') + '</div>';
+    if (d.owner_notes) h += '<div class="small"><span class="tag">Hunter\'s read</span> ' + esc(d.owner_notes) + (d.flex_roles && d.flex_roles.length ? ' Flexes to: ' + d.flex_roles.map(esc).join('; ') + '.' : '') + '</div>';
+    var L = d.lenses || {}, lensLine = function (k, label) { var v = L[k]; if (v == null) return ''; return '<div class="row between small"><span>' + label + '</span><span>' + esc((Array.isArray(v) ? v : [v]).map(function (x) { return String(x).replace(/_/g, ' '); }).join(', ')) + '</span></div>'; };
+    h += '<div><h4>How it plays ' + tag('kit') + '</h4><div class="grid3" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:4px 16px">' +
+      lensLine('damage_delivery', 'Damage comes from') + lensLine('damage_timing', 'Damage arrives') + lensLine('frontline_style', 'Front line style') + lensLine('healer_class', 'Healer class') +
+      lensLine('kill_pattern', 'Gets kills by') + lensLine('cc_profile', 'Crowd control') + lensLine('escape', 'Escape') + lensLine('lane_role', 'Lane role') +
+      lensLine('power_curve', 'Strongest') + lensLine('team_needs', 'Needs from the team') + lensLine('team_gives', 'Gives the team') + lensLine('vulnerable_to', 'Loses to') + '</div>' +
+      (d.heal_blunted != null ? '<div class="small muted">Healing blunts its damage ' + d.heal_blunted + ' of 5. Profile confidence ' + esc(d.profile_confidence || 'n/a') + '.</div>' : '') +
+      (d.ratings_contested ? '<div class="small muted">Contested ratings (the old matrix and the profile differ by 3 or more, so the midpoint is used): ' + Object.keys(d.ratings_contested).map(function (k) { return esc(k.replace(/_/g, ' ')) + ' ' + d.ratings_contested[k].matrix_before + ' v ' + d.ratings_contested[k].profile; }).join(', ') + '.</div>' : '') + '</div>';
+  }
   h += '<div class="small"><b>Strength:</b> ' + esc(d.strengths_note || '') + '<br><b>Weakness:</b> ' + esc(d.weaknesses_note || '') + ' ' + tag('judgment') + '</div>';
   h += '<div><h4>In the selection ' + tag('data') + '</h4>' + (s && (s.picks || s.bans) ? '<div class="small">Picked ' + s.picks + ' times (' + pct(s.pickRate, 0) + ' of games), banned ' + s.bans + ' (' + pct(s.banRate, 0) + (s.bans ? ', the banning side won ' + s.banWins + '-' + (s.bans - s.banWins) + (s.banRec.low ? ' (low sample)' : '') : '') + '). Win rate ' + pct(s.winRate) + ' raw, ' + pct(s.shrunk) + ' shrunk ' + nn(s.n) + lowb(s.low) + '. Average pick position ' + (s.avgPickOrder ? s.avgPickOrder.toFixed(1) : 'n/a') + ', opened a draft ' + s.openers + ' times.</div>' : '<div class="small muted">Not seen in this selection.</div>') + '</div>';
   if (d.meta && d.meta.patch_257) {

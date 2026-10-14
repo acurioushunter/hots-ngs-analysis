@@ -13,6 +13,9 @@ Private repo `acurioushunter/hots-ngs-analysis`. Purpose: help Hunter and his te
 8. **Prose for Hunter has no hyphens or em dashes** (he reads them as an AI giveaway). Hyphens in records like 7-2 and in hero names are fine.
 9. **Say how big the sample is.** Most per map and per hero numbers rest on 2 to 12 games. Say "lean", not "rule", and say what the data cannot show (NGS pages have no timeline).
 10. **Do not claim a mechanism the data does not show.** Separate "the numbers say" from "the hero kit suggests".
+11. **Ranged means a ranged damage dealer.** Healers, supports and tanks that shoot from range are not counted. It comes from the hero profile (`damage.ranged_dealer`), not Heroes Profile's attack type. Marksman means a ranged dealer whose damage is mostly autos.
+12. **League facts are recency weighted by season** (half life 3 seasons, newest 3 seasons shown beside), and a division sized rule only fires when the league (NGS seasons 15 to 22) backs it. Say it is an association.
+13. **Hunter's hero notes win over agent readings** (`knowledge/expert/owner_hero_notes.md`, applied by `apply_owner_notes.py`). Show them as "Hunter's read".
 
 ## Start here
 Read `PROJECT_STATE.md` after this file: who is on the team, where the season stands, the document map, open work, how to refresh the data, and the git routine. Hunter does not use git. At the start of a session `git pull`; when the work is done run the tests, commit with a plain message and `git push` (this repo only). The folder `C:\Users\visio\Downloads\Claude Code` is the Vision business project with its own repo and rules: do not open or change it from a HOTS session.
@@ -30,6 +33,12 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - Tests: `node test_hotstools.js` (My Games engine and the built page), `node test_draftlab.js`, plus the Draft Room tests below. All must print OK.
 - The published artifact link (below) now carries HotS Tools. Publish `hots_tools_artifact.html` with that `url`.
 - `knowledge/ngs_league.db` is built from the NGS replay export (folders in Downloads, not in git) by `build_ngs_league.py`. It has the timeline per game (`lg_timeline`) that the match pages lack.
+
+## Hero knowledge base (profiles and lenses)
+- `knowledge/expert/hero_profiles/<slug>.json` (91): damage type, poke, how healing meets it, healing block, ratings, good into and bad into, wants and gives, lens values, owner notes. Spec `HERO_PROFILE_SPEC.md`, lens catalog `lenses.json`, check `python test_hero_profiles.py`.
+- `merge_profiles_into_matrix.py` overlays the profiles on `hero_matrix_draft.json` (run by the builds). `apply_owner_notes.py` re-applies Hunter's notes after any profile rewrite. Hunter's combos and counters: `knowledge/expert/owner_combos.json`.
+- League facts built from them: `data.comps` (ranged dealer count, healer count, marksmen, shapes, heal lens, lens signal), `data.h2h` and `data.combos`, all in `build_playbook.py`.
+- A clean shareable review package: `python make_review_zip.py`.
 
 ## Draft Room (the real time draft tool, shown in the page as HotS Drafter)
 - `python build_playbook.py` regenerates `playbook/data.json`, `facts/teams/*.md`, `facts/maps/*.md`, `draft_tool.html` (stand alone) and `draft_tool_artifact.html` (the page fragment published as the phone artifact). Then `python test_playbook.py` and `node test_engine.js`.

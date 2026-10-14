@@ -64,7 +64,7 @@ FLEX = {"varian": ["Tank (with Taunt at level 4)", "Melee Assassin (Twin Blades 
         "thrall": ["Melee Assassin"], "dehaka": ["Offlaner who pulls the other offlaner away"]}
 CARRY = {"deathwing": True, "thrall": True, "sonya": True, "orphea": True}
 # his note settles the attack reach: Orphea is a medium range burst mage, so she is a ranged damage dealer
-RANGED_DEALER = {"orphea": True}
+RANGED_DEALER = {"orphea": True, "cho": False, "gall": True}   # Cho is the bruiser half, Gall the ranged half
 HEALING = {   # sustain, burst_heal, aoe overrides (0 to 5). Stukov: mix, excels at neither.
     "stukov": dict(sustain=3, burst_heal=3),
     "tyrande": dict(sustain=3),
@@ -113,9 +113,12 @@ def main():
             corr.append(f"damage.carry to {CARRY[slug]}")
             p["damage"]["carry"] = CARRY[slug]
         if slug in RANGED_DEALER and p["damage"].get("ranged_dealer") != RANGED_DEALER[slug]:
-            corr.append("damage.ranged_dealer to true and attack range medium")
-            p["damage"]["ranged_dealer"] = True
-            p["attack"]["range"] = "medium"
+            corr.append(f"damage.ranged_dealer to {RANGED_DEALER[slug]}")
+            p["damage"]["ranged_dealer"] = RANGED_DEALER[slug]
+            if RANGED_DEALER[slug] and slug == "orphea":
+                p["attack"]["range"] = "medium"
+            if not RANGED_DEALER[slug]:
+                p["attack"]["type"] = "melee" if slug == "cho" else p["attack"].get("type")
         if slug in HEALING and p.get("healing"):
             for k, v in HEALING[slug].items():
                 if p["healing"].get(k) != v:

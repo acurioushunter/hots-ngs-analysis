@@ -72,6 +72,7 @@ def meta(matrix, games, lib, playbook):
     return {
         'global': glob, 'maps': sorted({g[3] for g in games if g[3]}), 'facts': facts, 'hero_count': len(matrix['heroes']),
         'games_total': len(games), 'ngs_games': len(ngs), 'hl_games': len(hl), 'ngs_teams': len(playbook.get('league', {}).get('teams', {})) or None,
+        'lens_catalog': playbook.get('lens_catalog', {}), 'lens_signal': (playbook.get('comps', {}) or {}).get('lens_signal', {}),
         'data_asof': ('NGS games to ' + dates[-1]) if dates else '', 'global_asof': (lib.get('hp_meta', {}).get('deep', {}) or {}).get('asof', ''),
     }
 
@@ -148,6 +149,10 @@ def main():
     if '--all' in sys.argv:
         subprocess.check_call([sys.executable, str(ROOT / 'build_playbook.py')], cwd=ROOT)
         subprocess.check_call([sys.executable, '-I', str(ROOT / 'build_draftlab.py')], cwd=ROOT)
+    import sys as _sys, pathlib as _pl
+    _sys.path.insert(0, str(_pl.Path(__file__).resolve().parent))
+    import merge_profiles_into_matrix
+    merge_profiles_into_matrix.main()   # the matrix follows the hero profiles
     matrix = json.loads(read(EX / 'hero_matrix_draft.json'))
     games = json.loads(read(EX / 'league_games.json'))
     lib = json.loads(read(ROOT / 'playbook' / 'library.json'))

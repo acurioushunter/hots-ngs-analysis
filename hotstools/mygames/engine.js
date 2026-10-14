@@ -442,9 +442,9 @@
       cands.sort(function (a, b) { return b.score - a.score; });
       out.tryNext = cands.slice(0, 8);
     }
-    out.rethink = ht.filter(function (h) { return h.n >= 20 && h.shrunk <= 0.47; }).map(function (h) {
+    out.rethink = ht.filter(function (h) { return h.n >= 12 && h.shrunk <= 0.48; }).sort(function (a, b) { return a.shrunk - b.shrunk; }).map(function (h) {
       return { hero: h.key, n: h.n, wr: h.wr, global: h.global, edge: h.edge, shrunk: h.shrunk, share: h.share, role: h.role };
-    }).slice(0, 5);
+    }).slice(0, 8);
     var hm = groupBy(games, function (g) { return g.hero + '|' + g.map; });
     out.avoid = hm.keys.map(function (k) { var a = hm.map[k], r = rate(sumWins(a), a.length), p = k.split('|'); return { hero: p[0], map: p[1], n: a.length, wr: r.wr, shrunk: r.shrunk }; })
       .filter(function (x) { return x.n >= 8 && x.shrunk <= 0.42; }).sort(function (a, b) { return a.shrunk - b.shrunk; }).slice(0, 6);
@@ -471,10 +471,16 @@
       if (Math.abs(dm) >= 25) out.push({ kind: dm > 0 ? 'good' : 'bad', text: 'Your MMR went from ' + ov.mmrFirst + ' to ' + ov.mmrNow + ' (' + (dm > 0 ? '+' : '') + dm + ') over the games in this selection.' + (ov.mmrNow < ov.mmrPeak - 40 ? ' Your peak was ' + ov.mmrPeak + '.' : ''), n: n });
     }
     var all = heroTable(games, glob), ht = all.filter(function (h) { return h.n >= 15 && h.global != null; });
-    var pos = ht.filter(function (h) { return h.edgeShrunk >= 0.04; }).sort(function (a, b) { return b.edgeShrunk - a.edgeShrunk; })[0];
-    var neg = ht.filter(function (h) { return h.edgeShrunk <= -0.04; }).sort(function (a, b) { return a.edgeShrunk - b.edgeShrunk; })[0];
-    if (pos) out.push({ kind: 'good', text: pos.key + ' is your best value hero: ' + pct(pos.wr) + ' over ' + pos.n + ' games against ' + pct(pos.global) + ' for everyone in Storm League.', n: pos.n, hero: pos.key });
-    if (neg) out.push({ kind: 'bad', text: neg.key + ' is costing you: ' + pct(neg.wr) + ' over ' + neg.n + ' games against ' + pct(neg.global) + ' for everyone.' + (neg.share >= 0.1 ? ' It is ' + pct(neg.share) + ' of your games.' : ''), n: neg.n, hero: neg.key });
+    // Up to three of each, best and worst by edge over the global rate. The first used to be the only one, so one hero repeated every time.
+    var posAll = ht.filter(function (h) { return h.edgeShrunk >= 0.04; }).sort(function (a, b) { return b.edgeShrunk - a.edgeShrunk; });
+    var negAll = ht.filter(function (h) { return h.edgeShrunk <= -0.04; }).sort(function (a, b) { return a.edgeShrunk - b.edgeShrunk; });
+    posAll.slice(0, 3).forEach(function (pos, i) {
+      out.push({ kind: 'good', text: pos.key + (i === 0 ? ' is your best value hero: ' : ' also beats the field: ') + pct(pos.wr) + ' over ' + pos.n + ' games against ' + pct(pos.global) + ' for everyone in Storm League.', n: pos.n, hero: pos.key });
+    });
+    negAll.slice(0, 3).forEach(function (neg, i) {
+      out.push({ kind: 'bad', text: neg.key + (i === 0 ? ' is costing you: ' : ' is also below the field: ') + pct(neg.wr) + ' over ' + neg.n + ' games against ' + pct(neg.global) + ' for everyone.' + (neg.share >= 0.1 ? ' It is ' + pct(neg.share) + ' of your games.' : ''), n: neg.n, hero: neg.key });
+    });
+    if (negAll.length > 3) out.push({ kind: 'info', text: negAll.length - 3 + ' more heroes sit clearly below the global rate. They are in the pool coach under Heroes costing you games.', n: negAll[3].n });
     var rt = roleTable(games).filter(function (r) { return r.n >= 25; });
     if (rt.length >= 2) {
       var br = rt.slice().sort(function (a, b) { return b.shrunk - a.shrunk; }), hi = br[0], lo = br[br.length - 1];

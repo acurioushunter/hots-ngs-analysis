@@ -3,14 +3,14 @@
  "slug": "cho",
  "role": "Bruiser",
  "attack": {
-  "type": "hybrid",
+  "type": "melee",
   "range": "melee",
   "autos_matter": 3,
   "note": "Cho is the melee half of Cho'gall. Basic attacks matter in the Seared Flesh, Frenzied Fists and Hammer of Twilight builds, and C'Thun's Gift at level 20 makes them ranged. The pair together is a ranged damage threat through Gall."
  },
  "damage": {
   "carry": true,
-  "ranged_dealer": true,
+  "ranged_dealer": false,
   "style": [
    "sustained",
    "aoe",
@@ -131,7 +131,7 @@
  ],
  "owner_notes": "Cho and Gall are one hero in game played by two players. Cho is the bruiser half.",
  "owner_corrections": [
-  "role Tank to Bruiser"
+  "damage.ranged_dealer to False"
  ],
  "lenses": {
   "damage_delivery": "hybrid",

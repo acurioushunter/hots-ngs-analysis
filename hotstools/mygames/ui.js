@@ -257,6 +257,9 @@
     var mat = S.matrix().heroes[hero];
     return '<section class="card"><div class="row between"><div><button class="btn sm" data-act="back-heroes">← All heroes</button></div><div class="row"><button class="btn sm" data-guide="' + esc(hero) + '">Open hero guide</button></div></div>' +
       '<h2 style="margin-top:10px">' + hn(hero, row.role) + '</h2>' +
+      (mat && mat.labels && mat.labels.length ? '<div class="row" style="margin-top:6px">' + mat.labels.map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join(' ') + '</div>' : '') +
+      (mat && mat.owner_notes ? '<p class="small" style="margin-top:6px"><span class="tag acc">Hunter\'s read</span> ' + esc(mat.owner_notes) + '</p>' : '') +
+      (mat && mat.wants && mat.wants.length ? '<p class="small muted">Wants from the team: ' + mat.wants.map(esc).join('; ') + '.' + (mat.weak && mat.weak.length ? ' Weak to: ' + mat.weak.slice(0, 3).map(esc).join('; ') + '.' : '') + '</p>' : '') +
       '<div class="grid g4" style="margin-top:10px">' +
       '<div class="stat"><span>Win rate</span><b>' + pct1(row.wr) + '</b><small>' + wl(row.w, row.l) + ' over ' + row.n + ' games' + (row.n < G.LOW_N ? ', low sample' : '') + '</small></div>' +
       '<div class="stat"><span>Everyone</span><b>' + (row.global != null ? pct1(row.global) : 'n/a') + '</b><small>' + (row.edge != null ? 'you are ' + (row.edge > 0 ? '+' : '') + (row.edge * 100).toFixed(1) + ' points' : 'no global rate saved') + '</small></div>' +
@@ -320,8 +323,20 @@
         return '<div style="padding:8px 0;border-top:1px solid var(--line)"><b>' + hn(r.hero) + '</b> <span class="muted small">' + r.n + ' games, ' + pct(r.wr) + ', ' + pct(r.share) + ' of your games</span><div class="small" style="margin-top:4px">' +
           (r.alts.length ? 'Fall back to: ' + r.alts.map(function (a) { return esc(a.hero) + ' <span class="muted num">' + pct(a.wr) + ' over ' + a.n + '</span>' + (a.low ? ' <span class="tag warn">low sample</span>' : ''); }).join(', ') : '<span class="tag bad">no other hero in this role has 5 or more games</span>') + '</div></div>';
       }).join('') : '<p class="muted small">Needs a hero with 15 or more games.</p>') + '</section></div>' +
-      (c.rethink.length ? '<section class="card"><h3>Heroes costing you games</h3><p class="small muted">20 or more games and clearly under 50% after allowing for small samples.</p><div class="scroll"><table><thead><tr><th>Hero</th><th class="r">Games</th><th>Win rate</th><th class="r">Everyone</th><th class="r">Share of your games</th></tr></thead><tbody>' +
-        c.rethink.map(function (r) { return '<tr><td>' + hn(r.hero, r.role) + '</td><td class="r num">' + r.n + '</td><td>' + wrCell(r) + '</td><td class="r num">' + (r.global != null ? pct(r.global) : 'n/a') + '</td><td class="r num">' + pct(r.share) + '</td></tr>'; }).join('') + '</tbody></table></div>' +
+      (c.rethink.length ? '<section class="card"><h3>Heroes costing you games</h3><p class="small muted">12 or more games and clearly under 50% after allowing for small samples, worst first. Open a row for the map, build and style read.</p><div class="scroll"><table><thead><tr><th>Hero</th><th class="r">Games</th><th>Win rate</th><th class="r">Everyone</th><th class="r">Share of your games</th></tr></thead><tbody>' +
+        c.rethink.map(function (r) {
+          var own = sel.filter(function (g) { return g.hero === r.hero; }), mm = S.matrix().heroes[r.hero] || {};
+          var maps = G.mapTable(own).filter(function (m) { return m.n >= 3; }).sort(function (a, b) { return a.shrunk - b.shrunk; });
+          var bld = G.builds(own, r.hero).slice(0, 3);
+          var detail = '<details><summary class="small">Why and where</summary>' +
+            (mm.labels && mm.labels.length ? '<p class="small">' + mm.labels.map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join(' ') + '</p>' : '') +
+            (mm.owner_notes ? '<p class="small"><span class="tag acc">Hunter\'s read</span> ' + esc(mm.owner_notes) + '</p>' : '') +
+            (mm.weak && mm.weak.length ? '<p class="small muted">Weak to: ' + mm.weak.slice(0, 3).map(esc).join('; ') + '.</p>' : '') +
+            (maps.length ? '<p class="small"><b>Weakest maps:</b> ' + maps.slice(0, 3).map(function (m) { return esc(m.key) + ' ' + wl(m.w, m.l); }).join(', ') + (maps.length > 3 ? '. <b>Best:</b> ' + maps.slice(-2).reverse().map(function (m) { return esc(m.key) + ' ' + wl(m.w, m.l); }).join(', ') : '') + '</p>' : '') +
+            (bld.length ? '<p class="small"><b>Builds:</b> ' + bld.map(function (b) { return b.n + ' games at ' + pct(b.wr); }).join(', ') + '</p>' : '') +
+            '<button class="btn sm" data-hero="' + esc(r.hero) + '">Open hero page</button></details>';
+          return '<tr><td>' + hn(r.hero, r.role) + detail + '</td><td class="r num">' + r.n + '</td><td>' + wrCell(r) + '</td><td class="r num">' + (r.global != null ? pct(r.global) : 'n/a') + '</td><td class="r num">' + pct(r.share) + '</td></tr>';
+        }).join('') + '</tbody></table></div>' +
         '<p class="small muted">If your rate matches the global one, the hero is weak in general and the fix is a different hero. If you are well below the global rate, it is your build, your map or your matchups: open the hero page for those.</p></section>' : '') +
       (c.avoid.length ? '<section class="card"><h3>Hero and map pairs to avoid</h3><div class="scroll"><table><thead><tr><th>Hero</th><th>Map</th><th class="r">Games</th><th>Win rate</th></tr></thead><tbody>' +
         c.avoid.map(function (a) { return '<tr><td>' + hn(a.hero) + '</td><td>' + esc(a.map) + '</td><td class="r num">' + a.n + '</td><td>' + wrCell(a) + '</td></tr>'; }).join('') + '</tbody></table></div></section>' : '') +
@@ -424,8 +439,12 @@
       if (r) { var i2 = MG.f.roles.indexOf(r.dataset.role); if (i2 >= 0) MG.f.roles.splice(i2, 1); else MG.f.roles.push(r.dataset.role); saveFilters(); redraw(); return; }
       var s = t.closest('[data-sort]');
       if (s) { var key = s.dataset.sort; if (MG.hsort === key) MG.hdir = -MG.hdir; else { MG.hsort = key; MG.hdir = key === 'key' ? 1 : -1; } redraw(); return; }
-      var h = t.closest('tr[data-hero]');
-      if (h) { MG.hero = h.dataset.hero; redraw(); el.parentNode.scrollTop = 0; return; }
+      var h = t.closest('[data-hero]');
+      if (h) {
+        MG.hero = h.dataset.hero;
+        if (lastPage !== 'heroes') { S.go('mygames', 'heroes'); return; }   // from the pool coach rows
+        redraw(); el.parentNode.scrollTop = 0; return;
+      }
       var gd = t.closest('[data-guide]');
       if (gd) { S.heroGuide(gd.dataset.guide); return; }
       var a = t.closest('[data-act]');

@@ -56,6 +56,10 @@ def example_profile(matrix):
 
 
 def main():
+    import sys as _sys, pathlib as _pl
+    _sys.path.insert(0, str(_pl.Path(__file__).resolve().parent))
+    import merge_profiles_into_matrix
+    merge_profiles_into_matrix.main()   # the matrix follows the hero profiles
     matrix = json.loads(read(EX / 'hero_matrix_draft.json'))
     games = json.loads(read(EX / 'league_games.json'))
     notes = json.loads(read(D / 'content' / 'map_notes.json'))
