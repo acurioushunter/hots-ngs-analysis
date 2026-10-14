@@ -90,7 +90,7 @@ def league_observed(heroes):
     drew first blood, plus hero against hero records. Returns (per hero dict, head to head {"A|B": [games, A side wins]} with A < B)."""
     path = KN / "ngs_league.db"
     if not path.exists():
-        return {}, {}
+        return {}, {}, {}
     db = sqlite3.connect(path)
     first = dict(db.execute("SELECT game_id, first_td_team FROM lg_timeline"))
     win = dict(db.execute("SELECT game_id, winner FROM lg_games"))
@@ -119,7 +119,32 @@ def league_observed(heroes):
                     continue
                 key, a_won = (a + "|" + b, w == 0) if a < b else (b + "|" + a, w == 1)
                 r = h2h.setdefault(key, [0, 0]); r[0] += 1; r[1] += int(a_won)
-    return out, {k: v for k, v in h2h.items() if v[0] >= 12}
+    return out, {k: v for k, v in h2h.items() if v[0] >= 12}, league_combos(db, heroes, sides, win)
+
+
+def league_combos(db, heroes, sides, win):
+    """Takedown pairs from lg_kills. For two heroes drafted on one side, per game: team takedowns, takedowns with three or fewer heroes on them, and of those how many each took part in and both did. {"A|B": [games, wins, team kills, kills with A, kills with B, kills with both]} with A < B, 15 games or more.
+    Both being on most kills is normal, so the engine reads it as lift: both / (A * B / team kills)."""
+    kills = {}
+    for gid, kteam, killers in db.execute("SELECT game_id, kteam, killers FROM lg_kills"):
+        names = {canon_name(k, heroes) for k in killers.split("|")}
+        names.discard(None)
+        if len(names) <= 3:   # picks and small fights: in big fights nearly everyone is on the kill, so it shows nothing
+            kills.setdefault((gid, int(kteam)), []).append(names)
+    out = {}
+    for (gid, team), rows in kills.items():
+        roster = sorted(h for h in sides.get(gid, {0: [], 1: []})[team] if h)
+        if len(rows) < 2:
+            continue
+        w = win.get(gid)
+        for i, a in enumerate(roster):
+            for b in roster[i + 1:]:
+                if {a, b} == {"Cho", "Gall"}:
+                    continue   # one player, two heroes
+                r = out.setdefault(a + "|" + b, [0, 0, 0, 0, 0, 0])
+                r[0] += 1; r[1] += int(w == team); r[2] += len(rows)
+                r[3] += sum(a in n for n in rows); r[4] += sum(b in n for n in rows); r[5] += sum(a in n and b in n for n in rows)
+    return {k: v for k, v in out.items() if v[0] >= 15}
 
 
 def attach_kit(heroes):
@@ -750,7 +775,7 @@ def main():
     G = games(db)
     attach_hero_stats(heroes, G)
     attach_kit(heroes)
-    obs, h2h = league_observed(heroes)
+    obs, h2h, combos = league_observed(heroes)
     for h, o in obs.items():
         if h in heroes:
             heroes[h]["obs"] = o
@@ -771,7 +796,7 @@ def main():
         meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values()),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
-        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h)
+        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos)
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:

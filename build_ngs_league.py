@@ -26,6 +26,8 @@ CREATE TABLE IF NOT EXISTS lg_timeline(game_id TEXT PRIMARY KEY, first_td_team I
   first_struct_team INTEGER, first_struct_time REAL, first_camp_team INTEGER, first_camp_time REAL,
   level_adv_pct0 REAL, level_adv_pct1 REAL, max_level_adv0 INTEGER, max_level_adv1 INTEGER, wipes0 INTEGER, wipes1 INTEGER,
   aces0 INTEGER, aces1 INTEGER, avg_alive0 REAL, avg_alive1 REAL, pct_hero_adv0 REAL, pct_hero_adv1 REAL, merc_uptime0 REAL, merc_uptime1 REAL);
+CREATE TABLE IF NOT EXISTS lg_kills(game_id TEXT, t REAL, kteam INTEGER, victim TEXT, killers TEXT);
+CREATE INDEX IF NOT EXISTS i_kills ON lg_kills(game_id);
 CREATE INDEX IF NOT EXISTS i_picks ON lg_picks(game_id); CREATE INDEX IF NOT EXISTS i_bans ON lg_bans(game_id); CREATE INDEX IF NOT EXISTS i_pl ON lg_players(game_id);
 """
 
@@ -108,7 +110,7 @@ def main(args):
         folder = pathlib.Path(folder)
         # incremental: only the seasons passed in are replaced, the rest of the database is kept
         pre = f"ngs_s{season}_"
-        for tbl in ("lg_games", "lg_picks", "lg_bans", "lg_players", "lg_timeline"):
+        for tbl in ("lg_games", "lg_picks", "lg_bans", "lg_players", "lg_timeline", "lg_kills"):
             con.execute(f"DELETE FROM {tbl} WHERE substr(game_id, 1, ?) = ?", (len(pre), pre))
         st, _ = read_store(folder / "settings.ldb")
         cols = {k: v["name"] for k, v in st.items() if v["type"] == "collection"}
@@ -145,6 +147,13 @@ def main(args):
                         con.execute("INSERT INTO lg_bans VALUES(?,?,?,?,?)", (gid, int(team), b.get("absolute"), full, b["hero"]))
             toon_team = {hr.get("ToonHandle"): hr.get("team") for hr in by_match.get(mid, [])}
             con.execute("INSERT INTO lg_timeline VALUES(" + ",".join("?" * 24) + ")", timeline_row(gid, r, toon_team))
+            for td in r.get("takedowns", []):
+                v = td.get("victim") or {}
+                vt = toon_team.get(v.get("player"))
+                ks = [k.get("hero") for k in td.get("killers", []) if k.get("hero")]
+                if vt is None or td.get("time") is None or not ks:
+                    continue
+                con.execute("INSERT INTO lg_kills VALUES(?,?,?,?,?)", (gid, td["time"], 1 - int(vt), v.get("hero"), "|".join(ks)))
             for hr in by_match.get(mid, []):
                 if not hr.get("hero"):
                     continue   # a few replays carry a player row the parser could not name

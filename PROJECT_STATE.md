@@ -1,3 +1,8 @@
+# Handoff 2026-10-14 (takedown combos)
+- `build_ngs_league.py` now keeps `lg_kills` (game, time, killing side, victim hero, killer heroes). `build_playbook.py` `league_combos` writes `data.combos` {"A|B": [games, wins, small kills, kills with A, with B, with both]}, small kills = three or fewer heroes on the takedown (big fights put everyone on every kill, lift there is 1.0 for all pairs). `E.combo(a,b)` in `playbook/engine.js` returns the lift; `E.heroIntel` adds a "Seen:" line when lift is 1.15 or more with 15 or more shared kills.
+- Result is modest: Stukov with Varian is 143 shared small kills against 119 expected (1.2x), 150 games. The export lists assisters too and has no CC or setup order, so "seen" means kills together, not "Stukov set it up".
+- Still open: banner records in the Drafter's most banned lists, ratings clamp, team name changes seasons 15 to 22.
+
 # Handoff 2026-10-14 (end of session: dossiers, ban win rates, seasons 15 to 22)
 Live artifact is v20 or later and carries everything below. All tests print OK (`node test_engine.js`, `node test_draftlab.js`, `node test_hotstools.js`, `python test_playbook.py`).
 

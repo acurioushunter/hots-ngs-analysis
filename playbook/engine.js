@@ -387,6 +387,15 @@
     const base = o && o.g >= 50 ? o.w / o.g : 0.5;   // how a does overall, so a matchup reads as better or worse than usual
     return { n, w, wr: (w + 5) / (n + 10), base, edge: (w + 5) / (n + 10) - base };   // lightly shrunk toward 50%
   };
+  // takedown pairs from the replay export: how often two heroes on one side took part in the same kill, against what chance predicts
+  E.combo = function (a, b) {
+    const m = D().combos;
+    if (!m) return null;
+    const v = m[a > b ? b + "|" + a : a + "|" + b];
+    if (!v || !v[2] || !v[3] || !v[4]) return null;
+    const expected = v[3] * v[4] / v[2];
+    return { n: v[0], won: v[1], both: v[5], expected: Math.round(expected * 10) / 10, lift: v[5] / expected };
+  };
   // where a hero's measured crowd control time ranks among all heroes with enough games
   function obsRank(h, key) {
     const hs = D().heroes, o = hs[h] && hs[h].obs;
@@ -450,6 +459,9 @@
         const seen = partners.map(x => { const r = withH.filter(rr => rr.picks.indexOf(x) >= 0); return x + (r.length ? " (seen together " + (r.length === 1 ? "once" : r.length + " times") + ", " + wl(r.length, r.reduce((a, rr) => a + rr.won, 0)) + ")" : ""); });
         out.combos.push("Kit suggests its " + hard.join(", ") + (talent.length ? " (plus " + talent.join(", ") + " from talents)" : "") + " could set up their " + seen.join(", ") + (partners.some(x => (board || []).indexOf(x) >= 0) ? ". One of them is already on their board." : "."));
       } else if (hard.length >= 2 && (k.engage || 0) >= 3) out.combos.push("Kit suggests it brings " + hard.join(", ") + " and a decent engage on its own.");
+      const seenPairs = Object.keys(pool).filter(x => x !== hero && pool[x] >= 2).map(x => ({ x, c: E.combo(hero, x) })).filter(o => o.c && o.c.n >= 20 && o.c.both >= 15 && o.c.lift >= 1.15)
+        .sort((a, b) => b.c.lift - a.c.lift).slice(0, 2);
+      seenPairs.forEach(o => out.combos.push("Seen: with " + o.x + " on one side (" + o.c.n + " NGS games, seasons 15 to 22, all teams) they were on the same pick or small fight takedown (three heroes or fewer) " + o.c.both + " times against " + o.c.expected + " that each one's own share predicts (" + (Math.round(o.c.lift * 100) / 100) + "x). It does not show who set up whom."));
       if ((k.peel || 0) >= 4) out.combos.push("Kit suggests strong peel: it protects whoever carries the damage.");
       const ob = (D().heroes[hero] || {}).obs;
       if (ob && ob.g >= 50) {
