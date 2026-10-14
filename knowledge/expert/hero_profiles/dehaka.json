@@ -11,8 +11,17 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["aoe", "single_target", "sustained"],
-  "poke": { "rating": 0, "kind": "none", "dodgeable": 4, "note": "Drag is a short skillshot used to catch a target, not to chip." },
+  "style": [
+   "aoe",
+   "single_target",
+   "sustained"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 4,
+   "note": "Drag is a short skillshot used to catch a target, not to chip."
+  },
   "heal_blunted": 3,
   "note": "Measured hero damage is only 1466 per minute (below the 2060 median) while siege is 6414 and CC applied is 33.5 seconds per game, so he is more of a catch and control bruiser. Dark Swarm is steady close range AoE, Drag adds 160 and a stun, and Paralyzing Enzymes cuts target healing by 50 percent."
  },
@@ -31,19 +40,56 @@
   "global_presence": 3,
   "solo_lane": 4
  },
- "cc": { "hard": ["stun", "pull", "silence"], "soft": ["slow"], "reliability": 4 },
+ "cc": {
+  "hard": [
+   "stun",
+   "pull",
+   "silence"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 4
+ },
  "good_into": [
-  { "tag": "squishy_backline", "why": "Drag stuns and pulls a backliner out of position, and Isolation silences and blinds one target for a pick." },
-  { "tag": "high_sustain_healer", "why": "Paralyzing Enzymes cuts healing received by 50 percent on the dragged target and Drag can pull the healer away from his team." },
-  { "tag": "kiter", "why": "Brushstalker and Burrow give mobility, Drag grabs a retreating hero, and Isolation slows." },
-  { "tag": "global_ult", "why": "Brushstalker is a stealthed global style travel tool, so he gets to fights and objectives across the map quickly." },
-  { "tag": "burst_dive", "why": "Burrow is invulnerable for 2 seconds and Adaptation heals the damage taken over 4 seconds." }
+  {
+   "tag": "squishy_backline",
+   "why": "Drag stuns and pulls a backliner out of position, and Isolation silences and blinds one target for a pick."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Paralyzing Enzymes cuts healing received by 50 percent on the dragged target and Drag can pull the healer away from his team."
+  },
+  {
+   "tag": "kiter",
+   "why": "Brushstalker and Burrow give mobility, Drag grabs a retreating hero, and Isolation slows."
+  },
+  {
+   "tag": "global_ult",
+   "why": "Brushstalker is a stealthed global style travel tool, so he gets to fights and objectives across the map quickly."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Burrow is invulnerable for 2 seconds and Adaptation heals the damage taken over 4 seconds."
+  }
  ],
  "bad_into": [
-  { "tag": "cc_heavy", "why": "Silence or stun during Drag cancels it, and Adaptation and Burrow are his only dodge tools." },
-  { "tag": "tanky_frontline", "why": "Low hero damage output and a drag that cannot move heavy targets far make him poor at breaking a front line." },
-  { "tag": "poke_comp", "why": "He has to walk into the poke and lacks a long range answer, though Essence healing helps." },
-  { "tag": "aoe_healer", "why": "Dark Swarm and Drag do not generate enough sustained pressure to overcome wide healing." }
+  {
+   "tag": "cc_heavy",
+   "why": "Silence or stun during Drag cancels it, and Adaptation and Burrow are his only dodge tools."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Low hero damage output and a drag that cannot move heavy targets far make him poor at breaking a front line."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "He has to walk into the poke and lacks a long range answer, though Essence healing helps."
+  },
+  {
+   "tag": "aoe_healer",
+   "why": "Dark Swarm and Drag do not generate enough sustained pressure to overcome wide healing."
+  }
  ],
  "wants_from_team": [
   "Follow up damage after his Drag",
@@ -69,5 +115,12 @@
   "Measured: win rate 0.516, hero damage 1466 per minute, siege 6414, 33.5 seconds of CC applied per game, 2200 games"
  ],
  "confidence": "medium",
- "unsure": ["role", "ratings.teamfight"]
+ "unsure": [
+  "role",
+  "ratings.teamfight"
+ ],
+ "owner_notes": "A bruiser who clears waves and offlanes before the objective to pull the other offlaner away, then burrows into the objective with the team and turns a 4v4 into a 5v4 with his global. If the other offlaner does not contest him he keeps pushing while the team stalls, and it is better still when a camp is timed to push with him.",
+ "flex_roles": [
+  "Offlaner who pulls the other offlaner away"
+ ]
 }

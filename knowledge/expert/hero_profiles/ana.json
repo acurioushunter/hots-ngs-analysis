@@ -2,17 +2,34 @@
  "hero": "Ana",
  "slug": "ana",
  "role": "Healer",
- "attack": {"type": "ranged", "range": "long", "autos_matter": 2, "note": "Shrike basic attacks apply stacking Doses and heal her for 60% of the dose damage, so her autos are her self heal and her anti tank tool. Aim Down Sights slows her by 25% for 25% more range on both darts."},
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 2,
+  "note": "Shrike basic attacks apply stacking Doses and heal her for 60% of the dose damage, so her autos are her self heal and her anti tank tool. Aim Down Sights slows her by 25% for 25% more range on both darts."
+ },
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["dot", "percent_health", "single_target"],
-  "poke": {"rating": 2, "kind": "dot", "dodgeable": 3, "note": "Doses stack up to five times and each burns for 40 over five seconds. Eye of Horus is global range, pierces, 135 per round for six rounds, but roots her in place."},
+  "style": [
+   "dot",
+   "percent_health",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "dot",
+   "dodgeable": 3,
+   "note": "Doses stack up to five times and each burns for 40 over five seconds. Eye of Horus is global range, pierces, 135 per round for six rounds, but roots her in place."
+  },
   "heal_blunted": 4,
   "note": "Damage is support damage (684 per minute measured). The real value is combos: Sleep Dart stun plus Night Terrors for 8% maximum Health on waking, plus Biotic Grenade that stops enemy healing for 1.75 seconds. Percent damage helps against tanks."
  },
  "healing": {
-  "style": ["single_target", "burst"],
+  "style": [
+   "single_target",
+   "burst"
+  ],
   "sustain": 3,
   "burst_heal": 4,
   "aoe": 1,
@@ -21,26 +38,99 @@
   "positioning_risk": 2,
   "note": "Healing Dart is a long range skillshot for 195 and cheap on Mana. Active Reload gives three instant charges for burst. Biotic Grenade adds 25% to her healing for 4 seconds and heals a small group. She gets weak when darts miss, when allies are fast and when allies stand in front of each other."
  },
- "ratings": {"wave_clear": 1, "camp_clear": 1, "siege": 1, "teamfight": 4, "engage": 2, "peel": 3, "mobility": 0, "self_sustain": 2, "survivability": 1, "objective": 2, "global_presence": 2, "solo_lane": 0},
- "cc": {"hard": ["sleep"], "soft": ["slow"], "reliability": 3},
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 1,
+  "siege": 1,
+  "teamfight": 4,
+  "engage": 2,
+  "peel": 3,
+  "mobility": 0,
+  "self_sustain": 2,
+  "survivability": 1,
+  "objective": 2,
+  "global_presence": 2,
+  "solo_lane": 0
+ },
+ "cc": {
+  "hard": [
+   "sleep"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  {"tag": "high_sustain_healer", "why": "Biotic Grenade on an enemy team gives 100% less healing for 1.75 seconds, and Anti-Healer makes it larger. She is a hard counter to a team that relies on one big healer or Heroic heals."},
-  {"tag": "aoe_healer", "why": "Grenade covers the whole group a Brightwing, Lucio or Malfurion style healer is feeding, so one throw shuts the team's healing for the window your team uses to burst."},
-  {"tag": "tanky_frontline", "why": "Night Terrors deals 8% of maximum Health on waking, Shrike Doses chip big targets and Sleep Dart removes an engaging tank for 3 seconds. All of it is percent based or timing based, so tanks gain nothing from extra Health."},
-  {"tag": "melee_heavy", "why": "Sleep Dart on a diving melee hero is the best answer, Debilitating Dart halves a diver's damage, and Smelling Salts removes the stun that melee burst combos rely on."},
-  {"tag": "cc_heavy", "why": "Smelling Salts removes a stun and adds 50 Armor, and Purifying Darts removes roots and slows, so stun then burst compositions lose their main plan."}
+  {
+   "tag": "high_sustain_healer",
+   "why": "Biotic Grenade on an enemy team gives 100% less healing for 1.75 seconds, and Anti-Healer makes it larger. She is a hard counter to a team that relies on one big healer or Heroic heals."
+  },
+  {
+   "tag": "aoe_healer",
+   "why": "Grenade covers the whole group a Brightwing, Lucio or Malfurion style healer is feeding, so one throw shuts the team's healing for the window your team uses to burst."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Night Terrors deals 8% of maximum Health on waking, Shrike Doses chip big targets and Sleep Dart removes an engaging tank for 3 seconds. All of it is percent based or timing based, so tanks gain nothing from extra Health."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Sleep Dart on a diving melee hero is the best answer, Debilitating Dart halves a diver's damage, and Smelling Salts removes the stun that melee burst combos rely on."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Smelling Salts removes a stun and adds 50 Armor, and Purifying Darts removes roots and slows, so stun then burst compositions lose their main plan."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "She has no mobility and no self peel except Sleep Dart and Debilitating Dart, so divers like Zeratul or Chen who reach her backline remove her before she can heal. She is the first target."},
-  {"tag": "assassin", "why": "Her darts are skillshots with travel time, her healing comes in small chunks and her only protection is a sleep that breaks on any damage. One assassin reaching her removes the healer and the Nano Boost target's value."},
-  {"tag": "mobile", "why": "Healing Dart cannot be self cast and misses fast allies, and Sleep Dart is a skillshot that mobile heroes dodge. Mobile divers also decide where the fight takes place."},
-  {"tag": "poke_comp", "why": "Long range poke on a stationary Ana in Aim Down Sights or Eye of Horus hits an unprotected backline and she cannot retreat. The guide names Hanzo style poke as a decent counter."}
+  {
+   "tag": "burst_dive",
+   "why": "She has no mobility and no self peel except Sleep Dart and Debilitating Dart, so divers like Zeratul or Chen who reach her backline remove her before she can heal. She is the first target."
+  },
+  {
+   "tag": "assassin",
+   "why": "Her darts are skillshots with travel time, her healing comes in small chunks and her only protection is a sleep that breaks on any damage. One assassin reaching her removes the healer and the Nano Boost target's value."
+  },
+  {
+   "tag": "mobile",
+   "why": "Healing Dart cannot be self cast and misses fast allies, and Sleep Dart is a skillshot that mobile heroes dodge. Mobile divers also decide where the fight takes place."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Long range poke on a stationary Ana in Aim Down Sights or Eye of Horus hits an unprotected backline and she cannot retreat. The guide names Hanzo style poke as a decent counter."
+  }
  ],
- "wants_from_team": ["A mage or spell damage hero for Nano Boost (Jaina, Kael'thas, Li-Ming)", "Reliable crowd control so Sleep Dart and Biotic Grenade always connect", "A frontline that stays on a line so Healing Dart does not get blocked", "Peel from the tank and a second backline body to stop divers"],
- "gives_team": ["Anti healing that denies enemy sustain and Heroic heals", "A long range sleep that sets up a kill or breaks an engage", "Nano Boost: 30% Spell Power and fast Basic Ability cooldowns for 8 seconds", "Stun removal and armor with Smelling Salts"],
+ "wants_from_team": [
+  "A mage or spell damage hero for Nano Boost (Jaina, Kael'thas, Li-Ming)",
+  "Reliable crowd control so Sleep Dart and Biotic Grenade always connect",
+  "A frontline that stays on a line so Healing Dart does not get blocked",
+  "Peel from the tank and a second backline body to stop divers"
+ ],
+ "gives_team": [
+  "Anti healing that denies enemy sustain and Heroic heals",
+  "A long range sleep that sets up a kill or breaks an engage",
+  "Nano Boost: 30% Spell Power and fast Basic Ability cooldowns for 8 seconds",
+  "Stun removal and armor with Smelling Salts"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["No mobility and no real escape", "Healing Dart misses cost a lot", "Self heal depends on her being in range of a target", "Sleep breaks on damage so it needs a team that waits", "Weak into dive"],
- "evidence": ["Healing Dart, Biotic Grenade, Sleep Dart, Shrike, Nano Boost, Eye of Horus text", "Night Terrors, Smelling Salts, Active Reload, Overdose, Anti-Healer, Mind-Numbing Agent talents", "Icy Veins guide: counters other healers, weak against dive, Chen, Anub'arak, Falstad, Hanzo", "MEASURED block: 54.5 seconds of enemy CC per game, 3233 healing per minute, 286 games, win rate 0.538"],
+ "weaknesses": [
+  "No mobility and no real escape",
+  "Healing Dart misses cost a lot",
+  "Self heal depends on her being in range of a target",
+  "Sleep breaks on damage so it needs a team that waits",
+  "Weak into dive"
+ ],
+ "evidence": [
+  "Healing Dart, Biotic Grenade, Sleep Dart, Shrike, Nano Boost, Eye of Horus text",
+  "Night Terrors, Smelling Salts, Active Reload, Overdose, Anti-Healer, Mind-Numbing Agent talents",
+  "Icy Veins guide: counters other healers, weak against dive, Chen, Anub'arak, Falstad, Hanzo",
+  "MEASURED block: 54.5 seconds of enemy CC per game, 3233 healing per minute, 286 games, win rate 0.538"
+ ],
  "confidence": "high",
- "unsure": ["ratings.global_presence", "heal_blunted"]
+ "unsure": [
+  "ratings.global_presence",
+  "heal_blunted"
+ ],
+ "owner_notes": "Her anti heal grenade is a key tool."
 }

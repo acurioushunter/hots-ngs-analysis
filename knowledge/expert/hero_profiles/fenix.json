@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "aoe", "siege"],
+  "style": [
+   "sustained",
+   "aoe",
+   "siege"
+  ],
   "poke": {
    "rating": 4,
    "kind": "auto",
@@ -38,21 +42,50 @@
  },
  "cc": {
   "hard": [],
-  "soft": ["slow"],
+  "soft": [
+   "slow"
+  ],
   "reliability": 2
  },
  "good_into": [
-  {"tag": "poke_comp", "why": "Shield Capacitor regenerates 10 percent per second after 5 seconds without damage (Rapid Recharge cuts that to 3), so chip damage is wasted against him, and Phase Bomb out ranges many short range pokers."},
-  {"tag": "melee_heavy", "why": "Plasma Cutter slows melee heroes and Target Acquired gives him speed, so he kites them while splashing the group."},
-  {"tag": "summons", "why": "Phase Bomb splash and Plasma Cutter clear minions, mercenaries and summons very fast from range."},
-  {"tag": "tanky_frontline", "why": "Offensive Cadence deals 6 percent max health on every third Repeater Cannon attack, and Photonic Weaponry adds 20 percent damage while shielded."},
-  {"tag": "squishy_backline", "why": "Splash with a slow and Purification Salvo (50 percent more to slowed targets) punishes grouped backline heroes if he is not interrupted."}
+  {
+   "tag": "poke_comp",
+   "why": "Shield Capacitor regenerates 10 percent per second after 5 seconds without damage (Rapid Recharge cuts that to 3), so chip damage is wasted against him, and Phase Bomb out ranges many short range pokers."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Plasma Cutter slows melee heroes and Target Acquired gives him speed, so he kites them while splashing the group."
+  },
+  {
+   "tag": "summons",
+   "why": "Phase Bomb splash and Plasma Cutter clear minions, mercenaries and summons very fast from range."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Offensive Cadence deals 6 percent max health on every third Repeater Cannon attack, and Photonic Weaponry adds 20 percent damage while shielded."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Splash with a slow and Purification Salvo (50 percent more to slowed targets) punishes grouped backline heroes if he is not interrupted."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "He has no hard crowd control and Warp is a channel that stuns and knockbacks cancel. The guide names E.T.C. and Lucio."},
-  {"tag": "assassin", "why": "Assassins such as Zeratul and Genji follow Warp and are hard to peel, and large hitbox makes him easy to hit."},
-  {"tag": "burst_dive", "why": "Divers burst through the shield. Divert Power drains the shield afterward and Warp is the only escape."},
-  {"tag": "ranged_heavy", "why": "Other long range heroes out poke him when his shield is down, and his shield has to recharge out of combat so he loses the trade over a long skirmish."}
+  {
+   "tag": "cc_heavy",
+   "why": "He has no hard crowd control and Warp is a channel that stuns and knockbacks cancel. The guide names E.T.C. and Lucio."
+  },
+  {
+   "tag": "assassin",
+   "why": "Assassins such as Zeratul and Genji follow Warp and are hard to peel, and large hitbox makes him easy to hit."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Divers burst through the shield. Divert Power drains the shield afterward and Warp is the only escape."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Other long range heroes out poke him when his shield is down, and his shield has to recharge out of combat so he loses the trade over a long skirmish."
+  }
  ],
  "wants_from_team": [
   "Heroes that pull or clump enemies together such as Johanna or Diablo",
@@ -81,5 +114,10 @@
   "Measured block: hero damage about 2760, siege about 5370 per minute, win rate 0.532 over 250 games"
  ],
  "confidence": "medium",
- "unsure": ["bad_into.ranged_heavy","damage.heal_blunted", "ratings.objective"]
+ "unsure": [
+  "bad_into.ranged_heavy",
+  "damage.heal_blunted",
+  "ratings.objective"
+ ],
+ "owner_notes": "A medium range sustain damage hero. Can solo like Raynor but is often in a 3 or 4 man, where he catches waves and ganks like Sylvanas, Raynor or Greymane."
 }

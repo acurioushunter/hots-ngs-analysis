@@ -4,14 +4,18 @@
  "role": "Ranged Assassin",
  "attack": {
   "type": "ranged",
-  "range": "short",
+  "range": "medium",
   "autos_matter": 3,
   "note": "She has a ranged auto but wants to hit with it on purpose: Overflowing Chaos makes the basic attack after a hit deal 50 percent more per stack and heal for all of it. Her main damage, Chomp, has very short reach, so she fights close to the target."
  },
  "damage": {
   "carry": true,
-  "ranged_dealer": false,
-  "style": ["sustained", "burst", "aoe"],
+  "ranged_dealer": true,
+  "style": [
+   "sustained",
+   "burst",
+   "aoe"
+  ],
   "poke": {
    "rating": 2,
    "kind": "skillshot",
@@ -37,23 +41,58 @@
   "solo_lane": 3
  },
  "cc": {
-  "hard": ["pull", "stun"],
-  "soft": ["slow"],
+  "hard": [
+   "pull",
+   "stun"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 2
  },
  "good_into": [
-  {"tag": "tanky_frontline", "why": "Dead Magic autos ignore Armor and Engulfing Oblivion removes 50 Armor with Crushing Jaws, so Warriors and armored Tanks like Mal'Ganis, E.T.C. and Garrosh melt, and her Chaos heals fully."},
-  {"tag": "melee_heavy", "why": "Melee heroes have to walk into Chomp range, Invasive Miasma heals her as they stand beside her and Backbiter moves her away after a hit."},
-  {"tag": "low_sustain_healer", "why": "Her damage is spread across Waltz and Chomp cooldowns on one target and a single target burst healer cannot cover it, while her own healing outlasts theirs."},
-  {"tag": "squishy_backline", "why": "Crushing Jaws pull then Chomp and Shadow Waltz can solo a squishy that is caught, and Lurking Terror chases high range backliners."},
-  {"tag": "immobile", "why": "Chomp and Eternal Feast hit stationary or rooted targets for the full multiple hits, as the guide says to use Eternal Feast on immobilized enemies."}
+  {
+   "tag": "tanky_frontline",
+   "why": "Dead Magic autos ignore Armor and Engulfing Oblivion removes 50 Armor with Crushing Jaws, so Warriors and armored Tanks like Mal'Ganis, E.T.C. and Garrosh melt, and her Chaos heals fully."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Melee heroes have to walk into Chomp range, Invasive Miasma heals her as they stand beside her and Backbiter moves her away after a hit."
+  },
+  {
+   "tag": "low_sustain_healer",
+   "why": "Her damage is spread across Waltz and Chomp cooldowns on one target and a single target burst healer cannot cover it, while her own healing outlasts theirs."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Crushing Jaws pull then Chomp and Shadow Waltz can solo a squishy that is caught, and Lurking Terror chases high range backliners."
+  },
+  {
+   "tag": "immobile",
+   "why": "Chomp and Eternal Feast hit stationary or rooted targets for the full multiple hits, as the guide says to use Eternal Feast on immobilized enemies."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "The guide says any crowd control greatly reduces her damage and survivability: stuns cancel Shadow Waltz and the dash, and the cast time of Chomp is easy to interrupt."},
-  {"tag": "kiter", "why": "Chomp needs proximity and the guide calls the Chomp build terrible against high range enemies, so a kiter simply retreats."},
-  {"tag": "ranged_heavy", "why": "Enemy backliners poke her down while she has to dash in, and her only range tool Dread is slow and avoidable."},
-  {"tag": "burst_dive", "why": "Dive kills her before Chaos heals matter, because Shadow Waltz is a 0.5 second cast and she has no escape beyond the dash."},
-  {"tag": "high_sustain_healer", "why": "Her sustained trading needs a target to drop, and an AoE healer such as Brightwing or Stukov heals back the Shadow Waltz and Dread chip faster than it lands, so she needs Crushing Jaws to break through."}
+  {
+   "tag": "cc_heavy",
+   "why": "The guide says any crowd control greatly reduces her damage and survivability: stuns cancel Shadow Waltz and the dash, and the cast time of Chomp is easy to interrupt."
+  },
+  {
+   "tag": "kiter",
+   "why": "Chomp needs proximity and the guide calls the Chomp build terrible against high range enemies, so a kiter simply retreats."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Enemy backliners poke her down while she has to dash in, and her only range tool Dread is slow and avoidable."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Dive kills her before Chaos heals matter, because Shadow Waltz is a 0.5 second cast and she has no escape beyond the dash."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Her sustained trading needs a target to drop, and an AoE healer such as Brightwing or Stukov heals back the Shadow Waltz and Dread chip faster than it lands, so she needs Crushing Jaws to break through."
+  }
  ],
  "wants_from_team": [
   "Crowd control to set up Crushing Jaws and Chomp",
@@ -85,5 +124,12 @@
   "MEASURED block: hero damage 2926 per minute, 5.0 camps per game, 98 seconds dead per game, 0.527 win rate over 757 games"
  ],
  "confidence": "medium",
- "unsure": ["damage.ranged_dealer", "attack.range"]
+ "unsure": [
+  "damage.ranged_dealer",
+  "attack.range"
+ ],
+ "owner_notes": "A burst mage at medium range with a high skill ceiling: she has to get close and is weak when she misses her Q. A lot of damage, some boss and area control. Her heroic resets if it hits a hero, which works well with a CC heroic such as E.T.C. Mosh Pit or Leoric Entomb.",
+ "owner_corrections": [
+  "damage.ranged_dealer to true and attack range medium"
+ ]
 }

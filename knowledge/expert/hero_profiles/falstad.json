@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "single_target", "poke"],
+  "style": [
+   "sustained",
+   "single_target",
+   "poke"
+  ],
   "poke": {
    "rating": 3,
    "kind": "skillshot",
@@ -37,22 +41,53 @@
   "solo_lane": 4
  },
  "cc": {
-  "hard": ["knockback"],
-  "soft": ["slow"],
+  "hard": [
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 4
  },
  "good_into": [
-  {"tag": "burst_dive", "why": "Mighty Gust is a 60 second area knockback with a slow that splits a dive from its target. The guide calls him an excellent counterpick to dive comps, and Flight makes him Unstoppable for a moment."},
-  {"tag": "split_push", "why": "Flight is a global with a 75 second cooldown, so he soaks lanes and joins fights, and he can answer side lane pressure."},
-  {"tag": "objective_race", "why": "Mighty Gust (and Wind Tunnel at level 20) pushes enemies off capture points, can steal boss camps, and Flight rotates quickly to objectives."},
-  {"tag": "melee_heavy", "why": "Hammerang slows and Mighty Gust keeps melee heroes from reaching the backline, and Lightning Rod punishes them for trying to run."},
-  {"tag": "single_target_healer", "why": "The guide specifically calls out Kharazim and Uther as healers who rely on positioning, which Mighty Gust ruins."}
+  {
+   "tag": "burst_dive",
+   "why": "Mighty Gust is a 60 second area knockback with a slow that splits a dive from its target. The guide calls him an excellent counterpick to dive comps, and Flight makes him Unstoppable for a moment."
+  },
+  {
+   "tag": "split_push",
+   "why": "Flight is a global with a 75 second cooldown, so he soaks lanes and joins fights, and he can answer side lane pressure."
+  },
+  {
+   "tag": "objective_race",
+   "why": "Mighty Gust (and Wind Tunnel at level 20) pushes enemies off capture points, can steal boss camps, and Flight rotates quickly to objectives."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Hammerang slows and Mighty Gust keeps melee heroes from reaching the backline, and Lightning Rod punishes them for trying to run."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "The guide specifically calls out Kharazim and Uther as healers who rely on positioning, which Mighty Gust ruins."
+  }
  ],
  "bad_into": [
-  {"tag": "assassin", "why": "Frail, and when Barrel Roll and Mighty Gust are spent, a high damage assassin with a gap closer kills him. The guide says to stay near the healer against such heroes."},
-  {"tag": "cc_heavy", "why": "Crowd control stops both Barrel Roll and Flight (Flight can be interrupted during its channel). He relies on mobility to survive."},
-  {"tag": "poke_comp", "why": "He cannot safely stand near the objective against long range poke, and his early damage is mediocre."},
-  {"tag": "stealth", "why": "No reveal in his kit and he relies on range and positioning."}
+  {
+   "tag": "assassin",
+   "why": "Frail, and when Barrel Roll and Mighty Gust are spent, a high damage assassin with a gap closer kills him. The guide says to stay near the healer against such heroes."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Crowd control stops both Barrel Roll and Flight (Flight can be interrupted during its channel). He relies on mobility to survive."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "He cannot safely stand near the objective against long range poke, and his early damage is mediocre."
+  },
+  {
+   "tag": "stealth",
+   "why": "No reveal in his kit and he relies on range and positioning."
+  }
  ],
  "wants_from_team": [
   "A frontline tank that draws attention and provides follow up crowd control",
@@ -81,5 +116,9 @@
   "Measured block: hero damage about 2260 per minute, win rate 0.544 over 1956 games"
  ],
  "confidence": "high",
- "unsure": ["damage.heal_blunted", "bad_into.assassin versus good_into.burst_dive"]
+ "unsure": [
+  "damage.heal_blunted",
+  "bad_into.assassin versus good_into.burst_dive"
+ ],
+ "owner_notes": "A sustain damage hero with a global trait. Side lanes and stacks the level 1 auto quest. With stacks he does a lot of damage and gets a late game percent damage auto trait. Can go W but gets caught when the enemy has CC to punish it, or Q for poke damage."
 }

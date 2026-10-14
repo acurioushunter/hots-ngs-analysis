@@ -501,6 +501,12 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <p class="small muted">Win rate of the drafting side, with the number of sides in brackets. The first two columns weight newer seasons more (a game ${c.half_life} seasons old counts half); the last is only the newest ${c.recent_seasons} seasons. Close to 50% means the count alone did not decide games. Two healers: ${f2(hl)} against one healer: ${f2(h1)}. All NGS divisions, not only ours. The count stands in for wave clear and poke, it is not a cause.</p></details>`;
   }
 
+  function ownerComboCard(st) {
+    const cs = E.ownerCombos(st).filter(c => c.ready || c.answeredBy.length || c.missing.length === 1 || c.finishers.length);
+    if (!cs.length) return "";
+    return `<details class="sec" style="margin-top:8px" open><summary>Known combos and counters from Hunter's notes (${cs.length})</summary>${cs.map(c => `<p class="small"><b>${esc(c.name)}</b> ${c.ready ? '<span class="tag good">ready</span>' : '<span class="tag warn">needs ' + esc(c.missing.join("; ")) + '</span>'}${c.finishers.length ? " Finishers on board: " + c.finishers.map(esc).join(", ") + "." : ""}${c.answeredBy.length ? ' <span class="tag bad">answered by their ' + c.answeredBy.map(esc).join(", ") + "</span>" : ""}<br>${esc(c.text)}</p>`).join("")}</details>`;
+  }
+
   function compCard(st) {
     const c = E.compSummary(st);
     const picks = E.picks(st, "us");
@@ -513,6 +519,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       ${c.warnings.map(w => `<div class="warnbox" style="margin-top:6px">${esc(w)}</div>`).join("")}
       ${c.notes.map(w => `<p class="small muted" style="margin-top:6px">${esc(w)}</p>`).join("")}
       ${compLeague(st)}
+      ${ownerComboCard(st)}
       ${asg.assign.length ? `<table style="margin-top:8px"><tr><th>Player</th><th>Hero</th><th>Evidence</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td>${heroBtn(a.hero)}</td><td class="small muted">${esc(a.why.slice(0, 2).join("; "))}</td></tr>`).join("")}</table>
       <p class="small muted">This is the best way to hand out the picks so far. Swap the players when the draft ends if a hero fits someone else better.</p>` : ""}
       ${theirs.length ? `<p class="small"><b>Their picks:</b> ${theirs.map(heroBtn).join(", ")}</p>` : ""}
@@ -591,7 +598,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const lens = ((P.comps || {}).heal_lens || {})[h] || {};
     const CL = { aoe_sustain: "AoE sustain healers (Brightwing, Lucio, Stukov, Auriel)", burst_single: "single target burst healers (Uther, Ana, Anduin)", sustain_single: "sustained single target healers (Malfurion, Deckard, Alexstrasza, Li Li)", other: "other healers" };
     const lensRows = Object.keys(lens).map(k => { const c = E.cell(lens[k]); return c ? `<tr><td>${esc(CL[k] || k)}</td><td class="num">${c.n}</td><td class="num">${Math.round(c.wwr * 100)}%</td><td class="num">${c.rn >= 15 ? Math.round(c.rwr * 100) + "% (" + c.rn + ")" : "n/a"}</td></tr>` : ""; }).join("");
-    return `<section class="card"><h3>How it plays</h3>
+    const own = p.owner_notes ? `<p class="small"><span class="tag us">Hunter's read</span> ${esc(p.owner_notes)}${(p.flex_roles || []).length ? " Flexes to: " + p.flex_roles.map(esc).join("; ") + "." : ""}</p>` : "";
+    return `<section class="card"><h3>How it plays</h3>${own}
       <p class="small"><b>${a.type === "melee" ? "Melee" : a.type === "hybrid" ? "Hybrid" : "Ranged"} ${esc(a.range || "")} range</b>, basic attacks matter ${a.autos_matter != null ? a.autos_matter + " of 5" : "n/a"}. ${d.carry ? "A damage dealer" : "Not a damage dealer"}${d.ranged_dealer ? " (counts as a ranged damage dealer)" : hp.hp_ranged ? " (does not count as a ranged damage dealer even though it attacks from range)" : ""}.</p>
       <p class="small">Damage is ${(d.style || []).map(esc).join(", ") || "n/a"}. Poke ${d.poke ? d.poke.rating + " of 5, " + esc(d.poke.kind) + (d.poke.dodgeable != null ? ", dodgeable " + d.poke.dodgeable + " of 5" : "") : "n/a"}. ${esc(blunted)} ${esc(d.note || "")}</p>
       ${hl ? `<p class="small"><b>Healing:</b> ${(hl.style || []).map(esc).join(", ")}. Sustain ${hl.sustain} of 5, burst heal ${hl.burst_heal} of 5, AoE ${hl.aoe} of 5. ${esc(hl.note || "")}</p>` : ""}

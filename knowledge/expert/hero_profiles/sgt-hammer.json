@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "siege", "zone"],
+  "style": [
+   "sustained",
+   "siege",
+   "zone"
+  ],
   "poke": {
    "rating": 5,
    "kind": "auto",
@@ -37,23 +41,57 @@
   "solo_lane": 2
  },
  "cc": {
-  "hard": ["knockback"],
-  "soft": ["slow"],
+  "hard": [
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 3
  },
  "good_into": [
-  {"tag": "melee_heavy", "why": "Concussive Blast knocks back, Spider Mines slow by 25 percent and Barricade builds a wall, and Siege Mode range keeps melee at a distance."},
-  {"tag": "structures", "why": "Siege Mode autos out range towers and forts and she tops siege damage in this set, with Napalm Strike and Blunt Force Gun at 50 percent structure damage."},
-  {"tag": "tanky_frontline", "why": "Giant Killer deals 1.5 percent of maximum Health per auto and Shrapnel Mines reduces armor by up to 50, so tanks lose most of their value."},
-  {"tag": "immobile", "why": "Targets that cannot leave the range of Siege Mode autos and Blunt Force Gun take everything, and Executioner adds 30 percent when they are slowed."},
-  {"tag": "squishy_backline", "why": "Long range Siege Mode autos with Ambush stealth hit for 125 percent more, so a backliner who stays in view loses a lot of Health."}
+  {
+   "tag": "melee_heavy",
+   "why": "Concussive Blast knocks back, Spider Mines slow by 25 percent and Barricade builds a wall, and Siege Mode range keeps melee at a distance."
+  },
+  {
+   "tag": "structures",
+   "why": "Siege Mode autos out range towers and forts and she tops siege damage in this set, with Napalm Strike and Blunt Force Gun at 50 percent structure damage."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Giant Killer deals 1.5 percent of maximum Health per auto and Shrapnel Mines reduces armor by up to 50, so tanks lose most of their value."
+  },
+  {
+   "tag": "immobile",
+   "why": "Targets that cannot leave the range of Siege Mode autos and Blunt Force Gun take everything, and Executioner adds 30 percent when they are slowed."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Long range Siege Mode autos with Ambush stealth hit for 125 percent more, so a backliner who stays in view loses a lot of Health."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "Siege Mode roots her unless she takes Hover Siege Mode, and Thrusters is her only escape, so divers kill her. The guide says to avoid Siege Mode against heroes that can punish it."},
-  {"tag": "assassin", "why": "Assassins with gap closers get through mines and Concussive Blast and her Health is low, so she dies when she cannot kite."},
-  {"tag": "poke_comp", "why": "Siege Mode makes her a stationary target for skillshots and area of effect, such as Chromie or Jaina, and the guide warns about being vulnerable to AoE."},
-  {"tag": "cc_heavy", "why": "Stuns and roots mean Thrusters, which lasts 4 seconds, is lost and Neosteel Plating has a 16 second cooldown."},
-  {"tag": "mobile", "why": "Mobile heroes dodge Blunt Force Gun and Napalm Strike, and she cannot chase them."}
+  {
+   "tag": "burst_dive",
+   "why": "Siege Mode roots her unless she takes Hover Siege Mode, and Thrusters is her only escape, so divers kill her. The guide says to avoid Siege Mode against heroes that can punish it."
+  },
+  {
+   "tag": "assassin",
+   "why": "Assassins with gap closers get through mines and Concussive Blast and her Health is low, so she dies when she cannot kite."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Siege Mode makes her a stationary target for skillshots and area of effect, such as Chromie or Jaina, and the guide warns about being vulnerable to AoE."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns and roots mean Thrusters, which lasts 4 seconds, is lost and Neosteel Plating has a 16 second cooldown."
+  },
+  {
+   "tag": "mobile",
+   "why": "Mobile heroes dodge Blunt Force Gun and Napalm Strike, and she cannot chase them."
+  }
  ],
  "wants_from_team": [
   "A frontline to protect her while in Siege Mode",
@@ -87,5 +125,8 @@
   "MEASURED block: hero damage 3810 per minute, siege 7190 per minute, win rate 0.482 over 328 games"
  ],
  "confidence": "high",
- "unsure": ["ratings.global_presence"]
+ "unsure": [
+  "ratings.global_presence"
+ ],
+ "owner_notes": "A ranged sustain damage hero who can siege from very far. Susceptible to dive and to long range poke from heroes like Tassadar, Chromie and maybe Li-Ming. If the other team does not draft to kill her she destroys buildings and dominates team fights, but she depends on draft and positioning because she cannot reposition quickly and can be locked down by CC when her unstoppable shield talent or trait is down or interrupted."
 }

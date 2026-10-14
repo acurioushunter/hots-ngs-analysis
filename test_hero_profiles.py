@@ -21,7 +21,25 @@ def chk(p):
     for s in json.dumps(d,ensure_ascii=False).split('"'):
         pass
     if d['damage'].get('poke') is None: e.append('poke')
+    L=d.get('lenses')
+    if not isinstance(L,dict):
+        PENDING.append(d['hero'])
+        if REQUIRED: e.append('lenses missing')
+    else:
+        for k,spec in CAT.items():
+            if k not in L: e.append('lens missing '+k); continue
+            v=L[k]; allowed=set(spec['values'])
+            if spec['kind']=='single':
+                if not isinstance(v,str) or v not in allowed: e.append('lens '+k+'='+str(v))
+            else:
+                if not isinstance(v,list) or not v or any(x not in allowed for x in v): e.append('lens '+k+'='+str(v))
+        for k in L:
+            if k not in CAT: e.append('unknown lens '+k)
     return e
+import os
+REQUIRED=os.environ.get('HERO_LENSES_REQUIRED')=='1'
+PENDING=[]
+CAT=json.load(open('knowledge/expert/lenses.json',encoding='utf-8'))['lenses']
 bad=0
 for p in sorted(D.glob('*.json')):
     try: e=chk(p)
@@ -29,5 +47,6 @@ for p in sorted(D.glob('*.json')):
     if e: bad+=1; print(p.name,e)
 n=len(list(D.glob('*.json')))
 print(n,'profiles,',bad,'with problems')
+if PENDING: print('lens classification pending for',len(PENDING),'heroes (set HERO_LENSES_REQUIRED=1 to make it a failure)')
 print('OK' if bad==0 and n>=91 else 'FAILED')
 sys.exit(0 if bad==0 and n>=91 else 1)

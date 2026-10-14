@@ -11,8 +11,17 @@
  "damage": {
   "carry": true,
   "ranged_dealer": false,
-  "style": ["dot", "percent_health", "execute"],
-  "poke": { "rating": 2, "kind": "dot", "dodgeable": 3, "note": "Death Shroud is a slow skillshot that marks from range (Throwing Shade adds 2 percent max health on impact), and the mark ticks 2 percent max health per second. Reliable once applied, but the shroud is easy to sidestep and he is poor at reaching kiters." },
+  "style": [
+   "dot",
+   "percent_health",
+   "execute"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "dot",
+   "dodgeable": 3,
+   "note": "Death Shroud is a slow skillshot that marks from range (Throwing Shade adds 2 percent max health on impact), and the mark ticks 2 percent max health per second. Reliable once applied, but the shroud is easy to sidestep and he is poor at reaching kiters."
+  },
   "heal_blunted": 2,
   "note": "Reaper's Mark deals 2 percent of max health every second to every marked target, so it scales on tanks and ignores armor. Soul Rip adds AoE damage and healing per target. Last Rites (half of missing health) is a ranged execute. Percent based damage means healing blunts it less than flat chip damage, and Touch of Death halves healing on marked heroes. Measured damage 2592 per minute is well above the 2060 median."
  },
@@ -33,28 +42,81 @@
  },
  "cc": {
   "hard": [],
-  "soft": ["slow"],
+  "soft": [
+   "slow"
+  ],
   "reliability": 1,
   "note": "Only Cold Hand (20 percent slow on Soul Rip) as a talent. Inevitable End gives unstoppable for 2 seconds. Measured enemy CC time on him is tiny (0.4 seconds per game) because he applies none himself."
  },
  "good_into": [
-  { "tag": "tanky_frontline", "why": "Reaper's Mark deals 2 percent max health per second and Soul Rip heals for 4 percent of a heroic target's max health, so big health pools feed both his damage and his sustain. Mortality adds 8 percent max health on Wraith Strike." },
-  { "tag": "melee_heavy", "why": "Melee heroes cannot kite him, stay inside his cleave and Soul Rip range, and are easy to mark with several targets at once, which is when Soul Rip heals the most." },
-  { "tag": "high_sustain_healer", "why": "Touch of Death cuts healing on marked heroes by 50 percent, which the guide names for Diablo, Dehaka and Sonya style sustain and for double healer comps. Without the talent the percent damage still survives some healing." },
-  { "tag": "squishy_backline", "why": "Last Rites executes anyone under 33 percent health from range after a 2 second delay and refunds cooldown on kills, so a poked backline target is a finish for him." }
+  {
+   "tag": "tanky_frontline",
+   "why": "Reaper's Mark deals 2 percent max health per second and Soul Rip heals for 4 percent of a heroic target's max health, so big health pools feed both his damage and his sustain. Mortality adds 8 percent max health on Wraith Strike."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Melee heroes cannot kite him, stay inside his cleave and Soul Rip range, and are easy to mark with several targets at once, which is when Soul Rip heals the most."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Touch of Death cuts healing on marked heroes by 50 percent, which the guide names for Diablo, Dehaka and Sonya style sustain and for double healer comps. Without the talent the percent damage still survives some healing."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Last Rites executes anyone under 33 percent health from range after a 2 second delay and refunds cooldown on kills, so a poked backline target is a finish for him."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "Wraith Strike only works on marked targets and Death Shroud is a slow skillshot, so nimble ranged heroes keep him unmarked and out of Soul Rip range." },
-  { "tag": "ranged_heavy", "why": "Several ranged heroes make Soul Rip hit few targets (one target heals little) and let them poke his low max health before he connects. Ethereal Existence does not help against ability damage." },
-  { "tag": "cc_heavy", "why": "He has no reliable escape except Inevitable End on a 20 second cooldown. Stuns and silences hold him while burst kills a low health pool." },
-  { "tag": "burst_dive", "why": "Low maximum health and a mark that does nothing for his defence early. Shroud of Wisdom needs 1.5 seconds of warning, so surprise burst lands first." },
-  { "tag": "poke_comp", "why": "Poke wears him down before he engages and his Soul Rip healing only comes when he is touching enemies. The guide says he does poorly into ranged heroes." }
+  {
+   "tag": "kiter",
+   "why": "Wraith Strike only works on marked targets and Death Shroud is a slow skillshot, so nimble ranged heroes keep him unmarked and out of Soul Rip range."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Several ranged heroes make Soul Rip hit few targets (one target heals little) and let them poke his low max health before he connects. Ethereal Existence does not help against ability damage."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "He has no reliable escape except Inevitable End on a 20 second cooldown. Stuns and silences hold him while burst kills a low health pool."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Low maximum health and a mark that does nothing for his defence early. Shroud of Wisdom needs 1.5 seconds of warning, so surprise burst lands first."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Poke wears him down before he engages and his Soul Rip healing only comes when he is touching enemies. The guide says he does poorly into ranged heroes."
+  }
  ],
- "wants_from_team": ["Displacement or crowd control to hold targets so Last Rites and marks stick", "A tank to absorb the first burst so he can enter later", "Reliable cooldown or mana help (Malfurion Innervate, Ana Nano Boost)", "Not a team that needs his waveclear and zoning replaced by a tank"],
- "gives_team": ["Wave clear and mercenary camp capture while double soaking", "Percent health pressure that counters high health frontlines", "Revealing marks on enemies including stealth heroes", "Finish potential from range with Last Rites"],
+ "wants_from_team": [
+  "Displacement or crowd control to hold targets so Last Rites and marks stick",
+  "A tank to absorb the first burst so he can enter later",
+  "Reliable cooldown or mana help (Malfurion Innervate, Ana Nano Boost)",
+  "Not a team that needs his waveclear and zoning replaced by a tank"
+ ],
+ "gives_team": [
+  "Wave clear and mercenary camp capture while double soaking",
+  "Percent health pressure that counters high health frontlines",
+  "Revealing marks on enemies including stealth heroes",
+  "Finish potential from range with Last Rites"
+ ],
  "power_spike": "late",
- "weaknesses": ["Easily kited", "Low max health and little burst early", "No utility beyond damage", "Marks are removed by Blaze's Bunker Drop and by his own Inevitable End"],
- "evidence": ["Reaper's Mark, Soul Rip, Wraith Strike and Death Shroud ability text", "Last Rites, Touch of Death, Mortality, Massacre, Inevitable End talent text", "Icy Veins strengths and weaknesses and counters sections", "Measured NGS block: hero damage 2592 per minute, damage taken 2792, siege 6065, healing 1, win rate 0.522"],
+ "weaknesses": [
+  "Easily kited",
+  "Low max health and little burst early",
+  "No utility beyond damage",
+  "Marks are removed by Blaze's Bunker Drop and by his own Inevitable End"
+ ],
+ "evidence": [
+  "Reaper's Mark, Soul Rip, Wraith Strike and Death Shroud ability text",
+  "Last Rites, Touch of Death, Mortality, Massacre, Inevitable End talent text",
+  "Icy Veins strengths and weaknesses and counters sections",
+  "Measured NGS block: hero damage 2592 per minute, damage taken 2792, siege 6065, healing 1, win rate 0.522"
+ ],
  "confidence": "medium",
- "unsure": ["power_spike", "ratings.siege"]
+ "unsure": [
+  "power_spike",
+  "ratings.siege"
+ ],
+ "owner_notes": "A bruiser who is great at camps, double soaking and fighting high health heroes. In team fights he can sustain enough to kill a team if they lack CC to pin him and have no healing reduction. Very weak to CC plus burst damage and to reduced healing, and has no CC or escape."
 }

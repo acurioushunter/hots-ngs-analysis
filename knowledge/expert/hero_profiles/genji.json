@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": false,
-  "style": ["burst", "single_target", "execute"],
+  "style": [
+   "burst",
+   "single_target",
+   "execute"
+  ],
   "poke": {
    "rating": 2,
    "kind": "skillshot",
@@ -38,20 +42,46 @@
  },
  "cc": {
   "hard": [],
-  "soft": ["slow"],
+  "soft": [
+   "slow"
+  ],
   "reliability": 1
  },
  "good_into": [
-  {"tag": "squishy_backline", "why": "Swift Strike, Cyber Agility and Dragonblade reach a squishy ranged hero in seconds, and a kill resets Swift Strike so he can chain into the next target."},
-  {"tag": "ranged_heavy", "why": "Teams full of ranged heroes have little to peel him, and Deflect blocks and returns their damage while he dives."},
-  {"tag": "immobile", "why": "Targets that cannot dodge Swift Strike or Dragonblade are dead, and X-Strike has maximum damage on a stunned or rooted target."},
-  {"tag": "poke_comp", "why": "Deflect blocks a large share of poke damage for 1.25 seconds and Augmented Guard turns it into a shield, then he dives the poker."}
+  {
+   "tag": "squishy_backline",
+   "why": "Swift Strike, Cyber Agility and Dragonblade reach a squishy ranged hero in seconds, and a kill resets Swift Strike so he can chain into the next target."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Teams full of ranged heroes have little to peel him, and Deflect blocks and returns their damage while he dives."
+  },
+  {
+   "tag": "immobile",
+   "why": "Targets that cannot dodge Swift Strike or Dragonblade are dead, and X-Strike has maximum damage on a stunned or rooted target."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Deflect blocks a large share of poke damage for 1.25 seconds and Augmented Guard turns it into a shield, then he dives the poker."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "Stun, root or silence takes away both Swift Strike and Cyber Agility, and he has no Unstoppable. The guide names Varian's Taunt and Malfurion's Twilight Dream."},
-  {"tag": "kiter", "why": "Mobile ranged assassins like Lunara can bait him into overextending and poison keeps ticking through Deflect."},
-  {"tag": "single_target_healer", "why": "Point and click crowd control from heroes such as Uther cancels a dive on a backline target, and a burst healer undoes a failed kill."},
-  {"tag": "assassin", "why": "Low health pool and Deflect with a 16 second cooldown means a faster assassin with burst can kill him in return."}
+  {
+   "tag": "cc_heavy",
+   "why": "Stun, root or silence takes away both Swift Strike and Cyber Agility, and he has no Unstoppable. The guide names Varian's Taunt and Malfurion's Twilight Dream."
+  },
+  {
+   "tag": "kiter",
+   "why": "Mobile ranged assassins like Lunara can bait him into overextending and poison keeps ticking through Deflect."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "Point and click crowd control from heroes such as Uther cancels a dive on a backline target, and a burst healer undoes a failed kill."
+  },
+  {
+   "tag": "assassin",
+   "why": "Low health pool and Deflect with a 16 second cooldown means a faster assassin with burst can kill him in return."
+  }
  ],
  "wants_from_team": [
   "Burst damage and crowd control that lets him finish a single target (Jaina, Kael'thas)",
@@ -79,5 +109,11 @@
   "Measured block: damage per minute about 2600, siege about 2950, damage taken about 2360, takedowns 10.9 per game, win rate 0.522 over 722 games"
  ],
  "confidence": "medium",
- "unsure": ["role", "attack.type", "damage.ranged_dealer", "good_into.poke_comp"]
+ "unsure": [
+  "role",
+  "attack.type",
+  "damage.ranged_dealer",
+  "good_into.poke_comp"
+ ],
+ "owner_notes": "A dive burst assassin who bursts down a vulnerable backline. Escapes well, but is susceptible to CC and has low health."
 }

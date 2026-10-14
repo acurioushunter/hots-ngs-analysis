@@ -1,83 +1,113 @@
 {
-  "hero": "Samuro",
-  "slug": "samuro",
-  "role": "Melee Assassin",
-  "attack": {
-    "type": "melee",
-    "range": "melee",
-    "autos_matter": 5,
-    "note": "Samuro and his Mirror Images deal almost all damage with critical autos (every 4th or 3rd attack and Critical Strike). He has no real damaging ability apart from Bladestorm."
+ "hero": "Samuro",
+ "slug": "samuro",
+ "role": "Melee Assassin",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 5,
+  "note": "Samuro and his Mirror Images deal almost all damage with critical autos (every 4th or 3rd attack and Critical Strike). He has no real damaging ability apart from Bladestorm."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": [
+   "sustained",
+   "single_target",
+   "siege"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 0,
+   "note": "No ranged damage. He uses Wind Walk and Image Transmission to close and he is revealed by his own attacks."
   },
-  "damage": {
-    "carry": false,
-    "ranged_dealer": false,
-    "style": ["sustained", "single_target", "siege"],
-    "poke": {
-      "rating": 0,
-      "kind": "none",
-      "dodgeable": 0,
-      "note": "No ranged damage. He uses Wind Walk and Image Transmission to close and he is revealed by his own attacks."
-    },
-    "heal_blunted": 3,
-    "note": "Steady crit based auto damage multiplied by images (Illusion Master doubles their damage). Healing and Biotic Armor type effects blunt it, but Harsh Winds adds burst from stealth. His role in a draft is macro: split push, clear camps, tie up defenders. Measured siege per minute (about 7050) is the second highest in the league while hero damage is below average (about 1890) and he takes little damage (1841)."
+  "heal_blunted": 3,
+  "note": "Steady crit based auto damage multiplied by images (Illusion Master doubles their damage). Healing and Biotic Armor type effects blunt it, but Harsh Winds adds burst from stealth. His role in a draft is macro: split push, clear camps, tie up defenders. Measured siege per minute (about 7050) is the second highest in the league while hero damage is below average (about 1890) and he takes little damage (1841)."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 3,
+  "siege": 5,
+  "teamfight": 2,
+  "engage": 2,
+  "peel": 0,
+  "mobility": 4,
+  "self_sustain": 4,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 1,
+  "solo_lane": 4
+ },
+ "cc": {
+  "hard": [],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 0
+ },
+ "good_into": [
+  {
+   "tag": "split_push",
+   "why": "Mirror Images soak tower shots, Bladestorm clears a wave instantly, and Wind Walk heals him so he rarely has to return to base."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 5,
-    "camp_clear": 3,
-    "siege": 5,
-    "teamfight": 2,
-    "engage": 2,
-    "peel": 0,
-    "mobility": 4,
-    "self_sustain": 4,
-    "survivability": 4,
-    "objective": 3,
-    "global_presence": 1,
-    "solo_lane": 4
+  {
+   "tag": "objective_race",
+   "why": "Great duelist after level 7 and strong at channeling objectives with stall, so he beats most heroes sent to stop him."
   },
-  "cc": {
-    "hard": [],
-    "soft": ["slow"],
-    "reliability": 0
+  {
+   "tag": "squishy_backline",
+   "why": "Image Transmission and Harsh Winds give burst on a lone ranged hero, and Wind Walk stealth approaches unseen."
   },
-  "good_into": [
-    { "tag": "split_push", "why": "Mirror Images soak tower shots, Bladestorm clears a wave instantly, and Wind Walk heals him so he rarely has to return to base." },
-    { "tag": "objective_race", "why": "Great duelist after level 7 and strong at channeling objectives with stall, so he beats most heroes sent to stop him." },
-    { "tag": "squishy_backline", "why": "Image Transmission and Harsh Winds give burst on a lone ranged hero, and Wind Walk stealth approaches unseen." },
-    { "tag": "immobile", "why": "Slowed or stunned targets take guaranteed crits with Merciless Strikes, and they cannot shake him." }
-  ],
-  "bad_into": [
-    { "tag": "high_sustain_healer", "why": "Stukov's Biotic Armor and Flailing Swipe or any sustain healer cut his auto damage and extend fights that his images cannot win." },
-    { "tag": "cc_heavy", "why": "Knockbacks (Lucio, E.T.C.) and targeted CC stop his autos, and he has no CC of his own." },
-    { "tag": "poke_comp", "why": "Heroes that kill images easily (Jaina, Orphea, Cassia with Surge of Light) turn his decoys into free stacks and quests for them, and clone hitters like Medivh and Diablo benefit from them." }
-  ],
-  "wants_from_team": [
-    "A team that does not need peel from him",
-    "A healer that can heal from afar (Malfurion, Deckard)",
-    "Stat buffs for images (Abathur style)",
-    "Teammates who can fight 4v5 while he soaks"
-  ],
-  "gives_team": [
-    "Strong split push and backdoor pressure",
-    "Wave and camp clear with Bladestorm",
-    "Decoys that waste enemy cooldowns",
-    "Objective stalling in duels"
-  ],
-  "power_spike": "mid",
-  "weaknesses": [
-    "Weak early game",
-    "Vulnerable if revealed or knocked back",
-    "Images can complete enemy quests and feed healing based talents",
-    "No crowd control and very low peel"
-  ],
-  "evidence": [
-    "Mirror Image, Critical Strike, Wind Walk, Image Transmission",
-    "Bladestorm and Illusion Master heroics",
-    "Burning Blade, Harsh Winds, Merciless Strikes, Three Blade Style talents",
-    "Icy Veins guide: counters Stukov, Lucio, E.T.C., clone hitters",
-    "Measured: about 1892 hero damage, 7048 siege, 1841 damage taken per minute, 6.1 takedowns and 1.5 deaths per game, win rate 0.522 over 358 games"
-  ],
-  "confidence": "high",
-  "unsure": ["damage.carry"]
+  {
+   "tag": "immobile",
+   "why": "Slowed or stunned targets take guaranteed crits with Merciless Strikes, and they cannot shake him."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "high_sustain_healer",
+   "why": "Stukov's Biotic Armor and Flailing Swipe or any sustain healer cut his auto damage and extend fights that his images cannot win."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Knockbacks (Lucio, E.T.C.) and targeted CC stop his autos, and he has no CC of his own."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Heroes that kill images easily (Jaina, Orphea, Cassia with Surge of Light) turn his decoys into free stacks and quests for them, and clone hitters like Medivh and Diablo benefit from them."
+  }
+ ],
+ "wants_from_team": [
+  "A team that does not need peel from him",
+  "A healer that can heal from afar (Malfurion, Deckard)",
+  "Stat buffs for images (Abathur style)",
+  "Teammates who can fight 4v5 while he soaks"
+ ],
+ "gives_team": [
+  "Strong split push and backdoor pressure",
+  "Wave and camp clear with Bladestorm",
+  "Decoys that waste enemy cooldowns",
+  "Objective stalling in duels"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Weak early game",
+  "Vulnerable if revealed or knocked back",
+  "Images can complete enemy quests and feed healing based talents",
+  "No crowd control and very low peel"
+ ],
+ "evidence": [
+  "Mirror Image, Critical Strike, Wind Walk, Image Transmission",
+  "Bladestorm and Illusion Master heroics",
+  "Burning Blade, Harsh Winds, Merciless Strikes, Three Blade Style talents",
+  "Icy Veins guide: counters Stukov, Lucio, E.T.C., clone hitters",
+  "Measured: about 1892 hero damage, 7048 siege, 1841 damage taken per minute, 6.1 takedowns and 1.5 deaths per game, win rate 0.522 over 358 games"
+ ],
+ "confidence": "high",
+ "unsure": [
+  "damage.carry"
+ ],
+ "owner_notes": "High skill ceiling. Offlanes well and later double soaks. Hard to kill, which is his strength: he pulls attention from objectives so the team can take them, and wastes the enemy's time if they send people to gank and he still escapes."
 }

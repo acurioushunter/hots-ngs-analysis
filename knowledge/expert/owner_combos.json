@@ -1,0 +1,212 @@
+{
+ "_meta": {
+  "source": "Hunter's notes, knowledge/expert/owner_hero_notes.md",
+  "note": "needs is a list of any-of groups that must all be satisfied by our picks; counters are heroes on their side that answer it"
+ },
+ "combos": [
+  {
+   "id": "stukov_taunt_burst",
+   "name": "Silence under a taunt, then burst",
+   "needs": [
+    [
+     "Stukov"
+    ],
+    [
+     "Varian"
+    ]
+   ],
+   "finishers": [
+    "Jaina",
+    "Greymane",
+    "Li-Ming",
+    "Kel'Thuzad",
+    "Kael'thas"
+   ],
+   "counters": [
+    "Anduin",
+    "Medivh",
+    "Uther",
+    "Tyrael"
+   ],
+   "text": "Stukov silences under the taunted target and the team bursts it with a ranged assassin whose damage minions and heroes cannot block. Fails if they can save the target: Anduin's pull, Medivh or Uther Divine Shield, Tyrael's invulnerability. Cleanses help them but the silence can still get kills.",
+   "source": "Hunter"
+  },
+  {
+   "id": "tyrande_cc_burst",
+   "name": "CC tank then one target focus",
+   "needs": [
+    [
+     "Tyrande"
+    ]
+   ],
+   "finishers": [
+    "Jaina",
+    "Greymane",
+    "Li-Ming",
+    "Kel'Thuzad",
+    "Kael'thas",
+    "Illidan",
+    "Zeratul",
+    "Valeera",
+    "Genji"
+   ],
+   "counters": [],
+   "text": "Tyrande is often picked as the follow up to a CC tank to focus down one target with burst ranged damage or a melee assassin. She needs to auto attack safely to bring her heal back.",
+   "source": "Hunter"
+  },
+  {
+   "id": "orphea_reset",
+   "name": "Orphea heroic reset behind big CC",
+   "needs": [
+    [
+     "Orphea"
+    ],
+    [
+     "E.T.C.",
+     "Leoric"
+    ]
+   ],
+   "finishers": [],
+   "counters": [],
+   "text": "Orphea's heroic resets when it hits a hero, which works best behind E.T.C. Mosh Pit or Leoric Entomb.",
+   "source": "Hunter"
+  },
+  {
+   "id": "sonya_cc_chain",
+   "name": "Sonya jumps in behind a CC chain",
+   "needs": [
+    [
+     "Sonya"
+    ]
+   ],
+   "finishers": [],
+   "counters": [],
+   "text": "Sonya with Leap is a good partner for CC chain combos (Light bomb and other chains): high burst onto the backline.",
+   "source": "Hunter"
+  },
+  {
+   "id": "whitemane_cc",
+   "name": "Whitemane wants CC from the front line",
+   "needs": [
+    [
+     "Whitemane"
+    ]
+   ],
+   "finishers": [],
+   "counters": [
+    "Stitches",
+    "Garrosh",
+    "Diablo"
+   ],
+   "text": "Whitemane has little CC, so draft it in the tank and maybe the offlaner. She is weak to tanks that pull or separate her from the team: Stitches, Garrosh, Diablo.",
+   "source": "Hunter"
+  },
+  {
+   "id": "lucio_wall",
+   "name": "Lucio wall riding gets stunned",
+   "needs": [
+    [
+     "Lucio"
+    ]
+   ],
+   "finishers": [],
+   "counters": [
+    "Diablo"
+   ],
+   "text": "Diablo can stun Lucio on walls while he is wall riding.",
+   "source": "Hunter"
+  },
+  {
+   "id": "lunara_healer",
+   "name": "Lunara and the enemy healer",
+   "needs": [
+    [
+     "Lunara"
+    ]
+   ],
+   "finishers": [],
+   "counters": [
+    "Brightwing"
+   ],
+   "text": "Lunara does great into low sustain healers like Uther because her poison on many people outruns his healing and mana. Healers like Brightwing heal through her steady damage.",
+   "source": "Hunter"
+  },
+  {
+   "id": "murky_ragnaros",
+   "name": "Murky and quest stackers meet Ragnaros",
+   "needs": [
+    [
+     "Murky"
+    ]
+   ],
+   "finishers": [],
+   "counters": [
+    "Ragnaros"
+   ],
+   "text": "Murky struggles against Ragnaros and others who can kill him for stacks or quests, or kill his W so it does not trigger.",
+   "source": "Hunter"
+  },
+  {
+   "id": "deathwing_pick",
+   "name": "Deathwing into a pick comp",
+   "needs": [
+    [
+     "Deathwing"
+    ]
+   ],
+   "finishers": [],
+   "counters": [],
+   "text": "Pick Deathwing when they have no percent damage hero and they have a pick comp: he cannot be stunned. A strong late pick, often taken in the 4 man as a damage dealer.",
+   "source": "Hunter"
+  },
+  {
+   "id": "hanzo_dive",
+   "name": "Hanzo and dive",
+   "needs": [
+    [
+     "Hanzo"
+    ]
+   ],
+   "finishers": [],
+   "counters": [
+    "Zeratul",
+    "Genji"
+   ],
+   "text": "High mobility dive heroes like Zeratul and Genji kill Hanzo easily. Minions and summons also block his abilities.",
+   "source": "Hunter"
+  },
+  {
+   "id": "sgt_hammer_poke",
+   "name": "Sgt. Hammer and poke or dive",
+   "needs": [
+    [
+     "Sgt. Hammer"
+    ]
+   ],
+   "finishers": [],
+   "counters": [
+    "Tassadar",
+    "Chromie",
+    "Li-Ming"
+   ],
+   "text": "Sgt. Hammer is susceptible to dive and long range poke like Tassadar, Chromie and maybe Li-Ming.",
+   "source": "Hunter"
+  },
+  {
+   "id": "ragnaros_tomb",
+   "name": "Ragnaros on Tomb",
+   "needs": [
+    [
+     "Ragnaros"
+    ]
+   ],
+   "finishers": [],
+   "counters": [],
+   "maps": [
+    "Tomb of the Spider Queen"
+   ],
+   "text": "On Tomb of the Spider Queen, clearing waves with Lava Wave loses the gems.",
+   "source": "Hunter"
+  }
+ ]
+}

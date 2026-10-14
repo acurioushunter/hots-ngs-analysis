@@ -178,6 +178,24 @@
     return null;
   };
 
+  // Known combos and counters from the owner's notes (data.owner_combos): which of them our picks make ready, what is one hero away,
+  // and which of their heroes answer them. A combo whose "needs" groups are all met is ready.
+  E.ownerCombos = function (st) {
+    const list = D().owner_combos || [], us = E.picks(st, "us"), them = E.picks(st, "opp"), out = [];
+    list.forEach(c => {
+      if (c.maps && c.maps.indexOf(st.map) < 0) return;
+      const met = c.needs.map(g => g.filter(h => us.indexOf(h) >= 0));
+      const have = met.filter(m => m.length).length;
+      if (!have) return;
+      const ready = have === c.needs.length;
+      const answers = (c.counters || []).filter(h => them.indexOf(h) >= 0);
+      const fin = (c.finishers || []).filter(h => us.indexOf(h) >= 0);
+      const missing = c.needs.filter((g, i) => !met[i].length).map(g => g.join(" or "));
+      out.push({ id: c.id, name: c.name, ready, missing, finishers: fin, answeredBy: answers, text: c.text, source: c.source });
+    });
+    return out;
+  };
+
   E.compSummary = function (st) {
     const hs = E.picks(st, "us");
     const info = hs.map(heroInfo);

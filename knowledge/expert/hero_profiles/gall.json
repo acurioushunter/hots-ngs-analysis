@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["aoe", "burst", "siege"],
+  "style": [
+   "aoe",
+   "burst",
+   "siege"
+  ],
   "poke": {
    "rating": 4,
    "kind": "skillshot",
@@ -37,21 +41,50 @@
   "solo_lane": 2
  },
  "cc": {
-  "hard": ["stun", "silence"],
-  "soft": ["slow"],
+  "hard": [
+   "stun",
+   "silence"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 3
  },
  "good_into": [
-  {"tag": "tanky_frontline", "why": "Shadow Bolt Volley does 20 bolts of 87 at one target, Searing Shadows adds 2 percent of max health per Shadowflame, and Twisting Nether slows them. A comp of tanks that cannot burst him is walked down in long fights."},
-  {"tag": "melee_heavy", "why": "Twisting Nether slows nearby enemies by 50 percent, Leaden Orb stuns clumped melee heroes, and Cho's own Upheaval and Consuming Blaze combine with Gall's area damage."},
-  {"tag": "immobile", "why": "Dread Orb and Runic Blast are telegraphed area hits and Dread Orb bounces several times on large targets. Immobile heroes take all three bounces."},
-  {"tag": "sustain_comp", "why": "Cho'gall scales into the strongest late game and a sustain comp gives time to reach level 16 and 20 without early deaths."}
+  {
+   "tag": "tanky_frontline",
+   "why": "Shadow Bolt Volley does 20 bolts of 87 at one target, Searing Shadows adds 2 percent of max health per Shadowflame, and Twisting Nether slows them. A comp of tanks that cannot burst him is walked down in long fights."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Twisting Nether slows nearby enemies by 50 percent, Leaden Orb stuns clumped melee heroes, and Cho's own Upheaval and Consuming Blaze combine with Gall's area damage."
+  },
+  {
+   "tag": "immobile",
+   "why": "Dread Orb and Runic Blast are telegraphed area hits and Dread Orb bounces several times on large targets. Immobile heroes take all three bounces."
+  },
+  {
+   "tag": "sustain_comp",
+   "why": "Cho'gall scales into the strongest late game and a sustain comp gives time to reach level 16 and 20 without early deaths."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "Cho dying kills both heroes and gives two kills of experience, and Gall has Shove only to escape. Dive comps that can burst Cho before Ogre Hide matters are his worst case."},
-  {"tag": "cc_heavy", "why": "Gall is immune to stun and silence, but Cho is not. Anub'arak's Cocoon or Maiev's Containment Disc turn the fight into a 5 versus 3."},
-  {"tag": "poke_comp", "why": "He is weak early and has to reach level 13 to 20 to be strong, and a comp that pokes and snowballs experience beats him before talents come online."},
-  {"tag": "assassin", "why": "Single target damage and percent health damage (Cursed Bullet, Alpha Killer style) go through his large health pool, and Cho's lack of peel makes him easy to pick."}
+  {
+   "tag": "burst_dive",
+   "why": "Cho dying kills both heroes and gives two kills of experience, and Gall has Shove only to escape. Dive comps that can burst Cho before Ogre Hide matters are his worst case."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Gall is immune to stun and silence, but Cho is not. Anub'arak's Cocoon or Maiev's Containment Disc turn the fight into a 5 versus 3."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "He is weak early and has to reach level 13 to 20 to be strong, and a comp that pokes and snowballs experience beats him before talents come online."
+  },
+  {
+   "tag": "assassin",
+   "why": "Single target damage and percent health damage (Cursed Bullet, Alpha Killer style) go through his large health pool, and Cho's lack of peel makes him easy to pick."
+  }
  ],
  "wants_from_team": [
   "A dedicated healer, ideally strong single target healing",
@@ -80,5 +113,10 @@
   "Measured block: hero damage about 3120 per minute, win rate 0.448 over 105 games, seconds of CC 15.3"
  ],
  "confidence": "medium",
- "unsure": ["ratings.solo_lane", "role", "attack.range"]
+ "unsure": [
+  "ratings.solo_lane",
+  "role",
+  "attack.range"
+ ],
+ "owner_notes": "Gall is the ranged assassin half of Cho and Gall."
 }

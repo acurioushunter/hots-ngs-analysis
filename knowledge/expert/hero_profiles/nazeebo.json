@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["dot", "siege", "aoe"],
+  "style": [
+   "dot",
+   "siege",
+   "aoe"
+  ],
   "poke": {
    "rating": 4,
    "kind": "dot",
@@ -37,23 +41,57 @@
   "solo_lane": 4
  },
  "cc": {
-  "hard": ["wall"],
-  "soft": ["slow"],
+  "hard": [
+   "wall"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 2
  },
  "good_into": [
-  {"tag": "low_sustain_healer", "why": "Toads and spiders stack chip damage that a single target burst healer cannot spread across the team, and Pandemic reduces enemy damage by up to 25 percent."},
-  {"tag": "poke_comp", "why": "Superstition gives 40 Spell Armor and his large maximum Health pool from Voodoo Ritual makes him a poor target to poke, while his own toads outrange most melee."},
-  {"tag": "structures", "why": "Gargantuan tanks tower shots and Toads of Hugeness plus Voodoo Ritual push, giving the highest siege damage per minute measured in this set."},
-  {"tag": "split_push", "why": "He clears waves faster than almost any hero with Corpse Spiders and Plague of Toads, so he wins lanes and keeps pressure with Voodoo Ritual stacks growing."},
-  {"tag": "melee_heavy", "why": "All three toads start on him, so melee heroes that walk up take burst from every toad, and Zombie Wall ring blocks melee approach paths."}
+  {
+   "tag": "low_sustain_healer",
+   "why": "Toads and spiders stack chip damage that a single target burst healer cannot spread across the team, and Pandemic reduces enemy damage by up to 25 percent."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Superstition gives 40 Spell Armor and his large maximum Health pool from Voodoo Ritual makes him a poor target to poke, while his own toads outrange most melee."
+  },
+  {
+   "tag": "structures",
+   "why": "Gargantuan tanks tower shots and Toads of Hugeness plus Voodoo Ritual push, giving the highest siege damage per minute measured in this set."
+  },
+  {
+   "tag": "split_push",
+   "why": "He clears waves faster than almost any hero with Corpse Spiders and Plague of Toads, so he wins lanes and keeps pressure with Voodoo Ritual stacks growing."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "All three toads start on him, so melee heroes that walk up take burst from every toad, and Zombie Wall ring blocks melee approach paths."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "He has no mobility and Ravenous Spirit is a stationary channel, so a diver can interrupt it. Only Ice Block saves him."},
-  {"tag": "high_sustain_healer", "why": "His damage is dot based and small per tick, so AoE healers like Brightwing or Malfurion erase it, unless he picks Annihilating Spirit."},
-  {"tag": "mobile", "why": "Plague of Toads is slow and Zombie Wall is jumped or dodged by heroes with a leap, so mobile targets avoid his damage."},
-  {"tag": "cc_heavy", "why": "Stuns and silences cancel Ravenous Spirit and his Zombie Wall can be knocked back, so he loses the Heroic."},
-  {"tag": "kiter", "why": "Kiters outrange the slow toads and spiders are only active 4 seconds, so a competent kiter takes little."}
+  {
+   "tag": "burst_dive",
+   "why": "He has no mobility and Ravenous Spirit is a stationary channel, so a diver can interrupt it. Only Ice Block saves him."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "His damage is dot based and small per tick, so AoE healers like Brightwing or Malfurion erase it, unless he picks Annihilating Spirit."
+  },
+  {
+   "tag": "mobile",
+   "why": "Plague of Toads is slow and Zombie Wall is jumped or dodged by heroes with a leap, so mobile targets avoid his damage."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns and silences cancel Ravenous Spirit and his Zombie Wall can be knocked back, so he loses the Heroic."
+  },
+  {
+   "tag": "kiter",
+   "why": "Kiters outrange the slow toads and spiders are only active 4 seconds, so a competent kiter takes little."
+  }
  ],
  "wants_from_team": [
   "Two lanes that are safe to rotate between so he can stack Voodoo Ritual",
@@ -85,5 +123,9 @@
   "MEASURED block: siege 7013 per minute, hero damage 2761, win rate 0.484 over 610 games"
  ],
  "confidence": "medium",
- "unsure": ["cc.reliability", "ratings.teamfight"]
+ "unsure": [
+  "cc.reliability",
+  "ratings.teamfight"
+ ],
+ "owner_notes": "A sustain damage mage with some burst from Ravenous Spirit or the spider build. No escape except a late talent Ice Block that only delays. Depends on skillshots, weaker in competitive play and stronger against uncoordinated teams. Good at wave clear and camp clear."
 }

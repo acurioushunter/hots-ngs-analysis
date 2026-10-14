@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["aoe", "siege", "poke"],
+  "style": [
+   "aoe",
+   "siege",
+   "poke"
+  ],
   "poke": {
    "rating": 4,
    "kind": "skillshot",
@@ -38,21 +42,50 @@
  },
  "cc": {
   "hard": [],
-  "soft": ["slow"],
+  "soft": [
+   "slow"
+  ],
   "reliability": 1
  },
  "good_into": [
-  {"tag": "immobile", "why": "Globe of Annihilation is slow and telegraphed, and All Shall Burn needs an uninterrupted 2.5 second channel. Targets that cannot sidestep or interrupt take the full hit, and Sin's Grasp slows them for the final burst."},
-  {"tag": "melee_heavy", "why": "Melee heroes have to walk into Globe range and clump on objectives. Demon Warriors with Brutish Vanguard slow attackers by 30 percent, and Trample is a short gap closer into Genji or Zeratul style assassins."},
-  {"tag": "low_sustain_healer", "why": "All Shall Burn plus a Globe is big burst on a single target, and Globe chip is hard to undo for a healer without area or sustained healing."},
-  {"tag": "split_push", "why": "Demon Lieutenant has global cast range and Inescapable Annihilation makes Globe global, so Azmodan answers side lanes and snipes structures from anywhere."},
-  {"tag": "structures", "why": "Demonic Invasion with Siegebreaker plus Globe stacks can take a Fort in one cast, so against comps that lean on towers and walls he outsieges them."}
+  {
+   "tag": "immobile",
+   "why": "Globe of Annihilation is slow and telegraphed, and All Shall Burn needs an uninterrupted 2.5 second channel. Targets that cannot sidestep or interrupt take the full hit, and Sin's Grasp slows them for the final burst."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Melee heroes have to walk into Globe range and clump on objectives. Demon Warriors with Brutish Vanguard slow attackers by 30 percent, and Trample is a short gap closer into Genji or Zeratul style assassins."
+  },
+  {
+   "tag": "low_sustain_healer",
+   "why": "All Shall Burn plus a Globe is big burst on a single target, and Globe chip is hard to undo for a healer without area or sustained healing."
+  },
+  {
+   "tag": "split_push",
+   "why": "Demon Lieutenant has global cast range and Inescapable Annihilation makes Globe global, so Azmodan answers side lanes and snipes structures from anywhere."
+  },
+  {
+   "tag": "structures",
+   "why": "Demonic Invasion with Siegebreaker plus Globe stacks can take a Fort in one cast, so against comps that lean on towers and walls he outsieges them."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "Globe of Annihilation and All Shall Burn go on full cooldown when interrupted, and he has no Unstoppable, so stuns, silences and knockbacks turn his channels into nothing."},
-  {"tag": "burst_dive", "why": "Large hitbox, slow movement, no escape except the Trample talent. Divers body block and kill him before Demon Warriors matter."},
-  {"tag": "assassin", "why": "Assassins with a gap closer reach him inside his minimum useful range, and All Shall Burn slows his own movement by 30 percent while channeling."},
-  {"tag": "mobile", "why": "Globe is slow with a long travel time, so Tracer, Genji, Lunara and similar heroes dodge it and kite his channels."}
+  {
+   "tag": "cc_heavy",
+   "why": "Globe of Annihilation and All Shall Burn go on full cooldown when interrupted, and he has no Unstoppable, so stuns, silences and knockbacks turn his channels into nothing."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Large hitbox, slow movement, no escape except the Trample talent. Divers body block and kill him before Demon Warriors matter."
+  },
+  {
+   "tag": "assassin",
+   "why": "Assassins with a gap closer reach him inside his minimum useful range, and All Shall Burn slows his own movement by 30 percent while channeling."
+  },
+  {
+   "tag": "mobile",
+   "why": "Globe is slow with a long travel time, so Tracer, Genji, Lunara and similar heroes dodge it and kite his channels."
+  }
  ],
  "wants_from_team": [
   "Reliable area crowd control so Globe and All Shall Burn land uninterrupted",
@@ -82,5 +115,9 @@
   "Icy Veins guide counters section"
  ],
  "confidence": "high",
- "unsure": ["heal_blunted", "good_into.low_sustain_healer"]
+ "unsure": [
+  "heal_blunted",
+  "good_into.low_sustain_healer"
+ ],
+ "owner_notes": "A burst ranged damage hero who sieges structures well. Cooldown dependent: big burst, then not much damage. No escapes."
 }

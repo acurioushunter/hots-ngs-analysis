@@ -1,7 +1,7 @@
 {
  "hero": "Thrall",
  "slug": "thrall",
- "role": "Melee Assassin",
+ "role": "Bruiser",
  "attack": {
   "type": "melee",
   "range": "short",
@@ -11,8 +11,17 @@
  "damage": {
   "carry": true,
   "ranged_dealer": false,
-  "style": ["burst", "single_target", "percent_health"],
-  "poke": { "rating": 3, "kind": "auto", "dodgeable": 1, "note": "Chain Lightning is a targeted spell with 4 bounces (Rolling Thunder), 7 second cooldown and a Thunderstorm slow and damage stack. It cannot be dodged but does limited damage and costs mana. This is the recommended build when the enemy has weak healing." },
+  "style": [
+   "burst",
+   "single_target",
+   "percent_health"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "auto",
+   "dodgeable": 1,
+   "note": "Chain Lightning is a targeted spell with 4 bounces (Rolling Thunder), 7 second cooldown and a Thunderstorm slow and damage stack. It cannot be dodged but does limited damage and costs mana. This is the recommended build when the enemy has weak healing."
+  },
   "heal_blunted": 2,
   "note": "Windfury attacks, Feral Spirit root and Sundering stun produce a short burst on one target. Rolling Thunder, Ancestral Wrath and Alpha Wolf add percent health damage. Frostwolf Resilience heals him as he deals ability damage. Measured damage 2661 per minute is well above the 2060 median with strong takedown numbers (9.6 per game)."
  },
@@ -32,28 +41,85 @@
   "solo_lane": 1
  },
  "cc": {
-  "hard": ["root", "stun", "knockback"],
-  "soft": ["slow"],
+  "hard": [
+   "root",
+   "stun",
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 4,
   "note": "Feral Spirit roots for 1 second (1.5 with Alpha Wolf) and hits in a line. Sundering stuns for 1 second and shoves. Earthquake slows by 50 percent over three pulses. Measured 40 seconds of enemy CC per game, the highest of this set."
  },
  "good_into": [
-  { "tag": "immobile", "why": "Feral Spirit roots and Sundering stuns, Windfury and Wind Rush close the gap. Earthquake slows 50 percent in an area so targets cannot leave." },
-  { "tag": "tanky_frontline", "why": "Alpha Wolf (3 percent max health), Rolling Thunder (3 percent) and Ancestral Wrath (15 percent over 3 seconds) are percent damage and the guide recommends the Feral Spirit build against more than two high health heroes such as Azmodan." },
-  { "tag": "no_healer_sustain", "why": "The Chain Lightning build pokes with 4 bounce lightning and Thunderstorm before the fight. With no healer or a low sustain one the chip does not come back." },
-  { "tag": "squishy_backline", "why": "Sundering splits the enemy team and Feral Spirit with Windfury and Tempest Fury bursts a rooted target. Wind Rush closes onto a flank." }
+  {
+   "tag": "immobile",
+   "why": "Feral Spirit roots and Sundering stuns, Windfury and Wind Rush close the gap. Earthquake slows 50 percent in an area so targets cannot leave."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Alpha Wolf (3 percent max health), Rolling Thunder (3 percent) and Ancestral Wrath (15 percent over 3 seconds) are percent damage and the guide recommends the Feral Spirit build against more than two high health heroes such as Azmodan."
+  },
+  {
+   "tag": "no_healer_sustain",
+   "why": "The Chain Lightning build pokes with 4 bounce lightning and Thunderstorm before the fight. With no healer or a low sustain one the chip does not come back."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Sundering splits the enemy team and Feral Spirit with Windfury and Tempest Fury bursts a rooted target. Wind Rush closes onto a flank."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "Low mobility. The guide names Lunara style kiters, only Windfury (30 percent speed for 4 seconds) and Wind Rush on a 90 second cooldown close the gap." },
-  { "tag": "cc_heavy", "why": "Blinds ruin Windfury and Tempest Fury, and stun plus burst (Kael'thas) kills him before his abilities land. Spirit Shield only covers one ability." },
-  { "tag": "poke_comp", "why": "He has no wave clear to relieve pressure and fights only in team fights. Frostwolf Resilience needs ability hits to heal." },
-  { "tag": "ranged_heavy", "why": "Heroes who can kite his Feral Spirit and stay out of melee reach deny the combo. Chain Lightning is his only answer at range." }
+  {
+   "tag": "kiter",
+   "why": "Low mobility. The guide names Lunara style kiters, only Windfury (30 percent speed for 4 seconds) and Wind Rush on a 90 second cooldown close the gap."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Blinds ruin Windfury and Tempest Fury, and stun plus burst (Kael'thas) kills him before his abilities land. Spirit Shield only covers one ability."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "He has no wave clear to relieve pressure and fights only in team fights. Frostwolf Resilience needs ability hits to heal."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Heroes who can kite his Feral Spirit and stay out of melee reach deny the combo. Chain Lightning is his only answer at range."
+  }
  ],
- "wants_from_team": ["A real offlaner or a team that does not need his wave clear", "Allied area damage that benefits from his Earthquake slow (Jaina, Diablo, Fenix)", "A healer or tank so he can engage with Sundering safely", "A 4 man team that fights together, not split lanes"],
- "gives_team": ["Hard engage and interrupt with Sundering", "Roots, slows and zone with Earthquake", "Burst on a priority target", "Shields for the team with Earthen Shields"],
+ "wants_from_team": [
+  "A real offlaner or a team that does not need his wave clear",
+  "Allied area damage that benefits from his Earthquake slow (Jaina, Diablo, Fenix)",
+  "A healer or tank so he can engage with Sundering safely",
+  "A 4 man team that fights together, not split lanes"
+ ],
+ "gives_team": [
+  "Hard engage and interrupt with Sundering",
+  "Roots, slows and zone with Earthquake",
+  "Burst on a priority target",
+  "Shields for the team with Earthen Shields"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Poor wave clear", "Low mobility", "Windfury ruined by blinds", "Needs team to play 4 man"],
- "evidence": ["Chain Lightning, Feral Spirit, Windfury, Sundering, Earthquake and Frostwolf Resilience text", "Rolling Thunder, Alpha Wolf, Ancestral Wrath, Thunderstorm, Wind Rush talent text", "Icy Veins role and counters sections", "Measured NGS block: hero damage 2661 per minute, CC seconds 40, takedowns 9.6, win rate 0.518"],
+ "weaknesses": [
+  "Poor wave clear",
+  "Low mobility",
+  "Windfury ruined by blinds",
+  "Needs team to play 4 man"
+ ],
+ "evidence": [
+  "Chain Lightning, Feral Spirit, Windfury, Sundering, Earthquake and Frostwolf Resilience text",
+  "Rolling Thunder, Alpha Wolf, Ancestral Wrath, Thunderstorm, Wind Rush talent text",
+  "Icy Veins role and counters sections",
+  "Measured NGS block: hero damage 2661 per minute, CC seconds 40, takedowns 9.6, win rate 0.518"
+ ],
  "confidence": "high",
- "unsure": []
+ "unsure": [],
+ "owner_notes": "A bruiser or melee assassin with decent sustain and damage. Slower than Sonya at clearing waves and taking or defending camps.",
+ "flex_roles": [
+  "Melee Assassin"
+ ],
+ "owner_corrections": [
+  "role Melee Assassin to Bruiser"
+ ]
 }

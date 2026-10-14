@@ -1,7 +1,7 @@
 {
  "hero": "D.Va",
  "slug": "dva",
- "role": "Tank",
+ "role": "Bruiser",
  "attack": {
   "type": "hybrid",
   "range": "short",
@@ -11,8 +11,17 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["aoe", "burst", "siege"],
-  "poke": { "rating": 0, "kind": "none", "dodgeable": 5, "note": "No poke. Her damage is close range cannon fire and Self Destruct." },
+  "style": [
+   "aoe",
+   "burst",
+   "siege"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 5,
+   "note": "No poke. Her damage is close range cannon fire and Self Destruct."
+  },
   "heal_blunted": 3,
   "note": "Fusion Cannons are steady short range AoE chip. Self Destruct (400 to 1100) is her burst and can hit a clump. Defense Matrix cuts enemy hero damage by 60 percent in a field, which reduces what healers need to undo. Siege is very high at 6613 per minute."
  },
@@ -31,18 +40,51 @@
   "global_presence": 2,
   "solo_lane": 3
  },
- "cc": { "hard": ["knockback", "stun"], "soft": ["slow"], "reliability": 3 },
+ "cc": {
+  "hard": [
+   "knockback",
+   "stun"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  { "tag": "poke_comp", "why": "Defense Matrix reduces damage by 60 percent in an area and she gets a second life as a Pilot, so chip damage into her is wasted." },
-  { "tag": "ranged_heavy", "why": "Defense Matrix blocks projectile and spell damage on the team, and Boosters closes the gap on backliners." },
-  { "tag": "structures", "why": "Very high siege damage, 50 percent Self Destruct against structures, and Micro Missiles and Bunny Hop strip towers." },
-  { "tag": "squishy_backline", "why": "Boosters knocks away, Bunny Hop stomps stun on the fourth hit, and Self Destruct kills clustered squishies." }
+  {
+   "tag": "poke_comp",
+   "why": "Defense Matrix reduces damage by 60 percent in an area and she gets a second life as a Pilot, so chip damage into her is wasted."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Defense Matrix blocks projectile and spell damage on the team, and Boosters closes the gap on backliners."
+  },
+  {
+   "tag": "structures",
+   "why": "Very high siege damage, 50 percent Self Destruct against structures, and Micro Missiles and Bunny Hop strip towers."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Boosters knocks away, Bunny Hop stomps stun on the fourth hit, and Self Destruct kills clustered squishies."
+  }
  ],
  "bad_into": [
-  { "tag": "burst_dive", "why": "Mech health is a second pool but burst plus Pilot Mode leaves her without Defense Matrix and mobility for a 45 second Call Mech cooldown." },
-  { "tag": "cc_heavy", "why": "Stuns, silences and roots interrupt Boosters and Self Destruct timing, and Bunny Hop only grants Unstoppable on that heroic." },
-  { "tag": "no_healer_sustain", "why": "Her mech has no big self heal outside Liquid Cooling and Full Metal, so a team without healing cannot refill it across a long siege." },
-  { "tag": "tanky_frontline", "why": "Fusion Cannons are physical close range chip and do little against heavy armor." }
+  {
+   "tag": "burst_dive",
+   "why": "Mech health is a second pool but burst plus Pilot Mode leaves her without Defense Matrix and mobility for a 45 second Call Mech cooldown."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns, silences and roots interrupt Boosters and Self Destruct timing, and Bunny Hop only grants Unstoppable on that heroic."
+  },
+  {
+   "tag": "no_healer_sustain",
+   "why": "Her mech has no big self heal outside Liquid Cooling and Full Metal, so a team without healing cannot refill it across a long siege."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Fusion Cannons are physical close range chip and do little against heavy armor."
+  }
  ],
  "wants_from_team": [
   "Damage dealers to turn her Defense Matrix and engage into kills",
@@ -68,5 +110,12 @@
   "Measured: win rate 0.492, siege 6613 per minute (highest of my set), damage taken 3982, 6.9 seconds of CC applied per game"
  ],
  "confidence": "medium",
- "unsure": ["role", "heal_blunted"]
+ "unsure": [
+  "role",
+  "heal_blunted"
+ ],
+ "owner_notes": "A bruiser. Soaks lanes, controls points with her bombs, and disrupts fights with Bunny Hop.",
+ "owner_corrections": [
+  "role Tank to Bruiser"
+ ]
 }

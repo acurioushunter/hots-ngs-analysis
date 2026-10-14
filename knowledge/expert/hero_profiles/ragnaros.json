@@ -11,8 +11,17 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["aoe", "siege", "sustained"],
-  "poke": { "rating": 3, "kind": "skillshot", "dodgeable": 4, "note": "Living Meteor is a vector skillshot that rolls 1.75 seconds and relies on enemies walking along it, so good players sidestep it. Molten Core Meteor Shower and Explosive Rune (large range) are extra poke on a few maps." },
+  "style": [
+   "aoe",
+   "siege",
+   "sustained"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 4,
+   "note": "Living Meteor is a vector skillshot that rolls 1.75 seconds and relies on enemies walking along it, so good players sidestep it. Molten Core Meteor Shower and Explosive Rune (large range) are extra poke on a few maps."
+  },
   "heal_blunted": 3,
   "note": "Most damage is repeated AoE chip: Empower Sulfuras splash every 4 seconds, Living Meteor ticks, Blast Wave. Sulfuras Smash adds a burst (594 center plus stun) and Giant Scorcher adds 9 percent max health burn. Measured hero damage 2076 per minute is about the median while siege damage 10026 per minute is more than double the median."
  },
@@ -32,30 +41,89 @@
   "solo_lane": 4
  },
  "cc": {
-  "hard": ["stun"],
-  "soft": ["slow", "knockback"],
+  "hard": [
+   "stun"
+  ],
+  "soft": [
+   "slow",
+   "knockback"
+  ],
   "reliability": 1,
   "note": "Sulfuras Smash stuns for 0.5 seconds in the center and is a telegraphed 0.75 second delay. Slow Burn, Meteor Shower and Flames of Sulfuron add slows. Molten Swing stuns and knocks back but only inside Molten Core. Measured CC on enemies 2.7 seconds per game, very low."
  },
  "good_into": [
-  { "tag": "melee_heavy", "why": "Empower Sulfuras hits everything near the target and Hand of Ragnaros refunds mana and speeds its cooldown when two heroes are hit. Melee heroes cannot avoid the splash and fight at his range." },
-  { "tag": "objective_race", "why": "Molten Core turns an allied or destroyed fort into a 5000 health body with extended range that defends structures and pokes the capture area, plus he double soaks on maps like Infernal Shrines." },
-  { "tag": "summons", "why": "All his abilities are AoE and he clears minions and summons cheaply with Living Meteor and Empower Sulfuras." },
-  { "tag": "tanky_frontline", "why": "Giant Scorcher burns 9 percent of max health and Sulfuras Smash center deals large flat damage, so big health pools are not wasted on him." },
-  { "tag": "split_push", "why": "Lava Wave kills minions instantly and soaks experience without exposing him, and Lava Surge sends minions down faster. Gives global value on large maps." }
+  {
+   "tag": "melee_heavy",
+   "why": "Empower Sulfuras hits everything near the target and Hand of Ragnaros refunds mana and speeds its cooldown when two heroes are hit. Melee heroes cannot avoid the splash and fight at his range."
+  },
+  {
+   "tag": "objective_race",
+   "why": "Molten Core turns an allied or destroyed fort into a 5000 health body with extended range that defends structures and pokes the capture area, plus he double soaks on maps like Infernal Shrines."
+  },
+  {
+   "tag": "summons",
+   "why": "All his abilities are AoE and he clears minions and summons cheaply with Living Meteor and Empower Sulfuras."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Giant Scorcher burns 9 percent of max health and Sulfuras Smash center deals large flat damage, so big health pools are not wasted on him."
+  },
+  {
+   "tag": "split_push",
+   "why": "Lava Wave kills minions instantly and soaks experience without exposing him, and Lava Surge sends minions down faster. Gives global value on large maps."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "He has no gap closer (Blast Wave is only a short speed boost) and the guide says he is extremely weak to kite. Living Meteor is dodgeable." },
-  { "tag": "ranged_heavy", "why": "Ranged heroes outrange Empower Sulfuras and make him fight at the edge of his reach where only Living Meteor works." },
-  { "tag": "cc_heavy", "why": "His basic abilities and Empower Sulfuras are channels or instant attacks that do not protect him, and the guide names Sonya style interrupts as a problem. Resilient Flame only helps against stuns every 15 seconds." },
-  { "tag": "burst_dive", "why": "He is not hard to kill when focused and has no escape beyond Submerge on a 60 second cooldown at level 20." },
-  { "tag": "poke_comp", "why": "He lacks mobility to engage across the map and Molten Core can be avoided by retreating for its 18 second cooldown." }
+  {
+   "tag": "kiter",
+   "why": "He has no gap closer (Blast Wave is only a short speed boost) and the guide says he is extremely weak to kite. Living Meteor is dodgeable."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Ranged heroes outrange Empower Sulfuras and make him fight at the edge of his reach where only Living Meteor works."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "His basic abilities and Empower Sulfuras are channels or instant attacks that do not protect him, and the guide names Sonya style interrupts as a problem. Resilient Flame only helps against stuns every 15 seconds."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "He is not hard to kill when focused and has no escape beyond Submerge on a 60 second cooldown at level 20."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "He lacks mobility to engage across the map and Molten Core can be avoided by retreating for its 18 second cooldown."
+  }
  ],
- "wants_from_team": ["Reliable crowd control to land Sulfuras Smash on a center target", "A tank that creates the opening so he does not engage first", "Support to hold the offlane when Molten Core is down", "Maps where he can double soak"],
- "gives_team": ["Top tier wave clear and siege pressure", "Structure defense with Molten Core", "Long range stun follow up with Sulfuras Smash", "Global minion clear with Lava Wave"],
+ "wants_from_team": [
+  "Reliable crowd control to land Sulfuras Smash on a center target",
+  "A tank that creates the opening so he does not engage first",
+  "Support to hold the offlane when Molten Core is down",
+  "Maps where he can double soak"
+ ],
+ "gives_team": [
+  "Top tier wave clear and siege pressure",
+  "Structure defense with Molten Core",
+  "Long range stun follow up with Sulfuras Smash",
+  "Global minion clear with Lava Wave"
+ ],
  "power_spike": "mid",
- "weaknesses": ["No mobility", "Kited easily", "Weak on capture point maps with no double soak", "Telegraphed burst"],
- "evidence": ["Empower Sulfuras, Living Meteor, Blast Wave, Sulfuras Smash, Lava Wave and Molten Core text", "Blistering Attacks, Hand of Ragnaros, Giant Scorcher, Flames of Sulfuron, Heroic Difficulty talent text", "Icy Veins weaknesses and counters sections", "Measured NGS block: hero damage 2076 per minute, siege 10026, damage taken 2060, win rate 0.496"],
+ "weaknesses": [
+  "No mobility",
+  "Kited easily",
+  "Weak on capture point maps with no double soak",
+  "Telegraphed burst"
+ ],
+ "evidence": [
+  "Empower Sulfuras, Living Meteor, Blast Wave, Sulfuras Smash, Lava Wave and Molten Core text",
+  "Blistering Attacks, Hand of Ragnaros, Giant Scorcher, Flames of Sulfuron, Heroic Difficulty talent text",
+  "Icy Veins weaknesses and counters sections",
+  "Measured NGS block: hero damage 2076 per minute, siege 10026, damage taken 2060, win rate 0.496"
+ ],
  "confidence": "medium",
- "unsure": ["damage.heal_blunted", "ratings.camp_clear"]
+ "unsure": [
+  "damage.heal_blunted",
+  "ratings.camp_clear"
+ ],
+ "owner_notes": "A bruiser who soaks lanes well. His trait defends against a strong push or stalls near the objective. His heroic Smash does huge damage when set up with CC, and Lava Wave can clear a heavy push. Good on most wave clear maps, but on Tomb of the Spider Queen clearing waves with Lava Wave loses the gems. Low health and no escape, so he loses to other bruisers that can CC him or out sustain him."
 }

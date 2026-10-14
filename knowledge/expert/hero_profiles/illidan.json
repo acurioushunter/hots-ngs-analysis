@@ -1,84 +1,117 @@
 {
-  "hero": "Illidan",
-  "slug": "illidan",
-  "role": "Melee Assassin",
-  "attack": {
-    "type": "melee",
-    "range": "melee",
-    "autos_matter": 5,
-    "note": "Betrayer's Thirst turns every basic attack into healing and cooldown reduction, and Sweeping Strike buffs the next autos by 35 percent. Almost all of his value flows through autos, which is why blinds, stuns and fast attack speed enemies wreck him."
+ "hero": "Illidan",
+ "slug": "illidan",
+ "role": "Melee Assassin",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 5,
+  "note": "Betrayer's Thirst turns every basic attack into healing and cooldown reduction, and Sweeping Strike buffs the next autos by 35 percent. Almost all of his value flows through autos, which is why blinds, stuns and fast attack speed enemies wreck him."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": [
+   "sustained",
+   "single_target",
+   "percent_health"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 0,
+   "note": "He has no ranged damage. Dive and Sweeping Strike are gap closers, not poke."
   },
-  "damage": {
-    "carry": true,
-    "ranged_dealer": false,
-    "style": ["sustained", "single_target", "percent_health"],
-    "poke": {
-      "rating": 0,
-      "kind": "none",
-      "dodgeable": 0,
-      "note": "He has no ranged damage. Dive and Sweeping Strike are gap closers, not poke."
-    },
-    "heal_blunted": 3,
-    "note": "Damage is a steady stream of fast basic attacks amplified by Sweeping Strike, Blades of Azzinoth or Fiery Brand (7 percent max health every third attack). Healing from the enemy can slow him but his own life steal and the cooldown loop outlast weak healers; he is notably hard for healers to beat in a duel. Measured hero damage per minute (about 1910) is below the league median, so he is a sustain and macro hero more than a damage leader."
+  "heal_blunted": 3,
+  "note": "Damage is a steady stream of fast basic attacks amplified by Sweeping Strike, Blades of Azzinoth or Fiery Brand (7 percent max health every third attack). Healing from the enemy can slow him but his own life steal and the cooldown loop outlast weak healers; he is notably hard for healers to beat in a duel. Measured hero damage per minute (about 1910) is below the league median, so he is a sustain and macro hero more than a damage leader."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 2,
+  "camp_clear": 4,
+  "siege": 3,
+  "teamfight": 3,
+  "engage": 3,
+  "peel": 1,
+  "mobility": 5,
+  "self_sustain": 5,
+  "survivability": 3,
+  "objective": 2,
+  "global_presence": 4,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [
+   "stun"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
+ "good_into": [
+  {
+   "tag": "squishy_backline",
+   "why": "Dive, Sweeping Strike and The Hunt (stun plus near global range) reach any backline hero and Evasion plus Betrayer's Thirst let him stay on them."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 2,
-    "camp_clear": 4,
-    "siege": 3,
-    "teamfight": 3,
-    "engage": 3,
-    "peel": 1,
-    "mobility": 5,
-    "self_sustain": 5,
-    "survivability": 3,
-    "objective": 2,
-    "global_presence": 4,
-    "solo_lane": 3
+  {
+   "tag": "split_push",
+   "why": "The Hunt reaches anywhere and Illidan solo claims camps and ignores core damage with Evasion, which punishes teams that cannot answer a split pusher."
   },
-  "cc": {
-    "hard": ["stun"],
-    "soft": ["slow"],
-    "reliability": 2
+  {
+   "tag": "low_sustain_healer",
+   "why": "Healers with weak single target heals cannot out heal his life steal, so he wins duels against them."
   },
-  "good_into": [
-    { "tag": "squishy_backline", "why": "Dive, Sweeping Strike and The Hunt (stun plus near global range) reach any backline hero and Evasion plus Betrayer's Thirst let him stay on them." },
-    { "tag": "split_push", "why": "The Hunt reaches anywhere and Illidan solo claims camps and ignores core damage with Evasion, which punishes teams that cannot answer a split pusher." },
-    { "tag": "low_sustain_healer", "why": "Healers with weak single target heals cannot out heal his life steal, so he wins duels against them." },
-    { "tag": "objective_race", "why": "Unbound, Marked for Death and Evasion let him hit cores and structures while enemies are away, and the Hunt gets him across the map." }
-  ],
-  "bad_into": [
-    { "tag": "cc_heavy", "why": "He only deals damage and recovers cooldowns by attacking, so stuns, roots, blinds and silences turn off both his damage and his survival." },
-    { "tag": "kiter", "why": "Heroes with slows, knockbacks or fast movement deny his autos and Betrayer's Thirst, which breaks the cooldown loop." },
-    { "tag": "melee_heavy", "why": "Several melee heroes with strong autos burst through Evasion windows; Reflexive Block and Elusive Strike only partly cover this." },
-    { "tag": "assassin", "why": "He is weak when behind and has no burst damage prevention, so an assassin heavy comp kills him before he can loop." }
-  ],
-  "wants_from_team": [
-    "An enabler: shields, armor or instant heals (Medivh, Abathur)",
-    "Hard CC from a tank so his autos can stay on target",
-    "Teammates who do not need peel from him",
-    "A lead before he can use Metamorphosis"
-  ],
-  "gives_team": [
-    "Map pressure and soaking without losing teamfight presence via The Hunt",
-    "Fast camp control",
-    "A chase hero that is nearly impossible to escape"
-  ],
-  "power_spike": "level_10",
-  "weaknesses": [
-    "Vulnerable to blinds and crowd control because he relies on basic attacks",
-    "Weak when behind and easy to counter pick",
-    "Limited waveclear and siege",
-    "Needs an enabler to shine in teamfights"
-  ],
-  "evidence": [
-    "Betrayer's Thirst: autos heal 30 percent and reduce cooldowns by 1 second",
-    "Dive, Sweeping Strike, Evasion",
-    "Metamorphosis and The Hunt heroics",
-    "Hunter's Onslaught, Marked for Death, Fiery Brand, Blades of Azzinoth, Nowhere to Hide talents",
-    "Icy Veins guide: vulnerable to crowd control, extremely vulnerable to counter picks",
-    "Measured: about 1913 hero damage, 5154 siege, 3508 damage taken per minute, win rate 0.500 over 142 games"
-  ],
-  "confidence": "high",
-  "unsure": []
+  {
+   "tag": "objective_race",
+   "why": "Unbound, Marked for Death and Evasion let him hit cores and structures while enemies are away, and the Hunt gets him across the map."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "cc_heavy",
+   "why": "He only deals damage and recovers cooldowns by attacking, so stuns, roots, blinds and silences turn off both his damage and his survival."
+  },
+  {
+   "tag": "kiter",
+   "why": "Heroes with slows, knockbacks or fast movement deny his autos and Betrayer's Thirst, which breaks the cooldown loop."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Several melee heroes with strong autos burst through Evasion windows; Reflexive Block and Elusive Strike only partly cover this."
+  },
+  {
+   "tag": "assassin",
+   "why": "He is weak when behind and has no burst damage prevention, so an assassin heavy comp kills him before he can loop."
+  }
+ ],
+ "wants_from_team": [
+  "An enabler: shields, armor or instant heals (Medivh, Abathur)",
+  "Hard CC from a tank so his autos can stay on target",
+  "Teammates who do not need peel from him",
+  "A lead before he can use Metamorphosis"
+ ],
+ "gives_team": [
+  "Map pressure and soaking without losing teamfight presence via The Hunt",
+  "Fast camp control",
+  "A chase hero that is nearly impossible to escape"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Vulnerable to blinds and crowd control because he relies on basic attacks",
+  "Weak when behind and easy to counter pick",
+  "Limited waveclear and siege",
+  "Needs an enabler to shine in teamfights"
+ ],
+ "evidence": [
+  "Betrayer's Thirst: autos heal 30 percent and reduce cooldowns by 1 second",
+  "Dive, Sweeping Strike, Evasion",
+  "Metamorphosis and The Hunt heroics",
+  "Hunter's Onslaught, Marked for Death, Fiery Brand, Blades of Azzinoth, Nowhere to Hide talents",
+  "Icy Veins guide: vulnerable to crowd control, extremely vulnerable to counter picks",
+  "Measured: about 1913 hero damage, 5154 siege, 3508 damage taken per minute, win rate 0.500 over 142 games"
+ ],
+ "confidence": "high",
+ "unsure": [],
+ "owner_notes": "A dive melee assassin with decent sustain who dives backlines hard but is weak to CC. A lane bully against many heroes with a high skill ceiling."
 }

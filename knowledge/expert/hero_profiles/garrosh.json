@@ -11,33 +11,120 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["burst", "aoe", "sustained"],
-  "poke": { "rating": 0, "kind": "none", "dodgeable": 3, "note": "No poke. Groundbreaker is a delayed ground area with a stun on the edge, Wrecking Ball is a close range throw with a 2.25 range target pick." },
+  "style": [
+   "burst",
+   "aoe",
+   "sustained"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 3,
+   "note": "No poke. Groundbreaker is a delayed ground area with a stun on the edge, Wrecking Ball is a close range throw with a 2.25 range target pick."
+  },
   "heal_blunted": 2,
   "note": "Wrecking Ball, Groundbreaker and Bloodthirst give burst when the target is caught, Decimate adds doubled AoE sustained damage. Oppressor, Body Check and Deadly Calm reduce enemy damage and healing. Measured 1273 hero damage per minute, siege only 1177, both low."
  },
  "healing": null,
- "ratings": { "wave_clear": 2, "camp_clear": 2, "siege": 1, "teamfight": 4, "engage": 4, "peel": 4, "mobility": 0, "self_sustain": 4, "survivability": 5, "objective": 2, "global_presence": 0, "solo_lane": 2 },
- "cc": { "hard": ["stun", "displacement", "taunt", "silence"], "soft": ["slow"], "reliability": 4 },
+ "ratings": {
+  "wave_clear": 2,
+  "camp_clear": 2,
+  "siege": 1,
+  "teamfight": 4,
+  "engage": 4,
+  "peel": 4,
+  "mobility": 0,
+  "self_sustain": 4,
+  "survivability": 5,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "displacement",
+   "taunt",
+   "silence"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 4
+ },
  "good_into": [
-  { "tag": "squishy_backline", "why": "Wrecking Ball throws the closest hero on the spot or into the team, Earthshaker and Titanic Might isolate a target, and Warlord's Challenge silences and taunts a backline for 2 seconds." },
-  { "tag": "melee_heavy", "why": "Armor Up and Double Up make him very durable against autos, Intimidation cuts attack speed 30 percent, and Warlord's Challenge pulls melee heroes onto him." },
-  { "tag": "burst_dive", "why": "Armor Up gives about half damage reduction at low health, Defensive Measures shields him and Into the Fray peels dived allies and gives them Unstoppable." },
-  { "tag": "single_target_healer", "why": "Body Check applies healing reduction for burst healers such as Whitemane or Brightwing, and Oppressor lowers healing from abilities." },
-  { "tag": "cc_heavy", "why": "Indomitable gives 1.5 seconds Unstoppable and Warlord's Challenge silences channels, so he can interrupt Mosh Pit or Drain Life." }
+  {
+   "tag": "squishy_backline",
+   "why": "Wrecking Ball throws the closest hero on the spot or into the team, Earthshaker and Titanic Might isolate a target, and Warlord's Challenge silences and taunts a backline for 2 seconds."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Armor Up and Double Up make him very durable against autos, Intimidation cuts attack speed 30 percent, and Warlord's Challenge pulls melee heroes onto him."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Armor Up gives about half damage reduction at low health, Defensive Measures shields him and Into the Fray peels dived allies and gives them Unstoppable."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "Body Check applies healing reduction for burst healers such as Whitemane or Brightwing, and Oppressor lowers healing from abilities."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Indomitable gives 1.5 seconds Unstoppable and Warlord's Challenge silences channels, so he can interrupt Mosh Pit or Drain Life."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "No mobility and no gap closer, so ranged assassins such as Lunara kite him away from the team." },
-  { "tag": "ranged_heavy", "why": "He has to walk to targets and Wrecking Ball needs a hero within 2.25 range, so ranged teams outrange his engage." },
-  { "tag": "tanky_frontline", "why": "Percent based damage and armor reduction (Leoric, Sylvanas Overwhelming Affliction) bypass Armor Up, and he has little damage himself." },
-  { "tag": "mobile", "why": "Unstoppable heroes such as Johanna are skipped by Wrecking Ball, which then picks the second closest, and mobile heroes avoid Groundbreaker." },
-  { "tag": "high_sustain_healer", "why": "His damage is low and slows are short, so large AoE healers sustain through his poor output." }
+  {
+   "tag": "kiter",
+   "why": "No mobility and no gap closer, so ranged assassins such as Lunara kite him away from the team."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "He has to walk to targets and Wrecking Ball needs a hero within 2.25 range, so ranged teams outrange his engage."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Percent based damage and armor reduction (Leoric, Sylvanas Overwhelming Affliction) bypass Armor Up, and he has little damage himself."
+  },
+  {
+   "tag": "mobile",
+   "why": "Unstoppable heroes such as Johanna are skipped by Wrecking Ball, which then picks the second closest, and mobile heroes avoid Groundbreaker."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "His damage is low and slows are short, so large AoE healers sustain through his poor output."
+  }
  ],
- "wants_from_team": ["Burst damage and crowd control that follow Wrecking Ball", "A secondary ranged engage such as Hanzo Dragon's Arrow", "Mobility for him, for example Zarya Speed Barrier", "Heroes that need an isolated target to kill"],
- "gives_team": ["A very hard to kill frontline from Armor Up", "Displacement and taunt to start or break fights", "Into the Fray to rescue allies and give Unstoppable", "Spell power and healing reduction"],
+ "wants_from_team": [
+  "Burst damage and crowd control that follow Wrecking Ball",
+  "A secondary ranged engage such as Hanzo Dragon's Arrow",
+  "Mobility for him, for example Zarya Speed Barrier",
+  "Heroes that need an isolated target to kill"
+ ],
+ "gives_team": [
+  "A very hard to kill frontline from Armor Up",
+  "Displacement and taunt to start or break fights",
+  "Into the Fray to rescue allies and give Unstoppable",
+  "Spell power and healing reduction"
+ ],
  "power_spike": "mid",
- "weaknesses": ["No mobility", "Easily kited by ranged assassins", "Low damage output and siege", "Armor based, weak to percent damage"],
- "evidence": ["Groundbreaker, Bloodthirst, Wrecking Ball, Warlord's Challenge, Decimate, Armor Up, Into the Fray ability text", "Talents Indomitable, Oppressor, Defensive Measures, Titanic Might, Mortal Combo, Body Check, Deadly Calm", "Icy Veins: rather poor damage output, easily kited, no mobility, very durable at low health", "measured: hero damage 1273 per minute, siege 1177, damage taken 3313, 126 seconds dead per game, win rate 0.485"],
+ "weaknesses": [
+  "No mobility",
+  "Easily kited by ranged assassins",
+  "Low damage output and siege",
+  "Armor based, weak to percent damage"
+ ],
+ "evidence": [
+  "Groundbreaker, Bloodthirst, Wrecking Ball, Warlord's Challenge, Decimate, Armor Up, Into the Fray ability text",
+  "Talents Indomitable, Oppressor, Defensive Measures, Titanic Might, Mortal Combo, Body Check, Deadly Calm",
+  "Icy Veins: rather poor damage output, easily kited, no mobility, very durable at low health",
+  "measured: hero damage 1273 per minute, siege 1177, damage taken 3313, 126 seconds dead per game, win rate 0.485"
+ ],
  "confidence": "high",
- "unsure": ["ratings.survivability", "bad_into tanky_frontline"]
+ "unsure": [
+  "ratings.survivability",
+  "bad_into tanky_frontline"
+ ],
+ "owner_notes": "A tank who is built to catch people and get kills, not only to hold the front line."
 }

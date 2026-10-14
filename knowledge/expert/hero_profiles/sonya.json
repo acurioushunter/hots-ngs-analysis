@@ -9,10 +9,19 @@
   "note": "Fast attack speed melee. Basic attacks generate Fury, War Paint and Giant Slammer heal from them, Shot Of Fury and Rampage empower them, and the guide recommends two attacks between each Seismic Slam."
  },
  "damage": {
-  "carry": false,
+  "carry": true,
   "ranged_dealer": false,
-  "style": ["sustained", "single_target", "percent_health"],
-  "poke": { "rating": 0, "kind": "none", "dodgeable": 3, "note": "No ranged damage. Ancient Spear is a skillshot gap closer and stun, not poke. Composite Spear extends its range by 50 percent." },
+  "style": [
+   "sustained",
+   "single_target",
+   "percent_health"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 3,
+   "note": "No ranged damage. Ancient Spear is a skillshot gap closer and stun, not poke. Composite Spear extends its range by 50 percent."
+  },
   "heal_blunted": 2,
   "note": "Seismic Slam on a 1 second cooldown plus fast autos is steady single target damage, Giant Slammer adds 1.5 percent max health with 60 percent lifesteal and Wrath of the Berserker adds 40 percent damage. Measured hero damage 1719 per minute is below the 2060 median, so she is a durable duelist and lane bully rather than a big damage carry. Healing on the target blunts her only part way because she heals back."
  },
@@ -32,28 +41,81 @@
   "solo_lane": 5
  },
  "cc": {
-  "hard": ["stun"],
+  "hard": [
+   "stun"
+  ],
   "soft": [],
   "reliability": 2,
   "note": "Ancient Spear stuns briefly if it hits, and Leap (if picked at level 10) stuns 1.25 seconds in an area. Both depend on landing. Measured 16.3 seconds of enemy CC per game."
  },
  "good_into": [
-  { "tag": "tanky_frontline", "why": "Giant Slammer deals 1.5 percent of max health on every attack and slam, and Wrath of the Berserker adds 40 percent damage, so she duels tanks and bruisers well." },
-  { "tag": "melee_heavy", "why": "Whirlwind heals three times as much when it hits heroes and several melee targets stay inside it. Tough As Nails blocks work against slow hitters, and she wins duels at melee range." },
-  { "tag": "immobile", "why": "Ancient Spear pulls her to the target and stuns, Fury movement speed (No Escape 20 percent) lets her stay on and Wrath makes her hard to peel." },
-  { "tag": "squishy_backline", "why": "With the Leap build, Furious Blow and Poisoned Spear give a burst window on a stunned target. This is a situational pick and not her main mode." }
+  {
+   "tag": "tanky_frontline",
+   "why": "Giant Slammer deals 1.5 percent of max health on every attack and slam, and Wrath of the Berserker adds 40 percent damage, so she duels tanks and bruisers well."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Whirlwind heals three times as much when it hits heroes and several melee targets stay inside it. Tough As Nails blocks work against slow hitters, and she wins duels at melee range."
+  },
+  {
+   "tag": "immobile",
+   "why": "Ancient Spear pulls her to the target and stuns, Fury movement speed (No Escape 20 percent) lets her stay on and Wrath makes her hard to peel."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "With the Leap build, Furious Blow and Poisoned Spear give a burst window on a stunned target. This is a situational pick and not her main mode."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "No ranged damage and no talent for it. The guide lists susceptible to kiting first, and Composite Spear is a late answer." },
-  { "tag": "ranged_heavy", "why": "She has nothing against poke, so mobile ranged damage dealers wear her down while Fury only regenerates when she is hit or attacking." },
-  { "tag": "cc_heavy", "why": "Wrath only halves stun, root and slow, not silence, fear or taunt. Whirlwind and Ancient Spear are interrupted by crowd control and a missed spear leaves her Fury starved." },
-  { "tag": "poke_comp", "why": "Fury does not regenerate over time and her sustain needs contact, so poke drains her before the fight. Tough As Nails and Ignore Pain help little against spread chip damage." }
+  {
+   "tag": "kiter",
+   "why": "No ranged damage and no talent for it. The guide lists susceptible to kiting first, and Composite Spear is a late answer."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "She has nothing against poke, so mobile ranged damage dealers wear her down while Fury only regenerates when she is hit or attacking."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Wrath only halves stun, root and slow, not silence, fear or taunt. Whirlwind and Ancient Spear are interrupted by crowd control and a missed spear leaves her Fury starved."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Fury does not regenerate over time and her sustain needs contact, so poke drains her before the fight. Tough As Nails and Ignore Pain help little against spread chip damage."
+  }
  ],
- "wants_from_team": ["A tank or crowd control to stop kiters", "Healing, mitigation or Nano style buffs to prolong Wrath of the Berserker", "Burst follow up if Leap is picked", "Mercenary camp maps where she can take camps for the team"],
- "gives_team": ["Mercenary camp control and lane pressure", "Wave clear and structure damage", "Self sufficient solo lane", "An engage and interrupt with Leap in the situational build"],
+ "wants_from_team": [
+  "A tank or crowd control to stop kiters",
+  "Healing, mitigation or Nano style buffs to prolong Wrath of the Berserker",
+  "Burst follow up if Leap is picked",
+  "Mercenary camp maps where she can take camps for the team"
+ ],
+ "gives_team": [
+  "Mercenary camp control and lane pressure",
+  "Wave clear and structure damage",
+  "Self sufficient solo lane",
+  "An engage and interrupt with Leap in the situational build"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Susceptible to kiting", "No ranged damage", "Whirlwind easily interrupted", "Reliant on hitting Ancient Spear for Fury"],
- "evidence": ["Fury, Ancient Spear, Seismic Slam, Whirlwind, Leap and Wrath of the Berserker text", "Giant Slammer, Shot Of Fury, Battle Rage, Life Funnel, Ignore Pain talent text", "Icy Veins strengths, weaknesses and counters", "Measured NGS block: hero damage 1719 per minute, damage taken 3001, siege 5893, win rate 0.495"],
+ "weaknesses": [
+  "Susceptible to kiting",
+  "No ranged damage",
+  "Whirlwind easily interrupted",
+  "Reliant on hitting Ancient Spear for Fury"
+ ],
+ "evidence": [
+  "Fury, Ancient Spear, Seismic Slam, Whirlwind, Leap and Wrath of the Berserker text",
+  "Giant Slammer, Shot Of Fury, Battle Rage, Life Funnel, Ignore Pain talent text",
+  "Icy Veins strengths, weaknesses and counters",
+  "Measured NGS block: hero damage 1719 per minute, damage taken 3001, siege 5893, win rate 0.495"
+ ],
  "confidence": "medium",
- "unsure": ["damage.carry", "damage.heal_blunted"]
+ "unsure": [
+  "damage.carry",
+  "damage.heal_blunted"
+ ],
+ "owner_notes": "A good brawler bruiser like Thrall, better at wave clear and camps. High burst, and can jump the enemy backline with Leap, a good hero for combos behind a CC chain (Light bomb). Her other heroic gives more sustain. When the enemy has no CC her spin can deal decent damage and sustain through a lot of fights.",
+ "owner_corrections": [
+  "damage.carry to True"
+ ]
 }

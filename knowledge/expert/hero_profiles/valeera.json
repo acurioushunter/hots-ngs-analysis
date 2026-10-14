@@ -1,85 +1,123 @@
 {
-  "hero": "Valeera",
-  "slug": "valeera",
-  "role": "Melee Assassin",
-  "attack": {
-    "type": "melee",
-    "range": "melee",
-    "autos_matter": 1,
-    "note": "Almost all damage is Sinister Strike, Ambush, Garrote and Eviscerate. Autos matter only with Slice and Dice, Hemorrhage and Rupture."
+ "hero": "Valeera",
+ "slug": "valeera",
+ "role": "Melee Assassin",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 1,
+  "note": "Almost all damage is Sinister Strike, Ambush, Garrote and Eviscerate. Autos matter only with Slice and Dice, Hemorrhage and Rupture."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": [
+   "burst",
+   "single_target",
+   "dot"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 0,
+   "note": "No poke at all. She works from Vanish stealth and teleports with Ambush, Cheap Shot or Garrote."
   },
-  "damage": {
-    "carry": true,
-    "ranged_dealer": false,
-    "style": ["burst", "single_target", "dot"],
-    "poke": {
-      "rating": 0,
-      "kind": "none",
-      "dodgeable": 0,
-      "note": "No poke at all. She works from Vanish stealth and teleports with Ambush, Cheap Shot or Garrote."
-    },
-    "heal_blunted": 1,
-    "note": "Ambush, Mutilate Sinister Strike and a 3 point Eviscerate land inside about two seconds, plus a Garrote silence that stops escapes. Healing arrives too late. Wound Poison can halve healing but is a minor talent. Measured NGS data (40 games, win rate 0.325) says she is rare and has struggled."
+  "heal_blunted": 1,
+  "note": "Ambush, Mutilate Sinister Strike and a 3 point Eviscerate land inside about two seconds, plus a Garrote silence that stops escapes. Healing arrives too late. Wound Poison can halve healing but is a minor talent. Measured NGS data (40 games, win rate 0.325) says she is rare and has struggled."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 1,
+  "siege": 1,
+  "teamfight": 3,
+  "engage": 4,
+  "peel": 2,
+  "mobility": 4,
+  "self_sustain": 1,
+  "survivability": 2,
+  "objective": 1,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "silence",
+   "blind"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
+ "good_into": [
+  {
+   "tag": "squishy_backline",
+   "why": "Vanish into Ambush, Garrote silence and Eviscerate kill a low health priority target such as Valla or Kael'thas before they react."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 1,
-    "camp_clear": 1,
-    "siege": 1,
-    "teamfight": 3,
-    "engage": 4,
-    "peel": 2,
-    "mobility": 4,
-    "self_sustain": 1,
-    "survivability": 2,
-    "objective": 1,
-    "global_presence": 0,
-    "solo_lane": 2
+  {
+   "tag": "kiter",
+   "why": "Stealth teleports behind a target and Garrote silences blinks and dashes, so mobile ranged heroes cannot flee."
   },
-  "cc": {
-    "hard": ["stun", "silence", "blind"],
-    "soft": ["slow"],
-    "reliability": 3
+  {
+   "tag": "assassin",
+   "why": "Cheap Shot stuns and blinds basic attack reliant assassins and Smoke Bomb gives 60 percent damage reduction against them."
   },
-  "good_into": [
-    { "tag": "squishy_backline", "why": "Vanish into Ambush, Garrote silence and Eviscerate kill a low health priority target such as Valla or Kael'thas before they react." },
-    { "tag": "kiter", "why": "Stealth teleports behind a target and Garrote silences blinks and dashes, so mobile ranged heroes cannot flee." },
-    { "tag": "assassin", "why": "Cheap Shot stuns and blinds basic attack reliant assassins and Smoke Bomb gives 60 percent damage reduction against them." },
-    { "tag": "ranged_heavy", "why": "Low health ranged damage dealers such as Valla and Kael'thas are the targets the guide names, and a Garrote silence plus Eviscerate kills them." }
-  ],
-  "bad_into": [
-    { "tag": "cc_heavy", "why": "A stun or silence while she is deep in the backline kills her, and Cloak of Shadows only covers a short window." },
-    { "tag": "stealth", "why": "Heroes who reveal (Eye of Kilrogg, area damage, Nova scans) break her opener and she is weak when revealed." },
-    { "tag": "tanky_frontline", "why": "Assassinate needs the target to be isolated, so a coordinated team with a front line protects its backline." },
-    { "tag": "high_sustain_healer", "why": "If the target survives the burst, she has little sustained damage or self heal and loses the trade." }
-  ],
-  "wants_from_team": [
-    "Hard CC and burst that she can follow or combo with (Garrosh, E.T.C., Abathur)",
-    "Early game strength since she is weak in lane",
-    "Teammates who can clear waves and camps",
-    "Large map with multiple objectives to roam"
-  ],
-  "gives_team": [
-    "Backline assassination",
-    "Pick potential and silence on key targets",
-    "Early roaming gank pressure",
-    "Anti assassin answer"
-  ],
-  "power_spike": "mid",
-  "weaknesses": [
-    "Weak waveclear and PvE",
-    "Very dependent on stealth openers",
-    "Susceptible to crowd control and reveals",
-    "Dependent on Level 4 and 7 talents"
-  ],
-  "evidence": [
-    "Vanish stealth and combo points",
-    "Ambush, Cheap Shot, Garrote, Sinister Strike, Eviscerate",
-    "Smoke Bomb and Cloak of Shadows heroics",
-    "Mutilate, Seal Fate, Assassinate talents",
-    "Icy Veins guide: counter pick against low health targets, weak PvE",
-    "Measured: about 1921 hero damage, 2117 siege per minute, 36 CC seconds, win rate 0.325 over only 40 games"
-  ],
-  "confidence": "medium",
-  "unsure": ["ratings.teamfight", "power_spike"]
+  {
+   "tag": "ranged_heavy",
+   "why": "Low health ranged damage dealers such as Valla and Kael'thas are the targets the guide names, and a Garrote silence plus Eviscerate kills them."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "cc_heavy",
+   "why": "A stun or silence while she is deep in the backline kills her, and Cloak of Shadows only covers a short window."
+  },
+  {
+   "tag": "stealth",
+   "why": "Heroes who reveal (Eye of Kilrogg, area damage, Nova scans) break her opener and she is weak when revealed."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Assassinate needs the target to be isolated, so a coordinated team with a front line protects its backline."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "If the target survives the burst, she has little sustained damage or self heal and loses the trade."
+  }
+ ],
+ "wants_from_team": [
+  "Hard CC and burst that she can follow or combo with (Garrosh, E.T.C., Abathur)",
+  "Early game strength since she is weak in lane",
+  "Teammates who can clear waves and camps",
+  "Large map with multiple objectives to roam"
+ ],
+ "gives_team": [
+  "Backline assassination",
+  "Pick potential and silence on key targets",
+  "Early roaming gank pressure",
+  "Anti assassin answer"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Weak waveclear and PvE",
+  "Very dependent on stealth openers",
+  "Susceptible to crowd control and reveals",
+  "Dependent on Level 4 and 7 talents"
+ ],
+ "evidence": [
+  "Vanish stealth and combo points",
+  "Ambush, Cheap Shot, Garrote, Sinister Strike, Eviscerate",
+  "Smoke Bomb and Cloak of Shadows heroics",
+  "Mutilate, Seal Fate, Assassinate talents",
+  "Icy Veins guide: counter pick against low health targets, weak PvE",
+  "Measured: about 1921 hero damage, 2117 siege per minute, 36 CC seconds, win rate 0.325 over only 40 games"
+ ],
+ "confidence": "medium",
+ "unsure": [
+  "ratings.teamfight",
+  "power_spike"
+ ],
+ "owner_notes": "Like Nova she looks for isolated picks and ganks. Can be good, but struggles against coordinated teams unless the player times engages very well. Weaker in team fights and stronger in the laning phase."
 }

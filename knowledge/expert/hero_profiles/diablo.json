@@ -11,33 +11,118 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["burst", "aoe", "zone"],
-  "poke": { "rating": 1, "kind": "none", "dodgeable": 3, "note": "Fire Stomp is a short cone that only hits for full value in melee range, and Lightning Breath is a stationary channel, not a poke." },
+  "style": [
+   "burst",
+   "aoe",
+   "zone"
+  ],
+  "poke": {
+   "rating": 1,
+   "kind": "none",
+   "dodgeable": 3,
+   "note": "Fire Stomp is a short cone that only hits for full value in melee range, and Lightning Breath is a stationary channel, not a poke."
+  },
   "heal_blunted": 2,
   "note": "Shadow Charge wall stun plus Overpower and Malevolence is single target burst, Lightning Breath deals 50 every 0.25 seconds and is one of the highest damage abilities in the game, and Apocalypse is a delayed AoE stun. Fire Stomp heals him for 130 percent of the damage, so his own sustain is strong. Measured 1767 hero damage and a very high 5010 damage taken per minute."
  },
  "healing": null,
- "ratings": { "wave_clear": 1, "camp_clear": 2, "siege": 2, "teamfight": 4, "engage": 5, "peel": 4, "mobility": 2, "self_sustain": 4, "survivability": 4, "objective": 2, "global_presence": 0, "solo_lane": 1 },
- "cc": { "hard": ["stun", "knockback", "pull"], "soft": ["slow"], "reliability": 4 },
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 2,
+  "siege": 2,
+  "teamfight": 4,
+  "engage": 5,
+  "peel": 4,
+  "mobility": 2,
+  "self_sustain": 4,
+  "survivability": 4,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 1
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "knockback",
+   "pull"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 4
+ },
  "good_into": [
-  { "tag": "squishy_backline", "why": "Shadow Charge into Overpower reaches any hero, and the guide says he counters comps that rely on one key damage dealer or healer." },
-  { "tag": "immobile", "why": "Apocalypse with Shadow Charge locks a single target, and Lightning Breath slows up to 40 percent so low mobility heroes cannot leave." },
-  { "tag": "cc_heavy", "why": "Lightning Breath makes him Unstoppable, Soul Shield gives spell armor, and Hellgate teleports out. The heroic can also dodge Chromie style heroics." },
-  { "tag": "single_target_healer", "why": "Diablo can pull the one healer away from the fight and stun them with Apocalypse, and Debilitating Flames halves the damage of slowed heroes." },
-  { "tag": "poke_comp", "why": "Fire Stomp with Souls to the Flame and Black Soulstone health bonus heal through chip damage, and Soul Shield and Devil's Due raise sustain." }
+  {
+   "tag": "squishy_backline",
+   "why": "Shadow Charge into Overpower reaches any hero, and the guide says he counters comps that rely on one key damage dealer or healer."
+  },
+  {
+   "tag": "immobile",
+   "why": "Apocalypse with Shadow Charge locks a single target, and Lightning Breath slows up to 40 percent so low mobility heroes cannot leave."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Lightning Breath makes him Unstoppable, Soul Shield gives spell armor, and Hellgate teleports out. The heroic can also dodge Chromie style heroics."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "Diablo can pull the one healer away from the fight and stun them with Apocalypse, and Debilitating Flames halves the damage of slowed heroes."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Fire Stomp with Souls to the Flame and Black Soulstone health bonus heal through chip damage, and Soul Shield and Devil's Due raise sustain."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "He needs impassable terrain behind a target and melee range, and kiters such as Tychus counter him per the guide." },
-  { "tag": "burst_dive", "why": "Early game is weak before 100 Souls and level 7, and a death without Black Soulstone leaves a large health pool dead." },
-  { "tag": "mobile", "why": "Heroes that blink away from Shadow Charge or dodge Overpower waste his engage, and some can stop the animation (Penetrating Round)." },
-  { "tag": "split_push", "why": "Low waveclear and siege means he cannot answer split pushing or hold lanes, and he is weak on wide maps." },
-  { "tag": "high_sustain_healer", "why": "Fire Stomp and Lightning Breath damage is small enough that large AoE healers outheal it, while percent based damage kills his large health pool." }
+  {
+   "tag": "kiter",
+   "why": "He needs impassable terrain behind a target and melee range, and kiters such as Tychus counter him per the guide."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Early game is weak before 100 Souls and level 7, and a death without Black Soulstone leaves a large health pool dead."
+  },
+  {
+   "tag": "mobile",
+   "why": "Heroes that blink away from Shadow Charge or dodge Overpower waste his engage, and some can stop the animation (Penetrating Round)."
+  },
+  {
+   "tag": "split_push",
+   "why": "Low waveclear and siege means he cannot answer split pushing or hold lanes, and he is weak on wide maps."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Fire Stomp and Lightning Breath damage is small enough that large AoE healers outheal it, while percent based damage kills his large health pool."
+  }
  ],
- "wants_from_team": ["Burst damage and crowd control that follow Shadow Charge and Overpower", "Heroic abilities that combo with Apocalypse", "Maps with walls and choke points", "Someone to cover waveclear and early game"],
- "gives_team": ["One of the best engages in the game", "Body blocking and peel with Overpower", "Interrupts channels with Shadow Charge stun", "Lightning Breath zoning and objective control"],
+ "wants_from_team": [
+  "Burst damage and crowd control that follow Shadow Charge and Overpower",
+  "Heroic abilities that combo with Apocalypse",
+  "Maps with walls and choke points",
+  "Someone to cover waveclear and early game"
+ ],
+ "gives_team": [
+  "One of the best engages in the game",
+  "Body blocking and peel with Overpower",
+  "Interrupts channels with Shadow Charge stun",
+  "Lightning Breath zoning and objective control"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Weak early game before Souls and level 7", "Low waveclear and siege", "Conditional mobility, needs terrain", "Percent health damage and kiting"],
- "evidence": ["Shadow Charge, Fire Stomp, Overpower, Apocalypse, Lightning Breath, Black Soulstone ability text", "Talents Soul Shield, Eternal Flames, Domination, Hellgate, Debilitating Flames", "Icy Veins: aggressive tank, engage and zoning, weak waveclear", "measured: hero damage 1767 per minute, siege 1870, damage taken 5010, win rate 0.502 in 1697 games"],
+ "weaknesses": [
+  "Weak early game before Souls and level 7",
+  "Low waveclear and siege",
+  "Conditional mobility, needs terrain",
+  "Percent health damage and kiting"
+ ],
+ "evidence": [
+  "Shadow Charge, Fire Stomp, Overpower, Apocalypse, Lightning Breath, Black Soulstone ability text",
+  "Talents Soul Shield, Eternal Flames, Domination, Hellgate, Debilitating Flames",
+  "Icy Veins: aggressive tank, engage and zoning, weak waveclear",
+  "measured: hero damage 1767 per minute, siege 1870, damage taken 5010, win rate 0.502 in 1697 games"
+ ],
  "confidence": "high",
- "unsure": ["ratings.survivability"]
+ "unsure": [
+  "ratings.survivability"
+ ],
+ "owner_notes": "A tank who is built to catch people and get kills, not only to hold the front line."
 }

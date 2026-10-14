@@ -1,0 +1,474 @@
+{
+ "_meta": {
+  "purpose": "Lens catalog: every axis a draft should reason about. Hero values live in knowledge/expert/hero_profiles/<slug>.json under \"lenses\". Checked by test_hero_profiles.py.",
+  "families": [
+   "Crowd control",
+   "Damage",
+   "Frontline and bruisers",
+   "Game flow and power",
+   "Healers and supports",
+   "Kills and assassination",
+   "Map and macro",
+   "Weaknesses and counters"
+  ]
+ },
+ "lenses": {
+  "damage_delivery": {
+   "key": "damage_delivery",
+   "family": "Damage",
+   "question": "How does the hero actually produce damage?",
+   "kind": "single",
+   "values": {
+    "auto_attacker": "most damage is basic attacks (Valla, Tychus, Raynor, Greymane)",
+    "ability_caster": "most damage is abilities, autos are filler (Li-Ming, Jaina, Kael'thas)",
+    "hybrid": "autos and abilities both carry the damage (Sylvanas, Cassia, Falstad)",
+    "summoner": "pets, turrets or minions do the work (Azmodan, Zagara, Probius, Kel'Thuzad, Gazlowe)",
+    "zone_trap": "damage comes from areas and traps the enemy walks into (Junkrat, Abathur nests)",
+    "melee_brawler": "close range autos and abilities in a fight (Illidan, Sonya, Zeratul)",
+    "channel": "damage is a channelled or charged ability that is easy to interrupt",
+    "utility_minimal": "its damage is not why it is picked"
+   },
+   "draft_use": "Tells whether a comp has the right MIX of damage sources and what interrupts it."
+  },
+  "damage_timing": {
+   "key": "damage_timing",
+   "family": "Damage",
+   "question": "When in a fight does the damage arrive?",
+   "kind": "single",
+   "values": {
+    "burst_window": "big damage in a short window, then waits on cooldowns",
+    "sustained_dps": "steady damage as long as it stays alive and in range",
+    "chip_poke": "small, repeated damage from range that wears targets down",
+    "dot_stacking": "damage over time and stacks",
+    "execute_finisher": "strongest on low health or marked targets",
+    "ramp_up": "weak at first, scales through a fight or the game"
+   },
+   "draft_use": "Burst beats healing and shields, chip is beaten by healing, so this pairs with the healer and tank lenses."
+  },
+  "damage_reach": {
+   "key": "damage_reach",
+   "family": "Damage",
+   "question": "From how far can it deal its damage in a fight?",
+   "kind": "single",
+   "values": {
+    "point_blank": "must be on top of the target",
+    "short": "short range, a few hero lengths",
+    "medium": "standard ranged attack distance",
+    "long": "outranges most heroes and many abilities"
+   },
+   "draft_use": "Range wars: who can hit whom without being hit, and what a melee front line can reach."
+  },
+  "target_style": {
+   "key": "target_style",
+   "family": "Damage",
+   "question": "What does the damage hit?",
+   "kind": "single",
+   "values": {
+    "single_target": "one hero at a time",
+    "cleave_aoe": "splash, cones and areas",
+    "percent_health": "percent of max health damage that tanks feel",
+    "structure_focus": "built to hit forts, towers and cores",
+    "minion_focus": "wave clear first, hero damage second"
+   },
+   "draft_use": "Percent damage and single target answer tanks, aoe answers clumped and squishy teams."
+  },
+  "damage_reliability": {
+   "key": "damage_reliability",
+   "family": "Damage",
+   "question": "What must go right for the damage to land?",
+   "kind": "multi",
+   "values": {
+    "guaranteed": "point and click or auto attacks that always hit once in range",
+    "skillshot": "must aim abilities, can be dodged",
+    "setup_needed": "needs a partner CC, a stun or a stack first",
+    "stack_or_quest": "depends on stacks or a quest that takes time or has to be protected",
+    "positioning": "needs a flank, a safe angle or a specific stance"
+   },
+   "draft_use": "Skillshot damage is weak into mobile heroes, setup damage needs partners with CC."
+  },
+  "frontline_style": {
+   "key": "frontline_style",
+   "family": "Frontline and bruisers",
+   "question": "What kind of front line is this hero (tanks and bruisers)?",
+   "kind": "single",
+   "values": {
+    "initiator": "starts fights with a big engage",
+    "anchor_peeler": "holds position and protects the backline",
+    "disruptor": "breaks up the enemy team, pulls or knocks back",
+    "brawler_sustain": "wins long fights by outlasting, lifesteal or self heals",
+    "dive_bruiser": "jumps on the backline and fights there",
+    "zone_controller": "denies space with walls, fields and slows",
+    "not_frontline": "does not take the front line"
+   },
+   "draft_use": "A comp usually needs one hero that initiates and one that protects; two initiators with no peel is a coin flip."
+  },
+  "durability_source": {
+   "key": "durability_source",
+   "family": "Frontline and bruisers",
+   "question": "How does it stay alive?",
+   "kind": "multi",
+   "values": {
+    "armor_or_shield": "armor, shields or absorb",
+    "self_heal": "lifesteal, regeneration or self healing",
+    "damage_reduction": "damage reduction windows",
+    "untargetable_or_escape": "untargetable, invulnerable or escapes",
+    "big_health": "raw health pool",
+    "relies_on_healer": "needs a healer to stay in the fight",
+    "fragile": "dies quickly if caught"
+   },
+   "draft_use": "Heroes that rely on a healer bring more value into low pressure fights and less into dive."
+  },
+  "lane_role": {
+   "key": "lane_role",
+   "family": "Frontline and bruisers",
+   "question": "Where does it want to play before the fights?",
+   "kind": "single",
+   "values": {
+    "solo_laner": "can take a lane alone and hold or push it",
+    "split_pusher": "wins by pushing a lane alone and pulling attention",
+    "rotator": "moves between lanes and fights, does not hold a lane",
+    "soak_and_group": "groups with the team and soaks with it",
+    "camp_taker": "takes mercenary camps to speed rotations",
+    "no_lane": "does not want a lane at all"
+   },
+   "draft_use": "A draft needs a lane plan: one solo laner and who rotates."
+  },
+  "kill_pattern": {
+   "key": "kill_pattern",
+   "family": "Kills and assassination",
+   "question": "How does it get kills?",
+   "kind": "single",
+   "values": {
+    "backline_dive": "jumps over the front line to the backline",
+    "flank_pick": "comes from the side or behind to pick off a hero",
+    "stealth_ambush": "stealth or untargetable setup then burst",
+    "burst_snipe": "a long range burst on a target",
+    "cc_chain": "catches with CC and others finish",
+    "attrition": "wins by chip damage and positional squeezing",
+    "none": "not a kill source"
+   },
+   "draft_use": "Pick comps want several different kill patterns; dive comps want the CC chain to hold the backline."
+  },
+  "escape": {
+   "key": "escape",
+   "family": "Kills and assassination",
+   "question": "Can it get out after it commits or is caught?",
+   "kind": "single",
+   "values": {
+    "strong": "reliable escape or untargetable",
+    "partial": "one escape on a cooldown or conditional",
+    "none": "no escape, a catch is a death"
+   },
+   "draft_use": "Heroes with no escape are the targets of dive and stun comps, and are kept alive by peel."
+  },
+  "setup_reliance": {
+   "key": "setup_reliance",
+   "family": "Kills and assassination",
+   "question": "Does it start things or finish things?",
+   "kind": "single",
+   "values": {
+    "self_starter": "can create its own kill opportunities",
+    "needs_cc_partner": "needs another hero CC or engage to get value",
+    "needs_peel": "needs to be protected to deal damage",
+    "cleanup": "cleans up after a fight started by others"
+   },
+   "draft_use": "Counts of needs_cc_partner heroes must be matched by CC providers on the comp."
+  },
+  "healer_class": {
+   "key": "healer_class",
+   "family": "Healers and supports",
+   "question": "What kind of healer or support is this?",
+   "kind": "single",
+   "values": {
+    "burst_single": "big heals on one target (Uther, Ana, Anduin)",
+    "sustain_single": "steady healing on one or two targets (Malfurion, Deckard, Li Li)",
+    "aoe_sustain": "heals many people through chip damage (Brightwing, Lucio, Stukov, Auriel)",
+    "shield_absorb": "prevents damage with shields",
+    "hit_and_run": "weak heals, strong mobility or utility",
+    "utility_support": "buffs, speed, vision or macro tools more than healing",
+    "not_a_healer": "no healing role"
+   },
+   "draft_use": "Match healers to comps: poke teams want sustain, dive teams want burst heals, a shield support makes a squishy comp playable."
+  },
+  "healer_safety": {
+   "key": "healer_safety",
+   "family": "Healers and supports",
+   "question": "How exposed is the healer?",
+   "kind": "single",
+   "values": {
+    "safe": "heals from range or has escapes",
+    "conditional": "safe when positioned well or peeled",
+    "exposed": "must be in danger to heal",
+    "not_a_healer": "not a healer"
+   },
+   "draft_use": "An exposed healer into dive is a trade you lose."
+  },
+  "utility_tool": {
+   "key": "utility_tool",
+   "family": "Healers and supports",
+   "question": "What non damage tool does it bring?",
+   "kind": "multi",
+   "values": {
+    "speed_buff": "speed aura or buff to the team",
+    "vision_or_reveal": "vision, scouting, detection",
+    "cleanse_or_cc_denial": "removes or blocks CC",
+    "silence_or_dismount": "silences or dismounts",
+    "revive_or_second_life": "revives or saves from death",
+    "global_ability": "global map ability",
+    "zone_or_wall": "blocks space",
+    "teleport_or_portal": "moves the team",
+    "anti_heal": "reduces enemy healing",
+    "none": "no notable utility"
+   },
+   "draft_use": "Utility explains why a hero is picked beyond damage and healing."
+  },
+  "cc_profile": {
+   "key": "cc_profile",
+   "family": "Crowd control",
+   "question": "How much CC and what kind?",
+   "kind": "single",
+   "values": {
+    "chain_hard": "two or more reliable hard CC tools that chain",
+    "single_hard": "one reliable hard CC (a stun or silence)",
+    "soft_only": "slows and soft CC only",
+    "talent_dependent": "CC only if a talent is taken",
+    "none": "no CC"
+   },
+   "draft_use": "Comps need several hard CC tools to hold targets for burst; too little means damage dealers cannot land setup combos."
+  },
+  "cc_delivery": {
+   "key": "cc_delivery",
+   "family": "Crowd control",
+   "question": "How hard is the CC to land?",
+   "kind": "single",
+   "values": {
+    "point_and_click": "targeted, cannot be dodged",
+    "aoe_or_cone": "wide area, easy to land",
+    "skillshot": "must be aimed, can be dodged",
+    "long_range": "lands from very far",
+    "melee_range": "must be adjacent",
+    "none": "no CC"
+   },
+   "draft_use": "Skillshot CC into mobile heroes is unreliable; point and click chains beat mobile comps."
+  },
+  "anti_cc": {
+   "key": "anti_cc",
+   "family": "Crowd control",
+   "question": "How does it deal with enemy CC?",
+   "kind": "multi",
+   "values": {
+    "cleanse": "cleanse or purge",
+    "unstoppable": "unstoppable or CC immunity windows",
+    "shield_or_bubble": "block or shield that protects it",
+    "mobility_through": "dash or leap out of CC",
+    "none": "no tool"
+   },
+   "draft_use": "Heavy CC comps are blanked by cleanse and unstoppable tools, so a team needs at least one answer."
+  },
+  "wave_clear_style": {
+   "key": "wave_clear_style",
+   "family": "Map and macro",
+   "question": "How does it clear lanes?",
+   "kind": "single",
+   "values": {
+    "aoe_burst": "one or two abilities clear a wave fast",
+    "sustained": "clears with autos over time",
+    "summons_or_zone": "pets, turrets or zones clear while it does other things",
+    "poor": "cannot clear a wave quickly"
+   },
+   "draft_use": "Maps with waves and objectives need at least one burst or summon clearer; zero is a macro loss."
+  },
+  "camp_play": {
+   "key": "camp_play",
+   "family": "Map and macro",
+   "question": "Can it take mercenary camps well?",
+   "kind": "single",
+   "values": {
+    "solo_camp_taker": "takes camps alone fast",
+    "ok": "can take camps with some time",
+    "poor": "slow or risky on camps"
+   },
+   "draft_use": "Camp control sets the tempo for objective timings."
+  },
+  "objective_role": {
+   "key": "objective_role",
+   "family": "Map and macro",
+   "question": "What does it do at objectives?",
+   "kind": "multi",
+   "values": {
+    "burst_objective": "high damage on objective targets",
+    "zone_hold": "holds ground at the objective with CC and zone",
+    "mobility_rotate": "rotates fast to objective timings",
+    "global_presence": "impacts both objective and lanes from far away",
+    "siege_pressure": "pressures forts and keeps the enemy honest between objectives",
+    "little": "not an objective hero"
+   },
+   "draft_use": "Different maps reward different objective roles."
+  },
+  "split_potential": {
+   "key": "split_potential",
+   "family": "Map and macro",
+   "question": "How well can it split push or draw attention in a lane?",
+   "kind": "single",
+   "values": {
+    "strong": "a one hero lane that must be answered",
+    "some": "can split briefly or with a talent",
+    "weak": "cannot hold a lane alone"
+   },
+   "draft_use": "A split comp needs one hero strong at it and the rest able to fight 4 on 5 or hold."
+  },
+  "map_mobility": {
+   "key": "map_mobility",
+   "family": "Map and macro",
+   "question": "How fast can it move around the map and into a fight?",
+   "kind": "single",
+   "values": {
+    "global_teleport": "teleport or global",
+    "high": "mounts, speed boosts, leaps",
+    "average": "normal movement",
+    "low": "slow or locked in place"
+   },
+   "draft_use": "Mobility decides who wins rotations; low mobility comps lose double objectives."
+  },
+  "vision_stealth": {
+   "key": "vision_stealth",
+   "family": "Map and macro",
+   "question": "What does it do for vision and information?",
+   "kind": "multi",
+   "values": {
+    "grants_vision": "gives vision",
+    "stealth": "can become unseen",
+    "detection": "reveals stealth heroes",
+    "scouting": "scouting tool like a unit",
+    "none": "none"
+   },
+   "draft_use": "Stealth comps need detection answers."
+  },
+  "power_curve": {
+   "key": "power_curve",
+   "family": "Game flow and power",
+   "question": "When is it strongest?",
+   "kind": "single",
+   "values": {
+    "early_dominant": "early lane and early fight power, loses value late",
+    "steady": "consistent through the game",
+    "mid_spike": "stronger from level 10 or 13",
+    "late_scaler": "weak early, dominates at level 16 to 20",
+    "stack_dependent": "power depends on a quest or stacks"
+   },
+   "draft_use": "Early comps want fights before level 10, late scalers want long games; a draft with both is confused."
+  },
+  "snowball": {
+   "key": "snowball",
+   "family": "Game flow and power",
+   "question": "How does it react to leads and deficits?",
+   "kind": "single",
+   "values": {
+    "snowballer": "gets much stronger from kills or leads",
+    "steady": "unchanged",
+    "comeback": "has a way to come back (global ult, long range siege, mobility)"
+   },
+   "draft_use": "Snowball comps punish slow starts; comeback tools are insurance."
+  },
+  "ultimate_role": {
+   "key": "ultimate_role",
+   "family": "Game flow and power",
+   "question": "What is its heroic or ultimate for?",
+   "kind": "single",
+   "values": {
+    "teamfight_swing": "swings a fight when it lands",
+    "pick_tool": "kills or locks one target",
+    "objective_tool": "for objective or siege",
+    "defensive": "saves someone or denies damage",
+    "global_utility": "global or macro effect",
+    "low_impact": "weak heroic, the hero is picked for its basic kit"
+   },
+   "draft_use": "A comp needs a fight swinger, and the opposing comp ults should be answered."
+  },
+  "execution_demand": {
+   "key": "execution_demand",
+   "family": "Game flow and power",
+   "question": "How hard is it to play well?",
+   "kind": "single",
+   "values": {
+    "low": "easy to play, low risk",
+    "medium": "needs decent mechanics and positioning",
+    "high": "punishes mistakes, needs mastery",
+    "team_dependent": "easy alone, needs team coordination"
+   },
+   "draft_use": "A comfort pick for the player usually beats a theoretically better pick that is hard."
+  },
+  "team_needs": {
+   "key": "team_needs",
+   "family": "Game flow and power",
+   "question": "What does it need from the team to function?",
+   "kind": "multi",
+   "values": {
+    "healer": "a healer to sustain it",
+    "peel": "a peeler to protect it",
+    "cc_setup": "CC to land its combo",
+    "front_line": "a front line to stand behind",
+    "wave_clear": "someone else clears waves while it fights",
+    "nothing": "works independently"
+   },
+   "draft_use": "Counting needs across the five heroes shows whether the comp ask exceeds what it provides."
+  },
+  "team_gives": {
+   "key": "team_gives",
+   "family": "Game flow and power",
+   "question": "What does it give its teammates?",
+   "kind": "multi",
+   "values": {
+    "engage": "starts the fight",
+    "peel": "protects teammates",
+    "sustain": "healing or shield",
+    "cc_setup": "CC others convert on",
+    "wave_clear": "clears waves",
+    "damage": "a lot of hero damage",
+    "vision": "vision or detection",
+    "mobility": "speed or movement",
+    "objective": "objective control",
+    "nothing": "little"
+   },
+   "draft_use": "The comp checker adds gives against needs."
+  },
+  "vulnerable_to": {
+   "key": "vulnerable_to",
+   "family": "Weaknesses and counters",
+   "question": "What does it lose to?",
+   "kind": "multi",
+   "values": {
+    "dive": "enemy dives and assassins reaching it",
+    "poke": "long range chip damage",
+    "hard_cc": "stuns, roots and silences while exposed",
+    "sustain_heals": "enemy healing that blunts its damage",
+    "stealth": "stealth and ambush it cannot see",
+    "focus_fire": "being focused by the whole team",
+    "kiting": "being kited by mobile ranged heroes",
+    "zoning": "being walled out of the fight",
+    "tanky_frontline": "high health armored front lines",
+    "macro_split": "enemy split pushing while it fights",
+    "early_pressure": "being pressured early before it scales"
+   },
+   "draft_use": "Turns into a weakness map: add up what the comp is vulnerable to against what the enemy brings."
+  },
+  "comp_affinity": {
+   "key": "comp_affinity",
+   "family": "Weaknesses and counters",
+   "question": "Which comp archetypes does it fit?",
+   "kind": "multi",
+   "values": {
+    "poke_siege": "long range chip damage and siege",
+    "dive_burst": "jump on the backline and burst",
+    "sustain_teamfight": "long fights with healing and shields",
+    "split_push": "macro with a split pusher",
+    "pick_catch": "catch and kill targets before the fight",
+    "zone_control": "walls, traps and area denial",
+    "global_macro": "global pressure and double objectives",
+    "anti_tank": "percent damage and shred",
+    "cheese": "surprise combos and odd strategies"
+   },
+   "draft_use": "The archetype tally of the five picks tells you what the comp is trying to do and what it forgot."
+  }
+ }
+}

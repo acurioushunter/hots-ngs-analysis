@@ -1,88 +1,139 @@
 {
-  "hero": "Whitemane",
-  "slug": "whitemane",
-  "role": "Healer",
-  "attack": {
-    "type": "ranged",
-    "range": "medium",
-    "autos_matter": 3,
-    "note": "Unwavering Faith adds 20 percent basic attack damage per active Zeal and range, Saintly Greatstaff adds bonus damage to marked targets, and every point of damage becomes healing through Zeal. Basic attacks are therefore part of her healing."
+ "hero": "Whitemane",
+ "slug": "whitemane",
+ "role": "Healer",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 3,
+  "note": "Unwavering Faith adds 20 percent basic attack damage per active Zeal and range, Saintly Greatstaff adds bonus damage to marked targets, and every point of damage becomes healing through Zeal. Basic attacks are therefore part of her healing."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": [
+   "dot",
+   "sustained",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "dot",
+   "dodgeable": 3,
+   "note": "Searing Lash is a short delay line (82 twice if it hits a Hero) and Inquisition is a targeted 3 second channel for 50 per 0.5 seconds with a slow. Divine Reckoning adds a zone dot. Measured hero damage 1062 per minute."
   },
-  "damage": {
-    "carry": false,
-    "ranged_dealer": false,
-    "style": ["dot", "sustained", "single_target"],
-    "poke": { "rating": 3, "kind": "dot", "dodgeable": 3, "note": "Searing Lash is a short delay line (82 twice if it hits a Hero) and Inquisition is a targeted 3 second channel for 50 per 0.5 seconds with a slow. Divine Reckoning adds a zone dot. Measured hero damage 1062 per minute." },
-    "heal_blunted": 4,
-    "note": "Her damage is small tick damage that enemy healing absorbs, and her Zeal healing is cut by healing reduction. Subjugation (minus 50 percent damage on Inquisition target) matters more than her raw damage."
+  "heal_blunted": 4,
+  "note": "Her damage is small tick damage that enemy healing absorbs, and her Zeal healing is cut by healing reduction. Subjugation (minus 50 percent damage on Inquisition target) matters more than her raw damage."
+ },
+ "healing": {
+  "style": [
+   "aoe",
+   "burst",
+   "single_target",
+   "shield"
+  ],
+  "sustain": 3,
+  "burst_heal": 5,
+  "aoe": 4,
+  "range": "medium",
+  "mana_pressure": 4,
+  "positioning_risk": 4,
+  "note": "Zeal returns 100 percent of damage she deals to Heroes as healing to every ally with Zeal, so output scales with damage and with the number of Zealed allies. Scarlet Aegis applies Zeal to all nearby allies for free with 40 Armor, and Desperate Plea has no cooldown but Desperation stacks raise Mana cost. Out of combat healing is weak without Martyrdom, and healing reduction (Ana, Deckard Cain Sapphire) cuts it hard."
+ },
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 1,
+  "siege": 1,
+  "teamfight": 4,
+  "engage": 1,
+  "peel": 3,
+  "mobility": 1,
+  "self_sustain": 2,
+  "survivability": 1,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 0
+ },
+ "cc": {
+  "hard": [
+   "root",
+   "pull"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
+ "good_into": [
+  {
+   "tag": "tanky_frontline",
+   "why": "She heals off damage to any Hero, so a durable frontline that stays in the fight gives Zeal steady conversion. Shared Punishment and Purge the Wicked cut their Armor."
   },
-  "healing": {
-    "style": ["aoe", "burst", "single_target", "shield"],
-    "sustain": 3,
-    "burst_heal": 4,
-    "aoe": 4,
-    "range": "medium",
-    "mana_pressure": 4,
-    "positioning_risk": 4,
-    "note": "Zeal returns 100 percent of damage she deals to Heroes as healing to every ally with Zeal, so output scales with damage and with the number of Zealed allies. Scarlet Aegis applies Zeal to all nearby allies for free with 40 Armor, and Desperate Plea has no cooldown but Desperation stacks raise Mana cost. Out of combat healing is weak without Martyrdom, and healing reduction (Ana, Deckard Cain Sapphire) cuts it hard."
+  {
+   "tag": "melee_heavy",
+   "why": "Melee Heroes stay in range of Inquisition and Searing Lash and pay for it with Subjugation halving their damage, and Scarlet Aegis Armor reduces their autos."
   },
-  "ratings": {
-    "wave_clear": 1,
-    "camp_clear": 1,
-    "siege": 1,
-    "teamfight": 4,
-    "engage": 1,
-    "peel": 3,
-    "mobility": 1,
-    "self_sustain": 2,
-    "survivability": 1,
-    "objective": 3,
-    "global_presence": 0,
-    "solo_lane": 0
+  {
+   "tag": "burst_dive",
+   "why": "Scarlet Aegis heals the whole team and gives 40 Armor, Intercession and Scarlet Crusade free allies from stuns, and Subjugation shrinks the diver's damage."
   },
-  "cc": {
-    "hard": ["root", "pull"],
-    "soft": ["slow"],
-    "reliability": 2
+  {
+   "tag": "immobile",
+   "why": "Inquisition slow and Divine Reckoning with Judgment Day pull keep low mobility Heroes in the damage zone, which feeds Zeal."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "ranged_heavy",
+   "why": "The guide notes Heroes who damage her team while she cannot damage them back, like Chromie, shut down her healing engine since Zeal needs damage to Heroes."
   },
-  "good_into": [
-    { "tag": "tanky_frontline", "why": "She heals off damage to any Hero, so a durable frontline that stays in the fight gives Zeal steady conversion. Shared Punishment and Purge the Wicked cut their Armor." },
-    { "tag": "melee_heavy", "why": "Melee Heroes stay in range of Inquisition and Searing Lash and pay for it with Subjugation halving their damage, and Scarlet Aegis Armor reduces their autos." },
-    { "tag": "burst_dive", "why": "Scarlet Aegis heals the whole team and gives 40 Armor, Intercession and Scarlet Crusade free allies from stuns, and Subjugation shrinks the diver's damage." },
-    { "tag": "immobile", "why": "Inquisition slow and Divine Reckoning with Judgment Day pull keep low mobility Heroes in the damage zone, which feeds Zeal." }
-  ],
-  "bad_into": [
-    { "tag": "ranged_heavy", "why": "The guide notes Heroes who damage her team while she cannot damage them back, like Chromie, shut down her healing engine since Zeal needs damage to Heroes." },
-    { "tag": "kiter", "why": "Kiters stay out of Inquisition and Searing Lash range and she has no mobility to follow, so damage to heal never happens." },
-    { "tag": "poke_comp", "why": "Long fights burn her Mana through Desperation stacks and poke at range lets the enemy hit her team while she cannot trade." },
-    { "tag": "cc_heavy", "why": "Inquisition is a channel and she is locked in place. Crowd control and displacement kill her because she has no escape and Intercession cannot target herself." }
-  ],
-  "wants_from_team": [
-    "A strong frontline that stays in fights",
-    "Wave clear and camp clear from other Heroes",
-    "Crowd control to trap enemies in Divine Reckoning",
-    "Armor heavy or high uptime Armor Heroes"
-  ],
-  "gives_team": [
-    "Large burst and AoE healing through Zeal",
-    "Armor with Scarlet Aegis",
-    "Damage reduction on one enemy with Subjugation",
-    "Unstoppable with Intercession and Scarlet Crusade"
-  ],
-  "power_spike": "mid",
-  "weaknesses": [
-    "Very poor wave clear and camp clear",
-    "No mobility",
-    "Healing needs damage dealt, so low out of combat healing",
-    "Weak to healing reduction",
-    "Mana drains in long fights"
-  ],
-  "evidence": [
-    "Zeal, Desperate Plea, Inquisition, Searing Lash, Scarlet Aegis, Divine Reckoning, Clemency ability text",
-    "Subjugation, Shared Punishment, Intercession, Scarlet Crusade, Martyrdom, Purge the Wicked talent text",
-    "Icy Veins overview and synergies and counters",
-    "Measured block: 3813 healing and 1062 hero damage per minute, 0.557 win rate over 576 games"
-  ],
-  "confidence": "high",
-  "unsure": ["ratings.camp_clear", "power_spike", "damage.heal_blunted"]
+  {
+   "tag": "kiter",
+   "why": "Kiters stay out of Inquisition and Searing Lash range and she has no mobility to follow, so damage to heal never happens."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Long fights burn her Mana through Desperation stacks and poke at range lets the enemy hit her team while she cannot trade."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Inquisition is a channel and she is locked in place. Crowd control and displacement kill her because she has no escape and Intercession cannot target herself."
+  }
+ ],
+ "wants_from_team": [
+  "A strong frontline that stays in fights",
+  "Wave clear and camp clear from other Heroes",
+  "Crowd control to trap enemies in Divine Reckoning",
+  "Armor heavy or high uptime Armor Heroes"
+ ],
+ "gives_team": [
+  "Large burst and AoE healing through Zeal",
+  "Armor with Scarlet Aegis",
+  "Damage reduction on one enemy with Subjugation",
+  "Unstoppable with Intercession and Scarlet Crusade"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Very poor wave clear and camp clear",
+  "No mobility",
+  "Healing needs damage dealt, so low out of combat healing",
+  "Weak to healing reduction",
+  "Mana drains in long fights"
+ ],
+ "evidence": [
+  "Zeal, Desperate Plea, Inquisition, Searing Lash, Scarlet Aegis, Divine Reckoning, Clemency ability text",
+  "Subjugation, Shared Punishment, Intercession, Scarlet Crusade, Martyrdom, Purge the Wicked talent text",
+  "Icy Veins overview and synergies and counters",
+  "Measured block: 3813 healing and 1062 hero damage per minute, 0.557 win rate over 576 games"
+ ],
+ "confidence": "high",
+ "unsure": [
+  "ratings.camp_clear",
+  "power_spike",
+  "damage.heal_blunted"
+ ],
+ "owner_notes": "Strong at the moment. No CC and no escape herself but high burst healing. She has to damage heroes to increase the heals on her Q targets. Weak to tanks that pull or separate her from her team (Stitches, Garrosh, Diablo). Mixed against dive: she survives it if she can damage them to do massive burst healing. Takes skill and positioning, and since she has little CC it is good to draft it in the tank and maybe the offlaner.",
+ "owner_corrections": [
+  "healing.burst_heal 4 to 5"
+ ]
 }

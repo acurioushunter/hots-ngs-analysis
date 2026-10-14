@@ -116,6 +116,8 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   st = E.newDraft(CCS, "first", "Garden of Terror");
   ["Lunara", "Junkrat", "Gazlowe", "Thrall", "Sylvanas", "Qhira", "Dehaka", "Brightwing", "Muradin", "Hanzo", "Whitemane", "Garrosh", "Li-Ming"].forEach(h => E.apply(st, h));
   const g = E.recommendPicks(st), ty = g.find(x => x.hero === "Tychus");
+  check("owner combos are in the data and the combo reader runs on an empty draft", Array.isArray(PLAYBOOK.owner_combos) && PLAYBOOK.owner_combos.length >= 10 && Array.isArray(E.ownerCombos(E.newDraft(CCS, "first", "Sky Temple"))), "");
+  check("owner role corrections reach the data (Cho is a bruiser, Orphea a ranged damage dealer)", PLAYBOOK.heroes["Cho"].role === "Bruiser" && PLAYBOOK.heroes["Orphea"].ranged === true, JSON.stringify([PLAYBOOK.heroes["Cho"].role, PLAYBOOK.heroes["Orphea"].ranged]));
   const hh = E.h2h("Tychus", "Johanna");
   check("head to head carries a recency weighted sample (effective games no more than raw games)", hh && hh.eff > 0 && hh.eff <= hh.n + 0.5, JSON.stringify(hh));
   const rlw = E.rangedLeague("Tomb of the Spider Queen");

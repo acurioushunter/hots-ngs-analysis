@@ -263,7 +263,7 @@ def attach_profiles(heroes):
         h = p.get("hero")
         if h not in heroes:
             continue
-        keep = ("attack", "damage", "healing", "ratings", "cc", "good_into", "bad_into", "wants_from_team", "gives_team", "power_spike", "weaknesses", "confidence", "unsure")
+        keep = ("attack", "damage", "healing", "ratings", "cc", "good_into", "bad_into", "wants_from_team", "gives_team", "power_spike", "weaknesses", "confidence", "unsure", "owner_notes", "flex_roles", "lenses")
         heroes[h]["profile"] = {k: p[k] for k in keep if k in p}
         heroes[h]["hclass"] = healer_class(p)
         heroes[h]["ranged"] = bool(p["damage"].get("ranged_dealer")) and h not in set()
@@ -922,7 +922,7 @@ def main():
         meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values()),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
-        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps)
+        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'])
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:

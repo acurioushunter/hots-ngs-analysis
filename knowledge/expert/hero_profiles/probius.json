@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["aoe", "zone", "siege"],
+  "style": [
+   "aoe",
+   "zone",
+   "siege"
+  ],
   "poke": {
    "rating": 4,
    "kind": "zone",
@@ -38,22 +42,54 @@
  },
  "cc": {
   "hard": [],
-  "soft": ["slow"],
+  "soft": [
+   "slow"
+  ],
   "reliability": 3
  },
  "good_into": [
-  {"tag": "melee_heavy", "why": "Null Gate slows by 80 percent and Warp Rift slows by 25 percent, and Photon Cannons target Heroes, so melee heroes are held outside while he hits them."},
-  {"tag": "structures", "why": "Photon Cannons tank tower and fort fire, and Pylon Overcharge together with Rift explosions gives the top measured siege damage."},
-  {"tag": "split_push", "why": "A single Disruption Pulse into Warp Rift clears a wave and Probius can solo lane well, as the guide says, which lets him run lanes and rotate on pings."},
-  {"tag": "objective_race", "why": "Pylon Overcharge and Gate Keeper make objective areas hard for the enemy to stand on, as the guide calls his objective control great."},
-  {"tag": "poke_comp", "why": "Pylons give him unlimited Mana regeneration in the Power Field and Shield Capacitor and Shield Battery give shields, so he can outlast chip."}
+  {
+   "tag": "melee_heavy",
+   "why": "Null Gate slows by 80 percent and Warp Rift slows by 25 percent, and Photon Cannons target Heroes, so melee heroes are held outside while he hits them."
+  },
+  {
+   "tag": "structures",
+   "why": "Photon Cannons tank tower and fort fire, and Pylon Overcharge together with Rift explosions gives the top measured siege damage."
+  },
+  {
+   "tag": "split_push",
+   "why": "A single Disruption Pulse into Warp Rift clears a wave and Probius can solo lane well, as the guide says, which lets him run lanes and rotate on pings."
+  },
+  {
+   "tag": "objective_race",
+   "why": "Pylon Overcharge and Gate Keeper make objective areas hard for the enemy to stand on, as the guide calls his objective control great."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Pylons give him unlimited Mana regeneration in the Power Field and Shield Capacitor and Shield Battery give shields, so he can outlast chip."
+  }
  ],
  "bad_into": [
-  {"tag": "assassin", "why": "The guide says he suffers against any hero that can reach him, because he needs Pylons and cannons set up and has little burst of his own."},
-  {"tag": "burst_dive", "why": "Divers jump the Pylon or Probius before cannons come online, and Worker Rush breaks on damage."},
-  {"tag": "ranged_heavy", "why": "Longer range heroes destroy undefended Pylons and he cannot outtrade with only Pulse at medium range."},
-  {"tag": "mobile", "why": "Warp Rift and Null Gate are ground zones and mobile heroes walk or blink around them."},
-  {"tag": "cc_heavy", "why": "He has no stun and no escape, so crowd control makes him a free kill when Pylons are down."}
+  {
+   "tag": "assassin",
+   "why": "The guide says he suffers against any hero that can reach him, because he needs Pylons and cannons set up and has little burst of his own."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Divers jump the Pylon or Probius before cannons come online, and Worker Rush breaks on damage."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Longer range heroes destroy undefended Pylons and he cannot outtrade with only Pulse at medium range."
+  },
+  {
+   "tag": "mobile",
+   "why": "Warp Rift and Null Gate are ground zones and mobile heroes walk or blink around them."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "He has no stun and no escape, so crowd control makes him a free kill when Pylons are down."
+  }
  ],
  "wants_from_team": [
   "A frontline to keep enemy melee off his Pylons",
@@ -85,5 +121,9 @@
   "MEASURED block: siege 7939 per minute, healing 512 per minute (shields), 54 games, win rate 0.481"
  ],
  "confidence": "medium",
- "unsure": ["ratings.engage", "damage.heal_blunted"]
+ "unsure": [
+  "ratings.engage",
+  "damage.heal_blunted"
+ ],
+ "owner_notes": "Setup dependent because he needs Pylons around him. Dies to dive or CC and is weaker in the current meta."
 }
