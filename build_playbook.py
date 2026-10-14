@@ -644,7 +644,7 @@ def map_sheet(m, data):
             lines.append(f"| {name} | {pct(v)} |")
     if st:
         r = st["ranged_rec"]
-        lines += ["", f"**Ranged heroes** (Blaze not counted): winners average {st['win_ranged_avg']}, losers {st['loss_ranged_avg']}. Three or more ranged {pct(r['3+'])}, two or fewer {pct(r['2-'])}.",
+        lines += ["", f"**Ranged heroes**: winners average {st['win_ranged_avg']}, losers {st['loss_ranged_avg']}. Three or more ranged {pct(r['3+'])}, two or fewer {pct(r['2-'])}.",
                   f"**Macro, winners against losers (per minute, k):** camp damage {st['macro'].get('win', {}).get('camp_dmg')} v {st['macro'].get('loss', {}).get('camp_dmg')}, structure damage {st['macro'].get('win', {}).get('struct')} v {st['macro'].get('loss', {}).get('struct')}, minion damage {st['macro'].get('win', {}).get('minion')} v {st['macro'].get('loss', {}).get('minion')}, experience {st['macro'].get('win', {}).get('xp')} v {st['macro'].get('loss', {}).get('xp')}. Deaths {st['macro'].get('win', {}).get('deaths')} v {st['macro'].get('loss', {}).get('deaths')}. Average length {st['avg_len']} minutes."]
     lines += ["", f"## {us}: heroes on this map (NGS this season, and Storm League for players with that data)", "| Player | NGS on this map | Storm League last year |", "|---|---|---|"]
     for p in data["us"]["players"]:

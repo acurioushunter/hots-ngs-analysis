@@ -194,17 +194,24 @@
       const asg = withH.assign.find(a => a.hero === h);
       if (asg) asg.why.forEach(x => reasons.push(x));
       // counters and synergy against what is already on the board
+      const counteredBy = [];
       theirs.forEach(e => {
         if (heroInfo(e).counters.indexOf(h) >= 0) { score += w.counter; reasons.push("counters their " + e + " (Icy Veins)"); }
-        if (info.counters.indexOf(e) >= 0) { score -= w.counter; reasons.push("their " + e + " counters it (Icy Veins)"); }
+        if (info.counters.indexOf(e) >= 0) { score -= w.counter * 1.4; counteredBy.push(e); reasons.push("their " + e + " counters it (Icy Veins)"); }
       });
+      if (counteredBy.length >= 2) { score -= w.counter * 0.8 * (counteredBy.length - 1); flags.push("COUNTERED by " + counteredBy.join(" and ")); }
+      // partners
       mine.forEach(o => { if (info.synergies.indexOf(o) >= 0 || heroInfo(o).synergies.indexOf(h) >= 0) { score += w.synergy; reasons.push("synergy with our " + o); } });
+      // role stacking: a third hero from the same role, or a third damage dealer with no front line yet
+      const sameRole = mine.filter(o => heroInfo(o).role === info.role).length;
+      if (info.role !== "Healer" && sameRole >= 2) { score -= 2.5; reasons.push("we already have " + sameRole + " " + info.role + " heroes"); }
+      else if (info.role !== "Healer" && sameRole >= 1 && (info.role === "Tank" || info.role === "Bruiser" || info.role === "Support")) { score -= 0.8; reasons.push("a second " + info.role + " (check it is deliberate)"); }
       // composition
       const nowRanged = comp.ranged, nowMark = comp.marksmen;
       if (marksmenNeed && nowMark < marksmenNeed && info.marksman) { score += w.marksman_need; reasons.push("marksman " + (nowMark + 1) + " of " + marksmenNeed + " wanted (13-6 with two or more)"); }
       rt.forEach(r => {
         if (r.min != null && info.ranged && nowRanged < r.min) { score += w.ranged_target; reasons.push("map wants " + r.min + "+ ranged heroes"); }
-        if (r.max != null && info.ranged && nowRanged >= r.max) { score -= w.ranged_target * 1.5; reasons.push("already at the ranged cap (" + r.max + ") for this map"); }
+        if (r.max != null && info.ranged && nowRanged >= r.max) { score -= w.ranged_target * 2.5; flags.push("OVER RANGED CAP"); reasons.push("already at the ranged cap (" + r.max + ") for this map: this would be ranged hero " + (nowRanged + 1)); }
         if (r.max != null && !info.ranged && nowRanged >= r.max && remaining > 0) { score += 0.3; }
       });
       const missing = [];
@@ -212,7 +219,7 @@
       if (!comp.frontline) missing.push("Front");
       const fills = (info.role === "Healer" && !comp.healers) || ((info.role === "Tank" || info.role === "Bruiser") && !comp.frontline);
       if (fills && remaining - 1 < missing.length) { score += w.role_gap; reasons.push("fills the " + (info.role === "Healer" ? "healer" : "front line") + " gap"); }
-      if (info.role === "Healer" && comp.healers >= 1) { score -= 1.5; reasons.push("a second healer (only wanted on double healer maps)"); }
+      if (info.role === "Healer" && comp.healers >= 1) { score -= 3; reasons.push("a second healer (only wanted on double healer maps)"); }
       // rules
       rules.forEach(r => {
         if (r.kind === "pick_bonus" && r.heroes[h]) { score += r.heroes[h]; reasons.push(r.why); }
@@ -427,6 +434,12 @@
     const bans = t.filter(x => x.them[0] >= 2).sort((a, b) => b.banScore - a.banScore).slice(0, 2).map(x => x.map);
     const picks = t.filter(x => bans.indexOf(x.map) < 0 && x.theyBan === 0).sort((a, b) => b.edge - a.edge).slice(0, 3).map(x => x.map);
     return { table: t, bans, picks };
+  };
+
+  // maps still in play after the entered map bans, best for us first (opponent habit: a map they have banned before is unlikely to be theirs to pick)
+  E.mapChoices = function (opp, bannedMaps) {
+    const gone = new Set(bannedMaps || []);
+    return E.mapTable(opp).filter(x => !gone.has(x.map)).sort((a, b) => b.edge - a.edge);
   };
 
   root.Engine = E;

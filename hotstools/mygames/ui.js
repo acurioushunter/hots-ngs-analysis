@@ -64,17 +64,27 @@
     persist(); saveFilters();
   }
   function modes() { return G.modeCounts(MG.games); }
+  // null means every mode. A saved list that names no mode in these games counts as every mode too.
   function activeTypes() {
-    if (MG.f.types && MG.f.types.length) return MG.f.types;
-    return modes().map(function (m) { return m.type; });
+    var t = MG.f.types && MG.f.types.length ? MG.f.types : null;
+    if (t) { var have = modes().map(function (m) { return m.type; }); t = t.filter(function (x) { return have.indexOf(x) >= 0; }); }
+    return t && t.length ? t : null;
   }
-  function selected() {
-    var f = { types: MG.f.types, roles: MG.f.roles, maps: MG.f.maps };
-    var dated = MG.games.filter(function (g) { return g.t != null; });
-    var ref = dated.length ? dated[dated.length - 1].t : Date.now();
-    if (MG.f.range !== 'all') f.since = ref - Number(MG.f.range) * 86400000;
+  function latestT() {
+    var m = null;
+    MG.games.forEach(function (g) { if (g.t != null && (m == null || g.t > m)) m = g.t; });
+    return m == null ? Date.now() : m;
+  }
+  // games that pass every filter except the group named in skip: this is what a chip in that group would give you
+  function selectedWithout(skip) {
+    var f = { maps: MG.f.maps };
+    if (skip !== 'types') f.types = activeTypes();
+    if (skip !== 'roles') f.roles = MG.f.roles;
+    if (MG.f.range !== 'all') f.since = latestT() - Number(MG.f.range) * 86400000;
     return G.applyFilter(MG.games, f);
   }
+  function selected() { return selectedWithout(''); }
+  function filtersActive() { return !!(activeTypes() || MG.f.range !== 'all' || MG.f.roles.length || MG.f.maps.length); }
 
   /* ------------------------------------------------------------ charts */
   function lineChart(pts, o) {
@@ -102,14 +112,27 @@
   }
 
   /* ------------------------------------------------------------ filter bar */
+  // Every count on a chip is what you get if you pick that chip with the other filters as they are now.
   function filterBar(all, sel) {
-    var ms = modes(), types = activeTypes();
+    var ms = modes(), types = activeTypes(), modeCtx = selectedWithout('types'), roleCtx = selectedWithout('roles');
+    var mc = {}, rc = {};
+    modeCtx.forEach(function (g) { mc[g.type] = (mc[g.type] || 0) + 1; });
+    roleCtx.forEach(function (g) { if (g.role) rc[g.role] = (rc[g.role] || 0) + 1; });
     var roles = G.roleTable(all).map(function (r) { return r.key; }).filter(Boolean);
-    return '<section class="card"><div class="row between"><div class="chips" aria-label="Game modes">' +
-      ms.map(function (m) { return '<button class="chip" data-mode="' + m.type + '" aria-pressed="' + (types.indexOf(m.type) >= 0) + '">' + esc(m.name) + ' <span class="muted">' + m.n + '</span></button>'; }).join('') +
+    var rangeLabel = (RANGES.filter(function (r) { return r[0] === MG.f.range; })[0] || RANGES[4])[1].toLowerCase();
+    var modeName = function (t) { return (G.MODE_NAMES && G.MODE_NAMES[t]) || t; };
+    var chips = '<button class="chip" data-mode="*" aria-pressed="' + (!types) + '" title="Every game mode">All modes <span class="muted">' + modeCtx.length.toLocaleString() + '</span></button>' +
+      ms.map(function (m) {
+        var n = mc[m.type] || 0;
+        return '<button class="chip' + (n ? '' : ' dim') + '" data-mode="' + m.type + '" aria-pressed="' + !!(types && types.indexOf(m.type) >= 0) + '"' + (n ? '' : ' title="No games in this mode with the period and roles chosen"') + '>' + esc(m.name) + ' <span class="muted">' + n.toLocaleString() + '</span></button>';
+      }).join('');
+    var what = (types ? types.map(modeName).join(' + ') : 'all modes') + ', ' + rangeLabel + (MG.f.roles.length ? ', ' + MG.f.roles.join(' + ') : '') + (MG.f.maps.length ? ', ' + MG.f.maps.length + ' map' + (MG.f.maps.length > 1 ? 's' : '') : '');
+    return '<section class="card"><div class="row between"><div class="chips" aria-label="Game modes">' + chips +
       '</div><div class="row"><label class="f" style="min-width:150px">Period<select id="f-range">' + RANGES.map(function (r) { return '<option value="' + r[0] + '"' + (MG.f.range === r[0] ? ' selected' : '') + '>' + r[1] + '</option>'; }).join('') + '</select></label></div></div>' +
-      (roles.length > 1 ? '<div class="chips" style="margin-top:8px" aria-label="Roles">' + roles.map(function (r) { return '<button class="chip" data-role="' + esc(r) + '" aria-pressed="' + (MG.f.roles.indexOf(r) >= 0) + '">' + esc(r) + '</button>'; }).join('') + '</div>' : '') +
-      '<p class="small muted" style="margin:8px 0 0"><b class="num">' + sel.length.toLocaleString() + '</b> of ' + all.length.toLocaleString() + ' games selected' + (MG.battletag ? ' for ' + esc(MG.battletag) : '') + '. Period counts back from your latest game.' +
+      (roles.length > 1 ? '<div class="chips" style="margin-top:8px" aria-label="Roles">' + roles.map(function (r) { var n = rc[r] || 0; return '<button class="chip' + (n || MG.f.roles.indexOf(r) >= 0 ? '' : ' dim') + '" data-role="' + esc(r) + '" aria-pressed="' + (MG.f.roles.indexOf(r) >= 0) + '">' + esc(r) + ' <span class="muted">' + n.toLocaleString() + '</span></button>'; }).join('') + '</div>' : '') +
+      '<p class="small muted" style="margin:8px 0 0"><b class="num">' + sel.length.toLocaleString() + '</b> of ' + all.length.toLocaleString() + ' games selected (' + esc(what) + ')' + (MG.battletag ? ' for ' + esc(MG.battletag) : '') +
+      '. The period counts back from your newest game, ' + esc(dstr(latestT())) + '.' +
+      (filtersActive() ? ' <button class="btn sm" data-act="show-all">Show all games</button>' : '') +
       (!MG.persisted ? ' <span class="tag warn">not saved on this device</span>' : '') + '</p></section>';
   }
 
@@ -324,7 +347,7 @@
     else {
       var sel = selected();
       html = filterBar(MG.games, sel);
-      if (!sel.length) html += '<section class="card"><p class="muted">No games match these filters. Pick another mode or period.</p></section>';
+      if (!sel.length) html += '<section class="card"><p class="muted">No games match these filters. A mode can have games that are all older than the period you picked.</p><div class="row"><button class="btn primary" data-act="show-all">Show all ' + MG.games.length.toLocaleString() + ' games</button></div></section>';
       else if (page === 'overview') html += pageOverview(MG.games, sel);
       else if (page === 'heroes') html += pageHeroes(MG.games, sel);
       else if (page === 'maps') html += pageMaps(MG.games, sel);
@@ -386,7 +409,17 @@
     el.onclick = function (e) {
       var t = e.target;
       var m = t.closest('[data-mode]');
-      if (m) { var ty = activeTypes().slice(), i = ty.indexOf(m.dataset.mode); if (i >= 0) { if (ty.length > 1) ty.splice(i, 1); } else ty.push(m.dataset.mode); MG.f.types = ty; saveFilters(); MG.hero = null; redraw(); return; }
+      if (m) {
+        var want = m.dataset.mode;
+        if (want === '*') MG.f.types = null;
+        else {
+          var cur = activeTypes(), nxt;
+          if (!cur) nxt = [want];                       // from "all modes", a click picks that mode alone
+          else { nxt = cur.slice(); var i = nxt.indexOf(want); if (i >= 0) nxt.splice(i, 1); else nxt.push(want); if (!nxt.length) nxt = null; }
+          MG.f.types = nxt;
+        }
+        saveFilters(); MG.hero = null; redraw(); return;
+      }
       var r = t.closest('[data-role]');
       if (r) { var i2 = MG.f.roles.indexOf(r.dataset.role); if (i2 >= 0) MG.f.roles.splice(i2, 1); else MG.f.roles.push(r.dataset.role); saveFilters(); redraw(); return; }
       var s = t.closest('[data-sort]');
@@ -399,6 +432,7 @@
       if (!a) return;
       var act = a.dataset.act;
       if (act === 'back-heroes') { MG.hero = null; redraw(); }
+      else if (act === 'show-all') { MG.f = { types: null, range: 'all', roles: [], maps: [] }; saveFilters(); MG.hero = null; redraw(); }
       else if (act === 'copy-snippet') { copy(SNIPPET); }
       else if (act === 'show-snippet') { var p = el.querySelector('#snip'); if (p) p.hidden = !p.hidden; }
       else if (act === 'parse-paste') { var ta = el.querySelector('#paste'); if (ta && ta.value.trim()) handleText(ta.value, 'your pasted text'); else S.toast('Paste something first.'); }

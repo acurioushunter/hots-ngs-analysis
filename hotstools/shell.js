@@ -304,12 +304,30 @@
       '<li>Hero ratings are a model, not a measurement. Use them to ask a question, not to settle one.</li></ul>' +
       '<h3 style="margin-top:12px">Privacy</h3><p class="small">Everything runs in your browser. The games you import in My Games, your team choice and your draft in progress are kept on this device only, in this browser. Clear them any time from My Games and from the Team setup page.</p>' +
       '<h3 style="margin-top:12px">Sharing</h3><p class="small">Send the single file <span class="kbd">hots_tools.html</span> (a zip works) and open it in any browser. It needs no install and no account.</p></section>' +
-      '<section class="card"><h3>Reset</h3><p class="small muted">Forget everything this app has saved on this device: imported games, team choices, draft, filters and theme.</p>' +
-      '<button class="btn" id="wipe">Clear all saved data on this device</button></section>';
+      '<section class="card"><h3>Reset</h3><p class="small muted">Two separate buttons, so clearing your choices never costs you your games.</p>' +
+      '<div class="row"><button class="btn" id="wipe-choices">Reset my choices</button><button class="btn" id="wipe">Remove everything on this device</button></div>' +
+      '<p class="small muted" style="margin-top:8px"><b>Reset my choices</b> forgets filters, team and player choices, drafts in progress and the theme. <b>Your imported games stay.</b> ' +
+      '<b>Remove everything</b> also deletes the imported games' + (window.HOTS_PERSONAL ? ' (this edition loads its own games again on the next start)' : '') + '. Download a backup from My Games first if you want to keep them.</p></section>';
+    function wipeKeys(keepGames) {
+      try {
+        var ks = [];
+        for (var i = 0; i < localStorage.length; i++) ks.push(localStorage.key(i));
+        ks.forEach(function (k) {
+          if (!/^(hots|hdl|ngs-draft)/.test(k)) return;
+          if (keepGames && (k === 'hots.games.v1' || k === 'hots.games.count')) return;
+          localStorage.removeItem(k);
+        });
+      } catch (e) { }
+      setTimeout(function () { location.reload(); }, 700);
+    }
+    $('#wipe-choices', el).addEventListener('click', function () {
+      if (!confirm('Reset filters, team choices, drafts in progress and the theme? Your imported games are kept.')) return;
+      API.toast('Choices reset. Reloading.'); wipeKeys(true);
+    });
     $('#wipe', el).addEventListener('click', function () {
-      if (!confirm('Clear imported games, saved drafts, team choices and settings on this device?')) return;
-      try { var ks = []; for (var i = 0; i < localStorage.length; i++) ks.push(localStorage.key(i)); ks.forEach(function (k) { if (/^(hots|hdl|ngs-draft)/.test(k)) localStorage.removeItem(k); }); } catch (e) { }
-      API.toast('Saved data cleared. Reloading.'); setTimeout(function () { location.reload(); }, 700);
+      var n = lsGet('hots.games.count', 0);
+      if (!confirm('Delete ' + (n ? Number(n).toLocaleString() + ' imported games, ' : 'imported games, ') + 'saved drafts, team choices and settings from this device? This cannot be undone.')) return;
+      API.toast('Everything cleared. Reloading.'); wipeKeys(false);
     });
   }
 

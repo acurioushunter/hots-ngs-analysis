@@ -1,6 +1,6 @@
 # Towers of Doom: map fact sheet
 
-Built 2026-10-13. Icy Veins draft advice and tier lists, plus 8 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 8 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Gankers, Global presence, Offlaner who can double soak, Poke tools for Objective, Strong late game
 
@@ -16,7 +16,7 @@ Built 2026-10-13. Icy Veins draft advice and tier lists, plus 8 Season 22 games.
 | Phoenix Rising Amethyst | 0-1 |
 | Roll1Esports | 0-2 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.75, losers 2.75. Three or more ranged 6-6, two or fewer 2-2.
+**Ranged heroes**: winners average 2.75, losers 2.75. Three or more ranged 6-6, two or fewer 2-2.
 **Macro, winners against losers (per minute, k):** camp damage 4.44 v 2.09, structure damage 2.7 v 2.34, minion damage 15.36 v 14.79, experience 3.43 v 2.88. Deaths 6.62 v 15.25. Average length 17.6 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

@@ -7,7 +7,7 @@ You asked me to look at burst versus sustained damage instead of just auto attac
 ## How I measured it
 - **Poke** = hero damage dealt outside team fights, per minute. That is the chip damage that wears down a tank or healer before a fight.
 - **Fight damage** = hero damage inside team fights, per minute. That is the burst or sustained damage that punishes an overextension and wins the fight.
-- **Marksman** = an auto attack ranged hero. Blaze is not counted as ranged anywhere in these tables (hunterstag's call). My marksman list (a judgment call): Greymane, Valla, Raynor, Tychus, Lunara, Hanzo, Cassia, Sylvanas, Zul'jin, Fenix, Falstad.
+- **Marksman** = an auto attack ranged hero. My marksman list (a judgment call): Greymane, Valla, Raynor, Tychus, Lunara, Hanzo, Cassia, Sylvanas, Zul'jin, Fenix, Falstad.
 - **Real damage dealer** = averages 2,400 or more hero damage per minute in this division.
 
 ## Your heroes and the ones you worry about (per minute, this division)

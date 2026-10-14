@@ -5,7 +5,7 @@ Private repo `acurioushunter/hots-ngs-analysis`. Purpose: help Hunter and his te
 ## Standing rules (each one came from a mistake)
 1. **Numbers come from a run, not from memory.** Re-run the script or query before writing a record or a percentage, and re-check every figure in a doc before committing. Several early docs had wrong numbers that a re-check caught.
 2. **Recent data only for hero pools:** the last 12 months, team games, HealsOnly team games and NGS. Career numbers are mostly 2020 and misled us (Raynor, Abathur, Valla). Sylvanas replaced Raynor.
-3. **Blaze is not a ranged hero.** He is an offlaner and his range is too short to count. Every ranged count treats him as melee (`analyze_ranged_by_map.py`, `analyze_wave_clear.py`).
+3. **Blaze stays out of every ranged count** (`analyze_ranged_by_map.py`, `analyze_wave_clear.py`, `not_ranged` in `playbook/config/our_team.json`). Do it in code, but do not write a note about it into the app, the generated facts or the documents Hunter reads: he asked for that wording to be dropped.
 4. **Icy Veins tier lists are per role.** Blaze is S as an offlaner and D as a tank, and Varian, Johanna, E.T.C. and others also have several roles. Always filter `tier_entry.role`; never take a hero's last row.
 5. **HealsOnly is a shared account.** Only use games with Hunter and teammates (the 71 team games). chelsi's own account is not used for Storm League.
 6. **Never bypass Cloudflare.** Hunter passes the Heroes Profile check in his own Chrome; then use the tab he has open. Do not burst guessed API bodies, record the page's own request instead. If a request returns 403, stop and ask.

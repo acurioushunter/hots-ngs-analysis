@@ -1,6 +1,6 @@
 # Dragon Shire: map fact sheet
 
-Built 2026-10-13. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/dragon-shire.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/dragon-shire.md` for written lessons.
 
 **Icy Veins prefers:** Anchor, Heroes for clearing Mercenary Camps, Effects relying on impassable terrain, Gankers, Global presence, Point control for Objective, Strong late game, Sustain damage/healing, Vision tools
 
@@ -16,7 +16,7 @@ Built 2026-10-13. Icy Veins draft advice and tier lists, plus 6 Season 22 games.
 | Phoenix Rising Amethyst | 2-1 |
 | Roll1Esports | 0-3 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.67, losers 2.67. Three or more ranged 4-4, two or fewer 2-2.
+**Ranged heroes**: winners average 2.67, losers 2.67. Three or more ranged 4-4, two or fewer 2-2.
 **Macro, winners against losers (per minute, k):** camp damage 5.56 v 3.09, structure damage 6.86 v 1.82, minion damage 17.3 v 16.2, experience 3.36 v 2.92. Deaths 6.17 v 13.17. Average length 18.8 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

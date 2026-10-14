@@ -1,6 +1,6 @@
 # Infernal Shrines: map fact sheet
 
-Built 2026-10-13. Icy Veins draft advice and tier lists, plus 12 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 12 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
 
 **Icy Veins prefers:** Double Healer, Effects relying on impassable terrain, Quests to stack on Heroes, Strong late game, High waveclear
 
@@ -16,7 +16,7 @@ Built 2026-10-13. Icy Veins draft advice and tier lists, plus 12 Season 22 games
 | Phoenix Rising Amethyst | 1-2 |
 | Roll1Esports | 2-5 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.67, losers 2.08. Three or more ranged 8-4, two or fewer 4-8.
+**Ranged heroes**: winners average 2.67, losers 2.08. Three or more ranged 8-4, two or fewer 4-8.
 **Macro, winners against losers (per minute, k):** camp damage 7.96 v 5.63, structure damage 5.91 v 1.54, minion damage 13.51 v 13.42, experience 3.09 v 2.6. Deaths 6.83 v 16.25. Average length 19.4 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

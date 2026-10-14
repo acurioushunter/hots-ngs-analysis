@@ -1,6 +1,6 @@
 # Braxis Holdout: map fact sheet
 
-Built 2026-10-13. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
 
 **Icy Veins prefers:** Gankers, Global presence, Point control for Boss Camp, Point control for Objective, Quests to stack on Heroes, Strong early game, Sustain damage/healing, Moderate waveclear
 
@@ -14,7 +14,7 @@ Built 2026-10-13. Icy Veins draft advice and tier lists, plus 4 Season 22 games.
 | Good Lordy | 2-1 |
 | Phoenix Rising Amethyst | 0-1 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.25, losers 3.25. Three or more ranged 2-4, two or fewer 2-0.
+**Ranged heroes**: winners average 2.25, losers 3.25. Three or more ranged 2-4, two or fewer 2-0.
 **Macro, winners against losers (per minute, k):** camp damage 4.74 v 2.66, structure damage 4.26 v 1.86, minion damage 11.36 v 10.33, experience 2.6 v 2.06. Deaths 8.25 v 16.0. Average length 18.3 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

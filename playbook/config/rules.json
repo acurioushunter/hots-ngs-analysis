@@ -11,7 +11,7 @@
      "why": "Teams with two or more marksmen are 13-6 in Division C West S22. Facing two or more with one or none of our own is 5-12.",
      "evidence": "COMP_AND_POKE_INSIGHTS.md"},
     {"id": "m-tomb", "scope": {"opp": "*", "map": "Tomb of the Spider Queen", "side": "*"}, "kind": "ranged_target", "min": 3,
-     "why": "Tomb: 8-4 with three or more ranged heroes (Blaze not counted) and 2-6 with two or fewer. Icy Veins wants poke for the objective and high wave clear.",
+     "why": "Tomb: 8-4 with three or more ranged heroes and 2-6 with two or fewer. Icy Veins wants poke for the objective and high wave clear.",
      "evidence": "analyze_ranged_by_map.py"},
     {"id": "m-garden", "scope": {"opp": "*", "map": "Garden of Terror", "side": "*"}, "kind": "ranged_target", "max": 2,
      "why": "Garden: 4-1 with two or fewer ranged heroes and 0-3 with three or more. Camp clearers, double bruiser, Rehgar.",
@@ -20,7 +20,7 @@
      "why": "Shrines: 8-4 with three or more ranged heroes and 4-8 with two or fewer. A lean from 12 games. Icy Veins wants a double healer and high wave clear.",
      "evidence": "analyze_ranged_by_map.py"},
 
-    {"id": "ccs-brightwing", "scope": {"us": "Phoenix Rising Amethyst", "opp": "Can't Counterpick Stupid", "map": "*", "side": "*"}, "kind": "pick_bonus", "heroes": {"Brightwing": 1.8, "Anduin": 0.8},
+    {"id": "ccs-brightwing", "scope": {"us": "Phoenix Rising Amethyst", "opp": "Can't Counterpick Stupid", "map": "*", "side": "*"}, "kind": "pick_bonus", "heroes": {"Brightwing": 1.8, "Anduin": 0.8, "Rehgar": -1.5, "Stukov": -1.5},
      "why": "CCS is 3-6 against Brightwing or Anduin teams and 11-0 against every other healer. We are 2-1 with Brightwing against them and 0-3 with Rehgar or Stukov.",
      "evidence": "CCS_FULL_PICTURE.md section 4"},
     {"id": "ccs-ban-johanna", "scope": {"us": "Phoenix Rising Amethyst", "opp": "Can't Counterpick Stupid", "map": "*", "side": "*"}, "kind": "ban_bonus", "heroes": {"Johanna": 4.5, "Lunara": 2.4},

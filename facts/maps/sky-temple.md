@@ -1,6 +1,6 @@
 # Sky Temple: map fact sheet
 
-Built 2026-10-13. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/sky-temple.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/sky-temple.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Gankers, Global presence, Point control for Boss Camp, Split-push
 
@@ -14,7 +14,7 @@ Built 2026-10-13. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 | Phoenix Rising Amethyst | 1-0 |
 | Roll1Esports | 1-0 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.5, losers 3.0. Three or more ranged 1-2, two or fewer 1-0.
+**Ranged heroes**: winners average 2.5, losers 3.0. Three or more ranged 1-2, two or fewer 1-0.
 **Macro, winners against losers (per minute, k):** camp damage 8.18 v 5.44, structure damage 4.11 v 1.45, minion damage 13.97 v 16.94, experience 2.96 v 2.89. Deaths 8.5 v 12.0. Average length 18.2 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

@@ -1,6 +1,6 @@
 # Garden of Terror: map fact sheet
 
-Built 2026-10-13. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/garden-of-terror.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/garden-of-terror.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Double Bruiser, Effects relying on impassable terrain, Gankers, Global presence, Poke tools for Objective, Strong late game, Siege damage for Structures, Split-push, Tools for solo-capturing the Objective, Vision tools
 
@@ -15,7 +15,7 @@ Built 2026-10-13. Icy Veins draft advice and tier lists, plus 4 Season 22 games.
 | Good Lordy | 0-1 |
 | Phoenix Rising Amethyst | 3-1 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.0, losers 3.0. Three or more ranged 0-3, two or fewer 4-1.
+**Ranged heroes**: winners average 2.0, losers 3.0. Three or more ranged 0-3, two or fewer 4-1.
 **Macro, winners against losers (per minute, k):** camp damage 6.71 v 4.03, structure damage 6.08 v 1.37, minion damage 15.92 v 16.35, experience 3.22 v 2.78. Deaths 5.75 v 11.25. Average length 18.8 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

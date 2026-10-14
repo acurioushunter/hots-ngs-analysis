@@ -96,3 +96,22 @@ The pull script's dry run parses the same response the earlier manual pull used,
 - Start of a session: `git pull`. When the work is done: run the tests, `git add` what changed, commit with a plain message, `git push`. This repo only (`acurioushunter/hots-ngs-analysis`).
 - The folder `C:\Users\visio\Downloads\Claude Code` is the Vision business project with its own repo and its own rules. Do not open, read or change it from a HOTS session.
 - Never commit secrets or cookies. The scraped pages in `knowledge/raw/` are public game data.
+
+## Handoff 2026-10-14 (unfinished round: filters, ban win rates, ratings)
+Live artifact is still v15 and works. Nothing below is built, tested, committed or published.
+
+**Edited in source only (untested):**
+- `hotstools/mygames/ui.js`: mode chips have an "All modes" chip, a click from "all" isolates that mode, chip counts follow period and roles, "Show all games" button, period counts back from the newest game.
+- `hotstools/shell.js`: About has "Reset my choices" (keeps games) and "Remove everything".
+- `hotstools/shell.css`: `.chip.dim`.
+- Blaze ranged wording removed from `playbook/app.html`, `build_playbook.py`, rules, notes, cheat sheets, `CLAUDE.md` (code still keeps him out of ranged counts).
+- New `audit_hero_ratings.py` (NGS S21+S22 player rows vs the rating table; `--flags`, `--json`).
+
+**Next steps, in order:**
+1. `python build_hotstools.py --all --personal`, then `node test_hotstools.js`, `node test_draftlab.js`, `node test_engine.js`, `python test_playbook.py`. Fix any test that asserted the old Blaze text. Check the filter bar in the browser pane (SL chip, All modes, Show all games, Reset my choices).
+2. Win rate on bans (not started). Places: Drafter `recCard` ban reasons, `expectOppBans` chips, "Most banned" in `leagueMapCard`, last season "Banned most", hero list; Lab `draft.js` suggestion line (shows shrunk rate, add record), `meta.js` Most banned and trends, `maps.js` top bans, scout "Heroes they ban". Engine items need `wins` added in `recommendBans`, `metaSummary` trends topBans and `mapSummary` topBans. Show raw WR with record (w-l) and a low sample flag.
+3. Commit, push, publish `hots_tools_artifact.html` to the existing artifact url (read it first).
+4. Ratings (Hunter deferred this): run `python audit_hero_ratings.py --flags`. Clamp rule: keep the authored value unless games contradict it by 2 or more steps, then move to within 1 step. Known fixes: Abathur camp 5 to 2 and merc_camp_control 5 to 2 (guide: cannot solo a lane), Hanzo and Li-Ming camp up, Dehaka camp down and wave up, Leoric wave up, Greymane camp 5, Raynor camp 5, Sylvanas wave down, Xul camp down. Camp uses creep damage per minute, not captures (healers inflate captures). Add `plays_as` (Offlaner for Blaze and others) from the Icy Veins general tier list roles. Three reviewer agents died on the usage limit before writing their files; rerun them if wanted (brief: check non measurable ratings against hero_section and talent text, no edits).
+5. Optional data: HeroesToolChest heroes-data2 (MIT, has 2.57.0.98348 as patch files on top of full 2.55.16.97039) for exact kit numbers. Needs Hunter's yes before downloading. Heroes Profile API is paid; reading its pages stays with Hunter's own Chrome (rule 6).
+
+**Maps:** two map bans per team is already how the Prep tab works. Tighten: map picks skip any map the opponent has ever banned, not just their top two.

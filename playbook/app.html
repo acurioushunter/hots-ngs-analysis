@@ -152,7 +152,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   let opponents = [];
   const SAVE = "ngs-draft-room-v2";
   const ROLES = ["Tank", "Bruiser", "Melee Assassin", "Ranged Assassin", "Healer", "Support"];
-  let ui = { tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, series: [], aliasOff: {}, ngsSeasons: ["22"], stages: ["reg", "po"], slScopes: ["recent", "mmr"], opp: null, side: null, map: null, actions: [], sim: null, msg: "", showAll: false,
+  let ui = { tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, series: [], aliasOff: {}, ngsSeasons: ["22"], stages: ["reg", "po"], slScopes: ["recent", "mmr"], opp: null, side: null, map: null, mapBans: { us: ["", ""], opp: ["", ""] }, actions: [], sim: null, msg: "", showAll: false,
     mapview: null, hq: "", hrole: "All", hscope: "general", hpool: false, hsort: "name", ltab: "tips", gq: "", pq: "", prole: "All" };
 
   // Point the page at the picked team: its roster and pools, the opponents of its division, and the head to head numbers against each.
@@ -245,7 +245,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       if (s) {
         ui.team = s.team || ui.team; ui.me = s.me || null; ui.mypool = s.mypool || {}; ui.teamPicked = !!s.teamPicked; ui.aliasOff = s.aliasOff || {}; ui.series = s.series || []; ui.ngsSeasons = (s.ngsSeasons && s.ngsSeasons.length) ? s.ngsSeasons : ["22"]; ui.slScopes = (s.slV2 && Array.isArray(s.slScopes)) ? s.slScopes : ["recent", "mmr"]; ui.stages = (s.stages && s.stages.length) ? s.stages : ["reg", "po"];
         applyTeam();
-        if (s.opp && P.teams[s.opp] && s.opp !== P.us.team) { ui.opp = s.opp; ui.side = s.side; ui.map = s.map; ui.actions = s.actions || []; }
+        if (s.opp && P.teams[s.opp] && s.opp !== P.us.team) { ui.opp = s.opp; ui.side = s.side; ui.map = s.map; ui.actions = s.actions || []; if (s.mapBans && s.mapBans.us && s.mapBans.opp) ui.mapBans = s.mapBans; }
         ui.tab = s.tab || "draft";
       }
     } catch (e) { /* storage unavailable */ }
@@ -256,7 +256,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     }
     applyTeam();
   }
-  function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, series: ui.series, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, stages: ui.stages, slScopes: ui.slScopes, slV2: true, opp: ui.opp, side: ui.side, map: ui.map, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
+  function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, series: ui.series, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, stages: ui.stages, slScopes: ui.slScopes, slV2: true, opp: ui.opp, side: ui.side, map: ui.map, mapBans: ui.mapBans, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
   function state() { return { opp: ui.opp, side: ui.side || "first", map: ui.map, actions: ui.actions, series: ui.series }; }
 
   const TABS = [["draft", "Draft"], ["overview", "Prep"], ["heroes", "Heroes"], ["maps", "Maps"], ["learn", "Learn"], ["team", "Team"], ["about", "About"]];
@@ -346,6 +346,27 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   }
 
   // ---------------------------------------------------------------- DRAFT TAB
+  const allMapBans = () => ui.mapBans.us.concat(ui.mapBans.opp).filter(Boolean);
+  // Each team bans two maps before the map is picked. Enter them here; the map list and the map pick advice follow.
+  function mapBanBlock() {
+    const pool = Object.keys(P.maps).sort(), mp = E.mapPlan(ui.opp), habit = (P.map_bans && P.map_bans[ui.opp]) || { bans: {}, series: 0 };
+    const sel = (team, i) => {
+      const taken = allMapBans().filter(m => m !== ui.mapBans[team][i]);
+      return `<select data-mapban="${team}:${i}"><option value="">Not set</option>${pool.filter(m => !taken.includes(m)).map(m => `<option ${m === ui.mapBans[team][i] ? "selected" : ""}>${esc(m)}</option>`).join("")}</select>`;
+    };
+    const dup = ui.mapBans.us.filter(Boolean).length + ui.mapBans.opp.filter(Boolean).length;
+    const left = E.mapChoices(ui.opp, allMapBans());
+    const theirHabit = Object.keys(habit.bans).sort((a, b) => habit.bans[b] - habit.bans[a]).slice(0, 4).map(m => `${esc(m)} ${habit.bans[m]}`).join(", ");
+    const picker = ui.side === "first" ? "they pick the map" : ui.side === "second" ? "we pick the map" : "map picker not set (set first pick below)";
+    return `<h3 style="margin-top:12px">Map bans</h3>
+      <div class="row">
+        <div class="grow"><b class="small">Our two bans</b><div class="row">${sel("us", 0)}${sel("us", 1)}</div></div>
+        <div class="grow"><b class="small">Their two bans</b><div class="row">${sel("opp", 0)}${sel("opp", 1)}</div></div>
+      </div>
+      <p class="small muted">Suggested for us: <b>${mp.bans.map(esc).join(" and ") || "none yet"}</b>. They usually ban: ${theirHabit || "no history"} (over ${habit.series} series). ${picker}.</p>
+      ${dup >= 2 ? `<p class="small">Maps left, best for us first (${picker}): ${left.slice(0, 6).map(m => `<button class="btn sm" data-setmap="${esc(m.map)}">${esc(m.map)} <span class="muted">${recText(m.us)} v ${recText(m.them)}</span></button>`).join(" ")}</p>` : ""}`;
+  }
+
   function setupCard() {
     const t = E.tossAdvice(ui.opp);
     const pickTxt = t.pick === "first" ? "Take <b>first pick</b>" : t.pick === "map" ? "Take the <b>map pick</b>" : "A <b>toss up</b>";
@@ -354,8 +375,9 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     return `<details class="card" ${ui.actions.length ? "" : "open"}><summary><b>Setup</b> <span class="muted small">${esc(ui.opp)} · ${ui.side ? (ui.side === "first" ? "we have first pick" : "they have first pick") : "toss not set"} · ${ui.map ? esc(ui.map) : "map not set"}</span></summary>
       <div class="row" style="margin-top:8px">
         <label class="f grow">Opponent<select id="opp">${oppOptions()}</select></label>
-        <label class="f grow">Map (when known)<select id="map"><option value="">Not set yet</option>${Object.keys(P.maps).sort().map(m => `<option ${m === ui.map ? "selected" : ""}>${esc(m)}</option>`).join("")}</select></label>
+        <label class="f grow">Map (when known)<select id="map"><option value="">Not set yet</option>${Object.keys(P.maps).sort().filter(m => !allMapBans().includes(m) || m === ui.map).map(m => `<option ${m === ui.map ? "selected" : ""}>${esc(m)}</option>`).join("")}</select></label>
       </div>
+      ${mapBanBlock()}
       <h3 style="margin-top:12px">Coin toss</h3>
       <p class="small muted">If we win the toss: ${pickTxt} against ${esc(ui.opp)}.${close}
         We are ${rec(t.usFirst)} with first pick and ${rec(t.usMap)} with the map pick. They are ${rec(t.themFirst)} with first pick and ${rec(t.themMap)} when they pick the map.
@@ -386,7 +408,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   function recCard(r, i, type, st) {
     const pct = Math.max(4, Math.min(100, r.score * 10));
     const who = (r.who || []).slice(0, 3).map(w => `<span class="tag us">${esc(w.label)} ${esc(w.tier)}</span>`).join(" ");
-    const flags = (r.flags || []).map(f => `<span class="tag ${/LOCK NOW/.test(f) ? "bad" : /DO NOT|LEAVE/.test(f) ? "warn" : "good"}">${esc(f)}</span>`).join(" ");
+    const flags = (r.flags || []).map(f => `<span class="tag ${/LOCK NOW|COUNTERED|OVER RANGED/.test(f) ? "bad" : /DO NOT|LEAVE/.test(f) ? "warn" : "good"}">${esc(f)}</span>`).join(" ");
     const reasons = (r.reasons || []).filter(Boolean);
     const skip = (r.flags || []).some(f => /DO NOT|LEAVE/.test(f));
     const tt = st.map ? mainTier(r.hero, st.map) : mainTier(r.hero, "general");
@@ -438,7 +460,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const rules = E.rulesFor(st).filter(r => r.kind === "note");
     return `<section class="card us"><h3>Our comp</h3>
       <div class="meter" style="margin-top:8px"><div><b>${c.ranged}</b><span>Ranged</span></div><div><b>${c.marksmen}</b><span>Marksmen</span></div><div><b>${c.frontline}</b><span>Front</span></div><div><b>${c.healers}</b><span>Healer</span></div><div><b>${c.highClear}</b><span>Strong clear</span></div><div><b>${c.highDamage}</b><span>Damage dealers</span></div></div>
-      <p class="small muted">Blaze is never counted as ranged. Strong clear is 3,500+ minion damage a minute, damage dealer is 2,400+ hero damage a minute (this division).</p>
+      <p class="small muted">Strong clear is 3,500+ minion damage a minute, damage dealer is 2,400+ hero damage a minute (this division).</p>
       ${c.warnings.map(w => `<div class="warnbox" style="margin-top:6px">${esc(w)}</div>`).join("")}
       ${asg.assign.length ? `<table style="margin-top:8px"><tr><th>Player</th><th>Hero</th><th>Evidence</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td>${heroBtn(a.hero)}</td><td class="small muted">${esc(a.why.slice(0, 2).join("; "))}</td></tr>`).join("")}</table>
       <p class="small muted">This is the best way to hand out the picks so far. Swap the players when the draft ends if a hero fits someone else better.</p>` : ""}
@@ -845,7 +867,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       ${ngs ? `${ui.map !== cur ? `<p><button class="btn sm" data-setmap="${esc(cur)}">Use ${esc(cur)} as the draft map</button></p>` : `<p class="small"><span class="tag us">draft map</span></p>`}<p><b>Icy Veins prefers:</b> ${m.prefer.map(esc).join(", ") || "n/a"}</p><p><b>Avoids:</b> ${m.avoid.map(esc).join(", ") || "n/a"}</p>
       <p class="small">We are ${recText(P.teams[P.us.team].by_map[cur])} here; ${esc(ui.opp)} are ${recText(oppRec)}.${(() => { const g = (P.teams[ui.opp].h2h || []).filter(x => x.map === cur); return g.length ? ` Against each other here we are ${g.filter(x => !x.won).length}-${g.filter(x => x.won).length}.` : ""; })()} ${st.games || 0} games in the division, average ${st.avg_len || "?"} minutes.</p>` : `<p class="small muted">This map is not in the NGS pool this season, so there are no division numbers for it. The Icy Veins guide is below.</p>`}</section>
     ${st.games ? `<section class="card"><h3>What wins here</h3>
-      <p class="small">Ranged heroes (Blaze not counted): winners average ${st.win_ranged_avg}, losers ${st.loss_ranged_avg}. Three or more ranged ${rec(st.ranged_rec["3+"])}, two or fewer ${rec(st.ranged_rec["2-"])}.</p>
+      <p class="small">Ranged heroes: winners average ${st.win_ranged_avg}, losers ${st.loss_ranged_avg}. Three or more ranged ${rec(st.ranged_rec["3+"])}, two or fewer ${rec(st.ranged_rec["2-"])}.</p>
       <p class="small">Per minute, winners against losers: camp damage ${st.macro.win.camp_dmg}k v ${st.macro.loss.camp_dmg}k, structure damage ${st.macro.win.struct}k v ${st.macro.loss.struct}k, minion damage ${st.macro.win.minion}k v ${st.macro.loss.minion}k. Deaths ${st.macro.win.deaths} v ${st.macro.loss.deaths}.</p></section>` : ""}
     ${leagueMapCard(cur)}
     ${rows.length ? `<section class="card us"><h3>Our heroes here (Icy Veins tier by the role each player fills)</h3><div class="scroll"><table><tr><th>Hero</th><th>Player</th><th>Tier</th><th>Our NGS here</th></tr>
@@ -1013,8 +1035,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       if (d.series === "clear") { ui.series = []; ui.actions = []; ui.sim = null; }
       else if (d.series === "undo") { ui.series.pop(); ui.sim = null; }
       else {
-        ui.series.push({ map: ui.map, won: d.series === "won", ours: E.picks(st, "us"), theirs: E.picks(st, "opp"), bans: { ours: E.bans(st, "us"), theirs: E.bans(st, "opp") } });
-        ui.actions = []; ui.sim = null; ui.side = null; ui.map = null;   // who has first pick next depends on the series rules, so it is asked again
+        ui.series.push({ map: ui.map, mapBans: JSON.parse(JSON.stringify(ui.mapBans)), won: d.series === "won", ours: E.picks(st, "us"), theirs: E.picks(st, "opp"), bans: { ours: E.bans(st, "us"), theirs: E.bans(st, "opp") } });
+        ui.actions = []; ui.sim = null; ui.side = null; ui.map = null; ui.mapBans = { us: ["", ""], opp: ["", ""] };   // who has first pick next depends on the series rules, so it is asked again
       }
     }
     else if (d.stage) {
@@ -1044,10 +1066,11 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   });
   document.addEventListener("change", ev => {
     const t = ev.target;
-    if (t.id === "teamsel") { ui.team = t.value; ui.teamPicked = true; ui.me = null; ui.mypool = {}; ui.opp = null; ui.actions = []; ui.series = []; ui.side = null; ui.map = null; ui.sim = null; ui.msg = ""; applyTeam(); }
+    if (t.id === "teamsel") { ui.team = t.value; ui.teamPicked = true; ui.me = null; ui.mypool = {}; ui.opp = null; ui.actions = []; ui.series = []; ui.side = null; ui.map = null; ui.mapBans = { us: ["", ""], opp: ["", ""] }; ui.sim = null; ui.msg = ""; applyTeam(); }
     else if (t.dataset && t.dataset.alias) { ui.aliasOff[t.dataset.alias] = !t.checked; }
     else if (t.id === "mesel") { ui.me = t.value || null; ui.mypool = {}; ui.teamPicked = true; ui.msg = ""; applyTeam(); }
-    else if (t.id === "opp") { ui.opp = t.value; ui.actions = []; ui.sim = null; ui.series = []; }
+    else if (t.id === "opp") { ui.opp = t.value; ui.actions = []; ui.sim = null; ui.series = []; ui.mapBans = { us: ["", ""], opp: ["", ""] }; }
+    else if (t.dataset && t.dataset.mapban) { const k = t.dataset.mapban.split(":"); ui.mapBans[k[0]][+k[1]] = t.value; if (ui.map && allMapBans().includes(ui.map)) ui.map = null; ui.sim = null; }
     else if (t.id === "map") { ui.map = t.value || null; ui.sim = null; }
     else if (t.id === "mapview") { ui.mapview = t.value; }
     else if (t.id === "hscope") { ui.hscope = t.value; }

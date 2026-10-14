@@ -23,7 +23,7 @@
 - The Icy Veins counter and synergy lists are a starting point, not a rule. Read the hero page for the reason before you pick on it.
 
 ## What the comp meter checks
-- **Ranged count.** Our own numbers on each map decide how many ranged heroes we want. Blaze is never counted as ranged. See the rules on the Prep tab.
+- **Ranged count.** Our own numbers on each map decide how many ranged heroes we want. See the rules on the Prep tab.
 - **Marksmen.** Auto attack ranged heroes such as Greymane, Valla, Raynor, Tychus, Lunara, Hanzo, Cassia, Sylvanas, Zul'jin, Fenix and Falstad.
 - **Front line and healer.** At least one of each, and the map page says when two healers or two bruisers are preferred.
 - **Wave clear.** A hero that clears a wave quickly lets the team rotate to an objective without losing a lane.

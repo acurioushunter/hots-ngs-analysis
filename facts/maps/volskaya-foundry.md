@@ -1,6 +1,6 @@
 # Volskaya Foundry: map fact sheet
 
-Built 2026-10-13. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/volskaya-foundry.md` for written lessons.
+Built 2026-10-14. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/volskaya-foundry.md` for written lessons.
 
 **Icy Veins prefers:** Strong late game, Siege damage for Structures, Sustain damage/healing
 
@@ -14,7 +14,7 @@ Built 2026-10-13. Icy Veins draft advice and tier lists, plus 3 Season 22 games.
 | Phoenix Rising Amethyst | 1-0 |
 | Roll1Esports | 0-1 |
 
-**Ranged heroes** (Blaze not counted): winners average 2.67, losers 3.0. Three or more ranged 2-3, two or fewer 1-0.
+**Ranged heroes**: winners average 2.67, losers 3.0. Three or more ranged 2-3, two or fewer 1-0.
 **Macro, winners against losers (per minute, k):** camp damage 3.31 v 3.23, structure damage 8.69 v 1.34, minion damage 14.89 v 15.97, experience 3.3 v 2.67. Deaths 4.0 v 14.0. Average length 18.5 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

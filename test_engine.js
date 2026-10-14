@@ -104,5 +104,19 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   const base = E.recommendBans(E.newDraft(CCS, "first", "Sky Temple")).find(b => b.hero === "Ragnaros");
   check("series: that ban score is higher than without the series", rag.score > base.score, rag.score + " vs " + base.score);
 }
+// pick sense checks (added after a live draft gave picks that clashed with the board)
+{
+  let st = E.newDraft(CCS, "first", "Tomb of the Spider Queen");
+  ["Lunara", "Junkrat", "Gazlowe", "Thrall", "Sylvanas", "Johanna", "Anub'arak"].forEach(h => E.apply(st, h));
+  const l = E.recommendPicks(st), tych = l.findIndex(x => x.hero === "Tychus");
+  check("a hero countered by two of their picks is flagged and not in the top 3", tych > 2 && l[tych].flags.some(f => /COUNTERED/.test(f)), "rank " + tych);
+  st = E.newDraft(CCS, "first", "Garden of Terror");
+  ["Lunara", "Junkrat", "Gazlowe", "Thrall", "Sylvanas", "Qhira", "Dehaka", "Brightwing", "Muradin", "Hanzo", "Whitemane", "Garrosh", "Li-Ming"].forEach(h => E.apply(st, h));
+  const g = E.recommendPicks(st), ty = g.find(x => x.hero === "Tychus");
+  check("a third ranged hero on Garden is flagged over the cap", ty.flags.some(f => /OVER RANGED/.test(f)), JSON.stringify(ty.flags));
+  check("a second healer is never in the top 3", g.slice(0, 3).every(x => PLAYBOOK.heroes[x.hero].role !== "Healer"), g.slice(0, 3).map(x => x.hero).join());
+  const mc = E.mapChoices(CCS, ["Towers of Doom", "Infernal Shrines"]);
+  check("map choices drop banned maps", mc.length === Object.keys(PLAYBOOK.maps).length - 2 && !mc.some(x => x.map === "Towers of Doom"), mc.length);
+}
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);

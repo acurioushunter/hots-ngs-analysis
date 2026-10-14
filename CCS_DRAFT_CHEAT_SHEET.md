@@ -41,7 +41,7 @@ Updated Oct 7 with the Garden and healer lessons and a map by map plan. Sources:
 - **Their map bans:** Braxis Holdout and Cursed Hollow. They have never banned Towers, Shrines, Sky Temple, Garden or Volskaya.
 - Hunter's Garden number is mostly Junkrat. With Junkrat banned, his Garden evidence is Sylvanas 6-6 and our team is 3-1 there because of the camp and Rehgar comp.
 - Icy Veins tiers are the guide's opinion, not our data, and they are listed by role. **Blaze is S tier as an offlaner on every map here except Dragon Shire (A);** his D tier is only the tank list, which does not apply to how SoulShepherd plays him. Qhira is S on all seven. Johanna is the S tier tank on six of seven maps, which is one more reason CCS gets her and we ban her.
-- **Ranged heroes in this sheet never include Blaze.** Counts use Heroes Profile's hero type, with Blaze counted as melee.
+- **Ranged heroes** are counted from Heroes Profile's hero type.
 
 ## 3. We have first pick (they have the map)
 Bans are ours at 1, 3, 11. Picks at 5, 8, 9, 14, 15. Their bans are 2, 4, 10.
@@ -109,7 +109,7 @@ Round one bans are Johanna and Lunara unless a line says otherwise. "Their usual
 **Garden of Terror (Tier 1).** Icy Veins wants camp clearers, a double bruiser, siege damage, split push, ganking, vision.
 - Their usual: Qhira, Anub'arak, Li-Ming, Ragnaros, Tyrande (won the Sep 22 game). They won on fight damage (5.0k against 3.5k a minute) and experience (3.33k against 2.69k), with Ragnaros at 265k minion damage.
 - **Ban Ragnaros before Lunara.** Answers: **Chen** (chelsi, counters Ragnaros and Li-Ming) or Stukov for Ragnaros, **Leoric or Varian** for Anub'arak.
-- Our wins used **Rehgar**, **two or fewer ranged heroes** (Garden is 4-1 with two or fewer and 0-3 with three or more, Blaze not counted), and a tank with a stun (Muradin, Johanna). The Sep 22 loss also had two ranged heroes, so the count alone does not save us. Not E.T.C. alone in the front (1/6/7). Blaze is S tier as an offlaner here, Leoric is A.
+- Our wins used **Rehgar**, **two or fewer ranged heroes** (Garden is 4-1 with two or fewer and 0-3 with three or more), and a tank with a stun (Muradin, Johanna). The Sep 22 loss also had two ranged heroes, so the count alone does not save us. Not E.T.C. alone in the front (1/6/7). Blaze is S tier as an offlaner here, Leoric is A.
 - Comp: Sylvanas, Tychus (2 ranged), Muradin, Leoric, Rehgar. Fight as five and do not leave the tank alone.
 **Tomb of the Spider Queen (Tier 2).** Wants poke for the objective, high wave clear, sustain, strong late game.
 - Their usual: Qhira, Kael'thas, Stukov, E.T.C., Gazlowe (lost to Cosmos); Lunara, Gazlowe, Garrosh, Rehgar, Tychus (won). Ban **Gazlowe**.

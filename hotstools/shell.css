@@ -96,6 +96,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .chip[aria-pressed="true"], .chip.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
 .chip[aria-pressed="true"] .muted { color: inherit; opacity: .8; }
 .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip.dim { opacity: .55; }
 .tag { display: inline-block; font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; background: var(--surface2); white-space: nowrap; }
 .tag.good { background: var(--good-soft); color: var(--good); } .tag.bad { background: var(--bad-soft); color: var(--bad); } .tag.warn { background: var(--warn-soft); color: var(--warn); } .tag.acc { background: var(--accent-soft); color: var(--accent); }
 .note { background: var(--warn-soft); border: 1px solid var(--warn); border-radius: 10px; padding: 10px 12px; font-size: .9rem; }
