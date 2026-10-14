@@ -209,3 +209,8 @@ code { font-family: ui-monospace, Consolas, monospace; font-size: 12px; backgrou
 details.learn > summary { list-style-position: inside; }
 
 .tbl tr.sel td { background: var(--accent-soft); }
+
+/* long lists scroll inside their box so one card never pushes the page down: header stays put */
+.card .scroll { max-height: 440px; overflow-y: auto; }
+.card .scroll thead th { position: sticky; top: 0; background: var(--surface, var(--panel, #fff)); z-index: 1; }
+.capbox { max-height: 150px; overflow-y: auto; }

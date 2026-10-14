@@ -87,6 +87,8 @@ table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 .scroll { overflow-x: auto; }
+.card .scroll { max-height: 440px; overflow-y: auto; }
+.card .scroll th { position: sticky; top: 0; background: var(--card, var(--surface, #fff)); z-index: 1; }
 .meter { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 8px; }
 .meter div { background: var(--surface2); border-radius: 8px; padding: 8px 10px; }
 .meter b { font-family: var(--mono); font-size: 1.3rem; display: block; } .meter span { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
@@ -644,11 +646,11 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const x = lab(); if (!x) return "";
     const ms = x.L.mapSummary(x.data, x.games, cur);
     if (!ms || !ms.n) return "";
-    const arch = (ms.archetypes || []).slice(0, 4), best = (ms.bestDelta || []).slice(0, 5), bans = (ms.topBans || []).slice(0, 4), bf = ((ms.buildFor || {}).heroes || []).slice(0, 5);
+    const arch = (ms.archetypes || []).slice(0, 4), best = (ms.bestDelta || []).slice(0, 10), bans = (ms.topBans || []).slice(0, 12), bf = ((ms.buildFor || {}).heroes || []).slice(0, 5);
     return `<section class="card"><h3>League data for this map</h3><p class="small muted">${ms.n} NGS games across every division${ms.low ? ", a low sample" : ""}. Leans, not rules.</p>
       <div class="cols"><div><b class="small">Comp styles that win here</b><ul class="r small">${arch.map(a => `<li>${esc(a.arch)} ${pc(a.shrunk)} over ${a.n}${lowTag(a.low)}</li>`).join("") || '<li class="muted">none</li>'}</ul></div>
-      <div><b class="small">Heroes that do better here than elsewhere</b><ul class="r small">${best.map(b => `<li>${heroBtn(b.hero)} ${pc(b.mapShrunk)} (${b.delta > 0 ? "+" : ""}${(b.delta * 100).toFixed(0)} points) over ${b.n}${lowTag(b.low)}</li>`).join("") || '<li class="muted">none with 3 or more games</li>'}</ul></div>
-      <div><b class="small">Most banned</b><ul class="r small">${bans.map(b => `<li>${heroBtn(b.hero)} ${b.bans}</li>`).join("") || '<li class="muted">none</li>'}</ul></div></div>
+      <div><b class="small">Heroes that do better here than elsewhere</b><ul class="r small" style="max-height:170px;overflow-y:auto">${best.map(b => `<li>${heroBtn(b.hero)} ${pc(b.mapShrunk)} (${b.delta > 0 ? "+" : ""}${(b.delta * 100).toFixed(0)} points) over ${b.n}${lowTag(b.low)}</li>`).join("") || '<li class="muted">none with 3 or more games</li>'}</ul></div>
+      <div><b class="small">Most banned</b><ul class="r small" style="max-height:170px;overflow-y:auto">${bans.map(b => `<li>${heroBtn(b.hero)} banned ${b.bans}${b.picks ? `, wins ${pc(b.shrunk)} as a pick (${b.picks})` : ", never picked here"}</li>`).join("") || '<li class="muted">none</li>'}</ul></div></div>
       ${bf.length ? `<p class="small"><b>Built for this map by attributes</b> ${basisTag("judgment")}: ${bf.map(b => heroBtn(b.hero) + " <span class='muted'>(" + esc(b.why) + ")</span>").join("; ")}</p>` : ""}</section>`;
   }
 

@@ -49,7 +49,7 @@ function drawHvH() {
     var all = E.heroVsList(games, C.a, 3).sort(function (x, y) { return y.shrunk - x.shrunk; });
     h += all.length ? '<div class="grid2" style="align-items:start"><div><h4>Does best against (n 3 or more)</h4>' + table(['Opponent', { t: 'Shrunk', c: 'r' }, { t: 'Lift', c: 'r' }, { t: 'Games', c: 'r' }], all.slice(0, 8).map(function (x) { return hvhRow(x, C.a); })) + '</div>' +
       '<div><h4>Does worst against</h4>' + table(['Opponent', { t: 'Shrunk', c: 'r' }, { t: 'Lift', c: 'r' }, { t: 'Games', c: 'r' }], all.slice(-8).reverse().map(function (x) { return hvhRow(x, C.a); })) + '</div></div>' : '<div class="note">No opponent has 3 or more games against this hero in the selection.</div>';
-    var syn = E.synergyList(games, C.a, 3).sort(function (x, y) { return y.lift - x.lift; }).slice(0, 6);
+    var syn = E.synergyList(games, C.a, 3).sort(function (x, y) { return y.lift - x.lift; }).slice(0, 12);
     if (syn.length) h += '<h4 style="margin-top:10px">Best teammates by lift (n 3 or more)</h4><div class="row" style="margin-top:6px">' + syn.map(function (x) { return '<span class="hm">' + hn(x.b === C.a ? x.a : x.b) + '<span class="small muted num">' + sgn(x.lift * 100) + ' pts, n ' + x.n + '</span></span>'; }).join('') + '</div>';
   }
   el.innerHTML = h;
@@ -64,7 +64,7 @@ function drawBeats() {
   var w = E.whatBeats(data, games, C.comp, { limit: 8 }), rd = E.compRead(data, games, C.comp, []);
   var h = '<p>This comp reads as <b>' + esc(w.archetype.label || 'unclear') + '</b>' + (w.archetype.partial ? ' (partial, ' + w.archetype.count + ' of 5)' : '') + ' ' + tag('judgment') + '</p>';
   h += '<div class="grid2" style="align-items:start"><div><h4>What the numbers say ' + tag('data') + '</h4><p class="small muted">Archetypes that did best against this comp\'s archetype in the selection.</p>' +
-    (w.archetypeAnswers.length ? table(['Archetype', { t: 'Win rate', c: 'r' }, { t: 'Games', c: 'r' }], w.archetypeAnswers.slice(0, 5).map(function (a) { return '<tr><td>' + esc(a.arch) + '</td><td class="r num">' + pct(a.shrunk) + '</td><td class="r num">' + a.n + lowb(a.low) + '</td></tr>'; })) : '<p class="small muted">No games for this archetype.</p>') + '</div>' +
+    (w.archetypeAnswers.length ? table(['Archetype', { t: 'Win rate', c: 'r' }, { t: 'Games', c: 'r' }], w.archetypeAnswers.slice(0, 10).map(function (a) { return '<tr><td>' + esc(a.arch) + '</td><td class="r num">' + pct(a.shrunk) + '</td><td class="r num">' + a.n + lowb(a.low) + '</td></tr>'; })) : '<p class="small muted">No games for this archetype.</p>') + '</div>' +
     '<div><h4>What the kit suggests ' + tag('kit') + '</h4>' + (rd.vulnerabilities.length ? '<ul class="small" style="margin:4px 0;padding-left:18px">' + rd.vulnerabilities.map(function (v) { return '<li>Weak to <b>' + esc(v.type) + '</b>: ' + v.heroes + ' of the heroes ' + tag(v.basis) + '</li>'; }).join('') + '</ul>' : '<p class="small muted">No weakness is shared by two or more heroes.</p>') +
     '<p class="small muted">' + esc(rd.note || '') + '</p></div></div>';
   h += '<h4 style="margin-top:12px">Heroes that fit as answers</h4><div class="scroll"><table class="tbl"><thead><tr><th>Hero</th><th class="r">Score</th><th>Biggest parts</th><th class="r">Games</th></tr></thead><tbody>' + w.heroes.map(function (x) {

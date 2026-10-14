@@ -45,23 +45,23 @@ function drawMap() {
   h += '<div class="grid2" style="align-items:start"><div class="card"><h3>Comp archetypes here ' + tag('data') + '</h3>' + table(['Archetype', { t: 'Win rate', c: 'r' }, { t: 'Seen', c: 'r' }, 'Share'], s.archetypes.slice().sort(function (a, b) { return b.shrunk - a.shrunk; }).map(function (a) {
     return '<tr><td>' + esc(a.arch) + '</td><td class="r num">' + pct(a.shrunk) + '</td><td class="r num">' + a.n + lowb(a.low) + '</td><td style="width:90px">' + bar(a.share * 3) + '</td></tr>';
   })) + '<p class="small muted" style="margin-top:6px">Win rate is shrunk toward 50% (prior of ' + E.PRIOR + ' games). Rows with fewer than ' + E.LOW_N + ' games are leans only.</p></div>';
-  var shapes = roleShapes(games, map).slice(0, 7);
+  var shapes = roleShapes(games, map).slice(0, 15);
   h += '<div class="card"><h3>Most common comp shapes ' + tag('data') + '</h3>' + table(['Role mix', { t: 'Win rate', c: 'r' }, { t: 'Seen', c: 'r' }], shapes.map(function (a) {
     return '<tr><td>' + esc(a.k) + '</td><td class="r num">' + pct(a.shrunk) + '</td><td class="r num">' + a.n + lowb(a.low) + '</td></tr>';
   })) + '<p class="small muted" style="margin-top:6px">Full hero lists almost never repeat, so comps are grouped by role mix.</p></div></div>';
   // heroes
-  var th = s.topHeroes.slice(0, 12);
+  var th = s.topHeroes.slice(0, 30);
   h += '<div class="grid2" style="align-items:start"><div class="card"><h3>Most picked heroes here ' + tag('data') + '</h3>' + table(['Hero', { t: 'Picks', c: 'r' }, { t: 'Win rate', c: 'r' }, { t: 'vs own avg', c: 'r' }], th.map(function (x) {
     return '<tr><td>' + hn(x.hero) + '</td><td class="r num">' + x.picks + lowb(x.low) + '</td><td class="r num">' + pct(x.mapShrunk) + '</td><td class="r num ' + (x.delta > 0 ? 'pos' : 'neg') + '">' + sgn(x.delta * 100) + ' pts</td></tr>';
   })) + '<p class="small muted" style="margin-top:6px">"vs own avg" is the hero\'s map win rate minus its overall rate in the selection, shrunk with a prior of ' + E.MAP_PRIOR + ' games.</p></div>';
-  h += '<div class="card"><h3>Bans and winning pairs ' + tag('data') + '</h3><h4>Top bans on this map</h4><div class="row" style="margin:6px 0 10px">' + s.topBans.slice(0, 8).map(function (b) { return '<span class="hm">' + hn(b.hero) + ' <span class="small muted num">' + pct(b.banRate, 0) + ', banner won ' + b.banWins + '-' + (b.bans - b.banWins) + (b.banRec.low ? ' (low)' : '') + '</span></span>'; }).join('') + '</div>' +
-    '<h4>Hero pairs that won most often together</h4><div class="stack" style="gap:4px;margin-top:6px">' + (s.winningPairs.slice(0, 6).map(function (w) { return '<div class="row between"><span class="row">' + hn(w.a) + '<span class="muted">+</span>' + hn(w.b) + '</span><span class="small muted num">' + w.wins + ' wins</span></div>'; }).join('') || '<span class="muted small">No pairs</span>') + '</div></div></div>';
+  h += '<div class="card"><h3>Bans and winning pairs ' + tag('data') + '</h3><h4>Top bans on this map</h4><div class="row" style="margin:6px 0 10px">' + s.topBans.slice(0, 20).map(function (b) { return '<span class="hm">' + hn(b.hero) + ' <span class="small muted num">' + pct(b.banRate, 0) + ', banner won ' + b.banWins + '-' + (b.bans - b.banWins) + (b.banRec.low ? ' (low)' : '') + '</span></span>'; }).join('') + '</div>' +
+    '<h4>Hero pairs that won most often together</h4><div class="stack" style="gap:4px;margin-top:6px">' + (s.winningPairs.slice(0, 15).map(function (w) { return '<div class="row between"><span class="row">' + hn(w.a) + '<span class="muted">+</span>' + hn(w.b) + '</span><span class="small muted num">' + w.wins + ' wins</span></div>'; }).join('') || '<span class="muted small">No pairs</span>') + '</div></div></div>';
   // build for
   var b = s.buildFor, prof = s.profile;
   h += '<div class="card"><h3>Build for this map ' + tag('judgment') + '</h3>';
   if (prof) h += '<p class="small">What this map rewards in the hero matrix: ' + Object.keys(prof).map(function (k) { return '<span class="pill">' + esc(k.replace(/_/g, ' ')) + ' x' + prof[k] + '</span>'; }).join(' ') + '</p>';
   h += '<p class="small muted">These weights are authored by judgment for this tool. Heroes below fit them best by their matrix ratings. This is a kit based idea, not a result from games.</p>';
-  if (b && b.heroes && b.heroes.length) h += '<div class="grid3">' + b.heroes.slice(0, 12).map(function (x) {
+  if (b && b.heroes && b.heroes.length) h += '<div class="grid3">' + b.heroes.slice(0, 24).map(function (x) {
     return '<div class="row between" style="border-bottom:1px solid var(--line);padding-bottom:4px"><div>' + hn(x.hero) + '<div class="small muted">' + esc(x.role) + ': ' + esc(x.why) + '</div></div><span class="num small">' + x.fit.toFixed(2) + '</span></div>';
   }).join('') + '</div>';
   else h += '<p class="muted small">No profile for this map.</p>';

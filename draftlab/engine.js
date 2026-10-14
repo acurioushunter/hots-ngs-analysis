@@ -537,15 +537,16 @@
     var winningPairs = []; pairs.forEach(function (c, k) { var p = k.split('|'); winningPairs.push({ a: p[0], b: p[1], wins: c }); });
     winningPairs.sort(cmp(function (x) { return x.wins; }));
     var bans = {}, banW = {}; sub.forEach(function (g) { [0, 1].forEach(function (s) { g.bans[s].forEach(function (h) { if (h) { bans[h] = (bans[h] || 0) + 1; if (g.winner === s) banW[h] = (banW[h] || 0) + 1; } }); }); });
-    var topBans = Object.keys(bans).map(function (h) { return { hero: h, bans: bans[h], banRate: sub.length ? bans[h] / sub.length : 0, banWins: banW[h] || 0, banRec: rate(banW[h] || 0, bans[h]) }; }).sort(cmp(function (x) { return x.bans; })).slice(0, 10);
+    var topBans = Object.keys(bans).map(function (h) { return { hero: h, bans: bans[h], banRate: sub.length ? bans[h] / sub.length : 0, banWins: banW[h] || 0, banRec: rate(banW[h] || 0, bans[h]) }; }).sort(cmp(function (x) { return x.bans; })).slice(0, 20);
+    topBans.forEach(function (b) { var st = hs.list.filter(function (x) { return x.hero === b.hero; })[0]; b.picks = st ? st.picks : 0; b.shrunk = st ? st.shrunk : null; b.winsAsPick = st ? st.wins : 0; });
     var am = archetypeByMap(sub)[map] || { n: 0, list: [] };
     var wins = {}; sub.forEach(function (g) { var a = g.arch[g.winner]; wins[a] = (wins[a] || 0) + 1; });
     return {
       map: map, n: sub.length, low: sub.length < LOW_N, archetypes: am.list,
       winnerArchetypes: ARCHETYPES.map(function (a) { return { arch: a, wins: wins[a] || 0 }; }).sort(cmp(function (x) { return x.wins; })),
-      topHeroes: hs.list.slice().sort(cmp(function (s) { return s.picks; })).slice(0, 12),
+      topHeroes: hs.list.slice().sort(cmp(function (s) { return s.picks; })).slice(0, 30),
       bestDelta: hs.list.filter(function (s) { return s.picks >= 3; }).sort(cmp(function (s) { return s.delta; })).slice(0, 8),
-      winningPairs: winningPairs.slice(0, 8), topBans: topBans, profile: MAP_PROFILES[map] || null,
+      winningPairs: winningPairs.slice(0, 15), topBans: topBans, profile: MAP_PROFILES[map] || null,
       buildFor: null
     };
   }
@@ -998,10 +999,10 @@
 
   function metaSummary(games) {
     var hs = heroStats(games), n = games.length;
-    var picked = hs.list.slice().sort(cmp(function (s) { return s.picks; })).slice(0, 15);
-    var banned = hs.list.filter(function (s) { return s.bans > 0; }).sort(cmp(function (s) { return s.bans; })).slice(0, 15);
-    var best = hs.list.filter(function (s) { return s.picks >= 10; }).sort(cmp(function (s) { return s.shrunk; })).slice(0, 10);
-    var worst = hs.list.filter(function (s) { return s.picks >= 10; }).sort(cmp(function (s) { return -s.shrunk; })).slice(0, 10);
+    var picked = hs.list.slice().sort(cmp(function (s) { return s.picks; })).slice(0, 40);
+    var banned = hs.list.filter(function (s) { return s.bans > 0; }).sort(cmp(function (s) { return s.bans; })).slice(0, 40);
+    var best = hs.list.filter(function (s) { return s.picks >= 10; }).sort(cmp(function (s) { return s.shrunk; })).slice(0, 30);
+    var worst = hs.list.filter(function (s) { return s.picks >= 10; }).sort(cmp(function (s) { return -s.shrunk; })).slice(0, 30);
     var t = heroTable(games), flex = [];
     t.forEach(function (e, h) {
       if (e.picks < 10) return;
@@ -1031,7 +1032,7 @@
     var lens = games.map(function (g) { return g.length; }).filter(function (x) { return typeof x === 'number'; });
     var maps = {}; games.forEach(function (g) { maps[g.map] = (maps[g.map] || 0) + 1; });
     return {
-      n: n, selection: selectionInfo(games), topPicked: picked, topBanned: banned, bestWinRate: best, worstWinRate: worst, flexPicks: flex.slice(0, 12),
+      n: n, selection: selectionInfo(games), topPicked: picked, topBanned: banned, bestWinRate: best, worstWinRate: worst, flexPicks: flex.slice(0, 30),
       firstPick: firstPick, lvl10: lvl10, early: early, trends: trends, avgLengthSec: lens.length ? lens.reduce(function (a, b) { return a + b; }, 0) / lens.length : null,
       maps: Object.keys(maps).map(function (m) { return { map: m, n: maps[m], share: n ? maps[m] / n : 0 }; }).sort(cmp(function (x) { return x.n; })),
       archetypes: archetypeStats(games).list, limits: LIMITS.slice()
