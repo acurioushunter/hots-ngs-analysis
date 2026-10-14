@@ -196,6 +196,14 @@
       // counters and synergy against what is already on the board
       const counteredBy = [];
       theirs.forEach(e => {
+        const m = E.h2h(h, e);
+        if (m && m.n >= 40) {   // measured from league games: use it instead of the Icy Veins list
+          const edge = Math.max(-2.2, Math.min(2.0, m.edge * 20));
+          score += edge;
+          if (Math.abs(m.edge) >= 0.03) reasons.push((m.edge > 0 ? "does better" : "does worse") + " against their " + e + " than usual: " + Math.round(m.wr * 100) + "% in " + m.n + " league games (" + Math.round(m.base * 100) + "% overall)");
+          if (m.edge <= -0.04) counteredBy.push(e);
+          return;
+        }
         if (heroInfo(e).counters.indexOf(h) >= 0) { score += w.counter; reasons.push("counters their " + e + " (Icy Veins)"); }
         if (info.counters.indexOf(e) >= 0) { score -= w.counter * 1.4; counteredBy.push(e); reasons.push("their " + e + " counters it (Icy Veins)"); }
       });
@@ -368,6 +376,24 @@
   };
   const wl = (g, w) => w + "-" + (g - w);
   const pcs = (g, w) => g ? Math.round(100 * w / g) + "%" : "n/a";
+  // hero against hero from every league game on record (NGS seasons 15 to 22): the record of a's side when b was on the other side
+  E.h2h = function (a, b) {
+    const m = D().h2h;
+    if (!m) return null;
+    const flip = a > b, v = m[flip ? b + "|" + a : a + "|" + b];
+    if (!v) return null;
+    const n = v[0], w = flip ? n - v[1] : v[1];
+    const o = D().heroes[a] && D().heroes[a].obs;
+    const base = o && o.g >= 50 ? o.w / o.g : 0.5;   // how a does overall, so a matchup reads as better or worse than usual
+    return { n, w, wr: (w + 5) / (n + 10), base, edge: (w + 5) / (n + 10) - base };   // lightly shrunk toward 50%
+  };
+  // where a hero's measured crowd control time ranks among all heroes with enough games
+  function obsRank(h, key) {
+    const hs = D().heroes, o = hs[h] && hs[h].obs;
+    if (!o) return null;
+    const all = Object.keys(hs).filter(x => hs[x].obs && hs[x].obs.g >= 50).map(x => hs[x].obs[key]).filter(v => v != null).sort((a, b) => b - a);
+    return { rank: all.indexOf(o[key]) + 1, of: all.length };
+  }
 
   // the style of comps a team builds: how many of its games had two or more heroes with each comp fit tag
   E.styleOf = function (team) {
@@ -425,6 +451,11 @@
         out.combos.push("Kit suggests its " + hard.join(", ") + (talent.length ? " (plus " + talent.join(", ") + " from talents)" : "") + " could set up their " + seen.join(", ") + (partners.some(x => (board || []).indexOf(x) >= 0) ? ". One of them is already on their board." : "."));
       } else if (hard.length >= 2 && (k.engage || 0) >= 3) out.combos.push("Kit suggests it brings " + hard.join(", ") + " and a decent engage on its own.");
       if ((k.peel || 0) >= 4) out.combos.push("Kit suggests strong peel: it protects whoever carries the damage.");
+      const ob = (D().heroes[hero] || {}).obs;
+      if (ob && ob.g >= 50) {
+        const r = obsRank(hero, "cc");
+        out.numbers.push("In " + ob.g + " NGS games (seasons 15 to 22) it lands " + ob.cc + " seconds of stun, root and silence per game" + (r && r.rank ? " (rank " + r.rank + " of " + r.of + " heroes)" : "") + (ob.fb != null ? "; its side drew first blood in " + Math.round(ob.fb * 100) + "% of those games." : "."));
+      }
       if (k.wr != null) { out.numbers.push("Heroes Profile Storm League, newest patches: " + Math.round(k.wr * 10) / 10 + "% wins, banned in " + Math.round((k.ban || 0) * 10) / 10 + "% of games (" + (k.n || 0).toLocaleString("en-US") + " games)."); out.headline.global = k.wr; }
       const st = E.styleOf(team);
       (k.fit || []).filter(t => st.tags[t] && st.tags[t][0] >= 3 && st.tags[t][0] <= 0.75 * st.games).forEach(t => out.style.push("Fits their style: " + t + " comps in " + st.tags[t][0] + " of " + st.games + " games, " + wl(st.tags[t][0], st.tags[t][1]) + "."));
@@ -445,9 +476,15 @@
     const i = E.heroIntel(opp, hero, E.picks(st, "opp"), st.map);
     const ours = E.ourRecordAgainst(hero);
     if (ours) { i.numbers.push("Our season record when they had it: " + wl(ours[0], ours[1]) + " (" + ours[0] + " games, every opponent)."); i.headline.ours = ours; }
-    const hits = [];
-    d.us.players.forEach(p => Object.keys(p.pool).forEach(o => { if (heroInfo(o).counters.indexOf(hero) >= 0 && hits.indexOf(o) < 0) hits.push(o); }));
-    if (hits.length) i.combos.push("Icy Veins lists it as a counter to our " + hits.join(", ") + ".");
+    const hits = [], seenOurs = [];
+    d.us.players.forEach(p => Object.keys(p.pool).forEach(o => { if (seenOurs.indexOf(o) < 0) seenOurs.push(o); }));
+    const meas = seenOurs.map(o => ({ o, r: E.h2h(hero, o) })).filter(x => x.r && x.r.n >= 25);
+    const beats = meas.filter(x => x.r.edge >= 0.03).sort((a, b) => b.r.edge - a.r.edge).slice(0, 4);
+    const loses = meas.filter(x => x.r.edge <= -0.03).sort((a, b) => a.r.edge - b.r.edge).slice(0, 3);
+    if (beats.length) i.combos.push("In league games it does better than usual against our " + beats.map(x => x.o + " " + Math.round(x.r.wr * 100) + "% (" + x.r.n + " games)").join(", ") + ".");
+    if (loses.length) i.combos.push("It does worse than usual against our " + loses.map(x => x.o + " (" + Math.round(x.r.wr * 100) + "%, " + x.r.n + " games)").join(", ") + ", so banning it is less pressing.");
+    d.us.players.forEach(p => Object.keys(p.pool).forEach(o => { if (heroInfo(o).counters.indexOf(hero) >= 0 && hits.indexOf(o) < 0 && !meas.some(x => x.o === o)) hits.push(o); }));
+    if (hits.length) i.combos.push("Icy Veins lists it as a counter to our " + hits.join(", ") + " (no measured record).");
     return i;
   };
 

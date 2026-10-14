@@ -33,7 +33,7 @@ check("slot 5 pick: Sylvanas first", picks[0].hero === "Sylvanas", top(picks, 5)
 check("slot 5 pick: Junkrat and Chromie are not offered (banned)", !top(picks, 20).includes("Junkrat") && !top(picks, 20).includes("Chromie"), "");
 E.apply(st, "Sylvanas"); E.apply(st, "Qhira"); E.apply(st, "Hanzo"); // 5 us, 6 opp, 7 opp
 picks = E.recommendPicks(st);
-check("slot 8: Tychus or Thrall in the top 3 and marked lock by slot 9", ["Tychus", "Thrall"].includes(picks[0].hero) && picks.slice(0, 3).some(p => p.flags.some(f => f.startsWith("lock by slot 9"))), top(picks, 5).join() + " " + JSON.stringify(picks.slice(0, 3).map(p => p.flags)));
+check("slot 8: Tychus or Thrall in the top 3 and marked lock by slot 9 (Brightwing may lead on the CCS healer rule)", ["Tychus", "Thrall", "Brightwing"].includes(picks[0].hero) && picks.slice(0, 3).some(p => ["Tychus", "Thrall"].includes(p.hero)) && picks.slice(0, 3).some(p => p.flags.some(f => f.startsWith("lock by slot 9"))), top(picks, 5).join() + " " + JSON.stringify(picks.slice(0, 3).map(p => p.flags)));
 { // if we spent slot 8 on something else, slot 9 is the last chance and must say LOCK NOW
   const alt = E.clone(st); E.apply(alt, "Brightwing");
   const p9 = E.recommendPicks(alt);
@@ -109,7 +109,10 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   let st = E.newDraft(CCS, "first", "Tomb of the Spider Queen");
   ["Lunara", "Junkrat", "Gazlowe", "Thrall", "Sylvanas", "Johanna", "Anub'arak"].forEach(h => E.apply(st, h));
   const l = E.recommendPicks(st), tych = l.findIndex(x => x.hero === "Tychus");
-  check("a hero countered by two of their picks is flagged and not in the top 3", tych > 2 && l[tych].flags.some(f => /COUNTERED/.test(f)), "rank " + tych);
+  check("a hero that does worse than usual against their pick says so with the league record", l[tych].reasons.some(r => /does worse against their Johanna than usual: \d+% in \d+ league games/.test(r)), l[tych].reasons.join("|"));
+  const hj = E.h2h("Tychus", "Johanna"), jt = E.h2h("Johanna", "Tychus");
+  check("head to head is symmetric", hj && jt && hj.n === jt.n && hj.w + jt.w === hj.n, JSON.stringify([hj, jt]));
+  check("hero observed stats exist for a CC hero", PLAYBOOK.heroes["Stukov"].obs && PLAYBOOK.heroes["Stukov"].obs.cc > PLAYBOOK.heroes["Tychus"].obs.cc, "");
   st = E.newDraft(CCS, "first", "Garden of Terror");
   ["Lunara", "Junkrat", "Gazlowe", "Thrall", "Sylvanas", "Qhira", "Dehaka", "Brightwing", "Muradin", "Hanzo", "Whitemane", "Garrosh", "Li-Ming"].forEach(h => E.apply(st, h));
   const g = E.recommendPicks(st), ty = g.find(x => x.hero === "Tychus");

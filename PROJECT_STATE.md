@@ -1,3 +1,29 @@
+# Handoff 2026-10-14 (end of session: dossiers, ban win rates, seasons 15 to 22)
+Live artifact is v20 or later and carries everything below. All tests print OK (`node test_engine.js`, `node test_draftlab.js`, `node test_hotstools.js`, `python test_playbook.py`).
+
+**Built this session**
+- Drafter: map bans for both teams (Setup card), heavier counter, ranged cap, role stacking and second healer penalties, ban and pick dossiers (`E.heroIntel`, `E.banIntel`, `E.fearList`), LOW VALUE BAN flag, "What they may be worried about" on their ban turns.
+- Team `log` rows (one per game) in `data.json` feed the dossiers. Heroes carry `kit` (hero matrix: crowd control, comp fit, global Storm League rates) and `obs` (measured from every NGS replay: games, wins, crowd control seconds per game, first blood rate). `data.h2h` holds hero against hero records (n 12 or more) from seasons 15 to 22.
+- Pick scoring uses measured head to head when n is 40 or more, as the edge against the hero's own overall rate (so a hero that does worse than usual against their pick loses points); Icy Veins lists are the fallback.
+- Draft Lab: "Banner won" (banning side record) in Meta, Maps, Heroes (detail and trend), Scout and ban suggestions. Preset "NGS last three seasons".
+- League data: NGS replay exports for seasons 15 to 22 are in `knowledge/raw/ngs_export/` (zips and extracted folders, git ignored, 1.8 GB). `python -I build_ngs_league.py 15=knowledge/raw/ngs_export/season-15 ... 22=...` is now incremental (only the seasons named are replaced). Then `python -I build_league_export.py` (9,000 plus games) then `python build_hotstools.py --all --personal`. Older seasons are NGS pages' own export: no Heroes Profile ids beyond the toon id, but the toon id is the same number.
+- Drafter Team tab: "Seasons 15 to 20" chip adds each player's older hero records (merged regular and playoff games, key `old`, built from `ngs_league.db`).
+
+**Not done, in rough order of value**
+1. Takedown timing combos from the export (`takedowns` has victim, killers, time and position; `lg_timeline` keeps only the first). Would turn "kit suggests" combo lines into "seen in X of Y games" (the Roll1 Stukov ban reasoning).
+2. Win rate on bans: done in the Lab; the Drafter `expectOppBans` chips and `leagueMapCard` "Most banned" could show banner records too.
+3. Ratings clamp from `audit_hero_ratings.py --flags` (see the earlier handoff below), `plays_as` roles.
+4. Team name changes across seasons 15 to 22 (`build_team_aliases.py` only covers 21 to 22), so older team histories are by player id only.
+5. HeroesToolChest heroes-data for exact kit numbers (needs Hunter's yes before downloading).
+6. Sources considered but not checked: Liquipedia HotS (events, brackets), Heroes Lounge match history (`heroeslounge.db` holds some), HotS Logs style sites. Chrome is available to look things up. Reading Cloudflare protected pages stays in Hunter's own Chrome.
+
+**Gotchas**
+- Bash heredocs that hold a lot of quotes failed in this environment: write patch scripts to the scratchpad with the Write tool and run them.
+- `test_draftlab.js` and `test_engine.js` assertions that counted seasons or the top pick were loosened when more data arrived; if a count test breaks after a data refresh, check whether the data or the test is stale before editing.
+- Publish with `hots_tools_artifact.html` to the url in CLAUDE.md (read it first).
+
+---
+
 # Update 2026-10-14 (Drafter depth)
 - Map bans for both teams in the Draft tab Setup card; map list and "maps left" follow them.
 - Pick advice: counters, ranged cap, role stacking and second healer penalties are heavier; CCS healer rule also penalizes Rehgar and Stukov (0-3).

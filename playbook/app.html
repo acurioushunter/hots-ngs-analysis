@@ -178,7 +178,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     us.players.forEach(p => {
       if (p.ngs_by) {
         const out = {}, keys = [];
-        ui.ngsSeasons.forEach(k => { if (ui.stages.indexOf("reg") >= 0) keys.push(k); if (ui.stages.indexOf("po") >= 0) keys.push(k + "p"); });
+        ui.ngsSeasons.forEach(k => { if (k === "old") { keys.push(k); return; } if (ui.stages.indexOf("reg") >= 0) keys.push(k); if (ui.stages.indexOf("po") >= 0) keys.push(k + "p"); });
         keys.forEach(k => Object.keys(p.ngs_by[k] || {}).forEach(h => {
           const x = p.ngs_by[k][h], o = out[h];
           if (!o) out[h] = { g: x.g, w: x.w, rating: x.rating == null ? 0 : x.rating, deaths: x.deaths || 0 };
@@ -213,6 +213,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
           }); };
           if (has("21") && reg && L) addPrev(L.prev_heroes);
           if (has("21") && po && L) addPrev(L.prev_heroes_p);
+          if (has("old") && L) addPrev(L.old_heroes);
           const sorted = {}; Object.keys(hs).sort((a, b) => hs[b].g - hs[a].g).forEach(h => { sorted[h] = hs[h]; });
           pl[tag] = Object.assign({}, q, { heroes: sorted });
         });
@@ -955,8 +956,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const winCard = `<section class="card"><h3>Data window</h3>
         <p class="small muted">Choose which seasons the player and hero numbers are built from. Tick more than one to combine them. Team level records (maps, picks by slot, bans) are always this season; last season is on the Prep tab.</p>
         <p class="small" style="margin-bottom:4px"><b>NGS seasons</b></p>
-        <div class="chips">${["22", "21"].map(k => `<button class="chip ${ui.ngsSeasons.indexOf(k) >= 0 ? "on" : ""}" data-ngs="${k}" aria-pressed="${ui.ngsSeasons.indexOf(k) >= 0}">Season ${k}</button>`).join("")}</div>
-        <p class="small" style="margin:10px 0 4px"><b>Games</b> <span class="muted">(playoff games are only in last season so far)</span></p>
+        <div class="chips">${["22", "21", "old"].map(k => `<button class="chip ${ui.ngsSeasons.indexOf(k) >= 0 ? "on" : ""}" data-ngs="${k}" aria-pressed="${ui.ngsSeasons.indexOf(k) >= 0}">${k === "old" ? "Seasons 15 to 20" : "Season " + k}</button>`).join("")}</div>
+        <p class="small" style="margin:10px 0 4px"><b>Games</b> <span class="muted">(playoff games are only in last season so far; seasons 15 to 20 mix regular and playoff games)</span></p>
         <div class="chips">${[["reg", "Regular season"], ["po", "Playoffs"]].map(x => `<button class="chip ${ui.stages.indexOf(x[0]) >= 0 ? "on" : ""}" data-stage="${x[0]}" aria-pressed="${ui.stages.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>
         <p class="small" style="margin:10px 0 4px"><b>Storm League</b> <span class="muted">(untick everything to hide Storm League completely)</span></p>
         <div class="chips">${[["recent", "Recent (last 12 months)"], ["all", "All time"], ["s34", "Season 34"], ["s33", "Season 33"], ["s32", "Season 32"], ["mmr", "Show MMR"]].map(x => `<button class="chip ${ui.slScopes.indexOf(x[0]) >= 0 ? "on" : ""}" data-sl="${x[0]}" aria-pressed="${ui.slScopes.indexOf(x[0]) >= 0}">${x[1]}</button>`).join("")}</div>

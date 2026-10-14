@@ -85,6 +85,43 @@ def build_heroes(cfg):
     return heroes, canon, kdb
 
 
+def league_observed(heroes):
+    """Measured facts from every NGS replay in knowledge/ngs_league.db (seasons 15 to 22): per hero crowd control seconds and how often its team
+    drew first blood, plus hero against hero records. Returns (per hero dict, head to head {"A|B": [games, A side wins]} with A < B)."""
+    path = KN / "ngs_league.db"
+    if not path.exists():
+        return {}, {}
+    db = sqlite3.connect(path)
+    first = dict(db.execute("SELECT game_id, first_td_team FROM lg_timeline"))
+    win = dict(db.execute("SELECT game_id, winner FROM lg_games"))
+    obs = {}
+    for gid, hero, team, cc in db.execute("SELECT game_id, hero, team, cc_time FROM lg_players"):
+        h = canon_name(hero, heroes)
+        if not h:
+            continue
+        o = obs.setdefault(h, dict(g=0, cc=0.0, fb=0, fbn=0, w=0))
+        o["g"] += 1; o["cc"] += cc or 0; o["w"] += int(win.get(gid) == team)
+        ft = first.get(gid)
+        if ft is not None:
+            o["fbn"] += 1; o["fb"] += int(ft == team)
+    out = {h: dict(g=o["g"], w=o["w"], cc=round(o["cc"] / o["g"], 1), fb=round(o["fb"] / o["fbn"], 3) if o["fbn"] else None, fbn=o["fbn"]) for h, o in obs.items() if o["g"] >= 20}
+    sides = {}
+    for gid, team, hero in db.execute("SELECT game_id, team, hero FROM lg_picks"):
+        sides.setdefault(gid, {0: [], 1: []})[int(team)].append(canon_name(hero, heroes))
+    h2h = {}
+    for gid, s in sides.items():
+        w = win.get(gid)
+        if w is None:
+            continue
+        for a in s[0]:
+            for b in s[1]:
+                if not a or not b or a == b:
+                    continue
+                key, a_won = (a + "|" + b, w == 0) if a < b else (b + "|" + a, w == 1)
+                r = h2h.setdefault(key, [0, 0]); r[0] += 1; r[1] += int(a_won)
+    return out, {k: v for k, v in h2h.items() if v[0] >= 12}
+
+
 def attach_kit(heroes):
     """Kit facts per hero from the expert hero matrix: crowd control, comp fit, engage, and Heroes Profile global rates. Judgment, not measured."""
     path = KN / "expert" / "hero_matrix_draft.json"
@@ -345,6 +382,15 @@ def prev_ngs(heroes):
                 bid = toon.split("-")[-1]
                 r = ex.setdefault(bid, {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
                 r["g"] += 1; r["w"] += int(winner == side); r["deaths"] += deaths or 0
+        # seasons 15 to 20 from the replay export, merged into one "older" record per player (key id + "o")
+        old = {}
+        if path.exists():
+            for winner, side, hero, toon, deaths in db.execute(
+                    "SELECT g.winner, p.team, p.hero, p.toon, p.deaths FROM lg_players p JOIN lg_games g USING(game_id) WHERE g.season<21"):
+                r = old.setdefault(toon.split("-")[-1] + "o", {}).setdefault(canon_name(hero, heroes), dict(g=0, w=0, deaths=0))
+                r["g"] += 1; r["w"] += int(winner == side); r["deaths"] += deaths or 0
+        for key, hs in old.items():
+            _PREV[key] = {h: dict(g=r["g"], w=r["w"], deaths=round(r["deaths"] / r["g"], 1)) for h, r in hs.items()}
         total = lambda d: sum(r["g"] for r in d.values()) if d else 0
         for key in set(hp) | set(ex):
             if key.endswith("p"):
@@ -384,7 +430,8 @@ def our_team(cfg, G, heroes):
                     s["g"] += 1; s["w"] += r["won"]; s["rating"] += r["rating"] or 0; s["deaths"] += r["deaths"] or 0
         p["ngs"] = {h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in stats.items()}
         bid = bid_by_tag().get(p["tag"])
-        p["ngs_by"] = {"22": p["ngs"], "22p": {}, "21": prev_ngs(heroes).get(bid, {}) if bid else {}, "21p": prev_ngs(heroes).get(str(bid) + "p", {}) if bid else {}}
+        p["ngs_by"] = {"22": p["ngs"], "22p": {}, "21": prev_ngs(heroes).get(bid, {}) if bid else {}, "21p": prev_ngs(heroes).get(str(bid) + "p", {}) if bid else {},
+                      "old": prev_ngs(heroes).get(str(bid) + "o", {}) if bid else {}}
         if bid:
             p["sl_scopes"] = sl_scopes(bid, heroes)
         for h in list(p["pool"]) + list(p.get("avoid", [])):
@@ -461,7 +508,7 @@ def derived_profile(team, G, heroes, mmr):
         extra = {}
         if bid:
             extra = dict(ngs_by={"22": {h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in hs.items()},
-                                 "22p": {}, "21": prev_ngs(heroes).get(bid, {}), "21p": prev_ngs(heroes).get(bid + "p", {})}, sl_scopes=sl_scopes(bid, heroes))
+                                 "22p": {}, "21": prev_ngs(heroes).get(bid, {}), "21p": prev_ngs(heroes).get(bid + "p", {}), "old": prev_ngs(heroes).get(bid + "o", {})}, sl_scopes=sl_scopes(bid, heroes))
         players.append(dict(tag=tag, label=tag, **extra, slot_role=(top[0] if top else "Unknown"), tier_roles=top or ["Ranged Assassin"], pool=pool, avoid=[], notes={},
                             ngs={h: dict(g=s["g"], w=s["w"], rating=round(s["rating"] / s["g"], 1), deaths=round(s["deaths"] / s["g"], 1)) for h, s in hs.items()},
                             sl_mmr=m, derived=True))
@@ -571,6 +618,8 @@ def build_league(cfg, curated_us, heroes):
                 p["prev_heroes"] = prev_ngs(heroes)[bid]
             if bid and prev_ngs(heroes).get(bid + "p"):
                 p["prev_heroes_p"] = prev_ngs(heroes)[bid + "p"]
+            if bid and prev_ngs(heroes).get(bid + "o"):
+                p["old_heroes"] = prev_ngs(heroes)[bid + "o"]
     pairs = {}
     for a in names:
         for b in names:
@@ -701,6 +750,10 @@ def main():
     G = games(db)
     attach_hero_stats(heroes, G)
     attach_kit(heroes)
+    obs, h2h = league_observed(heroes)
+    for h, o in obs.items():
+        if h in heroes:
+            heroes[h]["obs"] = o
     names = sorted({g["team0"] for g in G.values()} | {g["team1"] for g in G.values()})
     map_names = sorted({g["map"] for g in G.values()} | league_maps())
     maps = build_maps(kdb, canon, map_names)
@@ -718,7 +771,7 @@ def main():
         meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values()),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
-        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules)
+        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h)
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:

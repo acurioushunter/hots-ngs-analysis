@@ -48,3 +48,4 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - Team name changes are inferred from shared players by `build_team_aliases.py` into `knowledge/team_aliases.json`.
 - The Draft Room has a Team tab (pick any team, who you are, data window for NGS seasons and Storm League scopes). Rules with `scope.us` only apply to that team.
 - Next opponent: CCS (Can't Counterpick Stupid), the likely final. PRA beat Cosmos 2-1 on Oct 6 (Cosmos won Tomb).
+- League data (Draft Lab): NGS replay exports for seasons 15 to 22 live in `knowledge/raw/ngs_export/` (git ignored). `knowledge/ngs_league.db` is built from them incrementally by `build_ngs_league.py`; `build_league_export.py` then `build_hotstools.py --all --personal` carry them into the Lab (9,000 plus games). The Drafter uses them for hero against hero records and per player older seasons. See the 2026-10-14 handoff in `PROJECT_STATE.md`.
