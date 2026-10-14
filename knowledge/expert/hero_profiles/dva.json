@@ -117,5 +117,82 @@
  "owner_notes": "A bruiser. Soaks lanes, controls points with her bombs, and disrupts fights with Bunny Hop.",
  "owner_corrections": [
   "role Tank to Bruiser"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "disruptor",
+  "durability_source": [
+   "big_health",
+   "damage_reduction",
+   "untargetable_or_escape"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "backline_dive",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure",
+   "zone_hold"
+  ],
+  "split_potential": "some",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "healer"
+  ],
+  "team_gives": [
+   "engage",
+   "peel",
+   "wave_clear",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "dive",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "frontline_style": "Owner says she disrupts fights with Bunny Hop and controls points with bombs, so disruptor over a classic tank value.",
+  "lane_role": "Owner says she soaks lanes.",
+  "durability_source": "Mech health pool plus the Pilot second life; Defense Matrix cuts damage 60 percent in a field.",
+  "cc_profile": "Boosters knockback is the reliable tool; Bunny Hop stun is a heroic.",
+  "ultimate_role": "Bunny Hop for the fight swing, Micro Missiles is the siege alternative.",
+  "utility_tool": "Defense Matrix is a team damage reduction field that no utility value describes.",
+  "kill_pattern": "Self Destruct on a clump plus Boosters onto backliners."
+ },
+ "lens_gaps": [
+  "no value for team damage reduction field on utility_tool",
+  "no value for two health pools or second life on durability_source"
  ]
 }

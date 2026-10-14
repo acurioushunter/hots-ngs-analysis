@@ -120,5 +120,85 @@
   "damage.heal_blunted",
   "bad_into.assassin versus good_into.burst_dive"
  ],
- "owner_notes": "A sustain damage hero with a global trait. Side lanes and stacks the level 1 auto quest. With stacks he does a lot of damage and gets a late game percent damage auto trait. Can go W but gets caught when the enemy has CC to punish it, or Q for poke damage."
+ "owner_notes": "A sustain damage hero with a global trait. Side lanes and stacks the level 1 auto quest. With stacks he does a lot of damage and gets a late game percent damage auto trait. Can go W but gets caught when the enemy has CC to punish it, or Q for poke damage.",
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "untargetable_or_escape"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "flank_pick",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "mobility_through"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "global_presence",
+   "mobility_rotate"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "global_teleport",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "stack_dependent",
+  "snowball": "snowballer",
+  "ultimate_role": "defensive",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "peel",
+   "damage"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "dive",
+   "focus_fire",
+   "early_pressure"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "global_macro"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Owner read: sustain damage hero. Autos, Lightning Rod strikes and Hammerang all matter.",
+  "damage_reliability": "Lightning Rod cannot miss but ends if the target leaves range. Hammerang must be aimed. Level 1 quests grow the damage.",
+  "durability_source": "Barrel Roll shield, Flight unstoppable and Static Shield, but still a low health assassin.",
+  "lane_role": "Owner read: takes side lanes and stacks the level 1 quest, using Flight to rotate.",
+  "kill_pattern": "Flight gank and Hinterland Blast. Owner notes he gets caught when the enemy has CC.",
+  "cc_profile": "Hammerang slows. Mighty Gust is a heroic knockback with slow, and the Dishonorable Discharge mythic adds a stun at 75 stacks. No hard CC in the standard kit.",
+  "map_mobility": "Following the owner read of a global trait: Flight crosses the map on a 75 second cooldown, a flight and not an instant teleport.",
+  "power_curve": "Owner read: stacks do a lot of damage, and Sustained Winds gives late percent health autos. Mediocre early.",
+  "ultimate_role": "Mighty Gust is mostly disengage and splitting teams. Hinterland Blast is the pick tool alternative.",
+  "escape": "Barrel Roll 13 seconds, Flight 75 seconds, Flight is unstoppable."
+ },
+ "lens_gaps": [
+  "no separate value on map_mobility for a map wide flight with a long cooldown that is not a teleport",
+  "no lens for damage that grows through lifetime quests partly lost on death (Gathering Storm loses 8 stacks)"
+ ]
 }

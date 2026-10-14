@@ -113,5 +113,92 @@
   "damage.carry",
   "ratings.teamfight"
  ],
- "owner_notes": "A split pusher with a low death timer when his egg is safe. Octo Grab can pick people. Like Samuro he wants to push side lanes and does best with siege and structure damage while pulling attention and escaping. Struggles against Ragnaros and others who can kill him for stacks or quests, or kill his W so it does not trigger."
+ "owner_notes": "A split pusher with a low death timer when his egg is safe. Octo Grab can pick people. Like Samuro he wants to push side lanes and does best with siege and structure damage while pulling attention and escaping. Struggles against Ragnaros and others who can kill him for stacks or quests, or kill his W so it does not trigger.",
+ "lenses": {
+  "damage_delivery": "zone_trap",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "structure_focus",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "untargetable_or_escape",
+   "fragile"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "attrition",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "revive_or_second_life",
+   "vision_or_reveal"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "shield_or_bubble",
+   "unstoppable"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "scouting"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "comeback",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "medium",
+  "team_needs": [
+   "nothing"
+  ],
+  "team_gives": [
+   "objective",
+   "wave_clear",
+   "cc_setup",
+   "vision"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "early_pressure",
+   "dive"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Pufferfish is a delayed bomb that enemies step out of or destroy, and Slime is an area slow. Measured hero damage (about 1420 per minute) is far below median.",
+  "damage_timing": "Octo-Grab, Pufferfish and Slime on a slimed target land together. The Wrath of Cod damage over time is an alternative.",
+  "target_style": "Measured siege (about 7620 per minute) is the highest in the league. The Pufferfish quest at 200 stacks removes the structure penalty.",
+  "lane_role": "Owner: a split pusher like Samuro, pulling attention while his egg is safe. Icy Veins gives him good waveclear and gank resistance.",
+  "kill_pattern": "Takedowns are low (about 6.5 per game). Octo-Grab can pick a target, but his pressure is mostly attrition and cheap deaths.",
+  "escape": "Safety Bubble is 2 seconds of invulnerability on 14 seconds, and Spawn Egg brings him back in 8 seconds.",
+  "utility_tool": "Spawn Egg is a second life and reveals the nearby area. Fish Eye makes it reveal enemies.",
+  "anti_cc": "Safety Bubble removes movement impairing effects and gives invulnerability. Octo-Grab makes him Unstoppable while it lasts.",
+  "camp_play": "Camp clear is decent (rating 4) and A Fishy Deal bribes mercenaries, but measured camps are 4.0 per game, average.",
+  "power_curve": "Icy Veins: underwhelming early, threatening late, and the Pufferfish quest unlocks 50 percent more health at 400 stacks.",
+  "snowball": "Spawn Egg gives only 25 percent experience on his death, so a deficit costs less. Comeback is a judgement call.",
+  "ultimate_role": "Octo-Grab, the longest targeted stun in the game. March of the Murlocs is the siege and area denial alternative.",
+  "team_needs": "Owner treats him as an independent split pusher. Icy Veins notes the team must adapt to a distinct playstyle (4 v 5 fights).",
+  "vulnerable_to": "Ragnaros and heroes who kill him for stacks or kill Pufferfish before it triggers (owner). Icy Veins: kiting and destroying Pufferfish. Lowest health pool of any hero."
+ },
+ "lens_gaps": [
+  "No lens for cheap death or low experience on death (Spawn Egg gives 25 percent), it changes how a team trades.",
+  "team_needs has no value for 'team must hold 4 v 5 while he splits'.",
+  "No value for objective carrying: Murky is bad on coins, gems and warheads because they drop on death, objective_role cannot say 'avoid collect objectives'.",
+  "kill_pattern has no value for second life or egg denial."
+ ]
 }

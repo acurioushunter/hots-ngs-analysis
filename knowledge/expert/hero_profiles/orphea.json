@@ -131,5 +131,84 @@
  "owner_notes": "A burst mage at medium range with a high skill ceiling: she has to get close and is weak when she misses her Q. A lot of damage, some boss and area control. Her heroic resets if it hits a hero, which works well with a CC heroic such as E.T.C. Mosh Pit or Leoric Entomb.",
  "owner_corrections": [
   "damage.ranged_dealer to true and attack range medium"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "self_heal",
+   "armor_or_shield"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "needs_cc_partner",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall"
+  ],
+  "cc_profile": "talent_dependent",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "poor",
+  "objective_role": [
+   "zone_hold",
+   "burst_objective"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "cc_setup",
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "poke",
+   "dive"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_reach": "Follows Hunter: medium range but she has to get close. Chomp is short, Dread is long, and the combo is Shadow Waltz dash then Chomp.",
+  "damage_timing": "Hunter says a burst mage. Every ability has a cast time, and Shadow Waltz resets to 2 seconds on a hit, so she can also keep a steady rate when it lands.",
+  "kill_pattern": "Crushing Jaws pulls and stuns, then the other abilities follow. Eternal Feast resets on a hit, which Hunter pairs with a CC heroic such as Mosh Pit or Entomb.",
+  "cc_profile": "Her hard CC is Crushing Jaws only if she picks it at level 10. The standard heroic is Eternal Feast, an area denial.",
+  "durability_source": "Overflowing Chaos autos heal her. Abyssal Symbiosis adds a shield on a Chomp hit. A missed Shadow Waltz or blinds turn that off.",
+  "escape": "Shadow Waltz dash only after a Hero hit, and it does not work under root or stun. Backbiter is a short hop back.",
+  "camp_play": "Guide says she cannot take camps efficiently. Measured 5.0 camps per game is high, probably because teammates or Ravenous Hunger help.",
+  "snowball": "Guide says a snowballing hero and particularly weak from behind.",
+  "objective_role": "Eternal Feast is her objective and boss tool (Sky Temple, Spider Queen). Hunter notes some boss control."
+ },
+ "lens_gaps": [
+  "no value on vulnerable_to for blinds or physical armor, which shut off her Overflowing Chaos healing",
+  "no value on damage_reliability for abilities that all have a cast time or delay (Shadow Waltz, Chomp, Dread)"
  ]
 }

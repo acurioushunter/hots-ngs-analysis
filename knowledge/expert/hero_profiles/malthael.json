@@ -118,5 +118,91 @@
   "power_spike",
   "ratings.siege"
  ],
- "owner_notes": "A bruiser who is great at camps, double soaking and fighting high health heroes. In team fights he can sustain enough to kill a team if they lack CC to pin him and have no healing reduction. Very weak to CC plus burst damage and to reduced healing, and has no CC or escape."
+ "owner_notes": "A bruiser who is great at camps, double soaking and fighting high health heroes. In team fights he can sustain enough to kill a team if they lack CC to pin him and have no healing reduction. Very weak to CC plus burst damage and to reduced healing, and has no CC or escape.",
+ "lenses": {
+  "damage_delivery": "melee_brawler",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "short",
+  "target_style": "percent_health",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "self_heal",
+   "fragile"
+  ],
+  "lane_role": "camp_taker",
+  "kill_pattern": "attrition",
+  "escape": "partial",
+  "setup_reliance": "needs_cc_partner",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "anti_heal",
+   "vision_or_reveal"
+  ],
+  "cc_profile": "talent_dependent",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "unstoppable"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "detection"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup",
+   "front_line"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "vision"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "hard_cc",
+   "sustain_heals",
+   "dive",
+   "poke"
+  ],
+  "comp_affinity": [
+   "anti_tank",
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Reaper's Mark ticks come from basic attacks and Soul Rip, so he is a close range brawler.",
+  "damage_timing": "Reaper's Mark deals 2 percent max health per second to every marked target.",
+  "target_style": "Mark damage is percent of max health, and Mortality adds 8 percent on Wraith Strike.",
+  "frontline_style": "Owner: a bruiser who sustains through fights with Soul Rip healing rather than holding a line.",
+  "durability_source": "Soul Rip heals, but his max health is low.",
+  "lane_role": "Owner: great at camps and double soaking, camps 4.2 per game.",
+  "kill_pattern": "Marks wear targets down, Last Rites then executes from range; there is no real jump or stealth.",
+  "escape": "Only Inevitable End (unstoppable for 2 seconds, 20 second cooldown) and Wraith Strike on marked targets.",
+  "setup_reliance": "Owner: needs CC from the team to pin targets, he has none himself.",
+  "utility_tool": "Touch of Death halves healing on marked heroes; marks reveal targets including stealth.",
+  "cc_profile": "Only Cold Hand (20 percent slow on Soul Rip) as a talent.",
+  "anti_cc": "Inevitable End gives unstoppable for 2 seconds.",
+  "ultimate_role": "Last Rites executes below 33 percent after 2 seconds and refunds cooldown on kills; Inevitable End is the alternative.",
+  "power_curve": "Profile and Icy Veins say late.",
+  "snowball": "Last Rites cooldown refund on kills.",
+  "vulnerable_to": "Owner: weak to CC plus burst and to reduced healing, kites easily."
+ },
+ "lens_gaps": [
+  "vulnerable_to has no value for enemy anti heal or healing reduction (his own weakness)",
+  "no lens for percent max health damage scaling with enemy health pools beyond the single target_style value"
+ ]
 }

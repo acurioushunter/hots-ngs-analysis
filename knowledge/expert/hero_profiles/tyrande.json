@@ -134,5 +134,79 @@
  "owner_notes": "A sustain healer who has to auto attack to lower her heal cooldown, so she depends on being able to auto safely. Often picked as a follow up to a CC tank to focus a single target with burst ranged damage or a melee assassin.",
  "owner_corrections": [
   "healing.sustain 2 to 3"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "no_lane",
+  "kill_pattern": "burst_snipe",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "sustain_single",
+  "healer_safety": "exposed",
+  "utility_tool": [
+   "vision_or_reveal"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "stealth",
+   "detection"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "sustain",
+   "damage",
+   "vision"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Highest damage in the group (1771 per minute). Basic attacks cut Light of Elune cooldown and heal through Hunter's Mark, abilities add Lunar Flare and Starfall.",
+  "kill_pattern": "Hunter's Mark reveals and cuts armor, Lunar Flare stuns, and a ranged hero or assassin follows (owner: often picked after a CC tank to burst one target).",
+  "healer_safety": "She must auto attack to heal, so she stands in enemy range with no escape. Shadowstalk stealth helps only on cooldown.",
+  "cc_profile": "Lunar Flare is one stun (0.75 seconds) and Starfall slows, hard to land on moving targets.",
+  "vision_stealth": "Shadowstalk (heroic option) gives the team stealth, Hunter's Mark and Sentinel reveal. Starfall is the other heroic.",
+  "ultimate_role": "Starfall or Shadowstalk both swing a fight, Shadowstalk is the ambush and team heal option."
+ },
+ "lens_gaps": [
+  "no lens for healing that depends on dealing damage or auto attacks safely (cooldown reset by basic attacks), same for Whitemane",
+  "no value on team_needs for 'a CC tank to follow up' as a specific partner"
  ]
 }

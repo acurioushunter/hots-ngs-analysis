@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "dot", "siege"],
+  "style": [
+   "sustained",
+   "dot",
+   "siege"
+  ],
   "poke": {
    "rating": 3,
    "kind": "dot",
@@ -37,23 +41,58 @@
   "solo_lane": 3
  },
  "cc": {
-  "hard": ["silence", "forced_movement"],
-  "soft": ["slow"],
+  "hard": [
+   "silence",
+   "forced_movement"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 3
  },
  "good_into": [
-  {"tag": "tanky_frontline", "why": "Black Arrows rises to 50 percent more damage at 3 stacks, Cold Embrace removes 25 Armor from the dagger target and Overwhelming Affliction deals percent maximum Health to slowed Heroes, which tanks cannot absorb."},
-  {"tag": "structures", "why": "Haunting Arrows stuns structures, Withering Fire targets towers, and Black Arrows quest stacks come from structures, so she pushes without minions."},
-  {"tag": "summons", "why": "Shadow Dagger spreads poison to nearby enemies including summons and Unstable Poison explodes minions, so she clears them quickly."},
-  {"tag": "low_sustain_healer", "why": "Single healers cannot keep up with Dagger spread plus fully stacked autos, and Life Drain heals her in return."},
-  {"tag": "cc_heavy", "why": "Windrunner and Will of the Forsaken give her escapes, and Wailing Arrow silences the enemies who would hold crowd control, so she has answers in her kit."}
+  {
+   "tag": "tanky_frontline",
+   "why": "Black Arrows rises to 50 percent more damage at 3 stacks, Cold Embrace removes 25 Armor from the dagger target and Overwhelming Affliction deals percent maximum Health to slowed Heroes, which tanks cannot absorb."
+  },
+  {
+   "tag": "structures",
+   "why": "Haunting Arrows stuns structures, Withering Fire targets towers, and Black Arrows quest stacks come from structures, so she pushes without minions."
+  },
+  {
+   "tag": "summons",
+   "why": "Shadow Dagger spreads poison to nearby enemies including summons and Unstable Poison explodes minions, so she clears them quickly."
+  },
+  {
+   "tag": "low_sustain_healer",
+   "why": "Single healers cannot keep up with Dagger spread plus fully stacked autos, and Life Drain heals her in return."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Windrunner and Will of the Forsaken give her escapes, and Wailing Arrow silences the enemies who would hold crowd control, so she has answers in her kit."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "Haunting Wave is her only escape and has an 11 second cooldown and 75 Mana, so a diver that kills her in one rotation wins."},
-  {"tag": "assassin", "why": "Assassins with gap closers reach her through the teleport, and her Health is low."},
-  {"tag": "mobile", "why": "She needs 3 stacks on one target, so mobile heroes that break line of sight reset stacks, and Shadow Dagger must hit its original target."},
-  {"tag": "high_sustain_healer", "why": "Her damage is spread across stacks and Dagger poison, which AoE healers erase, until the Black Arrows quest finishes."},
-  {"tag": "poke_comp", "why": "She has no reliable burst and must stand and attack to stack, so heavy poke on her costs her the stacks and Mana."}
+  {
+   "tag": "burst_dive",
+   "why": "Haunting Wave is her only escape and has an 11 second cooldown and 75 Mana, so a diver that kills her in one rotation wins."
+  },
+  {
+   "tag": "assassin",
+   "why": "Assassins with gap closers reach her through the teleport, and her Health is low."
+  },
+  {
+   "tag": "mobile",
+   "why": "She needs 3 stacks on one target, so mobile heroes that break line of sight reset stacks, and Shadow Dagger must hit its original target."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Her damage is spread across stacks and Dagger poison, which AoE healers erase, until the Black Arrows quest finishes."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "She has no reliable burst and must stand and attack to stack, so heavy poke on her costs her the stacks and Mana."
+  }
  ],
  "wants_from_team": [
   "A frontline that keeps enemies at 3 stacks",
@@ -86,5 +125,87 @@
   "MEASURED block: hero damage 2560 per minute, 4.7 camps per game, 16.3 seconds of enemy stun root silence per game, 0.482 win rate over 2181 games"
  ],
  "confidence": "medium",
- "unsure": ["cc.hard", "ratings.mobility"]
+ "unsure": [
+  "cc.hard",
+  "ratings.mobility"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "ramp_up",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "stack_or_quest",
+   "guaranteed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "self_heal",
+   "fragile"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "silence_or_dismount"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "unstoppable"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "stack_dependent",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage",
+   "wave_clear",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "early_pressure",
+   "stealth"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "poke_siege",
+   "split_push"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_timing": "Power is gated by the Black Arrows quest (250 hits, then 400 for healing). Weak early, very high late.",
+  "kill_pattern": "Mind Control silences, slows and pulls a target in, then Shadow Dagger and autos finish. Measured 16.3 seconds of enemy stun, root or silence per game, the highest here.",
+  "cc_profile": "Value for the heroic only. Wailing Arrow is a 2.5 second silence in an area. Mind Control is the single target version.",
+  "cc_delivery": "Wailing Arrow is area and reactivated. Mind Control is a slow skillshot, so ranged picks vary by heroic.",
+  "anti_cc": "Will of the Forsaken at level 16 is the only Unstoppable, and it is a talent choice against Evasive Fire or Life Drain.",
+  "escape": "Haunting Wave teleport on an 11 second cooldown is her only baseline escape. Windrunner and Bolt of the Storm add more late.",
+  "lane_role": "Unstable Poison and Shadow Dagger clear waves very fast. Haunting Arrows lets her push structures without minions.",
+  "split_potential": "Haunting Arrows and Possession make a lane push without minions, and the quest wants structure hits.",
+  "ultimate_role": "Recommended build takes Mind Control as a pick. Wailing Arrow is the teamfight silence alternative.",
+  "power_curve": "Could also be called late_scaler. Stack_dependent was chosen because an early completed quest changes the whole game."
+ },
+ "lens_gaps": [
+  "no value on damage_timing or power_curve for a quest gated bonus that has two tiers (250 and 400 stacks)",
+  "no value on utility_tool or wave_clear_style for taking control of enemy minions (Possession)"
+ ]
 }

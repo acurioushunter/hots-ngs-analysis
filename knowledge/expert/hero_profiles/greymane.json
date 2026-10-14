@@ -11,13 +11,17 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "percent_health", "burst"],
+  "style": [
+   "sustained",
+   "percent_health",
+   "burst"
+  ],
   "poke": {
    "rating": 3,
    "kind": "skillshot",
    "dodgeable": 3,
    "note": "Gilnean Cocktail hits the first enemy for 55 and everything behind for 220 in a cone, and Hunter's Blunderbuss makes human basic attacks splash. Cursed Bullet should not be used as poke because healing undoes it."
- },
+  },
   "heal_blunted": 2,
   "note": "Sustained basic attack damage with Inner Beast attack speed, Alpha Killer (3 percent max health), and Cursed Bullet (35 percent of current health) are not much blunted by healing. Worgen burst from Darkflight plus Go for the Throat kills squishy targets quickly. Measured hero damage about 2590 per minute and siege about 5020, and merc camps 6.2 per game (highest of the batch), so he is a strong single target PvE and duel hero."
  },
@@ -42,16 +46,40 @@
   "reliability": 0
  },
  "good_into": [
-  {"tag": "tanky_frontline", "why": "Cursed Bullet deals 35 percent of current health, so it is best on tanks at full health, and Alpha Killer adds 3 percent max health per Worgen attack."},
-  {"tag": "ranged_heavy", "why": "The guide says he does well against comps full of mages, who are weak to a melee dive. Darkflight and Go for the Throat close the gap."},
-  {"tag": "squishy_backline", "why": "Gilnean Cocktail then Darkflight then Go for the Throat kills a squishy target in a burst, and Go for the Throat resets on a kill."},
-  {"tag": "summons", "why": "Basic attacks cleave with Tooth and Claw and splash with Hunter's Blunderbuss, and he gets camps and summons down quickly."}
+  {
+   "tag": "tanky_frontline",
+   "why": "Cursed Bullet deals 35 percent of current health, so it is best on tanks at full health, and Alpha Killer adds 3 percent max health per Worgen attack."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "The guide says he does well against comps full of mages, who are weak to a melee dive. Darkflight and Go for the Throat close the gap."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Gilnean Cocktail then Darkflight then Go for the Throat kills a squishy target in a burst, and Go for the Throat resets on a kill."
+  },
+  {
+   "tag": "summons",
+   "why": "Basic attacks cleave with Tooth and Claw and splash with Hunter's Blunderbuss, and he gets camps and summons down quickly."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "He has no hard crowd control and no sustain, and stuns, roots, blinds or attack speed debuffs cripple a basic attack hero in Worgen form."},
-  {"tag": "assassin", "why": "He has no defensive ability except Eyes in the Dark and Disengage, and faster burst heroes kill him in return."},
-  {"tag": "burst_dive", "why": "Low survivability and no self healing, so a dive comp can kill him before Worgen burst."},
-  {"tag": "kiter", "why": "Kiters poke him in Human form with longer range and can be hard to commit on if Darkflight is down."}
+  {
+   "tag": "cc_heavy",
+   "why": "He has no hard crowd control and no sustain, and stuns, roots, blinds or attack speed debuffs cripple a basic attack hero in Worgen form."
+  },
+  {
+   "tag": "assassin",
+   "why": "He has no defensive ability except Eyes in the Dark and Disengage, and faster burst heroes kill him in return."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Low survivability and no self healing, so a dive comp can kill him before Worgen burst."
+  },
+  {
+   "tag": "kiter",
+   "why": "Kiters poke him in Human form with longer range and can be hard to commit on if Darkflight is down."
+  }
  ],
  "wants_from_team": [
   "Crowd control and slows to turn on Lord of His Pack and Cursed Bullet",
@@ -80,5 +108,84 @@
   "Measured block: damage per minute about 2590, siege about 5020, merc camps 6.2 per game, win rate 0.481 over 1582 games"
  ],
  "confidence": "high",
- "unsure": ["attack.range", "damage.heal_blunted"]
+ "unsure": [
+  "attack.range",
+  "damage.heal_blunted"
+ ],
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "camp_taker",
+  "kill_pattern": "flank_pick",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "none",
+  "cc_delivery": "none",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "dive",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "anti_tank"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Basic attacks with Inner Beast attack speed in both forms. Cocktail and Razor Swipe are the filler.",
+  "target_style": "Alpha Killer (3 percent max health) and Cursed Bullet (35 percent of current health) give percent damage, but the base kit is single target.",
+  "lane_role": "Highest merc camps in the batch at 6.2 per game, so he takes camps and rotates.",
+  "setup_reliance": "Darkflight starts a fight alone, Cursed Bullet is best used as a follow up to a team engage.",
+  "escape": "Disengage and Eyes in the Dark stealth, 5 second cooldown, but it puts him back in human form.",
+  "execution_demand": "Form management is simple but his play is telegraphed.",
+  "vulnerable_to": "No CC or utility of his own. Blinds and attack speed slows hit him hard.",
+  "snowball": "Unleashed resets cooldowns on a kill, weak when behind.",
+  "anti_cc": "Go for the Throat gives a few frames of unstoppable but that is a trick, not a tool.",
+  "kill_pattern": "Darkflight and Go for the Throat leap onto one target, no front line crossing."
+ },
+ "lens_gaps": [
+  "no lens for form switching (human and worgen change range, armor and abilities), damage_reach shows only one answer",
+  "no value on lane_role that combines camp taker and rotator for a hero who wins by camps and short skirmishes"
+ ]
 }

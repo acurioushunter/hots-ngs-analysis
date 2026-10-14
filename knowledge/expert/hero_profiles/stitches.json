@@ -1,92 +1,205 @@
 {
-  "hero": "Stitches",
-  "slug": "stitches",
-  "role": "Tank",
-  "attack": {
-    "type": "melee",
-    "range": "melee",
-    "autos_matter": 2,
-    "note": "Basic attacks apply Vile Gas and feed Vile Cleaver, Tenderizer and Chop Chop. Slam and Devour are more important than autos."
+ "hero": "Stitches",
+ "slug": "stitches",
+ "role": "Tank",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 2,
+  "note": "Basic attacks apply Vile Gas and feed Vile Cleaver, Tenderizer and Chop Chop. Slam and Devour are more important than autos."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": [
+   "dot",
+   "aoe"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Hook is a long range skillshot (91 damage, extended 40 percent after level 13) that is a pick tool not a poke. A Hook that misses or hits a minion wastes a 16 second cooldown."
   },
-  "damage": {
-    "carry": false,
-    "ranged_dealer": false,
-    "style": ["dot", "aoe"],
-    "poke": {
-      "rating": 2,
-      "kind": "skillshot",
-      "dodgeable": 3,
-      "note": "Hook is a long range skillshot (91 damage, extended 40 percent after level 13) that is a pick tool not a poke. A Hook that misses or hits a minion wastes a 16 second cooldown."
-    },
-    "heal_blunted": 4,
-    "note": "Damage is Vile Gas (36 over 4 seconds, 150 percent bonus against minions and camps), Slam (104) and Devour (114). That is chip damage that healing blunts, 1563 damage per minute measured. His strength is the pick, not the damage."
+  "heal_blunted": 4,
+  "note": "Damage is Vile Gas (36 over 4 seconds, 150 percent bonus against minions and camps), Slam (104) and Devour (114). That is chip damage that healing blunts, 1563 damage per minute measured. His strength is the pick, not the damage."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 3,
+  "siege": 2,
+  "teamfight": 3,
+  "engage": 4,
+  "peel": 2,
+  "mobility": 1,
+  "self_sustain": 4,
+  "survivability": 4,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "pull",
+   "stun",
+   "stasis"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
+ "good_into": [
+  {
+   "tag": "squishy_backline",
+   "why": "Hook pulls the first enemy from a long range and stuns them, and Gorge removes them from the fight for 4 seconds. A squishy that stands behind its frontline is a free kill with burst."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 4,
-    "camp_clear": 3,
-    "siege": 2,
-    "teamfight": 3,
-    "engage": 4,
-    "peel": 2,
-    "mobility": 1,
-    "self_sustain": 4,
-    "survivability": 4,
-    "objective": 2,
-    "global_presence": 0,
-    "solo_lane": 2
+  {
+   "tag": "ranged_heavy",
+   "why": "Hook is long range so ranged heroes that stay far back can still be grabbed, and Devour with Digestive Juices halves the damage of one target. Hungry Hungry Stitches can Gorge several."
   },
-  "cc": {
-    "hard": ["pull", "stun", "stasis"],
-    "soft": ["slow"],
-    "reliability": 2
+  {
+   "tag": "immobile",
+   "why": "Gorge near allied structures or a Gate holds a target with no escape. Heroes without a dash cannot dodge the follow up."
   },
-  "good_into": [
-    { "tag": "squishy_backline", "why": "Hook pulls the first enemy from a long range and stuns them, and Gorge removes them from the fight for 4 seconds. A squishy that stands behind its frontline is a free kill with burst." },
-    { "tag": "ranged_heavy", "why": "Hook is long range so ranged heroes that stay far back can still be grabbed, and Devour with Digestive Juices halves the damage of one target. Hungry Hungry Stitches can Gorge several." },
-    { "tag": "immobile", "why": "Gorge near allied structures or a Gate holds a target with no escape. Heroes without a dash cannot dodge the follow up." },
-    { "tag": "high_sustain_healer", "why": "Master Hooker removes 75 percent of healing for 2 seconds after a Hook and Putrefaction does 40 percent with Shambling Horror, so he pulls the healer then cuts their heals." }
+  {
+   "tag": "high_sustain_healer",
+   "why": "Master Hooker removes 75 percent of healing for 2 seconds after a Hook and Putrefaction does 40 percent with Shambling Horror, so he pulls the healer then cuts their heals."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "mobile",
+   "why": "High mobility heroes dodge Hook and he has no mobility or peel to answer them. Weak peeling is listed as a weakness."
+  },
+  {
+   "tag": "assassin",
+   "why": "A diver reaches his backline and he cannot Hook what is already on top of his team. He has only Slam slow and Helping Hand."
+  },
+  {
+   "tag": "summons",
+   "why": "A summon on the Hook line absorbs it (the guide lists this), and Hook cannot pass minions or heroes in the way."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "He has one tool, so a stun that stops Hook or Devour leaves him useless. Gas Bag gives Unstoppable only at level 20."
+  },
+  {
+   "tag": "kiter",
+   "why": "Hook is the only way to reach them. Devour and Slam are short range and Hook is a 16 second cooldown."
+  }
+ ],
+ "wants_from_team": [
+  "crowd control follow up (root, stun) on the hooked target",
+  "burst damage to kill before the enemy reacts",
+  "an offlaner who can act as a secondary tank (Blaze)",
+  "a disengage such as Mighty Gust to protect him"
+ ],
+ "gives_team": [
+  "long range pick that starts the fight",
+  "strong wave clear",
+  "rescue pull with Helping Hand",
+  "large health pool and heals itself"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "one dimensional, everything is Hook",
+  "no mobility",
+  "weak peel",
+  "weak to percent health damage (Leoric Drain Hope)",
+  "easy to blank by drafting high mobility heroes"
+ ],
+ "evidence": [
+  "Hook",
+  "Helping Hand",
+  "Gorge",
+  "Putrid Bile",
+  "Devour",
+  "Slam",
+  "Vile Gas",
+  "Master Hooker",
+  "Meat Hook",
+  "Icy Veins synergies and counters",
+  "measured: damage taken 4189 per minute, healing 1 per minute, hero damage 1563, stun seconds 49.4, win rate 0.491, 748 games"
+ ],
+ "confidence": "high",
+ "unsure": [],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
   ],
-  "bad_into": [
-    { "tag": "mobile", "why": "High mobility heroes dodge Hook and he has no mobility or peel to answer them. Weak peeling is listed as a weakness." },
-    { "tag": "assassin", "why": "A diver reaches his backline and he cannot Hook what is already on top of his team. He has only Slam slow and Helping Hand." },
-    { "tag": "summons", "why": "A summon on the Hook line absorbs it (the guide lists this), and Hook cannot pass minions or heroes in the way." },
-    { "tag": "cc_heavy", "why": "He has one tool, so a stun that stops Hook or Devour leaves him useless. Gas Bag gives Unstoppable only at level 20." },
-    { "tag": "kiter", "why": "Hook is the only way to reach them. Devour and Slam are short range and Hook is a 16 second cooldown." }
+  "frontline_style": "catcher",
+  "durability_source": [
+   "big_health",
+   "self_heal"
   ],
-  "wants_from_team": [
-    "crowd control follow up (root, stun) on the hooked target",
-    "burst damage to kill before the enemy reacts",
-    "an offlaner who can act as a secondary tank (Blaze)",
-    "a disengage such as Mighty Gust to protect him"
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "anti_heal",
+   "silence_or_dismount",
+   "revive_or_second_life"
   ],
-  "gives_team": [
-    "long range pick that starts the fight",
-    "strong wave clear",
-    "rescue pull with Helping Hand",
-    "large health pool and heals itself"
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "unstoppable"
   ],
-  "power_spike": "level_10",
-  "weaknesses": [
-    "one dimensional, everything is Hook",
-    "no mobility",
-    "weak peel",
-    "weak to percent health damage (Leoric Drain Hope)",
-    "easy to blank by drafting high mobility heroes"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "little"
   ],
-  "evidence": [
-    "Hook",
-    "Helping Hand",
-    "Gorge",
-    "Putrid Bile",
-    "Devour",
-    "Slam",
-    "Vile Gas",
-    "Master Hooker",
-    "Meat Hook",
-    "Icy Veins synergies and counters",
-    "measured: damage taken 4189 per minute, healing 1 per minute, hero damage 1563, stun seconds 49.4, win rate 0.491, 748 games"
+  "split_potential": "weak",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
   ],
-  "confidence": "high",
-  "unsure": []
+  "power_curve": "steady",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "cc_setup",
+   "peel"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "kiting",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "frontline_style": "Hook and Gorge are built to catch one target, not hold a line. He fits the catcher value, like Diablo.",
+  "kill_pattern": "His kills are a single pull (Hook) followed by teammates. cc_chain is the nearest value, though he has no real chain.",
+  "cc_profile": "Hook is the only reliable CC, with Gorge as a stasis heroic. One tool, so single hard.",
+  "utility_tool": "Master Hooker cuts healing by 75 percent after a Hook, Putrefaction reduces it by 40 percent. Slam dismounts. Helping Hand with Master Hooker makes an ally Unkillable for 2 seconds.",
+  "anti_cc": "Only Gorge frames and Gas Bag (level 20) give Unstoppable.",
+  "escape": "No mobility, no peel and no disengage on his own.",
+  "execution_demand": "Everything is Hook and a miss costs a 16 second cooldown, so it punishes mistakes.",
+  "wave_clear_style": "Slam and Vile Gas (150 percent against minions) clear fast, rating 4."
+ },
+ "lens_gaps": [
+  "no value on kill_pattern for a single pull pick (cc_chain implies several CC tools)"
+ ]
 }

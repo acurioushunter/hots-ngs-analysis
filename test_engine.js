@@ -118,6 +118,8 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   const g = E.recommendPicks(st), ty = g.find(x => x.hero === "Tychus");
   check("owner combos are in the data and the combo reader runs on an empty draft", Array.isArray(PLAYBOOK.owner_combos) && PLAYBOOK.owner_combos.length >= 10 && Array.isArray(E.ownerCombos(E.newDraft(CCS, "first", "Sky Temple"))), "");
   check("owner role corrections reach the data (Cho is a bruiser, Orphea a ranged damage dealer)", PLAYBOOK.heroes["Cho"].role === "Bruiser" && PLAYBOOK.heroes["Orphea"].ranged === true, JSON.stringify([PLAYBOOK.heroes["Cho"].role, PLAYBOOK.heroes["Orphea"].ranged]));
+  const lr = E.lensRead(E.newDraft(CCS, "first", "Sky Temple"), "us");
+  check("lens signal and catalog are in the data and the lens reader runs", PLAYBOOK.comps.lens_signal && PLAYBOOK.comps.lens_signal.items.length > 5 && PLAYBOOK.lens_catalog && lr && Array.isArray(lr.present), JSON.stringify(lr && lr.picks));
   const hh = E.h2h("Tychus", "Johanna");
   check("head to head carries a recency weighted sample (effective games no more than raw games)", hh && hh.eff > 0 && hh.eff <= hh.n + 0.5, JSON.stringify(hh));
   const rlw = E.rangedLeague("Tomb of the Spider Queen");

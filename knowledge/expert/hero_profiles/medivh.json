@@ -1,99 +1,215 @@
 {
-  "hero": "Medivh",
-  "slug": "medivh",
-  "role": "Support",
-  "attack": {
-    "type": "ranged",
-    "range": "medium",
-    "autos_matter": 1,
-    "note": "Basic attacks are minor (Mystic Assault and Temporal Flux touch them). Arcane Rift is his only real damage source according to the guide."
+ "hero": "Medivh",
+ "slug": "medivh",
+ "role": "Support",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 1,
+  "note": "Basic attacks are minor (Mystic Assault and Temporal Flux touch them). Arcane Rift is his only real damage source according to the guide."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": [
+   "poke",
+   "aoe"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Arcane Rift is a 170 damage line skillshot on a 7 second cooldown that drops by 5 seconds and refunds 50 mana when it hits a hero, so repeated hits are cheap poke. It is a straight line and can be dodged."
   },
-  "damage": {
-    "carry": false,
-    "ranged_dealer": false,
-    "style": ["poke", "aoe"],
-    "poke": {
-      "rating": 3,
-      "kind": "skillshot",
-      "dodgeable": 3,
-      "note": "Arcane Rift is a 170 damage line skillshot on a 7 second cooldown that drops by 5 seconds and refunds 50 mana when it hits a hero, so repeated hits are cheap poke. It is a straight line and can be dodged."
-    },
-    "heal_blunted": 3,
-    "note": "Measured hero damage 2205 per minute is above the league median, which is surprising for a support, but it is spread across the rift, Arcane Explosion, Raven Familiar and basic attacks. It is not why he is picked."
+  "heal_blunted": 3,
+  "note": "Measured hero damage 2205 per minute is above the league median, which is surprising for a support, but it is spread across the rift, Arcane Explosion, Raven Familiar and basic attacks. It is not why he is picked."
+ },
+ "healing": {
+  "style": [
+   "shield",
+   "burst"
+  ],
+  "sustain": 2,
+  "burst_heal": 4,
+  "aoe": 1,
+  "range": "medium",
+  "mana_pressure": 3,
+  "positioning_risk": 1,
+  "note": "Not a healer for the draft. Force of Will blocks all damage on one ally for 1.5 seconds (4 second cooldown with Enduring Will) and heals 20 percent of what it absorbed (70 percent with Reabsorption). It undoes a burst on one target but does nothing for a team under chip damage. Raven Form makes his body immune."
+ },
+ "ratings": {
+  "wave_clear": 2,
+  "camp_clear": 2,
+  "siege": 2,
+  "teamfight": 4,
+  "engage": 4,
+  "peel": 4,
+  "mobility": 4,
+  "self_sustain": 1,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 2,
+  "solo_lane": 1
+ },
+ "cc": {
+  "hard": [
+   "polymorph",
+   "silence",
+   "time_stop"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
+ "good_into": [
+  {
+   "tag": "assassin",
+   "why": "Poly Bomb silences and stops attacks for 2 seconds and spreads to nearby heroes. The guide says it punishes Tracer and Genji, and Force of Will protects his own dive hero."
   },
-  "healing": {
-    "style": ["shield", "burst"],
-    "sustain": 2,
-    "burst_heal": 4,
-    "aoe": 1,
-    "range": "medium",
-    "mana_pressure": 3,
-    "positioning_risk": 1,
-    "note": "Not a healer for the draft. Force of Will blocks all damage on one ally for 1.5 seconds (4 second cooldown with Enduring Will) and heals 20 percent of what it absorbed (70 percent with Reabsorption). It undoes a burst on one target but does nothing for a team under chip damage. Raven Form makes his body immune."
+  {
+   "tag": "melee_heavy",
+   "why": "Melee heroes clump on a target, so Poly Bomb spreads several times and Arcane Explosion (up to 315 extra) with Circle of Protection hits the pile. Ley Line Seal in a corridor holds them for a team follow up."
   },
-  "ratings": {
-    "wave_clear": 2,
-    "camp_clear": 2,
-    "siege": 2,
-    "teamfight": 4,
-    "engage": 4,
-    "peel": 4,
-    "mobility": 4,
-    "self_sustain": 1,
-    "survivability": 4,
-    "objective": 3,
-    "global_presence": 2,
-    "solo_lane": 1
+  {
+   "tag": "squishy_backline",
+   "why": "Portal puts his dive heroes on the backline from an unexpected angle with Raven Form scouting, and Force of Will makes them Invulnerable for 1.5 seconds on arrival."
   },
-  "cc": {
-    "hard": ["polymorph", "silence", "time_stop"],
-    "soft": ["slow"],
-    "reliability": 2
+  {
+   "tag": "objective_race",
+   "why": "Ley Line Seal puts the capture platform in Time Stop for 3 seconds so a camp can be stolen, and Portal moves the team to an objective faster than the enemy."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "poke_comp",
+   "why": "The guide says he is susceptible to damage over time: poison keeps ticking after Force of Will ends. One ally at a time and a 9 second cooldown do not hold a whole team against chip damage."
   },
-  "good_into": [
-    { "tag": "assassin", "why": "Poly Bomb silences and stops attacks for 2 seconds and spreads to nearby heroes. The guide says it punishes Tracer and Genji, and Force of Will protects his own dive hero." },
-    { "tag": "melee_heavy", "why": "Melee heroes clump on a target, so Poly Bomb spreads several times and Arcane Explosion (up to 315 extra) with Circle of Protection hits the pile. Ley Line Seal in a corridor holds them for a team follow up." },
-    { "tag": "squishy_backline", "why": "Portal puts his dive heroes on the backline from an unexpected angle with Raven Form scouting, and Force of Will makes them Invulnerable for 1.5 seconds on arrival." },
-    { "tag": "objective_race", "why": "Ley Line Seal puts the capture platform in Time Stop for 3 seconds so a camp can be stolen, and Portal moves the team to an objective faster than the enemy." }
+  {
+   "tag": "cc_heavy",
+   "why": "A root or stun at the Portal entrance stops allies or himself, and Ley Line Seal has a slow travel animation that is easy to dodge."
+  },
+  {
+   "tag": "kiter",
+   "why": "Poly Bomb and Force of Will only have value when his team can reach the enemy. A kiter that is not clumped does not spread Poly Bomb."
+  }
+ ],
+ "wants_from_team": [
+  "dive heroes that use Force of Will (Illidan, Sonya, Tracer, tanks)",
+  "area crowd control or burst to follow Ley Line Seal (Diablo, Kael'thas)",
+  "a healer that can sustain the rest of the team",
+  "a team that communicates Portal"
+ ],
+ "gives_team": [
+  "damage immunity on one ally",
+  "Portal for engage and escape",
+  "map scouting with Raven Form",
+  "area crowd control with two heroic options"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "low sustain, no team heal",
+  "Ley Line Seal is a dodgeable high risk heroic",
+  "skill intensive",
+  "weak wave clear and solo lane",
+  "measured win rate 0.443"
+ ],
+ "evidence": [
+  "Force of Will",
+  "Portal",
+  "Arcane Rift",
+  "Raven Form",
+  "Poly Bomb",
+  "Ley Line Seal",
+  "Arcane Explosion",
+  "Enduring Will",
+  "Circle of Protection",
+  "Icy Veins weaknesses and counters",
+  "measured: hero damage 2205 per minute, healing 1164 (shield absorbed), damage taken 1702, deaths 1.9, win rate 0.443, 219 games"
+ ],
+ "confidence": "medium",
+ "unsure": [
+  "damage.carry",
+  "healing.sustain",
+  "ratings.global_presence"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "chip_poke",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot"
   ],
-  "bad_into": [
-    { "tag": "poke_comp", "why": "The guide says he is susceptible to damage over time: poison keeps ticking after Force of Will ends. One ally at a time and a 9 second cooldown do not hold a whole team against chip damage." },
-    { "tag": "cc_heavy", "why": "A root or stun at the Portal entrance stops allies or himself, and Ley Line Seal has a slow travel animation that is easy to dodge." },
-    { "tag": "kiter", "why": "Poly Bomb and Force of Will only have value when his team can reach the enemy. A kiter that is not clumped does not spread Poly Bomb." }
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "untargetable_or_escape",
+   "fragile"
   ],
-  "wants_from_team": [
-    "dive heroes that use Force of Will (Illidan, Sonya, Tracer, tanks)",
-    "area crowd control or burst to follow Ley Line Seal (Diablo, Kael'thas)",
-    "a healer that can sustain the rest of the team",
-    "a team that communicates Portal"
+  "lane_role": "rotator",
+  "kill_pattern": "backline_dive",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "shield_absorb",
+  "healer_safety": "safe",
+  "utility_tool": [
+   "teleport_or_portal",
+   "vision_or_reveal",
+   "silence_or_dismount"
   ],
-  "gives_team": [
-    "damage immunity on one ally",
-    "Portal for engage and escape",
-    "map scouting with Raven Form",
-    "area crowd control with two heroic options"
+  "cc_profile": "single_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "shield_or_bubble",
+   "unstoppable"
   ],
-  "power_spike": "level_10",
-  "weaknesses": [
-    "low sustain, no team heal",
-    "Ley Line Seal is a dodgeable high risk heroic",
-    "skill intensive",
-    "weak wave clear and solo lane",
-    "measured win rate 0.443"
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "mobility_rotate",
+   "zone_hold"
   ],
-  "evidence": [
-    "Force of Will",
-    "Portal",
-    "Arcane Rift",
-    "Raven Form",
-    "Poly Bomb",
-    "Ley Line Seal",
-    "Arcane Explosion",
-    "Enduring Will",
-    "Circle of Protection",
-    "Icy Veins weaknesses and counters",
-    "measured: hero damage 2205 per minute, healing 1164 (shield absorbed), damage taken 1702, deaths 1.9, win rate 0.443, 219 games"
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "scouting",
+   "grants_vision"
   ],
-  "confidence": "medium",
-  "unsure": ["damage.carry", "healing.sustain", "ratings.global_presence"]
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "healer",
+   "front_line"
+  ],
+  "team_gives": [
+   "engage",
+   "peel",
+   "mobility",
+   "vision"
+  ],
+  "vulnerable_to": [
+   "poke",
+   "hard_cc",
+   "kiting"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "healer_class": "Force of Will absorbs all damage on one ally for 1.5 seconds. It undoes burst but does nothing for chip, so a team still needs a real healer.",
+  "kill_pattern": "He kills through Portal: his dive allies land on the backline, backed by Poly Bomb. His own damage is Arcane Rift.",
+  "setup_reliance": "Portal and Poly Bomb let him start fights, though his value is in what his dive heroes do after.",
+  "cc_profile": "Only one heroic is taken: Poly Bomb (polymorph silence) or Ley Line Seal (time stop).",
+  "ultimate_role": "Poly Bomb locks and spreads, so pick tool. Ley Line Seal is a teamfight heroic that is easy to dodge.",
+  "anti_cc": "Raven Form is immune to all effects, which also counts as the body being safe.",
+  "map_mobility": "Raven Form is flying with extra speed, Portal moves the team. Rated high rather than global."
+ },
+ "lens_gaps": [
+  "no value on setup_reliance for an enabler: Medivh makes his dive allies work (Force of Will, Portal) but is neither self starter nor cleanup"
+ ]
 }

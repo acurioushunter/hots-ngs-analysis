@@ -2,37 +2,204 @@
  "hero": "Tracer",
  "slug": "tracer",
  "role": "Ranged Assassin",
- "attack": {"type": "ranged", "range": "short", "autos_matter": 5, "note": "Moves while attacking, 10 round magazine, lifesteal on hits. Almost all her output is basic attacks plus Melee and Pulse Bomb. Attack range is short for a ranged hero, so she must stay near targets."},
+ "attack": {
+  "type": "ranged",
+  "range": "short",
+  "autos_matter": 5,
+  "note": "Moves while attacking, 10 round magazine, lifesteal on hits. Almost all her output is basic attacks plus Melee and Pulse Bomb. Attack range is short for a ranged hero, so she must stay near targets."
+ },
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "burst", "single_target"],
-  "poke": {"rating": 1, "kind": "auto", "dodgeable": 2, "note": "She has no real poke tool. Her basic attacks work only up close, and her main damage comes when she dives in. Pulse Bomb is short range and not a harass tool."},
+  "style": [
+   "sustained",
+   "burst",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 1,
+   "kind": "auto",
+   "dodgeable": 2,
+   "note": "She has no real poke tool. Her basic attacks work only up close, and her main damage comes when she dives in. Pulse Bomb is short range and not a harass tool."
+  },
   "heal_blunted": 2,
   "note": "A hit and run assassin: a stream of fast autos, Melee for burst and a Pulse Bomb that sticks to a target. Single target focus on squishy heroes. Healing helps against her only when it can keep up with a diver, and Melee plus Pulse Bomb are burst. Ricochet adds some spread damage."
  },
  "healing": null,
- "ratings": {"wave_clear": 1, "camp_clear": 2, "siege": 3, "teamfight": 3, "engage": 2, "peel": 1, "mobility": 5, "self_sustain": 3, "survivability": 2, "objective": 2, "global_presence": 2, "solo_lane": 1},
- "cc": {"hard": ["knockback"], "soft": ["slow"], "reliability": 1},
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 2,
+  "siege": 3,
+  "teamfight": 3,
+  "engage": 2,
+  "peel": 1,
+  "mobility": 5,
+  "self_sustain": 3,
+  "survivability": 2,
+  "objective": 2,
+  "global_presence": 2,
+  "solo_lane": 1
+ },
+ "cc": {
+  "hard": [
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 1
+ },
  "good_into": [
-  {"tag": "squishy_backline", "why": "Blink, Melee and a stuck Pulse Bomb can delete a low health ranged hero or healer in a couple of seconds; Icy Veins calls her very good against fragile heroes who lack mobility."},
-  {"tag": "immobile", "why": "Targets that cannot move away are chased down by Blink and Recall, and cannot sidestep Pulse Bomb."},
-  {"tag": "single_target_healer", "why": "Single target healers struggle to keep up when she bursts a target with Melee and a bomb, and she can also lifesteal back."},
-  {"tag": "melee_heavy", "why": "She kites melee heroes with Blink and attack while moving, and Jumper shields and charges keep her slippery."},
-  {"tag": "split_push", "why": "Her mobility and Recall let her catch isolated heroes who are caught away from the team."}
+  {
+   "tag": "squishy_backline",
+   "why": "Blink, Melee and a stuck Pulse Bomb can delete a low health ranged hero or healer in a couple of seconds; Icy Veins calls her very good against fragile heroes who lack mobility."
+  },
+  {
+   "tag": "immobile",
+   "why": "Targets that cannot move away are chased down by Blink and Recall, and cannot sidestep Pulse Bomb."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "Single target healers struggle to keep up when she bursts a target with Melee and a bomb, and she can also lifesteal back."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "She kites melee heroes with Blink and attack while moving, and Jumper shields and charges keep her slippery."
+  },
+  {
+   "tag": "split_push",
+   "why": "Her mobility and Recall let her catch isolated heroes who are caught away from the team."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "Stuns, silences, polymorphs and knockbacks stop Blink and Melee combos and can prevent Recall, which is her only cleanse."},
-  {"tag": "ranged_heavy", "why": "Heroes with long range basic attacks (Raynor, Sgt. Hammer per the guide) punish her short range and low health."},
-  {"tag": "aoe_healer", "why": "Area healing and spread damage let a team soak her chip damage and wait out Recall."},
-  {"tag": "tanky_frontline", "why": "She does not deal much against armored tanks and cannot get past a frontline into a backline protected by CC."},
-  {"tag": "stealth", "why": "She has no reveal for basic abilities, so stealthed assassins escape her chase, though Pulse Bomb can reveal on hit."}
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns, silences, polymorphs and knockbacks stop Blink and Melee combos and can prevent Recall, which is her only cleanse."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Heroes with long range basic attacks (Raynor, Sgt. Hammer per the guide) punish her short range and low health."
+  },
+  {
+   "tag": "aoe_healer",
+   "why": "Area healing and spread damage let a team soak her chip damage and wait out Recall."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "She does not deal much against armored tanks and cannot get past a frontline into a backline protected by CC."
+  },
+  {
+   "tag": "stealth",
+   "why": "She has no reveal for basic abilities, so stealthed assassins escape her chase, though Pulse Bomb can reveal on hit."
+  }
  ],
- "wants_from_team": ["Reliable wave clear so she can focus on heroes", "A tank with hard CC to catch targets", "A healer who can heal at range (Malfurion style)", "Peel because she is fragile when caught"],
- "gives_team": ["Backline pickoffs and threat on enemy squishies", "Constant pressure on enemy frontline from the edge of fights", "Finishing power on fleeing low health heroes", "Map rotations that punish split enemies"],
+ "wants_from_team": [
+  "Reliable wave clear so she can focus on heroes",
+  "A tank with hard CC to catch targets",
+  "A healer who can heal at range (Malfurion style)",
+  "Peel because she is fragile when caught"
+ ],
+ "gives_team": [
+  "Backline pickoffs and threat on enemy squishies",
+  "Constant pressure on enemy frontline from the edge of fights",
+  "Finishing power on fleeing low health heroes",
+  "Map rotations that punish split enemies"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Extremely poor wave clear", "Very fragile and easy to kill when controlled", "Needs level 7 to deal decent damage", "Hard CC with no Recall available ends her"],
- "evidence": ["Blink, Melee, Recall, Pulse Bomb, Reload ability text", "Jumper, Pulse Generator, Ricochet, Get Stuffed! talent text", "Icy Veins weaknesses (extremely poor waveclear, very fragile)", "Measured NGS block: 2868 hero damage per minute, damage taken 2288 per minute, 10.4 takedowns and 0.3 seconds of enemy CC"],
+ "weaknesses": [
+  "Extremely poor wave clear",
+  "Very fragile and easy to kill when controlled",
+  "Needs level 7 to deal decent damage",
+  "Hard CC with no Recall available ends her"
+ ],
+ "evidence": [
+  "Blink, Melee, Recall, Pulse Bomb, Reload ability text",
+  "Jumper, Pulse Generator, Ricochet, Get Stuffed! talent text",
+  "Icy Veins weaknesses (extremely poor waveclear, very fragile)",
+  "Measured NGS block: 2868 hero damage per minute, damage taken 2288 per minute, 10.4 takedowns and 0.3 seconds of enemy CC"
+ ],
  "confidence": "high",
- "unsure": ["heal_blunted"]
+ "unsure": [
+  "heal_blunted"
+ ],
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "untargetable_or_escape",
+   "self_heal",
+   "fragile"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "flank_pick",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "none",
+  "cc_delivery": "none",
+  "anti_cc": [
+   "cleanse",
+   "mobility_through"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "mobility_rotate"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "wave_clear",
+   "healer"
+  ],
+  "team_gives": [
+   "damage"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "focus_fire",
+   "tanky_frontline"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_reach": "Her attack range is the shortest of the ranged assassins, so she must be near targets.",
+  "damage_reliability": "Autos always land but she has to be within reach, which Blink and Recall provide only while they are up.",
+  "durability_source": "Recall puts her in stasis and Blink dodges, and basic attack lifesteal plus Leeching Rounds heal her, but her health pool is tiny.",
+  "lane_role": "She has no wave clear, so she floats between lanes and fights instead of holding a lane.",
+  "kill_pattern": "Icy Veins calls her a finisher and flanker against fragile heroes who lack mobility.",
+  "cc_profile": "Measured enemy CC time is 0.3 seconds. Telefrag and Get Stuffed! add knockbacks but they are talents, not the standard kit.",
+  "anti_cc": "Recall removes every negative effect, which is her cleanse; a single target hard CC before Recall is what ends her.",
+  "camp_play": "Camps per game are 3.5, the lowest in this group; Melee and Tracer Rounds do not help with camps.",
+  "vision_stealth": "Tracer Rounds reveals a small area but is a level 1 talent; Pulse Bomb can hit stealth heroes.",
+  "power_curve": "Icy Veins needs level 7 for decent damage, with the real spike when Pulse Bomb and Jumper are online around 10.",
+  "snowball": "Untouchable quest and takedown lifesteal make leads compound; she is the hyper carry in the guide.",
+  "team_needs": "Needs a wave clearer so she can hunt, and a healer who heals at range such as Malfurion."
+ },
+ "lens_gaps": [
+  "no setup_reliance value for a finisher that is switched off by a single hard CC before Recall",
+  "no cc_profile value for knockbacks that exist only through optional talents (0.3 seconds measured)"
+ ]
 }

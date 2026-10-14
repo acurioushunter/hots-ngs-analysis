@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["burst", "poke", "single_target"],
+  "style": [
+   "burst",
+   "poke",
+   "single_target"
+  ],
   "poke": {
    "rating": 5,
    "kind": "skillshot",
@@ -37,23 +41,58 @@
   "solo_lane": 2
  },
  "cc": {
-  "hard": ["stasis", "displacement"],
-  "soft": ["slow"],
+  "hard": [
+   "stasis",
+   "displacement"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 3
  },
  "good_into": [
-  {"tag": "melee_heavy", "why": "Piercing Sands pierces clumped melee frontlines, Slowing Sands covers choke points, and Time Trap with Time Troubles strips armor from a diver. Melee heroes cannot reach her from range."},
-  {"tag": "squishy_backline", "why": "Sand Blast does 305 per hit with an Echo for 40 percent more, so squishy ranged heroes die in two or three hits at the longest range in the game."},
-  {"tag": "immobile", "why": "The 0.5 second delay on Sand Blast and Dragon's Breath is a non issue for targets that cannot sidestep, and Mobius Loop slows them further."},
-  {"tag": "low_sustain_healer", "why": "Single target burst with Temporal Loop and A Proper Greeting kills the healer or carry before a low sustain healer can undo it."},
-  {"tag": "poke_comp", "why": "Quantum Overdrive, Fast Forward and spammable Sand Blast let her out poke most other ranged assassins when she is safe behind a frontline."}
+  {
+   "tag": "melee_heavy",
+   "why": "Piercing Sands pierces clumped melee frontlines, Slowing Sands covers choke points, and Time Trap with Time Troubles strips armor from a diver. Melee heroes cannot reach her from range."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Sand Blast does 305 per hit with an Echo for 40 percent more, so squishy ranged heroes die in two or three hits at the longest range in the game."
+  },
+  {
+   "tag": "immobile",
+   "why": "The 0.5 second delay on Sand Blast and Dragon's Breath is a non issue for targets that cannot sidestep, and Mobius Loop slows them further."
+  },
+  {
+   "tag": "low_sustain_healer",
+   "why": "Single target burst with Temporal Loop and A Proper Greeting kills the healer or carry before a low sustain healer can undo it."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Quantum Overdrive, Fast Forward and spammable Sand Blast let her out poke most other ranged assassins when she is safe behind a frontline."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "Low health, no mobility except Gnome Speed Ahead and a delayed Time Trap, so Tracer, Illidan or Zeratul style divers reach her and Time Out is her only escape."},
-  {"tag": "assassin", "why": "Fast assassins are hard to hit with a delayed projectile and can punish any bad position."},
-  {"tag": "mobile", "why": "Both main abilities have a delay, so mobile heroes dodge them."},
-  {"tag": "cc_heavy", "why": "A stun cancels her kiting and sets up a dive. Temporal Loop can also be cleansed with Unstoppable effects."},
-  {"tag": "tanky_frontline", "why": "Very beefy targets absorb Sand Blast without dying, so she needs a team to focus them."}
+  {
+   "tag": "burst_dive",
+   "why": "Low health, no mobility except Gnome Speed Ahead and a delayed Time Trap, so Tracer, Illidan or Zeratul style divers reach her and Time Out is her only escape."
+  },
+  {
+   "tag": "assassin",
+   "why": "Fast assassins are hard to hit with a delayed projectile and can punish any bad position."
+  },
+  {
+   "tag": "mobile",
+   "why": "Both main abilities have a delay, so mobile heroes dodge them."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "A stun cancels her kiting and sets up a dive. Temporal Loop can also be cleansed with Unstoppable effects."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Very beefy targets absorb Sand Blast without dying, so she needs a team to focus them."
+  }
  ],
  "wants_from_team": [
   "A frontline of a tank and a bruiser that keeps divers off her",
@@ -82,5 +121,85 @@
   "Measured block: damage per minute about 3070, damage taken about 1000 per minute, win rate 0.502 over 1617 games"
  ],
  "confidence": "high",
- "unsure": ["ratings.teamfight"]
+ "unsure": [
+  "ratings.teamfight"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "chip_poke",
+  "damage_reach": "long",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "burst_snipe",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure",
+   "zone_hold"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "damage",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Sand Blast with its Echo carries the damage. Autos only matter with Bronze Talons.",
+  "damage_timing": "Sand Blast every 3 seconds is poke, with burst only when Temporal Loop resets her cooldowns.",
+  "damage_reliability": "Sand Blast has a 0.5 second delay, and Loop and Time Trap are set up first.",
+  "durability_source": "Time Out and Here and There are talent choices. Standard build has no sustain.",
+  "escape": "Time Trap to bait, Here and There, or Time Out (all talents or on cooldown).",
+  "cc_profile": "Time Trap is a 2 second stasis with a 2 second arming time. Loop displacement is a heroic, the other heroic Slowing Sands is a soft slow.",
+  "cc_delivery": "Temporal Loop is targeted. Time Trap is placed and also detonated by hand.",
+  "utility_tool": "Slowing Sands is a zone. Blessing of the Bronze (speed) and Timewalker's Pursuit (reveal) are optional talents.",
+  "power_curve": "Timewalker gives talents 2 levels early, so her heroic comes at level 8 and she spikes mid game.",
+  "lane_role": "Weak solo lane per rating, she soaks beside the team.",
+  "ultimate_role": "Temporal Loop locks and kills one target. Slowing Sands is a control zone alternative."
+ },
+ "lens_gaps": [
+  "no value on power_curve for a hero whose talents arrive 2 levels early (Timewalker)",
+  "no lens for delayed telegraphed damage that the target can sidestep (Sand Blast 0.5 seconds), damage_reliability skillshot is only an approximation"
+ ]
 }

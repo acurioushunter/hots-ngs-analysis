@@ -125,5 +125,91 @@
   "damage.heal_blunted",
   "ratings.camp_clear"
  ],
- "owner_notes": "A bruiser who soaks lanes well. His trait defends against a strong push or stalls near the objective. His heroic Smash does huge damage when set up with CC, and Lava Wave can clear a heavy push. Good on most wave clear maps, but on Tomb of the Spider Queen clearing waves with Lava Wave loses the gems. Low health and no escape, so he loses to other bruisers that can CC him or out sustain him."
+ "owner_notes": "A bruiser who soaks lanes well. His trait defends against a strong push or stalls near the objective. His heroic Smash does huge damage when set up with CC, and Lava Wave can clear a heavy push. Good on most wave clear maps, but on Tomb of the Spider Queen clearing waves with Lava Wave loses the gems. Low health and no escape, so he loses to other bruisers that can CC him or out sustain him.",
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "chip_poke",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "self_heal",
+   "fragile"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "needs_cc_partner",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability",
+   "zone_or_wall"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "long_range",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure",
+   "global_presence",
+   "zone_hold"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "comeback",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup",
+   "front_line"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "hard_cc",
+   "dive",
+   "poke"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "split_push"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Empower Sulfuras makes an auto an instant splash ability, Living Meteor and Blast Wave add casts.",
+  "damage_timing": "Splash every 4 seconds and meteor ticks; repeated AoE chip, not a burst window.",
+  "target_style": "Siege is 10026 per minute, more than double the median, but hero damage is median and the hits are AoE, so cleave_aoe is the nearest value.",
+  "frontline_style": "Damage taken 2060 per minute is the median; he soaks lanes and does not hold a line.",
+  "lane_role": "Owner: a bruiser who soaks lanes well.",
+  "escape": "No escape; Submerge at 20 on a 60 second cooldown is the only one.",
+  "utility_tool": "Lava Wave is global; Molten Core turns a fort into a body that defends it.",
+  "cc_profile": "Sulfuras Smash heroic stuns 0.5 seconds in the center; Molten Swing only inside Molten Core.",
+  "cc_delivery": "Smash has very long range but a 0.75 second telegraph.",
+  "anti_cc": "Resilient Flame only helps against stuns every 15 seconds.",
+  "split_potential": "Lava Wave clears minions instantly and he soaks while away; Owner: can clear a heavy push.",
+  "snowball": "Lava Wave and Molten Core defend a losing position.",
+  "ultimate_role": "Owner: Smash does huge damage when set up with CC; Lava Wave is the macro heroic.",
+  "camp_play": "Camps 3.5 per game, nothing special.",
+  "vulnerable_to": "Owner: low health and no escape, loses to bruisers that CC or out sustain him."
+ },
+ "lens_gaps": [
+  "no objective_role value for defending structures or stalling a push (Molten Core)",
+  "no way to say Tomb of the Spider Queen wave clear costs gems (map specific wave clear penalty)"
+ ]
 }

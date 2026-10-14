@@ -119,5 +119,91 @@
   "heal_blunted",
   "good_into.low_sustain_healer"
  ],
- "owner_notes": "A burst ranged damage hero who sieges structures well. Cooldown dependent: big burst, then not much damage. No escapes."
+ "owner_notes": "A burst ranged damage hero who sieges structures well. Cooldown dependent: big burst, then not much damage. No escapes.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "long",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "big_health"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "burst_snipe",
+  "escape": "none",
+  "setup_reliance": "needs_cc_partner",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability",
+   "vision_or_reveal"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "burst_objective",
+   "siege_pressure",
+   "global_presence"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "grants_vision"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "comeback",
+  "ultimate_role": "objective_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "cc_setup",
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage",
+   "wave_clear",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "dive",
+   "focus_fire",
+   "kiting",
+   "early_pressure"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "split_push",
+   "global_macro"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Globe of Annihilation and All Shall Burn are the damage. Demon Warriors and Demonic Grunts are support, so ability_caster fits better than summoner.",
+  "damage_timing": "Owner read: big burst, then not much damage while Globe and All Shall Burn recharge.",
+  "damage_reliability": "Globe has a 0.56 second cast and slow travel. Annihilation stacks take time to build.",
+  "setup_reliance": "Interrupted channels go on full cooldown, so he wants an ally to hold targets in place.",
+  "cc_profile": "Only slows: Sin's Grasp on All Shall Burn and Brutish Vanguard on Demon Warriors.",
+  "map_mobility": "Large, slow, and All Shall Burn cuts movement speed by 30 percent. Trample is a short talent charge.",
+  "power_curve": "Weak until Annihilation is stacked and Total Annihilation arrives at level 16. The stacks make it partly stack dependent.",
+  "snowball": "Inescapable Annihilation and Demonic Invasion with Siegebreaker give a way back through siege.",
+  "ultimate_role": "Demonic Invasion is the siege heroic (Greed build). Tide of Sin is the teamfight alternative.",
+  "lane_role": "Greed build splits with Demon Lieutenant, so he can hold or push a lane alone.",
+  "kill_pattern": "No dive, he kills by All Shall Burn plus Globe from range when targets cannot interrupt.",
+  "damage_reach": "Globe has the longest range of any hero and is global with Inescapable Annihilation."
+ },
+ "lens_gaps": [
+  "no value on vulnerable_to for interruption of channels (his two main abilities go on full cooldown), hard_cc is close but silences and knockbacks are the real counter",
+  "no value on damage_reliability for channelled and interruptible damage (the catalog has channel only on damage_delivery)"
+ ]
 }

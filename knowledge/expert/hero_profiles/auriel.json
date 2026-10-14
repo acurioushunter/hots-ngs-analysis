@@ -131,5 +131,82 @@
   "good_into tanky_frontline",
   "ratings.siege"
  ],
- "owner_notes": "Needs to damage people, or a teammate with her trait on has to deal damage, to fill her heals. Decent damage and sustain heal in some comps and weak in others. No solid escape."
+ "owner_notes": "Needs to damage people, or a teammate with her trait on has to deal damage, to fill her heals. Decent damage and sustain heal in some comps and weak in others. No solid escape.",
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "guaranteed",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "armor_or_shield"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "none",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "aoe_sustain",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "revive_or_second_life"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "defensive",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "sustain",
+   "peel",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "poke",
+   "dive",
+   "hard_cc",
+   "kiting",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "poke_siege"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Sacred Sweep and autos fill Energy (70% of her damage to Heroes plus 30% of her Bestow Hope ally's), so damage is the fuel for healing; owner confirms she needs damage to heal.",
+  "damage_reliability": "Autos are reliable, Sacred Sweep is a short cone, and the whole kit is a stack of Energy that is built by doing damage.",
+  "cc_profile": "Detainment Strike knocks back and stuns against terrain; Blinding Flash and Heavy Burden are soft extras by talent.",
+  "ultimate_role": "Resurrect and Crystal Aegis both undo a lost trade; Resurrect is a long channel the enemy can punish.",
+  "utility_tool": "Resurrect is a real revive; Crystal Aegis stasis is the save.",
+  "snowball": "Her healing grows with team damage dealt, but it is not a snowball of kills.",
+  "objective_role": "2176 siege per minute measured is high for a healer and Sacred Sweep clears waves."
+ },
+ "lens_gaps": [
+  "no damage_delivery or team_needs value for a healer whose healing is paid for by damage dealt (Energy), so no way to say it needs a damage dealer or ally damage",
+  "no value on healer_class for a hybrid damage fueled healer"
+ ]
 }

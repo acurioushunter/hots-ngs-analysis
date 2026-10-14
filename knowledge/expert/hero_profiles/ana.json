@@ -132,5 +132,84 @@
   "ratings.global_presence",
   "heal_blunted"
  ],
- "owner_notes": "Her anti heal grenade is a key tool."
+ "owner_notes": "Her anti heal grenade is a key tool.",
+ "lenses": {
+  "damage_delivery": "utility_minimal",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "long",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "self_heal"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "burst_single",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "anti_heal",
+   "cleanse_or_cc_denial",
+   "global_ability"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "cleanse"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "sustain",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "focus_fire",
+   "poke",
+   "hard_cc",
+   "kiting"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "pick_catch",
+   "anti_tank"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Her damage is support damage (684 per minute measured); the value is Sleep Dart, Biotic Grenade and Night Terrors combos.",
+  "target_style": "Shrike Doses are flat damage on one target, but Night Terrors adds 8% of maximum Health on waking, which makes her an anti tank tool.",
+  "utility_tool": "Biotic Grenade stops enemy healing for 1.75 seconds (owner calls it a key tool). Eye of Horus has global range but roots her. Smelling Salts is the cleanse talent.",
+  "anti_cc": "Smelling Salts and Purifying Darts are talents that cleanse allies; she has nothing for herself except sleep on the attacker.",
+  "healer_safety": "Long range lets her stand back, but she has no mobility and darts need a clean line.",
+  "ultimate_role": "Nano Boost gives 30% Spell Power and faster cooldowns to one ally and swings a fight when it lands on a mage; Eye of Horus is the alternative.",
+  "execution_demand": "Every dart, the sleep and the grenade are skillshots and Nano Boost needs the right target."
+ },
+ "lens_gaps": [
+  "no team_gives value for anti healing (Biotic Grenade) or for buffing one ally (Nano Boost)",
+  "no comp_affinity or counter lens for anti heal against healer heavy teams"
+ ]
 }

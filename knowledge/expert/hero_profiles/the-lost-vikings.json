@@ -1,122 +1,202 @@
 {
-  "hero": "The Lost Vikings",
-  "slug": "the-lost-vikings",
-  "role": "Support",
-  "attack": {
-    "type": "hybrid",
-    "range": "short",
-    "autos_matter": 4,
-    "note": "Three bodies: Olaf is melee, Baleog and Erik are ranged. Almost every part of the damage is basic attacks (Fury of the Storm, Nordic Attack Squad, Impatience Is a Virtue). Spin To Win! is the one ability and it hits every Viking at once."
+ "hero": "The Lost Vikings",
+ "slug": "the-lost-vikings",
+ "role": "Support",
+ "attack": {
+  "type": "hybrid",
+  "range": "short",
+  "autos_matter": 4,
+  "note": "Three bodies: Olaf is melee, Baleog and Erik are ranged. Almost every part of the damage is basic attacks (Fury of the Storm, Nordic Attack Squad, Impatience Is a Virtue). Spin To Win! is the one ability and it hits every Viking at once."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": [
+   "siege",
+   "aoe",
+   "sustained"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 4,
+   "note": "No poke. Erik harasses channeled objectives with his long attack range, which is interruption, not damage."
   },
-  "damage": {
-    "carry": false,
-    "ranged_dealer": false,
-    "style": [
-      "siege",
-      "aoe",
-      "sustained"
-    ],
-    "poke": {
-      "rating": 0,
-      "kind": "none",
-      "dodgeable": 4,
-      "note": "No poke. Erik harasses channeled objectives with his long attack range, which is interruption, not damage."
-    },
-    "heal_blunted": 3,
-    "note": "Hero damage is small (1498 per minute) but siege is the highest in the game (8414 per minute, league median 4430) and experience is 1666. Nordic Attack Squad deals 1.25 percent of max health so it ignores healing less than flat chip does, but three small bodies are easy for healers to ignore. The value is lane pressure, not kills."
+  "heal_blunted": 3,
+  "note": "Hero damage is small (1498 per minute) but siege is the highest in the game (8414 per minute, league median 4430) and experience is 1666. Nordic Attack Squad deals 1.25 percent of max health so it ignores healing less than flat chip does, but three small bodies are easy for healers to ignore. The value is lane pressure, not kills."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 2,
+  "engage": 1,
+  "peel": 2,
+  "mobility": 3,
+  "self_sustain": 2,
+  "survivability": 3,
+  "objective": 4,
+  "global_presence": 5,
+  "solo_lane": 5
+ },
+ "cc": {
+  "hard": [
+   "stun"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
+ "good_into": [
+  {
+   "tag": "immobile",
+   "why": "Heroes without a dash cannot catch three bodies with Go Go Go! (30 percent speed), Jump! (1.5 seconds Invulnerable) and Erik's speed, and they cannot stop a lane being pushed."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 5,
-    "camp_clear": 4,
-    "siege": 5,
-    "teamfight": 2,
-    "engage": 1,
-    "peel": 2,
-    "mobility": 3,
-    "self_sustain": 2,
-    "survivability": 3,
-    "objective": 4,
-    "global_presence": 5,
-    "solo_lane": 5
+  {
+   "tag": "tanky_frontline",
+   "why": "Nordic Attack Squad does bonus damage as a percent of maximum health, and Spin To Win! deals 100 percent more to heroes, so big health pools are what they hit best."
   },
-  "cc": {
-    "hard": [
-      "stun"
-    ],
-    "soft": [
-      "slow"
-    ],
-    "reliability": 3
+  {
+   "tag": "objective_race",
+   "why": "Erik cancels altar and tribute channels, Viking Bribery takes camps in seconds and Play Again! lets them over extend. The 4v5 fights are won by the experience lead."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "assassin",
+   "why": "Zeratul and Nova kill a Viking from stealth and each Viking has a tiny health pool. The guide lists them as the main counters. Single target burst (Falstad) also picks one off."
   },
-  "good_into": [
-    {
-      "tag": "immobile",
-      "why": "Heroes without a dash cannot catch three bodies with Go Go Go! (30 percent speed), Jump! (1.5 seconds Invulnerable) and Erik's speed, and they cannot stop a lane being pushed."
-    },
-    {
-      "tag": "tanky_frontline",
-      "why": "Nordic Attack Squad does bonus damage as a percent of maximum health, and Spin To Win! deals 100 percent more to heroes, so big health pools are what they hit best."
-    },
-    {
-      "tag": "objective_race",
-      "why": "Erik cancels altar and tribute channels, Viking Bribery takes camps in seconds and Play Again! lets them over extend. The 4v5 fights are won by the experience lead."
-    }
+  {
+   "tag": "burst_dive",
+   "why": "A dive with area damage (Kael'thas Living Bomb, Gazlowe Grav-O-Bomb, Li-Ming) wipes grouped Vikings and they are already a man down in the fight."
+  },
+  {
+   "tag": "global_ult",
+   "why": "Global heroes with wave clear (Dehaka, Falstad) can double soak and still join fights, which removes their experience advantage."
+  },
+  {
+   "tag": "split_push",
+   "why": "Heroes that hit structures hard (Zagara, Greymane) can win a siege race against their lane pressure without needing to fight."
+  }
+ ],
+ "wants_from_team": [
+  "a traditional comp with a main tank, a sustain healer (Malfurion) and a sustained damage dealer",
+  "heroes with strong lane presence that can push as four",
+  "a long range caster to stall objectives while the Vikings are split",
+  "team that knows when the Vikings are away"
+ ],
+ "gives_team": [
+  "large experience and level lead",
+  "three lane pressure and fort damage",
+  "camp control with Viking Bribery",
+  "interrupt for channeled objectives"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "weak early game in lane",
+  "tiny health pools, easy to pick off",
+  "weak on two lane maps",
+  "very hard to play and needs communication",
+  "team plays a man down in fights"
+ ],
+ "evidence": [
+  "Spin To Win!",
+  "Viking Hoard",
+  "Jump!",
+  "Go Go Go!",
+  "Play Again!",
+  "Nordic Attack Squad",
+  "Fury of the Storm",
+  "Large and In Charge",
+  "Viking Bribery",
+  "Icy Veins overview and counters",
+  "measured: siege 8414 per minute, xp contribution 1666, win rate 0.609, seconds dead 0, damage taken 4557, 169 games"
+ ],
+ "confidence": "high",
+ "unsure": [
+  "power_spike",
+  "ratings.survivability"
+ ],
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "structure_focus",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
   ],
-  "bad_into": [
-    {
-      "tag": "assassin",
-      "why": "Zeratul and Nova kill a Viking from stealth and each Viking has a tiny health pool. The guide lists them as the main counters. Single target burst (Falstad) also picks one off."
-    },
-    {
-      "tag": "burst_dive",
-      "why": "A dive with area damage (Kael'thas Living Bomb, Gazlowe Grav-O-Bomb, Li-Ming) wipes grouped Vikings and they are already a man down in the fight."
-    },
-    {
-      "tag": "global_ult",
-      "why": "Global heroes with wave clear (Dehaka, Falstad) can double soak and still join fights, which removes their experience advantage."
-    },
-    {
-      "tag": "split_push",
-      "why": "Heroes that hit structures hard (Zagara, Greymane) can win a siege race against their lane pressure without needing to fight."
-    }
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "untargetable_or_escape"
   ],
-  "wants_from_team": [
-    "a traditional comp with a main tank, a sustain healer (Malfurion) and a sustained damage dealer",
-    "heroes with strong lane presence that can push as four",
-    "a long range caster to stall objectives while the Vikings are split",
-    "team that knows when the Vikings are away"
+  "lane_role": "split_pusher",
+  "kill_pattern": "none",
+  "escape": "strong",
+  "setup_reliance": "needs_peel",
+  "healer_class": "utility_support",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability"
   ],
-  "gives_team": [
-    "large experience and level lead",
-    "three lane pressure and fort damage",
-    "camp control with Viking Bribery",
-    "interrupt for channeled objectives"
+  "cc_profile": "talent_dependent",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "mobility_through",
+   "unstoppable"
   ],
-  "power_spike": "mid",
-  "weaknesses": [
-    "weak early game in lane",
-    "tiny health pools, easy to pick off",
-    "weak on two lane maps",
-    "very hard to play and needs communication",
-    "team plays a man down in fights"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure",
+   "global_presence"
   ],
-  "evidence": [
-    "Spin To Win!",
-    "Viking Hoard",
-    "Jump!",
-    "Go Go Go!",
-    "Play Again!",
-    "Nordic Attack Squad",
-    "Fury of the Storm",
-    "Large and In Charge",
-    "Viking Bribery",
-    "Icy Veins overview and counters",
-    "measured: siege 8414 per minute, xp contribution 1666, win rate 0.609, seconds dead 0, damage taken 4557, 169 games"
+  "split_potential": "strong",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "scouting",
+   "stealth"
   ],
-  "confidence": "high",
-  "unsure": [
-    "power_spike",
-    "ratings.survivability"
-  ]
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "low_impact",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "healer"
+  ],
+  "team_gives": [
+   "objective",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "stealth",
+   "early_pressure"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "global_macro"
+  ],
+  "bodies": "multi_body"
+ },
+ "lens_notes": {
+  "kill_pattern": "Takedowns per game are the lowest of this group (7.4). They win by experience and structures, not by kills.",
+  "cc_profile": "Olaf Charge is a slow. A 1 second stun needs Large and In Charge at level 16.",
+  "anti_cc": "Jump gives 1.5 seconds Invulnerable, 64 KB Marathon breaks roots and slows, Longboat Raid is Unstoppable.",
+  "ultimate_role": "They are picked for the kit, not the heroic. Longboat Raid is an option, but the identity is lane pressure and xp.",
+  "durability_source": "Three small health pools, with Play Again as the only reset (seconds dead is 0 measured).",
+  "snowball": "Experience lead snowballs, the guide says the 4v5 fights are won by the xp lead.",
+  "damage_delivery": "Almost all damage is basic attacks (Fury of the Storm, Nordic Attack Squad).",
+  "escape": "Jump, Go Go Go! and Play Again make a single Viking hard to kill by catching.",
+  "vision_stealth": "Erik scouts, and Spy Games gives Erik stealth.",
+  "power_curve": "Weak in early lane, spike at level 10 with the heroic and talents."
+ },
+ "lens_gaps": [
+  "no lens for a three body hero: bodies in lanes, xp soak value (1666 per minute measured) and being a man down in fights",
+  "no value on vulnerable_to for global soakers (Dehaka, Falstad) that cancel the xp lead"
+ ]
 }

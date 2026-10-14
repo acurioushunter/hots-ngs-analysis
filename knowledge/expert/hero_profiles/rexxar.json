@@ -11,8 +11,16 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["sustained", "single_target"],
-  "poke": { "rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Spirit Swoop is a line skillshot with a slow (141 damage, 7 second cooldown). Taking Flight adds range and refunds on hit. Otherwise he has no poke." },
+  "style": [
+   "sustained",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Spirit Swoop is a line skillshot with a slow (141 damage, 7 second cooldown). Taking Flight adds range and refunds on hit. Otherwise he has no poke."
+  },
   "heal_blunted": 3,
   "note": "Damage comes from two bodies auto attacking plus Misha, Charge! (150 plus Dire Beast stacks). It is neither burst nor poke. Measured damage 1883 per minute is a little under the median, so he is a control bruiser, not a damage carry. Healing on the target blunts the autos."
  },
@@ -32,28 +40,164 @@
   "solo_lane": 3
  },
  "cc": {
-  "hard": ["stun", "root"],
-  "soft": ["slow"],
+  "hard": [
+   "stun",
+   "root"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 4,
   "note": "Misha, Charge! is a 1.25 second stun on a 10 second cooldown (lower with Aspect of the Beast), Kill Command roots for 1.5 seconds, Unleash the Boars slows 40 percent for 5 seconds. Measured 34.5 seconds of enemy stun, root or silence per game, among the highest in the league."
  },
  "good_into": [
-  { "tag": "kiter", "why": "Misha charges past and stuns retreating targets, Spirit Swoop and Unleash the Boars slow, and Thrill of the Hunt speeds both bodies. Kill Command roots for the engage." },
-  { "tag": "stealth", "why": "Unleash the Boars reveals every hero it tracks, Flare reveals an area and Wildfire Bear reveals invisible units that Misha walks near." },
-  { "tag": "squishy_backline", "why": "Misha can leap behind enemies and Bestial Wrath triples her attack damage on priority targets in the backline. The charge stun also body blocks escape routes." },
-  { "tag": "objective_race", "why": "Misha holds a capture point while Rexxar clears minions, so he wins point control and can score gems on Tomb of the Spider Queen without losing them when only Misha dies." }
+  {
+   "tag": "kiter",
+   "why": "Misha charges past and stuns retreating targets, Spirit Swoop and Unleash the Boars slow, and Thrill of the Hunt speeds both bodies. Kill Command roots for the engage."
+  },
+  {
+   "tag": "stealth",
+   "why": "Unleash the Boars reveals every hero it tracks, Flare reveals an area and Wildfire Bear reveals invisible units that Misha walks near."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Misha can leap behind enemies and Bestial Wrath triples her attack damage on priority targets in the backline. The charge stun also body blocks escape routes."
+  },
+  {
+   "tag": "objective_race",
+   "why": "Misha holds a capture point while Rexxar clears minions, so he wins point control and can score gems on Tomb of the Spider Queen without losing them when only Misha dies."
+  }
  ],
  "bad_into": [
-  { "tag": "assassin", "why": "Mobile assassins such as Zeratul dodge Misha's charge, dive Rexxar behind Misha and kill him while Feign Death is down. The guide names this directly." },
-  { "tag": "burst_dive", "why": "When Misha dies his takedown credit and most of his talents stop working, and enemies can pick the pet off for little cost." },
-  { "tag": "poke_comp", "why": "Misha is a second target that takes poke damage, and Mend Pet costs a lot of mana for a heal over time. Spirit Swoop is his only range." },
-  { "tag": "mobile", "why": "No mobility of his own beyond Thrill of the Hunt, so heroes with gap closers reach him behind Misha or kite him freely." }
+  {
+   "tag": "assassin",
+   "why": "Mobile assassins such as Zeratul dodge Misha's charge, dive Rexxar behind Misha and kill him while Feign Death is down. The guide names this directly."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "When Misha dies his takedown credit and most of his talents stop working, and enemies can pick the pet off for little cost."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Misha is a second target that takes poke damage, and Mend Pet costs a lot of mana for a heal over time. Spirit Swoop is his only range."
+  },
+  {
+   "tag": "mobile",
+   "why": "No mobility of his own beyond Thrill of the Hunt, so heroes with gap closers reach him behind Misha or kite him freely."
+  }
  ],
- "wants_from_team": ["Follow up burst or area damage on stunned and slowed targets", "Allied crowd control or grouping (Johanna, Malfurion) to extend his engage", "A team that does not need him to carry damage", "Maps with a capture point objective where Misha can hold"],
- "gives_team": ["Frequent area stuns and slows for engage and peel", "Point control and objective holding with a second body", "Scouting with Misha, Focus!", "Vision from Flare and Unleash the Boars"],
+ "wants_from_team": [
+  "Follow up burst or area damage on stunned and slowed targets",
+  "Allied crowd control or grouping (Johanna, Malfurion) to extend his engage",
+  "A team that does not need him to carry damage",
+  "Maps with a capture point objective where Misha can hold"
+ ],
+ "gives_team": [
+  "Frequent area stuns and slows for engage and peel",
+  "Point control and objective holding with a second body",
+  "Scouting with Misha, Focus!",
+  "Vision from Flare and Unleash the Boars"
+ ],
  "power_spike": "mid",
- "weaknesses": ["No mobility", "Weak when Misha is dead", "Mana pressure from Mend Pet", "High micro demand"],
- "evidence": ["Spirit Swoop, Misha Charge, Mend Pet, Unleash the Boars, Bestial Wrath, Misha Focus text", "Aspect of the Beast, Aspect of the Hawk, Dire Beast, Kill Command, Feign Death talent text", "Icy Veins counters and role sections", "Measured NGS block: hero damage 1883 per minute, damage taken 4474, CC seconds 34.5 per game, win rate 0.528"],
+ "weaknesses": [
+  "No mobility",
+  "Weak when Misha is dead",
+  "Mana pressure from Mend Pet",
+  "High micro demand"
+ ],
+ "evidence": [
+  "Spirit Swoop, Misha Charge, Mend Pet, Unleash the Boars, Bestial Wrath, Misha Focus text",
+  "Aspect of the Beast, Aspect of the Hawk, Dire Beast, Kill Command, Feign Death talent text",
+  "Icy Veins counters and role sections",
+  "Measured NGS block: hero damage 1883 per minute, damage taken 4474, CC seconds 34.5 per game, win rate 0.528"
+ ],
  "confidence": "medium",
- "unsure": ["damage.heal_blunted", "ratings.siege"]
+ "unsure": [
+  "damage.heal_blunted",
+  "ratings.siege"
+ ],
+ "lenses": {
+  "damage_delivery": "summoner",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "initiator",
+  "durability_source": [
+   "big_health",
+   "untargetable_or_escape"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "vision_or_reveal"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "ok",
+  "objective_role": [
+   "zone_hold"
+  ],
+  "split_potential": "some",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "grants_vision",
+   "detection",
+   "scouting"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "healer"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "vision",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "poke",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "dive_burst"
+  ],
+  "bodies": "multi_body"
+ },
+ "lens_notes": {
+  "damage_delivery": "Two bodies auto attack; Misha is a pet but Rexxar is a full fighter, so summoner is the nearest value.",
+  "frontline_style": "Measured damage taken is 4474 per minute and Misha, Charge! is a 1.25 second stun that starts fights.",
+  "durability_source": "Misha is a second target that soaks, Feign Death is a talent at 16 or 20.",
+  "lane_role": "Misha holds a capture point while he soaks; solo lane rating is only 3.",
+  "kill_pattern": "34.5 seconds of enemy CC per game, among the highest; others finish.",
+  "escape": "Feign Death only, and it is a talent.",
+  "cc_delivery": "Misha charge is targeted, Kill Command is targeted root, Spirit Swoop is a skillshot.",
+  "anti_cc": "No cleanse or unstoppable in the kit.",
+  "utility_tool": "Flare reveals an area for 20 seconds, Unleash the Boars reveals tracked heroes.",
+  "ultimate_role": "Heroics are Bestial Wrath, Unleash the Boars (slow and reveal) and Wildfire Bear; Bestial Wrath triples Misha attacks on one target.",
+  "execution_demand": "Two bodies to micro, Misha dying removes most of his talents.",
+  "team_needs": "Wants follow up damage and a team that does not need him to carry; the catalog has no value for that so healer is the nearest (Mend Pet is mana heavy).",
+  "vulnerable_to": "Assassins such as Zeratul dodge Misha and kill him; Misha dying ends the build."
+ },
+ "lens_gaps": [
+  "team_needs has no value for follow up burst or area damage on his stuns",
+  "no lens for pet or second body dependence (Misha dies, talents stop)",
+  "damage_delivery summoner is a loose fit for a hero whose pet is also a second fighter"
+ ]
 }

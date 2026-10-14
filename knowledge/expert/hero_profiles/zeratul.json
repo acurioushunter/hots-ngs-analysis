@@ -1,84 +1,202 @@
 {
-  "hero": "Zeratul",
-  "slug": "zeratul",
-  "role": "Melee Assassin",
-  "attack": {
-    "type": "melee",
-    "range": "melee",
-    "autos_matter": 3,
-    "note": "Might of the Nerazim, Master Warp-Blade, Mending Strikes and Psionic Strength all reward weaving autos between abilities. Singularity Spike is his only ranged ability and is usually cast from melee."
+ "hero": "Zeratul",
+ "slug": "zeratul",
+ "role": "Melee Assassin",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 3,
+  "note": "Might of the Nerazim, Master Warp-Blade, Mending Strikes and Psionic Strength all reward weaving autos between abilities. Singularity Spike is his only ranged ability and is usually cast from melee."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": [
+   "burst",
+   "single_target",
+   "aoe"
+  ],
+  "poke": {
+   "rating": 1,
+   "kind": "skillshot",
+   "dodgeable": 4,
+   "note": "Singularity Spike can be fired from range but the guide says to avoid using it as poke because it is easy to heal off and a long cooldown."
   },
-  "damage": {
-    "carry": true,
-    "ranged_dealer": false,
-    "style": ["burst", "single_target", "aoe"],
-    "poke": {
-      "rating": 1,
-      "kind": "skillshot",
-      "dodgeable": 4,
-      "note": "Singularity Spike can be fired from range but the guide says to avoid using it as poke because it is easy to heal off and a long cooldown."
-    },
-    "heal_blunted": 1,
-    "note": "Cleave, Singularity Spike with a slow and weaved autos burst a squishy target in a couple of seconds, and Twilight Falls doubles the rotation. Mending Strikes lets him out sustain weak healers in 1v1. Burst gets through healing, but a fully healed and shielded target (Medivh, Uther, Divine Shield) survives."
+  "heal_blunted": 1,
+  "note": "Cleave, Singularity Spike with a slow and weaved autos burst a squishy target in a couple of seconds, and Twilight Falls doubles the rotation. Mending Strikes lets him out sustain weak healers in 1v1. Burst gets through healing, but a fully healed and shielded target (Medivh, Uther, Divine Shield) survives."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 3,
+  "siege": 3,
+  "teamfight": 3,
+  "engage": 4,
+  "peel": 2,
+  "mobility": 5,
+  "self_sustain": 3,
+  "survivability": 2,
+  "objective": 2,
+  "global_presence": 1,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [
+   "time_stop"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
+ "good_into": [
+  {
+   "tag": "squishy_backline",
+   "why": "Permanent Cloak, Blink and Vorpal Blade reach the backline unseen and Cleave plus Singularity Spike plus Might of the Nerazim kill it fast."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 3,
-    "camp_clear": 3,
-    "siege": 3,
-    "teamfight": 3,
-    "engage": 4,
-    "peel": 2,
-    "mobility": 5,
-    "self_sustain": 3,
-    "survivability": 2,
-    "objective": 2,
-    "global_presence": 1,
-    "solo_lane": 3
+  {
+   "tag": "tanky_frontline",
+   "why": "Stealth flanks bypass the front line, and Void Prison can split the enemy team in half so allies fight only the backline."
   },
-  "cc": {
-    "hard": ["time_stop"],
-    "soft": ["slow"],
-    "reliability": 3
+  {
+   "tag": "low_sustain_healer",
+   "why": "Mending Strikes and Shadow Mending beat weak healers in a duel and burst kills before an Uther or Morales heal lands."
   },
-  "good_into": [
-    { "tag": "squishy_backline", "why": "Permanent Cloak, Blink and Vorpal Blade reach the backline unseen and Cleave plus Singularity Spike plus Might of the Nerazim kill it fast." },
-    { "tag": "tanky_frontline", "why": "Stealth flanks bypass the front line, and Void Prison can split the enemy team in half so allies fight only the backline." },
-    { "tag": "low_sustain_healer", "why": "Mending Strikes and Shadow Mending beat weak healers in a duel and burst kills before an Uther or Morales heal lands." },
-    { "tag": "split_push", "why": "Move Unseen gives fast stealth rotations and ganks on lone heroes, and Void Prison can freeze a camp or a structure." }
+  {
+   "tag": "split_push",
+   "why": "Move Unseen gives fast stealth rotations and ganks on lone heroes, and Void Prison can freeze a camp or a structure."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "cc_heavy",
+   "why": "Targeted CC (Polymorph, Twilight Dream, Warlord's Challenge) hits him in the Wormhole window or after he commits, and he has low health."
+  },
+  {
+   "tag": "stealth",
+   "why": "Revealing abilities such as Eye of Kilrogg or area damage strip his main strength and leave a fragile hero exposed."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "He is easy to kill once revealed and relies on cooldown timing for Blink, so he cannot trade with a dive comp."
+  },
+  {
+   "tag": "kiter",
+   "why": "Heroes who can react to Blink with their own gap closer leave him with no reliable follow up if Vorpal Blade fails."
+  }
+ ],
+ "wants_from_team": [
+  "Allies who follow his dives",
+  "Sustained AoE damage dealers (Sylvanas, Gul'dan)",
+  "Combo partners for Void Prison (Diablo, Jaina)",
+  "Early game strength since he is weak early"
+ ],
+ "gives_team": [
+  "Backline assassination and pickoffs",
+  "Void Prison setup for team combos or a split",
+  "Stealth ganks and map pressure",
+  "Strong mobility with several blinks"
+ ],
+ "power_spike": "late",
+ "weaknesses": [
+  "Vulnerable to targeted crowd control and reveals",
+  "Low base health for a melee assassin",
+  "Weak early game, depends on Level 16 talents",
+  "High skill floor"
+ ],
+ "evidence": [
+  "Permanent Cloak, Blink, Vorpal Blade, Singularity Spike, Cleave",
+  "Might of the Nerazim and Void Prison heroics",
+  "Wormhole, Seeker in the Dark, Mending Strikes, Master Warp-Blade, Twilight Falls talents",
+  "Icy Veins guide: vulnerable to targeted CC, weak early, great ganker",
+  "Measured: about 2063 hero damage, 4886 siege, 2034 damage taken per minute, 0.4 CC seconds, win rate 0.526 over 350 games"
+ ],
+ "confidence": "high",
+ "unsure": [
+  "power_spike"
+ ],
+ "lenses": {
+  "damage_delivery": "melee_brawler",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
   ],
-  "bad_into": [
-    { "tag": "cc_heavy", "why": "Targeted CC (Polymorph, Twilight Dream, Warlord's Challenge) hits him in the Wormhole window or after he commits, and he has low health." },
-    { "tag": "stealth", "why": "Revealing abilities such as Eye of Kilrogg or area damage strip his main strength and leave a fragile hero exposed." },
-    { "tag": "burst_dive", "why": "He is easy to kill once revealed and relies on cooldown timing for Blink, so he cannot trade with a dive comp." },
-    { "tag": "kiter", "why": "Heroes who can react to Blink with their own gap closer leave him with no reliable follow up if Vorpal Blade fails." }
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "untargetable_or_escape",
+   "self_heal",
+   "fragile"
   ],
-  "wants_from_team": [
-    "Allies who follow his dives",
-    "Sustained AoE damage dealers (Sylvanas, Gul'dan)",
-    "Combo partners for Void Prison (Diablo, Jaina)",
-    "Early game strength since he is weak early"
+  "lane_role": "rotator",
+  "kill_pattern": "stealth_ambush",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
   ],
-  "gives_team": [
-    "Backline assassination and pickoffs",
-    "Void Prison setup for team combos or a split",
-    "Stealth ganks and map pressure",
-    "Strong mobility with several blinks"
+  "cc_profile": "talent_dependent",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "mobility_through"
   ],
-  "power_spike": "late",
-  "weaknesses": [
-    "Vulnerable to targeted crowd control and reveals",
-    "Low base health for a melee assassin",
-    "Weak early game, depends on Level 16 talents",
-    "High skill floor"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "mobility_rotate"
   ],
-  "evidence": [
-    "Permanent Cloak, Blink, Vorpal Blade, Singularity Spike, Cleave",
-    "Might of the Nerazim and Void Prison heroics",
-    "Wormhole, Seeker in the Dark, Mending Strikes, Master Warp-Blade, Twilight Falls talents",
-    "Icy Veins guide: vulnerable to targeted CC, weak early, great ganker",
-    "Measured: about 2063 hero damage, 4886 siege, 2034 damage taken per minute, 0.4 CC seconds, win rate 0.526 over 350 games"
+  "split_potential": "some",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "stealth"
   ],
-  "confidence": "high",
-  "unsure": ["power_spike"]
+  "power_curve": "late_scaler",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "nothing"
+  ],
+  "team_gives": [
+   "cc_setup",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "focus_fire",
+   "early_pressure"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "The catalog lists Zeratul as the melee brawler example. Cleave, weaved autos and Might Of The Nerazim all happen in melee, with Singularity Spike usually cast from melee range.",
+  "damage_reach": "Singularity Spike is ranged but Icy Veins says to cast it from melee and not to poke with it.",
+  "damage_reliability": "Singularity Spike is a skillshot, and Blink and Vorpal Blade need the target not to be hard CC'd or to have an auto landed first.",
+  "durability_source": "Permanent Cloak, Blink (disjoints projectiles), Mending Strikes and Shroud of Adun. Icy Veins: low base health for a melee assassin.",
+  "escape": "Blink, Vorpal Blade, Wormhole and Might Of The Nerazim give multiple outs. Targeted CC (polymorph, Twilight Dream) beats him.",
+  "utility_tool": "Void Prison is a heroic choice with many uses (time stop for both teams), none of the catalog tool values fits cleanly.",
+  "cc_profile": "Only the Void Prison heroic and Singularity Spike slow. The standard Basic Attacks build takes Might Of The Nerazim and has no hard CC.",
+  "cc_delivery": "Void Prison is a wide area. Singularity Spike (soft slow) is a skillshot.",
+  "anti_cc": "Blink, Vorpal Blade and Seeker in the Dark teleport out, but Wormhole blocks blinking back for 1.25 seconds.",
+  "camp_play": "Icy Veins: Cleave is excellent at camps, but measured 2.9 camps per game is below average.",
+  "power_curve": "Icy Veins: weak early game and very dependent on level 7 and 16 talents. Profile spike is late.",
+  "snowball": "Icy Veins says he does badly on snowball maps (Tomb, Braxis), and he needs level 16 talents, not leads.",
+  "ultimate_role": "Standard Basic Attacks build takes Might Of The Nerazim (single target burst). Void Prison is a teamfight swing or defensive heroic in the other builds.",
+  "team_needs": "No hard need, but Icy Veins wants sustained AoE damage heroes (Sylvanas, Gul'dan) since his damage is burst, and early game allies for his weak early game.",
+  "team_gives": "Void Prison sets up combos with Diablo, Jaina, Nova. Cleave clears waves and camps.",
+  "vulnerable_to": "Targeted CC like polymorphs and reveal abilities (Eye of Kilrogg), then killed quickly because of limited health."
+ },
+ "lens_gaps": [
+  "ultimate_role is single valued but Zeratul has two very different heroics (Might Of The Nerazim pick tool, Void Prison fight swing and setup).",
+  "No value for time stop or global CC on cc_profile (Void Prison affects allies too, and can protect structures and allies).",
+  "vulnerable_to has no value for 'revealed by reveal abilities or area damage' (stealth hero counter)."
+ ]
 }

@@ -11,33 +11,201 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["dot", "aoe", "burst"],
-  "poke": { "rating": 1, "kind": "skillshot", "dodgeable": 4, "note": "Impale has a long range but a slow travelling spike that is easy to sidestep at max range, and Burrow Charge is an engage, not a poke. Bed of Barbs adds a short damage over time lane." },
+  "style": [
+   "dot",
+   "aoe",
+   "burst"
+  ],
+  "poke": {
+   "rating": 1,
+   "kind": "skillshot",
+   "dodgeable": 4,
+   "note": "Impale has a long range but a slow travelling spike that is easy to sidestep at max range, and Burrow Charge is an engage, not a poke. Bed of Barbs adds a short damage over time lane."
+  },
   "heal_blunted": 4,
   "note": "Damage is small hits: Beetles, Burning Beetles damage per second, Locust Swarm. Healing blunts it well. The burst option is Urticating Spines doubled against Heroes, and Underking doubles Burrow Charge damage, but neither is a kill threat alone. Measured 1353 hero damage per minute is well under the 2060 median."
  },
  "healing": null,
- "ratings": { "wave_clear": 1, "camp_clear": 2, "siege": 2, "teamfight": 3, "engage": 4, "peel": 3, "mobility": 3, "self_sustain": 2, "survivability": 2, "objective": 2, "global_presence": 0, "solo_lane": 1 },
- "cc": { "hard": ["stun", "isolate"], "soft": ["slow"], "reliability": 3 },
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 2,
+  "siege": 2,
+  "teamfight": 3,
+  "engage": 4,
+  "peel": 3,
+  "mobility": 3,
+  "self_sustain": 2,
+  "survivability": 2,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 1
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "isolate"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  { "tag": "squishy_backline", "why": "Long range Impale and Burrow Charge interrupt channels, and Cocoon removes one backline hero for 7 seconds so the team collapses on the rest." },
-  { "tag": "immobile", "why": "Heroes without a dash cannot dodge the slow Impale spike once Burrow Charge or Bed of Barbs slows them, and they cannot leave a Cocoon follow up." },
-  { "tag": "poke_comp", "why": "Harden Carapace with Nerubian Armor and Chitinous Plating gives large spell armor on a 7 second cooldown, and Subterranean Shield absorbs chip while closing the gap." },
-  { "tag": "global_ult", "why": "Cocoon makes the caster untargetable and unable to act, so it can be used to deny a channelled or global heroic by isolating the hero." },
-  { "tag": "structures", "why": "Beetles tank structure and mercenary shots, and Alterac Pass play with Scarab Host captures the objective alone." }
+  {
+   "tag": "squishy_backline",
+   "why": "Long range Impale and Burrow Charge interrupt channels, and Cocoon removes one backline hero for 7 seconds so the team collapses on the rest."
+  },
+  {
+   "tag": "immobile",
+   "why": "Heroes without a dash cannot dodge the slow Impale spike once Burrow Charge or Bed of Barbs slows them, and they cannot leave a Cocoon follow up."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Harden Carapace with Nerubian Armor and Chitinous Plating gives large spell armor on a 7 second cooldown, and Subterranean Shield absorbs chip while closing the gap."
+  },
+  {
+   "tag": "global_ult",
+   "why": "Cocoon makes the caster untargetable and unable to act, so it can be used to deny a channelled or global heroic by isolating the hero."
+  },
+  {
+   "tag": "structures",
+   "why": "Beetles tank structure and mercenary shots, and Alterac Pass play with Scarab Host captures the objective alone."
+  }
  ],
  "bad_into": [
-  { "tag": "melee_heavy", "why": "Anub'arak has a small health pool for a tank and Nerubian Armor and Harden Carapace do nothing against basic attack physical damage, so melee auto attackers focus him down." },
-  { "tag": "burst_dive", "why": "Assassins that dash on him ignore the spike skillshots and kill through a low health pool. Locust Swarm is barely useful against burst." },
-  { "tag": "kiter", "why": "Long range skillshots are avoided by kiters and his own damage is too low to punish a mobile ranged hero." },
-  { "tag": "high_sustain_healer", "why": "His damage is small hits from Beetles and Burning Beetles that sustain healers undo, and Debilitation is the only answer for a big healer." },
-  { "tag": "cc_heavy", "why": "Burrow Charge is his only escape and Cocoon can be broken fast by enemy attacks, so heavy crowd control after he commits punishes the dive." }
+  {
+   "tag": "melee_heavy",
+   "why": "Anub'arak has a small health pool for a tank and Nerubian Armor and Harden Carapace do nothing against basic attack physical damage, so melee auto attackers focus him down."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Assassins that dash on him ignore the spike skillshots and kill through a low health pool. Locust Swarm is barely useful against burst."
+  },
+  {
+   "tag": "kiter",
+   "why": "Long range skillshots are avoided by kiters and his own damage is too low to punish a mobile ranged hero."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "His damage is small hits from Beetles and Burning Beetles that sustain healers undo, and Debilitation is the only answer for a big healer."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Burrow Charge is his only escape and Cocoon can be broken fast by enemy attacks, so heavy crowd control after he commits punishes the dive."
+  }
  ],
- "wants_from_team": ["Burst damage that follows Impale and Cocoon within 2 seconds", "A second source of crowd control or a mobile assassin for the follow up", "A healer that can heal through spell damage poke", "Teammates that hold position near him so Burrow Charge does not overextend"],
- "gives_team": ["Long range stun to interrupt channels and start fights", "Cocoon to delete a key hero or split a rotating team", "Scouting and vision from Burrow Charge and Beetles", "Spell armor and skillshot blocking with Beetles"],
+ "wants_from_team": [
+  "Burst damage that follows Impale and Cocoon within 2 seconds",
+  "A second source of crowd control or a mobile assassin for the follow up",
+  "A healer that can heal through spell damage poke",
+  "Teammates that hold position near him so Burrow Charge does not overextend"
+ ],
+ "gives_team": [
+  "Long range stun to interrupt channels and start fights",
+  "Cocoon to delete a key hero or split a rotating team",
+  "Scouting and vision from Burrow Charge and Beetles",
+  "Spell armor and skillshot blocking with Beetles"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Fragile for a tank, measured damage taken is very high at 3345 per minute with a small health pool", "Low waveclear and siege", "Every main ability is a skillshot that can be avoided", "Burrow Charge is the only escape, so a failed dive is a death"],
- "evidence": ["Impale, Burrow Charge, Harden Carapace, Cocoon, Scarab Host ability text", "Talents Legion of Beetles, Leeching Scarabs, Burning Beetles, Urticating Spines, Epicenter, Rewind", "Icy Veins: fragile for a tank, limited damage and waveclear, avoidable skillshots", "measured: hero damage 1353 per minute, siege 2004, damage taken 3345, 38 seconds of enemy CC per game, win rate 0.491"],
+ "weaknesses": [
+  "Fragile for a tank, measured damage taken is very high at 3345 per minute with a small health pool",
+  "Low waveclear and siege",
+  "Every main ability is a skillshot that can be avoided",
+  "Burrow Charge is the only escape, so a failed dive is a death"
+ ],
+ "evidence": [
+  "Impale, Burrow Charge, Harden Carapace, Cocoon, Scarab Host ability text",
+  "Talents Legion of Beetles, Leeching Scarabs, Burning Beetles, Urticating Spines, Epicenter, Rewind",
+  "Icy Veins: fragile for a tank, limited damage and waveclear, avoidable skillshots",
+  "measured: hero damage 1353 per minute, siege 2004, damage taken 3345, 38 seconds of enemy CC per game, win rate 0.491"
+ ],
  "confidence": "high",
- "unsure": ["bad_into kiter weight", "cc.reliability"]
+ "unsure": [
+  "bad_into kiter weight",
+  "cc.reliability"
+ ],
+ "lenses": {
+  "damage_delivery": "summoner",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
+  ],
+  "frontline_style": "initiator",
+  "durability_source": [
+   "armor_or_shield",
+   "self_heal",
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "ok",
+  "objective_role": [
+   "mobility_rotate"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "scouting"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "healer",
+   "peel"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "vision"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "focus_fire",
+   "kiting",
+   "sustain_heals",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Beetles from Scarab Host and Burning Beetles are the damage, his own autos are weak. Measured 1353 hero damage per minute.",
+  "damage_reach": "Impale reaches far but the beetles fight up close, so medium.",
+  "frontline_style": "Burrow Charge and Impale start fights from range. He is fragile for a tank, so he is an initiator, not an anchor.",
+  "durability_source": "Harden Carapace gives spell armor, Leeching Scarabs heals, and measured damage taken is very high at 3345 per minute with a small health pool.",
+  "kill_pattern": "Cocoon removes one hero for 7 seconds and the team collapses on the rest.",
+  "escape": "Burrow Charge is the only escape and a failed dive is a death.",
+  "utility_tool": "Nothing in the utility list fits. Cocoon is a lock, not a revive or cleanse.",
+  "anti_cc": "Subterranean Shield absorbs damage but does not answer CC, so none.",
+  "camp_play": "Beetles take camps slowly, 2.6 camps per game measured.",
+  "map_mobility": "Burrow Charge is a long dash but on a cooldown, so average, not high.",
+  "vision_stealth": "Beetles and Burrow Charge scout.",
+  "ultimate_role": "Cocoon is the pick tool. Locust Swarm is the alternative heroic and is weaker.",
+  "execution_demand": "Every main ability is a skillshot.",
+  "team_needs": "He wants burst that follows Impale and Cocoon within 2 seconds, which no value expresses."
+ },
+ "lens_gaps": [
+  "no value on team_needs for burst damage follow up within 2 seconds of the CC (Impale, Cocoon)"
+ ]
 }

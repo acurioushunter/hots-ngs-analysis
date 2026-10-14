@@ -119,5 +119,81 @@
   "good_into",
   "ratings.global_presence"
  ],
- "owner_notes": "A bruiser, often taken in the 4 man as a damage dealer. Pick him when the other team has no percent damage hero and when they have a pick comp: he cannot be stunned, so he wrecks those comps. A strong late pick in the right situations."
+ "owner_notes": "A bruiser, often taken in the 4 man as a damage dealer. Pick him when the other team has no percent damage hero and when they have a pick comp: he cannot be stunned, so he wrecks those comps. A strong late pick in the right situations.",
+ "lenses": {
+  "damage_delivery": "channel",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "dive_bruiser",
+  "durability_source": [
+   "armor_or_shield",
+   "big_health"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "backline_dive",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "unstoppable"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "global_presence",
+   "zone_hold"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line"
+  ],
+  "team_gives": [
+   "damage",
+   "engage",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "poke",
+   "kiting",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "global_macro"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "anti_cc": "Owner: he cannot be stunned, permanently Unstoppable.",
+  "damage_delivery": "Molten Flame is a 1.5 second windup channeled cone that can be interrupted, though he cannot be stunned.",
+  "frontline_style": "Owner takes him as a damage dealer in the 4 man, so dive bruiser rather than tank.",
+  "durability_source": "Armor plates scale with health; he ignores ally healing and shields, so relies_on_healer is not listed.",
+  "cc_profile": "Earth Shatter stun and Cataclysm fear, 21 seconds of enemy CC per game measured.",
+  "comp_affinity": "Owner picks him into pick comps and into teams with no percent damage hero.",
+  "lane_role": "Dragonflight gives global reach, so he rotates rather than holds a lane.",
+  "power_curve": "Owner calls him a strong late pick, measured win rate 0.561; the talent spike is level 10."
+ },
+ "lens_gaps": [
+  "no value for ignores ally healing and shields on any lens",
+  "no value for counters pick comps as comp affinity"
+ ]
 }

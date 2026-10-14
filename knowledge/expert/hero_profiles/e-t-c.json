@@ -11,33 +11,197 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["aoe", "burst"],
-  "poke": { "rating": 1, "kind": "none", "dodgeable": 3, "note": "No real poke. Powerslide and Face Melt are close range crowd control, Stage Dive is a 495 landing hit after 2.75 seconds." },
+  "style": [
+   "aoe",
+   "burst"
+  ],
+  "poke": {
+   "rating": 1,
+   "kind": "none",
+   "dodgeable": 3,
+   "note": "No real poke. Powerslide and Face Melt are close range crowd control, Stage Dive is a 495 landing hit after 2.75 seconds."
+  },
   "heal_blunted": 3,
   "note": "Damage is incidental: Powerslide 105, Face Melt 68 or 300 percent more with Pinball Wizard, Stage Dive 495. Healing reduction is not what matters for him. Measured 968 hero damage per minute, the lowest of this group and less than half the median."
  },
  "healing": null,
- "ratings": { "wave_clear": 2, "camp_clear": 2, "siege": 2, "teamfight": 4, "engage": 5, "peel": 5, "mobility": 3, "self_sustain": 2, "survivability": 2, "objective": 2, "global_presence": 2, "solo_lane": 2 },
- "cc": { "hard": ["stun", "knockback", "daze"], "soft": ["slow"], "reliability": 3 },
+ "ratings": {
+  "wave_clear": 2,
+  "camp_clear": 2,
+  "siege": 2,
+  "teamfight": 4,
+  "engage": 5,
+  "peel": 5,
+  "mobility": 3,
+  "self_sustain": 2,
+  "survivability": 2,
+  "objective": 2,
+  "global_presence": 2,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "knockback",
+   "daze"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  { "tag": "melee_heavy", "why": "Face Melt knockback creates a buffer zone, Loud Speakers and Mic Check make it repeatable, and the guide says it helps against melee heroes without mobility such as Artanis." },
-  { "tag": "squishy_backline", "why": "Powerslide stun from a flank and Mosh Pit lock a backline in place, and Ride the Lightning extends reach." },
-  { "tag": "immobile", "why": "Powerslide plus Mosh Pit for 4 seconds with no escape, since Powerslide stun lets him channel fully." },
-  { "tag": "assassin", "why": "Face Melt dazes so they cannot dodge Powerslide, and Power of the Horde shields allies against burst while Face Melt keeps melee assassins off the backline." },
-  { "tag": "objective_race", "why": "Stage Dive and Ride the Lightning give global presence from level 10, so he joins objectives from anywhere on big maps." }
+  {
+   "tag": "melee_heavy",
+   "why": "Face Melt knockback creates a buffer zone, Loud Speakers and Mic Check make it repeatable, and the guide says it helps against melee heroes without mobility such as Artanis."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Powerslide stun from a flank and Mosh Pit lock a backline in place, and Ride the Lightning extends reach."
+  },
+  {
+   "tag": "immobile",
+   "why": "Powerslide plus Mosh Pit for 4 seconds with no escape, since Powerslide stun lets him channel fully."
+  },
+  {
+   "tag": "assassin",
+   "why": "Face Melt dazes so they cannot dodge Powerslide, and Power of the Horde shields allies against burst while Face Melt keeps melee assassins off the backline."
+  },
+  {
+   "tag": "objective_race",
+   "why": "Stage Dive and Ride the Lightning give global presence from level 10, so he joins objectives from anywhere on big maps."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "Ranged heroes with interrupts such as Li-Ming Wave of Force cancel Mosh Pit, and kiters stay out of Powerslide range." },
-  { "tag": "cc_heavy", "why": "Any stun, silence or knockback interrupts Mosh Pit and cancels Powerslide in a pinch, and he is not especially durable." },
-  { "tag": "burst_dive", "why": "Below average durability for a tank, and Powerslide is both his engage and his escape, so a failed commit is a death." },
-  { "tag": "ranged_heavy", "why": "Many ranged heroes with mobility are hard to catch and make Mosh Pit hard to land, per the guide." },
-  { "tag": "global_ult", "why": "He has little to answer or interrupt channels from range, and Stage Dive and Mosh Pit have long wind ups that can be interrupted or dodged." }
+  {
+   "tag": "kiter",
+   "why": "Ranged heroes with interrupts such as Li-Ming Wave of Force cancel Mosh Pit, and kiters stay out of Powerslide range."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Any stun, silence or knockback interrupts Mosh Pit and cancels Powerslide in a pinch, and he is not especially durable."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Below average durability for a tank, and Powerslide is both his engage and his escape, so a failed commit is a death."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Many ranged heroes with mobility are hard to catch and make Mosh Pit hard to land, per the guide."
+  },
+  {
+   "tag": "global_ult",
+   "why": "He has little to answer or interrupt channels from range, and Stage Dive and Mosh Pit have long wind ups that can be interrupted or dodged."
+  }
  ],
- "wants_from_team": ["Heroes that follow up on Powerslide stun with skillshots", "A healer that can grant Unstoppable during Mosh Pit such as Kharazim", "A second tank who can solo lane if he plays offlane with Stage Dive", "Burst damage because he lacks his own"],
- "gives_team": ["Engage from medium range", "Interrupts through Face Melt knockback and daze", "Power of the Horde shields and Speed Metal movement speed", "Global presence at level 10 with Stage Dive"],
+ "wants_from_team": [
+  "Heroes that follow up on Powerslide stun with skillshots",
+  "A healer that can grant Unstoppable during Mosh Pit such as Kharazim",
+  "A second tank who can solo lane if he plays offlane with Stage Dive",
+  "Burst damage because he lacks his own"
+ ],
+ "gives_team": [
+  "Engage from medium range",
+  "Interrupts through Face Melt knockback and daze",
+  "Power of the Horde shields and Speed Metal movement speed",
+  "Global presence at level 10 with Stage Dive"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Low damage output", "Not as durable as most tanks", "Low waveclear", "Mosh Pit is easily interrupted"],
- "evidence": ["Powerslide, Face Melt, Guitar Solo, Mosh Pit, Stage Dive, Rockstar ability text", "Talents Loud Speakers, Pinball Wizard, Mic Check, Encore, Show Stopper, Tour Bus, Ride the Lightning, Power of the Horde", "Icy Veins: disruptive but moderately durable tank, low damage and waveclear", "measured: hero damage 968 per minute, healing 98, damage taken 3530, win rate 0.463 in 1245 games"],
+ "weaknesses": [
+  "Low damage output",
+  "Not as durable as most tanks",
+  "Low waveclear",
+  "Mosh Pit is easily interrupted"
+ ],
+ "evidence": [
+  "Powerslide, Face Melt, Guitar Solo, Mosh Pit, Stage Dive, Rockstar ability text",
+  "Talents Loud Speakers, Pinball Wizard, Mic Check, Encore, Show Stopper, Tour Bus, Ride the Lightning, Power of the Horde",
+  "Icy Veins: disruptive but moderately durable tank, low damage and waveclear",
+  "measured: hero damage 968 per minute, healing 98, damage taken 3530, win rate 0.463 in 1245 games"
+ ],
  "confidence": "high",
- "unsure": ["ratings.global_presence", "cc.reliability"]
+ "unsure": [
+  "ratings.global_presence",
+  "cc.reliability"
+ ],
+ "lenses": {
+  "damage_delivery": "utility_minimal",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "disruptor",
+  "durability_source": [
+   "armor_or_shield",
+   "relies_on_healer",
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "speed_buff",
+   "global_ability"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "mobility_rotate",
+   "global_presence"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "healer",
+   "wave_clear"
+  ],
+  "team_gives": [
+   "engage",
+   "peel",
+   "cc_setup",
+   "mobility"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "dive",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Measured 968 hero damage per minute, less than half the league median. He is picked for CC, not damage.",
+  "frontline_style": "Face Melt knockback and daze keep enemies off the backline. Powerslide starts fights, but disruptor describes the kit best.",
+  "durability_source": "Measured damage taken 3530 per minute and guide says moderately durable. Power of the Horde shields allies, not him.",
+  "utility_tool": "Speed Metal speed aura, and Stage Dive is a global leap from level 10.",
+  "cc_profile": "Powerslide stun, Face Melt knockback and daze, Mosh Pit 4 second stun.",
+  "anti_cc": "Powerslide stun lets him channel but he has no CC defence of his own.",
+  "ultimate_role": "Mosh Pit swings a fight if not interrupted. Stage Dive is the alternative for macro.",
+  "map_mobility": "Powerslide, Speed Metal and Stage Dive give high mobility."
+ },
+ "lens_gaps": [
+  "no value on ultimate_role or cc_profile for a heroic that is a long channel and is easily interrupted (Mosh Pit)"
+ ]
 }

@@ -117,5 +117,84 @@
  "owner_notes": "A good brawler bruiser like Thrall, better at wave clear and camps. High burst, and can jump the enemy backline with Leap, a good hero for combos behind a CC chain (Light bomb). Her other heroic gives more sustain. When the enemy has no CC her spin can deal decent damage and sustain through a lot of fights.",
  "owner_corrections": [
   "damage.carry to True"
+ ],
+ "lenses": {
+  "damage_delivery": "melee_brawler",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "self_heal",
+   "damage_reduction"
+  ],
+  "lane_role": "camp_taker",
+  "kill_pattern": "backline_dive",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "steady",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "poke",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "anti_tank"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "target_style": "Giant Slammer adds 1.5 percent max health and Wrath adds 40 percent, but the damage is one target duels, so single_target.",
+  "frontline_style": "Owner: a brawler bruiser like Thrall, better at waves and camps.",
+  "durability_source": "Giant Slammer lifesteal, Whirlwind heals, Wrath halves stun, root and slow duration.",
+  "lane_role": "Camps 5 rating and solo lane 5; Owner: better than Thrall at camps.",
+  "kill_pattern": "Owner: can jump the backline with Leap behind a CC chain; this is the Leap build only.",
+  "escape": "Ancient Spear and Leap move her but are not escapes.",
+  "setup_reliance": "Self starter in the main build; the Leap build needs a CC chain (Owner).",
+  "cc_profile": "Ancient Spear stun only if it hits, Leap stuns 1.25 seconds in an area.",
+  "anti_cc": "Wrath halves stun, root and slow but not silence; the catalog has no value for that.",
+  "power_curve": "Solid from level 1 with Fury, Leap at 10 adds burst; steady.",
+  "ultimate_role": "Owner: Leap for a combo behind CC, or Wrath of the Berserker for more sustain; value given for Leap.",
+  "split_potential": "Solo lane 5 and siege 5893 per minute.",
+  "vulnerable_to": "Guide lists kiting first; no ranged damage."
+ },
+ "lens_gaps": [
+  "anti_cc has no value for halving CC duration (Wrath of the Berserker)",
+  "no lens for two heroic builds that change the role (Leap dive versus Wrath sustain duelist)"
  ]
 }

@@ -40,7 +40,7 @@ The raw files and databases are left out on purpose: they are large and one hold
 2. Hero profiles for all 91 heroes, written by reading each hero's full ability and talent text beside measured per minute damage, healing, siege and damage taken, and checked against league win rates.
 3. A heal lens: for damage dealing heroes, the record against each class of enemy healer. Measured first, with the profile's judgment as the fallback when the sample is thin.
 4. Takedown pairs from the replay kill lists (kills with three or fewer heroes on them, as large fights put everyone on every kill).
-5. A lens catalog (31 lenses in 8 families) so drafts are not reasoned on healing and range alone. The per hero classification on those lenses is in progress.
+5. A lens catalog (32 lenses in 8 families: damage, front line, kills, healers and supports, crowd control, map and macro, game flow, weaknesses) so drafts are not reasoned on healing and range alone. All 91 heroes are classified on it, with a note and a list of gaps where the catalog could not say something. The league association of each lens value with winning drafts is in `data.comps.lens_signal` and shown as the "Lens read" on the Our comp card (sustained damage heroes, chip poke, front line health and wave clear stand out; associations, not causes).
 
 ## How to run and verify
 ```
@@ -51,7 +51,7 @@ python test_playbook.py ; node test_engine.js ; node test_hotstools.js ; node te
 Without the databases you can still read the code, run `node test_engine.js` against the shipped `playbook/data.json`, and open the app.
 
 ## Known limits and open work
-- The lens classification of every hero (catalog in `knowledge/expert/lenses.json`) is not finished; `python test_hero_profiles.py` reports which heroes still lack it.
+- Lens values were written from the profiles and measured stats with a spot read of the text, and several answers were forced to the nearest catalog value (see each profile's `lens_gaps`). New catalog values exist for those gaps; a reclassification of the forced ones is the next pass.
 - Hero ratings (1 to 5) are mostly judgment from ability text. They are tagged by source, not measured outcomes.
 - Healing blunting looks real for damage over time heroes (Lunara 54% into single target burst healers against 44% into AoE sustain healers, about 170 sides each) but does not separate damage dealers cleanly league wide. Treat it as a per hero lean.
 - Hogger, Imperius and Xal'atath have thin ability text or no measured block, so their profiles are low or medium confidence and flagged.

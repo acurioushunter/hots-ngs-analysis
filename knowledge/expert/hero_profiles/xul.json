@@ -11,8 +11,17 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["aoe", "siege", "dot"],
-  "poke": { "rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Spectral Scythe (190, 1 second delay) and Echoes of Death hit a line and can be dodged. Bone Spear is a line poke with a 12 second cooldown. Poison Nova is a 10 second dot that melee heroes cannot dodge but ranged heroes can." },
+  "style": [
+   "aoe",
+   "siege",
+   "dot"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Spectral Scythe (190, 1 second delay) and Echoes of Death hit a line and can be dodged. Bone Spear is a line poke with a 12 second cooldown. Poison Nova is a 10 second dot that melee heroes cannot dodge but ranged heroes can."
+  },
   "heal_blunted": 3,
   "note": "Skeletal Warriors, Cursed Strikes cleave and Poison Nova (630 over 10 seconds) are spread chip damage. A strong AoE healer undoes Poison Nova, while Mortal Wound cuts healing by 75 percent after a scythe hit. Measured siege damage 8011 per minute is far above the median 4430, and hero damage 2002 is near the median."
  },
@@ -32,29 +41,162 @@
   "solo_lane": 5
  },
  "cc": {
-  "hard": ["root"],
-  "soft": ["slow"],
+  "hard": [
+   "root"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 3,
   "note": "Bone Prison has a 2 second delay and roots for 1.75 seconds (2 with Amplify Damage). Skeletal Mages and Decrepify slow 30 percent. Cursed Strikes is attack speed reduction, not movement. Measured CC on enemies 29.6 seconds per game."
  },
  "good_into": [
-  { "tag": "melee_heavy", "why": "Cursed Strikes cleaves and slows attack speed 40 percent, Poison Nova hits melee heroes that cannot dodge it, and Weaken cuts their damage 35 percent. The guide says he excels against melee compositions." },
-  { "tag": "single_target_healer", "why": "Poison Nova over 10 seconds is hard for Lt. Morales or Uther to undo across a team, and the guide names this. Mortal Wound adds 75 percent healing reduction." },
-  { "tag": "split_push", "why": "Wave clear plus Raise Skeleton make minion waves pile onto towers while he rotates, so he wins lanes and siege when the enemy does not answer." },
-  { "tag": "summons", "why": "Cleave and AoE abilities clear summons and pets cheaply and his own skeletons win exchanges against them." }
+  {
+   "tag": "melee_heavy",
+   "why": "Cursed Strikes cleaves and slows attack speed 40 percent, Poison Nova hits melee heroes that cannot dodge it, and Weaken cuts their damage 35 percent. The guide says he excels against melee compositions."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "Poison Nova over 10 seconds is hard for Lt. Morales or Uther to undo across a team, and the guide names this. Mortal Wound adds 75 percent healing reduction."
+  },
+  {
+   "tag": "split_push",
+   "why": "Wave clear plus Raise Skeleton make minion waves pile onto towers while he rotates, so he wins lanes and siege when the enemy does not answer."
+  },
+  {
+   "tag": "summons",
+   "why": "Cleave and AoE abilities clear summons and pets cheaply and his own skeletons win exchanges against them."
+  }
  ],
  "bad_into": [
-  { "tag": "cc_heavy", "why": "He has no mobility and Bone Armor is his only defense. Crowd control that holds him lets burst kill him, the guide lists very susceptible to CC." },
-  { "tag": "ranged_heavy", "why": "Ranged heroes dodge Poison Nova and keep out of Cursed Strikes. Skeletal Mages is a slow tool, not a gap closer." },
-  { "tag": "kiter", "why": "Slow hit speed and no gap closer, so chasing kiters is not possible without Decrepify and Skeletal Mages." },
-  { "tag": "burst_dive", "why": "Mobile burst heroes (Jaina, Sgt. Hammer, Zeratul) follow up crowd control before Bone Armor lasts. Low early game and no escape." },
-  { "tag": "poke_comp", "why": "Poke gets full value because he has no way to engage and Cursed Strikes does nothing against distance." }
+  {
+   "tag": "cc_heavy",
+   "why": "He has no mobility and Bone Armor is his only defense. Crowd control that holds him lets burst kill him, the guide lists very susceptible to CC."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Ranged heroes dodge Poison Nova and keep out of Cursed Strikes. Skeletal Mages is a slow tool, not a gap closer."
+  },
+  {
+   "tag": "kiter",
+   "why": "Slow hit speed and no gap closer, so chasing kiters is not possible without Decrepify and Skeletal Mages."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Mobile burst heroes (Jaina, Sgt. Hammer, Zeratul) follow up crowd control before Bone Armor lasts. Low early game and no escape."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Poke gets full value because he has no way to engage and Cursed Strikes does nothing against distance."
+  }
  ],
- "wants_from_team": ["A tank to engage so he can follow up", "Burst follow up for Bone Prison (Li-Ming, Tyrande, Falstad)", "Protection from crowd control (Medivh Force of Will)", "A team that can fight 4 against 5 while he split pushes"],
- "gives_team": ["Top tier wave clear and siege with skeleton pressure", "Root setup for a priority target", "Healing reduction through Mortal Wound", "Slows and zone from Skeletal Mages"],
+ "wants_from_team": [
+  "A tank to engage so he can follow up",
+  "Burst follow up for Bone Prison (Li-Ming, Tyrande, Falstad)",
+  "Protection from crowd control (Medivh Force of Will)",
+  "A team that can fight 4 against 5 while he split pushes"
+ ],
+ "gives_team": [
+  "Top tier wave clear and siege with skeleton pressure",
+  "Root setup for a priority target",
+  "Healing reduction through Mortal Wound",
+  "Slows and zone from Skeletal Mages"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Very susceptible to crowd control", "No mobility", "Weak against ranged and poke", "Needs levels for Harvest Vitality or Decrepify"],
- "evidence": ["Raise Skeleton, Cursed Strikes, Bone Prison, Spectral Scythe, Poison Nova and Skeletal Mages text", "Harvest Vitality, Mortal Wound, Weaken, Jailors, Echoes of Death talent text", "Icy Veins strengths, weaknesses and counters", "Measured NGS block: siege 8011 per minute, hero damage 2002, CC seconds 29.6, win rate 0.468"],
+ "weaknesses": [
+  "Very susceptible to crowd control",
+  "No mobility",
+  "Weak against ranged and poke",
+  "Needs levels for Harvest Vitality or Decrepify"
+ ],
+ "evidence": [
+  "Raise Skeleton, Cursed Strikes, Bone Prison, Spectral Scythe, Poison Nova and Skeletal Mages text",
+  "Harvest Vitality, Mortal Wound, Weaken, Jailors, Echoes of Death talent text",
+  "Icy Veins strengths, weaknesses and counters",
+  "Measured NGS block: siege 8011 per minute, hero damage 2002, CC seconds 29.6, win rate 0.468"
+ ],
  "confidence": "medium",
- "unsure": ["damage.heal_blunted", "good_into.single_target_healer"]
+ "unsure": [
+  "damage.heal_blunted",
+  "good_into.single_target_healer"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "armor_or_shield",
+   "self_heal"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "anti_heal"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "summons_or_zone",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "poke",
+   "dive"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "poke_siege"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Cursed Strikes cleaves autos, Poison Nova and skeletons add abilities.",
+  "damage_timing": "Poison Nova is 630 over 10 seconds and Cursed Strikes is chip.",
+  "durability_source": "Bone Armor and Harvest Vitality; the guide calls the self sustain decent.",
+  "lane_role": "Solo lane 5, siege 8011 per minute, well above the 4430 median.",
+  "setup_reliance": "Wants protection from CC and a tank to engage; the catalog has no value for follow up.",
+  "cc_profile": "Bone Prison roots 1.75 seconds after a 2 second delay.",
+  "power_curve": "Needs levels for Harvest Vitality or Decrepify, weak early.",
+  "ultimate_role": "Poison Nova against melee or Skeletal Mages for siege.",
+  "camp_play": "Camps 2.2 per game is low, rating 3.",
+  "utility_tool": "Mortal Wound cuts healing 75 percent after a scythe hit.",
+  "wave_clear_style": "Raise Skeleton and Skeletal Mages clear waves and push."
+ },
+ "lens_gaps": [
+  "no lens value for a hero whose plan is to push a lane while the team fights 4 on 5 (siege split plan)",
+  "anti_cc has no value for being very susceptible to CC (a weakness, not a tool)"
+ ]
 }

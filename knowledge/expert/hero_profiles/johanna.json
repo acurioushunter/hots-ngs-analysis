@@ -122,5 +122,79 @@
  "unsure": [
   "damage.heal_blunted"
  ],
- "owner_notes": "Has an anti heal talent."
+ "owner_notes": "Has an anti heal talent.",
+ "lenses": {
+  "damage_delivery": "melee_brawler",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "disruptor",
+  "durability_source": [
+   "armor_or_shield",
+   "big_health"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "cleanse_or_cc_denial",
+   "anti_heal",
+   "silence_or_dismount"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "unstoppable",
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "zone_hold"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "steady",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "low",
+  "team_needs": [
+   "healer"
+  ],
+  "team_gives": [
+   "engage",
+   "peel",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "poke",
+   "dive"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "frontline_style": "Condemn pulls and stuns, Blessed Shield stuns a line and Shield Glare blinds, so she breaks up the enemy team more than she holds a post. She also peels with Iron Skin.",
+  "utility_tool": "Owner note: she has an anti heal talent (Punish reduces healing received by 35 percent). Falling Sword makes allies below her Unstoppable. Dismount comes from her stuns and Shield Glare.",
+  "escape": "Iron Skin gives Unstoppable with a shield on a 22 second cooldown, but she has no movement tool to leave a fight.",
+  "map_mobility": "Mobility rating is 1. Falling Sword is a heroic leap, not a rotation tool.",
+  "power_curve": "Strong in lane from level 1, with Blessed Shield and Falling Sword at level 10 as the spike.",
+  "anti_cc": "Iron Skin with Unstoppable, plus Falling Sword for allies.",
+  "ultimate_role": "Blessed Shield with Radiating Faith stuns up to five enemies, the other heroic is a stun leap that also protects allies."
+ },
+ "lens_gaps": []
 }

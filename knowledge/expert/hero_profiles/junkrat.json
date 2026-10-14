@@ -123,5 +123,88 @@
   "heal_blunted",
   "bad_into"
  ],
- "owner_notes": "A poke and sustain damage hero with little burst outside RIP Tire. His job is disrupting the enemy and controlling areas with W bombs and E traps. Good escape, wave clear and camp clear. No percent damage and not a fast boss clear. A solid hero on certain maps and comps."
+ "owner_notes": "A poke and sustain damage hero with little burst outside RIP Tire. His job is disrupting the enemy and controlling areas with W bombs and E traps. Good escape, wave clear and camp clear. No percent damage and not a fast boss clear. A solid hero on certain maps and comps.",
+ "lenses": {
+  "damage_delivery": "zone_trap",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "long",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "attrition",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "zone_hold",
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "grants_vision"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "comeback",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "healer",
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "objective",
+   "cc_setup",
+   "damage",
+   "peel"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "early_pressure",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "zone_control",
+   "poke_siege"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Grenade splash, Steel Trap and Concussion Mine are area and trap damage; autos are grenades too.",
+  "damage_reliability": "Taste For Explosions is a stacking quest; every ability is a lobbed skillshot.",
+  "escape": "Concussion Mine, Tricky Shuffles and Ripper Air. Owner calls the escape good, but it is one mine on a long cooldown, so partial.",
+  "cc_profile": "Steel Trap root, Concussion Mine knockback and Sticky Wicket silence (talent) chain, but all are skillshots.",
+  "power_curve": "Weak early, scales with Taste For Explosions and level 16 (Icy Veins).",
+  "snowball": "No mana and long range siege give a comeback tool when behind.",
+  "ultimate_role": "RIP-Tire is the burst and the distraction in fights; owner says he has little burst outside it.",
+  "target_style": "Owner: no percent damage and not a fast boss clear."
+ },
+ "lens_gaps": [
+  "no value on utility_tool for a distraction like RIP-Tire drawing enemy focus",
+  "no 'mana free' value on any lens (no mana use is a core strength)"
+ ],
+ "owner_corrections": [
+  "lenses.escape partial to strong"
+ ]
 }

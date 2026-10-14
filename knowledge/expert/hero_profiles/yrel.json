@@ -11,8 +11,17 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["aoe", "sustained", "percent_health"],
-  "poke": { "rating": 1, "kind": "none", "dodgeable": 4, "note": "Avenging Wrath leaps 260 damage with a slow after a charge, Vindication is an AoE around her. Every ability has a wind up and she slows 25 percent while charging, so enemies avoid them easily." },
+  "style": [
+   "aoe",
+   "sustained",
+   "percent_health"
+  ],
+  "poke": {
+   "rating": 1,
+   "kind": "none",
+   "dodgeable": 4,
+   "note": "Avenging Wrath leaps 260 damage with a slow after a charge, Vindication is an AoE around her. Every ability has a wind up and she slows 25 percent while charging, so enemies avoid them easily."
+  },
   "heal_blunted": 2,
   "note": "Moderate AoE damage on 6 second cooldowns plus Templar's Verdict (6 percent max health and armor shred). Her real strength is survivability: Vindication heals, Ardent Defender converts damage into healing. Measured hero damage 1569 per minute is under the median and deaths 1.7 per game is the lowest of this set, so she is a durable controller, not a damage carry."
  },
@@ -32,28 +41,162 @@
   "solo_lane": 4
  },
  "cc": {
-  "hard": ["stun", "knockback"],
-  "soft": ["slow"],
+  "hard": [
+   "stun",
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 2,
   "note": "Righteous Hammer knocks back and stuns only when fully charged (1 second), and the charge is interruptible. Divine Purpose makes it instant. Avenging Wrath slows 60 percent. Measured CC applied 21 seconds per game."
  },
  "good_into": [
-  { "tag": "poke_comp", "why": "Vindication heals on a 6 second cooldown with Light of Karabor adding healing per hero hit, Sacred Ground gives 50 armor and Ardent Defender absorbs. The guide says she does well against sustain damage." },
-  { "tag": "melee_heavy", "why": "Vindication AoE hits several melee heroes for full healing, Righteous Hammer knockback and stun peels, and Aldor Peacekeeper cuts their damage 50 percent." },
-  { "tag": "squishy_backline", "why": "Avenging Wrath charged from a bush or over terrain flanks, and Righteous Hammer shoves the target toward her team. Templar's Verdict adds armor shred." },
-  { "tag": "objective_race", "why": "Sacred Ground and Ardent Defender hold a capture point, and Divine Steed or Hand of Freedom help rotation. The guide calls her good point control." }
+  {
+   "tag": "poke_comp",
+   "why": "Vindication heals on a 6 second cooldown with Light of Karabor adding healing per hero hit, Sacred Ground gives 50 armor and Ardent Defender absorbs. The guide says she does well against sustain damage."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Vindication AoE hits several melee heroes for full healing, Righteous Hammer knockback and stun peels, and Aldor Peacekeeper cuts their damage 50 percent."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Avenging Wrath charged from a bush or over terrain flanks, and Righteous Hammer shoves the target toward her team. Templar's Verdict adds armor shred."
+  },
+  {
+   "tag": "objective_race",
+   "why": "Sacred Ground and Ardent Defender hold a capture point, and Divine Steed or Hand of Freedom help rotation. The guide calls her good point control."
+  }
  ],
  "bad_into": [
-  { "tag": "cc_heavy", "why": "Every basic ability has a charge time that stuns and silences interrupt. Seraphim and Divine Purpose only cover one cast." },
-  { "tag": "kiter", "why": "Slowed 25 percent while charging, no ranged damage, and Avenging Wrath is short range. The guide lists kiting as a weakness." },
-  { "tag": "ranged_heavy", "why": "Several ranged heroes deny her Vindication hits and force her to use Ardent Defender early. Dauntless and Sacred Ground cut basic attack and ability damage only partly." },
-  { "tag": "mobile", "why": "Predictable engage. Heroes with escapes dodge the charged abilities and she cannot catch them without Avenging Wrath and Divine Purpose." }
+  {
+   "tag": "cc_heavy",
+   "why": "Every basic ability has a charge time that stuns and silences interrupt. Seraphim and Divine Purpose only cover one cast."
+  },
+  {
+   "tag": "kiter",
+   "why": "Slowed 25 percent while charging, no ranged damage, and Avenging Wrath is short range. The guide lists kiting as a weakness."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Several ranged heroes deny her Vindication hits and force her to use Ardent Defender early. Dauntless and Sacred Ground cut basic attack and ability damage only partly."
+  },
+  {
+   "tag": "mobile",
+   "why": "Predictable engage. Heroes with escapes dodge the charged abilities and she cannot catch them without Avenging Wrath and Divine Purpose."
+  }
  ],
- "wants_from_team": ["A tank or crowd control so she can land charged Hammer", "Allies who can use Aegis of Light and Gift of the Naaru", "Space to double soak on maps with two close lanes", "Peel protection while she channels"],
- "gives_team": ["Peel and knockback for the backline", "Survivable offlane with strong wave clear", "Capture point control and structure tanking with Sacred Ground", "Armor and healing for allies through Aegis of Light and Gift of the Naaru"],
+ "wants_from_team": [
+  "A tank or crowd control so she can land charged Hammer",
+  "Allies who can use Aegis of Light and Gift of the Naaru",
+  "Space to double soak on maps with two close lanes",
+  "Peel protection while she channels"
+ ],
+ "gives_team": [
+  "Peel and knockback for the backline",
+  "Survivable offlane with strong wave clear",
+  "Capture point control and structure tanking with Sacred Ground",
+  "Armor and healing for allies through Aegis of Light and Gift of the Naaru"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Vulnerable to crowd control", "Predictable engage", "Weak at clearing mercenary camps", "Weak to healing reduction and armor reduction"],
- "evidence": ["Vindication, Righteous Hammer, Avenging Wrath, Divine Purpose, Ardent Defender and Sacred Ground text", "Light of Karabor, Aldor Peacekeeper, Templar's Verdict, Seraphim talent text", "Icy Veins strengths, weaknesses and counters", "Measured NGS block: deaths 1.7 per game, seconds dead 71, hero damage 1569 per minute, win rate 0.494"],
+ "weaknesses": [
+  "Vulnerable to crowd control",
+  "Predictable engage",
+  "Weak at clearing mercenary camps",
+  "Weak to healing reduction and armor reduction"
+ ],
+ "evidence": [
+  "Vindication, Righteous Hammer, Avenging Wrath, Divine Purpose, Ardent Defender and Sacred Ground text",
+  "Light of Karabor, Aldor Peacekeeper, Templar's Verdict, Seraphim talent text",
+  "Icy Veins strengths, weaknesses and counters",
+  "Measured NGS block: deaths 1.7 per game, seconds dead 71, hero damage 1569 per minute, win rate 0.494"
+ ],
  "confidence": "medium",
- "unsure": ["damage.heal_blunted", "good_into.poke_comp"]
+ "unsure": [
+  "damage.heal_blunted",
+  "good_into.poke_comp"
+ ],
+ "lenses": {
+  "damage_delivery": "channel",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "anchor_peeler",
+  "durability_source": [
+   "self_heal",
+   "damage_reduction"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "none",
+  "escape": "partial",
+  "setup_reliance": "needs_cc_partner",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "cleanse_or_cc_denial",
+   "zone_or_wall"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "cleanse",
+   "unstoppable"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "poor",
+  "objective_role": [
+   "zone_hold",
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "defensive",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup"
+  ],
+  "team_gives": [
+   "peel",
+   "sustain",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Her damage is three charged basic abilities with a wind up that stuns and silences interrupt.",
+  "damage_timing": "Moderate AoE on 6 second cooldowns plus Templar's Verdict; hero damage 1569 per minute is under the median.",
+  "frontline_style": "Peel 4 and Righteous Hammer knockback; deaths 1.7 per game are the lowest of this set.",
+  "durability_source": "Vindication heals, Ardent Defender converts damage to healing, Sacred Ground gives 50 armor.",
+  "kill_pattern": "A controller, not a kill source.",
+  "escape": "Divine Steed and Hand of Freedom move her, Ardent Defender saves her.",
+  "setup_reliance": "Needs a tank or CC to land a charged Hammer.",
+  "utility_tool": "Hand of Freedom removes roots and slows from an ally; Sacred Ground is a zone.",
+  "anti_cc": "Hand of Freedom cleanses slows and roots, Seraphim gives unstoppable while channelling (both talents).",
+  "camp_play": "Camp rating 1, 2.2 camps per game.",
+  "ultimate_role": "Ardent Defender is the recommended heroic and is defensive; Sacred Ground is the other.",
+  "power_curve": "Heroic at 10 but a stable offlaner; nearest value mid_spike.",
+  "vulnerable_to": "Weak to healing reduction and armor reduction too, no value for that."
+ },
+ "lens_gaps": [
+  "vulnerable_to has no value for healing or armor reduction (Yrel weak to both)",
+  "healer_class has no value for a bruiser that shields and heals allies (Aegis of Light, Gift of the Naaru)"
+ ]
 }

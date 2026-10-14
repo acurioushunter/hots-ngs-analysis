@@ -71,10 +71,27 @@ HEALING = {   # sustain, burst_heal, aoe overrides (0 to 5). Stukov: mix, excels
     "whitemane": dict(burst_heal=5, sustain=3),
     "rehgar": dict(burst_heal=3),
 }
+LENS_FIX = {   # his notes settle a lens value an agent had to guess
+    "junkrat": {"escape": "strong"},
+    "deathwing": {"anti_cc": ["unstoppable"]},
+    "diablo": {"frontline_style": "catcher"},
+    "garrosh": {"frontline_style": "catcher"},
+    "blaze": {"lane_role": "solo_laner"},
+}
 TAG_ADD = {   # extra good_into or bad_into entries from his notes
     "deathwing": ("good_into", "cc_heavy", "Cannot be stunned, so pick comps and CC chains do little to him (owner note)."),
     "stukov": ("bad_into", "burst_dive", "Dive can focus him when the team has no front line (owner note)."),
 }
+
+
+def set_bodies():
+    """Lens "bodies": one for almost everyone, two_player for Cho and Gall, multi_body for pets and summoned bodies that play as units."""
+    special = {"cho": "two_player", "gall": "two_player", "the-lost-vikings": "multi_body", "rexxar": "multi_body"}
+    for f in sorted(PROFILES.glob("*.json")):
+        p = json.loads(f.read_text(encoding="utf-8"))
+        if isinstance(p.get("lenses"), dict):
+            p["lenses"]["bodies"] = special.get(p.get("slug"), "one")
+            f.write_text(json.dumps(p, indent=1, ensure_ascii=False), encoding="utf-8")
 
 
 def main():
@@ -109,10 +126,15 @@ def main():
             if not any(x.get("tag") == tag for x in p[key]):
                 p[key].append(dict(tag=tag, why=why))
                 corr.append(f"{key} + {tag}")
+        for k, v in LENS_FIX.get(slug, {}).items():
+            if isinstance(p.get("lenses"), dict) and p["lenses"].get(k) != v:
+                corr.append(f"lenses.{k} {p['lenses'].get(k)} to {v}")
+                p["lenses"][k] = v
         if corr:
             p["owner_corrections"] = corr
             changed += 1
         f.write_text(json.dumps(p, indent=1, ensure_ascii=False), encoding="utf-8")
+    set_bodies()
     print("notes applied to", len(NOTES), "heroes;", changed, "with corrections")
 
 

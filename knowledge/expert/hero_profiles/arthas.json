@@ -11,33 +11,197 @@
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["sustained", "aoe", "zone"],
-  "poke": { "rating": 2, "kind": "zone", "dodgeable": 2, "note": "Frozen Tempest is a toggled aura that deals damage per second and ramps its slow, but only at 3.5 range. Death Coil is a 164 damage targeted poke from range, and Deathlord adds a second coil. Howling Blast is a slow projectile." },
+  "style": [
+   "sustained",
+   "aoe",
+   "zone"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "zone",
+   "dodgeable": 2,
+   "note": "Frozen Tempest is a toggled aura that deals damage per second and ramps its slow, but only at 3.5 range. Death Coil is a 164 damage targeted poke from range, and Deathlord adds a second coil. Howling Blast is a slow projectile."
+  },
   "heal_blunted": 4,
   "note": "Frozen Tempest and Ghoul hits are small damage over time effects that healing blunts. Deathchill Howling Blast and Frostmourne Hungers stacks give some burst. Measured 1707 hero damage per minute, below the 2060 median, with very high damage taken at 3899."
  },
  "healing": null,
- "ratings": { "wave_clear": 3, "camp_clear": 2, "siege": 3, "teamfight": 3, "engage": 2, "peel": 4, "mobility": 1, "self_sustain": 4, "survivability": 3, "objective": 2, "global_presence": 0, "solo_lane": 3 },
- "cc": { "hard": ["root"], "soft": ["slow", "attack_speed_slow"], "reliability": 3 },
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 2,
+  "siege": 3,
+  "teamfight": 3,
+  "engage": 2,
+  "peel": 4,
+  "mobility": 1,
+  "self_sustain": 4,
+  "survivability": 3,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [
+   "root"
+  ],
+  "soft": [
+   "slow",
+   "attack_speed_slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  { "tag": "melee_heavy", "why": "Frozen Tempest slows movement and attack speed up to 40 percent, Howling Blast roots, and Rime blocks auto attacks. The guide calls him a shutdown for low mobility melee heroes." },
-  { "tag": "immobile", "why": "Remorseless Winter roots anything that stays in Frozen Tempest and heals him, and Absolute Zero roots for 2.5 seconds then slows." },
-  { "tag": "structures", "why": "Summon Sindragosa disables enemy structures, minions and mercenaries for 20 seconds, which makes pushes and dives safe." },
-  { "tag": "burst_dive", "why": "Icebound Fortitude, Rime blocks and Anti-Magic Shell give armor and spell immunity, and self cast Death Coil with Immortal Coil heals him back up through a dive." },
-  { "tag": "tanky_frontline", "why": "Rune Tap, Army of the Dead sacrifices and Death Coil keep him standing in long fights where a high health frontline is the target." }
+  {
+   "tag": "melee_heavy",
+   "why": "Frozen Tempest slows movement and attack speed up to 40 percent, Howling Blast roots, and Rime blocks auto attacks. The guide calls him a shutdown for low mobility melee heroes."
+  },
+  {
+   "tag": "immobile",
+   "why": "Remorseless Winter roots anything that stays in Frozen Tempest and heals him, and Absolute Zero roots for 2.5 seconds then slows."
+  },
+  {
+   "tag": "structures",
+   "why": "Summon Sindragosa disables enemy structures, minions and mercenaries for 20 seconds, which makes pushes and dives safe."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Icebound Fortitude, Rime blocks and Anti-Magic Shell give armor and spell immunity, and self cast Death Coil with Immortal Coil heals him back up through a dive."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Rune Tap, Army of the Dead sacrifices and Death Coil keep him standing in long fights where a high health frontline is the target."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "Ranged heroes that kite stay outside the 3.5 range of Frozen Tempest and Howling Blast is slow, so he cannot apply the slows that define him." },
-  { "tag": "mobile", "why": "High mobility assassins such as Zeratul step out of Howling Blast and Frozen Tempest, and he has no mobility until Path of Frost at level 20." },
-  { "tag": "cc_heavy", "why": "He cannot interrupt enemy casts, and displacement such as Wrecking Ball pulls him out of position with no way to answer except Icebound Fortitude." },
-  { "tag": "poke_comp", "why": "Frozen Tempest drains his mana quickly at 13 per second, and long range mages burst him before he reaches them (Jaina, Kel'Thuzad per the guide)." },
-  { "tag": "ranged_heavy", "why": "Several ranged damage dealers out of his reach means his slows and roots do little while healing reduction cancels Death Coil and Ghoul sacrifices." }
+  {
+   "tag": "kiter",
+   "why": "Ranged heroes that kite stay outside the 3.5 range of Frozen Tempest and Howling Blast is slow, so he cannot apply the slows that define him."
+  },
+  {
+   "tag": "mobile",
+   "why": "High mobility assassins such as Zeratul step out of Howling Blast and Frozen Tempest, and he has no mobility until Path of Frost at level 20."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "He cannot interrupt enemy casts, and displacement such as Wrecking Ball pulls him out of position with no way to answer except Icebound Fortitude."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Frozen Tempest drains his mana quickly at 13 per second, and long range mages burst him before he reaches them (Jaina, Kel'Thuzad per the guide)."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Several ranged damage dealers out of his reach means his slows and roots do little while healing reduction cancels Death Coil and Ghoul sacrifices."
+  }
  ],
- "wants_from_team": ["Damage and crowd control that follow Howling Blast roots", "A healer that does not need to stand in front", "Heroes with mobility or speed buffs for him, such as Zarya Speed Barrier", "Ranged support that covers the enemy kiters he cannot reach"],
- "gives_team": ["Roots and attack speed slows that shut down melee heroes", "A durable frontline with strong self sustain", "Summon Sindragosa structure disable for pushes and dives", "Armor shred with Shattered Armor for burst"],
+ "wants_from_team": [
+  "Damage and crowd control that follow Howling Blast roots",
+  "A healer that does not need to stand in front",
+  "Heroes with mobility or speed buffs for him, such as Zarya Speed Barrier",
+  "Ranged support that covers the enemy kiters he cannot reach"
+ ],
+ "gives_team": [
+  "Roots and attack speed slows that shut down melee heroes",
+  "A durable frontline with strong self sustain",
+  "Summon Sindragosa structure disable for pushes and dives",
+  "Armor shred with Shattered Armor for burst"
+ ],
  "power_spike": "mid",
- "weaknesses": ["No mobility", "Mana hungry Frozen Tempest", "Weak to displacement, healing reduction and burst mages", "Cannot interrupt casts"],
- "evidence": ["Death Coil, Howling Blast, Frozen Tempest, Army of the Dead, Summon Sindragosa, Frostmourne Hungers ability text", "Talents Frost Presence, Rime, Shattered Armor, Immortal Coil, Rune Tap, Remorseless Winter, Absolute Zero, Path of Frost", "Icy Veins: counters melee heroes that rely on basic attacks, weak to kite, no mobility", "measured: hero damage 1707 per minute, siege 2731, damage taken 3899, 43 seconds of CC per game, win rate 0.429"],
+ "weaknesses": [
+  "No mobility",
+  "Mana hungry Frozen Tempest",
+  "Weak to displacement, healing reduction and burst mages",
+  "Cannot interrupt casts"
+ ],
+ "evidence": [
+  "Death Coil, Howling Blast, Frozen Tempest, Army of the Dead, Summon Sindragosa, Frostmourne Hungers ability text",
+  "Talents Frost Presence, Rime, Shattered Armor, Immortal Coil, Rune Tap, Remorseless Winter, Absolute Zero, Path of Frost",
+  "Icy Veins: counters melee heroes that rely on basic attacks, weak to kite, no mobility",
+  "measured: hero damage 1707 per minute, siege 2731, damage taken 3899, 43 seconds of CC per game, win rate 0.429"
+ ],
  "confidence": "high",
- "unsure": ["power_spike", "ratings.engage"]
+ "unsure": [
+  "power_spike",
+  "ratings.engage"
+ ],
+ "lenses": {
+  "damage_delivery": "melee_brawler",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "armor_or_shield",
+   "self_heal",
+   "damage_reduction"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "healer"
+  ],
+  "team_gives": [
+   "peel",
+   "cc_setup",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "poke",
+   "hard_cc",
+   "focus_fire",
+   "sustain_heals"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Frozen Tempest is an aura he carries and Frostmourne Hungers autos stack, so he is a close range brawler.",
+  "damage_reach": "Frozen Tempest is 3.5 range. Death Coil reaches further but is only a poke.",
+  "frontline_style": "Self healing through Rune Tap, Immortal Coil and Frostmourne Feeds is the plan. Frozen Tempest does not start fights.",
+  "durability_source": "Icebound Fortitude and Rime are armor, Immortal Coil and Rune Tap heal. Measured damage taken 3899 per minute.",
+  "kill_pattern": "He kills slowly by slowing and rooting with Frozen Tempest and Howling Blast.",
+  "escape": "Path of Frost at level 20 is the only mobility, so none for the standard build.",
+  "utility_tool": "Summon Sindragosa disables structures and mercenaries for 20 seconds and no value covers that.",
+  "cc_profile": "Howling Blast roots, Frozen Tempest and Absolute Zero slow. One reliable hard CC.",
+  "anti_cc": "Anti-Magic Shell and Icebound Fortitude cut damage, they do not cleanse.",
+  "ultimate_role": "Army of the Dead for fights, Summon Sindragosa for pushes and dives. Both are legitimate.",
+  "power_curve": "Rune Tap and the level 10 heroic make mid game the spike. Measured win rate 0.429 in 217 games, small sample."
+ },
+ "lens_gaps": [
+  "no value on utility_tool for disabling structures, minions and mercenaries (Summon Sindragosa)"
+ ]
 }

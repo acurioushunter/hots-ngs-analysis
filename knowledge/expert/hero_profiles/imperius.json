@@ -116,5 +116,73 @@
   "damage.style",
   "cc.reliability"
  ],
- "owner_notes": "A bruiser. Needs a look in Chrome when sessions are back."
+ "owner_notes": "A bruiser. Needs a look in Chrome when sessions are back.",
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "percent_health",
+  "damage_reliability": [
+   "stack_or_quest",
+   "skillshot"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "self_heal",
+   "big_health"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "ok",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "healer"
+  ],
+  "team_gives": [
+   "damage"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "hard_cc",
+   "dive"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "anti_tank"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Brands are consumed by autos and abilities, Molten Armor adds steady strikes.",
+  "kill_pattern": "Wrath of the Angiris stun plus brand burst is the pick, judgement call; he has 9.6 takedowns per game, the highest of this set.",
+  "objective_role": "Measured siege 3858 per minute is under median, so he is not an objective hero.",
+  "ultimate_role": "Wrath of the Angiris is a stun and brand burst on a target.",
+  "cc_profile": "Wrath stun and Valorous Brand root, rated reliability 3.",
+  "execution_demand": "Brand upkeep, windups and mana make him high, owner review is pending."
+ },
+ "lens_gaps": []
 }

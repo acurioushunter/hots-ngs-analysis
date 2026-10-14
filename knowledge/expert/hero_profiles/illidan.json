@@ -113,5 +113,89 @@
  ],
  "confidence": "high",
  "unsure": [],
- "owner_notes": "A dive melee assassin with decent sustain who dives backlines hard but is weak to CC. A lane bully against many heroes with a high skill ceiling."
+ "owner_notes": "A dive melee assassin with decent sustain who dives backlines hard but is weak to CC. A lane bully against many heroes with a high skill ceiling.",
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "dive_bruiser",
+  "durability_source": [
+   "self_heal",
+   "damage_reduction",
+   "untargetable_or_escape"
+  ],
+  "lane_role": "camp_taker",
+  "kill_pattern": "backline_dive",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "mobility_through"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "global_presence",
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "global_utility",
+  "execution_demand": "high",
+  "team_needs": [
+   "healer",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "objective"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "focus_fire",
+   "dive"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "global_macro",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Betrayer's Thirst and Sweeping Strike run through basic attacks, so a blind or stun removes both damage and cooldown reduction.",
+  "frontline_style": "Icy Veins calls him an offlaner and Hunter reads him as a dive melee assassin. Measured damage taken (about 3500 per minute) fits a bruiser dive role, not a tank.",
+  "lane_role": "Icy Veins: weak in lane, claims camps painlessly. The Hunt turns him into a split pusher, so this is a close call with split_pusher.",
+  "durability_source": "Betrayer's Thirst heals, Evasion negates basic attacks, Metamorphosis gives a one second immaterial window and extra health.",
+  "escape": "Dive, Sweeping Strike, Evasion, Metamorphosis and Bolt of the Storm. Icy Veins: nearly impossible to escape from.",
+  "utility_tool": "The Hunt is near global, unlimited with Nowhere to Hide which also reveals heroes under 25 percent health.",
+  "cc_profile": "Only The Hunt stuns, for 1 second, on a 100 second cooldown.",
+  "anti_cc": "Dive and Sweeping Strike move him through but need the cast to be allowed. Demonic Form halves stun, root and slow duration at level 20 only.",
+  "objective_role": "Measured siege (about 5150 per minute) is far above median. Evasion lets him ignore core damage.",
+  "power_curve": "Universal build is weak late, spike at level 10 with the heroic. Split build is a late scaler through Unending Hatred and Unbound.",
+  "ultimate_role": "Universal build takes The Hunt. Metamorphosis is the teamfight alternative with Demonic Form.",
+  "team_needs": "Icy Veins: needs enablers such as Medivh or Abathur (shield, armor, instant heal). Hunter: weak to CC, so tank CC that keeps his autos on target matters.",
+  "vulnerable_to": "Blinds, attack speed reduction and anything stopping his basic attacks. Extremely vulnerable to counter picks per Icy Veins."
+ },
+ "lens_gaps": [
+  "No value for blind or basic attack denial on vulnerable_to (it is his main counter).",
+  "No lens for enabler dependence (needs shields or armor from Medivh or Abathur), team_needs only has healer.",
+  "No lens for dependence on a basic attack cooldown loop (Betrayer's Thirst)."
+ ]
 }

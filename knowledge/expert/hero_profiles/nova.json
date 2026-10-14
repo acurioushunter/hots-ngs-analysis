@@ -124,5 +124,83 @@
   "damage.poke",
   "ratings.teamfight"
  ],
- "owner_notes": "A burst ranged assassin focused on pick kills. Weak without much sustain, but strong when the player is good and ganks the offlaner or vulnerable heroes."
+ "owner_notes": "A burst ranged assassin focused on pick kills. Weak without much sustain, but strong when the player is good and ganks the offlaner or vulnerable heroes.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "long",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "stack_or_quest",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "untargetable_or_escape"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "stealth_ambush",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "ok",
+  "objective_role": [
+   "global_presence"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "stealth",
+   "scouting"
+  ],
+  "power_curve": "stack_dependent",
+  "snowball": "snowballer",
+  "ultimate_role": "global_utility",
+  "execution_demand": "high",
+  "team_needs": [
+   "cc_setup",
+   "wave_clear",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "macro_split"
+  ],
+  "comp_affinity": [
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "kill_pattern": "Follows Hunter: pick kills, best on a ganked offlaner or a vulnerable hero. Triple Tap is a locked burst on one target, Precision Strike is delayed and global.",
+  "escape": "Ghost Protocol (stealth plus a Holo Decoy) on a long cooldown, nothing else. No mobility tools.",
+  "cc_delivery": "Pinning Shot is a targeted, long range slow, so it cannot be dodged.",
+  "damage_reliability": "Snipe is the skillshot and its Precision Sniper stacks reset on a miss. Ganks depend on staying unseen.",
+  "wave_clear_style": "The guide calls her waveclear extremely poor. Precision Barrage at level 20 and Explosive Round only partly fix it.",
+  "camp_play": "Covert Mission can bribe non elite mercenaries. Anti Armor Shells gives decent PvE autos.",
+  "objective_role": "Siege damage is low (3422 per minute measured). Her objective value is Precision Strike from anywhere on the map.",
+  "power_curve": "Snipe stacks and Lethal Decoy with Rewind make her mid game spike, but no stack means no burst.",
+  "ultimate_role": "Standard build takes Precision Strike (global, delayed). Triple Tap is the pick tool alternative and fits a gank build.",
+  "execution_demand": "Needs aim, route planning and mana control; guide notes Mana issues and no mobility."
+ },
+ "lens_gaps": [
+  "no value on vulnerable_to for global or reactive heroes that cancel a gank (Brightwing)",
+  "no value on durability_source or escape for stealth that is lost by damage or channelling"
+ ]
 }

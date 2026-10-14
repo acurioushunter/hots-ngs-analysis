@@ -1,89 +1,203 @@
 {
-  "hero": "Gul'dan",
-  "slug": "guldan",
-  "role": "Ranged Assassin",
-  "attack": {
-    "type": "ranged",
-    "range": "medium",
-    "autos_matter": 1,
-    "note": "Damage comes from Fel Flame (1.5 second cooldown cone), Drain Life channel and Corruption. Basic attacks only fill gaps between casts. Cast ranges are modest, so he must stand close to the fight."
+ "hero": "Gul'dan",
+ "slug": "guldan",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 1,
+  "note": "Damage comes from Fel Flame (1.5 second cooldown cone), Drain Life channel and Corruption. Basic attacks only fill gaps between casts. Cast ranges are modest, so he must stand close to the fight."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": [
+   "sustained",
+   "aoe",
+   "siege"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Fel Flame is a short cone that is easy to land at the right distance and hard to land point blank. Corruption is a slow three circle line with the longest range in his kit, strong into chokepoints. Drain Life is a channel the enemy escapes by walking out of range."
   },
-  "damage": {
-    "carry": true,
-    "ranged_dealer": true,
-    "style": ["sustained", "aoe", "siege"],
-    "poke": {
-      "rating": 3,
-      "kind": "skillshot",
-      "dodgeable": 3,
-      "note": "Fel Flame is a short cone that is easy to land at the right distance and hard to land point blank. Corruption is a slow three circle line with the longest range in his kit, strong into chokepoints. Drain Life is a channel the enemy escapes by walking out of range."
-    },
-    "heal_blunted": 3,
-    "note": "Constant spam of 210 damage Fel Flame hits plus Corruption dots is steady pressure that healing partly absorbs. Measured 3190 hero damage and 6713 siege damage per minute, both far above the league medians, so siege and wave damage are his real strength."
+  "heal_blunted": 3,
+  "note": "Constant spam of 210 damage Fel Flame hits plus Corruption dots is steady pressure that healing partly absorbs. Measured 3190 hero damage and 6713 siege damage per minute, both far above the league medians, so siege and wave damage are his real strength."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 4,
+  "engage": 1,
+  "peel": 2,
+  "mobility": 1,
+  "self_sustain": 5,
+  "survivability": 2,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 4
+ },
+ "cc": {
+  "hard": [
+   "fear",
+   "silence"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
+ "good_into": [
+  {
+   "tag": "structures",
+   "why": "Fel Flame on a 1.5 second cooldown and Corruption from range give some of the highest siege damage in the game (about 6700 per minute measured)."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 5,
-    "camp_clear": 4,
-    "siege": 5,
-    "teamfight": 4,
-    "engage": 1,
-    "peel": 2,
-    "mobility": 1,
-    "self_sustain": 5,
-    "survivability": 2,
-    "objective": 3,
-    "global_presence": 0,
-    "solo_lane": 4
+  {
+   "tag": "immobile",
+   "why": "Corruption circles and the Drain Life channel are hard to escape for heroes with no gap closer, and Horrify on a stuck team splits it for his damage."
   },
-  "cc": {
-    "hard": ["fear", "silence"],
-    "soft": ["slow"],
-    "reliability": 2
+  {
+   "tag": "squishy_backline",
+   "why": "Constant Fel Flame casts, Curse of Exhaustion on Drain Life and Haunt armor shred on a Horrify let him delete low health targets that stand in the cone."
   },
-  "good_into": [
-    { "tag": "structures", "why": "Fel Flame on a 1.5 second cooldown and Corruption from range give some of the highest siege damage in the game (about 6700 per minute measured)." },
-    { "tag": "immobile", "why": "Corruption circles and the Drain Life channel are hard to escape for heroes with no gap closer, and Horrify on a stuck team splits it for his damage." },
-    { "tag": "squishy_backline", "why": "Constant Fel Flame casts, Curse of Exhaustion on Drain Life and Haunt armor shred on a Horrify let him delete low health targets that stand in the cone." },
-    { "tag": "melee_heavy", "why": "Fel Flame with Fel Armor and Bound by Shadow punishes melee heroes that must walk into the cone, and Drain Life heals him while they are stuck on him." }
+  {
+   "tag": "melee_heavy",
+   "why": "Fel Flame with Fel Armor and Bound by Shadow punishes melee heroes that must walk into the cone, and Drain Life heals him while they are stuck on him."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "assassin",
+   "why": "He has no mobility in his basic kit and Drain Life is an interruptible channel. Illidan, Greymane and Zeratul land on him with nothing to stop them except Demonic Circle at level 20."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Life Tap trades his own health for mana, so he sits at lower health than other assassins and a short combo kills him before Drain Life or Healthstone can recover it."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Drain Life, Corruption setup and Horrify are all cast time abilities that stun or silence cancel, and he has no cleanse."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Life Tap spends his own health for mana, so chip damage from long range heroes pushes him into the red and forces him to stop tapping and stop casting."
+  }
+ ],
+ "wants_from_team": [
+  "a sturdy frontline that peels and lets him sit at medium range",
+  "a healer to top him off after Life Tap",
+  "crowd control so Corruption and Drain Life are not walked out of",
+  "someone to deal with fast assassins that jump him"
+ ],
+ "gives_team": [
+  "fast wave clear that frees teammates to rotate",
+  "Horrify to split or defend with a two second fear and silence",
+  "high siege damage and team wide area damage from Corruption",
+  "self sufficient lane presence with Drain Life and Consume Soul"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "no escape until the level 20 Demonic Circle",
+  "Life Tap health cost forces health and mana to be managed together",
+  "Drain Life and Horrify are channels or delays that interrupts break",
+  "short cast ranges force him into the danger zone"
+ ],
+ "evidence": [
+  "Fel Flame",
+  "Drain Life",
+  "Corruption",
+  "Life Tap",
+  "Horrify",
+  "Haunt",
+  "Hunger for Power",
+  "Demonic Circle",
+  "Icy Veins guide weaknesses and counters text",
+  "measured damage 3190 per minute and siege 6713 per minute"
+ ],
+ "confidence": "high",
+ "unsure": [
+  "heal_blunted",
+  "good_into"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "guaranteed"
   ],
-  "bad_into": [
-    { "tag": "assassin", "why": "He has no mobility in his basic kit and Drain Life is an interruptible channel. Illidan, Greymane and Zeratul land on him with nothing to stop them except Demonic Circle at level 20." },
-    { "tag": "burst_dive", "why": "Life Tap trades his own health for mana, so he sits at lower health than other assassins and a short combo kills him before Drain Life or Healthstone can recover it." },
-    { "tag": "cc_heavy", "why": "Drain Life, Corruption setup and Horrify are all cast time abilities that stun or silence cancel, and he has no cleanse." },
-    { "tag": "poke_comp", "why": "Life Tap spends his own health for mana, so chip damage from long range heroes pushes him into the red and forces him to stop tapping and stop casting." }
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "self_heal",
+   "fragile"
   ],
-  "wants_from_team": [
-    "a sturdy frontline that peels and lets him sit at medium range",
-    "a healer to top him off after Life Tap",
-    "crowd control so Corruption and Drain Life are not walked out of",
-    "someone to deal with fast assassins that jump him"
+  "lane_role": "solo_laner",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
   ],
-  "gives_team": [
-    "fast wave clear that frees teammates to rotate",
-    "Horrify to split or defend with a two second fear and silence",
-    "high siege damage and team wide area damage from Corruption",
-    "self sufficient lane presence with Drain Life and Consume Soul"
+  "cc_profile": "single_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
   ],
-  "power_spike": "mid",
-  "weaknesses": [
-    "no escape until the level 20 Demonic Circle",
-    "Life Tap health cost forces health and mana to be managed together",
-    "Drain Life and Horrify are channels or delays that interrupts break",
-    "short cast ranges force him into the danger zone"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
   ],
-  "evidence": [
-    "Fel Flame",
-    "Drain Life",
-    "Corruption",
-    "Life Tap",
-    "Horrify",
-    "Haunt",
-    "Hunger for Power",
-    "Demonic Circle",
-    "Icy Veins guide weaknesses and counters text",
-    "measured damage 3190 per minute and siege 6713 per minute"
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
   ],
-  "confidence": "high",
-  "unsure": ["heal_blunted", "good_into"]
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "healer",
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire",
+   "poke"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_reliability": "Fel Flame cone is aimed, Drain Life is a targeted channel that always connects until he is interrupted.",
+  "durability_source": "Drain Life and Consume Soul heal him, but Life Tap costs health so he is still fragile against burst.",
+  "kill_pattern": "He wins by constant Fel Flame and Corruption pressure, not a jump or snipe; Horrify then lets the team finish.",
+  "escape": "No escape until the level 20 Demonic Circle talent.",
+  "cc_profile": "Horrify (heroic) is one fear and silence, nothing else hard.",
+  "camp_play": "Fel Flame clears camps alone, 4.6 camps per game measured.",
+  "power_curve": "Drain Life build lifts him in lane but the big spikes are level 10 Horrify and level 16.",
+  "ultimate_role": "Horrify is the standard pick and swings a fight by fear and silence on the whole team; Rain of Destruction is not worth it.",
+  "split_potential": "Wave clear and Drain Life sustain let him hold a lane, but he is not built to pull a team away."
+ },
+ "lens_gaps": [
+  "no lens for a self damage cost: Life Tap makes him need a healer, and healer lens values are all about giving heals",
+  "damage_reliability cannot say a channel that interrupts break (channel exists only as a damage_delivery value)"
+ ]
 }

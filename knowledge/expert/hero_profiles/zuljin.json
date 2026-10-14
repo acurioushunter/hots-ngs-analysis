@@ -2,37 +2,205 @@
  "hero": "Zul'jin",
  "slug": "zuljin",
  "role": "Ranged Assassin",
- "attack": {"type": "ranged", "range": "medium", "autos_matter": 5, "note": "Berserker boosts attack speed as health drops and the active adds 25 percent attack damage. You Want Axe? grows range and damage. Basic attacks are the core damage with Grievous Throw marks, though the Twin Cleave build shifts weight onto abilities."},
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 5,
+  "note": "Berserker boosts attack speed as health drops and the active adds 25 percent attack damage. You Want Axe? grows range and damage. Basic attacks are the core damage with Grievous Throw marks, though the Twin Cleave build shifts weight onto abilities."
+ },
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "single_target", "burst"],
-  "poke": {"rating": 3, "kind": "skillshot", "dodgeable": 3, "note": "Twin Cleave is an area arc with a slow that is tricky to land, Grievous Throw is a simple line. Range grows with You Want Axe? and Headhunter, but there is no safe constant poke."},
+  "style": [
+   "sustained",
+   "single_target",
+   "burst"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Twin Cleave is an area arc with a slow that is tricky to land, Grievous Throw is a simple line. Range grows with You Want Axe? and Headhunter, but there is no safe constant poke."
+  },
   "heal_blunted": 2,
   "note": "A high single target basic attack carry with a burst option: Grievous Throw marks add 50 percent damage, Guillotine scales as his health drops. Berserker makes him stronger while hurt, so he can trade through some healing. The Twin Cleave build adds area poke and burst on squishies."
  },
  "healing": null,
- "ratings": {"wave_clear": 3, "camp_clear": 4, "siege": 3, "teamfight": 4, "engage": 1, "peel": 1, "mobility": 1, "self_sustain": 3, "survivability": 1, "objective": 3, "global_presence": 1, "solo_lane": 2},
- "cc": {"hard": ["root"], "soft": ["slow"], "reliability": 2},
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 4,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 1,
+  "peel": 1,
+  "mobility": 1,
+  "self_sustain": 3,
+  "survivability": 1,
+  "objective": 3,
+  "global_presence": 1,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "root"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
  "good_into": [
-  {"tag": "tanky_frontline", "why": "Grievous Throw with Vicious Assault and No Mercy ignores armor and adds percent max health; the guide names Garrosh and Uther as targets."},
-  {"tag": "squishy_backline", "why": "Twin Cleave plus Guillotine with Recklessness can delete ranged assassins and healers in one combo."},
-  {"tag": "single_target_healer", "why": "Taz'dingo and Berserker let him trade through single target healing, and Amani Resilience heals him back."},
-  {"tag": "melee_heavy", "why": "Twin Cleave slows and Ensnare roots, and Eye of Zul'jin move speed lets him kite."},
-  {"tag": "sustain_comp", "why": "Heavy healing teams let him use Berserker safely and keep attacking, with a healer to manage his health drain."}
+  {
+   "tag": "tanky_frontline",
+   "why": "Grievous Throw with Vicious Assault and No Mercy ignores armor and adds percent max health; the guide names Garrosh and Uther as targets."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Twin Cleave plus Guillotine with Recklessness can delete ranged assassins and healers in one combo."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "Taz'dingo and Berserker let him trade through single target healing, and Amani Resilience heals him back."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Twin Cleave slows and Ensnare roots, and Eye of Zul'jin move speed lets him kite."
+  },
+  {
+   "tag": "sustain_comp",
+   "why": "Heavy healing teams let him use Berserker safely and keep attacking, with a healer to manage his health drain."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "Stuns and silences before Taz'dingo kill him and he has only Voodoo Shuffle for roots and slows."},
-  {"tag": "assassin", "why": "He has no gap closer or escape and low health, and dives kill him before Regeneration helps."},
-  {"tag": "stealth", "why": "A stealth or blind hero shuts down a basic attack carry; Blinding Wind is cited by the guide as a severe counter."},
-  {"tag": "burst_dive", "why": "Berserker lowers his health on purpose, so a burst team punishes low health states."},
-  {"tag": "kiter", "why": "Mobile ranged heroes can avoid Twin Cleave and out trade his medium range basic attacks."}
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns and silences before Taz'dingo kill him and he has only Voodoo Shuffle for roots and slows."
+  },
+  {
+   "tag": "assassin",
+   "why": "He has no gap closer or escape and low health, and dives kill him before Regeneration helps."
+  },
+  {
+   "tag": "stealth",
+   "why": "A stealth or blind hero shuts down a basic attack carry; Blinding Wind is cited by the guide as a severe counter."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Berserker lowers his health on purpose, so a burst team punishes low health states."
+  },
+  {
+   "tag": "kiter",
+   "why": "Mobile ranged heroes can avoid Twin Cleave and out trade his medium range basic attacks."
+  }
  ],
- "wants_from_team": ["A strong frontline to peel for him", "A healer to manage Berserker health drain", "Allied CC to land Twin Cleave and Guillotine", "Shields or move speed buffs from the healer (Uther, Tyrael, Whitemane style)"],
- "gives_team": ["High single target basic attack damage", "Burst on squishies with Twin Cleave and Guillotine", "A slow from Twin Cleave for pickoffs", "Unkillable Taz'dingo window for team fights"],
+ "wants_from_team": [
+  "A strong frontline to peel for him",
+  "A healer to manage Berserker health drain",
+  "Allied CC to land Twin Cleave and Guillotine",
+  "Shields or move speed buffs from the healer (Uther, Tyrael, Whitemane style)"
+ ],
+ "gives_team": [
+  "High single target basic attack damage",
+  "Burst on squishies with Twin Cleave and Guillotine",
+  "A slow from Twin Cleave for pickoffs",
+  "Unkillable Taz'dingo window for team fights"
+ ],
  "power_spike": "mid",
- "weaknesses": ["No gap closer and very susceptible to ganks", "Overusing Berserker leaves low health", "Weak when blinded or crowd controlled", "High skill floor for Twin Cleave"],
- "evidence": ["Berserker, Grievous Throw, Twin Cleave, Regeneration, Taz'dingo, Guillotine, Amani Rage text", "Boneslicer, Recklessness, Arcanite Axes, Ferocity, Amani Resilience, Buzzsaw talents", "Icy Veins weaknesses (no gap closer, vulnerable to CC and focus fire)", "Measured NGS block: 2984 hero damage per minute, deaths 2.8 and 104 seconds dead (highest in this group), win rate 0.475"],
+ "weaknesses": [
+  "No gap closer and very susceptible to ganks",
+  "Overusing Berserker leaves low health",
+  "Weak when blinded or crowd controlled",
+  "High skill floor for Twin Cleave"
+ ],
+ "evidence": [
+  "Berserker, Grievous Throw, Twin Cleave, Regeneration, Taz'dingo, Guillotine, Amani Rage text",
+  "Boneslicer, Recklessness, Arcanite Axes, Ferocity, Amani Resilience, Buzzsaw talents",
+  "Icy Veins weaknesses (no gap closer, vulnerable to CC and focus fire)",
+  "Measured NGS block: 2984 hero damage per minute, deaths 2.8 and 104 seconds dead (highest in this group), win rate 0.475"
+ ],
  "confidence": "high",
- "unsure": ["heal_blunted"]
+ "unsure": [
+  "heal_blunted"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "burst_window",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "self_heal",
+   "untargetable_or_escape"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "burst_snipe",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel",
+   "healer"
+  ],
+  "team_gives": [
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Icy Veins calls the Twin Cleave build his standard one, with autos and axes both important; the Basic Attack build would be auto_attacker.",
+  "damage_timing": "Twin Cleave into Guillotine is the standard burst; the Basic Attack build is sustained damage.",
+  "durability_source": "Regeneration and Amani Rage heal him and Taz'dingo! keeps him alive for 4 seconds, but measured deaths and seconds dead are the highest in this group.",
+  "lane_role": "Icy Veins wants him behind a strong frontline; he has no solo lane or map role.",
+  "kill_pattern": "Guillotine does extra damage the lower his health, and Twin Cleave combos delete squishies at range.",
+  "escape": "Taz'dingo! only delays a death by 4 seconds and he has no gap closer, so it is not an escape.",
+  "cc_profile": "Twin Cleave slows are the base kit; Ensnare root is an optional level 13 talent.",
+  "anti_cc": "Voodoo Shuffle removes only roots and slows, so it does not count.",
+  "objective_role": "Icy Veins and the measured siege (about the league median) show no objective identity.",
+  "ultimate_role": "Guillotine is the Twin Cleave build heroic; Taz'dingo! is the Basic Attack build heroic and would be defensive.",
+  "snowball": "Headhunter, Let the Killing Begin and the You Want Axe? quest all reward kills, and Recklessness rewards low health.",
+  "execution_demand": "Icy Veins says he has a high learning curve; Twin Cleave is tricky and Berserker health drain must be managed."
+ },
+ "lens_gaps": [
+  "no vulnerable_to value for blinds that shut off basic attack carries",
+  "no escape value for a 4 second unkillable window that does not move him (Taz'dingo!)",
+  "no team_needs value for needing a healer to manage its own health drain (healer exists but is generic)"
+ ]
 }

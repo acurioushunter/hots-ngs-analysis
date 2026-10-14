@@ -137,5 +137,82 @@
  "owner_corrections": [
   "healing.sustain 4 to 3",
   "healing.burst_heal 4 to 3"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "aoe_sustain",
+  "healer_safety": "exposed",
+  "utility_tool": [
+   "silence_or_dismount",
+   "zone_or_wall"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "zone_hold"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line",
+   "peel",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "sustain",
+   "cc_setup",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "focus_fire",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "healer_class": "Healing Pathogen spreads and Bio-Kill Switch detonates for burst. Owner says he mixes sustain and burst and excels at neither, the silence is his strength.",
+  "healer_safety": "Melee range basic attack and the Lurking Arm channel leave him exposed, and dive can focus him when the team has no front line (owner).",
+  "kill_pattern": "Silence under a taunted or CC held target and a ranged burst hero finishes (Jaina, Greymane, Li-Ming, Kel'Thuzad, Kael'thas). It fails when the target is saved: Anduin pull, Medivh, Uther Divine Shield, Tyrael.",
+  "escape": "Owner: no solid escape. Flailing Swipe pushes enemies away and Massive Shove gives 50 Armor, but that is peel, not an exit.",
+  "cc_profile": "Lurking Arm silence channel plus Massive Shove stun and Weighted Pustule slow. Reliability depends on the target not being saved.",
+  "ultimate_role": "Massive Shove (heroic, 20 second cooldown) takes one hero out of a fight. Flailing Swipe is the team disengage option.",
+  "wave_clear_style": "Lurking Arm removes a wave quickly but he is vulnerable while channelling."
+ },
+ "lens_gaps": [
+  "no value in vulnerable_to for enemy save tools (invulnerability, pulls, Divine Shield) that cancel a lockdown comp",
+  "no lens for a hero that wants a specific partner kind (a taunt or easy to hit CC tank plus a ranged burst assassin)",
+  "no healer_class value for healing that is mainly an instant AoE burst on a cooldown (Bio-Kill Switch)"
  ]
 }

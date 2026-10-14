@@ -1,85 +1,202 @@
 {
-  "hero": "Maiev",
-  "slug": "maiev",
-  "role": "Melee Assassin",
-  "attack": {
-    "type": "melee",
-    "range": "short",
-    "autos_matter": 2,
-    "note": "Fan of Knives is the main damage and Umbral Bind rides on an empowered auto. Autos matter for Naisha's Memento bounces and Armored Assault but are not the plan."
+ "hero": "Maiev",
+ "slug": "maiev",
+ "role": "Melee Assassin",
+ "attack": {
+  "type": "melee",
+  "range": "short",
+  "autos_matter": 2,
+  "note": "Fan of Knives is the main damage and Umbral Bind rides on an empowered auto. Autos matter for Naisha's Memento bounces and Armored Assault but are not the plan."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": [
+   "aoe",
+   "sustained",
+   "burst"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Fan of Knives is a short crescent and Containment Disc is a long skillshot, but she is a close range hero; the crescent is only weak poke when she cannot hit two heroes."
   },
-  "damage": {
-    "carry": true,
-    "ranged_dealer": false,
-    "style": ["aoe", "sustained", "burst"],
-    "poke": {
-      "rating": 2,
-      "kind": "skillshot",
-      "dodgeable": 3,
-      "note": "Fan of Knives is a short crescent and Containment Disc is a long skillshot, but she is a close range hero; the crescent is only weak poke when she cannot hit two heroes."
-    },
-    "heal_blunted": 3,
-    "note": "Fan of Knives resets its cooldown and mana when it hits two heroes, so damage comes in rapid repeated AoE hits that scale with how many enemies are caught. Umbral Bind pulls and Warden's Cage or Containment Disc add lockdown. Many small hits are partly healed by AoE healers, but the reset and Vengeful Knives percent health bonus keep pressure up."
+  "heal_blunted": 3,
+  "note": "Fan of Knives resets its cooldown and mana when it hits two heroes, so damage comes in rapid repeated AoE hits that scale with how many enemies are caught. Umbral Bind pulls and Warden's Cage or Containment Disc add lockdown. Many small hits are partly healed by AoE healers, but the reset and Vengeful Knives percent health bonus keep pressure up."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 5,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 5,
+  "peel": 3,
+  "mobility": 4,
+  "self_sustain": 1,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "pull",
+   "silence",
+   "time_stop",
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 4
+ },
+ "good_into": [
+  {
+   "tag": "squishy_backline",
+   "why": "Spirit of Vengeance through a bush into Umbral Bind tethers and pulls heroes out of position, and Containment Disc silences one of them for 5.5 seconds."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 4,
-    "camp_clear": 5,
-    "siege": 3,
-    "teamfight": 4,
-    "engage": 5,
-    "peel": 3,
-    "mobility": 4,
-    "self_sustain": 1,
-    "survivability": 4,
-    "objective": 3,
-    "global_presence": 0,
-    "solo_lane": 2
+  {
+   "tag": "melee_heavy",
+   "why": "Melee heroes bunch up for easy double Fan of Knives hits, and Bladed Armor stacks armor against their autos."
   },
-  "cc": {
-    "hard": ["pull", "silence", "time_stop", "knockback"],
-    "soft": ["slow"],
-    "reliability": 4
+  {
+   "tag": "immobile",
+   "why": "Umbral Bind holds targets inside the circle for 2.5 seconds and Warden's Cage or Containment Disc locks down heroes with no escape."
   },
-  "good_into": [
-    { "tag": "squishy_backline", "why": "Spirit of Vengeance through a bush into Umbral Bind tethers and pulls heroes out of position, and Containment Disc silences one of them for 5.5 seconds." },
-    { "tag": "melee_heavy", "why": "Melee heroes bunch up for easy double Fan of Knives hits, and Bladed Armor stacks armor against their autos." },
-    { "tag": "immobile", "why": "Umbral Bind holds targets inside the circle for 2.5 seconds and Warden's Cage or Containment Disc locks down heroes with no escape." },
-    { "tag": "split_push", "why": "Naisha's Memento is the fastest early camp clear, and Containment Disc can hold a lone hero while her team collapses." }
+  {
+   "tag": "split_push",
+   "why": "Naisha's Memento is the fastest early camp clear, and Containment Disc can hold a lone hero while her team collapses."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "cc_heavy",
+   "why": "A stun, silence or blind stops the Spirit of Vengeance and Umbral Bind combo, and blink cannot be used while rooted, silenced or stunned."
+  },
+  {
+   "tag": "kiter",
+   "why": "Mobile ranged heroes refuse the tether or move out of Fan of Knives range so she cannot reset her cooldown."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Her single target damage is low, so a sustain healer heals through the Fan of Knives chip."
+  },
+  {
+   "tag": "assassin",
+   "why": "She has no self heal, so burst assassins can punish a mistake after the combo and Vault of the Wardens is brief."
+  }
+ ],
+ "wants_from_team": [
+  "A tank who chains CC on pulled targets",
+  "Assassins with avoidable AoE who benefit from the pull",
+  "AoE healers who follow her engage",
+  "Teammates who do not need her for solo lane"
+ ],
+ "gives_team": [
+  "A reliable non tank initiator",
+  "Pick potential with Containment Disc",
+  "Fast mercenary camp clearing",
+  "Peel with Warden's Cage and Vault of the Wardens"
+ ],
+ "power_spike": "early",
+ "weaknesses": [
+  "Predictable engage that CC or blinds shut down",
+  "No self sustain",
+  "Limited solo lane and low single target damage",
+  "Low damage output when Fan of Knives misses"
+ ],
+ "evidence": [
+  "Fan of Knives resets on two hero hits",
+  "Umbral Bind tether and pull, Spirit of Vengeance blink, Vault of the Wardens",
+  "Containment Disc and Warden's Cage heroics",
+  "Naisha's Memento, Bonds of Justice, Cruel Chain, Vengeful Knives talents",
+  "Icy Veins guide: reliable initiation, no self sustain, countered by CC and blinds",
+  "Measured: about 2389 hero damage, 4370 siege, 2428 damage taken per minute, 5.1 merc camps per game, win rate 0.544 over 614 games"
+ ],
+ "confidence": "high",
+ "unsure": [],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
   ],
-  "bad_into": [
-    { "tag": "cc_heavy", "why": "A stun, silence or blind stops the Spirit of Vengeance and Umbral Bind combo, and blink cannot be used while rooted, silenced or stunned." },
-    { "tag": "kiter", "why": "Mobile ranged heroes refuse the tether or move out of Fan of Knives range so she cannot reset her cooldown." },
-    { "tag": "high_sustain_healer", "why": "Her single target damage is low, so a sustain healer heals through the Fan of Knives chip." },
-    { "tag": "assassin", "why": "She has no self heal, so burst assassins can punish a mistake after the combo and Vault of the Wardens is brief." }
+  "frontline_style": "initiator",
+  "durability_source": [
+   "untargetable_or_escape",
+   "big_health",
+   "armor_or_shield"
   ],
-  "wants_from_team": [
-    "A tank who chains CC on pulled targets",
-    "Assassins with avoidable AoE who benefit from the pull",
-    "AoE healers who follow her engage",
-    "Teammates who do not need her for solo lane"
+  "lane_role": "camp_taker",
+  "kill_pattern": "cc_chain",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "silence_or_dismount"
   ],
-  "gives_team": [
-    "A reliable non tank initiator",
-    "Pick potential with Containment Disc",
-    "Fast mercenary camp clearing",
-    "Peel with Warden's Cage and Vault of the Wardens"
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "shield_or_bubble"
   ],
-  "power_spike": "early",
-  "weaknesses": [
-    "Predictable engage that CC or blinds shut down",
-    "No self sustain",
-    "Limited solo lane and low single target damage",
-    "Low damage output when Fan of Knives misses"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "mobility_rotate"
   ],
-  "evidence": [
-    "Fan of Knives resets on two hero hits",
-    "Umbral Bind tether and pull, Spirit of Vengeance blink, Vault of the Wardens",
-    "Containment Disc and Warden's Cage heroics",
-    "Naisha's Memento, Bonds of Justice, Cruel Chain, Vengeful Knives talents",
-    "Icy Veins guide: reliable initiation, no self sustain, countered by CC and blinds",
-    "Measured: about 2389 hero damage, 4370 siege, 2428 damage taken per minute, 5.1 merc camps per game, win rate 0.544 over 614 games"
+  "split_potential": "some",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
   ],
-  "confidence": "high",
-  "unsure": []
+  "power_curve": "early_dominant",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "healer"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "peel",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Fan of Knives is the damage and resets its cooldown and mana on two hero hits. Autos only matter for Umbral Bind and Naisha's Memento bounces.",
+  "damage_timing": "Repeated area hits that scale with how many heroes she catches, so sustained over a fight rather than a single burst.",
+  "frontline_style": "Not a tank, but Icy Veins calls Spirit of Vengeance plus Umbral Bind a reliable non tank initiation. Measured damage taken (about 2430 per minute) is near the league median, so she engages and leaves.",
+  "durability_source": "Vault of the Wardens is a 0.75 second immunity on a 13 second cooldown, plus a large health pool and armor talents. Icy Veins: no self sustain.",
+  "lane_role": "Limited solo lane per Icy Veins, but the fastest early camp clear with Naisha's Memento. Measured 5.1 camps per game.",
+  "kill_pattern": "Umbral Bind pull, then Containment Disc silence or Warden's Cage. She also engages from bushes and vents, so flank_pick is the close second.",
+  "anti_cc": "Vault of the Wardens makes her immune for 0.75 seconds, but Blink (Spirit of Vengeance) is blocked by root, silence and stun.",
+  "power_curve": "Icy Veins stresses early game power and camp speed. No stack mechanic, so she does not scale the way a quest hero does.",
+  "snowball": "No stacks to carry, so steady. Early ganks give a lead like any assassin.",
+  "ultimate_role": "Containment Disc (time stop and silence) is the standard heroic. Warden's Cage is the combo and anti dive alternative.",
+  "team_needs": "Icy Veins: favored by AoE healers, and she has no self sustain. Tanks that chain CC on her pull are a bonus rather than a need.",
+  "vulnerable_to": "Blinds and CC shut down Umbral Bind completely, and mobile heroes kite her."
+ },
+ "lens_gaps": [
+  "No value for blind on vulnerable_to (Icy Veins lists blinds as the hard counter to Umbral Bind).",
+  "No value for pull or tether on cc_profile or cc_delivery (Umbral Bind is a conditional pull, not a stun).",
+  "damage_timing has no value for repeated cooldown reset loops (Fan of Knives reset on two hits)."
+ ]
 }

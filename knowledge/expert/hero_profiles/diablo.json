@@ -124,5 +124,84 @@
  "unsure": [
   "ratings.survivability"
  ],
- "owner_notes": "A tank who is built to catch people and get kills, not only to hold the front line."
+ "owner_notes": "A tank who is built to catch people and get kills, not only to hold the front line.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "catcher",
+  "durability_source": [
+   "self_heal",
+   "big_health",
+   "armor_or_shield"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "revive_or_second_life"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "unstoppable",
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "zone_hold"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "healer",
+   "wave_clear"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "peel"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "early_pressure",
+   "macro_split",
+   "sustain_heals"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "frontline_style": "Owner read: a tank built to catch people and get kills, not only to hold the front line. Shadow Charge into Overpower, then Apocalypse.",
+  "damage_reliability": "Shadow Charge needs terrain behind the target to stun and can be dodged.",
+  "kill_pattern": "Overpower pulls and stuns one target while the team converts.",
+  "escape": "Hellgate and Shadow Charge are partial. Black Soulstone is a level 20 second life.",
+  "utility_tool": "Black Soulstone is a talent that revives him, so it is a late game tool only.",
+  "cc_delivery": "Overpower is targeted. The Shadow Charge wall stun and Apocalypse are weaker on mobile heroes.",
+  "anti_cc": "Lightning Breath makes him Unstoppable for the channel, Soul Shield gives spell armor.",
+  "power_curve": "Weak before Souls and level 7. Measured damage taken 5010 per minute and 3.5 deaths per game.",
+  "snowball": "Owner read: built for kills, so leads grow through Souls."
+ },
+ "lens_gaps": [
+  "no value on damage_reliability or map for a hero that needs impassable terrain behind the target (Shadow Charge)"
+ ]
 }

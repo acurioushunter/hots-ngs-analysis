@@ -2,37 +2,208 @@
  "hero": "Tassadar",
  "slug": "tassadar",
  "role": "Ranged Assassin",
- "attack": {"type": "ranged", "range": "long", "autos_matter": 2, "note": "Resonance Beam is a channeled slowing beam that ramps damage and mana regen, but the real value is Shock Ray and Psionic Storm. Arc Discharge adds range and Archon turns autos into the main damage source."},
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 2,
+  "note": "Resonance Beam is a channeled slowing beam that ramps damage and mana regen, but the real value is Shock Ray and Psionic Storm. Arc Discharge adds range and Archon turns autos into the main damage source."
+ },
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["aoe", "poke", "zone"],
-  "poke": {"rating": 5, "kind": "skillshot", "dodgeable": 3, "note": "Psionic Storm is instant, huge radius and long range (Psi-Infusion adds 33%), so it is hard to avoid when enemies group. Shock Ray is a narrow channel that mobile heroes sidestep, and any knockback or stun cancels it."},
+  "style": [
+   "aoe",
+   "poke",
+   "zone"
+  ],
+  "poke": {
+   "rating": 5,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Psionic Storm is instant, huge radius and long range (Psi-Infusion adds 33%), so it is hard to avoid when enemies group. Shock Ray is a narrow channel that mobile heroes sidestep, and any knockback or stun cancels it."
+  },
   "heal_blunted": 3,
   "note": "Every ability is area damage. Psionic Storm ramps up to double damage the longer a target stays in it, so enemies that stand still take a lot, and enemies that step out take little. Shock Ray and Black Hole are real burst, but the bulk is a repeated area zone that healers can undo partly."
  },
  "healing": null,
- "ratings": {"wave_clear": 5, "camp_clear": 3, "siege": 4, "teamfight": 4, "engage": 1, "peel": 3, "mobility": 1, "self_sustain": 2, "survivability": 1, "objective": 3, "global_presence": 1, "solo_lane": 3},
- "cc": {"hard": ["stun", "knockback"], "soft": ["slow", "root"], "reliability": 2},
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 3,
+  "siege": 4,
+  "teamfight": 4,
+  "engage": 1,
+  "peel": 3,
+  "mobility": 1,
+  "self_sustain": 2,
+  "survivability": 1,
+  "objective": 3,
+  "global_presence": 1,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "knockback"
+  ],
+  "soft": [
+   "slow",
+   "root"
+  ],
+  "reliability": 2
+ },
  "good_into": [
-  {"tag": "poke_comp", "why": "Psionic Storm and Shock Ray outrange most heroes, so he wins the long range trade and can zone choke points before a fight starts."},
-  {"tag": "melee_heavy", "why": "Melee heroes must walk through Psionic Storm, which ramps up to double damage, and Shock Ray slows them; Force Wall can cut off the engage."},
-  {"tag": "immobile", "why": "Slow targets cannot step out of Psionic Storm or sidestep Shock Ray, so every ability lands in full."},
-  {"tag": "structures", "why": "Measured siege is about 6400 per minute against a league median near 4430, driven by Psionic Storm and Shock Ray on waves and forts."},
-  {"tag": "summons", "why": "Psionic Storm hits whole wave and summon clusters for area damage and clears minion screens cheaply."}
+  {
+   "tag": "poke_comp",
+   "why": "Psionic Storm and Shock Ray outrange most heroes, so he wins the long range trade and can zone choke points before a fight starts."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Melee heroes must walk through Psionic Storm, which ramps up to double damage, and Shock Ray slows them; Force Wall can cut off the engage."
+  },
+  {
+   "tag": "immobile",
+   "why": "Slow targets cannot step out of Psionic Storm or sidestep Shock Ray, so every ability lands in full."
+  },
+  {
+   "tag": "structures",
+   "why": "Measured siege is about 6400 per minute against a league median near 4430, driven by Psionic Storm and Shock Ray on waves and forts."
+  },
+  {
+   "tag": "summons",
+   "why": "Psionic Storm hits whole wave and summon clusters for area damage and clears minion screens cheaply."
+  }
  ],
  "bad_into": [
-  {"tag": "assassin", "why": "He has no escape outside Shadow Walk, low health, and Shock Ray is a channel that a diver simply ignores."},
-  {"tag": "mobile", "why": "Fast heroes dodge Shock Ray and leave Psionic Storm before it ramps, and Icy Veins notes all his abilities are easy to dodge."},
-  {"tag": "cc_heavy", "why": "Stuns, silences and knockbacks cancel Shock Ray and Archon time, and he has no way to cleanse."},
-  {"tag": "high_sustain_healer", "why": "Psionic Storm ticks and slow beam damage are spread, so a strong sustain healer can offset the chip."},
-  {"tag": "burst_dive", "why": "A coordinated dive removes a squishy immobile target before Archon or Black Hole come online."}
+  {
+   "tag": "assassin",
+   "why": "He has no escape outside Shadow Walk, low health, and Shock Ray is a channel that a diver simply ignores."
+  },
+  {
+   "tag": "mobile",
+   "why": "Fast heroes dodge Shock Ray and leave Psionic Storm before it ramps, and Icy Veins notes all his abilities are easy to dodge."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns, silences and knockbacks cancel Shock Ray and Archon time, and he has no way to cleanse."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Psionic Storm ticks and slow beam damage are spread, so a strong sustain healer can offset the chip."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "A coordinated dive removes a squishy immobile target before Archon or Black Hole come online."
+  }
  ],
- "wants_from_team": ["A tank or hard CC hero (E.T.C., Johanna style) to hold enemies in Psionic Storm and Shock Ray", "Peel from the frontline because he cannot escape", "A mobile assassin to finish low health targets he slows", "Safe positions behind choke points"],
- "gives_team": ["Elite wave clear so teammates can rotate", "Long range zone control at choke points and objectives", "Force Wall to split an engage or save an ally", "Archon spell armor shred of 20 for team burst"],
+ "wants_from_team": [
+  "A tank or hard CC hero (E.T.C., Johanna style) to hold enemies in Psionic Storm and Shock Ray",
+  "Peel from the frontline because he cannot escape",
+  "A mobile assassin to finish low health targets he slows",
+  "Safe positions behind choke points"
+ ],
+ "gives_team": [
+  "Elite wave clear so teammates can rotate",
+  "Long range zone control at choke points and objectives",
+  "Force Wall to split an engage or save an ally",
+  "Archon spell armor shred of 20 for team burst"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Very squishy and immobile", "Mana hungry unless Resonance Beam is kept charged", "Force Wall is hard to use and can hurt his own team", "Needs level 10 Archon to fight straight up"],
- "evidence": ["Shock Ray, Psionic Storm, Force Wall, Resonance Beam ability text", "Archon, Black Hole, Arc Discharge, Psionic Echo, Psi-Infusion talent text", "Icy Veins guide strengths and weaknesses", "Measured NGS block: hero damage 3022 and siege 6408 per minute, damage taken 1491, 7.4 seconds of enemy CC"],
+ "weaknesses": [
+  "Very squishy and immobile",
+  "Mana hungry unless Resonance Beam is kept charged",
+  "Force Wall is hard to use and can hurt his own team",
+  "Needs level 10 Archon to fight straight up"
+ ],
+ "evidence": [
+  "Shock Ray, Psionic Storm, Force Wall, Resonance Beam ability text",
+  "Archon, Black Hole, Arc Discharge, Psionic Echo, Psi-Infusion talent text",
+  "Icy Veins guide strengths and weaknesses",
+  "Measured NGS block: hero damage 3022 and siege 6408 per minute, damage taken 1491, 7.4 seconds of enemy CC"
+ ],
  "confidence": "high",
- "unsure": ["heal_blunted", "peel"]
+ "unsure": [
+  "heal_blunted",
+  "peel"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "chip_poke",
+  "damage_reach": "long",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "needs_cc_partner",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall",
+   "vision_or_reveal"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "zone_hold",
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "grants_vision"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "peel",
+   "front_line",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "damage",
+   "peel"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Every damage source is an ability (Psionic Storm, Shock Ray, Resonance Beam channel), and autos only matter inside Archon.",
+  "damage_timing": "Psionic Storm ticks and Shock Ray wear targets down from range; Black Hole is the only real burst and it is not the standard heroic.",
+  "damage_reliability": "Shock Ray is narrow and dodgeable, and Psionic Storm needs enemies to stay inside it to ramp, so both want a slow or a stun first.",
+  "durability_source": "Archon gives a 25 percent shield and Oracle gives spell armor, but he is a fragile hero with no healer reliance.",
+  "lane_role": "Elite wave clear lets him hold a lane, though Icy Veins wants him in a safe spot behind choke points.",
+  "kill_pattern": "Icy Veins says he has a hard time finishing, so he squeezes space and lets mobile assassins finish.",
+  "escape": "Only the Shadow Walk talent is an escape and it is not in the standard build, so a catch is a death.",
+  "cc_profile": "Shock Ray slows and Force Wall blocks space; the Black Hole stun is a heroic choice, not the usual one.",
+  "power_curve": "Archon at level 10 is the spike; Twilight Archon at 20 raises it further.",
+  "ultimate_role": "Standard heroic is Archon, which wins fights when enemies cannot walk away.",
+  "team_gives": "Force Wall can split an engage or save an ally, which is why peel is listed."
+ },
+ "lens_gaps": [
+  "no vulnerable_to value for a kit that is entirely dodgeable by mobile heroes",
+  "no value for a long channel that any CC cancels (damage_reliability has no channel_interruptible)"
+ ]
 }

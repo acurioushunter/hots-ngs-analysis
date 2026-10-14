@@ -2,37 +2,210 @@
  "hero": "Zagara",
  "slug": "zagara",
  "role": "Ranged Assassin",
- "attack": {"type": "ranged", "range": "long", "autos_matter": 3, "note": "Base range is 6.6 and Jagged Barbs adds 1.1 on creep. Her summons (Hunter Killer, Infested Drop roaches) and creep buffs matter more than her own autos, but autos are the harass tool and reduce cooldowns with Nydus Network."},
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 3,
+  "note": "Base range is 6.6 and Jagged Barbs adds 1.1 on creep. Her summons (Hunter Killer, Infested Drop roaches) and creep buffs matter more than her own autos, but autos are the harass tool and reduce cooldowns with Nydus Network."
+ },
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["siege", "sustained", "single_target"],
-  "poke": {"rating": 3, "kind": "skillshot", "dodgeable": 2, "note": "Baneling Barrage has slow shots that are easy to avoid when spammed, and Infested Drop has a delay. Her real poke is Hunter Killer, which locks onto a target and cannot be dodged, plus long range basic attacks on creep."},
+  "style": [
+   "siege",
+   "sustained",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 2,
+   "note": "Baneling Barrage has slow shots that are easy to avoid when spammed, and Infested Drop has a delay. Her real poke is Hunter Killer, which locks onto a target and cannot be dodged, plus long range basic attacks on creep."
+  },
   "heal_blunted": 4,
   "note": "A siege and summon based damage dealer: Hunter Killer hydralisks, roaches and banelings deal damage over time at long range. The damage is spread across many small sources, which sustained healing can offset, except Corrosive Saliva which adds percent max health. Devouring Maw is a unique removal for 4 seconds that cannot be countered by unstoppable."
  },
  "healing": null,
- "ratings": {"wave_clear": 5, "camp_clear": 5, "siege": 5, "teamfight": 3, "engage": 1, "peel": 2, "mobility": 1, "self_sustain": 2, "survivability": 1, "objective": 4, "global_presence": 3, "solo_lane": 5},
- "cc": {"hard": ["suppress"], "soft": ["slow"], "reliability": 3},
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 5,
+  "siege": 5,
+  "teamfight": 3,
+  "engage": 1,
+  "peel": 2,
+  "mobility": 1,
+  "self_sustain": 2,
+  "survivability": 1,
+  "objective": 4,
+  "global_presence": 3,
+  "solo_lane": 5
+ },
+ "cc": {
+  "hard": [
+   "suppress"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  {"tag": "split_push", "why": "Infest, Mutalisk, Nydus Network and Creep Tumor let her push and rotate; measured siege is 5365 per minute and merc camps 3.4 a game."},
-  {"tag": "tanky_frontline", "why": "Corrosive Saliva adds 1.5 percent max health damage through Hunter Killer and roaches, and Pack Instinct boosts damage on the target."},
-  {"tag": "structures", "why": "Hunter Killer, Banelings, Infest and Mutalisk tear down forts and keeps, which is her best known strength."},
-  {"tag": "cc_heavy", "why": "Devouring Maw removes enemy heroes for 4 seconds even if Unstoppable, and allies can chain CC when they come out."},
-  {"tag": "melee_heavy", "why": "Hunter Killer on creep and Viscous Acid slow let her kite, and Medusa Blades handles minion flood."}
+  {
+   "tag": "split_push",
+   "why": "Infest, Mutalisk, Nydus Network and Creep Tumor let her push and rotate; measured siege is 5365 per minute and merc camps 3.4 a game."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Corrosive Saliva adds 1.5 percent max health damage through Hunter Killer and roaches, and Pack Instinct boosts damage on the target."
+  },
+  {
+   "tag": "structures",
+   "why": "Hunter Killer, Banelings, Infest and Mutalisk tear down forts and keeps, which is her best known strength."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Devouring Maw removes enemy heroes for 4 seconds even if Unstoppable, and allies can chain CC when they come out."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Hunter Killer on creep and Viscous Acid slow let her kite, and Medusa Blades handles minion flood."
+  }
  ],
  "bad_into": [
-  {"tag": "global_ult", "why": "Heroes like Falstad and Dehaka limit her split pushing, per Icy Veins."},
-  {"tag": "assassin", "why": "High mobility assassins such as Illidan outsustain and stick to her even on creep, and she has no mobility."},
-  {"tag": "high_sustain_healer", "why": "Her damage comes from many small hits and summons that healers can undo, which weakens lane control and poke."},
-  {"tag": "mobile", "why": "Baneling and Drop shots are slow and telegraphed, so mobile heroes avoid them and then dive her."},
-  {"tag": "burst_dive", "why": "A team that catches her away from allies kills her before Spell Shield or Nydus Network help."}
+  {
+   "tag": "global_ult",
+   "why": "Heroes like Falstad and Dehaka limit her split pushing, per Icy Veins."
+  },
+  {
+   "tag": "assassin",
+   "why": "High mobility assassins such as Illidan outsustain and stick to her even on creep, and she has no mobility."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Her damage comes from many small hits and summons that healers can undo, which weakens lane control and poke."
+  },
+  {
+   "tag": "mobile",
+   "why": "Baneling and Drop shots are slow and telegraphed, so mobile heroes avoid them and then dive her."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "A team that catches her away from allies kills her before Spell Shield or Nydus Network help."
+  }
  ],
- "wants_from_team": ["One or two tanks to hold the frontline", "CC chains to combo with Devouring Maw", "Wave presence from teammates while she split pushes", "Vision and map awareness for ganks"],
- "gives_team": ["Elite wave clear and camp clear to free the team", "Siege and structure pressure", "Map wide vision from Creep Tumor", "Devouring Maw as team fight setup"],
+ "wants_from_team": [
+  "One or two tanks to hold the frontline",
+  "CC chains to combo with Devouring Maw",
+  "Wave presence from teammates while she split pushes",
+  "Vision and map awareness for ganks"
+ ],
+ "gives_team": [
+  "Elite wave clear and camp clear to free the team",
+  "Siege and structure pressure",
+  "Map wide vision from Creep Tumor",
+  "Devouring Maw as team fight setup"
+ ],
  "power_spike": "mid",
- "weaknesses": ["No mobility off creep", "Mana hungry", "Low burst", "Hunter Killer and Maw are easy to disrupt with CC and ganks"],
- "evidence": ["Baneling Barrage, Hunter Killer, Infested Drop, Devouring Maw, Nydus Network, Creep Tumor text", "Corrosive Saliva, Pack Instinct, Infest, Mutalisk talents", "Icy Veins strengths and weaknesses", "Measured NGS block: 3109 hero damage and 5365 siege per minute, damage taken 1240, 23.5 seconds of enemy CC (Devouring Maw), win rate 0.547"],
+ "weaknesses": [
+  "No mobility off creep",
+  "Mana hungry",
+  "Low burst",
+  "Hunter Killer and Maw are easy to disrupt with CC and ganks"
+ ],
+ "evidence": [
+  "Baneling Barrage, Hunter Killer, Infested Drop, Devouring Maw, Nydus Network, Creep Tumor text",
+  "Corrosive Saliva, Pack Instinct, Infest, Mutalisk talents",
+  "Icy Veins strengths and weaknesses",
+  "Measured NGS block: 3109 hero damage and 5365 siege per minute, damage taken 1240, 23.5 seconds of enemy CC (Devouring Maw), win rate 0.547"
+ ],
  "confidence": "high",
- "unsure": ["teamfight", "heal_blunted"]
+ "unsure": [
+  "teamfight",
+  "heal_blunted"
+ ],
+ "lenses": {
+  "damage_delivery": "summoner",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "long",
+  "target_style": "structure_focus",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "vision_or_reveal",
+   "zone_or_wall"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "summons_or_zone",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure",
+   "global_presence"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "grants_vision"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "vision",
+   "objective",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "sustain_heals"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "poke_siege"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Hunter Killer, roaches and banelings do the damage; her autos are the harass tool on creep.",
+  "damage_timing": "Hunter Killer, Corrosive Saliva and roach damage are many small damage over time sources, which is why healing blunts her.",
+  "target_style": "Measured siege is 5365 per minute; Infest, Hunter Killer and Mutalisk tear down forts, and wave clear is a means to that.",
+  "damage_reliability": "Hunter Killer cannot be dodged once it is on a visible target, but Baneling Barrage and Infested Drop are slow skillshots.",
+  "lane_role": "Icy Veins plays her as an offlaner who dominates early and pushes alone; solo lane rating is 5.",
+  "kill_pattern": "Measured enemy CC time is 23.5 seconds from Devouring Maw, so kills come from the Maw holding targets for allies.",
+  "escape": "Nydus Network is a heroic that heals her, but off creep she has no mobility; creep helps only on the map.",
+  "cc_profile": "Devouring Maw is a 4 second removal that works on Unstoppable; there is no other hard CC.",
+  "cc_delivery": "Icy Veins says opening with Maw almost never lands, so it needs a patient aim.",
+  "wave_clear_style": "Hunter Killer and drop roaches push lanes while she does something else.",
+  "objective_role": "Creep Tumor vision and Nydus give global presence; siege pressure is her main output.",
+  "map_mobility": "Creep gives her 20 percent speed and summons 30, but that is local; Nydus Network is the heroic alternative to Maw.",
+  "power_curve": "She bullies lanes early, but Maw at 10 and Corrosive Saliva at 16 are the spikes.",
+  "snowball": "Lane control and creep spread compound, then global heroes such as Falstad blunt it."
+ },
+ "lens_gaps": [
+  "no vulnerable_to value for global heroes that limit split pushing (Falstad, Dehaka)",
+  "no map_mobility value for fast only on her own creep",
+  "no durability_source value for healing that exists only on creep or inside Nydus"
+ ]
 }

@@ -1,90 +1,203 @@
 {
-  "hero": "Mei",
-  "slug": "mei",
-  "role": "Tank",
-  "attack": {
-    "type": "ranged",
-    "range": "short",
-    "autos_matter": 2,
-    "note": "Short range basic attack. Heat Transfer, Flurry and Cooling Servos make autos part of the build, but her value is Blizzard, Icing and the heroics."
+ "hero": "Mei",
+ "slug": "mei",
+ "role": "Tank",
+ "attack": {
+  "type": "ranged",
+  "range": "short",
+  "autos_matter": 2,
+  "note": "Short range basic attack. Heat Transfer, Flurry and Cooling Servos make autos part of the build, but her value is Blizzard, Icing and the heroics."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": [
+   "aoe",
+   "zone",
+   "dot"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "zone",
+   "dodgeable": 3,
+   "note": "Blizzard lasts 2 seconds for 192 total with a delayed stun, and Snow Blind is a short throw. Neither is a reliable poke because they have a delay and a small area."
   },
-  "damage": {
-    "carry": false,
-    "ranged_dealer": false,
-    "style": ["aoe", "zone", "dot"],
-    "poke": {
-      "rating": 2,
-      "kind": "zone",
-      "dodgeable": 3,
-      "note": "Blizzard lasts 2 seconds for 192 total with a delayed stun, and Snow Blind is a short throw. Neither is a reliable poke because they have a delay and a small area."
-    },
-    "heal_blunted": 4,
-    "note": "Damage is small ticks (13 per 0.25 second) plus a stun burst, and 1486 per minute measured. Healing blunts it, and the Polar Vortex and Heat Transfer damage are low."
+  "heal_blunted": 4,
+  "note": "Damage is small ticks (13 per 0.25 second) plus a stun burst, and 1486 per minute measured. Healing blunts it, and the Polar Vortex and Heat Transfer damage are low."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 2,
+  "siege": 2,
+  "teamfight": 4,
+  "engage": 4,
+  "peel": 4,
+  "mobility": 3,
+  "self_sustain": 4,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "knockback",
+   "blind",
+   "time_stop"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
+ "good_into": [
+  {
+   "tag": "immobile",
+   "why": "Slows from Snow Blind, Icing and Black Ice set up the Blizzard stun and Avalanche, so heroes without a dash cannot leave. The guide says she punishes heroes who lack mobility."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 3,
-    "camp_clear": 2,
-    "siege": 2,
-    "teamfight": 4,
-    "engage": 4,
-    "peel": 4,
-    "mobility": 3,
-    "self_sustain": 4,
-    "survivability": 4,
-    "objective": 3,
-    "global_presence": 0,
-    "solo_lane": 3
+  {
+   "tag": "melee_heavy",
+   "why": "Snow Blind blinds, Icing knocks back and slows by 80 percent, Cooling Servos slows autos and Skating Away gives 50 armor. Basic attack melee heroes lose their damage and cannot chase."
   },
-  "cc": {
-    "hard": ["stun", "knockback", "blind", "time_stop"],
-    "soft": ["slow"],
-    "reliability": 3
+  {
+   "tag": "burst_dive",
+   "why": "Cryo-Freeze (1104 shield, Unstoppable, heals 35 percent) and Ice Wall as a time stop frees her team from a dive. Flash Freeze gives a second use."
   },
-  "good_into": [
-    { "tag": "immobile", "why": "Slows from Snow Blind, Icing and Black Ice set up the Blizzard stun and Avalanche, so heroes without a dash cannot leave. The guide says she punishes heroes who lack mobility." },
-    { "tag": "melee_heavy", "why": "Snow Blind blinds, Icing knocks back and slows by 80 percent, Cooling Servos slows autos and Skating Away gives 50 armor. Basic attack melee heroes lose their damage and cannot chase." },
-    { "tag": "burst_dive", "why": "Cryo-Freeze (1104 shield, Unstoppable, heals 35 percent) and Ice Wall as a time stop frees her team from a dive. Flash Freeze gives a second use." },
-    { "tag": "tanky_frontline", "why": "Avalanche with Cascade averages about 500 damage, and Ice Wall with Shatter does 210 plus 25 armor reduction. She is a good engage that splits their tank from the team." }
+  {
+   "tag": "tanky_frontline",
+   "why": "Avalanche with Cascade averages about 500 damage, and Ice Wall with Shatter does 210 plus 25 armor reduction. She is a good engage that splits their tank from the team."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "mobile",
+   "why": "The guide says her peeling tools do nothing against Tracer type heroes. Blizzard is delayed and a dash escapes the stun."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Poke from a long distance (Li-Ming) wears her down before she can engage, and Cryo-Freeze is a stationary 3 second cooldown of 40 seconds."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Root and knockback (Malfurion, E.T.C.) stop Icing during the slide. Cryo-Freeze can cover only one."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "Her damage is spread chip. A strong sustain healer can ignore Blizzard ticks, Polar Vortex and Snow Blind."
+  }
+ ],
+ "wants_from_team": [
+  "mage or burst to follow her stun",
+  "a second engage so her engage is not alone (Maiev)",
+  "terrain or force walls that keep enemies inside Blizzard"
+ ],
+ "gives_team": [
+  "wide area stun and slow control",
+  "Ice Wall to split the enemy team",
+  "armor and speed for the team with Skating Away",
+  "disengage with Icing and Snow Blind"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "weak to high mobility heroes",
+  "weak to roots and knockbacks",
+  "weak to shield breaking and percent damage",
+  "slow delayed abilities",
+  "measured win rate 0.450"
+ ],
+ "evidence": [
+  "Blizzard",
+  "Icing",
+  "Snow Blind",
+  "Cryo-Freeze",
+  "Ice Wall",
+  "Avalanche",
+  "Cascade",
+  "Shatter",
+  "Cooling Servos",
+  "Icy Veins synergies and counters",
+  "measured: damage taken 3698 per minute, hero damage 1486 per minute, win rate 0.450, 800 games"
+ ],
+ "confidence": "medium",
+ "unsure": [
+  "ratings.wave_clear",
+  "ratings.siege",
+  "damage.poke.dodgeable"
+ ],
+ "lenses": {
+  "damage_delivery": "zone_trap",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
   ],
-  "bad_into": [
-    { "tag": "mobile", "why": "The guide says her peeling tools do nothing against Tracer type heroes. Blizzard is delayed and a dash escapes the stun." },
-    { "tag": "poke_comp", "why": "Poke from a long distance (Li-Ming) wears her down before she can engage, and Cryo-Freeze is a stationary 3 second cooldown of 40 seconds." },
-    { "tag": "cc_heavy", "why": "Root and knockback (Malfurion, E.T.C.) stop Icing during the slide. Cryo-Freeze can cover only one." },
-    { "tag": "high_sustain_healer", "why": "Her damage is spread chip. A strong sustain healer can ignore Blizzard ticks, Polar Vortex and Snow Blind." }
+  "frontline_style": "zone_controller",
+  "durability_source": [
+   "armor_or_shield",
+   "self_heal"
   ],
-  "wants_from_team": [
-    "mage or burst to follow her stun",
-    "a second engage so her engage is not alone (Maiev)",
-    "terrain or force walls that keep enemies inside Blizzard"
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall",
+   "speed_buff"
   ],
-  "gives_team": [
-    "wide area stun and slow control",
-    "Ice Wall to split the enemy team",
-    "armor and speed for the team with Skating Away",
-    "disengage with Icing and Snow Blind"
+  "cc_profile": "chain_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "cleanse",
+   "unstoppable"
   ],
-  "power_spike": "level_10",
-  "weaknesses": [
-    "weak to high mobility heroes",
-    "weak to roots and knockbacks",
-    "weak to shield breaking and percent damage",
-    "slow delayed abilities",
-    "measured win rate 0.450"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "poor",
+  "objective_role": [
+   "zone_hold"
   ],
-  "evidence": [
-    "Blizzard",
-    "Icing",
-    "Snow Blind",
-    "Cryo-Freeze",
-    "Ice Wall",
-    "Avalanche",
-    "Cascade",
-    "Shatter",
-    "Cooling Servos",
-    "Icy Veins synergies and counters",
-    "measured: damage taken 3698 per minute, hero damage 1486 per minute, win rate 0.450, 800 games"
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
   ],
-  "confidence": "medium",
-  "unsure": ["ratings.wave_clear", "ratings.siege", "damage.poke.dodgeable"]
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup"
+  ],
+  "team_gives": [
+   "engage",
+   "peel",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "poke",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "zone_control",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Blizzard, Ice Wall and Avalanche are areas the enemy sits in, so the zone fits better than brawler. Her autos are short range filler.",
+  "cc_profile": "Blizzard stun (delayed), Icing knockback and slow, Ice Wall time stop and Snow Blind. Reliability is held down by the delays, so she is chain hard on paper but 3 of 5 in practice.",
+  "anti_cc": "Backup Battery (talent) removes roots and slows, Cryo-Freeze is Unstoppable with a shield.",
+  "camp_play": "Camp clear rating is 2, Blizzard is slow on camps.",
+  "lane_role": "She can hold a lane with Blizzard but wants to be with the team for Ice Wall and Avalanche, so soak and group.",
+  "durability_source": "Cryo-Freeze gives a 1104 shield and heals, Skating Away gives armor. Poor against percent damage and shield breaking."
+ },
+ "lens_gaps": [
+  "no value on vulnerable_to for shield breaking or percent damage (Varian Shattering Throw, Leoric), named in her weaknesses"
+ ]
 }

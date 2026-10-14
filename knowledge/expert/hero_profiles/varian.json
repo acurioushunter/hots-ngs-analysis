@@ -124,5 +124,86 @@
  ],
  "owner_corrections": [
   "role Tank to Bruiser"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "initiator",
+  "durability_source": [
+   "damage_reduction",
+   "self_heal"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "backline_dive",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "anti_heal",
+   "silence_or_dismount"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "steady",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "team_dependent",
+  "team_needs": [
+   "healer",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "poke",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Value is for the Taunt tank build the guide recommends in a draft; Twin Blades would be auto_attacker.",
+  "frontline_style": "Owner: a tank with Taunt at level 4; damage taken 4419 per minute fits. Charge is the engage.",
+  "durability_source": "Parry negates basic attacks, Shield Wall and Demoralizing Shout reduce damage, Lion's Fang heals.",
+  "kill_pattern": "Charge onto a target, Taunt or Colossus Smash then burst; takedowns 9.4 per game.",
+  "escape": "Charge is the only mobility tool, 12 second cooldown.",
+  "utility_tool": "Owner: has an anti heal talent (Mortal Strike); Taunt silences.",
+  "cc_profile": "Taunt 1.25 seconds on a 16 second cooldown, Charge slows briefly.",
+  "cc_delivery": "Taunt is a targeted effect.",
+  "power_curve": "Weak before level 4, the role then depends on the heroic.",
+  "ultimate_role": "Taunt locks one target; Colossus Smash and Twin Blades are damage heroics.",
+  "execution_demand": "Needs follow up burst and a visible role choice at level 4.",
+  "camp_play": "Camps 2.9 per game, slow.",
+  "vulnerable_to": "Poor wave clear, low mobility; win rate 0.459 in NGS."
+ },
+ "lens_gaps": [
+  "no way to give values per level 4 heroic build (tank, melee assassin or duelist) in one lens",
+  "team_needs has no value for follow up burst on Taunt"
  ]
 }

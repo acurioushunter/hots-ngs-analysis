@@ -11,8 +11,17 @@
  "damage": {
   "carry": true,
   "ranged_dealer": false,
-  "style": ["dot", "sustained", "aoe"],
-  "poke": { "rating": 1, "kind": "dot", "dodgeable": 3, "note": "Keg Smash plus Breath of Fire applies an Ignite worth 342 damage over 6 seconds, but it needs him in cone range of the target." },
+  "style": [
+   "dot",
+   "sustained",
+   "aoe"
+  ],
+  "poke": {
+   "rating": 1,
+   "kind": "dot",
+   "dodgeable": 3,
+   "note": "Keg Smash plus Breath of Fire applies an Ignite worth 342 damage over 6 seconds, but it needs him in cone range of the target."
+  },
   "heal_blunted": 4,
   "note": "Damage comes from the Brew Ignite dot and autos, so strong sustained healers undo much of it. Withering Flames cuts the Spell Power of ignited heroes, and Stagger makes him very hard to burst, so he trades well in a duel."
  },
@@ -31,18 +40,51 @@
   "global_presence": 1,
   "solo_lane": 4
  },
- "cc": { "hard": ["knockback", "root"], "soft": ["slow"], "reliability": 3 },
+ "cc": {
+  "hard": [
+   "knockback",
+   "root"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  { "tag": "burst_dive", "why": "Stagger prevents three seconds of damage then spreads 75 percent over five, and Fortifying Brew shields on top, so a burst combo is largely wasted on him." },
-  { "tag": "melee_heavy", "why": "He wins duels with Brew slow, Ignite and self healing, and Eye of the Tiger heals him off Brew soaked targets." },
-  { "tag": "poke_comp", "why": "Fortifying Brew shields and Brewmaster's Balance regeneration absorb chip, and Flying Kick lets him close on a poke hero." },
-  { "tag": "kiter", "why": "Keg Smash slows 40 percent after a moment, Pressure Point slows 80 percent, and Flying Kick plus Wandering Keg close distance." }
+  {
+   "tag": "burst_dive",
+   "why": "Stagger prevents three seconds of damage then spreads 75 percent over five, and Fortifying Brew shields on top, so a burst combo is largely wasted on him."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "He wins duels with Brew slow, Ignite and self healing, and Eye of the Tiger heals him off Brew soaked targets."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Fortifying Brew shields and Brewmaster's Balance regeneration absorb chip, and Flying Kick lets him close on a poke hero."
+  },
+  {
+   "tag": "kiter",
+   "why": "Keg Smash slows 40 percent after a moment, Pressure Point slows 80 percent, and Flying Kick plus Wandering Keg close distance."
+  }
  ],
  "bad_into": [
-  { "tag": "cc_heavy", "why": "Stuns and silences stop Fortifying Brew channeling and Stagger timing, and the guide lists interrupts as his weakness." },
-  { "tag": "high_sustain_healer", "why": "The Ignite is a damage over time that strong healers undo, so his kill pressure drops." },
-  { "tag": "tanky_frontline", "why": "Without percent health or armor reduction beyond the Accumulating Flame mythic reward, he cannot burst armored fronts." },
-  { "tag": "ranged_heavy", "why": "Brew costs and a cone ability make him work to reach a ranged line that can kite his low baseline mobility." }
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns and silences stop Fortifying Brew channeling and Stagger timing, and the guide lists interrupts as his weakness."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "The Ignite is a damage over time that strong healers undo, so his kill pressure drops."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Without percent health or armor reduction beyond the Accumulating Flame mythic reward, he cannot burst armored fronts."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Brew costs and a cone ability make him work to reach a ranged line that can kite his low baseline mobility."
+  }
  ],
  "wants_from_team": [
   "A frontline partner so he can duel in a lane safely",
@@ -70,5 +112,77 @@
   "Measured: win rate 0.494, damage taken 4850 per minute (very high), healing 268, 2.3 deaths"
  ],
  "confidence": "high",
- "unsure": []
+ "unsure": [],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "point_blank",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "guaranteed"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "damage_reduction",
+   "self_heal",
+   "armor_or_shield"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "flank_pick",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "ok",
+  "objective_role": [
+   "zone_hold"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "peel"
+  ],
+  "team_gives": [
+   "engage",
+   "peel"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "sustain_heals",
+   "tanky_frontline"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Breath of Fire ignites Brew soaked targets and autos fill the gaps, so both matter.",
+  "durability_source": "Stagger spreads damage over time and Fortifying Brew shields, measured damage taken 4850 per minute is the highest of this set.",
+  "cc_profile": "Wandering Keg knockback is the one dependable hard tool, Flying Kick root and Pressure Point slow depend on talents.",
+  "ultimate_role": "Storm, Earth, Fire is the three body fight swing, Wandering Keg is the pick or peel alternative.",
+  "kill_pattern": "Duels and Flying Kick picks rather than a planned dive.",
+  "map_mobility": "Flying Kick and Celerity help but need a target or talent."
+ },
+ "lens_gaps": [
+  "no value for a brew or resource management demand on execution_demand"
+ ]
 }

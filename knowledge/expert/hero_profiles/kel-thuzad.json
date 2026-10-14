@@ -124,5 +124,90 @@
   "power_spike",
   "heal_blunted"
  ],
- "owner_notes": "A high skill floor burst mage who does best with easy CC to set up his combos. Massive burst, but no escapes and the combos are hard to land, so he is not popular."
+ "owner_notes": "A high skill floor burst mage who does best with easy CC to set up his combos. Massive burst, but no escapes and the combos are hard to land, so he is not popular.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability",
+   "zone_or_wall"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "summons_or_zone",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure",
+   "global_presence"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "stack_dependent",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "cc_setup",
+   "peel",
+   "front_line",
+   "healer"
+  ],
+  "team_gives": [
+   "cc_setup",
+   "damage",
+   "engage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "kiting",
+   "hard_cc",
+   "early_pressure",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "He is a caster, but Death and Decay pools are a zone; scored ability_caster.",
+  "damage_reliability": "Chains, Frost Nova and Frost Blast are skillshots; Master of the Cold Dark is a stack quest; Hungering Cold needs allied CC.",
+  "lane_role": "Owner and Icy Veins: he is weak solo and needs skirmishes.",
+  "setup_reliance": "Chains and Frost Nova start his own kills, but they are dodgeable and the combo is stronger on allied CC.",
+  "cc_profile": "Chains pull, Frost Nova root, Frost Blast root and Shadow Fissure stun make a chain; the cost is four skillshots.",
+  "wave_clear_style": "Death and Decay pool with The Damned Return clears waves while he positions.",
+  "objective_role": "Shadow Fissure is a global follow up.",
+  "power_curve": "Master of the Cold Dark stacks on hits, so weak early then scales; confidence is medium.",
+  "ultimate_role": "Frost Blast is the CC heroic that isolates a target; Shadow Fissure is the damage heroic. Scored for Frost Blast.",
+  "execution_demand": "Owner: high skill floor, combos hard to land."
+ },
+ "lens_gaps": [
+  "no value for 'pulls an enemy' on cc_profile or cc_delivery (Chains is a pull)",
+  "no value on power_curve or snowball that tracks a stack of hits that resets on misses",
+  "ultimate_role cannot say a heroic that is a global follow up (Shadow Fissure)"
+ ]
 }

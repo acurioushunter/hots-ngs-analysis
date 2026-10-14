@@ -11,8 +11,17 @@
  "damage": {
   "carry": true,
   "ranged_dealer": false,
-  "style": ["sustained", "single_target", "percent_health"],
-  "poke": { "rating": 0, "kind": "none", "dodgeable": 5, "note": "No poke. Phase Prism is a short displacement skillshot used to engage or peel, not to chip." },
+  "style": [
+   "sustained",
+   "single_target",
+   "percent_health"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 5,
+   "note": "No poke. Phase Prism is a short displacement skillshot used to engage or peel, not to chip."
+  },
   "heal_blunted": 3,
   "note": "A steady melee auto fighter whose damage is moderate per second but long lasting thanks to Shield Overload. Titan Killer and Twin Blades give some percent health burst. Healers on the enemy side blunt it because it is spread across autos, but his shields make him hard to out sustain. Purifier Beam is a single target damage over time that needs the target to be held in place."
  },
@@ -31,18 +40,51 @@
   "global_presence": 2,
   "solo_lane": 3
  },
- "cc": { "hard": ["pull"], "soft": ["slow", "blind"], "reliability": 2 },
+ "cc": {
+  "hard": [
+   "pull"
+  ],
+  "soft": [
+   "slow",
+   "blind"
+  ],
+  "reliability": 2
+ },
  "good_into": [
-  { "tag": "melee_heavy", "why": "Shield Overload refreshes off autos and Blade Dash hits, so he wins long melee brawls where he stays in range and keeps swinging." },
-  { "tag": "poke_comp", "why": "Shield Overload triggers below 75 percent health and Shield Battery recharges it fast while the shield is up, so chip damage is largely absorbed." },
-  { "tag": "squishy_backline", "why": "Phase Prism swaps him onto a backline hero and grants Unstoppable, and Titan Killer with Twin Blades gives percent health burst on mobile targets." },
-  { "tag": "structures", "why": "Plasma Burn damages structures while Shield Overload is active, and Amateur Opponent plus Blade Dash clear camps and summons well." }
+  {
+   "tag": "melee_heavy",
+   "why": "Shield Overload refreshes off autos and Blade Dash hits, so he wins long melee brawls where he stays in range and keeps swinging."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Shield Overload triggers below 75 percent health and Shield Battery recharges it fast while the shield is up, so chip damage is largely absorbed."
+  },
+  {
+   "tag": "squishy_backline",
+   "why": "Phase Prism swaps him onto a backline hero and grants Unstoppable, and Titan Killer with Twin Blades gives percent health burst on mobile targets."
+  },
+  {
+   "tag": "structures",
+   "why": "Plasma Burn damages structures while Shield Overload is active, and Amateur Opponent plus Blade Dash clear camps and summons well."
+  }
  ],
  "bad_into": [
-  { "tag": "cc_heavy", "why": "Blind stops his auto loop and his only gap closer is Twin Blades. Roots, slows, knockbacks (E.T.C. Face Melt) and stuns cancel Blade Dash animation and leave him stranded." },
-  { "tag": "kiter", "why": "He has almost no mobility and no ranged damage, so a kiting hero never lets him land the autos that power Shield Overload." },
-  { "tag": "burst_dive", "why": "Shield Overload needs him to take damage and be below 75 percent, and a burst combo kills him before the shield and cooldown loop starts." },
-  { "tag": "tanky_frontline", "why": "Heavily armored targets soak his physical autos, and he cannot reach their backline without Phase Prism or Twin Blades." }
+  {
+   "tag": "cc_heavy",
+   "why": "Blind stops his auto loop and his only gap closer is Twin Blades. Roots, slows, knockbacks (E.T.C. Face Melt) and stuns cancel Blade Dash animation and leave him stranded."
+  },
+  {
+   "tag": "kiter",
+   "why": "He has almost no mobility and no ranged damage, so a kiting hero never lets him land the autos that power Shield Overload."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Shield Overload needs him to take damage and be below 75 percent, and a burst combo kills him before the shield and cooldown loop starts."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Heavily armored targets soak his physical autos, and he cannot reach their backline without Phase Prism or Twin Blades."
+  }
  ],
  "wants_from_team": [
   "Crowd control to hold targets in melee range after Blade Dash plus Phase Prism",
@@ -69,5 +111,76 @@
   "Measured: win rate 0.437, hero damage 1932 per minute, damage taken 3465, 0.6 seconds of CC applied per game"
  ],
  "confidence": "high",
- "unsure": []
+ "unsure": [],
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "armor_or_shield",
+   "relies_on_healer"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "flank_pick",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "unstoppable"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "ok",
+  "objective_role": [
+   "global_presence"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "cc_setup",
+   "healer"
+  ],
+  "team_gives": [
+   "peel",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "dive",
+   "tanky_frontline"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Shield Overload cuts its cooldown 4 seconds per auto, so the loop is autos.",
+  "kill_pattern": "Phase Prism swap and Twin Blades put him on a backline target, but the measured 7.8 takedowns are below median.",
+  "cc_profile": "Phase Prism pull is the only hard tool, Suppression Pulse blind is soft.",
+  "anti_cc": "Phase Prism grants Unstoppable on the swap.",
+  "ultimate_role": "Suppression Pulse is a global blind that swings fights by cutting auto damage; Purifier Beam is the single target alternative.",
+  "utility_tool": "Suppression Pulse reaches the whole map.",
+  "lane_role": "Solo lane rating 3, he can hold one but wins by grouping."
+ },
+ "lens_gaps": []
 }

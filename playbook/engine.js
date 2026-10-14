@@ -196,6 +196,34 @@
     return out;
   };
 
+  // Lens read: the lens values on a side (hero profiles) against what the league's drafts did with them (data.comps.lens_signal).
+  // side is "us" or "opp". Associations, not causes: lens values cluster in comps.
+  E.lensTally = function (picks) {
+    const hs = D().heroes, cnt = {}, who = {};
+    (picks || []).forEach(h => {
+      const L = ((hs[h] || {}).profile || {}).lenses || {};
+      Object.keys(L).forEach(k => (Array.isArray(L[k]) ? L[k] : [L[k]]).forEach(v => { const key = k + "=" + v; cnt[key] = (cnt[key] || 0) + 1; (who[key] = who[key] || []).push(h); }));
+    });
+    return { cnt, who };
+  };
+  E.lensRead = function (st, side) {
+    const sig = (D().comps || {}).lens_signal, cat = D().lens_catalog || {};
+    if (!sig || !sig.items || !sig.items.length) return null;
+    const picks = E.picks(st, side || "us"), t = E.lensTally(picks);
+    const remaining = side === "opp" ? 5 - picks.length : E.remainingPicks(st, "us");
+    const label = i => (cat[i.lens] && cat[i.lens].values[i.value]) || i.value.replace(/_/g, " ");
+    const out = { picks: picks.length, present: [], missing: [], sides: sig.sides };
+    sig.items.forEach(i => {
+      const have = t.cnt[i.lens + "=" + i.value] || 0, good = i.with_wr > i.without_wr;
+      const item = { lens: i.lens, value: i.value, text: label(i), min: i.min, have, heroes: t.who[i.lens + "=" + i.value] || [], n: i.n, withWr: i.with_wr, withoutWr: i.without_wr, z: i.z, recent: i.recent, good };
+      if (have >= i.min) out.present.push(item);
+      else if (good && remaining > 0 && have + remaining >= i.min) out.missing.push(item);
+    });
+    out.present.sort((a, b) => Math.abs(b.z) - Math.abs(a.z));
+    out.missing.sort((a, b) => b.z - a.z);
+    return out;
+  };
+
   E.compSummary = function (st) {
     const hs = E.picks(st, "us");
     const info = hs.map(heroInfo);

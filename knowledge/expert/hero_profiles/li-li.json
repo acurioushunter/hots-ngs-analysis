@@ -130,5 +130,79 @@
   "ratings.peel",
   "cc.reliability"
  ],
- "owner_notes": "Okay sustain healing with a cleanse and no escapes. Solid in low ranks, not as effective in high rank or competitive play."
+ "owner_notes": "Okay sustain healing with a cleanse and no escapes. Solid in low ranks, not as effective in high rank or competitive play.",
+ "lenses": {
+  "damage_delivery": "summoner",
+  "damage_timing": "chip_poke",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "none",
+  "escape": "partial",
+  "setup_reliance": "needs_peel",
+  "healer_class": "sustain_single",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "cleanse_or_cc_denial"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "cleanse"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "defensive",
+  "execution_demand": "low",
+  "team_needs": [
+   "front_line",
+   "peel",
+   "wave_clear",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "sustain",
+   "peel"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire",
+   "poke"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Cloud Serpent hits automatically every second for 26 and Blinding Wind picks the two nearest enemies, so little is aimed (1140 damage per minute measured).",
+  "cc_profile": "Blinding Wind blinds and Water Dragon slows 70%; she has no hard CC.",
+  "anti_cc": "Owner calls it a cleanse: Let's Go heals and makes an ally Unstoppable (not on herself), Shake It Off is armor for herself.",
+  "ultimate_role": "Jug of 1,000 Cups heals the lowest ally and is a channel stuns interrupt; Water Dragon is the slow alternative.",
+  "execution_demand": "Healing Brew and Jug pick the lowest ally so there is little to aim, but owner notes she is weaker the higher the rank.",
+  "escape": "Safety Sprint is a talent with armor and speed; no baseline escape.",
+  "power_curve": "Jug of 1,000 Cups comes at level 10; measured win rate is 0.357 over 154 games."
+ },
+ "lens_gaps": [
+  "no value on healer_class for auto targeted healing that prioritizes the lowest Health ally (no control over who it heals)",
+  "no anti_cc value for CC denial that is only on allies (Let's Go)"
+ ]
 }

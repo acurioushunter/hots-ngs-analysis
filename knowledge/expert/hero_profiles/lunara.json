@@ -121,5 +121,83 @@
  "unsure": [
   "power_spike"
  ],
- "owner_notes": "A sustain damage hero with little burst who kites and pokes with a slightly higher move speed in lane and ranged autos. Cannot mount, so she is stuck at her own speed. Great into low sustain supports like Uther because her poison on many people outruns his healing and mana. Against healers like Brightwing the steady healing negates her damage."
+ "owner_notes": "A sustain damage hero with little burst who kites and pokes with a slightly higher move speed in lane and ranged autos. Cannot mount, so she is stuck at her own speed. Great into low sustain supports like Uther because her poison on many people outruns his healing and mana. Against healers like Brightwing the steady healing negates her damage.",
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "attrition",
+  "escape": "partial",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "vision_or_reveal"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "ok",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "grants_vision",
+   "detection"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "steady",
+  "ultimate_role": "low_impact",
+  "execution_demand": "medium",
+  "team_needs": [
+   "peel",
+   "front_line",
+   "healer"
+  ],
+  "team_gives": [
+   "vision",
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "sustain_heals",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Autos apply Nature's Toxin and most talents feed autos (profile autos_matter 4).",
+  "damage_timing": "Poison stacks and ticks over 3 to 9 seconds; Intensifying Toxin adds a small burst at 3 stacks.",
+  "target_style": "Single target autos with spread poison; Invigorating Spores adds percent health only as a talent.",
+  "escape": "Leaping Strike heroic and Galloping Gait; owner says she cannot mount.",
+  "cc_profile": "Crippling Spores and Thornwood Vine slow only; 0.3 seconds of CC per game measured.",
+  "objective_role": "Level 4 PvE talents help, but she has no objective tool; scored little. Judgement call.",
+  "map_mobility": "Owner: cannot mount, stuck at her own speed. Followed over the profile mobility rating of 4.",
+  "ultimate_role": "Thornwood Vine and Leaping Strike are both small; she is picked for the basic kit.",
+  "vulnerable_to": "Owner: healers like Brightwing negate her steady poison (sustain_heals)."
+ },
+ "lens_gaps": [
+  "no value for 'mobility is her trait but she cannot mount' on map_mobility",
+  "no value for a damage over time hero that is countered by area healing on vulnerable_to (sustain_heals covers it only in general)"
+ ]
 }

@@ -126,5 +126,80 @@
   "ratings.global_presence",
   "healing.burst_heal"
  ],
- "owner_notes": "A good healer without great healing numbers but solid sustain. Can pick the shield heroic against burst or High Five to cleanse CC. High skill floor and ceiling. Played well he disrupts rotations and is hard to kill thanks to mobility, but heroes like Diablo can stun him on walls while he is wall riding."
+ "owner_notes": "A good healer without great healing numbers but solid sustain. Can pick the shield heroic against burst or High Five to cleanse CC. High skill floor and ceiling. Played well he disrupts rotations and is hard to kill thanks to mobility, but heroes like Diablo can stun him on walls while he is wall riding.",
+ "lenses": {
+  "damage_delivery": "utility_minimal",
+  "damage_timing": "chip_poke",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "untargetable_or_escape"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "none",
+  "escape": "strong",
+  "setup_reliance": "needs_peel",
+  "healer_class": "aoe_sustain",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "speed_buff",
+   "cleanse_or_cc_denial"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "mobility_through",
+   "unstoppable"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "mobility_rotate"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "steady",
+  "snowball": "steady",
+  "ultimate_role": "defensive",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "sustain",
+   "mobility"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "dive",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Damage is a side job: Soundwave, Push Off and Smooth Moves attacks. Measured 1092 per minute.",
+  "healer_safety": "Wall Ride and speed make him hard to catch, but a short range aura keeps him near the team and the owner notes Diablo can stun him on walls.",
+  "cc_profile": "Soundwave knockback and Push Off slow are soft. Heavy Casters adds a 0.5 second stun talent, so not counted.",
+  "anti_cc": "Unstoppable only with the High Five heroic option, standard Sound Barrier build relies on Wall Ride to leave CC.",
+  "utility_tool": "High Five gives Unstoppable to an ally (the owner picks it into CC). Sound Barrier is a shield, listed under durability of the team, not a tool here.",
+  "power_curve": "Icy Veins calls him even through the game, but Rejuvenescencia and House Party make level 16 to 20 his best healing.",
+  "execution_demand": "Owner notes a high skill floor and ceiling."
+ },
+ "lens_gaps": [
+  "no value for a healer that is a rotation tool (speed aura plus disruption) on healer_class, aoe_sustain hides it",
+  "no lens for team wide shield or burst answer (Sound Barrier) separate from healing"
+ ]
 }

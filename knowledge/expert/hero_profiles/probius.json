@@ -125,5 +125,88 @@
   "ratings.engage",
   "damage.heal_blunted"
  ],
- "owner_notes": "Setup dependent because he needs Pylons around him. Dies to dive or CC and is weaker in the current meta."
+ "owner_notes": "Setup dependent because he needs Pylons around him. Dies to dive or CC and is weaker in the current meta.",
+ "lenses": {
+  "damage_delivery": "summoner",
+  "damage_timing": "chip_poke",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "setup_needed",
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "armor_or_shield"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "attrition",
+  "escape": "partial",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "vision_or_reveal",
+   "zone_or_wall"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "zone_hold",
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "grants_vision",
+   "detection"
+  ],
+  "power_curve": "steady",
+  "snowball": "steady",
+  "ultimate_role": "objective_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "objective",
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "zone_control",
+   "split_push",
+   "poke_siege"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Photon Cannons and Pylons are summons, but Disruption Pulse plus Warp Rift is a trap style combo. Summoner fits the cannons and Pylon Overcharge best.",
+  "setup_reliance": "Follows Hunter: he needs Pylons around him and dies to dive or CC. No catalog value says needs its own placed structures, so needs_peel is the nearest.",
+  "durability_source": "Very low Health. Shield Capacitor and Photon Barrier help a little.",
+  "cc_profile": "Warp Rift and Null Gate slow only (25 and 80 percent). Interference is a knockback talent. No stun or root, as the guide says.",
+  "healer_class": "Shield Battery and Power Overflowing give allies shields and mana in a Power Field (measured healing about 512 per minute) but he is not a healer.",
+  "split_potential": "Guide says he should favor split pushing. Measured siege damage of 7939 per minute is the highest in this group.",
+  "ultimate_role": "Pylon Overcharge and Null Gate are for objectives and zoning. Neither is a pick tool.",
+  "power_curve": "Needs time to set up Pylons and Rifts, so he is best when fights are pre planned at objectives.",
+  "camp_play": "No clear guide statement. Cannons tank camps but measured camps are 2.6 per game."
+ },
+ "lens_gaps": [
+  "no value on setup_reliance for a hero that needs its own placed structures (Pylons) before it works",
+  "no value on healer_class for a damage hero that gives allies shields and mana through a field (Power Field talents)"
+ ]
 }

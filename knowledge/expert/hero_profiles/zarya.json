@@ -1,100 +1,219 @@
 {
-  "hero": "Zarya",
-  "slug": "zarya",
-  "role": "Support",
-  "attack": {
-    "type": "ranged",
-    "range": "short",
-    "autos_matter": 4,
-    "note": "Her beam attack hits every enemy in a line and Feel the Heat gives 50 percent more damage to enemies in melee range, so her damage is mostly autos plus Particle Grenade. Short range, not a long range attacker."
+ "hero": "Zarya",
+ "slug": "zarya",
+ "role": "Support",
+ "attack": {
+  "type": "ranged",
+  "range": "short",
+  "autos_matter": 4,
+  "note": "Her beam attack hits every enemy in a line and Feel the Heat gives 50 percent more damage to enemies in melee range, so her damage is mostly autos plus Particle Grenade. Short range, not a long range attacker."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": [
+   "sustained",
+   "aoe",
+   "burst"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Particle Grenade has 4 charges, 80 damage and is better at high Energy. Pinpoint Accuracy adds slow at the center. It is real poke with a grenade arc that can be walked out of."
   },
-  "damage": {
-    "carry": false,
-    "ranged_dealer": false,
-    "style": ["sustained", "aoe", "burst"],
-    "poke": {
-      "rating": 3,
-      "kind": "skillshot",
-      "dodgeable": 3,
-      "note": "Particle Grenade has 4 charges, 80 damage and is better at high Energy. Pinpoint Accuracy adds slow at the center. It is real poke with a grenade arc that can be walked out of."
-    },
-    "heal_blunted": 4,
-    "note": "Energy is 2 percent more damage per point, up to 100 percent. Measured hero damage 2354 per minute is above the league median, so she deals real damage, but it is built from beams and grenades that healing and constant damage keep her from building. Her damage depends on absorbing damage, so a team with little damage to absorb leaves her weak."
+  "heal_blunted": 4,
+  "note": "Energy is 2 percent more damage per point, up to 100 percent. Measured hero damage 2354 per minute is above the league median, so she deals real damage, but it is built from beams and grenades that healing and constant damage keep her from building. Her damage depends on absorbing damage, so a team with little damage to absorb leaves her weak."
+ },
+ "healing": {
+  "style": [
+   "shield"
+  ],
+  "sustain": 1,
+  "burst_heal": 3,
+  "aoe": 1,
+  "range": "medium",
+  "mana_pressure": 0,
+  "positioning_risk": 2,
+  "note": "Not a healer for the draft. Shield Ally is 420 for 3 seconds on a 12 second cooldown (Gain Train adds a second ally, Cleansing Shield removes crowd control). It stops a burst but expires quickly, so the guide lists weakness to sustained damage. No mana cost."
+ },
+ "ratings": {
+  "wave_clear": 2,
+  "camp_clear": 4,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 2,
+  "peel": 4,
+  "mobility": 1,
+  "self_sustain": 3,
+  "survivability": 3,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "knockback",
+   "pull",
+   "silence"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
+ "good_into": [
+  {
+   "tag": "burst_dive",
+   "why": "Personal Barrier (560) and Shield Ally (420) absorb a burst combo, and the absorbed damage becomes Energy. The guide says she shines against Jaina style burst and aggressive assassins such as Kerrigan."
   },
-  "healing": {
-    "style": ["shield"],
-    "sustain": 1,
-    "burst_heal": 3,
-    "aoe": 1,
-    "range": "medium",
-    "mana_pressure": 0,
-    "positioning_risk": 2,
-    "note": "Not a healer for the draft. Shield Ally is 420 for 3 seconds on a 12 second cooldown (Gain Train adds a second ally, Cleansing Shield removes crowd control). It stops a burst but expires quickly, so the guide lists weakness to sustained damage. No mana cost."
+  {
+   "tag": "melee_heavy",
+   "why": "Feel the Heat deals 50 percent more to enemies in melee range, Expulsion Zone knocks them back and Defensive Shielding blocks 2 hits. Melee heroes have to stand inside her beam."
   },
-  "ratings": {
-    "wave_clear": 2,
-    "camp_clear": 4,
-    "siege": 3,
-    "teamfight": 4,
-    "engage": 2,
-    "peel": 4,
-    "mobility": 1,
-    "self_sustain": 3,
-    "survivability": 3,
-    "objective": 3,
-    "global_presence": 0,
-    "solo_lane": 2
+  {
+   "tag": "immobile",
+   "why": "The guide says Feel the Heat is best against low mobility, low range heroes, and Graviton Surge or Expulsion Zone in a choke point traps them."
   },
-  "cc": {
-    "hard": ["knockback", "pull", "silence"],
-    "soft": ["slow"],
-    "reliability": 3
+  {
+   "tag": "cc_heavy",
+   "why": "Unstoppable Competitor makes her Unstoppable with Personal Barrier and Cleansing Shield removes crowd control from an ally, so she can keep a carry free."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "kiter",
+   "why": "Lunara and similar heroes walk away from a short range, no mobility hero. Her Energy decays by 3 per second when she cannot absorb damage."
   },
-  "good_into": [
-    { "tag": "burst_dive", "why": "Personal Barrier (560) and Shield Ally (420) absorb a burst combo, and the absorbed damage becomes Energy. The guide says she shines against Jaina style burst and aggressive assassins such as Kerrigan." },
-    { "tag": "melee_heavy", "why": "Feel the Heat deals 50 percent more to enemies in melee range, Expulsion Zone knocks them back and Defensive Shielding blocks 2 hits. Melee heroes have to stand inside her beam." },
-    { "tag": "immobile", "why": "The guide says Feel the Heat is best against low mobility, low range heroes, and Graviton Surge or Expulsion Zone in a choke point traps them." },
-    { "tag": "cc_heavy", "why": "Unstoppable Competitor makes her Unstoppable with Personal Barrier and Cleansing Shield removes crowd control from an ally, so she can keep a carry free." }
+  {
+   "tag": "poke_comp",
+   "why": "Shields last 3 seconds and constant chip damage (Raynor, Chromie) outlasts them, and the damage she absorbs is only Energy if it comes in bursts. Varian Shattering Throw breaks them."
+  },
+  {
+   "tag": "mobile",
+   "why": "She has no mobility and cannot catch a Genji or Tracer. The guide says blinds are quite effective against her because much of her damage is basic attacks."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Displacement such as Wrecking Ball and skillshots (Maiev) hit her because she has no escape, and her own crowd control is only two heroics."
+  }
+ ],
+ "wants_from_team": [
+  "a marksman or burst hero that benefits from her shields (Valla, a sustain healer like Malfurion)",
+  "a main tank, a solid offlaner and a healer, because she covers none of these",
+  "an offlaner who can double soak on three lane maps",
+  "choke points around objectives for her heroics"
+ ],
+ "gives_team": [
+  "damage shields on demand",
+  "movement speed with Speed Barrier",
+  "area denial and cleanse",
+  "a costless ranged damage source"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "no mobility",
+  "shields are short and break against constant damage",
+  "weak wave clear",
+  "weak to blind and displacement",
+  "depends on incoming damage for Energy"
+ ],
+ "evidence": [
+  "Energy",
+  "Personal Barrier",
+  "Shield Ally",
+  "Particle Grenade",
+  "Feel the Heat",
+  "Expulsion Zone",
+  "Graviton Surge",
+  "Cleansing Shield",
+  "Unyielding Defender",
+  "Icy Veins strengths and counters",
+  "measured: hero damage 2354 per minute, healing 774 (shield absorbed), merc camps 4.4 per game, win rate 0.459, 172 games"
+ ],
+ "confidence": "medium",
+ "unsure": [
+  "damage.carry",
+  "damage.ranged_dealer",
+  "ratings.camp_clear"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "ramp_up",
+  "damage_reach": "short",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot",
+   "stack_or_quest"
   ],
-  "bad_into": [
-    { "tag": "kiter", "why": "Lunara and similar heroes walk away from a short range, no mobility hero. Her Energy decays by 3 per second when she cannot absorb damage." },
-    { "tag": "poke_comp", "why": "Shields last 3 seconds and constant chip damage (Raynor, Chromie) outlasts them, and the damage she absorbs is only Energy if it comes in bursts. Varian Shattering Throw breaks them." },
-    { "tag": "mobile", "why": "She has no mobility and cannot catch a Genji or Tracer. The guide says blinds are quite effective against her because much of her damage is basic attacks." },
-    { "tag": "cc_heavy", "why": "Displacement such as Wrecking Ball and skillshots (Maiev) hit her because she has no escape, and her own crowd control is only two heroics." }
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "armor_or_shield"
   ],
-  "wants_from_team": [
-    "a marksman or burst hero that benefits from her shields (Valla, a sustain healer like Malfurion)",
-    "a main tank, a solid offlaner and a healer, because she covers none of these",
-    "an offlaner who can double soak on three lane maps",
-    "choke points around objectives for her heroics"
+  "lane_role": "camp_taker",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "shield_absorb",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "cleanse_or_cc_denial",
+   "speed_buff"
   ],
-  "gives_team": [
-    "damage shields on demand",
-    "movement speed with Speed Barrier",
-    "area denial and cleanse",
-    "a costless ranged damage source"
+  "cc_profile": "single_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "cleanse",
+   "unstoppable",
+   "shield_or_bubble"
   ],
-  "power_spike": "level_10",
-  "weaknesses": [
-    "no mobility",
-    "shields are short and break against constant damage",
-    "weak wave clear",
-    "weak to blind and displacement",
-    "depends on incoming damage for Energy"
+  "wave_clear_style": "poor",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "zone_hold"
   ],
-  "evidence": [
-    "Energy",
-    "Personal Barrier",
-    "Shield Ally",
-    "Particle Grenade",
-    "Feel the Heat",
-    "Expulsion Zone",
-    "Graviton Surge",
-    "Cleansing Shield",
-    "Unyielding Defender",
-    "Icy Veins strengths and counters",
-    "measured: hero damage 2354 per minute, healing 774 (shield absorbed), merc camps 4.4 per game, win rate 0.459, 172 games"
+  "split_potential": "weak",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
   ],
-  "confidence": "medium",
-  "unsure": ["damage.carry", "damage.ranged_dealer", "ratings.camp_clear"]
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line",
+   "healer",
+   "wave_clear"
+  ],
+  "team_gives": [
+   "sustain",
+   "peel",
+   "mobility"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "poke",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_timing": "Energy raises her damage up to 100 percent, built from damage she absorbs. ramp_up is the nearest value.",
+  "healer_class": "Shield Ally (420 for 3 seconds) and Personal Barrier absorb damage. It stops burst but expires, so a team still needs a healer.",
+  "healer_safety": "Short range, no mobility and she must stand in damage for Energy, so safe only if peeled.",
+  "cc_profile": "Graviton Surge pull or Expulsion Zone knockback is one heroic, plus Pinpoint Accuracy slows. Silence is a talent.",
+  "camp_play": "Measured merc camps per game are 4.4, the highest of this group.",
+  "anti_cc": "Cleansing Shield (level 16), Unstoppable Competitor with Personal Barrier.",
+  "wave_clear_style": "The beam pierces minions, but the guide lists low wave clear.",
+  "escape": "No mobility. Personal Barrier absorbs damage but does not leave a fight."
+ },
+ "lens_gaps": [
+  "no value for a resource built from enemy damage (Energy): damage_timing ramp_up and team_needs cannot say 'needs damage coming in'"
+ ]
 }

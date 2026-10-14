@@ -135,5 +135,78 @@
  "owner_notes": "Strong at the moment. No CC and no escape herself but high burst healing. She has to damage heroes to increase the heals on her Q targets. Weak to tanks that pull or separate her from her team (Stitches, Garrosh, Diablo). Mixed against dive: she survives it if she can damage them to do massive burst healing. Takes skill and positioning, and since she has little CC it is good to draft it in the tank and maybe the offlaner.",
  "owner_corrections": [
   "healing.burst_heal 4 to 5"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "no_lane",
+  "kill_pattern": "none",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "burst_single",
+  "healer_safety": "exposed",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "talent_dependent",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "sustain"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "focus_fire",
+   "dive"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "poke_siege"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Her damage (Inquisition, Searing Lash, basic attacks) becomes team healing through Zeal, measured 1062 per minute.",
+  "healer_class": "Owner says high burst healing. Zeal and Scarlet Aegis heal many allies, so it is an AoE burst healer, burst_single is the nearest value.",
+  "healer_safety": "No CC and no escape (owner). Inquisition locks her in place while channelling.",
+  "cc_profile": "Base kit has only the 30 percent Inquisition slow. Roots and pulls come from talents, so talent dependent.",
+  "vulnerable_to": "Owner: weak to tanks that pull or separate her (Stitches, Garrosh, Diablo). Mixed into dive, she survives if she can deal damage for massive burst healing.",
+  "ultimate_role": "Scarlet Aegis applies Zeal to all nearby allies with 40 Armor. Divine Reckoning is the damage alternative.",
+  "team_needs": "Owner: draft the CC in the tank and maybe the offlaner because she has little CC."
+ },
+ "lens_gaps": [
+  "no value on healer_class for AoE burst healing (Zeal scaling with damage), burst_single and aoe_sustain both miss it",
+  "no value in vulnerable_to for healing reduction (anti heal) or for being pulled or separated from the team",
+  "no lens for healing that depends on damage dealt (also Tyrande)"
  ]
 }

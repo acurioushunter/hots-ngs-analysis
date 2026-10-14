@@ -119,5 +119,85 @@
   "ratings.teamfight",
   "power_spike"
  ],
- "owner_notes": "Like Nova she looks for isolated picks and ganks. Can be good, but struggles against coordinated teams unless the player times engages very well. Weaker in team fights and stronger in the laning phase."
+ "owner_notes": "Like Nova she looks for isolated picks and ganks. Can be good, but struggles against coordinated teams unless the player times engages very well. Weaker in team fights and stronger in the laning phase.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "untargetable_or_escape",
+   "big_health"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "stealth_ambush",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "silence_or_dismount"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "point_and_click",
+  "anti_cc": [
+   "unstoppable",
+   "cleanse"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "stealth"
+  ],
+  "power_curve": "early_dominant",
+  "snowball": "snowballer",
+  "ultimate_role": "defensive",
+  "execution_demand": "high",
+  "team_needs": [
+   "cc_setup",
+   "wave_clear"
+  ],
+  "team_gives": [
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "dive_burst"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Sinister Strike, Ambush, Garrote and Eviscerate. Autos matter only with Slice and Dice, Hemorrhage and Rupture.",
+  "damage_reliability": "Openers are targeted and teleport from stealth, but damage from anything (especially area damage) breaks stealth and removes the opener. Seal Fate wants a silenced, rooted or stunned target.",
+  "durability_source": "Icy Veins lists a high HP pool, Vanish gives a one second Unrevealable window and Smoke Bomb gives 60 armor. Incredibly weak when revealed.",
+  "kill_pattern": "Vanish then Ambush, Cheap Shot or Garrote teleport (5 range after 3 seconds of stealth).",
+  "setup_reliance": "Owner: she looks for isolated picks and ganks like Nova. Icy Veins says her damage works best as a follow up to a team initiation, so cleanup is the alternative reading.",
+  "utility_tool": "Garrote silences for 2.5 seconds and interrupts channels. Cheap Shot stuns and then blinds.",
+  "anti_cc": "Cloak of Shadows (15 second cooldown) removes damage over time and makes her Unstoppable for 1.5 seconds. Smoke Bomb is the other heroic and does not stop CC.",
+  "wave_clear_style": "Icy Veins: weak PvE, Blade Flurry is her only clear and is energy hungry.",
+  "power_curve": "Owner: weaker in team fights, stronger in the laning phase, which differs from the profile spike of mid. Followed the owner. Level 4 and 7 talents decide her power.",
+  "snowball": "Picks give a lead, and a win rate of 0.325 over 40 NGS games (rare pick) says she does not recover when behind.",
+  "ultimate_role": "Both heroics (Smoke Bomb, Cloak of Shadows) are defensive. Icy Veins calls Cloak of Shadows strong against CC heavy teams.",
+  "team_needs": "Icy Veins: heroes with reliable CC and burst, and Garrosh or E.T.C. to displace targets. She cannot clear waves herself.",
+  "vulnerable_to": "Icy Veins: heroes who break her from stealth, heavy CC, coordinated teams, and being revealed."
+ },
+ "lens_gaps": [
+  "vulnerable_to has no value for 'revealed' or area damage that breaks stealth (detection is not a counter value).",
+  "power_curve has no value for 'strong in lane and picks, fades in team fights' (owner read).",
+  "No lens for target class matchups: Valeera is a counter pick into assassins and low health priority targets."
+ ]
 }

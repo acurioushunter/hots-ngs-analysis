@@ -82,7 +82,10 @@
     "skillshot": "must aim abilities, can be dodged",
     "setup_needed": "needs a partner CC, a stun or a stack first",
     "stack_or_quest": "depends on stacks or a quest that takes time or has to be protected",
-    "positioning": "needs a flank, a safe angle or a specific stance"
+    "positioning": "needs a flank, a safe angle or a specific stance",
+    "interruptible_channel": "damage comes from a channel any CC cancels",
+    "blockable": "blocked by minions, summons or terrain",
+    "telegraphed_delay": "a visible delay the target can leave"
    },
    "draft_use": "Skillshot damage is weak into mobile heroes, setup damage needs partners with CC."
   },
@@ -115,7 +118,8 @@
     "untargetable_or_escape": "untargetable, invulnerable or escapes",
     "big_health": "raw health pool",
     "relies_on_healer": "needs a healer to stay in the fight",
-    "fragile": "dies quickly if caught"
+    "fragile": "dies quickly if caught",
+    "second_body_or_pool": "a second health pool or body (D.Va, Cho and Gall)"
    },
    "draft_use": "Heroes that rely on a healer bring more value into low pressure fights and less into dive."
   },
@@ -130,7 +134,9 @@
     "rotator": "moves between lanes and fights, does not hold a lane",
     "soak_and_group": "groups with the team and soaks with it",
     "camp_taker": "takes mercenary camps to speed rotations",
-    "no_lane": "does not want a lane at all"
+    "no_lane": "does not want a lane at all",
+    "lane_bully": "wins its lane early and uses it",
+    "double_soaker": "goes to a lane with a partner to double soak (Samuro, Malthael)"
    },
    "draft_use": "A draft needs a lane plan: one solo laner and who rotates."
   },
@@ -146,7 +152,9 @@
     "burst_snipe": "a long range burst on a target",
     "cc_chain": "catches with CC and others finish",
     "attrition": "wins by chip damage and positional squeezing",
-    "none": "not a kill source"
+    "none": "not a kill source",
+    "pull_pick": "a single pull picks a target (Stitches, Diablo)",
+    "dash_reset": "dash and reset chains (Genji, Kerrigan)"
    },
    "draft_use": "Pick comps want several different kill patterns; dive comps want the CC chain to hold the backline."
   },
@@ -171,7 +179,8 @@
     "self_starter": "can create its own kill opportunities",
     "needs_cc_partner": "needs another hero CC or engage to get value",
     "needs_peel": "needs to be protected to deal damage",
-    "cleanup": "cleans up after a fight started by others"
+    "cleanup": "cleans up after a fight started by others",
+    "enabler": "its job is to make others work (Medivh, Lucio, Abathur)"
    },
    "draft_use": "Counts of needs_cc_partner heroes must be matched by CC providers on the comp."
   },
@@ -187,7 +196,10 @@
     "shield_absorb": "prevents damage with shields",
     "hit_and_run": "weak heals, strong mobility or utility",
     "utility_support": "buffs, speed, vision or macro tools more than healing",
-    "not_a_healer": "no healing role"
+    "not_a_healer": "no healing role",
+    "damage_fueled": "heals scale with damage it or an ally deals (Auriel, Tyrande, Whitemane, Kharazim)",
+    "aoe_burst": "instant AoE burst heal (Stukov, Whitemane)",
+    "pre_placed": "heals placed ahead of time (Deckard)"
    },
    "draft_use": "Match healers to comps: poke teams want sustain, dive teams want burst heals, a shield support makes a squishy comp playable."
   },
@@ -233,7 +245,8 @@
     "single_hard": "one reliable hard CC (a stun or silence)",
     "soft_only": "slows and soft CC only",
     "talent_dependent": "CC only if a talent is taken",
-    "none": "no CC"
+    "none": "no CC",
+    "knockback_pull": "knockbacks and pulls only (Raynor, Alarak, Kerrigan, Lt. Morales)"
    },
    "draft_use": "Comps need several hard CC tools to hold targets for burst; too little means damage dealers cannot land setup combos."
   },
@@ -262,7 +275,9 @@
     "unstoppable": "unstoppable or CC immunity windows",
     "shield_or_bubble": "block or shield that protects it",
     "mobility_through": "dash or leap out of CC",
-    "none": "no tool"
+    "none": "no tool",
+    "ally_only_denial": "denies CC only on allies (Anduin, Li Li)",
+    "duration_reduction": "shortens CC on itself (Sonya Wrath)"
    },
    "draft_use": "Heavy CC comps are blanked by cleanse and unstoppable tools, so a team needs at least one answer."
   },
@@ -410,7 +425,8 @@
     "cc_setup": "CC to land its combo",
     "front_line": "a front line to stand behind",
     "wave_clear": "someone else clears waves while it fights",
-    "nothing": "works independently"
+    "nothing": "works independently",
+    "burst_follow_up": "burst damage right after its CC (Anub'arak, Garrosh, Malthael's partners)"
    },
    "draft_use": "Counting needs across the five heroes shows whether the comp ask exceeds what it provides."
   },
@@ -429,7 +445,9 @@
     "vision": "vision or detection",
     "mobility": "speed or movement",
     "objective": "objective control",
-    "nothing": "little"
+    "nothing": "little",
+    "anti_heal": "healing reduction on the enemy",
+    "burst_follow_up": "burst damage after a team CC"
    },
    "draft_use": "The comp checker adds gives against needs."
   },
@@ -449,7 +467,14 @@
     "zoning": "being walled out of the fight",
     "tanky_frontline": "high health armored front lines",
     "macro_split": "enemy split pushing while it fights",
-    "early_pressure": "being pressured early before it scales"
+    "early_pressure": "being pressured early before it scales",
+    "blind": "blinds and attack denial",
+    "interruption": "being interrupted or cancelled mid channel",
+    "global_pressure": "global heroes and reactive rotations (Falstad, Dehaka, Nova ganks cancelled)",
+    "displacement": "pulls, knockbacks and being separated from the team",
+    "reveal_or_aoe": "stealth broken by detection or area damage",
+    "anti_heal": "healing reduction",
+    "shield_breaking": "percent damage and shield breaking"
    },
    "draft_use": "Turns into a weakness map: add up what the comp is vulnerable to against what the enemy brings."
   },
@@ -470,6 +495,18 @@
     "cheese": "surprise combos and odd strategies"
    },
    "draft_use": "The archetype tally of the five picks tells you what the comp is trying to do and what it forgot."
+  },
+  "bodies": {
+   "key": "bodies",
+   "family": "Game flow and power",
+   "question": "How many bodies or players does the hero use?",
+   "kind": "single",
+   "values": {
+    "one": "one hero, one body",
+    "two_player": "two heroes on one team slot, two players (Cho and Gall)",
+    "multi_body": "several bodies (The Lost Vikings, Rexxar with Misha)"
+   },
+   "draft_use": "Two player and multi body heroes change how deaths and soak are counted."
   }
  }
 }

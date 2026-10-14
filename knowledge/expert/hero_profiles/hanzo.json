@@ -120,5 +120,87 @@
   "heal_blunted",
   "good_into"
  ],
- "owner_notes": "Lots of poke damage from a mix of spells and autos. Minions and summons can block his abilities, and he depends on skillshots. Can jump terrain to escape in many situations, but high mobility dive heroes like Zeratul or Genji kill him easily. Dragon Arrow is an engage in big team fights or a disengage, best at choke points or on clumped teams. Low health. Weak at camps and wave clear, but the level 4 W talent gives decent objective or boss damage."
+ "owner_notes": "Lots of poke damage from a mix of spells and autos. Minions and summons can block his abilities, and he depends on skillshots. Can jump terrain to escape in many situations, but high mobility dive heroes like Zeratul or Genji kill him easily. Dragon Arrow is an engage in big team fights or a disengage, best at choke points or on clumped teams. Low health. Weak at camps and wave clear, but the level 4 W talent gives decent objective or boss damage.",
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "chip_poke",
+  "damage_reach": "long",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "burst_snipe",
+  "escape": "partial",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "vision_or_reveal"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "long_range",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "burst_objective"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "grants_vision"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "peel",
+   "front_line",
+   "cc_setup",
+   "healer"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "vision",
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire",
+   "stealth"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Storm Bow arrows plus weaved Giant Slayer and Flawless Technique autos both carry damage.",
+  "damage_timing": "Long range Storm Bow pokes through a fight; the burst is Dragon's Arrow plus a stack of arrows, but the standard role is poke.",
+  "damage_reliability": "Thin linear arrows that minions and summons block (owner), so terrain angles matter.",
+  "escape": "Natural Agility is a 25 second terrain jump, and owner says Zeratul or Genji still kill him.",
+  "cc_profile": "Dragon's Arrow stun only, and Bullseye is a talent stun.",
+  "wave_clear_style": "Owner reads him as weak at wave clear and camps; the level 4 W talent only helps from range. Owner read followed over the profile rating of 3.",
+  "camp_play": "Owner: weak at camps; 4.4 camps per game measured is in line with other assassins.",
+  "objective_role": "Level 4 W talent gives decent objective and boss damage (owner).",
+  "ultimate_role": "Dragon's Arrow is an engage in big fights or a disengage, best at chokepoints or clumped teams (owner); Dragonstrike is rarely picked.",
+  "execution_demand": "Icy Veins lists him hard to play, angles and skillshots only.",
+  "vulnerable_to": "Mobile dive heroes (Zeratul, Genji) kill him easily (owner); nothing in the list covers being blocked by minions."
+ },
+ "lens_gaps": [
+  "no value for 'blocked by minions or summons' on lens vulnerable_to or damage_reliability",
+  "no value for an engage or disengage heroic on ultimate_role (Dragon's Arrow does both)"
+ ]
 }

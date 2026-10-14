@@ -128,5 +128,84 @@
  "unsure": [
   "ratings.global_presence"
  ],
- "owner_notes": "A ranged sustain damage hero who can siege from very far. Susceptible to dive and to long range poke from heroes like Tassadar, Chromie and maybe Li-Ming. If the other team does not draft to kill her she destroys buildings and dominates team fights, but she depends on draft and positioning because she cannot reposition quickly and can be locked down by CC when her unstoppable shield talent or trait is down or interrupted."
+ "owner_notes": "A ranged sustain damage hero who can siege from very far. Susceptible to dive and to long range poke from heroes like Tassadar, Chromie and maybe Li-Ming. If the other team does not draft to kill her she destroys buildings and dominates team fights, but she depends on draft and positioning because she cannot reposition quickly and can be locked down by CC when her unstoppable shield talent or trait is down or interrupted.",
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "long",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "armor_or_shield",
+   "self_heal",
+   "fragile"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "attrition",
+  "escape": "partial",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "unstoppable",
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure",
+   "zone_hold"
+  ],
+  "split_potential": "some",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "steady",
+  "snowball": "comeback",
+  "ultimate_role": "low_impact",
+  "execution_demand": "high",
+  "team_needs": [
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "poke",
+   "hard_cc"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_reach": "Siege Mode doubles her attack range. Hunter says she can siege from very far.",
+  "damage_delivery": "Most damage is Siege Mode basic attacks, and talents key off basic attacks. Napalm Strike and Spider Mines are support damage.",
+  "target_style": "Single target sustain in fights. Her building damage shows in objective_role (measured siege 7190 per minute) and not here.",
+  "durability_source": "Neosteel Plating and Mechanical Know-how give armor and a shield. Regenerative Bio-Steel heals from Siege Mode attacks. Still low Health.",
+  "anti_cc": "Siege Tactics (Neosteel Plating in Siege Mode grants Unstoppable) is the talent Hunter names. The guide standard build skips it, so it is a talent choice into hard engage.",
+  "escape": "Thrusters is a 60 percent speed burst for 4 seconds that CC cuts short. Hunter says she cannot reposition quickly.",
+  "camp_play": "Guide says outstanding PvE damage, but with no mount her measured camps are 2.3 per game.",
+  "snowball": "Long range siege is a way back into a game when the enemy cannot kill her. Hunter says she dominates if the other team does not draft to kill her.",
+  "ultimate_role": "Napalm Strike is a 6 second poke and Blunt Force Gun is a moderate line. She is picked for her basic kit."
+ },
+ "lens_gaps": [
+  "no value on map_mobility or durability_source for a stance that trades all movement for range and armor (Siege Mode)",
+  "no value on vulnerable_to for heroes that displace her (Hook, Concussive style pulls)"
+ ]
 }

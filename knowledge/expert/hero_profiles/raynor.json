@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "single_target", "siege"],
+  "style": [
+   "sustained",
+   "single_target",
+   "siege"
+  ],
   "poke": {
    "rating": 3,
    "kind": "auto",
@@ -37,23 +41,57 @@
   "solo_lane": 3
  },
  "cc": {
-  "hard": ["knockback"],
-  "soft": ["slow"],
+  "hard": [
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 3
  },
  "good_into": [
-  {"tag": "melee_heavy", "why": "Penetrating Round knocks back and slows a line of melee heroes and cancels leaps like Avenging Wrath or Jet Propulsion, which the guide mentions."},
-  {"tag": "tanky_frontline", "why": "Bounty Hunter deals 3 percent of maximum Health and Dusk Wing banshee removes up to 30 Armor, so tanks do not tank him."},
-  {"tag": "structures", "why": "Inspire speeds up minions and mercenaries, Exterminator deals 125 percent more to minions, and Hyperion fires Yamato Cannon for 794 at a structure."},
-  {"tag": "low_sustain_healer", "why": "Sustained auto damage with Raynor's Raider banshee on one target outlasts a single target healer's mana."},
-  {"tag": "split_push", "why": "Measured 5.3 merc camps per game, the highest in the set, and Adrenaline Rush with Sustaining Rounds keeps him in lane."}
+  {
+   "tag": "melee_heavy",
+   "why": "Penetrating Round knocks back and slows a line of melee heroes and cancels leaps like Avenging Wrath or Jet Propulsion, which the guide mentions."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Bounty Hunter deals 3 percent of maximum Health and Dusk Wing banshee removes up to 30 Armor, so tanks do not tank him."
+  },
+  {
+   "tag": "structures",
+   "why": "Inspire speeds up minions and mercenaries, Exterminator deals 125 percent more to minions, and Hyperion fires Yamato Cannon for 794 at a structure."
+  },
+  {
+   "tag": "low_sustain_healer",
+   "why": "Sustained auto damage with Raynor's Raider banshee on one target outlasts a single target healer's mana."
+  },
+  {
+   "tag": "split_push",
+   "why": "Measured 5.3 merc camps per game, the highest in the set, and Adrenaline Rush with Sustaining Rounds keeps him in lane."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "The guide notes he has no gap closer and lacks any escape except knockback and Adrenaline Rush, which cannot be used at full Health."},
-  {"tag": "assassin", "why": "Assassins close the gap and kill him inside the 4 second window of one rotation before Penetrating Round comes back."},
-  {"tag": "cc_heavy", "why": "Stuns stop his stutter step and Adrenaline Rush, and he has Unstoppable only from Raiders Roll at level 20."},
-  {"tag": "kiter", "why": "A kiter with equal or longer range keeps out of Raynor medium range, and slow Penetrating Round only slows for 2 seconds."},
-  {"tag": "mobile", "why": "Mobile heroes dodge the line of Penetrating Round and he has no way to follow them."}
+  {
+   "tag": "burst_dive",
+   "why": "The guide notes he has no gap closer and lacks any escape except knockback and Adrenaline Rush, which cannot be used at full Health."
+  },
+  {
+   "tag": "assassin",
+   "why": "Assassins close the gap and kill him inside the 4 second window of one rotation before Penetrating Round comes back."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns stop his stutter step and Adrenaline Rush, and he has Unstoppable only from Raiders Roll at level 20."
+  },
+  {
+   "tag": "kiter",
+   "why": "A kiter with equal or longer range keeps out of Raynor medium range, and slow Penetrating Round only slows for 2 seconds."
+  },
+  {
+   "tag": "mobile",
+   "why": "Mobile heroes dodge the line of Penetrating Round and he has no way to follow them."
+  }
  ],
  "wants_from_team": [
   "Peel and a frontline to protect him while he auto attacks",
@@ -86,5 +124,81 @@
   "MEASURED block: hero damage 2420 per minute, 5.3 camps per game, win rate 0.447 over 826 games"
  ],
  "confidence": "high",
- "unsure": ["ratings.teamfight"]
+ "unsure": [
+  "ratings.teamfight"
+ ],
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "long",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "self_heal",
+   "armor_or_shield"
+  ],
+  "lane_role": "camp_taker",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "steady",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "low",
+  "team_needs": [
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_reach": "Guide lists long range as a strength, so long. He has no mobility to use it with if caught.",
+  "lane_role": "Exterminator makes Inspire autos strong on mercenaries, and measured camps are 5.3 per game. The guide says he should rotate behind the Warriors and not play the offlane.",
+  "kill_pattern": "No assassin burst. Basic attacks, Penetrating Round and the Banshee wear targets down, and the Banshee chases.",
+  "escape": "Guide says no innate escape. Raiders Roll at level 20 gives Unstoppable while healing, which is a late talent.",
+  "cc_profile": "Penetrating Round is a knockback with a slow. It is soft CC and not a stun. Measured enemy CC time is 0.5 seconds per game.",
+  "ultimate_role": "Raynor's Raider is the standard heroic for single target damage and chase. Hyperion is the objective alternative.",
+  "power_curve": "Steady, with no quest gate; Veteran Marksman and Sergeant Pepper only add a little late.",
+  "execution_demand": "Guide says low learning curve, but stutter stepping and positioning matter."
+ },
+ "lens_gaps": [
+  "no value on vulnerable_to for blinds, which the guide names as his worst counter because he relies on basic attacks",
+  "no value on cc_profile for a knockback that is not a stun, slow or root (Penetrating Round)"
+ ]
 }

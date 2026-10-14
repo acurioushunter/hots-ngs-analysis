@@ -2,17 +2,35 @@
  "hero": "Alexstrasza",
  "slug": "alexstrasza",
  "role": "Healer",
- "attack": {"type": "ranged", "range": "medium", "autos_matter": 1, "note": "Basic attacks are filler until Dragonqueen, where they become an arc that damages enemies and heals allies for about a third of that. Ancient Flame turns them into Flame Buffet casts."},
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 1,
+  "note": "Basic attacks are filler until Dragonqueen, where they become an arc that damages enemies and heals allies for about a third of that. Ancient Flame turns them into Flame Buffet casts."
+ },
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["dot", "poke"],
-  "poke": {"rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Flame Buffet is a fireball on a 2 second cooldown that burns for 75 over 5.5 seconds and slows on a repeat hit. It is real lane pressure but costs 50 Mana unless it hits the same target twice."},
+  "style": [
+   "dot",
+   "poke"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Flame Buffet is a fireball on a 2 second cooldown that burns for 75 over 5.5 seconds and slows on a repeat hit. It is real lane pressure but costs 50 Mana unless it hits the same target twice."
+  },
   "heal_blunted": 4,
   "note": "Damage is a side job (881 per minute measured). Flame Buffet burns, Wing Buffet in Dragonqueen is instant 150 plus knockback, Cleansing Flame fireballs do 135 each. All of it is small hits that healing absorbs."
  },
  "healing": {
-  "style": ["single_target", "aoe", "burst", "self"],
+  "style": [
+   "single_target",
+   "aoe",
+   "burst",
+   "self"
+  ],
   "sustain": 4,
   "burst_heal": 3,
   "aoe": 3,
@@ -21,25 +39,173 @@
   "positioning_risk": 3,
   "note": "Abundance is a delayed (3 seconds) heal of 20% maximum Health that can be dodged or ruined, so it scales with tanks. Gift of Life pays Health instead of Mana, so each cast heals a bit less. Dragonqueen for 15 seconds adds Breath of Life every 3 seconds, a bigger Preservation and an instant Cleansing Flame, then she is weak until the 130 second cooldown returns. Life-Binder undoes a focus but has a 2 second delay."
  },
- "ratings": {"wave_clear": 3, "camp_clear": 2, "siege": 2, "teamfight": 4, "engage": 1, "peel": 2, "mobility": 1, "self_sustain": 2, "survivability": 2, "objective": 4, "global_presence": 0, "solo_lane": 2},
- "cc": {"hard": ["knockback"], "soft": ["slow"], "reliability": 2},
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 2,
+  "siege": 2,
+  "teamfight": 4,
+  "engage": 1,
+  "peel": 2,
+  "mobility": 1,
+  "self_sustain": 2,
+  "survivability": 2,
+  "objective": 4,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
  "good_into": [
-  {"tag": "poke_comp", "why": "Abundance and Preservation heal a percent of maximum Health to everyone in the circle, and Overprotective turns that into a shield, so long chip damage is undone cheaply without spending much Mana."},
-  {"tag": "melee_heavy", "why": "Wing Buffet knocks back and slows an arc of melee heroes and Dragonqueen halves the length of stuns, roots and slows on her, so she survives being collapsed on better than other healers while her team brawls."},
-  {"tag": "objective_race", "why": "Dragonqueen is on a long cooldown, so she wins the fight at a static objective when it is up (Infernal Shrines is the guide's best map). The team must hold the fight for when it is ready."},
-  {"tag": "sustain_comp", "why": "Her Mana use is low next to other healers and Gift of Life costs no Mana at all, so she outlasts long drawn out fights better than most."}
+  {
+   "tag": "poke_comp",
+   "why": "Abundance and Preservation heal a percent of maximum Health to everyone in the circle, and Overprotective turns that into a shield, so long chip damage is undone cheaply without spending much Mana."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Wing Buffet knocks back and slows an arc of melee heroes and Dragonqueen halves the length of stuns, roots and slows on her, so she survives being collapsed on better than other healers while her team brawls."
+  },
+  {
+   "tag": "objective_race",
+   "why": "Dragonqueen is on a long cooldown, so she wins the fight at a static objective when it is up (Infernal Shrines is the guide's best map). The team must hold the fight for when it is ready."
+  },
+  {
+   "tag": "sustain_comp",
+   "why": "Her Mana use is low next to other healers and Gift of Life costs no Mana at all, so she outlasts long drawn out fights better than most."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "A diver who sticks to her interrupts the 1.25 second Dragonqueen channel and she has no mobility, no cleanse and no unstoppable. Gift of Life gets weaker as she takes damage."},
-  {"tag": "cc_heavy", "why": "Stuns and roots cancel Dragonqueen and Cleansing Flame casts, and she has only Dragon Scales (armor, once every 10 seconds) as a counter. A Cocoon or a Mighty Gust shuts down the whole fight."},
-  {"tag": "ranged_heavy", "why": "Skillshots and area damage on the Abundance circle (Concussion Mine, Flamestrike) deny the delayed heal, and ranged heroes can hit her without ever being slowed or knocked back."},
-  {"tag": "assassin", "why": "An assassin that reaches her before Dragonqueen is up kills a healer with 1308 damage taken per minute measured and no escape. Pacify at level 13 is her only peel."}
+  {
+   "tag": "burst_dive",
+   "why": "A diver who sticks to her interrupts the 1.25 second Dragonqueen channel and she has no mobility, no cleanse and no unstoppable. Gift of Life gets weaker as she takes damage."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Stuns and roots cancel Dragonqueen and Cleansing Flame casts, and she has only Dragon Scales (armor, once every 10 seconds) as a counter. A Cocoon or a Mighty Gust shuts down the whole fight."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Skillshots and area damage on the Abundance circle (Concussion Mine, Flamestrike) deny the delayed heal, and ranged heroes can hit her without ever being slowed or knocked back."
+  },
+  {
+   "tag": "assassin",
+   "why": "An assassin that reaches her before Dragonqueen is up kills a healer with 1308 damage taken per minute measured and no escape. Pacify at level 13 is her only peel."
+  }
  ],
- "wants_from_team": ["A frontline with high maximum Health, since Abundance and Life Unbound heal by percent", "Reliable crowd control, because she has no hard CC and no unstoppable", "A team that holds its fight until Dragonqueen is ready", "Peel that keeps divers off her during the transform"],
- "gives_team": ["Large percent based healing that scales with tanks and bruisers", "Wave clear and lane pressure from Flame Buffet", "Dragonqueen as a once a minute fight winner at objectives", "Armor from Tough Love, shields from Overprotective, a cheat death with Blessing of the Red"],
+ "wants_from_team": [
+  "A frontline with high maximum Health, since Abundance and Life Unbound heal by percent",
+  "Reliable crowd control, because she has no hard CC and no unstoppable",
+  "A team that holds its fight until Dragonqueen is ready",
+  "Peel that keeps divers off her during the transform"
+ ],
+ "gives_team": [
+  "Large percent based healing that scales with tanks and bruisers",
+  "Wave clear and lane pressure from Flame Buffet",
+  "Dragonqueen as a once a minute fight winner at objectives",
+  "Armor from Tough Love, shields from Overprotective, a cheat death with Blessing of the Red"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["No cleanse and no unstoppable", "Healing drops when she is damaged because Gift of Life uses her own Health", "Weak while Dragonqueen is on cooldown", "Healing reduction from enemy healers (Deckard Emerald, Ana Biotic Grenade) cuts her deeply", "No escape and almost no mobility"],
- "evidence": ["Dragonqueen, Abundance, Preservation, Gift of Life, Life-Binder, Cleansing Flame text", "Flame Buffet, Wing Buffet text", "Verdant Flourish, Lifeblossom, Overprotective, Ancient Flame, Blessing of the Red talents", "Icy Veins guide counters (Deckard Emerald, Concussion Mine, Yrel, Cocoon, Mighty Gust)", "MEASURED block: 4283 healing per minute, win rate 0.566, 221 games, 0.3 seconds enemy CC"],
+ "weaknesses": [
+  "No cleanse and no unstoppable",
+  "Healing drops when she is damaged because Gift of Life uses her own Health",
+  "Weak while Dragonqueen is on cooldown",
+  "Healing reduction from enemy healers (Deckard Emerald, Ana Biotic Grenade) cuts her deeply",
+  "No escape and almost no mobility"
+ ],
+ "evidence": [
+  "Dragonqueen, Abundance, Preservation, Gift of Life, Life-Binder, Cleansing Flame text",
+  "Flame Buffet, Wing Buffet text",
+  "Verdant Flourish, Lifeblossom, Overprotective, Ancient Flame, Blessing of the Red talents",
+  "Icy Veins guide counters (Deckard Emerald, Concussion Mine, Yrel, Cocoon, Mighty Gust)",
+  "MEASURED block: 4283 healing per minute, win rate 0.566, 221 games, 0.3 seconds enemy CC"
+ ],
  "confidence": "medium",
- "unsure": ["ratings.objective", "good_into sustain_comp", "cc.reliability"]
+ "unsure": [
+  "ratings.objective",
+  "good_into sustain_comp",
+  "cc.reliability"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "dot_stacking",
+  "damage_reach": "medium",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile",
+   "armor_or_shield"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "none",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "aoe_sustain",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "revive_or_second_life"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "poor",
+  "objective_role": [
+   "zone_hold"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "sustain",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "poke",
+   "sustain_heals",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "poke_siege"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Flame Buffet fireballs are her lane damage and the burn is small, so abilities are the output and autos are filler until Dragonqueen.",
+  "healer_class": "Abundance and Preservation heal a percent of maximum Health in a circle, so she sits between aoe_sustain and burst_single and scales with tank health.",
+  "healer_safety": "Medium range and no escape, but Dragonqueen halves stun, root and slow length on her.",
+  "utility_tool": "Life-Binder shares a focused ally's damage and Blessing of the Red is a cheat death talent; neither is a true revive.",
+  "cc_profile": "Wing Buffet knockback only exists during Dragonqueen and Flame Buffet slows on a repeat hit; Pacify at level 13 is the only extra peel.",
+  "anti_cc": "Dragonqueen halves CC length on her but she has no cleanse, no unstoppable and no escape.",
+  "objective_role": "Dragonqueen is her fight winner at a static objective (Infernal Shrines in the guide), so she holds ground rather than rotating.",
+  "power_curve": "Dragonqueen comes at level 10 on a 130 second cooldown, so she is weak between windows.",
+  "wave_clear_style": "Flame Buffet burns minions but costs Mana unless it hits the same target twice, so clear is steady rather than burst."
+ },
+ "lens_gaps": [
+  "no healer_class value for percent of maximum Health healing that scales with the allied front line",
+  "no lens for a long cooldown transform heroic that leaves the hero weak between windows (power_curve fits only the level)"
+ ]
 }

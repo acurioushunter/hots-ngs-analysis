@@ -134,5 +134,76 @@
  "owner_notes": "Okay heals, nothing massive until Ancestral Healing, which is on a long cooldown. Good at camps and wave clear. His totem slows. His trait cleanses an ally or slows an enemy on a long cooldown, cannot be used on himself, and he has no escape. Good if the team lacks wave clear, weak elsewhere. A decent healer overall.",
  "owner_corrections": [
   "healing.burst_heal 4 to 3"
+ ],
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "minion_focus",
+  "damage_reliability": [
+   "guaranteed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "self_heal"
+  ],
+  "lane_role": "camp_taker",
+  "kill_pattern": "none",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "aoe_sustain",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "cleanse_or_cc_denial",
+   "speed_buff"
+  ],
+  "cc_profile": "soft_only",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "defensive",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line"
+  ],
+  "team_gives": [
+   "sustain",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "sustain_heals"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "split_push"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Ghost Wolf lunge attacks do 60 percent bonus damage and carry his camp and lane clear. Measured hero damage is low (669) but siege 1847 and 5.8 camps per game lead the group.",
+  "escape": "Owner says he has no escape and Purge cannot target himself. Ghost Wolf speed helps repositioning but is not a safe escape.",
+  "anti_cc": "Purge gives Unstoppable (0.5 seconds) to allies only, not to himself, so he has no answer for his own CC.",
+  "healer_class": "Chain Heal is steady chip healing. Owner notes nothing massive until Ancestral Healing, which is a 100 second cooldown.",
+  "ultimate_role": "Ancestral Healing (1180 after a delay) is the owner's standard. Bloodlust is the situational alternative.",
+  "lane_role": "Camp taker first, he can also hold a lane through Ghost Wolf clear when the team lacks it."
+ },
+ "lens_gaps": [
+  "no value on healer_class for a healer who is mainly picked as the camp and wave clear engine",
+  "no lens for an ally targeted cleanse or Unstoppable that the hero cannot use on himself (anti_cc covers self only)"
  ]
 }

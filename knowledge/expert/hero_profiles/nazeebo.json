@@ -127,5 +127,86 @@
   "cc.reliability",
   "ratings.teamfight"
  ],
- "owner_notes": "A sustain damage mage with some burst from Ravenous Spirit or the spider build. No escape except a late talent Ice Block that only delays. Depends on skillshots, weaker in competitive play and stronger against uncoordinated teams. Good at wave clear and camp clear."
+ "owner_notes": "A sustain damage mage with some burst from Ravenous Spirit or the spider build. No escape except a late talent Ice Block that only delays. Depends on skillshots, weaker in competitive play and stronger against uncoordinated teams. Good at wave clear and camp clear.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "stack_or_quest"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "big_health",
+   "self_heal"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall",
+   "anti_heal"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure",
+   "zone_hold"
+  ],
+  "split_potential": "some",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "damage",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "kiting",
+   "early_pressure"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_timing": "Hunter reads him as a sustain damage mage with some burst from Ravenous Spirit or the Corpse Spiders build. Plague of Toads and Voodoo Ritual are damage over time.",
+  "durability_source": "Highest Health of the mages and Hexed Crawlers heals from Corpse Spiders. Ice Block only delays, as Hunter says.",
+  "kill_pattern": "No stealth or dive. He wins by zoning with Zombie Wall and Toads and by grinding down targets.",
+  "escape": "Follows Hunter: no real escape. Ice Block at level 13 and Bad Medicine at level 20 only delay a catch.",
+  "setup_reliance": "Zero mobility and weak early, so he needs to be protected. The guide also wants a tank with CC to follow up Zombie Wall.",
+  "cc_profile": "Zombie Wall is a path block ring and not a stun. It can be knocked back, jumped or broken, and measured enemy stun time is only 0.3 seconds per game, so treat it as soft in practice.",
+  "anti_cc": "Ice Block (Stasis) from level 13. It is one short window on a 60 second cooldown.",
+  "camp_play": "Follows Hunter: good camp clear with Toads and poisoned minions. Measured 2.8 camps per game is below most assassins, so the owner read is the draft view.",
+  "power_curve": "Vile Infection at level 20 needs 175 Voodoo Ritual stacks. Weak early and on short maps.",
+  "snowball": "Owner says weaker in competitive play and stronger against uncoordinated teams, so no snowball or comeback value fits.",
+  "ultimate_role": "Ravenous Spirit is the damage choice, Gargantuan the safer one against interrupts."
+ },
+ "lens_gaps": [
+  "no value on cc_profile for a path block that is neither a stun nor a slow (Zombie Wall)",
+  "no lens or value for a hero whose strength depends on playing against uncoordinated opponents (owner note on competitive play)"
+ ]
 }

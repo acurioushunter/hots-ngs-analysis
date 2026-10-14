@@ -133,7 +133,7 @@ def league_observed(heroes):
                 wt = season_weight(season.get(gid, newest), newest)
                 r = h2h.setdefault(key, [0, 0, 0.0, 0.0]); r[0] += 1; r[1] += int(a_won); r[2] += wt; r[3] += wt * int(a_won)
     h2h = {k: [v[0], v[1], round(v[2], 1), round(v[3], 1)] for k, v in h2h.items() if v[0] >= 12}
-    return out, h2h, league_combos(db, heroes, sides, win), dict(league_comps(db, heroes, sides, win), heal_lens=league_heal_lens(db, heroes, sides, win))
+    return out, h2h, league_combos(db, heroes, sides, win), dict(league_comps(db, heroes, sides, win), heal_lens=league_heal_lens(db, heroes, sides, win), lens_signal=league_lens_signal(db, heroes, sides, win))
 
 
 def league_comps(db, heroes, sides, win):
@@ -210,6 +210,52 @@ def league_heal_lens(db, heroes, sides, win):
                 if recent:
                     c[4] += 1; c[5] += int(w == t)
     return {h: {k: [v[0], v[1], round(v[2], 1), round(v[3], 1), v[4], v[5]] for k, v in d.items() if v[0] >= 15} for h, d in out.items()}
+
+
+def league_lens_signal(db, heroes, sides, win):
+    """Which lens values (hero profiles, knowledge/expert/lenses.json) go with winning drafts in the league. For every lens value and a
+    threshold of 1, 2 or 3 heroes on a side: win rate with it against without it, a z score, and the same difference in the newest window.
+    Observational: lens values cluster in comps, so this is an association. About 370 pairs are tested, so only |z| 3.3 or more is kept."""
+    import math
+    season = dict(db.execute("SELECT game_id, season FROM lg_games"))
+    newest = max(season.values()) if season else 0
+    rows = []
+    for gid, s in sides.items():
+        w = win.get(gid)
+        if w is None:
+            continue
+        for t in (0, 1):
+            hs = s[t]
+            if len(hs) != 5 or any(h not in heroes or not (heroes[h].get("profile") or {}).get("lenses") for h in hs):
+                continue
+            cnt = collections.Counter()
+            for h in hs:
+                for k, v in heroes[h]["profile"]["lenses"].items():
+                    for x in (v if isinstance(v, list) else [v]):
+                        cnt[(k, x)] += 1
+            rows.append((season.get(gid, newest), int(w == t), cnt))
+    if not rows:
+        return {"sides": 0, "base": None, "items": []}
+    keys = {k for r in rows for k in r[2]}
+    items = []
+    for k in keys:
+        for thr in (1, 2, 3):
+            a = [r for r in rows if r[2][k] >= thr]
+            b = [r for r in rows if r[2][k] < thr]
+            if len(a) < 250 or len(b) < 250:
+                continue
+            wa, wb = sum(r[1] for r in a) / len(a), sum(r[1] for r in b) / len(b)
+            se = math.sqrt(wa * (1 - wa) / len(a) + wb * (1 - wb) / len(b))
+            z = (wa - wb) / se if se else 0
+            if abs(z) < 3.3:
+                continue
+            ra = [r for r in a if newest - r[0] < RECENT_SEASONS]
+            rb = [r for r in b if newest - r[0] < RECENT_SEASONS]
+            rd = (sum(r[1] for r in ra) / len(ra) - sum(r[1] for r in rb) / len(rb)) if len(ra) >= 60 and len(rb) >= 60 else None
+            items.append(dict(lens=k[0], value=k[1], min=thr, n=len(a), with_wr=round(wa, 3), without_wr=round(wb, 3), z=round(z, 1),
+                              recent=None if rd is None else round(rd, 3)))
+    items.sort(key=lambda x: -abs(x["z"]))
+    return {"sides": len(rows), "base": round(sum(r[1] for r in rows) / len(rows), 3), "items": items[:60]}
 
 
 def league_combos(db, heroes, sides, win):
@@ -922,7 +968,7 @@ def main():
         meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values()),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
-        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'])
+        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, lens_catalog={k: dict(question=v['question'], kind=v['kind'], values=v['values']) for k, v in json.load(open(KN / 'expert' / 'lenses.json', encoding='utf-8'))['lenses'].items()}, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'])
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:

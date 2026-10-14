@@ -118,5 +118,87 @@
   "role",
   "attack.range"
  ],
- "owner_notes": "Gall is the ranged assassin half of Cho and Gall."
+ "owner_notes": "Gall is the ranged assassin half of Cho and Gall.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "long",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "big_health",
+   "relies_on_healer"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "vision_or_reveal"
+  ],
+  "cc_profile": "talent_dependent",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "unstoppable"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure",
+   "burst_objective"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "grants_vision"
+  ],
+  "power_curve": "late_scaler",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "team_dependent",
+  "team_needs": [
+   "healer",
+   "peel"
+  ],
+  "team_gives": [
+   "damage",
+   "wave_clear",
+   "engage"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "focus_fire",
+   "early_pressure",
+   "dive"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "zone_control"
+  ],
+  "bodies": "two_player"
+ },
+ "lens_notes": {
+  "damage_delivery": "Gall has no basic attack. Shadowflame, Dread Orb and Runic Blast do all damage.",
+  "damage_reach": "Dread Orb has an extremely long range.",
+  "damage_reliability": "Runic Blast needs Cho's Rune Bomb. Dread Orb is slow and easy to sidestep.",
+  "durability_source": "The body is Cho, so health is large but a Cho caught by CC loses both.",
+  "kill_pattern": "Cho's Upheaval and Twisting Nether slow into Shadowflame and Shadow Bolt Volley.",
+  "setup_reliance": "The partner is the other player in the same body, so the pair starts things with Cho.",
+  "cc_profile": "Leaden Orb stun and Deafening Blast silence are level 16 talents. Twisting Nether is a slow heroic.",
+  "anti_cc": "Gall is immune to stun and silence and can cast while Cho is stunned, but Cho still cannot move.",
+  "power_curve": "Weak early game, strongest at level 20. Win rate 0.448 in 105 games.",
+  "execution_demand": "Two players share one body, coordination with the Cho player is the whole difficulty.",
+  "ultimate_role": "Shadow Bolt Volley is usually picked against two or more tanks. Twisting Nether is the teamfight alternative.",
+  "team_needs": "Counts as two heroes in one body, so he needs a healer and peel for Cho."
+ },
+ "lens_gaps": [
+  "no lens for a two player hero sharing one body (Cho and Gall), anti_cc, durability and team_gives are double counted",
+  "no value on cc_profile for CC that exists only on the partner half of the same hero (Cho Upheaval)"
+ ]
 }

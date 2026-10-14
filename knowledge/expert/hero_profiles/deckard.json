@@ -2,17 +2,34 @@
  "hero": "Deckard",
  "slug": "deckard",
  "role": "Healer",
- "attack": {"type": "ranged", "range": "medium", "autos_matter": 1, "note": "Basic attacks are not part of the plan. Horadric Staff adds a 0.75 second stun every 5 seconds and Ancient Blessings makes allies' autos heal and splash."},
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 1,
+  "note": "Basic attacks are not part of the plan. Horadric Staff adds a 0.75 second stun every 5 seconds and Ancient Blessings makes allies' autos heal and splash."
+ },
  "damage": {
   "carry": false,
   "ranged_dealer": false,
-  "style": ["zone", "aoe"],
-  "poke": {"rating": 2, "kind": "zone", "dodgeable": 4, "note": "Scroll of Sealing has a 2.25 second telegraph, so aware heroes walk out. Horadric Cube is 80 with a 35% slow and is the setup, and Lorenado is a slow moving knockback zone."},
+  "style": [
+   "zone",
+   "aoe"
+  ],
+  "poke": {
+   "rating": 2,
+   "kind": "zone",
+   "dodgeable": 4,
+   "note": "Scroll of Sealing has a 2.25 second telegraph, so aware heroes walk out. Horadric Cube is 80 with a 35% slow and is the setup, and Lorenado is a slow moving knockback zone."
+  },
   "heal_blunted": 4,
   "note": "Damage is a side effect (856 per minute measured). Scroll of Stone Curse gives triple damage on two or more heroes and Ruby and Sapphire double Cube damage, but it is still area chip damage."
  },
  "healing": {
-  "style": ["single_target", "hot", "shield"],
+  "style": [
+   "single_target",
+   "hot",
+   "shield"
+  ],
   "sustain": 5,
   "burst_heal": 3,
   "aoe": 1,
@@ -21,26 +38,177 @@
   "positioning_risk": 3,
   "note": "Healing Potion is a 285 heal on a 4 second cooldown (2.7 with Fortitude of the Faithful) for 25 Mana and can be left on the ground, up to five, so the potions stockpile before a fight and soften burst. Potion of Shielding, Rejuvenation Potion and Super Healing Potion add shield, Mana and bigger potions. He is a single target sustain machine, not an area healer."
  },
- "ratings": {"wave_clear": 1, "camp_clear": 1, "siege": 1, "teamfight": 4, "engage": 3, "peel": 3, "mobility": 0, "self_sustain": 3, "survivability": 1, "objective": 3, "global_presence": 1, "solo_lane": 0},
- "cc": {"hard": ["root", "sleep", "stun", "knockback"], "soft": ["slow"], "reliability": 3},
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 1,
+  "siege": 1,
+  "teamfight": 4,
+  "engage": 3,
+  "peel": 3,
+  "mobility": 0,
+  "self_sustain": 3,
+  "survivability": 1,
+  "objective": 3,
+  "global_presence": 1,
+  "solo_lane": 0
+ },
+ "cc": {
+  "hard": [
+   "root",
+   "sleep",
+   "stun",
+   "knockback"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  {"tag": "high_sustain_healer", "why": "Emerald on Horadric Cube reduces enemy healing received by 75% for 4 seconds. Aim it at the kill target so the healer cannot save him. Perfect Gems shortens Gem cooldown to 5 seconds."},
-  {"tag": "melee_heavy", "why": "Lorenado knocks melee away and Kanai's Cube cuts their damage by 30%, Scroll of Sealing roots them after a slow, and Healing Potions on the ground feed low mobility allies who fight in a clump."},
-  {"tag": "immobile", "why": "Scroll of Sealing is a slow telegraphed root, so heroes that cannot dodge it take 150 plus Stone Curse damage and a 1.5 second root. Sleep also locks them from far."},
-  {"tag": "poke_comp", "why": "Stocked Healing Potions have no Mana cost per use that matters and Potion of Shielding adds a shield, so he out heals chip damage on single targets for the whole fight."},
-  {"tag": "tanky_frontline", "why": "Sleep and Lorenado hold a frontline for the team, and Super Healing Potion heals 100% more on potions left alone. He fights long and slow fights where tanks stand in his zone."}
+  {
+   "tag": "high_sustain_healer",
+   "why": "Emerald on Horadric Cube reduces enemy healing received by 75% for 4 seconds. Aim it at the kill target so the healer cannot save him. Perfect Gems shortens Gem cooldown to 5 seconds."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Lorenado knocks melee away and Kanai's Cube cuts their damage by 30%, Scroll of Sealing roots them after a slow, and Healing Potions on the ground feed low mobility allies who fight in a clump."
+  },
+  {
+   "tag": "immobile",
+   "why": "Scroll of Sealing is a slow telegraphed root, so heroes that cannot dodge it take 150 plus Stone Curse damage and a 1.5 second root. Sleep also locks them from far."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Stocked Healing Potions have no Mana cost per use that matters and Potion of Shielding adds a shield, so he out heals chip damage on single targets for the whole fight."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Sleep and Lorenado hold a frontline for the team, and Super Healing Potion heals 100% more on potions left alone. He fights long and slow fights where tanks stand in his zone."
+  }
  ],
  "bad_into": [
-  {"tag": "burst_dive", "why": "Guide: weak against burst damage and no escape. One target healing and a 0.5 second cast on potions cannot undo a combo, and he has 0 mobility."},
-  {"tag": "mobile", "why": "Scroll of Sealing is a 2.25 second telegraph and Healing Potion misses moving allies, so mobile heroes slip his CC and dodge potions."},
-  {"tag": "kiter", "why": "Horadric Cube and Scroll miss kiters that stay out of the cone, and he cannot close distance to enemy ranged heroes."},
-  {"tag": "ranged_heavy", "why": "Ranged heroes outrange his zone and can engage him easily. Unstoppable and cleanse effects (Whitemane, Johanna) also ignore his CC."}
+  {
+   "tag": "burst_dive",
+   "why": "Guide: weak against burst damage and no escape. One target healing and a 0.5 second cast on potions cannot undo a combo, and he has 0 mobility."
+  },
+  {
+   "tag": "mobile",
+   "why": "Scroll of Sealing is a 2.25 second telegraph and Healing Potion misses moving allies, so mobile heroes slip his CC and dodge potions."
+  },
+  {
+   "tag": "kiter",
+   "why": "Horadric Cube and Scroll miss kiters that stay out of the cone, and he cannot close distance to enemy ranged heroes."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Ranged heroes outrange his zone and can engage him easily. Unstoppable and cleanse effects (Whitemane, Johanna) also ignore his CC."
+  }
  ],
- "wants_from_team": ["Heroes who can follow up on his CC with burst damage", "Low mobility melee allies who can pick up stocked potions", "A tank with reliable CC that Scroll of Sealing can follow", "Choke points and long objective fights"],
- "gives_team": ["Efficient single target healing that is nearly free in Mana", "Area CC: Sleep, root, knockback", "Healing reduction with Emerald", "Potions that pre heal allies in other lanes or at objectives"],
+ "wants_from_team": [
+  "Heroes who can follow up on his CC with burst damage",
+  "Low mobility melee allies who can pick up stocked potions",
+  "A tank with reliable CC that Scroll of Sealing can follow",
+  "Choke points and long objective fights"
+ ],
+ "gives_team": [
+  "Efficient single target healing that is nearly free in Mana",
+  "Area CC: Sleep, root, knockback",
+  "Healing reduction with Emerald",
+  "Potions that pre heal allies in other lanes or at objectives"
+ ],
  "power_spike": "level_10",
- "weaknesses": ["Weak against burst and dive", "No cleanse and no unstoppable", "Wants allies around him because Fortitude of the Faithful needs a hero near", "Struggles against unstoppable and cleanse effects", "No mobility"],
- "evidence": ["Healing Potion, Horadric Cube, Scroll Of Sealing, Stay Awhile and Listen, Lorenado, Fortitude of the Faithful text", "Emerald, Kanai's Cube, Super Healing Potion, Potion of Shielding, Horadric Staff talents", "Icy Veins guide: strong single target healing, area CC, weak against burst and mobility", "MEASURED block: 3828 healing per minute, 76.8 seconds of enemy stun root silence per game (highest of my group), 864 games, win rate 0.495"],
+ "weaknesses": [
+  "Weak against burst and dive",
+  "No cleanse and no unstoppable",
+  "Wants allies around him because Fortitude of the Faithful needs a hero near",
+  "Struggles against unstoppable and cleanse effects",
+  "No mobility"
+ ],
+ "evidence": [
+  "Healing Potion, Horadric Cube, Scroll Of Sealing, Stay Awhile and Listen, Lorenado, Fortitude of the Faithful text",
+  "Emerald, Kanai's Cube, Super Healing Potion, Potion of Shielding, Horadric Staff talents",
+  "Icy Veins guide: strong single target healing, area CC, weak against burst and mobility",
+  "MEASURED block: 3828 healing per minute, 76.8 seconds of enemy stun root silence per game (highest of my group), 864 games, win rate 0.495"
+ ],
  "confidence": "high",
- "unsure": ["good_into tanky_frontline", "good_into poke_comp", "ratings.engage"]
+ "unsure": [
+  "good_into tanky_frontline",
+  "good_into poke_comp",
+  "ratings.engage"
+ ],
+ "lenses": {
+  "damage_delivery": "zone_trap",
+  "damage_timing": "chip_poke",
+  "damage_reach": "medium",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "sustain_single",
+  "healer_safety": "conditional",
+  "utility_tool": [
+   "anti_heal",
+   "zone_or_wall"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "zone_hold"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "sustain",
+   "cc_setup",
+   "peel"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "kiting",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "sustain_teamfight",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Horadric Cube and Scroll of Sealing are zones with telegraphs; 856 damage per minute measured is side effect damage.",
+  "cc_profile": "Horadric Staff stun, Scroll of Sealing root, Lorenado knockback and Stay Awhile and Listen sleep; 76.8 seconds of CC per game measured is the highest in my group.",
+  "cc_delivery": "Mostly area CC, but Scroll of Sealing has a 2.25 second telegraph that aware heroes walk out of.",
+  "utility_tool": "Emerald on Horadric Cube reduces enemy healing received by 75% for 4 seconds.",
+  "healer_safety": "No mobility and a cast on potions, but potions can be stocked on the ground before a fight.",
+  "anti_cc": "Unstoppable and cleanse effects on enemies ignore his CC, and he has nothing for himself.",
+  "kill_pattern": "He sets up kills for others with sleep, root and stun; 10.4 takedowns per game measured."
+ },
+ "lens_gaps": [
+  "no healer_class value for a stockpiled ground heal (Healing Potions left on the map)",
+  "no utility value for healing placed ahead of time in another lane or at an objective"
+ ]
 }

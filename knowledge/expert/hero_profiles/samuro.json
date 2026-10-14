@@ -109,5 +109,90 @@
  "unsure": [
   "damage.carry"
  ],
- "owner_notes": "High skill ceiling. Offlanes well and later double soaks. Hard to kill, which is his strength: he pulls attention from objectives so the team can take them, and wastes the enemy's time if they send people to gank and he still escapes."
+ "owner_notes": "High skill ceiling. Offlanes well and later double soaks. Hard to kill, which is his strength: he pulls attention from objectives so the team can take them, and wastes the enemy's time if they send people to gank and he still escapes.",
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "structure_focus",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "untargetable_or_escape",
+   "self_heal"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "stealth_ambush",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "cleanse_or_cc_denial"
+  ],
+  "cc_profile": "none",
+  "cc_delivery": "none",
+  "anti_cc": [
+   "cleanse"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure",
+   "mobility_rotate"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "stealth"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "objective_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "nothing"
+  ],
+  "team_gives": [
+   "objective",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "early_pressure",
+   "sustain_heals"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "global_macro"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Samuro and his Mirror Images deal their damage with critical basic attacks. Bladestorm is the only damaging ability.",
+  "target_style": "Measured siege (about 7050 per minute) is second highest in the league while hero damage is below median, so structures first.",
+  "frontline_style": "Offlaner in the draft sense, but he does not hold a line and takes little damage (1841 per minute measured).",
+  "durability_source": "Wind Walk heals 2 percent per second, Mirror Images soak shots, and Image Transmission removes negative effects.",
+  "kill_pattern": "Harsh Winds from Wind Walk and Image Transmission give picks, but takedowns are low (6.1 per game). Hunter reads his value as pulling attention and wasting enemy time, not kills.",
+  "escape": "Wind Walk, Mirror Image and Image Transmission. Owner: hard to kill is his strength, and enemies who chase still do not get him. Deaths 1.5 per game is the lowest of my ten heroes.",
+  "utility_tool": "Image Transmission and Mirror Image each remove most negative effects from him and his images.",
+  "cc_profile": "Icy Veins: no crowd control as a bruiser. Slows only come from allies and Merciless Strikes wants them.",
+  "anti_cc": "Two cleanses, but Icy Veins says he is vulnerable to knockbacks and peel.",
+  "camp_play": "Icy Veins says Bladestorm and images clear camps quickly, but measured camps are 1.7 per game, the lowest of the ten, so teams do not use him that way in NGS.",
+  "objective_role": "Good on point capture and channel objectives through stall and duels (Icy Veins). Siege measured very high.",
+  "power_curve": "Weak early game, then beats almost every hero after level 7 per Icy Veins.",
+  "snowball": "Rarely dies, so a deficit costs little and leads do not change his plan, steady.",
+  "ultimate_role": "Wind Storm build takes Bladestorm for waves, camps and finishing. Illusion Master is a passive style alternative.",
+  "team_needs": "Icy Veins: fits comps that need an offlaner and do not need extra peel for him. Healing from range (Malfurion, Deckard) is a bonus.",
+  "vulnerable_to": "Knockbacks (Lucio, E.T.C.), heroes that kill images (Jaina, Orphea), Biotic Armor from Stukov, and being revealed."
+ },
+ "lens_gaps": [
+  "vision_stealth cannot say 'vulnerable when revealed' (detection counters), and vulnerable_to has no detection value.",
+  "No value for knockback or displacement on vulnerable_to (Lucio, E.T.C.).",
+  "No lens for decoys and clones (images soak shots and also help enemies finish quests).",
+  "No lens for pulling attention and tying up defenders, which is his main macro job (owner)."
+ ]
 }

@@ -11,7 +11,11 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "single_target", "poke"],
+  "style": [
+   "sustained",
+   "single_target",
+   "poke"
+  ],
   "poke": {
    "rating": 3,
    "kind": "skillshot",
@@ -37,21 +41,52 @@
   "solo_lane": 3
  },
  "cc": {
-  "hard": ["blind", "stun", "root", "silence"],
-  "soft": ["slow"],
+  "hard": [
+   "blind",
+   "stun",
+   "root",
+   "silence"
+  ],
+  "soft": [
+   "slow"
+  ],
   "reliability": 2
  },
  "good_into": [
-  {"tag": "melee_heavy", "why": "Blinding Light removes basic attacks of melee heroes, Surge of Light stores their damage and releases an area hit, and Avoidance armor reduces their hits while she keeps moving. Grounding Rod and Martial Law punish them further."},
-  {"tag": "assassin", "why": "Blinding Light plus Fend and Ball Lightning let her win a duel against a diving assassin that relies on basic attacks, and Avoidance gives up to 30 armor against their physical damage."},
-  {"tag": "tanky_frontline", "why": "Martial Law deals percent health damage (3 percent when slowed, stunned or blinded) and Titan's Revenge ignores armor, so she chews through tanks that other poke assassins cannot."},
-  {"tag": "single_target_healer", "why": "Her armor makes single target heals very efficient, and the guide notes her value jumps with a focused healer, so she is stronger when her own healer has this style."}
+  {
+   "tag": "melee_heavy",
+   "why": "Blinding Light removes basic attacks of melee heroes, Surge of Light stores their damage and releases an area hit, and Avoidance armor reduces their hits while she keeps moving. Grounding Rod and Martial Law punish them further."
+  },
+  {
+   "tag": "assassin",
+   "why": "Blinding Light plus Fend and Ball Lightning let her win a duel against a diving assassin that relies on basic attacks, and Avoidance gives up to 30 armor against their physical damage."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Martial Law deals percent health damage (3 percent when slowed, stunned or blinded) and Titan's Revenge ignores armor, so she chews through tanks that other poke assassins cannot."
+  },
+  {
+   "tag": "single_target_healer",
+   "why": "Her armor makes single target heals very efficient, and the guide notes her value jumps with a focused healer, so she is stronger when her own healer has this style."
+  }
  ],
  "bad_into": [
-  {"tag": "cc_heavy", "why": "Avoidance armor only exists while she is moving, so any stun or root removes it within about a second. Fend can be cancelled early and she has no escape."},
-  {"tag": "ranged_heavy", "why": "Her attack range is short, so longer range assassins and mages win trades in the open and punish her dive with Fend."},
-  {"tag": "poke_comp", "why": "She has no good way to close from range with Fend on cooldown and very few ways to heal back chip except Inner Light and Plate of the Whale."},
-  {"tag": "stealth", "why": "Blinding Light is a ground target area, so stealthed heroes avoid it, and her kit has no reveal."}
+  {
+   "tag": "cc_heavy",
+   "why": "Avoidance armor only exists while she is moving, so any stun or root removes it within about a second. Fend can be cancelled early and she has no escape."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Her attack range is short, so longer range assassins and mages win trades in the open and punish her dive with Fend."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "She has no good way to close from range with Fend on cooldown and very few ways to heal back chip except Inner Light and Plate of the Whale."
+  },
+  {
+   "tag": "stealth",
+   "why": "Blinding Light is a ground target area, so stealthed heroes avoid it, and her kit has no reveal."
+  }
  ],
  "wants_from_team": [
   "Heroes that blind or slow so Blinding Light and Martial Law get bonus damage",
@@ -80,5 +115,88 @@
   "Measured block: hero damage per minute about 3030, win rate 0.480 over 644 games"
  ],
  "confidence": "medium",
- "unsure": ["good_into.single_target_healer", "ratings.siege"]
+ "unsure": [
+  "good_into.single_target_healer",
+  "ratings.siege"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "damage_reduction",
+   "self_heal"
+  ],
+  "lane_role": "solo_laner",
+  "kill_pattern": "flank_pick",
+  "escape": "none",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "front_line",
+   "peel"
+  ],
+  "team_gives": [
+   "damage"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "focus_fire",
+   "dive"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "anti_tank"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_reach": "Her attack range is short for an assassin. Gloves of Alacrity adds range only while Avoidance is fully charged.",
+  "damage_reliability": "Autos and Fend always land once she is close, but Fend commits her into counter engages.",
+  "durability_source": "Avoidance armor only while moving, plus Ring of the Leech and Inner Light for sustain. Stunned or rooted she loses the armor quickly.",
+  "kill_pattern": "Fend charge and Ball Lightning duel isolated heroes. Valkyrie pulls but is easy to dodge.",
+  "escape": "Fend is a charge, not an escape. War Traveler only adds speed.",
+  "cc_profile": "Blinding Light blinds for 2 seconds on a 15 second cooldown. Valkyrie stuns 0.5 seconds. Imprisoning Light at level 20 adds silence and root.",
+  "anti_cc": "War Matron makes her Protected only while channelling Fend, a talent. Standard build has no cleanse.",
+  "wave_clear_style": "Fend is her best waveclear. Lightning Fury splits through minions.",
+  "objective_role": "Siege is below the league median (4300 against 4430), so she is not an objective hero.",
+  "power_curve": "Strong from Ball Lightning at 10, but her real power is the level 13 and 16 talents (Martial Law, Static Electricity).",
+  "snowball": "Ball Lightning duels and Martial Law reward early kills.",
+  "ultimate_role": "Ball Lightning is a low cooldown duel tool. Valkyrie is niche, used to interrupt channelled heroics.",
+  "execution_demand": "Avoidance means she must keep moving and stutter stepping."
+ },
+ "lens_gaps": [
+  "no lens for defense that depends on constant movement (Avoidance armor), nearest is damage_reduction",
+  "no value on cc_profile for a short blind (a blind is neither a hard stun nor a plain slow)"
+ ]
 }

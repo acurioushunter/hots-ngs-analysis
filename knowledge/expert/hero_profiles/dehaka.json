@@ -122,5 +122,83 @@
  "owner_notes": "A bruiser who clears waves and offlanes before the objective to pull the other offlaner away, then burrows into the objective with the team and turns a 4v4 into a 5v4 with his global. If the other offlaner does not contest him he keeps pushing while the team stalls, and it is better still when a camp is timed to push with him.",
  "flex_roles": [
   "Offlaner who pulls the other offlaner away"
+ ],
+ "lenses": {
+  "damage_delivery": "melee_brawler",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "guaranteed"
+  ],
+  "frontline_style": "catcher",
+  "durability_source": [
+   "self_heal",
+   "big_health"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "global_ability",
+   "anti_heal"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "mobility_rotate",
+   "global_presence",
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "low_impact",
+  "execution_demand": "medium",
+  "team_needs": [
+   "nothing"
+  ],
+  "team_gives": [
+   "cc_setup",
+   "objective",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "kiting",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "split_push",
+   "global_macro"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "lane_role": "Owner: offlaner who clears waves and pulls the other offlaner away, then pushes while the team stalls.",
+  "map_mobility": "Burrow lets him join the objective from anywhere, so it is close to global_teleport but only to teammates, high is the nearest honest value.",
+  "objective_role": "Owner: burrows into the objective and turns a 4v4 into a 5v4.",
+  "ultimate_role": "Adaptation and Primal Rage are personal buffs, his value is the kit and the Burrow global, not the heroic.",
+  "damage_delivery": "Measured hero damage 1466 per minute is far below median, he is a catcher and pusher.",
+  "frontline_style": "Drag is a catch tool, damage is low, so catcher fits better than disruptor.",
+  "utility_tool": "Paralyzing Enzymes cuts healing 50 percent."
+ },
+ "lens_gaps": [
+  "no value for pulls the enemy offlaner away on lane_role",
+  "no value for global burrow join to teammates on map_mobility"
  ]
 }

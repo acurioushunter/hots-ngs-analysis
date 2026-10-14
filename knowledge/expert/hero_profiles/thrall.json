@@ -121,5 +121,85 @@
  ],
  "owner_corrections": [
   "role Melee Assassin to Bruiser"
+ ],
+ "lenses": {
+  "damage_delivery": "hybrid",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "skillshot"
+  ],
+  "frontline_style": "disruptor",
+  "durability_source": [
+   "self_heal",
+   "armor_or_shield"
+  ],
+  "lane_role": "soak_and_group",
+  "kill_pattern": "cc_chain",
+  "escape": "none",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "shield_or_bubble"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "ok",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "wave_clear",
+   "front_line"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "damage"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "hard_cc",
+   "poke",
+   "macro_split"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "sustain_teamfight"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Windfury autos, Chain Lightning and Feral Spirit all matter, so hybrid.",
+  "frontline_style": "Owner: a bruiser or melee assassin, not a tank; Sundering shoves and splits the enemy team, so disruptor.",
+  "durability_source": "Frostwolf Resilience heals on ability hits, Earthen Shields and Spirit Shield absorb.",
+  "lane_role": "Solo lane rating 1 and wave clear 1; the guide wants him grouped.",
+  "kill_pattern": "Feral Spirit root plus Sundering stun hold a target for his own Windfury burst; 40 seconds of enemy CC per game.",
+  "escape": "Wind Rush is a 90 second gap closer talent, not an escape.",
+  "anti_cc": "Spirit Shield blocks one ability; Sundering interrupts channelled heroics.",
+  "camp_play": "Owner: slower than Sonya at camps, 3.4 per game.",
+  "ultimate_role": "Sundering or Earthquake; both swing fights.",
+  "team_needs": "He cannot clear waves or fight split, so a wave clearer and a front line.",
+  "vulnerable_to": "Blinds ruin Windfury; stun plus burst kills him; he needs a 4 man team so splits hurt."
+ },
+ "lens_gaps": [
+  "vulnerable_to has no value for blinds or attack denial (Windfury and Tempest Fury ruined)",
+  "no lens for melee assassin versus bruiser flex (Owner flex_roles)"
  ]
 }

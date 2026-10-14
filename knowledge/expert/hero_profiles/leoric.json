@@ -11,8 +11,17 @@
  "damage": {
   "carry": true,
   "ranged_dealer": false,
-  "style": ["sustained", "percent_health", "single_target"],
-  "poke": { "rating": 0, "kind": "none", "dodgeable": 3, "note": "No poke. Skeletal Swing slow is melee range." },
+  "style": [
+   "sustained",
+   "percent_health",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 3,
+   "note": "No poke. Skeletal Swing slow is melee range."
+  },
   "heal_blunted": 2,
   "note": "Drain Hope heals him for 25 percent max health and deals 15 percent maximum health with Crushing Hope, and Spectral Leech adds percent health autos, so he fights through healing. March of the Black King adds Unstoppable burst."
  },
@@ -31,18 +40,50 @@
   "global_presence": 1,
   "solo_lane": 5
  },
- "cc": { "hard": ["silence"], "soft": ["slow"], "reliability": 2 },
+ "cc": {
+  "hard": [
+   "silence"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 2
+ },
  "good_into": [
-  { "tag": "tanky_frontline", "why": "Crushing Hope and Spectral Leech add percent maximum health damage that scales on high health targets." },
-  { "tag": "melee_heavy", "why": "Drain Hope and Spectral Leech heal him in brawls, Ominous Wraith reduces damage of contacted heroes by 50 percent." },
-  { "tag": "split_push", "why": "Best siege in my set (6857 per minute), wave clear and solo lane. He holds lanes alone." },
-  { "tag": "poke_comp", "why": "Drain Hope, Ossein Renewal and Shroud of the Dead King make him very hard to chip down." }
+  {
+   "tag": "tanky_frontline",
+   "why": "Crushing Hope and Spectral Leech add percent maximum health damage that scales on high health targets."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Drain Hope and Spectral Leech heal him in brawls, Ominous Wraith reduces damage of contacted heroes by 50 percent."
+  },
+  {
+   "tag": "split_push",
+   "why": "Best siege in my set (6857 per minute), wave clear and solo lane. He holds lanes alone."
+  },
+  {
+   "tag": "poke_comp",
+   "why": "Drain Hope, Ossein Renewal and Shroud of the Dead King make him very hard to chip down."
+  }
  ],
  "bad_into": [
-  { "tag": "kiter", "why": "Every ability needs melee range and his mobility is Wraith Walk only." },
-  { "tag": "cc_heavy", "why": "Drain Hope and Wraith Walk are cast channels and stuns or silences cancel them, and only Shroud arrives at level 20." },
-  { "tag": "burst_dive", "why": "Seconds dead is the highest in this set (122) as he is exposed in fights while shoving lanes." },
-  { "tag": "ranged_heavy", "why": "Cannot reach ranged heroes without Wraith Walk." }
+  {
+   "tag": "kiter",
+   "why": "Every ability needs melee range and his mobility is Wraith Walk only."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Drain Hope and Wraith Walk are cast channels and stuns or silences cancel them, and only Shroud arrives at level 20."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Seconds dead is the highest in this set (122) as he is exposed in fights while shoving lanes."
+  },
+  {
+   "tag": "ranged_heavy",
+   "why": "Cannot reach ranged heroes without Wraith Walk."
+  }
  ],
  "wants_from_team": [
   "Teammates who can protect him from crowd control",
@@ -67,5 +108,78 @@
   "Measured: win rate 0.498, siege 6857 per minute (very high), damage taken 3667, 122 seconds dead per game, 2368 games"
  ],
  "confidence": "medium",
- "unsure": ["ratings.teamfight", "cc.reliability"]
+ "unsure": [
+  "ratings.teamfight",
+  "cc.reliability"
+ ],
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "percent_health",
+  "damage_reliability": [
+   "guaranteed"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "self_heal",
+   "big_health"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "cc_chain",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall"
+  ],
+  "cc_profile": "single_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "unstoppable"
+  ],
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "medium",
+  "team_needs": [
+   "nothing"
+  ],
+  "team_gives": [
+   "objective",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "hard_cc",
+   "focus_fire"
+  ],
+  "comp_affinity": [
+   "split_push",
+   "anti_tank"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Spectral Leech and Mithril Mace make autos the main damage, with Drain Hope as the heroic alternative.",
+  "cc_profile": "Entomb is a wall that traps a target, so it counts as the one hard tool, only available if taken.",
+  "ultimate_role": "Entomb for a burst pick, March of the Black King for Unstoppable burst; Drain Hope is the sustain build.",
+  "anti_cc": "March of the Black King gives Unstoppable, but only on the heroic choice.",
+  "lane_role": "Siege 6857 and solo lane 5 are the highest of this set.",
+  "kill_pattern": "Entomb then burst, per the guide."
+ },
+ "lens_gaps": [
+  "no value for traps or walls a target on cc_delivery"
+ ]
 }

@@ -11,8 +11,17 @@
  "damage": {
   "carry": true,
   "ranged_dealer": true,
-  "style": ["sustained", "siege", "single_target"],
-  "poke": { "rating": 3, "kind": "skillshot", "dodgeable": 3, "note": "Deth Lazor is a long line skillshot and Xplodium Charge a delayed area shot, both reasonably dodgeable by mobile targets." },
+  "style": [
+   "sustained",
+   "siege",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Deth Lazor is a long line skillshot and Xplodium Charge a delayed area shot, both reasonably dodgeable by mobile targets."
+  },
   "heal_blunted": 3,
   "note": "Turrets, Deth Lazor and autos add a medium sustained rate and Hyperfocus Coils or Overklock add percent health damage that skips some healing. Measured hero damage 2212 per minute is only slightly above median but siege 6105 is very high thanks to turrets."
  },
@@ -31,18 +40,51 @@
   "global_presence": 2,
   "solo_lane": 4
  },
- "cc": { "hard": ["pull", "stun"], "soft": ["slow"], "reliability": 3 },
+ "cc": {
+  "hard": [
+   "pull",
+   "stun"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
  "good_into": [
-  { "tag": "structures", "why": "Turrets and scrap fed Rock-It! Turrets plus Xplodium Charge give some of the highest siege damage in the game." },
-  { "tag": "tanky_frontline", "why": "Hyperfocus Coils and Overklock add maximum health percent damage to Deth Lazor, Xplodium and autos." },
-  { "tag": "split_push", "why": "He can hold a lane alone with turrets and wave clear, and wins solo lane against many heroes." },
-  { "tag": "melee_heavy", "why": "Master Blaster slows, turrets and EZ-PZ Dimensional Ripper cut incoming damage and Grav-O-Bomb 3000 stuns clumped melee heroes." }
+  {
+   "tag": "structures",
+   "why": "Turrets and scrap fed Rock-It! Turrets plus Xplodium Charge give some of the highest siege damage in the game."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Hyperfocus Coils and Overklock add maximum health percent damage to Deth Lazor, Xplodium and autos."
+  },
+  {
+   "tag": "split_push",
+   "why": "He can hold a lane alone with turrets and wave clear, and wins solo lane against many heroes."
+  },
+  {
+   "tag": "melee_heavy",
+   "why": "Master Blaster slows, turrets and EZ-PZ Dimensional Ripper cut incoming damage and Grav-O-Bomb 3000 stuns clumped melee heroes."
+  }
  ],
  "bad_into": [
-  { "tag": "burst_dive", "why": "Low mobility and health, and Grav-O-Bomb is his only strong crowd control, so a dive kills him before turrets matter." },
-  { "tag": "kiter", "why": "Skillshot damage is easily dodged by mobile targets and he cannot catch them." },
-  { "tag": "stealth", "why": "Turrets and Deth Lazor need vision of a target and have no detection." },
-  { "tag": "assassin", "why": "Assassins can ignore turrets and kill him directly while he is fragile." }
+  {
+   "tag": "burst_dive",
+   "why": "Low mobility and health, and Grav-O-Bomb is his only strong crowd control, so a dive kills him before turrets matter."
+  },
+  {
+   "tag": "kiter",
+   "why": "Skillshot damage is easily dodged by mobile targets and he cannot catch them."
+  },
+  {
+   "tag": "stealth",
+   "why": "Turrets and Deth Lazor need vision of a target and have no detection."
+  },
+  {
+   "tag": "assassin",
+   "why": "Assassins can ignore turrets and kill him directly while he is fragile."
+  }
  ],
  "wants_from_team": [
   "Peel and a frontline to protect him while turrets build",
@@ -68,5 +110,80 @@
   "Measured: win rate 0.473, hero damage 2212 per minute, siege 6105, 17.6 seconds of CC per game"
  ],
  "confidence": "medium",
- "unsure": ["ratings.siege", "cc.reliability", "role"]
+ "unsure": [
+  "ratings.siege",
+  "cc.reliability",
+  "role"
+ ],
+ "lenses": {
+  "damage_delivery": "summoner",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "medium",
+  "target_style": "structure_focus",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
+  ],
+  "lane_role": "split_pusher",
+  "kill_pattern": "attrition",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "talent_dependent",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "summons_or_zone",
+  "camp_play": "ok",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "strong",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "objective",
+   "damage"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire",
+   "poke"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Turrets and Rock-It Turret do much of the siege work, measured siege 6105 per minute.",
+  "cc_profile": "Only Grav-O-Bomb 3000 pull and Xplodium Charge stun talents, no baseline hard CC.",
+  "ultimate_role": "Grav-O-Bomb 3000 pulls a group for the follow up, so teamfight_swing is the nearest value.",
+  "lane_role": "Siege and a rating 4 solo lane make him a lane pusher.",
+  "kill_pattern": "Wears targets down with Deth Lazor and turrets, not a burst hero.",
+  "damage_reliability": "Turret placement decides the value."
+ },
+ "lens_gaps": []
 }

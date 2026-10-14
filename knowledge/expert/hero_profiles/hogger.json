@@ -116,5 +116,74 @@
   "cc",
   "attack.autos_matter"
  ],
- "owner_notes": "A bruiser. Needs a look in Chrome when sessions are back."
+ "owner_notes": "A bruiser. Needs a look in Chrome when sessions are back.",
+ "lenses": {
+  "damage_delivery": "melee_brawler",
+  "damage_timing": "sustained_dps",
+  "damage_reach": "point_blank",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "stack_or_quest"
+  ],
+  "frontline_style": "brawler_sustain",
+  "durability_source": [
+   "self_heal",
+   "big_health"
+  ],
+  "lane_role": "camp_taker",
+  "kill_pattern": "flank_pick",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
+  ],
+  "wave_clear_style": "sustained",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure"
+  ],
+  "split_potential": "some",
+  "map_mobility": "average",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "nothing"
+  ],
+  "team_gives": [
+   "damage",
+   "cc_setup"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "hard_cc",
+   "poke"
+  ],
+  "comp_affinity": [
+   "pick_catch",
+   "split_push"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "lane_role": "Merc camps 4.6 per game is the highest of this set and camp clear is rated 5.",
+  "cc_profile": "Shockwave stun, Staggering Blow knockback and Hogg Wild knockback; profile reliability is only 3.",
+  "snowball": "Rage and Furzerker stacks make a lead compound.",
+  "ultimate_role": "Hogg Wild swings a clumped fight or clears camps, the guide leans on it for both.",
+  "execution_demand": "Owner has not yet reviewed him, values here are from the guide and measured block.",
+  "power_curve": "Talent spike at level 10, Loot Hoard and Hogg Wild talents."
+ },
+ "lens_gaps": []
 }

@@ -37,7 +37,7 @@ def chk(p):
             if k not in CAT: e.append('unknown lens '+k)
     return e
 import os
-REQUIRED=os.environ.get('HERO_LENSES_REQUIRED')=='1'
+REQUIRED=os.environ.get('HERO_LENSES_REQUIRED','1')!='0'
 PENDING=[]
 CAT=json.load(open('knowledge/expert/lenses.json',encoding='utf-8'))['lenses']
 bad=0
@@ -47,6 +47,6 @@ for p in sorted(D.glob('*.json')):
     if e: bad+=1; print(p.name,e)
 n=len(list(D.glob('*.json')))
 print(n,'profiles,',bad,'with problems')
-if PENDING: print('lens classification pending for',len(PENDING),'heroes (set HERO_LENSES_REQUIRED=1 to make it a failure)')
+if PENDING: print('lens classification pending for',len(PENDING),'heroes (set HERO_LENSES_REQUIRED=0 to allow)')
 print('OK' if bad==0 and n>=91 else 'FAILED')
 sys.exit(0 if bad==0 and n>=91 else 1)

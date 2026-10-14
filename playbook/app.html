@@ -501,6 +501,19 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <p class="small muted">Win rate of the drafting side, with the number of sides in brackets. The first two columns weight newer seasons more (a game ${c.half_life} seasons old counts half); the last is only the newest ${c.recent_seasons} seasons. Close to 50% means the count alone did not decide games. Two healers: ${f2(hl)} against one healer: ${f2(h1)}. All NGS divisions, not only ours. The count stands in for wave clear and poke, it is not a cause.</p></details>`;
   }
 
+  // League lens read for the comp on the board: lens values with a clear league association, present and still reachable.
+  function lensCard(st) {
+    const r = E.lensRead(st, "us");
+    if (!r || !r.picks) return "";
+    const one = i => `<li class="small"><span class="tag ${i.good ? "good" : "warn"}">${i.good ? "helps" : "hurts"}</span> ${esc(i.text)} <span class="muted">(${i.min === 1 ? "any" : i.min + " or more"}${i.heroes.length ? ": " + i.heroes.map(esc).join(", ") : ""})</span><br><span class="num">${Math.round(i.withWr * 100)}%</span> with, <span class="num">${Math.round(i.withoutWr * 100)}%</span> without, ${i.n.toLocaleString("en-US")} sides${i.recent != null ? "; newest seasons " + (i.recent >= 0 ? "+" : "") + Math.round(i.recent * 100) + " points" : ""}</li>`;
+    const pres = r.present.slice(0, 6), miss = r.missing.slice(0, 3);
+    if (!pres.length && !miss.length) return "";
+    return `<details class="sec" style="margin-top:8px"><summary>Lens read: what the league's drafts did with this comp (${r.sides.toLocaleString("en-US")} sides)</summary>
+      ${pres.length ? `<p class="small" style="margin-bottom:2px"><b>Already on the board</b></p><ul class="r">${pres.map(one).join("")}</ul>` : ""}
+      ${miss.length ? `<p class="small" style="margin-bottom:2px"><b>Still reachable with the picks left</b></p><ul class="r">${miss.map(one).join("")}</ul>` : ""}
+      <p class="small muted">Association only: heroes with these traits are chosen into particular comps, so a gap can come from the comp, the players or the era, not the trait. Win rate of the drafting side across every NGS division, seasons 15 to 22. Strongest of about 370 trait and count pairs tested (only large gaps are kept).</p></details>`;
+  }
+
   function ownerComboCard(st) {
     const cs = E.ownerCombos(st).filter(c => c.ready || c.answeredBy.length || c.missing.length === 1 || c.finishers.length);
     if (!cs.length) return "";
@@ -520,6 +533,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       ${c.notes.map(w => `<p class="small muted" style="margin-top:6px">${esc(w)}</p>`).join("")}
       ${compLeague(st)}
       ${ownerComboCard(st)}
+      ${lensCard(st)}
       ${asg.assign.length ? `<table style="margin-top:8px"><tr><th>Player</th><th>Hero</th><th>Evidence</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td>${heroBtn(a.hero)}</td><td class="small muted">${esc(a.why.slice(0, 2).join("; "))}</td></tr>`).join("")}</table>
       <p class="small muted">This is the best way to hand out the picks so far. Swap the players when the draft ends if a hero fits someone else better.</p>` : ""}
       ${theirs.length ? `<p class="small"><b>Their picks:</b> ${theirs.map(heroBtn).join(", ")}</p>` : ""}

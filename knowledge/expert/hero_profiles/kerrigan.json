@@ -1,85 +1,204 @@
 {
-  "hero": "Kerrigan",
-  "slug": "kerrigan",
-  "role": "Melee Assassin",
-  "attack": {
-    "type": "melee",
-    "range": "melee",
-    "autos_matter": 1,
-    "note": "Ability based. Autos only matter for Fury of the Swarm wave splash, Kinetic Fulmination stacks and Bladed Momentum. Her damage is Ravage, Primal Grasp pulses and Impaling Blades."
+ "hero": "Kerrigan",
+ "slug": "kerrigan",
+ "role": "Melee Assassin",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 1,
+  "note": "Ability based. Autos only matter for Fury of the Swarm wave splash, Kinetic Fulmination stacks and Bladed Momentum. Her damage is Ravage, Primal Grasp pulses and Impaling Blades."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": [
+   "burst",
+   "aoe",
+   "single_target"
+  ],
+  "poke": {
+   "rating": 0,
+   "kind": "none",
+   "dodgeable": 0,
+   "note": "No poke. She must jump in and commit with Ravage, then pull enemies into Impaling Blades."
   },
-  "damage": {
-    "carry": true,
-    "ranged_dealer": false,
-    "style": ["burst", "aoe", "single_target"],
-    "poke": {
-      "rating": 0,
-      "kind": "none",
-      "dodgeable": 0,
-      "note": "No poke. She must jump in and commit with Ravage, then pull enemies into Impaling Blades."
-    },
-    "heal_blunted": 1,
-    "note": "Primal Grasp pulls into Impaling Blades for a stun plus 150 damage, then a delayed Primal Grasp explosion (and a second one with Psionic Pulse). Assimilation turns her output into shields. The burst lands in about three seconds, so healing barely matters; what stops her is dying or being stunned first. Ravage's quest adds large flat damage over the game."
+  "heal_blunted": 1,
+  "note": "Primal Grasp pulls into Impaling Blades for a stun plus 150 damage, then a delayed Primal Grasp explosion (and a second one with Psionic Pulse). Assimilation turns her output into shields. The burst lands in about three seconds, so healing barely matters; what stops her is dying or being stunned first. Ravage's quest adds large flat damage over the game."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 3,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 4,
+  "peel": 1,
+  "mobility": 4,
+  "self_sustain": 3,
+  "survivability": 3,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [
+   "stun",
+   "pull"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
+ "good_into": [
+  {
+   "tag": "squishy_backline",
+   "why": "Ravage jumps in, Primal Grasp pulls and Impaling Blades stuns and bursts a backline target, and Psionic Shift gets her out."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 4,
-    "camp_clear": 3,
-    "siege": 3,
-    "teamfight": 4,
-    "engage": 4,
-    "peel": 1,
-    "mobility": 4,
-    "self_sustain": 3,
-    "survivability": 3,
-    "objective": 3,
-    "global_presence": 0,
-    "solo_lane": 3
+  {
+   "tag": "poke_comp",
+   "why": "Psionic Barrier plus Psionic Pulse stacks spell armor against spell damage dealers and Assimilation shields cover chip damage while she closes."
   },
-  "cc": {
-    "hard": ["stun", "pull"],
-    "soft": ["slow"],
-    "reliability": 3
+  {
+   "tag": "immobile",
+   "why": "Pulled and stunned targets that cannot blink away eat the full Impaling Blades, delayed pulses and Summon Ultralisk."
   },
-  "good_into": [
-    { "tag": "squishy_backline", "why": "Ravage jumps in, Primal Grasp pulls and Impaling Blades stuns and bursts a backline target, and Psionic Shift gets her out." },
-    { "tag": "poke_comp", "why": "Psionic Barrier plus Psionic Pulse stacks spell armor against spell damage dealers and Assimilation shields cover chip damage while she closes." },
-    { "tag": "immobile", "why": "Pulled and stunned targets that cannot blink away eat the full Impaling Blades, delayed pulses and Summon Ultralisk." },
-    { "tag": "split_push", "why": "Ravage and Fury of the Swarm clear waves quickly and she can rotate to gank a lone enemy with her combo." }
+  {
+   "tag": "split_push",
+   "why": "Ravage and Fury of the Swarm clear waves quickly and she can rotate to gank a lone enemy with her combo."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "cc_heavy",
+   "why": "A stun or silence before Ravage lands removes her entire combo, and she has no escape without Psionic Shift."
+  },
+  {
+   "tag": "tanky_frontline",
+   "why": "Pulled targets are protected by a strong front line and healers, leaving her without a safe commit and no way out after she dives."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "Her health is low and defences are conditional (Assimilation scales with damage dealt), so a fast dive kills her before shields grow."
+  },
+  {
+   "tag": "high_sustain_healer",
+   "why": "If the enemy healer can keep the combo target alive through the stun, she is left deep in the backline with no kill."
+  }
+ ],
+ "wants_from_team": [
+  "Followup damage and CC after her pull and stun",
+  "Allies who protect her once she commits",
+  "A tank who engages so she can follow",
+  "Wave support early so her Ravage quest completes"
+ ],
+ "gives_team": [
+  "Hard engage and a pull that isolates a target",
+  "Burst on a priority target",
+  "Strong wave clear and early gank pressure",
+  "Spell armor to herself against casters"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Very dependent on completing the first part of Ravage's quest",
+  "High mana cost for her combo",
+  "No escape except Psionic Shift",
+  "Weak while the quest is incomplete"
+ ],
+ "evidence": [
+  "Primal Grasp, Impaling Blades, Ravage quest",
+  "Assimilation shield trait",
+  "Maelstrom and Summon Ultralisk heroics",
+  "Psionic Barrier, Psionic Pulse, Psionic Shift, Boundless Fury talents",
+  "Icy Veins guide: incredibly vulnerable to crowd control, no escape without Psionic Shift",
+  "Measured: about 1899 hero damage, 4429 siege, 2499 damage taken per minute, 4.9 merc camps per game, win rate 0.552 over 248 games"
+ ],
+ "confidence": "medium",
+ "unsure": [
+  "power_spike",
+  "ratings.survivability"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "point_blank",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "setup_needed",
+   "stack_or_quest"
   ],
-  "bad_into": [
-    { "tag": "cc_heavy", "why": "A stun or silence before Ravage lands removes her entire combo, and she has no escape without Psionic Shift." },
-    { "tag": "tanky_frontline", "why": "Pulled targets are protected by a strong front line and healers, leaving her without a safe commit and no way out after she dives." },
-    { "tag": "burst_dive", "why": "Her health is low and defences are conditional (Assimilation scales with damage dealt), so a fast dive kills her before shields grow." },
-    { "tag": "high_sustain_healer", "why": "If the enemy healer can keep the combo target alive through the stun, she is left deep in the backline with no kill." }
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "armor_or_shield",
+   "fragile"
   ],
-  "wants_from_team": [
-    "Followup damage and CC after her pull and stun",
-    "Allies who protect her once she commits",
-    "A tank who engages so she can follow",
-    "Wave support early so her Ravage quest completes"
+  "lane_role": "rotator",
+  "kill_pattern": "flank_pick",
+  "escape": "partial",
+  "setup_reliance": "self_starter",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
   ],
-  "gives_team": [
-    "Hard engage and a pull that isolates a target",
-    "Burst on a priority target",
-    "Strong wave clear and early gank pressure",
-    "Spell armor to herself against casters"
+  "cc_profile": "chain_hard",
+  "cc_delivery": "skillshot",
+  "anti_cc": [
+   "none"
   ],
-  "power_spike": "mid",
-  "weaknesses": [
-    "Very dependent on completing the first part of Ravage's quest",
-    "High mana cost for her combo",
-    "No escape except Psionic Shift",
-    "Weak while the quest is incomplete"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "mobility_rotate"
   ],
-  "evidence": [
-    "Primal Grasp, Impaling Blades, Ravage quest",
-    "Assimilation shield trait",
-    "Maelstrom and Summon Ultralisk heroics",
-    "Psionic Barrier, Psionic Pulse, Psionic Shift, Boundless Fury talents",
-    "Icy Veins guide: incredibly vulnerable to crowd control, no escape without Psionic Shift",
-    "Measured: about 1899 hero damage, 4429 siege, 2499 damage taken per minute, 4.9 merc camps per game, win rate 0.552 over 248 games"
+  "split_potential": "some",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
   ],
-  "confidence": "medium",
-  "unsure": ["power_spike", "ratings.survivability"]
+  "power_curve": "stack_dependent",
+  "snowball": "snowballer",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "peel",
+   "front_line"
+  ],
+  "team_gives": [
+   "engage",
+   "cc_setup",
+   "wave_clear"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "dive",
+   "focus_fire",
+   "tanky_frontline",
+   "early_pressure"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Ravage, Primal Grasp pulses and Impaling Blades. Autos only feed Fury of the Swarm and Bladed Momentum.",
+  "target_style": "Impaling Blades and Primal Grasp hit areas, Maelstrom is a damage over time field. In practice it lands on one pulled priority target.",
+  "durability_source": "Assimilation shields scale with damage dealt and are small early. Chrysalis and Psionic Shift are level 13 and 20 talents.",
+  "kill_pattern": "Ravage into the backline, then pull and stun. Icy Veins stresses ganking from the first minutes, so flank_pick over a pure cc_chain.",
+  "escape": "No escape without Psionic Shift, but Ravage can be cast on minions or structures to retreat and Chrysalis is a talent.",
+  "cc_profile": "Impaling Blades stun (0.75 seconds), Primal Grasp pull and the Ultralisk stun heroic.",
+  "anti_cc": "Psionic Barrier is spell armor and speed, not CC protection. Icy Veins: incredibly vulnerable to CC.",
+  "camp_play": "Queen of Blades doubles Ravage damage to minions and mercenaries. Measured 4.9 camps per game is the highest of my ten heroes.",
+  "power_curve": "The Ravage quest at 100 and 250 stacks decides her damage. Weak until the first part is done.",
+  "ultimate_role": "Maelstrom (damage over time and shields) is the standard heroic, Summon Ultralisk is a stun pick tool.",
+  "team_needs": "Allies who stop her dying after she commits, a tank engage to follow, and wave support for the quest.",
+  "vulnerable_to": "Any stun or silence before Ravage lands, bursts that kill her before shields grow, a strong frontline with a healer protecting the target."
+ },
+ "lens_gaps": [
+  "No value for pull or displacement on cc_profile or cc_delivery (Primal Grasp).",
+  "No lens for early quest dependence plus mana hunger (high mana for short cooldowns)."
+ ]
 }

@@ -129,5 +129,85 @@
   "bad_into melee_heavy",
   "healing.sustain"
  ],
- "owner_notes": "Good for dive comps since he has a lot of burst damage. High skill ceiling and not much healing if he cannot auto things."
+ "owner_notes": "Good for dive comps since he has a lot of burst damage. High skill ceiling and not much healing if he cannot auto things.",
+ "lenses": {
+  "damage_delivery": "auto_attacker",
+  "damage_timing": "burst_window",
+  "damage_reach": "point_blank",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "guaranteed",
+   "positioning"
+  ],
+  "frontline_style": "dive_bruiser",
+  "durability_source": [
+   "untargetable_or_escape",
+   "damage_reduction"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "backline_dive",
+  "escape": "strong",
+  "setup_reliance": "self_starter",
+  "healer_class": "hit_and_run",
+  "healer_safety": "exposed",
+  "utility_tool": [
+   "cleanse_or_cc_denial",
+   "speed_buff",
+   "revive_or_second_life"
+  ],
+  "cc_profile": "none",
+  "cc_delivery": "none",
+  "anti_cc": [
+   "unstoppable",
+   "mobility_through"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "ok",
+  "objective_role": [
+   "mobility_rotate"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "pick_tool",
+  "execution_demand": "high",
+  "team_needs": [
+   "wave_clear",
+   "cc_setup"
+  ],
+  "team_gives": [
+   "damage",
+   "mobility",
+   "sustain"
+  ],
+  "vulnerable_to": [
+   "kiting",
+   "hard_cc",
+   "focus_fire",
+   "poke"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Iron Fists doubles every third auto, Deadly Reach doubles Attack Speed and range, and Way of the Hundred Fists is six autos, so autos are the damage.",
+  "target_style": "Seven-Sided Strike deals 7% of maximum Health seven times, so it hits tanks hard, but the build runs on single targets.",
+  "frontline_style": "He is not a tank, but he fights on the enemy backline like a dive bruiser; 2385 damage taken per minute measured. Owner says he fits dive comps.",
+  "healer_class": "Breath of Heaven is 295 for 65 Mana and Divine Palm is one save; 2721 healing per minute is the lowest of my group, so he is a fighter with heals.",
+  "ultimate_role": "Seven-Sided Strike is a kill tool and invulnerable; Divine Palm is the defensive alternative.",
+  "cc_profile": "He has no CC; blinds and knockbacks on him shut him down.",
+  "anti_cc": "Cleansing Touch makes an ally Unstoppable with each dash and Sixth Sense gives armor while stunned or rooted.",
+  "execution_demand": "High skill ceiling (owner), and weak healing if he cannot auto things."
+ },
+ "lens_gaps": [
+  "no healer_class value that says healing depends on auto attack cadence (healing and damage on one rhythm)",
+  "no value on kill_pattern for a healer who dives but has no CC"
+ ]
 }

@@ -1,89 +1,200 @@
 {
-  "hero": "Kael'thas",
-  "slug": "kaelthas",
-  "role": "Ranged Assassin",
-  "attack": {
-    "type": "ranged",
-    "range": "long",
-    "autos_matter": 1,
-    "note": "Everything comes from Flamestrike, Living Bomb, Gravity Lapse and the heroic. Sunfire Enchantment can turn two basic attacks into spell damage, but he normally wants to stay behind his team and cast."
+ "hero": "Kael'thas",
+ "slug": "kaelthas",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 1,
+  "note": "Everything comes from Flamestrike, Living Bomb, Gravity Lapse and the heroic. Sunfire Enchantment can turn two basic attacks into spell damage, but he normally wants to stay behind his team and cast."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": [
+   "burst",
+   "aoe",
+   "siege"
+  ],
+  "poke": {
+   "rating": 4,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Flamestrike has a 1 second delay and with Flamethrower a very long range, so it zones and chunks groups that stand still. Living Bomb is a targeted dot that then explodes and spreads, which is much harder to dodge than Flamestrike."
   },
-  "damage": {
-    "carry": true,
-    "ranged_dealer": true,
-    "style": ["burst", "aoe", "siege"],
-    "poke": {
-      "rating": 4,
-      "kind": "skillshot",
-      "dodgeable": 3,
-      "note": "Flamestrike has a 1 second delay and with Flamethrower a very long range, so it zones and chunks groups that stand still. Living Bomb is a targeted dot that then explodes and spreads, which is much harder to dodge than Flamestrike."
-    },
-    "heal_blunted": 2,
-    "note": "Flamestrike (345), Living Bomb explosions and Pyroblast (810 single target) are large hits, and Burned Flesh adds damage equal to 8 percent of maximum health. That kills through most healing, but Living Bomb is a dot that area healers can partly undo. Measured 2662 hero damage per minute is moderate and 5251 siege is above the median, so he trades some sustained output for area and structure damage."
+  "heal_blunted": 2,
+  "note": "Flamestrike (345), Living Bomb explosions and Pyroblast (810 single target) are large hits, and Burned Flesh adds damage equal to 8 percent of maximum health. That kills through most healing, but Living Bomb is a dot that area healers can partly undo. Measured 2662 hero damage per minute is moderate and 5251 siege is above the median, so he trades some sustained output for area and structure damage."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 4,
+  "engage": 1,
+  "peel": 2,
+  "mobility": 0,
+  "self_sustain": 1,
+  "survivability": 1,
+  "objective": 4,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [
+   "stun"
+  ],
+  "soft": [
+   "slow"
+  ],
+  "reliability": 3
+ },
+ "good_into": [
+  {
+   "tag": "immobile",
+   "why": "Delayed Flamestrike, Phoenix zones and Pyroblast all hit heroes that cannot step out, and Gravity Lapse then locks them."
   },
-  "healing": null,
-  "ratings": {
-    "wave_clear": 5,
-    "camp_clear": 4,
-    "siege": 5,
-    "teamfight": 4,
-    "engage": 1,
-    "peel": 2,
-    "mobility": 0,
-    "self_sustain": 1,
-    "survivability": 1,
-    "objective": 4,
-    "global_presence": 0,
-    "solo_lane": 3
+  {
+   "tag": "squishy_backline",
+   "why": "Pyroblast, the single target hardest hitting ability in the game, and Living Bomb spread remove fragile backline heroes quickly."
   },
-  "cc": {
-    "hard": ["stun"],
-    "soft": ["slow"],
-    "reliability": 3
+  {
+   "tag": "structures",
+   "why": "Flamestrike with Fury of the Sunwell or Flamethrower and a 60 second Phoenix give very high siege damage (about 5250 per minute measured)."
   },
-  "good_into": [
-    { "tag": "immobile", "why": "Delayed Flamestrike, Phoenix zones and Pyroblast all hit heroes that cannot step out, and Gravity Lapse then locks them." },
-    { "tag": "squishy_backline", "why": "Pyroblast, the single target hardest hitting ability in the game, and Living Bomb spread remove fragile backline heroes quickly." },
-    { "tag": "structures", "why": "Flamestrike with Fury of the Sunwell or Flamethrower and a 60 second Phoenix give very high siege damage (about 5250 per minute measured)." },
-    { "tag": "summons", "why": "Sun King's Fury works even when Living Bomb is placed on non heroes, and Phoenix and Flamestrike clear summons and clones in area." }
+  {
+   "tag": "summons",
+   "why": "Sun King's Fury works even when Living Bomb is placed on non heroes, and Phoenix and Flamestrike clear summons and clones in area."
+  }
+ ],
+ "bad_into": [
+  {
+   "tag": "assassin",
+   "why": "He has zero mobility, so fast assassins such as Zeratul or Tracer reach him and kill him with no way to escape, as Icy Veins says."
+  },
+  {
+   "tag": "burst_dive",
+   "why": "His health pool is low and his only defenses are Mana Addict barrier and a short stun, so a combined dive deletes him before Pyroblast or Flamestrike lands."
+  },
+  {
+   "tag": "cc_heavy",
+   "why": "Pyroblast is a 1.5 second channel and Gravity Lapse is short range, so stuns and silences cancel his big plays."
+  },
+  {
+   "tag": "mobile",
+   "why": "Flamestrike and Pyroblast are slow and telegraphed, so heroes that move quickly avoid them and Phoenix."
+  }
+ ],
+ "wants_from_team": [
+  "a solid frontline that peels and holds divers off him",
+  "allied crowd control to keep targets in Flamestrike and Phoenix",
+  "a healer or shields to keep him alive when focused",
+  "teammates who punish the grouping that Living Bomb forces"
+ ],
+ "gives_team": [
+  "area damage that punishes tightly grouped enemies",
+  "zoning of objectives with Phoenix and long range Flamestrike",
+  "fast wave clear and strong siege",
+  "Gravity Lapse stun as a follow up or a way to pick off a target"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "no mobility at all",
+  "very low health and survivability",
+  "fully mana dependent",
+  "channeled Pyroblast and short range Gravity Lapse leave him exposed"
+ ],
+ "evidence": [
+  "Flamestrike",
+  "Living Bomb",
+  "Gravity Lapse",
+  "Phoenix",
+  "Pyroblast",
+  "Burned Flesh",
+  "Flamethrower",
+  "Mana Addict",
+  "Icy Veins guide strengths and counters text",
+  "measured damage 2662 per minute and siege 5251 per minute"
+ ],
+ "confidence": "high",
+ "unsure": [
+  "heal_blunted"
+ ],
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "long",
+  "target_style": "cleave_aoe",
+  "damage_reliability": [
+   "skillshot",
+   "guaranteed"
   ],
-  "bad_into": [
-    { "tag": "assassin", "why": "He has zero mobility, so fast assassins such as Zeratul or Tracer reach him and kill him with no way to escape, as Icy Veins says." },
-    { "tag": "burst_dive", "why": "His health pool is low and his only defenses are Mana Addict barrier and a short stun, so a combined dive deletes him before Pyroblast or Flamestrike lands." },
-    { "tag": "cc_heavy", "why": "Pyroblast is a 1.5 second channel and Gravity Lapse is short range, so stuns and silences cancel his big plays." },
-    { "tag": "mobile", "why": "Flamestrike and Pyroblast are slow and telegraphed, so heroes that move quickly avoid them and Phoenix." }
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "fragile"
   ],
-  "wants_from_team": [
-    "a solid frontline that peels and holds divers off him",
-    "allied crowd control to keep targets in Flamestrike and Phoenix",
-    "a healer or shields to keep him alive when focused",
-    "teammates who punish the grouping that Living Bomb forces"
+  "lane_role": "solo_laner",
+  "kill_pattern": "burst_snipe",
+  "escape": "none",
+  "setup_reliance": "needs_peel",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "zone_or_wall"
   ],
-  "gives_team": [
-    "area damage that punishes tightly grouped enemies",
-    "zoning of objectives with Phoenix and long range Flamestrike",
-    "fast wave clear and strong siege",
-    "Gravity Lapse stun as a follow up or a way to pick off a target"
+  "cc_profile": "single_hard",
+  "cc_delivery": "aoe_or_cone",
+  "anti_cc": [
+   "none"
   ],
-  "power_spike": "mid",
-  "weaknesses": [
-    "no mobility at all",
-    "very low health and survivability",
-    "fully mana dependent",
-    "channeled Pyroblast and short range Gravity Lapse leave him exposed"
+  "wave_clear_style": "aoe_burst",
+  "camp_play": "solo_camp_taker",
+  "objective_role": [
+   "siege_pressure",
+   "zone_hold"
   ],
-  "evidence": [
-    "Flamestrike",
-    "Living Bomb",
-    "Gravity Lapse",
-    "Phoenix",
-    "Pyroblast",
-    "Burned Flesh",
-    "Flamethrower",
-    "Mana Addict",
-    "Icy Veins guide strengths and counters text",
-    "measured damage 2662 per minute and siege 5251 per minute"
+  "split_potential": "some",
+  "map_mobility": "low",
+  "vision_stealth": [
+   "none"
   ],
-  "confidence": "high",
-  "unsure": ["heal_blunted"]
+  "power_curve": "mid_spike",
+  "snowball": "steady",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "medium",
+  "team_needs": [
+   "peel",
+   "front_line",
+   "healer"
+  ],
+  "team_gives": [
+   "wave_clear",
+   "damage",
+   "objective"
+  ],
+  "vulnerable_to": [
+   "dive",
+   "hard_cc",
+   "focus_fire",
+   "stealth"
+  ],
+  "comp_affinity": [
+   "poke_siege",
+   "zone_control"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_reliability": "Flamestrike is aimed and delayed; Living Bomb and Pyroblast are targeted.",
+  "kill_pattern": "Living Bomb spread and Pyroblast (810) delete a squishy target.",
+  "escape": "No mobility at all, only Mana Addict barrier and Gravity Lapse.",
+  "utility_tool": "Phoenix and Flamestrike zone space, which is the closest value.",
+  "ultimate_role": "Phoenix is the standard pick: zoning, wave clear and siege. Pyroblast is the pick tool alternative.",
+  "cc_profile": "Gravity Lapse is a short range stun only; Phoenix has no CC.",
+  "power_curve": "Strong early gank per Icy Veins, but the real spike is level 10 and 16 talents."
+ },
+ "lens_gaps": [
+  "no value for 'zones space with a summon' on utility_tool other than zone_or_wall",
+  "frontline_style cannot state a total lack of mobility (map_mobility low is the only trace)"
+ ]
 }

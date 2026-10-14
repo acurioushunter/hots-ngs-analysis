@@ -115,5 +115,83 @@
   "damage.ranged_dealer",
   "good_into.poke_comp"
  ],
- "owner_notes": "A dive burst assassin who bursts down a vulnerable backline. Escapes well, but is susceptible to CC and has low health."
+ "owner_notes": "A dive burst assassin who bursts down a vulnerable backline. Escapes well, but is susceptible to CC and has low health.",
+ "lenses": {
+  "damage_delivery": "ability_caster",
+  "damage_timing": "burst_window",
+  "damage_reach": "short",
+  "target_style": "single_target",
+  "damage_reliability": [
+   "skillshot",
+   "positioning"
+  ],
+  "frontline_style": "not_frontline",
+  "durability_source": [
+   "damage_reduction",
+   "fragile"
+  ],
+  "lane_role": "rotator",
+  "kill_pattern": "backline_dive",
+  "escape": "strong",
+  "setup_reliance": "cleanup",
+  "healer_class": "not_a_healer",
+  "healer_safety": "not_a_healer",
+  "utility_tool": [
+   "none"
+  ],
+  "cc_profile": "none",
+  "cc_delivery": "none",
+  "anti_cc": [
+   "shield_or_bubble",
+   "mobility_through"
+  ],
+  "wave_clear_style": "poor",
+  "camp_play": "poor",
+  "objective_role": [
+   "little"
+  ],
+  "split_potential": "weak",
+  "map_mobility": "high",
+  "vision_stealth": [
+   "none"
+  ],
+  "power_curve": "mid_spike",
+  "snowball": "snowballer",
+  "ultimate_role": "teamfight_swing",
+  "execution_demand": "high",
+  "team_needs": [
+   "cc_setup",
+   "healer"
+  ],
+  "team_gives": [
+   "damage"
+  ],
+  "vulnerable_to": [
+   "hard_cc",
+   "focus_fire",
+   "poke"
+  ],
+  "comp_affinity": [
+   "dive_burst",
+   "pick_catch"
+  ],
+  "bodies": "one"
+ },
+ "lens_notes": {
+  "damage_delivery": "Owner read: burst dive assassin. Swift Strike, Dragonblade, X-Strike and Final Cut do most of the damage, autos are weak.",
+  "damage_reach": "Shuriken pokes at range but he fights in melee with Swift Strike and Dragonblade.",
+  "setup_reliance": "Swift Strike resets only on a kill, so he waits for a wounded target. Icy Veins says to wait for enemy CC to be spent.",
+  "escape": "Owner read: escapes well. Cyber Agility, Swift Strike and Deflect.",
+  "cc_profile": "Agile Dismount adds a slow on landing as a talent only.",
+  "anti_cc": "Deflect makes him Protected for 1.25 seconds. Cyber Shield dodges a heroic attack. Dragonblade can still be stunned.",
+  "vision_stealth": "Pathfinder stealth is only over terrain jumps, a talent.",
+  "wave_clear_style": "Measured siege is the lowest at 2950 per minute against 4430.",
+  "ultimate_role": "Dragonblade is a swing. X-Strike is a burst plus escape alternative.",
+  "vulnerable_to": "Owner read: susceptible to CC and low health. Mana hungry, so poke wears him down.",
+  "durability_source": "Deflect is a damage window, otherwise low health. Damage taken of 2360 per minute is high from diving."
+ },
+ "lens_gaps": [
+  "no value on kill_pattern or damage_delivery for dash and reset heroes (Swift Strike resets on kill), the lens says backline_dive only",
+  "no lens for mana dependence (Genji is mana hungry), vulnerable_to has no mana pressure value"
+ ]
 }
