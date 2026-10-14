@@ -98,7 +98,8 @@
     "brawler_sustain": "wins long fights by outlasting, lifesteal or self heals",
     "dive_bruiser": "jumps on the backline and fights there",
     "zone_controller": "denies space with walls, fields and slows",
-    "not_frontline": "does not take the front line"
+    "not_frontline": "does not take the front line",
+    "catcher": "a tank built to catch targets and get kills, not only to hold the line (Diablo, Garrosh)"
    },
    "draft_use": "A comp usually needs one hero that initiates and one that protects; two initiators with no peel is a coin flip."
   },
