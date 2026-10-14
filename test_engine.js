@@ -46,11 +46,11 @@ check("healer slot: Brightwing top once Tychus and Sylvanas are in", picks[0].he
 // scenario 2: Tomb wants ranged, Garden caps it
 let tomb = E.newDraft(CCS, "first", "Tomb of the Spider Queen");
 const tw = E.compSummary(tomb);
-check("Tomb tells us it wants 3 or more ranged heroes", tw.warnings.some(w => w.includes("3 or more") || w.includes("3+")), tw.warnings.join("|"));
+check("Tomb ranged advice carries the league sample and is a note when the league shows no gap", (tw.warnings.concat(tw.notes)).some(w => /NGS sides/.test(w) && /3 or more/.test(w)), tw.warnings.concat(tw.notes).join("|"));
 let garden = E.newDraft(CCS, "first", "Garden of Terror");
 ["Johanna", "Junkrat", "Lunara", "Chromie", "Sylvanas", "Qhira", "Hanzo", "Tychus", "Brightwing"].forEach(h => E.apply(garden, h));
 const g2 = E.compSummary(garden);
-check("Garden with Sylvanas, Tychus, Brightwing = 3 ranged warns", g2.ranged === 3 && g2.warnings.some(w => w.includes("ranged")), JSON.stringify(g2));
+check("Garden with 3 ranged is flagged with the league numbers (warning or note)", g2.ranged === 3 && g2.warnings.concat(g2.notes).some(w => w.includes("ranged")), JSON.stringify(g2));
 
 // scenario 3: simulate a full draft
 const sim = E.simulate(E.newDraft(CCS, "first", "Sky Temple"));
@@ -116,7 +116,8 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   st = E.newDraft(CCS, "first", "Garden of Terror");
   ["Lunara", "Junkrat", "Gazlowe", "Thrall", "Sylvanas", "Qhira", "Dehaka", "Brightwing", "Muradin", "Hanzo", "Whitemane", "Garrosh", "Li-Ming"].forEach(h => E.apply(st, h));
   const g = E.recommendPicks(st), ty = g.find(x => x.hero === "Tychus");
-  check("a third ranged hero on Garden is flagged over the cap", ty.flags.some(f => /OVER RANGED/.test(f)), JSON.stringify(ty.flags));
+  const gl = E.rangedLeague("Garden of Terror");
+  check("the Garden ranged cap flag follows the league evidence (flag only when the league gap is 5 points or more)", ty.flags.some(f => /OVER RANGED/.test(f)) === !!(gl && gl.map.gap != null && gl.map.gap <= -0.05), JSON.stringify([ty.flags, gl && gl.map.gap]));
   check("a second healer is never in the top 3", g.slice(0, 3).every(x => PLAYBOOK.heroes[x.hero].role !== "Healer"), g.slice(0, 3).map(x => x.hero).join());
   const mc = E.mapChoices(CCS, ["Towers of Doom", "Infernal Shrines"]);
   check("map choices drop banned maps", mc.length === Object.keys(PLAYBOOK.maps).length - 2 && !mc.some(x => x.map === "Towers of Doom"), mc.length);

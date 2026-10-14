@@ -120,6 +120,32 @@
 
   function lateBanSlot(st) { return st.side === "second" ? 11 : 10; } // when the opponent makes its round two ban
 
+  // What the whole league did (data.comps, every NGS side seasons 15 to 22): ranged count win rates on a map and overall.
+  // Returns null without data. gap is the win rate of 3 or more ranged minus 2 or fewer; real only when each side has 100 or more games.
+  E.rangedLeague = function (map) {
+    const c = D().comps;
+    if (!c) return null;
+    const pool = (src) => {
+      const r = (src && src.ranged) || {};
+      const sum = ks => ks.reduce((a, k) => { const v = r[k] || [0, 0]; return [a[0] + v[0], a[1] + v[1]]; }, [0, 0]);
+      const hi = sum(["3", "4+"]), lo = sum(["0-1", "2"]), top = r["4+"] || [0, 0];
+      const rate = v => v[0] ? v[1] / v[0] : null;
+      return { hi, lo, top, hiWr: rate(hi), loWr: rate(lo), topWr: rate(top), gap: hi[0] >= 100 && lo[0] >= 100 ? rate(hi) - rate(lo) : null };
+    };
+    return { map: pool((c.maps || {})[map]), all: pool(c.all), sides: c.sides };
+  };
+  const pc = x => Math.round(x * 100) + "%";
+  E.rangedText = function (map) {
+    const r = E.rangedLeague(map);
+    if (!r) return "";
+    const m = r.map;
+    let t = "";
+    if (m.gap != null) t = "On " + map + " in " + (m.hi[0] + m.lo[0]).toLocaleString("en-US") + " NGS sides (seasons 15 to 22): 3 or more ranged won " + pc(m.hiWr) + " (" + m.hi[0] + " sides), 2 or fewer won " + pc(m.loWr) + " (" + m.lo[0] + " sides)";
+    if (r.all.gap != null) t += (t ? "; every map: " : "Every map: ") + "3 or more " + pc(r.all.hiWr) + ", 2 or fewer " + pc(r.all.loWr);
+    if (r.all.top[0] >= 100) t += ". Four or more ranged is the only count that clearly does worse: " + pc(r.all.topWr) + " over " + r.all.top[0] + " sides";
+    return t;
+  };
+
   E.compSummary = function (st) {
     const hs = E.picks(st, "us");
     const info = hs.map(heroInfo);
@@ -129,15 +155,24 @@
       heroes: hs,
       ranged: count(i => i.ranged), marksmen: count(i => i.marksman), healers: count(i => i.role === "Healer"),
       frontline: count(i => i.role === "Tank" || i.role === "Bruiser"), highClear: count(i => i.high_clear), highDamage: count(i => i.high_damage),
-      warnings: []
+      warnings: [], notes: []
     };
     const remaining = E.remainingPicks(st, "us");
     const rt = rules.filter(r => r.kind === "ranged_target");
+    const rl = E.rangedLeague(st.map);
+    const strong = rl && rl.map.gap != null && Math.abs(rl.map.gap) >= 0.05;   // the league says the count matters on this map
     rt.forEach(r => {
-      if (r.min != null && out.ranged + remaining < r.min) out.warnings.push("Only " + out.ranged + " ranged so far with " + remaining + " picks left; this map wants " + r.min + " or more. " + r.why);
-      else if (r.min != null && out.ranged < r.min && remaining) out.warnings.push("Need " + (r.min - out.ranged) + " more ranged hero(es) (map wants " + r.min + "+). " + r.why);
-      if (r.max != null && out.ranged > r.max) out.warnings.push("Already " + out.ranged + " ranged; this map prefers " + r.max + " or fewer. " + r.why);
+      const tail = " Our division sample says: " + r.why;
+      if (r.min != null && out.ranged < r.min && remaining) {
+        if (strong && rl.map.gap > 0) out.warnings.push("Need " + (r.min - out.ranged) + " more ranged hero(es) for this map. " + E.rangedText(st.map) + "." + tail);
+        else out.notes.push("Only a lean, not a need: " + (r.min - out.ranged) + " more ranged hero(es) would match the division sample for this map. " + E.rangedText(st.map) + ". The league does not show a ranged count that wins here, so pick the best heroes for the matchup first." + tail);
+      }
+      if (r.max != null && out.ranged > r.max) {
+        if (strong && rl.map.gap < 0) out.warnings.push("Already " + out.ranged + " ranged. " + E.rangedText(st.map) + "." + tail);
+        else out.notes.push("Over the division sample's ranged cap of " + r.max + ", but " + E.rangedText(st.map) + ". Not a rule.");
+      }
     });
+    if (out.ranged >= 4 && rl && rl.all.topWr != null && rl.all.top[0] >= 100) out.warnings.push(out.ranged + " ranged heroes: league wide that count wins " + pc(rl.all.topWr) + " over " + rl.all.top[0] + " sides. Check you still have a front line and wave clear.");
     const mm = rules.filter(r => r.kind === "min_marksmen").reduce((a, r) => Math.max(a, r.n), 0);
     if (mm && out.marksmen + remaining < mm) out.warnings.push("Cannot reach " + mm + " marksmen any more. " + rules.find(r => r.kind === "min_marksmen").why);
     if (!out.healers && remaining === 0 && hs.length) out.warnings.push("No healer in the draft.");
@@ -217,9 +252,10 @@
       // composition
       const nowRanged = comp.ranged, nowMark = comp.marksmen;
       if (marksmenNeed && nowMark < marksmenNeed && info.marksman) { score += w.marksman_need; reasons.push("marksman " + (nowMark + 1) + " of " + marksmenNeed + " wanted (13-6 with two or more)"); }
+      const rlg = E.rangedLeague(map), evid = rlg && rlg.map.gap != null && Math.abs(rlg.map.gap) >= 0.05 ? 1 : 0.25;   // a division rule the league does not back counts a quarter
       rt.forEach(r => {
-        if (r.min != null && info.ranged && nowRanged < r.min) { score += w.ranged_target; reasons.push("map wants " + r.min + "+ ranged heroes"); }
-        if (r.max != null && info.ranged && nowRanged >= r.max) { score -= w.ranged_target * 2.5; flags.push("OVER RANGED CAP"); reasons.push("already at the ranged cap (" + r.max + ") for this map: this would be ranged hero " + (nowRanged + 1)); }
+        if (r.min != null && info.ranged && nowRanged < r.min) { score += w.ranged_target * evid; if (evid === 1) reasons.push("map wants " + r.min + "+ ranged heroes"); }
+        if (r.max != null && info.ranged && nowRanged >= r.max) { score -= w.ranged_target * 2.5 * evid; if (evid === 1) { flags.push("OVER RANGED CAP"); reasons.push("already at the ranged cap (" + r.max + ") for this map: this would be ranged hero " + (nowRanged + 1)); } }
         if (r.max != null && !info.ranged && nowRanged >= r.max && remaining > 0) { score += 0.3; }
       });
       const missing = [];

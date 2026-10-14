@@ -90,7 +90,7 @@ def league_observed(heroes):
     drew first blood, plus hero against hero records. Returns (per hero dict, head to head {"A|B": [games, A side wins]} with A < B)."""
     path = KN / "ngs_league.db"
     if not path.exists():
-        return {}, {}, {}
+        return {}, {}, {}, {}
     db = sqlite3.connect(path)
     first = dict(db.execute("SELECT game_id, first_td_team FROM lg_timeline"))
     win = dict(db.execute("SELECT game_id, winner FROM lg_games"))
@@ -119,7 +119,46 @@ def league_observed(heroes):
                     continue
                 key, a_won = (a + "|" + b, w == 0) if a < b else (b + "|" + a, w == 1)
                 r = h2h.setdefault(key, [0, 0]); r[0] += 1; r[1] += int(a_won)
-    return out, {k: v for k, v in h2h.items() if v[0] >= 12}, league_combos(db, heroes, sides, win)
+    return out, {k: v for k, v in h2h.items() if v[0] >= 12}, league_combos(db, heroes, sides, win), league_comps(db, heroes, sides, win)
+
+
+def league_comps(db, heroes, sides, win):
+    """What the whole league's drafts did, so composition advice rests on thousands of games rather than one division.
+    Every side of every NGS replay with five known heroes. Each cell is [games, wins]. Keys: ranged (0-1, 2, 3, 4+), rdiff (our ranged
+    minus theirs, -2..2), healers (1, 2+), marks (0, 1, 2+), tanks (0, 1, 2+), shapes (role counts, 60+ games), all overall and per map."""
+    maps = dict(db.execute("SELECT game_id, map FROM lg_games"))
+    gm = lambda: collections.defaultdict(lambda: [0, 0])
+    keys = ("ranged", "rdiff", "healers", "marks", "tanks", "shapes")
+    tot = {k: gm() for k in keys}
+    per = collections.defaultdict(lambda: {k: gm() for k in keys})
+    n_sides = 0
+    abbr = {"Tank": "T", "Bruiser": "B", "Melee Assassin": "M", "Ranged Assassin": "R", "Support": "S", "Healer": "H"}
+    def rb(x): return "0-1" if x <= 1 else "4+" if x >= 4 else str(x)
+    def cap(x, hi): return str(x) if x < hi else str(hi) + "+"
+    for gid, s in sides.items():
+        w = win.get(gid)
+        if w is None or len(s[0]) != 5 or len(s[1]) != 5 or None in s[0] or None in s[1] or not any(h in heroes for h in s[0]):
+            continue
+        if any(h not in heroes for h in s[0] + s[1]):
+            continue
+        info = {t: [heroes[h] for h in s[t]] for t in (0, 1)}
+        rng = {t: sum(bool(i.get("ranged")) for i in info[t]) for t in (0, 1)}
+        for t in (0, 1):
+            n_sides += 1
+            won = int(w == t)
+            roles = collections.Counter(abbr.get(i.get("role"), "?") for i in info[t])
+            shape = " ".join(f"{k}{roles[k]}" for k in "TBMRSH" if roles[k])
+            cells = {"ranged": rb(rng[t]), "rdiff": str(max(-2, min(2, rng[t] - rng[1 - t]))),
+                     "healers": cap(roles["H"], 2), "marks": cap(sum(bool(i.get("marksman")) for i in info[t]), 2),
+                     "tanks": cap(roles["T"], 2), "shapes": shape}
+            for bucket in (tot, per[maps.get(gid)]):
+                for k, v in cells.items():
+                    c = bucket[k][v]; c[0] += 1; c[1] += won
+    def clean(b, minn):
+        return {k: {c: v for c, v in d.items() if v[0] >= minn} for k, d in b.items()}
+    out = dict(sides=n_sides, all=clean(tot, 20), maps={m: clean(b, 8) for m, b in per.items() if m})
+    out["all"]["shapes"] = {c: v for c, v in out["all"]["shapes"].items() if v[0] >= 60}
+    return out
 
 
 def league_combos(db, heroes, sides, win):
@@ -775,7 +814,7 @@ def main():
     G = games(db)
     attach_hero_stats(heroes, G)
     attach_kit(heroes)
-    obs, h2h, combos = league_observed(heroes)
+    obs, h2h, combos, comps = league_observed(heroes)
     for h, o in obs.items():
         if h in heroes:
             heroes[h]["obs"] = o
@@ -796,7 +835,7 @@ def main():
         meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values()),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
-        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos)
+        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps)
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:

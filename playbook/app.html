@@ -484,6 +484,25 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     </section>`;
   }
 
+  // What the league's drafts did with this comp shape and ranged count (data.comps). Sample sizes shown, nothing claimed past them.
+  function compLeague(st) {
+    const c = P.comps;
+    if (!c) return "";
+    const rl = E.rangedLeague(st.map), cur = E.compSummary(st);
+    if (!rl) return "";
+    const rows = ["0-1", "2", "3", "4+"].map(k => {
+      const a = (c.all.ranged || {})[k], m = ((c.maps || {})[st.map] || {}).ranged;
+      const mv = m && m[k];
+      const f = v => v && v[0] ? `${Math.round(100 * v[1] / v[0])}% <span class="muted">(${v[0]})</span>` : "n/a";
+      return `<tr><td>${k} ranged</td><td class="num">${f(mv)}</td><td class="num">${f(a)}</td></tr>`;
+    }).join("");
+    const hl = ((c.all.healers || {})["2+"]), h1 = ((c.all.healers || {})["1"]);
+    const f2 = v => v && v[0] ? `${Math.round(100 * v[1] / v[0])}% over ${v[0]}` : "n/a";
+    return `<details class="sec" style="margin-top:8px"><summary>What the league's drafts did (NGS seasons 15 to 22, ${c.sides.toLocaleString("en-US")} sides)</summary>
+      <div class="scroll"><table><tr><th>Ranged heroes</th><th>On ${esc(st.map || "this map")} (sides)</th><th>Every map (sides)</th></tr>${rows}</table></div>
+      <p class="small muted">Win rate of the drafting side. Close to 50% on a row means the count alone did not decide games. Two healers: ${f2(hl)} against one healer: ${f2(h1)}. These are all NGS divisions, not only ours, and the count is a stand in for wave clear and poke, not a cause.</p></details>`;
+  }
+
   function compCard(st) {
     const c = E.compSummary(st);
     const picks = E.picks(st, "us");
@@ -494,6 +513,8 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <div class="meter" style="margin-top:8px"><div><b>${c.ranged}</b><span>Ranged</span></div><div><b>${c.marksmen}</b><span>Marksmen</span></div><div><b>${c.frontline}</b><span>Front</span></div><div><b>${c.healers}</b><span>Healer</span></div><div><b>${c.highClear}</b><span>Strong clear</span></div><div><b>${c.highDamage}</b><span>Damage dealers</span></div></div>
       <p class="small muted">Strong clear is 3,500+ minion damage a minute, damage dealer is 2,400+ hero damage a minute (this division).</p>
       ${c.warnings.map(w => `<div class="warnbox" style="margin-top:6px">${esc(w)}</div>`).join("")}
+      ${c.notes.map(w => `<p class="small muted" style="margin-top:6px">${esc(w)}</p>`).join("")}
+      ${compLeague(st)}
       ${asg.assign.length ? `<table style="margin-top:8px"><tr><th>Player</th><th>Hero</th><th>Evidence</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td>${heroBtn(a.hero)}</td><td class="small muted">${esc(a.why.slice(0, 2).join("; "))}</td></tr>`).join("")}</table>
       <p class="small muted">This is the best way to hand out the picks so far. Swap the players when the draft ends if a hero fits someone else better.</p>` : ""}
       ${theirs.length ? `<p class="small"><b>Their picks:</b> ${theirs.map(heroBtn).join(", ")}</p>` : ""}
