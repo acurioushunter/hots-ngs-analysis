@@ -488,19 +488,17 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   function compLeague(st) {
     const c = P.comps;
     if (!c) return "";
-    const rl = E.rangedLeague(st.map), cur = E.compSummary(st);
+    const rl = E.rangedLeague(st.map);
     if (!rl) return "";
-    const rows = ["0-1", "2", "3", "4+"].map(k => {
-      const a = (c.all.ranged || {})[k], m = ((c.maps || {})[st.map] || {}).ranged;
-      const mv = m && m[k];
-      const f = v => v && v[0] ? `${Math.round(100 * v[1] / v[0])}% <span class="muted">(${v[0]})</span>` : "n/a";
-      return `<tr><td>${k} ranged</td><td class="num">${f(mv)}</td><td class="num">${f(a)}</td></tr>`;
-    }).join("");
-    const hl = ((c.all.healers || {})["2+"]), h1 = ((c.all.healers || {})["1"]);
-    const f2 = v => v && v[0] ? `${Math.round(100 * v[1] / v[0])}% over ${v[0]}` : "n/a";
-    return `<details class="sec" style="margin-top:8px"><summary>What the league's drafts did (NGS seasons 15 to 22, ${c.sides.toLocaleString("en-US")} sides)</summary>
-      <div class="scroll"><table><tr><th>Ranged heroes</th><th>On ${esc(st.map || "this map")} (sides)</th><th>Every map (sides)</th></tr>${rows}</table></div>
-      <p class="small muted">Win rate of the drafting side. Close to 50% on a row means the count alone did not decide games. Two healers: ${f2(hl)} against one healer: ${f2(h1)}. These are all NGS divisions, not only ours, and the count is a stand in for wave clear and poke, not a cause.</p></details>`;
+    const m = (c.maps || {})[st.map] || {};
+    const f = v => { const k = E.cell(v); return k ? `${Math.round(100 * k.wwr)}% <span class="muted">(${k.n})</span>` : "n/a"; };
+    const fr = v => { const k = E.cell(v); return k && k.rn >= 15 ? `${Math.round(100 * k.rwr)}% <span class="muted">(${k.rn})</span>` : "n/a"; };
+    const rows = ["0-1", "2", "3", "4+"].map(k => `<tr><td>${k} ranged</td><td class="num">${f((m.ranged || {})[k])}</td><td class="num">${f(c.all.ranged[k])}</td><td class="num">${fr(c.all.ranged[k])}</td></tr>`).join("");
+    const hl = E.cell((c.all.healers || {})["2+"]), h1 = E.cell((c.all.healers || {})["1"]);
+    const f2 = k => k ? `${Math.round(100 * k.wwr)}% over ${k.n}` : "n/a";
+    return `<details class="sec" style="margin-top:8px"><summary>What the league's drafts did (NGS seasons 15 to ${c.newest}, ${c.sides.toLocaleString("en-US")} sides)</summary>
+      <div class="scroll"><table><tr><th>Ranged heroes</th><th>On ${esc(st.map || "this map")}</th><th>Every map</th><th>Every map, newest ${c.recent_seasons} seasons</th></tr>${rows}</table></div>
+      <p class="small muted">Win rate of the drafting side, with the number of sides in brackets. The first two columns weight newer seasons more (a game ${c.half_life} seasons old counts half); the last is only the newest ${c.recent_seasons} seasons. Close to 50% means the count alone did not decide games. Two healers: ${f2(hl)} against one healer: ${f2(h1)}. All NGS divisions, not only ours. The count stands in for wave clear and poke, it is not a cause.</p></details>`;
   }
 
   function compCard(st) {

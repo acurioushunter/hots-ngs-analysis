@@ -122,17 +122,27 @@
 
   // What the whole league did (data.comps, every NGS side seasons 15 to 22): ranged count win rates on a map and overall.
   // Returns null without data. gap is the win rate of 3 or more ranged minus 2 or fewer; real only when each side has 100 or more games.
+  // Weighted by season (newer counts more) with the raw newest window beside it. A cell is [games, wins, weighted games, weighted wins, recent games, recent wins].
+  E.cell = function (v) {
+    if (!v || !v[0]) return null;
+    const wn = v[2], ww = v[3];
+    return { n: v[0], wr: v[1] / v[0], wwr: wn ? ww / wn : v[1] / v[0], eff: Math.round(wn), rn: v[4], rwr: v[4] ? v[5] / v[4] : null };
+  };
+  const addCells = (a, b) => (b ? (a ? a.map((x, i) => x + (b[i] || 0)) : b.slice()) : a);
   E.rangedLeague = function (map) {
     const c = D().comps;
     if (!c) return null;
     const pool = (src) => {
       const r = (src && src.ranged) || {};
-      const sum = ks => ks.reduce((a, k) => { const v = r[k] || [0, 0]; return [a[0] + v[0], a[1] + v[1]]; }, [0, 0]);
-      const hi = sum(["3", "4+"]), lo = sum(["0-1", "2"]), top = r["4+"] || [0, 0];
-      const rate = v => v[0] ? v[1] / v[0] : null;
-      return { hi, lo, top, hiWr: rate(hi), loWr: rate(lo), topWr: rate(top), gap: hi[0] >= 100 && lo[0] >= 100 ? rate(hi) - rate(lo) : null };
+      const sum = ks => ks.reduce((a, k) => addCells(a, r[k]), null);
+      const hi = sum(["3", "4+"]), lo = sum(["0-1", "2"]), top = r["4+"] || null;
+      const H = E.cell(hi), L = E.cell(lo), T = E.cell(top);
+      const ok = H && L && H.n >= 100 && L.n >= 100;
+      const gap = ok ? H.wwr - L.wwr : null;
+      const rgap = ok && H.rn >= 40 && L.rn >= 40 ? H.rwr - L.rwr : null;   // the same gap using only the newest window
+      return { hi: hi ? [hi[0], hi[1]] : [0, 0], lo: lo ? [lo[0], lo[1]] : [0, 0], top: top ? [top[0], top[1]] : [0, 0], H, L, T, hiWr: H && H.wwr, loWr: L && L.wwr, topWr: T && T.wwr, gap, rgap };
     };
-    return { map: pool((c.maps || {})[map]), all: pool(c.all), sides: c.sides };
+    return { map: pool((c.maps || {})[map]), all: pool(c.all), sides: c.sides, newest: c.newest, halfLife: c.half_life, recentSeasons: c.recent_seasons };
   };
   const pc = x => Math.round(x * 100) + "%";
   E.rangedText = function (map) {
@@ -140,9 +150,9 @@
     if (!r) return "";
     const m = r.map;
     let t = "";
-    if (m.gap != null) t = "On " + map + " in " + (m.hi[0] + m.lo[0]).toLocaleString("en-US") + " NGS sides (seasons 15 to 22): 3 or more ranged won " + pc(m.hiWr) + " (" + m.hi[0] + " sides), 2 or fewer won " + pc(m.loWr) + " (" + m.lo[0] + " sides)";
+    if (m.gap != null) t = "On " + map + " in " + (m.H.n + m.L.n).toLocaleString("en-US") + " NGS sides (newer seasons count more): 3 or more ranged won " + pc(m.hiWr) + " (" + m.H.n + " sides), 2 or fewer won " + pc(m.loWr) + " (" + m.L.n + " sides)" + (m.rgap != null ? "; in the newest " + r.recentSeasons + " seasons alone the gap is " + (m.rgap >= 0 ? "+" : "") + Math.round(m.rgap * 100) + " points" : "");
     if (r.all.gap != null) t += (t ? "; every map: " : "Every map: ") + "3 or more " + pc(r.all.hiWr) + ", 2 or fewer " + pc(r.all.loWr);
-    if (r.all.top[0] >= 100) t += ". Four or more ranged is the only count that clearly does worse: " + pc(r.all.topWr) + " over " + r.all.top[0] + " sides";
+    if (r.all.T && r.all.T.n >= 100) t += ". Four or more ranged is the only count that clearly does worse: " + pc(r.all.topWr) + " over " + r.all.T.n + " sides";
     return t;
   };
 
@@ -172,7 +182,7 @@
         else out.notes.push("Over the division sample's ranged cap of " + r.max + ", but " + E.rangedText(st.map) + ". Not a rule.");
       }
     });
-    if (out.ranged >= 4 && rl && rl.all.topWr != null && rl.all.top[0] >= 100) out.warnings.push(out.ranged + " ranged heroes: league wide that count wins " + pc(rl.all.topWr) + " over " + rl.all.top[0] + " sides. Check you still have a front line and wave clear.");
+    if (out.ranged >= 4 && rl && rl.all.topWr != null && rl.all.T.n >= 100) out.warnings.push(out.ranged + " ranged heroes: league wide that count wins " + pc(rl.all.topWr) + " over " + rl.all.T.n + " sides. Check you still have a front line and wave clear.");
     const mm = rules.filter(r => r.kind === "min_marksmen").reduce((a, r) => Math.max(a, r.n), 0);
     if (mm && out.marksmen + remaining < mm) out.warnings.push("Cannot reach " + mm + " marksmen any more. " + rules.find(r => r.kind === "min_marksmen").why);
     if (!out.healers && remaining === 0 && hs.length) out.warnings.push("No healer in the draft.");
@@ -421,7 +431,10 @@
     const n = v[0], w = flip ? n - v[1] : v[1];
     const o = D().heroes[a] && D().heroes[a].obs;
     const base = o && o.g >= 50 ? o.w / o.g : 0.5;   // how a does overall, so a matchup reads as better or worse than usual
-    return { n, w, wr: (w + 5) / (n + 10), base, edge: (w + 5) / (n + 10) - base };   // lightly shrunk toward 50%
+    // newer seasons count more (data.comps.half_life seasons to halve a game); the shrink toward 50% uses the weighted sample size
+    const wn = v.length > 3 ? v[2] : n, ww = v.length > 3 ? (flip ? v[2] - v[3] : v[3]) : w;
+    const wr = (ww + 5) / (wn + 10);
+    return { n, w, wr, base, edge: wr - base, rawWr: (w + 5) / (n + 10), eff: wn };
   };
   // takedown pairs from the replay export: how often two heroes on one side took part in the same kill, against what chance predicts
   E.combo = function (a, b) {

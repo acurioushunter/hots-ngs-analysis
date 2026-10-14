@@ -85,6 +85,16 @@ def build_heroes(cfg):
     return heroes, canon, kdb
 
 
+# Recency weighting for league records. All NGS replays are one game patch (2.55), so the unit that moves is the season: players, drafts and
+# the meta shift between seasons. A game from the newest season counts 1, one from HALF_LIFE seasons earlier counts half. RECENT_SEASONS is the
+# raw "newest window" shown beside the weighted number so a gap between the two is visible.
+HALF_LIFE = 3.0
+RECENT_SEASONS = 3
+
+def season_weight(season, newest):
+    return 0.5 ** (max(0, newest - season) / HALF_LIFE)
+
+
 def league_observed(heroes):
     """Measured facts from every NGS replay in knowledge/ngs_league.db (seasons 15 to 22): per hero crowd control seconds and how often its team
     drew first blood, plus hero against hero records. Returns (per hero dict, head to head {"A|B": [games, A side wins]} with A < B)."""
@@ -94,6 +104,8 @@ def league_observed(heroes):
     db = sqlite3.connect(path)
     first = dict(db.execute("SELECT game_id, first_td_team FROM lg_timeline"))
     win = dict(db.execute("SELECT game_id, winner FROM lg_games"))
+    season = dict(db.execute("SELECT game_id, season FROM lg_games"))
+    newest = max(season.values()) if season else 0
     obs = {}
     for gid, hero, team, cc in db.execute("SELECT game_id, hero, team, cc_time FROM lg_players"):
         h = canon_name(hero, heroes)
@@ -118,8 +130,10 @@ def league_observed(heroes):
                 if not a or not b or a == b:
                     continue
                 key, a_won = (a + "|" + b, w == 0) if a < b else (b + "|" + a, w == 1)
-                r = h2h.setdefault(key, [0, 0]); r[0] += 1; r[1] += int(a_won)
-    return out, {k: v for k, v in h2h.items() if v[0] >= 12}, league_combos(db, heroes, sides, win), league_comps(db, heroes, sides, win)
+                wt = season_weight(season.get(gid, newest), newest)
+                r = h2h.setdefault(key, [0, 0, 0.0, 0.0]); r[0] += 1; r[1] += int(a_won); r[2] += wt; r[3] += wt * int(a_won)
+    h2h = {k: [v[0], v[1], round(v[2], 1), round(v[3], 1)] for k, v in h2h.items() if v[0] >= 12}
+    return out, h2h, league_combos(db, heroes, sides, win), league_comps(db, heroes, sides, win)
 
 
 def league_comps(db, heroes, sides, win):
@@ -127,7 +141,10 @@ def league_comps(db, heroes, sides, win):
     Every side of every NGS replay with five known heroes. Each cell is [games, wins]. Keys: ranged (0-1, 2, 3, 4+), rdiff (our ranged
     minus theirs, -2..2), healers (1, 2+), marks (0, 1, 2+), tanks (0, 1, 2+), shapes (role counts, 60+ games), all overall and per map."""
     maps = dict(db.execute("SELECT game_id, map FROM lg_games"))
-    gm = lambda: collections.defaultdict(lambda: [0, 0])
+    season = dict(db.execute("SELECT game_id, season FROM lg_games"))
+    newest = max(season.values()) if season else 0
+    # cell = [games, wins, weighted games, weighted wins, newest window games, newest window wins]
+    gm = lambda: collections.defaultdict(lambda: [0, 0, 0.0, 0.0, 0, 0])
     keys = ("ranged", "rdiff", "healers", "marks", "tanks", "shapes")
     tot = {k: gm() for k in keys}
     per = collections.defaultdict(lambda: {k: gm() for k in keys})
@@ -146,6 +163,8 @@ def league_comps(db, heroes, sides, win):
         for t in (0, 1):
             n_sides += 1
             won = int(w == t)
+            wt = season_weight(season.get(gid, newest), newest)
+            recent = newest - season.get(gid, newest) < RECENT_SEASONS
             roles = collections.Counter(abbr.get(i.get("role"), "?") for i in info[t])
             shape = " ".join(f"{k}{roles[k]}" for k in "TBMRSH" if roles[k])
             cells = {"ranged": rb(rng[t]), "rdiff": str(max(-2, min(2, rng[t] - rng[1 - t]))),
@@ -153,10 +172,13 @@ def league_comps(db, heroes, sides, win):
                      "tanks": cap(roles["T"], 2), "shapes": shape}
             for bucket in (tot, per[maps.get(gid)]):
                 for k, v in cells.items():
-                    c = bucket[k][v]; c[0] += 1; c[1] += won
+                    c = bucket[k][v]; c[0] += 1; c[1] += won; c[2] += wt; c[3] += wt * won
+                    if recent:
+                        c[4] += 1; c[5] += won
     def clean(b, minn):
-        return {k: {c: v for c, v in d.items() if v[0] >= minn} for k, d in b.items()}
-    out = dict(sides=n_sides, all=clean(tot, 20), maps={m: clean(b, 8) for m, b in per.items() if m})
+        return {k: {c: [v[0], v[1], round(v[2], 1), round(v[3], 1), v[4], v[5]] for c, v in d.items() if v[0] >= minn} for k, d in b.items()}
+    out = dict(sides=n_sides, newest=newest, half_life=HALF_LIFE, recent_seasons=RECENT_SEASONS,
+               all=clean(tot, 20), maps={m: clean(b, 8) for m, b in per.items() if m})
     out["all"]["shapes"] = {c: v for c, v in out["all"]["shapes"].items() if v[0] >= 60}
     return out
 

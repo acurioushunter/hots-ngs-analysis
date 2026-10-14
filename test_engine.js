@@ -116,6 +116,10 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   st = E.newDraft(CCS, "first", "Garden of Terror");
   ["Lunara", "Junkrat", "Gazlowe", "Thrall", "Sylvanas", "Qhira", "Dehaka", "Brightwing", "Muradin", "Hanzo", "Whitemane", "Garrosh", "Li-Ming"].forEach(h => E.apply(st, h));
   const g = E.recommendPicks(st), ty = g.find(x => x.hero === "Tychus");
+  const hh = E.h2h("Tychus", "Johanna");
+  check("head to head carries a recency weighted sample (effective games no more than raw games)", hh && hh.eff > 0 && hh.eff <= hh.n + 0.5, JSON.stringify(hh));
+  const rlw = E.rangedLeague("Tomb of the Spider Queen");
+  check("league comps carry the season weighting (newest season, half life, a newest window)", PLAYBOOK.comps.newest >= 22 && PLAYBOOK.comps.half_life === 3 && rlw.all.H && rlw.all.H.rn > 0 && rlw.all.H.eff <= rlw.all.H.n, JSON.stringify(rlw.all.H));
   const gl = E.rangedLeague("Garden of Terror");
   check("the Garden ranged cap flag follows the league evidence (flag only when the league gap is 5 points or more)", ty.flags.some(f => /OVER RANGED/.test(f)) === !!(gl && gl.map.gap != null && gl.map.gap <= -0.05), JSON.stringify([ty.flags, gl && gl.map.gap]));
   check("a second healer is never in the top 3", g.slice(0, 3).every(x => PLAYBOOK.heroes[x.hero].role !== "Healer"), g.slice(0, 3).map(x => x.hero).join());
