@@ -893,7 +893,8 @@
     return Object.keys(t).map(function (k) { return { team: k, n: t[k] }; }).sort(cmp(function (x) { return x.n; }));
   }
 
-  function scoutTeam(games, teamName) {
+  function scoutTeam(games, teamName, ctxGames) {
+    var base = ctxGames || games;
     var tn = String(teamName || '').toLowerCase();
     var rows = [];
     games.forEach(function (g) {
@@ -930,7 +931,7 @@
     var banSug = heroes.filter(function (x) { return x.n >= 2; }).map(function (x) {
       return { hero: x.hero, score: r3(x.share * 100 * 0.4 + (x.shrunk - 0.5) * 100 * 0.6), n: x.n, wins: x.wins, share: x.share, low: x.low, why: 'Picked in ' + x.n + ' of ' + rows.length + ' games, ' + x.wins + ' wins' };
     }).sort(cmp(function (x) { return x.score; })).slice(0, 8);
-    var am = archetypeMatchups(games), main = archs.length ? archs[0].arch : null, answers = [];
+    var am = archetypeMatchups(base), main = archs.length ? archs[0].arch : null, answers = [];
     if (main) ARCHETYPES.forEach(function (b) { var c = am.table[b][main]; if (b !== main && c.n) answers.push({ arch: b, n: c.n, wins: c.wins, shrunk: c.shrunk, low: c.low }); });
     answers.sort(cmp(function (x) { return x.shrunk; }));
     var heroAnswers = [];
@@ -938,7 +939,7 @@
     if (top.length) {
       var all = {};
       top.forEach(function (th) {
-        var p = pairTable(games);
+        var p = pairTable(base);
         p.opp.forEach(function (e, k) {
           var i = k.indexOf('|'), a = k.slice(0, i), b = k.slice(i + 1);
           if (b !== th) return;

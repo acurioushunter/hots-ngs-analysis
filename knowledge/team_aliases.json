@@ -151,7 +151,7 @@
   "ratio": 0.78,
   "confidence": "high",
   "former_still_exists": false,
-  "note": "several teams share this former roster (a split)"
+  "note": ""
  },
  {
   "team": "Can't Counterpick Stupid",
@@ -173,28 +173,6 @@
   "ratio": 0.8,
   "confidence": "high",
   "former_still_exists": false,
-  "note": "several teams share this former roster (a split)"
- },
- {
-  "team": "Pending",
-  "former": "Banana Fever",
-  "shared": 4,
-  "core_now": 5,
-  "core_before": 8,
-  "ratio": 0.8,
-  "confidence": "high",
-  "former_still_exists": false,
-  "note": "several teams share this former roster (a split)"
- },
- {
-  "team": "Is Shoopufff Still Inting",
-  "former": "Four Blatant Inters",
-  "shared": 3,
-  "core_now": 5,
-  "core_before": 9,
-  "ratio": 0.6,
-  "confidence": "high",
-  "former_still_exists": false,
-  "note": "several teams share this former roster (a split)"
+  "note": ""
  }
 ]

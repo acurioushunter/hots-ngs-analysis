@@ -152,7 +152,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   let opponents = [];
   const SAVE = "ngs-draft-room-v2";
   const ROLES = ["Tank", "Bruiser", "Melee Assassin", "Ranged Assassin", "Healer", "Support"];
-  let ui = { tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, series: [], aliasOff: {}, ngsSeasons: ["22"], stages: ["reg", "po"], slScopes: ["recent", "mmr"], opp: null, side: null, map: null, mapBans: { us: ["", ""], opp: ["", ""] }, actions: [], sim: null, msg: "", showAll: false,
+  let ui = { pf: { player: "", hero: "", min: 1, weak: false, style: "" }, tab: "draft", team: CUR.us.team, me: null, mypool: {}, teamPicked: false, series: [], aliasOff: {}, ngsSeasons: ["22"], stages: ["reg", "po"], slScopes: ["recent", "mmr"], opp: null, side: null, map: null, mapBans: { us: ["", ""], opp: ["", ""] }, actions: [], sim: null, msg: "", showAll: false,
     mapview: null, hq: "", hrole: "All", hscope: "general", hpool: false, hsort: "name", ltab: "tips", gq: "", pq: "", prole: "All" };
 
   // Point the page at the picked team: its roster and pools, the opponents of its division, and the head to head numbers against each.
@@ -749,6 +749,31 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     return list.length >= 3 ? Math.round(list.reduce((a, b) => a + b, 0) / list.length) : null;
   }
 
+  // Their players with filters: one player, a hero they play, a minimum number of games, weaker heroes only, a playstyle.
+  function playersCard(o, players) {
+    const f = ui.pf, all = Object.keys(o.players);
+    const heroSet = {}; all.forEach(t => Object.keys(o.players[t].heroes).forEach(h => { heroSet[h] = 1; }));
+    const styles = {}; all.forEach(t => { const r = roleSummary(o.players[t].heroes); if (r.main) styles[r.main] = 1; });
+    const shown = all.filter(t => o.players[t].games >= (f.player ? 1 : 3) || f.player === t).filter(t => !f.player || t === f.player)
+      .filter(t => !f.hero || o.players[t].heroes[f.hero])
+      .filter(t => !f.style || roleSummary(o.players[t].heroes).main === f.style)
+      .sort((a, b) => o.players[b].games - o.players[a].games);
+    const opts = (list, cur, any) => `<option value="">${any}</option>` + list.sort().map(v => `<option${cur === v ? " selected" : ""}>${esc(v)}</option>`).join("");
+    const heroesOf = tag => Object.keys(o.players[tag].heroes).filter(h => o.players[tag].heroes[h].g >= f.min)
+      .filter(h => !f.weak || o.players[tag].heroes[h].weak).filter(h => !f.hero || h === f.hero);
+    return `<section class="card them"><h3>Their players</h3>
+      <div class="row" style="align-items:end;gap:8px;margin-bottom:8px">
+        <label class="f" style="min-width:140px">Player<select data-pf="player">${opts(all.slice(), f.player, "All players")}</select></label>
+        <label class="f" style="min-width:140px">Plays hero<select data-pf="hero">${opts(Object.keys(heroSet), f.hero, "Any hero")}</select></label>
+        <label class="f" style="min-width:120px">Playstyle<select data-pf="style">${opts(Object.keys(styles), f.style, "Any")}</select></label>
+        <label class="f" style="min-width:110px">Hero games<select data-pf="min">${[1, 2, 3, 5].map(n => `<option value="${n}"${f.min === n ? " selected" : ""}>${n} or more</option>`).join("")}</select></label>
+        <label class="small" style="display:flex;gap:6px;align-items:center;min-height:42px"><input type="checkbox" data-pf="weak"${f.weak ? " checked" : ""}> weaker heroes only</label>
+      </div>
+      ${shown.length ? `<div class="scroll"><table><tr><th>Player</th><th>Heroes this season</th></tr>
+      ${shown.map(tag => { const hs = heroesOf(tag); return `<tr><td>${esc(tag)}<div class="muted small">${(() => { const r = roleSummary(o.players[tag].heroes); return `${r.g} games ${wrTxt(r.w, r.g)} · ${esc(r.main)}${r.off ? " / " + esc(r.off) : ""}`; })()}</div><div class="muted small">rating ${o.players[tag].avg_rating}${o.players[tag].sl_mmr ? ` · SL MMR ${o.players[tag].sl_mmr[0]}${o.players[tag].sl_mmr[1] ? " " + esc(o.players[tag].sl_mmr[1]) : ""}` : ""}</div></td><td class="small">${hs.slice(0, f.player ? 40 : 6).map(h => { const d = o.players[tag].heroes[h]; return `${heroBtn(h)} ${wrTxt(d.w, d.g)}${d.weak ? ' <span class="tag warn">weaker</span>' : ""}`; }).join(", ") || '<span class="muted">no hero matches these filters</span>'}${!f.player && hs.length > 6 ? ` <span class="muted">and ${hs.length - 6} more (pick the player to see all)</span>` : ""}</td></tr>`; }).join("")}</table></div>` : '<p class="muted small">No player matches these filters.</p>'}
+      <p class="small muted">"Weaker" means the player rates clearly lower on that hero than on his others, so banning it may do nothing. Players with fewer than 3 games are listed only when you pick them.</p></section>`;
+  }
+
   function renderOverview() {
     const o = P.teams[ui.opp], t = E.tossAdvice(ui.opp), mp = E.mapPlan(ui.opp), st = E.newDraft(ui.opp, "first", ui.map);
     const ex = E.expectOppBans(st);
@@ -757,6 +782,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const lock = [];
     P.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const n = (o.bans_r2[h] || 0); if (n >= 2) lock.push(`${h} (${p.label}): banned in round two ${n} time(s)${o.bans_r2_vs_us && o.bans_r2_vs_us[h] ? ", " + o.bans_r2_vs_us[h] + " against us" : ""}`); }));
     return `<section class="card"><label class="f">Opponent<select id="opp">${oppOptions()}</select></label>
+      <p class="small muted">This page is a snapshot built ${esc(P.meta.built)} from games through ${esc(P.meta.newest_date)} (${P.meta.games} division games). Nothing here updates by itself: new games need a rebuild.</p>
       <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
       ${o.h2h.length ? "Against us (our result): " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "L" : "W"}`).join(", ") + "." : "No games against us yet."}
       ${(() => { const them = teamMmr(Object.keys(o.players).map(t => ({ games: o.players[t].games, sl_mmr: o.players[t].sl_mmr }))); const us = teamMmr(P.us.players.map(p => ({ games: Object.keys(p.ngs || {}).reduce((x, h) => x + p.ngs[h].g, 0), sl_mmr: p.sl_mmr }))); return them && us ? `<br><span class="small muted">Average Storm League MMR of the five most used players: ${esc(ui.opp)} ${them}, ${esc(P.us.team)} ${us}.</span>` : ""; })()}</p></section>
@@ -774,9 +800,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     ${vsUsCard(o)}
     ${lastSeasonCard(ui.opp)}
     ${answersCard()}
-    <section class="card them"><h3>Their players</h3><div class="scroll"><table><tr><th>Player</th><th>Heroes this season</th></tr>
-      ${players.map(tag => `<tr><td>${esc(tag)}<div class="muted small">${(() => { const r = roleSummary(o.players[tag].heroes); return `${r.g} games ${wrTxt(r.w, r.g)} · ${esc(r.main)}${r.off ? " / " + esc(r.off) : ""}`; })()}</div><div class="muted small">rating ${o.players[tag].avg_rating}${o.players[tag].sl_mmr ? ` · SL MMR ${o.players[tag].sl_mmr[0]}${o.players[tag].sl_mmr[1] ? " " + esc(o.players[tag].sl_mmr[1]) : ""}` : ""}</div></td><td class="small">${Object.keys(o.players[tag].heroes).slice(0, 6).map(h => { const d = o.players[tag].heroes[h]; return `${heroBtn(h)} ${wrTxt(d.w, d.g)}${d.weak ? ' <span class="tag warn">weaker</span>' : ""}`; }).join(", ")}</td></tr>`).join("")}</table></div>
-      <p class="small muted">"Weaker" means the player rates clearly lower on that hero than on his others, so banning it may do nothing.</p></section>
+${playersCard(o, players)}
     <section class="card"><h3>Rules in play</h3><ul class="r small">${rules.map(r => `<li><b>${esc(r.id)}:</b> ${esc(r.text || r.why)} <span class="muted">(${esc(r.evidence || "")})</span></li>`).join("")}</ul></section>
     ${o.notes ? `<section class="card note"><h3>Notes on ${esc(ui.opp)}</h3>${md(o.notes)}</section>` : ""}`;
   }
@@ -1163,9 +1187,10 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     if (t.id === "teamsel") { ui.team = t.value; ui.teamPicked = true; ui.me = null; ui.mypool = {}; ui.opp = null; ui.actions = []; ui.series = []; ui.side = null; ui.map = null; ui.mapBans = { us: ["", ""], opp: ["", ""] }; ui.sim = null; ui.msg = ""; applyTeam(); }
     else if (t.dataset && t.dataset.alias) { ui.aliasOff[t.dataset.alias] = !t.checked; }
     else if (t.id === "mesel") { ui.me = t.value || null; ui.mypool = {}; ui.teamPicked = true; ui.msg = ""; applyTeam(); }
-    else if (t.id === "opp") { ui.opp = t.value; ui.actions = []; ui.sim = null; ui.series = []; ui.mapBans = { us: ["", ""], opp: ["", ""] }; }
+    else if (t.id === "opp") { ui.opp = t.value; ui.pf = { player: "", hero: "", min: 1, weak: false, style: "" }; ui.actions = []; ui.sim = null; ui.series = []; ui.mapBans = { us: ["", ""], opp: ["", ""] }; }
     else if (t.dataset && t.dataset.mapban) { const k = t.dataset.mapban.split(":"); ui.mapBans[k[0]][+k[1]] = t.value; if (ui.map && allMapBans().includes(ui.map)) ui.map = null; ui.sim = null; }
     else if (t.id === "map") { ui.map = t.value || null; ui.sim = null; }
+    else if (t.dataset && t.dataset.pf) { const k = t.dataset.pf; ui.pf[k] = k === "weak" ? t.checked : k === "min" ? +t.value : t.value; }
     else if (t.id === "mapview") { ui.mapview = t.value; }
     else if (t.id === "hscope") { ui.hscope = t.value; }
     else if (t.id === "hsort") { ui.hsort = t.value; }

@@ -41,7 +41,7 @@ RENDER.meta = function (p) {
 };
 
 /* ---------------------------------------------------------------- Scout */
-var Sc = { team: (window.HOTS_PRESET && window.HOTS_PRESET.team) || '', q: '' };
+var Sc = { team: (window.HOTS_PRESET && window.HOTS_PRESET.team) || '', q: '', f: {} };
 RENDER.scout = function (p) {
   if (noGames()) { p.innerHTML = emptyMsg(); return; }
   var teams = E.listTeams(App.selMap);
@@ -49,15 +49,63 @@ RENDER.scout = function (p) {
     '<div class="row"><input type="text" id="sc-team" list="sc-teams" placeholder="Team name" autocomplete="off" style="flex:1 1 240px"><datalist id="sc-teams">' + teams.slice(0, 600).map(function (t) { return '<option value="' + esc(t.team) + '">'; }).join('') + '</datalist></div>' +
     '<div class="row" style="margin-top:8px"><span class="small muted">Most games in selection:</span>' + teams.slice(0, 8).map(function (t) { return '<button class="fchip" data-act="sc-pick" data-v="' + esc(t.team) + '">' + esc(t.team) + '<span class="n">' + t.n + '</span></button>'; }).join('') + '</div></div><div id="sc-out"></div></div>';
   $('#sc-team').value = Sc.team;
-  $('#sc-team').addEventListener('change', function (e) { Sc.team = e.target.value.trim(); drawScout(); });
+  $('#sc-team').addEventListener('change', function (e) { Sc.team = e.target.value.trim(); Sc.f = {}; drawScout(); });
   $('#sc-team').addEventListener('keydown', function (e) { if (e.key === 'Enter') { Sc.team = e.target.value.trim(); drawScout(); } });
   drawScout();
 };
-ACT['sc-pick'] = function (el) { Sc.team = el.getAttribute('data-v'); $('#sc-team').value = Sc.team; drawScout(); };
+ACT['sc-pick'] = function (el) { Sc.team = el.getAttribute('data-v'); Sc.f = {}; $('#sc-team').value = Sc.team; drawScout(); };
+ACT['sc-clear'] = function () { Sc.f = {}; drawScout(); };
+document.addEventListener('change', function (e) { var k = e.target && e.target.getAttribute && e.target.getAttribute('data-sc'); if (k) { Sc.f[k] = e.target.value; drawScout(); } });
 function drawScout() {
   var out = $('#sc-out');
   if (!Sc.team) { out.innerHTML = '<div class="card empty">Choose a team above to see its record, maps, comps, heroes and ban habits.</div>'; return; }
-  var s = E.scoutTeam(App.selMap, Sc.team);
+  var tn = Sc.team.toLowerCase();
+  var mine = App.selMap.filter(function (g) { return String(g.teams[0]).toLowerCase() === tn || String(g.teams[1]).toLowerCase() === tn; });
+  var side = function (g) { return String(g.teams[0]).toLowerCase() === tn ? 0 : 1; };
+  var F = Sc.f;
+  // option lists come from all of the team's games in the selection, so choosing one never empties the lists
+  var opt = { maps: {}, seasons: {}, opps: {}, played: {}, banned: {}, archs: {}, divs: {} };
+  mine.forEach(function (g) {
+    var sd = side(g);
+    opt.maps[g.map] = 1; opt.seasons[g.league + ' S' + g.season] = 1; opt.opps[g.teams[1 - sd]] = 1; if (g.division != null) opt.divs[g.league + ' ' + g.division] = 1;
+    g.picks[sd].forEach(function (h) { opt.played[h] = 1; });
+    g.bans[sd].forEach(function (h) { if (h) opt.banned[h] = 1; });
+    if (g.arch[sd]) opt.archs[g.arch[sd]] = 1;
+  });
+  var rows = mine.filter(function (g) {
+    var sd = side(g), won = g.winner === sd;
+    if (F.map && g.map !== F.map) return false;
+    if (F.season && (g.league + ' S' + g.season) !== F.season) return false;
+    if (F.div && (g.league + ' ' + g.division) !== F.div) return false;
+    if (F.opp && g.teams[1 - sd] !== F.opp) return false;
+    if (F.result === 'won' && !won) return false;
+    if (F.result === 'lost' && won) return false;
+    if (F.pick === 'first' && g.firstPick !== sd) return false;
+    if (F.pick === 'second' && (g.firstPick == null || g.firstPick === sd)) return false;
+    if (F.played && g.picks[sd].indexOf(F.played) < 0) return false;
+    if (F.against && g.picks[1 - sd].indexOf(F.against) < 0) return false;
+    if (F.banned && g.bans[sd].indexOf(F.banned) < 0) return false;
+    if (F.banAgainst && g.bans[1 - sd].indexOf(F.banAgainst) < 0) return false;
+    if (F.arch && g.arch[sd] !== F.arch) return false;
+    return true;
+  });
+  if (F.last) rows = rows.slice().sort(function (x, y) { return String(y.date || '') < String(x.date || '') ? -1 : String(y.date || '') > String(x.date || '') ? 1 : y.id - x.id; }).slice(0, Number(F.last));
+  var sel = function (key, label, list, extra) {
+    return '<label class="f" style="min-width:140px">' + label + '<select data-sc="' + key + '"><option value="">Any</option>' +
+      (extra || []).map(function (e) { return '<option value="' + esc(e[0]) + '"' + (F[key] === e[0] ? ' selected' : '') + '>' + esc(e[1]) + '</option>'; }).join('') +
+      Object.keys(list).sort().map(function (v) { return '<option' + (F[key] === v ? ' selected' : '') + '>' + esc(v) + '</option>'; }).join('') + '</select></label>';
+  };
+  var active = Object.keys(F).filter(function (k) { return F[k]; }).length;
+  var bar = '<div class="card"><div class="row between"><h3>Filter ' + esc(Sc.team) + ' games</h3><span class="small muted">' + rows.length + ' of ' + mine.length + ' games in the selection' + (active ? ' <button class="btn sm" data-act="sc-clear">Clear ' + active + ' filter' + (active > 1 ? 's' : '') + '</button>' : '') + '</span></div>' +
+    '<div class="row" style="align-items:end;gap:8px">' +
+    sel('map', 'Map', opt.maps) + sel('result', 'Result', {}, [['won', 'They won'], ['lost', 'They lost']]) + sel('pick', 'Draft position', {}, [['first', 'They had first pick'], ['second', 'They had second pick']]) +
+    sel('last', 'Most recent', {}, [['5', 'Last 5 games'], ['10', 'Last 10 games'], ['20', 'Last 20 games']]) +
+    sel('season', 'League and season', opt.seasons) + sel('div', 'Division', opt.divs) + sel('opp', 'Opponent', opt.opps) + sel('arch', 'Their comp', opt.archs) +
+    sel('played', 'They played', opt.played) + sel('against', 'They faced', (function () { var o = {}; mine.forEach(function (g) { g.picks[1 - side(g)].forEach(function (h) { o[h] = 1; }); }); return o; })()) +
+    sel('banned', 'They banned', opt.banned) + sel('banAgainst', 'Banned against them', (function () { var o = {}; mine.forEach(function (g) { g.bans[1 - side(g)].forEach(function (h) { if (h) o[h] = 1; }); }); return o; })()) +
+    '</div><p class="small muted">Everything below follows these filters. Small slices are leans, so read the sample size next to each number. The suggested answers use the whole selection, not just this slice.</p></div>';
+  if (!rows.length) { out.innerHTML = bar + '<div class="card empty">No games match these filters.</div>'; return; }
+  var s = E.scoutTeam(rows, Sc.team, App.selMap);
   if (!s.found) { out.innerHTML = '<div class="card empty">No games for "' + esc(Sc.team) + '" in the selection.</div>'; return; }
   var r = s.record, h = '<div class="stack">';
   h += '<div class="card"><div class="row between"><h2>' + esc(s.team) + '</h2><span class="num">' + r.wins + '-' + r.losses + ' ' + nn(r.n) + lowb(r.low) + '</span></div><p class="small muted">Win rate ' + pct(r.winRate) + ' raw, ' + pct(r.shrunk) + ' shrunk toward 50%.' + (s.note ? ' ' + esc(s.note) : '') + '</p></div>';
@@ -74,5 +122,5 @@ function drawScout() {
   var an = s.suggestedAnswers;
   h += '<div class="card"><h3>Answers that did well against them ' + tag('data') + '</h3>' + (an && an.mainArchetype ? '<p class="small">Their main archetype is <b>' + esc(an.mainArchetype) + '</b>. Archetypes that beat it in the selection:</p>' + table(['Archetype', { t: 'Win', c: 'r' }, { t: 'Games', c: 'r' }], an.archetypes.slice(0, 4).map(function (x) { return '<tr><td>' + esc(x.arch) + '</td><td class="r num">' + pct(x.shrunk, 0) + '</td><td class="r num">' + x.n + lowb(x.low) + '</td></tr>'; })) +
     (an.heroes.length ? '<h4 style="margin-top:8px">Heroes that won against their usual picks</h4><div class="stack" style="gap:4px;margin-top:4px">' + an.heroes.slice(0, 5).map(function (x) { return '<div class="row between">' + hn(x.hero) + '<span class="small muted num">' + pct(x.shrunk, 0) + ', n ' + x.n + (x.low ? ' low sample' : '') + '</span></div>'; }).join('') + '</div>' : '') : '<p class="small muted">Not enough games.</p>') + '</div></div>';
-  out.innerHTML = h + '</div>';
+  out.innerHTML = bar + h + '</div>';
 }
