@@ -1,0 +1,87 @@
+{
+  "hero": "Malfurion",
+  "slug": "malfurion",
+  "role": "Healer",
+  "attack": {
+    "type": "ranged",
+    "range": "long",
+    "autos_matter": 1,
+    "note": "Basic attacks are weak. Celestial Alignment adds 85 percent damage to autos on Moonfire revealed targets but is a situational pick."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["poke", "single_target"],
+    "poke": { "rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Moonfire is 90 damage for 10 Mana on a 3 second cooldown, mostly used to trigger Regrowth healing and to reveal. Vengeful Roots Treant adds modest single target damage. Measured 894 hero damage per minute." },
+    "heal_blunted": 3,
+    "note": "Damage exists to power Moonfire healing, not to kill."
+  },
+  "healing": {
+    "style": ["hot", "aoe", "single_target", "burst"],
+    "sustain": 5,
+    "burst_heal": 2,
+    "aoe": 3,
+    "range": "long",
+    "mana_pressure": 3,
+    "positioning_risk": 3,
+    "note": "Regrowth is 380 over 20 seconds on up to three or four allies, and Moonfire pays a 130 instant heal to every Regrowth ally for each enemy hit, at any distance. That is excellent sustain and good AoE with Tranquility (80 per second for 8 seconds) but weak against single target burst, since the healing is spread out. Wild Growth and Nature's Balance keep Regrowth running. Serenity and Lunar Shower scale healing in long fights."
+  },
+  "ratings": {
+    "wave_clear": 2,
+    "camp_clear": 1,
+    "siege": 1,
+    "teamfight": 4,
+    "engage": 2,
+    "peel": 4,
+    "mobility": 1,
+    "self_sustain": 1,
+    "survivability": 1,
+    "objective": 2,
+    "global_presence": 2,
+    "solo_lane": 0
+  },
+  "cc": {
+    "hard": ["root", "silence", "sleep"],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "poke_comp", "why": "Regrowth is a 20 second heal over time on several allies and Tranquility plus Serenity covers AoE damage. Long chip damage that a burst healer cannot cover is his best matchup." },
+    { "tag": "melee_heavy", "why": "Entangling Roots follows up any crowd control on clumped melee Heroes, Emerald Dreams extends it with sleep, and Twilight Dream silence shuts down melee abilities for 3 seconds." },
+    { "tag": "cc_heavy", "why": "Nature's Cure removes stuns, roots and slows from every ally with Regrowth, at unlimited range. It does not give Unstoppable." },
+    { "tag": "mobile", "why": "Roots and Hindering Moonfire slow punish dashers who commit, and Regrowth heals divers wherever they go because Moonfire heal ignores distance." }
+  ],
+  "bad_into": [
+    { "tag": "burst_dive", "why": "Regrowth spreads healing over 20 seconds, so a focused dive kills before it ticks. He has no escape and his own Regrowth needs Rejuvenation to be useful on himself." },
+    { "tag": "assassin", "why": "Low mobility and a squishy body with no Unstoppable. Assassins who cut through the frontline remove the healer first." },
+    { "tag": "kiter", "why": "Hard to hit Moonfire and Roots on Heroes that stay at range, so Regrowth healing from Moonfire dries up and his low damage cannot punish them." }
+  ],
+  "wants_from_team": [
+    "Allies who protect him from dive",
+    "Mana hungry or cooldown reliant Heroes for Innervate, such as casters",
+    "Wave clear from others",
+    "Crowd control to chain with Entangling Roots"
+  ],
+  "gives_team": [
+    "Sustain healing that scales through long fights",
+    "Area root, sleep and silence",
+    "Innervate mana and cooldown speed up",
+    "Cleanse from Nature's Cure"
+  ],
+  "power_spike": "mid",
+  "weaknesses": [
+    "Struggles against burst damage",
+    "Vulnerable to dive",
+    "Low wave clear",
+    "Silence cannot be cleansed and he cannot give Unstoppable",
+    "Moonfire healing needs enemies in range"
+  ],
+  "evidence": [
+    "Regrowth, Moonfire, Entangling Roots, Tranquility, Twilight Dream, Innervate ability text",
+    "Wild Growth, Nature's Balance, Moonlit Harmony, Serenity, Lunar Shower, Nature's Cure talent text",
+    "Icy Veins role in current meta says counter to comps with two or fewer assassins",
+    "Measured block: 4070 healing per minute (highest of this group) and 63.6 seconds of enemy stun root or silence per game"
+  ],
+  "confidence": "high",
+  "unsure": ["power_spike", "ratings.global_presence"]
+}

@@ -1,0 +1,87 @@
+{
+  "hero": "Mal'Ganis",
+  "slug": "malganis",
+  "role": "Tank",
+  "attack": {
+    "type": "melee",
+    "range": "melee",
+    "autos_matter": 2,
+    "note": "Basic attacks feed Vampiric Touch (50 percent of damage to heroes) and Black Claws, Frenzied Assault and The Night Beckons, but most damage comes from Fel Claws, Necrotic Embrace and Carrion Swarm."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["aoe", "burst"],
+    "poke": {
+      "rating": 1,
+      "kind": "none",
+      "dodgeable": 3,
+      "note": "No ranged damage. Plague Bats is a short cone in front of him."
+    },
+    "heal_blunted": 3,
+    "note": "Damage per minute is low (1450 measured) and is mainly a way to power Vampiric Touch. Carrion Swarm is 120 per second for 3 seconds on everyone nearby. Healing reduction on him hurts his sustain, and a strong enemy healer can out heal the small hits."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 3,
+    "camp_clear": 3,
+    "siege": 2,
+    "teamfight": 3,
+    "engage": 4,
+    "peel": 2,
+    "mobility": 3,
+    "self_sustain": 5,
+    "survivability": 3,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 2
+  },
+  "cc": {
+    "hard": ["stun", "sleep"],
+    "soft": ["slow"],
+    "reliability": 2
+  },
+  "good_into": [
+    { "tag": "squishy_backline", "why": "Night Rush gives 50 percent speed, passes through heroes and sleeps them for 2.5 seconds. Seeker Swarm sleeps everyone nearby for 2.5 seconds, so the backline is easy to lock." },
+    { "tag": "immobile", "why": "Fel Claws third slash stuns and Night Rush closes the gap, so low mobility heroes cannot get away. Blind as a Bat spams stuns on the same target." },
+    { "tag": "tanky_frontline", "why": "Dark Conversion swaps health percentages, so it deals huge damage to big health pools like Stitches. Will of Tichondrius also steals 4 percent of enemy health." },
+    { "tag": "melee_heavy", "why": "Necrotic Embrace gives armor and Vampiric Touch heals when he is hit while Fel Claws stuns and Night Rush beats melee heroes to a target." }
+  ],
+  "bad_into": [
+    { "tag": "kiter", "why": "The guide names Lunara and Hanzo. Every engage tool has short range so a kiter keeps him out and he cannot use Vampiric Touch." },
+    { "tag": "cc_heavy", "why": "Night Rush, Carrion Swarm and Dark Conversion are all interrupted by stuns, roots and silences (Deckard Cain root, Garrosh Warlord's Challenge). If Carrion Swarm is interrupted he usually dies." },
+    { "tag": "mobile", "why": "Illidan, Zeratul and similar heroes are hard to hit with Fel Claws and he cannot peel them off his team." },
+    { "tag": "poke_comp", "why": "He must reach the enemy to heal, and ranged poke wears him down before he can use Vampiric Touch. Carrion Swarm is his only reset and needs a 100 second cooldown." }
+  ],
+  "wants_from_team": [
+    "mage or burst that follows his sleep and stun (Kel'Thuzad, Illidan, Sonya)",
+    "a second source of crowd control to cover interrupts",
+    "flank routes on the map"
+  ],
+  "gives_team": [
+    "multi hero sleep and stun setup",
+    "enemy backline disruption",
+    "healer independent frontline"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "heroics easily interrupted",
+    "low range engage",
+    "needs a flank, weak on open maps",
+    "weak to kiting and roots",
+    "measured win rate 0.455 and 3.1 deaths per game"
+  ],
+  "evidence": [
+    "Vampiric Touch",
+    "Fel Claws",
+    "Night Rush",
+    "Carrion Swarm",
+    "Seeker Swarm",
+    "Dark Conversion",
+    "Blind as a Bat",
+    "Icy Veins strengths and weaknesses",
+    "measured: damage taken 3994 per minute, stun/root/silence seconds 96, win rate 0.455, deaths 3.1, 143 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["ratings.survivability", "ratings.teamfight", "damage.heal_blunted"]
+}

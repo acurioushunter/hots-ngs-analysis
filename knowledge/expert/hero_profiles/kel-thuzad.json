@@ -1,0 +1,89 @@
+{
+  "hero": "Kel'Thuzad",
+  "slug": "kel-thuzad",
+  "role": "Ranged Assassin",
+  "attack": {
+    "type": "ranged",
+    "range": "medium",
+    "autos_matter": 1,
+    "note": "His damage is Death and Decay, Frost Nova, Chains and the heroic. Chilling Touch is an unavoidable area basic attack every 8 seconds but is a minor part."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": true,
+    "style": ["burst", "aoe", "zone"],
+    "poke": {
+      "rating": 3,
+      "kind": "skillshot",
+      "dodgeable": 3,
+      "note": "Death and Decay is a 5 second cooldown cheap skillshot that leaves a damaging pool and is used on cooldown. Chains and Frost Nova are the real skillshots and they are dodgeable, which is why the combo needs allied crowd control or Glacial Spike."
+    },
+    "heal_blunted": 2,
+    "note": "The combo is a chain of pull, root, Shadow Fissure (320) and Death and Decay pool damage, with Hungering Cold and Power of Icecrown, which kills a rooted hero through a heal. Poke from Death and Decay alone is dot damage that area healers can absorb. Measured 2572 hero damage and 5316 siege per minute with the highest deaths (2.7) in this group, so he is fragile when the combo misses."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 3,
+    "camp_clear": 3,
+    "siege": 4,
+    "teamfight": 4,
+    "engage": 3,
+    "peel": 2,
+    "mobility": 1,
+    "self_sustain": 1,
+    "survivability": 1,
+    "objective": 3,
+    "global_presence": 3,
+    "solo_lane": 1
+  },
+  "cc": {
+    "hard": ["stun", "root", "pull"],
+    "soft": ["slow"],
+    "reliability": 4
+  },
+  "good_into": [
+    { "tag": "immobile", "why": "Chains, Frost Nova and Frost Blast are skillshots with a delay or a slow projectile, so heroes with no escape cannot dodge the lock and take the full combo. Icy Veins calls him a counterpick to immobile comps." },
+    { "tag": "squishy_backline", "why": "Chains pulls a backline hero out of position, then Frost Nova root, Shadow Fissure and Death and Decay with Hungering Cold kill a fragile target." },
+    { "tag": "structures", "why": "The Damned Return doubles Death and Decay and The Plaguelands widens it, which gives high siege (about 5300 per minute measured)." },
+    { "tag": "tanky_frontline", "why": "Barbed Chains armor reduction and Strip Shields (extra damage to shields) let him pull a tank apart or pull a squishy past one." }
+  ],
+  "bad_into": [
+    { "tag": "assassin", "why": "He has no mobility and only Armor of the Archlich or Shifting Malice to survive a dive, so Illidan, Samuro or Tracer kill him." },
+    { "tag": "burst_dive", "why": "Combos cost many skillshots and his health pool is small, so enemies who jump him after a missed Chains win trades." },
+    { "tag": "mobile", "why": "Chains, Frost Nova and Frost Blast are easy to avoid for fast heroes, and without hits he cannot complete Master of the Cold Dark." },
+    { "tag": "kiter", "why": "A hero that backs away from the slow Frost Blast and the thin Chains line avoids most of the lock, and Master of the Cold Dark stacks only on hits." }
+  ],
+  "wants_from_team": [
+    "a tank with reliable peel and crowd control to set up Chains and Frost Nova",
+    "allied roots and stuns to trigger Hungering Cold and Power of Icecrown",
+    "early skirmishes so Master of the Cold Dark completes",
+    "a healer or shields, because he has little sustain"
+  ],
+  "gives_team": [
+    "a chain of pulls, roots and stuns that locks one target",
+    "Shadow Fissure global follow up on allied crowd control",
+    "Frost Blast root that isolates or protects",
+    "high siege and wave clear with The Damned Return"
+  ],
+  "power_spike": "mid",
+  "weaknesses": [
+    "weak early until Master of the Cold Dark stacks",
+    "all basic abilities are skillshots that skilled players dodge",
+    "no escape",
+    "needs skirmishes, so he is poor solo laning"
+  ],
+  "evidence": [
+    "Master of the Cold Dark",
+    "Chains of Kel'Thuzad",
+    "Frost Nova",
+    "Death and Decay",
+    "Frost Blast",
+    "Shadow Fissure",
+    "Hungering Cold",
+    "The Damned Return",
+    "Icy Veins guide role and counters text",
+    "measured damage 2572 per minute, 36 seconds of enemy crowd control and 195 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["global_presence", "power_spike", "heal_blunted"]
+}

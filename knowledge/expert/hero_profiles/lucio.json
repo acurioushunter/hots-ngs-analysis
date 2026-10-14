@@ -1,0 +1,87 @@
+{
+  "hero": "Lúcio",
+  "slug": "lucio",
+  "role": "Healer",
+  "attack": {
+    "type": "ranged",
+    "range": "short",
+    "autos_matter": 2,
+    "note": "Autos matter only through talents: Smooth Moves heals 30 percent of damage dealt while Wall Ride is active, and Up the Frequency cuts Amp It Up cooldown per hit. Attacks while moving."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["poke", "aoe"],
+    "poke": { "rating": 1, "kind": "auto", "dodgeable": 3, "note": "Soundwave 105 and Push Off 100 plus short range autos and Reverse Amp beat damage. Harassment and dismounting, not a threat. Measured hero damage 1092 per minute." },
+    "heal_blunted": 4,
+    "note": "Everything he deals is small hits, so healing erases it."
+  },
+  "healing": {
+    "style": ["aoe", "hot", "shield", "mobility_buff"],
+    "sustain": 4,
+    "burst_heal": 2,
+    "aoe": 5,
+    "range": "short",
+    "mana_pressure": 2,
+    "positioning_risk": 3,
+    "note": "Crossfade Healing Boost is a permanent aura on everyone nearby, 15 per second base and 112 per second under Amp It Up, which makes it excellent into spread damage. Sound Barrier is a 1296 point decaying team shield that answers burst, and High Five adds a 230 heal with Unstoppable on a rescue. Healing per second is weak early and good late. Because it is a short range aura he has to stay near the team."
+  },
+  "ratings": {
+    "wave_clear": 1,
+    "camp_clear": 1,
+    "siege": 1,
+    "teamfight": 4,
+    "engage": 3,
+    "peel": 4,
+    "mobility": 5,
+    "self_sustain": 2,
+    "survivability": 3,
+    "objective": 2,
+    "global_presence": 2,
+    "solo_lane": 0
+  },
+  "cc": {
+    "hard": ["knockback", "stun"],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "poke_comp", "why": "Crossfade Healing Boost heals everyone nearby continuously and Amp It Up multiplies it, which is the best answer to spread chip damage and AoE damage that single target healers cannot cover." },
+    { "tag": "burst_dive", "why": "Sound Barrier gives a 1296 point shield to the team and Soundwave, Push Off and speed boost let him peel divers. Summer Anthem can save the team from a wombo." },
+    { "tag": "melee_heavy", "why": "Soundwave on an 8 second cooldown knocks melee Heroes out of position, Off the Wall resets it, and Heavy Casters turns Push Off into a stun." },
+    { "tag": "immobile", "why": "Speed Boost makes low mobility Heroes much easier to stick to targets and rotate, and he can pull with Wall Ride to drag away or kite." }
+  ],
+  "bad_into": [
+    { "tag": "cc_heavy", "why": "Ground persistent crowd control and root zones catch him as he skates in to save allies. High Five is cancelled by a stun or root and his health pool is small." },
+    { "tag": "ranged_heavy", "why": "Long range single target damage from Raynor or Sgt. Hammer type Heroes punishes him because he must stay in the middle of the team and cannot outheal focused fire with an aura." },
+    { "tag": "assassin", "why": "Low health pool and no escape except skating on terrain, so assassins who find him without a nearby wall kill him before the fight starts." }
+  ],
+  "wants_from_team": [
+    "Low mobility Heroes who benefit from speed",
+    "Melee or dive Heroes to enable",
+    "Wave clear from elsewhere",
+    "A tank who stays close so the aura reaches"
+  ],
+  "gives_team": [
+    "Constant AoE healing aura",
+    "Team wide movement speed for rotations and chases",
+    "Burst protection with Sound Barrier or Summer Anthem",
+    "Disengage with Soundwave and Push Off"
+  ],
+  "power_spike": "late",
+  "weaknesses": [
+    "Very poor wave clear",
+    "Healing is low early",
+    "Small health pool, vulnerable to stuns and slows",
+    "Needs high skill, multitasking and map awareness",
+    "Aggressive play can get him killed before the fight"
+  ],
+  "evidence": [
+    "Crossfade, Amp It Up, Sound Barrier, High Five, Soundwave, Push Off ability text",
+    "Party Mix, Accelerando, Smooth Moves, Heavy Casters, Mixing Fire, House Party, Summer Anthem talent text",
+    "Icy Veins strengths, weaknesses and counters",
+    "Measured block: 3827 healing and 1692 damage taken per minute, 0.531 win rate over 1174 games"
+  ],
+  "confidence": "high",
+  "unsure": ["ratings.global_presence", "healing.burst_heal"]
+}

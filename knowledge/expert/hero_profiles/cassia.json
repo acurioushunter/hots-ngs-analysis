@@ -1,0 +1,84 @@
+{
+ "hero": "Cassia",
+ "slug": "cassia",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "short",
+  "autos_matter": 3,
+  "note": "Short basic attack range for a ranged assassin. Charged Strikes, Martial Law and Titan's Revenge make basic attacks the core of her main build, but the Lightning Fury poke build leans on abilities."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "single_target", "poke"],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Lightning Fury is a javelin that splits into two bolts, with the most range in her kit and two charges (four with Static Electricity). It is a straight skillshot with no delay."
+  },
+  "heal_blunted": 3,
+  "note": "Sustained damage from basic attacks, Fend channel and Lightning Fury bolts, with Ball Lightning burst on the Heroic. She does 15 percent extra damage to Blinded targets and Martial Law adds percent health damage to slowed or blinded targets, which helps against high health heroes. Measured hero damage per minute is high at about 3030 and damage taken is a bit below median."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 4,
+  "siege": 3,
+  "teamfight": 3,
+  "engage": 2,
+  "peel": 1,
+  "mobility": 3,
+  "self_sustain": 3,
+  "survivability": 3,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": ["blind", "stun", "root", "silence"],
+  "soft": ["slow"],
+  "reliability": 2
+ },
+ "good_into": [
+  {"tag": "melee_heavy", "why": "Blinding Light removes basic attacks of melee heroes, Surge of Light stores their damage and releases an area hit, and Avoidance armor reduces their hits while she keeps moving. Grounding Rod and Martial Law punish them further."},
+  {"tag": "assassin", "why": "Blinding Light plus Fend and Ball Lightning let her win a duel against a diving assassin that relies on basic attacks, and Avoidance gives up to 30 armor against their physical damage."},
+  {"tag": "tanky_frontline", "why": "Martial Law deals percent health damage (3 percent when slowed, stunned or blinded) and Titan's Revenge ignores armor, so she chews through tanks that other poke assassins cannot."},
+  {"tag": "single_target_healer", "why": "Her armor makes single target heals very efficient, and the guide notes her value jumps with a focused healer, so she is stronger when her own healer has this style."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "Avoidance armor only exists while she is moving, so any stun or root removes it within about a second. Fend can be cancelled early and she has no escape."},
+  {"tag": "ranged_heavy", "why": "Her attack range is short, so longer range assassins and mages win trades in the open and punish her dive with Fend."},
+  {"tag": "poke_comp", "why": "She has no good way to close from range with Fend on cooldown and very few ways to heal back chip except Inner Light and Plate of the Whale."},
+  {"tag": "stealth", "why": "Blinding Light is a ground target area, so stealthed heroes avoid it, and her kit has no reveal."}
+ ],
+ "wants_from_team": [
+  "Heroes that blind or slow so Blinding Light and Martial Law get bonus damage",
+  "A frontline that absorbs crowd control and lets her stay moving",
+  "A focused healer, since Avoidance armor multiplies healing received",
+  "Allied crowd control to set up Ball Lightning and Fend"
+ ],
+ "gives_team": [
+  "Consistent single target damage against tanks and bruisers",
+  "A strong answer to basic attack melee assassins and bruisers",
+  "Reasonable wave and camp clear with Fend",
+  "Interrupt of channelled Heroics with a low cooldown Valkyrie"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "No escape, and crowd control removes her armor",
+  "Short range for an assassin",
+  "Very mana hungry",
+  "Dependent on level 13 and 16 talents for her real power"
+ ],
+ "evidence": [
+  "Avoidance, Blinding Light passive, Fend",
+  "Ball Lightning and Valkyrie",
+  "Martial Law, Titan's Revenge, Charged Strikes, Surge of Light",
+  "Icy Veins guide strengths and counters text",
+  "Measured block: hero damage per minute about 3030, win rate 0.480 over 644 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["good_into.single_target_healer", "ratings.siege"]
+}

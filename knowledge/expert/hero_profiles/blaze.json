@@ -1,0 +1,43 @@
+{
+ "hero": "Blaze",
+ "slug": "blaze",
+ "role": "Tank",
+ "attack": {
+  "type": "ranged",
+  "range": "short",
+  "autos_matter": 3,
+  "note": "Basic attacks hit a short cone and are weak against fewer than 3 targets, great for waves and mercenaries. Incinerator Gauntlets, Adrenaline Stimpack and Burn Notice make autos the waveclear and siege engine. This is a tank, not a ranged damage dealer."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["dot", "aoe", "siege"],
+  "poke": { "rating": 3, "kind": "skillshot", "dodgeable": 3, "note": "Flame Stream is two fast piercing streams with a 4 second cooldown and long reach, usable to poke and finish fleeing heroes, but only hits for full value when both streams land on the same target. Ignited Oil Spill is a damage over time zone." },
+  "heal_blunted": 4,
+  "note": "Ignited Oil Spill deals 16 every 0.3 seconds, Combustion ticks every 0.5 seconds and Pyromania ticks every 0.5 seconds: all small repeated hits that healing blunts. Collision Course is the one burst hit at 260. Measured 1540 hero damage per minute but a very high 6404 siege per minute, the top siege among these tanks."
+ },
+ "healing": null,
+ "ratings": { "wave_clear": 5, "camp_clear": 4, "siege": 5, "teamfight": 3, "engage": 2, "peel": 4, "mobility": 1, "self_sustain": 4, "survivability": 4, "objective": 3, "global_presence": 0, "solo_lane": 4 },
+ "cc": { "hard": ["stun"], "soft": ["slow"], "reliability": 3 },
+ "good_into": [
+  { "tag": "melee_heavy", "why": "Oil Spill slows 50 percent, Nanomachine Coating cuts attack speed 35 percent, Meltdown cuts damage, and cone autos with Pyromania hit every melee hero standing on him. The guide says he excels at disrupting aggressive melee heroes." },
+  { "tag": "assassin", "why": "Bunker Drop clears most crowd control and damage over time effects and shields fragile allies, and Pyromania gives 40 armor on demand against single target dives." },
+  { "tag": "structures", "why": "Measured siege damage of 6404 per minute, Incinerator Gauntlets and Burn Notice make him one of the best pushers, and double soaking is his strength." },
+  { "tag": "poke_comp", "why": "Juggernaut Plating converts spell damage into a shield and Endurance Stimpack shields burst, while Ignited Oil Spill heals him in sustained fights." },
+  { "tag": "immobile", "why": "Flame Stream and Oil Spill hit predictable targets, Jet Propulsion has a long wind up and lands best on slowed or stunned heroes." }
+ ],
+ "bad_into": [
+  { "tag": "mobile", "why": "Jet Propulsion has a 0.375 second delay, so mobile heroes such as Tracer dodge it, and he has no mobility besides it." },
+  { "tag": "kiter", "why": "He relies on skillshots that can be avoided and is slow, so kiters outrange and outwalk his short cone." },
+  { "tag": "tanky_frontline", "why": "Percent health damage and a large health pool matter against him, and his damage is too low to threaten heavy frontlines." },
+  { "tag": "burst_dive", "why": "Limited burst and single target output means he does not kill the dive, and the guide lists percent based damage as his worst problem." },
+  { "tag": "ranged_heavy", "why": "Ranged teams can stand outside his short cone and Oil Spill area, so his sustain and slows hit less." }
+ ],
+ "wants_from_team": ["A partner to start the engage because Jet Propulsion is slow", "Skillshot heroes that use Oil Spill slows and Jet Propulsion stuns", "A healer or mage that handles poke while he soaks", "Damage that finishes kills since his own single target output is low"],
+ "gives_team": ["Elite waveclear, camp clear and siege", "Bunker Drop to cancel heroics such as Temporal Loop", "Slows that raise uptime for assassins and skillshot heroes", "Spell power reduction with Suppressive Fire"],
+ "power_spike": "mid",
+ "weaknesses": ["Immobile and easy to kite", "Slow engage", "Low single target damage", "Percent based damage cuts through his large health pool and armor"],
+ "evidence": ["Flame Stream, Oil Spill, Jet Propulsion, Bunker Drop, Combustion, Pyromania, Basic Attacks ability text", "Talents Incinerator Gauntlets, Oil Dispersal, Nanomachine Coating, Collision Course, Juggernaut Plating, Fortified Bunker", "Icy Veins: heavy tank with great waveclear, niche tank that excels at disrupting aggressive melee heroes", "measured: hero damage 1540 per minute, siege 6404, damage taken 2936, deaths 2.0 per game, win rate 0.500"],
+ "confidence": "high",
+ "unsure": ["ratings.solo_lane"]
+}

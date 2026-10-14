@@ -1,0 +1,72 @@
+{
+ "hero": "Imperius",
+ "slug": "imperius",
+ "role": "Bruiser",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 3,
+  "note": "Molten Armor auto strikes nearby enemies and heals him; Holy Fervor adds cleaving autos. Valorous Brand marks are consumed by his basic attacks and abilities for bonus damage."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["sustained", "aoe", "percent_health"],
+  "poke": { "rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Solarion's Fire is a long skillshot line with a slow and an explosion with Blaze of Glory, giving some poke." },
+  "heal_blunted": 3,
+  "note": "Brands plus Burn the Impure give percent health bursts, Molten Armor adds steady AoE and self healing against heroes. Wrath of the Angiris deals 250 plus 20 percent per brand with a stun."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 3,
+  "siege": 2,
+  "teamfight": 3,
+  "engage": 3,
+  "peel": 2,
+  "mobility": 3,
+  "self_sustain": 4,
+  "survivability": 3,
+  "objective": 2,
+  "global_presence": 3,
+  "solo_lane": 3
+ },
+ "cc": { "hard": ["stun", "root"], "soft": ["slow"], "reliability": 3 },
+ "good_into": [
+  { "tag": "squishy_backline", "why": "Celestial Charge stuns and Valorous Pursuit teleports to a marked hero, and Wrath of the Angiris lifts a single target out of the fight." },
+  { "tag": "high_sustain_healer", "why": "Percent health from Burn the Impure and Wrath of the Angiris ignores healing, and Battle Hunger boosts his own." },
+  { "tag": "kiter", "why": "Solarion's Fire slows 15 percent more with Consuming Flame and Valorous Pursuit teleports to marked targets." },
+  { "tag": "poke_comp", "why": "Molten Armor healing and Angelic Armaments shields absorb chip." }
+ ],
+ "bad_into": [
+  { "tag": "cc_heavy", "why": "Celestial Charge and Wrath are windups that are easily interrupted, and Impervious only arrives at level 20." },
+  { "tag": "burst_dive", "why": "Self sustain through Molten Armor is gradual and he can be killed before using his shields." },
+  { "tag": "tanky_frontline", "why": "Without strong armor penetration he deals modest damage into heavy fronts." },
+  { "tag": "stealth", "why": "Molten Armor and marks need visible targets." }
+ ],
+ "wants_from_team": [
+  "Teammates who can follow Celestial Charge stuns",
+  "Healer or peel for his mid fight shields",
+  "Vision to select picks with Valorous Brand"
+ ],
+ "gives_team": [
+  "Stun and pick potential with Celestial Charge",
+  "Shield from Angelic Armaments and Heavenly Host",
+  "Armor reduction on marked targets",
+  "Strong solo laning"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Low win rate in measured data",
+  "Mana intensive",
+  "Windups are interruptible",
+  "Complex combo"
+ ],
+ "evidence": [
+  "Valorous Brand, Celestial Charge, Solarion's Fire, Molten Armor mechanics as recalled from game knowledge",
+  "Talent text: Wrath of the Angiris, Angelic Armaments, Valorous Pursuit, Heavenly Host",
+  "Measured: win rate 0.465, hero damage 2065, damage taken 3278, 20.8 seconds of CC applied per game"
+ ],
+ "confidence": "low",
+ "unsure": ["role", "ratings", "damage.style", "cc.reliability"]
+}

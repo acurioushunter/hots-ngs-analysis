@@ -1,0 +1,38 @@
+{
+ "hero": "Tychus",
+ "slug": "tychus",
+ "role": "Ranged Assassin",
+ "attack": {"type": "ranged", "range": "short", "autos_matter": 4, "note": "Minigun gives an attack speed of 4 per second and the active adds percent max health damage, but he cannot stutter step and has low range for the class. Overkill is a channeled ability that does most of his moving damage."},
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "percent_health", "single_target"],
+  "poke": {"rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Quarterback with Titan Grenade gives Frag Grenade poke and Spray n Pray extends Overkill, but base range is short and a knockback grenade is a cooldown, not constant poke."},
+  "heal_blunted": 0,
+  "note": "Minigun adds 2.5 percent of max health per hit for 3 seconds and Sizzlin Attacks and Titan Grenade stack more percent effects, so he melts tanks and high health heroes through healing. Overkill and Minigun are interruptible by stuns, silences and blinds, which is his main way of being stopped."
+ },
+ "healing": null,
+ "ratings": {"wave_clear": 3, "camp_clear": 3, "siege": 4, "teamfight": 4, "engage": 1, "peel": 3, "mobility": 3, "self_sustain": 2, "survivability": 2, "objective": 4, "global_presence": 1, "solo_lane": 3},
+ "cc": {"hard": ["knockback"], "soft": ["slow"], "reliability": 3},
+ "good_into": [
+  {"tag": "tanky_frontline", "why": "Minigun, Sizzlin Attacks and Titan Grenade deal percent of max health damage, so large health pools such as Cho, Diablo and Stitches take the most."},
+  {"tag": "high_sustain_healer", "why": "Percent health damage during Minigun ignores how much a healer heals per second; he kills through healing."},
+  {"tag": "melee_heavy", "why": "Frag Grenade knocks melee heroes away, Run and Gun kites, and Drakken Laser Drill zones them while he kites."},
+  {"tag": "structures", "why": "Odin and Laser Drill give strong siege and he can kill bosses and forts quickly; measured siege is 4943 per minute, above the league median."},
+  {"tag": "immobile", "why": "Overkill locks on for 4 seconds and Minigun needs targets that stay in range, so slow heroes take the full channel."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "Stuns and silences cancel Overkill and burn Minigun duration, the two main damage sources; Relentless Soldier only partly helps."},
+  {"tag": "kiter", "why": "He has short range, so high range or mobile heroes simply stay outside his Minigun and Overkill."},
+  {"tag": "ranged_heavy", "why": "Other ranged assassins outrange him and trade favorably; the guide calls trading with ranged assassins dangerous."},
+  {"tag": "burst_dive", "why": "He has one dash and low health, and a dive that stuns him removes his channels."},
+  {"tag": "squishy_backline", "why": "Against low health targets Minigun percent damage is worth less and The Bigger They Are stops affecting targets under 30 percent."}
+ ],
+ "wants_from_team": ["Hard CC or displacement to hold targets in Minigun", "A disruptive frontline that stops focus on him", "A healer to bridge his low self sustain", "Anti tank targets on the enemy team"],
+ "gives_team": ["Anti tank damage that ignores healing", "Knockback to interrupt channels and peel", "Siege and boss pressure from Odin or Laser Drill", "Zoning with Drakken Laser Drill"],
+ "power_spike": "level_10",
+ "weaknesses": ["Overkill and Minigun are interrupted by CC", "Short range for a ranged assassin", "Cannot stutter step", "Low self sustain without talents"],
+ "evidence": ["Minigun, Overkill, Frag Grenade, Run and Gun, Commandeer Odin, Drakken Laser Drill text", "Sizzlin Attacks, Titan Grenade, The Bigger They Are talent text", "Icy Veins role: one of the best anti tank heroes", "Measured NGS block: 2912 hero damage per minute, 4943 siege, 0.5 seconds of enemy CC"],
+ "confidence": "high",
+ "unsure": []
+}

@@ -1,0 +1,45 @@
+{
+ "hero": "Auriel",
+ "slug": "auriel",
+ "role": "Healer",
+ "attack": {"type": "ranged", "range": "medium", "autos_matter": 3, "note": "Her healing is paid for by damage. Bestow Hope stores 70% of her damage to Heroes as Energy (Energized Cord raises basic attacks to 130%) plus 30% of her chosen ally's damage, so every auto and Sacred Sweep is fuel."},
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["aoe", "sustained", "zone"],
+  "poke": {"rating": 2, "kind": "auto", "dodgeable": 2, "note": "Sacred Sweep is a short cone with 40 plus a center hit for 160 more, and Searing Light adds damage to Ray of Heaven. She poke by autos to build Energy more than by skillshots."},
+  "heal_blunted": 3,
+  "note": "Measured 1167 damage per minute, high for a healer, and 2176 siege. Sacred Sweep clears waves and fills Energy. Detainment Strike deals a stun plus bonus damage into terrain, a burst contribution on a single target."
+ },
+ "healing": {
+  "style": ["aoe", "burst", "revive"],
+  "sustain": 4,
+  "burst_heal": 3,
+  "aoe": 4,
+  "range": "medium",
+  "mana_pressure": 0,
+  "positioning_risk": 3,
+  "note": "She uses Energy, not Mana, so she has no Mana problem early. Ray of Heaven heals everyone in the area for the full amount of stored Energy but is on a 4 second cooldown and weak when she is not damaging anything (out of combat). Crystal Aegis and Resurrect are her Heroic tools and both can swing a fight."
+ },
+ "ratings": {"wave_clear": 4, "camp_clear": 3, "siege": 3, "teamfight": 4, "engage": 1, "peel": 4, "mobility": 0, "self_sustain": 2, "survivability": 2, "objective": 3, "global_presence": 0, "solo_lane": 2},
+ "cc": {"hard": ["knockback", "stun"], "soft": ["slow", "blind"], "reliability": 3},
+ "good_into": [
+  {"tag": "melee_heavy", "why": "Detainment Strike knocks a diver off and Blinding Flash on the center of Sacred Sweep blinds melee auto attackers for 2 seconds. Heavy Burden slows them. Melee heroes stay in range of her Sweep and fill her Energy."},
+  {"tag": "assassin", "why": "Knockback with stun on terrain, Crystal Aegis stasis for 2 seconds and Piercing Lash peel an assassin well. She is better at peeling than most healers but cannot cleanse a stun on an ally."},
+  {"tag": "immobile", "why": "Detainment Strike into terrain stuns and Converging Force pulls heroes into the Sweep center for a 160 hit, so slow heroes take burst damage from her while she fills Energy."},
+  {"tag": "tanky_frontline", "why": "Bestow Hope converts damage into Energy, and fights into tanks are long and give her the most hits on Heroes. Healing then scales with the whole team's damage done, not with her own mana pool."}
+ ],
+ "bad_into": [
+  {"tag": "poke_comp", "why": "Her Energy comes from damage dealt, so a team that out pokes hers leaves her with no Energy to heal with. The guide says she does not do well against poke, especially when behind."},
+  {"tag": "burst_dive", "why": "Ray of Heaven has a 4 second cooldown and cannot undo burst, and she has no mobility, no cleanse and no unstoppable. Diving onto Auriel stops all her healing at once."},
+  {"tag": "cc_heavy", "why": "Her Heroic abilities leave the target exploitable (Crystal Aegis stasis is easy to follow up on, Resurrect is a long channel) and a chain stun on the Bestow Hope ally cuts her Energy flow."},
+  {"tag": "kiter", "why": "Detainment Strike and Sacred Sweep need the enemy near or against terrain, and kiters that stay out of range make her damage (and Energy) low."}
+ ],
+ "wants_from_team": ["A sustained ranged damage dealer to carry Bestow Hope (Valla, Hanzo, Raynor, Lunara)", "Heroes who can push enemies into walls or create terrain (Diablo, Nazeebo)", "A flanker or double soaker so she can focus a side lane", "An engaging frontline, because she has no engage herself"],
+ "gives_team": ["Large area healing that grows with team damage", "Strong peel: knockback, stun into terrain, blind, stasis", "Wave clear and no Mana trouble, so good early on Braxis style maps", "Resurrect to turn a lost trade into an even one"],
+ "power_spike": "mid",
+ "weaknesses": ["Healing is weak out of combat", "No mobility and no cleanse", "Poke and burst both break her", "Her Heroic abilities telegraph the target and can be followed up on"],
+ "evidence": ["Bestow Hope, Sacred Sweep, Ray of Heaven, Detainment Strike, Resurrect, Crystal Aegis text", "Energized Cord, Searing Light, Reservoir of Hope, Blinding Flash, Shield of Hope talents", "Icy Veins guide: weak to poke, low out of combat healing, Heroic abilities exploitable", "MEASURED block: 1167 damage per minute, 3604 healing per minute, 2176 siege, win rate 0.544, 722 games"],
+ "confidence": "medium",
+ "unsure": ["ratings.solo_lane", "good_into tanky_frontline", "ratings.siege"]
+}

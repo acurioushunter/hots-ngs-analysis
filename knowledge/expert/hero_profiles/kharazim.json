@@ -1,0 +1,45 @@
+{
+ "hero": "Kharazim",
+ "slug": "kharazim",
+ "role": "Healer",
+ "attack": {"type": "melee", "range": "melee", "autos_matter": 5, "note": "Everything runs on basic attack cadence: every third auto triggers his Level 1 trait (Iron Fists, Transcendence or Insight), Deadly Reach doubles Attack Speed and range for a burst, and Way of the Hundred Fists is six autos. Blinds and knockbacks shut him down."},
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["single_target", "sustained", "percent_health"],
+  "poke": {"rating": 1, "kind": "auto", "dodgeable": 1, "note": "Deadly Reach gives 2 seconds of doubled range, but this is a short burst of melee autos, not poke."},
+  "heal_blunted": 2,
+  "note": "He is closer to a melee assassin that heals. Measured 1578 hero damage per minute (well below the 2060 league median but very high for a healer) and 2385 damage taken. Iron Fists doubles every third auto and Seven-Sided Strike hits for 7% of maximum Health seven times, which goes through healing."
+ },
+ "healing": {
+  "style": ["aoe", "mobility_buff", "revive", "shield"],
+  "sustain": 2,
+  "burst_heal": 3,
+  "aoe": 3,
+  "range": "short",
+  "mana_pressure": 3,
+  "positioning_risk": 4,
+  "note": "Breath of Heaven is 295 to everyone nearby for 65 Mana, so Mana runs out. His healing depends on the build: Divine Palm (1200 if the ally takes fatal damage) is his big save, Spirit Ally and Storm Shield add area healing. He has the lowest healing (2721 per minute measured) among healers in this group."
+ },
+ "ratings": {"wave_clear": 1, "camp_clear": 3, "siege": 2, "teamfight": 3, "engage": 3, "peel": 3, "mobility": 5, "self_sustain": 2, "survivability": 3, "objective": 2, "global_presence": 0, "solo_lane": 2},
+ "cc": {"hard": [], "soft": [], "reliability": 0},
+ "good_into": [
+  {"tag": "squishy_backline", "why": "Radiant Dash reaches any target, Deadly Reach plus Iron Fists kills a low Health hero quickly, and Seven-Sided Strike makes him invulnerable while hitting the highest Health nearby hero."},
+  {"tag": "tanky_frontline", "why": "Seven-Sided Strike deals 7% of maximum Health per hit (more with Transgression), so his best damage tool is better against big Health pools and ignores armor and healing."},
+  {"tag": "cc_heavy", "why": "Cleansing Touch makes an ally Unstoppable for 1 second with each dash, Sixth Sense gives 75 armor while Stunned or Rooted, and the guide calls his cleanse one of the best in the game."},
+  {"tag": "ranged_heavy", "why": "Earth Ally gives allied heroes 50% less damage from Heroic basic attacks, so teams of basic attackers get weaker around him. Dash catches ranged heroes too."}
+ ],
+ "bad_into": [
+  {"tag": "poke_comp", "why": "Breath of Heaven needs him close and costs 65 Mana, so a poke team that never commits drains his Mana while his damage needs melee contact. He has no ranged way to fight back."},
+  {"tag": "burst_dive", "why": "He has low sustain (2721 healing per minute) and Divine Palm only saves one ally at a time. A team that bursts two targets or him leaves him without answers."},
+  {"tag": "kiter", "why": "Dash and Deadly Reach catch kiters but his build gives no reliable CC, so a kiter who keeps spacing wastes his cooldowns and Mana."},
+  {"tag": "melee_heavy", "why": "Blinds and knockbacks (Johanna, Auriel) shut down his autos and Deadly Reach, and the guide names peel heroes like Uther and Medivh as hard matchups. This is a counter to the kit, listed under the closest tag."}
+ ],
+ "wants_from_team": ["A mobile frontline that profits from Breath of Heaven speed and Cleansing Touch", "Displacement CC (Garrosh, E.T.C.) to hold a target for Seven-Sided Strike", "Waveclear from teammates, since he has none", "A second healer or a team with few backliners to keep alive"],
+ "gives_team": ["Fast target access and chase with Radiant Dash", "A cleanse and Unstoppable through Cleansing Touch", "A save with Divine Palm or Storm Shield", "Damage from a healer slot, especially on single targets"],
+ "power_spike": "level_10",
+ "weaknesses": ["Lowest healing of this group", "No crowd control", "No wave clear", "Blinds, knockbacks and peel heroes shut him down", "High skill cap and weak when his team has too many backliners", "Measured win rate 0.454"],
+ "evidence": ["Radiant Dash, Breath of Heaven, Deadly Reach, Seven-Sided Strike, Divine Palm text", "Iron Fists, Transcendence, Cleansing Touch, Way of the Hundred Fists, Storm Shield, Earth Ally talents", "Icy Veins guide: hybrid melee Assassin and Healer, no CC, weak against blinds", "MEASURED block: 1578 damage per minute, 2721 healing per minute, 2385 damage taken, 0.7 seconds enemy CC, 216 games, win rate 0.454"],
+ "confidence": "medium",
+ "unsure": ["role", "damage.carry", "bad_into melee_heavy", "healing.sustain"]
+}

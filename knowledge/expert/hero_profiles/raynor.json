@@ -1,0 +1,90 @@
+{
+ "hero": "Raynor",
+ "slug": "raynor",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 5,
+  "note": "He is an auto attack carry. Give 'Em Some Pepper makes every fourth basic attack hit for 125 percent more with splash, and almost every talent buffs basic attacks. He needs to stutter step between shots."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "single_target", "siege"],
+  "poke": {
+   "rating": 3,
+   "kind": "auto",
+   "dodgeable": 1,
+   "note": "Auto attacks and Penetrating Round are not dodgeable in the normal sense. Penetrating Round is a line that knocks back and slows, and it has a 9 second cooldown."
+  },
+  "heal_blunted": 3,
+  "note": "Steady auto damage with a burst on every fourth attack. Healers answer it with normal healing, but Bounty Hunter adds 3 percent of maximum Health and Dusk Wing shreds armor, which beats healing on tanks. Hyperion pushes and zones rather than kills. The measured 2420 hero damage per minute is just above league median and the win rate of 0.447 over 826 games is low, so he is a common but average carry."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 4,
+  "siege": 4,
+  "teamfight": 3,
+  "engage": 0,
+  "peel": 3,
+  "mobility": 1,
+  "self_sustain": 4,
+  "survivability": 3,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": ["knockback"],
+  "soft": ["slow"],
+  "reliability": 3
+ },
+ "good_into": [
+  {"tag": "melee_heavy", "why": "Penetrating Round knocks back and slows a line of melee heroes and cancels leaps like Avenging Wrath or Jet Propulsion, which the guide mentions."},
+  {"tag": "tanky_frontline", "why": "Bounty Hunter deals 3 percent of maximum Health and Dusk Wing banshee removes up to 30 Armor, so tanks do not tank him."},
+  {"tag": "structures", "why": "Inspire speeds up minions and mercenaries, Exterminator deals 125 percent more to minions, and Hyperion fires Yamato Cannon for 794 at a structure."},
+  {"tag": "low_sustain_healer", "why": "Sustained auto damage with Raynor's Raider banshee on one target outlasts a single target healer's mana."},
+  {"tag": "split_push", "why": "Measured 5.3 merc camps per game, the highest in the set, and Adrenaline Rush with Sustaining Rounds keeps him in lane."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "The guide notes he has no gap closer and lacks any escape except knockback and Adrenaline Rush, which cannot be used at full Health."},
+  {"tag": "assassin", "why": "Assassins close the gap and kill him inside the 4 second window of one rotation before Penetrating Round comes back."},
+  {"tag": "cc_heavy", "why": "Stuns stop his stutter step and Adrenaline Rush, and he has Unstoppable only from Raiders Roll at level 20."},
+  {"tag": "kiter", "why": "A kiter with equal or longer range keeps out of Raynor medium range, and slow Penetrating Round only slows for 2 seconds."},
+  {"tag": "mobile", "why": "Mobile heroes dodge the line of Penetrating Round and he has no way to follow them."}
+ ],
+ "wants_from_team": [
+  "Peel and a frontline to protect him while he auto attacks",
+  "Crowd control so his slows and Bounty Hunter land consistently",
+  "Lane partners so Inspire buffs minions and mercenaries",
+  "Map objectives that Hyperion can zone"
+ ],
+ "gives_team": [
+  "Reliable sustained damage and wave clear",
+  "Mercenary camp clears and siege push",
+  "Knockback to peel melee",
+  "Hyperion for objective pressure and Execute Orders for a late revenge"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "No mobility or escape",
+  "Low win rate in this data",
+  "Weak at engaging",
+  "Basic attack reliance makes him easy to kite and burst"
+ ],
+ "evidence": [
+  "Give 'Em Some Pepper",
+  "Penetrating Round",
+  "Inspire",
+  "Adrenaline Rush",
+  "Hyperion",
+  "Raynor's Raider",
+  "Bounty Hunter",
+  "Dusk Wing",
+  "MEASURED block: hero damage 2420 per minute, 5.3 camps per game, win rate 0.447 over 826 games"
+ ],
+ "confidence": "high",
+ "unsure": ["ratings.teamfight"]
+}

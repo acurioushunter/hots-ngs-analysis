@@ -1,0 +1,85 @@
+{
+  "hero": "Qhira",
+  "slug": "qhira",
+  "role": "Melee Assassin",
+  "attack": {
+    "type": "melee",
+    "range": "short",
+    "autos_matter": 3,
+    "note": "Basic attacks and every ability apply Blood Rage's stackable bleed, and Finishing Touch, The Hunted and Siphoning Link make autos a real damage and heal source. Carnage is a short range piercing line so she stays close to targets."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": false,
+    "style": ["dot", "sustained", "execute"],
+    "poke": {
+      "rating": 1,
+      "kind": "dot",
+      "dodgeable": 3,
+      "note": "Carnage and Grappling Hook apply bleed from a short distance but she wants contact; the bleed itself is applied by landing slow skillshots."
+    },
+    "heal_blunted": 4,
+    "note": "Most damage is a stacking bleed (28 over 4 seconds, 5 stacks, with a permanent quest bonus) that is refreshed on every hit. Enemy healing can offset it, but she spreads bleed across several heroes and Final Strike (410, plus 25 percent under 50 percent health) and Fatal Wounds finish low targets. Blood Rage also heals her in proportion to the number of bled heroes."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 1,
+    "camp_clear": 2,
+    "siege": 2,
+    "teamfight": 3,
+    "engage": 4,
+    "peel": 1,
+    "mobility": 4,
+    "self_sustain": 4,
+    "survivability": 3,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 4
+  },
+  "cc": {
+    "hard": ["stun", "knockback"],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "squishy_backline", "why": "Grappling Hook and Revolving Sweep reach a flanked target and Final Strike executes low health heroes." },
+    { "tag": "tanky_frontline", "why": "Bleed ignores part of the armor math and Lingering Ailment shreds 25 armor, so she out damages tanks over time." },
+    { "tag": "melee_heavy", "why": "Upstage evades heroic basic attacks and Revolving Sweep makes her immune to damage, so she wins duels." },
+    { "tag": "low_sustain_healer", "why": "Single target healers cannot out heal the stacked, refreshed bleed spread across several heroes." }
+  ],
+  "bad_into": [
+    { "tag": "cc_heavy", "why": "Every ability except Blood Rage can be interrupted by stuns, silences or displacement, and Unrelenting Strikes is stopped by them too." },
+    { "tag": "kiter", "why": "Carnage and Revolving Sweep are slow skillshots, so mobile ranged heroes like Tracer avoid the whole kit." },
+    { "tag": "high_sustain_healer", "why": "AoE healers (Brightwing, Lucio, Malfurion) undo spread bleed, and she lacks burst to finish through that." },
+    { "tag": "stealth", "why": "Needs vision for a skillshot kit and for No Sanctuary reveals, so stealth heroes make it hard to stack bleeds." }
+  ],
+  "wants_from_team": [
+    "Hard CC from a tank to land her skillshots",
+    "A single target healer or damage buffer",
+    "Terrain and open maps with flank routes",
+    "Wave clear from the team since hers is weak"
+  ],
+  "gives_team": [
+    "A flank and execute threat",
+    "Strong solo lane pressure",
+    "Spread damage over time on several enemies",
+    "A 1.5 second stun with Unrelenting Strikes in the right comp"
+  ],
+  "power_spike": "late",
+  "weaknesses": [
+    "Poor waveclear",
+    "Depends on terrain for Grappling Hook",
+    "Susceptible to stuns and silences",
+    "High death count and a steep learning curve"
+  ],
+  "evidence": [
+    "Blood Rage bleed and heal",
+    "Grappling Hook, Carnage, Revolving Sweep",
+    "Final Strike and Unrelenting Strikes heroics",
+    "Healmonger, Upstage, Lingering Ailment, Utility Belt talents",
+    "Icy Veins guide: strong damage over time, bad waveclear, susceptible to stuns",
+    "Measured: about 2442 hero damage, 3318 siege, 2651 damage taken per minute, 3.3 deaths per game, win rate 0.487 over 298 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["damage.heal_blunted", "power_spike"]
+}

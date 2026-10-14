@@ -1,0 +1,100 @@
+{
+  "hero": "Abathur",
+  "slug": "abathur",
+  "role": "Support",
+  "attack": {
+    "type": "ranged",
+    "range": "short",
+    "autos_matter": 0,
+    "note": "His own basic attack is negligible (Slapathur is a stun talent). Real damage comes through the Symbiote host's attacks and Stab, Spike Burst, Toxic Nest and Locusts."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["siege", "aoe", "sustained"],
+    "poke": {
+      "rating": 2,
+      "kind": "zone",
+      "dodgeable": 3,
+      "note": "Toxic Nests (153 damage, 90 second lifetime, 3 charges) and Stab (119, two charges) give mild poke. Nests are hidden mines placed on rotation paths, not a damage source."
+    },
+    "heal_blunted": 4,
+    "note": "His own team damage is small chip through Stab and Spike Burst, plus the clone from Ultimate Evolution (about 20 seconds, 20 percent more damage). The huge siege number (6619 per minute) comes from Locusts, the Monstrosity and soaking, not from killing heroes."
+  },
+  "healing": {
+    "style": ["shield", "hot"],
+    "sustain": 2,
+    "burst_heal": 1,
+    "aoe": 2,
+    "range": "short",
+    "mana_pressure": 0,
+    "positioning_risk": 1,
+    "note": "Not a healer for the draft. Carapace is a 150 shield with 22 healing per second for 6 seconds on the Symbiote host, and Soma Transference heals per enemy hero hit by Spike Burst. Networked Carapace and Hivemind spread it. It has no mana cost and a 6 second cooldown."
+  },
+  "ratings": {
+    "wave_clear": 4,
+    "camp_clear": 3,
+    "siege": 5,
+    "teamfight": 3,
+    "engage": 1,
+    "peel": 2,
+    "mobility": 3,
+    "self_sustain": 1,
+    "survivability": 5,
+    "objective": 3,
+    "global_presence": 5,
+    "solo_lane": 3
+  },
+  "cc": {
+    "hard": ["stun"],
+    "soft": ["slow"],
+    "reliability": 1
+  },
+  "good_into": [
+    { "tag": "stealth", "why": "Toxic Nest is a hidden mine that reveals and dismounts, and Spike Burst reveals cloaked units. The guide says nests are excellent against ganking heroes that use stealth." },
+    { "tag": "immobile", "why": "Vile Nest slows by 40 percent and Envenomed Spikes slows all enemies hit, so melee hosts stick and enemy rotations are delayed. Heroes without a dash cannot answer a Symbiote assassin." },
+    { "tag": "objective_race", "why": "Deep Tunnel, Toxic Nest vision and Calldown: MULE (repairs structures, strong on Sky Temple) let him contest objectives while soaking. Locusts force a response on the other lane." }
+  ],
+  "bad_into": [
+    { "tag": "assassin", "why": "Zeratul, Medivh, Genji and Nova can hunt his body in a lane. His body is extremely fragile if found, and Deep Tunnel needs a 3 second channel that can be interrupted." },
+    { "tag": "split_push", "why": "The guide names Sylvanas, Zarya and Sgt. Hammer: heroes that push down a lane as four and have strong wave clear punish him. His whole plan is to be in more places than the enemy." },
+    { "tag": "burst_dive", "why": "Symbiote is cancelled if the host dies or he is stunned, so a dive on the host removes everything he provides. Spike Burst and Stab are short ranged." },
+    { "tag": "kiter", "why": "Stab and Spike Burst are short range and need a melee host. A kiter keeps the host out of range and Carapace is wasted." }
+  ],
+  "wants_from_team": [
+    "melee assassins or bruisers as Symbiote hosts (Illidan, Greymane, Genji)",
+    "a team that is comfortable playing a man down in fights",
+    "a team that can push as four while he soaks",
+    "a map with several lanes and frequent objectives"
+  ],
+  "gives_team": [
+    "huge experience soak from several lanes",
+    "free shield and heal on the host",
+    "map wide vision and lane pressure",
+    "Ultimate Evolution clone"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "weak early game",
+    "cannot solo a lane",
+    "body is very fragile if found",
+    "very map dependent",
+    "team must adapt to a man down style"
+  ],
+  "evidence": [
+    "Symbiote",
+    "Toxic Nest",
+    "Locust Strain",
+    "Deep Tunnel",
+    "Carapace",
+    "Spike Burst",
+    "Ultimate Evolution",
+    "Evolve Monstrosity",
+    "Hivemind",
+    "Calldown: MULE",
+    "Icy Veins overview and counters",
+    "measured: siege 6619 per minute, xp contribution 1019, damage taken 45, deaths 0.3, hero damage 2178, win rate 0.427, 131 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["damage.heal_blunted", "ratings.teamfight", "healing.sustain", "power_spike"]
+}

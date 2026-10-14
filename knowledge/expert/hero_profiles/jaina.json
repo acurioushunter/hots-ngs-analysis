@@ -1,0 +1,89 @@
+{
+  "hero": "Jaina",
+  "slug": "jaina",
+  "role": "Ranged Assassin",
+  "attack": {
+    "type": "ranged",
+    "range": "medium",
+    "autos_matter": 1,
+    "note": "Almost all damage is Frostbolt, Blizzard and Cone of Cold. Only Icefury Wand builds lean on basic attacks, and Cone of Cold has the shortest range of her kit."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": true,
+    "style": ["burst", "aoe", "zone"],
+    "poke": {
+      "rating": 3,
+      "kind": "skillshot",
+      "dodgeable": 3,
+      "note": "Frostbolt is a four second cooldown projectile that slows, so poke comes in bursts rather than constantly. Blizzard is delayed and easy to walk out of unless the target is rooted or slowed."
+    },
+    "heal_blunted": 1,
+    "note": "Frostbite makes Chilled targets take 50 percent more ability damage, so a Frostbolt, Cone of Cold and Blizzard chain is a short burst that kills through most heals. Measured 2372 hero damage per minute is below other assassins because it comes in bursts, with 5075 siege, which is above the median."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 5,
+    "camp_clear": 4,
+    "siege": 4,
+    "teamfight": 4,
+    "engage": 2,
+    "peel": 3,
+    "mobility": 1,
+    "self_sustain": 1,
+    "survivability": 2,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 4
+  },
+  "cc": {
+    "hard": ["root"],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "melee_heavy", "why": "Every ability chills, so melee heroes are slowed, and Numbing Blast with Ice Floes and Ring of Frost roots them in range of her team." },
+    { "tag": "immobile", "why": "Blizzard waves are delayed and Ring of Frost is a circle, both of which hit heroes that cannot step out of them." },
+    { "tag": "squishy_backline", "why": "Chilled burst of Cone of Cold (220) and Blizzard with Northern Exposure armor shred kills fragile targets that a team has caught." },
+    { "tag": "kiter", "why": "Every ability chills, so a hero that tries to kite or run is slowed 25 percent, and Blizzard waves cast along the slowed path land." }
+  ],
+  "bad_into": [
+    { "tag": "assassin", "why": "She has almost no mobility and only Ice Block (after a 12000 damage quest) or Ice Blink at level 20 to survive a dive." },
+    { "tag": "burst_dive", "why": "Jaina is fragile and needs her whole combo, so one fast jump on her ends the fight before her cooldowns are used." },
+    { "tag": "mobile", "why": "Blizzard and Ring of Frost are delayed, so fast heroes simply walk out of them." },
+    { "tag": "ranged_heavy", "why": "Several long range heroes such as Junkrat or Hanzo outrange her Frostbolt, and Icy Veins says Winter's Reach is needed to pressure them." }
+  ],
+  "wants_from_team": [
+    "a tank that peels and sets up crowd control for Blizzard and Ring of Frost",
+    "allied roots, stuns or pulls to let delayed abilities land",
+    "a healer, since she has only one short invulnerability",
+    "teammates who follow her burst, because Frostbite amplifies all of their ability damage"
+  ],
+  "gives_team": [
+    "wave clear that frees teammates to rotate",
+    "area slow on every ability that helps allies catch targets",
+    "Northern Exposure armor reduction that raises team burst",
+    "Ring of Frost root that sets up allied combos"
+  ],
+  "power_spike": "mid",
+  "weaknesses": [
+    "almost every ability can be dodged or blocked",
+    "very low mobility",
+    "her best defense depends on a 12000 damage quest",
+    "long cooldowns must be managed carefully"
+  ],
+  "evidence": [
+    "Frostbite",
+    "Frostbolt",
+    "Blizzard",
+    "Cone of Cold",
+    "Ring of Frost",
+    "Summon Water Elemental",
+    "Numbing Blast",
+    "Northern Exposure",
+    "Icy Veins guide counters text",
+    "measured damage 2372 per minute and siege 5075 per minute"
+  ],
+  "confidence": "high",
+  "unsure": ["power_spike"]
+}

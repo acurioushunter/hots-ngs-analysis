@@ -1,0 +1,59 @@
+{
+ "hero": "Yrel",
+ "slug": "yrel",
+ "role": "Bruiser",
+ "attack": {
+  "type": "melee",
+  "range": "short",
+  "autos_matter": 2,
+  "note": "Her damage comes from three charged basic abilities (Vindication, Righteous Hammer, Avenging Wrath). Basic attacks matter only through Holy Wrath, Maraad's Insight and between casts."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["aoe", "sustained", "percent_health"],
+  "poke": { "rating": 1, "kind": "none", "dodgeable": 4, "note": "Avenging Wrath leaps 260 damage with a slow after a charge, Vindication is an AoE around her. Every ability has a wind up and she slows 25 percent while charging, so enemies avoid them easily." },
+  "heal_blunted": 2,
+  "note": "Moderate AoE damage on 6 second cooldowns plus Templar's Verdict (6 percent max health and armor shred). Her real strength is survivability: Vindication heals, Ardent Defender converts damage into healing. Measured hero damage 1569 per minute is under the median and deaths 1.7 per game is the lowest of this set, so she is a durable controller, not a damage carry."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 1,
+  "siege": 4,
+  "teamfight": 4,
+  "engage": 3,
+  "peel": 4,
+  "mobility": 3,
+  "self_sustain": 4,
+  "survivability": 4,
+  "objective": 4,
+  "global_presence": 1,
+  "solo_lane": 4
+ },
+ "cc": {
+  "hard": ["stun", "knockback"],
+  "soft": ["slow"],
+  "reliability": 2,
+  "note": "Righteous Hammer knocks back and stuns only when fully charged (1 second), and the charge is interruptible. Divine Purpose makes it instant. Avenging Wrath slows 60 percent. Measured CC applied 21 seconds per game."
+ },
+ "good_into": [
+  { "tag": "poke_comp", "why": "Vindication heals on a 6 second cooldown with Light of Karabor adding healing per hero hit, Sacred Ground gives 50 armor and Ardent Defender absorbs. The guide says she does well against sustain damage." },
+  { "tag": "melee_heavy", "why": "Vindication AoE hits several melee heroes for full healing, Righteous Hammer knockback and stun peels, and Aldor Peacekeeper cuts their damage 50 percent." },
+  { "tag": "squishy_backline", "why": "Avenging Wrath charged from a bush or over terrain flanks, and Righteous Hammer shoves the target toward her team. Templar's Verdict adds armor shred." },
+  { "tag": "objective_race", "why": "Sacred Ground and Ardent Defender hold a capture point, and Divine Steed or Hand of Freedom help rotation. The guide calls her good point control." }
+ ],
+ "bad_into": [
+  { "tag": "cc_heavy", "why": "Every basic ability has a charge time that stuns and silences interrupt. Seraphim and Divine Purpose only cover one cast." },
+  { "tag": "kiter", "why": "Slowed 25 percent while charging, no ranged damage, and Avenging Wrath is short range. The guide lists kiting as a weakness." },
+  { "tag": "ranged_heavy", "why": "Several ranged heroes deny her Vindication hits and force her to use Ardent Defender early. Dauntless and Sacred Ground cut basic attack and ability damage only partly." },
+  { "tag": "mobile", "why": "Predictable engage. Heroes with escapes dodge the charged abilities and she cannot catch them without Avenging Wrath and Divine Purpose." }
+ ],
+ "wants_from_team": ["A tank or crowd control so she can land charged Hammer", "Allies who can use Aegis of Light and Gift of the Naaru", "Space to double soak on maps with two close lanes", "Peel protection while she channels"],
+ "gives_team": ["Peel and knockback for the backline", "Survivable offlane with strong wave clear", "Capture point control and structure tanking with Sacred Ground", "Armor and healing for allies through Aegis of Light and Gift of the Naaru"],
+ "power_spike": "level_10",
+ "weaknesses": ["Vulnerable to crowd control", "Predictable engage", "Weak at clearing mercenary camps", "Weak to healing reduction and armor reduction"],
+ "evidence": ["Vindication, Righteous Hammer, Avenging Wrath, Divine Purpose, Ardent Defender and Sacred Ground text", "Light of Karabor, Aldor Peacekeeper, Templar's Verdict, Seraphim talent text", "Icy Veins strengths, weaknesses and counters", "Measured NGS block: deaths 1.7 per game, seconds dead 71, hero damage 1569 per minute, win rate 0.494"],
+ "confidence": "medium",
+ "unsure": ["damage.heal_blunted", "good_into.poke_comp"]
+}

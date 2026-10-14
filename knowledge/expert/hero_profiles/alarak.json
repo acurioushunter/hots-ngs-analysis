@@ -1,0 +1,87 @@
+{
+  "hero": "Alarak",
+  "slug": "alarak",
+  "role": "Melee Assassin",
+  "attack": {
+    "type": "melee",
+    "range": "short",
+    "autos_matter": 2,
+    "note": "Damage comes mainly from abilities (Discord Strike, Lightning Surge, Telekinesis) doubled against heroes by Sadism. Autos matter only in the Overwhelming Power and Mocking Strikes builds. Lightning Surge is a targeted beam that gives some short reach poke, but he fights up close."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": false,
+    "style": ["burst", "single_target", "poke"],
+    "poke": {
+      "rating": 2,
+      "kind": "skillshot",
+      "dodgeable": 2,
+      "note": "Lightning Surge hits a target through anything in the line and heals him per hero hit. It is targeted so it is hard to dodge, but only on a 6 second cooldown with modest damage. Extended Lightning and Negatively Charged turn it into real poke, but that build is slow and rare."
+    },
+    "heal_blunted": 2,
+    "note": "The real damage is the Telekinesis, Discord Strike and Show of Force combo plus Counter-Strike or Deadly Charge, all landing inside about two seconds, so healing arrives too late to undo it. Sadism doubles ability damage against heroes and grows with takedowns, but it is all lost on death. Measured hero damage per minute (about 2770) is among the highest of any assassin here, so the kit does deliver."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 1,
+    "camp_clear": 1,
+    "siege": 1,
+    "teamfight": 4,
+    "engage": 3,
+    "peel": 2,
+    "mobility": 3,
+    "self_sustain": 3,
+    "survivability": 2,
+    "objective": 2,
+    "global_presence": 0,
+    "solo_lane": 2
+  },
+  "cc": {
+    "hard": ["silence", "slow"],
+    "soft": ["slow", "knockback"],
+    "reliability": 2
+  },
+  "good_into": [
+    { "tag": "melee_heavy", "why": "The Overwhelming Power build with Hindered Motion and Mocking Strikes punishes heroes who must stay in his reach, and Telekinesis shoves them out of position for a Discord Strike silence." },
+    { "tag": "squishy_backline", "why": "Telekinesis into Discord Strike silences a squishy target for 1.5 seconds with Sadism doubling the damage, and the silence also blocks escapes." },
+    { "tag": "mobile", "why": "Discord Strike silences, which shuts off blinks and dashes, and Dissonance adds 0.75 seconds; Telekinesis can pull an escaping hero back into the combo." },
+    { "tag": "tanky_frontline", "why": "The Combo build uses Telekinesis on tanks to drag them out of their team, and Discord Strike silences their engage abilities with a follow up from allies." }
+  ],
+  "bad_into": [
+    { "tag": "cc_heavy", "why": "Stuns and silences from Johanna or E.T.C. stop Discord Strike, Telekinesis and Counter-Strike from being cast, and a deleted combo leaves a low health assassin with no peel." },
+    { "tag": "poke_comp", "why": "He has no defensive kit between engages and Sadism is lost on death, so being chipped down before a fight is very costly." },
+    { "tag": "ranged_heavy", "why": "Without Applied Force he struggles to reach ranged heroes and the Discord Strike delay is easy for them to side step." },
+    { "tag": "kiter", "why": "Discord Strike has a 0.5 second delay and a cone shape, so heroes who retreat and dodge turn his only single target silence into a miss." }
+  ],
+  "wants_from_team": [
+    "A tank or hard CC hero to follow up on displaced targets",
+    "Allies who clear waves for him (Jaina, Raynor style)",
+    "A healer to keep him near full health for Ruthless Momentum",
+    "Burst follow up so a Telekinesis target dies"
+  ],
+  "gives_team": [
+    "Displacement that drags a target out of position into the team",
+    "A 1.5 second silence that strips an escape or a channel",
+    "Burst damage on a single priority target",
+    "Map hazard setups with Telekinesis"
+  ],
+  "power_spike": "mid",
+  "weaknesses": [
+    "Poor waveclear and cannot solo mercenary camps",
+    "Discord Strike has a delay and a narrow shape so it is hard to land",
+    "Loses all Sadism from takedown and quest sources on death",
+    "Stuns and silences deny his entire kit",
+    "Needs allies who can follow his displacement"
+  ],
+  "evidence": [
+    "Sadism: ability damage and self healing +100% against heroes",
+    "Discord Strike: 1.5 second silence after 0.5 second delay",
+    "Telekinesis: displaces himself and enemies",
+    "Counter-Strike and Deadly Charge heroics",
+    "Mocking Strikes, Overwhelming Power, Extended Lightning, Negatively Charged talents",
+    "Icy Veins guide: poor waveclear, counters Johanna, E.T.C., Medivh, Deathwing",
+    "Measured: about 2767 hero damage per minute, 2706 siege per minute, 2517 damage taken per minute, win rate 0.492 over 199 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["cc.reliability", "ratings.engage"]
+}

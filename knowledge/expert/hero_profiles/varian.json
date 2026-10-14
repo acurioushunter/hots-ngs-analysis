@@ -1,0 +1,59 @@
+{
+ "hero": "Varian",
+ "slug": "varian",
+ "role": "Tank",
+ "attack": {
+  "type": "melee",
+  "range": "short",
+  "autos_matter": 3,
+  "note": "Melee. How much autos matter depends on the level 4 heroic: Twin Blades of Fury doubles attack speed (autos 5), Colossus Smash doubles base damage (autos 4), Taunt makes him a tank where autos matter less (autos 2). Parry negates enemy basic attacks."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["burst", "single_target"],
+  "poke": { "rating": 1, "kind": "skillshot", "dodgeable": 3, "note": "Lion's Fang is a line shockwave with a slow and heal, 8 second cooldown. Lion's Maw improves it. Mostly a waveclear and engage tool, not poke." },
+  "heal_blunted": 1,
+  "note": "Heroic Strike (bonus spell damage), Charge with Juggernaut (4 percent max health) and Colossus Smash armor shred give burst, so healing does not blunt it. Measured hero damage 1556 per minute is below the median and damage taken 4419 per minute is very high, which fits the frontline tank mode the guide recommends in a draft. Siege is only 2044 per minute and win rate 0.459, so he is a weak performer in NGS."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 2,
+  "camp_clear": 2,
+  "siege": 1,
+  "teamfight": 3,
+  "engage": 4,
+  "peel": 3,
+  "mobility": 2,
+  "self_sustain": 3,
+  "survivability": 4,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": ["silence", "taunt"],
+  "soft": ["slow"],
+  "reliability": 3,
+  "note": "Taunt (level 4 heroic) silences and forces attacks for 1.25 seconds on a 16 second cooldown, usable as an interrupt. Charge slows 75 percent for 1 second and Lion's Fang slows. Measured 18 seconds of enemy CC per game, moderate. CC reliability falls if the team has no follow up burst."
+ },
+ "good_into": [
+  { "tag": "squishy_backline", "why": "Taunt silences a backliner and forces attacks, and Colossus Smash shreds armor by 25 for 3 seconds so burst on the target is increased. Banner of Dalaran adds spell power." },
+  { "tag": "high_sustain_healer", "why": "Mortal Strike cuts healing by 40 percent after Heroic Strike and Glory to the Alliance doubles up. The guide names double healer compositions and heroes with self healing such as Arthas." },
+  { "tag": "melee_heavy", "why": "Parry blocks basic attacks fully, Overpower refunds Heroic Strike on each blocked hero attack, and Demoralizing Shout cuts damage by 40 percent. Heroes with fast attacks give extra Overpower triggers." },
+  { "tag": "burst_dive", "why": "Shield Wall makes Parry full invulnerability against burst and Demoralizing Shout reduces incoming damage, though this costs his damage." }
+ ],
+ "bad_into": [
+  { "tag": "kiter", "why": "Low mobility, Charge is on 12 seconds (4 with Warbringer) and he does not reach ranged heroes. The guide names Hanzo and Garrosh style heroes for his low mobility." },
+  { "tag": "ranged_heavy", "why": "Parry only stops basic attacks. Ranged ability damage and poke go through and Taunt only holds one hero for 1.25 seconds." },
+  { "tag": "cc_heavy", "why": "His taunt, Parry and Twin Blades are all stopped by crowd control and Rehgar Purge style effects remove Taunt. Taunt is not a hard answer to stuns." },
+  { "tag": "poke_comp", "why": "No wave clear and no ranged answer. Lion's Fang heals only on a hit and he is weak before level 4 when poked in lane." }
+ ],
+ "wants_from_team": ["Burst damage to follow up Taunt and Colossus Smash", "Crowd control on the same target (Malfurion root)", "A healer so his frontline mode can last", "A draft that tells him which level 4 heroic the team needs"],
+ "gives_team": ["Flexible tank, bruiser or assassin role in draft", "Armor shred and spell power banner for the team", "Interrupt and silence with Taunt", "Healing reduction against sustain"],
+ "power_spike": "level_10",
+ "weaknesses": ["Limited mobility", "Low wave clear", "Weak before level 4", "Role depends on level 4 choice and is visible to opponents"],
+ "evidence": ["Lion's Fang, Parry, Charge, Heroic Strike, Taunt, Colossus Smash and Twin Blades of Fury text", "Overpower, Mortal Strike, Shattering Throw, Juggernaut, Glory to the Alliance talent text", "Icy Veins role in meta and counters", "Measured NGS block: damage taken 4419 per minute, hero damage 1556, siege 2044, win rate 0.459"],
+ "confidence": "medium",
+ "unsure": ["role", "damage.carry", "attack.autos_matter"]
+}

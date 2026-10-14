@@ -1,0 +1,72 @@
+{
+ "hero": "D.Va",
+ "slug": "dva",
+ "role": "Tank",
+ "attack": {
+  "type": "hybrid",
+  "range": "short",
+  "autos_matter": 3,
+  "note": "Mech Mode Fusion Cannons are a short range cone with 40 percent bonus damage up close, and Self Destruct charge builds from auto time. Pilot Mode swaps to a ranged pistol and Big Shot. Mech autos matter for charge and Rush-down."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["aoe", "burst", "siege"],
+  "poke": { "rating": 0, "kind": "none", "dodgeable": 5, "note": "No poke. Her damage is close range cannon fire and Self Destruct." },
+  "heal_blunted": 3,
+  "note": "Fusion Cannons are steady short range AoE chip. Self Destruct (400 to 1100) is her burst and can hit a clump. Defense Matrix cuts enemy hero damage by 60 percent in a field, which reduces what healers need to undo. Siege is very high at 6613 per minute."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 4,
+  "engage": 4,
+  "peel": 4,
+  "mobility": 4,
+  "self_sustain": 2,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 2,
+  "solo_lane": 3
+ },
+ "cc": { "hard": ["knockback", "stun"], "soft": ["slow"], "reliability": 3 },
+ "good_into": [
+  { "tag": "poke_comp", "why": "Defense Matrix reduces damage by 60 percent in an area and she gets a second life as a Pilot, so chip damage into her is wasted." },
+  { "tag": "ranged_heavy", "why": "Defense Matrix blocks projectile and spell damage on the team, and Boosters closes the gap on backliners." },
+  { "tag": "structures", "why": "Very high siege damage, 50 percent Self Destruct against structures, and Micro Missiles and Bunny Hop strip towers." },
+  { "tag": "squishy_backline", "why": "Boosters knocks away, Bunny Hop stomps stun on the fourth hit, and Self Destruct kills clustered squishies." }
+ ],
+ "bad_into": [
+  { "tag": "burst_dive", "why": "Mech health is a second pool but burst plus Pilot Mode leaves her without Defense Matrix and mobility for a 45 second Call Mech cooldown." },
+  { "tag": "cc_heavy", "why": "Stuns, silences and roots interrupt Boosters and Self Destruct timing, and Bunny Hop only grants Unstoppable on that heroic." },
+  { "tag": "no_healer_sustain", "why": "Her mech has no big self heal outside Liquid Cooling and Full Metal, so a team without healing cannot refill it across a long siege." },
+  { "tag": "tanky_frontline", "why": "Fusion Cannons are physical close range chip and do little against heavy armor." }
+ ],
+ "wants_from_team": [
+  "Damage dealers to turn her Defense Matrix and engage into kills",
+  "A healer to refill the mech between fights",
+  "Follow up on her Boosters knockback"
+ ],
+ "gives_team": [
+  "Defense Matrix damage reduction field for the whole team",
+  "Mobile engage and disengage with Boosters",
+  "Strong siege and wave clear",
+  "Bunny Hop or Micro Missiles as flexible heroics"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Mech and Pilot cooldown cycle leaves gaps",
+  "Low self healing",
+  "Blind and silence stop Defense Matrix tactics",
+  "Needs damage dealers to convert her setup"
+ ],
+ "evidence": [
+  "Boosters, Defense Matrix, Self Destruct, Call Mech, Big Shot abilities",
+  "Bunny Hop, Micro Missiles, Diverting Power, Aggression Matrix, Target Locked talents",
+  "Measured: win rate 0.492, siege 6613 per minute (highest of my set), damage taken 3982, 6.9 seconds of CC applied per game"
+ ],
+ "confidence": "medium",
+ "unsure": ["role", "heal_blunted"]
+}

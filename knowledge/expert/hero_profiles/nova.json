@@ -1,0 +1,88 @@
+{
+ "hero": "Nova",
+ "slug": "nova",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 3,
+  "note": "Basic attacks matter through One in the Chamber (65 percent extra after an ability) or Anti-Armor Shells (250 percent damage and armor shred), but the core is Snipe and Triple Tap, which are abilities."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["burst", "single_target", "execute"],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 4,
+   "note": "Snipe deals 230 damage from long range but is a straight projectile that dies to any body in the way and resets her stacks on a miss. Pinning Shot is unmissable but weak. Triple Tap is a locked on channel but its slow shots are blocked by structures and allies."
+  },
+  "heal_blunted": 1,
+  "note": "Her damage comes as big single target hits: Snipe stacks to 55 percent extra, Triple Tap does 3 times 372, Precision Strike 435 in an area. Healing cannot undo that, so healers do little against her except pre shielding. The measured 2627 hero damage per minute is only a bit above league median, because she spends long periods in stealth walking, which makes her an assassin with a modest damage per minute but high kill pressure (12.5 takedowns per game)."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 1,
+  "siege": 2,
+  "teamfight": 2,
+  "engage": 0,
+  "peel": 1,
+  "mobility": 1,
+  "self_sustain": 0,
+  "survivability": 1,
+  "objective": 1,
+  "global_presence": 3,
+  "solo_lane": 1
+ },
+ "cc": {
+  "hard": [],
+  "soft": ["slow"],
+  "reliability": 3
+ },
+ "good_into": [
+  {"tag": "squishy_backline", "why": "Snipe at long range from stealth plus Triple Tap or Precision Strike can delete a low Health Hero that has no way to block the line."},
+  {"tag": "immobile", "why": "Snipe is a straight projectile and Precision Strike has a 1.5 second delay, so stationary or slow targets eat every hit and keep her Precision Sniper stacks."},
+  {"tag": "high_sustain_healer", "why": "Her damage arrives in single big hits and Crippling Shot adds 20 percent damage taken, so AoE healing over time does not keep targets up."},
+  {"tag": "ranged_heavy", "why": "Fragile ranged heroes expose themselves in lane, and Permanent Cloak lets her find isolated ones and Snipe them. The guide notes the psychological pressure of a stealth pick on them."},
+  {"tag": "summons", "why": "Holo Decoy blocks or defuses summon style skillshots and traps, and Precision Strike clears minions from global range."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "She has no mobility, only Ghost Protocol, so a diver that finds her through the shimmer kills her. The guide calls her extremely weak to dive."},
+  {"tag": "assassin", "why": "Assassins with gap closers reach her faster than Pinning Shot can slow them and her Health pool is low."},
+  {"tag": "mobile", "why": "Mobile heroes dodge Snipe and each miss resets Precision Sniper stacks to zero."},
+  {"tag": "cc_heavy", "why": "Any stun interrupts the stationary Triple Tap channel and she has no unstoppable tool."},
+  {"tag": "tanky_frontline", "why": "Her single shots get blocked by a frontline, and with no wave clear she cannot do much when a team simply stands in front."}
+ ],
+ "wants_from_team": [
+  "Crowd control to make Snipe and Precision Strike land",
+  "A team that can fight while she roams and picks off isolated targets",
+  "Wave clear and camp help because she has little of either",
+  "A frontline between her and enemy divers"
+ ],
+ "gives_team": [
+  "Global Precision Strike for follow up and structure finishing",
+  "Stealth pressure that makes the enemy play defensively",
+  "High single target burst to kill key backliners",
+  "Holo Decoy to block skillshots such as Hook or a trap"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "No mobility or real escape",
+  "Very weak wave and camp clear",
+  "Burst resets on a missed Snipe",
+  "Reliant on allied crowd control"
+ ],
+ "evidence": [
+  "Snipe and Precision Sniper quest",
+  "Permanent Cloak",
+  "Triple Tap",
+  "Precision Strike",
+  "Holo Decoy",
+  "Icy Veins role notes",
+  "MEASURED block: 87 games only, win rate 0.678, takedowns 12.5 per game, damage taken 965 per minute (lowest of the set)"
+ ],
+ "confidence": "medium",
+ "unsure": ["damage.poke", "ratings.teamfight"]
+}

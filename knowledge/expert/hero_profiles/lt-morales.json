@@ -1,0 +1,87 @@
+{
+  "hero": "Lt. Morales",
+  "slug": "lt-morales",
+  "role": "Healer",
+  "attack": {
+    "type": "ranged",
+    "range": "medium",
+    "autos_matter": 2,
+    "note": "Basic attacks are a side job. Caduceus Feedback gives 4 Energy per hit on Heroes and Bedside Manner adds percent health damage, so the build that uses autos wants safe space to attack."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["poke", "single_target"],
+    "poke": { "rating": 1, "kind": "skillshot", "dodgeable": 3, "note": "Displacement Grenade is a 208 damage detonation that is mostly used to knock back, with EMP Grenade adding a small dot. Measured hero damage of 706 per minute is among the lowest in the game." },
+    "heal_blunted": 3,
+    "note": "Damage is a utility by product. The kit is built around the beam, not around hurting enemies."
+  },
+  "healing": {
+    "style": ["single_target", "shield", "mobility_buff"],
+    "sustain": 3,
+    "burst_heal": 3,
+    "aoe": 1,
+    "range": "medium",
+    "mana_pressure": 4,
+    "positioning_risk": 4,
+    "note": "Healing Beam heals 172 per second on one Hero for roughly 17 seconds of Energy, then needs a rest of the same length, so output is capped by Energy. Safeguard gives 35 Armor for 3 seconds for free. Only one ally at a time, so spread damage and poke drain her Energy in about 20 seconds. Medi-Drone lets Safeguard copy 75 percent of the beam onto a second ally, which is her only real split heal."
+  },
+  "ratings": {
+    "wave_clear": 1,
+    "camp_clear": 1,
+    "siege": 1,
+    "teamfight": 3,
+    "engage": 1,
+    "peel": 3,
+    "mobility": 1,
+    "self_sustain": 1,
+    "survivability": 1,
+    "objective": 2,
+    "global_presence": 2,
+    "solo_lane": 0
+  },
+  "cc": {
+    "hard": ["knockback"],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "melee_heavy", "why": "Displacement Grenade knocks melee Heroes out of range and Blast Shield adds a 50 percent slow and personal shields, and System Shock cuts their damage by 30 percent. Short range teams stack up and give Second Opinion multi hits." },
+    { "tag": "assassin", "why": "When the assassin goes for her frontline target instead of her, Safeguard armor plus Vanadium Plating and Hospice Care Unkillable blunt single target burst, and the beam tops the target back up. If the assassin goes for her, she loses, so this is conditional." },
+    { "tag": "global_ult", "why": "Displacement Grenade interrupts any stationary channeled ability, so enemy channel heroics such as Mosh Pit are cancelled." }
+  ],
+  "bad_into": [
+    { "tag": "burst_dive", "why": "No mobility, no cleanse, no Unstoppable and only Safeguard on herself, so Zeratul or Anub'arak style dives that skip her frontline kill her and the beam breaks the moment the target leaves range." },
+    { "tag": "poke_comp", "why": "Healing Beam burns Energy every second it runs. Chip damage on several Heroes can empty the bar in about 20 seconds and she becomes close to useless for the next stretch." },
+    { "tag": "cc_heavy", "why": "She has no way to remove stuns, roots or silences. The beam is a channel and breaks when its target is displaced out of range, which punishes her against Garrosh or Junkrat type displacement." },
+    { "tag": "mobile", "why": "Kiters and dashers drag the beam target out of range and make Displacement Grenade easy to dodge, and she has no mobility to follow." }
+  ],
+  "wants_from_team": [
+    "A tank who peels multiple enemies off her, such as E.T.C.",
+    "A marksman or basic attack Hero for Stim Drone",
+    "Short fights so Energy lasts",
+    "Coordinated play if using Medivac backdoor"
+  ],
+  "gives_team": [
+    "Strong single target healing on the focused frontliner",
+    "Armor on demand with Safeguard",
+    "Attack speed and move speed with Stim Drone",
+    "Global reinforcement with Medivac Dropships"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "Energy runs out in 17 seconds of beam",
+    "No area healing",
+    "No mobility and no self peel beyond Safeguard",
+    "No cleanse and no Unstoppable",
+    "Beam breaks on displacement"
+  ],
+  "evidence": [
+    "Healing Beam, Safeguard, Displacement Grenade, Stim Drone, Medivac Dropship, Caduceus Reactor ability text",
+    "Medi-Drone, Hospice Care, Vanadium Plating, System Shock, Blast Shield, Second Opinion talent text",
+    "Icy Veins synergies and counters section",
+    "Measured block: 706 hero damage and 3528 healing per minute, 0.442 win rate over 113 games"
+  ],
+  "confidence": "high",
+  "unsure": ["power_spike", "ratings.global_presence"]
+}

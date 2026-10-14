@@ -1,0 +1,89 @@
+{
+ "hero": "Nazeebo",
+ "slug": "nazeebo",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 2,
+  "note": "Basic attacks apply Voodoo Ritual poison to minions and, after Vile Infection, to Heroes. Most of his value comes from abilities that put damage over time on a target."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["dot", "siege", "aoe"],
+  "poke": {
+   "rating": 4,
+   "kind": "dot",
+   "dodgeable": 4,
+   "note": "Plague of Toads is slow and easy to walk away from, but each toad stacks damage over 6 seconds, and it pressures anyone channeling an objective. Corpse Spiders are immune to damage and chase the target for 4 seconds, so that part is hard to avoid once the jar lands."
+  },
+  "heal_blunted": 4,
+  "note": "Almost all of his damage is spread over time: toads over 6 seconds, spiders attacking for 4 seconds, Zombie Wall ticks, Ring of Poison and Vile Infection poison. A strong sustained or AoE healer undoes a lot of it, which is why Annihilating Spirit adds a 50 percent healing reduction on Ravenous Spirit. Measured siege damage of 7013 per minute is the highest of this batch and shows his real value is pushing, waveclear and objective pressure, with hero damage only around the league median at 2761."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 3,
+  "engage": 1,
+  "peel": 2,
+  "mobility": 1,
+  "self_sustain": 2,
+  "survivability": 3,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 4
+ },
+ "cc": {
+  "hard": ["wall"],
+  "soft": ["slow"],
+  "reliability": 2
+ },
+ "good_into": [
+  {"tag": "low_sustain_healer", "why": "Toads and spiders stack chip damage that a single target burst healer cannot spread across the team, and Pandemic reduces enemy damage by up to 25 percent."},
+  {"tag": "poke_comp", "why": "Superstition gives 40 Spell Armor and his large maximum Health pool from Voodoo Ritual makes him a poor target to poke, while his own toads outrange most melee."},
+  {"tag": "structures", "why": "Gargantuan tanks tower shots and Toads of Hugeness plus Voodoo Ritual push, giving the highest siege damage per minute measured in this set."},
+  {"tag": "split_push", "why": "He clears waves faster than almost any hero with Corpse Spiders and Plague of Toads, so he wins lanes and keeps pressure with Voodoo Ritual stacks growing."},
+  {"tag": "melee_heavy", "why": "All three toads start on him, so melee heroes that walk up take burst from every toad, and Zombie Wall ring blocks melee approach paths."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "He has no mobility and Ravenous Spirit is a stationary channel, so a diver can interrupt it. Only Ice Block saves him."},
+  {"tag": "high_sustain_healer", "why": "His damage is dot based and small per tick, so AoE healers like Brightwing or Malfurion erase it, unless he picks Annihilating Spirit."},
+  {"tag": "mobile", "why": "Plague of Toads is slow and Zombie Wall is jumped or dodged by heroes with a leap, so mobile targets avoid his damage."},
+  {"tag": "cc_heavy", "why": "Stuns and silences cancel Ravenous Spirit and his Zombie Wall can be knocked back, so he loses the Heroic."},
+  {"tag": "kiter", "why": "Kiters outrange the slow toads and spiders are only active 4 seconds, so a competent kiter takes little."}
+ ],
+ "wants_from_team": [
+  "Two lanes that are safe to rotate between so he can stack Voodoo Ritual",
+  "A frontline or crowd control to hold targets for spiders and Zombie Wall",
+  "Peel against divers because he has no escape except Ice Block",
+  "A long game so Vile Infection and Big Voodoo are online"
+ ],
+ "gives_team": [
+  "Elite waveclear and siege push",
+  "Zone control with Zombie Wall and Gargantuan",
+  "Heavy objective pressure from range",
+  "Healing reduction on Ravenous Spirit with Annihilating Spirit"
+ ],
+ "power_spike": "late",
+ "weaknesses": [
+  "No mobility and a weak escape",
+  "Slow projectiles and a stationary Heroic channel",
+  "Poor on maps with two lanes or slow rotations",
+  "Low damage taken per minute shows he relies on being protected"
+ ],
+ "evidence": [
+  "Voodoo Ritual and Vile Infection quest",
+  "Corpse Spiders",
+  "Plague of Toads",
+  "Zombie Wall",
+  "Ravenous Spirit",
+  "Annihilating Spirit",
+  "Icy Veins map notes",
+  "MEASURED block: siege 7013 per minute, hero damage 2761, win rate 0.484 over 610 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["cc.reliability", "ratings.teamfight"]
+}

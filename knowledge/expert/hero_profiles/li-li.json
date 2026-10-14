@@ -1,0 +1,45 @@
+{
+ "hero": "Li Li",
+ "slug": "li-li",
+ "role": "Healer",
+ "attack": {"type": "ranged", "range": "medium", "autos_matter": 2, "note": "Autos are weak on their own but Gale Force doubles auto damage on Blinded heroes, and Cloud Serpent attacks for damage and healing every second."},
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["dot", "sustained", "aoe"],
+  "poke": {"rating": 2, "kind": "dot", "dodgeable": 1, "note": "Cloud Serpent hits automatically every second for 26 and Blinding Wind targets the two nearest enemies without aiming. Little to dodge but little damage."},
+  "heal_blunted": 4,
+  "note": "Measured 1140 damage per minute, above most healers. It is chip damage (serpent, Blinding Wind 133) plus Water Dragon 300 and a 70% slow. Healing undoes this kind of damage."
+ },
+ "healing": {
+  "style": ["single_target", "hot", "self"],
+  "sustain": 4,
+  "burst_heal": 1,
+  "aoe": 1,
+  "range": "medium",
+  "mana_pressure": 2,
+  "positioning_risk": 2,
+  "note": "Healing Brew is a 210 heal every 4 seconds on the lowest Health ally nearby (two with Two For One), cheap on Mana, slow to land. Jug of 1,000 Cups heals the lowest ally 75 every quarter second for up to 6 seconds, a lot of healing but one target at a time and interruptible. Fast Feet speeds her cooldowns when she takes damage."
+ },
+ "ratings": {"wave_clear": 1, "camp_clear": 1, "siege": 1, "teamfight": 3, "engage": 1, "peel": 3, "mobility": 2, "self_sustain": 2, "survivability": 3, "objective": 1, "global_presence": 0, "solo_lane": 0},
+ "cc": {"hard": [], "soft": ["blind", "slow"], "reliability": 3},
+ "good_into": [
+  {"tag": "melee_heavy", "why": "Blinding Wind blinds two or three heroes in range (Mass Vortex raises it to three) with no aiming, and Gale Force extends it. Melee auto damage heroes like The Butcher or Illidan do much less while blinded."},
+  {"tag": "poke_comp", "why": "Healing Brew costs 25 Mana and stays cheap, Free Drinks refunds the Mana, and Jug of 1,000 Cups can top a team off. Spread chip damage gets outhealed over a long fight."},
+  {"tag": "sustain_comp", "why": "In long drawn out fights her healing builds into a health lead, and Fast Feet makes her hard to remove without burst."},
+  {"tag": "ranged_heavy", "why": "Blinding Wind also removes the damage of basic attack carries like Valla or Raynor for 1.5 seconds and she has two or three targets at once."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "Guide: not effective against burst. Healing Brew has a travel time and 210 healing is small, so a combo kills before the heal lands."},
+  {"tag": "cc_heavy", "why": "Jug of 1,000 Cups and Water Dragon are channels that stuns interrupt, and she has no hard CC, no cleanse beyond Let's Go and Shake It Off."},
+  {"tag": "assassin", "why": "She has no real peel apart from a short blind and slow, and Safety Sprint is on a cooldown. An assassin who commits kills her, which matches the 0.357 win rate in 154 games."},
+  {"tag": "aoe_healer", "why": "Her single target healing does less than an area healer when everyone is damaged. This is a reading of the kit and not a counter in the usual sense."}
+ ],
+ "wants_from_team": ["Heroes who mitigate burst by themselves", "Reliable hard CC, since she has none", "Strong wave clear on the team, since she has almost none", "A second healer or support to use the damage build"],
+ "gives_team": ["High sustain healing over a long fight", "Blinds that cut basic attack damage", "A 70% slow with Water Dragon as engage or peel", "Cooldown speedups with Fast Feet for herself"],
+ "power_spike": "level_10",
+ "weaknesses": ["No hard crowd control", "No burst healing", "Healing prioritizes the lowest Health hero, so it is hard to control", "Poor wave clear", "Channels are interruptible", "Measured win rate 0.357 over 154 games"],
+ "evidence": ["Healing Brew, Cloud Serpent, Blinding Wind, Jug of 1,000 Cups, Water Dragon, Fast Feet text", "Gale Force, Two For One, Mass Vortex, Free Drinks, Serpent Sidekick, Mistweaver talents", "Icy Veins guide: high sustain, low burst, no hard CC, poor wave clear", "MEASURED block: 3856 healing per minute, 1140 damage per minute, 154 games, win rate 0.357, 0.2 seconds enemy CC"],
+ "confidence": "medium",
+ "unsure": ["bad_into aoe_healer", "ratings.peel", "cc.reliability"]
+}

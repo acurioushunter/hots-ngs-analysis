@@ -1,0 +1,38 @@
+{
+ "hero": "Valla",
+ "slug": "valla",
+ "role": "Ranged Assassin",
+ "attack": {"type": "ranged", "range": "long", "autos_matter": 5, "note": "Hatred stacks up to 10, each adding 8 percent attack damage and move speed. Almost all sustained value is stutter stepped basic attacks; Farflight Quiver and Manticore make that stronger."},
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "single_target", "burst"],
+  "poke": {"rating": 3, "kind": "auto", "dodgeable": 2, "note": "Basic attacks are reliable and have good range, Multishot is a wide area ability with long range, and Hungering Arrow homes. Poke is consistent but needs a clear line."},
+  "heal_blunted": 2,
+  "note": "A strong single target sustained carry with on demand area burst from Multishot and Strafe. Hatred and Manticore percent health bonus make her good at breaking large health pools, and Hungering Arrow plus Vault is a burst option. She is stopped by blinds and crowd control, not by healing."
+ },
+ "healing": null,
+ "ratings": {"wave_clear": 4, "camp_clear": 5, "siege": 4, "teamfight": 4, "engage": 1, "peel": 2, "mobility": 3, "self_sustain": 3, "survivability": 1, "objective": 3, "global_presence": 1, "solo_lane": 3},
+ "cc": {"hard": ["stun"], "soft": ["slow"], "reliability": 3},
+ "good_into": [
+  {"tag": "high_sustain_healer", "why": "Hatred ramped basic attacks, Manticore percent health and Strafe damage outpace healing, and the guide says she is very strong against healer heavy metas."},
+  {"tag": "tanky_frontline", "why": "Manticore deals 4 percent of max health and Hatred scales with sustained hits, so she melts tanks in long fights."},
+  {"tag": "melee_heavy", "why": "Frost Shot slows from Multishot, Hot Pursuit move speed and Vault let her kite melee heroes, and Rain of Vengeance stuns."},
+  {"tag": "poke_comp", "why": "Siphoning Arrows and Tempered by Discipline give sustain and she outranges many heroes with Farflight Quiver."},
+  {"tag": "squishy_backline", "why": "Hungering Arrow, Multishot and Vault combos can kill a low health target with Repeating Arrow or Acrobat."}
+ ],
+ "bad_into": [
+  {"tag": "assassin", "why": "She has little self peel, low health, and gap closers such as Zeratul pass Vault range; the guide names this explicitly."},
+  {"tag": "cc_heavy", "why": "Stuns, polymorph and blinds nullify Strafe and stop Hatred stacking, and she has no cleanse."},
+  {"tag": "burst_dive", "why": "Her health is low and Gloom or a Vault is the only defense against a coordinated dive."},
+  {"tag": "stealth", "why": "She can reveal with Multishot, but stealth plus burst heroes still reach her faster than she can respond."},
+  {"tag": "kiter", "why": "Long range heroes force her to take fights on their terms; she relies on Hatred uptime that kiting prevents."}
+ ],
+ "wants_from_team": ["A large tank to absorb attention", "Shields or peel because she has low health", "Allied CC to land Strafe and Hungering Arrow", "A healer that keeps her topped up"],
+ "gives_team": ["High single target damage that kills tanks", "Camp clear and wave clear", "On demand area damage with Multishot", "A stun with Rain of Vengeance"],
+ "power_spike": "mid",
+ "weaknesses": ["Low base health", "Needs positioning and uptime on basic attacks", "Strafe is interruptible", "Weak to gap closing assassins"],
+ "evidence": ["Hungering Arrow, Multishot, Vault, Strafe, Rain of Vengeance, Hatred text", "Manticore, Farflight Quiver, Frost Shot, Death Siphon talent text", "Icy Veins role: extremely strong against healer heavy metas", "Measured NGS block: 3006 hero damage per minute, win rate 0.496, 5.0 camps per game"],
+ "confidence": "high",
+ "unsure": ["peel"]
+}

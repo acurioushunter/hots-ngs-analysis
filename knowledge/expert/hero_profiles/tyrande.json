@@ -1,0 +1,88 @@
+{
+  "hero": "Tyrande",
+  "slug": "tyrande",
+  "role": "Healer",
+  "attack": {
+    "type": "ranged",
+    "range": "medium",
+    "autos_matter": 4,
+    "note": "Basic attacks drive her healing and her kit: every hit cuts Light of Elune cooldown by 1.5 seconds, Hunter's Mark heals her, Elune's Chosen turns attacks into healing and Ranger's Mark cuts Lunar Flare cooldown. Moonlit Arrows and Darnassian Archery add to that."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["burst", "single_target", "poke"],
+    "poke": { "rating": 3, "kind": "skillshot", "dodgeable": 3, "note": "Sentinel is a long line skillshot for 120 that reveals, Lunar Flare is a delayed stun skillshot for 150, Starfall adds area damage. Measured hero damage 1771 per minute is the highest of this group." },
+    "heal_blunted": 2,
+    "note": "Hunter's Mark lowers armor by 15 and amplifies focus fire. Empower adds percent health damage. She adds damage to her team more than she deals it herself."
+  },
+  "healing": {
+    "style": ["single_target", "burst", "mobility_buff"],
+    "sustain": 2,
+    "burst_heal": 3,
+    "aoe": 1,
+    "range": "long",
+    "mana_pressure": 2,
+    "positioning_risk": 4,
+    "note": "Light of Elune is 270 on a 2 charge, 16 second recharge that attacks and Starfall cut down. Elune's Chosen and Mark of Mending give some sustain and team heal, Shadowstalk heals 380 over 10 seconds as a team HoT with stealth. Measured healing per minute (2910) is the lowest of the group. She must attack to heal, which means standing in range."
+  },
+  "ratings": {
+    "wave_clear": 1,
+    "camp_clear": 1,
+    "siege": 2,
+    "teamfight": 3,
+    "engage": 3,
+    "peel": 3,
+    "mobility": 1,
+    "self_sustain": 2,
+    "survivability": 1,
+    "objective": 3,
+    "global_presence": 2,
+    "solo_lane": 0
+  },
+  "cc": {
+    "hard": ["stun"],
+    "soft": ["slow"],
+    "reliability": 2
+  },
+  "good_into": [
+    { "tag": "stealth", "why": "Sentinel and Hunter's Mark both reveal, and Eyes of the Huntress reveals the whole enemy team for 10 seconds." },
+    { "tag": "cc_heavy", "why": "Celestial Attunement makes Light of Elune remove stuns, silences and slows from its target on a short cooldown, which is a real cleanse." },
+    { "tag": "tanky_frontline", "why": "Hunter's Mark takes 15 Armor off a tank and boosts all damage on them, Trueshot Aura adds 40 percent attack damage, and Mark of Mending heals the team while attacking the marked tank." },
+    { "tag": "immobile", "why": "Lunar Flare is a delayed skillshot, so slow targets are stunned reliably and Celestial Wrath slows them more." }
+  ],
+  "bad_into": [
+    { "tag": "burst_dive", "why": "No escape, a small health pool and only Light of Elune and Shadowstalk to respond. Anub'arak or Maiev can reach her." },
+    { "tag": "poke_comp", "why": "She has no area healing, so Fenix or Lunara type damage across the whole team outpaces two charges of single target heals." },
+    { "tag": "mobile", "why": "Lunar Flare and Sentinel are skillshots that dashers sidestep, and Quest progress stalls without hits." },
+    { "tag": "assassin", "why": "Attacking to heal puts her within reach and she has no self peel beyond Celestial Wrath slow." }
+  ],
+  "wants_from_team": [
+    "Tanks with initiating crowd control, such as Diablo, E.T.C. or Varian",
+    "Burst assassins or basic attack Heroes to use Hunter's Mark and Trueshot Aura",
+    "A frontline so she can attack without being punished",
+    "Peel for her"
+  ],
+  "gives_team": [
+    "Armor reduction and a 15 percent damage amp on one target",
+    "Follow up stun and vision with Sentinel",
+    "Cleanse of stun, silence and slow",
+    "Stealth ambush or escape with Shadowstalk"
+  ],
+  "power_spike": "mid",
+  "weaknesses": [
+    "No escape, easy to dive",
+    "Poor wave clear",
+    "No area healing",
+    "Healing depends on attacking enemies",
+    "Hard skillshot to land"
+  ],
+  "evidence": [
+    "Light of Elune, Sentinel, Lunar Flare, Starfall, Shadowstalk, Hunter's Mark ability text",
+    "Trueshot Aura, Celestial Attunement, Ranger's Mark, Elune's Chosen, Celestial Wrath talent text",
+    "Icy Veins synergies and counters",
+    "Measured block: 1771 hero damage and 2910 healing per minute, 0.536 win rate over 576 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["damage.heal_blunted", "healing.sustain", "power_spike", "attack.range"]
+}

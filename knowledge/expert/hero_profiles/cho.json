@@ -1,0 +1,43 @@
+{
+ "hero": "Cho",
+ "slug": "cho",
+ "role": "Tank",
+ "attack": {
+  "type": "hybrid",
+  "range": "melee",
+  "autos_matter": 3,
+  "note": "Cho is the melee half of Cho'gall. Basic attacks matter in the Seared Flesh, Frenzied Fists and Hammer of Twilight builds, and C'Thun's Gift at level 20 makes them ranged. The pair together is a ranged damage threat through Gall."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "aoe", "burst"],
+  "poke": { "rating": 4, "kind": "skillshot", "dodgeable": 3, "note": "Rune Bomb is a slow rolling skillshot detonated by Gall for 210, and Gall's Dread Orb and Shadow Bolt Volley add long range sustained poke. The guide calls Cho'gall a ranged bruiser that safely pokes several opponents." },
+  "heal_blunted": 3,
+  "note": "Sustained damage from Gall's Dread Orb plus Cho autos, with real burst from Twisting Nether and Upheaval combos. Uppercut adds percent health damage. Enraged Regeneration applies healing reduction through Dread Orb. Measured 2101 hero damage per minute and 4918 damage taken per minute, the highest damage taken of the group. Numbers may reflect only Cho's own body, not Gall's output."
+ },
+ "healing": null,
+ "ratings": { "wave_clear": 4, "camp_clear": 4, "siege": 4, "teamfight": 5, "engage": 3, "peel": 3, "mobility": 2, "self_sustain": 4, "survivability": 4, "objective": 3, "global_presence": 0, "solo_lane": 2 },
+ "cc": { "hard": ["knockback", "stun", "pull", "root"], "soft": ["slow"], "reliability": 3 },
+ "good_into": [
+  { "tag": "poke_comp", "why": "Huge health pool, Consuming Blaze heals per enemy ignited, Enraged Regeneration and Surging Dash sustain, and Twilight Veil armor make him durable against chip damage." },
+  { "tag": "squishy_backline", "why": "Gall's Dread Orb, Shadow Bolt Volley and Twisting Nether reach the backline from a safe tank body, and Upheaval pulls them into the team." },
+  { "tag": "melee_heavy", "why": "Hammer of Twilight pushes and stuns, Power Surge slows, and Twilight Veil armor blocks autos while Cho'gall out damages melee heroes with Gall behind him." },
+  { "tag": "immobile", "why": "Power Surge slow and Surging Fist catch low mobility heroes, and Favor of the Old Gods roots with Upheaval, which the guide ties to Twisting Nether." },
+  { "tag": "no_healer_sustain", "why": "Enemy teams with no healing cannot punish with attrition, and Cho'gall scales into the strongest late game in the game, per the guide." }
+ ],
+ "bad_into": [
+  { "tag": "cc_heavy", "why": "Cocoon or Containment Disc turns the fight into a 5v3 because both halves are locked, and Surging Fist and Upheaval can be interrupted." },
+  { "tag": "burst_dive", "why": "Percent damage such as Cursed Bullet, Last Rites and Seven Sided Strike ignores armor, and a death costs two heroes worth of experience." },
+  { "tag": "split_push", "why": "He occupies two slots, so the team has four bodies and loses map presence and rotation, and he is weak in the early game." },
+  { "tag": "kiter", "why": "Cho's melee body is hard to get on a kiter without C'Thun's Gift, and Gall alone is stationary." },
+  { "tag": "objective_race", "why": "Snowball maps and early objectives punish his weak early game and the four man team, as the guide says on Battlefield of Eternity and Warhead Junction." }
+ ],
+ "wants_from_team": ["A dedicated single target healer such as Alexstrasza, Brightwing or Ana", "A resilient bruiser with waveclear to cover macro", "A teammate to play Gall and talk, plus a team that can play with only four bodies", "No second assassin so the team is not too fragile"],
+ "gives_team": ["A huge health pool frontline with a second ranged damage source", "Long range sustain poke from Gall", "Displacement and stuns from Hammer of Twilight and Upheaval", "Vision from Eye of Kilrogg"],
+ "power_spike": "level_20",
+ "weaknesses": ["Weak early game, snowball maps punish him", "Two heroes die with one death", "Percent damage and stacked crowd control", "Draft is easily countered and uses two draft slots"],
+ "evidence": ["Surging Fist, Consuming Blaze, Rune Bomb, Upheaval, Hammer of Twilight, Ogre Hide ability text", "Talents Seared Flesh, Frenzied Fists, Twilight Veil, Molten Block, C'Thun's Gift, Enraged Regeneration, Hour of Twilight", "Icy Veins: strongest late game in the game, best as the only assassin, requires a dedicated healer", "measured: hero damage 2101 per minute, damage taken 4918, siege 3390, win rate 0.448 in 105 games"],
+ "confidence": "medium",
+ "unsure": ["damage.carry", "damage.ranged_dealer", "attack.type", "ratings.teamfight", "ratings.solo_lane"]
+}

@@ -133,12 +133,12 @@ def league_observed(heroes):
                 wt = season_weight(season.get(gid, newest), newest)
                 r = h2h.setdefault(key, [0, 0, 0.0, 0.0]); r[0] += 1; r[1] += int(a_won); r[2] += wt; r[3] += wt * int(a_won)
     h2h = {k: [v[0], v[1], round(v[2], 1), round(v[3], 1)] for k, v in h2h.items() if v[0] >= 12}
-    return out, h2h, league_combos(db, heroes, sides, win), league_comps(db, heroes, sides, win)
+    return out, h2h, league_combos(db, heroes, sides, win), dict(league_comps(db, heroes, sides, win), heal_lens=league_heal_lens(db, heroes, sides, win))
 
 
 def league_comps(db, heroes, sides, win):
     """What the whole league's drafts did, so composition advice rests on thousands of games rather than one division.
-    Every side of every NGS replay with five known heroes. Each cell is [games, wins]. Keys: ranged (0-1, 2, 3, 4+), rdiff (our ranged
+    Every side of every NGS replay with five known heroes. Each cell is [games, wins]. Keys: ranged (ranged damage DEALERS from the hero profiles, not healers or supports: 0, 1, 2, 3+), rdiff (our ranged
     minus theirs, -2..2), healers (1, 2+), marks (0, 1, 2+), tanks (0, 1, 2+), shapes (role counts, 60+ games), all overall and per map."""
     maps = dict(db.execute("SELECT game_id, map FROM lg_games"))
     season = dict(db.execute("SELECT game_id, season FROM lg_games"))
@@ -150,7 +150,7 @@ def league_comps(db, heroes, sides, win):
     per = collections.defaultdict(lambda: {k: gm() for k in keys})
     n_sides = 0
     abbr = {"Tank": "T", "Bruiser": "B", "Melee Assassin": "M", "Ranged Assassin": "R", "Support": "S", "Healer": "H"}
-    def rb(x): return "0-1" if x <= 1 else "4+" if x >= 4 else str(x)
+    def rb(x): return "3+" if x >= 3 else str(x)
     def cap(x, hi): return str(x) if x < hi else str(hi) + "+"
     for gid, s in sides.items():
         w = win.get(gid)
@@ -183,6 +183,35 @@ def league_comps(db, heroes, sides, win):
     return out
 
 
+def league_heal_lens(db, heroes, sides, win):
+    """For each damage dealing hero: its side's record against each class of enemy healer (the enemy had exactly one healer),
+    cells [games, wins, weighted games, weighted wins, newest window games, newest window wins]. Needs the hero profiles."""
+    season = dict(db.execute("SELECT game_id, season FROM lg_games"))
+    newest = max(season.values()) if season else 0
+    out = {}
+    for gid, s in sides.items():
+        w = win.get(gid)
+        if w is None:
+            continue
+        for t in (0, 1):
+            hs = [h for h in s[1 - t] if h in heroes and heroes[h].get("hclass")]
+            if len(hs) != 1:
+                continue
+            cls = heroes[hs[0]]["hclass"]
+            wt = season_weight(season.get(gid, newest), newest)
+            recent = newest - season.get(gid, newest) < RECENT_SEASONS
+            for h in s[t]:
+                if h not in heroes or not heroes[h].get("profile"):
+                    continue
+                if not (heroes[h].get("carry") or heroes[h].get("ranged")):
+                    continue
+                c = out.setdefault(h, {}).setdefault(cls, [0, 0, 0.0, 0.0, 0, 0])
+                c[0] += 1; c[1] += int(w == t); c[2] += wt; c[3] += wt * int(w == t)
+                if recent:
+                    c[4] += 1; c[5] += int(w == t)
+    return {h: {k: [v[0], v[1], round(v[2], 1), round(v[3], 1), v[4], v[5]] for k, v in d.items() if v[0] >= 15} for h, d in out.items()}
+
+
 def league_combos(db, heroes, sides, win):
     """Takedown pairs from lg_kills. For two heroes drafted on one side, per game: team takedowns, takedowns with three or fewer heroes on them, and of those how many each took part in and both did. {"A|B": [games, wins, team kills, kills with A, kills with B, kills with both]} with A < B, 15 games or more.
     Both being on most kills is normal, so the engine reads it as lift: both / (A * B / team kills)."""
@@ -206,6 +235,41 @@ def league_combos(db, heroes, sides, win):
                 r[0] += 1; r[1] += int(w == team); r[2] += len(rows)
                 r[3] += sum(a in n for n in rows); r[4] += sum(b in n for n in rows); r[5] += sum(a in n and b in n for n in rows)
     return {k: v for k, v in out.items() if v[0] >= 15}
+
+
+def healer_class(p):
+    """Which kind of enemy healer a hero's damage meets. From the hero profile's healing block."""
+    h = p.get("healing") or {}
+    if not h or p.get("role") != "Healer":
+        return None
+    if h.get("aoe", 0) >= 4 and h.get("sustain", 0) >= 4:
+        return "aoe_sustain"      # Brightwing, Lucio, Stukov, Auriel: heal a lot of people through a lot of chip damage
+    if h.get("burst_heal", 0) >= 4 and h.get("sustain", 0) <= 3 and h.get("aoe", 0) <= 2:
+        return "burst_single"     # Uther, Ana, Anduin style: one target, big heals, runs dry under steady poke
+    if h.get("sustain", 0) >= 4:
+        return "sustain_single"   # Malfurion, Deckard, Li Li: sustained but narrow
+    return "other"
+
+
+def attach_profiles(heroes):
+    """knowledge/expert/hero_profiles/<slug>.json (one per hero, see HERO_PROFILE_SPEC.md). A profile decides what counts as a ranged damage
+    dealer: a ranged healer, support or tank is not one. The old Heroes Profile attack type stays as hp_ranged."""
+    root = KN / "expert" / "hero_profiles"
+    if not root.exists():
+        return 0
+    n = 0
+    for f in sorted(root.glob("*.json")):
+        p = json.loads(f.read_text(encoding="utf-8"))
+        h = p.get("hero")
+        if h not in heroes:
+            continue
+        keep = ("attack", "damage", "healing", "ratings", "cc", "good_into", "bad_into", "wants_from_team", "gives_team", "power_spike", "weaknesses", "confidence", "unsure")
+        heroes[h]["profile"] = {k: p[k] for k in keep if k in p}
+        heroes[h]["hclass"] = healer_class(p)
+        heroes[h]["ranged"] = bool(p["damage"].get("ranged_dealer")) and h not in set()
+        heroes[h]["carry"] = bool(p["damage"].get("carry"))
+        n += 1
+    return n
 
 
 def attach_kit(heroes):
@@ -836,6 +900,7 @@ def main():
     G = games(db)
     attach_hero_stats(heroes, G)
     attach_kit(heroes)
+    attach_profiles(heroes)
     obs, h2h, combos, comps = league_observed(heroes)
     for h, o in obs.items():
         if h in heroes:

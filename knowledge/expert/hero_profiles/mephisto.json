@@ -1,0 +1,89 @@
+{
+ "hero": "Mephisto",
+ "slug": "mephisto",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 2,
+  "note": "Basic attacks matter mostly through Shard of Hate, which turns them into splash and cooldown reduction. Lightning Nova's radius equals his attack range, so he fights at the edge of auto range and has to stay on top of the target."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "aoe", "burst"],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 4,
+   "note": "Skull Missile has a 0.625 second delay and travels slowly, so it is easy to sidestep and is mostly used to trigger Lord of Hatred cooldown reduction and Abhorred Skull. Consume Souls is the reliable part: it reveals and hits every enemy Hero for 357 damage with no aim."
+  },
+  "heal_blunted": 2,
+  "note": "Lightning Nova ticks 43 damage every 0.25 seconds in a ring and ramps up to 30 percent more while it keeps hitting Heroes, then Static Field adds 10 percent of maximum Health to everyone in the ring. That is heavy sustained burst in a short window that a heal rarely undoes. Measured 3496 hero damage per minute is far above the league median, so he is a real damage carry, but his damage depends on allies setting up and on him not being dived."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 2,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 2,
+  "peel": 2,
+  "mobility": 2,
+  "self_sustain": 2,
+  "survivability": 2,
+  "objective": 2,
+  "global_presence": 3,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": ["root", "silence"],
+  "soft": ["slow"],
+  "reliability": 2
+ },
+ "good_into": [
+  {"tag": "tanky_frontline", "why": "Furious Spark procs easily on slow frontline Warriors, and Static Field deals 10 percent of maximum Health to every enemy Hero in the Lightning Nova ring, which scales with big Health pools."},
+  {"tag": "immobile", "why": "Durance of Hate roots the first Hero hit for 2.5 seconds and spreads, and Unspeakable Horror adds a silence. Skull Missile and Lightning Reaction connect against targets that cannot sidestep."},
+  {"tag": "stealth", "why": "Consume Souls reveals every enemy Hero for its 2.5 second channel, which removes the value of stealth heroes like Nova or Zeratul for that fight."},
+  {"tag": "squishy_backline", "why": "Shade of Mephisto lands him inside the backline for 78 damage and a Lightning Nova window, and Consume Souls with Consumed by Hatred executes low Health Heroes from anywhere on the map."},
+  {"tag": "global_ult", "why": "Consume Souls is a global channel that he can use to finish fleeing Heroes, so he turns enemy retreats into kills."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "Shade of Mephisto returns him to the cast location after 2.5 seconds, and delayed abilities like Living Bomb punish that. Divers reach him before Lightning Nova ramps."},
+  {"tag": "assassin", "why": "Melee assassins close into Lightning Nova's ring, where the ring does little, and he has no stun or knockback of his own to stop them. The guide names heroes that close into melee as the main counters."},
+  {"tag": "mobile", "why": "Skull Missile is a delayed projectile and Lightning Nova needs sticky contact, so heroes that blink or sprint out of the ring avoid most of his damage."},
+  {"tag": "cc_heavy", "why": "Being stunned or silenced during Consume Souls channel cancels it, and Shade of Mephisto is wasted if the return teleport is negated by Cocoon or Gorge style effects."},
+  {"tag": "kiter", "why": "A kiter stays at the edge of or outside the Lightning Nova radius and only needs to avoid a slow skillshot."}
+ ],
+ "wants_from_team": [
+  "Hard crowd control to hold targets inside Lightning Nova",
+  "A frontline to absorb damage while he ramps up",
+  "Heroic combos like Mosh Pit, Graviton Surge or Apocalypse to follow up on",
+  "Peel against divers so Shade of Mephisto is safe to use"
+ ],
+ "gives_team": [
+  "Global Consume Souls reveal and 357 damage on all enemies",
+  "Root and follow up damage with Durance of Hate",
+  "Strong sustained AoE in a short fight window",
+  "Cleanup damage on fleeing Heroes"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Reliant on allies for setup",
+  "Weak solo lane and poor at taking camps alone",
+  "Shade of Mephisto is easy to punish if the cast location is known",
+  "Susceptible to burst and ganks"
+ ],
+ "evidence": [
+  "Lord Of Hatred",
+  "Lightning Nova",
+  "Static Field",
+  "Shade of Mephisto",
+  "Consume Souls",
+  "Durance of Hate",
+  "Icy Veins guide",
+  "MEASURED block: 3496 hero damage per minute, 23 seconds of enemy stun root silence per game (Durance of Hate), 0.537 win rate over 641 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["attack.range", "ratings.siege"]
+}

@@ -1,0 +1,59 @@
+{
+ "hero": "Rexxar",
+ "slug": "rexxar",
+ "role": "Bruiser",
+ "attack": {
+  "type": "melee",
+  "range": "short",
+  "autos_matter": 3,
+  "note": "Rexxar and Misha both deal damage with basic attacks. Aspect of the Hawk, Dire Beast, Aspect of the Beast and Frenzy of Kalimdor feed from attacks, and Bestial Wrath triples Misha's attacks."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["sustained", "single_target"],
+  "poke": { "rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Spirit Swoop is a line skillshot with a slow (141 damage, 7 second cooldown). Taking Flight adds range and refunds on hit. Otherwise he has no poke." },
+  "heal_blunted": 3,
+  "note": "Damage comes from two bodies auto attacking plus Misha, Charge! (150 plus Dire Beast stacks). It is neither burst nor poke. Measured damage 1883 per minute is a little under the median, so he is a control bruiser, not a damage carry. Healing on the target blunts the autos."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 3,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 4,
+  "peel": 4,
+  "mobility": 1,
+  "self_sustain": 2,
+  "survivability": 3,
+  "objective": 5,
+  "global_presence": 1,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": ["stun", "root"],
+  "soft": ["slow"],
+  "reliability": 4,
+  "note": "Misha, Charge! is a 1.25 second stun on a 10 second cooldown (lower with Aspect of the Beast), Kill Command roots for 1.5 seconds, Unleash the Boars slows 40 percent for 5 seconds. Measured 34.5 seconds of enemy stun, root or silence per game, among the highest in the league."
+ },
+ "good_into": [
+  { "tag": "kiter", "why": "Misha charges past and stuns retreating targets, Spirit Swoop and Unleash the Boars slow, and Thrill of the Hunt speeds both bodies. Kill Command roots for the engage." },
+  { "tag": "stealth", "why": "Unleash the Boars reveals every hero it tracks, Flare reveals an area and Wildfire Bear reveals invisible units that Misha walks near." },
+  { "tag": "squishy_backline", "why": "Misha can leap behind enemies and Bestial Wrath triples her attack damage on priority targets in the backline. The charge stun also body blocks escape routes." },
+  { "tag": "objective_race", "why": "Misha holds a capture point while Rexxar clears minions, so he wins point control and can score gems on Tomb of the Spider Queen without losing them when only Misha dies." }
+ ],
+ "bad_into": [
+  { "tag": "assassin", "why": "Mobile assassins such as Zeratul dodge Misha's charge, dive Rexxar behind Misha and kill him while Feign Death is down. The guide names this directly." },
+  { "tag": "burst_dive", "why": "When Misha dies his takedown credit and most of his talents stop working, and enemies can pick the pet off for little cost." },
+  { "tag": "poke_comp", "why": "Misha is a second target that takes poke damage, and Mend Pet costs a lot of mana for a heal over time. Spirit Swoop is his only range." },
+  { "tag": "mobile", "why": "No mobility of his own beyond Thrill of the Hunt, so heroes with gap closers reach him behind Misha or kite him freely." }
+ ],
+ "wants_from_team": ["Follow up burst or area damage on stunned and slowed targets", "Allied crowd control or grouping (Johanna, Malfurion) to extend his engage", "A team that does not need him to carry damage", "Maps with a capture point objective where Misha can hold"],
+ "gives_team": ["Frequent area stuns and slows for engage and peel", "Point control and objective holding with a second body", "Scouting with Misha, Focus!", "Vision from Flare and Unleash the Boars"],
+ "power_spike": "mid",
+ "weaknesses": ["No mobility", "Weak when Misha is dead", "Mana pressure from Mend Pet", "High micro demand"],
+ "evidence": ["Spirit Swoop, Misha Charge, Mend Pet, Unleash the Boars, Bestial Wrath, Misha Focus text", "Aspect of the Beast, Aspect of the Hawk, Dire Beast, Kill Command, Feign Death talent text", "Icy Veins counters and role sections", "Measured NGS block: hero damage 1883 per minute, damage taken 4474, CC seconds 34.5 per game, win rate 0.528"],
+ "confidence": "medium",
+ "unsure": ["damage.heal_blunted", "ratings.siege"]
+}

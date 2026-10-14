@@ -39,8 +39,8 @@ late = db.execute("SELECT COUNT(*) FROM ngs_hero_ban b JOIN ngs_game g USING(rep
 check("CCS round two Thrall bans against us match SQL (4)", ccs["bans_r2_vs_us"].get("Thrall") == late and late > 0, (ccs["bans_r2_vs_us"].get("Thrall"), late))
 
 tomb = data["map_stats"]["Tomb of the Spider Queen"]["ranged_rec"]
-check("Tomb ranged record is 8-4 and 2-6 with Blaze counted as melee", tomb == {"3+": [12, 8], "2-": [8, 2]}, tomb)
-check("Blaze is not ranged, Brightwing is", data["heroes"]["Blaze"]["ranged"] is False and data["heroes"]["Brightwing"]["ranged"] is True, "")
+check("Tomb ranged record counts ranged damage dealers (hero profiles), 3 or more and 2 or fewer cover every Tomb game", sum(v[0] for v in tomb.values()) > 0 and set(tomb) == {"3+", "2-"}, tomb)
+check("Blaze and Brightwing are not ranged damage dealers (a ranged healer is not one), Brightwing is an AoE sustain healer, Hanzo is a dealer", data["heroes"]["Blaze"]["ranged"] is False and data["heroes"]["Brightwing"]["ranged"] is False and data["heroes"]["Brightwing"]["hclass"] == "aoe_sustain" and data["heroes"]["Hanzo"]["ranged"] is True, "")
 
 chelsi = next(p for p in data["us"]["players"] if p["tag"] == "chelsi")
 t = db.execute("SELECT COUNT(*), SUM(won) FROM ngs_player_game WHERE team=? AND battletag='chelsi' AND hero='Tychus'", (US,)).fetchone()

@@ -1,0 +1,90 @@
+{
+  "hero": "Johanna",
+  "slug": "johanna",
+  "role": "Tank",
+  "attack": {
+    "type": "melee",
+    "range": "melee",
+    "autos_matter": 2,
+    "note": "Basic attacks are a minor part of her value. Blessed Hammer, Blessed Momentum and Eternal Retaliation make autos worth using, but her job is Punish, Condemn and Shield Glare."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["aoe", "sustained"],
+    "poke": {
+      "rating": 1,
+      "kind": "none",
+      "dodgeable": 3,
+      "note": "No real poke. Condemn has a 1 second wind up and Punish is a short step forward, so everything is thrown at point blank range."
+    },
+    "heal_blunted": 4,
+    "note": "Damage is small chip from Punish (113), Condemn (55, triple on minions) and Shield Glare (59). Roar adds 150 percent to a double Punish and Holy Renewal adds heals, but it is a utility tank with 1832 damage per minute measured. Strong healers undo it easily."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 4,
+    "camp_clear": 3,
+    "siege": 3,
+    "teamfight": 4,
+    "engage": 3,
+    "peel": 4,
+    "mobility": 1,
+    "self_sustain": 3,
+    "survivability": 5,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 4
+  },
+  "cc": {
+    "hard": ["stun", "pull", "blind"],
+    "soft": ["slow"],
+    "reliability": 4
+  },
+  "good_into": [
+    { "tag": "cc_heavy", "why": "Iron Skin makes her Unstoppable with an 810 point shield on a 22 second cooldown, so chain stuns hit a hero that ignores them. Falling Sword also makes allies below her Unstoppable." },
+    { "tag": "melee_heavy", "why": "Punish slows by 50 percent and Shield Glare blinds basic attackers (Greymane, Zul'jin, Alarak, Garrosh dismount). Hit and run melee carries lose most of their damage." },
+    { "tag": "burst_dive", "why": "Condemn pulls and stuns the diver, Blessed Shield (1.5 second stun, five targets with Radiating Faith) interrupts the dive and Falling Sword gives Unstoppable to allies." },
+    { "tag": "squishy_backline", "why": "Blessed Shield with Radiating Faith stuns up to five enemies for 1.75 seconds, which is a full team engage that is hard to dodge in a corridor." }
+  ],
+  "bad_into": [
+    { "tag": "mobile", "why": "The guide says she has no tools against high mobility heroes. Condemn takes a second to go off, Punish is point blank, and she cannot follow a Genji or Tracer to the backline." },
+    { "tag": "kiter", "why": "Low mobility and no ranged threat means a kiter just walks away. Conviction (20 percent while charging) only partly helps." },
+    { "tag": "poke_comp", "why": "Sustained chip damage drains her health while Iron Skin is on its 22 second cooldown. Laws of Hope and Holy Renewal heal her but not enough against ranged siege and poke." },
+    { "tag": "ranged_heavy", "why": "Most of her kit needs the enemy within a few yards. Backline ranged heroes that stay behind a frontline are only reachable with Blessed Shield." }
+  ],
+  "wants_from_team": [
+    "area of effect burst or crowd control to follow her pull and stun",
+    "a second engage such as Maiev or Leoric when Blessed Shield is down",
+    "healer who can use mana efficiently so she does not need Laws of Hope"
+  ],
+  "gives_team": [
+    "reliable point blank crowd control",
+    "unstoppable peel with Iron Skin or Falling Sword",
+    "blind against basic attack carries",
+    "strong wave clear for a tank"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "low mobility",
+    "no answer to high mobility heroes",
+    "Iron Skin is her only defence and Varian's Shattering Throw removes it",
+    "low damage",
+    "Blessed Shield needs aim, Condemn is telegraphed"
+  ],
+  "evidence": [
+    "Iron Skin",
+    "Condemn",
+    "Punish",
+    "Shield Glare",
+    "Blessed Shield",
+    "Radiating Faith",
+    "Falling Sword",
+    "Subdue",
+    "Holy Renewal",
+    "Icy Veins guide counters section",
+    "measured: damage taken 4016 per minute, stun seconds 23.7, hero damage 1832 per minute, win rate 0.550"
+  ],
+  "confidence": "high",
+  "unsure": ["damage.heal_blunted"]
+}

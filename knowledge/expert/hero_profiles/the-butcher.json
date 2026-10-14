@@ -1,0 +1,85 @@
+{
+  "hero": "The Butcher",
+  "slug": "the-butcher",
+  "role": "Melee Assassin",
+  "attack": {
+    "type": "melee",
+    "range": "melee",
+    "autos_matter": 5,
+    "note": "Fresh Meat adds up to 125 attack damage and 25 percent attack speed, and Butcher's Brand heals only through autos on the branded target. Hamstring resets the next auto."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": false,
+    "style": ["sustained", "burst", "single_target"],
+    "poke": {
+      "rating": 0,
+      "kind": "none",
+      "dodgeable": 0,
+      "note": "No poke. Hamstring is a short slow line and everything else needs contact."
+    },
+    "heal_blunted": 2,
+    "note": "Late game Fresh Meat autos hit extremely hard and Brand heals him 75 percent (double on heroes) of damage dealt, so sustained healing is hard to out heal. Furnace Blast (500, three second delay) or Lamb to the Slaughter gives pick burst. Measured hero damage per minute (about 1520) is far below the median, so in NGS he is a gank and pick hero with a short fight window rather than a damage leader."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 3,
+    "camp_clear": 3,
+    "siege": 3,
+    "teamfight": 3,
+    "engage": 4,
+    "peel": 1,
+    "mobility": 3,
+    "self_sustain": 4,
+    "survivability": 2,
+    "objective": 2,
+    "global_presence": 0,
+    "solo_lane": 2
+  },
+  "cc": {
+    "hard": ["stun", "silence"],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "squishy_backline", "why": "Ruthless Onslaught makes him Unstoppable to reach and stun a target, then Furnace Blast kills assassins and healers from full health." },
+    { "tag": "split_push", "why": "Early roaming for Fresh Meat and Lamb to the Slaughter chains a lone hero so his team gets an easy kill." },
+    { "tag": "kiter", "why": "Lamb to the Slaughter silences blinks and dashes, and Flail Axe with Crippling Slam keeps the Hamstring slow on mobile targets." },
+    { "tag": "immobile", "why": "Targets with no escape under Butcher's Brand give him full heals and cannot disengage." }
+  ],
+  "bad_into": [
+    { "tag": "cc_heavy", "why": "Stuns, silences and blinds stop his autos and Brand healing, and Johanna's blind is called out in the guide as a hard counter." },
+    { "tag": "burst_dive", "why": "Focus fire kills him after Ruthless Onslaught because he has no mobility or defensive tools beyond Meat Shield and Enraged." },
+    { "tag": "tanky_frontline", "why": "Armored tanks and multiple supports blunt Furnace Blast and Lamb to the Slaughter and he cannot reach the backline." },
+    { "tag": "sustain_comp", "why": "Stasis, cleanses and invulnerability (Brightwing, Jaina, Whitemane, Tyrael, Johanna) negate both heroics." }
+  ],
+  "wants_from_team": [
+    "Hard CC to follow Ruthless Onslaught",
+    "Damage mitigation after he commits (Uther, Medivh)",
+    "Allies who protect him from focus fire",
+    "A roaming, gank oriented composition"
+  ],
+  "gives_team": [
+    "A hard engage and pick",
+    "Lamb to the Slaughter chain lockdown, even late",
+    "Heavy single target burst on a squishy",
+    "Early gank pressure"
+  ],
+  "power_spike": "early",
+  "weaknesses": [
+    "Extremely vulnerable to burst and crowd control including blinds",
+    "Both heroics can be negated by many abilities",
+    "Loses Fresh Meat on death before the quest is done",
+    "Needs a composition built around him"
+  ],
+  "evidence": [
+    "Fresh Meat trait and quest",
+    "Hamstring, Butcher's Brand, Ruthless Onslaught",
+    "Furnace Blast and Lamb to the Slaughter heroics",
+    "Meat Shield, Enraged, Slaughterhouse, Bolt of the Storm talents",
+    "Icy Veins guide: vulnerable to burst and CC, Johanna blind, pick compositions",
+    "Measured: about 1522 hero damage per minute, 2597 damage taken, 25.6 CC seconds, win rate 0.528 over only 53 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["damage.heal_blunted", "ratings.teamfight"]
+}

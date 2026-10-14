@@ -1,0 +1,92 @@
+{
+  "hero": "Tyrael",
+  "slug": "tyrael",
+  "role": "Tank",
+  "attack": {
+    "type": "melee",
+    "range": "melee",
+    "autos_matter": 3,
+    "note": "Ardent Restoration, Purge Evil, Divine Vigor, Horadric Reforging and Seal of El'druin all run through basic attacks, and the recommended build is called Basic Attacks Build."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["sustained", "aoe"],
+    "poke": {
+      "rating": 2,
+      "kind": "skillshot",
+      "dodgeable": 3,
+      "note": "El'druin's Might (110) and Smite (150, 6 second cooldown) are thrown at an area. With Sword of Justice he can throw, hit and teleport back, which gives poke with some risk."
+    },
+    "heal_blunted": 3,
+    "note": "Burning Halo gives constant area damage (12 per second, more after a teleport) and Smite is a decent burst. 1836 damage per minute is high for a tank. Ardent Restoration and Divine Vigor heal from damage dealt, so he is helped by dealing damage and hurt by healing reduction."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 4,
+    "camp_clear": 3,
+    "siege": 2,
+    "teamfight": 5,
+    "engage": 4,
+    "peel": 4,
+    "mobility": 4,
+    "self_sustain": 3,
+    "survivability": 3,
+    "objective": 5,
+    "global_presence": 0,
+    "solo_lane": 4
+  },
+  "cc": {
+    "hard": ["stun", "knockback"],
+    "soft": ["slow"],
+    "reliability": 2
+  },
+  "good_into": [
+    { "tag": "cc_heavy", "why": "Sanctification makes the whole team Invulnerable for 3 seconds (4 with Holy Arena), so a chain of stuns, roots and silences does nothing. Judgment is Unstoppable while he charges." },
+    { "tag": "burst_dive", "why": "Sanctification and Righteousness (350 shield, 80 percent to allies with Justice for All) answer a dive. Archangel's Wrath cuts the damage of nearby enemies by 50 percent if he dies." },
+    { "tag": "squishy_backline", "why": "Judgment (150 damage, 1.5 second stun, knocks nearby enemies away) with Angel of Justice lets him land on a backline hero with a partner like Illidan or Falstad." },
+    { "tag": "objective_race", "why": "Holy Ground blocks enemies from the capture point teleported to and Sanctification protects the team standing on an objective or a core. The guide calls him one of the best at securing Capture Points." }
+  ],
+  "bad_into": [
+    { "tag": "kiter", "why": "He is melee and only has a slow and one stun. Judgment needs 0.75 seconds of channel, so a kiter with an interrupt can stop it." },
+    { "tag": "poke_comp", "why": "The guide says he is extremely mana dependent and Righteousness and Smite are 45 mana each. Long range poke wears down health and mana before a fight." },
+    { "tag": "ranged_heavy", "why": "Outside Judgment he has a weak engage. A comp of ranged heroes with an interrupt for Judgment, or Time Stop on Sanctification (Medivh, Mei, Zeratul), nullifies him." },
+    { "tag": "split_push", "why": "Holy Ground and Sanctification are strong in static fights but he has 2794 siege per minute and no global presence, so he does not answer a team that avoids the fight." }
+  ],
+  "wants_from_team": [
+    "crowd control to follow up Judgment",
+    "dive allies (Kerrigan, Illidan) or low mobility allies (Alarak, Sgt. Hammer) who use his Smite speed",
+    "basic attack carries (Valla) for Swift Retribution",
+    "healer with good mana efficiency"
+  ],
+  "gives_team": [
+    "invulnerability with Sanctification",
+    "shields on allies and minions",
+    "movement speed and attack speed area",
+    "capture point control with Holy Ground"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "almost no crowd control outside Judgment",
+    "mana hungry",
+    "weak engage without Judgment",
+    "Time Stop (Medivh, Mei, Zeratul) nullifies Sanctification",
+    "long cooldowns on both heroics"
+  ],
+  "evidence": [
+    "Sanctification",
+    "Judgment",
+    "Righteousness",
+    "El'druin's Might",
+    "Smite",
+    "Archangel's Wrath",
+    "Burning Halo",
+    "Holy Ground",
+    "Holy Arena",
+    "Justice for All",
+    "Icy Veins strengths and weaknesses",
+    "measured: damage taken 4173 per minute, hero damage 1836, healing 463 (shields), stun seconds 5.5, win rate 0.511, 513 games"
+  ],
+  "confidence": "high",
+  "unsure": ["ratings.survivability", "ratings.solo_lane"]
+}

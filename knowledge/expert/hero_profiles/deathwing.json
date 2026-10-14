@@ -1,0 +1,74 @@
+{
+ "hero": "Deathwing",
+ "slug": "deathwing",
+ "role": "Bruiser",
+ "attack": {
+  "type": "hybrid",
+  "range": "short",
+  "autos_matter": 2,
+  "note": "He has melee autos, but his damage is Molten Flame (a channeled cone with 100 percent bonus spell damage to heroes) and his Destroyer or World Breaker abilities after Dragonflight. Autos matter mainly through Draconic Might and Fire and Fury."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["burst", "aoe", "zone"],
+  "poke": { "rating": 1, "kind": "zone", "dodgeable": 4, "note": "Lava Burst pools and Dragonflight scorched ground are slow zone damage, and Molten Flame has a 1.5 second windup." },
+  "heal_blunted": 2,
+  "note": "Molten Flame hits for 20 per 0.125 seconds with doubled spell damage on heroes, so he kills through healing when it lands. The Dragonflight landing, Earth Shatter stun and Onslaught lunge add burst. Conflagration and Infernus raise it further. He is permanently Unstoppable and ignores friendly effects including healing and shields from allies."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 3,
+  "siege": 4,
+  "teamfight": 5,
+  "engage": 4,
+  "peel": 2,
+  "mobility": 3,
+  "self_sustain": 3,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 4,
+  "solo_lane": 3
+ },
+ "cc": { "hard": ["stun", "fear"], "soft": ["slow"], "reliability": 4 },
+ "good_into": [
+  { "tag": "tanky_frontline", "why": "Molten Flame's doubled spell damage on heroes and armor plates melt even a bruiser front line, and Death Drop cuts their spell armor." },
+  { "tag": "high_sustain_healer", "why": "Damage is dense and front loaded, so healing cannot keep up with Molten Flame and the landing burst." },
+  { "tag": "melee_heavy", "why": "Onslaught slow, Bellowing Roar fear and Gaze Onto Destruction cut enemy damage by 75 percent in a fight, and he is Unstoppable so he is not locked down." },
+  { "tag": "cc_heavy", "why": "Permanent Unstoppable makes stuns, roots and slows irrelevant to him, and his own stun lock punishes their commitment." },
+  { "tag": "global_ult", "why": "Dragonflight is a global presence tool that joins fights anywhere and punishes split pushes and distant objectives." }
+ ],
+ "bad_into": [
+  { "tag": "kiter", "why": "Molten Flame is a channel that roots him in place for the duration and Dragonflight has a long delay, so mobile ranged heroes can dodge it." },
+  { "tag": "burst_dive", "why": "Armor plates fall every 25 percent health and he cannot be healed by allies, so a fast kill on him is the plan." },
+  { "tag": "poke_comp", "why": "Without ally heals and with only Molten Blood and Draconic Might for sustain, he cannot out heal poke before landing." },
+  { "tag": "ranged_heavy", "why": "His strongest damage needs him to be near them and the Dragonflight cooldown is long." }
+ ],
+ "wants_from_team": [
+  "A healer that heals without him (his own self healing carries him)",
+  "Teammates who can keep enemies grouped for Molten Flame",
+  "Vision and map objectives to time Dragonflight"
+ ],
+ "gives_team": [
+  "Huge teamfight damage and crowd control (stun, fear)",
+  "Global presence through Dragonflight",
+  "Armor reduction and damage reduction debuffs on enemies",
+  "Long term objective pressure with scorched ground"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Ignores ally healing and shields",
+  "Channeled Molten Flame is stationary and interruptible",
+  "Armor plates depend on health",
+  "Very complex to play"
+ ],
+ "evidence": [
+  "Aspect of Death trait text: permanently Unstoppable, 100 percent bonus spell damage, ignores allied effects",
+  "Molten Flame, Dragonflight, Destroyer and World Breaker abilities",
+  "Heat Wave, Gaze Onto Destruction, Arrival of a God, Bellowing Roar talents",
+  "Measured: win rate 0.561 (best in my set), damage 2780 per minute, deaths 1.4, 21.2 seconds of CC applied per game"
+ ],
+ "confidence": "medium",
+ "unsure": ["good_into", "ratings.global_presence"]
+}

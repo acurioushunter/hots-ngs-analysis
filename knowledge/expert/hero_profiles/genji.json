@@ -1,0 +1,83 @@
+{
+ "hero": "Genji",
+ "slug": "genji",
+ "role": "Melee Assassin",
+ "attack": {
+  "type": "hybrid",
+  "range": "short",
+  "autos_matter": 2,
+  "note": "The game labels him ranged, but he plays as a dive assassin. Shuriken poke is a minor tool and best from point blank (Shingan needs all three to hit). Dragonblade makes him melee for 8 seconds. Basic attacks matter mostly with Way Of The Shimada."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["burst", "single_target", "execute"],
+  "poke": {
+   "rating": 2,
+   "kind": "skillshot",
+   "dodgeable": 4,
+   "note": "Three Shuriken in a spread, 12 second shared recharge, easy to sidestep from range. Shuriken Mastery and Shingan reward point blank use, which is a dive, not poke."
+  },
+  "heal_blunted": 1,
+  "note": "Swift Strike (190) resets on a kill, Dragonblade (240 slash), X-Strike (145 plus 290) and Final Cut come in bursts and kill squishy targets before healing matters. Measured: hero damage per minute only about 2600 against a median of 2060, siege is the lowest of the batch at about 2950, damage taken is high at about 2360, takedowns the highest at 10.9 per game. He is a pick and kill hero, not a sustained damage dealer."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 1,
+  "camp_clear": 2,
+  "siege": 1,
+  "teamfight": 3,
+  "engage": 3,
+  "peel": 0,
+  "mobility": 5,
+  "self_sustain": 1,
+  "survivability": 3,
+  "objective": 1,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": [],
+  "soft": ["slow"],
+  "reliability": 1
+ },
+ "good_into": [
+  {"tag": "squishy_backline", "why": "Swift Strike, Cyber Agility and Dragonblade reach a squishy ranged hero in seconds, and a kill resets Swift Strike so he can chain into the next target."},
+  {"tag": "ranged_heavy", "why": "Teams full of ranged heroes have little to peel him, and Deflect blocks and returns their damage while he dives."},
+  {"tag": "immobile", "why": "Targets that cannot dodge Swift Strike or Dragonblade are dead, and X-Strike has maximum damage on a stunned or rooted target."},
+  {"tag": "poke_comp", "why": "Deflect blocks a large share of poke damage for 1.25 seconds and Augmented Guard turns it into a shield, then he dives the poker."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "Stun, root or silence takes away both Swift Strike and Cyber Agility, and he has no Unstoppable. The guide names Varian's Taunt and Malfurion's Twilight Dream."},
+  {"tag": "kiter", "why": "Mobile ranged assassins like Lunara can bait him into overextending and poison keeps ticking through Deflect."},
+  {"tag": "single_target_healer", "why": "Point and click crowd control from heroes such as Uther cancels a dive on a backline target, and a burst healer undoes a failed kill."},
+  {"tag": "assassin", "why": "Low health pool and Deflect with a 16 second cooldown means a faster assassin with burst can kill him in return."}
+ ],
+ "wants_from_team": [
+  "Burst damage and crowd control that lets him finish a single target (Jaina, Kael'thas)",
+  "A burst healer that gives armor or invulnerability like Uther",
+  "Crowd control already used by the enemy before he commits",
+  "Tank frontline that pulls enemy attention and cooldowns"
+ ],
+ "gives_team": [
+  "Backline pick potential and execute resets",
+  "Deflect that shuts down channelled or fast attacks of the enemy",
+  "Mobility to cross walls and flank",
+  "Takedowns from a single dive"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Weak wave clear and siege",
+  "Low health and needs constant healing",
+  "Very mana hungry",
+  "High skill floor, needs enemy crowd control to be spent"
+ ],
+ "evidence": [
+  "Swift Strike reset, Cyber Agility, Deflect",
+  "Dragonblade, X-Strike, Shingan, Final Cut",
+  "Icy Veins counters text (Varian, Malfurion, Lunara, Uther)",
+  "Measured block: damage per minute about 2600, siege about 2950, damage taken about 2360, takedowns 10.9 per game, win rate 0.522 over 722 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["role", "attack.type", "damage.ranged_dealer", "good_into.poke_comp"]
+}

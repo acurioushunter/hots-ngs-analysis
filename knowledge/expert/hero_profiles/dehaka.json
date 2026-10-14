@@ -1,0 +1,73 @@
+{
+ "hero": "Dehaka",
+ "slug": "dehaka",
+ "role": "Bruiser",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 3,
+  "note": "Autos feed Essence Claws, Primal Rage and Feeding Frenzy cooldown cuts, but his kit is Drag and Dark Swarm."
+ },
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["aoe", "single_target", "sustained"],
+  "poke": { "rating": 0, "kind": "none", "dodgeable": 4, "note": "Drag is a short skillshot used to catch a target, not to chip." },
+  "heal_blunted": 3,
+  "note": "Measured hero damage is only 1466 per minute (below the 2060 median) while siege is 6414 and CC applied is 33.5 seconds per game, so he is more of a catch and control bruiser. Dark Swarm is steady close range AoE, Drag adds 160 and a stun, and Paralyzing Enzymes cuts target healing by 50 percent."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 4,
+  "siege": 4,
+  "teamfight": 3,
+  "engage": 3,
+  "peel": 2,
+  "mobility": 4,
+  "self_sustain": 4,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 3,
+  "solo_lane": 4
+ },
+ "cc": { "hard": ["stun", "pull", "silence"], "soft": ["slow"], "reliability": 4 },
+ "good_into": [
+  { "tag": "squishy_backline", "why": "Drag stuns and pulls a backliner out of position, and Isolation silences and blinds one target for a pick." },
+  { "tag": "high_sustain_healer", "why": "Paralyzing Enzymes cuts healing received by 50 percent on the dragged target and Drag can pull the healer away from his team." },
+  { "tag": "kiter", "why": "Brushstalker and Burrow give mobility, Drag grabs a retreating hero, and Isolation slows." },
+  { "tag": "global_ult", "why": "Brushstalker is a stealthed global style travel tool, so he gets to fights and objectives across the map quickly." },
+  { "tag": "burst_dive", "why": "Burrow is invulnerable for 2 seconds and Adaptation heals the damage taken over 4 seconds." }
+ ],
+ "bad_into": [
+  { "tag": "cc_heavy", "why": "Silence or stun during Drag cancels it, and Adaptation and Burrow are his only dodge tools." },
+  { "tag": "tanky_frontline", "why": "Low hero damage output and a drag that cannot move heavy targets far make him poor at breaking a front line." },
+  { "tag": "poke_comp", "why": "He has to walk into the poke and lacks a long range answer, though Essence healing helps." },
+  { "tag": "aoe_healer", "why": "Dark Swarm and Drag do not generate enough sustained pressure to overcome wide healing." }
+ ],
+ "wants_from_team": [
+  "Follow up damage after his Drag",
+  "Vision of bush paths and objectives",
+  "A carry to benefit from the picks he sets up"
+ ],
+ "gives_team": [
+  "Pick potential with Drag and Isolation",
+  "Fast rotations and map presence",
+  "Healing reduction on the focus target",
+  "Camp clear and siege through Dark Swarm"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Low hero damage",
+  "Drag is cancelled by stun or silence",
+  "Needs Essence to keep sustain up",
+  "Depends on teammates to capitalise on picks"
+ ],
+ "evidence": [
+  "Drag, Dark Swarm, Burrow, Isolation, Adaptation, Essence Collection text",
+  "Paralyzing Enzymes, Lurker Strain, Pack Leader, Apex Predator talents",
+  "Measured: win rate 0.516, hero damage 1466 per minute, siege 6414, 33.5 seconds of CC applied per game, 2200 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["role", "ratings.teamfight"]
+}

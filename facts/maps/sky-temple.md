@@ -14,7 +14,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 | Phoenix Rising Amethyst | 1-0 |
 | Roll1Esports | 1-0 |
 
-**Ranged heroes**: winners average 2.5, losers 3.0. Three or more ranged 1-2, two or fewer 1-0.
+**Ranged heroes**: winners average 2.0, losers 2.0. Three or more ranged 0-0, two or fewer 2-2.
 **Macro, winners against losers (per minute, k):** camp damage 8.18 v 5.44, structure damage 4.11 v 1.45, minion damage 13.97 v 16.94, experience 2.96 v 2.89. Deaths 8.5 v 12.0. Average length 18.2 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

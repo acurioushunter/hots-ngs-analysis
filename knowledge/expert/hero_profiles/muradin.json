@@ -1,0 +1,90 @@
+{
+  "hero": "Muradin",
+  "slug": "muradin",
+  "role": "Tank",
+  "attack": {
+    "type": "melee",
+    "range": "melee",
+    "autos_matter": 3,
+    "note": "His baseline quest, Give 'em the Axe!, Skullcracker, Bronzebeard Rage and Unstoppable Force all work through basic attacks, so he fights by sticking to a stunned or slowed target."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["single_target", "sustained"],
+    "poke": {
+      "rating": 2,
+      "kind": "skillshot",
+      "dodgeable": 3,
+      "note": "Storm Bolt is a 110 damage slow projectile with a short delay. Good for a stun pick, not a repeatable poke."
+    },
+    "heal_blunted": 3,
+    "note": "Damage is modest (1414 per minute measured, siege 1835 which is the lowest of this group). Thunder Clap, Thunder Strike and Bronzebeard Rage add area and single target damage. Bronzebeard Rage heals 75 percent of damage dealt, so healing reduction hurts him."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 2,
+    "camp_clear": 3,
+    "siege": 1,
+    "teamfight": 3,
+    "engage": 3,
+    "peel": 3,
+    "mobility": 3,
+    "self_sustain": 5,
+    "survivability": 4,
+    "objective": 2,
+    "global_presence": 0,
+    "solo_lane": 3
+  },
+  "cc": {
+    "hard": ["stun", "knockback"],
+    "soft": ["slow", "attack_speed_slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "melee_heavy", "why": "Thunder Clap with Reverberation cuts attack speed by 50 percent and Imposing Presence does the same passively, which shuts down melee and basic attack heroes. Dwarf Block stops 3 hits." },
+    { "tag": "squishy_backline", "why": "Storm Bolt (1.25 second stun) piercing with the baseline quest and Haymaker (319 damage plus a 40 second cooldown stun) pick off a backline hero, with a mage behind him." },
+    { "tag": "immobile", "why": "Heroes without a dodge are easy to hit with Storm Bolt and Heavy Impact (80 percent slow), so his stun and Thunder Burn always land." },
+    { "tag": "summons", "why": "Imposing Presence slows summons and Perfect Storm resets Storm Bolt when a summon dies. Sledgehammer deals 500 percent to summons and monsters." }
+  ],
+  "bad_into": [
+    { "tag": "mobile", "why": "The guide says he cannot peel from high mobility heroes (Tracer) and Storm Bolt is easy to dodge on them. Dwarf Toss is his only escape." },
+    { "tag": "cc_heavy", "why": "Crowd control that lands during Dwarf Toss (E.T.C. Face Melt) kills him because it is his only escape. Hardened Shield exists for this reason." },
+    { "tag": "poke_comp", "why": "Second Wind only works after 4 seconds without damage and he becomes mana starved in long fights. Constant chip means he never regenerates." },
+    { "tag": "kiter", "why": "He has one ranged tool (Storm Bolt) and a cooldown of 10 seconds. Kiters just walk away from Thunder Clap." }
+  ],
+  "wants_from_team": [
+    "mage or burst that follows Storm Bolt (Li-Ming)",
+    "a second crowd control source to chain with",
+    "healer is not required because of Second Wind and Stoneform"
+  ],
+  "gives_team": [
+    "ranged stun pick",
+    "early vision and harassment",
+    "attack speed reduction against basic attackers",
+    "Haymaker peel or Avatar tankiness"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "Dwarf Toss is the only escape and can be interrupted",
+    "weak to percent damage while in Avatar",
+    "mana runs out in long fights",
+    "low siege and wave clear",
+    "can not peel mobile heroes"
+  ],
+  "evidence": [
+    "Storm Bolt",
+    "Thunder Clap",
+    "Dwarf Toss",
+    "Second Wind",
+    "Avatar",
+    "Haymaker",
+    "Bronzebeard Rage",
+    "Reverberation",
+    "Imposing Presence",
+    "Icy Veins weaknesses and counters",
+    "measured: damage taken 4366 per minute (highest of the tank group), hero damage 1414, siege 1835, stun seconds 34.8, win rate 0.505, 2063 games"
+  ],
+  "confidence": "high",
+  "unsure": ["ratings.engage"]
+}

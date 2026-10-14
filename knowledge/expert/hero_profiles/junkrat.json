@@ -1,0 +1,89 @@
+{
+  "hero": "Junkrat",
+  "slug": "junkrat",
+  "role": "Ranged Assassin",
+  "attack": {
+    "type": "ranged",
+    "range": "long",
+    "autos_matter": 3,
+    "note": "His basic attacks are grenades with splash, and Bombs Away and Tricky Shuffles reward weaving them between Frag Launcher casts. He uses no mana at all."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": true,
+    "style": ["aoe", "sustained", "siege"],
+    "poke": {
+      "rating": 4,
+      "kind": "skillshot",
+      "dodgeable": 3,
+      "note": "Frag Launcher has incredible range, bounces off terrain and gives vision as it flies, so it pokes over walls and hits through narrow corridors. Each grenade is a slow lobbed shot that mobile heroes can avoid."
+    },
+    "heal_blunted": 4,
+    "note": "Damage is many small splash grenades (124 each) that a healer can keep up with early on. Taste For Explosions, Endless Nades and Cannonball scale it into heavy sustained damage by level 16 to 20. Measured 3125 hero damage and 6283 siege per minute, and the lowest damage taken of the team, so he sits back and shells."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 5,
+    "camp_clear": 3,
+    "siege": 5,
+    "teamfight": 4,
+    "engage": 1,
+    "peel": 3,
+    "mobility": 2,
+    "self_sustain": 0,
+    "survivability": 2,
+    "objective": 4,
+    "global_presence": 1,
+    "solo_lane": 4
+  },
+  "cc": {
+    "hard": ["root", "knockback", "silence"],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "structures", "why": "Frag Launcher and Cannonball give very high siege (about 6300 per minute measured) with no mana limit, and the late game catapult waves are cleared by the splash." },
+    { "tag": "immobile", "why": "Steel Trap and Concussion Mine are skillshots that stuck or slow heroes cannot avoid, and grenades that bounce do not miss a slow target." },
+    { "tag": "melee_heavy", "why": "Steel Trap roots and Sticky Wicket silences a hero that walks over it, Concussion Mine knocks back a diver, and Chattering Teeth chases them." },
+    { "tag": "objective_race", "why": "Frag Launcher range and Steel Trap zone enemies off channeled objectives such as Altars, Nukes and Tributes, which Icy Veins lists directly." }
+  ],
+  "bad_into": [
+    { "tag": "assassin", "why": "Concussion Mine is his only real peel and has a long cooldown, so a diver that lands on him is hard to get off, even though the trap build can punish them." },
+    { "tag": "burst_dive", "why": "He has the lowest effective health among assassins and no self heal, so a quick dive kills him before Total Mayhem trades back." },
+    { "tag": "cc_heavy", "why": "RIP-Tire needs a 1.5 second channel in which he is rooted, and stuns or silences cancel it. His shots also depend on keeping range." },
+    { "tag": "mobile", "why": "All his abilities are skillshots, so fast heroes dodge grenades and avoid Steel Trap." }
+  ],
+  "wants_from_team": [
+    "a strong frontline that keeps divers off him",
+    "a healer, since he has no self sustain",
+    "allied crowd control to hold targets in grenade splash and RIP-Tire range",
+    "a hero that covers the weak early game"
+  ],
+  "gives_team": [
+    "high wave clear and siege through splash grenades",
+    "zoning of objectives with Steel Trap and Frag Launcher",
+    "Concussion Mine displacement to isolate a target or save an ally",
+    "vision from grenades and traps in bushes"
+  ],
+  "power_spike": "late",
+  "weaknesses": [
+    "weak early game until Taste For Explosions and level 16 talents",
+    "no self sustain",
+    "very squishy to dive",
+    "RIP-Tire can be shot down and its channel interrupted"
+  ],
+  "evidence": [
+    "Frag Launcher",
+    "Concussion Mine",
+    "Steel Trap",
+    "RIP-Tire",
+    "Total Mayhem",
+    "Taste For Explosions",
+    "Cannonball",
+    "Ripper Air",
+    "Icy Veins guide strengths and counters text",
+    "measured damage 3125 per minute, siege 6283 per minute and 47 seconds of enemy crowd control per game"
+  ],
+  "confidence": "high",
+  "unsure": ["heal_blunted", "bad_into"]
+}

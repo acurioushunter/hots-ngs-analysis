@@ -1,0 +1,84 @@
+{
+  "hero": "Murky",
+  "slug": "murky",
+  "role": "Melee Assassin",
+  "attack": {
+    "type": "melee",
+    "range": "short",
+    "autos_matter": 1,
+    "note": "Slime and Pufferfish are the damage. Autos matter only with Time to Krill and Toxic Buildup, which are situational talents against melee teams."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["siege", "aoe", "zone"],
+    "poke": {
+      "rating": 2,
+      "kind": "zone",
+      "dodgeable": 4,
+      "note": "Slime is a quick area slow and Pufferfish explodes after 2.75 seconds. Both are easy to step out of or kill, so they zone more than they kill."
+    },
+    "heal_blunted": 3,
+    "note": "Slime does 86 then 210 to slimed targets and Pufferfish does 330, which is a lot but avoidable. Octo-Grab is a 3 second targeted stun that guarantees the Pufferfish and gives the team a kill window. His own damage in fights is below average (about 1420 hero damage per minute), while siege (7620) and experience (1225) are the highest in the league."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 5,
+    "camp_clear": 4,
+    "siege": 5,
+    "teamfight": 3,
+    "engage": 2,
+    "peel": 1,
+    "mobility": 2,
+    "self_sustain": 3,
+    "survivability": 3,
+    "objective": 1,
+    "global_presence": 0,
+    "solo_lane": 4
+  },
+  "cc": {
+    "hard": ["stun"],
+    "soft": ["slow"],
+    "reliability": 4
+  },
+  "good_into": [
+    { "tag": "squishy_backline", "why": "Octo-Grab stuns a target for 3 seconds with Unstoppable, so a low health priority target dies when the team follows up." },
+    { "tag": "split_push", "why": "Pufferfish and Slime clear waves instantly, March of the Murlocs forces a response, and Spawn Egg makes it costly to chase him." },
+    { "tag": "poke_comp", "why": "Spawn Egg gives a quick free return and enemies feed him a small 25 percent experience, so chip damage trades poorly for them." },
+    { "tag": "melee_heavy", "why": "Slime Time, Black Lagoon and Toxic Buildup are easiest to complete against heroes who must stay close." }
+  ],
+  "bad_into": [
+    { "tag": "burst_dive", "why": "He has the lowest health pool of any hero, and a burst assassin can kill him before Safety Bubble matters." },
+    { "tag": "kiter", "why": "Ranged heroes with mobility avoid Slime and Pufferfish and do not give him quest stacks." },
+    { "tag": "objective_race", "why": "Coin, gem and warhead objectives are dropped on death, so he is a poor carrier." }
+  ],
+  "wants_from_team": [
+    "Teammates who call and follow up on his Octo-Grab target",
+    "Damage mitigation (shields, armor, blinds)",
+    "Double soak maps and late game objectives",
+    "A team that can fight 4v5 while he soaks"
+  ],
+  "gives_team": [
+    "Waveclear and siege that frees the team to fight",
+    "A 3 second stun for picks",
+    "Experience and soak that drains the enemy",
+    "Egg vision that reveals stealth"
+  ],
+  "power_spike": "late",
+  "weaknesses": [
+    "Extremely fragile, the lowest health in the game",
+    "Weak early game",
+    "Poor on collect objectives",
+    "Damage can be avoided by playing defensively"
+  ],
+  "evidence": [
+    "Spawn Egg trait: respawn after 8 seconds and only 25 percent experience",
+    "Slime, Pufferfish, Safety Bubble",
+    "Octo-Grab and March of the Murlocs heroics",
+    "A Fishy Deal, Slime Time, Toxic Buildup, Never-Ending Murlocs talents",
+    "Icy Veins guide: good waveclear, extremely fragile, late game and double soak maps",
+    "Measured: about 1424 hero damage, 7620 siege, 2470 damage taken, 1225 xp per minute, win rate 0.500 over 48 games"
+  ],
+  "confidence": "medium",
+  "unsure": ["damage.carry", "ratings.teamfight"]
+}

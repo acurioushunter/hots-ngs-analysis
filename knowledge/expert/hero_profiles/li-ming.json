@@ -1,0 +1,90 @@
+{
+  "hero": "Li-Ming",
+  "slug": "li-ming",
+  "role": "Ranged Assassin",
+  "attack": {
+    "type": "ranged",
+    "range": "long",
+    "autos_matter": 1,
+    "note": "Magic Missiles, Arcane Orb and Teleport with Calamity are the damage. Charged Blast and Cannoneer exist but Icy Veins calls basic attack weaving too dangerous for her."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": true,
+    "style": ["burst", "sustained", "aoe"],
+    "poke": {
+      "rating": 5,
+      "kind": "skillshot",
+      "dodgeable": 3,
+      "note": "Magic Missiles (3 second cooldown, cheap) is the highest damage per second ability in the game when all missiles land, and Arcane Orb grows with distance. Both are skillshots, so hits are inconsistent against movers until allied crowd control or Fireflies help."
+    },
+    "heal_blunted": 2,
+    "note": "Missiles plus Orb plus Calamity burst a squishy target, and Critical Mass resets every cooldown on a takedown, so a kill snowballs through healing. Without a kill she is just damage. Measured 3160 hero damage per minute, with 943 damage taken and only 1.4 deaths per game, the lowest of this group, so she damages from a safe range."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 4,
+    "camp_clear": 4,
+    "siege": 4,
+    "teamfight": 3,
+    "engage": 1,
+    "peel": 2,
+    "mobility": 3,
+    "self_sustain": 1,
+    "survivability": 2,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 3
+  },
+  "cc": {
+    "hard": ["knockback"],
+    "soft": ["slow"],
+    "reliability": 1
+  },
+  "good_into": [
+    { "tag": "immobile", "why": "Magic Missiles and the slow Arcane Orb land fully on targets with no dodge, and Triumvirate and Zei's Vengeance reward free max range hits." },
+    { "tag": "squishy_backline", "why": "Missiles, Orb and Disintegrate kill a fragile hero outright and Critical Mass resets every cooldown for the next target." },
+    { "tag": "single_target_healer", "why": "One burst combo of missiles, Orb and Calamity exceeds what a single target heal undoes, and the takedown refreshes her kit before a heal can matter." },
+    { "tag": "poke_comp", "why": "She outranges most heroes with long range abilities and Force Armor absorbs ability heavy poke, which lets her trade from safety." }
+  ],
+  "bad_into": [
+    { "tag": "assassin", "why": "Icy Veins lists melee assassins as her main weakness. She has Teleport only and Diamond Skin as a shield, so a diver who jumps on her wins unless she gets an early kill." },
+    { "tag": "summons", "why": "Magic Missiles and Arcane Orb hit the first enemy, so clones, summons and minions soak them and waste her cooldowns." },
+    { "tag": "stealth", "why": "She cannot target what she does not see, and Icy Veins lists stealthed heroes as a counter; Disintegrate spinning only reveals in a pinch." },
+    { "tag": "tanky_frontline", "why": "Arcane Orb and the missiles hit the first target, so a tank in front takes them and she cannot reach the backline." },
+    { "tag": "mobile", "why": "Missiles and Orb are skillshots that fast heroes sidestep, and without kills Critical Mass never triggers." }
+  ],
+  "wants_from_team": [
+    "reliable crowd control so every missile and Orb hits",
+    "a tank to peel divers, because she has little self peel",
+    "teammates who set up kills she can finish for a reset",
+    "vision of the lane so she can fire from max range"
+  ],
+  "gives_team": [
+    "the highest long range sustained damage of her class",
+    "strong siege and wave clear from missiles",
+    "Wave of Force or Disintegrate as interrupt or finisher",
+    "snowball resets that win a fight after one kill"
+  ],
+  "power_spike": "early",
+  "weaknesses": [
+    "very fragile to melee assassins",
+    "all damaging abilities are skillshots",
+    "little team utility beyond damage",
+    "almost no crowd control without Wave of Force"
+  ],
+  "evidence": [
+    "Critical Mass",
+    "Magic Missiles",
+    "Arcane Orb",
+    "Teleport",
+    "Calamity",
+    "Mirrorball",
+    "Disintegrate",
+    "Wave of Force",
+    "Icy Veins guide strengths and counters text",
+    "measured damage 3160 per minute, 943 taken per minute and 1.4 deaths per game"
+  ],
+  "confidence": "high",
+  "unsure": ["heal_blunted", "power_spike"]
+}

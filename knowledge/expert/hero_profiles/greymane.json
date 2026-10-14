@@ -1,0 +1,84 @@
+{
+ "hero": "Greymane",
+ "slug": "greymane",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "hybrid",
+  "range": "medium",
+  "autos_matter": 5,
+  "note": "Human form has ranged basic attacks (about 5.5 range), Worgen form is melee with 40 percent more damage and 10 armor. Darkflight, Disengage, Cursed Bullet and Go for the Throat switch form. Almost all damage is basic attacks boosted by Inner Beast."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "percent_health", "burst"],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Gilnean Cocktail hits the first enemy for 55 and everything behind for 220 in a cone, and Hunter's Blunderbuss makes human basic attacks splash. Cursed Bullet should not be used as poke because healing undoes it."
+ },
+  "heal_blunted": 2,
+  "note": "Sustained basic attack damage with Inner Beast attack speed, Alpha Killer (3 percent max health), and Cursed Bullet (35 percent of current health) are not much blunted by healing. Worgen burst from Darkflight plus Go for the Throat kills squishy targets quickly. Measured hero damage about 2590 per minute and siege about 5020, and merc camps 6.2 per game (highest of the batch), so he is a strong single target PvE and duel hero."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 5,
+  "siege": 4,
+  "teamfight": 3,
+  "engage": 2,
+  "peel": 0,
+  "mobility": 4,
+  "self_sustain": 0,
+  "survivability": 2,
+  "objective": 4,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": [],
+  "soft": [],
+  "reliability": 0
+ },
+ "good_into": [
+  {"tag": "tanky_frontline", "why": "Cursed Bullet deals 35 percent of current health, so it is best on tanks at full health, and Alpha Killer adds 3 percent max health per Worgen attack."},
+  {"tag": "ranged_heavy", "why": "The guide says he does well against comps full of mages, who are weak to a melee dive. Darkflight and Go for the Throat close the gap."},
+  {"tag": "squishy_backline", "why": "Gilnean Cocktail then Darkflight then Go for the Throat kills a squishy target in a burst, and Go for the Throat resets on a kill."},
+  {"tag": "summons", "why": "Basic attacks cleave with Tooth and Claw and splash with Hunter's Blunderbuss, and he gets camps and summons down quickly."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "He has no hard crowd control and no sustain, and stuns, roots, blinds or attack speed debuffs cripple a basic attack hero in Worgen form."},
+  {"tag": "assassin", "why": "He has no defensive ability except Eyes in the Dark and Disengage, and faster burst heroes kill him in return."},
+  {"tag": "burst_dive", "why": "Low survivability and no self healing, so a dive comp can kill him before Worgen burst."},
+  {"tag": "kiter", "why": "Kiters poke him in Human form with longer range and can be hard to commit on if Darkflight is down."}
+ ],
+ "wants_from_team": [
+  "Crowd control and slows to turn on Lord of His Pack and Cursed Bullet",
+  "A strong initiator and frontline to open windows for the dive",
+  "A healer, since he cannot heal himself",
+  "Teammates who poke targets under 50 percent health first"
+ ],
+ "gives_team": [
+  "Outstanding single target damage and fast camp clear",
+  "Burst against tanks with Cursed Bullet",
+  "Flexible human and Worgen forms that suit most comps",
+  "Strong objective damage against bosses and structures"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "No utility, crowd control or healing beyond damage",
+  "Low survivability, weak when playing from behind",
+  "Telegraphed playstyle and vulnerable to blinds and attack speed slows",
+  "Worgen builds need to commit in melee range"
+ ],
+ "evidence": [
+  "Curse of the Worgen form switching",
+  "Inner Beast, Gilnean Cocktail, Razor Swipe, Darkflight, Disengage",
+  "Go for the Throat, Cursed Bullet, Alpha Killer, Lord of His Pack",
+  "Icy Veins guide role and counters",
+  "Measured block: damage per minute about 2590, siege about 5020, merc camps 6.2 per game, win rate 0.481 over 1582 games"
+ ],
+ "confidence": "high",
+ "unsure": ["attack.range", "damage.heal_blunted"]
+}

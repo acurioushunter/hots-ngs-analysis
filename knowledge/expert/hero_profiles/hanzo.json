@@ -1,0 +1,88 @@
+{
+  "hero": "Hanzo",
+  "slug": "hanzo",
+  "role": "Ranged Assassin",
+  "attack": {
+    "type": "ranged",
+    "range": "long",
+    "autos_matter": 3,
+    "note": "Storm Bow (channeled, range grows while charging) is the main damage, but Flawless Technique, Sharpened Arrowheads and Giant Slayer all weave basic attacks between arrows, so autos matter in most builds."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": true,
+    "style": ["poke", "single_target", "burst"],
+    "poke": {
+      "rating": 4,
+      "kind": "skillshot",
+      "dodgeable": 4,
+      "note": "Storm Bow with Target Practice is one of the longest range pokes in the game, but it is a thin linear shot that a mobile hero sidesteps and a minion or tank blocks."
+    },
+    "heal_blunted": 2,
+    "note": "Hits are large and aimed at one target (291 per Storm Bow, Dragon's Arrow up to 390 plus a stun), so a single heal per target has trouble outhealing a focused squishy. Measured 3223 hero damage per minute, high, but only 4079 siege, so the damage goes into heroes, not structures."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 3,
+    "camp_clear": 3,
+    "siege": 3,
+    "teamfight": 3,
+    "engage": 3,
+    "peel": 1,
+    "mobility": 3,
+    "self_sustain": 0,
+    "survivability": 1,
+    "objective": 2,
+    "global_presence": 3,
+    "solo_lane": 2
+  },
+  "cc": {
+    "hard": ["stun"],
+    "soft": ["slow"],
+    "reliability": 2
+  },
+  "good_into": [
+    { "tag": "immobile", "why": "Storm Bow and Dragon's Arrow are skillshots, so heroes with no sidestep or gap closer eat every arrow and the Dragon's Arrow stun." },
+    { "tag": "squishy_backline", "why": "Flawless Technique and The Dragon Hungers stack burst on one target and Dragon's Arrow stuns several fragile heroes at once." },
+    { "tag": "tanky_frontline", "why": "Giant Slayer deals 1.6 percent of maximum health per hit and Sharpened Arrowheads shreds armor, so large health pools are not a problem." },
+    { "tag": "aoe_healer", "why": "Area heals spread their output across the team while Hanzo piles damage on one target, so area healers undo less of it than a focused heal would." }
+  ],
+  "bad_into": [
+    { "tag": "assassin", "why": "He has no self peel and Natural Agility is a 25 second cooldown jump that fast heroes can follow over the wall (Icy Veins notes this directly)." },
+    { "tag": "mobile", "why": "Storm Bow and Scatter Arrow are easy to dodge for fast heroes, and Target Practice becomes hard to complete." },
+    { "tag": "stealth", "why": "A hero that disappears from sight and then dives ignores his vision tools and punishes his lack of defense, though Sonic Arrow reveals for a moment." },
+    { "tag": "burst_dive", "why": "With no self sustain and a thin health pool, one dive combo kills him before Natural Agility returns." }
+  ],
+  "wants_from_team": [
+    "frontline that creates space and absorbs engages",
+    "crowd control to set up Storm Bow and Dragon's Arrow follow up",
+    "vision of terrain so Scatter Arrow and Natural Agility angles exist",
+    "a healer, because he has no sustain of his own"
+  ],
+  "gives_team": [
+    "Dragon's Arrow, a global stun that works as an engage or follow up",
+    "vision from Sonic Arrow in bushes and over walls",
+    "long range poke that forces enemies off objectives",
+    "Bullseye stun to cancel channels from afar"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "no self sustain",
+    "very squishy and easy to dive",
+    "dependent on landing skillshots, which good players dodge",
+    "weak against Abathur because Target Practice cannot be completed"
+  ],
+  "evidence": [
+    "Storm Bow",
+    "Scatter Arrow",
+    "Dragon's Arrow",
+    "Natural Agility",
+    "Target Practice",
+    "Flawless Technique",
+    "Giant Slayer",
+    "Icy Veins guide counters text",
+    "measured damage 3223 per minute and siege 4079 per minute"
+  ],
+  "confidence": "high",
+  "unsure": ["heal_blunted", "good_into"]
+}

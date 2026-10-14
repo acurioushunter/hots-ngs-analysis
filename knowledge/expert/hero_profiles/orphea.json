@@ -1,0 +1,89 @@
+{
+ "hero": "Orphea",
+ "slug": "orphea",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "short",
+  "autos_matter": 3,
+  "note": "She has a ranged auto but wants to hit with it on purpose: Overflowing Chaos makes the basic attack after a hit deal 50 percent more per stack and heal for all of it. Her main damage, Chomp, has very short reach, so she fights close to the target."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["sustained", "burst", "aoe"],
+  "poke": {
+   "rating": 2,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Dread is a long range, delayed wave plus eruption that slows, and Shadow Waltz is a 0.5 second cast line. Neither is reliable poke because she is built to commit with Shadow Waltz dash into Chomp, not to trade from afar."
+  },
+  "heal_blunted": 2,
+  "note": "Shadow Waltz recasts every 2 seconds on a Hero hit, Chomp hits for 305, and Dead Magic autos ignore armor. She trades with healing by healing herself from Chaos autos. Enemy healing matters less than enemy crowd control, because a single stun cancels her Chomp and dash, as the guide says. Measured 2926 hero damage per minute is above median and 5.0 merc camps per game is the highest of this set."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 4,
+  "siege": 2,
+  "teamfight": 3,
+  "engage": 1,
+  "peel": 2,
+  "mobility": 3,
+  "self_sustain": 4,
+  "survivability": 2,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": ["pull", "stun"],
+  "soft": ["slow"],
+  "reliability": 2
+ },
+ "good_into": [
+  {"tag": "tanky_frontline", "why": "Dead Magic autos ignore Armor and Engulfing Oblivion removes 50 Armor with Crushing Jaws, so Warriors and armored Tanks like Mal'Ganis, E.T.C. and Garrosh melt, and her Chaos heals fully."},
+  {"tag": "melee_heavy", "why": "Melee heroes have to walk into Chomp range, Invasive Miasma heals her as they stand beside her and Backbiter moves her away after a hit."},
+  {"tag": "low_sustain_healer", "why": "Her damage is spread across Waltz and Chomp cooldowns on one target and a single target burst healer cannot cover it, while her own healing outlasts theirs."},
+  {"tag": "squishy_backline", "why": "Crushing Jaws pull then Chomp and Shadow Waltz can solo a squishy that is caught, and Lurking Terror chases high range backliners."},
+  {"tag": "immobile", "why": "Chomp and Eternal Feast hit stationary or rooted targets for the full multiple hits, as the guide says to use Eternal Feast on immobilized enemies."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "The guide says any crowd control greatly reduces her damage and survivability: stuns cancel Shadow Waltz and the dash, and the cast time of Chomp is easy to interrupt."},
+  {"tag": "kiter", "why": "Chomp needs proximity and the guide calls the Chomp build terrible against high range enemies, so a kiter simply retreats."},
+  {"tag": "ranged_heavy", "why": "Enemy backliners poke her down while she has to dash in, and her only range tool Dread is slow and avoidable."},
+  {"tag": "burst_dive", "why": "Dive kills her before Chaos heals matter, because Shadow Waltz is a 0.5 second cast and she has no escape beyond the dash."},
+  {"tag": "high_sustain_healer", "why": "Her sustained trading needs a target to drop, and an AoE healer such as Brightwing or Stukov heals back the Shadow Waltz and Dread chip faster than it lands, so she needs Crushing Jaws to break through."}
+ ],
+ "wants_from_team": [
+  "Crowd control to set up Crushing Jaws and Chomp",
+  "A roaming group, since she is strongest next to other heroes",
+  "An XP lead, because she snowballs from it",
+  "A frontline that keeps enemy melee off her"
+ ],
+ "gives_team": [
+  "Pull and 0.5 second stun with Crushing Jaws",
+  "Strong camp clearing and lane presence",
+  "Armor ignoring damage into tanks",
+  "Area denial with Eternal Feast"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Collapses to any hard crowd control",
+  "Short reach on her best ability",
+  "Weak at siege and at objective control from range",
+  "Relies on allied crowd control"
+ ],
+ "evidence": [
+  "Overflowing Chaos",
+  "Shadow Waltz",
+  "Chomp",
+  "Crushing Jaws",
+  "Dead Magic",
+  "Engulfing Oblivion",
+  "Icy Veins guide and build notes",
+  "MEASURED block: hero damage 2926 per minute, 5.0 camps per game, 98 seconds dead per game, 0.527 win rate over 757 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["damage.ranged_dealer", "attack.range"]
+}

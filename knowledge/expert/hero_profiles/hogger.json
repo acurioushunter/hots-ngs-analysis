@@ -1,0 +1,71 @@
+{
+ "hero": "Hogger",
+ "slug": "hogger",
+ "role": "Bruiser",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 4,
+  "note": "Rage builds from autos and abilities, then drives Seeing Red attack speed, Furzerker stacking auto bonuses and Bloodthirst lifesteal. Autos are central."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["burst", "single_target", "percent_health"],
+  "poke": { "rating": 1, "kind": "skillshot", "dodgeable": 3, "note": "Ez-Thro Dynamite is a slow lobbed skillshot, only light poke." },
+  "heal_blunted": 2,
+  "note": "Staggering Blow with Headbanger adds 8 percent of maximum health and a long stun, Furzerker stacks empowered autos and Bloodthirst heals him, so he kills single targets through healing. Hogg Wild and Loot Hoard add area damage and slows."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 5,
+  "siege": 4,
+  "teamfight": 3,
+  "engage": 3,
+  "peel": 2,
+  "mobility": 3,
+  "self_sustain": 4,
+  "survivability": 3,
+  "objective": 3,
+  "global_presence": 2,
+  "solo_lane": 4
+ },
+ "cc": { "hard": ["stun", "knockback"], "soft": ["slow"], "reliability": 3 },
+ "good_into": [
+  { "tag": "squishy_backline", "why": "Staggering Blow stuns a target into terrain, Headbanger takes 8 percent of max health and Shockwave stuns a lane of heroes." },
+  { "tag": "high_sustain_healer", "why": "Percent health and burst through Headbanger and Shockwave damage ignore healing mostly, and Bloodthirst makes him out heal them." },
+  { "tag": "tanky_frontline", "why": "Percent maximum health damage from Headbanger and armor reduction from Power Spike counters tanks." },
+  { "tag": "structures", "why": "Camp clear is the best in this set (4.6 camps per game), and Hoardapult can speed up objective pressure." }
+ ],
+ "bad_into": [
+  { "tag": "cc_heavy", "why": "Hogg Wild and Staggering Blow need to land, and stuns or silences interrupt his combo." },
+  { "tag": "kiter", "why": "Slow ranged heroes can avoid Staggering Blow, and Ez-Thro Dynamite is easily dodged." },
+  { "tag": "burst_dive", "why": "Armor and Rage heals take time, and burst before Rage builds kills him." },
+  { "tag": "ranged_heavy", "why": "He must walk into ranged heroes with limited gap closers beyond Hogg Wild." }
+ ],
+ "wants_from_team": [
+  "Follow up crowd control or damage after Staggering Blow",
+  "A healer to boost his sustain with Hogger's Joggers",
+  "Objective timings for merc camps"
+ ],
+ "gives_team": [
+  "Strong camp control and sieges",
+  "Shockwave long line stun for team engage",
+  "Hoardapult slow zone for objectives",
+  "Solo lane pressure"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Rage dependent",
+  "Needs to connect abilities",
+  "Weak at range",
+  "Relies on cooldown refresh"
+ ],
+ "evidence": [
+  "Talent text: Headbanger, Seeing Red, Bloodthirst, Furzerker, Hoardapult, Shockwave",
+  "Measured: win rate 0.506, hero damage 2079, siege 6037, 4.6 merc camps per game, 1920 games"
+ ],
+ "confidence": "low",
+ "unsure": ["role", "damage.style", "ratings", "cc", "attack.autos_matter"]
+}

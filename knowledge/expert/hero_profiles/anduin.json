@@ -1,0 +1,45 @@
+{
+ "hero": "Anduin",
+ "slug": "anduin",
+ "role": "Healer",
+ "attack": {"type": "ranged", "range": "medium", "autos_matter": 2, "note": "Autos heal the lowest ally nearby with Pursued By Grace, refresh Renew, and with Moral Compass and Varian's Legacy become a small damage and self heal source. He stays at the back so autos are used when safe."},
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["poke", "single_target"],
+  "poke": {"rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Divine Star hits for 140 on the way out and heals on the way back, Chastise is a slow projectile for 175 and a 1.25 second root. Neither is hard to dodge."},
+  "heal_blunted": 3,
+  "note": "Damage is minor (935 per minute measured). Lightbomb gives a delayed 1.25 second stun in an area and Holy Nova adds a little splash."
+ },
+ "healing": {
+  "style": ["single_target", "burst", "shield", "hot"],
+  "sustain": 3,
+  "burst_heal": 4,
+  "aoe": 2,
+  "range": "medium",
+  "mana_pressure": 2,
+  "positioning_risk": 3,
+  "note": "Flash Heal is a 0.75 second channel for 280 on a 5 second cooldown, and moving cancels it with no cooldown. Desperate Prayer, Holy Word: Salvation (30% maximum Health, Protected) and Leap of Faith (pull plus unstoppable) are his burst tools. Lightwell and Renew give sustain but his area healing is thin."
+ },
+ "ratings": {"wave_clear": 2, "camp_clear": 2, "siege": 2, "teamfight": 4, "engage": 3, "peel": 4, "mobility": 1, "self_sustain": 2, "survivability": 2, "objective": 3, "global_presence": 0, "solo_lane": 0},
+ "cc": {"hard": ["root", "stun", "pull"], "soft": ["slow"], "reliability": 2},
+ "good_into": [
+  {"tag": "assassin", "why": "Leap of Faith pulls the target out and makes him Unstoppable for the travel, which denies one target burst, and Desperate Prayer or Holy Word: Salvation give an instant answer to a combo. The guide calls him a strong choice against comps that burst one hero."},
+  {"tag": "melee_heavy", "why": "Chastise roots the first hero in a line and Lightbomb stuns a clump that reaches the target, so melee heroes that walk up get a hard stop. Censure adds a stun to Chastise."},
+  {"tag": "squishy_backline", "why": "Chastise as a follow up to a tank's engage and a Lightbomb on an engaging ally leave an enemy backline with little time to react."},
+  {"tag": "burst_dive", "why": "Leap of Faith and Holy Word: Salvation answer a focused combo, but only on one ally at a time and only if he is not the target himself. Better against dive on his allies than dive on him."}
+ ],
+ "bad_into": [
+  {"tag": "poke_comp", "why": "Area healing is low and Lightwell only heals one target every few seconds, so a team that chips five targets all fight long drains him. Renew and Divine Star help but do not scale with groups."},
+  {"tag": "mobile", "why": "Chastise is a slow projectile that mobile heroes dodge and Lightbomb has a 1.5 second fuse, so his CC is easy to avoid and he cannot catch them."},
+  {"tag": "cc_heavy", "why": "Stuns and roots cancel the Holy Word: Salvation channel and Flash Heal, and he has no escape himself. Chained CC on him ends his usefulness, and Leap of Faith cannot target himself."},
+  {"tag": "assassin", "why": "He channels Flash Heal standing still with no mobility, so a diver like Sonya or Zeratul who reaches him leaves Leap of Faith as the only answer and it is for one ally."}
+ ],
+ "wants_from_team": ["A tank with a stun, root or slow so Chastise always lands", "Heroes who can use a Lightbomb (Thrall, Muradin, Sylvanas with mobility)", "Peel in front of him, since he has no mobility", "Allies who lack escapes (Diablo, Raynor) to use Leap of Faith on"],
+ "gives_team": ["Leap of Faith, one of the best save abilities in the game", "Burst healing for focused targets", "Lightbomb engage or follow up stun", "A baseline cleanse and Protected in the Heroic"],
+ "power_spike": "level_20",
+ "weaknesses": ["No mobility and stands still to heal", "Low area healing", "Leap of Faith only helps one ally every 70 seconds", "Measured win rate of 0.473 across 3667 games is below even"],
+ "evidence": ["Flash Heal, Divine Star, Chastise, Leap of Faith, Lightbomb, Holy Word: Salvation text", "Desperate Prayer, Renew, Light of Stormwind, Censure, Varian's Legacy talents", "Icy Veins guide: strong burst healing, low area healing, standing still, weak to dive and poke", "MEASURED block: 3388 healing per minute, 33.4 seconds of enemy CC per game, win rate 0.473, 3667 games"],
+ "confidence": "medium",
+ "unsure": ["good_into squishy_backline", "power_spike", "heal_blunted"]
+}

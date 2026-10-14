@@ -1,0 +1,85 @@
+{
+ "hero": "Falstad",
+ "slug": "falstad",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 3,
+  "note": "The guide's recommended build is basic attacks (Frequent Flyer, Secret Weapon, Sustained Winds, Hammer Gains), which gives percent health damage that goes through armor. The Hammerang and Lightning Rod builds lean on abilities."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "single_target", "poke"],
+  "poke": {
+   "rating": 3,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Hammerang is a slow skillshot with an explosion and a slow that sets up basic attacks. Lightning Rod cannot miss but breaks if the target leaves its range, so it is a pursuit damage over time."
+  },
+  "heal_blunted": 3,
+  "note": "Damage is sustained single target through basic attacks and Lightning Rod strikes, with Hinterland Blast as an occasional big hit. Measured hero damage per minute is only modestly above the league median (about 2260 against 2060), while win rate is the highest in this batch (0.544 over 1956 games), so his value is global presence and Mighty Gust more than raw damage."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 4,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 1,
+  "peel": 4,
+  "mobility": 4,
+  "self_sustain": 2,
+  "survivability": 2,
+  "objective": 4,
+  "global_presence": 5,
+  "solo_lane": 4
+ },
+ "cc": {
+  "hard": ["knockback"],
+  "soft": ["slow"],
+  "reliability": 4
+ },
+ "good_into": [
+  {"tag": "burst_dive", "why": "Mighty Gust is a 60 second area knockback with a slow that splits a dive from its target. The guide calls him an excellent counterpick to dive comps, and Flight makes him Unstoppable for a moment."},
+  {"tag": "split_push", "why": "Flight is a global with a 75 second cooldown, so he soaks lanes and joins fights, and he can answer side lane pressure."},
+  {"tag": "objective_race", "why": "Mighty Gust (and Wind Tunnel at level 20) pushes enemies off capture points, can steal boss camps, and Flight rotates quickly to objectives."},
+  {"tag": "melee_heavy", "why": "Hammerang slows and Mighty Gust keeps melee heroes from reaching the backline, and Lightning Rod punishes them for trying to run."},
+  {"tag": "single_target_healer", "why": "The guide specifically calls out Kharazim and Uther as healers who rely on positioning, which Mighty Gust ruins."}
+ ],
+ "bad_into": [
+  {"tag": "assassin", "why": "Frail, and when Barrel Roll and Mighty Gust are spent, a high damage assassin with a gap closer kills him. The guide says to stay near the healer against such heroes."},
+  {"tag": "cc_heavy", "why": "Crowd control stops both Barrel Roll and Flight (Flight can be interrupted during its channel). He relies on mobility to survive."},
+  {"tag": "poke_comp", "why": "He cannot safely stand near the objective against long range poke, and his early damage is mediocre."},
+  {"tag": "stealth", "why": "No reveal in his kit and he relies on range and positioning."}
+ ],
+ "wants_from_team": [
+  "A frontline tank that draws attention and provides follow up crowd control",
+  "Shields or peel because his health pool is small",
+  "Poke or mage damage to use BOOMerang spell armor shred",
+  "A team that can hold the objective while he soaks side lanes"
+ ],
+ "gives_team": [
+  "Global rotation and soak that gives an experience lead",
+  "Mighty Gust for disengage, objective control, boss steals and anti dive",
+  "Decent wave and camp clear from range",
+  "Percent health damage against armoured frontlines in the basic attack build"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Needs very good positioning",
+  "Mediocre damage in the early game",
+  "Vulnerable to crowd control and gap closers",
+  "Barrel Roll is his only mobility besides a long cooldown Flight"
+ ],
+ "evidence": [
+  "Flight, Mighty Gust, Barrel Roll, Tailwind",
+  "Lightning Rod, Hammerang, Hinterland Blast",
+  "Frequent Flyer, Sustained Winds, Wind Tunnel, Epic Mount",
+  "Icy Veins role in meta: preferred when a team needs a global",
+  "Measured block: hero damage about 2260 per minute, win rate 0.544 over 1956 games"
+ ],
+ "confidence": "high",
+ "unsure": ["damage.heal_blunted", "bad_into.assassin versus good_into.burst_dive"]
+}

@@ -1,0 +1,71 @@
+{
+ "hero": "Leoric",
+ "slug": "leoric",
+ "role": "Bruiser",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 4,
+  "note": "Autos carry Spectral Leech (2.5 percent max health and heals for 200 percent) and Mithril Mace attack speed. Skeletal Swing is a short arc ability that refunds off creeps."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["sustained", "percent_health", "single_target"],
+  "poke": { "rating": 0, "kind": "none", "dodgeable": 3, "note": "No poke. Skeletal Swing slow is melee range." },
+  "heal_blunted": 2,
+  "note": "Drain Hope heals him for 25 percent max health and deals 15 percent maximum health with Crushing Hope, and Spectral Leech adds percent health autos, so he fights through healing. March of the Black King adds Unstoppable burst."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 3,
+  "engage": 2,
+  "peel": 2,
+  "mobility": 2,
+  "self_sustain": 5,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 1,
+  "solo_lane": 5
+ },
+ "cc": { "hard": ["silence"], "soft": ["slow"], "reliability": 2 },
+ "good_into": [
+  { "tag": "tanky_frontline", "why": "Crushing Hope and Spectral Leech add percent maximum health damage that scales on high health targets." },
+  { "tag": "melee_heavy", "why": "Drain Hope and Spectral Leech heal him in brawls, Ominous Wraith reduces damage of contacted heroes by 50 percent." },
+  { "tag": "split_push", "why": "Best siege in my set (6857 per minute), wave clear and solo lane. He holds lanes alone." },
+  { "tag": "poke_comp", "why": "Drain Hope, Ossein Renewal and Shroud of the Dead King make him very hard to chip down." }
+ ],
+ "bad_into": [
+  { "tag": "kiter", "why": "Every ability needs melee range and his mobility is Wraith Walk only." },
+  { "tag": "cc_heavy", "why": "Drain Hope and Wraith Walk are cast channels and stuns or silences cancel them, and only Shroud arrives at level 20." },
+  { "tag": "burst_dive", "why": "Seconds dead is the highest in this set (122) as he is exposed in fights while shoving lanes." },
+  { "tag": "ranged_heavy", "why": "Cannot reach ranged heroes without Wraith Walk." }
+ ],
+ "wants_from_team": [
+  "Teammates who can protect him from crowd control",
+  "Crowd control to hold targets in Skeletal Swing range",
+  "Vision to avoid ganks while soloing a lane"
+ ],
+ "gives_team": [
+  "Strong solo lane and quick structure kills",
+  "Entomb to split the enemy team or cut off escapes",
+  "Drain Hope sustained fighting in objective fights",
+  "Unstoppable March of the Black King engage"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Easily kited",
+  "Interruptible channels",
+  "Exposed while soloing",
+  "Low team fight engage tools"
+ ],
+ "evidence": [
+  "Talent text: Drain Hope, Spectral Leech, Entomb, March of the Black King, Shroud of the Dead King",
+  "Measured: win rate 0.498, siege 6857 per minute (very high), damage taken 3667, 122 seconds dead per game, 2368 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["ratings.teamfight", "cc.reliability"]
+}

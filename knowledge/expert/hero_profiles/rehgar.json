@@ -1,0 +1,88 @@
+{
+  "hero": "Rehgar",
+  "slug": "rehgar",
+  "role": "Healer",
+  "attack": {
+    "type": "hybrid",
+    "range": "short",
+    "autos_matter": 3,
+    "note": "Basic attacks are short range and Ghost Wolf lunge attacks deal 60 percent bonus damage, which is how he clears camps. Hunger of the Wolf and Blood and Thunder build on wolf attacks."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["aoe", "dot", "zone"],
+    "poke": { "rating": 1, "kind": "zone", "dodgeable": 2, "note": "Lightning Shield deals 64 per second to nearby enemies while it is on an ally, and Earthgrasp Totem gives a 90 damage burst and near root. Real damage is vs minions and camps. Measured hero damage 669 per minute, the lowest of the group." },
+    "heal_blunted": 4,
+    "note": "The damage is area dot and is easy to heal through. It mostly clears waves and mercenary camps."
+  },
+  "healing": {
+    "style": ["aoe", "burst", "shield", "mobility_buff"],
+    "sustain": 3,
+    "burst_heal": 4,
+    "aoe": 3,
+    "range": "medium",
+    "mana_pressure": 3,
+    "positioning_risk": 2,
+    "note": "Chain Heal bounces to three Heroes for 260 each, which is decent sustain but the guide notes limited single target sustain into poke on a lone tank. Ancestral Healing is 1180 after a 1 second delay, so the burst heal needs prediction and is blunted by healing reduction. Earth Shield and Elemental Conduit give shields to cover the delay. Farseer's Blessing makes it a second AoE heal."
+  },
+  "ratings": {
+    "wave_clear": 4,
+    "camp_clear": 5,
+    "siege": 3,
+    "teamfight": 3,
+    "engage": 2,
+    "peel": 3,
+    "mobility": 3,
+    "self_sustain": 2,
+    "survivability": 3,
+    "objective": 2,
+    "global_presence": 0,
+    "solo_lane": 2
+  },
+  "cc": {
+    "hard": [],
+    "soft": ["slow"],
+    "reliability": 3
+  },
+  "good_into": [
+    { "tag": "burst_dive", "why": "Ancestral Healing, Earth Shield and Elemental Conduit are built for burst and Purge frees an ally from crowd control. The guide names burst compositions as his best matchup." },
+    { "tag": "melee_heavy", "why": "Earthbind Totem with Grounded Totem and Earthgrasp Totem slows melee Heroes by 90 percent for a second, cutting their attack speed and spell power in the area." },
+    { "tag": "cc_heavy", "why": "Purge on an ally gives a free 0.5 second Unstoppable on a 60 second cooldown, and Purification heals when it removes a stun, root, slow or silence." },
+    { "tag": "split_push", "why": "He clears waves and camps alone with Lightning Shield and Ghost Wolf, so he can soak lanes or take camps when the enemy rotates." }
+  ],
+  "bad_into": [
+    { "tag": "poke_comp", "why": "The guide names constant single target pressure on a tank as his weakness, because Chain Heal is moderate sustain and Ancestral Healing is a one time burst." },
+    { "tag": "kiter", "why": "Short range Ghost Wolf and a small slow do not catch kiters, and his damage vs Heroes is minimal without lunging in." },
+    { "tag": "ranged_heavy", "why": "Long range damage dealers hit him and his team without anything to answer back, and his Lightning Shield does nothing at range." },
+    { "tag": "assassin", "why": "Ancestral Healing has a 1 second delay and if its target dies in that window he waits 10 seconds, and he has no hard crowd control or interrupt." }
+  ],
+  "wants_from_team": [
+    "Bruisers and melee assassins to receive Lightning Shield and Bloodlust",
+    "A frontline that can absorb damage while Chain Heal bounces",
+    "Hard crowd control, since he has none",
+    "Map pressure he can add by taking camps himself"
+  ],
+  "gives_team": [
+    "Mercenary camp and lane control from a healer slot",
+    "Burst protection with Ancestral Healing and shields",
+    "Bloodlust attack speed and move speed with life steal",
+    "Purge cleanse for one ally"
+  ],
+  "power_spike": "level_10",
+  "weaknesses": [
+    "No hard crowd control or interrupt",
+    "Limited single target sustain into poke",
+    "Healing reduction such as Biotic Grenade blunts Ancestral Healing",
+    "Purge range is low and Unstoppable is only 0.5 seconds",
+    "Weak in constant skirmish early"
+  ],
+  "evidence": [
+    "Chain Heal, Lightning Shield, Earthbind Totem, Ancestral Healing, Bloodlust, Purge, Ghost Wolf ability text",
+    "Earthgrasp Totem, Grounded Totem, Earth Shield, Elemental Conduit, Farseer's Blessing, Purification talent text",
+    "Icy Veins synergies and counters",
+    "Measured block: 5.8 merc camps per game and 1847 siege damage per minute, highest of the group, 669 hero damage"
+  ],
+  "confidence": "medium",
+  "unsure": ["attack.type", "attack.range", "ratings.siege", "ratings.survivability", "power_spike"]
+}

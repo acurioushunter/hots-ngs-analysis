@@ -1,0 +1,86 @@
+{
+ "hero": "Chromie",
+ "slug": "chromie",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 2,
+  "note": "Basic attacks are secondary, but her Echo repeats a basic attack with Sand Blast, and Bronze Talons boosts basic attack damage after a hit. Most damage is Sand Blast."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["burst", "poke", "single_target"],
+  "poke": {
+   "rating": 5,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Sand Blast has a 3 second cooldown, very low mana cost, huge range and a 0.5 second delay. The delay makes it dodgeable by careful players, but she can spam it all fight. Fast Forward and Piercing Sands push it further."
+  },
+  "heal_blunted": 2,
+  "note": "Sand Blast hits for 305 plus Echo, so a squishy target can be killed through ordinary healing, and Temporal Loop or Time Trap set up single target burst. Spread chip still helps an AoE healer, but her damage per hit is high. Measured hero damage per minute is high at about 3070, damage taken is low at about 1000 per minute, deaths are the lowest in this batch, which fits a safe long range poker."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 3,
+  "siege": 3,
+  "teamfight": 4,
+  "engage": 0,
+  "peel": 3,
+  "mobility": 1,
+  "self_sustain": 1,
+  "survivability": 2,
+  "objective": 3,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": ["stasis", "displacement"],
+  "soft": ["slow"],
+  "reliability": 3
+ },
+ "good_into": [
+  {"tag": "melee_heavy", "why": "Piercing Sands pierces clumped melee frontlines, Slowing Sands covers choke points, and Time Trap with Time Troubles strips armor from a diver. Melee heroes cannot reach her from range."},
+  {"tag": "squishy_backline", "why": "Sand Blast does 305 per hit with an Echo for 40 percent more, so squishy ranged heroes die in two or three hits at the longest range in the game."},
+  {"tag": "immobile", "why": "The 0.5 second delay on Sand Blast and Dragon's Breath is a non issue for targets that cannot sidestep, and Mobius Loop slows them further."},
+  {"tag": "low_sustain_healer", "why": "Single target burst with Temporal Loop and A Proper Greeting kills the healer or carry before a low sustain healer can undo it."},
+  {"tag": "poke_comp", "why": "Quantum Overdrive, Fast Forward and spammable Sand Blast let her out poke most other ranged assassins when she is safe behind a frontline."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "Low health, no mobility except Gnome Speed Ahead and a delayed Time Trap, so Tracer, Illidan or Zeratul style divers reach her and Time Out is her only escape."},
+  {"tag": "assassin", "why": "Fast assassins are hard to hit with a delayed projectile and can punish any bad position."},
+  {"tag": "mobile", "why": "Both main abilities have a delay, so mobile heroes dodge them."},
+  {"tag": "cc_heavy", "why": "A stun cancels her kiting and sets up a dive. Temporal Loop can also be cleansed with Unstoppable effects."},
+  {"tag": "tanky_frontline", "why": "Very beefy targets absorb Sand Blast without dying, so she needs a team to focus them."}
+ ],
+ "wants_from_team": [
+  "A frontline of a tank and a bruiser that keeps divers off her",
+  "Allied crowd control or slows so Sand Blast and Dragon's Breath land",
+  "A healer with mana support such as Malfurion or Ana",
+  "Burst damage heroes who benefit from Time Troubles armor shred"
+ ],
+ "gives_team": [
+  "Long range burst and poke that wins objective fights from a safe distance",
+  "Early level 8 Heroic power spike because Timewalker gives talents two levels early",
+  "Slowing Sands choke point control or a Temporal Loop pick",
+  "Time Trap stasis that can protect an ally or stop a diver"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Low health pool and below average mobility",
+  "Needs accurate prediction of target movement for delayed shots",
+  "Weak solo lane and no sustain",
+  "Time Trap is slow to arm and Temporal Loop can be cleansed"
+ ],
+ "evidence": [
+  "Sand Blast, Echo, Dragon's Breath, Time Trap",
+  "Timewalker trait (talents two levels early)",
+  "Slowing Sands, Temporal Loop, Piercing Sands, Time Troubles",
+  "Icy Veins guide strengths and counters",
+  "Measured block: damage per minute about 3070, damage taken about 1000 per minute, win rate 0.502 over 1617 games"
+ ],
+ "confidence": "high",
+ "unsure": ["ratings.teamfight"]
+}

@@ -1,0 +1,85 @@
+{
+ "hero": "Fenix",
+ "slug": "fenix",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "medium",
+  "autos_matter": 5,
+  "note": "Almost all damage is basic attacks in Phase Bomb (splash, more range) or Repeater Cannon (150 percent attack speed). Plasma Cutter is a slow and set up tool, and the Heroic Purification Salvo is the only burst."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "aoe", "siege"],
+  "poke": {
+   "rating": 4,
+   "kind": "auto",
+   "dodgeable": 2,
+   "note": "Phase Bomb splash attacks from range, plus Plasma Cutter circling for a slow. Hard to dodge because it is a basic attack and Shield Capacitor lets him keep trading chip."
+  },
+  "heal_blunted": 4,
+  "note": "Damage is a steady stream of splash basic attacks that an AoE sustained healer partly offsets, and the Shield Capacitor lets him return to trades after regenerating shields. He does not have big burst except Purification Salvo. Measured hero damage per minute is above median at about 2760 and siege is about 5370, damage taken about 1860 (close to median)."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 5,
+  "siege": 4,
+  "teamfight": 3,
+  "engage": 0,
+  "peel": 1,
+  "mobility": 3,
+  "self_sustain": 4,
+  "survivability": 3,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 5
+ },
+ "cc": {
+  "hard": [],
+  "soft": ["slow"],
+  "reliability": 2
+ },
+ "good_into": [
+  {"tag": "poke_comp", "why": "Shield Capacitor regenerates 10 percent per second after 5 seconds without damage (Rapid Recharge cuts that to 3), so chip damage is wasted against him, and Phase Bomb out ranges many short range pokers."},
+  {"tag": "melee_heavy", "why": "Plasma Cutter slows melee heroes and Target Acquired gives him speed, so he kites them while splashing the group."},
+  {"tag": "summons", "why": "Phase Bomb splash and Plasma Cutter clear minions, mercenaries and summons very fast from range."},
+  {"tag": "tanky_frontline", "why": "Offensive Cadence deals 6 percent max health on every third Repeater Cannon attack, and Photonic Weaponry adds 20 percent damage while shielded."},
+  {"tag": "squishy_backline", "why": "Splash with a slow and Purification Salvo (50 percent more to slowed targets) punishes grouped backline heroes if he is not interrupted."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "He has no hard crowd control and Warp is a channel that stuns and knockbacks cancel. The guide names E.T.C. and Lucio."},
+  {"tag": "assassin", "why": "Assassins such as Zeratul and Genji follow Warp and are hard to peel, and large hitbox makes him easy to hit."},
+  {"tag": "burst_dive", "why": "Divers burst through the shield. Divert Power drains the shield afterward and Warp is the only escape."},
+  {"tag": "ranged_heavy", "why": "Other long range heroes out poke him when his shield is down, and his shield has to recharge out of combat so he loses the trade over a long skirmish."}
+ ],
+ "wants_from_team": [
+  "Heroes that pull or clump enemies together such as Johanna or Diablo",
+  "Slows on the whole enemy team for Purification Salvo",
+  "A frontline that stops dives while he trades from range",
+  "Burst healing like Uther if he takes Rapid Recharge"
+ ],
+ "gives_team": [
+  "Strong solo lane and fast wave and camp clear",
+  "Sustained area damage and siege from range",
+  "Plasma Cutter slow that helps teammates land skillshots",
+  "Safe poking trades thanks to Shield Capacitor"
+ ],
+ "power_spike": "mid",
+ "weaknesses": [
+  "Large hitbox, easy to hit with skillshots",
+  "Must retreat to recharge shields, healers cannot refill the base shield",
+  "Warp is a channel that can be interrupted",
+  "No hard crowd control"
+ ],
+ "evidence": [
+  "Shield Capacitor, Plasma Cutter, Weapon Modes, Warp",
+  "Purification Salvo, Planet Cracker",
+  "Offensive Cadence, Photonic Weaponry, Target Acquired, Rapid Recharge",
+  "Icy Veins counters section (Varian, Zeratul, Genji, E.T.C., Lucio)",
+  "Measured block: hero damage about 2760, siege about 5370 per minute, win rate 0.532 over 250 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["bad_into.ranged_heavy","damage.heal_blunted", "ratings.objective"]
+}

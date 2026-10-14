@@ -1,0 +1,45 @@
+{
+ "hero": "Brightwing",
+ "slug": "brightwing",
+ "role": "Healer",
+ "attack": {"type": "ranged", "range": "medium", "autos_matter": 2, "note": "Autos and Arcane Flare are used to bully a lane while Soothing Mist heals her for free. Magic Spit extends auto range and cuts Soothing Mist's cooldown."},
+ "damage": {
+  "carry": false,
+  "ranged_dealer": false,
+  "style": ["poke", "burst"],
+  "poke": {"rating": 2, "kind": "skillshot", "dodgeable": 3, "note": "Arcane Flare is a medium speed skillshot (75, plus 105 in the center) that Dream Shot makes long range and quick to recast. Polymorph into Flare is her real combo."},
+  "heal_blunted": 3,
+  "note": "Lowest damage of the group at 584 per minute measured. Polymorph with Critterize makes a target take 25% more, and Unstable Anomaly adds percent damage, but her contribution is setting up a kill, not dealing it."
+ },
+ "healing": {
+  "style": ["aoe", "hot", "mobility_buff", "shield", "burst"],
+  "sustain": 4,
+  "burst_heal": 2,
+  "aoe": 4,
+  "range": "short",
+  "mana_pressure": 1,
+  "positioning_risk": 3,
+  "note": "Soothing Mist heals nearby allies every 4 seconds with no Mana, and Critical Mist boosts it by 140% when it also cleanses. Phase Shift heals 25% of maximum Health after a 2 second delay. Blink Heal (200) is small. She is a cheap sustain engine that does not undo burst."
+ },
+ "ratings": {"wave_clear": 3, "camp_clear": 2, "siege": 2, "teamfight": 3, "engage": 2, "peel": 4, "mobility": 4, "self_sustain": 3, "survivability": 3, "objective": 2, "global_presence": 5, "solo_lane": 4},
+ "cc": {"hard": ["polymorph", "silence", "knockback"], "soft": ["slow"], "reliability": 4},
+ "good_into": [
+  {"tag": "assassin", "why": "Polymorph removes a diver's attacks for 1.5 seconds and shuts down mobile heroes like Zeratul or Genji, Emerald Wind knocks everyone off, and Pixie Dust gives 30 Spell Armor against mages and abilities."},
+  {"tag": "split_push", "why": "Phase Shift lets her soak a lane alone and join the team anywhere, which is the best global presence in the game. She pressures lanes and arrives with a 25% heal."},
+  {"tag": "mobile", "why": "Polymorph plus Sticky Flare or Hush! locks a mobile hero in place, and Soothing Mist cleanses slows and roots on her allies so dive and kite pressure does not stick."},
+  {"tag": "poke_comp", "why": "Soothing Mist heals everyone every 4 seconds without Mana and Pixie Power gives 55 Spell Armor, so spread out chip damage and spell poke is healed cheaply."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "Anub'arak, Johanna and E.T.C. style engages are not stopped by Polymorph, and the cleanse is on a 75 second cooldown, so a chain of stuns and roots leaves her with little."},
+  {"tag": "burst_dive", "why": "Her heals are on 4 second ticks and Phase Shift has a 2 second delay, so burst kills before healing lands. Phase Out is her only personal answer."},
+  {"tag": "ranged_heavy", "why": "She needs to stay close to allies for Soothing Mist, so backline ranged damage that hits the group hits her too, and she cannot escape without Blink Heal."},
+  {"tag": "tanky_frontline", "why": "She does not have a way to kill tanks: Polymorph on a tank needs Critterize to matter, and Soothing Mist is flat 110 healing per tick which is small on high Health targets."}
+ ],
+ "wants_from_team": ["High maximum Health allies so Phase Shift heals a lot", "Dive allies who can follow her teleport (Genji, Tracer)", "A frontline that can take the engage she cannot", "A second healer or support so she can run Emerald Wind or damage talents"],
+ "gives_team": ["Free healing with Soothing Mist, no Mana needed", "A cleanse on a 75 second cooldown", "Polymorph as pick or shutdown on one hero", "Global presence and fast soak, which outnumbers fights"],
+ "power_spike": "level_20",
+ "weaknesses": ["Cannot use a mount", "Healing is slow: ticks every 4 seconds and a 2 second teleport", "Needs map awareness and good positioning", "Weak against engages that ignore Polymorph", "Measured win rate of 0.469 over 2766 games"],
+ "evidence": ["Soothing Mist, Phase Shift, Polymorph, Arcane Flare, Pixie Dust, Blink Heal, Emerald Wind text", "Critical Mist, Hush!, Critterize, Invisible Friends, Faerie Protector talents", "Icy Veins guide: counters are CC heavy tanks with no Polymorph interaction", "MEASURED block: 584 damage per minute, 4156 healing per minute, 30.8 seconds of CC against, 0.469 win rate, 2766 games"],
+ "confidence": "high",
+ "unsure": ["bad_into tanky_frontline", "good_into poke_comp", "ratings.siege"]
+}

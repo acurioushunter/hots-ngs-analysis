@@ -1,0 +1,38 @@
+{
+ "hero": "Xal'atath",
+ "slug": "xalatath",
+ "role": "Ranged Assassin",
+ "attack": {"type": "ranged", "range": "medium", "autos_matter": 3, "note": "Basic attacks deal physical damage while moving and charge Void Volley after 5 hits. Autos are needed to charge the volley, but burst comes from Shadow Mark, Dark Heart Ritual and Void Volley."},
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["burst", "aoe", "zone"],
+  "poke": {"rating": 3, "kind": "skillshot", "dodgeable": 3, "note": "Void Volley is a delayed 6 orb barrage, Shadow Mark is a very slow projectile with a small center, and Dark Heart Ritual pulses an area. All telegraphed and dodgeable by mobile heroes, but strong against slow or controlled targets."},
+  "heal_blunted": 3,
+  "note": "A mage like assassin that mixes burst (Marked target plus Dark Heart detonation, Void Volley, Void Eruption explosion up to 700) with pulsing zone damage. Toxic Mark adds 1 percent max health a second and an armor shred. The burst needs setup, so healers can undo the spread pulses, but not a clean burst combo."
+ },
+ "healing": null,
+ "ratings": {"wave_clear": 4, "camp_clear": 3, "siege": 4, "teamfight": 4, "engage": 1, "peel": 2, "mobility": 2, "self_sustain": 1, "survivability": 1, "objective": 4, "global_presence": 1, "solo_lane": 3},
+ "cc": {"hard": ["silence", "blind"], "soft": ["slow"], "reliability": 2},
+ "good_into": [
+  {"tag": "cc_heavy", "why": "Her own team's CC gives her a window to land Shadow Mark, and Dark Heart's Protection can silence an enemy engage in a choke."},
+  {"tag": "immobile", "why": "Slow telegraphed skillshots and Void Eruption land fully on targets that cannot step away."},
+  {"tag": "melee_heavy", "why": "Pull of the Dark Heart, Fractured Reality fire trails and Void Eruption's blind punish melee heroes that must walk through her zone."},
+  {"tag": "objective_race", "why": "Anchored Core Dark Heart Ritual repeatedly interrupts 5 and 6 second channels at tributes, seeds and altars."},
+  {"tag": "tanky_frontline", "why": "Physical basic attacks, armor shred from Toxic Mark and percent max health damage cut through armor and large health pools."}
+ ],
+ "bad_into": [
+  {"tag": "assassin", "why": "She is very fragile with only the long, telegraphed Void Step to escape; the guide says hard engages catch her."},
+  {"tag": "mobile", "why": "Shadow Mark travels slowly and Void Volley launches over time, so mobile heroes avoid both."},
+  {"tag": "burst_dive", "why": "A dive that catches her after Void Step is spent kills her before Void Acolyte or Marked Resilience help."},
+  {"tag": "stealth", "why": "Shadow Mark reveals only a target it hits, so stealth heroes can approach while she has no answer."},
+  {"tag": "high_sustain_healer", "why": "Dark Heart pulses and Toxic Mark ticks are spread damage that sustained healing can offset."}
+ ],
+ "wants_from_team": ["Hard CC from the tank to land Shadow Mark and Void Volley", "A tank who peels when she is hunted", "Enough wave clear to let her stack the Void Volley quest early", "A team that fights around objectives"],
+ "gives_team": ["Burst damage and armor shred after a CC", "Objective denial with Dark Heart Ritual", "Zone control at choke points", "Void Convergence minions for push and map pressure"],
+ "power_spike": "level_20",
+ "weaknesses": ["Very fragile", "Only Void Step to escape and it is telegraphed", "Burst depends on delayed skillshots", "Dying early loses quest stacks"],
+ "evidence": ["Shadow Mark, Dark Heart Ritual, Void Step, Void Volley, Void Eruption, Void Convergence text", "Toxic Mark, Anchored Core, Dark Heart's Protection, Fractured Reality, Unstable Core talents", "Icy Veins guide (new hero page from Sep 2026)", "No MEASURED block was present in the corpus file, so numbers are not checked"],
+ "confidence": "medium",
+ "unsure": ["ratings", "heal_blunted", "power_spike", "poke"]
+}

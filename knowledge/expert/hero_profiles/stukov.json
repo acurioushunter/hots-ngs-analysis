@@ -1,0 +1,88 @@
+{
+  "hero": "Stukov",
+  "slug": "stukov",
+  "role": "Healer",
+  "attack": {
+    "type": "melee",
+    "range": "melee",
+    "autos_matter": 3,
+    "note": "The guide calls his basic attack very strong, and it is melee until Fetid Touch makes it ranged and slowing at 35 percent less damage."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["zone", "dot", "poke"],
+    "poke": { "rating": 2, "kind": "zone", "dodgeable": 3, "note": "Lurking Arm deals 136 per second and silences everything in an area, and can be channeled indefinitely. Weighted Pustule is a slow and a delayed burst. Measured hero damage 1120 per minute." },
+    "heal_blunted": 3,
+    "note": "Silence zone denies abilities more than it deals damage. Damage from Lurking Arm is small per tick."
+  },
+  "healing": {
+    "style": ["aoe", "burst", "hot"],
+    "sustain": 4,
+    "burst_heal": 4,
+    "aoe": 5,
+    "range": "medium",
+    "mana_pressure": 3,
+    "positioning_risk": 3,
+    "note": "Healing Pathogen is 222 over 4.5 seconds and spreads to nearby allies, and Bio-Kill Switch detonates each one for 435 instantly (30 percent more with Vigorous Reuptake at 3 or more). That gives both sustain between detonations and a very large AoE burst every 16 seconds. Pox Populi and Top Off push sustain. It needs allies grouped within spread range."
+  },
+  "ratings": {
+    "wave_clear": 4,
+    "camp_clear": 2,
+    "siege": 2,
+    "teamfight": 5,
+    "engage": 1,
+    "peel": 4,
+    "mobility": 0,
+    "self_sustain": 1,
+    "survivability": 2,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 1
+  },
+  "cc": {
+    "hard": ["silence", "stun", "root", "knockback"],
+    "soft": ["slow"],
+    "reliability": 4
+  },
+  "good_into": [
+    { "tag": "poke_comp", "why": "Healing Pathogen spreads a heal over time to the whole team and Bio-Kill Switch detonates all of it at once, covering spread chip damage and burst, and Lurking Arm zones the poke Heroes out of position." },
+    { "tag": "melee_heavy", "why": "Lurking Arm silence zone at a choke, Weighted Pustule slow, Flailing Swipe and Massive Shove remove melee Heroes from the fight, and Virulent Reaction roots them inside the zone." },
+    { "tag": "global_ult", "why": "Lurking Arm can be dropped on a Hero channeling a heroic to cancel it, with a low cooldown." },
+    { "tag": "objective_race", "why": "A channeled silence zone on a choke or objective forces the enemy to concede or push through, and Massive Shove can stun a Hero into a wall." }
+  ],
+  "bad_into": [
+    { "tag": "mobile", "why": "High mobility Heroes jump over the zone and he has no mobility and no escape of his own. Massive Shove is a skillshot that mobile Heroes dodge." },
+    { "tag": "cc_heavy", "why": "He has no cleanse or Unstoppable, and a channeled Lurking Arm leaves him standing still. Superstrain only heals after the stun." },
+    { "tag": "burst_dive", "why": "Divers skip the zone and kill a healer who has to stand with allies to spread Pathogen, though Reactive Ballistospores and Massive Shove armor give some answer." },
+    { "tag": "assassin", "why": "Melee body with low health and no mobility. Reactive Ballistospores resets Bio-Kill Switch below 50 percent health but that is the only protection." }
+  ],
+  "wants_from_team": [
+    "Allies who fight grouped within Healing Pathogen range",
+    "Reliable crowd control to land Virulent Reaction and Growing Infestation",
+    "Heroes who like slowed targets (Executioner style)",
+    "A frontline that holds the choke while he channels"
+  ],
+  "gives_team": [
+    "Big AoE burst heal on a 16 second detonation",
+    "Area silence and zone control",
+    "Frequent slows",
+    "Disengage or pick with Flailing Swipe and Massive Shove"
+  ],
+  "power_spike": "mid",
+  "weaknesses": [
+    "No mobility",
+    "Bio-Kill Switch is a long cooldown tool",
+    "No cleanse or Unstoppable",
+    "Vulnerable while channeling Lurking Arm",
+    "Needs allies grouped"
+  ],
+  "evidence": [
+    "Bio-Kill Switch, Healing Pathogen, Weighted Pustule, Lurking Arm, Massive Shove, Flailing Swipe ability text",
+    "Vigorous Reuptake, Pox Populi, Virulent Reaction, Reactive Ballistospores, Push Comes To Shove talent text",
+    "Icy Veins overview and synergies and counters",
+    "Measured block: 56.4 seconds of enemy stun root or silence per game, 1120 hero damage per minute"
+  ],
+  "confidence": "high",
+  "unsure": ["attack.range", "power_spike", "ratings.siege"]
+}

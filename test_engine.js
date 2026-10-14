@@ -16,7 +16,7 @@ check("second pick team bans 2,4,10 picks 6,7,12,13,16", [2, 4, 10].every(n => p
 
 // Blaze is melee in every count
 check("Blaze is not ranged", PLAYBOOK.heroes["Blaze"].ranged === false, "");
-check("Brightwing is ranged", PLAYBOOK.heroes["Brightwing"].ranged === true, "");
+check("Brightwing is not a ranged damage dealer and is an AoE sustain healer", PLAYBOOK.heroes["Brightwing"].ranged === false && PLAYBOOK.heroes["Brightwing"].hclass === "aoe_sustain", "");
 
 // scenario 1: we are first pick vs CCS, no map yet
 let st = E.newDraft(CCS, "first", null);
@@ -46,11 +46,11 @@ check("healer slot: Brightwing top once Tychus and Sylvanas are in", picks[0].he
 // scenario 2: Tomb wants ranged, Garden caps it
 let tomb = E.newDraft(CCS, "first", "Tomb of the Spider Queen");
 const tw = E.compSummary(tomb);
-check("Tomb ranged advice carries the league sample and is a note when the league shows no gap", (tw.warnings.concat(tw.notes)).some(w => /NGS sides/.test(w) && /3 or more/.test(w)), tw.warnings.concat(tw.notes).join("|"));
+check("ranged advice text carries the league numbers (3 or more ranged damage dealers against 2 or fewer)", /3 or more ranged damage dealers won \d+% over \d+ sides/.test(E.rangedText("Tomb of the Spider Queen")), E.rangedText("Tomb of the Spider Queen"));
 let garden = E.newDraft(CCS, "first", "Garden of Terror");
 ["Johanna", "Junkrat", "Lunara", "Chromie", "Sylvanas", "Qhira", "Hanzo", "Tychus", "Brightwing"].forEach(h => E.apply(garden, h));
 const g2 = E.compSummary(garden);
-check("Garden with 3 ranged is flagged with the league numbers (warning or note)", g2.ranged === 3 && g2.warnings.concat(g2.notes).some(w => w.includes("ranged")), JSON.stringify(g2));
+check("Garden with Sylvanas, Tychus, Brightwing = 2 ranged damage dealers (healer not counted) and a note on a third", g2.ranged === 2 && g2.notes.some(w => /third/.test(w)), JSON.stringify(g2));
 
 // scenario 3: simulate a full draft
 const sim = E.simulate(E.newDraft(CCS, "first", "Sky Temple"));
@@ -121,7 +121,9 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   const rlw = E.rangedLeague("Tomb of the Spider Queen");
   check("league comps carry the season weighting (newest season, half life, a newest window)", PLAYBOOK.comps.newest >= 22 && PLAYBOOK.comps.half_life === 3 && rlw.all.H && rlw.all.H.rn > 0 && rlw.all.H.eff <= rlw.all.H.n, JSON.stringify(rlw.all.H));
   const gl = E.rangedLeague("Garden of Terror");
-  check("the Garden ranged cap flag follows the league evidence (flag only when the league gap is 5 points or more)", ty.flags.some(f => /OVER RANGED/.test(f)) === !!(gl && gl.map.gap != null && gl.map.gap <= -0.05), JSON.stringify([ty.flags, gl && gl.map.gap]));
+  check("a third ranged damage dealer is flagged when the league gap is 5 points or more against it", ty.flags.some(f => /THIRD RANGED/.test(f)) === (E.compSummary(st).ranged >= 2 && PLAYBOOK.heroes["Tychus"].ranged && E.rangedLeague("Garden of Terror").all.gap <= -0.05), JSON.stringify([ty.flags, E.compSummary(st).ranged]));
+  const lens = E.healLens("Lunara", ["Brightwing"]);
+  check("heal lens reads Lunara into an AoE sustain healer as worse (measured or profile)", lens && lens.score < 0, JSON.stringify(lens));
   check("a second healer is never in the top 3", g.slice(0, 3).every(x => PLAYBOOK.heroes[x.hero].role !== "Healer"), g.slice(0, 3).map(x => x.hero).join());
   const mc = E.mapChoices(CCS, ["Towers of Doom", "Infernal Shrines"]);
   check("map choices drop banned maps", mc.length === Object.keys(PLAYBOOK.maps).length - 2 && !mc.some(x => x.map === "Towers of Doom"), mc.length);

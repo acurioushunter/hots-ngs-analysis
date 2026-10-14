@@ -1,0 +1,74 @@
+{
+ "hero": "Chen",
+ "slug": "chen",
+ "role": "Bruiser",
+ "attack": {
+  "type": "melee",
+  "range": "melee",
+  "autos_matter": 3,
+  "note": "Autos fill the gap between Keg Smash and Breath of Fire (the guide says always land one), and Eye of the Tiger, Combo Strikes and Celerity reward them, but the Ignite does the main damage."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": false,
+  "style": ["dot", "sustained", "aoe"],
+  "poke": { "rating": 1, "kind": "dot", "dodgeable": 3, "note": "Keg Smash plus Breath of Fire applies an Ignite worth 342 damage over 6 seconds, but it needs him in cone range of the target." },
+  "heal_blunted": 4,
+  "note": "Damage comes from the Brew Ignite dot and autos, so strong sustained healers undo much of it. Withering Flames cuts the Spell Power of ignited heroes, and Stagger makes him very hard to burst, so he trades well in a duel."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 3,
+  "camp_clear": 3,
+  "siege": 2,
+  "teamfight": 3,
+  "engage": 2,
+  "peel": 2,
+  "mobility": 3,
+  "self_sustain": 5,
+  "survivability": 4,
+  "objective": 3,
+  "global_presence": 1,
+  "solo_lane": 4
+ },
+ "cc": { "hard": ["knockback", "root"], "soft": ["slow"], "reliability": 3 },
+ "good_into": [
+  { "tag": "burst_dive", "why": "Stagger prevents three seconds of damage then spreads 75 percent over five, and Fortifying Brew shields on top, so a burst combo is largely wasted on him." },
+  { "tag": "melee_heavy", "why": "He wins duels with Brew slow, Ignite and self healing, and Eye of the Tiger heals him off Brew soaked targets." },
+  { "tag": "poke_comp", "why": "Fortifying Brew shields and Brewmaster's Balance regeneration absorb chip, and Flying Kick lets him close on a poke hero." },
+  { "tag": "kiter", "why": "Keg Smash slows 40 percent after a moment, Pressure Point slows 80 percent, and Flying Kick plus Wandering Keg close distance." }
+ ],
+ "bad_into": [
+  { "tag": "cc_heavy", "why": "Stuns and silences stop Fortifying Brew channeling and Stagger timing, and the guide lists interrupts as his weakness." },
+  { "tag": "high_sustain_healer", "why": "The Ignite is a damage over time that strong healers undo, so his kill pressure drops." },
+  { "tag": "tanky_frontline", "why": "Without percent health or armor reduction beyond the Accumulating Flame mythic reward, he cannot burst armored fronts." },
+  { "tag": "ranged_heavy", "why": "Brew costs and a cone ability make him work to reach a ranged line that can kite his low baseline mobility." }
+ ],
+ "wants_from_team": [
+  "A frontline partner so he can duel in a lane safely",
+  "Peel against interrupts so he can channel Fortifying Brew",
+  "Follow up damage on Ignited targets"
+ ],
+ "gives_team": [
+  "Wandering Keg to knock enemies into the team or away from it",
+  "Storm, Earth, Fire for a sudden three body engage",
+  "Enough to Share shields for nearby allies",
+  "Strong solo lane that wins duels"
+ ],
+ "power_spike": "level_10",
+ "weaknesses": [
+  "Low baseline wave clear",
+  "Conditional mobility, Flying Kick needs a target",
+  "Struggles against interrupts",
+  "Needs Brew management"
+ ],
+ "evidence": [
+  "Keg Smash, Breath of Fire, Stagger, Fortifying Brew, Flying Kick ability text",
+  "Wandering Keg and Storm, Earth, Fire heroics",
+  "Pressure Point, Eye of the Tiger, Withering Flames, Enough to Share talents",
+  "Icy Veins overview as a duelist",
+  "Measured: win rate 0.494, damage taken 4850 per minute (very high), healing 268, 2.3 deaths"
+ ],
+ "confidence": "high",
+ "unsure": []
+}

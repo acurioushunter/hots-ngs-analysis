@@ -13,7 +13,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 | Can't Counterpick Stupid | 1-0 |
 | Phoenix Rising Amethyst | 1-1 |
 
-**Ranged heroes**: winners average 2.5, losers 2.0. Three or more ranged 1-0, two or fewer 1-2.
+**Ranged heroes**: winners average 2.0, losers 1.5. Three or more ranged 0-0, two or fewer 2-2.
 **Macro, winners against losers (per minute, k):** camp damage 8.06 v 7.22, structure damage 4.78 v 1.38, minion damage 14.8 v 17.62, experience 2.98 v 2.93. Deaths 7.5 v 13.5. Average length 23.8 minutes.
 
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)

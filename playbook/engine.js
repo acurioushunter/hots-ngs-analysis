@@ -135,11 +135,11 @@
     const pool = (src) => {
       const r = (src && src.ranged) || {};
       const sum = ks => ks.reduce((a, k) => addCells(a, r[k]), null);
-      const hi = sum(["3", "4+"]), lo = sum(["0-1", "2"]), top = r["4+"] || null;
+      const hi = sum(["3+"]), lo = sum(["0", "1", "2"]), top = r["3+"] || null;   // ranged damage DEALERS (hero profiles), healers and supports do not count
       const H = E.cell(hi), L = E.cell(lo), T = E.cell(top);
-      const ok = H && L && H.n >= 100 && L.n >= 100;
+      const ok = H && L && H.n >= 60 && L.n >= 100;
       const gap = ok ? H.wwr - L.wwr : null;
-      const rgap = ok && H.rn >= 40 && L.rn >= 40 ? H.rwr - L.rwr : null;   // the same gap using only the newest window
+      const rgap = ok && H.rn >= 30 && L.rn >= 40 ? H.rwr - L.rwr : null;   // the same gap using only the newest window
       return { hi: hi ? [hi[0], hi[1]] : [0, 0], lo: lo ? [lo[0], lo[1]] : [0, 0], top: top ? [top[0], top[1]] : [0, 0], H, L, T, hiWr: H && H.wwr, loWr: L && L.wwr, topWr: T && T.wwr, gap, rgap };
     };
     return { map: pool((c.maps || {})[map]), all: pool(c.all), sides: c.sides, newest: c.newest, halfLife: c.half_life, recentSeasons: c.recent_seasons };
@@ -150,10 +150,32 @@
     if (!r) return "";
     const m = r.map;
     let t = "";
-    if (m.gap != null) t = "On " + map + " in " + (m.H.n + m.L.n).toLocaleString("en-US") + " NGS sides (newer seasons count more): 3 or more ranged won " + pc(m.hiWr) + " (" + m.H.n + " sides), 2 or fewer won " + pc(m.loWr) + " (" + m.L.n + " sides)" + (m.rgap != null ? "; in the newest " + r.recentSeasons + " seasons alone the gap is " + (m.rgap >= 0 ? "+" : "") + Math.round(m.rgap * 100) + " points" : "");
-    if (r.all.gap != null) t += (t ? "; every map: " : "Every map: ") + "3 or more " + pc(r.all.hiWr) + ", 2 or fewer " + pc(r.all.loWr);
-    if (r.all.T && r.all.T.n >= 100) t += ". Four or more ranged is the only count that clearly does worse: " + pc(r.all.topWr) + " over " + r.all.T.n + " sides";
+    if (r.all.gap != null) t = "Across every NGS map (seasons 15 to " + r.newest + ", newer seasons count more), sides with 3 or more ranged damage dealers won " + pc(r.all.hiWr) + " over " + r.all.H.n + " sides against " + pc(r.all.loWr) + " with 2 or fewer" + (r.all.rgap != null ? "; in the newest " + r.recentSeasons + " seasons the gap is " + (r.all.rgap >= 0 ? "+" : "") + Math.round(r.all.rgap * 100) + " points" : "");
+    if (m.gap != null) t += (t ? ". " : "") + "On " + map + ": " + pc(m.hiWr) + " over " + m.H.n + " sides with 3 or more, " + pc(m.loWr) + " over " + m.L.n + " with fewer";
     return t;
+  };
+
+  // Their healer class against a hero's damage: a hero whose damage is a spread dot or poke (profile heal_blunted 4 or more) does worse into
+  // heals that cover many people through chip damage, and better into single target healers that run dry. Measured from heal_lens when 60+ sides.
+  E.healLens = function (hero, theirPicks) {
+    const hs = D().heroes, me = hs[hero], prof = me && me.profile;
+    if (!prof || !(me.carry || me.ranged)) return null;
+    const hh = (theirPicks || []).filter(x => hs[x] && hs[x].hclass);
+    if (hh.length !== 1) return null;
+    const healer = hh[0], cls = hs[healer].hclass;
+    const lens = ((D().comps || {}).heal_lens || {})[hero] || {};
+    const own = Object.keys(lens).reduce((a, k) => addCells(a, lens[k]), null);
+    const c = E.cell(lens[cls]), o = E.cell(own);
+    const names = { aoe_sustain: "an AoE sustain healer", burst_single: "a single target burst healer", sustain_single: "a sustained single target healer", other: "this healer" };
+    if (c && o && c.n >= 60) {
+      const edge = c.wwr - o.wwr;   // against this kind of healer versus against every healer
+      if (Math.abs(edge) >= 0.04) return { score: Math.max(-1.5, Math.min(1.2, edge * 12)), text: (edge > 0 ? "does better" : "does worse") + " into " + names[cls] + " like " + healer + ": " + Math.round(c.wwr * 100) + "% over " + c.n + " league sides (" + Math.round(o.wwr * 100) + "% against any healer)" };
+      return null;
+    }
+    const b = prof.damage.heal_blunted;
+    if (b >= 4 && cls === "aoe_sustain") return { score: -0.6, text: "its damage is a spread out dot or chip that " + healer + " heals through (profile, not measured for this pair)" };
+    if (b >= 4 && cls === "burst_single") return { score: 0.4, text: "its steady damage wears down single target healer " + healer + " (profile, not measured for this pair)" };
+    return null;
   };
 
   E.compSummary = function (st) {
@@ -164,25 +186,18 @@
     const out = {
       heroes: hs,
       ranged: count(i => i.ranged), marksmen: count(i => i.marksman), healers: count(i => i.role === "Healer"),
+      meleeDealers: count(i => i.carry && !i.ranged && i.role !== "Healer" && i.role !== "Tank"),
       frontline: count(i => i.role === "Tank" || i.role === "Bruiser"), highClear: count(i => i.high_clear), highDamage: count(i => i.high_damage),
       warnings: [], notes: []
     };
     const remaining = E.remainingPicks(st, "us");
     const rt = rules.filter(r => r.kind === "ranged_target");
+    // Ranged means a ranged damage DEALER (hero profile): healers, supports and tanks that shoot from range do not count.
+    // The old division rules counted Heroes Profile's attack type, so they no longer apply; the league record for this count is the evidence.
     const rl = E.rangedLeague(st.map);
-    const strong = rl && rl.map.gap != null && Math.abs(rl.map.gap) >= 0.05;   // the league says the count matters on this map
-    rt.forEach(r => {
-      const tail = " Our division sample says: " + r.why;
-      if (r.min != null && out.ranged < r.min && remaining) {
-        if (strong && rl.map.gap > 0) out.warnings.push("Need " + (r.min - out.ranged) + " more ranged hero(es) for this map. " + E.rangedText(st.map) + "." + tail);
-        else out.notes.push("Only a lean, not a need: " + (r.min - out.ranged) + " more ranged hero(es) would match the division sample for this map. " + E.rangedText(st.map) + ". The league does not show a ranged count that wins here, so pick the best heroes for the matchup first." + tail);
-      }
-      if (r.max != null && out.ranged > r.max) {
-        if (strong && rl.map.gap < 0) out.warnings.push("Already " + out.ranged + " ranged. " + E.rangedText(st.map) + "." + tail);
-        else out.notes.push("Over the division sample's ranged cap of " + r.max + ", but " + E.rangedText(st.map) + ". Not a rule.");
-      }
-    });
-    if (out.ranged >= 4 && rl && rl.all.topWr != null && rl.all.T.n >= 100) out.warnings.push(out.ranged + " ranged heroes: league wide that count wins " + pc(rl.all.topWr) + " over " + rl.all.T.n + " sides. Check you still have a front line and wave clear.");
+    if (out.ranged >= 3 && rl && rl.all.gap != null && rl.all.gap <= -0.05) out.warnings.push(out.ranged + " ranged damage dealers. " + E.rangedText(st.map) + ". Check the front line and who peels.");
+    else if (out.ranged === 2 && remaining && rl && rl.all.gap != null && rl.all.gap <= -0.05) out.notes.push("Two ranged damage dealers already: a third has done worse league wide (" + pc(rl.all.hiWr) + " over " + rl.all.H.n + " sides against " + pc(rl.all.loWr) + ").");
+    if (out.ranged === 0 && remaining === 0 && hs.length) out.notes.push("No ranged damage dealer at all: poke, siege and kiting come from other heroes. The league record for none is small (sides with none won " + pc(((D().comps || {}).all || {}).ranged && E.cell(D().comps.all.ranged["0"]) ? E.cell(D().comps.all.ranged["0"]).wwr : 0.5) + ").");
     const mm = rules.filter(r => r.kind === "min_marksmen").reduce((a, r) => Math.max(a, r.n), 0);
     if (mm && out.marksmen + remaining < mm) out.warnings.push("Cannot reach " + mm + " marksmen any more. " + rules.find(r => r.kind === "min_marksmen").why);
     if (!out.healers && remaining === 0 && hs.length) out.warnings.push("No healer in the draft.");
@@ -262,12 +277,14 @@
       // composition
       const nowRanged = comp.ranged, nowMark = comp.marksmen;
       if (marksmenNeed && nowMark < marksmenNeed && info.marksman) { score += w.marksman_need; reasons.push("marksman " + (nowMark + 1) + " of " + marksmenNeed + " wanted (13-6 with two or more)"); }
-      const rlg = E.rangedLeague(map), evid = rlg && rlg.map.gap != null && Math.abs(rlg.map.gap) >= 0.05 ? 1 : 0.25;   // a division rule the league does not back counts a quarter
-      rt.forEach(r => {
-        if (r.min != null && info.ranged && nowRanged < r.min) { score += w.ranged_target * evid; if (evid === 1) reasons.push("map wants " + r.min + "+ ranged heroes"); }
-        if (r.max != null && info.ranged && nowRanged >= r.max) { score -= w.ranged_target * 2.5 * evid; if (evid === 1) { flags.push("OVER RANGED CAP"); reasons.push("already at the ranged cap (" + r.max + ") for this map: this would be ranged hero " + (nowRanged + 1)); } }
-        if (r.max != null && !info.ranged && nowRanged >= r.max && remaining > 0) { score += 0.3; }
-      });
+      const rlg = E.rangedLeague(map), evid = rlg && rlg.all.gap != null && rlg.all.gap <= -0.05 ? 1 : 0.25;
+      if (info.ranged && nowRanged >= 2) {
+        score -= w.ranged_target * 2.5 * evid;
+        if (evid === 1) { flags.push("THIRD RANGED DEALER"); reasons.push("would be ranged damage dealer " + (nowRanged + 1) + ": sides with 3 or more won " + Math.round(rlg.all.hiWr * 100) + "% over " + rlg.all.H.n + " league sides"); }
+      }
+      // how its damage meets their healer: measured first (heal_lens), the profile's blunting score when the sample is thin
+      const lens = E.healLens(h, theirs);
+      if (lens) { score += lens.score; reasons.push(lens.text); }
       const missing = [];
       if (!comp.healers) missing.push("Healer");
       if (!comp.frontline) missing.push("Front");

@@ -1,0 +1,84 @@
+{
+ "hero": "Gall",
+ "slug": "gall",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 0,
+  "note": "Gall has no basic attack. Cho does the walking and basic attacks, Gall casts Shadowflame, Dread Orb, Runic Blast and the Heroic. Draft note: Cho'gall takes two player slots and one hero pick, and it is the Cho half that holds the health pool."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["aoe", "burst", "siege"],
+  "poke": {
+   "rating": 4,
+   "kind": "skillshot",
+   "dodgeable": 3,
+   "note": "Shadowflame is an instant area hit every 3 seconds, Dread Orb is a long range bomb that bounces three times (five bombs with Twilight Nova) and can stun with Leaden Orb. Orb is visible and slow, so alert players dodge it, but the zoning is the point."
+  },
+  "heal_blunted": 3,
+  "note": "Shadowflame every 3 seconds is chip that area healers undo. Shadow Bolt Volley is big single target burst, and Searing Shadows deals 2 percent max health. Measured: hero damage about 3120 per minute and siege about 6500, both among the top of this batch, but only 105 games and win rate 0.448, so this is a late scaling hero that loses early. Damage taken reads 0 because the damage lands on Cho's body."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 4,
+  "engage": 2,
+  "peel": 2,
+  "mobility": 1,
+  "self_sustain": 1,
+  "survivability": 4,
+  "objective": 4,
+  "global_presence": 0,
+  "solo_lane": 2
+ },
+ "cc": {
+  "hard": ["stun", "silence"],
+  "soft": ["slow"],
+  "reliability": 3
+ },
+ "good_into": [
+  {"tag": "tanky_frontline", "why": "Shadow Bolt Volley does 20 bolts of 87 at one target, Searing Shadows adds 2 percent of max health per Shadowflame, and Twisting Nether slows them. A comp of tanks that cannot burst him is walked down in long fights."},
+  {"tag": "melee_heavy", "why": "Twisting Nether slows nearby enemies by 50 percent, Leaden Orb stuns clumped melee heroes, and Cho's own Upheaval and Consuming Blaze combine with Gall's area damage."},
+  {"tag": "immobile", "why": "Dread Orb and Runic Blast are telegraphed area hits and Dread Orb bounces several times on large targets. Immobile heroes take all three bounces."},
+  {"tag": "sustain_comp", "why": "Cho'gall scales into the strongest late game and a sustain comp gives time to reach level 16 and 20 without early deaths."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "Cho dying kills both heroes and gives two kills of experience, and Gall has Shove only to escape. Dive comps that can burst Cho before Ogre Hide matters are his worst case."},
+  {"tag": "cc_heavy", "why": "Gall is immune to stun and silence, but Cho is not. Anub'arak's Cocoon or Maiev's Containment Disc turn the fight into a 5 versus 3."},
+  {"tag": "poke_comp", "why": "He is weak early and has to reach level 13 to 20 to be strong, and a comp that pokes and snowballs experience beats him before talents come online."},
+  {"tag": "assassin", "why": "Single target damage and percent health damage (Cursed Bullet, Alpha Killer style) go through his large health pool, and Cho's lack of peel makes him easy to pick."}
+ ],
+ "wants_from_team": [
+  "A dedicated healer, ideally strong single target healing",
+  "A real tank or bruiser, since Cho is a tank in name only",
+  "Teammates who play safely until levels 13, 16 and 20",
+  "A coordinated Cho partner on voice"
+ ],
+ "gives_team": [
+  "Huge area damage and structure damage with Dread Orb and Twilight Nova",
+  "A very large health pool and a strong late game",
+  "Area slow with Twisting Nether and stuns with Leaden Orb",
+  "Map vision with Eye of Kilrogg"
+ ],
+ "power_spike": "level_20",
+ "weaknesses": [
+  "Weak early game",
+  "Counts as two heroes, so deaths cost double and the team is down a body",
+  "Vulnerable to percent health damage and to single target crowd control on Cho",
+  "Easily counter picked and has to be drafted last"
+ ],
+ "evidence": [
+  "Ogre Rage trait and stun and silence immunity",
+  "Shadowflame, Dread Orb, Runic Blast, Shove",
+  "Twisting Nether, Shadow Bolt Volley, Twilight Nova, Leaden Orb, Twilight Frenzy",
+  "Icy Veins guide weaknesses and role in meta",
+  "Measured block: hero damage about 3120 per minute, win rate 0.448 over 105 games, seconds of CC 15.3"
+ ],
+ "confidence": "medium",
+ "unsure": ["ratings.solo_lane", "role", "attack.range"]
+}

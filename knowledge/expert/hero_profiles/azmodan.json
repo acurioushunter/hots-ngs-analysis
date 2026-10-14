@@ -1,0 +1,86 @@
+{
+ "hero": "Azmodan",
+ "slug": "azmodan",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 1,
+  "note": "Damage comes from Globe of Annihilation and All Shall Burn. Basic attacks only matter on the Wrath and Bombardment path or when Annihilation stacks are fed by hitting minions."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["aoe", "siege", "poke"],
+  "poke": {
+   "rating": 4,
+   "kind": "skillshot",
+   "dodgeable": 4,
+   "note": "Globe of Annihilation has the longest range of any hero and a slow projectile with a 0.56 second cast, so mobile or alert targets sidestep it. Inescapable Annihilation makes it global. Hits that land are large and hit an area."
+  },
+  "heal_blunted": 3,
+  "note": "Two modes. Globe is a big area hit every 10 seconds that grows with Annihilation stacks and Total Annihilation (4 percent max health), which holds up against healing. All Shall Burn is one of the highest single target damage tools but is a channel that any stun, silence or knockback cancels. Measured siege damage per minute is the highest of any hero in this batch (about 8200 against a league median near 4430), and hero damage is high at about 2990."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 5,
+  "camp_clear": 4,
+  "siege": 5,
+  "teamfight": 2,
+  "engage": 0,
+  "peel": 1,
+  "mobility": 1,
+  "self_sustain": 1,
+  "survivability": 3,
+  "objective": 3,
+  "global_presence": 3,
+  "solo_lane": 4
+ },
+ "cc": {
+  "hard": [],
+  "soft": ["slow"],
+  "reliability": 1
+ },
+ "good_into": [
+  {"tag": "immobile", "why": "Globe of Annihilation is slow and telegraphed, and All Shall Burn needs an uninterrupted 2.5 second channel. Targets that cannot sidestep or interrupt take the full hit, and Sin's Grasp slows them for the final burst."},
+  {"tag": "melee_heavy", "why": "Melee heroes have to walk into Globe range and clump on objectives. Demon Warriors with Brutish Vanguard slow attackers by 30 percent, and Trample is a short gap closer into Genji or Zeratul style assassins."},
+  {"tag": "low_sustain_healer", "why": "All Shall Burn plus a Globe is big burst on a single target, and Globe chip is hard to undo for a healer without area or sustained healing."},
+  {"tag": "split_push", "why": "Demon Lieutenant has global cast range and Inescapable Annihilation makes Globe global, so Azmodan answers side lanes and snipes structures from anywhere."},
+  {"tag": "structures", "why": "Demonic Invasion with Siegebreaker plus Globe stacks can take a Fort in one cast, so against comps that lean on towers and walls he outsieges them."}
+ ],
+ "bad_into": [
+  {"tag": "cc_heavy", "why": "Globe of Annihilation and All Shall Burn go on full cooldown when interrupted, and he has no Unstoppable, so stuns, silences and knockbacks turn his channels into nothing."},
+  {"tag": "burst_dive", "why": "Large hitbox, slow movement, no escape except the Trample talent. Divers body block and kill him before Demon Warriors matter."},
+  {"tag": "assassin", "why": "Assassins with a gap closer reach him inside his minimum useful range, and All Shall Burn slows his own movement by 30 percent while channeling."},
+  {"tag": "mobile", "why": "Globe is slow with a long travel time, so Tracer, Genji, Lunara and similar heroes dodge it and kite his channels."}
+ ],
+ "wants_from_team": [
+  "Reliable area crowd control so Globe and All Shall Burn land uninterrupted",
+  "Teammates who leave minion waves for him to stack Annihilation on",
+  "A frontline that stops dives and body blocks assassins",
+  "Healer that keeps him alive while channeling, since he has little self sustain"
+ ],
+ "gives_team": [
+  "Huge siege damage and fast wave and camp clear from range",
+  "Global lane pressure with Demon Lieutenant and late Inescapable Annihilation",
+  "Area damage in long fights from stacked Globe and Tide of Sin",
+  "A large health pool that makes him hard to pick off for a ranged assassin"
+ ],
+ "power_spike": "late",
+ "weaknesses": [
+  "Very vulnerable to interruption on both main abilities",
+  "Weak early because Annihilation has to be stacked",
+  "No escape and a big hitbox that is easy to hit and body block",
+  "Little teamfight utility beyond damage, and no hard crowd control of his own"
+ ],
+ "evidence": [
+  "Globe of Annihilation and Annihilation quest",
+  "All Shall Burn channel and interruption text",
+  "Demonic Invasion, Siegebreaker, Inescapable Annihilation",
+  "Trample, Sin's Grasp, Brutish Vanguard",
+  "Measured block: siege damage per minute about 8200, damage taken below league median, win rate 0.431 over 290 games",
+  "Icy Veins guide counters section"
+ ],
+ "confidence": "high",
+ "unsure": ["heal_blunted", "good_into.low_sustain_healer"]
+}

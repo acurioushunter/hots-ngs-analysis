@@ -1,0 +1,90 @@
+{
+ "hero": "Sylvanas",
+ "slug": "sylvanas",
+ "role": "Ranged Assassin",
+ "attack": {
+  "type": "ranged",
+  "range": "long",
+  "autos_matter": 5,
+  "note": "Every basic attack stacks Black Arrows, and three stacks make her hit harder, up to 50 percent after the quest and heal with Life Drain. Withering Fire and Shadow Dagger are used to feed those stacks, so her damage is auto based."
+ },
+ "damage": {
+  "carry": true,
+  "ranged_dealer": true,
+  "style": ["sustained", "dot", "siege"],
+  "poke": {
+   "rating": 3,
+   "kind": "dot",
+   "dodgeable": 2,
+   "note": "Withering Fire auto locks the nearest enemy Hero for 5 shots and cannot be dodged, and Shadow Dagger is a targeted poison that spreads on damage. Her range is long but the real exposure comes from needing stacks."
+  },
+  "heal_blunted": 3,
+  "note": "Dagger poison and stacked autos are spread damage that a healer can match, but Overwhelming Affliction deals 1 percent of maximum Health on autos to slowed enemies and Life Drain gives her own healing. Barbed Shot adds a 400 percent bonus on the fifth shot. The measured 2560 hero damage per minute is above median, win rate 0.482 over 2181 games, the most played hero in this batch, so she is a standard pick with an average result."
+ },
+ "healing": null,
+ "ratings": {
+  "wave_clear": 4,
+  "camp_clear": 4,
+  "siege": 4,
+  "teamfight": 3,
+  "engage": 0,
+  "peel": 2,
+  "mobility": 3,
+  "self_sustain": 3,
+  "survivability": 2,
+  "objective": 2,
+  "global_presence": 0,
+  "solo_lane": 3
+ },
+ "cc": {
+  "hard": ["silence", "forced_movement"],
+  "soft": ["slow"],
+  "reliability": 3
+ },
+ "good_into": [
+  {"tag": "tanky_frontline", "why": "Black Arrows rises to 50 percent more damage at 3 stacks, Cold Embrace removes 25 Armor from the dagger target and Overwhelming Affliction deals percent maximum Health to slowed Heroes, which tanks cannot absorb."},
+  {"tag": "structures", "why": "Haunting Arrows stuns structures, Withering Fire targets towers, and Black Arrows quest stacks come from structures, so she pushes without minions."},
+  {"tag": "summons", "why": "Shadow Dagger spreads poison to nearby enemies including summons and Unstable Poison explodes minions, so she clears them quickly."},
+  {"tag": "low_sustain_healer", "why": "Single healers cannot keep up with Dagger spread plus fully stacked autos, and Life Drain heals her in return."},
+  {"tag": "cc_heavy", "why": "Windrunner and Will of the Forsaken give her escapes, and Wailing Arrow silences the enemies who would hold crowd control, so she has answers in her kit."}
+ ],
+ "bad_into": [
+  {"tag": "burst_dive", "why": "Haunting Wave is her only escape and has an 11 second cooldown and 75 Mana, so a diver that kills her in one rotation wins."},
+  {"tag": "assassin", "why": "Assassins with gap closers reach her through the teleport, and her Health is low."},
+  {"tag": "mobile", "why": "She needs 3 stacks on one target, so mobile heroes that break line of sight reset stacks, and Shadow Dagger must hit its original target."},
+  {"tag": "high_sustain_healer", "why": "Her damage is spread across stacks and Dagger poison, which AoE healers erase, until the Black Arrows quest finishes."},
+  {"tag": "poke_comp", "why": "She has no reliable burst and must stand and attack to stack, so heavy poke on her costs her the stacks and Mana."}
+ ],
+ "wants_from_team": [
+  "A frontline that keeps enemies at 3 stacks",
+  "Time to complete the Black Arrows quest, which makes her a mid to late game hero",
+  "Peel against divers, because Haunting Wave is her only escape",
+  "Map objectives where her stacks can be maintained on structures"
+ ],
+ "gives_team": [
+  "Strong wave clear and camp clear",
+  "Silence from Wailing Arrow and forced movement from Mind Control",
+  "Damage scaling against tanks and structures",
+  "Pushing power without minions"
+ ],
+ "power_spike": "late",
+ "weaknesses": [
+  "Quest dependent damage",
+  "One escape and low Health",
+  "Needs many basic attacks, so she is stationary",
+  "Win rate 0.482 shows no standout strength"
+ ],
+ "evidence": [
+  "Black Arrows",
+  "Withering Fire",
+  "Shadow Dagger",
+  "Haunting Wave",
+  "Wailing Arrow",
+  "Mind Control",
+  "Overwhelming Affliction and Life Drain talents",
+  "Icy Veins ability notes",
+  "MEASURED block: hero damage 2560 per minute, 4.7 camps per game, 16.3 seconds of enemy stun root silence per game, 0.482 win rate over 2181 games"
+ ],
+ "confidence": "medium",
+ "unsure": ["cc.hard", "ratings.mobility"]
+}

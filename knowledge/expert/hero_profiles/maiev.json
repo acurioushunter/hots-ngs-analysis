@@ -1,0 +1,85 @@
+{
+  "hero": "Maiev",
+  "slug": "maiev",
+  "role": "Melee Assassin",
+  "attack": {
+    "type": "melee",
+    "range": "short",
+    "autos_matter": 2,
+    "note": "Fan of Knives is the main damage and Umbral Bind rides on an empowered auto. Autos matter for Naisha's Memento bounces and Armored Assault but are not the plan."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": false,
+    "style": ["aoe", "sustained", "burst"],
+    "poke": {
+      "rating": 2,
+      "kind": "skillshot",
+      "dodgeable": 3,
+      "note": "Fan of Knives is a short crescent and Containment Disc is a long skillshot, but she is a close range hero; the crescent is only weak poke when she cannot hit two heroes."
+    },
+    "heal_blunted": 3,
+    "note": "Fan of Knives resets its cooldown and mana when it hits two heroes, so damage comes in rapid repeated AoE hits that scale with how many enemies are caught. Umbral Bind pulls and Warden's Cage or Containment Disc add lockdown. Many small hits are partly healed by AoE healers, but the reset and Vengeful Knives percent health bonus keep pressure up."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 4,
+    "camp_clear": 5,
+    "siege": 3,
+    "teamfight": 4,
+    "engage": 5,
+    "peel": 3,
+    "mobility": 4,
+    "self_sustain": 1,
+    "survivability": 4,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 2
+  },
+  "cc": {
+    "hard": ["pull", "silence", "time_stop", "knockback"],
+    "soft": ["slow"],
+    "reliability": 4
+  },
+  "good_into": [
+    { "tag": "squishy_backline", "why": "Spirit of Vengeance through a bush into Umbral Bind tethers and pulls heroes out of position, and Containment Disc silences one of them for 5.5 seconds." },
+    { "tag": "melee_heavy", "why": "Melee heroes bunch up for easy double Fan of Knives hits, and Bladed Armor stacks armor against their autos." },
+    { "tag": "immobile", "why": "Umbral Bind holds targets inside the circle for 2.5 seconds and Warden's Cage or Containment Disc locks down heroes with no escape." },
+    { "tag": "split_push", "why": "Naisha's Memento is the fastest early camp clear, and Containment Disc can hold a lone hero while her team collapses." }
+  ],
+  "bad_into": [
+    { "tag": "cc_heavy", "why": "A stun, silence or blind stops the Spirit of Vengeance and Umbral Bind combo, and blink cannot be used while rooted, silenced or stunned." },
+    { "tag": "kiter", "why": "Mobile ranged heroes refuse the tether or move out of Fan of Knives range so she cannot reset her cooldown." },
+    { "tag": "high_sustain_healer", "why": "Her single target damage is low, so a sustain healer heals through the Fan of Knives chip." },
+    { "tag": "assassin", "why": "She has no self heal, so burst assassins can punish a mistake after the combo and Vault of the Wardens is brief." }
+  ],
+  "wants_from_team": [
+    "A tank who chains CC on pulled targets",
+    "Assassins with avoidable AoE who benefit from the pull",
+    "AoE healers who follow her engage",
+    "Teammates who do not need her for solo lane"
+  ],
+  "gives_team": [
+    "A reliable non tank initiator",
+    "Pick potential with Containment Disc",
+    "Fast mercenary camp clearing",
+    "Peel with Warden's Cage and Vault of the Wardens"
+  ],
+  "power_spike": "early",
+  "weaknesses": [
+    "Predictable engage that CC or blinds shut down",
+    "No self sustain",
+    "Limited solo lane and low single target damage",
+    "Low damage output when Fan of Knives misses"
+  ],
+  "evidence": [
+    "Fan of Knives resets on two hero hits",
+    "Umbral Bind tether and pull, Spirit of Vengeance blink, Vault of the Wardens",
+    "Containment Disc and Warden's Cage heroics",
+    "Naisha's Memento, Bonds of Justice, Cruel Chain, Vengeful Knives talents",
+    "Icy Veins guide: reliable initiation, no self sustain, countered by CC and blinds",
+    "Measured: about 2389 hero damage, 4370 siege, 2428 damage taken per minute, 5.1 merc camps per game, win rate 0.544 over 614 games"
+  ],
+  "confidence": "high",
+  "unsure": []
+}

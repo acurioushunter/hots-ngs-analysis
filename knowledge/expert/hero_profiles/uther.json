@@ -1,0 +1,88 @@
+{
+  "hero": "Uther",
+  "slug": "uther",
+  "role": "Healer",
+  "attack": {
+    "type": "melee",
+    "range": "melee",
+    "autos_matter": 2,
+    "note": "Basic attacks fuel Hammer of the Lightbringer, Blessed Champion, Holy Fire and Tyr's Deliverance but the guide treats them as an extra, not a core."
+  },
+  "damage": {
+    "carry": false,
+    "ranged_dealer": false,
+    "style": ["burst", "single_target"],
+    "poke": { "rating": 1, "kind": "skillshot", "dodgeable": 3, "note": "Holy Radiance deals 177 damage in a line alongside the heal, and Holy Shock adds 145 with the right talent. This is incidental. Measured hero damage 868 per minute." },
+    "heal_blunted": 2,
+    "note": "Hammer of Justice is a 109 damage targeted stun, so his damage is about crowd control, not output."
+  },
+  "healing": {
+    "style": ["single_target", "burst", "shield", "revive"],
+    "sustain": 1,
+    "burst_heal": 5,
+    "aoe": 2,
+    "range": "medium",
+    "mana_pressure": 5,
+    "positioning_risk": 3,
+    "note": "Holy Light is a 362 instant heal at 80 Mana and Devotion gives 25 Armor on every basic ability heal, with Eternal Vanguard giving about 6 free Flash of Light heals after death and Redemption reviving him. That is the best answer to focused burst. Holy Radiance heals a line for 194 but is the only multi target tool, and long fights drain his Mana. Healing per minute measured at 2405 is the lowest of the group."
+  },
+  "ratings": {
+    "wave_clear": 1,
+    "camp_clear": 1,
+    "siege": 1,
+    "teamfight": 3,
+    "engage": 3,
+    "peel": 5,
+    "mobility": 1,
+    "self_sustain": 3,
+    "survivability": 3,
+    "objective": 3,
+    "global_presence": 0,
+    "solo_lane": 0
+  },
+  "cc": {
+    "hard": ["stun"],
+    "soft": ["slow"],
+    "reliability": 5
+  },
+  "good_into": [
+    { "tag": "burst_dive", "why": "Devotion Armor 25 (50 with Divine Protection) on every heal, Divine Shield invulnerability and Holy Light instant heals undo combos, and Hammer of Justice stuns the diver reliably because it is targeted." },
+    { "tag": "assassin", "why": "Hammer of Justice and Divine Storm are guaranteed stuns that make assassins afraid of melee range, and Armor plus Guardian of Ancient Kings undoes their burst on a focused ally." },
+    { "tag": "melee_heavy", "why": "Hammer plus Well Met slow and damage reduction and Divine Storm area stun lock melee Heroes, and Hammer of the Lightbringer punishes those who get close." },
+    { "tag": "stealth", "why": "Holy Radiance and Holy Fire reveal stealthed Heroes, which gives Hammer of Justice a target." }
+  ],
+  "bad_into": [
+    { "tag": "poke_comp", "why": "Holy Light costs 80 Mana for one target. Spread chip damage and AoE poke are healed inefficiently, and Mana runs dry as the guide says." },
+    { "tag": "sustain_comp", "why": "Long fights are a loss because Mana efficiency is poor and he lacks sustain healing, so he needs a second healer in those drafts." },
+    { "tag": "kiter", "why": "Melee body with a single short stun cannot catch kiters, and his team gets chipped while he cannot answer." },
+    { "tag": "ranged_heavy", "why": "He has no damage or wave clear to pressure ranged Heroes and no mobility to close in, so the ranged team fights on its own terms." }
+  ],
+  "wants_from_team": [
+    "A second sustain healer such as Malfurion for long fights",
+    "Aggressive melee Heroes who use Armor and Divine Shield, such as Kerrigan",
+    "Wave clear and camp clear from others",
+    "Short fights to a quick objective"
+  ],
+  "gives_team": [
+    "Burst heal that can undo a combo",
+    "Armor on every heal, up to 50 with Divine Protection",
+    "Reliable targeted stun and Divine Storm area stun",
+    "Divine Shield to enable a damage dealer or save an ally"
+  ],
+  "power_spike": "late",
+  "weaknesses": [
+    "Poor sustain healing and Mana efficiency",
+    "Weak wave clear",
+    "No mobility",
+    "Dies often (2.8 deaths per game measured)",
+    "Spell Shield and Armor of Faith are the only self defense"
+  ],
+  "evidence": [
+    "Holy Light, Holy Radiance, Hammer of Justice, Divine Shield, Divine Storm, Devotion ability text",
+    "Redemption, Divine Protection, Benediction, Well Met, Guardian of Ancient Kings talent text",
+    "Icy Veins strengths, weaknesses and role in current meta",
+    "Measured block: 2405 healing and 2297 damage taken per minute, 2.8 deaths and 23 seconds of enemy crowd control per game"
+  ],
+  "confidence": "high",
+  "unsure": ["power_spike", "healing.sustain"]
+}

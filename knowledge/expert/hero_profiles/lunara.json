@@ -1,0 +1,89 @@
+{
+  "hero": "Lunara",
+  "slug": "lunara",
+  "role": "Ranged Assassin",
+  "attack": {
+    "type": "ranged",
+    "range": "medium",
+    "autos_matter": 4,
+    "note": "Nature's Toxin is applied by basic attacks and damaging abilities, and Invigorating Spores, Wild Vigor and Splintered Spear all feed basic attacks, so autos are the main engine. Noxious Blossom and Thornwood Vine spread the poison from further away."
+  },
+  "damage": {
+    "carry": true,
+    "ranged_dealer": true,
+    "style": ["dot", "poke", "sustained"],
+    "poke": {
+      "rating": 4,
+      "kind": "dot",
+      "dodgeable": 2,
+      "note": "The poison is applied by autos and Blossom or Vine hits and ticks for 3 to 9 seconds, so it is not a skillshot to dodge once applied. Thornwood Vine and Star Wood Spear give long range."
+    },
+    "heal_blunted": 4,
+    "note": "Nature's Toxin is spread out, steady damage that a strong sustain healer (Malfurion, Stukov, Brightwing, Lucio) undoes, while single target burst healers (Uther, Lt. Morales) cannot outheal stacked poison on several targets. Choking Pollen and Intensifying Toxin add a burst at 3 stacks. Measured 2747 hero damage per minute, moderate, with the lowest win rate of the group (0.446)."
+  },
+  "healing": null,
+  "ratings": {
+    "wave_clear": 3,
+    "camp_clear": 3,
+    "siege": 3,
+    "teamfight": 4,
+    "engage": 2,
+    "peel": 2,
+    "mobility": 4,
+    "self_sustain": 1,
+    "survivability": 3,
+    "objective": 3,
+    "global_presence": 1,
+    "solo_lane": 3
+  },
+  "cc": {
+    "hard": [],
+    "soft": ["slow"],
+    "reliability": 1
+  },
+  "good_into": [
+    { "tag": "low_sustain_healer", "why": "Poison on several heroes ticks over time and low sustain healers like Lt. Morales or Uther cannot cover it (Icy Veins says she counters them)." },
+    { "tag": "single_target_healer", "why": "A healer that heals one hero at a time cannot cleanse stacks spread across the team, and Crippling Spores extends the duration by 3 seconds." },
+    { "tag": "stealth", "why": "Nature's Toxin prevents stealthed heroes such as Nova, Valeera or Zeratul from re stealthing, and Natural Perspective reveals them for its duration." },
+    { "tag": "tanky_frontline", "why": "Invigorating Spores deals 1.5 percent of maximum health per attack on a 3 stack target, and Unfair Advantage amplifies poison on slowed tanks." }
+  ],
+  "bad_into": [
+    { "tag": "high_sustain_healer", "why": "Heavy healing shuts down damage over time, so Malfurion or Stukov heal the poison almost as fast as she applies it." },
+    { "tag": "aoe_healer", "why": "Area heals touch every poisoned hero at once, so the spread out dot is wasted; Icy Veins names Malfurion and Stukov as her counters." },
+    { "tag": "assassin", "why": "Illidan and Genji chase her down even after Leaping Strike, and she has no real burst of her own to stop them." },
+    { "tag": "burst_dive", "why": "Her damage is slow and builds over time, so a fast dive kills her before the poison does anything." },
+    { "tag": "cc_heavy", "why": "Her mobility is her defense, and Galloping Gait or Leaping Strike do not help if she is stunned or rooted." }
+  ],
+  "wants_from_team": [
+    "crowd control or slows for Unfair Advantage",
+    "a frontline to keep chasers off her",
+    "a healer, since she has little sustain",
+    "teammates who follow up when poison stacks start to bite"
+  ],
+  "gives_team": [
+    "global vision from Wisp and Natural Perspective",
+    "sustained damage that stacks on many targets",
+    "reveals stealth and stops re stealthing",
+    "Crippling Spores slow to help catch or peel"
+  ],
+  "power_spike": "late",
+  "weaknesses": [
+    "no real burst damage",
+    "countered by strong area healing",
+    "susceptible to crowd control and assassins",
+    "cannot mount, so rotating on large maps is slow"
+  ],
+  "evidence": [
+    "Nature's Toxin",
+    "Noxious Blossom",
+    "Crippling Spores",
+    "Thornwood Vine",
+    "Leaping Strike",
+    "Unfair Advantage",
+    "Invigorating Spores",
+    "Icy Veins synergies and counters text",
+    "measured damage 2747 per minute, 0.446 win rate"
+  ],
+  "confidence": "high",
+  "unsure": ["power_spike"]
+}
