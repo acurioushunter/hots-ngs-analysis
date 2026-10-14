@@ -135,19 +135,26 @@ function renderFilterBar() {
     '<button class="btn sm" data-act="preset" data-v="low" title="NGS C, C East, C West, D and Heroes Lounge EU Div 4 and 5">Low divisions only</button>' +
     '<button class="btn sm pri" data-act="fopen" aria-expanded="' + App.fOpen + '">' + (App.fOpen ? 'Hide filters' : 'Edit filters') + '</button></div>';
   if (App.fOpen) {
+    // Counts are what you would get by turning that chip on with every other group as it is now, so a chip that would give an
+    // empty selection reads 0 and is dimmed. (Season 30 is a Heroes Lounge season: with only NGS on, it gives nothing.)
+    function countWith(key, value) {
+      var g = { leagues: f.leagues, leagueSeasons: f.leagueSeasons, divisions: f.divisions };
+      g[key] = [value];   // the chip alone against the other groups: siblings in its own group are an OR
+      return E.filterGames(App.data.games, g).length;
+    }
     function grp(title, key, items, labelFn) {
       return '<div class="fgroup"><h4>' + title + '</h4><div class="chips">' + items.map(function (it) {
-        var on = f[key].indexOf(it.value) >= 0;
-        return '<button class="fchip" data-act="ftoggle" data-k="' + key + '" data-v="' + esc(it.value) + '" aria-pressed="' + on + '">' + esc(labelFn(it)) + '<span class="n">' + it.n + '</span></button>';
+        var on = f[key].indexOf(it.value) >= 0, n = countWith(key, it.value);
+        return '<button class="fchip' + (n === 0 && !on ? ' dim' : '') + '" data-act="ftoggle" data-k="' + key + '" data-v="' + esc(it.value) + '" aria-pressed="' + on + '">' + esc(labelFn(it)) + '<span class="n">' + n.toLocaleString() + '</span></button>';
       }).join('') + '</div></div>';
     }
     h += '<div class="fpanel">';
-    if (f.leagueSeasons.length) h += '<div class="note">Preset active: ' + esc(f.leagueSeasons.map(function (x) { return x.replace(':', ' S'); }).join(' + ')) + ' <button class="btn sm" data-act="preset" data-v="all">Clear preset</button></div>';
+    if (!App.selAll.length) h += '<div class="note warn">These filters match no games. Chips that read 0 cannot be combined with what is on now (a Heroes Lounge season with only NGS on, for example). <button class="btn sm" data-act="preset" data-v="all">Clear all filters</button></div>';
     h += grp('League', 'leagues', o.leagues, function (i) { return i.value === 'HL' ? 'HL (Heroes Lounge EU)' : i.value; });
-    h += grp('Season', 'seasons', o.seasons, function (i) { return 'S' + i.value; });
+    h += grp('Season (league and season)', 'leagueSeasons', o.leagueSeasons, function (i) { var p = i.value.split(':'); return p[0] + ' S' + p[1]; });
     h += grp('Division', 'divisions', o.divisions, function (i) { return i.league + ' ' + i.value; });
     h += grp('Map filter (optional)', 'maps', o.maps, function (i) { return i.value; });
-    h += '<div class="small muted">Leagues, seasons and divisions combine with AND. Chips inside one group combine with OR. The map filter applies to Counters, Heroes, Meta and Scout. Draft and Maps use their own map.</div>';
+    h += '<div class="small muted">Leagues, seasons and divisions combine with AND (NGS seasons are 15 to 22, Heroes Lounge is season 30). Chips inside one group combine with OR. The map filter applies to Counters, Heroes, Meta and Scout. Draft and Maps use their own map.</div>';
     h += '<div><button class="btn sm" data-act="preset" data-v="all">Clear all filters</button></div></div>';
   }
   el.innerHTML = h;
@@ -156,7 +163,7 @@ ACT.fopen = function () { App.fOpen = !App.fOpen; renderFilterBar(); };
 ACT.ftoggle = function (el) {
   var k = el.getAttribute('data-k'), v = el.getAttribute('data-v');
   if (k === 'seasons') v = Number(v);
-  App.filters.leagueSeasons = [];
+  if (k !== 'leagueSeasons') { /* presets stay unless the user picks other groups */ }
   toggleIn(App.filters[k], v);
   filtersChanged();
 };
@@ -214,6 +221,13 @@ function boot() {
   var saved = load('filters', null);
   if (saved && typeof saved === 'object') {
     ['leagues', 'seasons', 'leagueSeasons', 'divisions', 'maps'].forEach(function (k) { if (Array.isArray(saved[k])) App.filters[k] = saved[k]; });
+    // an older save held bare season numbers, which mean different leagues: turn them into league and season pairs
+    if (App.filters.seasons.length) {
+      var have = {};
+      App.rawGames.forEach(function (g) { have[g[0] + ':' + g[1]] = 1; });
+      App.filters.seasons.forEach(function (n) { Object.keys(have).forEach(function (k) { if (k.split(':')[1] === String(n) && App.filters.leagueSeasons.indexOf(k) < 0) App.filters.leagueSeasons.push(k); }); });
+      App.filters.seasons = [];
+    }
   }
   App.overrides = load('overrides', {}) || {};
   var pr = load('profile', null);

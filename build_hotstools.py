@@ -145,7 +145,21 @@ def assemble(tpl, subs, personal=None):
     return out, wrapped
 
 
+def check_syntax():
+    """A stray apostrophe in a single quoted JS string once broke the whole Lab silently (the tests do not parse the UI files)."""
+    import glob
+    bad = []
+    for f in sorted(glob.glob(str(ROOT / 'draftlab' / '**' / '*.js'), recursive=True) + glob.glob(str(ROOT / 'hotstools' / '**' / '*.js'), recursive=True)
+                    + [str(ROOT / 'playbook' / 'engine.js')]):
+        r = subprocess.run(['node', '--check', f], capture_output=True, text=True)
+        if r.returncode:
+            bad.append(f + ': ' + (r.stderr.strip().splitlines()[0] if r.stderr.strip() else 'syntax error'))
+    if bad:
+        raise SystemExit('JavaScript syntax error, nothing built: ' + '; '.join(bad))
+
+
 def main():
+    check_syntax()
     if '--all' in sys.argv:
         subprocess.check_call([sys.executable, str(ROOT / 'build_playbook.py')], cwd=ROOT)
         subprocess.check_call([sys.executable, '-I', str(ROOT / 'build_draftlab.py')], cwd=ROOT)

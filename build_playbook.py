@@ -963,6 +963,8 @@ def map_sheet(m, data):
 
 # ---------------------------------------------------------------- main
 def main():
+    import team_merge
+    team_merge.apply()   # one team that played under two names inside a season counts once
     cfg = rd(PB / "config" / "our_team.json")
     rules = rd(PB / "config" / "rules.json")
     db = sqlite3.connect(KN / "ngs_div.db")

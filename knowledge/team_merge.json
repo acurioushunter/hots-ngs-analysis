@@ -1,0 +1,58 @@
+[
+ {
+  "season": 16,
+  "division": "D East",
+  "canonical": "RageAgainsttheGame eSports",
+  "names": [
+   "RageAgainsttheGame eSports",
+   "RageAgainstTheGame eSports"
+  ],
+  "shared": 5,
+  "games": {
+   "RageAgainsttheGame eSports": 17,
+   "RageAgainstTheGame eSports": 9
+  }
+ },
+ {
+  "season": 16,
+  "division": "D West",
+  "canonical": "Cheese Counters Skill",
+  "names": [
+   "Cheese Counters Skill",
+   "Artemis"
+  ],
+  "shared": 6,
+  "games": {
+   "Cheese Counters Skill": 22,
+   "Artemis": 4
+  }
+ },
+ {
+  "season": 22,
+  "division": "Heroic",
+  "canonical": "Is Shoopufff Inting Still",
+  "names": [
+   "Is Shoopufff Inting Still",
+   "Is Shoopufff Still Inting"
+  ],
+  "shared": 6,
+  "games": {
+   "Is Shoopufff Inting Still": 10,
+   "Is Shoopufff Still Inting": 4
+  }
+ },
+ {
+  "season": 22,
+  "division": "Heroic",
+  "canonical": "Fake Taxi",
+  "names": [
+   "Pending",
+   "Fake Taxi"
+  ],
+  "shared": 5,
+  "games": {
+   "Pending": 8,
+   "Fake Taxi": 6
+  }
+ }
+]

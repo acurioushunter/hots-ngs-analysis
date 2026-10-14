@@ -24,6 +24,8 @@ def hn(x):
     return h
 
 def main():
+    import team_merge
+    team_merge.apply()
     rows = []
     if (K / "ngs_league.db").exists():
         c = sqlite3.connect(K / "ngs_league.db")

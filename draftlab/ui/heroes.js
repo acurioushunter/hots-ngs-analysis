@@ -19,7 +19,7 @@ RENDER.heroes = function (p) {
     sel('h-role', 'role', 'Role', uniqVals('role')) + sel('h-sub', 'sub', 'Sub role', uniqVals('sub_role')) + sel('h-dmg', 'dmg', 'Damage', ['burst', 'sustain', 'mixed']) + sel('h-range', 'range', 'Range class', ['melee', 'short', 'medium', 'long']) +
     '<label class="f">Sort by<select id="h-sort" data-h="sort">' + sorts.map(function (s) { return '<option value="' + s[0] + '">' + s[1] + '</option>'; }).join('') + '</select></label>' +
     '<button class="btn" id="h-dir" data-act="h-dir">Ascending</button></div>' +
-    '<p class="small muted" style="margin:8px 0 0">Pick, ban and win figures use the ' + App.selMap.length + ' games in the selection. Ratings come from the hero profiles (ability text and measured stats, with Hunter's notes on top) and are still a model, so override any you disagree with. Tick up to three heroes to compare.</p></div>' +
+    '<p class="small muted" style="margin:8px 0 0">Pick, ban and win figures use the ' + App.selMap.length + ' games in the selection. Ratings come from the hero profiles (ability text and measured stats, with the owner\'s notes on top) and are still a model, so override any you disagree with. Tick up to three heroes to compare.</p></div>' +
     '<div id="h-cmp"></div><div class="hsplit"><div class="card" id="h-list" style="min-width:0"></div><div id="h-detail" style="min-width:0"></div></div></div>';
   $$('[data-h]', p).forEach(function (el) {
     var ev = el.tagName === 'INPUT' ? 'input' : 'change';

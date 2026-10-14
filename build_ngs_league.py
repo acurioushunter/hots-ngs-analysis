@@ -165,6 +165,11 @@ def main(args):
                              (g.get("TimeStunningEnemyHeroes") or 0) + (g.get("TimeRootingEnemyHeroes") or 0) + (g.get("TimeSilencingEnemyHeroes") or 0),
                              json.dumps(hr.get("talents"))))
     con.commit()
+    con.close()
+    import team_merge
+    team_merge.detect()
+    team_merge.apply()
+    con = sqlite3.connect(DB)
     print("games", con.execute("select count(*) from lg_games").fetchone()[0], "bans with names left blank", miss, "of", tot)
     for row in con.execute("select season,division,count(*) from lg_games group by 1,2 order by 1,2"):
         print(row)
