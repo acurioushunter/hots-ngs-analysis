@@ -85,6 +85,27 @@ def build_heroes(cfg):
     return heroes, canon, kdb
 
 
+def attach_kit(heroes):
+    """Kit facts per hero from the expert hero matrix: crowd control, comp fit, engage, and Heroes Profile global rates. Judgment, not measured."""
+    path = KN / "expert" / "hero_matrix_draft.json"
+    if not path.exists():
+        return
+    m = rd(path)["heroes"]
+    by_norm = {norm(k): k for k in m}
+    for h, d in heroes.items():
+        k = by_norm.get(norm(h))
+        if not k and "cio" in norm(h):
+            k = next((x for x in m if "cio" in x and x.startswith("L")), None)
+        if not k:
+            continue
+        v = m[k]
+        ex, meta = v.get("extra", {}), (v.get("meta") or {}).get("patch_257_plus_255") or {}
+        d["kit"] = dict(sub=v.get("sub_role"), cc=ex.get("cc_types_base_kit", []), cc_talent=ex.get("cc_types_talent_only", []), cc_amount=ex.get("cc_amount"),
+                        fit=v.get("comp_fit", []), ult=ex.get("ult_type"), engage=v["ratings"].get("engage"), peel=v["ratings"].get("peel"),
+                        mobility=v["ratings"].get("mobility"), vuln=ex.get("vulnerable_to", []), strength=v.get("strengths_note"), weak=v.get("weaknesses_note"),
+                        wr=meta.get("win"), ban=meta.get("ban"), pick=meta.get("pick"), n=meta.get("games"))
+
+
 def archetype(role, hero, arch):
     """Label used in the roster table: Offlaner, Bruiser DPS, Dive assassin, Ranged DPS, Tank, Healer or Support."""
     if hero in arch.get("bruiser_dps", []):
@@ -183,7 +204,7 @@ def team_profile(name, G, heroes, us_name):
     mine = [g for g in G.values() if name in (g["team0"], g["team1"])]
     t = dict(name=name, games=len(mine), wins=sum(g["winner"] == name for g in mine), by_map={}, as_map_picker={}, first_pick=[0, 0], map_pick=[0, 0],
              bans_r1={}, bans_r2={}, bans_vs_us={}, bans_r2_vs_us={}, bans_games_vs_us=0, picks_by_slot={}, hero_picks={}, players={}, faced={}, vs_healer={}, h2h=[],
-             hero_picks_vs_us={}, our_heroes_vs_them={})
+             hero_picks_vs_us={}, our_heroes_vs_them={}, log=[])
     pl = collections.defaultdict(lambda: collections.defaultdict(lambda: dict(g=0, w=0, rating=0, deaths=0, dmg=0.0)))
     for g in mine:
         won = g["winner"] == name
@@ -217,6 +238,10 @@ def team_profile(name, G, heroes, us_name):
                 add(t["hero_picks"], hero, won)
             else:
                 add(t["faced"], hero, won)
+        # one row per game from this team's side: the raw material for combos, conditions and "with versus without" records at run time
+        t["log"].append(dict(map=g["map"], won=int(bool(won)), fp=int(g["first_pick_team"] == name), vs=opp,
+                             picks=[h for tm, s, h in g["picks"] if tm == name], opp_picks=[h for tm, s, h in g["picks"] if tm != name],
+                             bans=[h for tm, s, h in g["bans"] if tm == name], opp_bans=[h for tm, s, h in g["bans"] if tm != name]))
         opp_healers = [h for tm, s, h in g["picks"] if tm != name and heroes.get(h, {}).get("role") == "Healer"]
         for h in opp_healers:
             add(t["vs_healer"], h, won)
@@ -675,6 +700,7 @@ def main():
     heroes, canon, kdb = build_heroes(cfg)
     G = games(db)
     attach_hero_stats(heroes, G)
+    attach_kit(heroes)
     names = sorted({g["team0"] for g in G.values()} | {g["team1"] for g in G.values()})
     map_names = sorted({g["map"] for g in G.values()} | league_maps())
     maps = build_maps(kdb, canon, map_names)

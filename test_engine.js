@@ -118,5 +118,19 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   const mc = E.mapChoices(CCS, ["Towers of Doom", "Infernal Shrines"]);
   check("map choices drop banned maps", mc.length === Object.keys(PLAYBOOK.maps).length - 2 && !mc.some(x => x.map === "Towers of Doom"), mc.length);
 }
+// ban and pick intel: win rates, conditions and combos with their sample sizes
+{
+  const st = E.newDraft(CCS, "first", "Infernal Shrines");
+  const joh = E.recommendBans(st).find(b => b.hero === "Johanna");
+  check("ban recs carry an intel dossier", joh && joh.intel && joh.intel.numbers.length >= 2, JSON.stringify(joh && joh.intel));
+  check("Johanna dossier has CCS record from the log (7 games)", joh.intel.headline.theirs[0] === PLAYBOOK.teams[CCS].hero_picks["Johanna"][0], JSON.stringify(joh.intel.headline));
+  check("kit combos are worded as suggestions, never as seen", joh.intel.combos.filter(c => /could set up/.test(c)).every(c => /^Kit suggests/.test(c)), joh.intel.combos.join("|"));
+  check("a healer is never named as a dive partner", !joh.intel.combos.some(c => /could set up.*(Brightwing|Anduin|Rehgar)/.test(c)), joh.intel.combos.join("|"));
+  const fear = E.fearList(st);
+  check("fear list covers our pool and has numbers", fear.length >= 8 && fear[0].intel.numbers.length >= 1, fear.length);
+  check("fear list never lists a banned hero", (() => { const s2 = E.clone(st); E.apply(s2, "Sylvanas"); return !E.fearList(s2).some(f => f.hero === "Sylvanas"); })(), "");
+  const pk = E.recommendPicks(st)[0];
+  check("pick recs carry intel", pk.intel && pk.intel.headline, "");
+}
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);

@@ -1,3 +1,9 @@
+# Update 2026-10-14 (Drafter depth)
+- Map bans for both teams in the Draft tab Setup card; map list and "maps left" follow them.
+- Pick advice: counters, ranged cap, role stacking and second healer penalties are heavier; CCS healer rule also penalizes Rehgar and Stukov (0-3).
+- Ban and pick dossiers: every team now carries `log` (one row per game: map, result, first pick, both sides' picks and bans). `E.heroIntel`, `E.banIntel` and `E.fearList` in `playbook/engine.js` turn it into win rates with and without a hero, conditions (map, first pick), partners, "kit suggests" combos (hard crowd control with dive partners) and style fit. Heroes carry `kit` from `knowledge/expert/hero_matrix_draft.json`. The Draft tab shows a "Ban dossier" per ban and "What they may be worried about" on their ban turns.
+- Still open: win rate on bans elsewhere in the Lab (see the 2026-10-14 handoff below), series level combo detection from takedown data.
+
 # Handoff 2026-10-13 (HotS Tools, read this first)
 
 **The two apps are now one.** `hots_tools.html` (built by `python build_hotstools.py --all`) holds the Draft Room, the Draft Lab, My Games and the Learn pages behind one navigation. Read `HOTS_TOOLS.md`. The artifact link in `CLAUDE.md` should carry it: publish `hots_tools_artifact.html` over that link (read the live artifact first).

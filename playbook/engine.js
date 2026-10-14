@@ -263,7 +263,7 @@
         const hp = opp.hero_picks[h];
         if (hp && hp[0] >= 3 && sm(hp[1], hp[0]) > 0.55 && asg && asg.score > 1) { score += w.denial * Math.min(hp[0] / oppGames, 0.5) * 6; reasons.push("denies them (they are " + rec(hp) + " with it)"); }
       }
-      out.push({ hero: h, score, who: whoCan(h, map), reasons, flags, assign: withH.assign });
+      out.push({ hero: h, score, who: whoCan(h, map), reasons, flags, assign: withH.assign, intel: E.heroIntel(d.teams[d.us.team], h, mine, map) });
     });
     out.sort((a, b) => b.score - a.score);
     return out;
@@ -332,24 +332,145 @@
         if (r.kind === "ban_discount" && r.heroes[h] != null) { score *= r.heroes[h]; flags.push("PROBABLY DO NOT BAN"); reasons.push(r.why); }
       });
       if (info.marksman) { score += 0.2; }
+      // a hero they are plainly bad with is a poor use of a ban (a lean: small samples)
+      const hp = opp.hero_picks[h];
+      if (hp && hp[0] >= 4 && hp[1] / hp[0] <= 0.25) { score *= 0.5; flags.push("LOW VALUE BAN"); reasons.push("they are only " + hp[1] + "-" + (hp[0] - hp[1]) + " with it this season, so a ban buys little"); }
       E.seriesGames(st).forEach((g, gi) => {
         if (g.theirs && g.theirs.indexOf(h) >= 0) {
           if (!g.won) { score += 0.8; reasons.push("they won game " + (gi + 1) + " of this series with it"); }
           else reasons.push("they played it in game " + (gi + 1) + " and lost");
         }
       });
-      out.push({ hero: h, score, reasons, flags });
+      out.push({ hero: h, score, reasons, flags, intel: E.banIntel(st, h) });
     });
     // heroes with rule bonuses that never appear in their rows (for example a hero we want gone)
     rules.forEach(r => {
       if (r.kind !== "ban_bonus") return;
       Object.keys(r.heroes).forEach(h => {
         if (used.has(h) || out.find(o => o.hero === h)) return;
-        out.push({ hero: h, score: r.heroes[h], reasons: [r.why], flags: [] });
+        out.push({ hero: h, score: r.heroes[h], reasons: [r.why], flags: [], intel: E.banIntel(st, h) });
       });
     });
     out.sort((a, b) => b.score - a.score);
     return out;
+  };
+
+
+  // ---------------------------------------------------------------- ban and pick intel: win rates, conditions, combos
+  // Everything here is counted from a team's game log (what that team picked and banned, and whether it won) plus kit facts from the
+  // hero matrix. Kit facts are judgment, so they are worded as "kit suggests" and never as something the games showed.
+  const HARD_CC = ["silence", "stun", "pull", "root", "knockback", "fear", "blind"];
+  const kitOf = h => (D().heroes[h] && D().heroes[h].kit) || null;
+  const isDiver = h => {
+    const k = kitOf(h), i = D().heroes[h] || {};
+    if (!k || i.role === "Healer" || i.role === "Support" || i.role === "Ranged Assassin") return false;
+    return i.role === "Melee Assassin" || k.fit.indexOf("dive") >= 0 || k.fit.indexOf("pick") >= 0 || (k.engage || 0) >= 4;
+  };
+  const wl = (g, w) => w + "-" + (g - w);
+  const pcs = (g, w) => g ? Math.round(100 * w / g) + "%" : "n/a";
+
+  // the style of comps a team builds: how many of its games had two or more heroes with each comp fit tag
+  E.styleOf = function (team) {
+    const tags = ["dive", "poke", "pick", "deathball", "sustain/attrition", "4 man push/split", "wave clear siege"], out = {};
+    const log = (team && team.log) || [];
+    tags.forEach(t => {
+      let g = 0, w = 0;
+      log.forEach(r => { const n = r.picks.filter(h => { const k = kitOf(h); return k && k.fit.indexOf(t) >= 0; }).length; if (n >= 2) { g++; w += r.won; } });
+      out[t] = [g, w];
+    });
+    return { games: log.length, tags: out };
+  };
+
+  // intel on one hero as played by `team` (the side that would have it): numbers, conditions, combos.
+  // board = heroes that side already has this game; map = this game's map (may be null)
+  E.heroIntel = function (team, hero, board, map) {
+    const out = { numbers: [], conditions: [], combos: [], style: [], headline: {} };
+    if (!team) return out;
+    const log = team.log || [], withH = log.filter(r => r.picks.indexOf(hero) >= 0), without = log.filter(r => r.picks.indexOf(hero) < 0);
+    const g = withH.length, w = withH.reduce((a, r) => a + r.won, 0);
+    const gw = without.length, ww = without.reduce((a, r) => a + r.won, 0);
+    out.headline.theirs = [g, w];
+    if (g) {
+      out.numbers.push("Played in " + g + " of " + log.length + " games, " + wl(g, w) + " (" + pcs(g, w) + ")" + (gw ? ". Without it " + wl(gw, ww) + " (" + pcs(gw, ww) + ")." : "."));
+      const rows = [];
+      Object.keys(team.players || {}).forEach(tag => { const r = team.players[tag].heroes[hero]; if (r) rows.push({ tag, g: r.g, w: r.w, rating: r.rating, deaths: r.deaths, weak: r.weak }); });
+      rows.sort((a, b) => b.g - a.g);
+      if (rows.length) out.numbers.push(rows.slice(0, 3).map(r => r.tag + " " + wl(r.g, r.w) + " (rating " + Math.round(r.rating) + (r.deaths != null ? ", " + r.deaths + " deaths per game" : "") + ")").join("; "));
+      const vs = team.hero_picks_vs_us && team.hero_picks_vs_us[hero];
+      if (vs && vs[0]) { out.numbers.push("Against us: " + wl(vs[0], vs[1]) + " with it."); out.headline.vsUs = vs; }
+      // conditions: map, who had first pick, whether it was an early or a late pick
+      const cond = (label, rows2) => { if (rows2.length >= 2 && rows2.length < g) { const w2 = rows2.reduce((a, r) => a + r.won, 0); out.conditions.push(label + ": " + wl(rows2.length, w2) + " (" + rows2.length + " games)"); } };
+      if (map) cond("On " + map, withH.filter(r => r.map === map));
+      cond("When they had first pick", withH.filter(r => r.fp)); cond("When they picked second", withH.filter(r => !r.fp));
+      if (g >= 4) cond("With no other " + heroInfo(hero).role + " beside it", withH.filter(r => r.picks.filter(x => x !== hero && heroInfo(x).role === heroInfo(hero).role).length === 0));
+      // partners it was drafted with
+      const co = {};
+      withH.forEach(r => r.picks.forEach(x => { if (x !== hero) { co[x] = co[x] || [0, 0]; co[x][0]++; co[x][1] += r.won; } }));
+      Object.keys(co).filter(x => co[x][0] >= 2).sort((a, b) => co[b][0] - co[a][0]).slice(0, 3)
+        .forEach(x => out.combos.push("Drafted with " + x + " in " + co[x][0] + " of " + g + " games: " + wl(co[x][0], co[x][1]) + "."));
+    } else out.numbers.push("They have not played it in " + log.length + " games on record.");
+    // what the games say when the other side takes it away
+    const bannedBy = log.filter(r => r.opp_bans.indexOf(hero) >= 0);
+    if (bannedBy.length >= 2) out.numbers.push("Record when the other side banned it: " + wl(bannedBy.length, bannedBy.reduce((a, r) => a + r.won, 0)) + " (" + bannedBy.length + " games).");
+    // kit combos: what this hero's crowd control could set up for the partners they draft (kit suggests, not seen)
+    const k = kitOf(hero);
+    if (k) {
+      const hard = (k.cc || []).filter(c => HARD_CC.indexOf(c) >= 0), talent = (k.cc_talent || []).filter(c => HARD_CC.indexOf(c) >= 0);
+      const pool = {};
+      log.forEach(r => r.picks.forEach(x => { if (x !== hero) pool[x] = (pool[x] || 0) + 1; }));
+      (board || []).forEach(x => { if (x !== hero) pool[x] = (pool[x] || 0) + 100; });
+      const partners = Object.keys(pool).filter(x => isDiver(x) && pool[x] >= 2).sort((a, b) => pool[b] - pool[a]).slice(0, 3);
+      if (hard.length && partners.length) {
+        const seen = partners.map(x => { const r = withH.filter(rr => rr.picks.indexOf(x) >= 0); return x + (r.length ? " (seen together " + (r.length === 1 ? "once" : r.length + " times") + ", " + wl(r.length, r.reduce((a, rr) => a + rr.won, 0)) + ")" : ""); });
+        out.combos.push("Kit suggests its " + hard.join(", ") + (talent.length ? " (plus " + talent.join(", ") + " from talents)" : "") + " could set up their " + seen.join(", ") + (partners.some(x => (board || []).indexOf(x) >= 0) ? ". One of them is already on their board." : "."));
+      } else if (hard.length >= 2 && (k.engage || 0) >= 3) out.combos.push("Kit suggests it brings " + hard.join(", ") + " and a decent engage on its own.");
+      if ((k.peel || 0) >= 4) out.combos.push("Kit suggests strong peel: it protects whoever carries the damage.");
+      if (k.wr != null) { out.numbers.push("Heroes Profile Storm League, newest patches: " + Math.round(k.wr * 10) / 10 + "% wins, banned in " + Math.round((k.ban || 0) * 10) / 10 + "% of games (" + (k.n || 0).toLocaleString("en-US") + " games)."); out.headline.global = k.wr; }
+      const st = E.styleOf(team);
+      (k.fit || []).filter(t => st.tags[t] && st.tags[t][0] >= 3 && st.tags[t][0] <= 0.75 * st.games).forEach(t => out.style.push("Fits their style: " + t + " comps in " + st.tags[t][0] + " of " + st.games + " games, " + wl(st.tags[t][0], st.tags[t][1]) + "."));
+    }
+    return out;
+  };
+
+  // How we do against a hero over the season (games where it was on the other side)
+  E.ourRecordAgainst = function (hero) {
+    const us = D().teams[D().us.team];
+    const v = us && us.faced && us.faced[hero];
+    return v && v[0] ? v : null;
+  };
+
+  // Ban dossier for one candidate hero on the current board.
+  E.banIntel = function (st, hero) {
+    const d = D(), opp = d.teams[st.opp];
+    const i = E.heroIntel(opp, hero, E.picks(st, "opp"), st.map);
+    const ours = E.ourRecordAgainst(hero);
+    if (ours) { i.numbers.push("Our season record when they had it: " + wl(ours[0], ours[1]) + " (" + ours[0] + " games, every opponent)."); i.headline.ours = ours; }
+    const hits = [];
+    d.us.players.forEach(p => Object.keys(p.pool).forEach(o => { if (heroInfo(o).counters.indexOf(hero) >= 0 && hits.indexOf(o) < 0) hits.push(o); }));
+    if (hits.length) i.combos.push("Icy Veins lists it as a counter to our " + hits.join(", ") + ".");
+    return i;
+  };
+
+  // The other side of the table: which of our heroes they are most likely to be afraid of, and why. Same numbers, from our game log.
+  E.fearList = function (st) {
+    const d = D(), us = d.teams[d.us.team], opp = d.teams[st.opp], used = E.used(st);
+    if (!us || !us.log) return [];
+    const ourBoard = E.picks(st, "us");
+    const seen = {};
+    d.us.players.forEach(p => Object.keys(p.pool).forEach(h => { if (!used.has(h) && p.pool[h] !== "practice") seen[h] = (seen[h] === "primary") ? "primary" : p.pool[h]; }));
+    return Object.keys(seen).map(h => {
+      const i = E.heroIntel(us, h, ourBoard, st.map);
+      const g = i.headline.theirs ? i.headline.theirs[0] : 0, w = i.headline.theirs ? i.headline.theirs[1] : 0;
+      const faced = opp && opp.faced && opp.faced[h];   // [games, their wins] against it
+      let score = g * (0.4 + (w + 1) / (g + 2)) * (seen[h] === "primary" ? 1.2 : 0.8);
+      if (faced && faced[0] >= 2 && faced[1] / faced[0] < 0.4) score += 1.5;
+      if (i.combos.some(c => /could set up/.test(c))) score += 1;
+      const bv = opp && opp.bans_vs_us && opp.bans_vs_us[h];
+      if (bv) score += 1.5 * bv;
+      if (faced && faced[0]) i.numbers.push(st.opp + " are " + wl(faced[0], faced[1]) + " against it (" + faced[0] + " games).");
+      if (bv) i.numbers.push("They have banned it " + bv + " time(s) against us.");
+      return { hero: h, score, intel: i, who: whoCan(h, st.map) };
+    }).sort((a, b) => b.score - a.score);
   };
 
   // ---------------------------------------------------------------- what the opponent is likely to do

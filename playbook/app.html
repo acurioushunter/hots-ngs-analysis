@@ -405,17 +405,47 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       ${ui.sim ? `<p class="small muted">Italic names are a projection: the opponent does what they usually do and we take our top recommendation each time.</p>` : ""}</section>`;
   }
 
+  // The numbers and conditions behind a recommendation: win rates with sample sizes, partners, kit combos, how it fits their style.
+  function intelBlock(r, type, st) {
+    const it = r.intel;
+    if (!it) return "";
+    const h = it.headline, chips = [];
+    const wl2 = v => v[1] + "-" + (v[0] - v[1]);
+    if (h.theirs && h.theirs[0]) chips.push(`<span class="tag">${type === "ban" ? esc(st.opp) + " with it" : "Us with it"} ${wl2(h.theirs)}</span>`);
+    else chips.push(`<span class="tag">${type === "ban" ? "not played by them" : "no games yet"}</span>`);
+    if (h.vsUs) chips.push(`<span class="tag">vs us ${wl2(h.vsUs)}</span>`);
+    if (h.ours) chips.push(`<span class="tag">we are ${wl2(h.ours)} against it</span>`);
+    if (h.global != null) chips.push(`<span class="tag">Storm League ${Math.round(h.global * 10) / 10}%</span>`);
+    const sec = (title, list) => list && list.length ? `<b class="small">${title}</b><ul class="r small">${list.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
+    return `<div class="row" style="gap:4px">${chips.join(" ")}</div>
+      <details><summary>${type === "ban" ? "Ban dossier" : "Numbers and combos"}</summary>
+        ${sec("Win rates", it.numbers)}${sec("Conditions", it.conditions)}${sec("Combos and partners", it.combos)}${sec("Style", it.style)}
+        <p class="small muted">Counts come from this season's games on record, so most rest on 2 to 8 games. Lines that start with "Kit suggests" come from the hero's kit, not from games we saw.</p>
+      </details>`;
+  }
+
+  // Their side of the ban: which of our heroes they are likely to be worried about, and the numbers or combos behind it.
+  function fearCard(st) {
+    const list = E.fearList(st).slice(0, 6);
+    if (!list.length) return "";
+    return `<details class="card them"><summary><b>What they may be worried about</b> <span class="muted small">our heroes ranked by how much damage they have done, their history of banning them, and combos</span></summary>
+      ${list.map(f => `<div style="border-top:1px solid var(--line);padding-top:8px;margin-top:8px"><div class="row" style="justify-content:space-between"><span>${heroBtn(f.hero)} <span class="muted small">${(f.who || []).slice(0, 2).map(w => esc(w.label)).join(", ")}</span></span></div>
+        <ul class="r small">${f.intel.numbers.concat(f.intel.conditions, f.intel.combos).slice(0, 7).map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>`).join("")}
+      <p class="small muted">From our own game log against theirs. "Kit suggests" lines are about the hero's kit, not something we saw them react to.</p></details>`;
+  }
+
   function recCard(r, i, type, st) {
     const pct = Math.max(4, Math.min(100, r.score * 10));
     const who = (r.who || []).slice(0, 3).map(w => `<span class="tag us">${esc(w.label)} ${esc(w.tier)}</span>`).join(" ");
-    const flags = (r.flags || []).map(f => `<span class="tag ${/LOCK NOW|COUNTERED|OVER RANGED/.test(f) ? "bad" : /DO NOT|LEAVE/.test(f) ? "warn" : "good"}">${esc(f)}</span>`).join(" ");
+    const flags = (r.flags || []).map(f => `<span class="tag ${/LOCK NOW|COUNTERED|OVER RANGED/.test(f) ? "bad" : /DO NOT|LEAVE|LOW VALUE/.test(f) ? "warn" : "good"}">${esc(f)}</span>`).join(" ");
     const reasons = (r.reasons || []).filter(Boolean);
-    const skip = (r.flags || []).some(f => /DO NOT|LEAVE/.test(f));
+    const skip = (r.flags || []).some(f => /DO NOT|LEAVE|LOW VALUE/.test(f));
     const tt = st.map ? mainTier(r.hero, st.map) : mainTier(r.hero, "general");
     return `<div class="rec ${i === 0 && !skip ? "first" : ""} ${skip ? "skip" : ""}">
       <div class="row" style="justify-content:space-between"><h3>${esc(r.hero)}</h3><span class="row" style="gap:6px"><span class="small muted">${st.map ? "map tier" : "general tier"}</span>${tierTag(tt)}<span class="num small muted">${r.score.toFixed(1)}</span></span></div>
       <div class="bar-score"><i style="width:${pct}%"></i></div>
       <div class="row">${who} ${flags}</div>
+      ${intelBlock(r, type, st)}
       ${reasons.length ? `<details ${i === 0 ? "open" : ""}><summary>Why (${reasons.length})</summary><ul class="r small">${reasons.slice(0, 8).map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}
       <div class="row"><button class="btn primary" data-take="${esc(r.hero)}">${type === "ban" ? "We ban it" : "We pick it"}</button><button class="btn" data-hero="${esc(r.hero)}">Hero info</button></div>
     </div>`;
@@ -443,6 +473,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     return `<section class="card ${ours ? "us" : "them"}">
       <div class="row" style="justify-content:space-between"><h2>Slot ${slot.slot}: ${ours ? "our" : "their"} ${what}</h2><span class="tag ${ours ? "us" : "them"}">${ours ? "US" : "THEM"}</span></div>
       <div style="display:grid;gap:10px;margin-top:10px">${body}</div>
+      ${!ours && slot.type === "ban" ? `<div style="margin-top:10px">${fearCard(st)}</div>` : ""}
       <div class="row" style="margin-top:12px"><label class="f grow">${ours ? "Pick any other hero" : "Something else"}<input type="text" id="free" list="heroes" placeholder="Type a hero" autocomplete="off"></label>
         <button class="btn ${ours ? "primary" : "them"}" data-act="free">Record</button>
         <button class="btn" data-act="browse">Browse all heroes</button>
