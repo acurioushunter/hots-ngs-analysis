@@ -1,6 +1,6 @@
 # Sky Temple: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/sky-temple.md` for written lessons.
+Built 2026-10-15. Icy Veins draft advice and tier lists, plus 2 Season 22 games. Edit `playbook/notes/maps/sky-temple.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Gankers, Global presence, Point control for Boss Camp, Split-push
 
@@ -20,7 +20,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 2 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Junkrat 1-0 | Hanzo 12-10, Sylvanas 7-4, Junkrat 3-3, Falstad 2-3, Chromie 2-1 |
+| hunterstag | Junkrat 1-0 | Hanzo 10-8, Sylvanas 7-4, Falstad 2-3, Junkrat 2-3, Chromie 2-1 |
 | chelsi | Tychus 1-0 | n/a |
 | SoulShepherd | Sonya 1-0 | n/a |
 | NorthrnTouch | Anub'arak 1-0 | n/a |

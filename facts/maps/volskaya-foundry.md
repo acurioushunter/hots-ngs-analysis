@@ -1,6 +1,6 @@
 # Volskaya Foundry: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/volskaya-foundry.md` for written lessons.
+Built 2026-10-15. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/volskaya-foundry.md` for written lessons.
 
 **Icy Veins prefers:** Strong late game, Siege damage for Structures, Sustain damage/healing
 
@@ -20,7 +20,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 3 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Sylvanas 1-0 | Hanzo 1-11, Junkrat 4-4, Sylvanas 4-3, Valla 5-2, Medivh 3-3 |
+| hunterstag | Sylvanas 1-0 | Hanzo 1-11, Sylvanas 4-3, Junkrat 3-3, Li-Ming 1-4, Valla 3-2 |
 | chelsi | Thrall 1-0 | n/a |
 | SoulShepherd | Leoric 1-0 | n/a |
 | NorthrnTouch | Johanna 1-0 | n/a |

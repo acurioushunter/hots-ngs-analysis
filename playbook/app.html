@@ -384,7 +384,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <h3 style="margin-top:12px">Coin toss</h3>
       <p class="small muted">If we win the toss: ${pickTxt} against ${esc(ui.opp)}.${close}
         We are ${rec(t.usFirst)} with first pick and ${rec(t.usMap)} with the map pick. They are ${rec(t.themFirst)} with first pick and ${rec(t.themMap)} when they pick the map.
-        Head to head: ${rec(h2.first)} when we had first pick, ${rec(h2.map)} when they did.</p>
+        Head to head: ${rec(h2.first)} when we had first pick, ${rec(h2.map)} when they did. The league's first pick side won ${Math.round((t.leagueFirst || 0.494) * 100)}% of NGS games, so with records this small the toss is close to a coin flip.</p>
       <div class="row" style="margin-top:8px">
         <button class="btn big ${ui.side === "first" ? "primary" : ""}" data-side="first">We have first pick<small>They pick the map. We ban 1, 3, 11 and pick 5, 8, 9, 14, 15.</small></button>
         <button class="btn big ${ui.side === "second" ? "primary" : ""}" data-side="second">They have first pick<small>We pick the map. We ban 2, 4, 10 and pick 6, 7, 12, 13, 16.</small></button>
@@ -443,11 +443,17 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const flags = (r.flags || []).map(f => `<span class="tag ${/LOCK NOW|COUNTERED|OVER RANGED/.test(f) ? "bad" : /DO NOT|LEAVE|LOW VALUE/.test(f) ? "warn" : "good"}">${esc(f)}</span>`).join(" ");
     const reasons = (r.reasons || []).filter(Boolean);
     const skip = (r.flags || []).some(f => /DO NOT|LEAVE|LOW VALUE/.test(f));
-    const tt = st.map ? mainTier(r.hero, st.map) : mainTier(r.hero, "general");
+    // tier for the role the assigned player plays it in (the score uses that row), else the hero's own role
+    const asg = (r.assign || []).find(a => a.hero === r.hero), pl = asg && P.us.players.find(p => p.tag === asg.player);
+    const rows = tierRows(r.hero, st.map || "general");
+    const own = pl && rows.find(x => (pl.tier_roles || []).some(t => String(x.role).indexOf(t) === 0));
+    const tt = own || (st.map ? mainTier(r.hero, st.map) : mainTier(r.hero, "general"));
+    const closeTag = r.close ? `<span class="tag warn" title="Within a point of the top option. Most of a score is the pool tag, so pick by comfort.">close call</span>` : "";
+    const split = r.fit != null ? `<span class="small muted" title="Your players (pool tag, their games, the map) against board, league data and rules">players ${r.fit.toFixed(1)} / board and league ${r.rest >= 0 ? "+" : ""}${r.rest.toFixed(1)}</span>` : "";
     return `<div class="rec ${i === 0 && !skip ? "first" : ""} ${skip ? "skip" : ""}">
       <div class="row" style="justify-content:space-between"><h3>${esc(r.hero)}</h3><span class="row" style="gap:6px"><span class="small muted">${st.map ? "map tier" : "general tier"}</span>${tierTag(tt)}<span class="num small muted">${r.score.toFixed(1)}</span></span></div>
       <div class="bar-score"><i style="width:${pct}%"></i></div>
-      <div class="row">${who} ${flags}</div>
+      <div class="row">${who} ${flags} ${closeTag} ${split}</div>
       ${intelBlock(r, type, st)}
       ${reasons.length ? `<details ${i === 0 ? "open" : ""}><summary>Why (${reasons.length})</summary><ul class="r small">${reasons.slice(0, 8).map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}
       <div class="row"><button class="btn primary" data-take="${esc(r.hero)}">${type === "ban" ? "We ban it" : "We pick it"}</button><button class="btn" data-hero="${esc(r.hero)}">Hero info</button></div>

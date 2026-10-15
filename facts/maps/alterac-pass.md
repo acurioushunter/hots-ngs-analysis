@@ -1,6 +1,6 @@
 # Alterac Pass: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/alterac-pass.md` for written lessons.
+Built 2026-10-15. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/alterac-pass.md` for written lessons.
 
 **Icy Veins prefers:** Anchor, Heroes for clearing Mercenary Camps, Global presence, Point control for Boss Camp, Poke tools for Objective, Self-sustain, Split-push, Tools for solo-capturing the Objective
 
@@ -20,7 +20,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 3 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Sylvanas 1-1, Junkrat 1-0 | Hanzo 12-17, Sylvanas 9-5, Junkrat 6-1 |
+| hunterstag | Sylvanas 1-1, Junkrat 1-0 | Hanzo 11-15, Sylvanas 9-5, Junkrat 5-1 |
 | chelsi | Ragnaros 0-1, Chromie 1-0, Thrall 1-0 | n/a |
 | SoulShepherd | Blaze 0-1, Leoric 1-0, Yrel 1-0 | n/a |
 | NorthrnTouch | Anub'arak 0-1, E.T.C. 1-0, Muradin 1-0 | n/a |

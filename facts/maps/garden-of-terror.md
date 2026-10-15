@@ -1,6 +1,6 @@
 # Garden of Terror: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/garden-of-terror.md` for written lessons.
+Built 2026-10-15. Icy Veins draft advice and tier lists, plus 4 Season 22 games. Edit `playbook/notes/maps/garden-of-terror.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Double Bruiser, Effects relying on impassable terrain, Gankers, Global presence, Poke tools for Objective, Strong late game, Siege damage for Structures, Split-push, Tools for solo-capturing the Objective, Vision tools
 
@@ -21,7 +21,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 4 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Sylvanas 1-1, Falstad 1-0, Raynor 1-0 | Hanzo 14-12, Junkrat 11-1, Sylvanas 6-6, Falstad 1-4 |
+| hunterstag | Sylvanas 1-1, Falstad 1-0, Raynor 1-0 | Hanzo 14-11, Sylvanas 6-6, Junkrat 10-1, Falstad 1-4 |
 | chelsi | Tychus 1-1, Tassadar 1-0, Chromie 1-0 | n/a |
 | SoulShepherd | Blaze 1-1, Dehaka 1-0, Leoric 1-0 | n/a |
 | NorthrnTouch | Muradin 1-0, Johanna 1-0, E.T.C. 0-1, Tyrael 1-0 | n/a |

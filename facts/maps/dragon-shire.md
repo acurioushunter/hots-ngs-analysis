@@ -1,6 +1,6 @@
 # Dragon Shire: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/dragon-shire.md` for written lessons.
+Built 2026-10-15. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/dragon-shire.md` for written lessons.
 
 **Icy Veins prefers:** Anchor, Heroes for clearing Mercenary Camps, Effects relying on impassable terrain, Gankers, Global presence, Point control for Objective, Strong late game, Sustain damage/healing, Vision tools
 
@@ -22,7 +22,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 6 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Chromie 1-1, Junkrat 1-0 | Hanzo 20-10, Sylvanas 6-6, Garrosh 3-3, Junkrat 4-2, Chromie 3-2 |
+| hunterstag | Chromie 1-1, Junkrat 1-0 | Hanzo 17-9, Sylvanas 6-6, Garrosh 3-3, Junkrat 4-2, Chromie 3-2 |
 | chelsi | Sylvanas 0-1, Thrall 1-0, Tychus 1-0 | n/a |
 | SoulShepherd | Leoric 1-1, Rexxar 1-0 | n/a |
 | NorthrnTouch | Varian 1-1, E.T.C. 1-0 | n/a |

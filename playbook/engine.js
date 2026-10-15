@@ -51,7 +51,7 @@
     if (s.us && s.us !== "*" && D().us && s.us !== D().us.team) return false;   // rules written about one team's own players
     return true;
   }
-  E.rulesFor = function (st) { return D().rules.rules.filter(r => applicable(r, st)); };
+  E.rulesFor = function (st) { return D().rules.rules.filter(r => !r.retired && applicable(r, st)); };
 
   function weights() { return D().rules.weights; }
 
@@ -301,42 +301,50 @@
       if (asg) asg.why.forEach(x => reasons.push(x));
       // counters and synergy against what is already on the board
       const counteredBy = [];
+      let h2hSum = 0;
       theirs.forEach(e => {
         const m = E.h2h(h, e);
         if (m && m.n >= 40) {   // measured from league games: use it instead of the Icy Veins list
-          const edge = Math.max(-2.2, Math.min(2.0, m.edge * 20));
-          score += edge;
-          if (Math.abs(m.edge) >= 0.03) reasons.push((m.edge > 0 ? "does better" : "does worse") + " against their " + e + " than usual: " + Math.round(m.wr * 100) + "% in " + m.n + " league games (" + Math.round(m.base * 100) + "% overall)");
-          if (m.edge <= -0.04) counteredBy.push(e);
+          h2hSum += Math.max(-1, Math.min(1, m.edge * 30));
+          if (Math.abs(m.edge) >= 0.015) reasons.push((m.edge > 0 ? "does better" : "does worse") + " against their " + e + " than usual: " + Math.round(m.wr * 100) + "% in " + m.n + " league games (" + Math.round(m.base * 100) + "% overall; a lean, most pairs are mostly noise)");
+          if (m.edge <= -0.02) counteredBy.push(e);
           return;
         }
         if (heroInfo(e).counters.indexOf(h) >= 0) { score += w.counter; reasons.push("counters their " + e + " (Icy Veins)"); }
         if (info.counters.indexOf(e) >= 0) { score -= w.counter * 1.4; counteredBy.push(e); reasons.push("their " + e + " counters it (Icy Veins)"); }
       });
+      score += Math.max(-2, Math.min(2, h2hSum));   // the total over all enemy picks is capped
       if (counteredBy.length >= 2) { score -= w.counter * 0.8 * (counteredBy.length - 1); flags.push("COUNTERED by " + counteredBy.join(" and ")); }
       // partners
       mine.forEach(o => { if (info.synergies.indexOf(o) >= 0 || heroInfo(o).synergies.indexOf(h) >= 0) { score += w.synergy; reasons.push("synergy with our " + o); } });
       // role stacking: a third hero from the same role, or a third damage dealer with no front line yet
       const sameRole = mine.filter(o => heroInfo(o).role === info.role).length;
-      if (info.role !== "Healer" && sameRole >= 2) { score -= 2.5; reasons.push("we already have " + sameRole + " " + info.role + " heroes"); }
-      else if (info.role !== "Healer" && sameRole >= 1 && (info.role === "Tank" || info.role === "Bruiser" || info.role === "Support")) { score -= 0.8; reasons.push("a second " + info.role + " (check it is deliberate)"); }
+      const rangedStack = info.ranged && comp.ranged >= 2;   // the ranged dealer term below already covers this, so no second penalty
+      if (info.role !== "Healer" && sameRole >= 2 && !rangedStack) { score -= 2.5; reasons.push("we already have " + sameRole + " " + info.role + " heroes"); }
+      else if (info.role !== "Healer" && !rangedStack && sameRole >= 1 && (info.role === "Tank" || info.role === "Bruiser" || info.role === "Support")) { score -= 0.8; reasons.push("a second " + info.role + " (check it is deliberate)"); }
       // composition
       const nowRanged = comp.ranged, nowMark = comp.marksmen;
-      if (marksmenNeed && nowMark < marksmenNeed && info.marksman) { score += w.marksman_need; reasons.push("marksman " + (nowMark + 1) + " of " + marksmenNeed + " wanted (13-6 with two or more)"); }
-      const rlg = E.rangedLeague(map), evid = rlg && rlg.all.gap != null && rlg.all.gap <= -0.05 ? 1 : 0.25;
+      const rlg = E.rangedLeague(map), measured = rlg && rlg.all.gap != null && rlg.all.gap <= -0.05;
       if (info.ranged && nowRanged >= 2) {
-        score -= w.ranged_target * 2.5 * evid;
-        if (evid === 1) { flags.push("THIRD RANGED DEALER"); reasons.push("would be ranged damage dealer " + (nowRanged + 1) + ": sides with 3 or more won " + Math.round(rlg.all.hiWr * 100) + "% over " + rlg.all.H.n + " league sides"); }
+        // one penalty, sized by the measured league gap (0.8 to 3 points) rather than a fixed veto
+        const pen = measured ? Math.max(0.8, Math.min(3, Math.abs(rlg.all.gap) * 15)) : 0.5;
+        score -= pen;
+        if (measured) { flags.push("THIRD RANGED DEALER"); reasons.push("would be ranged damage dealer " + (nowRanged + 1) + ": sides with 3 or more won " + Math.round(rlg.all.hiWr * 100) + "% over " + rlg.all.H.n + " league sides (an association)"); }
       }
       // how its damage meets their healer: measured first (heal_lens), the profile's blunting score when the sample is thin
       const lens = E.healLens(h, theirs);
       if (lens) { score += lens.score; reasons.push(lens.text); }
+      else if (theirs.filter(x => D().heroes[x] && D().heroes[x].hclass).length >= 2 && (info.carry || info.ranged)) reasons.push("no heal read: they have two healers and the measured lens only reads one");
       const missing = [];
       if (!comp.healers) missing.push("Healer");
       if (!comp.frontline) missing.push("Front");
       const fills = (info.role === "Healer" && !comp.healers) || ((info.role === "Tank" || info.role === "Bruiser") && !comp.frontline);
       if (fills && remaining - 1 < missing.length) { score += w.role_gap; reasons.push("fills the " + (info.role === "Healer" ? "healer" : "front line") + " gap"); }
-      if (info.role === "Healer" && comp.healers >= 1) { score -= 3; reasons.push("a second healer (only wanted on double healer maps)"); }
+      if (info.role === "Healer" && comp.healers >= 1) {
+        const hc = ((D().comps || {}).all || {}).healers || {}, two = E.cell(hc["2+"]), one = E.cell(hc["1"]);
+        score -= 3;
+        reasons.push("a second healer" + (two && one ? ": sides with two won " + pc(two.wwr) + " over " + two.n + " league sides against " + pc(one.wwr) + " with one (no map clearly favours it)" : ""));
+      }
       // rules
       rules.forEach(r => {
         if (r.kind === "pick_bonus" && r.heroes[h]) { score += r.heroes[h]; reasons.push(r.why); }
@@ -380,9 +388,12 @@
         const hp = opp.hero_picks[h];
         if (hp && hp[0] >= 3 && sm(hp[1], hp[0]) > 0.55 && asg && asg.score > 1) { score += w.denial * Math.min(hp[0] / oppGames, 0.5) * 6; reasons.push("denies them (they are " + rec(hp) + " with it)"); }
       }
-      out.push({ hero: h, score, who: whoCan(h, map), reasons, flags, assign: withH.assign, intel: E.heroIntel(d.teams[d.us.team], h, mine, map) });
+      const fit = withH.total - base;   // your players: pool tag, their games, the map. The rest is board, league data and rules.
+      out.push({ hero: h, score, fit, rest: score - fit, who: whoCan(h, map), reasons, flags, assign: withH.assign, intel: E.heroIntel(d.teams[d.us.team], h, mine, map) });
     });
     out.sort((a, b) => b.score - a.score);
+    // options within a point of the leader are a coin flip: pick by comfort (most of a score is the pool tag; measured terms move about 1 point)
+    out.forEach((o, i) => { o.close = i === 0 ? (out.length > 1 && out[0].score - out[1].score < 1.0) : out[0].score - o.score < 1.0; });
     return out;
   };
 
@@ -485,19 +496,38 @@
   };
   const wl = (g, w) => w + "-" + (g - w);
   const pcs = (g, w) => g ? Math.round(100 * w / g) + "%" : "n/a";
-  // hero against hero from every league game on record (NGS seasons 15 to 22): the record of a's side when b was on the other side
+  // hero against hero from every league game on record (NGS seasons 15 to 22): the record of a's side when b was on the other side.
+  // Measured over 1,323 pairs with 40 or more games: only 6 to 32% of the spread between pairs is real, so the edge is shrunk toward the
+  // hero's OWN weighted rate with a prior of 300 weighted games (about 800 raw). edge = shrunk rate minus the hero's own rate, so a strong or
+  // weak hero is not pushed one way. wr is the observed (weighted) rate for display, never the shrunk one.
+  const H2H_PRIOR = 300;
+  let h2hBase = null;
+  function h2hBaseOf(a) {   // weighted win rate of hero a over every pair it appears in
+    if (!h2hBase) {
+      h2hBase = {};
+      const m = D().h2h || {};
+      Object.keys(m).forEach(k => {
+        const v = m[k], i = k.indexOf("|"), x = k.slice(0, i), y = k.slice(i + 1);   // v: [games, x side wins, weighted games, weighted x wins]
+        const wn = v.length > 3 ? v[2] : v[0], ww = v.length > 3 ? v[3] : v[1];
+        [[x, ww], [y, wn - ww]].forEach(q => { const c = h2hBase[q[0]] = h2hBase[q[0]] || [0, 0]; c[0] += wn; c[1] += q[1]; });
+      });
+    }
+    const c = h2hBase[a];
+    return c && c[0] >= 100 ? c[1] / c[0] : null;
+  }
   E.h2h = function (a, b) {
     const m = D().h2h;
     if (!m) return null;
     const flip = a > b, v = m[flip ? b + "|" + a : a + "|" + b];
     if (!v) return null;
     const n = v[0], w = flip ? n - v[1] : v[1];
-    const o = D().heroes[a] && D().heroes[a].obs;
-    const base = o && o.g >= 50 ? o.w / o.g : 0.5;   // how a does overall, so a matchup reads as better or worse than usual
-    // newer seasons count more (data.comps.half_life seasons to halve a game); the shrink toward 50% uses the weighted sample size
     const wn = v.length > 3 ? v[2] : n, ww = v.length > 3 ? (flip ? v[2] - v[3] : v[3]) : w;
-    const wr = (ww + 5) / (wn + 10);
-    return { n, w, wr, base, edge: wr - base, rawWr: (w + 5) / (n + 10), eff: wn };
+    const o = D().heroes[a] && D().heroes[a].obs;
+    const hb = h2hBaseOf(a);
+    const base = hb != null ? hb : (o && o.g >= 50 ? o.w / o.g : 0.5);
+    const obsWr = wn ? ww / wn : 0.5;
+    const edge = (ww - base * wn) / (wn + H2H_PRIOR);   // shrunk toward the hero's own rate
+    return { n, w, wr: obsWr, base, edge, rawEdge: obsWr - base, rawWr: n ? w / n : 0.5, eff: wn };
   };
   // takedown pairs from the replay export: how often two heroes on one side took part in the same kill, against what chance predicts
   E.combo = function (a, b) {
@@ -603,8 +633,8 @@
     const hits = [], seenOurs = [];
     d.us.players.forEach(p => Object.keys(p.pool).forEach(o => { if (seenOurs.indexOf(o) < 0) seenOurs.push(o); }));
     const meas = seenOurs.map(o => ({ o, r: E.h2h(hero, o) })).filter(x => x.r && x.r.n >= 25);
-    const beats = meas.filter(x => x.r.edge >= 0.03).sort((a, b) => b.r.edge - a.r.edge).slice(0, 4);
-    const loses = meas.filter(x => x.r.edge <= -0.03).sort((a, b) => a.r.edge - b.r.edge).slice(0, 3);
+    const beats = meas.filter(x => x.r.edge >= 0.015).sort((a, b) => b.r.edge - a.r.edge).slice(0, 4);
+    const loses = meas.filter(x => x.r.edge <= -0.015).sort((a, b) => a.r.edge - b.r.edge).slice(0, 3);
     if (beats.length) i.combos.push("In league games it does better than usual against our " + beats.map(x => x.o + " " + Math.round(x.r.wr * 100) + "% (" + x.r.n + " games)").join(", ") + ".");
     if (loses.length) i.combos.push("It does worse than usual against our " + loses.map(x => x.o + " (" + Math.round(x.r.wr * 100) + "%, " + x.r.n + " games)").join(", ") + ", so banning it is less pressing.");
     d.us.players.forEach(p => Object.keys(p.pool).forEach(o => { if (heroInfo(o).counters.indexOf(hero) >= 0 && hits.indexOf(o) < 0 && !meas.some(x => x.o === o)) hits.push(o); }));
@@ -686,28 +716,36 @@
   };
 
   // ---------------------------------------------------------------- pre match overview helpers
+  // The league's first pick side won 49.4% of 8,255 NGS games (50.5% in seasons 20 to 22), so no first pick edge is known. Team records are
+  // 7 to 25 games, so they are shrunk toward 50% with a prior of 20 games and the call is "toss-up" unless a 4 point gap survives that.
+  const shr = (v, k) => (v[1] + 0.5 * k) / (v[0] + k);
   E.tossAdvice = function (opp) {
     const d = D(), us = d.teams[d.us.team], them = d.teams[opp];
     const a = us.first_pick, b = us.map_pick, c = them.first_pick, e = them.map_pick;
-    const ours = { first: sm(a[1], a[0]), map: sm(b[1], b[0]) }, theirs = { first: sm(c[1], c[0]), map: sm(e[1], e[0]) };
+    const ours = { first: shr(a, 20), map: shr(b, 20) }, theirs = { first: shr(c, 20), map: shr(e, 20) };
     const edgeFirst = ours.first - theirs.map, edgeMap = ours.map - theirs.first;
     const h2h = { first: [0, 0], map: [0, 0] };
     them.h2h.forEach(g => { const k = g.first_pick ? "map" : "first"; h2h[k][0]++; h2h[k][1] += g.won ? 0 : 1; });
     const pick = edgeFirst - edgeMap > 0.04 ? "first" : (edgeMap - edgeFirst > 0.04 ? "map" : "toss-up");
-    return { usFirst: a, usMap: b, themFirst: c, themMap: e, edgeFirst, edgeMap, h2h, pick };
+    return { usFirst: a, usMap: b, themFirst: c, themMap: e, edgeFirst, edgeMap, h2h, pick, leagueFirst: 0.494 };
   };
 
+  // One game moved a map's edge by 17 to 33 points, so each team's record on a map is shrunk toward that team's own overall rate (prior 8 games).
+  function overall(t) { let g = 0, w = 0; Object.keys(t.by_map || {}).forEach(m => { g += t.by_map[m][0]; w += t.by_map[m][1]; }); return g ? w / g : 0.5; }
+  const shMap = (v, base) => ((v ? v[1] : 0) + 8 * base) / ((v ? v[0] : 0) + 8);
   E.mapTable = function (opp) {
     const d = D(), us = d.teams[d.us.team], them = d.teams[opp];
     const habits = d.map_bans[opp] || { bans: {}, series: 0 };
+    const ob = overall(us), tb = overall(them);
     return Object.keys(d.maps).map(m => {
       const o = us.by_map[m], t = them.by_map[m];
-      const ow = sm(o ? o[1] : 0, o ? o[0] : 0), tw = sm(t ? t[1] : 0, t ? t[0] : 0);
+      const ow = shMap(o, ob), tw = shMap(t, tb);
       const theirPick = them.as_map_picker[m];
       const ban = (tw - ow) + (theirPick && theirPick[0] ? 0.05 * (sm(theirPick[1], theirPick[0]) - 0.5) : 0);
       const vs = [0, 0]; // our record against this opponent on this map ([games, our wins]); h2h.won is the opponent's result
       them.h2h.forEach(g => { if (g.map === m) { vs[0]++; vs[1] += g.won ? 0 : 1; } });
-      return { map: m, us: o || [0, 0], them: t || [0, 0], themPicker: theirPick || [0, 0], vsUs: vs, edge: ow - tw, banScore: ban, theyBan: habits.bans[m] || 0, series: habits.series };
+      const thin = (o ? o[0] : 0) < 5 || (t ? t[0] : 0) < 5;   // a lean, not a rule
+      return { map: m, us: o || [0, 0], them: t || [0, 0], themPicker: theirPick || [0, 0], vsUs: vs, edge: ow - tw, banScore: ban, theyBan: habits.bans[m] || 0, series: habits.series, thin };
     });
   };
 

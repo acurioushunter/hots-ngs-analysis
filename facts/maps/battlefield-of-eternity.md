@@ -1,6 +1,6 @@
 # Battlefield of Eternity: map fact sheet
 
-Built 2026-10-14. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/battlefield-of-eternity.md` for written lessons.
+Built 2026-10-15. Icy Veins draft advice and tier lists, plus 6 Season 22 games. Edit `playbook/notes/maps/battlefield-of-eternity.md` for written lessons.
 
 **Icy Veins prefers:** Displacements into Immortal's Stun, Poke tools for Objective, Quests to stack on Heroes, Race damage for Immortal, Strong early game, Vision tools
 
@@ -22,7 +22,7 @@ Built 2026-10-14. Icy Veins draft advice and tier lists, plus 6 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Li-Ming 1-1 | Hanzo 9-18, Li-Ming 8-8, Sylvanas 5-2, Sonya 4-1, Greymane 2-1 |
+| hunterstag | Li-Ming 1-1 | Hanzo 7-16, Li-Ming 8-8, Sylvanas 5-2, Sonya 3-1, Greymane 2-1 |
 | chelsi | Tychus 1-1 | n/a |
 | SoulShepherd | Blaze 1-1 | n/a |
 | NorthrnTouch | Anub'arak 0-1, Johanna 1-0 | n/a |

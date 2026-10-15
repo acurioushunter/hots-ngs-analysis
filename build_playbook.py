@@ -663,7 +663,8 @@ def our_team(cfg, G, heroes):
         src = p.get("sl_source")
         if src and (ROOT / src).exists():
             db = sqlite3.connect(ROOT / src)
-            since = p.get("sl_since", "2025-01-01")
+            # last 12 months from the clock (standing rules 2 and 7); sl_since in the config is only a floor for a shorter window
+            since = max(p.get("sl_since", "2000-01-01"), (datetime.date.today() - datetime.timedelta(days=365)).isoformat())
             sl = {h: [n, w] for h, n, w in db.execute("SELECT hero, COUNT(*), SUM(won) FROM hp_game WHERE game_type='sl' AND date>=? GROUP BY hero", (since,))}
             by_map = collections.defaultdict(dict)
             for m, h, n, w in db.execute("SELECT map, hero, COUNT(*), SUM(won) FROM hp_game WHERE game_type='sl' AND date>=? GROUP BY map, hero", (since,)):
