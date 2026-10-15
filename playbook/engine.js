@@ -103,7 +103,9 @@
     // out backtest (backtest_terms.py, 1,421 NGS games) a prior of 10 overstated the hero part about three times.
     const own = E.ownRate(player);
     if (n && n.g >= 2) {
-      s += w.evidence * 2 * ((n.w + PLAYER_PRIOR * own) / (n.g + PLAYER_PRIOR) - own);
+      // older seasons count less: use the season weighted pair (wg, ww) when the Team window supplied it
+      const eg = n.wg != null ? n.wg : n.g, ew = n.ww != null ? n.ww : n.w;
+      s += w.evidence * 2 * ((ew + PLAYER_PRIOR * own) / (eg + PLAYER_PRIOR) - own);
       why.push(player.label + " NGS " + n.w + "-" + (n.g - n.w) + " (" + Math.round(own * 100) + "% on all heroes)" + (n.deaths ? ", " + n.deaths + " deaths" : ""));
       const dl = E.deathsLimit(hero);
       if (n.g >= 3 && n.deaths > dl) { s -= 0.5; why.push(n.deaths + " deaths a game is high for a " + heroInfo(hero).role + " (division average plus 1.5 is " + dl.toFixed(1) + ")"); }
@@ -809,6 +811,47 @@
     const bans = t.filter(x => x.them[0] >= 2).sort((a, b) => b.banScore - a.banScore).slice(0, 2).map(x => x.map);
     const picks = t.filter(x => bans.indexOf(x.map) < 0 && x.theyBan === 0).sort((a, b) => b.edge - a.edge).slice(0, 3).map(x => x.map);
     return { table: t, bans, picks };
+  };
+
+  // Replay a finished (or partly finished) draft: for each of our slots, where the hero we took ranked among the tool's recommendations at that moment.
+  // Ban lists drop the same flagged heroes the simulation drops, so a simulated draft ranks 1 everywhere.
+  E.reviewDraft = function (st) {
+    const out = [];
+    st.actions.forEach((a, i) => {
+      if (a.team !== "us") return;
+      const before = { opp: st.opp, side: st.side, map: st.map, series: st.series || [], actions: st.actions.slice(0, i).map(x => Object.assign({}, x)) };
+      let list = a.type === "ban" ? E.recommendBans(before).filter(x => x.flags.indexOf("PROBABLY DO NOT BAN") < 0 && x.flags.indexOf("LEAVE OPEN") < 0) : E.recommendPicks(before);
+      const at = list.findIndex(x => x.hero === a.hero);
+      out.push({ slot: a.slot, type: a.type, took: a.hero, rank: at >= 0 ? at + 1 : null, of: list.length, top3: list.slice(0, 3).map(x => x.hero) });
+    });
+    return out;
+  };
+
+  // One page series plan for an opponent: toss call, map bans and picks, what they ban and open with, our heroes to lock early.
+  // Every list carries its sample so the page can print the games behind each line.
+  E.seriesPlan = function (opp) {
+    const d = D(), o = d.teams[opp];
+    const toss = E.tossAdvice(opp), mp = E.mapPlan(opp);
+    const row = m => { const x = mp.table.find(t => t.map === m); return { map: m, us: x.us, them: x.them, vsUs: x.vsUs, themPicker: x.themPicker, thin: x.thin }; };
+    const ex = E.expectOppBans(E.newDraft(opp, "first", null));
+    const open = ["5", "6"].map(slot => {
+      const bySlot = (o.picks_by_slot && o.picks_by_slot[slot]) || {};
+      return { slot: +slot, list: Object.keys(o.hero_picks).map(h => ({ hero: h, atSlot: bySlot[h] || 0, g: o.hero_picks[h][0], w: o.hero_picks[h][1], score: (bySlot[h] || 0) * 3 + o.hero_picks[h][0] }))
+        .sort((a, b) => b.score - a.score).slice(0, 5) };
+    });
+    const lock = [];
+    d.us.players.forEach(p => Object.keys(p.pool || {}).forEach(h => {
+      const n = (o.bans_r2 && o.bans_r2[h]) || 0;
+      if (n >= 2) lock.push({ hero: h, player: p.label, n, games: o.games, vsUs: (o.bans_r2_vs_us && o.bans_r2_vs_us[h]) || 0 });
+    }));
+    lock.sort((a, b) => b.n - a.n);
+    return {
+      opp, games: o.games, wins: o.wins, toss,
+      maps: { bans: mp.bans.map(row), picks: mp.picks.map(row) },
+      oppBans: ex.round1.slice(0, 5), oppBansGames: ex.games,
+      oppOpen: open, lock,
+      notes: /counterpick/i.test(opp) && o.notes ? o.notes : ""
+    };
   };
 
   // maps still in play after the entered map bans, best for us first (opponent habit: a map they have banned before is unlikely to be theirs to pick)

@@ -121,6 +121,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
 .sheet-body { padding: 12px 14px 32px; overflow-y: auto; flex: 1; display: grid; gap: 12px; align-content: start; }
 .sheet-body > * { min-width: 0; }
 @media (min-width: 640px) { .board { grid-template-columns: repeat(8, minmax(0, 1fr)); } dialog.sheet { margin: auto; border-radius: 14px; height: min(90vh, 100%); } }
+@media print { body > *:not(main), nav, .tabs, header, .noprint { display: none !important; } main { padding: 0 !important; } .card { break-inside: avoid; box-shadow: none; } body { background: #fff; color: #000; font-size: 11pt; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
 
@@ -176,15 +177,18 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     // the person using the tool: their own pool entries replace what is guessed for them
     if (ui.me) { const me = us.players.find(p => p.tag === ui.me); if (me) Object.keys(ui.mypool || {}).forEach(h => { if (P.heroes[h]) { if (ui.mypool[h] === "none") delete me.pool[h]; else me.pool[h] = ui.mypool[h]; } }); }
     // Data window: which NGS seasons and which Storm League scopes the numbers are built from.
+    // an older season counts less: half life 3 seasons as in build_playbook.py (season_weight); "old" is seasons 15 to 20, counted as 18
+    const newestSeason = (P.comps && +P.comps.newest) || 22;
+    const seasonWeight = k => { const n = k === "old" ? 18 : parseInt(k, 10); return n ? Math.pow(0.5, Math.max(0, newestSeason - n) / 3) : 1; };
     const has = k => ui.ngsSeasons.indexOf(k) >= 0;
     us.players.forEach(p => {
       if (p.ngs_by) {
         const out = {}, keys = [];
         ui.ngsSeasons.forEach(k => { if (k === "old") { keys.push(k); return; } if (ui.stages.indexOf("reg") >= 0) keys.push(k); if (ui.stages.indexOf("po") >= 0) keys.push(k + "p"); });
         keys.forEach(k => Object.keys(p.ngs_by[k] || {}).forEach(h => {
-          const x = p.ngs_by[k][h], o = out[h];
-          if (!o) out[h] = { g: x.g, w: x.w, rating: x.rating == null ? 0 : x.rating, deaths: x.deaths || 0 };
-          else { const n = o.g + x.g; o.deaths = Math.round(10 * ((o.deaths * o.g) + ((x.deaths || 0) * x.g)) / n) / 10; o.g = n; o.w += x.w; }
+          const x = p.ngs_by[k][h], o = out[h], sw = seasonWeight(k);
+          if (!o) out[h] = { g: x.g, w: x.w, wg: x.g * sw, ww: x.w * sw, rating: x.rating == null ? 0 : x.rating, deaths: x.deaths || 0 };
+          else { const n = o.g + x.g; o.deaths = Math.round(10 * ((o.deaths * o.g) + ((x.deaths || 0) * x.g)) / n) / 10; o.g = n; o.w += x.w; o.wg += x.g * sw; o.ww += x.w * sw; }
         }));
         p.ngs = out;
       }
@@ -577,7 +581,9 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       const L = window.DraftLabEngine, src = window.HOTS_LAB;
       if (L && src && src.matrix && src.games) {
         const data = L.createData({ matrix: src.matrix, games: src.games });
-        LAB = { L, data, games: L.filterGames(data.games, { leagues: ["NGS"] }) };
+        // equal weight over seasons 15 to 22 would be mostly old games (60% are seasons 15 to 18), so the Drafter cards read the newest 3 seasons only
+        const ngs = L.filterGames(data.games, { leagues: ["NGS"] }), top = ngs.reduce((a, g) => Math.max(a, g.season), 0);
+        LAB = { L, data, games: ngs.filter(g => g.season >= top - 2), from: top - 2, to: top };
       }
     } catch (e) { LAB = false; }
     return LAB;
@@ -643,7 +649,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <div class="scroll"><table>${rows.map(k => `<tr><td>${k[1]}</td><td>${bar(r[k[0]] || 0)} <span class="num small muted">${r[k[0]] || "?"}/5</span></td></tr>`).join("")}</table></div>
       <p class="small">${ex.power_spike ? "Power spike: " + esc(ex.power_spike) + ". " : ""}${ex.pick_risk ? "Pick risk: " + esc(ex.pick_risk) + ". " : ""}${ex.skill_floor ? "Skill floor " + ex.skill_floor + " of 5, ceiling " + ex.skill_ceiling + ". " : ""}${(ex.vulnerable_to || []).length ? "Vulnerable to: " + ex.vulnerable_to.map(esc).join(", ") + "." : ""}</p>
       ${m.strengths_note ? `<p class="small"><b>Strengths:</b> ${esc(m.strengths_note)}</p>` : ""}${m.weaknesses_note ? `<p class="small"><b>Weaknesses:</b> ${esc(m.weaknesses_note)}</p>` : ""}
-      <h3>League games (${x.games.length.toLocaleString()} NGS games)</h3>
+      <h3>League games (${x.games.length.toLocaleString()} NGS games, seasons ${x.from} to ${x.to})</h3>
       <p class="small">${st ? `Picked ${st.picks} times, ${pc(st.shrunk, 1)} win rate${lowTag(st.low)}, banned ${st.bans} times (${pc(st.banRate)} of games).` : "No games in the data."}</p>
       <div class="cols"><div><b class="small">Best maps</b><ul class="r small">${lst((d.bestMaps || []).slice(0, 4), b => `<li>${esc(b.map)} ${pc(b.shrunk)} over ${b.n}${lowTag(b.low)}</li>`)}</ul></div>
       <div><b class="small">Does well with</b><ul class="r small">${lst((d.bestPartners || []).slice(0, 4), b => `<li>${esc(b.b)} ${b.wins}-${b.n - b.wins}${lowTag(b.low)}</li>`)}</ul></div>
@@ -654,7 +660,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const ms = x.L.mapSummary(x.data, x.games, cur);
     if (!ms || !ms.n) return "";
     const arch = (ms.archetypes || []).slice(0, 4), best = (ms.bestDelta || []).slice(0, 10), bans = (ms.topBans || []).slice(0, 12), bf = ((ms.buildFor || {}).heroes || []).slice(0, 5);
-    return `<section class="card"><h3>League data for this map</h3><p class="small muted">${ms.n} NGS games across every division${ms.low ? ", a low sample" : ""}. Leans, not rules.</p>
+    return `<section class="card"><h3>League data for this map</h3><p class="small muted">${ms.n} NGS games across every division, seasons ${x.from} to ${x.to}${ms.low ? ", a low sample" : ""}. Leans, not rules.</p>
       <div class="cols"><div><b class="small">Comp styles that win here</b><ul class="r small">${arch.map(a => `<li>${esc(a.arch)} ${pc(a.shrunk)} over ${a.n}${lowTag(a.low)}</li>`).join("") || '<li class="muted">none</li>'}</ul></div>
       <div><b class="small">Heroes that do better here than elsewhere</b><ul class="r small" style="max-height:170px;overflow-y:auto">${best.map(b => `<li>${heroBtn(b.hero)} ${pc(b.mapShrunk)} (${b.delta > 0 ? "+" : ""}${(b.delta * 100).toFixed(0)} points) over ${b.n}${lowTag(b.low)}</li>`).join("") || '<li class="muted">none with 3 or more games</li>'}</ul></div>
       <div><b class="small">Most banned</b><ul class="r small" style="max-height:170px;overflow-y:auto">${bans.map(b => `<li>${heroBtn(b.hero)} banned ${b.bans}${b.picks ? `, wins ${pc(b.shrunk)} as a pick (${b.picks})` : ", never picked here"}</li>`).join("") || '<li class="muted">none</li>'}</ul></div></div>
@@ -682,7 +688,19 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     return `<table><tr><th>Player</th><th>Hero</th><th>Build</th></tr>${asg.assign.map(a => `<tr><td>${esc(a.label)}</td><td>${heroBtn(a.hero)}</td><td>${buildLine(a.hero)} <button class="btn sm" data-hero="${esc(a.hero)}" data-htab="builds">Builds</button></td></tr>`).join("")}</table>
       <p class="small muted">Build codes come from the Icy Veins sheet. A flag means the code is more than a year old, or the Icy talent page changed after it was made. Check the picks in game before you trust it.</p>
       ${st.map ? `<p class="small">Map plan: <button class="btn sm" data-gomap="${esc(st.map)}">Open ${esc(st.map)}</button></p>` : ""}
-      <div class="row" style="margin-top:8px"><button class="btn" data-copy-summary="1">Copy draft summary</button></div>`;
+      <div class="row" style="margin-top:8px"><button class="btn" data-copy-summary="1">Copy draft summary</button></div>
+      ${reviewBlock(st)}`;
+  }
+
+  // After a finished draft: what the tool would have leaned toward at each of our slots, and where our choice ranked.
+  function reviewBlock(st) {
+    const rv = E.reviewDraft(st).filter(r => r.took !== "No Pick");
+    if (!rv.length) return "";
+    const same = rv.filter(r => r.rank === 1).length;
+    return `<details style="margin-top:10px"><summary><b>How the draft compared</b> <span class="muted small">${same} of ${rv.length} slots matched the tool's first choice</span></summary>
+      <div class="scroll"><table><tr><th>Slot</th><th>We took</th><th>Rank</th><th>The tool would have leaned</th></tr>
+      ${rv.map(r => `<tr><td>${r.slot} ${r.type}</td><td>${heroBtn(r.took)}</td><td class="num">${r.rank ? r.rank + " of " + r.of : "not listed"}</td><td class="small">${r.top3.map(heroBtn).join(", ")}</td></tr>`).join("")}</table></div>
+      <p class="small muted">Each row replays the draft up to that slot and asks the tool again with the same data. A different choice is not a mistake: the tool's order is a lean built from small samples, and it does not see what your players felt in the lobby.</p></details>`;
   }
 
   // Best of three: finish a game with its result, and the next draft remembers what was played.
@@ -783,6 +801,28 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <p class="small muted">"Weaker" means the player rates clearly lower on that hero than on his others, so banning it may do nothing. Players with fewer than 3 games are listed only when you pick them.</p></section>`;
   }
 
+  // One page printable plan for the series, from E.seriesPlan. Each number shows its sample.
+  function seriesPlanPage(opp) {
+    const sp = E.seriesPlan(opp), t = sp.toss, rt = v => (v && v[0] ? v[1] + "-" + (v[0] - v[1]) + " (" + v[0] + " games)" : "no games");
+    const call = t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss up)";
+    const mrow = m => `<li><b>${esc(m.map)}</b>: us ${rt(m.us)}, them ${rt(m.them)}${m.vsUs[0] ? ", us v them " + rt(m.vsUs) : ""}${m.thin ? " (thin sample, a lean)" : ""}</li>`;
+    return `<section class="card" id="seriesplan"><p class="noprint"><button class="btn sm" data-plan="0">Back to Prep</button> <button class="btn sm" data-print="1">Print</button></p>
+      <h3>Series plan against ${esc(opp)}</h3>
+      <p class="small muted">${esc(opp)} is ${sp.wins}-${sp.games - sp.wins} this season. Built ${esc(P.meta.built)} from games through ${esc(P.meta.newest_date)}. Records are small samples, read them as leans.</p>
+      <h4>Coin toss</h4>
+      <p>If we win it: <b>${call}</b>. Our record with first pick ${rt(t.usFirst)}, with map pick ${rt(t.usMap)}. Theirs: first pick ${rt(t.themFirst)}, map pick ${rt(t.themMap)}. The league first pick side won ${Math.round(t.leagueFirst * 1000) / 10}% of NGS games, so this is close to a toss up unless the gap is large.</p>
+      <h4>Maps</h4>
+      <p class="small"><b>Ban:</b></p><ul class="r small">${sp.maps.bans.map(mrow).join("") || "<li>none yet</li>"}</ul>
+      <p class="small"><b>Pick if we have the map pick:</b></p><ul class="r small">${sp.maps.picks.map(mrow).join("") || "<li>none yet</li>"}</ul>
+      <h4>What they ban (round one, ${sp.oppBansGames} games)</h4>
+      <p class="small">${sp.oppBans.map(x => `${esc(x.hero)} ${x.n} of ${sp.oppBansGames}${x.vs ? " (" + x.vs + " against us)" : ""}`).join(", ") || "none"}</p>
+      <h4>What they open with</h4>
+      ${sp.oppOpen.map(o => `<p class="small"><b>Slot ${o.slot}</b> (${o.slot === 5 ? "if they have first pick" : "if we have first pick"}): ${o.list.map(x => `${esc(x.hero)} ${x.w}-${x.g - x.w} (${x.g} games${x.atSlot ? ", " + x.atSlot + " at this slot" : ""})`).join(", ")}</p>`).join("")}
+      <h4>Lock early</h4>
+      ${sp.lock.length ? `<ul class="r small">${sp.lock.map(x => `<li>${esc(x.hero)} (${esc(x.player)}): they banned it in round two ${x.n} of ${x.games} games${x.vsUs ? ", " + x.vsUs + " against us" : ""}</li>`).join("")}</ul>` : '<p class="small muted">None of our pool heroes was banned in round two twice or more.</p>'}
+      ${sp.notes ? `<h4>Notes</h4>${md(sp.notes)}` : ""}</section>`;
+  }
+
   function renderOverview() {
     const o = P.teams[ui.opp], t = E.tossAdvice(ui.opp), mp = E.mapPlan(ui.opp), st = E.newDraft(ui.opp, "first", ui.map);
     const ex = E.expectOppBans(st);
@@ -790,7 +830,9 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const players = Object.keys(o.players).sort((a, b) => o.players[b].games - o.players[a].games).filter(tag => o.players[tag].games >= 3);
     const lock = [];
     P.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const n = (o.bans_r2[h] || 0); if (n >= 2) lock.push(`${h} (${p.label}): banned in round two ${n} time(s)${o.bans_r2_vs_us && o.bans_r2_vs_us[h] ? ", " + o.bans_r2_vs_us[h] + " against us" : ""}`); }));
+    if (ui.plan) return seriesPlanPage(ui.opp);
     return `<section class="card"><label class="f">Opponent<select id="opp">${oppOptions()}</select></label>
+      <p class="noprint"><button class="btn sm" data-plan="1">Series plan (one page, printable)</button></p>
       <p class="small muted">This page is a snapshot built ${esc(P.meta.built)} from games through ${esc(P.meta.newest_date)} (${P.meta.games} division games${P.meta.filled_from_export ? `, ${P.meta.filled_from_export} of them filled in from the replay export, which has no ratings or map picks` : ""}). Nothing here updates by itself: new games need a rebuild.</p>
       <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
       ${o.h2h.length ? "Against us (our result): " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "L" : "W"}`).join(", ") + "." : "No games against us yet."}
@@ -1140,6 +1182,8 @@ ${playersCard(o, players)}
     const b = ev.target.closest("button");
     if (!b) return;
     const d = b.dataset;
+    if (d.print) { window.print(); return; }
+    if (d.plan) { ui.plan = d.plan === "1"; window.scrollTo(0, 0); render(); return; }
     if (d.copy) { copyText(d.copy, b); return; }
     if (d.copySummary) { copyText(summaryText(state()), b); return; }
     if (d.close) { closeDialog(d.close); return; }

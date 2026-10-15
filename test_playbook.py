@@ -101,6 +101,7 @@ check("no em or en dashes in the library text (Hunter reads them as AI giveaways
 page = (ROOT / "draft_tool.html").read_text(encoding="utf-8")
 head = page.split("<script>")[0]
 check("draft_tool.html carries the library and the hero sheet", "window.LIBRARY=" in page and 'id="sheet"' in page and not DASHES.search(head), "")
+check("league cards say which seasons they read", "seasons ${x.from} to ${x.to}" in page and "g.season >= top - 2" in page, "")
 check("intel chip says Storm League, all ranks", "Storm League, all ranks" in page, "")
 check("the artifact fragment carries the library", "window.LIBRARY=" in (ROOT / "draft_tool_artifact.html").read_text(encoding="utf-8"), "")
 
