@@ -1,3 +1,9 @@
+# 2026-10-15 (second pass: backtest and ratings)
+- `python -I backtest_terms.py` fits league facts on earlier NGS seasons and scores held out seasons 21 and 22 (1,421 games); output `knowledge/backtest_terms.json`, findings and the ranked list in `IMPROVEMENT_IDEAS_PASS2.md`.
+- Engine: matchup factor 30 to 15 (slope 0.45), heal lens shown but not scored (no signal over 774 games), player hero record read against the player's own rate with a prior of 30, map record only as a gap from the hero record, deaths line by role (`E.ownRate`, `E.deathsLimit`). Build: weak flag role adjusted (`role_rating_means`). League read label states the real seasons.
+- Test change: `test_playbook.py` no longer expects UnicycleYay Qhira to be flagged weak (the role adjustment clears it); the CCS Qhira rule is checked instead. New checks in `test_engine.js`.
+- Next: ban threat volume weight (no signal in the backtest), lens read text, opponent tendency by map and recency, post game review, printable series plan. Artifact not republished.
+
 # 2026-10-14 (Learn, Comps and strategy)
 - New native Learn page `Comps and strategy` (`renderComps` in `hotstools/shell.js`): win rate by ranged dealer count, healers, marksmen, tanks and ranged difference, role shapes, a one map view, and the traits that went with winning or losing, all from `data.comps` (passed through `meta.comps` in `build_hotstools.py`). Sentences appear only with 100 or more sides behind them. Finding: with ranged meaning damage dealers, 3 or more won 35% over 160 sides, two healers 45% over 479.
 - Hero labels, lenses and Hunter's read were done in the forked sessions (hero sheets, Lab detail, My Games). Left: derive `arch` and marksmen labels fully from profiles if any hand lists remain, `plays_as`.

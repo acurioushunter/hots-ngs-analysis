@@ -38,6 +38,27 @@
   E.remainingPicks = function (st, team) { return E.plan(st.side).filter(s => s.type === "pick" && s.team === team && s.slot > st.actions.length).length; };
 
   // ---------------------------------------------------------------- helpers
+  const PLAYER_PRIOR = 30;
+  // a player's NGS rate over every hero in the chosen data window, shrunk toward 50% with 10 games
+  E.ownRate = function (player) {
+    let g = 0, w = 0;
+    Object.keys(player.ngs || {}).forEach(h => { g += player.ngs[h].g; w += player.ngs[h].w; });
+    return (w + 5) / (g + 10);
+  };
+  // deaths a game that count as high for this hero's role: the division average for the role plus 1.5 (tanks and melee assassins die more)
+  let _deaths = null;
+  E.deathsLimit = function (hero) {
+    if (!_deaths) {
+      const acc = {};
+      Object.values(D().teams || {}).forEach(T => Object.values(T.players || {}).forEach(p => Object.keys(p.heroes || {}).forEach(h => {
+        const r = p.heroes[h], role = heroInfo(h).role, a = acc[role] = acc[role] || [0, 0]; a[0] += r.g; a[1] += r.g * (r.deaths || 0);
+      })));
+      _deaths = {};
+      Object.keys(acc).forEach(k => { if (acc[k][0] >= 20) _deaths[k] = acc[k][1] / acc[k][0]; });
+    }
+    const v = _deaths[heroInfo(hero).role];
+    return (v == null ? 2.2 : v) + 1.5;
+  };
   const sm = (w, g) => (w + 1) / (g + 2); // smoothed win rate
   const rec = v => v ? v[1] + "-" + (v[0] - v[1]) : "0-0";
   E.rec = rec;
@@ -78,7 +99,15 @@
     else if (tier === "practice") { s = w.pool_practice; why.push(player.label + " is still practicing it"); }
     else s = w.pool_unknown;
     const n = player.ngs[hero];
-    if (n && n.g >= 2) { s += w.evidence * (sm(n.w, n.g) - 0.5); why.push(player.label + " NGS " + n.w + "-" + (n.g - n.w) + (n.deaths ? ", " + n.deaths + " deaths" : "")); if (n.deaths > 3.5) s -= 0.5; }
+    // The player's record on this hero is read against the player's own rate over every hero, shrunk with a prior of 30 games: in the held
+    // out backtest (backtest_terms.py, 1,421 NGS games) a prior of 10 overstated the hero part about three times.
+    const own = E.ownRate(player);
+    if (n && n.g >= 2) {
+      s += w.evidence * 2 * ((n.w + PLAYER_PRIOR * own) / (n.g + PLAYER_PRIOR) - own);
+      why.push(player.label + " NGS " + n.w + "-" + (n.g - n.w) + " (" + Math.round(own * 100) + "% on all heroes)" + (n.deaths ? ", " + n.deaths + " deaths" : ""));
+      const dl = E.deathsLimit(hero);
+      if (n.g >= 3 && n.deaths > dl) { s -= 0.5; why.push(n.deaths + " deaths a game is high for a " + heroInfo(hero).role + " (division average plus 1.5 is " + dl.toFixed(1) + ")"); }
+    }
     else if (n && n.g === 1) why.push(player.label + " NGS " + n.w + "-" + (n.g - n.w) + " (one game)");
     const sl = player.sl && player.sl.heroes[hero];
     if (sl && sl[0] >= 8) { s += 2 * (sm(sl[1], sl[0]) - 0.5); why.push(player.label + " Storm League " + sl[1] + "-" + (sl[0] - sl[1]) + " since " + player.sl.since); }
@@ -87,7 +116,8 @@
       if (slm && slm[0] >= 4) { s += 2 * (sm(slm[1], slm[0]) - 0.5); why.push("on this map in Storm League " + slm[1] + "-" + (slm[0] - slm[1])); }
       const omh = D().our_map_hero || {};
       const nm = omh[map] && omh[map][player.tag] && omh[map][player.tag][hero];
-      if (nm && nm[0] >= 2) { s += 1.5 * (sm(nm[1], nm[0]) - 0.5); why.push("on this map in NGS " + nm[1] + "-" + (nm[0] - nm[1])); }
+      // the map record moves the score only by how far it is from the same hero's record overall (the overall is counted above)
+      if (nm && nm[0] >= 2) { const hr = n && n.g ? (n.w + PLAYER_PRIOR * own) / (n.g + PLAYER_PRIOR) : own; s += 1.5 * ((nm[1] + PLAYER_PRIOR * hr) / (nm[0] + PLAYER_PRIOR) - hr); why.push("on this map in NGS " + nm[1] + "-" + (nm[0] - nm[1])); }
       const t = tierValue(hero, map, player.tier_roles);
       if (t.letter) { s += w.map_tier * t.v; why.push("Icy Veins " + t.letter + " tier on " + map + " (" + t.role + ")"); }
     }
@@ -305,7 +335,7 @@
       theirs.forEach(e => {
         const m = E.h2h(h, e);
         if (m && m.n >= 40) {   // measured from league games: use it instead of the Icy Veins list
-          h2hSum += Math.max(-1, Math.min(1, m.edge * 30));
+          h2hSum += Math.max(-1, Math.min(1, m.edge * 15));   // 15, not 30: in the held out backtest real edges were about 0.45 of the predicted size
           if (Math.abs(m.edge) >= 0.015) reasons.push((m.edge > 0 ? "does better" : "does worse") + " against their " + e + " than usual: " + Math.round(m.wr * 100) + "% in " + m.n + " league games (" + Math.round(m.base * 100) + "% overall; a lean, most pairs are mostly noise)");
           if (m.edge <= -0.02) counteredBy.push(e);
           return;
@@ -333,7 +363,8 @@
       }
       // how its damage meets their healer: measured first (heal_lens), the profile's blunting score when the sample is thin
       const lens = E.healLens(h, theirs);
-      if (lens) { score += lens.score; reasons.push(lens.text); }
+      // shown, not scored: in the held out backtest (774 games with a heal read) the heal lens did not predict wins (slope -0.2, 95% interval -0.7 to 0.3)
+      if (lens) reasons.push(lens.text + " (shown only: this read did not predict wins in held out seasons)");
       else if (theirs.filter(x => D().heroes[x] && D().heroes[x].hclass).length >= 2 && (info.carry || info.ranged)) reasons.push("no heal read: they have two healers and the measured lens only reads one");
       const missing = [];
       if (!comp.healers) missing.push("Healer");

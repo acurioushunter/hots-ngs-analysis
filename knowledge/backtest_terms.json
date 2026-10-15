@@ -1,0 +1,165 @@
+{
+ "test_games": 1421,
+ "by_season": {
+  "21": 897,
+  "22": 524
+ },
+ "terms": {
+  "hero_strength": {
+   "slope": 0.401,
+   "ci95": [
+    0.16,
+    0.651
+   ],
+   "slope_s21": 0.582,
+   "slope_s22": 0.14,
+   "games_with_signal": 1421,
+   "sd_of_difference": 0.1042,
+   "logloss_change_per_game": -0.00019,
+   "win_shift_per_sd": 0.0418
+  },
+  "h2h_edge": {
+   "slope": 0.449,
+   "ci95": [
+    0.251,
+    0.665
+   ],
+   "slope_s21": 0.484,
+   "slope_s22": 0.39,
+   "games_with_signal": 1421,
+   "sd_of_difference": 0.1221,
+   "logloss_change_per_game": -0.0058,
+   "win_shift_per_sd": 0.0549
+  },
+  "ranged_3plus": {
+   "slope": 1.868,
+   "ci95": [
+    0.484,
+    3.117
+   ],
+   "slope_s21": 1.472,
+   "slope_s22": 3.32,
+   "games_with_signal": 21,
+   "sd_of_difference": 0.0173,
+   "logloss_change_per_game": 0.00165,
+   "win_shift_per_sd": 0.0322
+  },
+  "heal_lens": {
+   "slope": -0.215,
+   "ci95": [
+    -0.693,
+    0.256
+   ],
+   "slope_s21": -0.183,
+   "slope_s22": -0.287,
+   "games_with_signal": 774,
+   "sd_of_difference": 0.0539,
+   "logloss_change_per_game": -0.00022,
+   "win_shift_per_sd": -0.0116
+  },
+  "lens_read": {
+   "slope": 0.385,
+   "ci95": [
+    0.157,
+    0.609
+   ],
+   "slope_s21": 0.417,
+   "slope_s22": 0.346,
+   "games_with_signal": 1421,
+   "sd_of_difference": 0.1171,
+   "logloss_change_per_game": -0.00398,
+   "win_shift_per_sd": 0.0451
+  },
+  "map_delta": {
+   "slope": 0.143,
+   "ci95": [
+    -0.062,
+    0.378
+   ],
+   "slope_s21": 0.056,
+   "slope_s22": 0.306,
+   "games_with_signal": 1421,
+   "sd_of_difference": 0.1192,
+   "logloss_change_per_game": 0.0008,
+   "win_shift_per_sd": 0.017
+  },
+  "player_hero_vs_50": {
+   "slope": 0.218,
+   "ci95": [
+    0.177,
+    0.264
+   ],
+   "slope_s21": 0.187,
+   "slope_s22": 0.279,
+   "games_with_signal": 1421,
+   "sd_of_difference": 0.5366,
+   "logloss_change_per_game": -0.02399,
+   "win_shift_per_sd": 0.1172
+  },
+  "player_hero_vs_own": {
+   "slope": 0.346,
+   "ci95": [
+    0.226,
+    0.461
+   ],
+   "slope_s21": 0.287,
+   "slope_s22": 0.452,
+   "games_with_signal": 1421,
+   "sd_of_difference": 0.2168,
+   "logloss_change_per_game": -0.00912,
+   "win_shift_per_sd": 0.0751
+  },
+  "player_comfort_log_games": {
+   "slope": 0.01,
+   "ci95": [
+    0.005,
+    0.015
+   ],
+   "slope_s21": 0.01,
+   "slope_s22": 0.011,
+   "games_with_signal": 1421,
+   "sd_of_difference": 5.1001,
+   "logloss_change_per_game": -0.00552,
+   "win_shift_per_sd": 0.0526
+  },
+  "player_own_rate": {
+   "slope": 0.278,
+   "ci95": [
+    0.229,
+    0.322
+   ],
+   "slope_s21": 0.26,
+   "slope_s22": 0.32,
+   "games_with_signal": 1421,
+   "sd_of_difference": 0.4895,
+   "logloss_change_per_game": -0.03554,
+   "win_shift_per_sd": 0.1361
+  },
+  "ban_threat_games": {
+   "slope": 0.0,
+   "ci95": [
+    -0.0,
+    0.001
+   ],
+   "slope_s21": 0.001,
+   "slope_s22": -0.0,
+   "games_with_signal": 1409,
+   "sd_of_difference": 41.6277,
+   "logloss_change_per_game": 0.00105,
+   "win_shift_per_sd": 0.0175
+  }
+ },
+ "joint_slopes": {
+  "hero_strength": -0.178,
+  "h2h_edge": 0.294,
+  "ranged_3plus": 1.381,
+  "heal_lens": -0.294,
+  "lens_read": 0.203,
+  "map_delta": 0.078,
+  "player_hero_vs_50": -0.027,
+  "player_hero_vs_own": 0.194,
+  "player_comfort_log_games": 0.013,
+  "player_own_rate": 0.271,
+  "ban_threat_games": 0.001
+ }
+}

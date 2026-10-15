@@ -146,5 +146,20 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   const pk = E.recommendPicks(st)[0];
   check("pick recs carry intel", pk.intel && pk.intel.headline, "");
 }
+// pass 2 (backtest_terms.py): player records read against the player's own rate, role aware deaths, heal lens shown but not scored
+{
+  const pl = PLAYBOOK.us.players[0];
+  const own = E.ownRate(pl);
+  check("own rate is a shrunk share between 0 and 1", own > 0.2 && own < 0.8, own);
+  const fake = Object.assign({}, pl, { pool: { Sylvanas: "primary" }, ngs: { Sylvanas: { g: 10, w: 5, deaths: 2 }, Valla: { g: 10, w: 5, deaths: 2 } }, sl: null });
+  const even = E.poolScore(fake, "Sylvanas", null).s;
+  check("a hero at the player's own rate adds no evidence points", Math.abs(even - PLAYBOOK.rules.weights.pool_primary) < 0.05, even);
+  check("melee assassins may die more than healers before the deaths line fires", E.deathsLimit("Zeratul") > E.deathsLimit("Brightwing"), E.deathsLimit("Zeratul") + " v " + E.deathsLimit("Brightwing"));
+  const st = E.newDraft(CCS, "first", "Tomb of the Spider Queen");
+  ["Johanna", "Thrall", "Lunara", "Tychus"].forEach(h => E.apply(st, h));
+  E.apply(st, "Sylvanas"); E.apply(st, "Brightwing");
+  const recs = E.recommendPicks(st);
+  check("heal lens lines say they are shown only", recs.every(r => r.reasons.filter(x => /into (an AoE|a single|a sustained|this healer)/.test(x)).every(x => /shown only/.test(x))), "");
+}
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);

@@ -606,7 +606,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
         ${(wb.archetypeAnswers || []).length ? `<p class="small">Styles that beat it in league games: ${wb.archetypeAnswers.slice(0, 3).map(w => `${esc(w.arch)} ${pc(w.shrunk)} (${w.n})`).join(", ")}.</p>` : ""}
         ${open.length ? `<p class="small" style="margin-bottom:4px">Heroes still open that fit as an answer (score from games and kit):</p><div class="chips">${open.map(h => chip(h.hero, used)).join("")}</div>` : ""}</div>`;
     }
-    return `<section class="card"><h3>League read</h3><p class="small muted">From ${games.length.toLocaleString()} NGS games across every division (seasons 21 and 22). A second opinion on style and holes, not a rule.</p><div class="cols">${html}</div></section>`;
+    return `<section class="card"><h3>League read</h3><p class="small muted">From ${games.length.toLocaleString()} NGS games across every division (seasons ${Math.min.apply(null, games.map(g => g.season))} to ${Math.max.apply(null, games.map(g => g.season))}, every season counted the same). A second opinion on style and holes, not a rule.</p><div class="cols">${html}</div></section>`;
   }
   // The deep profile (knowledge/expert/hero_profiles): what the damage is, how healing meets it, what it is good and bad into.
   function profileCard(h) {

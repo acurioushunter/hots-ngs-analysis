@@ -13,7 +13,9 @@ Done and tested (`test_engine.js`, `test_playbook.py`, `test_hotstools.js`, `tes
 - **15** The second healer line carries the league number.
 - **16** Retired rules are skipped, the dead marksman bonus is removed, double healer drafts say there is no heal read.
 
-Not done yet: 5, 6, 7 (backtest), 9 (centre on the player's own rate, season weights in the Team window), 10, 11, 13, 14.
+Second pass (2026-10-15, see `IMPROVEMENT_IDEAS_PASS2.md`): **7** backtest done (`backtest_terms.py`, 1,421 held out games); matchup factor halved, heal lens shown but not scored. **9** player record now read against the player's own rate (prior 30) and the deaths line is role aware. **11** weak flag is role adjusted. **5** League read label fixed (weighting still open). **6** dropped: the backtest found no reliable map signal.
+
+Not done yet: 5 (weighting), 9 (season weights in the Team window), 10, 13, 14.
 
 ---
 

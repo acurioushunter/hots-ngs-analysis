@@ -33,7 +33,11 @@ cw = db.execute("SELECT COUNT(*), SUM(winner=?) FROM ngs_game WHERE team0=? OR t
 check("CCS record matches the database (match pages plus games filled in from the replay export)", (ccs["games"], ccs["wins"]) == (cw[0], cw[1]) and ccs["games"] >= 20, (ccs["games"], ccs["wins"], cw))
 q = db.execute("SELECT COUNT(*), SUM(won) FROM ngs_player_game WHERE battletag='UnicycleYay' AND hero='Qhira'").fetchone()
 r = ccs["players"]["UnicycleYay"]["heroes"]["Qhira"]
-check("UnicycleYay Qhira 5 games 2 wins matches SQL and is flagged weak", (r["g"], r["w"]) == (q[0], q[1]) == (5, 2) and r["weak"], r)
+# The weak flag is role adjusted since pass 2 (melee assassins rate lower than ranged heroes), so Qhira on 5 games is no longer flagged.
+# The CCS Qhira ban discount stays a hand written rule with its own evidence (2-3, 4 deaths a game).
+check("UnicycleYay Qhira 5 games 2 wins matches SQL", (r["g"], r["w"]) == (q[0], q[1]) == (5, 2), r)
+check("the CCS Qhira ban discount rule is still there", any(x.get("id") == "ccs-qhira" and x["heroes"].get("Qhira") for x in json.load(open(ROOT / "playbook" / "config" / "rules.json", encoding="utf-8"))["rules"]), "")
+check("weak flags stay a minority after the role adjustment (under 15% of player hero rows with 3 or more games; 10 of 78 on 2026-10-15)", (lambda rows: sum(x["weak"] for x in rows) < 0.15 * len(rows))([h for t in data["teams"].values() for p in t["players"].values() for h in p["heroes"].values() if h["g"] >= 3]), "")
 check("UnicycleYay's other heroes are not flagged", not any(v["weak"] for h, v in ccs["players"]["UnicycleYay"]["heroes"].items() if h != "Qhira"), "")
 
 late = db.execute("SELECT COUNT(*) FROM ngs_hero_ban b JOIN ngs_game g USING(replay_id) WHERE b.team=? AND b.hero='Thrall' AND b.slot>=10 AND (g.team0=? OR g.team1=?)", ("Can't Counterpick Stupid", US, US)).fetchone()[0]

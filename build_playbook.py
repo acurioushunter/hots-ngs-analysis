@@ -459,7 +459,24 @@ def add(d, key, won):
     d[key][1] += int(bool(won))
 
 
+def role_rating_means(G, heroes):
+    """Average Heroes Profile rating per hero role over the games given. Ratings differ by role (tanks rate lower than supports), so a
+    player's hero is compared with the role average before it is called weak."""
+    acc = collections.defaultdict(lambda: [0, 0.0])
+    for g in G.values():
+        for p in g["players"]:
+            if p["rating"] is None:
+                continue
+            r = heroes.get(p["hero"], {}).get("role", "Unknown")
+            acc[r][0] += 1; acc[r][1] += p["rating"]
+    allg = sum(v[0] for v in acc.values()) or 1
+    mean = sum(v[1] for v in acc.values()) / allg
+    return {r: (v[1] / v[0] if v[0] >= 20 else mean) for r, v in acc.items()}, mean
+
+
 def team_profile(name, G, heroes, us_name):
+    role_mean, all_mean = role_rating_means(G, heroes)
+    adj = lambda h: all_mean - role_mean.get(heroes.get(h, {}).get("role", "Unknown"), all_mean)   # added to a rating to remove the role gap
     mine = [g for g in G.values() if name in (g["team0"], g["team1"])]
     t = dict(name=name, games=len(mine), wins=sum(g["winner"] == name for g in mine), by_map={}, as_map_picker={}, first_pick=[0, 0], map_pick=[0, 0],
              bans_r1={}, bans_r2={}, bans_vs_us={}, bans_r2_vs_us={}, bans_games_vs_us=0, picks_by_slot={}, hero_picks={}, players={}, faced={}, vs_healer={}, h2h=[],
@@ -512,13 +529,16 @@ def team_profile(name, G, heroes, us_name):
     for tag, hs in pl.items():
         tot_g = sum(r["g"] for r in hs.values())
         tot_rating = sum(r["rating"] for r in hs.values())
+        tot_adj = sum(r["rating"] + adj(h) * r["g"] for h, r in hs.items())
         heroes_out = {}
         for h, r in sorted(hs.items(), key=lambda kv: -kv[1]["g"]):
             others = (tot_g - r["g"])
             others_avg = (tot_rating - r["rating"]) / others if others else None
+            # weak compares the role adjusted rating with the role adjusted rating on the player's other heroes
+            others_adj = (tot_adj - r["rating"] - adj(h) * r["g"]) / others if others else None
             heroes_out[h] = dict(g=r["g"], w=r["w"], rating=round(r["rating"] / r["g"], 1), deaths=round(r["deaths"] / r["g"], 1), dmg=round(r["dmg"] / r["g"]),
                                  others_avg=round(others_avg, 1) if others_avg is not None else None,
-                                 weak=bool(others and r["g"] >= 3 and r["rating"] / r["g"] <= others_avg - 6))
+                                 weak=bool(others and r["g"] >= 3 and r["rating"] / r["g"] + adj(h) <= others_adj - 6))
         t["players"][tag] = dict(games=tot_g, avg_rating=round(tot_rating / tot_g, 1), heroes=heroes_out)
     return t
 
