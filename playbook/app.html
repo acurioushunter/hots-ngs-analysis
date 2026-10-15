@@ -57,6 +57,22 @@ select, input[type="text"], input[type="search"] { width: 100%; background: var(
 .btn.sm { padding: 5px 10px; min-height: 34px; font-size: 0.84rem; }
 .btn.big { padding: 14px 16px; min-height: 52px; flex: 1 1 200px; text-align: left; }
 .btn small { display: block; font-weight: 400; opacity: 0.9; }
+.wrap.night { max-width: 1100px; }
+.nline { border: 1px solid var(--line); border-left-width: 6px; border-radius: 10px; padding: 12px 14px; background: var(--surface); }
+.nline.them { border-left-color: var(--them); } .nline.us { border-left-color: var(--us); } .nline.good { border-left-color: var(--good); }
+.nline .k { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.nline .big { font-size: clamp(1.15rem, 2.3vw, 1.7rem); font-weight: 700; line-height: 1.25; margin-top: 4px; }
+.nline .sub { font-size: 0.95rem; color: var(--muted); margin-top: 4px; }
+.donow { border: 2px solid var(--us); border-radius: 12px; padding: 14px 16px; background: var(--us-soft); }
+.donow .hero { font-size: clamp(1.6rem, 3.4vw, 2.6rem); font-weight: 800; line-height: 1.1; }
+.jobgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin-top: 8px; }
+.job { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; background: var(--surface); }
+.job.gap { border-color: var(--bad); background: var(--bad-soft); } .job.okj { border-color: var(--good); }
+.job b { display: block; font-size: 1.05rem; }
+.clock { font-family: var(--mono); font-size: 1.6rem; font-weight: 700; min-width: 3.2ch; }
+.clock.low { color: var(--bad); }
+.splan h3 { margin-top: 4px; }
+.splan .opp { border-top: 3px solid var(--them); padding-top: 10px; margin-top: 14px; break-inside: avoid; }
 .board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
 .slot { border: 1px solid var(--line); border-radius: 8px; padding: 6px 7px; min-height: 52px; background: var(--surface); position: relative; overflow: hidden; text-align: left; display: block; width: 100%; }
 button.slot { cursor: pointer; }
@@ -266,7 +282,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
   function save() { try { localStorage.setItem(SAVE, JSON.stringify({ team: ui.team, me: ui.me, mypool: ui.mypool, teamPicked: ui.teamPicked, series: ui.series, aliasOff: ui.aliasOff, ngsSeasons: ui.ngsSeasons, stages: ui.stages, slScopes: ui.slScopes, slV2: true, opp: ui.opp, side: ui.side, map: ui.map, mapBans: ui.mapBans, actions: ui.actions, tab: ui.tab })); } catch (e) { /* ignore */ } }
   function state() { return { opp: ui.opp, side: ui.side || "first", map: ui.map, actions: ui.actions, series: ui.series }; }
 
-  const TABS = [["draft", "Draft"], ["overview", "Prep"], ["heroes", "Heroes"], ["maps", "Maps"], ["learn", "Learn"], ["team", "Team"], ["about", "About"]];
+  const TABS = [["draft", "Draft"], ["night", "Night"], ["overview", "Prep"], ["players", "Players"], ["heroes", "Heroes"], ["maps", "Maps"], ["learn", "Learn"], ["team", "Team"], ["about", "About"]];
   function renderTabs() {
     $("#tabs").innerHTML = TABS.map(t => `<button class="tab" role="tab" data-tab="${t[0]}" aria-selected="${ui.tab === t[0]}">${t[1]}</button>`).join("");
     $("#brand").textContent = "HotS Drafter";
@@ -842,9 +858,10 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const players = Object.keys(o.players).sort((a, b) => o.players[b].games - o.players[a].games).filter(tag => o.players[tag].games >= 3);
     const lock = [];
     P.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const n = (o.bans_r2[h] || 0); if (n >= 2) lock.push(`${h} (${p.label}): banned in round two ${n} time(s)${o.bans_r2_vs_us && o.bans_r2_vs_us[h] ? ", " + o.bans_r2_vs_us[h] + " against us" : ""}`); }));
+    if (ui.plan === "all") return seasonPlanPage();
     if (ui.plan) return seriesPlanPage(ui.opp);
     return `<section class="card"><label class="f">Opponent<select id="opp">${oppOptions()}</select></label>
-      <p class="noprint"><button class="btn sm" data-plan="1">Series plan (one page, printable)</button></p>
+      <p class="noprint"><button class="btn sm" data-plan="1">Series plan (one page, printable)</button> <button class="btn sm" data-plan="all">Season plan: every opponent</button></p>
       <p class="small muted">This page is a snapshot built ${esc(P.meta.built)} from games through ${esc(P.meta.newest_date)} (${P.meta.games} division games${P.meta.filled_from_export ? `, ${P.meta.filled_from_export} of them filled in from the replay export, which has no ratings or map picks` : ""}). Nothing here updates by itself: new games need a rebuild.</p>
       <p><b>${esc(ui.opp)}</b> is ${o.wins}-${o.games - o.wins} this season. First pick ${recText(o.first_pick)}, map pick ${recText(o.map_pick)}.
       ${o.h2h.length ? "Against us (our result): " + o.h2h.map(g => `${esc(g.map)} ${g.won ? "L" : "W"}`).join(", ") + "." : "No games against us yet."}
@@ -867,6 +884,140 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
 ${playersCard(o, players)}
     <section class="card"><h3>Rules in play</h3><ul class="r small">${rules.map(r => `<li><b>${esc(r.id)}:</b> ${esc(r.text || r.why)} <span class="muted">(${esc(r.evidence || "")})</span></li>`).join("")}</ul></section>
     ${o.notes ? `<section class="card note"><h3>Notes on ${esc(ui.opp)}</h3>${md(o.notes)}</section>` : ""}`;
+  }
+
+  // ---------------------------------------------------------------- NIGHT TAB (the shared screen: three lines that change after every ban and pick)
+  // Icy Veins draft strategy text tells which maps want high or moderate wave clear: the part before "Avoid" is what it prefers.
+  (function () {
+    const m = {};
+    Object.keys(LIB.maps || {}).forEach(n => {
+      const sec = ((LIB.maps[n] || {}).sections || []).find(x => x.title === "Draft Strategy");
+      if (!sec) return;
+      const pre = String(sec.text || "").split(" Avoid ")[0];
+      if (/High waveclear/i.test(pre)) m[n] = "high"; else if (/Moderate waveclear/i.test(pre)) m[n] = "moderate";
+    });
+    E.setMapNeeds(m);
+  })();
+  let clockEnd = 0, clockTimer = null;
+  function clockTick() {
+    const el = $("#clock");
+    if (!el) { clearInterval(clockTimer); clockTimer = null; return; }
+    const left = Math.max(0, Math.ceil((clockEnd - Date.now()) / 1000));
+    el.textContent = left + "s"; el.classList.toggle("low", left <= 10);
+    if (!left) { clearInterval(clockTimer); clockTimer = null; }
+  }
+  function startClock() { clockEnd = Date.now() + 30000; if (!clockTimer) clockTimer = setInterval(clockTick, 250); clockTick(); }
+  const recTxt = (g, w) => w + "-" + (g - w) + ", " + g + " games";
+
+  function renderNight() {
+    if (!ui.opp || !ui.side) {
+      return `<section class="card"><h2>Night board</h2><p class="small muted">Set the opponent and who has first pick, and this page becomes the screen to share on Discord: three lines that change after every ban and pick.</p></section>` + setupCard();
+    }
+    const st = state(), v = E.nightView(st), slot = v.slot, jobs = v.jobs.jobs;
+    const left = jobs.filter(j => !j.ok);
+    const ours = slot && slot.team === "us";
+    const them = v.open.length
+      ? v.open.map(o => `${heroBtn(o.hero)} <span class="muted">(${esc(o.tag)} ${recTxt(o.g, o.w)})</span>`).join(", ")
+      : '<span class="muted">No hero of theirs has 3 or more games and a good record. Do not ban on a hunch.</span>';
+    const clearJob = jobs[0];
+    const mapNote = clearJob.map === "high" ? `Icy Veins lists ${esc(st.map)} as a high wave clear map, so the target is ${clearJob.need}.` : "";
+    const gapTxt = left.length
+      ? left.map(j => `<b>${esc(j.label)}</b> ${Math.round(j.have * 10) / 10} of ${j.need}`).join(", ")
+      : "Nothing missing yet.";
+    const fillOf = j => j.fill && j.fill.length
+      ? j.fill.map(f => `${heroBtn(f.hero)} <span class="muted">(${esc(f.label)}, ${esc(f.tier)}${f.g ? ", NGS " + recTxt(f.g, f.w) : ", no NGS games yet"})</span>${f.comfort < 2 ? ' <span class="tag warn">low comfort</span>' : ""}`).join(", ")
+      : '<span class="muted">Nobody in our pools covers this. Say so now and plan around it.</span>';
+    const fills = left.slice(0, 2).map(j => `<div class="nline us"><div class="k">Fill it: comfort heroes for ${esc(j.label.toLowerCase())}</div><div class="big">${fillOf(j)}</div><div class="sub">The player each hero belongs to is shown. Low comfort means practice tier.</div></div>`).join("");
+    let now = "";
+    if (!slot) now = `<div class="donow"><div class="hero">Draft complete</div></div>`;
+    else if (!ours) now = `<div class="donow" style="border-color:var(--them);background:var(--them-soft)"><div class="small muted">SLOT ${slot.slot}: THEIR ${slot.type.toUpperCase()}</div><div class="hero">Waiting on them</div><p class="small">Tap what they did below.</p></div>`;
+    else if (v.now) {
+      const n = v.now;
+      now = `<div class="donow"><div class="row" style="justify-content:space-between"><span class="small muted">SLOT ${slot.slot}: OUR ${slot.type.toUpperCase()}</span><span class="clock" id="clock">30s</span></div>
+        <div class="hero">${esc(n.hero)}</div>
+        <p style="font-size:1.05rem">${n.kind === "ban" ? esc(n.why) + (n.thin ? " (thin)" : "") : `${esc(n.who)}${n.fills.length ? ". Fills: " + esc(n.fills.join(", ")) : ". Fills no open job"}${n.close ? ". Close call: pick by comfort." : ""}${n.lowComfort ? " Low comfort, check someone can play it." : ""}`}</p>
+        <div class="row"><button class="btn primary" data-take="${esc(n.hero)}">${n.kind === "ban" ? "We ban it" : "We pick it"}</button><button class="btn" data-act="clock">Start 30s</button></div></div>`;
+    }
+    let chips = "";
+    if (slot) {
+      if (ours) {
+        const list = slot.type === "ban" ? E.recommendBans(st) : E.recommendPicks(st);
+        chips = list.slice(0, 8).map(r => `<button class="btn" data-take="${esc(r.hero)}">${esc(r.hero)}</button>`).join("");
+      } else if (slot.type === "ban") {
+        const ex = E.expectOppBans(st);
+        chips = (slot.slot <= 4 ? ex.round1 : ex.round2).slice(0, 8).map(c => `<button class="btn" data-take="${esc(c.hero)}">${esc(c.hero)} <span class="muted small">${c.n}</span></button>`).join("");
+      } else {
+        chips = E.expectOppPicks(st).slice(0, 8).map(c => `<button class="btn" data-take="${esc(c.hero)}">${esc(c.hero)} <span class="muted small">${c.player ? esc(c.player.tag) : c.g + " games"}</span></button>`).join("");
+      }
+    }
+    const jobCards = jobs.map(j => `<div class="job ${j.ok ? "okj" : "gap"}"><span class="small muted">${esc(j.label)}</span><b>${Math.round(j.have * 10) / 10} of ${j.need}</b><span class="small">${j.heroes.length ? esc(j.heroes.join(", ")) : "none yet"}</span></div>`).join("");
+    const tight = v.jobs.tight ? `<p class="err">The comp is short ${v.jobs.open} job slots and has ${v.jobs.remaining} pick${v.jobs.remaining === 1 ? "" : "s"} left, so at least one pick has to do two jobs.</p>` : "";
+    return `${setupCard()}
+      <section class="card ${ours ? "us" : "them"}" style="display:grid;gap:12px">
+        ${now}
+        <div class="nline them"><div class="k">Them: still open and dangerous</div><div class="big">${them}</div><div class="sub">Only players with 3 or more games on the hero are listed. Heroes the player is rated clearly lower on are left out.</div></div>
+        <div class="nline ${left.length ? "us" : "good"}"><div class="k">Us: what the comp is missing</div><div class="big">${gapTxt}</div><div class="sub">${mapNote} ${tight}</div></div>
+        ${fills}
+        <div class="jobgrid">${jobCards}</div>
+        <details><summary>How wave clear is counted</summary><ul class="r small">${v.jobs.clear.length ? v.jobs.clear.map(c => `<li><b>${esc(c.hero)}</b>: ${esc(c.text || "no read")}</li>`).join("") : "<li>No picks yet.</li>"}</ul>
+          <p class="small muted">Numbers win over the kit when a hero has 5 or more division games. A hero the numbers like but the kit calls poor counts half, and halves alone never make the job. This is Season 22 Division C West, so samples are small: Tomb of the Spider Queen with one strong clear hero was 0-3.</p></details>
+      </section>
+      ${slot ? `<section class="card"><div class="row" style="gap:6px">${chips}</div>
+        <div class="row" style="margin-top:10px"><label class="f grow">Another hero<input type="text" id="free" list="heroes" placeholder="Type a hero" autocomplete="off"></label>
+          <button class="btn ${ours ? "primary" : "them"}" data-act="free">Record</button>${slot.type === "ban" ? '<button class="btn" data-take="No Pick">No ban (missed)</button>' : ""}</div>
+        <datalist id="heroes">${Object.keys(P.heroes).sort().map(h => `<option value="${esc(h)}">`).join("")}</datalist>${ui.msg ? `<p class="err">${esc(ui.msg)}</p>` : ""}</section>` : ""}
+      ${boardCard(st)}`;
+  }
+
+  // ---------------------------------------------------------------- SEASON PLAN (every opponent on one printable page)
+  function seasonPlanPage() {
+    const myDiv = LG && LG.divisions ? LG.divisions[P.us.team] : null;
+    const plans = E.seasonPlan(opponents.filter(o => !LG || LG.divisions[o] === myDiv)), rt = v => (v && v[0] ? v[1] + "-" + (v[0] - v[1]) + " (" + v[0] + " games)" : "no games");
+    const body = plans.map(sp => {
+      const t = sp.toss, call = t.pick === "first" ? "first pick" : t.pick === "map" ? "map pick" : "either (toss up)";
+      const mrow = m => `<li><b>${esc(m.map)}</b>: us ${rt(m.us)}, them ${rt(m.them)}${m.vsUs[0] ? ", us v them " + rt(m.vsUs) : ""}${m.thin ? " (thin, a lean)" : ""}</li>`;
+      const c = sp.clear, comfortable = c.left.length;
+      const opts = c.left.map(x => esc(x.label) + " (" + x.heroes.slice(0, 3).map(esc).join(", ") + ")").join("; ") || "none";
+      const holes = c.banned.length
+        ? `They ban ${c.banned.map(b => esc(b.hero) + " " + b.n + " of " + b.games).join(", ")} (our clear heroes). Clear options left without them: ${opts}.`
+        : `They have not banned our clear heroes more than once. Clear options: ${opts}.`;
+      const need = comfortable < 2 ? ' <span class="tag bad">thin: fewer than two players have a comfortable clear hero left</span>' : "";
+      const vs = sp.h2h.length ? "Against us (our result): " + sp.h2h.map(g => esc(g.map) + " " + (g.won ? "L" : "W")).join(", ") + "." : "No games against us yet.";
+      return `<div class="opp"><h3>${esc(sp.opp)} <span class="muted small">${sp.wins}-${sp.games - sp.wins} this season</span></h3>
+        <p class="small">${vs} If we win the toss: <b>${call}</b> (us first pick ${rt(t.usFirst)}, map pick ${rt(t.usMap)}).</p>
+        <p class="small"><b>Ban first:</b> ${sp.scout.best.length ? sp.scout.best.map(b => esc(b.hero) + " (" + esc(b.tag) + " " + b.w + "-" + (b.g - b.w) + ", " + b.g + " games)").join(", ") : "nobody has 3 or more games with a good record, so no named ban"}</p>
+        <p class="small"><b>Leave open:</b> ${sp.scout.weaker.length ? sp.scout.weaker.map(b => esc(b.hero) + " (" + esc(b.tag) + ", rated below their other heroes)").join(", ") : "none flagged"}</p>
+        <p class="small"><b>Map bans:</b></p><ul class="r small">${sp.maps.bans.map(mrow).join("") || "<li>none yet</li>"}</ul>
+        <p class="small"><b>Map picks if we have them:</b></p><ul class="r small">${sp.maps.picks.map(mrow).join("") || "<li>none yet</li>"}</ul>
+        <p class="small"><b>What they ban in round one:</b> ${sp.oppBans.map(x => esc(x.hero) + " " + x.n + " of " + sp.oppBansGames).join(", ") || "none"}</p>
+        <p class="small"><b>Our wave clear:</b> ${holes}${need}</p>
+        ${sp.lock.length ? `<p class="small"><b>Lock early (they ban it in round two):</b> ${sp.lock.map(x => esc(x.hero) + " (" + esc(x.player) + ", " + x.n + " of " + x.games + ")").join(", ")}</p>` : ""}</div>`;
+    }).join("");
+    return `<section class="card splan"><p class="noprint"><button class="btn sm" data-plan="0">Back to Prep</button> <button class="btn sm" data-print="1">Print</button></p>
+      <h2>Season plan: every opponent</h2>
+      <p class="small muted">Built ${esc(P.meta.built)} from games through ${esc(P.meta.newest_date)}. Most lines rest on 2 to 12 games, so read them as leans. A hero is only named when one of their players has 3 or more games on it. "Rated below their other heroes" means the player does clearly worse on that hero than on the rest of their pool.</p>
+      ${body}</section>`;
+  }
+
+
+  // ---------------------------------------------------------------- PLAYERS TAB (improving as a player, from the team's own games)
+  function renderPlayers() {
+    const wl = (g, w) => w + "-" + (g - w) + " (" + g + " games)";
+    const cards = P.us.players.map(pl => {
+      const r = E.playerReview(pl), isMe = ui.me && ui.me === pl.tag;
+      const li = [];
+      li.push(`<li>Overall ${wl(r.g, r.w)}, ${Math.round(r.own * 100)}% shrunk toward 50%. On comfort heroes (primary or secondary) ${wl(r.comfort[0], r.comfort[1])}; on practice heroes ${wl(r.practice[0], r.practice[1])}; off the pool ${wl(r.off[0], r.off[1])}.</li>`);
+      if (r.best.length) li.push(`<li><b>Keep leaning on:</b> ${r.best.map(x => heroBtn(x.hero) + " " + wl(x.g, x.w)).join(", ")}.</li>`);
+      if (r.costing.length) li.push(`<li><b>Costing games (below your own rate):</b> ${r.costing.map(x => heroBtn(x.hero) + " " + wl(x.g, x.w)).join(", ")}. Review those games before it goes on the board again.</li>`);
+      if (r.dying.length) li.push(`<li><b>Deaths high for the role:</b> ${r.dying.map(x => heroBtn(x.hero) + " " + x.deaths.toFixed(1) + " a game (role limit " + x.limit.toFixed(1) + ", " + x.g + " games)").join(", ")}.</li>`);
+      if (r.offPool.length) li.push(`<li><b>Played but not in the pool:</b> ${r.offPool.map(x => heroBtn(x.hero) + " " + wl(x.g, x.w)).join(", ")}. Add it to the pool or stop picking it.</li>`);
+      if (r.unused.length) li.push(`<li><b>In the pool with under 3 games:</b> ${r.unused.map(heroBtn).join(", ")}. Practice these in scrims so the tag is earned.</li>`);
+      const comfClear = r.clear.filter(c => c.comfort >= 2);
+      if (r.role !== "Tank" && r.role !== "Healer") li.push(comfClear.length ? `<li><b>Wave clear comfort:</b> ${comfClear.map(c => heroBtn(c.hero)).join(", ")}.</li>` : `<li><b>No comfortable wave clear hero.</b> ${r.clear.length ? "Practice tier: " + r.clear.map(c => heroBtn(c.hero)).join(", ") + "." : "Nothing in the pool clears. This is the hole that hurt on Tomb."}</li>`);
+      return `<section class="card ${isMe ? "us" : ""}"><h3>${esc(pl.label)} <span class="muted small">${esc(pl.slot_role || "")}${isMe ? " (you)" : ""}</span></h3>
+        <ul class="r small">${li.join("")}</ul>${r.small ? '<p class="small muted">Under 12 games this season, so every line here is a lean.</p>' : ""}</section>`;
+    }).join("");
+    return `<section class="card"><h2>Players</h2><p class="small muted">Built from ${esc(P.us.team)}'s games in the data window on the Team tab. A hero needs 4 or more games to be named as a strength or a cost. Records are read against the player's own rate over every hero, so a hero is only called good or bad when it differs from that. Deaths are compared with the division average for the role plus 1.5. For your own full match history (every game, not only NGS) use My Games in HotS Tools.</p></section>${cards}`;
   }
 
   // ---------------------------------------------------------------- HEROES TAB
@@ -1167,8 +1318,9 @@ ${playersCard(o, players)}
   // ---------------------------------------------------------------- wiring
   function render() {
     renderTabs();
-    const v = ui.tab === "draft" ? renderDraft() : ui.tab === "overview" ? renderOverview() : ui.tab === "heroes" ? renderHeroes() : ui.tab === "maps" ? renderMaps() : ui.tab === "learn" ? renderLearn() : ui.tab === "team" ? renderTeam() : renderAbout();
+    const v = ui.tab === "draft" ? renderDraft() : ui.tab === "night" ? renderNight() : ui.tab === "players" ? renderPlayers() : ui.tab === "overview" ? renderOverview() : ui.tab === "heroes" ? renderHeroes() : ui.tab === "maps" ? renderMaps() : ui.tab === "learn" ? renderLearn() : ui.tab === "team" ? renderTeam() : renderAbout();
     const keep = window.scrollY;
+    document.querySelector(".wrap").classList.toggle("night", ui.tab === "night");
     $("#view").innerHTML = v;
     if (ui._keepScroll) { window.scrollTo(0, keep); ui._keepScroll = false; }
     if (window.hotsPost) window.hotsPost({ type: "tab", tab: ui.tab });
@@ -1196,7 +1348,7 @@ ${playersCard(o, players)}
     if (!b) return;
     const d = b.dataset;
     if (d.print) { window.print(); return; }
-    if (d.plan) { ui.plan = d.plan === "1"; window.scrollTo(0, 0); render(); return; }
+    if (d.plan) { ui.plan = d.plan === "all" ? "all" : d.plan === "1"; window.scrollTo(0, 0); render(); return; }
     if (d.copy) { copyText(d.copy, b); return; }
     if (d.copySummary) { copyText(summaryText(state()), b); return; }
     if (d.close) { closeDialog(d.close); return; }
@@ -1249,6 +1401,7 @@ ${playersCard(o, players)}
     else if (d.act === "undo") { ui.actions.pop(); ui.sim = null; ui.msg = ""; }
     else if (d.act === "reset") { ui.actions = []; ui.sim = null; ui.msg = ""; }
     else if (d.act === "more") { ui.showAll = !ui.showAll; }
+    else if (d.act === "clock") { startClock(); return; }
     else if (d.act === "sim") { ui.sim = ui.sim ? null : E.simulate(state()); }
     else return;
     save(); render();

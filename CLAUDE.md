@@ -45,6 +45,7 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - The hero, map and guide library (`build_library.py` into `playbook/library.json`, build codes in `knowledge/icy_build_codes.txt`, tips in `playbook/notes/draft_tips.md`) is built by the same command and shown in the Heroes, Maps and Learn tabs and the hero sheets. Build codes are mostly old, the tool flags them.
 - Judgment lives in `playbook/config/our_team.json` (pools), `playbook/config/rules.json` (rules with reasons and evidence) and `playbook/notes/`. Engine is `playbook/engine.js`, UI is `playbook/app.html`. How to update: `UPDATE_PLAYBOOK.md`.
 - Published phone artifact (private): https://claude.ai/artifact/QuQ1FdsJfFn7sH3988KrYU. To update it, publish `hots_tools_artifact.html` (HotS Tools, which contains the Draft Room) with that `url` (read it first). `draft_tool_artifact.html` is the Draft Room alone. Do not create a second artifact.
+- Match night: the Night tab (shared screen board: who of theirs is still open, what the comp is missing, comfort heroes that fill it), Prep has a Season plan for all five opponents, Players tab reviews each player. See the 2026-10-15 fourth round note in `PROJECT_STATE.md`.
 - Never edit the generated files by hand. A hero named in config must exist or the build stops.
 
 ## State as of 2026-10-12

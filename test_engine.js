@@ -198,5 +198,25 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
     check("loss line says what happened and has no dashes", /experience at 10 minutes/.test(E.lossLine(lost)) && !/[–—]| - /.test(E.lossLine(lost)) && E.lossLine({}) === "no timeline for this game", E.lossLine(lost));
   }
 }
+
+// night board: jobs, quiet rules, season plan, player review
+{
+  E.setMapNeeds({ "Tomb of the Spider Queen": "high" });
+  const tomb = E.newDraft("COSMOS", "second", "Tomb of the Spider Queen");
+  ["Sylvanas", "Thrall", "Leoric", "Rehgar", "Tyrael"].forEach(h => tomb.actions.push({ slot: 0, type: "pick", team: "us", hero: h }));
+  const j = E.jobs(tomb), clear = j.jobs.find(x => x.id === "clear");
+  check("the Oct 6 Tomb draft shows a wave clear gap (needs 3 on a high clear map, one full clearer and two halves)", clear.need === 3 && !clear.ok, JSON.stringify([clear.have, clear.need]));
+  check("Sylvanas does not count as wave clear (measured under 3k a minute over 5 or more games)", E.clearStatus("Sylvanas").value === 0 && E.clearStatus("Sylvanas").source === "measured", JSON.stringify(E.clearStatus("Sylvanas")));
+  check("Thrall counts half: the numbers clear, the kit says poor", E.clearStatus("Thrall").value === 0.5, JSON.stringify(E.clearStatus("Thrall")));
+  check("the clear gap lists comfort heroes first (primary before practice)", clear.fill.length >= 2 && clear.fill[0].comfort >= clear.fill[clear.fill.length - 1].comfort && clear.fill[0].comfort >= 2, JSON.stringify(clear.fill.map(f => f.hero + f.tier)));
+  const nv = E.nightView(E.newDraft(CCS, "first", null));
+  check("night view bans a hero with 3 or more games behind it, and says which", nv.now && nv.now.kind === "ban" && /games/.test(nv.now.why), JSON.stringify(nv.now));
+  check("still open list is quiet below 3 games and drops weak records", nv.open.every(o => o.g >= 3 && (o.w + 1) / (o.g + 2) >= 0.55), JSON.stringify(nv.open));
+  const sp = E.seasonPlan([CCS, "COSMOS"]);
+  check("season plan carries scout lists and clear coverage per opponent, nothing without a sample", sp.length === 2 && sp.every(x => x.scout.best.every(b => b.g >= 3) && x.clear.left.length >= 1), JSON.stringify(sp.map(x => x.opp)));
+  const pr = E.playerReview(PLAYBOOK.us.players.find(p => p.tag === "hunterstag"));
+  check("player review names only heroes with 4 or more games as strengths or costs", pr.best.concat(pr.costing).every(r => r.g >= 4), JSON.stringify(pr.best.concat(pr.costing).map(r => r.hero + r.g)));
+}
+
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);

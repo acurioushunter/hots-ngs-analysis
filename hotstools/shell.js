@@ -42,7 +42,9 @@
     { id: 'home', label: 'Home', native: 'home' },
     { id: 'scout', label: 'Team Scout', blurb: 'For teams: prepare for a match, run a draft, scout any team in the league.', pages: [
       { id: 'draft', label: 'Draft room', app: 'drafter', tab: 'draft', desc: 'Live draft against a known opponent: bans, picks, comps and the plan.' },
+      { id: 'night', label: 'Night board', app: 'drafter', tab: 'night', desc: 'Big type for a shared screen: who of theirs is still open, what our comp is missing, who fills it.' },
       { id: 'prep', label: 'Opponent prep', app: 'drafter', tab: 'overview', desc: 'Their players, maps, bans and how they did against you.' },
+      { id: 'players', label: 'Team players', app: 'drafter', tab: 'players', desc: 'Per player: strengths, heroes costing games, deaths, pool gaps. Small samples are marked.' },
       { id: 'scout', label: 'Scout any team', app: 'lab', tab: 'scout', desc: 'Record, favourite maps, comps and habits for any team in the data.' },
       { id: 'review', label: 'Review a draft', app: 'lab', tab: 'review', desc: 'Replay a real draft slot by slot against what the engine would suggest.' },
       { id: 'counters', label: 'Counters', app: 'lab', tab: 'counters', desc: 'What beats which kind of comp, and hero versus hero results.' },

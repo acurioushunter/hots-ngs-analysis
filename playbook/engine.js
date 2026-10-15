@@ -872,6 +872,174 @@
     return E.mapTable(opp).filter(x => !gone.has(x.map)).sort((a, b) => b.edge - a.edge);
   };
 
+  // ---------------------------------------------------------------- jobs: what the comp still has to do (night board)
+  // Wave clear is read two ways and the two are kept apart. Measured: minion damage a minute over 5 or more division games (3,000 and up counts).
+  // Kit: the hero profile's wave_clear_style (aoe_burst and sustained count, summons_or_zone is half, poor is none). Measured wins when there is a sample.
+  // A hero the numbers call a clearer but the kit calls poor (melee Thrall) counts half: it clears, but it is not a safe clear.
+  const CLEAR_PM = 3000, CLEAR_MIN_G = 5, CLEAR_TARGET = 2;
+  E.mapNeeds = {};   // map name -> "high" | "moderate" | "low avoid" from the Icy Veins draft strategy text; the page sets it (the engine has no library)
+  E.setMapNeeds = function (o) { E.mapNeeds = o || {}; };
+  E.clearStatus = function (h) {
+    const info = heroInfo(h), st = info.stats || {}, L = (info.profile && info.profile.lenses) || {}, kit = L.wave_clear_style || null;
+    const kitV = kit === "aoe_burst" || kit === "sustained" ? 1 : kit === "summons_or_zone" ? 0.5 : 0;
+    const out = { hero: h, value: 0, source: "none", kit, pm: st.minion_pm || null, g: st.g || 0, text: "" };
+    if (st.g >= CLEAR_MIN_G && st.minion_pm != null) {
+      const k = Math.round(st.minion_pm / 100) / 10;
+      if (st.minion_pm >= CLEAR_PM) {
+        out.source = "measured";
+        out.value = kit === "poor" ? 0.5 : 1;
+        out.text = k + "k minion damage a minute over " + st.g + " division games" + (kit === "poor" ? ", but the kit reads as poor at clearing, so it counts half" : "");
+      } else {
+        out.source = "measured";
+        out.text = k + "k minion damage a minute over " + st.g + " division games (under 3k, not counted)" + (kitV ? "; the kit says it clears, the numbers do not show it" : "");
+      }
+    } else if (kit) {
+      out.source = "kit"; out.value = kitV;
+      out.text = "kit: " + kit.replace(/_/g, " ") + (st.g ? " (only " + st.g + " division games)" : " (no division games)");
+    }
+    return out;
+  };
+  const isHealer = h => heroInfo(h).role === "Healer";
+  const isFront = h => { const r = heroInfo(h).role; return r === "Tank" || r === "Bruiser"; };
+  const COMFORT = { primary: 3, secondary: 2, practice: 1 };
+  // best option in our pools for a job, comfort first: pool tier, then the pool score on this map
+  function fillers(st, pred, min) {
+    const used = E.used(st), seen = {}, out = [];
+    D().us.players.forEach(p => Object.keys(p.pool).forEach(h => {
+      if (used.has(h) || !pred(h)) return;
+      const tier = p.pool[h], comfort = COMFORT[tier] || 0;
+      if ((p.avoid || []).indexOf(h) >= 0) return;
+      const ps = E.poolScore(p, h, st.map), n = p.ngs && p.ngs[h];
+      const row = { hero: h, tag: p.tag, label: p.label, tier, comfort, score: ps.s, g: n ? n.g : 0, w: n ? n.w : 0 };
+      if (!seen[h] || seen[h].comfort < comfort || (seen[h].comfort === comfort && seen[h].score < row.score)) seen[h] = row;
+    }));
+    Object.keys(seen).forEach(h => out.push(seen[h]));
+    out.sort((a, b) => b.comfort - a.comfort || b.score - a.score);
+    return out.slice(0, min || 4);
+  }
+  // The four jobs and how the draft stands. have is a number (clear counts halves), heroes lists who does it.
+  E.jobs = function (st) {
+    const mine = E.picks(st, "us"), rem = E.remainingPicks(st, "us");
+    const clr = mine.map(E.clearStatus);
+    const clearHave = clr.reduce((a, c) => a + c.value, 0);
+    const jobs = [
+      { id: "clear", label: "Wave clear", need: E.mapNeeds[st.map] === "high" ? CLEAR_TARGET + 1 : CLEAR_TARGET, have: clearHave, full: clr.filter(c => c.value >= 1).length, heroes: clr.filter(c => c.value > 0).map(c => c.hero + (c.value < 1 ? " (half)" : "")),
+        detail: clr.filter(c => c.text).map(c => c.hero + ": " + c.text), pred: h => E.clearStatus(h).value >= 1,
+        map: E.mapNeeds[st.map] || null },
+      { id: "healer", label: "Healer", need: 1, have: mine.filter(isHealer).length, heroes: mine.filter(isHealer), pred: isHealer },
+      { id: "front", label: "Front line", need: 1, have: mine.filter(isFront).length, heroes: mine.filter(isFront), pred: isFront },
+      { id: "damage", label: "Damage dealer", need: 2, have: mine.filter(h => { const i = heroInfo(h); return i.carry || i.ranged || i.high_damage; }).length,
+        heroes: mine.filter(h => { const i = heroInfo(h); return i.carry || i.ranged || i.high_damage; }), pred: h => { const i = heroInfo(h); return i.role !== "Healer" && (i.carry || i.ranged || i.high_damage); } }
+    ];
+    let open = 0;
+    jobs.forEach(j => {
+      j.missing = Math.max(0, Math.ceil(j.need - j.have - 1e-9));
+      // halves cannot make a clear job on their own: at least one full clearer is needed
+      if (j.id === "clear" && !j.missing && j.full < 1) j.missing = 1;
+      j.ok = j.missing === 0;
+      if (!j.ok) { open += j.missing; j.fill = fillers(st, j.pred, 4); }
+    });
+    return { jobs, open, remaining: rem, tight: open > rem && rem >= 0 && mine.length > 0, clear: clr };
+  };
+
+  // Their strongest heroes still available, from each of their players' records. Quiet below 3 games, and "weaker" heroes are left out.
+  E.stillOpen = function (st, limit) {
+    const th = E.threats(st), used = E.used(st), out = [];
+    Object.keys(th).forEach(h => {
+      if (used.has(h)) return;
+      th[h].rows.forEach(r => {
+        if (r.g < 3 || r.weak || (r.w + 1) / (r.g + 2) < 0.55) return;   // a 3-3 hero is not a threat
+        out.push({ hero: h, tag: r.tag, g: r.g, w: r.w, v: Math.sqrt(r.g) * (0.4 + (r.w + 2) / (r.g + 4)) });
+      });
+    });
+    out.sort((a, b) => b.v - a.v);
+    return out.slice(0, limit || 4);
+  };
+
+  // The night view: one object the Night tab prints. Every line carries its games; a line with too little behind it says so instead of guessing.
+  E.nightView = function (st) {
+    const slot = E.nextSlot(st), j = E.jobs(st), open = E.stillOpen(st, 4);
+    let now = null;
+    if (slot && slot.team === "us") {
+      if (slot.type === "ban") {
+        const bans = E.recommendBans(st).filter(x => (x.flags || []).every(f => !/DO NOT|LEAVE|LOW VALUE/.test(f)));
+        const top = bans[0];
+        const row = top && open.find(o => o.hero === top.hero);
+        now = top ? { kind: "ban", hero: top.hero, why: row ? row.tag + " is " + row.w + "-" + (row.g - row.w) + " on it (" + row.g + " games)" : "no player of theirs has 3 or more games on it, so this is a weak lean", thin: !row } : null;
+      } else {
+        const list = E.recommendPicks(st), openJobs = j.jobs.filter(x => !x.ok);
+        const fits = list.filter(r => openJobs.some(x => x.pred(r.hero)));
+        const comfy = r => (r.who && r.who[0] && COMFORT[r.who[0].tier]) || 0;
+        const pool = (fits.length ? fits : list).slice().sort((a, b) => (comfy(b) >= 2 ? 1 : 0) - (comfy(a) >= 2 ? 1 : 0) || b.score - a.score);
+        const top = pool[0];
+        now = top ? { kind: "pick", hero: top.hero, who: top.who && top.who[0] ? top.who[0].label + " " + top.who[0].tier : "", fills: openJobs.filter(x => x.pred(top.hero)).map(x => x.label), score: top.score, close: top.close, lowComfort: comfy(top) < 2, flags: top.flags || [] } : null;
+      }
+    }
+    return { slot, jobs: j, open, now, picks: E.picks(st, "us"), theirs: E.picks(st, "opp") };
+  };
+
+  // ---------------------------------------------------------------- player review (how each of us can improve, from this season's games)
+  // Records are read against the player's own rate over every hero, shrunk with the same prior of 30 games the pick scoring uses.
+  E.playerReview = function (p) {
+    const own = E.ownRate(p), rows = [];
+    let g = 0, w = 0;
+    Object.keys(p.ngs || {}).forEach(h => {
+      const n = p.ngs[h];
+      g += n.g; w += n.w;
+      rows.push({ hero: h, g: n.g, w: n.w, deaths: n.deaths || 0, rating: n.rating, tier: p.pool[h] || null, limit: E.deathsLimit(h), adj: (n.w + PLAYER_PRIOR * own) / (n.g + PLAYER_PRIOR) });
+    });
+    const sum = f => rows.filter(f).reduce((a, r) => [a[0] + r.g, a[1] + r.w], [0, 0]);
+    const comfort = sum(r => r.tier === "primary" || r.tier === "secondary"), practice = sum(r => r.tier === "practice"), off = sum(r => !r.tier);
+    const best = rows.filter(r => r.g >= 4 && r.adj > own + 0.02).sort((a, b) => b.adj - a.adj).slice(0, 3);
+    const costing = rows.filter(r => r.g >= 4 && r.adj < own - 0.03).sort((a, b) => a.adj - b.adj).slice(0, 3);
+    const dying = rows.filter(r => r.g >= 3 && r.deaths > r.limit).sort((a, b) => (b.deaths - b.limit) - (a.deaths - a.limit)).slice(0, 3);
+    const offPool = rows.filter(r => !r.tier && r.g >= 3).sort((a, b) => b.g - a.g).slice(0, 3);
+    const unused = Object.keys(p.pool).filter(h => (p.pool[h] === "primary" || p.pool[h] === "secondary") && !(p.ngs[h] && p.ngs[h].g >= 3));
+    const clear = Object.keys(p.pool).filter(h => E.clearStatus(h).value >= 1).map(h => ({ hero: h, tier: p.pool[h], comfort: COMFORT[p.pool[h]] || 0 }));
+    return { tag: p.tag, label: p.label, role: p.slot_role, g, w, own, comfort, practice, off, best, costing, dying, offPool, unused, clear, small: g < 12 };
+  };
+
+  // ---------------------------------------------------------------- season plan (all opponents on one page)
+  // Our heroes with a wave clear job that this opponent bans often, and which of our players still have a clear hero left without them.
+  E.clearCoverage = function (opp) {
+    const d = D(), o = d.teams[opp], gm = Math.max(o.games, 1), out = { banned: [], left: [], noClear: [], games: o.games };
+    const rate = h => Math.max(((o.bans_r1[h] || 0) + (o.bans_r2[h] || 0)) / gm, (o.bans_vs_us && o.bans_games_vs_us ? ((o.bans_vs_us[h] || 0) + (o.bans_r2_vs_us[h] || 0)) / o.bans_games_vs_us : 0));
+    const gone = new Set();
+    d.us.players.forEach(p => Object.keys(p.pool).forEach(h => { const r = rate(h); if (r >= 0.3 && (o.bans_r1[h] || 0) + (o.bans_r2[h] || 0) >= 2) gone.add(h); }));
+    gone.forEach(h => { if (E.clearStatus(h).value >= 1) out.banned.push({ hero: h, n: (o.bans_r1[h] || 0) + (o.bans_r2[h] || 0), games: o.games }); });
+    d.us.players.filter(p => p.slot_role !== "Tank" && p.slot_role !== "Healer").forEach(p => {
+      const opts = Object.keys(p.pool).filter(h => !gone.has(h) && E.clearStatus(h).value >= 1 && COMFORT[p.pool[h]] >= 2 && (p.avoid || []).indexOf(h) < 0);
+      if (opts.length) out.left.push({ label: p.label, heroes: opts });
+      else out.noClear.push(p.label);
+    });
+    return out;
+  };
+
+  // Their players' best heroes (ban first) and heroes they are clearly worse on (leave open). Quiet under 3 games.
+  E.scoutLists = function (opp) {
+    const o = D().teams[opp], best = [], weaker = [];
+    Object.keys(o.players).forEach(tag => {
+      const p = o.players[tag];
+      Object.keys(p.heroes).forEach(h => {
+        const r = p.heroes[h];
+        if (r.g < 3) return;
+        const row = { hero: h, tag, g: r.g, w: r.w, rating: r.rating };
+        if (r.weak) weaker.push(row);
+        else if ((r.w + 1) / (r.g + 2) >= 0.55) best.push(Object.assign(row, { v: Math.sqrt(r.g) * (0.4 + (r.w + 2) / (r.g + 4)) }));
+      });
+    });
+    best.sort((a, b) => b.v - a.v); weaker.sort((a, b) => b.g - a.g);
+    return { best: best.slice(0, 6), weaker: weaker.slice(0, 5), games: o.games };
+  };
+
+  E.seasonPlan = function (only) {   // only: the opponent names to include (the page passes the team's own division)
+    const d = D(), us = d.us.team;
+    return Object.keys(d.teams).filter(t => t !== us && d.teams[t].games >= 3 && (!only || only.indexOf(t) >= 0)).map(opp => {
+      const sp = E.seriesPlan(opp), t = d.teams[opp];
+      return Object.assign({}, sp, { scout: E.scoutLists(opp), clear: E.clearCoverage(opp), h2h: t.h2h || [] });
+    }).sort((a, b) => b.wins / Math.max(b.games, 1) - a.wins / Math.max(a.games, 1));
+  };
+
   root.Engine = E;
   if (typeof module !== "undefined" && module.exports) module.exports = E;
 })(typeof window !== "undefined" ? window : globalThis);
