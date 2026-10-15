@@ -170,6 +170,9 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   check("ban threat keeps its 0 to 5 scale", Math.max.apply(null, Object.values(th).map(x => x.v)) === 5, "");
   check("ban reasons say the order is a lean", E.recommendBans(E.newDraft(CCS, "first", "Tomb of the Spider Queen")).filter(b => b.intel && b.reasons.length > 1 && /rating/.test(b.reasons[0])).every(b => /a lean/.test(b.reasons[0])), "");
   check("heal lens lines say they are shown only", recs.every(r => r.reasons.filter(x => /into (an AoE|a single|a sustained|this healer)/.test(x)).every(x => /shown only/.test(x))), "");
+  const hi = E.heroIntel(PLAYBOOK.teams[CCS], "Sylvanas", [], null);
+  const ccAt = hi.numbers.findIndex(x => /seconds of stun/.test(x)), slAt = hi.numbers.findIndex(x => /^Heroes Profile Storm League/.test(x));
+  check("crowd control line comes after win rate lines", ccAt < 0 || (slAt >= 0 && ccAt > slAt) || ccAt === hi.numbers.length - 1, JSON.stringify(hi.numbers));
 }
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);

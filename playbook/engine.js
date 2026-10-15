@@ -643,12 +643,12 @@
         .sort((a, b) => b.c.lift - a.c.lift).slice(0, 2);
       seenPairs.forEach(o => out.combos.push("Seen: with " + o.x + " on one side (" + o.c.n + " NGS games, seasons 15 to 22, all teams) they were on the same pick or small fight takedown (three heroes or fewer) " + o.c.both + " times against " + o.c.expected + " that each one's own share predicts (" + (Math.round(o.c.lift * 100) / 100) + "x). It does not show who set up whom."));
       if ((k.peel || 0) >= 4) out.combos.push("Kit suggests strong peel: it protects whoever carries the damage.");
+      if (k.wr != null) { out.numbers.push("Heroes Profile Storm League, newest patches: " + Math.round(k.wr * 10) / 10 + "% wins, banned in " + Math.round((k.ban || 0) * 10) / 10 + "% of games (" + (k.n || 0).toLocaleString("en-US") + " games)."); out.headline.global = k.wr; }
       const ob = (D().heroes[hero] || {}).obs;
       if (ob && ob.g >= 50) {
         const r = obsRank(hero, "cc");
         out.numbers.push("In " + ob.g + " NGS games (seasons 15 to 22) it lands " + ob.cc + " seconds of stun, root and silence per game" + (r && r.rank ? " (rank " + r.rank + " of " + r.of + " heroes)" : "") + (ob.fb != null ? "; its side drew first blood in " + Math.round(ob.fb * 100) + "% of those games." : "."));
       }
-      if (k.wr != null) { out.numbers.push("Heroes Profile Storm League, newest patches: " + Math.round(k.wr * 10) / 10 + "% wins, banned in " + Math.round((k.ban || 0) * 10) / 10 + "% of games (" + (k.n || 0).toLocaleString("en-US") + " games)."); out.headline.global = k.wr; }
       const st = E.styleOf(team);
       (k.fit || []).filter(t => st.tags[t] && st.tags[t][0] >= 3 && st.tags[t][0] <= 0.75 * st.games).forEach(t => out.style.push("Fits their style: " + t + " comps in " + st.tags[t][0] + " of " + st.games + " games, " + wl(st.tags[t][0], st.tags[t][1]) + "."));
     }

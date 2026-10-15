@@ -418,7 +418,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     else chips.push(`<span class="tag">${type === "ban" ? "not played by them" : "no games yet"}</span>`);
     if (h.vsUs) chips.push(`<span class="tag">vs us ${wl2(h.vsUs)}</span>`);
     if (h.ours) chips.push(`<span class="tag">we are ${wl2(h.ours)} against it</span>`);
-    if (h.global != null) chips.push(`<span class="tag">Storm League ${Math.round(h.global * 10) / 10}%</span>`);
+    if (h.global != null) chips.push(`<span class="tag" title="Heroes Profile Storm League win rate across all ranks and players, not NGS">Storm League, all ranks ${Math.round(h.global * 10) / 10}%</span>`);
     const sec = (title, list) => list && list.length ? `<b class="small">${title}</b><ul class="r small">${list.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
     return `<div class="row" style="gap:4px">${chips.join(" ")}</div>
       <details><summary>${type === "ban" ? "Ban dossier" : "Numbers and combos"}</summary>
@@ -536,7 +536,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
     const rules = E.rulesFor(st).filter(r => r.kind === "note");
     return `<section class="card us"><h3>Our comp</h3>
       <div class="meter" style="margin-top:8px"><div><b>${c.ranged}</b><span>Ranged dealers</span></div><div><b>${c.meleeDealers}</b><span>Melee dealers</span></div><div><b>${c.marksmen}</b><span>Marksmen</span></div><div><b>${c.frontline}</b><span>Front</span></div><div><b>${c.healers}</b><span>Healer</span></div><div><b>${c.highClear}</b><span>Strong clear</span></div><div><b>${c.highDamage}</b><span>Damage dealers</span></div></div>
-      <p class="small muted">Strong clear is 3,500+ minion damage a minute, damage dealer is 2,400+ hero damage a minute (this division).</p>
+      <p class="small muted">Strong clear is 3,500+ minion damage a minute, damage dealer is 2,400+ hero damage a minute (this division). The "Strong clear" and "Damage dealers" counts come from the division and may rest on 3 games per hero.</p>
       ${c.warnings.map(w => `<div class="warnbox" style="margin-top:6px">${esc(w)}</div>`).join("")}
       ${c.notes.map(w => `<p class="small muted" style="margin-top:6px">${esc(w)}</p>`).join("")}
       ${compLeague(st)}
