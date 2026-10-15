@@ -200,6 +200,12 @@ def main():
         (ROOT / 'hots_tools_hunter_artifact.html').write_text(out, encoding='utf8')
         (ROOT / 'hots_tools_hunter.html').write_text(wrapped, encoding='utf8')
         print('personal edition: %d games, hots_tools_hunter.html %.2f MB' % (len(pd['games']), len(wrapped.encode('utf8')) / 1e6))
+        if '--sl-only' in sys.argv:
+            # smaller copy: Storm League games only (no Quick Match, ARAM, Unranked, Team or Hero League)
+            pd['games'] = [g for g in pd['games'] if g['type'] == 'sl']
+            out, wrapped = assemble(tpl, subs, pd)
+            (ROOT / 'hots_tools_hunter_sl.html').write_text(wrapped, encoding='utf8')
+            print('Storm League only edition: %d games, hots_tools_hunter_sl.html %.2f MB' % (len(pd['games']), len(wrapped.encode('utf8')) / 1e6))
 
 
 if __name__ == '__main__':
