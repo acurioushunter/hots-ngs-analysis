@@ -1,3 +1,10 @@
+# 2026-10-15 (third round: series plan, review, season weights, timelines)
+- `E.seriesPlan(opp)` and a printable Series plan page (Prep, button; print css hides the rest). `E.reviewDraft(st)` and "How the draft compared" in the final card (wording "would have leaned"; a simulated draft ranks 1 at every slot).
+- Team data window: each season key is weighted `0.5 ** ((newest - season) / 3)` (`old` counts as 18); `wg` and `ww` sit beside integer `g` and `w`, `E.poolScore` reads the weighted pair when present.
+- Drafter league cards (`leagueCard`, hero sheet League games, `leagueMapCard`) use only NGS seasons newest minus 2 to newest and print the seasons and count. The Lab itself is unchanged.
+- Team log rows now carry `tl` (experience lead at 5, 10, 15 minutes from our side, who took the first structure and when, wipes against and for us, merc uptime). Source `lg_timeline` in `knowledge/ngs_league.db`, matched by team pair, map and length. Heroes Profile page lengths run about 24.7 seconds shorter than the export, so the match allows that offset (within 8 seconds). 163 of 165 rows matched. Sign conventions were checked against winners (xp lead positive for team0 77%, wipes0 is wipes suffered by team0). `lostGamesCard` on Prep lists lost games, "first structure" not "first fort" because the export does not say which kind.
+- Not done: personal improvement view (idea 13), artifact not republished. Unrelated stale file `p7.py` sits in the scratchpad, harmless.
+
 # 2026-10-15 (second pass: backtest and ratings)
 - `python -I backtest_terms.py` fits league facts on earlier NGS seasons and scores held out seasons 21 and 22 (1,421 games); output `knowledge/backtest_terms.json`, findings and the ranked list in `IMPROVEMENT_IDEAS_PASS2.md`.
 - Engine: matchup factor 30 to 15 (slope 0.45), heal lens shown but not scored (no signal over 774 games), player hero record read against the player's own rate with a prior of 30, map record only as a gap from the hero record, deaths line by role (`E.ownRate`, `E.deathsLimit`). Build: weak flag role adjusted (`role_rating_means`). League read label states the real seasons.

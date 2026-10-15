@@ -827,6 +827,18 @@
     return out;
   };
 
+  // One lost game from the replay export timeline, said as what happened (no cause). r is a team log row; null tl means no export game matched.
+  const clock = t => Math.floor(t / 60) + ":" + ("0" + Math.round(t % 60)).slice(-2);
+  E.lossLine = function (r) {
+    const tl = r && r.tl;
+    if (!tl) return "no timeline for this game";
+    const bits = [];
+    if (tl.xp10 != null) bits.push((tl.xp10 < 0 ? "behind by " : "ahead by ") + Math.abs(tl.xp10).toLocaleString("en-US") + " experience at 10 minutes");
+    if (tl.struct_ours != null && tl.struct_t != null) bits.push((tl.struct_ours ? "we took" : "they took") + " the first structure at " + clock(tl.struct_t));
+    if (tl.wiped != null) bits.push(tl.wiped + (tl.wiped === 1 ? " wipe" : " wipes") + " against us, " + tl.wiped_them + " for us");
+    return bits.join(", ");
+  };
+
   // One page series plan for an opponent: toss call, map bans and picks, what they ban and open with, our heroes to lock early.
   // Every list carries its sample so the page can print the games behind each line.
   E.seriesPlan = function (opp) {

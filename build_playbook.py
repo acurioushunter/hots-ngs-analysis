@@ -95,6 +95,48 @@ def season_weight(season, newest):
     return 0.5 ** (max(0, newest - season) / HALF_LIFE)
 
 
+def timeline_index():
+    """Season 22 replay export games with their timeline summary, keyed by (team pair, map). Used to attach the timeline to a team's log rows,
+    matched on teams, map and game length (within 8 seconds, after the 24.7 second offset of the pages). Sign convention checked against winners: xp lead is positive for team0,
+    wipes0 is wipes suffered by team0, first_struct_team is the team that took the first structure."""
+    path = KN / "ngs_league.db"
+    out = {}
+    if not path.exists():
+        return out
+    db = sqlite3.connect(path)
+    q = ("SELECT g.team0, g.team1, g.map, g.length_sec, t.xp_lead_5, t.xp_lead_10, t.xp_lead_15, t.first_struct_team, t.first_struct_time, "
+         "t.wipes0, t.wipes1, t.merc_uptime0, t.merc_uptime1 FROM lg_games g JOIN lg_timeline t USING(game_id) WHERE g.season >= 21")
+    for t0, t1, mp, ln, x5, x10, x15, fs, fst, w0, w1, m0, m1 in db.execute(q):
+        out.setdefault((frozenset((t0, t1)), mp), []).append(dict(t0=t0, len=ln or 0, x5=x5, x10=x10, x15=x15, fs=fs, fst=fst, w=(w0, w1), m=(m0, m1)))
+    return out
+
+
+_TL = {}
+
+
+def _tl_index():
+    if "i" not in _TL:
+        _TL["i"] = timeline_index()
+    return _TL["i"]
+
+
+def team_timeline(idx, name, opp, mp, length):
+    """The timeline of one game from `name`'s side, or None when the export has no matching game."""
+    best = None
+    for c in idx.get((frozenset((name, opp)), mp), []):
+        # Heroes Profile pages run about 24.7 seconds shorter than the export (the export counts the pre game countdown); filled in games match exactly
+        d = min(abs(c["len"] - (length or 0)), abs(c["len"] - 24.7 - (length or 0)))
+        if d <= 8 and (best is None or d < best[0]):
+            best = (d, c)
+    if not best:
+        return None
+    c = best[1]; side = 0 if c["t0"] == name else 1; sg = 1 if side == 0 else -1
+    rnd = lambda v: None if v is None else round(v)
+    return dict(xp5=rnd(None if c["x5"] is None else c["x5"] * sg), xp10=rnd(None if c["x10"] is None else c["x10"] * sg), xp15=rnd(None if c["x15"] is None else c["x15"] * sg),
+                struct_ours=None if c["fs"] is None else int(c["fs"] == side), struct_t=rnd(c["fst"]),
+                wiped=c["w"][side], wiped_them=c["w"][1 - side], merc=None if c["m"][side] is None else round(c["m"][side], 2))
+
+
 def league_observed(heroes):
     """Measured facts from every NGS replay in knowledge/ngs_league.db (seasons 15 to 22): per hero crowd control seconds and how often its team
     drew first blood, plus hero against hero records. Returns (per hero dict, head to head {"A|B": [games, A side wins]} with A < B)."""
@@ -515,7 +557,8 @@ def team_profile(name, G, heroes, us_name):
             else:
                 add(t["faced"], hero, won)
         # one row per game from this team's side: the raw material for combos, conditions and "with versus without" records at run time
-        t["log"].append(dict(map=g["map"], date=(g["date_utc"] or "")[:10], won=int(bool(won)), fp=int(g["first_pick_team"] == name), vs=opp,
+        tl = team_timeline(_tl_index(), name, opp, g["map"], g["length_sec"])
+        t["log"].append(dict(map=g["map"], date=(g["date_utc"] or "")[:10], won=int(bool(won)), fp=int(g["first_pick_team"] == name), vs=opp, tl=tl,
                              bans1=[h for tm, s, h in g["bans"] if tm == name and s <= 4], bans2=[h for tm, s, h in g["bans"] if tm == name and s > 4],
                              picks=[h for tm, s, h in g["picks"] if tm == name], opp_picks=[h for tm, s, h in g["picks"] if tm != name],
                              bans=[h for tm, s, h in g["bans"] if tm == name], opp_bans=[h for tm, s, h in g["bans"] if tm != name]))

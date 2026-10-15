@@ -823,6 +823,18 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       ${sp.notes ? `<h4>Notes</h4>${md(sp.notes)}` : ""}</section>`;
   }
 
+  // Lost games with what the replay timeline shows. Describes what happened, not why.
+  function lostGamesCard(team, title) {
+    const t = P.teams[team];
+    if (!t || !t.log) return "";
+    const lost = t.log.filter(r => !r.won).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    if (!lost.length) return "";
+    const withTl = lost.filter(r => r.tl).length;
+    return `<section class="card"><details><summary><h3 style="display:inline">${esc(title)}</h3> <span class="muted small">${lost.length} lost, ${withTl} with a timeline</span></summary>
+      <ul class="r small">${lost.map(r => `<li><b>${esc(r.date)}</b> ${esc(r.map)} v ${esc(r.vs)}: ${esc(E.lossLine(r))}</li>`).join("")}</ul>
+      <p class="small muted">From the replay export timeline. Experience is the team experience gap, a structure is the first fort, keep or tower to fall, a wipe is a whole team dead at once. It says what happened, not why. Games the export does not hold are marked.</p></details></section>`;
+  }
+
   function renderOverview() {
     const o = P.teams[ui.opp], t = E.tossAdvice(ui.opp), mp = E.mapPlan(ui.opp), st = E.newDraft(ui.opp, "first", ui.map);
     const ex = E.expectOppBans(st);
@@ -849,6 +861,7 @@ dialog.sheet::backdrop { background: rgba(10, 8, 20, 0.6); }
       <p class="small">Round two (slot 10 or 11): ${ex.round2.slice(0, 6).map(x => `${heroBtn(x.hero)} ${x.n}${x.vs ? " (" + x.vs + " vs us)" : ""}`).join(", ") || "none"}</p>
       ${lock.length ? `<p class="small"><b>Heroes of ours they ban late, so lock them early:</b></p><ul class="r small">${lock.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</section>
     ${vsUsCard(o)}
+    ${lostGamesCard(P.us.team, "Our lost games")}${lostGamesCard(ui.opp, "Their lost games")}
     ${lastSeasonCard(ui.opp)}
     ${answersCard()}
 ${playersCard(o, players)}
