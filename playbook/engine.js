@@ -441,7 +441,9 @@
       const p = opp.players[tag];
       Object.keys(p.heroes).forEach(h => {
         const r = p.heroes[h];
-        let v = r.g * (0.4 + sm(r.w, r.g)) * Math.max(0.6, Math.min(1.5, 1 + (r.rating - 60) / 40));
+        // square root of games: in the held out backtest (backtest_terms.py) how much the other side had played a banned hero did not predict
+        // wins, so volume should not swamp the list. The Heroes Profile rating is left out because it differs by role.
+        let v = Math.sqrt(r.g) * (0.4 + (r.w + 2) / (r.g + 4));
         if (r.weak) v *= 0.35;
         raw[h] = raw[h] || { v: 0, rows: [] };
         raw[h].v += v;
@@ -473,7 +475,7 @@
       let score = th[h].v;
       const reasons = [], flags = [];
       const rows = th[h].rows.sort((a, b) => b.g - a.g);
-      reasons.push(rows.slice(0, 2).map(r => r.tag + " " + r.w + "-" + (r.g - r.w) + " (rating " + Math.round(r.rating) + ")").join(", "));
+      reasons.push(rows.slice(0, 2).map(r => r.tag + " " + r.w + "-" + (r.g - r.w) + " (rating " + Math.round(r.rating) + ")").join(", ") + ". How much a team relies on a hero did not predict wins league wide, so this order is a lean.");
       if (rows.every(r => r.weak)) { flags.push("LEAVE OPEN"); reasons.push("the player is clearly worse on it than on his other heroes"); }
       const fp = openerSlots.reduce((n, k) => n + ((opp.picks_by_slot[k] && opp.picks_by_slot[k][h]) || 0), 0);
       if (fp) { score += 0.8 * fp / Math.max(opp.games, 1) * 3; reasons.push("a first pick of theirs " + fp + " time(s)"); }
@@ -559,6 +561,11 @@
     const obsWr = wn ? ww / wn : 0.5;
     const edge = (ww - base * wn) / (wn + H2H_PRIOR);   // shrunk toward the hero's own rate
     return { n, w, wr: obsWr, base, edge, rawEdge: obsWr - base, rawWr: n ? w / n : 0.5, eff: wn };
+  };
+  E.matchups = function (hero, minEdge) {
+    const out = [];
+    Object.keys(D().heroes).forEach(x => { if (x === hero) return; const m = E.h2h(hero, x); if (m && m.n >= 40 && Math.abs(m.edge) >= (minEdge || 0.015)) out.push(Object.assign({ hero: x }, m)); });
+    return { better: out.filter(m => m.edge > 0).sort((a, b) => b.edge - a.edge), worse: out.filter(m => m.edge < 0).sort((a, b) => a.edge - b.edge) };
   };
   // takedown pairs from the replay export: how often two heroes on one side took part in the same kill, against what chance predicts
   E.combo = function (a, b) {
@@ -696,11 +703,27 @@
   };
 
   // ---------------------------------------------------------------- what the opponent is likely to do
+  // weight of one logged game for habits: games on this map count double, and a game loses half its weight every 30 days
+  E.habitWeight = function (row, map, newest) {
+    let w = row.map && map && row.map === map ? 2 : 1;
+    if (row.date && newest) w *= Math.pow(0.5, Math.max(0, (Date.parse(newest) - Date.parse(row.date)) / 86400000) / 30);
+    return w;
+  };
+  function habits(opp, map, key) {
+    const log = (opp && opp.log) || [];
+    if (!log.length || !log.some(r => r[key])) return null;
+    const newest = log.reduce((a, r) => (r.date && r.date > a ? r.date : a), "");
+    const out = {};
+    log.forEach(r => { const w = E.habitWeight(r, map, newest); (r[key] || []).forEach(h => { const o = out[h] = out[h] || { w: 0, map: 0 }; o.w += w; if (map && r.map === map) o.map++; }); });
+    return out;
+  }
+  E.habits = habits;
   E.expectOppBans = function (st) {
     const opp = D().teams[st.opp], used = E.used(st);
+    const hb = { "round one": habits(opp, st.map, "bans1"), "round two": habits(opp, st.map, "bans2") };
     const round = (src, label) => Object.keys(src).filter(h => !used.has(h)).map(h => {
-      const vs = (opp.bans_vs_us[h] || 0);
-      return { hero: h, n: src[h], vs, label, score: src[h] + vs * 1.5 };
+      const vs = (opp.bans_vs_us[h] || 0), x = hb[label] && hb[label][h];
+      return { hero: h, n: src[h], vs, label, onMap: x ? x.map : 0, score: (x ? x.w : src[h]) + vs * 1.5 };
     }).sort((a, b) => b.score - a.score);
     return { round1: round(opp.bans_r1, "round one"), round2: round(opp.bans_r2, "round two"), gamesVsUs: opp.bans_games_vs_us, games: opp.games };
   };
@@ -711,7 +734,8 @@
     const bySlot = (slot && opp.picks_by_slot[String(slot.slot)]) || {};
     const all = opp.hero_picks;
     const vsUs = opp.hero_picks_vs_us || {};
-    const list = Object.keys(all).filter(h => !used.has(h)).map(h => ({ hero: h, vsUs: vsUs[h] || null, atSlot: bySlot[h] || 0, g: all[h][0], w: all[h][1], score: (bySlot[h] || 0) * 3 + all[h][0] }))
+    const hp = habits(opp, st.map, "picks");
+    const list = Object.keys(all).filter(h => !used.has(h)).map(h => ({ hero: h, vsUs: vsUs[h] || null, atSlot: bySlot[h] || 0, g: all[h][0], w: all[h][1], onMap: hp && hp[h] ? hp[h].map : 0, score: (bySlot[h] || 0) * 3 + (hp && hp[h] ? hp[h].w : all[h][0]) }))
       .sort((a, b) => b.score - a.score);
     // which of their players is the usual user
     list.forEach(x => {

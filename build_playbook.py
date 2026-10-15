@@ -515,7 +515,8 @@ def team_profile(name, G, heroes, us_name):
             else:
                 add(t["faced"], hero, won)
         # one row per game from this team's side: the raw material for combos, conditions and "with versus without" records at run time
-        t["log"].append(dict(map=g["map"], won=int(bool(won)), fp=int(g["first_pick_team"] == name), vs=opp,
+        t["log"].append(dict(map=g["map"], date=(g["date_utc"] or "")[:10], won=int(bool(won)), fp=int(g["first_pick_team"] == name), vs=opp,
+                             bans1=[h for tm, s, h in g["bans"] if tm == name and s <= 4], bans2=[h for tm, s, h in g["bans"] if tm == name and s > 4],
                              picks=[h for tm, s, h in g["picks"] if tm == name], opp_picks=[h for tm, s, h in g["picks"] if tm != name],
                              bans=[h for tm, s, h in g["bans"] if tm == name], opp_bans=[h for tm, s, h in g["bans"] if tm != name]))
         opp_healers = [h for tm, s, h in g["picks"] if tm != name and heroes.get(h, {}).get("role") == "Healer"]
@@ -1021,7 +1022,8 @@ def main():
         meta=dict(built=datetime.date.today().isoformat(), games=len(G), season=cfg["season"], division=cfg["division"], newest_game=max(g["replay_id"] for g in G.values() if g["replay_id"] < 9_000_000), filled_from_export=sum(1 for g in G.values() if g["replay_id"] >= 9_000_000),
                   newest_date=max(g["date_utc"] for g in G.values())[:10], next_opponent=cfg.get("next_opponent")),
         us=our_team(cfg, G, heroes), heroes=heroes, maps=maps, teams=teams, map_stats=map_stats(G, heroes), map_bans=map_ban_habits(db),
-        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, lens_catalog={k: dict(family=v.get('family'), question=v['question'], kind=v['kind'], values=v['values'], draft_use=v.get('draft_use', '')) for k, v in json.load(open(KN / 'expert' / 'lenses.json', encoding='utf-8'))['lenses'].items()}, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'])
+        our_map_hero={m: dict(v) for m, v in our_map_hero.items()}, rules=rules, h2h=h2h, combos=combos, comps=comps, lens_catalog={k: dict(family=v.get('family'), question=v['question'], kind=v['kind'], values=v['values'], draft_use=v.get('draft_use', '')) for k, v in json.load(open(KN / 'expert' / 'lenses.json', encoding='utf-8'))['lenses'].items()}, owner_combos=json.load(open(KN / 'expert' / 'owner_combos.json', encoding='utf-8'))['combos'],
+        backtest=({k: v["slope"] for k, v in json.load(open(KN / "backtest_terms.json", encoding="utf-8"))["terms"].items()} | {"test_games": json.load(open(KN / "backtest_terms.json", encoding="utf-8"))["test_games"]}) if (KN / "backtest_terms.json").exists() else None)
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
     for r in rules["rules"]:

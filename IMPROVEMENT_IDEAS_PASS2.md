@@ -19,6 +19,9 @@ League facts (matchups, ranged gap, heal lens, lens signal, map delta, hero rate
 | Heal lens | minus 0.2 | minus 0.7 to 0.3 | 774 | No signal |
 | Ban threat (opponent games on banned heroes) | about 0 | about 0 | 1,409 | No signal |
 
+## Status (2026-10-15, later the same day)
+Also done: **7** ban threat counts games by their square root, drops the role biased rating and says the order is a lean; **8** the lens read shows "expect about N points" using the held out slope (`data.backtest`, read from `knowledge/backtest_terms.json`); **9** expected opponent picks and bans weight games on this map double and halve a game's weight every 30 days (log rows now carry `date`, `bans1`, `bans2`), chips say how many were on this map; **16 (part)** the hero sheet Matchups tab and "What their picks mean" show the measured matchups the score uses (`E.matchups`). Still open: 10 to 15, the rest of 16.
+
 ## Ranked list
 S is an hour or two, M is half a day, L is a day or more. Risk means the risk of making a number look more certain than it is.
 
