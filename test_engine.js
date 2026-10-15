@@ -173,6 +173,30 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   const hi = E.heroIntel(PLAYBOOK.teams[CCS], "Sylvanas", [], null);
   const ccAt = hi.numbers.findIndex(x => /seconds of stun/.test(x)), slAt = hi.numbers.findIndex(x => /^Heroes Profile Storm League/.test(x));
   check("crowd control line comes after win rate lines", ccAt < 0 || (slAt >= 0 && ccAt > slAt) || ccAt === hi.numbers.length - 1, JSON.stringify(hi.numbers));
+  const sp = E.seriesPlan(CCS);
+  check("series plan has toss, maps, bans, openers and lock list with samples", sp.toss && sp.toss.pick && sp.maps.bans.length >= 1 && sp.maps.bans.every(m => Array.isArray(m.us) && Array.isArray(m.them)) && sp.oppBans.length >= 1 && sp.oppBans.length <= 5 && sp.oppOpen.length === 2 && sp.oppOpen.every(o => o.list.length <= 5 && o.list.every(x => x.g >= 1)) && Array.isArray(sp.lock) && sp.games > 0, JSON.stringify(Object.keys(sp)));
+  check("series plan carries the CCS notes only for CCS", sp.notes.length > 0 && E.seriesPlan(Object.keys(PLAYBOOK.teams).find(t => t !== CCS && t !== PLAYBOOK.us.team)).notes === "", "");
+  const simd = E.simulate(E.newDraft(CCS, "first", "Sky Temple")), rvw = E.reviewDraft(simd);
+  check("review of a simulated draft: every one of our slots ranks 1", rvw.length === 8 && rvw.every(r => r.rank === 1 && r.top3[0] === r.took && r.top3.length <= 3), JSON.stringify(rvw.map(r => [r.slot, r.took, r.rank])));
+  const alt = E.clone(simd); alt.actions[4].hero = E.recommendPicks(E.newDraft(CCS, "first", "Sky Temple")).slice(-1)[0].hero;
+  check("review ranks a weak choice below 1", E.reviewDraft(alt).find(r => r.slot === 5).rank > 1, "");
+  { // season weights: the same record from an old season carries less evidence than from this season
+    const base = PLAYBOOK.us.players[0], hero = Object.keys(base.pool)[0];
+    const mk = (g, w, wg, ww) => Object.assign({}, base, { ngs: { [hero]: { g, w, wg, ww, deaths: 0 } }, sl: null });
+    const own = E.ownRate(mk(10, 8, 10, 8));
+    const now = E.poolScore(mk(10, 8, 10, 8), hero, null).s, old = E.poolScore(mk(10, 8, 10 * 0.5 ** (6 / 3), 8 * 0.5 ** (6 / 3)), hero, null).s;
+    const none = E.poolScore(mk(10, 8, undefined, undefined), hero, null).s;
+    check("an old season record carries less evidence than the same record this season", Math.abs(now - none) < 1e-9 && (own < 0.8 ? old < now : old > now), now + " " + old + " " + none);
+  }
+  { // timelines attached to team log rows
+    const logs = Object.values(PLAYBOOK.teams).reduce((a, t) => a.concat(t.log), []), withTl = logs.filter(r => r.tl);
+    check("most team log rows carry a replay timeline", withTl.length / logs.length > 0.9, withTl.length + " of " + logs.length);
+    const xp = withTl.filter(r => r.tl.xp10 != null && r.tl.xp10 !== 0);
+    const agree = xp.filter(r => (r.tl.xp10 > 0) === !!r.won).length / xp.length;
+    check("experience lead at 10 minutes points the right way for the team (sign check, 65% or more)", agree > 0.65, agree);
+    const lost = withTl.find(r => !r.won);
+    check("loss line says what happened and has no dashes", /experience at 10 minutes/.test(E.lossLine(lost)) && !/[–—]| - /.test(E.lossLine(lost)) && E.lossLine({}) === "no timeline for this game", E.lossLine(lost));
+  }
 }
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);
