@@ -152,6 +152,55 @@
 
   function lateBanSlot(st) { return st.side === "second" ? 11 : 10; } // when the opponent makes its round two ban
 
+  // ---------------------------------------------------------------- damage first (rules of kind damage_first)
+  // How often this opponent's bans against us hit our damage players' heroes (primary or secondary pool), from their game log.
+  E.squeeze = function (st, tags) {
+    const d = D(), opp = d.teams[st.opp];
+    if (!opp || !opp.log) return null;
+    const players = d.us.players.filter(p => tags.indexOf(p.tag) >= 0);
+    const ours = h => players.some(p => p.pool[h] === "primary" || p.pool[h] === "secondary");
+    const rows = opp.log.filter(r => r.vs === d.us.team);
+    const out = { games: rows.length, bans: 0, hit: 0, r2: 0, r2hit: 0 };
+    rows.forEach(r => {
+      (r.bans || []).forEach(h => { out.bans++; if (ours(h)) out.hit++; });
+      (r.bans2 || []).forEach(h => { out.r2++; if (ours(h)) out.r2hit++; });
+    });
+    return out;
+  };
+
+  // The pair plan for our two damage players: the first pair in the rule whose heroes are all open or already ours,
+  // preferring pairs that hold the damage heroes we already picked. 'now' heroes go before their round two ban, 'later' ones can wait.
+  E.damagePlan = function (st) {
+    const rule = E.rulesFor(st).find(r => r.kind === "damage_first");
+    if (!rule) return null;
+    const d = D(), used = E.used(st), mine = E.picks(st, "us"), slot = E.nextSlot(st), lateSlot = lateBanSlot(st);
+    const status = h => (mine.indexOf(h) >= 0 ? "ours" : used.has(h) ? "gone" : "open");
+    const inPairs = new Set();
+    rule.pairs.forEach(pr => rule.players.forEach(t => inPairs.add(pr[t])));
+    const ourDamage = mine.filter(h => inPairs.has(h));
+    const rows = rule.pairs.map((pr, i) => ({ i, pr, live: rule.players.every(t => status(pr[t]) !== "gone"), have: rule.players.filter(t => ourDamage.indexOf(pr[t]) >= 0).length }));
+    const live = rows.filter(r => r.live);
+    if (!live.length) return { rule, pair: null, players: [], now: [], later: [], done: false, alt: null, lateSlot, beforeBan: false, squeeze: E.squeeze(st, rule.players) };
+    const most = Math.max.apply(null, live.map(r => r.have));
+    const pick = live.find(r => r.have === most);
+    const next = live.find(r => r.i > pick.i && r.have >= most);
+    const label = t => (d.us.players.find(p => p.tag === t) || { label: t }).label;
+    const describe = r => ({ note: r.pr.note || "", players: rule.players.map(t => ({ tag: t, label: label(t), hero: r.pr[t], status: status(r.pr[t]), later: (r.pr.later || []).indexOf(r.pr[t]) >= 0 })) });
+    const ourSlotsBefore = E.plan(st.side).filter(x => x.team === "us" && x.type === "pick" && x.slot < lateSlot);
+    const main = describe(pick);
+    return {
+      rule, pair: pick.pr, note: main.note, players: main.players,
+      now: (pick.pr.order || []).filter(h => status(h) === "open"),
+      later: (pick.pr.later || []).filter(h => status(h) === "open"),
+      done: main.players.every(p => p.status === "ours"),
+      alt: next && next.pr.option ? describe(next) : null,
+      lateSlot, lockBy: ourSlotsBefore.length ? ourSlotsBefore[ourSlotsBefore.length - 1].slot : null,
+      beforeBan: !!slot && slot.slot < lateSlot,
+      squeeze: E.squeeze(st, rule.players)
+    };
+  };
+  E.damageWho = function (dp, h) { const p = dp && dp.players.find(x => x.hero === h); return p ? p.label : ""; };
+
   // What the whole league did (data.comps, every NGS side seasons 15 to 22): ranged count win rates on a map and overall.
   // Returns null without data. gap is the win rate of 3 or more ranged minus 2 or fewer; real only when each side has 100 or more games.
   // Weighted by season (newer counts more) with the raw newest window beside it. A cell is [games, wins, weighted games, weighted wins, recent games, recent wins].
@@ -316,6 +365,7 @@
     const remaining = E.remainingPicks(st, "us");
     const base = E.bestAssign(mine, map).total;
     const lateSlot = lateBanSlot(st);
+    const dp = E.damagePlan(st);
     const oppGames = Math.max(opp ? opp.games : 1, 1);
     const marksmenNeed = rules.filter(r => r.kind === "min_marksmen").reduce((a, r) => Math.max(a, r.n), 0);
     const rt = rules.filter(r => r.kind === "ranged_target");
@@ -382,6 +432,13 @@
       rules.forEach(r => {
         if (r.kind === "pick_bonus" && r.heroes[h]) { score += r.heroes[h]; reasons.push(r.why); }
       });
+      // damage first: the pair plan for our two damage players is locked before their round two ban
+      if (dp && dp.beforeBan && dp.now.indexOf(h) >= 0) {
+        score += (w.damage_first || 3) + (dp.now[0] === h ? 0.3 : 0);
+        flags.push("DAMAGE FIRST: " + E.damageWho(dp, h) + ", lock by slot " + dp.lockBy);
+        const sq = dp.squeeze;
+        reasons.push("damage first plan: " + E.damageWho(dp, h) + " on " + h + " before their round two ban (slot " + lateSlot + ")" + (sq && sq.r2 ? "; that ban hit our damage players' heroes in " + sq.r2hit + " of " + sq.r2 + " games against us" : ""));
+      }
       // lock early: will the opponent ban it before we could pick it later?
       if (opp && slot && slot.slot < lateSlot) {
         const vs = opp.bans_games_vs_us ? ((opp.bans_r2_vs_us && opp.bans_r2_vs_us[h]) || 0) / opp.bans_games_vs_us : 0;
@@ -425,8 +482,14 @@
       out.push({ hero: h, score, fit, rest: score - fit, who: whoCan(h, map), reasons, flags, assign: withH.assign, intel: E.heroIntel(d.teams[d.us.team], h, mine, map) });
     });
     out.sort((a, b) => b.score - a.score);
+    // the damage first rule puts its next hero first: the score alone can rank it lower when the pool tags hand the pair's heroes to other players
+    if (dp && dp.beforeBan && dp.now.length) {
+      const i = out.findIndex(o => o.hero === dp.now[0]);
+      if (i > 0) { const o = out.splice(i, 1)[0]; o.forced = true; o.reasons.push("put first by the damage first plan (" + E.damageWho(dp, o.hero) + "); on score alone it ranks " + (i + 1)); out.unshift(o); }
+    }
     // options within a point of the leader are a coin flip: pick by comfort (most of a score is the pool tag; measured terms move about 1 point)
-    out.forEach((o, i) => { o.close = i === 0 ? (out.length > 1 && out[0].score - out[1].score < 1.0) : out[0].score - o.score < 1.0; });
+    const rest = out.filter(o => !o.forced);   // a hero put first by the damage first rule is not a close call
+    out.forEach(o => { o.close = o.forced ? false : o === rest[0] ? (rest.length > 1 && rest[0].score - rest[1].score < 1.0) : rest[0].score - o.score < 1.0; });
     return out;
   };
 
@@ -958,10 +1021,14 @@
 
   // The night view: one object the Night tab prints. Every line carries its games; a line with too little behind it says so instead of guessing.
   E.nightView = function (st) {
-    const slot = E.nextSlot(st), j = E.jobs(st), open = E.stillOpen(st, 4);
+    const slot = E.nextSlot(st), j = E.jobs(st), open = E.stillOpen(st, 4), dp = E.damagePlan(st);
     let now = null;
     if (slot && slot.team === "us") {
-      if (slot.type === "ban") {
+      if (slot.type === "pick" && dp && dp.beforeBan && dp.now.length) {
+        // damage first: the next hero of the pair plan, before their round two ban takes it
+        const h = dp.now[0];
+        now = { kind: "pick", hero: h, who: E.damageWho(dp, h) + " (damage pair)", fills: j.jobs.filter(x => !x.ok && x.pred(h)).map(x => x.label), damage: true, note: dp.note, lowComfort: false, flags: [] };
+      } else if (slot.type === "ban") {
         const bans = E.recommendBans(st).filter(x => (x.flags || []).every(f => !/DO NOT|LEAVE|LOW VALUE/.test(f)));
         const top = bans[0];
         const row = top && open.find(o => o.hero === top.hero);
@@ -975,7 +1042,7 @@
         now = top ? { kind: "pick", hero: top.hero, who: top.who && top.who[0] ? top.who[0].label + " " + top.who[0].tier : "", fills: openJobs.filter(x => x.pred(top.hero)).map(x => x.label), score: top.score, close: top.close, lowComfort: comfy(top) < 2, flags: top.flags || [] } : null;
       }
     }
-    return { slot, jobs: j, open, now, picks: E.picks(st, "us"), theirs: E.picks(st, "opp") };
+    return { slot, jobs: j, open, now, damage: dp, picks: E.picks(st, "us"), theirs: E.picks(st, "opp") };
   };
 
   // ---------------------------------------------------------------- player review (how each of us can improve, from this season's games)

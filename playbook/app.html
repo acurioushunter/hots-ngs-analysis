@@ -919,6 +919,19 @@ ${playersCard(o, players)}
     const them = v.open.length
       ? v.open.map(o => `${heroBtn(o.hero)} <span class="muted">(${esc(o.tag)} ${recTxt(o.g, o.w)})</span>`).join(", ")
       : '<span class="muted">No hero of theirs has 3 or more games and a good record. Do not ban on a hunch.</span>';
+    const dp = v.damage;
+    let dmgLine = "";
+    if (dp && dp.players.length) {
+      const tagOf = (p, before) => p.status === "ours" ? '<span class="tag good">locked</span>' : p.later ? '<span class="tag">can wait</span>' : before ? '<span class="tag warn">lock now</span>' : '<span class="tag warn">pick next</span>';
+      const pairTxt = (ps, before) => ps.map(p => `${esc(p.label)} ${heroBtn(p.hero)} ${tagOf(p, before)}`).join(" + ");
+      const sq = dp.squeeze, names = dp.players.map(p => p.label).join(" and ");
+      const sqTxt = sq && sq.r2 ? `Their bans against us: ${sq.hit} of ${sq.bans} hit ${esc(names)}'s heroes, and their round two ban did in ${sq.r2hit} of ${sq.r2} games.` : "";
+      dmgLine = `<div class="nline ${dp.done ? "good" : "us"}"><div class="k">${dp.done ? "Damage pair: both locked" : `Damage pair: lock before their round two ban (slot ${dp.lateSlot}), so by our slot ${dp.lockBy}`}</div>
+        <div class="big">${pairTxt(dp.players, dp.beforeBan)}</div>
+        <div class="sub">${dp.done ? "" : esc(dp.note)}${dp.alt && !dp.done ? `<br>Or: ${pairTxt(dp.alt.players, dp.beforeBan)}. ${esc(dp.alt.note)}` : ""}${sqTxt ? (dp.done ? "" : "<br>") + sqTxt : ""}</div></div>`;
+    } else if (dp) {
+      dmgLine = `<div class="nline us"><div class="k">Damage pair</div><div class="big">No pair in the plan is still open.</div><div class="sub">Each of you takes your own best open hero. Shared heroes go to whoever has less of their own left.</div></div>`;
+    }
     const clearJob = jobs[0];
     const mapNote = clearJob.map === "high" ? `Icy Veins lists ${esc(st.map)} as a high wave clear map, so the target is ${clearJob.need}.` : "";
     const gapTxt = left.length
@@ -935,7 +948,7 @@ ${playersCard(o, players)}
       const n = v.now;
       now = `<div class="donow"><div class="row" style="justify-content:space-between"><span class="small muted">SLOT ${slot.slot}: OUR ${slot.type.toUpperCase()}</span><span class="clock" id="clock">30s</span></div>
         <div class="hero">${esc(n.hero)}</div>
-        <p style="font-size:1.05rem">${n.kind === "ban" ? esc(n.why) + (n.thin ? " (thin)" : "") : `${esc(n.who)}${n.fills.length ? ". Fills: " + esc(n.fills.join(", ")) : ". Fills no open job"}${n.close ? ". Close call: pick by comfort." : ""}${n.lowComfort ? " Low comfort, check someone can play it." : ""}`}</p>
+        <p style="font-size:1.05rem">${n.kind === "ban" ? esc(n.why) + (n.thin ? " (thin)" : "") : n.damage ? `${esc(n.who)}. Damage first: lock it before their round two ban.` : `${esc(n.who)}${n.fills.length ? ". Fills: " + esc(n.fills.join(", ")) : ". Fills no open job"}${n.close ? ". Close call: pick by comfort." : ""}${n.lowComfort ? " Low comfort, check someone can play it." : ""}`}</p>
         <div class="row"><button class="btn primary" data-take="${esc(n.hero)}">${n.kind === "ban" ? "We ban it" : "We pick it"}</button><button class="btn" data-act="clock">Start 30s</button></div></div>`;
     }
     let chips = "";
@@ -956,6 +969,7 @@ ${playersCard(o, players)}
       <section class="card ${ours ? "us" : "them"}" style="display:grid;gap:12px">
         ${now}
         <div class="nline them"><div class="k">Them: still open and dangerous</div><div class="big">${them}</div><div class="sub">Only players with 3 or more games on the hero are listed. Heroes the player is rated clearly lower on are left out.</div></div>
+        ${dmgLine}
         <div class="nline ${left.length ? "us" : "good"}"><div class="k">Us: what the comp is missing</div><div class="big">${gapTxt}</div><div class="sub">${mapNote} ${tight}</div></div>
         ${fills}
         <div class="jobgrid">${jobCards}</div>

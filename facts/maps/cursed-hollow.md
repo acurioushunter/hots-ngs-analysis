@@ -1,6 +1,6 @@
 # Cursed Hollow: map fact sheet
 
-Built 2026-10-15. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/cursed-hollow.md` for written lessons.
+Built 2026-10-26. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/cursed-hollow.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Effects relying on impassable terrain, Global presence, Point control for Boss Camp, Poke tools for Objective, Split-push, Vision tools
 
@@ -20,7 +20,7 @@ Built 2026-10-15. Icy Veins draft advice and tier lists, plus 3 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Sylvanas 1-0 | Hanzo 19-24, Falstad 3-1, Sylvanas 2-2, Garrosh 0-3, Junkrat 2-1 |
+| hunterstag | Sylvanas 1-0 | Hanzo 18-21, Falstad 3-1, Sylvanas 2-2, Garrosh 0-3, Junkrat 2-1 |
 | chelsi | Tychus 1-0 | n/a |
 | SoulShepherd | Blaze 1-0 | n/a |
 | NorthrnTouch | Muradin 1-0 | n/a |

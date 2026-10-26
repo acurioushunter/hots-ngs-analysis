@@ -1,6 +1,6 @@
 # Towers of Doom: map fact sheet
 
-Built 2026-10-15. Icy Veins draft advice and tier lists, plus 9 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
+Built 2026-10-26. Icy Veins draft advice and tier lists, plus 9 Season 22 games. Edit `playbook/notes/maps/towers-of-doom.md` for written lessons.
 
 **Icy Veins prefers:** Heroes for clearing Mercenary Camps, Gankers, Global presence, Offlaner who can double soak, Poke tools for Objective, Strong late game
 
@@ -22,7 +22,7 @@ Built 2026-10-15. Icy Veins draft advice and tier lists, plus 9 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Falstad 0-1 | Hanzo 11-6, Sylvanas 5-6, Medivh 2-6, Junkrat 3-4, Chromie 3-0 |
+| hunterstag | Falstad 0-1 | Hanzo 11-6, Sylvanas 4-6, Medivh 2-6, Junkrat 3-4, Chromie 3-0 |
 | chelsi | Gul'dan 0-1 | n/a |
 | SoulShepherd | Blaze 0-1 | n/a |
 | NorthrnTouch | Johanna 0-1 | n/a |

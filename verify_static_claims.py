@@ -73,6 +73,47 @@ claim("Nae on Anub'arak (games, wins)", player(COS, "Nae", "Anub'arak"), [7, 6])
 claim("Imbuement on Greymane (games, wins)", player(COS, "Imbuement", "Greymane"), [6, 6])
 claim("Cosmos with Johanna (games, wins)", [sum(v[0] for k, v in pl.items() if k[0] == COS and k[2] == "Johanna"), sum(v[1] for k, v in pl.items() if k[0] == COS and k[2] == "Johanna")], [4, 4])
 
+# Damage first (CCS note, rules ccs-lockearly and ccs-damage-pair, CCS_DRAFT_PLAN.md)
+import json
+cfg = json.loads((DB.parent.parent / "playbook" / "config" / "our_team.json").read_text(encoding="utf-8"))
+duo = {h for p in cfg["players"] if p["tag"] in ("hunterstag", "chelsi") for h, t in p["pool"].items() if t in ("primary", "secondary")}
+slot_bans = collections.defaultdict(list)
+for rid, t, s, h in c.execute("SELECT replay_id, team, slot, hero FROM ngs_hero_ban"):
+    slot_bans[(rid, t)].append((s, h))
+claim("CCS bans against us that hit Hunter's or chelsi's heroes (bans, hits)", [sum(len(slot_bans[(g[0], CCS)]) for g in vs), sum(1 for g in vs for s, h in slot_bans[(g[0], CCS)] if h in duo)], [18, 15])
+claim("CCS round two ban against us on Thrall or Tychus (games, hits)", [len(vs), sum(1 for g in vs if any(s >= 10 and h in ("Thrall", "Tychus") for s, h in slot_bans[(g[0], CCS)]))], [6, 6])
+ch = {rid: h for rid, t, tag, h in c.execute("SELECT replay_id, team, battletag, hero FROM ngs_player_game WHERE battletag='chelsi'")}
+claim("chelsi against CCS on Tychus or Thrall (games, wins)", rec([int(g[3] == PRA) for g in vs if ch.get(g[0]) in ("Tychus", "Thrall")]), [3, 2])
+claim("chelsi against CCS on anything else (games, wins)", rec([int(g[3] == PRA) for g in vs if ch.get(g[0]) not in ("Tychus", "Thrall")]), [3, 0])
+hu = {rid: h for rid, t, tag, h in c.execute("SELECT replay_id, team, battletag, hero FROM ngs_player_game WHERE battletag='hunterstag'")}
+pra = mine(PRA)
+both = [int(g[3] == PRA) for g in pra if hu.get(g[0]) in ("Sylvanas", "Junkrat") and ch.get(g[0]) in ("Tychus", "Thrall")]
+neither = [int(g[3] == PRA) for g in pra if hu.get(g[0]) not in ("Sylvanas", "Junkrat") and ch.get(g[0]) not in ("Tychus", "Thrall")]
+claim("PRA with Hunter and chelsi both on their best heroes (games, wins)", rec(both), [11, 9])
+claim("PRA with neither on their best heroes (games, wins)", rec(neither), [5, 1])
+claim("CCS on Tychus (games, wins)", [sum(v[0] for k, v in pl.items() if k[0] == CCS and k[2] == "Tychus"), sum(v[1] for k, v in pl.items() if k[0] == CCS and k[2] == "Tychus")], [5, 5])
+claim("CCS on Orphea or Thrall (games)", [sum(v[0] for k, v in pl.items() if k[0] == CCS and k[2] in ("Orphea", "Thrall"))], [0])
+order = collections.defaultdict(list)
+for rid, series, gno, win, fp, mp in c.execute("SELECT replay_id, series, game, winner, first_pick_team, map_pick_team FROM ngs_game WHERE (team0=? OR team1=?) AND map_pick_team IS NOT NULL ORDER BY series, game", (CCS, CCS)):
+    order[series].append((rid, gno, win, fp, mp))
+ccs_after, opp_after, nxt = [], [], [0, 0]
+for gs in order.values():
+    for a, b in zip(gs, gs[1:]):
+        if a[2] == CCS:
+            opp_after.append(int(b[4] != b[3] and b[3] == CCS))   # the loser took the map, so CCS had first pick
+            continue
+        ccs_after.append(int(b[3] == CCS))
+        beat = picks[a[0]][[t for t in picks[a[0]] if t != CCS][0]]
+        nb = bans[b[0]][CCS]
+        nxt[0] += len(nb)
+        nxt[1] += sum(1 for h in nb if h in beat)
+claim("CCS after a loss took first pick (games, times)", rec(ccs_after), [5, 4])
+claim("teams that lost to CCS then took the map (games, times)", rec(opp_after), [7, 6])
+claim("CCS next game bans from the comp that beat them (bans, hits)", nxt, [15, 9])
+mb = collections.Counter(m for s, r, t, n, m in c.execute("SELECT * FROM ngs_map_ban") if t == CCS)
+claim("CCS map bans on Braxis Holdout (series with a CCS ban, Braxis)", [len({s for s, r, t, n, m in c.execute("SELECT * FROM ngs_map_ban") if t == CCS}), mb["Braxis Holdout"]], [8, 6])
+claim("CCS on Towers of Doom (games, wins)", rec([int(g[3] == CCS) for g in mine(CCS) if c.execute("SELECT map FROM ngs_game WHERE replay_id=?", (g[0],)).fetchone()[0] == "Towers of Doom"]), [6, 5])
+
 bad = 0
 for label, got, want in CLAIMS:
     ok = got == want

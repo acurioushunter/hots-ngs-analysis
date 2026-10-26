@@ -1,6 +1,6 @@
 # Alterac Pass: map fact sheet
 
-Built 2026-10-15. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/alterac-pass.md` for written lessons.
+Built 2026-10-26. Icy Veins draft advice and tier lists, plus 3 Season 22 games. Edit `playbook/notes/maps/alterac-pass.md` for written lessons.
 
 **Icy Veins prefers:** Anchor, Heroes for clearing Mercenary Camps, Global presence, Point control for Boss Camp, Poke tools for Objective, Self-sustain, Split-push, Tools for solo-capturing the Objective
 

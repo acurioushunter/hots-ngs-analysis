@@ -1,6 +1,6 @@
 # Braxis Holdout: map fact sheet
 
-Built 2026-10-15. Icy Veins draft advice and tier lists, plus 5 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
+Built 2026-10-26. Icy Veins draft advice and tier lists, plus 5 Season 22 games. Edit `playbook/notes/maps/braxis-holdout.md` for written lessons.
 
 **Icy Veins prefers:** Gankers, Global presence, Point control for Boss Camp, Point control for Objective, Quests to stack on Heroes, Strong early game, Sustain damage/healing, Moderate waveclear
 
@@ -21,7 +21,7 @@ Built 2026-10-15. Icy Veins draft advice and tier lists, plus 5 Season 22 games.
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Sylvanas 0-1 | Junkrat 7-8, Sylvanas 6-2, Deathwing 2-2, Tassadar 1-2 |
+| hunterstag | Sylvanas 0-1 | Junkrat 7-6, Sylvanas 6-2, Deathwing 2-2, Tassadar 1-2 |
 | chelsi | Chromie 0-1 | n/a |
 | SoulShepherd | Rexxar 0-1 | n/a |
 | NorthrnTouch | E.T.C. 0-1 | n/a |

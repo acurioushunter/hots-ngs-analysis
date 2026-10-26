@@ -218,5 +218,38 @@ check("expected CCS round two bans lead with Thrall", ex.round2[0].hero === "Thr
   check("player review names only heroes with 4 or more games as strengths or costs", pr.best.concat(pr.costing).every(r => r.g >= 4), JSON.stringify(pr.best.concat(pr.costing).map(r => r.hero + r.g)));
 }
 
+{ // damage first against CCS (rules ccs-damage-pair): both damage players locked before their round two ban
+  const play = (side, map, moves) => { const s = E.newDraft(CCS, side, map); moves.forEach(h => E.apply(s, h)); return s; };
+  const sq = E.squeeze(E.newDraft(CCS, "first", null), ["hunterstag", "chelsi"]);
+  check("squeeze: their round two ban hit our damage players' heroes in every game against us", sq && sq.games >= 6 && sq.r2 === sq.games && sq.r2hit === sq.r2 && sq.hit / sq.bans >= 0.75, JSON.stringify(sq));
+  let s = play("first", "Sky Temple", ["Johanna", "Junkrat", "Lunara", "Chromie"]);
+  let dp = E.damagePlan(s);
+  check("first pick: the pair is Hunter Sylvanas and chelsi Tychus, both to lock by slot 9", dp.players.map(p => p.label + " " + p.hero).join(",") === "Hunter Sylvanas,chelsi Tychus" && dp.now.join() === "Sylvanas,Tychus" && dp.lockBy === 9, JSON.stringify(dp.players));
+  check("first pick slot 5: Night board says Sylvanas", E.nightView(s).now.hero === "Sylvanas", JSON.stringify(E.nightView(s).now));
+  E.apply(s, "Sylvanas"); E.apply(s, "Qhira"); E.apply(s, "Gazlowe");
+  let nv = E.nightView(s), rp = E.recommendPicks(s);
+  check("first pick slot 8: Night board and pick list both say Tychus for chelsi, flagged damage first", nv.now.hero === "Tychus" && nv.now.damage && rp[0].hero === "Tychus" && rp[0].flags.some(f => f.startsWith("DAMAGE FIRST: chelsi")), nv.now.hero + " " + rp[0].hero + " " + JSON.stringify(rp[0].flags));
+  E.apply(s, "Tychus");
+  nv = E.nightView(s);
+  check("first pick slot 9: pair done, the Night board moves on to the healer", nv.damage.done && nv.now.hero === "Brightwing", JSON.stringify(nv.now));
+  s = play("second", "Dragon Shire", ["Junkrat", "Johanna", "Chromie", "Lunara", "Sylvanas"]);
+  dp = E.damagePlan(s);
+  check("second pick, they took Sylvanas: Hunter Tychus and chelsi Thrall now, Orphea plus Tychus offered as the option", dp.players.map(p => p.label + " " + p.hero).join(",") === "Hunter Tychus,chelsi Thrall" && dp.now.join() === "Tychus,Thrall" && dp.alt && dp.alt.players.some(p => p.hero === "Orphea" && p.later), JSON.stringify([dp.players, dp.alt]));
+  E.apply(s, "Tychus");
+  rp = E.recommendPicks(s);
+  check("second pick slot 7: Thrall is put first even though the pool tags score it lower, and it is not a close call", rp[0].hero === "Thrall" && rp[0].forced && !rp[0].close && rp[0].reasons.some(r => /damage first plan/.test(r)), JSON.stringify(rp.slice(0, 3).map(r => [r.hero, r.score.toFixed(1), r.forced])));
+  s = play("first", null, ["Johanna", "Thrall", "Lunara", "Tychus"]);
+  dp = E.damagePlan(s);
+  check("round one on chelsi's heroes: Junkrat opens for Hunter and chelsi takes Sylvanas", dp.players.map(p => p.label + " " + p.hero).join(",") === "Hunter Junkrat,chelsi Sylvanas" && dp.now.join() === "Junkrat,Sylvanas", JSON.stringify(dp.players));
+  s = play("first", null, ["Johanna", "Junkrat", "Lunara", "Chromie", "Brightwing", "Sylvanas", "Tychus"]);
+  dp = E.damagePlan(s);
+  check("they took Sylvanas and Tychus: Thrall for chelsi now, Orphea for Hunter can wait", dp.players.map(p => p.label + " " + p.hero).join(",") === "Hunter Orphea,chelsi Thrall" && dp.now.join() === "Thrall" && dp.later.join() === "Orphea" && E.nightView(s).now.hero === "Thrall", JSON.stringify([dp.players, E.nightView(s).now]));
+  s = play("first", null, ["Johanna", "Thrall", "Lunara", "Tychus", "Junkrat"]);
+  check("we picked Junkrat at 5 with Thrall and Tychus banned: the pair keeps Junkrat and gives chelsi Sylvanas", E.damagePlan(s).players.map(p => p.hero).join() === "Junkrat,Sylvanas", JSON.stringify(E.damagePlan(s).players));
+  s = play("first", null, ["Johanna", "Junkrat", "Lunara", "Chromie", "Sylvanas", "Qhira", "Gazlowe", "Tychus", "Brightwing", "Thrall"]);
+  check("after their round two ban nothing is forced", !E.damagePlan(s).beforeBan && !E.recommendPicks(s).some(r => r.forced), "");
+  check("no damage pair against other opponents", E.damagePlan(E.newDraft("COSMOS", "first", null)) === null, "");
+}
+
 console.log(fails ? "\n" + fails + " FAILED" : "\nALL OK");
 process.exit(fails ? 1 : 0);

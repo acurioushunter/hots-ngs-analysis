@@ -1069,10 +1069,18 @@ def main():
         backtest=({k: v["slope"] for k, v in json.load(open(KN / "backtest_terms.json", encoding="utf-8"))["terms"].items()} | {"test_games": json.load(open(KN / "backtest_terms.json", encoding="utf-8"))["test_games"]}) if (KN / "backtest_terms.json").exists() else None)
     data["league"] = build_league(cfg, data["us"], heroes)
     # sanity: every hero named in rules must exist
+    tags = {p["tag"] for p in cfg["players"]}
     for r in rules["rules"]:
         for h in list(r.get("heroes", {})):
             if h not in heroes:
                 raise SystemExit(f"rules.json rule {r['id']}: unknown hero {h!r}")
+        for t in r.get("players", []):
+            if t not in tags:
+                raise SystemExit(f"rules.json rule {r['id']}: unknown player {t!r}")
+        for pair in r.get("pairs", []):
+            for h in [pair[t] for t in r["players"]] + pair.get("order", []) + pair.get("later", []):
+                if h not in heroes:
+                    raise SystemExit(f"rules.json rule {r['id']}: unknown hero {h!r} in a pair")
     (PB / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     lib = build_library.build_library(heroes, canon, db, kdb, G)
     (PB / "library.json").write_text(json.dumps(lib, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

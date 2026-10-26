@@ -1,6 +1,6 @@
 # Tomb of the Spider Queen: map fact sheet
 
-Built 2026-10-15. Icy Veins draft advice and tier lists, plus 11 Season 22 games. Edit `playbook/notes/maps/tomb-of-the-spider-queen.md` for written lessons.
+Built 2026-10-26. Icy Veins draft advice and tier lists, plus 11 Season 22 games. Edit `playbook/notes/maps/tomb-of-the-spider-queen.md` for written lessons.
 
 **Icy Veins prefers:** Effects relying on impassable terrain, Poke tools for Objective, Quests to stack on Heroes, Strong late game, Sustain damage/healing, Vision tools, High waveclear
 
@@ -21,7 +21,7 @@ Built 2026-10-15. Icy Veins draft advice and tier lists, plus 11 Season 22 games
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Junkrat 3-0, Sylvanas 1-1 | Junkrat 9-10, Hanzo 4-11, Sylvanas 5-4, Garrosh 2-2, Tychus 1-2 |
+| hunterstag | Junkrat 3-0, Sylvanas 1-1 | Junkrat 9-10, Hanzo 3-10, Sylvanas 5-4, Garrosh 2-2, Tychus 1-2 |
 | chelsi | Tychus 2-0, Thrall 1-1, Gul'dan 1-0 | n/a |
 | SoulShepherd | Leoric 2-1, Blaze 2-0 | n/a |
 | NorthrnTouch | Muradin 2-0, Johanna 1-0, Stitches 1-0, Tyrael 0-1 | n/a |

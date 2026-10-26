@@ -1,6 +1,6 @@
 # Infernal Shrines: map fact sheet
 
-Built 2026-10-15. Icy Veins draft advice and tier lists, plus 13 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
+Built 2026-10-26. Icy Veins draft advice and tier lists, plus 13 Season 22 games. Edit `playbook/notes/maps/infernal-shrines.md` for written lessons.
 
 **Icy Veins prefers:** Double Healer, Effects relying on impassable terrain, Quests to stack on Heroes, Strong late game, High waveclear
 
@@ -22,7 +22,7 @@ Built 2026-10-15. Icy Veins draft advice and tier lists, plus 13 Season 22 games
 ## Phoenix Rising Amethyst: heroes on this map (NGS this season, and Storm League for players with that data)
 | Player | NGS on this map | Storm League last year |
 |---|---|---|
-| hunterstag | Mephisto 0-1, Falstad 0-1, Sylvanas 1-0 | Hanzo 8-13, Junkrat 3-5, Medivh 3-4, Sylvanas 4-2, Falstad 4-1 |
+| hunterstag | Mephisto 0-1, Falstad 0-1, Sylvanas 1-0 | Hanzo 8-12, Junkrat 3-5, Medivh 3-4, Sylvanas 4-2, Falstad 4-1 |
 | chelsi | Falstad 0-1, Tassadar 0-1, Tychus 1-0 | n/a |
 | SoulShepherd | Leoric 0-2, Blaze 1-0 | n/a |
 | NorthrnTouch | Johanna 0-2, Muradin 1-0 | n/a |

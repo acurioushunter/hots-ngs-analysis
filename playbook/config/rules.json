@@ -1,5 +1,5 @@
 {
-  "_help": "Judgment calls live here, each with a reason and where the evidence is. Edit, add or delete rules freely, then run build_playbook.py. scope: opp (team name or *), map (map name or *), side (first, second or *). kinds: pick_bonus {heroes}, ban_bonus {heroes}, ban_discount {heroes: multiplier below 1}, ranged_target {min and or max}, min_marksmen {n}, note {text}.",
+  "_help": "Judgment calls live here, each with a reason and where the evidence is. Edit, add or delete rules freely, then run build_playbook.py. scope: opp (team name or *), map (map name or *), side (first, second or *). kinds: pick_bonus {heroes}, ban_bonus {heroes}, ban_discount {heroes: multiplier below 1}, ranged_target {min and or max}, min_marksmen {n}, note {text}, damage_first {players, pairs}: the hero pairs for our two damage players in order of preference; the first pair whose heroes are all open (or already ours) is the plan, its 'order' heroes are locked before the opponent's round two ban (weight damage_first), 'later' heroes can wait, an 'option' pair is shown as the alternative to the pair before it.",
   "weights": {
     "pool_primary": 5,
     "pool_secondary": 3,
@@ -17,7 +17,8 @@
     "ranged_target": 1.5,
     "flex": 0.8,
     "irreplaceable": 0.5,
-    "vs_us": 1.0
+    "vs_us": 1.0,
+    "damage_first": 3.0
   },
   "tier_values": {
     "S": 2,
@@ -211,9 +212,33 @@
         "side": "*"
       },
       "kind": "note",
-      "text": "CCS bans Thrall and Tychus in round two (slot 10 or 11). Lock them by slot 9 (first pick) or slot 7 (second pick). They have never banned Sylvanas or Brightwing against us.",
-      "why": "Thrall banned in 5 of 6 games against us, Tychus in 2 of 6.",
-      "evidence": "CCS_MATCH_PREP.md"
+      "text": "Damage first: CCS spends its bans on Hunter's and chelsi's heroes (Junkrat, Chromie, then Thrall or Tychus in round two) and has not banned our healer, tank or offlaner since the first game. Lock both damage players before their round two ban: slots 5 and 8 with first pick, 6 and 7 with second pick. Then healer, tank and offlaner.",
+      "why": "Their round two ban took Thrall or Tychus in 6 of 6 games against us, and we never had chelsi's hero locked before it. chelsi on Tychus or Thrall against them 2-1, on anything else 0-3.",
+      "evidence": "CCS_DRAFT_PLAN.md section 1"
+    },
+    {
+      "id": "ccs-damage-pair",
+      "scope": {
+        "us": "Phoenix Rising Amethyst",
+        "opp": "Can't Counterpick Stupid",
+        "map": "*",
+        "side": "*"
+      },
+      "kind": "damage_first",
+      "players": ["hunterstag", "chelsi"],
+      "pairs": [
+        {"hunterstag": "Sylvanas", "chelsi": "Tychus", "order": ["Sylvanas", "Tychus"], "note": "Both best heroes. Sylvanas first: they took it at their first turn 2 of 5 times it was open against us. Tychus for chelsi denies a hero CCS is 5-0 on, and their round two ban then falls on Thrall."},
+        {"hunterstag": "Sylvanas", "chelsi": "Thrall", "order": ["Sylvanas", "Thrall"], "note": "Tychus is gone, so Thrall for chelsi."},
+        {"hunterstag": "Tychus", "chelsi": "Thrall", "order": ["Tychus", "Thrall"], "note": "Sylvanas is gone: lock both of chelsi's banned heroes in this turn. Hunter's Tychus is Storm League form (14-6 over the last year), one NGS game."},
+        {"hunterstag": "Orphea", "chelsi": "Tychus", "order": ["Tychus"], "later": ["Orphea"], "option": true, "note": "On wave clear maps (Tomb, Infernal Shrines): chelsi on Tychus now, Hunter on Orphea next turn. CCS has never banned or played Orphea, so it can wait."},
+        {"hunterstag": "Orphea", "chelsi": "Thrall", "order": ["Thrall"], "later": ["Orphea"], "note": "Sylvanas and Tychus are gone: Thrall now, Orphea can wait."},
+        {"hunterstag": "Junkrat", "chelsi": "Sylvanas", "order": ["Junkrat", "Sylvanas"], "note": "They spent their bans on chelsi's heroes, so Junkrat is open for Hunter and chelsi takes Sylvanas."},
+        {"hunterstag": "Chromie", "chelsi": "Sylvanas", "order": ["Chromie", "Sylvanas"], "note": "They spent their bans on chelsi's heroes, so Chromie is open for Hunter and chelsi takes Sylvanas."},
+        {"hunterstag": "Sylvanas", "chelsi": "Tassadar", "order": ["Sylvanas"], "later": ["Tassadar"], "note": "Tychus and Thrall are both gone: chelsi goes to Tassadar (or Gul'dan), not to Sylvanas."},
+        {"hunterstag": "Orphea", "chelsi": "Tassadar", "order": [], "later": ["Orphea", "Tassadar"], "note": "Nothing contested is left for either of you. Neither hero has been banned by CCS against us."}
+      ],
+      "why": "In the six games against CCS chelsi's hero was never locked before their round two ban, which took Thrall or Tychus every time. Both of you on your best heroes this season: 9-2. Neither: 1-4.",
+      "evidence": "CCS_DRAFT_PLAN.md sections 1 and 2"
     },
     {
       "id": "cos-kael",
