@@ -1,3 +1,8 @@
+# 2026-10-26 (CCS draft plan)
+- `CCS_DRAFT_PLAN.md`, numbers from `python -I analyze_ccs_draft_habits.py` (13 sections: series order and loser choices, map bans and picks, hero bans by slot, round two ban against what was open, first turn picks, adaptation after a loss, player pools, our bans, Hunter and chelsi pools and pairs, PRA by map). Data still ends Oct 14.
+- Finding: since the first game against us, 14 of 15 CCS bans hit Hunter's or chelsi's heroes (Junkrat, Chromie, then Thrall or Tychus in round two), and we never locked chelsi's Tychus or Thrall before that ban. Plan: damage first (slots 5 and 8, or 6 and 7), support last; Sylvanas gone means Tychus for Hunter and Thrall for chelsi. After a loss CCS bans the winning comp (9 of 15 next game bans).
+- Not done: the Drafter (rules, CCS note, Night board) does not carry the new pick order yet; the artifact is not republished.
+
 # 2026-10-15 (fourth round: Night board, season plan, Players)
 - **Night tab** (`renderNight`, `E.nightView`, `E.jobs`): the screen to share on Discord. Big type, three lines that change after every ban and pick: their heroes still open with a good record (3 or more games, win rate 55% or better, "weaker" heroes left out), what our comp is missing, and which comfort heroes (primary, then secondary, practice flagged low comfort) fill it. A "do now" card names one ban or pick with its sample, a 30 second clock button, quick record chips and the board.
 - **Jobs**: wave clear, healer, front line, damage. Wave clear is read from measured minion damage a minute (3,000 or more over 5 or more division games) and falls back to the hero profile `wave_clear_style` when there is no sample. A hero the numbers like but the kit calls poor (Thrall) counts half, halves alone never make the job, and the target is 3 instead of 2 on maps whose Icy Veins draft strategy prefers high wave clear (Tomb, Infernal Shrines; `E.setMapNeeds` is filled from the library by the page). Sylvanas does not count (2.0k a minute over 27 games). The Oct 6 Tomb draft (Sylvanas, Thrall, Leoric, Rehgar, Tyrael) now shows a gap.
@@ -170,7 +175,8 @@ Written 2026-10-07, state updated 2026-10-12. This is what a new session needs t
 ## The documents (what each is for)
 | Read this | For |
 |---|---|
-| `CCS_DRAFT_CHEAT_SHEET.md` | The decisions for the CCS match: toss, bans, picks by slot, map tiers, map playbook |
+| `CCS_DRAFT_PLAN.md` | The CCS draft plan (Oct 26): the damage squeeze, pick order by slot, who plays what, toss and loser choices, maps |
+| `CCS_DRAFT_CHEAT_SHEET.md` | Older CCS decisions; its map playbook (section 7) still stands |
 | `CCS_FULL_PICTURE.md` | Every CCS game, Cosmos v CCS, the healer pattern, the Garden loss in detail |
 | `QHIRA_DEEP_DIVE.md` | Why banning Qhira does not help |
 | `COMP_AND_POKE_INSIGHTS.md` | Poke versus fight damage, marksmen, what predicts wins |

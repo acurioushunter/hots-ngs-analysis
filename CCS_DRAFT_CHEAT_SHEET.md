@@ -1,5 +1,7 @@
 # CCS draft cheat sheet
 
+> **Oct 26: read `CCS_DRAFT_PLAN.md` first.** It replaces sections 1, 3, 4, 5 and 6 here (pick order, the toss, and who plays what between Hunter and chelsi). The main change: lock both damage players before their round two ban, because CCS spends almost every ban on Hunter's and chelsi's heroes. The map playbook in section 7 still stands.
+
 Updated Oct 7 with the Garden and healer lessons and a map by map plan. Sources: `CCS_MATCH_PREP.md`, `CCS_FULL_PICTURE.md`, `QHIRA_DEEP_DIVE.md`, `COMP_AND_POKE_INSIGHTS.md`, `RECENT_FORM_AND_POOLS.md`, Season 22 NGS games (56), Hunter's Storm League last 12 months, Icy Veins map tier lists. Small samples, so these are leans.
 
 ## 0. What the plan is built on
