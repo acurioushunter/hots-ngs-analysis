@@ -113,6 +113,37 @@ const csv = G.toCSV(set.slice(0, 3));
 const back = G.parseImport(csv);
 eq(back.games.length, 3, 'csv export reads back'); eq(back.games[0].hero, 'Raynor', 'hero survives'); eq(back.games[0].won, 1, 'result survives');
 
+/* ---------------------------------------------------------------- replays: Deaths and talents */
+// a death is [time, depth, teammates down near, enemies down near, teammates down before, heroes on the kill, those heroes, level gap, seconds dead]
+eq(G.deathKind([100, 0.3, 0, 0, 0, 2, 'Zeratul|Tracer', 0, 20]), 'alone', 'nobody else died: alone');
+eq(G.deathKind([100, 0.3, 1, 0, 1, 3, 'Zeratul', 0, 20]), 'late', 'a teammate fell first: late');
+eq(G.deathKind([100, 0.3, 1, 2, 0, 3, 'Zeratul', 0, 20]), 'traded', 'enemies died too: traded');
+eq(G.deathKind([100, 0.3, 2, 0, 0, 3, 'Zeratul', 0, 20]), 'first', 'teammates died after, nobody of theirs: first down');
+eq(G.parseReplays('{"format":"hots-tools-games","games":[]}'), null, 'a match history file is not a replay file');
+eq(G.parseReplays('hero,result'), null, 'csv is not a replay file');
+const rgame = (hero, won, map, en, dl, tal, t) => ({ id: 'g' + t, t: t, mode: 'sl', map: map, hero: hero, won: won, len: 1200, en: en, al: [], d: dl.length, dl: dl, tal: tal });
+const rfile = { format: 'hots-tools-replays', version: 1, player: 'Tester', built: '2026-10-29T12:00:00', ref: { Sylvanas: [100, 200, 70] }, games: [
+  rgame('Sylvanas', 1, 'Tomb of the Spider Queen', ['Chromie', 'Johanna'], [[200, 0.7, 0, 0, 0, 2, 'Chromie|Johanna', 0, 20]], [[1, 'Unstable Poison'], [4, 'Haunting Arrows']], 3),
+  rgame('Sylvanas', 0, 'Tomb of the Spider Queen', ['Chromie'], [[300, 0.4, 0, 0, 0, 1, 'Chromie', -2, 25], [900, 0.6, 2, 1, 1, 4, 'Chromie|Uther', 0, 40]], [[1, 'Unrelenting Torment'], [4, 'Haunting Arrows']], 2),
+  rgame('Junkrat', 1, 'Garden of Terror', ['Johanna'], [], [[1, 'Extra-Wound Timers']], 1),
+  rgame('Junkrat', 0, 'Garden of Terror', ['Uther'], [[1500, 0.2, 1, 0, 0, 1, 'Uther', 1, 50]], [[1, 'Extra-Wound Timers']], 4)
+] };
+const rp = G.parseReplays(JSON.stringify(rfile));
+ok(rp && rp.games.length === 4 && rp.games[0].t === 1 && rp.games.every(g => g.type === 'sl'), 'replay file parses, sorted by date, mode becomes type');
+const rv = G.deathReview(rp.games, rp.ref);
+eq(rv.deaths, 4, 'four deaths'); eq(rv.kinds.alone, 2, 'two alone'); eq(rv.kinds.late, 1, 'one late'); eq(rv.kinds.first, 1, 'one first down');
+eq(rv.their, 2, 'two in their half'); eq(rv.behind, 1, 'one while two levels down');
+eq(rv.early.with.n, 2, 'two games with an alone death before 20 minutes'); eq(rv.early.with.w, 1, 'one of them won'); eq(rv.early.without.w, 1, 'one win without');
+eq(rv.phases[0].n, 2, 'two deaths in the first 10 minutes'); eq(rv.phases[2].n, 1, 'one after 20 minutes');
+eq(rv.buckets[1].alone, 1, 'the 2 to 4 minute bar holds one alone death'); eq(rv.buckets.reduce((s, b) => s + b.alone + b.other, 0), 4, 'every death is in a bar');
+const syl = rv.heroes.find(h => h.key === 'Sylvanas');
+ok(syl.n === 2 && syl.d === 3 && syl.alone === 2 && syl.ref && Math.abs(syl.ref.alone - 0.7) < 1e-9, 'hero row with the NGS reference');
+const foes = G.deathFoes(rp.games, 2);
+const ch = foes.find(f => f.hero === 'Chromie');
+ok(ch && ch.n === 2 && ch.on === 3 && Math.abs(ch.with - 1.5) < 1e-9 && Math.abs(ch.without - 0.5) < 1e-9, 'enemy Chromie: 2 games, on 3 deaths, 1.5 against 0.5');
+const rtal = G.replayTalents(rp.games, 'Sylvanas');
+ok(rtal.length === 2 && rtal[1].rows[0].talent === 'Haunting Arrows' && rtal[1].rows[0].n === 2 && rtal[1].rows[0].w === 1, 'talents by level with their record');
+
 /* ---------------------------------------------------------------- the built page */
 const built = path.join(__dirname, 'hots_tools.html');
 if (fs.existsSync(built)) {
@@ -135,6 +166,14 @@ if (fs.existsSync(built)) {
   const ex = JSON.parse(html.match(/id="d-example">([\s\S]*?)<\/script>/)[1]);
   ok(ex.games.length > 400, 'example games'); ok(ex.games.every(g => g.id === undefined), 'example games carry no replay ids');
   ok(!/hunterstag/i.test(JSON.stringify(ex)), 'example is anonymous');
+  if (ex.replays) {
+    const er = G.parseReplays(ex.replays);
+    ok(er && er.games.length >= 50, 'example replays for Deaths and talents');
+    ok(er.games.every(g => /^ex\d+$/.test(g.id)) && er.player === 'Example player', 'example replays carry no game ids or names');
+    ok(er.games.every(g => g.dl.length === g.d), 'every example death is listed');
+    ok(Object.keys(er.ref).length >= 3, 'NGS reference per hero');
+  }
+  ok(/Deaths and talents/.test(html), 'the menu has Deaths and talents');
 }
 // the shareable build carries no personal data; the personal edition (when built) does and keeps its own storage keys
 if (fs.existsSync(built)) {
@@ -151,6 +190,10 @@ if (fs.existsSync(mine)) {
   const P = JSON.parse(m[1]);
   ok(P.games.length > 4000 && P.battletag === 'hunterstag' && P.team && P.profile.players.length === 5, 'personal data: games, name, team, five players');
   ok(P.games.every((g) => g.id != null), 'personal games keep their replay ids so a later import merges cleanly');
+  if (P.replays) {
+    const pr = G.parseReplays(P.replays);
+    ok(pr && pr.games.length >= 80 && pr.player === 'hunterstag' && pr.built, 'personal replays: games, name and build stamp');
+  }
 }
 console.log(checks + ' checks passed');
 console.log('OK');

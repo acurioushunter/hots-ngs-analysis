@@ -36,6 +36,7 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 
 ## Hunter's own replays
 - `build_my_replays.py <Stats of the Storm database folder>` writes `knowledge/my_replays.db` (games, every death with time, map half, killers and fight kind, talents). NGS export season folders work too (`--toon 1-Hero-1-8186800`), which is how it was tested. `analyze_my_replays.py` prints the review, `test_my_replays.py` checks it. Tonight's steps for the home PC: `HOME_PC_REPLAYS.md`.
+- The same data is the My Games page Deaths and talents (personal edition: Hunter's file; shareable edition: the example without ids or names). After a new replay build run `python build_hotstools.py --personal`. See `HOTS_TOOLS.md`.
 
 ## Hero knowledge base (profiles and lenses)
 - `knowledge/expert/hero_profiles/<slug>.json` (91): damage type, poke, how healing meets it, healing block, ratings, good into and bad into, wants and gives, lens values, owner notes. Spec `HERO_PROFILE_SPEC.md`, lens catalog `lenses.json`, check `python test_hero_profiles.py`.

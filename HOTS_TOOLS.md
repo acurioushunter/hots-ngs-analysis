@@ -8,7 +8,7 @@ One page, `hots_tools.html`, that holds everything this repo builds for drafting
 |---|---|---|
 | Home | everyone | three paths, what is inside, how to read the numbers |
 | Team Scout | teams | Draft room, Opponent prep, Scout any team, Counters, Review a draft, Meta, Open draft board, Team setup, Team profile |
-| My Games | players | Import, Overview, Heroes, Maps, Habits, Pool coach |
+| My Games | players | Import, Overview, Heroes, Maps, Habits, Pool coach, Deaths and talents |
 | Learn | everyone | Start here, Hero guides, Hero ratings, Map guides, Map data, Drafting and strategy, Tips and glossary |
 | About | everyone | sources, limits, privacy, reset |
 
@@ -60,6 +60,13 @@ It keeps its own storage (every key prefixed `hunter:`), so opening both edition
 ## My Games formats
 
 Accepted by the importer: raw Heroes Profile `player/match/history` pages (one or several, pasted or as files), the HotS Tools export (`{"format":"hots-tools-games","games":[...]}`), and CSV with at least a hero and a result column. The in page snippet reads the history from the player's own Heroes Profile tab. It uses the same endpoint and body as our own pulls, and one request with that body was confirmed live on Oct 13 (200, 100 games a page). The paste and CSV routes work without it.
+
+## Deaths and talents (replay files)
+
+My Games › Deaths and talents reads a player's replays, not the Heroes Profile history: `build_my_replays.py` turns a Stats of the Storm database into `knowledge/my_replays.db`, and `build_my_replays.payload()` turns that into the page's data (format `hots-tools-replays`: per game the map, hero, result, enemy heroes, talents and every death as `[time, depth, teammates down near, enemies down near, teammates down before, heroes on the kill, those heroes, level gap, seconds dead]`, plus the NGS reference per hero).
+- The personal edition carries the owner's file (`replays`, with its build stamp; a newer build replaces a copy saved on the device). The shareable edition carries it as the example, with game ids and the player name taken out.
+- Anyone else: `python -I build_my_replays.py "<database folder>" --export my_replays.json`, then drop the file on the Import page or the page itself. It is stored under `hots.replays.v1`.
+- Engine: `deathKind`, `parseReplays`, `deathReview`, `deathFoes`, `replayTalents` in `hotstools/mygames/engine.js`, checked in `test_hotstools.js`.
 
 ## Hero profiles and lenses (how they reach every part of the app)
 

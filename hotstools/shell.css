@@ -134,6 +134,10 @@ tr.click { cursor: pointer; } tr.click:hover td { background: var(--surface2); }
 .chart .ln { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
 .chart .ln2 { fill: none; stroke: var(--us); stroke-width: 2; }
 .chart .ref { stroke: var(--muted); stroke-dasharray: 4 4; stroke-width: 1; }
+.chart .b-alone, .sw.b-alone { fill: var(--bad); background: var(--bad); }
+.chart .b-other, .sw.b-other { fill: var(--accent); background: var(--accent); opacity: .55; }
+.legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin: 0 4px 0 8px; vertical-align: -1px; }
+.legend .sw:first-child { margin-left: 0; }
 pre.code { background: var(--surface2); border: 1px solid var(--line); border-radius: 9px; padding: 10px 12px; overflow: auto; max-height: 260px; font-family: var(--mono); font-size: .78rem; white-space: pre-wrap; word-break: break-all; margin: 8px 0; }
 .drop { border: 2px dashed var(--line); border-radius: 12px; padding: 22px; text-align: center; color: var(--muted); cursor: pointer; }
 .drop.over { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }

@@ -11,11 +11,12 @@ Most cells rest on a handful of games: read them as leans. The replay shows when
 
 Run: python -I analyze_my_replays.py [--mode "Storm League"] [--since 2025-10-29] [--hero Sylvanas] [--db path]
 """
-import sqlite3, sys
+import pathlib, sqlite3, sys
 from collections import defaultdict
 
-DB = "knowledge/my_replays.db"
-LG = "knowledge/ngs_league.db"
+HERE = pathlib.Path(__file__).resolve().parent
+DB = str(HERE / "knowledge" / "my_replays.db")
+LG = str(HERE / "knowledge" / "ngs_league.db")
 NEAR = 15
 MIN_GAMES = 3
 
@@ -64,6 +65,8 @@ def load(db, mode, since, hero):
 
 def league_alone(heroes):
     """NGS seasons 20 to 22, every player: deaths and alone deaths per game on each hero (same 15 second rule)."""
+    if not pathlib.Path(LG).exists():
+        return {}
     try:
         c = sqlite3.connect(LG)
         games = defaultdict(int)

@@ -59,7 +59,8 @@
       { id: 'heroes', label: 'Heroes', native: 'mygames', desc: 'Every hero you play, against the global win rate.' },
       { id: 'maps', label: 'Maps', native: 'mygames', desc: 'Where you win and where you struggle.' },
       { id: 'habits', label: 'Habits', native: 'mygames', desc: 'Sessions, tilt, time of day.' },
-      { id: 'coach', label: 'Pool coach', native: 'mygames', desc: 'Depth, fallbacks and heroes worth learning next.' }
+      { id: 'coach', label: 'Pool coach', native: 'mygames', desc: 'Depth, fallbacks and heroes worth learning next.' },
+      { id: 'replays', label: 'Deaths and talents', native: 'mygames', desc: 'From your replay files: when, where and how you die, and the talents you win with.' }
     ] },
     { id: 'learn', label: 'Learn', blurb: 'Heroes, maps, drafting and strategy.', pages: [
       { id: 'start', label: 'Start here', native: 'learn', desc: 'A map of everything you can learn here.' },
@@ -251,7 +252,7 @@
       var sl = P.games.filter(function (g) { return g.type === 'sl'; }).length;
       mine = '<section class="card us"><h3>' + esc(P.name) + '\'s edition</h3><p class="small">Your ' + P.games.length.toLocaleString() + ' Heroes Profile games (' + sl.toLocaleString() + ' Storm League) are loaded in My Games, and Team Scout starts on ' + esc(P.team) + ' with you as ' + esc(P.me) + '. ' +
         'Next opponent in the draft room: ' + esc(P.next || 'not set') + '.</p>' +
-        '<div class="row"><button class="btn primary" data-go="mygames/overview">My overview</button><button class="btn" data-go="mygames/coach">My pool coach</button><button class="btn" data-go="scout/draft">Draft room</button><button class="btn" data-go="scout/prep">Opponent prep</button></div></section>';
+        '<div class="row"><button class="btn primary" data-go="mygames/overview">My overview</button><button class="btn" data-go="mygames/coach">My pool coach</button>' + (P.replays ? '<button class="btn" data-go="mygames/replays">My deaths and talents</button>' : '') + '<button class="btn" data-go="scout/draft">Draft room</button><button class="btn" data-go="scout/prep">Opponent prep</button></div></section>';
     }
     el.innerHTML = mine +
       '<section class="card accent"><h2>HotS Tools</h2>' +
@@ -404,7 +405,7 @@
       '<li><b>Run the draft:</b> Team Scout, Draft room. Set the toss, map and map bans, then enter each ban and pick in order. Every suggestion opens to show its reasons and sample size. Notes in grey are leans, orange boxes are warnings.</li>' +
       '<li><b>Look at any team:</b> Team Scout, Scout any team. Type a team name, then filter its games by map, result, first or second pick, recent games, hero played, hero banned and more.</li>' +
       '<li><b>Check the league:</b> Meta, Counters and Learn, Map data. Use the filter bar at the top (league and season, division, map). A chip that reads 0 cannot be combined with what is on now.</li>' +
-      '<li><b>Your own games:</b> My Games. Import once (Import page), then Overview, Heroes, Maps, Habits and Pool coach. Open a row marked Why and where for the map, build and style read.</li>' +
+      '<li><b>Your own games:</b> My Games. Import once (Import page), then Overview, Heroes, Maps, Habits and Pool coach. Open a row marked Why and where for the map, build and style read. Deaths and talents reads your replay files instead: when and where you die, alone or in a fight, and the talents you took.</li>' +
       '<li><b>Learn:</b> hero guides, ratings, lenses, map guides and draft theory. Every number carries its sample size.</li></ol>' +
       '<p class="small muted" style="margin-top:8px">Read leans as leans: most records are 2 to 12 games. The data is a snapshot from when this page was built, so new games need a rebuild. Lists scroll inside their boxes when they are long.</p></section>' +
       '<h3 style="margin-top:12px">Where the data comes from</h3><ul class="small">' +
@@ -413,6 +414,7 @@
       '<li><b>Hero and map guides, talents, tier lists</b>: Icy Veins pages saved into the tool. Dates are shown on each hero.</li>' +
       '<li><b>Global Storm League hero win rates</b>: Heroes Profile global hero page, patches 2.55 to 2.57' + (m.global_asof ? ', as of ' + esc(m.global_asof) : '') + '.</li>' +
       '<li><b>Storm League MMR</b> of NGS players: their Heroes Profile profiles, Storm League only.</li>' +
+      '<li><b>Deaths and talents</b> in My Games: your own replay files, read by Stats of the Storm and turned into one file by build_my_replays.py. The example is one player\'s replay games with the names and game ids taken out.</li>' +
       '<li><b>Hero profiles</b> (knowledge/expert/hero_profiles): one per hero, written from the Icy Veins ability and talent text beside measured damage, healing, siege, damage taken and crowd control from NGS replays, then corrected with the owner\'s own notes (marked as his read). <b>Hero ratings</b> follow the profiles; where the old matrix and the profile differed by 3 or more the midpoint is used and flagged. Each rating carries its source tag and you can override any of them.</li>' +
       '<li><b>League read</b>: win rates by comp trait and healer class use every NGS replay of seasons 15 to 22, newer seasons weighted more, with the newest three seasons shown beside them.</li></ul>' +
       '<h3 style="margin-top:12px">What it cannot tell you</h3><ul class="small">' +

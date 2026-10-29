@@ -513,6 +513,119 @@
     return out;
   }
 
+  /* ------------------------------------------------------------ replays (Deaths and talents) */
+  // From build_my_replays.py --export. Each death in g.dl is [time, depth, teammates down near it, enemies down near it,
+  // teammates down before it, heroes on the kill, those heroes joined by |, level gap, seconds dead]. Near means 15 seconds either side.
+  // Depth is 0 at our structures and 1 at theirs, so above 0.5 is their half of the map.
+  var DEATH_KINDS = ['alone', 'traded', 'first', 'late'];
+  var DEATH_NAMES = { alone: 'Alone', traded: 'Traded', first: 'First down', late: 'After a teammate fell' };
+  function deathKind(d) {
+    if (!d[2] && !d[3]) return 'alone';
+    if (d[4] > 0) return 'late';
+    if (d[3] > 0) return 'traded';
+    return 'first';
+  }
+  function parseReplays(text) {
+    var d = text;
+    if (typeof text === 'string') {
+      var t = text.trim();
+      if (t.charAt(0) !== '{' || t.indexOf('hots-tools-replays') < 0) return null;
+      try { d = JSON.parse(t); } catch (e) { return null; }
+    }
+    if (!d || d.format !== 'hots-tools-replays' || !Array.isArray(d.games)) return null;
+    var games = d.games.filter(function (g) { return g && g.hero && Array.isArray(g.dl); });
+    games.forEach(function (g) { if (!g.type) g.type = g.mode || 'ot'; });
+    games.sort(function (a, b) { return (a.t || 0) - (b.t || 0); });
+    return { format: d.format, version: d.version || 1, player: d.player || '', built: d.built || null, near: d.near || 15,
+             ref: d.ref || {}, refLabel: d.refLabel || '', games: games };
+  }
+  function deathRows(games, keyFn, ref) {
+    var gb = groupBy(games, keyFn);
+    return gb.keys.map(function (key) {
+      var a = gb.map[key], r = { key: key, n: a.length, w: sumWins(a), d: 0, alone: 0, aloneK: 0, their: 0, known: 0 };
+      a.forEach(function (g) {
+        g.dl.forEach(function (d) {
+          r.d++;
+          if (deathKind(d) === 'alone') { r.alone++; if (d[5]) r.aloneK++; }
+          if (d[1] != null) { r.known++; if (d[1] > 0.5) r.their++; }
+        });
+      });
+      r.l = r.n - r.w; r.wr = r.n ? r.w / r.n : null; r.low = r.n < LOW_N;
+      var x = ref && ref[key];
+      // the league list only keeps takedowns with a hero on the kill, so the comparison uses aloneK
+      if (x && x[0]) r.ref = { n: x[0], d: x[1] / x[0], alone: x[2] / x[0] };
+      return r;
+    }).sort(function (a, b) { return b.n - a.n; });
+  }
+  // Enemy heroes faced in minGames or more games: your deaths a game with them in the game against without them,
+  // and how many of your deaths they were on. An association: they may simply come in strong comps.
+  function deathFoes(games, minGames) {
+    minGames = minGames || 5;
+    var total = games.length, totalD = 0, by = {};
+    games.forEach(function (g) {
+      totalD += g.dl.length;
+      (g.en || []).forEach(function (h) {
+        var o = by[h] || (by[h] = { hero: h, n: 0, d: 0, on: 0, w: 0 });
+        o.n++; o.d += g.dl.length; o.w += g.won ? 1 : 0;
+        g.dl.forEach(function (d) { if (String(d[6] || '').split('|').indexOf(h) >= 0) o.on++; });
+      });
+    });
+    return Object.keys(by).map(function (h) {
+      var o = by[h], rest = total - o.n;
+      o.with = o.n ? o.d / o.n : null; o.without = rest ? (totalD - o.d) / rest : null;
+      o.gap = o.with != null && o.without != null ? o.with - o.without : null; o.wr = o.n ? o.w / o.n : null;
+      return o;
+    }).filter(function (o) { return o.n >= minGames; }).sort(function (a, b) { return (b.gap || 0) - (a.gap || 0); });
+  }
+  function deathReview(games, ref) {
+    var out = { n: games.length, w: sumWins(games), mins: 0, deaths: 0, kinds: { alone: 0, traded: 0, first: 0, late: 0 },
+                their: 0, known: 0, deep: 0, behind: 0, ahead: 0 };
+    var phases = [[0, 600, '0 to 10 min'], [600, 1200, '10 to 20 min'], [1200, 1e9, 'After 20 min']].map(function (p) { return { from: p[0], to: p[1], label: p[2], n: 0, alone: 0 }; });
+    var buckets = [];   // two minute steps; the last one holds everything from 30 minutes on
+    for (var b = 0; b < 16; b++) buckets.push({ from: b * 120, alone: 0, other: 0 });
+    var split = { win: { n: 0, d: 0, alone: 0 }, loss: { n: 0, d: 0, alone: 0 } };
+    var early = { with: { n: 0, w: 0 }, without: { n: 0, w: 0 } };
+    games.forEach(function (g) {
+      out.mins += (g.len || 0) / 60;
+      var s = g.won ? split.win : split.loss, earlyAlone = false;
+      s.n++;
+      g.dl.forEach(function (d) {
+        var k = deathKind(d);
+        out.deaths++; out.kinds[k]++; s.d++;
+        if (k === 'alone') { s.alone++; if (d[0] < 1200) earlyAlone = true; }
+        if (d[1] != null) { out.known++; if (d[1] > 0.5) out.their++; if (d[1] > 1) out.deep++; }
+        if (d[7] != null && d[7] <= -2) out.behind++;
+        if (d[7] != null && d[7] > 0) out.ahead++;
+        phases.forEach(function (p) { if (d[0] >= p.from && d[0] < p.to) { p.n++; if (k === 'alone') p.alone++; } });
+        var bi = Math.min(15, Math.max(0, Math.floor(d[0] / 120)));
+        if (k === 'alone') buckets[bi].alone++; else buckets[bi].other++;
+      });
+      var e = earlyAlone ? early.with : early.without;
+      e.n++; e.w += g.won ? 1 : 0;
+    });
+    out.phases = phases; out.buckets = buckets; out.split = split; out.early = early;
+    out.heroes = deathRows(games, function (g) { return g.hero; }, ref);
+    out.maps = deathRows(games, function (g) { return g.map; });
+    out.foes = deathFoes(games);
+    return out;
+  }
+  // Talents a hero took, level by level, with the record of the games each one was in.
+  function replayTalents(games, hero) {
+    var lv = {};
+    games.forEach(function (g) {
+      if (g.hero !== hero) return;
+      (g.tal || []).forEach(function (t) {
+        var L = lv[t[0]] || (lv[t[0]] = {}), r = L[t[1]] || (L[t[1]] = { talent: t[1], n: 0, w: 0 });
+        r.n++; r.w += g.won ? 1 : 0;
+      });
+    });
+    return Object.keys(lv).map(Number).sort(function (a, b) { return a - b; }).map(function (l) {
+      var rows = Object.keys(lv[l]).map(function (k) { var r = lv[l][k]; r.l = r.n - r.w; r.wr = r.n ? r.w / r.n : null; return r; })
+        .sort(function (a, b) { return b.n - a.n; });
+      return { level: l, n: rows.reduce(function (s2, r) { return s2 + r.n; }, 0), rows: rows };
+    });
+  }
+
   /* ------------------------------------------------------------ export */
   function toExport(games, battletag) { return { format: 'hots-tools-games', version: 1, battletag: battletag || null, exported: new Date().toISOString(), games: games }; }
   function toCSV(games) {
@@ -532,6 +645,8 @@
     mergeGames: mergeGames, canonHeroes: canonHeroes, modeCounts: modeCounts, applyFilter: applyFilter, groupBy: groupBy,
     overview: overview, heroTable: heroTable, mapTable: mapTable, roleTable: roleTable, heroByMap: heroByMap, rolling: rolling, mmrSeries: mmrSeries, monthly: monthly,
     sessions: sessions, sessionStats: sessionStats, timeBuckets: timeBuckets, builds: builds, talentTiers: talentTiers, rankFromMmr: rankFromMmr,
-    poolCoach: poolCoach, insights: insights, toExport: toExport, toCSV: toCSV, lastN: lastN, pct: pct, heroVec: heroVec, cosine: cosine
+    poolCoach: poolCoach, insights: insights, toExport: toExport, toCSV: toCSV, lastN: lastN, pct: pct, heroVec: heroVec, cosine: cosine,
+    DEATH_KINDS: DEATH_KINDS, DEATH_NAMES: DEATH_NAMES, deathKind: deathKind, parseReplays: parseReplays, deathReview: deathReview,
+    deathRows: deathRows, deathFoes: deathFoes, replayTalents: replayTalents
   };
 });

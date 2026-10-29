@@ -7,7 +7,8 @@
   var MG = {
     games: [], battletag: '', persisted: true, loaded: false,
     f: { types: null, range: 'all', roles: [], maps: [] },
-    pending: null, hero: null, hq: '', hrole: 'All', hsort: 'n', hdir: -1, minN: 1, msg: '', mapq: ''
+    pending: null, hero: null, hq: '', hrole: 'All', hsort: 'n', hdir: -1, minN: 1, msg: '', mapq: '',
+    replays: null, rloaded: false, rf: { types: null, range: 'all', hero: '', thero: '' }
   };
   var RANGES = [['30', 'Last 30 days'], ['90', 'Last 90 days'], ['180', 'Last 6 months'], ['365', 'Last year'], ['all', 'All time']];
   var ROLE_CLS = { 'Tank': 'Tank', 'Bruiser': 'Bruiser', 'Melee Assassin': 'Melee', 'Ranged Assassin': 'Ranged', 'Healer': 'Healer', 'Support': 'Support' };
@@ -159,7 +160,8 @@
       '<input type="file" id="file" accept=".json,.csv,.txt,application/json,text/csv" multiple hidden>' +
       '<label class="f" style="margin-top:10px">Or paste text<textarea id="paste" placeholder="Paste a Heroes Profile match history page, an export, or CSV rows"></textarea></label>' +
       '<div class="row" style="margin-top:8px"><button class="btn" data-act="parse-paste">Read pasted text</button><button class="btn" data-act="csv-template">Download a CSV template</button></div>' +
-      '<p class="small muted">CSV needs a <b>hero</b> and a <b>result</b> column. Date, map, role, mode, kills, assists, deaths, hero damage, healing, siege damage and mmr are all optional.</p></section>' +
+      '<p class="small muted">CSV needs a <b>hero</b> and a <b>result</b> column. Date, map, role, mode, kills, assists, deaths, hero damage, healing, siege damage and mmr are all optional.</p>' +
+      '<p class="small muted">A replay file (<span class="kbd">my_replays.json</span> from build_my_replays.py) goes here too. It opens <b>Deaths and talents</b> and leaves your match history alone.</p></section>' +
       '</div>' +
       '<div class="grid g2">' +
       '<section class="card"><h3>3. Add a game by hand</h3>' + manualForm() + '</section>' +
@@ -349,15 +351,164 @@
         }).join('') + '</tbody></table></div>' : '<p class="muted small">Needs a few heroes with 8 or more games and a win rate above 52% to compare against.</p>') + '</section>';
   }
 
+  /* ------------------------------------------------------------ deaths and talents (from replay files) */
+  var RSTORE = 'hots.replays.v1';
+  function loadReplays() {
+    if (MG.rloaded) return; MG.rloaded = true;
+    var s = S.lsGet(RSTORE, null), p = S.personal && S.personal();
+    var saved = s ? G.parseReplays(s) : null, pr = p && p.replays ? G.parseReplays(p.replays) : null;
+    // a rebuilt personal edition carries newer replays than a copy saved on this device
+    MG.replays = pr && (!saved || (pr.built || '') > (saved.built || '')) ? pr : saved;
+    var f = S.lsGet('hots.replays.filters', null);
+    if (f) MG.rf = { types: f.types || null, range: f.range || 'all', hero: f.hero || '', thero: f.thero || '' };
+    else if (MG.replays) MG.rf.types = replayDefaultTypes(MG.replays.games);
+  }
+  function replayDefaultTypes(games) { return games.filter(function (g) { return g.type === 'sl'; }).length >= 10 ? ['sl'] : null; }
+  function setReplays(r) {
+    MG.replays = r;
+    MG.rf = { types: r ? replayDefaultTypes(r.games) : null, range: 'all', hero: '', thero: '' };
+    var ok = r ? S.lsSet(RSTORE, r) : (S.lsDel(RSTORE), true);
+    S.lsSet('hots.replays.filters', MG.rf);
+    if (!ok) S.toast('This browser would not save the replays. They stay until you close the page.');
+  }
+  function saveRF() { S.lsSet('hots.replays.filters', MG.rf); }
+  function replaySel(skip) {
+    var games = MG.replays ? MG.replays.games : [], f = {};
+    var types = MG.rf.types && MG.rf.types.length ? MG.rf.types : null;
+    if (skip !== 'types' && types) f.types = types;
+    if (skip !== 'hero' && MG.rf.hero) f.heroes = [MG.rf.hero];
+    if (MG.rf.range !== 'all') {
+      var last = games.reduce(function (m, g) { return g.t != null && g.t > m ? g.t : m; }, 0) || Date.now();
+      f.since = last - Number(MG.rf.range) * 86400000;
+    }
+    return G.applyFilter(games, f);
+  }
+  function f2(x) { return x == null || isNaN(x) ? 'n/a' : Number(x).toFixed(2); }
+  function per(a, n) { return n ? f2(a / n) : 'n/a'; }
+  function share(a, n) { return n ? Math.round(100 * a / n) + '%' : 'n/a'; }
+  function gapCell(v) {
+    if (v == null) return '<span class="muted">n/a</span>';
+    var c = v >= 0.15 ? '--bad' : v <= -0.15 ? '--good' : '--muted';
+    return '<span class="num" style="color:var(' + c + ')">' + (v > 0 ? '+' : '') + v.toFixed(2) + '</span>';
+  }
+  function deathChart(buckets) {
+    var W = 640, H = 170, L = 30, R = 10, T = 10, B = 22, n = buckets.length;
+    var max = Math.max(1, Math.max.apply(null, buckets.map(function (b) { return b.alone + b.other; })));
+    var bw = (W - L - R) / n, base = H - B, sy = function (v) { return (H - T - B) * v / max; };
+    var grid = [0, Math.round(max / 2), max].map(function (v) {
+      var y = (base - sy(v)).toFixed(1);
+      return '<line class="grid" x1="' + L + '" x2="' + (W - R) + '" y1="' + y + '" y2="' + y + '"/><text x="' + (L - 6) + '" y="' + (Number(y) + 4) + '" text-anchor="end">' + v + '</text>';
+    }).join('');
+    var bars = buckets.map(function (b, i) {
+      var x = (L + i * bw + 2).toFixed(1), w = (bw - 4).toFixed(1), ho = sy(b.other), ha = sy(b.alone);
+      var lab = (b.from / 60) + (i === n - 1 ? ' min and later' : ' to ' + (b.from / 60 + 2) + ' min') + ': ' + b.alone + ' alone, ' + b.other + ' other';
+      return '<g><title>' + esc(lab) + '</title><rect class="b-other" x="' + x + '" y="' + (base - ho).toFixed(1) + '" width="' + w + '" height="' + ho.toFixed(1) + '"/>' +
+        '<rect class="b-alone" x="' + x + '" y="' + (base - ho - ha).toFixed(1) + '" width="' + w + '" height="' + ha.toFixed(1) + '"/></g>';
+    }).join('');
+    var xl = buckets.map(function (b, i) {
+      if (b.from % 600 && i !== n - 1) return '';
+      return '<text x="' + (L + i * bw + 2).toFixed(1) + '" y="' + (H - 6) + '">' + (i === n - 1 ? '30+' : b.from / 60) + '</text>';
+    }).join('');
+    return '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Deaths by game minute, alone deaths stacked on top">' + grid + bars + xl + '</svg>' +
+      '<p class="small muted legend"><i class="sw b-alone"></i>Alone <i class="sw b-other"></i>Every other death. Each bar is two minutes of game time; the minutes run along the bottom.</p>';
+  }
+  function replayBar(all, sel) {
+    var types = MG.rf.types && MG.rf.types.length ? MG.rf.types : null, ctxM = replaySel('types'), ctxH = replaySel('hero');
+    var mc = {}, hc = {};
+    ctxM.forEach(function (g) { mc[g.type] = (mc[g.type] || 0) + 1; });
+    ctxH.forEach(function (g) { hc[g.hero] = (hc[g.hero] || 0) + 1; });
+    var ms = G.modeCounts(all);
+    var name = function (t) { return t === 'cu' ? 'Custom (NGS and scrims)' : (G.MODE_NAMES[t] || t); };
+    var chips = '<button class="chip" data-rmode="*" aria-pressed="' + (!types) + '">All modes <span class="muted">' + ctxM.length + '</span></button>' +
+      ms.map(function (m) { var c = mc[m.type] || 0; return '<button class="chip' + (c ? '' : ' dim') + '" data-rmode="' + esc(m.type) + '" aria-pressed="' + !!(types && types.indexOf(m.type) >= 0) + '">' + esc(name(m.type)) + ' <span class="muted">' + c + '</span></button>'; }).join('');
+    var heroes = Object.keys(hc).sort(function (a, b) { return hc[b] - hc[a] || (a < b ? -1 : 1); });
+    if (MG.rf.hero && heroes.indexOf(MG.rf.hero) < 0) heroes.unshift(MG.rf.hero);
+    return '<section class="card"><div class="row between"><div class="chips" aria-label="Game modes">' + chips + '</div><div class="row">' +
+      '<label class="f" style="min-width:150px">Period<select id="rf-range">' + RANGES.map(function (r) { return '<option value="' + r[0] + '"' + (MG.rf.range === r[0] ? ' selected' : '') + '>' + r[1] + '</option>'; }).join('') + '</select></label>' +
+      '<label class="f" style="min-width:150px">Hero<select id="rf-hero"><option value="">All heroes</option>' + heroes.map(function (h) { return '<option value="' + esc(h) + '"' + (MG.rf.hero === h ? ' selected' : '') + '>' + esc(h) + ' (' + (hc[h] || 0) + ')</option>'; }).join('') + '</select></label></div></div>' +
+      '<p class="small muted" style="margin:8px 0 0"><b class="num">' + sel.length + '</b> of ' + all.length + ' replay games selected' + (MG.replays.player ? ' for ' + esc(MG.replays.player) : '') +
+      (MG.replays.built ? ', file built ' + esc(String(MG.replays.built).slice(0, 10)) : '') + '. The period counts back from your newest replay.</p></section>';
+  }
+  function replayEmpty() {
+    var ex = S.example && S.example();
+    return '<section class="card accent"><h3>Deaths and talents</h3><p>This page reads your replay files. Every game you play is saved on your PC as a replay, and the replay keeps each death: the minute, the side of the map, who was on the kill and whether anyone else died near it. It also keeps the talents you took.</p>' +
+      '<ol class="steps"><li>Install <b>Stats of the Storm</b> (free, on GitHub) and import your replay folder, <span class="kbd">Documents\\Heroes of the Storm\\Accounts\\...\\Replays\\Multiplayer</span>.</li>' +
+      '<li>Run <span class="kbd">python -I build_my_replays.py "your Stats of the Storm database folder" --export my_replays.json</span> from the HotS Tools project.</li>' +
+      '<li>Drop <span class="kbd">my_replays.json</span> here or on the Import page.</li></ol>' +
+      '<input type="file" id="rfile" accept=".json,application/json" hidden>' +
+      '<div class="row"><button class="btn primary" data-act="rp-file">Load a replay file</button>' + (ex && ex.replays ? '<button class="btn" data-act="rp-example">Load the example (' + ex.replays.games.length + ' games)</button>' : '') + '</div></section>';
+  }
+  function pageReplays() {
+    loadReplays();
+    if (!MG.replays || !MG.replays.games.length) return replayEmpty();
+    var all = MG.replays.games, sel = replaySel('');
+    var html = replayBar(all, sel);
+    if (!sel.length) return html + '<section class="card"><p class="muted">No replay games match these filters.</p><div class="row"><button class="btn primary" data-act="rp-all">Show all ' + all.length + ' games</button></div></section>';
+    var r = G.deathReview(sel, MG.replays.ref), n = r.n, sp = r.split;
+    var kindText = { alone: 'Nobody else on either team died within 15 seconds of you.', traded: 'At least one enemy died within 15 seconds, and no teammate fell before you.',
+                     first: 'A teammate died in the 15 seconds after you, none before, and no enemy died.', late: 'A teammate had already died in the 15 seconds before you.' };
+    html += '<div class="grid g4">' +
+      '<div class="stat"><span>Games</span><b>' + n + '</b><small>' + wl(r.w, n - r.w) + ', ' + pct(n ? r.w / n : null) + '</small></div>' +
+      '<div class="stat"><span>Deaths a game</span><b>' + per(r.deaths, n) + '</b><small>' + per(sp.win.d, sp.win.n) + ' in wins, ' + per(sp.loss.d, sp.loss.n) + ' in losses</small></div>' +
+      '<div class="stat"><span>Alone</span><b>' + share(r.kinds.alone, r.deaths) + '</b><small>' + r.kinds.alone + ' of ' + r.deaths + ' deaths, ' + per(r.kinds.alone, n) + ' a game</small></div>' +
+      '<div class="stat"><span>In their half</span><b>' + share(r.their, r.known) + '</b><small>' + r.their + ' of ' + r.known + ' deaths, ' + r.deep + ' past their structures</small></div></div>';
+    html += '<div class="grid g2"><section class="card"><h3>When you die</h3>' + deathChart(r.buckets) +
+      '<div class="scroll"><table><thead><tr><th>Game time</th><th class="r">Deaths</th><th class="r">A game</th><th class="r">Alone</th></tr></thead><tbody>' +
+      r.phases.map(function (p) { return '<tr><td>' + esc(p.label) + '</td><td class="r num">' + p.n + '</td><td class="r num">' + per(p.n, n) + '</td><td class="r num">' + p.alone + '</td></tr>'; }).join('') +
+      '</tbody></table></div></section>' +
+      '<section class="card"><h3>Kinds of death</h3><div class="scroll"><table><thead><tr><th>Kind</th><th class="r">Deaths</th><th class="r">Share</th><th>Means</th></tr></thead><tbody>' +
+      G.DEATH_KINDS.map(function (k) { return '<tr><td>' + esc(G.DEATH_NAMES[k]) + '</td><td class="r num">' + r.kinds[k] + '</td><td class="r num">' + share(r.kinds[k], r.deaths) + '</td><td class="small muted">' + esc(kindText[k]) + '</td></tr>'; }).join('') +
+      '</tbody></table></div>' +
+      '<p><b>Games with an alone death before 20 minutes:</b> <span class="num">' + wl(r.early.with.w, r.early.with.n - r.early.with.w) + '</span> (' + pct(r.early.with.n ? r.early.with.w / r.early.with.n : null) + ' over ' + r.early.with.n + ').' +
+      ' <b>Without one:</b> <span class="num">' + wl(r.early.without.w, r.early.without.n - r.early.without.w) + '</span> (' + pct(r.early.without.n ? r.early.without.w / r.early.without.n : null) + ' over ' + r.early.without.n + ').</p>' +
+      '<p class="small muted">The numbers say these go together; they do not say the death caused the loss. A team that is already behind also gets caught more. ' +
+      r.behind + ' of your deaths came while two or more levels down, ' + r.ahead + ' while your team was ahead.</p></section></div>';
+    var heroRows = r.heroes.filter(function (h) { return h.n >= 2; });
+    html += '<section class="card"><h3>By hero</h3><div class="scroll"><table><thead><tr><th>Hero</th><th class="r">Games</th><th>W-L</th><th class="r">Deaths a game</th><th class="r">Alone a game</th><th class="r">In their half</th><th class="r">NGS on this hero</th><th class="r">Alone vs NGS</th></tr></thead><tbody>' +
+      heroRows.map(function (h) {
+        return '<tr><td>' + hn(h.key) + '</td><td class="r num">' + h.n + '</td><td class="num">' + wl(h.w, h.l) + low(h.n) + '</td><td class="r num">' + per(h.d, h.n) + '</td><td class="r num">' + per(h.alone, h.n) + '</td>' +
+          '<td class="r num">' + h.their + '/' + h.known + '</td><td class="r num small">' + (h.ref ? f2(h.ref.d) + ' deaths, ' + f2(h.ref.alone) + ' alone' : 'n/a') + '</td>' +
+          '<td class="r">' + (h.ref ? gapCell(h.aloneK / h.n - h.ref.alone) : '<span class="muted">n/a</span>') + '</td></tr>';
+      }).join('') + '</tbody></table></div>' +
+      '<p class="small muted">Heroes with 2 or more games. NGS is ' + esc(MG.replays.refLabel || 'every NGS player on that hero') + ', a game each. "Alone vs NGS" counts only deaths with a hero on the kill, as the league list does: plus means you die alone more often than they do. Fewer than ' + G.LOW_N + ' games is a lean.</p></section>';
+    html += '<div class="grid g2"><section class="card"><h3>By map</h3><div class="scroll"><table><thead><tr><th>Map</th><th class="r">Games</th><th>W-L</th><th class="r">Deaths a game</th><th class="r">Alone a game</th><th class="r">In their half</th></tr></thead><tbody>' +
+      r.maps.filter(function (m) { return m.n >= 2; }).map(function (m) {
+        return '<tr><td>' + esc(m.key) + '</td><td class="r num">' + m.n + '</td><td class="num">' + wl(m.w, m.l) + low(m.n) + '</td><td class="r num">' + per(m.d, m.n) + '</td><td class="r num">' + per(m.alone, m.n) + '</td><td class="r num">' + m.their + '/' + m.known + '</td></tr>';
+      }).join('') + '</tbody></table></div><p class="small muted">Maps with 2 or more games.</p></section>' +
+      '<section class="card"><h3>Who you die to</h3>' + (r.foes.length ? '<div class="scroll"><table><thead><tr><th>On their team</th><th class="r">Games</th><th class="r">Your deaths a game</th><th class="r">Without them</th><th class="r">On your deaths</th></tr></thead><tbody>' +
+      r.foes.slice(0, 8).map(function (o) {
+        return '<tr><td>' + hn(o.hero) + '</td><td class="r num">' + o.n + '</td><td class="r num">' + f2(o.with) + '</td><td class="r num">' + f2(o.without) + '</td><td class="r num">' + o.on + '</td></tr>';
+      }).join('') + '</tbody></table></div><p class="small muted">Enemy heroes you faced in 5 or more of these games, the biggest gap first. "On your deaths" counts deaths with that hero on the kill. A gap can come from the comps that hero tends to be in, not the hero alone.</p>'
+      : '<p class="muted small">Needs an enemy hero you faced in 5 or more of these games.</p>') + '</section></div>';
+    var hc = {};
+    sel.forEach(function (g) { hc[g.hero] = (hc[g.hero] || 0) + 1; });
+    var tHeroes = Object.keys(hc).sort(function (a, b) { return hc[b] - hc[a] || (a < b ? -1 : 1); });
+    var th = MG.rf.hero || (hc[MG.rf.thero] ? MG.rf.thero : tHeroes[0]);
+    var tiers = th ? G.replayTalents(sel, th) : [];
+    html += '<section class="card"><div class="row between"><h3>Talents</h3>' + (MG.rf.hero ? '' : '<label class="f" style="min-width:180px">Hero<select id="rf-thero">' +
+      tHeroes.map(function (h) { return '<option value="' + esc(h) + '"' + (h === th ? ' selected' : '') + '>' + esc(h) + ' (' + hc[h] + ')</option>'; }).join('') + '</select></label>') + '</div>' +
+      (tiers.length ? '<div class="scroll"><table><thead><tr><th class="r">Level</th><th>Talent</th><th class="r">Games</th><th>W-L</th><th>Win rate</th></tr></thead><tbody>' +
+        tiers.map(function (t) {
+          return t.rows.map(function (x, i) {
+            return '<tr' + (i ? '' : ' style="border-top:2px solid var(--line)"') + '><td class="r num">' + (i ? '' : t.level) + '</td><td>' + esc(x.talent) + '</td><td class="r num">' + x.n + '</td><td class="num">' + wl(x.w, x.l) + low(x.n) + '</td><td>' + wrCell(x) + '</td></tr>';
+          }).join('');
+        }).join('') + '</tbody></table></div>' : '<p class="muted small">No talents in these games.</p>') +
+      '<p class="small muted">The record is for the games each talent was in, not what the talent did. A build that won more may have been taken into easier games, or in a different patch.</p></section>';
+    html += '<section class="card"><h3>What the replays cannot show</h3><p class="small muted">Why a death happened: vision, cooldowns, calls and the plan are not in the file. The map half is where you died, not where the fight began. Positions are saved about every 15 seconds, so who was close to you is not used. Every number here is a count of your own games: most cells rest on a few games and are leans, not rules.</p>' +
+      '<div class="row"><button class="btn sm" data-act="rp-file">Load a newer replay file</button><button class="btn sm" data-act="rp-clear">Remove the replays</button></div><input type="file" id="rfile" accept=".json,application/json" hidden></section>';
+    return html;
+  }
+
   /* ------------------------------------------------------------ router */
   var NEED_GAMES = { overview: 1, heroes: 1, maps: 1, habits: 1, coach: 1 };
-  var TITLES = { overview: 'Overview', heroes: 'Heroes', maps: 'Maps', habits: 'Habits', coach: 'Pool coach' };
+  var TITLES = { overview: 'Overview', heroes: 'Heroes', maps: 'Maps', habits: 'Habits', coach: 'Pool coach', replays: 'Deaths and talents' };
   var lastEl = null, lastPage = null;
   function render(el, page, api) {
     S = api; loadSaved();
     page = page || 'import'; lastEl = el; lastPage = page;
     var html = '';
     if (page === 'import') html = pageImport();
+    else if (page === 'replays') html = pageReplays();   // reads replay files, not the match history
     else if (!MG.games.length) html = emptyState('Nothing to show yet');
     else {
       var sel = selected();
@@ -406,6 +557,12 @@
     });
   }
   function handleText(text, name) {
+    var rp = G.parseReplays(text);
+    if (rp) {   // a replay file from build_my_replays.py goes to Deaths and talents, not the match history
+      setReplays(rp); S.toast('Loaded ' + rp.games.length + ' replay games.');
+      if (lastPage === 'replays') redraw(); else S.go('mygames', 'replays');
+      return;
+    }
     var r = G.parseImport(text);
     MG.pending = { r: r, name: name };
     if (r.battletag && !MG.battletag) MG.battletag = r.battletag;
@@ -421,8 +578,18 @@
       ['dragleave', 'drop'].forEach(function (ev) { drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.remove('over'); }); });
       drop.addEventListener('drop', function (e) { if (e.dataTransfer && e.dataTransfer.files) readFiles(e.dataTransfer.files); });
     }
+    var rfile = el.querySelector('#rfile');
+    if (rfile) rfile.addEventListener('change', function () { readFiles(rfile.files); });
     el.onclick = function (e) {
       var t = e.target;
+      var rm = t.closest('[data-rmode]');
+      if (rm) {
+        var w2 = rm.dataset.rmode, cur2 = MG.rf.types && MG.rf.types.length ? MG.rf.types.slice() : null;
+        if (w2 === '*') MG.rf.types = null;
+        else if (!cur2) MG.rf.types = [w2];
+        else { var j = cur2.indexOf(w2); if (j >= 0) cur2.splice(j, 1); else cur2.push(w2); MG.rf.types = cur2.length ? cur2 : null; }
+        saveRF(); redraw(); return;
+      }
       var m = t.closest('[data-mode]');
       if (m) {
         var want = m.dataset.mode;
@@ -465,9 +632,16 @@
       else if (act === 'clear') { if (confirm('Remove all imported games from this device?')) { MG.games = []; MG.battletag = ''; MG.pending = null; persist(); redraw(); } }
       else if (act === 'add-game') { addManual(el); }
       else if (act === 'send-pool') { sendPool(); }
+      else if (act === 'rp-file') { var rf = el.querySelector('#rfile'); if (rf) rf.click(); }
+      else if (act === 'rp-example') { var ex = S.example(); if (ex && ex.replays) { setReplays(G.parseReplays(ex.replays)); S.toast('Loaded the example replays.'); redraw(); } }
+      else if (act === 'rp-all') { MG.rf = { types: null, range: 'all', hero: '', thero: MG.rf.thero }; saveRF(); redraw(); }
+      else if (act === 'rp-clear') { if (confirm('Remove the replay games from this device?')) { setReplays(null); redraw(); } }
     };
     el.onchange = function (e) {
       var t = e.target;
+      if (t.id === 'rf-range') { MG.rf.range = t.value; saveRF(); redraw(); return; }
+      if (t.id === 'rf-hero') { MG.rf.hero = t.value; saveRF(); redraw(); return; }
+      if (t.id === 'rf-thero') { MG.rf.thero = t.value; saveRF(); redraw(); return; }
       if (t.id === 'f-range') { MG.f.range = t.value; saveFilters(); redraw(); }
       else if (t.id === 'hrole') { MG.hrole = t.value; redraw(); }
       else if (t.id === 'hmin') { MG.minN = Number(t.value); redraw(); }
@@ -491,7 +665,10 @@
     if (!ex || !ex.games) { S.toast('No example data in this build.'); return; }
     if (MG.games.length && !confirm('Replace your loaded games with the example set?')) return;
     var games = ex.games.map(function (g) { return G.fromCompact(g); }).filter(Boolean);
-    setGames(games, ex.battletag || 'Example player'); S.toast('Loaded ' + games.length + ' example games.'); S.go('mygames', 'overview');
+    setGames(games, ex.battletag || 'Example player');
+    loadReplays();
+    if (ex.replays && !MG.replays) setReplays(G.parseReplays(ex.replays));   // the example replays fill Deaths and talents too
+    S.toast('Loaded ' + games.length + ' example games.'); S.go('mygames', 'overview');
   }
   function sendPool() {
     var sel = selected(), rows = G.heroTable(sel, ctx().global).filter(function (r) { return r.n >= 5 && r.shrunk >= 0.45; });

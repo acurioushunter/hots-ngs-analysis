@@ -7,6 +7,7 @@ Inputs (build them first, or pass --all):
   knowledge/expert/          hero_matrix_draft.json, league_games.json
   playbook/library.json      global Storm League hero win rates
   knowledge/hunter_hp.db     the example games for My Games (last 12 months of Storm League, anonymised)
+  knowledge/my_replays.db    Deaths and talents (build_my_replays.py): the example without ids or names, the owner's own in --personal
 Outputs: hots_tools_artifact.html (page fragment for publishing) and hots_tools.html (stand alone, opens locally).
 With --personal it also writes hots_tools_hunter.html and hots_tools_hunter_artifact.html: the same app with the owner's
 Heroes Profile games loaded in My Games, the owner's team picked in Team Scout and the team pool on the open draft board.
@@ -98,7 +99,16 @@ def example_games():
              'camps': r['merc_camp_captures'], 'fto': r['first_to_ten'], 'mmr': r['player_mmr'], 'hmmr': r['hero_mmr'], 'rmmr': r['role_mmr'],
              'award': r['award'], 'tal': tal if any(tal) else None}
         out.append(g)
-    return {'format': 'hots-tools-games', 'version': 1, 'battletag': 'Example player', 'games': out}
+    return {'format': 'hots-tools-games', 'version': 1, 'battletag': 'Example player', 'games': out, 'replays': replays(example=True)}
+
+
+def replays(example=False):
+    """Deaths and talents data from knowledge/my_replays.db (build_my_replays.py), or None when it is not built."""
+    if not (ROOT / 'knowledge' / 'my_replays.db').exists():
+        return None
+    sys.path.insert(0, str(ROOT))
+    import build_my_replays
+    return build_my_replays.payload(example=example)
 
 
 def personal_data(playbook):
@@ -118,7 +128,7 @@ def personal_data(playbook):
     comfort = {'primary': 3, 'secondary': 2, 'practice': 1}
     players = [{'name': pl.get('label') or pl['tag'], 'role': pl.get('slot_role', ''),
                 'pool': [{'hero': h, 'comfort': comfort.get(t, 2)} for h, t in pl.get('pool', {}).items()]} for pl in cfg['players']]
-    return {'name': 'Hunter', 'battletag': 'hunterstag', 'games': games, 'filters': {'types': ['sl'], 'range': '365'},
+    return {'name': 'Hunter', 'battletag': 'hunterstag', 'games': games, 'replays': replays(), 'filters': {'types': ['sl'], 'range': '365'},
             'team': cfg['team'], 'me': 'hunterstag', 'next': playbook.get('meta', {}).get('next_opponent'),
             'profile': {'players': players}, 'profileName': cfg['team']}
 

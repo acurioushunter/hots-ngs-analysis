@@ -1,14 +1,15 @@
 """Build knowledge/my_replays.db from one player's own replays, read through a Stats of the Storm database
 (the same Medea store the NGS replay export uses). One row per game the player played, every death with its time,
 map position, killers and what the rest of the fight looked like, and the talents taken.
-Usage: python -I build_my_replays.py <store folder> [<store folder> ...] [--toon 1-Hero-1-8186800] [--out knowledge/my_replays.db]
+Usage: python -I build_my_replays.py <store folder> [<store folder> ...] [--toon 1-Hero-1-8186800] [--out knowledge/my_replays.db] [--export file.json]
+--export writes the file the Deaths and talents page in HotS Tools (My Games) imports; on its own it exports the database already built.
 A store folder holds matches.ldb and hero.ldb. Without --toon the player is the one found in the most games (the replay owner).
 NGS export season folders work too (that is how the reader is tested before any personal replays exist).
 The same game in two folders is kept once (first folder wins): same map, same ten players, same day.
 Where Heroes Profile has the same game (knowledge/hunter_hp.db: same map and hero, start within 40 minutes) its mode and
 replay id are kept, which also checks the replay's own mode code. Chat, cosmetics and position traces are not copied."""
 import collections, json, pathlib, re, sqlite3, sys
-from datetime import datetime, timedelta
+from datetime import datetime, timezone
 
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
@@ -135,9 +136,45 @@ def pick_toon(heroes):
     return toon
 
 
+APP_MODES = {"Storm League": "sl", "Quick Match": "qm", "Unranked Draft": "ud", "ARAM": "ar", "Hero League": "hl",
+             "Team League": "tl", "Brawl": "br", "Custom": "cu"}
+
+
+def payload(db=OUT, example=False):
+    """The games for the Deaths and talents page in HotS Tools (My Games). example drops the game ids and the player name.
+    Each death is [time, depth, teammates down near it, enemies down near it, teammates down before it, heroes on the kill,
+    those heroes, level gap, seconds dead]. ref is every NGS player on the same hero (seasons 20 to 22): games, deaths, alone deaths."""
+    import analyze_my_replays
+    con = sqlite3.connect(db)
+    con.row_factory = sqlite3.Row
+    meta = dict(con.execute("select key, value from my_meta").fetchall())
+    deaths = collections.defaultdict(list)
+    for d in con.execute("select * from my_deaths order by game_id, n"):
+        deaths[d["game_id"]].append([round(d["t"], 1), d["depth"], d["our_near"], d["their_near"], d["ours_before"], d["n_killers"],
+                                     d["killers"] or "", d["level_diff"], d["time_dead"]])
+    tals = collections.defaultdict(list)
+    for t in con.execute("select game_id, level, talent from my_talents order by game_id, level"):
+        tals[t["game_id"]].append([t["level"], t["talent"]])
+    games = []
+    for i, g in enumerate(con.execute("select * from my_games order by date"), 1):
+        mode = g["hp_mode"] or g["mode"]
+        games.append({"id": f"ex{i}" if example else g["game_id"], "t": int(when(g["date"]).replace(tzinfo=timezone.utc).timestamp() * 1000),
+                      "mode": APP_MODES.get(mode, "ot"), "map": g["map"], "hero": g["hero"], "won": g["win"], "len": round(g["length_sec"] or 0),
+                      "lvl": g["level"], "elvl": g["enemy_level"], "fp": g["first_pick"],
+                      "xp10": None if g["xp_lead_10"] is None else round(g["xp_lead_10"]),
+                      "td": g["takedowns"], "d": g["deaths"], "a": g["assists"], "solo": g["solo_kills"], "hd": g["hero_dmg"], "sd": g["siege_dmg"],
+                      "dead": g["time_dead"], "al": json.loads(g["ally_heroes"]), "en": json.loads(g["enemy_heroes"]),
+                      "tal": tals[g["game_id"]], "dl": deaths[g["game_id"]]})
+    con.close()
+    ref = {h: list(v) for h, v in analyze_my_replays.league_alone({g["hero"] for g in games}).items()}
+    return {"format": "hots-tools-replays", "version": 1, "player": "Example player" if example else meta.get("name", ""),
+            "built": meta.get("built"), "near": NEAR, "ref": ref, "refLabel": "every NGS player on that hero, seasons 20 to 22", "games": games}
+
+
 def main(argv):
     toon = None
     out = OUT
+    export = None
     folders = []
     i = 0
     while i < len(argv):
@@ -145,8 +182,14 @@ def main(argv):
             toon = argv[i + 1]; i += 2
         elif argv[i] == "--out":
             out = pathlib.Path(argv[i + 1]); i += 2
+        elif argv[i] == "--export":
+            export = pathlib.Path(argv[i + 1]); i += 2
         else:
             folders.append(pathlib.Path(argv[i])); i += 1
+    if not folders and export:   # export only, from the database already built
+        export.write_text(json.dumps(payload(out), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        print("wrote", export)
+        return
     if not folders:
         sys.exit(__doc__)
     hp = hp_index()
@@ -157,6 +200,7 @@ def main(argv):
     learned = {}
     pending_talents = []
     players = set()
+    names = collections.Counter()
     for folder in folders:
         matches, _ = read_store(folder / "matches.ldb")
         heroes, _ = read_store(folder / "hero.ldb")
@@ -177,6 +221,7 @@ def main(argv):
             if key in seen:
                 continue
             seen.add(key)
+            names[hr.get("name")] += 1
             gid = f"{folder.name}_{mid}"
             team = int(hr["team"])
             g = hr.get("gameStats") or {}
@@ -256,7 +301,8 @@ def main(argv):
     con.executemany("INSERT INTO my_games VALUES(" + ",".join("?" * 38) + ")", games)
     con.executemany("INSERT INTO my_deaths VALUES(" + ",".join("?" * 13) + ")", deaths)
     con.executemany("INSERT INTO my_talents VALUES(?,?,?,?,?,?)", talents)
-    con.executemany("INSERT INTO my_meta VALUES(?,?)", [("toon", json.dumps(sorted(players))),("folders", json.dumps([str(f) for f in folders])),
+    con.executemany("INSERT INTO my_meta VALUES(?,?)", [("toon", json.dumps(sorted(players))), ("name", names.most_common(1)[0][0] if names else ""),
+                                                       ("folders", json.dumps([str(f) for f in folders])),
                                                        ("built", datetime.now().isoformat(timespec="seconds"))])
     con.commit()
     print("games", len(games), "deaths", len(deaths), "talent picks", len(talents), "matched on Heroes Profile",
@@ -264,6 +310,9 @@ def main(argv):
     for row in con.execute("select mode, coalesce(hp_mode, '-'), count(*), min(date), max(date) from my_games group by 1, 2 order by 3 desc"):
         print("  ", row)
     con.close()
+    if export:
+        export.write_text(json.dumps(payload(out), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        print("wrote", export)
 
 
 if __name__ == "__main__":

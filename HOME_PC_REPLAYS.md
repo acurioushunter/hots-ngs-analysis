@@ -24,7 +24,7 @@ python -I test_my_replays.py
 python -I analyze_my_replays.py --mode "Storm League" --since <one year before today>
 ```
 
-then commits `knowledge/my_replays.db` and pushes, so the laptop has it after a pull.
+then `python -I build_hotstools.py --personal`, so My Games › Deaths and talents in `hots_tools_hunter.html` shows the Storm League games, runs the tests, and commits `knowledge/my_replays.db` and pushes, so the laptop has it after a pull.
 
 No Claude on the home PC: zip the Stats of the Storm database folder and bring it over on a USB stick or a cloud folder you can open on the laptop. Claude runs Part 2 there.
 
