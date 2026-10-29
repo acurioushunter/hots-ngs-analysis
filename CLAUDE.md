@@ -34,6 +34,9 @@ Read `PROJECT_STATE.md` after this file: who is on the team, where the season st
 - The published artifact link (below) now carries HotS Tools. Publish `hots_tools_artifact.html` with that `url`.
 - `knowledge/ngs_league.db` is built from the NGS replay export (folders in Downloads, not in git) by `build_ngs_league.py`. It has the timeline per game (`lg_timeline`) that the match pages lack.
 
+## Hunter's own replays
+- `build_my_replays.py <Stats of the Storm database folder>` writes `knowledge/my_replays.db` (games, every death with time, map half, killers and fight kind, talents). NGS export season folders work too (`--toon 1-Hero-1-8186800`), which is how it was tested. `analyze_my_replays.py` prints the review, `test_my_replays.py` checks it. Tonight's steps for the home PC: `HOME_PC_REPLAYS.md`.
+
 ## Hero knowledge base (profiles and lenses)
 - `knowledge/expert/hero_profiles/<slug>.json` (91): damage type, poke, how healing meets it, healing block, ratings, good into and bad into, wants and gives, lens values, owner notes. Spec `HERO_PROFILE_SPEC.md`, lens catalog `lenses.json`, check `python test_hero_profiles.py`.
 - `merge_profiles_into_matrix.py` overlays the profiles on `hero_matrix_draft.json` (run by the builds). `apply_owner_notes.py` re-applies Hunter's notes after any profile rewrite. Hunter's combos and counters: `knowledge/expert/owner_combos.json`.
